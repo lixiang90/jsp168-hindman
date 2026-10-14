@@ -47,24 +47,26 @@ run verifies this checkpoint; it does not prove the unfinished main theorem.
 
 - `CURRENT-STATUS.txt`: authoritative latest terminal audit and remaining work.
 - `verification-manifest.json`: audited files, SHA-256 hashes and pinned sources.
-- `CUBE-SOURCE-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `CUBE-BOX-HAAR-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `CUBE-SOURCE-CONTINUATION.txt`: preceding actual cube source checkpoint.
 - `CUBE-BINOMIAL-CONTINUATION.txt`: preceding coefficient construction checkpoint.
 - `CUBE-CHARACTER-CONTINUATION.txt`: preceding character construction checkpoint.
 - `AUDIT.txt` and `round-*-review.json`: accumulated mathematical reviews.
 - `Hindman168.lean`: canonical project imports.
 - `Verification.lean`: registered axiom checks.
 
-The latest mathematical round is `round-native-cube-source`; consult
-`CURRENT-STATUS.txt` and the manifest for its terminal audit result. It constructs
-the actual cube polynomial with the original source at every vertex and proves
-its filtered adaptation. Its genuine horizontal projection equals the explicit
-Taylor/face sum, with maximal degree and an isolated escaping coefficient.
-A representation of degree at most the original filtration length is also proved.
+The latest mathematical round is `round-native-cube-box-haar`; consult
+`CURRENT-STATUS.txt` and the manifest for its terminal audit result. It proves
+uniform Haar convergence for the actual irrational cube source on real boxes
+and fixed-modulus progression boxes, simultaneously through the ORIGINAL step
+bound s+1 and every member of a fixed finite family of rational residues.
+All cube variables vary, including the base coordinate; translations are
+arbitrary and the selected top coefficient transforms by the proved dilation power.
 
-The next task connects all cube variables to the quantitative box-obstruction
-interface and transports the top coefficient through fixed progressions, then
-derives simultaneous local cube laws. Alignment, the remaining GTZ inverse work
-and the final same-color FS/FP argument are still outstanding.
+The next task transports these pure-source laws through the actual orbit map,
+inserts the original smooth and periodic factors, and proves local cube laws
+with the length limit BEFORE the locality limit. Alignment, the remaining GTZ
+inverse work and the final same-color FS/FP argument are still outstanding.
 
 Continue from the same original source, final subgroup filtration and
 original nilpotency bound. Do not replace the target with a weaker result,

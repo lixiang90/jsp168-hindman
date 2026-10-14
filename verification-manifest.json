@@ -9,11 +9,11 @@
   "files": [
     {
       "path": "Hindman168.lean",
-      "sha256": "4ca4383da3d4bb3c2f250b207593379be027029dbb7cee73c3c6a11e5de4b6e6"
+      "sha256": "820ccc25e8ef413cf4409869677ef2a0bd689af28ff2d420021a3e14c7bd0808"
     },
     {
       "path": "Verification.lean",
-      "sha256": "a99a7d0bdea2f5ca55717cce2139b204eeca3f2c57541ba02e20c6729b872839"
+      "sha256": "65137f458e54585552f3e8d19fc73db9268d57273e017bb40c96289fae875d35"
     },
     {
       "path": "lean-toolchain",
@@ -12026,6 +12026,34 @@
     {
       "path": "Hindman168/NativeResidueCubeBoundedPolynomial.lean",
       "sha256": "721783c81ae9bc11429546e7f40f6f63eef0ad259402b317b45afb54b8479e51"
+    },
+    {
+      "path": "Hindman168/RoughVectorSpatialLift.lean",
+      "sha256": "737fce9e2a76fee2f66859dbc527c4a01b3c32bb8e492745facd92ff246596df"
+    },
+    {
+      "path": "Hindman168/CubeSpatialTopCoefficient.lean",
+      "sha256": "b8c9f4b148e980be7cdedcaf311b4c77eca67b2c4e0d3cfcede9fae88c66fcac"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeSpatialSource.lean",
+      "sha256": "87851ee7d50308554437881d0fc3546e91451c8ae9f95e627b1e730a598b34bb"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeFiniteEscape.lean",
+      "sha256": "56ac73eb1b6b48db532c10b3d9c9adef483aeda682ad952a67553b86c3974866"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeRealBoxHaar.lean",
+      "sha256": "5b78cad9e055bfbbb589486260fa3e134a7da4879f5e65d46147bd9468e214a3"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeProgressionHaar.lean",
+      "sha256": "bd4b7a39b8abdb045da17b154c127dc06ad643b378e26e1b71b6aaeaa711685b"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeSimultaneousHaar.lean",
+      "sha256": "b315cdd71f97e38c66804ec5f3c2e49124e30ab79f4b85c9d898440182c3a4cb"
     }
   ],
   "proved_components": [
@@ -14606,25 +14634,32 @@
     "Proved horizontal projection of actual weighted polynomial products is additive, using actual commutator annihilation. The actual ordered cube polynomial therefore projects to exactly the explicit scalar face/Taylor sum.",
     "Transported the source construction to the ACTUAL rational-residue cube with unchanged original group and filtration. Proved filtered-polynomial adaptation, exact original vertices and projection identity, including semantic Taylor-residual invariance under changing the rational conjugated lattice.",
     "Proved one maximal original face/level simultaneously bounds the ENTIRE actual horizontal projection degree by j, identifies its isolated coefficient with the ORIGINAL Taylor value divided by (j-card(A))!, and forces escape for every nonzero rational multiple.",
-    "Removed only zero vector terms to obtain an actual cube log-polynomial representation of degree at most ORIGINAL ell, without changing values or any horizontal projection. This supplies the degree-bounded input needed for quantitative box obstruction theorems."
+    "Removed only zero vector terms to obtain an actual cube log-polynomial representation of degree at most ORIGINAL ell, without changing values or any horizontal projection. This supplies the degree-bounded input needed for quantitative box obstruction theorems.",
+    "Constructed a true spatial lift of every original polynomial variable, with a new unused Option parameter. Proved exact evaluation, degree, projection and injective coefficient identities; the original cube base variable is never fixed.",
+    "Reindexed ALL cube variables to Fin(d+1), with base coordinate zero and increments at successors. Proved the isolated monomial retains degree j, and arbitrary translations plus uniform dilation t multiply its top coefficient by exactly t^j.",
+    "Constructed the actual residue-cube spatial source and a degree-ell polynomial representation. Proved its logarithm identity, exact original source at every vertex and the complete spatial projection/affine coefficient formulas.",
+    "Derived a single eventual threshold for every character in ANY fixed finite list of actual residue-cube horizontal functionals. At every fixed nonzero rational step, an original escaping coefficient defeats every fixed bound uniformly over all translations and the unused parameter.",
+    "Applied the PROVED quantitative real-box obstruction theorem to the ACTUAL degree-bounded cube source and excluded its finite character alternatives. This proves Haar convergence uniformly over real integer boxes of original-scale side lengths and bounded Lipschitz tests.",
+    "Applied the PROVED residue-box obstruction theorem and retained the exact original scale to obtain Haar convergence on every fixed-positive-modulus progression box, uniformly over integer endpoints, all residue vectors and bounded Lipschitz tests.",
+    "Combined the actual progression-box Haar laws for ALL cube dimensions 0 through ORIGINAL s+1 and every member of the SAME finite rational residue family into one eventual threshold. The original source, filtration, scale and subsequence are unchanged."
   ],
-  "hindman_module_count": 2939,
+  "hindman_module_count": 2946,
   "pntplus_module_count": 9,
-  "selected_axiom_report_count": 11380,
+  "selected_axiom_report_count": 11403,
   "pntplus_commit": "747e480362ef6a0a7341055a84372333d72fa62a",
-  "build_log": "round-native-cube-source-build.txt",
-  "axiom_log": "round-native-cube-source-axioms.txt",
-  "source_scan_module_count": 2990,
-  "build_job_count": 6981,
+  "build_log": "round-native-cube-box-haar-build.txt",
+  "axiom_log": "round-native-cube-box-haar-axioms.txt",
+  "source_scan_module_count": 2997,
+  "build_job_count": 6988,
   "last_round": {
     "classification": "PROGRESS",
-    "new_module_count": 8,
-    "new_theorem_count": 27,
-    "new_selected_report_count": 34,
+    "new_module_count": 7,
+    "new_theorem_count": 18,
+    "new_selected_report_count": 23,
     "retained_proof_sources_changed": false,
     "root_and_registry_changed": true,
-    "review_file": "round-native-cube-source-review.json",
-    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original point laws, actual cube geometry and Haar measures, Boolean binomial coefficient isolation, and the SAME-source ACTUAL rational-residue cube polynomial are proved. Its original vertices, filtered adaptation, horizontal projection identity, maximal projection degree and isolated coefficient escape are now proved; a zero-trimmed degree-ell representation preserves all values and projections. Remaining: connect all cube variables to the spatial box-obstruction interface and prove fixed progression/translation top-coefficient transport, then derive simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
+    "review_file": "round-native-cube-box-haar-review.json",
+    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual cube geometry, same-source adapted cube polynomial, top coefficient escape and its spatial/fixed-progression transport are proved. The actual cube now has uniform real-box and fixed-modulus progression-box Haar convergence, simultaneously through ORIGINAL s+1 and all fixed rational residues. Remaining: transport these pure-source Haar laws to original ambient cube Haar images, insert the original smooth factors and exact periodic residue factors, and prove the local alpha-down-to-zero limit AFTER the length limit with its uniform versions; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
   },
   "attributed_szemeredi_module_count": 42
 }

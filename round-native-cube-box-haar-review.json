@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2946,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6988,
+    "selected_axiom_reports": 11403,
+    "new_declarations": 23,
+    "new_theorems": 18,
+    "new_definitions": 5,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughVectorSpatialLift.lean",
+    "Hindman168/CubeSpatialTopCoefficient.lean",
+    "Hindman168/NativeResidueCubeSpatialSource.lean",
+    "Hindman168/NativeResidueCubeFiniteEscape.lean",
+    "Hindman168/NativeResidueCubeRealBoxHaar.lean",
+    "Hindman168/NativeResidueCubeProgressionHaar.lean",
+    "Hindman168/NativeResidueCubeSimultaneousHaar.lean"
+  ],
+  "proved_components": [
+    "Constructed a true spatial lift of every original polynomial variable, with a new unused Option parameter. Proved exact evaluation, degree, projection and injective coefficient identities; the original cube base variable is never fixed.",
+    "Reindexed ALL cube variables to Fin(d+1), with base coordinate zero and increments at successors. Proved the isolated monomial retains degree j, and arbitrary translations plus uniform dilation t multiply its top coefficient by exactly t^j.",
+    "Constructed the actual residue-cube spatial source and a degree-ell polynomial representation. Proved its logarithm identity, exact original source at every vertex and the complete spatial projection/affine coefficient formulas.",
+    "Derived a single eventual threshold for every character in ANY fixed finite list of actual residue-cube horizontal functionals. At every fixed nonzero rational step, an original escaping coefficient defeats every fixed bound uniformly over all translations and the unused parameter.",
+    "Applied the PROVED quantitative real-box obstruction theorem to the ACTUAL degree-bounded cube source and excluded its finite character alternatives. This proves Haar convergence uniformly over real integer boxes of original-scale side lengths and bounded Lipschitz tests.",
+    "Applied the PROVED residue-box obstruction theorem and retained the exact original scale to obtain Haar convergence on every fixed-positive-modulus progression box, uniformly over integer endpoints, all residue vectors and bounded Lipschitz tests.",
+    "Combined the actual progression-box Haar laws for ALL cube dimensions 0 through ORIGINAL s+1 and every member of the SAME finite rational residue family into one eventual threshold. The original source, filtration, scale and subsequence are unchanged."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual cube geometry, same-source adapted cube polynomial, top coefficient escape and its spatial/fixed-progression transport are proved. The actual cube now has uniform real-box and fixed-modulus progression-box Haar convergence, simultaneously through ORIGINAL s+1 and all fixed rational residues. Remaining: transport these pure-source Haar laws to original ambient cube Haar images, insert the original smooth factors and exact periodic residue factors, and prove the local alpha-down-to-zero limit AFTER the length limit with its uniform versions; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-cube-box-haar-mathematical-review.txt",
+  "mathematical_review_sha256": "0d1d7fff1c0db67c7c7a210071bccfc0ec5def452e74d57ffafa2e1d70e64849",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

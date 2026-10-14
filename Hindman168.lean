@@ -5181,3 +5181,17 @@ import Hindman168.NativeResidueCubeSourcePolynomial
 import Hindman168.NativeResidueCubeActualCoefficient
 
 import Hindman168.NativeResidueCubeBoundedPolynomial
+
+import Hindman168.RoughVectorSpatialLift
+
+import Hindman168.CubeSpatialTopCoefficient
+
+import Hindman168.NativeResidueCubeSpatialSource
+
+import Hindman168.NativeResidueCubeFiniteEscape
+
+import Hindman168.NativeResidueCubeRealBoxHaar
+
+import Hindman168.NativeResidueCubeProgressionHaar
+
+import Hindman168.NativeResidueCubeSimultaneousHaar

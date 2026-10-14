@@ -1,0 +1,73 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+PRIVATE repository: https://github.com/lixiang90/jsp168-hindman . Keep PRIVATE.
+Latest round: round-native-cube-box-haar. Consult CURRENT-STATUS.txt and the
+verification manifest for terminal evidence; author audit is not external review.
+
+Seven new modules continue the SAME actual source from CUBE-SOURCE-CONTINUATION.txt.
+
+RoughVectorSpatialLift: roughVectorSpatialLift f p renames every original variable
+to some (f i), leaving the new none parameter unused. Proves degree, evaluation,
+spatial projection and coefficient identities. This fixes the distinction between
+the varying cube base and the fixed external parameter in the obstruction API.
+
+CubeSpatialTopCoefficient: cubeSpatialVariableEquiv d identifies Option(Fin d)
+with Fin(d+1), taking none to 0 and some i to i.succ. cubeSpatialMonomial transports
+cubeIsolatedMonomial and has total degree j when card A <= j. Arbitrary affine
+translation b and common dilation t multiply its coefficient by t^j, provided
+the ENTIRE scalar polynomial has totalDegree <= j. Do not drop this hypothesis.
+
+NativeResidueCubeSpatialSource: degree-bounded spatial polynomial and the actual
+untrimmed internal cube orbit, with exact log identity and scalar projection.
+Every original vertex equals the SAME original source at x_0 plus its selected
+increments. The new external z is unused. Preserves original ell, group, lattice
+and filtration; the degree-bounded representation changes no values.
+
+NativeResidueCubeFiniteEscape: for a fixed finite list of genuine horizontal
+functionals, fixed nonzero rational dilation and coefficient threshold, eventually
+every functional has a positive-degree monomial <= ell whose scaled mod-one
+coefficient exceeds that threshold, uniformly over ALL translations and z.
+Uses the actual maximal degree and original rational-multiple Taylor escape.
+
+NativeResidueCubeRealBoxHaar: uniform bounded-Lipschitz Haar convergence for the
+actual source on integer points in real endpoint boxes. Side lengths >= c L_m
+and endpoints bounded by R L_m. Geometry/test bounds precede the eventual
+threshold; all endpoints, unused z and bounded-Lipschitz tests follow it.
+Uses native_original_real_box_finite_obstruction, not an assumed Haar oracle.
+
+NativeResidueCubeProgressionHaar: same actual Haar convergence on alignmentBoxClass
+lo hi v t for a FIXED positive natural modulus t. Arbitrary signed integer
+endpoints and residue vectors v follow the eventual threshold. Side lengths
+are between c L_m and R L_m; endpoint absolute values <= R L_m. Uses the actual
+residue-box obstruction and coefficient escape at rational t with bound K*t^ell.
+The theorem does not claim uniformity over growing moduli.
+
+NativeResidueCubeSimultaneousHaar: native_residue_cubes_through_original_step_haar
+combines q : Fin(s+2) and r : Fin M by finite eventual intersection, with standard
+nativeCubeVertexEnumeration q and 2^q-1 product parameter. Same ORIGINAL source,
+filtration and sequential irrationality for every q and rational rho_r. It does
+not rerun descent or choose dimension-dependent subsequences.
+
+NEXT: transport these PURE IRRATIONAL SOURCE laws to original ambient cube Haar
+images, and insert smooth factors and exact periodic residue factors. The actual
+nativeResidueCubeOrbitMap and nativeResidueCubeHaarImage already exist. Orbit-map
+continuity is proved, but Lipschitzness must NOT be silently assumed. Existing
+compact_family_bounded_lipschitz_approximation can transfer uniform source laws
+to compact families of continuous pullbacks on the internal compact quotient.
+
+For original periodic factors use common base residue r and increment residues 0
+modulo the period, so every original vertex has the same exact right coset sigma_r.
+Use quotient action identities; the lattice is not assumed normal. The existing
+NativeOriginalResidueLocalHaar and NativeRationalLayerSmoothLocalHaar implement
+the point-law versions and preserve the exact original factorization objects.
+
+For smooth insertion, all vertex inputs / L_m approach the chosen local beta.
+Control their left multipliers uniformly by h(beta) with O_q(alpha)+o_m(1),
+then pass first m -> infinity and only afterwards alpha -> 0. Keep the ORIGINAL
+subsequence and finite family q <= s+1 throughout; do not replace this limit
+order by a diagonal substitute or call the pure-source theorem the original law.
+
+Remaining after local cube laws: projected face invariance/full support, joint
+lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR
+nilsequence inverse; final positive distinct rapidly separated SAME-color ALL
+nonempty finite sums AND finite products. No unavoidable obstruction established.
+No new axiom, source/character/Haar/inverse oracle, public PR or prize submission.

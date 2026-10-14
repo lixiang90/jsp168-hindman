@@ -19219,3 +19219,49 @@ import Hindman168
 #print axioms Hindman168.native_residue_cube_bounded_projection
 
 #print axioms Hindman168.native_residue_cube_bounded_original_log
+
+#print axioms Hindman168.roughVectorSpatialLift
+
+#print axioms Hindman168.rough_vector_spatial_lift_degree
+
+#print axioms Hindman168.rough_vector_spatial_lift_eval
+
+#print axioms Hindman168.rough_vector_spatial_lift_projection
+
+#print axioms Hindman168.rough_vector_spatial_lift_coefficient
+
+#print axioms Hindman168.cubeSpatialVariableEquiv
+
+#print axioms Hindman168.cube_spatial_variable_none
+
+#print axioms Hindman168.cube_spatial_variable_some
+
+#print axioms Hindman168.cubeSpatialMonomial
+
+#print axioms Hindman168.cube_spatial_monomial_degree
+
+#print axioms Hindman168.cube_spatial_monomial_weight
+
+#print axioms Hindman168.cube_spatial_top_coefficient
+
+#print axioms Hindman168.nativeResidueCubeSpatialPolynomial
+
+#print axioms Hindman168.nativeResidueCubeSpatialOrbit
+
+#print axioms Hindman168.native_residue_cube_spatial_degree
+
+#print axioms Hindman168.native_residue_cube_spatial_log
+
+#print axioms Hindman168.native_residue_cube_spatial_projection
+
+#print axioms Hindman168.native_residue_cube_spatial_top_coefficient
+
+#print axioms Hindman168.native_residue_cube_spatial_original_vertices
+
+#print axioms Hindman168.native_residue_cube_finite_affine_escape
+
+#print axioms Hindman168.native_residue_cube_real_box_haar
+
+#print axioms Hindman168.native_residue_cube_progression_box_haar
+
+#print axioms Hindman168.native_residue_cubes_through_original_step_haar
