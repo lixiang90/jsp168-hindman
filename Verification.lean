@@ -19365,3 +19365,41 @@ import Hindman168
 #print axioms Hindman168.local_empirical_projected_measure_invariant
 
 #print axioms Hindman168.native_projected_cube_empirical_invariance
+
+#print axioms Hindman168.nativeFinitePiCosetHomeomorph
+
+#print axioms Hindman168.native_finite_pi_coset_homeomorph_apply
+
+#print axioms Hindman168.nativeFinitePiCubeProjection
+
+#print axioms Hindman168.native_finite_pi_cube_projection_coordinate
+
+#print axioms Hindman168.native_finite_pi_cube_projection_continuous
+
+#print axioms Hindman168.native_finite_pi_metric_cube_projection_continuous
+
+#print axioms Hindman168.alignmentBinaryCubeVertex
+
+#print axioms Hindman168.alignment_binary_cube_vertex_sum
+
+#print axioms Hindman168.alignment_original_joint_cube_projection
+
+#print axioms Hindman168.alignment_original_native_cube_projection
+
+#print axioms Hindman168.alignment_native_cube_projection_reading
+
+#print axioms Hindman168.alignment_native_cube_projection_face
+
+#print axioms Hindman168.alignment_original_native_cube_projected_mean
+
+#print axioms Hindman168.alignment_native_complete_cube_good_mean_bound
+
+#print axioms Hindman168.alignment_native_good_cube_means_tendsto
+
+#print axioms Hindman168.alignment_native_good_projected_cube_means_tendsto
+
+#print axioms Hindman168.AlignmentCubeConditionIndex
+
+#print axioms Hindman168.alignment_native_all_cube_conditions_supported_selection_of_enumeration
+
+#print axioms Hindman168.alignment_native_all_cube_conditions_supported_selection

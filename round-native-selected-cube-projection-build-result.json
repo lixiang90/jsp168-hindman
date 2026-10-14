@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 23.406999999890104,
+  "log": "round-native-selected-cube-projection-build.txt",
+  "log_sha256": "05cefeba797a77806b25e167aaa764f60b1327353ac030b1a2cfb13d6681ab33"
+}

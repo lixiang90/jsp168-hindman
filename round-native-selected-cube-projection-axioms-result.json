@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 26.188000000081956,
+  "log": "round-native-selected-cube-projection-axioms.txt",
+  "log_sha256": "29b13da95274f85013dbb3f2d0139d6e5acf494f8fb1c43435bd51a424b429fb"
+}

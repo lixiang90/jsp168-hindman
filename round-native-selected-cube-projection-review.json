@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2984,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 7026,
+    "selected_axiom_reports": 11472,
+    "new_declarations": 19,
+    "new_theorems": 15,
+    "new_definitions": 4,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeFinitePiCubeProjection.lean",
+    "Hindman168/AlignmentOriginalCubeProjection.lean",
+    "Hindman168/AlignmentNativeCubeProjectionFace.lean",
+    "Hindman168/AlignmentOriginalProjectedCubeMeans.lean",
+    "Hindman168/AlignmentNativeGoodCubeMeans.lean",
+    "Hindman168/AlignmentNativeGoodCubeConvergence.lean",
+    "Hindman168/AlignmentNativeProjectedCubeConvergence.lean",
+    "Hindman168/AlignmentAllCubeConditionsSelection.lean"
+  ],
+  "proved_components": [
+    "Constructed the ACTUAL finite native product quotient homeomorphism and coordinatewise cube-vertex projection. Proved coordinate identities and continuity in both the quotient and supplied compatible metric topology; no Lipschitz assertion is assumed.",
+    "Proved that each zero-one-weight ORIGINAL native array cube state is exactly the coordinatewise projection of the SAME joint point-orbit cube. Heterogeneous target group identities are retained, and the uniform-target quotient is identified with the actual sampled state. No source identification oracle remains at this step.",
+    "Proved the actual projection intertwines a cube face translation with the original projected slot translation, using ALL integer-slot readings to establish quotient equality. Proved the exact original empirical mean formula after projection with unchanged grids, residues and normalization.",
+    "Extracted strict actual mean bounds from avoidance of the complete all-faces failure predicate. Proved that eventual avoidance at each reciprocal accuracy forces actual mean differences to converge to zero, for varying endpoint and residue arrays. Transported this convergence to the literal projected joint point-orbit cube means.",
+    "Explicitly enumerated all natural dimensions, positive integer moduli, integer geometry/test budgets, reciprocal positive lower-side bounds and reciprocal accuracies BEFORE selecting a common raw-law-supported sample sequence inside positive events. The exposure-based source choices are the SAME for every enumeration index; every fixed condition eventually holds."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual native array-to-original-joint-cube projection, face intertwining, empirical mean identities, reciprocal-accuracy comparison convergence and explicit all-condition positive-event selection are now proved. Remaining integration before actual projected face Haar invariance: transport Option(Fin d) grids to Fin(d+1) standard windows with exact empirical normalization; identify the same actual real logarithmic-polynomial source and local-length sequence on the chosen subsequence; instantiate the enumerated integer geometry/test budgets for each fixed alpha and then invoke the existing length-first projected Haar transfer. Preserve one common source/period/smooth curve; handle all target marginals of the full joint family. Then setwise support invariance, genuine marginal-to-joint lifts, weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep PRIVATE; public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-selected-cube-projection-mathematical-review.txt",
+  "mathematical_review_sha256": "1fe3365df36b3789a143ba7e6184c417a0a1f475cbd7c8b6afbc3c5e8234af14",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

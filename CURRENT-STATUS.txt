@@ -2,27 +2,27 @@ JSP-000168 / Erdos #172 -- 2026-10-14
 
 Verdict: Partial overall coverage; PROGRESS.
 Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction established.
-Latest terminal author audit: round-native-empirical-cube-invariance
+Latest terminal author audit: round-native-selected-cube-projection
 
-Proved a uniform norm bound for the discrepancy between an actual finite complex mean and an actual probability integral, including empty algebraic samples without claiming they are probability measures.
+Constructed the ACTUAL finite native product quotient homeomorphism and coordinatewise cube-vertex projection. Proved coordinate identities and continuity in both the quotient and supplied compatible metric topology; no Lipschitz assertion is assumed.
 
-Extended the ORIGINAL bounded cube alpha law to EVERY fixed continuous test on the actual compact cube quotient. A fixed Lipschitz approximation and the genuine Haar probability bound preserve endpoint, residue and fixed-modulus uniformity. Derived the actual standard alpha-window local law for continuous tests.
+Proved that each zero-one-weight ORIGINAL native array cube state is exactly the coordinatewise projection of the SAME joint point-orbit cube. Heterogeneous target group identities are retained, and the uniform-target quotient is identified with the actual sampled state. No source identification oracle remains at this step.
 
-Proved that length-first local approximation and actual empirical comparison at each FIXED alpha force equality of the limiting integrals. No diagonal alpha(m), illicit exchange of limits, or uniform Lipschitz assumption on projection/face maps is used.
+Proved the actual projection intertwines a cube face translation with the original projected slot translation, using ALL integer-slot readings to establish quotient equality. Proved the exact original empirical mean formula after projection with unchanged grids, residues and normalization.
 
-Proved actual empirical comparison for all fixed Lipschitz tests extends to all continuous tests on a compact metric space. Combined this with the local-limit comparison and measure extensionality to obtain actual projected measure invariance for a continuous map.
+Extracted strict actual mean bounds from avoidance of the complete all-faces failure predicate. Proved that eventual avoidance at each reciprocal accuracy forces actual mean differences to converge to zero, for varying endpoint and residue arrays. Transported this convergence to the literal projected joint point-orbit cube means.
 
-Applied the transfer to the genuine nativeResidueCubeHaarImage and the ORIGINAL polynomial cube orbit with exact standard windows and period residues. The actual projected empirical-comparison premise is explicitly retained; supplying it from selected alignment arrays remains unfinished. This theorem alone is NOT a proof of marginal face invariance.
+Explicitly enumerated all natural dimensions, positive integer moduli, integer geometry/test budgets, reciprocal positive lower-side bounds and reciprocal accuracies BEFORE selecting a common raw-law-supported sample sequence inside positive events. The exposure-based source choices are the SAME for every enumeration index; every fixed condition eventually holds.
 
 {
-  "project_modules": 2976,
+  "project_modules": 2984,
   "pntplus_modules": 9,
   "attributed_szemeredi_modules": 42,
-  "build_jobs": 7018,
-  "selected_axiom_reports": 11453,
-  "new_declarations": 8,
-  "new_theorems": 7,
-  "new_definitions": 1,
+  "build_jobs": 7026,
+  "selected_axiom_reports": 11472,
+  "new_declarations": 19,
+  "new_theorems": 15,
+  "new_definitions": 4,
   "new_external_targets": 0,
   "retained_proof_sources_unchanged": true,
   "retained_axiom_sets_unchanged": true,
@@ -32,4 +32,4 @@ Applied the transfer to the genuine nativeResidueCubeHaarImage and the ORIGINAL 
   "independent_kernel_replay": false
 }
 
-StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Common-witness original point/cube local laws, continuous cube alpha-window tests, actual global point-mixture weak limits, projected Haar full support and measure-to-setwise support transfer are proved. The genuine original-cube empirical-comparison-to-projected-Haar-invariance implication is now proved, conditional on the ACTUAL empirical comparison. Remaining: exact identification of countably selected native alignment array evaluations with the required projected original full-cube orbit and derivation of their fixed-alpha comparison limits, then projected face measure/set invariance; genuine marginal-to-joint lifts and weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual native array-to-original-joint-cube projection, face intertwining, empirical mean identities, reciprocal-accuracy comparison convergence and explicit all-condition positive-event selection are now proved. Remaining integration before actual projected face Haar invariance: transport Option(Fin d) grids to Fin(d+1) standard windows with exact empirical normalization; identify the same actual real logarithmic-polynomial source and local-length sequence on the chosen subsequence; instantiate the enumerated integer geometry/test budgets for each fixed alpha and then invoke the existing length-first projected Haar transfer. Preserve one common source/period/smooth curve; handle all target marginals of the full joint family. Then setwise support invariance, genuine marginal-to-joint lifts, weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep PRIVATE; public repository/PR/prize milestone not reached.

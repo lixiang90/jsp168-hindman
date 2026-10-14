@@ -1,0 +1,61 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI section 8 actual marginal cube comparison, countable conditions,
+and section 7 original local cube laws. This round closes exact source-state
+identification at the integer sample level, not the whole main theorem.
+
+nativeFinitePiCosetHomeomorph uses the proved piCosetHomeomorph of the actual
+product lattice; no normality of the component lattices is required. A vertex
+projection selects for each product component one full-cube vertex, reads that
+component quotient, and assembles the resulting tuple through the inverse
+homeomorphism. Its coordinate formula and continuity follow from the genuine
+product quotient maps. Metric continuity transports the proved topology identity.
+No choice of coset representatives or numerical Lipschitz estimate is assumed.
+
+For a zero-one profile, the integer weighted sum equals the sum over the finite
+set of indices of weight one. The existing ORIGINAL component orbit identity
+then identifies every component of the original joint array state with the
+corresponding vertex of ONE common original joint point orbit. Injectivity of
+the product quotient homeomorphism proves state equality, including heterogeneous
+targets. The uniform-target specialization is the LITERAL sampled native state.
+No separately chosen polynomial or independently extracted source is substituted.
+
+For each own face j and adding pair e, applying slot e with coefficient
+weight(nu,j) after projection equals projecting the full cube in which vertices
+containing j have slot e translated by one. Equality uses ALL integer-slot
+quotient readings and the pointwise lattice, not an unproved finite evaluation
+embedding. The zero-one hypothesis discharges the face membership cases.
+
+The mean formula rewrites the ACTUAL finite-mass expectation into its normalized
+finite sum and uses pointwise state equality. Sample boxes, integer residue
+conditions, divisor d, ceil endpoints and normalization are unchanged, including
+empty algebraic samples. These are not claimed to be probability measures when
+empty. The original integer origin cancels via the already proved orbit identity.
+
+Avoiding the complete failure predicate gives a STRICT error bound for every
+allowed profile, own pair, face index, endpoint, residue and bounded Lipschitz
+test after sampling. If avoidance holds eventually for each accuracy 1/(k+1),
+choose k for a fixed epsilon and intersect its eventual event with the varying
+endpoint geometry event. This proves actual comparison convergence without a
+diagonal scale or uniform convergence over unbounded test classes. Rewriting
+both actual means gives the projected original joint cube comparison, not an
+abstract surrogate observable sequence.
+
+The explicit seven-natural index lists dimension, modulus-minus-one, integer
+upper geometry bound, lower-side reciprocal denominator-minus-one, integer
+sup norm budget, integer Lipschitz budget, and accuracy denominator-minus-one.
+The existing actual countable positive-event selection is applied with the SAME
+exposure-based source maps at every index. Surjectivity of the countable coding
+ensures every fixed tuple eventually holds for one supported selected sequence.
+Selection precedes any sequence-dependent local-law period. No extra oracle or
+new axiom is introduced, and no different sample is chosen for each test.
+
+LIMIT: integer-state identification is now proved, but the full chain to actual
+marginal Haar invariance is not yet assembled. Need exact Option(Fin d) versus
+Fin(d+1) grid reindexing, the real logarithmic source and chosen local length,
+standard-window geometry under integer budgets, and full-family marginal handling.
+Use the existing original joint point orbit logarithmic identity and common-witness
+local-limit theorem; do not change sources between the selection and local law.
+Only after these are discharged may projected Haar transfer and full support
+prove actual face-coset invariance. Joint lifts, recurrence/full Alignment, GTZ
+inverse and final same-color FS/FP remain unfinished. Author audit is not external
+peer review or independent kernel replay. Repository remains PRIVATE.

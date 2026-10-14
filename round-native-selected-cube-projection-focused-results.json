@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFinitePiCubeProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 29.719000000040978,
+    "log": "round-native-selected-cube-projection-NativeFinitePiCubeProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeFinitePiCubeProjection.lean",
+    "source_sha256": "b8d77c39d93145d21e12c5f0a1cd3183a252f29a87362e0a41af4bfd9a5dd4e6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalCubeProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.906999999890104,
+    "log": "round-native-selected-cube-projection-AlignmentOriginalCubeProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalCubeProjection.lean",
+    "source_sha256": "9fcaf4ff7dae768d7c490b90ee9568691e5e2e8c92253b239b8cfe53468f7a19"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeCubeProjectionFace.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.85899999993853,
+    "log": "round-native-selected-cube-projection-AlignmentNativeCubeProjectionFace-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeCubeProjectionFace.lean",
+    "source_sha256": "c3fd51bff4b97629812385371565f38820b132dbd74fd4034933c36bcd9a3dd6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalProjectedCubeMeans.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.32799999997951,
+    "log": "round-native-selected-cube-projection-AlignmentOriginalProjectedCubeMeans-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalProjectedCubeMeans.lean",
+    "source_sha256": "14bd003de3e68baed356dba2acfc15be62cd4f0907c03146260047ed842cbb5c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeGoodCubeMeans.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.813000000081956,
+    "log": "round-native-selected-cube-projection-AlignmentNativeGoodCubeMeans-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeGoodCubeMeans.lean",
+    "source_sha256": "945c9e99123a837881d6280871f53b23d9fb40f0dec1d9c7eebd124d06288a76"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeGoodCubeConvergence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.311999999918044,
+    "log": "round-native-selected-cube-projection-AlignmentNativeGoodCubeConvergence-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeGoodCubeConvergence.lean",
+    "source_sha256": "fa35793bddaa06d9f3a27a7b463b72a54246639cba814ef1e453de4e81807644"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeProjectedCubeConvergence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.20300000021234,
+    "log": "round-native-selected-cube-projection-AlignmentNativeProjectedCubeConvergence-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeProjectedCubeConvergence.lean",
+    "source_sha256": "3859a700591148ff878110110747bfa0d8fbe325acfc2e85342abe78e5d18909"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentAllCubeConditionsSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.54699999978766,
+    "log": "round-native-selected-cube-projection-AlignmentAllCubeConditionsSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentAllCubeConditionsSelection.lean",
+    "source_sha256": "4e64b6c7ad98dd42810509cfbb1dc25d599b15aaf35d9f3503d5b48d3baeec3f"
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "modules": [
+    "Hindman168/NativeFinitePiCubeProjection.lean",
+    "Hindman168/AlignmentOriginalCubeProjection.lean",
+    "Hindman168/AlignmentNativeCubeProjectionFace.lean",
+    "Hindman168/AlignmentOriginalProjectedCubeMeans.lean",
+    "Hindman168/AlignmentNativeGoodCubeMeans.lean",
+    "Hindman168/AlignmentNativeGoodCubeConvergence.lean",
+    "Hindman168/AlignmentNativeProjectedCubeConvergence.lean",
+    "Hindman168/AlignmentAllCubeConditionsSelection.lean"
+  ],
+  "names": [
+    "Hindman168.nativeFinitePiCosetHomeomorph",
+    "Hindman168.native_finite_pi_coset_homeomorph_apply",
+    "Hindman168.nativeFinitePiCubeProjection",
+    "Hindman168.native_finite_pi_cube_projection_coordinate",
+    "Hindman168.native_finite_pi_cube_projection_continuous",
+    "Hindman168.native_finite_pi_metric_cube_projection_continuous",
+    "Hindman168.alignmentBinaryCubeVertex",
+    "Hindman168.alignment_binary_cube_vertex_sum",
+    "Hindman168.alignment_original_joint_cube_projection",
+    "Hindman168.alignment_original_native_cube_projection",
+    "Hindman168.alignment_native_cube_projection_reading",
+    "Hindman168.alignment_native_cube_projection_face",
+    "Hindman168.alignment_original_native_cube_projected_mean",
+    "Hindman168.alignment_native_complete_cube_good_mean_bound",
+    "Hindman168.alignment_native_good_cube_means_tendsto",
+    "Hindman168.alignment_native_good_projected_cube_means_tendsto",
+    "Hindman168.AlignmentCubeConditionIndex",
+    "Hindman168.alignment_native_all_cube_conditions_supported_selection_of_enumeration",
+    "Hindman168.alignment_native_all_cube_conditions_supported_selection"
+  ],
+  "declarations": {
+    "Hindman168/NativeFinitePiCubeProjection.lean": [
+      [
+        "def",
+        "nativeFinitePiCosetHomeomorph"
+      ],
+      [
+        "theorem",
+        "native_finite_pi_coset_homeomorph_apply"
+      ],
+      [
+        "def",
+        "nativeFinitePiCubeProjection"
+      ],
+      [
+        "theorem",
+        "native_finite_pi_cube_projection_coordinate"
+      ],
+      [
+        "theorem",
+        "native_finite_pi_cube_projection_continuous"
+      ],
+      [
+        "theorem",
+        "native_finite_pi_metric_cube_projection_continuous"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalCubeProjection.lean": [
+      [
+        "def",
+        "alignmentBinaryCubeVertex"
+      ],
+      [
+        "theorem",
+        "alignment_binary_cube_vertex_sum"
+      ],
+      [
+        "theorem",
+        "alignment_original_joint_cube_projection"
+      ],
+      [
+        "theorem",
+        "alignment_original_native_cube_projection"
+      ]
+    ],
+    "Hindman168/AlignmentNativeCubeProjectionFace.lean": [
+      [
+        "theorem",
+        "alignment_native_cube_projection_reading"
+      ],
+      [
+        "theorem",
+        "alignment_native_cube_projection_face"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalProjectedCubeMeans.lean": [
+      [
+        "theorem",
+        "alignment_original_native_cube_projected_mean"
+      ]
+    ],
+    "Hindman168/AlignmentNativeGoodCubeMeans.lean": [
+      [
+        "theorem",
+        "alignment_native_complete_cube_good_mean_bound"
+      ]
+    ],
+    "Hindman168/AlignmentNativeGoodCubeConvergence.lean": [
+      [
+        "theorem",
+        "alignment_native_good_cube_means_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentNativeProjectedCubeConvergence.lean": [
+      [
+        "theorem",
+        "alignment_native_good_projected_cube_means_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentAllCubeConditionsSelection.lean": [
+      [
+        "abbrev",
+        "AlignmentCubeConditionIndex"
+      ],
+      [
+        "theorem",
+        "alignment_native_all_cube_conditions_supported_selection_of_enumeration"
+      ],
+      [
+        "theorem",
+        "alignment_native_all_cube_conditions_supported_selection"
+      ]
+    ]
+  }
+}

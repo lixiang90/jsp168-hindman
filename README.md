@@ -47,7 +47,8 @@ run verifies this checkpoint; it does not prove the unfinished main theorem.
 
 - `CURRENT-STATUS.txt`: authoritative latest terminal audit and remaining work.
 - `verification-manifest.json`: audited files, SHA-256 hashes and pinned sources.
-- `EMPIRICAL-CUBE-INVARIANCE-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `SELECTED-CUBE-PROJECTION-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `EMPIRICAL-CUBE-INVARIANCE-CONTINUATION.txt`: preceding analytic invariance transfer.
 - `COMMON-POINT-CUBE-CONTINUATION.txt`: preceding common-witness point/cube checkpoint.
 - `CUBE-ALPHA-LIMIT-CONTINUATION.txt`: preceding explicit ordered-limit checkpoint.
 - `ORIGINAL-CUBE-LOCAL-CONTINUATION.txt`: preceding original cube radius law.
@@ -59,7 +60,7 @@ run verifies this checkpoint; it does not prove the unfinished main theorem.
 - `Hindman168.lean`: canonical project imports.
 - `Verification.lean`: registered axiom checks.
 
-The latest mathematical round is `round-native-common-point-cube`; consult
+The latest mathematical round is `round-native-selected-cube-projection`; consult
 `CURRENT-STATUS.txt` and the manifest for its terminal audit result. One original
 factorization and one chosen smooth curve now give BOTH point and cube local
 laws, bounded alpha-box laws, continuous point-Haar integrals, and the actual
@@ -68,8 +69,10 @@ cube Haar full support and its measure-to-setwise-symmetry implication are prove
 
 The original cube local law now applies to every continuous test, and actual
 fixed-alpha empirical comparison is proved to imply projected Haar invariance.
-The next task supplies that comparison by identifying the countably selected
-alignment array states with the required projected original cube orbit.
+The actual array-to-joint-cube projection and its face identity are now proved,
+as are projected empirical comparison from good conditions and explicit selection
+for all integer budgets/moduli. The next task integrates those same selected
+sources with the standard local windows and common-witness real local law.
 The support implication still requires that premise; it is not a completed
 face-invariance proof. Joint lifts, Alignment, the remaining GTZ inverse work
 and the final same-color FS/FP argument are still outstanding.

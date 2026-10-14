@@ -1,0 +1,84 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+Repository https://github.com/lixiang90/jsp168-hindman remains PRIVATE.
+Round-native-selected-cube-projection. See CURRENT-STATUS.txt and the manifest
+for terminal author audit evidence; this is not independent peer review.
+
+NativeFinitePiCubeProjection:
+- nativeFinitePiCosetHomeomorph is the actual product-lattice quotient homeomorphism.
+- nativeFinitePiCubeProjection D vertex assembles the ith component of x(vertex i).
+- native_finite_pi_cube_projection_coordinate and continuity in native and metric
+  topologies are proved. No global Lipschitz bound or normal lattice is assumed.
+
+AlignmentOriginalCubeProjection:
+alignmentBinaryCubeVertex weight is the finite set of indices of weight one.
+alignment_binary_cube_vertex_sum proves the exact weighted-sum identity for
+zero-one profiles. alignment_original_joint_cube_projection identifies the
+ACTUAL heterogeneous-target joint array group coset with the corresponding
+projection of ONE original joint point-orbit cube. The uniform-target theorem
+alignment_original_native_cube_projection identifies the actual sampled state.
+This closes the integer source-state identification gap of the preceding round.
+
+AlignmentNativeCubeProjectionFace:
+alignment_native_cube_projection_reading is the exact original slot reading.
+alignment_native_cube_projection_face says original slot translation with
+coefficient weight(nu,j) AFTER projection equals projection AFTER translating
+full-cube vertices containing j by the unit slot e. Equality uses all integer
+slot readings, not a finite-evaluation lattice embedding assumption.
+
+AlignmentOriginalProjectedCubeMeans:
+alignment_original_native_cube_projected_mean rewrites the original finite-mass
+mean into the exact projected original joint point-orbit finite sum, preserving
+ceil box endpoints, residues, modulus and normalization. Empty means stay zero.
+
+AlignmentNativeGoodCubeMeans:
+alignment_native_complete_cube_good_mean_bound turns actual failure avoidance
+into the strict error bound, uniformly over the allowed faces/profiles/endpoints/
+residues/tests AFTER sampling. All geometry and observable budgets are retained.
+
+AlignmentNativeGoodCubeConvergence / AlignmentNativeProjectedCubeConvergence:
+alignment_native_good_cube_means_tendsto and
+alignment_native_good_projected_cube_means_tendsto derive actual comparison
+convergence from eventual avoidance at each fixed accuracy 1/(k+1). Their
+endpoint/residue arrays may vary along the sequence. The latter theorem's
+samples are explicitly the projections of original joint point-orbit cubes.
+There is no assumed source-state equivalence in that statement or proof.
+
+AlignmentAllCubeConditionsSelection:
+AlignmentCubeConditionIndex is the seven-natural tuple
+(dimension, modulus-1, C, reciprocal-c-denominator-1, B, Lip, accuracy-denominator-1).
+alignment_native_all_cube_conditions_supported_selection enumerates ALL such
+tuples before choosing one raw-law-supported sequence in the given positive
+events. Its exposure-based shift,g,a are shared across every condition index.
+Every fixed tuple eventually avoids the true complete failure predicate. The
+helper _of_enumeration uses any proved surjective enumeration; the final theorem
+discharges this via Denumerable coding. No analytic oracle or increased proof
+resource option is introduced. The source cannot vary with accuracy.
+
+NEXT integration:
+1. Instantiate this enumeration at each fixed dimension, positive modulus,
+   integer geometry/test budgets, varying only the accuracy coordinate. This
+   supplies hgood to the actual projected comparison theorem on ONE sequence.
+2. Transport the exact Option(Fin d) sample grids to Fin(d+1), preserving sums,
+   ceil endpoints, residue classes and finite mean denominators.
+   finSuccEquiv' 0 is available in Mathlib.Logic.Equiv.Fin.Basic; use its
+   zero/succ formulas and finiteComplexSetMean_image for exact normalization.
+   Instantiate standard cubeAlphaLower/Upper windows and choose fixed integer C and reciprocal
+   c covering each fixed beta/alpha. Do not choose alpha as a function of m.
+3. Use alignment_original_joint_point_orbit_log_source (already proved) for the
+   SAME real logarithmic-polynomial source. alignmentLocalLength_eventually_large
+   already proves eventual lower bounds for every real constant (in
+   AlignmentLocalLength.lean); compose with the selected width sequence. Call
+   native_sequential_common_point_cube_limits on that source. Its point and cube
+   laws retain ONE subsequence/period/smooth curve. Conditions for every fixed
+   modulus are secured BEFORE this period is selected.
+4. Handle every target marginal as a projection of the full heterogeneous joint
+   family; current uniform-target empirical failure/convergence is for its actual
+   target component family. Do not conflate separately selected sources/periods.
+5. Apply native_projected_cube_empirical_invariance and then the prior full-support
+   bridge to obtain ACTUAL face measure and coset invariance. Neither is claimed
+   completed by this checkpoint.
+
+Then genuine marginal-to-joint lifts, weighted-shear recurrence/full Alignment,
+arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse, and final positive
+distinct rapidly separated same-color ALL nonempty FS AND FP remain. No unavoidable
+obstruction established. No PR/prize submission; keep PRIVATE as requested.

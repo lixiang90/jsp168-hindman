@@ -1,9 +1,9 @@
 === COMPLETE BUILD OUTPUT ===
-⚠ [4830/6875] Replayed OAI.Combinatorics.Progressions.FixedDensity.OrderedBoundaryPartition
+⚠ [5413/7026] Replayed OAI.Combinatorics.Progressions.FixedDensity.OrderedBoundaryPartition
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/OrderedBoundaryPartition.lean:166:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [5016/7018] Replayed OAI.Combinatorics.Progressions.FixedDensity.StrongOrderedComplexRegularity
+⚠ [5426/7026] Replayed OAI.Combinatorics.Progressions.FixedDensity.StrongOrderedComplexRegularity
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:807:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -13,7 +13,7 @@ Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus fa
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:932:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [5017/7018] Replayed OAI.Combinatorics.Progressions.FixedDensity.CoarseTargetRegularity
+⚠ [5427/7026] Replayed OAI.Combinatorics.Progressions.FixedDensity.CoarseTargetRegularity
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:365:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -23,7 +23,7 @@ Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus fa
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:484:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [5018/7018] Replayed OAI.Combinatorics.Progressions.FixedDensity.AdaptiveCoarseTargetRegularity
+⚠ [5428/7026] Replayed OAI.Combinatorics.Progressions.FixedDensity.AdaptiveCoarseTargetRegularity
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:537:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
@@ -36,19 +36,19 @@ Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus fa
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:700:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [5021/7018] Replayed OAI.Combinatorics.Progressions.FixedDensity.TowerDominatingGrowth
+⚠ [5431/7026] Replayed OAI.Combinatorics.Progressions.FixedDensity.TowerDominatingGrowth
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean:278:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean:285:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-⚠ [5022/7018] Replayed OAI.Combinatorics.Progressions.FixedDensity.SourceFullCoarseTargetRegularity
+⚠ [5432/7026] Replayed OAI.Combinatorics.Progressions.FixedDensity.SourceFullCoarseTargetRegularity
 warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/SourceFullCoarseTargetRegularity.lean:505:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-✔ [7017/7018] Built Hindman168 (11s)
-Build completed successfully (7018 jobs).
+✔ [7025/7026] Built Hindman168 (15s)
+Build completed successfully (7026 jobs).
 
 === COMPLETE AXIOM OUTPUT ===
 'Hindman168.indexed_to_finset' depends on axioms: [propext, Classical.choice, Quot.sound]
@@ -14494,3 +14494,30 @@ Build completed successfully (7018 jobs).
 'Hindman168.continuous_empirical_comparison_of_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Hindman168.local_empirical_projected_measure_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Hindman168.native_projected_cube_empirical_invariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.nativeFinitePiCosetHomeomorph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.native_finite_pi_coset_homeomorph_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.nativeFinitePiCubeProjection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.native_finite_pi_cube_projection_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.native_finite_pi_cube_projection_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.native_finite_pi_metric_cube_projection_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Hindman168.alignmentBinaryCubeVertex' depends on axioms: [propext, Quot.sound]
+'Hindman168.alignment_binary_cube_vertex_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_original_joint_cube_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_original_native_cube_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_native_cube_projection_reading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_native_cube_projection_face' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_original_native_cube_projected_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_native_complete_cube_good_mean_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_native_good_cube_means_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_native_good_projected_cube_means_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Hindman168.AlignmentCubeConditionIndex' does not depend on any axioms
+'Hindman168.alignment_native_all_cube_conditions_supported_selection_of_enumeration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Hindman168.alignment_native_all_cube_conditions_supported_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
