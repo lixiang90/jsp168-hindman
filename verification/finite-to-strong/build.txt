@@ -1,0 +1,4 @@
+$ lake build Hindman168.FiniteToStrong
+Build completed successfully (3000 jobs).
+$ lake env lean Hindman168/QuantitativeSeparation.lean
+$ lake env lean Hindman168/FiniteToStrong.lean

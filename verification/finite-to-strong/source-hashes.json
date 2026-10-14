@@ -1,0 +1,34 @@
+{
+  "baseline_commit": "645a326e5bb9b29b053059613c248e1a2f0a5eec",
+  "scope": "Conditional equivalence of unchanged FiniteConjecture and StrongConjecture; neither premise is proved",
+  "lean": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_commands": [
+    "lake build Hindman168.FiniteToStrong",
+    "lake env lean Hindman168/QuantitativeSeparation.lean",
+    "lake env lean Hindman168/FiniteToStrong.lean"
+  ],
+  "axiom_command": "lake env lean verification/finite-to-strong/Axioms.lean",
+  "build_exit_code": 0,
+  "axiom_exit_code": 0,
+  "checked_theorem_count": 9,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "files": [
+    {
+      "path": "Hindman168/QuantitativeSeparation.lean",
+      "sha256": "0746941f3f977c5c6dd376699e7891306b485a795ba95ebbd1165a4d849ba74e"
+    },
+    {
+      "path": "Hindman168/FiniteToStrong.lean",
+      "sha256": "54fbf6a7cdcba7a5d6e0958a84e044040610004d39d1dc4acbe4e5d3afa9eac9"
+    },
+    {
+      "path": "verification/finite-to-strong/Axioms.lean",
+      "sha256": "1cd2c29a1be91b2c1b688f4a3abc963fbfa85db592da564e4ca0acaa2ba35dc3"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+import Hindman168.FiniteToStrong
+#print axioms Hindman168.floor_emod_ne_of_gap
+#print axioms Hindman168.loglog_mul_sub
+#print axioms Hindman168.loglog_mul_gap
+#print axioms Hindman168.exists_power_separating_coloring
+#print axioms Hindman168.finite_implies_separated_sets
+#print axioms Hindman168.finite_implies_separated_indexed
+#print axioms Hindman168.quantitative_separation_of_pairwise
+#print axioms Hindman168.finite_implies_strong
+#print axioms Hindman168.finite_iff_strong
