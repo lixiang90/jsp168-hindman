@@ -1,0 +1,5 @@
+'Hindman168.piCosetRestriction_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.piCosetRestriction_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.piCosetRestriction_id' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.piCosetRestriction_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.piCosetRestriction_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+✔ [1287/1289] Built Hindman168.ProductCosetQuotient (1.3s)
+✔ [1288/1289] Built Hindman168.PiCosetQuotient (1.3s)
+✔ [1289/1289] Built Hindman168.PiCosetRestriction (1.3s)
+Build completed successfully (1289 jobs).

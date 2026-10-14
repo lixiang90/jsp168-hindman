@@ -1,0 +1,6 @@
+import Hindman168.PiCosetRestriction
+#print axioms Hindman168.piCosetRestriction_coordinate
+#print axioms Hindman168.piCosetRestriction_mk
+#print axioms Hindman168.piCosetRestriction_id
+#print axioms Hindman168.piCosetRestriction_comp
+#print axioms Hindman168.piCosetRestriction_continuous

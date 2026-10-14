@@ -1,0 +1,26 @@
+{
+  "baseline_commit": "5dfefad108563b06a9e6e7739ec65696efce260c",
+  "scope": "Standalone product-coset restriction module; not completion of Alignment or the finite FS/FP target",
+  "lean": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_command": "lake build Hindman168.PiCosetRestriction",
+  "axiom_command": "lake env lean verification/coset-restriction/Axioms.lean",
+  "build_exit_code": 0,
+  "axiom_exit_code": 0,
+  "theorem_count": 5,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "files": [
+    {
+      "path": "Hindman168/PiCosetRestriction.lean",
+      "sha256": "df4887a61081f24f436ed36e6053fcd43b41678060d834056884032781b72d82"
+    },
+    {
+      "path": "verification/coset-restriction/Axioms.lean",
+      "sha256": "8f8888589cd9e33e1e6abc5104fb928f780e24471ac07fb403f7f2d23a044dca"
+    }
+  ]
+}
