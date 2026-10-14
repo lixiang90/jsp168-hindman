@@ -1,0 +1,10 @@
+{
+  "lean": "4.32.2",
+  "modules": 17,
+  "all_declarations_audited": 112,
+  "focused_build_jobs": 6762,
+  "build_exit_code": 0,
+  "audit_exit_code": 0,
+  "source_hash_mismatches": [],
+  "full_target_proved": false
+}
