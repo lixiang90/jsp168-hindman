@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "b30b6af145211f5f612ce87d55baa82396d502dd",
+  "scope": "Finite bounded rational signatures only; no finite geometric model or inverse theorem asserted",
+  "lean": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_command": "lake build Hindman168.BoundedRationalModelCodes",
+  "source_command": "lake env lean --trust=0 Hindman168/BoundedRationalModelCodes.lean",
+  "axiom_command": "lake env lean --trust=0 verification/bounded-model-codes/Axioms.lean",
+  "build_exit_code": 0,
+  "source_exit_code": 0,
+  "axiom_exit_code": 0,
+  "checked_theorem_count": 3,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "files": [
+    {
+      "path": "Hindman168/BoundedRationalModelCodes.lean",
+      "sha256": "255fad6c010b2d5b7526de53cc7de2f991e53dc8ecfe93a161cf58c8e4f3bc23"
+    },
+    {
+      "path": "verification/bounded-model-codes/Axioms.lean",
+      "sha256": "0f33525a8f1cd954157fd8e25fc665a8f0e8ca3d7f1ec70223fabe95ceb2a713"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import Hindman168.BoundedRationalModelCodes
+#print axioms Hindman168.mem_boundedModelRationalCandidates
+#print axioms Hindman168.mem_boundedRationalModelCodes
+#print axioms Hindman168.finite_boundedRationalModelCodes

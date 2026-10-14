@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "b30b6af145211f5f612ce87d55baa82396d502dd",
+  "scope": "Actual coset-cover observable and linear-orbit transport; geometric map Lipschitz bound explicit",
+  "lean": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_command": "lake build Hindman168.CosetCoverObservableTransport",
+  "source_command": "lake env lean --trust=0 Hindman168/CosetCoverObservableTransport.lean",
+  "axiom_command": "lake env lean --trust=0 verification/coset-cover-transport/Axioms.lean",
+  "build_exit_code": 0,
+  "source_exit_code": 0,
+  "axiom_exit_code": 0,
+  "checked_theorem_count": 9,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "files": [
+    {
+      "path": "Hindman168/CosetCoverObservableTransport.lean",
+      "sha256": "ebbd1aee280b04029e1793c10cb713641b9c0a354748062cd38eb28f47d40332"
+    },
+    {
+      "path": "verification/coset-cover-transport/Axioms.lean",
+      "sha256": "b24deb7c664a8bc8a930f1f5b19c06bc6df4e32c61c9b399f5c7fa9163123392"
+    }
+  ]
+}

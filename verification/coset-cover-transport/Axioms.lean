@@ -1,0 +1,10 @@
+import Hindman168.CosetCoverObservableTransport
+#print axioms Hindman168.cosetCoverMap_mk
+#print axioms Hindman168.cosetCoverMap_linearOrbit
+#print axioms Hindman168.cosetCoverMap_surjective
+#print axioms Hindman168.cosetCoverMap_continuous
+#print axioms Hindman168.cosetCoverObservable_norm_le
+#print axioms Hindman168.cosetCoverObservable_linearOrbit
+#print axioms Hindman168.cosetCoverObservable_correlation
+#print axioms Hindman168.cosetCoverMap_lipschitz_observable
+#print axioms Hindman168.exists_cosetCoverObservable_lift
