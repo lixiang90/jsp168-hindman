@@ -9,11 +9,11 @@
   "files": [
     {
       "path": "Hindman168.lean",
-      "sha256": "820ccc25e8ef413cf4409869677ef2a0bd689af28ff2d420021a3e14c7bd0808"
+      "sha256": "f34b19a7b808946cb01e6a480ade452929098e92ef50613183bc8035edbd981f"
     },
     {
       "path": "Verification.lean",
-      "sha256": "65137f458e54585552f3e8d19fc73db9268d57273e017bb40c96289fae875d35"
+      "sha256": "9fe46ed7881cf42ee876f9cc3ee7efffa8edb7ea6b1bd0c2b0e7404e318b142f"
     },
     {
       "path": "lean-toolchain",
@@ -12054,6 +12054,34 @@
     {
       "path": "Hindman168/NativeResidueCubeSimultaneousHaar.lean",
       "sha256": "b315cdd71f97e38c66804ec5f3c2e49124e30ab79f4b85c9d898440182c3a4cb"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeCompactHaar.lean",
+      "sha256": "b416a8acceb7af670ced383ed0c59c5051f71cb304834d99b3d2447ea435ea66"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeOrbitObservables.lean",
+      "sha256": "d6c54b300f5e3eb2c504a4582bd65909745ec2786af92c530ed016c36096e770"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeFrozenHaar.lean",
+      "sha256": "1a66327dd846cebef1ca9b8b8d9705c0633c400fe9709db8aa5dc4e7d9505935"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeSmoothLocalHaar.lean",
+      "sha256": "778ce2691e7e62d1a34ed3eeb894b358ab1d50936f98b55d2617ee8d2c6e97fa"
+    },
+    {
+      "path": "Hindman168/CubeSignedPeriodResidue.lean",
+      "sha256": "73a6cef3ed5af15e5bb4acc2c9dee3ab1bc44d808d4fad1b685623e4f2f7c755"
+    },
+    {
+      "path": "Hindman168/NativeOriginalCubeLocalHaar.lean",
+      "sha256": "12604e6c542b508052c97d1d301fa1df3faa54aea6a03ff0010a7e916a2d7ec6"
+    },
+    {
+      "path": "Hindman168/NativeSequentialOriginalLocalCubeLaw.lean",
+      "sha256": "77bdd2c14f85af32ba1d3f1f00043c4a2c8282569135b56d3a2ebbcd8c8f3d81"
     }
   ],
   "proved_components": [
@@ -14641,25 +14669,32 @@
     "Derived a single eventual threshold for every character in ANY fixed finite list of actual residue-cube horizontal functionals. At every fixed nonzero rational step, an original escaping coefficient defeats every fixed bound uniformly over all translations and the unused parameter.",
     "Applied the PROVED quantitative real-box obstruction theorem to the ACTUAL degree-bounded cube source and excluded its finite character alternatives. This proves Haar convergence uniformly over real integer boxes of original-scale side lengths and bounded Lipschitz tests.",
     "Applied the PROVED residue-box obstruction theorem and retained the exact original scale to obtain Haar convergence on every fixed-positive-modulus progression box, uniformly over integer endpoints, all residue vectors and bounded Lipschitz tests.",
-    "Combined the actual progression-box Haar laws for ALL cube dimensions 0 through ORIGINAL s+1 and every member of the SAME finite rational residue family into one eventual threshold. The original source, filtration, scale and subsequence are unchanged."
+    "Combined the actual progression-box Haar laws for ALL cube dimensions 0 through ORIGINAL s+1 and every member of the SAME finite rational residue family into one eventual threshold. The original source, filtration, scale and subsequence are unchanged.",
+    "Extended the ACTUAL internal cube progression-box Haar law to every fixed compact continuous-observable family, by the proved finite unit-Lipschitz discrepancy detector. All test choices and box endpoints follow one length threshold.",
+    "Proved joint continuity of the ACTUAL cube orbit map in its left factor and internal quotient, in the original compatible metrics. Constructed genuine compact pullback test families and proved the exact integral identity for the original cube Haar image; no Lipschitz orbit-map assumption is used.",
+    "Transported actual cube Haar convergence to ORIGINAL vertex cosets, uniformly over compact left-factor sets and compact continuous-observable families. Every vertex is explicitly the SAME original source at the base plus its selected increments.",
+    "Inserted the ACTUAL sequential smooth factors at every original vertex. A single smooth limiting curve and locality radius work in every dimension; positive side scale, modulus and geometry are fixed before the eventual length threshold. Uniformity over unit-Lipschitz tests is retained.",
+    "Proved exact signed cube residue arithmetic: when the fixed progression modulus is divisible by the original period and increment residues vanish modulo that period, every vertex has precisely the base residue, including negative integer coordinates.",
+    "Proved NativeCubeLocalHaarLaw for the ORIGINAL factored source, using its exact right-coset pattern and lattice identity. One threshold works simultaneously for ALL dimensions through ORIGINAL s+1, all base residues, admissible boxes and unit-Lipschitz tests, with one common smooth curve and positive locality radius.",
+    "Applied the original sequential adapted periodic factorization ONCE to obtain the local cube law for an arbitrary original adapted polynomial sequence on ONE subsequence, with one retained subgroup filtration, original period, rational residues and smooth curve. No dimension-dependent refactorization or Haar oracle is supplied."
   ],
-  "hindman_module_count": 2946,
+  "hindman_module_count": 2953,
   "pntplus_module_count": 9,
-  "selected_axiom_report_count": 11403,
+  "selected_axiom_report_count": 11415,
   "pntplus_commit": "747e480362ef6a0a7341055a84372333d72fa62a",
-  "build_log": "round-native-cube-box-haar-build.txt",
-  "axiom_log": "round-native-cube-box-haar-axioms.txt",
-  "source_scan_module_count": 2997,
-  "build_job_count": 6988,
+  "build_log": "round-native-original-cube-local-build.txt",
+  "axiom_log": "round-native-original-cube-local-axioms.txt",
+  "source_scan_module_count": 3004,
+  "build_job_count": 6995,
   "last_round": {
     "classification": "PROGRESS",
     "new_module_count": 7,
-    "new_theorem_count": 18,
-    "new_selected_report_count": 23,
+    "new_theorem_count": 10,
+    "new_selected_report_count": 12,
     "retained_proof_sources_changed": false,
     "root_and_registry_changed": true,
-    "review_file": "round-native-cube-box-haar-review.json",
-    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual cube geometry, same-source adapted cube polynomial, top coefficient escape and its spatial/fixed-progression transport are proved. The actual cube now has uniform real-box and fixed-modulus progression-box Haar convergence, simultaneously through ORIGINAL s+1 and all fixed rational residues. Remaining: transport these pure-source Haar laws to original ambient cube Haar images, insert the original smooth factors and exact periodic residue factors, and prove the local alpha-down-to-zero limit AFTER the length limit with its uniform versions; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
+    "review_file": "round-native-original-cube-local-review.json",
+    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual cube Haar laws are now transported to original ambient Haar images, with actual smooth factors and exact periodic cosets inserted. NativeCubeLocalHaarLaw holds for the ORIGINAL source on ONE subsequence simultaneously through ORIGINAL s+1, in the all-vertices-within-radius formulation. Remaining: derive the explicit alpha-down-to-zero iterated box limits from this locality-radius law, including rounded boxes and bounded-test uniform versions, and join the point/cube laws on the same factorization data; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
   },
   "attributed_szemeredi_module_count": 42
 }

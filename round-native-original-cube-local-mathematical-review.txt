@@ -1,0 +1,57 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI section 7: original cube local laws after smooth and periodic insertion.
+
+The previous round proves Haar convergence only for the actual irrational internal
+cube source. A continuous orbit map need not be globally Lipschitz. Therefore
+this round first uses the existing PROVED compact-family discrepancy detector
+to extend that convergence to compact continuous test families. A discrepancy
+for any test yields a finite unit-Lipschitz detector fixed before the boxes;
+the actual source law excludes it. No assumed source or inverse oracle occurs.
+
+The actual cube orbit map is jointly continuous: its h-dependence is the original
+left action on every original quotient coordinate, applied to its h=1 map.
+Compatible metric topologies are transferred using their proved equalities.
+Compact-open evaluation proves continuity of pullback in BOTH test and h.
+A fixed compact product of tests and left factors therefore gives a genuine
+compact family on the internal quotient. The Haar-image integral equality uses
+actual measurable pushforward, Borel structures and original quotient metrics.
+The original finite product is compact metrizable, supplying Borel compatibility.
+
+For frozen factors, original-vertex evaluation of the untrimmed actual cube
+source identifies the image orbit with h*Q_m(base+selected increments)*rho.
+The image measure is precisely nativeResidueCubeHaarImage, not an arbitrary
+candidate measure. Test family and factor compact set precede the threshold.
+
+Smooth insertion uses native_sequential_smooth_left_action_freezing for the
+ACTUAL c_m and sequential binomial factors. Choose ONE h and a locality radius
+from beta and epsilon before ANY cube dimension, rational residue, modulus or
+box geometry. At every vertex, dividing its original time by L_m and cancelling
+L_m recovers the exact original factor. Pointwise action bounds imply the finite
+product sup-metric bound. Unit-Lipschitz tests then control finite means. This
+argument is uniform over all original quotient points; it assumes no global
+Lipschitz group action. Frozen Haar error and smooth error total less than epsilon.
+
+The lattice need not be normal. The periodic step is an equality of original
+RIGHT cosets, inserted by the existing exact factorization quotient identity.
+Coordinate residues modulo t descend modulo the original period M when M|t.
+All increments are zero modulo M, so the sum and base have the SAME signed
+residue. No positivity of sampled integers is silently assumed. Equality of
+finite means uses only samples belonging to the actual progression box.
+
+For each beta and epsilon, ONE radius is selected. Fixed t,c,R are then selected.
+Finite intersection over q:Fin(s+2) and r:Fin M supplies ONE eventual length
+threshold before all dimensions, boxes, base residues and unit tests. The final
+theorem invokes sequential adapted periodic factorization ONCE, preserving its
+subsequence, original filtration length and ambient step, period, residues and
+smooth coefficients. It does not re-run descent for different cubes.
+
+LIMIT: NativeCubeLocalHaarLaw currently requests all sampled vertices to lie
+within the selected radius after division by L_m. The explicit alpha-box geometry,
+rounding and iterated limsup statements are NOT yet registered. Their order must
+remain length first, locality second. The earlier point-law existence theorem
+must not be combined by choosing a separate subsequence/curve; join the laws at
+the SAME factorization data. Projected face invariance, joint lifts/Alignment,
+separate arbitrary-input GTZ inverse and final same-color FS/FP remain unfinished.
+Only unit-Lipschitz uniformity and compact test-family frozen laws are claimed.
+The full target is UNPROVED. Author audit is not independent kernel replay or
+external peer review. Keep the user's repository PRIVATE.

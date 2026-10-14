@@ -1,0 +1,89 @@
+{
+  "modules": [
+    "Hindman168/NativeResidueCubeCompactHaar.lean",
+    "Hindman168/NativeResidueCubeOrbitObservables.lean",
+    "Hindman168/NativeResidueCubeFrozenHaar.lean",
+    "Hindman168/NativeResidueCubeSmoothLocalHaar.lean",
+    "Hindman168/CubeSignedPeriodResidue.lean",
+    "Hindman168/NativeOriginalCubeLocalHaar.lean",
+    "Hindman168/NativeSequentialOriginalLocalCubeLaw.lean"
+  ],
+  "names": [
+    "Hindman168.native_residue_cube_compact_progression_haar",
+    "Hindman168.native_residue_cube_orbit_metric_joint_continuous",
+    "Hindman168.nativeResidueCubePullback",
+    "Hindman168.native_residue_cube_pullback_continuous",
+    "Hindman168.native_residue_cube_pullback_family_compact",
+    "Hindman168.native_residue_cube_haar_image_integral",
+    "Hindman168.native_residue_cube_frozen_progression_haar",
+    "Hindman168.native_residue_cube_smooth_local_haar",
+    "Hindman168.cube_signed_period_residue",
+    "Hindman168.NativeCubeLocalHaarLaw",
+    "Hindman168.native_original_cube_local_haar",
+    "Hindman168.native_sequential_original_local_cube_law"
+  ],
+  "declarations": {
+    "Hindman168/NativeResidueCubeCompactHaar.lean": [
+      [
+        "theorem",
+        "native_residue_cube_compact_progression_haar"
+      ]
+    ],
+    "Hindman168/NativeResidueCubeOrbitObservables.lean": [
+      [
+        "theorem",
+        "native_residue_cube_orbit_metric_joint_continuous"
+      ],
+      [
+        "def",
+        "nativeResidueCubePullback"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_pullback_continuous"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_pullback_family_compact"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_haar_image_integral"
+      ]
+    ],
+    "Hindman168/NativeResidueCubeFrozenHaar.lean": [
+      [
+        "theorem",
+        "native_residue_cube_frozen_progression_haar"
+      ]
+    ],
+    "Hindman168/NativeResidueCubeSmoothLocalHaar.lean": [
+      [
+        "theorem",
+        "native_residue_cube_smooth_local_haar"
+      ]
+    ],
+    "Hindman168/CubeSignedPeriodResidue.lean": [
+      [
+        "theorem",
+        "cube_signed_period_residue"
+      ]
+    ],
+    "Hindman168/NativeOriginalCubeLocalHaar.lean": [
+      [
+        "def",
+        "NativeCubeLocalHaarLaw"
+      ],
+      [
+        "theorem",
+        "native_original_cube_local_haar"
+      ]
+    ],
+    "Hindman168/NativeSequentialOriginalLocalCubeLaw.lean": [
+      [
+        "theorem",
+        "native_sequential_original_local_cube_law"
+      ]
+    ]
+  }
+}

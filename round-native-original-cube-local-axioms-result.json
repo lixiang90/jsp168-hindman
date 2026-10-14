@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 26.57799999997951,
+  "log": "round-native-original-cube-local-axioms.txt",
+  "log_sha256": "38e96b89cce569a60c6679ff0ebfc985d0a688ef564f7cb640abe206143e7e73"
+}

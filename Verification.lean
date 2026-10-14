@@ -19265,3 +19265,27 @@ import Hindman168
 #print axioms Hindman168.native_residue_cube_progression_box_haar
 
 #print axioms Hindman168.native_residue_cubes_through_original_step_haar
+
+#print axioms Hindman168.native_residue_cube_compact_progression_haar
+
+#print axioms Hindman168.native_residue_cube_orbit_metric_joint_continuous
+
+#print axioms Hindman168.nativeResidueCubePullback
+
+#print axioms Hindman168.native_residue_cube_pullback_continuous
+
+#print axioms Hindman168.native_residue_cube_pullback_family_compact
+
+#print axioms Hindman168.native_residue_cube_haar_image_integral
+
+#print axioms Hindman168.native_residue_cube_frozen_progression_haar
+
+#print axioms Hindman168.native_residue_cube_smooth_local_haar
+
+#print axioms Hindman168.cube_signed_period_residue
+
+#print axioms Hindman168.NativeCubeLocalHaarLaw
+
+#print axioms Hindman168.native_original_cube_local_haar
+
+#print axioms Hindman168.native_sequential_original_local_cube_law

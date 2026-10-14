@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeResidueCubeCompactHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.640000000130385,
+    "log": "round-native-original-cube-local-NativeResidueCubeCompactHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeResidueCubeCompactHaar.lean",
+    "source_sha256": "b416a8acceb7af670ced383ed0c59c5051f71cb304834d99b3d2447ea435ea66"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeResidueCubeOrbitObservables.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.54699999978766,
+    "log": "round-native-original-cube-local-NativeResidueCubeOrbitObservables-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeResidueCubeOrbitObservables.lean",
+    "source_sha256": "d6c54b300f5e3eb2c504a4582bd65909745ec2786af92c530ed016c36096e770"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeResidueCubeFrozenHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.07800000021234,
+    "log": "round-native-original-cube-local-NativeResidueCubeFrozenHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeResidueCubeFrozenHaar.lean",
+    "source_sha256": "1a66327dd846cebef1ca9b8b8d9705c0633c400fe9709db8aa5dc4e7d9505935"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeResidueCubeSmoothLocalHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.843999999808148,
+    "log": "round-native-original-cube-local-NativeResidueCubeSmoothLocalHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeResidueCubeSmoothLocalHaar.lean",
+    "source_sha256": "778ce2691e7e62d1a34ed3eeb894b358ab1d50936f98b55d2617ee8d2c6e97fa"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CubeSignedPeriodResidue.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.313000000081956,
+    "log": "round-native-original-cube-local-CubeSignedPeriodResidue-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CubeSignedPeriodResidue.lean",
+    "source_sha256": "73a6cef3ed5af15e5bb4acc2c9dee3ab1bc44d808d4fad1b685623e4f2f7c755"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalCubeLocalHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.311999999918044,
+    "log": "round-native-original-cube-local-NativeOriginalCubeLocalHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalCubeLocalHaar.lean",
+    "source_sha256": "12604e6c542b508052c97d1d301fa1df3faa54aea6a03ff0010a7e916a2d7ec6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeSequentialOriginalLocalCubeLaw.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.109000000171363,
+    "log": "round-native-original-cube-local-NativeSequentialOriginalLocalCubeLaw-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeSequentialOriginalLocalCubeLaw.lean",
+    "source_sha256": "77bdd2c14f85af32ba1d3f1f00043c4a2c8282569135b56d3a2ebbcd8c8f3d81"
+  }
+]

@@ -1,0 +1,80 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+PRIVATE repository: https://github.com/lixiang90/jsp168-hindman . Keep PRIVATE.
+Latest round: round-native-original-cube-local. Consult CURRENT-STATUS.txt and
+verification-manifest.json for terminal evidence. Author audit is not peer review.
+
+Seven new modules build on CUBE-BOX-HAAR-CONTINUATION.txt.
+
+NativeResidueCubeCompactHaar: native_residue_cube_compact_progression_haar
+extends the actual internal source law from bounded-Lipschitz tests to any fixed
+compact family of continuous tests. It uses native_compact_family_unit_detection,
+not a new inverse hypothesis. All tests and box endpoints follow the threshold.
+
+NativeResidueCubeOrbitObservables: genuine joint continuity in h and internal
+quotient for nativeResidueCubeOrbitMap, transferred to compatible metrics.
+nativeResidueCubePullback D F d n e rho hRat f h is a continuous map. Its joint
+continuity yields compact pullback families from compact f and h families.
+native_residue_cube_haar_image_integral is the exact pushforward integral identity.
+No Lipschitz action or orbit-map assumption is introduced. For product Borel
+instances, install native_nilmanifold_metric_quotient_compact D before inference.
+
+NativeResidueCubeFrozenHaar: native_residue_cube_frozen_progression_haar is the
+ORIGINAL quotient cube Haar law for h*Q_m(x0+sum increments)*rho, uniform over
+compact h sets and compact continuous-test families. The original vertex
+identity is derived from native_residue_cube_spatial_original_vertices.
+
+NativeResidueCubeSmoothLocalHaar: native_residue_cube_smooth_local_haar selects
+one actual smooth h from cN, cLimit and sequential binomial factors as. For beta
+and epsilon it selects ONE radius BEFORE all d,n,e,rho,t,c,R. After these fixed
+parameters, one eventual threshold precedes all boxes and unit-Lipschitz tests.
+Every actual original vertex input / L_m must be within radius of beta. The
+factor cN_m*leftFactors_m(input) is inserted at each vertex. The original quotient
+sup-product metric lets the pointwise action-freezing bound control the entire
+cube without a dimension loss. Frozen Haar and smooth errors imply the result.
+
+CubeSignedPeriodResidue: cube_signed_period_residue handles arbitrary signed
+integer boxes, fixed t divisible by period M, and v(i.succ) divisible by M.
+For x in alignmentBoxClass lo hi v t, every selected cube sum has signed residue
+signedPeriodResidue M hM (v 0). Use simp with alignmentBoxClass/Fintype.mem_piFinset
+to expose coordinate membership; direct elimination can produce a DecidableEq
+instance mismatch in this context.
+
+NativeOriginalCubeLocalHaar: defines NativeCubeLocalHaarLaw D H L P M hM sigma
+hRat h. Quantifiers: beta,epsilon -> radius>0 -> fixed t,c,R -> eventually m ->
+ALL q:Fin(s+2), all endpoints and residue vectors, unit-Lipschitz tests. Requires
+M|t, increment residues zero modulo M, side lengths between c L_m and R L_m,
+endpoint absolute values <= R L_m, and all sampled vertices local within radius.
+The target measure is the actual nativeResidueCubeHaarImage at h(beta) and the
+base residue sigma(signedPeriodResidue M hM (v 0)).
+native_original_cube_local_haar discharges this from the ACTUAL exact original
+factorization and periodic right-coset pattern. It never assumes normality of
+the lattice. The finite mean identity uses equality only on its actual samples.
+
+NativeSequentialOriginalLocalCubeLaw: native_sequential_original_local_cube_law
+takes the ORIGINAL adapted polynomial sequence and scale. ONE application of
+native_sequential_adapted_periodic_factorization gives ONE subsequence f, retained
+subgroup filtration H<=F, positive period M, rational sigma and smooth h, and the
+preceding law for exp(original p(f m)(input)). All dimensions share these data.
+This theorem does not ask the user for a source, Haar law or factorization oracle.
+
+NEXT: derive explicit alpha-box geometry and ordered limits from this radius law.
+For each beta,epsilon choose radius first. For q<=s+1, if the scaled base lies
+within C*alpha of beta and each scaled increment has absolute value <=C*alpha,
+then every vertex lies within (s+2)*C*alpha. Choose alpha0 from radius; for each
+FIXED 0<alpha<alpha0 apply the law with side constant c*alpha and a global endpoint
+bound depending on beta,C. Include ceiling/floor endpoint errors and eventual
+nonemptiness before treating a finite mean as a probability. Formalize length
+limit BEFORE alpha-down-to-zero, including bounded-Lipschitz normalization.
+Do not claim the all-vertices-local theorem itself already states the paper's
+explicit alpha-box or limsup formula.
+
+The earlier point-law theorem native_sequential_original_local_point_law also
+chooses a factorization and an existential h. DO NOT combine that existential
+with this one by silently identifying them. Join the point and cube laws at the
+SAME factorization data and SAME smooth-action-freezing curve, or prove uniqueness
+of the relevant limit. Then derive the continuous point-Haar family/global mixture.
+
+Remaining thereafter: projected face invariance/full support, joint lifts/full
+Alignment, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse,
+and positive distinct rapidly separated SAME-color ALL nonempty FS AND FP.
+No unavoidable obstruction established. No public PR or prize application yet.

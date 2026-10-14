@@ -12,12 +12,13 @@ repository and requested PR/prize application at the later milestone.
 The full mathematical objective remains unchanged and ACTIVE.
 StrongConjecture is UNPROVED; no unavoidable obstruction established.
 
-Latest mathematical round: round-native-cube-box-haar. Seven new modules prove
-spatial reindexing, affine top-coefficient transport, finite-character escape,
-and actual cube Haar convergence on real and fixed-modulus progression boxes,
-simultaneously through ORIGINAL s+1 and all fixed rational residues.
+Latest mathematical round: round-native-original-cube-local. Seven new modules
+transport actual cube Haar laws to the original ambient quotient and insert
+the actual smooth factors and exact periodic cosets. One original subsequence,
+filtration, period and smooth curve yield local cube laws through ORIGINAL s+1.
+The explicit alpha-box iterated-limit interface remains to be derived.
 Consult CURRENT-STATUS.txt and verification-manifest.json for terminal audit
-status, and CUBE-BOX-HAAR-CONTINUATION.txt for exact next proof work.
+status, and ORIGINAL-CUBE-LOCAL-CONTINUATION.txt for exact next proof work.
 
 README.md contains portable setup and continuation instructions.
 scripts/verify_snapshot.py verifies exact canonical source hashes and,

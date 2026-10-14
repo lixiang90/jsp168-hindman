@@ -5195,3 +5195,17 @@ import Hindman168.NativeResidueCubeRealBoxHaar
 import Hindman168.NativeResidueCubeProgressionHaar
 
 import Hindman168.NativeResidueCubeSimultaneousHaar
+
+import Hindman168.NativeResidueCubeCompactHaar
+
+import Hindman168.NativeResidueCubeOrbitObservables
+
+import Hindman168.NativeResidueCubeFrozenHaar
+
+import Hindman168.NativeResidueCubeSmoothLocalHaar
+
+import Hindman168.CubeSignedPeriodResidue
+
+import Hindman168.NativeOriginalCubeLocalHaar
+
+import Hindman168.NativeSequentialOriginalLocalCubeLaw

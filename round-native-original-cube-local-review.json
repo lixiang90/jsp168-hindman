@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2953,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6995,
+    "selected_axiom_reports": 11415,
+    "new_declarations": 12,
+    "new_theorems": 10,
+    "new_definitions": 2,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeResidueCubeCompactHaar.lean",
+    "Hindman168/NativeResidueCubeOrbitObservables.lean",
+    "Hindman168/NativeResidueCubeFrozenHaar.lean",
+    "Hindman168/NativeResidueCubeSmoothLocalHaar.lean",
+    "Hindman168/CubeSignedPeriodResidue.lean",
+    "Hindman168/NativeOriginalCubeLocalHaar.lean",
+    "Hindman168/NativeSequentialOriginalLocalCubeLaw.lean"
+  ],
+  "proved_components": [
+    "Extended the ACTUAL internal cube progression-box Haar law to every fixed compact continuous-observable family, by the proved finite unit-Lipschitz discrepancy detector. All test choices and box endpoints follow one length threshold.",
+    "Proved joint continuity of the ACTUAL cube orbit map in its left factor and internal quotient, in the original compatible metrics. Constructed genuine compact pullback test families and proved the exact integral identity for the original cube Haar image; no Lipschitz orbit-map assumption is used.",
+    "Transported actual cube Haar convergence to ORIGINAL vertex cosets, uniformly over compact left-factor sets and compact continuous-observable families. Every vertex is explicitly the SAME original source at the base plus its selected increments.",
+    "Inserted the ACTUAL sequential smooth factors at every original vertex. A single smooth limiting curve and locality radius work in every dimension; positive side scale, modulus and geometry are fixed before the eventual length threshold. Uniformity over unit-Lipschitz tests is retained.",
+    "Proved exact signed cube residue arithmetic: when the fixed progression modulus is divisible by the original period and increment residues vanish modulo that period, every vertex has precisely the base residue, including negative integer coordinates.",
+    "Proved NativeCubeLocalHaarLaw for the ORIGINAL factored source, using its exact right-coset pattern and lattice identity. One threshold works simultaneously for ALL dimensions through ORIGINAL s+1, all base residues, admissible boxes and unit-Lipschitz tests, with one common smooth curve and positive locality radius.",
+    "Applied the original sequential adapted periodic factorization ONCE to obtain the local cube law for an arbitrary original adapted polynomial sequence on ONE subsequence, with one retained subgroup filtration, original period, rational residues and smooth curve. No dimension-dependent refactorization or Haar oracle is supplied."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual cube Haar laws are now transported to original ambient Haar images, with actual smooth factors and exact periodic cosets inserted. NativeCubeLocalHaarLaw holds for the ORIGINAL source on ONE subsequence simultaneously through ORIGINAL s+1, in the all-vertices-within-radius formulation. Remaining: derive the explicit alpha-down-to-zero iterated box limits from this locality-radius law, including rounded boxes and bounded-test uniform versions, and join the point/cube laws on the same factorization data; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-original-cube-local-mathematical-review.txt",
+  "mathematical_review_sha256": "901a4edbe77ae158506456c2b01a18c5692e7217d3648c394c27ca841d224caa",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}
