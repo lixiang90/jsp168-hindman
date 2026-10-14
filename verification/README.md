@@ -86,17 +86,14 @@ proved; exact fine-to-outside harmonic conditioning is also verified. See
 
 The remaining realization chain is:
 
-- Resolve the selected-index interface explicitly: prediction recipes use
-  the padding gap, but raw variables use the principal cutoff. The current
-  original-master geometry uses one index for both. Preserve the original
-  modulus and selected scales, and prove the selected exposure, source and
-  removal estimates with these two indices separated. A compressed master
-  family or reverse recipe refinement has not been justified.
 - Instantiate the proved closed/open threshold and Portmanteau argument
-  with that geometry to obtain good fine-conditioning coverage. Transfer
-  uniform microcell probabilities to the actual harmonic conditional law,
-  and prove bad mass vanishes by extraction from every cofinal positive
-  bad event, rather than from one chosen subsequence.
+  with the selected geometry to obtain good fine-conditioning coverage.
+  The padding-gap/principal-cutoff separation, original full-raw source,
+  actual per-key recipes, restricted common catalogue symmetries, and exact
+  uniform-to-harmonic microcell transfer are now proved in
+  [selected gap geometry](selected-gap-geometry/README.md).
+  Prove bad mass vanishes by extraction from every cofinal positive bad event,
+  rather than from one chosen subsequence.
 - Supply secured local thresholds along the actual future-protected paths,
   then apply the proved event identification, harmonic extension and finite
   pivot mass product. Stronger prelimit Boolean-palette equality is not a
