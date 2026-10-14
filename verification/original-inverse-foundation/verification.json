@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "original_modules": 288,
+  "new_original_modules": 265,
+  "unchanged_reused_modules": 23,
+  "originating_declarations_audited": 7497,
+  "build_jobs": 4168,
+  "build_command": "lake build OAI.Combinatorics.Progressions.Nilpotent.BCHQuotientLocalIsometry",
+  "audit_command": "lake env lean --trust=0 verification/original-inverse-foundation/CheckAllAxioms.lean",
+  "lean": "4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_scan_findings": [],
+  "original_snapshot_files_checked": 3059,
+  "full_inverse_proved": false,
+  "full_target_proved": false
+}

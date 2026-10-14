@@ -1,0 +1,369 @@
+✔ [3006/3010] Built OAI.Combinatorics.Progressions.Estimates.RightCosetEDistance (1.0s)
+✔ [3007/3175] Built OAI.Combinatorics.Progressions.Estimates.GroupReductionFactors (2.9s)
+✔ [3414/3423] Built OAI.Combinatorics.Progressions.Geometry.RightCosetMetricMap (2.2s)
+✔ [3417/3423] Built OAI.Combinatorics.Progressions.Estimates.TangentModelVector (1.9s)
+✔ [3418/3423] Built OAI.Combinatorics.Progressions.Estimates.SeparatedCosetBalls (2.7s)
+✔ [3420/3460] Built OAI.Combinatorics.Progressions.Geometry.CoordinateSupNorm (3.2s)
+✔ [3479/3490] Built OAI.Combinatorics.Progressions.Estimates.RiemannianLipschitz (2.7s)
+✔ [3483/3490] Built OAI.Combinatorics.Progressions.Estimates.RationalHeight (2.6s)
+✔ [3485/3493] Built OAI.Combinatorics.Progressions.Geometry.RiemannianLocalCoordinates (2.6s)
+✔ [3490/3520] Built OAI.Combinatorics.Progressions.Estimates.TruncatedSeries (3.2s)
+⚠ [3517/3534] Built OAI.Combinatorics.Progressions.Estimates.FormalExpLog (2.6s)
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/FormalExpLog.lean:54:46: This simp argument is unused:
+  coeff_one_log
+
+Hint: Omit it from the simp argument list.
+  simp [P,̵ ̵c̵o̵e̵f̵f̵_̵o̵n̵e̵_̵l̵o̵g̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3522/3534] Built OAI.Combinatorics.Progressions.Estimates.TensorContraction (1.6s)
+✔ [3526/3536] Built OAI.Combinatorics.Progressions.Nilpotent.NilpotentBilinearExponential (2.2s)
+✔ [3528/3537] Built OAI.Combinatorics.Progressions.Geometry.DilationPairCoordinates (1.8s)
+✔ [3529/3537] Built OAI.Combinatorics.Progressions.Estimates.DynkinTrees (3.0s)
+✔ [3530/3546] Built OAI.Combinatorics.Progressions.Estimates.UniformProductAccuracy (2.0s)
+✔ [3536/3547] Built OAI.Combinatorics.Progressions.Linear.DynkinProjection (2.7s)
+✔ [3537/3547] Built OAI.Combinatorics.Progressions.Sampling.FrozenPartitionScore (3.3s)
+✔ [3539/3547] Built OAI.Combinatorics.Progressions.Probability.ComplexPartitionMixture (3.2s)
+✔ [3540/3547] Built OAI.Combinatorics.Progressions.Estimates.FreePrimitiveCriterion (7.4s)
+✔ [3541/3548] Built OAI.Combinatorics.Progressions.Linear.LieWordProjection (2.4s)
+✔ [3542/3548] Built OAI.Combinatorics.Progressions.Estimates.ProgressionPartitionComposition (4.9s)
+✔ [3544/3550] Built OAI.Combinatorics.Progressions.Estimates.FreeLieTreeCoefficientBounds (3.8s)
+✔ [3545/3567] Built OAI.Combinatorics.Progressions.Geometry.BoxBlockBudget (3.7s)
+✔ [3561/3567] Built OAI.Combinatorics.Progressions.Fourier.RationalLiftCharacterTwist (3.8s)
+✔ [3563/3567] Built OAI.Combinatorics.Progressions.Estimates.DependentPatchValue (4.7s)
+✔ [3564/3584] Built OAI.Combinatorics.Progressions.Lattices.AffineLowestLayer (2.8s)
+✔ [3571/3585] Built OAI.Combinatorics.Progressions.Nilpotent.LieBCHContinuity (12s)
+✔ [3573/3585] Built OAI.Combinatorics.Progressions.Geometry.LieCoordinateSmooth (2.9s)
+✔ [3579/3585] Built OAI.Combinatorics.Progressions.Sampling.NormalizedRealBoxHalfGrid (3.5s)
+✔ [3580/3589] Built OAI.Combinatorics.Progressions.Linear.FiniteSpanRounding (2.4s)
+✔ [3584/3618] Built OAI.Combinatorics.Progressions.Dynamics.CandidateFrontSourceLossBudget (5.4s)
+✔ [3740/3747] Built OAI.Combinatorics.Progressions.Polynomial.VectorPolynomialReconstruction (9.2s)
+✔ [3742/3754] Built OAI.Combinatorics.Progressions.Fourier.PrimePowerCharacterScaling (3.0s)
+✔ [3747/3754] Built OAI.Combinatorics.Progressions.Fourier.CharacterCoordinateScale (2.7s)
+✔ [3748/3755] Built OAI.Combinatorics.Progressions.Polynomial.MixedWeightedPolynomialRename (4.5s)
+✔ [3749/3755] Built OAI.Combinatorics.Progressions.Lattices.ResidueRefinedPeriod (4.1s)
+✔ [3751/3756] Built OAI.Combinatorics.Progressions.Lattices.IntegerCokernelExponent (2.4s)
+✔ [3752/3783] Built OAI.Combinatorics.Progressions.Fourier.CokernelCharacterWitness (2.8s)
+✔ [3763/3783] Built OAI.Combinatorics.Progressions.Polynomial.IntegerPolynomialCongruence (2.5s)
+✔ [3764/3784] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialTermCount (2.4s)
+✔ [3765/3784] Built OAI.Combinatorics.Progressions.Fourier.IndependentCharacterEvents (3.1s)
+✔ [3766/3784] Built OAI.Combinatorics.Progressions.Estimates.TruncatedSeriesFiltration (2.6s)
+✔ [3767/3786] Built OAI.Combinatorics.Progressions.Probability.LargeCokernelProbability (2.6s)
+✔ [3768/3787] Built OAI.Combinatorics.Progressions.Lattices.IntegerColumnMinor (2.7s)
+✔ [3770/3795] Built OAI.Combinatorics.Progressions.Estimates.RationalRowReduction (3.9s)
+✔ [3771/3795] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialPatchProductBudget (29s)
+✔ [3772/3795] Built OAI.Combinatorics.Progressions.Geometry.LinearMapCoordinateHeight (2.7s)
+✔ [3773/3795] Built OAI.Combinatorics.Progressions.Dynamics.RationalHeightBudget (2.9s)
+✔ [3774/3795] Built OAI.Combinatorics.Progressions.Sampling.ConjugationGridBudget (3.3s)
+✔ [3775/3795] Built OAI.Combinatorics.Progressions.Linear.SpanKernelGenerators (3.4s)
+✔ [3776/3799] Built OAI.Combinatorics.Progressions.Lattices.ResidueSliceNormalizedCell (7.2s)
+✔ [3779/3799] Built OAI.Combinatorics.Progressions.Estimates.RationalSubspaces (2.8s)
+✔ [3780/3799] Built OAI.Combinatorics.Progressions.Estimates.SquarefreeExponents (2.2s)
+✔ [3781/3801] Built OAI.Combinatorics.Progressions.Linear.RationalKernelBudget (3.7s)
+✔ [3782/3818] Built OAI.Combinatorics.Progressions.Estimates.SquarefreeCoefficients (3.1s)
+✔ [3796/3818] Built OAI.Combinatorics.Progressions.Estimates.RationalImageIntersections (3.9s)
+✔ [3798/3818] Built OAI.Combinatorics.Progressions.Estimates.BooleanCubeModeWitness (5.8s)
+✔ [3799/3818] Built OAI.Combinatorics.Progressions.Estimates.RealWeightPMF (2.5s)
+✔ [3800/3819] Built OAI.Combinatorics.Progressions.Sampling.RationalSpanGrid (4.9s)
+✔ [3801/3819] Built OAI.Combinatorics.Progressions.Estimates.ProductPMFMap (2.1s)
+✔ [3802/3820] Built OAI.Combinatorics.Progressions.Linear.BooleanCubeCoordinateFrame (2.8s)
+✔ [3803/3820] Built OAI.Combinatorics.Progressions.Sampling.RealGridSeparation (2.6s)
+✔ [3804/3823] Built OAI.Combinatorics.Progressions.Polynomial.BoundedRealPolynomialBasis (2.7s)
+✔ [3805/3823] Built OAI.Combinatorics.Progressions.Geometry.IndependentProductTransport (2.5s)
+✔ [3806/3827] Built OAI.Combinatorics.Progressions.Polynomial.IntegerPolynomialResidues (2.2s)
+✔ [3807/3827] Built OAI.Combinatorics.Progressions.Linear.RationalMatrixSeparation (2.9s)
+✔ [3808/3827] Built OAI.Combinatorics.Progressions.Polynomial.RealPolynomialEvaluationMass (3.2s)
+✔ [3809/3827] Built OAI.Combinatorics.Progressions.Linear.MatrixSupInverse (2.7s)
+✔ [3810/3827] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialIntegerInputs (4.1s)
+✔ [3811/3827] Built OAI.Combinatorics.Progressions.Lattices.IntegerAffineResidues (3.3s)
+✔ [3812/3827] Built OAI.Combinatorics.Progressions.Polynomial.RationalPolynomialGrid (2.7s)
+✔ [3813/3827] Built OAI.Combinatorics.Progressions.Polynomial.LieCoordinatePolynomials (3.1s)
+✔ [3814/3827] Built OAI.Combinatorics.Progressions.Estimates.RealBooleanInterpolation (2.4s)
+✔ [3815/3827] Built OAI.Combinatorics.Progressions.Geometry.LieCoordinateHeight (3.1s)
+✔ [3816/3827] Built OAI.Combinatorics.Progressions.Geometry.LieStructureTransport (3.5s)
+✔ [3817/3827] Built OAI.Combinatorics.Progressions.Linear.RealKernelJetInverse (2.8s)
+✔ [3818/3827] Built OAI.Combinatorics.Progressions.Nilpotent.BCHDenominatorBudget (4.7s)
+✔ [3819/3828] Built OAI.Combinatorics.Progressions.Lattices.NormalizedIntegerDual (4.4s)
+✔ [3820/3828] Built OAI.Combinatorics.Progressions.Geometry.LieCoordinateScalarExtension (3.7s)
+✔ [3822/3830] Built OAI.Combinatorics.Progressions.Lattices.IntegralAffineModeRemoval (4.2s)
+✔ [3823/3830] Built OAI.Combinatorics.Progressions.Estimates.NormalizedIntervalWindow (3.4s)
+✔ [3824/3831] Built OAI.Combinatorics.Progressions.Nilpotent.BCHNonlinearRemainder (5.0s)
+✔ [3825/3832] Built OAI.Combinatorics.Progressions.Linear.KernelMixtureControl (2.7s)
+✔ [3826/3832] Built OAI.Combinatorics.Progressions.Estimates.BoundedProductDifference (2.6s)
+✔ [3827/3832] Built OAI.Combinatorics.Progressions.Estimates.RationalLieSubalgebra (4.2s)
+✔ [3828/3833] Built OAI.Combinatorics.Progressions.Estimates.FiniteReciprocalTenthTail (3.3s)
+✔ [3829/3833] Built OAI.Combinatorics.Progressions.Nilpotent.BCHSubgroupGridExistence (4.6s)
+✔ [3830/3835] Built OAI.Combinatorics.Progressions.Estimates.CompactIntervalIntegral (2.7s)
+✔ [3831/3838] Built OAI.Combinatorics.Progressions.Estimates.LieFiniteProduct (3.2s)
+✔ [3832/3840] Built OAI.Combinatorics.Progressions.Estimates.DilationPairFiltration (3.3s)
+✔ [3833/3847] Built OAI.Combinatorics.Progressions.Geometry.FiniteSupportTranslation (2.5s)
+✔ [3834/3847] Built OAI.Combinatorics.Progressions.Lattices.IntegerFiberCount (2.0s)
+✔ [3835/3847] Built OAI.Combinatorics.Progressions.Probability.NormalizedDensityL1 (2.8s)
+✔ [3836/3847] Built OAI.Combinatorics.Progressions.Estimates.LocalAverageAmplitude (2.7s)
+✔ [3837/3852] Built OAI.Combinatorics.Progressions.Probability.BinaryDensity (2.6s)
+✔ [3842/3855] Built OAI.Combinatorics.Progressions.Geometry.ProductEuclideanCoordinates (2.4s)
+✔ [3843/3855] Built OAI.Combinatorics.Progressions.Estimates.PartialComplexScaledQuadrature (3.8s)
+✔ [3844/3855] Built OAI.Combinatorics.Progressions.Estimates.ProperSubspaceCount (2.2s)
+✔ [3845/3855] Built OAI.Combinatorics.Progressions.Lattices.IntegerAbsInterval (2.8s)
+✔ [3846/3857] Built OAI.Combinatorics.Progressions.Lattices.CompactLatticeApproximation (2.7s)
+✔ [3847/3859] Built OAI.Combinatorics.Progressions.Lattices.DenseIntegerSpan (2.6s)
+✔ [3850/3862] Built OAI.Combinatorics.Progressions.Estimates.EuclideanBisectorNull (2.2s)
+✔ [3851/3866] Built OAI.Combinatorics.Progressions.Estimates.NormalizedSampledHistogram (4.0s)
+✔ [3852/3866] Built OAI.Combinatorics.Progressions.Linear.SpanSubsetBasis (1.9s)
+✔ [3853/3866] Built OAI.Combinatorics.Progressions.Linear.ZSpanRounding (2.4s)
+✔ [3854/3866] Built OAI.Combinatorics.Progressions.Probability.SampledWeightCellLaw (3.7s)
+✔ [3855/3866] Built OAI.Combinatorics.Progressions.Sampling.DerivativeGridPoints (2.9s)
+✔ [3856/3866] Built OAI.Combinatorics.Progressions.Geometry.BoxWindowAveraging (2.5s)
+✔ [3857/3866] Built OAI.Combinatorics.Progressions.Lattices.LatticeVoronoiPacking (3.4s)
+✔ [3858/3867] Built OAI.Combinatorics.Progressions.Linear.ShortVectorProjection (2.5s)
+✔ [3859/3867] Built OAI.Combinatorics.Progressions.Lattices.AffineBoxTest (2.9s)
+✔ [3861/3868] Built OAI.Combinatorics.Progressions.Geometry.BoxTestSmoothing (2.6s)
+✔ [3862/3869] Built OAI.Combinatorics.Progressions.Lattices.EuclideanDerivativeLattice (5.0s)
+✔ [3864/3869] Built OAI.Combinatorics.Progressions.Estimates.SmoothedImageTest (2.8s)
+✔ [3866/3890] Built OAI.Combinatorics.Progressions.Geometry.BoxImageComparison (2.5s)
+✔ [3879/3892] Built OAI.Combinatorics.Progressions.Probability.DiagonalDensityTransport (3.0s)
+✔ [3881/3893] Built OAI.Combinatorics.Progressions.Estimates.InverseSqrtMoment (2.9s)
+✔ [3882/3893] Built OAI.Combinatorics.Progressions.Geometry.TwoBoxSmoothingComplex (3.3s)
+✔ [3884/3893] Built OAI.Combinatorics.Progressions.Geometry.ChartCutoff (1.8s)
+✔ [3885/3893] Built OAI.Combinatorics.Progressions.Geometry.UnitBoxAmplitude (2.6s)
+✔ [3886/3893] Built OAI.Combinatorics.Progressions.Geometry.SigmaAxisCoordinates (2.5s)
+✔ [3887/3896] Built OAI.Combinatorics.Progressions.Estimates.SmoothSublevelCutoff (3.0s)
+✔ [3888/3896] Built OAI.Combinatorics.Progressions.Probability.PairedProductDensity (3.8s)
+✔ [3889/3896] Built OAI.Combinatorics.Progressions.Geometry.BoxChartCutoff (2.8s)
+✔ [3890/3896] Built OAI.Combinatorics.Progressions.Geometry.PivotCoordinateChange (3.4s)
+✔ [3891/3900] Built OAI.Combinatorics.Progressions.Probability.DiagonalImageDensity (3.8s)
+✔ [3892/3900] Built OAI.Combinatorics.Progressions.Probability.TranslatedMixtureL1 (3.2s)
+✔ [3893/3900] Built OAI.Combinatorics.Progressions.Estimates.CutoffImageTest (2.5s)
+✔ [3894/3903] Built OAI.Combinatorics.Progressions.Dynamics.PivotDeterminantBudget (2.3s)
+✔ [3895/3903] Built OAI.Combinatorics.Progressions.Estimates.PivotJacobianBound (3.0s)
+✔ [3896/3903] Built OAI.Combinatorics.Progressions.Dynamics.ProductCutoffBudget (3.0s)
+✔ [3898/3903] Built OAI.Combinatorics.Progressions.Linear.PivotNormalizedMatrix (2.9s)
+✔ [3899/3905] Built OAI.Combinatorics.Progressions.Probability.SmoothProbabilityProfile (2.6s)
+✔ [3900/3905] Built OAI.Combinatorics.Progressions.Sampling.PivotGridErrorTransfer (3.4s)
+✔ [3901/3905] Built OAI.Combinatorics.Progressions.Lattices.ShortIntegerDifference (2.8s)
+✔ [3902/3905] Built OAI.Combinatorics.Progressions.Lattices.IntegerFiberUniformBound (4.1s)
+✔ [3903/3938] Built OAI.Combinatorics.Progressions.Estimates.CommonDenominatorMultiples (3.5s)
+✔ [3995/3997] Built OAI.Combinatorics.Progressions.Estimates.SplitSmoothProductProfile (4.4s)
+✔ [4005/4013] Built OAI.Combinatorics.Progressions.Fourier.RectangularGridCharacter (4.0s)
+✔ [4007/4016] Built OAI.Combinatorics.Progressions.Fourier.FiniteSpectrumCutoff (2.9s)
+✔ [4008/4017] Built OAI.Combinatorics.Progressions.Estimates.CubeTranslation (2.9s)
+✔ [4010/4017] Built OAI.Combinatorics.Progressions.Estimates.WeightedOverlapCorrelation (3.6s)
+✔ [4011/4024] Built OAI.Combinatorics.Progressions.Fourier.FiniteFourierSmoothing (4.5s)
+✔ [4012/4025] Built OAI.Combinatorics.Progressions.Estimates.FiniteConvolution (3.0s)
+✔ [4013/4025] Built OAI.Combinatorics.Progressions.Lattices.ResidueSliceCountingCost (6.1s)
+✔ [4014/4027] Built OAI.Combinatorics.Progressions.Estimates.EmbeddedFiniteConditioning (4.5s)
+✔ [4015/4027] Built OAI.Combinatorics.Progressions.Fourier.GowersFourierMultiplier (4.1s)
+✔ [4016/4027] Built OAI.Combinatorics.Progressions.Polynomial.PhasePreservingCauchySchwarz (3.3s)
+✔ [4017/4027] Built OAI.Combinatorics.Progressions.Estimates.PhysicalSliceCost (3.4s)
+✔ [4018/4027] Built OAI.Combinatorics.Progressions.Lattices.BoxResiduePartition (4.2s)
+✔ [4019/4028] Built OAI.Combinatorics.Progressions.Probability.FiniteMassErrorSelection (3.1s)
+✔ [4020/4029] Built OAI.Combinatorics.Progressions.Geometry.NormalizedRestrictionTransport (3.3s)
+✔ [4021/4031] Built OAI.Combinatorics.Progressions.Geometry.ProgressionCoordinateResampling (3.9s)
+✔ [4022/4035] Built OAI.Combinatorics.Progressions.Estimates.CyclicCutNeighborhood (9.7s)
+✔ [4023/4035] Built OAI.Combinatorics.Progressions.Estimates.PaddedBooleanFeatures (2.4s)
+✔ [4024/4035] Built OAI.Combinatorics.Progressions.Geometry.OperatorCoordinateBound (2.9s)
+✔ [4025/4036] Built OAI.Combinatorics.Progressions.Lattices.PhysicalSubboxResidueSlice (4.5s)
+✔ [4026/4036] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialAnalyticDerivative (2.0s)
+✔ [4027/4036] Built OAI.Combinatorics.Progressions.Polynomial.AffinePhaseBias (3.3s)
+✔ [4028/4037] Built OAI.Combinatorics.Progressions.Estimates.RectangularCellGeometry (3.1s)
+✔ [4029/4037] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialDeterminantDerivativeBound (3.4s)
+✔ [4030/4037] Built OAI.Combinatorics.Progressions.Lattices.NearIntegerMultiples (4.3s)
+✔ [4031/4037] Built OAI.Combinatorics.Progressions.Estimates.SublevelThresholdBalance (2.8s)
+✔ [4032/4038] Built OAI.Combinatorics.Progressions.Sampling.BooleanProductSampler (2.9s)
+✔ [4033/4038] Built OAI.Combinatorics.Progressions.Polynomial.BooleanBlockCoefficientPhase (2.7s)
+✔ [4034/4038] Built OAI.Combinatorics.Progressions.Dynamics.DenseProductPowerBudget (4.9s)
+✔ [4035/4043] Built OAI.Combinatorics.Progressions.Estimates.FiniteFiberVolumeBound (2.6s)
+✔ [4037/4043] Built OAI.Combinatorics.Progressions.Estimates.DenseProductApproximation (3.0s)
+✔ [4038/4047] Built OAI.Combinatorics.Progressions.Estimates.SeparatedRealSamples (3.0s)
+✔ [4039/4048] Built OAI.Combinatorics.Progressions.Estimates.SeparatedInterpolationBound (2.7s)
+✔ [4041/4050] Built OAI.Combinatorics.Progressions.Polynomial.UnivariatePolynomialSublevel (3.4s)
+✔ [4042/4050] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialCoordinateSlice (2.5s)
+✔ [4043/4051] Built OAI.Combinatorics.Progressions.Estimates.SymmetricScalarSublevel (2.7s)
+✔ [4044/4051] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialDeterminantDegree (2.8s)
+✔ [4045/4054] Built OAI.Combinatorics.Progressions.Geometry.BoxDifferenceHom (15s)
+✔ [4046/4054] Built OAI.Combinatorics.Progressions.Probability.SymmetricCubeMeasure (2.8s)
+✔ [4047/4054] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialDilation (2.3s)
+✔ [4048/4054] Built OAI.Combinatorics.Progressions.Geometry.CoordinateDeterminant (2.5s)
+✔ [4049/4055] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialValueCoefficient (2.8s)
+✔ [4050/4059] Built OAI.Combinatorics.Progressions.Estimates.SymmetricCubeVolume (2.0s)
+✔ [4052/4065] Built OAI.Combinatorics.Progressions.Estimates.SymmetricCubeSublevel (2.9s)
+✔ [4053/4065] Built OAI.Combinatorics.Progressions.Estimates.SmoothHalfspaceCutoff (3.1s)
+✔ [4054/4069] Built OAI.Combinatorics.Progressions.Polynomial.EmbeddedMatrixDeterminantPolynomial (4.4s)
+✔ [4055/4069] Built OAI.Combinatorics.Progressions.Estimates.ScalarCubeDomain (3.4s)
+✔ [4056/4069] Built OAI.Combinatorics.Progressions.Probability.ScalarCubeDomainDensity (3.4s)
+✔ [4057/4069] Built OAI.Combinatorics.Progressions.Estimates.BooleanMinorDimension (3.9s)
+✔ [4058/4069] Built OAI.Combinatorics.Progressions.Geometry.ScalarCubeCoordinates (2.8s)
+✔ [4059/4069] Built OAI.Combinatorics.Progressions.Estimates.ResidualErrorAllocation (11s)
+✔ [4060/4071] Built OAI.Combinatorics.Progressions.Estimates.ScalarCubeBoundaryCost (3.2s)
+✔ [4061/4071] Built OAI.Combinatorics.Progressions.Estimates.ScalarCubeBoundaryVolume (3.1s)
+✔ [4062/4071] Built OAI.Combinatorics.Progressions.Estimates.FiniteInversePerturbation (2.9s)
+✔ [4063/4077] Built OAI.Combinatorics.Progressions.Geometry.CutoffBoxImageComparison (3.5s)
+✔ [4068/4077] Built OAI.Combinatorics.Progressions.Probability.ScalarCubeBoundaryMass (2.8s)
+✔ [4070/4091] Built OAI.Combinatorics.Progressions.Geometry.DivergenceSupport (2.7s)
+✔ [4077/4093] Built OAI.Combinatorics.Progressions.Estimates.ScalarCubeFaceSlab (3.3s)
+✔ [4079/4093] Built OAI.Combinatorics.Progressions.Lattices.ScalarCubeLatticeGeometry (2.8s)
+✔ [4080/4093] Built OAI.Combinatorics.Progressions.Estimates.UnitTestClipping (5.6s)
+✔ [4081/4093] Built OAI.Combinatorics.Progressions.Probability.ScaledCubeProductMeasure (3.0s)
+✔ [4083/4095] Built OAI.Combinatorics.Progressions.Estimates.LocalProductContinuity (1.8s)
+✔ [4084/4095] Built OAI.Combinatorics.Progressions.Probability.ScalarCubeDensityBudget (3.5s)
+⚠ [4086/4096] Built OAI.Combinatorics.Progressions.Estimates.ProductCutoffLipschitz (3.0s)
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ProductCutoffLipschitz.lean:402:122: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ProductCutoffLipschitz.lean:402:122: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ProductCutoffLipschitz.lean:434:122: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ProductCutoffLipschitz.lean:434:122: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+✔ [4087/4101] Built OAI.Combinatorics.Progressions.Geometry.CoordinateInjection (2.5s)
+✔ [4088/4101] Built OAI.Combinatorics.Progressions.Geometry.LocalCoordinateDivergence (2.8s)
+✔ [4089/4101] Built OAI.Combinatorics.Progressions.Estimates.CompactSmoothApproximation (2.3s)
+✔ [4091/4101] Built OAI.Combinatorics.Progressions.Linear.SelectedCoordinateMatrix (2.6s)
+✔ [4092/4101] Built OAI.Combinatorics.Progressions.Dynamics.ScalarCubeBoundaryLogBudget (3.9s)
+✔ [4093/4101] Built OAI.Combinatorics.Progressions.Probability.BoundedSmoothTestDensity (2.0s)
+✔ [4094/4101] Built OAI.Combinatorics.Progressions.Lattices.AffineSliceC2Difference (5.4s)
+✔ [4095/4101] Built OAI.Combinatorics.Progressions.Estimates.WeightedImageDerivative (3.2s)
+✔ [4096/4119] Built OAI.Combinatorics.Progressions.Geometry.ImageCoordinateDerivative (3.0s)
+✔ [4109/4120] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialParameterContinuity (4.6s)
+✔ [4112/4120] Built OAI.Combinatorics.Progressions.Geometry.BlockCubeCoordinates (2.0s)
+⚠ [4113/4126] Built OAI.Combinatorics.Progressions.Estimates.BooleanSelectedDerivativeBound (4.8s)
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/BooleanSelectedDerivativeBound.lean:500:96: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/BooleanSelectedDerivativeBound.lean:500:96: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+✔ [4116/4126] Built OAI.Combinatorics.Progressions.Estimates.SigmaAxisOperator (2.6s)
+✔ [4117/4126] Built OAI.Combinatorics.Progressions.Polynomial.BooleanPolynomialBudget (2.8s)
+✔ [4118/4127] Built OAI.Combinatorics.Progressions.Estimates.LocalImageComparison (3.1s)
+✔ [4119/4127] Built OAI.Combinatorics.Progressions.Estimates.PrincipalCoefficientSource (1.0s)
+✔ [4120/4127] Built OAI.Combinatorics.Progressions.Lattices.BooleanAffineInput (2.7s)
+✔ [4121/4130] Built OAI.Combinatorics.Progressions.Probability.FiniteArrayMeasure (2.1s)
+✔ [4122/4131] Built OAI.Combinatorics.Progressions.Estimates.BoundedInequalityGoodCutoff (4.3s)
+✔ [4123/4131] Built OAI.Combinatorics.Progressions.Estimates.CoefficientNormalization (3.8s)
+✔ [4124/4131] Built OAI.Combinatorics.Progressions.Probability.DensityMixtureAELaw (3.7s)
+✔ [4125/4131] Built OAI.Combinatorics.Progressions.Probability.SigmaProductMeasure (1.9s)
+✔ [4126/4131] Built OAI.Combinatorics.Progressions.Polynomial.MonomialArrayJet (2.6s)
+✔ [4127/4131] Built OAI.Combinatorics.Progressions.Probability.RestrictedComplexChartDensityComparison (3.1s)
+✔ [4128/4132] Built OAI.Combinatorics.Progressions.Sampling.CanonicalSamplerTuple (3.5s)
+✔ [4129/4132] Built OAI.Combinatorics.Progressions.Geometry.UnitBoxInteriorCutoff (3.4s)
+✔ [4130/4140] Built OAI.Combinatorics.Progressions.Estimates.SlicedPairAmplitude (3.1s)
+⚠ [4131/4156] Built OAI.Combinatorics.Progressions.Estimates.JointBooleanGoodWeight (5.4s)
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/JointBooleanGoodWeight.lean:356:103: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/JointBooleanGoodWeight.lean:356:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/JointBooleanGoodWeight.lean:489:103: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/JointBooleanGoodWeight.lean:489:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+✔ [4132/4156] Built OAI.Combinatorics.Progressions.Probability.PairedProductLaw (2.7s)
+✔ [4133/4158] Built OAI.Combinatorics.Progressions.Estimates.FactoredC2Difference (3.5s)
+✔ [4134/4158] Built OAI.Combinatorics.Progressions.Probability.BooleanJetMassBudget (2.8s)
+✔ [4135/4158] Built OAI.Combinatorics.Progressions.Estimates.FourProductSmoothing (2.8s)
+✔ [4136/4165] Built OAI.Combinatorics.Progressions.Polynomial.SquarefreeBlockDegree (2.4s)
+✔ [4138/4168] Built OAI.Combinatorics.Progressions.Lattices.RandomAffinePair (2.9s)
+⚠ [4140/4168] Built OAI.Combinatorics.Progressions.Polynomial.JointBooleanPolynomialPerturbation (4.4s)
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/JointBooleanPolynomialPerturbation.lean:46:136: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/JointBooleanPolynomialPerturbation.lean:46:136: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/JointBooleanPolynomialPerturbation.lean:70:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/JointBooleanPolynomialPerturbation.lean:71:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/JointBooleanPolynomialPerturbation.lean:72:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/JointBooleanPolynomialPerturbation.lean:70:101: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/JointBooleanPolynomialPerturbation.lean:71:101: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/JointBooleanPolynomialPerturbation.lean:72:101: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [4141/4168] Built OAI.Combinatorics.Progressions.Probability.SlicedPairDensity (2.7s)
+✔ [4142/4168] Built OAI.Combinatorics.Progressions.Estimates.RealSubquotientEquiv (3.9s)
+✔ [4143/4168] Built OAI.Combinatorics.Progressions.Estimates.CoefficientTailScaling (3.2s)
+✔ [4144/4168] Built OAI.Combinatorics.Progressions.Estimates.FourSlicedProductSmoothing (2.7s)
+✔ [4145/4168] Built OAI.Combinatorics.Progressions.Sampling.BooleanSamplerMeasurability (2.6s)
+✔ [4146/4168] Built OAI.Combinatorics.Progressions.Dynamics.SlicedProductBudget (2.5s)
+✔ [4147/4168] Built OAI.Combinatorics.Progressions.Estimates.RawProductArrayNormalization (2.7s)
+✔ [4148/4168] Built OAI.Combinatorics.Progressions.Probability.SpatialProductDensity (3.4s)
+✔ [4149/4168] Built OAI.Combinatorics.Progressions.Sampling.CanonicalRawSampler (2.7s)
+✔ [4150/4168] Built OAI.Combinatorics.Progressions.Probability.SlicedRemainderDensityFamily (4.0s)
+✔ [4151/4168] Built OAI.Combinatorics.Progressions.Estimates.ScaledJointFrozenSource (2.7s)
+✔ [4152/4168] Built OAI.Combinatorics.Progressions.Polynomial.RawCanonicalNormalizedPolynomial (3.4s)
+✔ [4153/4168] Built OAI.Combinatorics.Progressions.Estimates.PrincipalBlockExponent (2.7s)
+✔ [4154/4168] Built OAI.Combinatorics.Progressions.Polynomial.PrincipalMonomialScale (2.4s)
+✔ [4155/4168] Built OAI.Combinatorics.Progressions.Estimates.PrincipalCoefficientMarginal (4.0s)
+✔ [4156/4168] Built OAI.Combinatorics.Progressions.Polynomial.PolynomialKernelValues (6.1s)
+⚠ [4157/4168] Built OAI.Combinatorics.Progressions.Polynomial.ExtendedPolynomialValues (9.8s)
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/ExtendedPolynomialValues.lean:438:23: This simp argument is unused:
+  zero_lie
+
+Hint: Omit it from the simp argument list.
+  simp only [̵z̵e̵r̵o̵_̵l̵i̵e̵,̵ ̵l̵i̵e̵_̵z̵e̵r̵o̵,̵[̲l̲i̲e̲_̲z̲e̲r̲o̲,̲ map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/ExtendedPolynomialValues.lean:438:33: This simp argument is unused:
+  lie_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [zero_lie, l̵i̵e̵_̵z̵e̵r̵o̵,̵ ̵map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/ExtendedPolynomialValues.lean:449:23: This simp argument is unused:
+  zero_lie
+
+Hint: Omit it from the simp argument list.
+  simp only [̵z̵e̵r̵o̵_̵l̵i̵e̵,̵ ̵l̵i̵e̵_̵z̵e̵r̵o̵,̵[̲l̲i̲e̲_̲z̲e̲r̲o̲,̲ map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/ExtendedPolynomialValues.lean:449:33: This simp argument is unused:
+  lie_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [zero_lie, l̵i̵e̵_̵z̵e̵r̵o̵,̵ ̵map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/ExtendedPolynomialValues.lean:485:23: This simp argument is unused:
+  zero_lie
+
+Hint: Omit it from the simp argument list.
+  simp only [̵z̵e̵r̵o̵_̵l̵i̵e̵,̵ ̵l̵i̵e̵_̵z̵e̵r̵o̵,̵[̲l̲i̲e̲_̲z̲e̲r̲o̲,̲ map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/ExtendedPolynomialValues.lean:485:33: This simp argument is unused:
+  lie_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [zero_lie, l̵i̵e̵_̵z̵e̵r̵o̵,̵ ̵map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [4158/4168] Built OAI.Combinatorics.Progressions.Polynomial.SquarefreePolynomialQuotient (4.6s)
+✔ [4159/4168] Built OAI.Combinatorics.Progressions.Nilpotent.SquarefreeBracketCoefficients (3.2s)
+✔ [4160/4168] Built OAI.Combinatorics.Progressions.Estimates.MultidegreeDilationPair (7.5s)
+✔ [4161/4168] Built OAI.Combinatorics.Progressions.Estimates.RealifiedMultidegree (4.2s)
+✔ [4162/4168] Built OAI.Combinatorics.Progressions.Linear.RationalSpanCoordinates (3.6s)
+✔ [4163/4168] Built OAI.Combinatorics.Progressions.Nilpotent.BCHChartCutoffSmooth (9.9s)
+✔ [4164/4168] Built OAI.Combinatorics.Progressions.Nilpotent.BCHQuotientChart (3.8s)
+✔ [4165/4168] Built OAI.Combinatorics.Progressions.Nilpotent.BCHConjugationLinear (21s)
+✔ [4166/4168] Built OAI.Combinatorics.Progressions.Linear.BasisCoordinateBounds (2.9s)
+✔ [4167/4168] Built OAI.Combinatorics.Progressions.Nilpotent.BCHLatticeImageGap (13s)
+✔ [4168/4168] Built OAI.Combinatorics.Progressions.Nilpotent.BCHQuotientLocalIsometry (14s)
+Build completed successfully (4168 jobs).

@@ -1,0 +1,99 @@
+strongConjecture_of_native_inverse.{u_1} : (∀ (t : Nat),
+    @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) t →
+      HasNativePeriodicIntervalInverse.{u_1}
+        (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) t
+          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+        t) →
+  StrongConjecture
+finiteConjecture_of_native_inverse.{u_1} : (∀ (t : Nat),
+    @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) t →
+      HasNativePeriodicIntervalInverse.{u_1}
+        (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) t
+          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+        t) →
+  FiniteConjecture
+hasUniformSelectedPrincipalAlignment.{u_1} : HasUniformSelectedPrincipalAlignment.{u_1}
+def Hindman168.StrongConjecture : Prop :=
+∀ (r : ℕ) (color : ℕ → Fin r) (m : ℕ) (R D : ℝ), LE.le.{0} 2 R → LE.le.{0} 1 D → StrongWitness color R D
+def Hindman168.StrongWitness : {r : ℕ} → {m : ℕ} → (ℕ → Fin r) → ℝ → ℝ → Prop :=
+fun {r m} color R D =>
+  ∃ a,
+    StrictMono.{0, 0} a ∧
+      (∀ (i : Fin m), LT.lt.{0} 0 (a i)) ∧
+        (∀ (i : Fin m),
+            LT.lt.{0}
+              (HMul.hMul.{0, 0, 0} R
+                (HPow.hPow.{0, 0, 0}
+                  (HAdd.hAdd.{0, 0, 0} (∑ j with LT.lt.{0} j i, ↑(a j)) (∏ j with LT.lt.{0} j i, ↑(a j))) D))
+              ↑(a i)) ∧
+          ∃ c,
+            ∀ (S : Finset.{0} (Fin m)),
+              Finset.Nonempty.{0} S → Eq.{1} (color (∑ i ∈ S, a i)) c ∧ Eq.{1} (color (∏ i ∈ S, a i)) c
+def Hindman168.FiniteConjecture : Prop :=
+∀ (r : ℕ) (color : ℕ → Fin r) (m : ℕ), ∃ A, LE.le.{0} m (Finset.card.{0} A) ∧ MonoFSFP color A
+def Hindman168.MonoFSFP : {r : ℕ} → (ℕ → Fin r) → Finset.{0} ℕ → Prop :=
+fun {r} color A => ∃ c, ∀ S ⊆ A, Finset.Nonempty.{0} S → Eq.{1} (color (∑ x ∈ S, x)) c ∧ Eq.{1} (color (∏ x ∈ S, x)) c
+def Hindman168.HasUniformSelectedPrincipalAlignment.{u} : Prop :=
+∀ (n r s : ℕ),
+  ∃ B A,
+    ∃ (hclosed : FiniteScaleClosure B A),
+      Finset.Nonempty.{0} B ∧
+        (∀ (b : Fin n → ℚ), Membership.mem.{0, 0} B b → ∀ (i : Fin n), LT.lt.{0} 0 (b i)) ∧
+          (∀ (a : ℚ), Membership.mem.{0, 0} A a → LT.lt.{0} 0 a) ∧
+            ∃ δ,
+              LT.lt.{0} 0 δ ∧
+                ∀ (d M : ℕ) (hM : LT.lt.{0} 0 M) (P : Finset.{0} (MvPolynomial.{0, 0} (Fin d) ℤ))
+                  (F : MasterParameterFamily),
+                  MasterParameterConditions M A P F →
+                    ∀ (e : OrderEmbedding.{0, 0} (Fin (HMul.hMul.{0, 0, 0} 2 n)) ℕ),
+                      (∀ (j : Fin (HMul.hMul.{0, 0, 0} 2 n)), LT.lt.{0} (e j) M) →
+                        ∀ (S : Finset.{0} (Fin n) → Fin n → ScaleColorIndex A r → ℕ → ℤ → ℝ),
+                          (∀ (T : Finset.{0} (Fin n)) (i : Fin n) (γ : ScaleColorIndex A r),
+                              NativePieceRepresented.{u} s F (masterGapIndex M hM (energyPadding e i)) (S T i γ)) →
+                            (∀ (T : Finset.{0} (Fin n)) (i : Fin n) (γ : ScaleColorIndex A r) (w : ℕ) (y : ℤ),
+                                Membership.mem.{0, 0} (Set.Icc.{0} 0 1) (S T i γ w y)) →
+                              ∀ (θ : ℝ),
+                                LT.lt.{0} 0 θ →
+                                  LE.le.{0} δ
+                                    (Filter.liminf.{0, 0}
+                                      (fun w =>
+                                        FiniteMass.event.{0} (selectedPrincipalRawMass e F w)
+                                          (PrincipalSumAlignmentEvent M e B A hclosed S θ w))
+                                      Filter.atTop.{0})
+def Hindman168.HasNativePeriodicIntervalInverse.{u} : ℕ → ℕ → Prop :=
+fun s d =>
+  ∀ (δ : ℝ),
+    LT.lt.{0} 0 δ →
+      ∃ L,
+        LT.lt.{0} 0 L ∧
+          ∃ D Lip γ,
+            LT.lt.{0} 0 γ ∧
+              ∀ (q : ℕ) [NeZero.{0} q] (K : ℕ) (v : ZMod q → ℝ),
+                (∀ (z : ZMod q), LE.le.{0} (abs.{0} (v z)) 1) →
+                  LE.le.{0} (HDiv.hDiv.{0, 0, 0} δ 4)
+                      (integerIntervalPeriodicGowersValue q d (HMul.hMul.{0, 0, 0} K q) v) →
+                    ∃ i obs g x,
+                      (∀
+                          (z :
+                            HasQuotient.Quotient.{u, u} (NativeNilmanifoldData.G.{u} (D i))
+                              (NativeNilmanifoldData.Γ.{u} (D i))),
+                          LE.le.{0} (norm.{0} (obs z)) 1) ∧
+                        LipschitzWith.{u, 0} (Lip i) ⇑obs ∧
+                          LE.le.{0} γ
+                            (norm.{0}
+                              (finiteComplexMean.{0} fun n =>
+                                HMul.hMul.{0, 0, 0} (↑(v ↑↑n))
+                                  (obs ↑(HMul.hMul.{u, u, u} (HPow.hPow.{u, 0, u} g ↑↑n) x))))
+'Hindman168.strongConjecture_of_native_inverse' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Hindman168.finiteConjecture_of_native_inverse' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Hindman168.hasUniformSelectedPrincipalAlignment' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Hindman168.finite_iff_strong' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Hindman168.maskGeneratedMaster_conditions' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Hindman168.finite_scale_prediction_models_unit_observables' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'Hindman168.principal_final_deduction_tolerances' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Hindman168.MasterParameterConditions.principal_positive_sum_yields_finite_witness' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'strongWitness_iff_paperSplit' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
