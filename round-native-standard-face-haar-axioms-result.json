@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 46.57799999997951,
+  "log": "round-native-standard-face-haar-axioms.txt",
+  "log_sha256": "8a1c16e90944a8eb98ac11520c5277386df3496276e7eb1c3ae7985ebb9d362c"
+}

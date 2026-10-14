@@ -1,0 +1,146 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentBoxReindex.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 23.484999999869615,
+    "log": "round-native-standard-face-haar-AlignmentBoxReindex-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentBoxReindex.lean",
+    "source_sha256": "879145e707e5d63dafcea28b70df4d1a0a6918b807c217e2523f5a83f49c05ab"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CubeStandardWindowBudgets.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 30.95299999997951,
+    "log": "round-native-standard-face-haar-CubeStandardWindowBudgets-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CubeStandardWindowBudgets.lean",
+    "source_sha256": "ecd5767a9bb2842d6cdd96bf114f45e46fb424f01eedc896e80b97a618ecb895"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CubeOptionWindowMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 29.42200000002049,
+    "log": "round-native-standard-face-haar-CubeOptionWindowMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CubeOptionWindowMean.lean",
+    "source_sha256": "a494c35881d7e3aa36e6c4672b8d40dae2a36533c1da0d8d03650578b1f20215"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalJointRealSource.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 34.515000000130385,
+    "log": "round-native-standard-face-haar-AlignmentOriginalJointRealSource-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalJointRealSource.lean",
+    "source_sha256": "38d191cead0435d6c6588c5fd442adf5b10a47c92d0263c1d00da1c1c05b3819"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeStandardCubeComparison.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.67200000002049,
+    "log": "round-native-standard-face-haar-AlignmentNativeStandardCubeComparison-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeStandardCubeComparison.lean",
+    "source_sha256": "09e88ed1d07aabb0ea47f1ad99f5bea0a3526f802d8fb3eef3ad9a9cb7ed02d9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRealStandardCubeComparison.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 34.39099999982864,
+    "log": "round-native-standard-face-haar-AlignmentRealStandardCubeComparison-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRealStandardCubeComparison.lean",
+    "source_sha256": "ccfde130826ae97fcfe3713508c5131bd2e6f596ec93073cb22b31e17c5b7461"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalFaceHaarInvariance.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 34.85900000017136,
+    "log": "round-native-standard-face-haar-AlignmentOriginalFaceHaarInvariance-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalFaceHaarInvariance.lean",
+    "source_sha256": "eb0bad0acb83976ff0efcb22113a00b8f95d8d817f315a777620ccbf6a4e7932"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCommonSourceFaceHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.57799999997951,
+    "log": "round-native-standard-face-haar-AlignmentCommonSourceFaceHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCommonSourceFaceHaar.lean",
+    "source_sha256": "fdb25e16f3120e6b2bfe2bcdbd2b25bdb7feb8aa7121ca67d06daeaa0269fbb6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentSelectedTargetFaceHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 35.984999999869615,
+    "log": "round-native-standard-face-haar-AlignmentSelectedTargetFaceHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentSelectedTargetFaceHaar.lean",
+    "source_sha256": "488c5b2e8db52fabaa48ecacafc9544ddc7f09ba250a53489a4b7f1fd5d2935c"
+  }
+]

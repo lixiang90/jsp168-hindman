@@ -9,11 +9,11 @@
   "files": [
     {
       "path": "Hindman168.lean",
-      "sha256": "c672091408afe17584b93fba8c0b7ad16b808962989a33f9ebc7ed59e9930804"
+      "sha256": "8706acc255472cb32d5a9d58105b3e2e5a4b62cb9ef69245e0524f02efafd1c9"
     },
     {
       "path": "Verification.lean",
-      "sha256": "99d037db5af39e2e3c02867eaf57a43170f4f1aa9182b30b1dc297dba2166a40"
+      "sha256": "d0f890c8e5ba856a7d4c5986a7a686aa5c902e1ad6afa95687e12631b3cc53b2"
     },
     {
       "path": "lean-toolchain",
@@ -12206,6 +12206,42 @@
     {
       "path": "Hindman168/AlignmentAllCubeConditionsSelection.lean",
       "sha256": "4e64b6c7ad98dd42810509cfbb1dc25d599b15aaf35d9f3503d5b48d3baeec3f"
+    },
+    {
+      "path": "Hindman168/AlignmentBoxReindex.lean",
+      "sha256": "879145e707e5d63dafcea28b70df4d1a0a6918b807c217e2523f5a83f49c05ab"
+    },
+    {
+      "path": "Hindman168/CubeStandardWindowBudgets.lean",
+      "sha256": "ecd5767a9bb2842d6cdd96bf114f45e46fb424f01eedc896e80b97a618ecb895"
+    },
+    {
+      "path": "Hindman168/CubeOptionWindowMean.lean",
+      "sha256": "a494c35881d7e3aa36e6c4672b8d40dae2a36533c1da0d8d03650578b1f20215"
+    },
+    {
+      "path": "Hindman168/AlignmentOriginalJointRealSource.lean",
+      "sha256": "38d191cead0435d6c6588c5fd442adf5b10a47c92d0263c1d00da1c1c05b3819"
+    },
+    {
+      "path": "Hindman168/AlignmentNativeStandardCubeComparison.lean",
+      "sha256": "09e88ed1d07aabb0ea47f1ad99f5bea0a3526f802d8fb3eef3ad9a9cb7ed02d9"
+    },
+    {
+      "path": "Hindman168/AlignmentRealStandardCubeComparison.lean",
+      "sha256": "ccfde130826ae97fcfe3713508c5131bd2e6f596ec93073cb22b31e17c5b7461"
+    },
+    {
+      "path": "Hindman168/AlignmentOriginalFaceHaarInvariance.lean",
+      "sha256": "eb0bad0acb83976ff0efcb22113a00b8f95d8d817f315a777620ccbf6a4e7932"
+    },
+    {
+      "path": "Hindman168/AlignmentCommonSourceFaceHaar.lean",
+      "sha256": "fdb25e16f3120e6b2bfe2bcdbd2b25bdb7feb8aa7121ca67d06daeaa0269fbb6"
+    },
+    {
+      "path": "Hindman168/AlignmentSelectedTargetFaceHaar.lean",
+      "sha256": "488c5b2e8db52fabaa48ecacafc9544ddc7f09ba250a53489a4b7f1fd5d2935c"
     }
   ],
   "proved_components": [
@@ -14823,25 +14859,32 @@
     "Proved that each zero-one-weight ORIGINAL native array cube state is exactly the coordinatewise projection of the SAME joint point-orbit cube. Heterogeneous target group identities are retained, and the uniform-target quotient is identified with the actual sampled state. No source identification oracle remains at this step.",
     "Proved the actual projection intertwines a cube face translation with the original projected slot translation, using ALL integer-slot readings to establish quotient equality. Proved the exact original empirical mean formula after projection with unchanged grids, residues and normalization.",
     "Extracted strict actual mean bounds from avoidance of the complete all-faces failure predicate. Proved that eventual avoidance at each reciprocal accuracy forces actual mean differences to converge to zero, for varying endpoint and residue arrays. Transported this convergence to the literal projected joint point-orbit cube means.",
-    "Explicitly enumerated all natural dimensions, positive integer moduli, integer geometry/test budgets, reciprocal positive lower-side bounds and reciprocal accuracies BEFORE selecting a common raw-law-supported sample sequence inside positive events. The exposure-based source choices are the SAME for every enumeration index; every fixed condition eventually holds."
+    "Explicitly enumerated all natural dimensions, positive integer moduli, integer geometry/test budgets, reciprocal positive lower-side bounds and reciprocal accuracies BEFORE selecting a common raw-law-supported sample sequence inside positive events. The exposure-based source choices are the SAME for every enumeration index; every fixed condition eventually holds.",
+    "Proved exact bijective coordinate reindexing of actual residue boxes and normalized complex means, and specialized it to Option(Fin d) versus Fin(d+1) standard cube windows. Original residue classes, ceil endpoints and sample normalization are retained, including algebraic empty means.",
+    "Proved every FIXED beta/positive-alpha standard window fits fixed integer upper geometry and reciprocal lower-side budgets for every nonnegative length. These budgets precede the sequence limit; there is no diagonal alpha(m).",
+    "Defined the ACTUAL original joint real source by its already proved original logarithmic polynomial, proved equality with the original integer point orbit, and proved cofinal local-length growth from actual master microcell bounds.",
+    "Used the actual countable good conditions to prove projected empirical comparison on each fixed standard window for EVERY fixed Lipschitz test. The proof chooses legitimate integer sup/Lipschitz budgets, reindexes the original means exactly, and then replaces integer orbit evaluations by the proved actual real source.",
+    "Proved projected face Haar invariance from these actual comparison estimates and the local law of the literal SAME original source. The general analytic transfer no longer has an unconnected empirical-source premise at this step.",
+    "Applied ONE common point/cube local-limit extraction to the genuine original joint linear source. It retains ONE subsequence, original-length subgroup filtration, period, rational representatives and smooth curve, gives the original point residue and bounded cube alpha laws, and proves projected face Haar invariance using conditions for the selected period secured beforehand.",
+    "Constructed the actual supported sample sequence from prescribed positive events and the explicit all-condition enumeration, then discharged local-length growth and all good-condition premises in the preceding common-source theorem. The final fixed-target-family theorem takes no local Haar, source-identification, empirical comparison, or good-condition oracle. Full heterogeneous-target joint marginal assembly and lifts remain unfinished."
   ],
-  "hindman_module_count": 2984,
+  "hindman_module_count": 2993,
   "pntplus_module_count": 9,
-  "selected_axiom_report_count": 11472,
+  "selected_axiom_report_count": 11485,
   "pntplus_commit": "747e480362ef6a0a7341055a84372333d72fa62a",
-  "build_log": "round-native-selected-cube-projection-build.txt",
-  "axiom_log": "round-native-selected-cube-projection-axioms.txt",
-  "source_scan_module_count": 3035,
-  "build_job_count": 7026,
+  "build_log": "round-native-standard-face-haar-build.txt",
+  "axiom_log": "round-native-standard-face-haar-axioms.txt",
+  "source_scan_module_count": 3044,
+  "build_job_count": 7035,
   "last_round": {
     "classification": "PROGRESS",
-    "new_module_count": 8,
-    "new_theorem_count": 15,
-    "new_selected_report_count": 19,
+    "new_module_count": 9,
+    "new_theorem_count": 12,
+    "new_selected_report_count": 13,
     "retained_proof_sources_changed": false,
     "root_and_registry_changed": true,
-    "review_file": "round-native-selected-cube-projection-review.json",
-    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual native array-to-original-joint-cube projection, face intertwining, empirical mean identities, reciprocal-accuracy comparison convergence and explicit all-condition positive-event selection are now proved. Remaining integration before actual projected face Haar invariance: transport Option(Fin d) grids to Fin(d+1) standard windows with exact empirical normalization; identify the same actual real logarithmic-polynomial source and local-length sequence on the chosen subsequence; instantiate the enumerated integer geometry/test budgets for each fixed alpha and then invoke the existing length-first projected Haar transfer. Preserve one common source/period/smooth curve; handle all target marginals of the full joint family. Then setwise support invariance, genuine marginal-to-joint lifts, weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep PRIVATE; public repository/PR/prize milestone not reached."
+    "review_file": "round-native-standard-face-haar-review.json",
+    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Exact standard-window reindexing, real-source identification, fixed-alpha projected comparison, common-source local-law extraction and ACTUAL positive-event-selected fixed-target-family face Haar invariance are now proved. Remaining: assemble all target marginals of ONE full heterogeneous joint family on ONE selected sequence and ONE common filtration/period/smooth curve; transfer their proven measure invariances to setwise projected cube-coset invariances using actual homeomorphisms/full support; genuine marginal-to-joint lifts, weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. Do not identify independently selected fixed-target witnesses. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep PRIVATE; public repository/PR/prize milestone not reached."
   },
   "attributed_szemeredi_module_count": 42
 }

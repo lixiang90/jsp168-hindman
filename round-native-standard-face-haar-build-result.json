@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 38.686999999918044,
+  "log": "round-native-standard-face-haar-build.txt",
+  "log_sha256": "e3c0f3fd940fcf263d538b0c46fbcbf72cc6d066b1a2a23844d2d6bf4855cf53"
+}

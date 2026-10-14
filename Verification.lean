@@ -19403,3 +19403,29 @@ import Hindman168
 #print axioms Hindman168.alignment_native_all_cube_conditions_supported_selection_of_enumeration
 
 #print axioms Hindman168.alignment_native_all_cube_conditions_supported_selection
+
+#print axioms Hindman168.alignment_box_reindex_image
+
+#print axioms Hindman168.alignment_box_reindex_mean
+
+#print axioms Hindman168.cube_standard_window_budget_bound
+
+#print axioms Hindman168.cube_standard_window_integer_budgets
+
+#print axioms Hindman168.cube_option_standard_window_mean
+
+#print axioms Hindman168.alignmentOriginalJointRealSource
+
+#print axioms Hindman168.alignment_original_joint_real_source_integer
+
+#print axioms Hindman168.alignment_local_length_cofinal
+
+#print axioms Hindman168.alignment_native_standard_cube_comparison
+
+#print axioms Hindman168.alignment_native_real_standard_cube_comparison
+
+#print axioms Hindman168.alignment_original_face_haar_invariant
+
+#print axioms Hindman168.alignment_common_source_face_haar
+
+#print axioms Hindman168.alignment_selected_target_face_haar

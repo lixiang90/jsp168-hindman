@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2993,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 7035,
+    "selected_axiom_reports": 11485,
+    "new_declarations": 13,
+    "new_theorems": 12,
+    "new_definitions": 1,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/AlignmentBoxReindex.lean",
+    "Hindman168/CubeStandardWindowBudgets.lean",
+    "Hindman168/CubeOptionWindowMean.lean",
+    "Hindman168/AlignmentOriginalJointRealSource.lean",
+    "Hindman168/AlignmentNativeStandardCubeComparison.lean",
+    "Hindman168/AlignmentRealStandardCubeComparison.lean",
+    "Hindman168/AlignmentOriginalFaceHaarInvariance.lean",
+    "Hindman168/AlignmentCommonSourceFaceHaar.lean",
+    "Hindman168/AlignmentSelectedTargetFaceHaar.lean"
+  ],
+  "proved_components": [
+    "Proved exact bijective coordinate reindexing of actual residue boxes and normalized complex means, and specialized it to Option(Fin d) versus Fin(d+1) standard cube windows. Original residue classes, ceil endpoints and sample normalization are retained, including algebraic empty means.",
+    "Proved every FIXED beta/positive-alpha standard window fits fixed integer upper geometry and reciprocal lower-side budgets for every nonnegative length. These budgets precede the sequence limit; there is no diagonal alpha(m).",
+    "Defined the ACTUAL original joint real source by its already proved original logarithmic polynomial, proved equality with the original integer point orbit, and proved cofinal local-length growth from actual master microcell bounds.",
+    "Used the actual countable good conditions to prove projected empirical comparison on each fixed standard window for EVERY fixed Lipschitz test. The proof chooses legitimate integer sup/Lipschitz budgets, reindexes the original means exactly, and then replaces integer orbit evaluations by the proved actual real source.",
+    "Proved projected face Haar invariance from these actual comparison estimates and the local law of the literal SAME original source. The general analytic transfer no longer has an unconnected empirical-source premise at this step.",
+    "Applied ONE common point/cube local-limit extraction to the genuine original joint linear source. It retains ONE subsequence, original-length subgroup filtration, period, rational representatives and smooth curve, gives the original point residue and bounded cube alpha laws, and proves projected face Haar invariance using conditions for the selected period secured beforehand.",
+    "Constructed the actual supported sample sequence from prescribed positive events and the explicit all-condition enumeration, then discharged local-length growth and all good-condition premises in the preceding common-source theorem. The final fixed-target-family theorem takes no local Haar, source-identification, empirical comparison, or good-condition oracle. Full heterogeneous-target joint marginal assembly and lifts remain unfinished."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Exact standard-window reindexing, real-source identification, fixed-alpha projected comparison, common-source local-law extraction and ACTUAL positive-event-selected fixed-target-family face Haar invariance are now proved. Remaining: assemble all target marginals of ONE full heterogeneous joint family on ONE selected sequence and ONE common filtration/period/smooth curve; transfer their proven measure invariances to setwise projected cube-coset invariances using actual homeomorphisms/full support; genuine marginal-to-joint lifts, weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. Do not identify independently selected fixed-target witnesses. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep PRIVATE; public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-standard-face-haar-mathematical-review.txt",
+  "mathematical_review_sha256": "ce4a1815d434cb6d612d73eee565e9791eab1e6f981e722915b2e0564078620a",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

@@ -12,15 +12,15 @@ repository and requested PR/prize application at the later milestone.
 The full mathematical objective remains unchanged and ACTIVE.
 StrongConjecture is UNPROVED; no unavoidable obstruction established.
 
-Latest mathematical round: round-native-selected-cube-projection. Actual native
-array states are now proved to be continuous projections of the SAME joint
-point-orbit cubes; the projection respects own faces and preserves actual means.
-Good-condition avoidance gives projected mean comparison convergence, and all
-integer dimensions/moduli/budgets/accuracies are explicitly enumerated before
-common positive-event selection. Standard-window and real-source integration
-remain before actual marginal face Haar invariance; the main target is UNPROVED.
-Consult CURRENT-STATUS.txt and verification-manifest.json for terminal audit,
-and SELECTED-CUBE-PROJECTION-CONTINUATION.txt for exact next proof work.
+Latest mathematical round: round-native-standard-face-haar. Exact standard-window
+reindexing and actual real-source identities now connect positive-event selection
+to projected face Haar invariance for a FIXED target component family. One common
+local-law extraction supplies the point/cube laws and same f,H,M,sigma,h; actual
+good-condition selection and local-length growth are discharged. No source/Haar
+oracle is an input to the final selected theorem. Full heterogeneous-target
+joint assembly, setwise support invariance, joint lifts and the main theorem
+remain unfinished. Consult CURRENT-STATUS.txt and verification-manifest.json for
+terminal audit, and STANDARD-FACE-HAAR-CONTINUATION.txt for exact next proof work.
 
 README.md contains portable setup and continuation instructions.
 scripts/verify_snapshot.py verifies exact canonical source hashes and,

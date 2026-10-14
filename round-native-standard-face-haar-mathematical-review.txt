@@ -1,0 +1,60 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI sections 7 and 8. Fixed-target-family face Haar invariance is
+proved from actual positive-event selection, after the terminal checks recorded
+with this round. It is not the full heterogeneous joint Alignment theorem.
+
+Coordinate transport uses a genuine equivalence of finite index types. The
+image equality of residue boxes is proved in both directions by the inverse
+coordinate map. Injectivity gives exactly equal cardinalities and sums, hence
+normalized means. Applying finSuccEquiv sends zero to none and successors to
+some, preserving the base-plus-subset-increments expression literally. Ceil
+endpoints and signed residues are transported rather than approximated. Empty
+boxes have the same algebraic zero mean; no probability assertion is made there.
+
+For fixed beta and alpha>0 choose integer C>|beta|+alpha and reciprocal c<alpha.
+For every nonnegative L, absolute lower/upper endpoints are bounded by C*L and
+side lengths are at least c*L. The source length is the actual natural-valued
+alignmentLocalLength. Fixed integer sup/Lipschitz budgets contain any fixed
+continuous Lipschitz test. No uniform assertion over unbounded test classes and
+no changing alpha(m) is used. These instantiated bounds supply the true original
+good-condition comparison; exact reindexing supplies standard-window comparison.
+
+alignmentOriginalJointRealSource is the actual exponential of the existing
+nativeOriginalLeftLinearLog at the original joint point step/base. Its integer
+restriction equals the original point orbit by the already proved logarithmic
+identity. It introduces no unverified source interpolation. The original step s
+and original lower-central filtration length s are retained. Cofinal local-length
+growth follows from alignmentLocalLength_eventually_large and cofinal widths.
+
+The first face Haar theorem combines this genuine real-source comparison with
+its own actual bounded-alpha cube law. The projection is continuous in the
+proved compatible metric topology, and the face slot translation is continuous.
+Neither is assumed globally Lipschitz. The analytic theorem extends tests and
+uses length-first limits before finite-measure extensionality.
+
+The common-source theorem DISCHARGES the local-law premise using one invocation
+of native_sequential_common_point_cube_limits on the literal original linear
+logarithmic polynomial sequence. Point and cube laws retain the same f,H,M,sigma,h.
+The actual good conditions were proved for every positive integer modulus before
+M was chosen. Pull them back along the strict cofinal subsequence and instantiate
+the comparison at modulus M. This proves projected Haar invariance for every
+allowed dimension, base location/residue, binary profile and own face on those
+same common data. There is no independent witness identification.
+
+The final selected theorem calls the actual explicit all-condition supported
+selection for the SAME exposure-based shift,g,a at all conditions. It retains
+support and the positive event for the chosen sample sequence, uses the actual
+master conditions to discharge local-length growth, and instantiates every
+positive modulus as successor of its predecessor in the seven-natural index.
+The strict subsequence preserves eventual support/event membership. Thus neither
+failure avoidance nor Haar laws nor source identities are assumed oracles in
+this final theorem. They are supplied by proved actual constructions.
+
+LIMIT: this final theorem is for a FIXED target component family. The full
+paper needs all target marginals of ONE heterogeneous joint family with ONE
+common source extraction. Do not combine separately selected fixed-target
+filtrations, periods or curves. Prove the restriction projections from that full
+family, and apply the prior support bridge only to proved actual homeomorphic
+measure symmetries. Joint lifts, recurrence/full Alignment, the arbitrary-input
+GTZ inverse and final same-color FS/FP remain unfinished. No full-target claim.
+Author audit is not peer review or independent kernel replay. Keep PRIVATE.

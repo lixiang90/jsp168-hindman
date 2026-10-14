@@ -1,0 +1,100 @@
+{
+  "modules": [
+    "Hindman168/AlignmentBoxReindex.lean",
+    "Hindman168/CubeStandardWindowBudgets.lean",
+    "Hindman168/CubeOptionWindowMean.lean",
+    "Hindman168/AlignmentOriginalJointRealSource.lean",
+    "Hindman168/AlignmentNativeStandardCubeComparison.lean",
+    "Hindman168/AlignmentRealStandardCubeComparison.lean",
+    "Hindman168/AlignmentOriginalFaceHaarInvariance.lean",
+    "Hindman168/AlignmentCommonSourceFaceHaar.lean",
+    "Hindman168/AlignmentSelectedTargetFaceHaar.lean"
+  ],
+  "names": [
+    "Hindman168.alignment_box_reindex_image",
+    "Hindman168.alignment_box_reindex_mean",
+    "Hindman168.cube_standard_window_budget_bound",
+    "Hindman168.cube_standard_window_integer_budgets",
+    "Hindman168.cube_option_standard_window_mean",
+    "Hindman168.alignmentOriginalJointRealSource",
+    "Hindman168.alignment_original_joint_real_source_integer",
+    "Hindman168.alignment_local_length_cofinal",
+    "Hindman168.alignment_native_standard_cube_comparison",
+    "Hindman168.alignment_native_real_standard_cube_comparison",
+    "Hindman168.alignment_original_face_haar_invariant",
+    "Hindman168.alignment_common_source_face_haar",
+    "Hindman168.alignment_selected_target_face_haar"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentBoxReindex.lean": [
+      [
+        "theorem",
+        "alignment_box_reindex_image"
+      ],
+      [
+        "theorem",
+        "alignment_box_reindex_mean"
+      ]
+    ],
+    "Hindman168/CubeStandardWindowBudgets.lean": [
+      [
+        "theorem",
+        "cube_standard_window_budget_bound"
+      ],
+      [
+        "theorem",
+        "cube_standard_window_integer_budgets"
+      ]
+    ],
+    "Hindman168/CubeOptionWindowMean.lean": [
+      [
+        "theorem",
+        "cube_option_standard_window_mean"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalJointRealSource.lean": [
+      [
+        "def",
+        "alignmentOriginalJointRealSource"
+      ],
+      [
+        "theorem",
+        "alignment_original_joint_real_source_integer"
+      ],
+      [
+        "theorem",
+        "alignment_local_length_cofinal"
+      ]
+    ],
+    "Hindman168/AlignmentNativeStandardCubeComparison.lean": [
+      [
+        "theorem",
+        "alignment_native_standard_cube_comparison"
+      ]
+    ],
+    "Hindman168/AlignmentRealStandardCubeComparison.lean": [
+      [
+        "theorem",
+        "alignment_native_real_standard_cube_comparison"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalFaceHaarInvariance.lean": [
+      [
+        "theorem",
+        "alignment_original_face_haar_invariant"
+      ]
+    ],
+    "Hindman168/AlignmentCommonSourceFaceHaar.lean": [
+      [
+        "theorem",
+        "alignment_common_source_face_haar"
+      ]
+    ],
+    "Hindman168/AlignmentSelectedTargetFaceHaar.lean": [
+      [
+        "theorem",
+        "alignment_selected_target_face_haar"
+      ]
+    ]
+  }
+}

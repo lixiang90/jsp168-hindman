@@ -1,0 +1,84 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+PRIVATE repository: https://github.com/lixiang90/jsp168-hindman . Keep PRIVATE.
+Round: round-native-standard-face-haar. CURRENT-STATUS.txt and the manifest hold
+terminal author audit evidence. This is not external independent peer review.
+
+AlignmentBoxReindex: alignment_box_reindex_image / alignment_box_reindex_mean
+prove exact coordinate transport of actual residue boxes and normalized means.
+CubeOptionWindowMean: cube_option_standard_window_mean uses finSuccEquiv to
+identify Option(Fin d) original samples with the Fin(d+1) standard cube expression.
+Ceil endpoints, signed residues and sample normalization are unchanged.
+
+CubeStandardWindowBudgets: cube_standard_window_integer_budgets chooses fixed
+integer C and reciprocal c covering every beta/positive-alpha standard window
+for all nonnegative lengths. This is fixed-alpha then sequence limit.
+
+AlignmentOriginalJointRealSource: alignmentOriginalJointRealSource is the
+exponential of the SAME original joint linear logarithmic polynomial.
+alignment_original_joint_real_source_integer proves exact equality at integers.
+alignment_local_length_cofinal derives actual local-length growth from the master
+conditions and any cofinal width sequence. Original step/filtration length s stay.
+
+AlignmentNativeStandardCubeComparison / AlignmentRealStandardCubeComparison:
+alignment_native_standard_cube_comparison and
+alignment_native_real_standard_cube_comparison turn actual countable budget
+avoidance into comparison on each fixed standard window for every fixed Lipschitz
+test, first for the original integer source and then its actual real extension.
+Projection and face maps are continuous; no global Lipschitz assertion is assumed.
+
+AlignmentOriginalFaceHaarInvariance: alignment_original_face_haar_invariant
+combines those actual comparisons with the literal SAME source's bounded-alpha
+local law. This is a conditional intermediate theorem; next modules discharge it.
+
+AlignmentCommonSourceFaceHaar: alignment_common_source_face_haar invokes
+native_sequential_common_point_cube_limits ONCE with the original logarithmic
+polynomial sequence and nativeOriginalSubgroupLieFiltration. It returns one
+strict subsequence f, original-length H, M>0, rational sigma, smooth h, plus
+original point residue law, bounded cube alpha law and projected face Haar
+invariance for ALL allowed dimensions, beta/residues, binary profiles and own
+faces on those same witnesses. The actual good conditions held for every fixed
+positive modulus BEFORE M was selected, and are pulled back along f. Thus its
+local-Haar premise is DISCHARGED, not imported as an oracle.
+
+AlignmentSelectedTargetFaceHaar: alignment_selected_target_face_haar supplies
+actual supported samples inside the prescribed positive events using the explicit
+all-condition selection. Its exposure-based shift,g,a are independent of condition
+index. It derives local-length growth from the genuine master conditions and
+covers every positive modulus by the successor coordinate in the condition index.
+The result is a supported sample sequence, a strict subsequence and common local
+laws/projected face Haar invariance. Event/support membership along the strict
+subsequence follows from its cofinality. No good-condition, empirical-comparison,
+source-identification or local-Haar oracle is an input to this final theorem.
+
+SCOPE LIMIT: the final theorem is for ONE fixed target component family. It is
+NOT yet the full heterogeneous-target joint alignment theorem. Do not independently
+apply it to different targets and then identify their H,M,sigma,h. They need to
+come from ONE full joint source extraction.
+
+NEXT:
+- Use AlignmentAllTargetsNativeCountableSelection to enumerate conditions across
+  the finite target families before selecting ONE supported sample sequence.
+- Assemble the full joint group with heterogeneous target labels (a finite Sigma
+  index is natural); original joint point/cube orbit identities already retain
+  heterogeneous targets in AlignmentOriginalJointLinearOrbit/CubeOrbit.
+- Construct continuous quotient restriction projections from the full finite
+  native product to each target subfamily, using the genuine product quotient
+  homeomorphisms. Compose these with the proved binary cube projections.
+- Prove exact restrictions of the full ORIGINAL sampled orbit to each target's
+  original orbit. Integer identities suffice for the empirical comparison; use
+  the genuine real-source integer restriction, never an assumed interpolation.
+- Extract the common point/cube local law on the FULL joint source ONCE. Transfer
+  each target's actual empirical comparison to its projected image of that SAME
+  full Haar measure via native_projected_cube_empirical_invariance (which allows
+  an arbitrary compact metric target Y). Do not replace it by independently
+  constructed target Haar measures or independent subgroup filtrations.
+- Apply NativeProjectedCubeSupport with actual face homeomorphisms to obtain
+  setwise projected cube-coset invariance. Translation homeomorphism ingredients
+  are in AlignmentNativeArrayCosetTranslations and AlignmentNativeJointTranslations;
+  continuity alone should not be mistaken for invertibility.
+- Then prove the genuine marginal-to-joint lifts and weighted-shear recurrence.
+
+Full Alignment, arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse,
+and final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP
+remain. No unavoidable obstruction established, no completion percentage justified.
+No public release, PR or prize application. Keep PRIVATE as requested.
