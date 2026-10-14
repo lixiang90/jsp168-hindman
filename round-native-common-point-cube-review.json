@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2969,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 7011,
+    "selected_axiom_reports": 11445,
+    "new_declarations": 11,
+    "new_theorems": 10,
+    "new_definitions": 1,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeCommonSmoothCurve.lean",
+    "Hindman168/NativeRationalLayerGivenSmoothHaar.lean",
+    "Hindman168/NativeResidueCubeGivenSmoothHaar.lean",
+    "Hindman168/NativeOriginalGivenPointHaar.lean",
+    "Hindman168/NativeOriginalGivenCubeHaar.lean",
+    "Hindman168/NativeSequentialCommonPointCubeLimits.lean",
+    "Hindman168/ClosedSupportMeasureSymmetry.lean",
+    "Hindman168/NativeProjectedCubeSupport.lean"
+  ],
+  "proved_components": [
+    "Defined the genuine NativeSmoothActionLimit of the actual sequential smooth factors and proved existence of ONE smooth witness from their actual convergence. It contains only the original uniform action-freezing estimate, not a point/cube/source/Haar oracle.",
+    "Proved point and cube smooth-insertion laws for a GIVEN common smooth-action witness. Both use the same h and actual factors; each discharges the original local estimates from the genuine freezing property and existing frozen Haar laws.",
+    "Proved the ORIGINAL point and cube residue laws while RETAINING that given h. Exact original factorization and periodic right-coset identities are used, with no identification of independently chosen existential witnesses.",
+    "Proved native_sequential_common_point_cube_limits by invoking the original periodic factorization ONCE and the actual common smooth-curve theorem ONCE. The SAME subsequence, filtration, period, rational representatives and h supply point residue/real laws, cube radius/bounded-alpha laws, continuous point-Haar integrals, actual global point-mixture weak probability convergence and the mixture formula for EVERY continuous complex observable.",
+    "Proved that a continuous measure-preserving map sends a closed full-support set into itself, and a measure-preserving homeomorphism preserves it SETWISE. Invariance of the inverse map is derived from the actual pushforward equality, not separately assumed.",
+    "Proved the ACTUAL projected cube Haar image is positive on exactly the opens meeting the projected compact cube orbit. Consequently a proved homeomorphic symmetry of that projected measure preserves the projected cube coset setwise. This supplies the measure-to-set bridge required by the marginal face-lift argument; the actual face measure-invariance premise remains to be discharged."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Point and cube local laws, bounded alpha laws, continuous Haar families and the actual global point-mixture weak limit now share ONE original subsequence and ONE factorization/smooth curve. Projected cube Haar full support and the measure-symmetry-to-setwise-coset bridge are proved. Remaining: transfer the actual countably selected marginal face comparison estimates through length-first local limits to PROVE projected face measure invariance, then use the support bridge; genuine marginal-to-joint lifts and weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-common-point-cube-mathematical-review.txt",
+  "mathematical_review_sha256": "4627c55d62f4954055682e5bdaa1e41566bd7233fa10eefb82e2f51efffe0e2f",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

@@ -47,7 +47,8 @@ run verifies this checkpoint; it does not prove the unfinished main theorem.
 
 - `CURRENT-STATUS.txt`: authoritative latest terminal audit and remaining work.
 - `verification-manifest.json`: audited files, SHA-256 hashes and pinned sources.
-- `CUBE-ALPHA-LIMIT-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `COMMON-POINT-CUBE-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `CUBE-ALPHA-LIMIT-CONTINUATION.txt`: preceding explicit ordered-limit checkpoint.
 - `ORIGINAL-CUBE-LOCAL-CONTINUATION.txt`: preceding original cube radius law.
 - `CUBE-BOX-HAAR-CONTINUATION.txt`: preceding internal cube Haar checkpoint.
 - `CUBE-SOURCE-CONTINUATION.txt`: preceding actual cube source checkpoint.
@@ -57,19 +58,18 @@ run verifies this checkpoint; it does not prove the unfinished main theorem.
 - `Hindman168.lean`: canonical project imports.
 - `Verification.lean`: registered axiom checks.
 
-The latest mathematical round is `round-native-cube-alpha-limit`; consult
-`CURRENT-STATUS.txt` and the manifest for its terminal audit result. The ORIGINAL
-source now satisfies the explicit rounded alpha-box law, uniform over fixed
-bounded-Lipschitz test budgets and all dimensions through the ORIGINAL step s+1.
-The actual length limsup tends to zero as alpha decreases to zero. Standard
-window membership and eventual nonemptiness are proved. All cube laws retain
-the same subsequence, period, subgroup filtration and smooth curve.
+The latest mathematical round is `round-native-common-point-cube`; consult
+`CURRENT-STATUS.txt` and the manifest for its terminal audit result. One original
+factorization and one chosen smooth curve now give BOTH point and cube local
+laws, bounded alpha-box laws, continuous point-Haar integrals, and the actual
+global point-mixture weak limit on the SAME subsequence and data. Projected
+cube Haar full support and its measure-to-setwise-symmetry implication are proved.
 
-The next task joins the existing point and cube laws on the SAME factorization
-and smooth curve, before deriving the joint point-mixture law. Their separately
-stated existential witnesses cannot simply be identified. Projected face laws,
-Alignment, the remaining GTZ inverse work and the final same-color FS/FP argument
-are still outstanding.
+The next task proves the actual projected face measure invariance from the
+countably selected face comparison estimates and length-first local limits.
+The support implication still requires that premise; it is not a completed
+face-invariance proof. Joint lifts, Alignment, the remaining GTZ inverse work
+and the final same-color FS/FP argument are still outstanding.
 
 Continue from the same original source, final subgroup filtration and
 original nilpotency bound. Do not replace the target with a weaker result,

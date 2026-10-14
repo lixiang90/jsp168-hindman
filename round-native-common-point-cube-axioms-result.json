@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 28.95299999997951,
+  "log": "round-native-common-point-cube-axioms.txt",
+  "log_sha256": "3bee32175cbb9d9f3498818a134f4b41ccd69a4dbf0addc91bc6e3bd2ea8408b"
+}

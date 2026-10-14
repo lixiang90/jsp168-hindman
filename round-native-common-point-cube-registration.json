@@ -1,0 +1,87 @@
+{
+  "modules": [
+    "Hindman168/NativeCommonSmoothCurve.lean",
+    "Hindman168/NativeRationalLayerGivenSmoothHaar.lean",
+    "Hindman168/NativeResidueCubeGivenSmoothHaar.lean",
+    "Hindman168/NativeOriginalGivenPointHaar.lean",
+    "Hindman168/NativeOriginalGivenCubeHaar.lean",
+    "Hindman168/NativeSequentialCommonPointCubeLimits.lean",
+    "Hindman168/ClosedSupportMeasureSymmetry.lean",
+    "Hindman168/NativeProjectedCubeSupport.lean"
+  ],
+  "names": [
+    "Hindman168.NativeSmoothActionLimit",
+    "Hindman168.native_common_smooth_curve",
+    "Hindman168.native_rational_layer_given_smooth_haar",
+    "Hindman168.native_residue_cube_given_smooth_haar",
+    "Hindman168.native_original_given_point_haar",
+    "Hindman168.native_original_given_cube_haar",
+    "Hindman168.native_sequential_common_point_cube_limits",
+    "Hindman168.closed_support_measure_mapsTo",
+    "Hindman168.closed_support_homeomorph_invariant",
+    "Hindman168.native_projected_cube_haar_open_pos_iff",
+    "Hindman168.native_projected_cube_symmetry_preserves_coset"
+  ],
+  "declarations": {
+    "Hindman168/NativeCommonSmoothCurve.lean": [
+      [
+        "def",
+        "NativeSmoothActionLimit"
+      ],
+      [
+        "theorem",
+        "native_common_smooth_curve"
+      ]
+    ],
+    "Hindman168/NativeRationalLayerGivenSmoothHaar.lean": [
+      [
+        "theorem",
+        "native_rational_layer_given_smooth_haar"
+      ]
+    ],
+    "Hindman168/NativeResidueCubeGivenSmoothHaar.lean": [
+      [
+        "theorem",
+        "native_residue_cube_given_smooth_haar"
+      ]
+    ],
+    "Hindman168/NativeOriginalGivenPointHaar.lean": [
+      [
+        "theorem",
+        "native_original_given_point_haar"
+      ]
+    ],
+    "Hindman168/NativeOriginalGivenCubeHaar.lean": [
+      [
+        "theorem",
+        "native_original_given_cube_haar"
+      ]
+    ],
+    "Hindman168/NativeSequentialCommonPointCubeLimits.lean": [
+      [
+        "theorem",
+        "native_sequential_common_point_cube_limits"
+      ]
+    ],
+    "Hindman168/ClosedSupportMeasureSymmetry.lean": [
+      [
+        "theorem",
+        "closed_support_measure_mapsTo"
+      ],
+      [
+        "theorem",
+        "closed_support_homeomorph_invariant"
+      ]
+    ],
+    "Hindman168/NativeProjectedCubeSupport.lean": [
+      [
+        "theorem",
+        "native_projected_cube_haar_open_pos_iff"
+      ],
+      [
+        "theorem",
+        "native_projected_cube_symmetry_preserves_coset"
+      ]
+    ]
+  }
+}

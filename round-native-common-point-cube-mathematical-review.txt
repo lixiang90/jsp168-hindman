@@ -1,0 +1,62 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI section 7 local cube law and section 8 conditional face invariance.
+
+The previous point and cube existence theorems separately chose smooth curves.
+Those witnesses cannot be silently identified, even when their input data agree.
+This round makes the genuine uniform action-freezing property explicit as
+NativeSmoothActionLimit, and proves its existence directly from the already
+proved actual sequential smooth-factor theorem. The property is an analytic
+bound on c_n*leftFactors_n(L_n*t) acting on every ORIGINAL quotient point; it
+contains no equidistribution or source oracle. Smoothness is proved separately
+for the chosen witness by the actual parameter construction.
+
+The given-witness point and cube insertion proofs retain their complete original
+scope and reuse the true frozen Haar laws. Point origins and signed rational
+steps are not restricted. Cube base and increments all vary; the dimension and
+box uniformity are unchanged. Their only added interface is the specified
+common h with the exact actual action-freezing estimate. These conditional
+interfaces are discharged in the final original-source theorem.
+
+The two given-witness ORIGINAL laws use exact group factorization, lattice
+membership and periodic RIGHT-coset equality. No lattice normality is assumed.
+The point and cube proofs preserve the same h throughout the residue sums and
+finite eventual intersections. No separate curve extraction occurs in either.
+
+native_sequential_common_point_cube_limits calls
+native_sequential_adapted_periodic_factorization exactly ONCE and
+native_common_smooth_curve exactly ONCE. It then uses those literal same data
+in both given-witness laws. The existing real point law, original floor-window
+mixture theorem, probability weak-limit theorem and continuous-observable
+mixture theorem are applied to the newly proved COMMON point law. They do not
+extract another subsequence. The bounded cube alpha law is derived from the
+COMMON cube radius law. Thus point weak convergence and all required cube
+limits finally refer to one filtration, period, rational representatives, h
+and subsequence, retaining the original ambient step and filtration length.
+
+The support bridge addresses the last paragraph of the paper's conditional
+face-invariance proof. If mu has full support exactly K (tested on opens), K
+is closed and T_*mu=mu, then T maps K into K: otherwise the open complement of
+K has zero mass but its preimage meets K and hence has positive mass. For a
+homeomorphism, inverse pushforward invariance follows by composing with the
+inverse map. Applying the same inclusion to the inverse gives SET equality,
+not merely almost-everywhere preservation or one-sided inclusion.
+
+For an actual cube Haar image and any continuous projection pi into a Hausdorff
+Borel space, map_apply and the proved actual Haar open-positivity theorem show
+that projected opens have positive mass exactly when they meet the projected
+orbit. The projected orbit is compact by the ACTUAL internal compact quotient,
+and is therefore closed. The preceding measure-to-set theorem applies to this
+actual projected Haar measure. It does not assume projected support or a guessed
+coset, and it does not require pi to be injective.
+
+LIMIT: the support bridge is a conditional theorem whose premise is ACTUAL
+projected measure invariance. It does NOT yet prove marginal face invariance.
+Use the existing countable positive-event selection and all-face comparison
+estimates for every fixed modulus before the sequence-selected period, then
+transfer them through the established length-first alpha limits. Only after
+this may one invoke the setwise bridge and attempt the genuine joint-lift
+construction. Joint lifts, weighted-shear recurrence, full Alignment, separate
+arbitrary-input GTZ inverse and final same-color FS/FP remain unfinished.
+No full-target claim; goal ACTIVE; no unavoidable obstruction established.
+Author audit is not independent kernel replay or external peer review. Keep
+the repository PRIVATE as requested by the user.

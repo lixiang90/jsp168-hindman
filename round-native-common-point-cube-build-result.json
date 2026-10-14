@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 16.92200000002049,
+  "log": "round-native-common-point-cube-build.txt",
+  "log_sha256": "e49be1872f992bbce1000f7bce6daefcd26480e01d15b3dfc203c096f213d621"
+}

@@ -5225,3 +5225,19 @@ import Hindman168.CubeStandardAlphaBox
 import Hindman168.NativeOriginalCubeIteratedLimit
 
 import Hindman168.NativeSequentialOriginalAlphaCubeLaw
+
+import Hindman168.NativeCommonSmoothCurve
+
+import Hindman168.NativeRationalLayerGivenSmoothHaar
+
+import Hindman168.NativeResidueCubeGivenSmoothHaar
+
+import Hindman168.NativeOriginalGivenPointHaar
+
+import Hindman168.NativeOriginalGivenCubeHaar
+
+import Hindman168.NativeSequentialCommonPointCubeLimits
+
+import Hindman168.ClosedSupportMeasureSymmetry
+
+import Hindman168.NativeProjectedCubeSupport

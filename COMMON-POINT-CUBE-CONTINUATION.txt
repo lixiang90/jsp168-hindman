@@ -1,0 +1,89 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+PRIVATE repository: https://github.com/lixiang90/jsp168-hindman . Keep PRIVATE.
+Latest round: round-native-common-point-cube. Consult CURRENT-STATUS.txt and
+verification-manifest.json for terminal evidence. Author audit is not peer review.
+
+Eight new modules close the common-witness gap from CUBE-ALPHA-LIMIT-CONTINUATION.txt.
+
+NativeCommonSmoothCurve: NativeSmoothActionLimit D L c as h is the ACTUAL uniform
+action-freezing property of c_n*leftFactors_n(L_n*t) on the original quotient.
+It contains no local Haar or source assumption. native_common_smooth_curve proves
+existence of a smooth h with that property from the real sequential coefficients
+and c_n convergence, using the existing proved smooth parameter construction.
+
+NativeRationalLayerGivenSmoothHaar and NativeResidueCubeGivenSmoothHaar:
+native_rational_layer_given_smooth_haar / native_residue_cube_given_smooth_haar
+retain a GIVEN h with NativeSmoothActionLimit. Their proofs use actual frozen
+Haar laws and original action bounds. Point signed rational progressions and
+cube endpoint/test uniformity are unchanged. They do not choose another h.
+
+NativeOriginalGivenPointHaar / NativeOriginalGivenCubeHaar:
+native_original_given_point_haar / native_original_given_cube_haar prove the
+ORIGINAL residue point law and cube radius law from the same specified h,
+actual factorization, lattice membership and periodic right-coset identities.
+Their source/factorization hypotheses are explicitly discharged by the next
+theorem. The lattice is never assumed normal.
+
+NativeSequentialCommonPointCubeLimits: native_sequential_common_point_cube_limits
+is now the main original-source local-limit entry point. It calls original
+periodic factorization ONCE and native_common_smooth_curve ONCE. It returns one
+f,H,M,sigma,h and ALL of the following on those exact same witnesses:
+- NativeResidueLocalHaarLaw and NativeRealLocalHaarLaw for the ORIGINAL source;
+- NativeCubeLocalHaarLaw and NativeCubeBoundedAlphaHaarLaw for that SAME source;
+- continuity of point-Haar integrals in beta for every residue and continuous test;
+- actual weak probability convergence of the original integer [0,floor(L)) orbit
+  to nativePointMixtureProbability of H,sigma,h;
+- the global mixture integral formula for EVERY continuous complex observable.
+Use the bounded alpha law with native_original_cube_iterated_limit to get the
+explicit length-limsup then alpha->0 formula. No extra subsequence is selected.
+The old separate existence theorems remain unchanged as retained results; the
+new combined proof no longer needs to identify their independent witnesses.
+
+ClosedSupportMeasureSymmetry: closed_support_measure_mapsTo proves that T_*mu=mu
+and continuity imply T(K) subset K when K is closed and exactly the full support
+as characterized by positive mass of opens. The complement argument uses actual
+measure equality, not almost-everywhere membership alone.
+closed_support_homeomorph_invariant derives inverse invariance and proves
+T '' K = K for a homeomorphism. Both directions are proved.
+
+NativeProjectedCubeSupport: native_projected_cube_haar_open_pos_iff says the
+ACTUAL pushforward of nativeResidueCubeHaarImage under ANY continuous projection
+pi is positive on an open U iff U meets range(pi o nativeResidueCubeOrbitMap).
+No injectivity of pi is needed. In a Hausdorff target that range is compact and
+closed. native_projected_cube_symmetry_preserves_coset then turns a PROVED
+homeomorphic projected-measure symmetry into setwise projected-coset preservation.
+These theorems use the native quotient topologies. For maps stated using the
+compatible metrics, transport via nativeNilmanifold_metric_topology, as already
+done in NativeResidueCubeOrbitObservables. Do not assume global Lipschitzness.
+
+NEXT: discharge ACTUAL projected face measure invariance before using that bridge.
+Pinned paper sections/08_alignment.tex, paragraphs around lines 576-605: enumerate
+all fixed positive moduli and rational geometry/test/accuracy budgets FIRST; select
+supported samples in prescribed positive events; only THEN obtain the local-law
+period from the sequence. The selected conditions therefore include that period.
+For each fixed alpha use the actual marginal comparison, then take the length
+limit and finally alpha->0, proving invariance of the projected local Haar measure.
+
+Existing concrete selection APIs:
+- AlignmentNativeCompleteCubeCountableSelection:
+  alignment_native_complete_cube_countable_supported_selection;
+- AlignmentAllTargetsNativeCountableSelection:
+  alignment_all_targets_native_cube_countable_supported_selection, allowing
+  heterogeneous target/model families indexed by each fixed condition;
+- CountablePositiveEventDiagonal.countable_positive_event_diagonal (namespace
+  Hindman168.FiniteMass) is the proved slow-stage construction underneath them;
+- AlignmentNativeCompleteCubePositiveSelection and
+  AlignmentOriginalProductFacePositiveSelection give actual zero-failure limits.
+They keep all endpoint/test quantifiers and allow exposed-key-selected original
+sources. Do not replace their source with an arbitrary model or assume an
+empirical face-invariance oracle. Inspect the exact failure predicate and use its
+proved native/joint-array evaluation identities to instantiate the local law.
+
+The support bridge's measure-invariance premise is NOT discharged in this round.
+After proving it, construct genuine marginal-to-joint lifts as in paper section 7:
+projected face coset preservation -> affine cover action -> filtration lowering
+-> weighted polynomial shear -> common joint lift. The other components may move.
+Then weighted-shear recurrence/full Alignment, separate arbitrary-input GTZ
+interval Gowers LINEAR nilsequence inverse, and final positive distinct rapidly
+separated SAME-color ALL nonempty FS AND FP remain.
+No unavoidable obstruction established. No public PR or prize application yet.

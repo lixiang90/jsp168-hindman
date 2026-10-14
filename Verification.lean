@@ -19327,3 +19327,25 @@ import Hindman168
 #print axioms Hindman168.native_original_cube_iterated_limit
 
 #print axioms Hindman168.native_sequential_original_alpha_cube_law
+
+#print axioms Hindman168.NativeSmoothActionLimit
+
+#print axioms Hindman168.native_common_smooth_curve
+
+#print axioms Hindman168.native_rational_layer_given_smooth_haar
+
+#print axioms Hindman168.native_residue_cube_given_smooth_haar
+
+#print axioms Hindman168.native_original_given_point_haar
+
+#print axioms Hindman168.native_original_given_cube_haar
+
+#print axioms Hindman168.native_sequential_common_point_cube_limits
+
+#print axioms Hindman168.closed_support_measure_mapsTo
+
+#print axioms Hindman168.closed_support_homeomorph_invariant
+
+#print axioms Hindman168.native_projected_cube_haar_open_pos_iff
+
+#print axioms Hindman168.native_projected_cube_symmetry_preserves_coset

@@ -12,13 +12,13 @@ repository and requested PR/prize application at the later milestone.
 The full mathematical objective remains unchanged and ACTIVE.
 StrongConjecture is UNPROVED; no unavoidable obstruction established.
 
-Latest mathematical round: round-native-cube-alpha-limit. Eight new modules
-derive the explicit rounded alpha-box laws with uniform bounded-Lipschitz budgets,
-prove standard-window membership and eventual nonemptiness, and prove the actual
-alpha-down-to-zero limit of the LENGTH limsup against the original cube Haar image.
-The radius and alpha laws share the same original subsequence and factorization.
+Latest mathematical round: round-native-common-point-cube. Eight new modules
+join point and cube laws and the global point-mixture weak limit on ONE original
+subsequence and ONE chosen smooth curve. They also prove actual projected cube
+Haar full support and the measure-invariance-to-setwise-coset implication.
+Actual projected face measure invariance and joint lifts remain unfinished.
 Consult CURRENT-STATUS.txt and verification-manifest.json for terminal audit
-status, and CUBE-ALPHA-LIMIT-CONTINUATION.txt for exact next proof work.
+status, and COMMON-POINT-CUBE-CONTINUATION.txt for exact next proof work.
 
 README.md contains portable setup and continuation instructions.
 scripts/verify_snapshot.py verifies exact canonical source hashes and,

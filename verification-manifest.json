@@ -9,11 +9,11 @@
   "files": [
     {
       "path": "Hindman168.lean",
-      "sha256": "3b5fa59dea7fb30a9955f0e3f8c9fec92ac1bcf009e2b8cca82117c9753012f7"
+      "sha256": "c033bcb346b02404fff40f64123a6558c8c9fe486291fadc681146c42c293431"
     },
     {
       "path": "Verification.lean",
-      "sha256": "0711889f094cbea4fbfc66a78e59ea5c78eb2b2525f453d1401371778f2caea4"
+      "sha256": "8adedb40cdbd0dfa38e1fc49efff622a062aa7bb51e9055540e35374bb9aa41e"
     },
     {
       "path": "lean-toolchain",
@@ -12114,6 +12114,38 @@
     {
       "path": "Hindman168/NativeSequentialOriginalAlphaCubeLaw.lean",
       "sha256": "a3d6539dd3d9e522b2c2dac9543556e837d7cefb52d3fbedfa9bc5468ccc2ed9"
+    },
+    {
+      "path": "Hindman168/NativeCommonSmoothCurve.lean",
+      "sha256": "8fda006240acef14c9b5fc4777cf68f9f427c453ed53ca70cca5e701b16a735d"
+    },
+    {
+      "path": "Hindman168/NativeRationalLayerGivenSmoothHaar.lean",
+      "sha256": "ae6ac5cc7c8b99523462fd651056cf25bfe9315589da05bcb01ee325d8d2ee9e"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeGivenSmoothHaar.lean",
+      "sha256": "4342e81a876094360ab832af531698496f6d2849deb43bd61475917272bdaa95"
+    },
+    {
+      "path": "Hindman168/NativeOriginalGivenPointHaar.lean",
+      "sha256": "c4ed90201dafa538e92ead4956482f8eafa902be8c2b8c2617f7ff52c801cbfd"
+    },
+    {
+      "path": "Hindman168/NativeOriginalGivenCubeHaar.lean",
+      "sha256": "a19c61a2538b673d40b2009b9d0e98b97af92927b2d77feabef32a899a3bdd6d"
+    },
+    {
+      "path": "Hindman168/NativeSequentialCommonPointCubeLimits.lean",
+      "sha256": "40f6bfef3231616997a632c626cde105f998b6a0ec431d1f4665d65dbbe37411"
+    },
+    {
+      "path": "Hindman168/ClosedSupportMeasureSymmetry.lean",
+      "sha256": "406e632f6c1a3fbeca5916981277a587838b2f2330ff712d61d2f64e1f555451"
+    },
+    {
+      "path": "Hindman168/NativeProjectedCubeSupport.lean",
+      "sha256": "036b3eeefb7d6a9c96f34dd55d5d873765f859e69d3436458a90f1a33bc4a69c"
     }
   ],
   "proved_components": [
@@ -14715,25 +14747,31 @@
     "Proved the actual iterated limsup implication from nonnegative epsilon/eventual local control. Eventual boundedness and lower coboundedness are discharged explicitly, and the result is Tendsto of the LENGTH limsup as alpha tends to zero FROM ABOVE, not a diagonal substitute.",
     "Constructed the exact standard alpha base/increment boxes, proved their geometry and eventual NONEMPTINESS at every fixed positive alpha and modulus, and proved exact membership equivalence with the paper normalized half-open windows and residue conditions.",
     "Proved native_original_cube_iterated_limit: the actual original-source empirical cube discrepancy against its ACTUAL Haar image has length limsup tending to zero as alpha decreases to zero, for each fixed bounded-Lipschitz test, dimension through ORIGINAL s+1 and permitted fixed progression.",
-    "Combined the radius and bounded-test alpha laws for the ORIGINAL adapted sequence on the SAME subsequence, subgroup filtration, period, rational residues and smooth curve. This directly supplies the hypotheses of the proved iterated-limit theorem without any source or Haar oracle."
+    "Combined the radius and bounded-test alpha laws for the ORIGINAL adapted sequence on the SAME subsequence, subgroup filtration, period, rational residues and smooth curve. This directly supplies the hypotheses of the proved iterated-limit theorem without any source or Haar oracle.",
+    "Defined the genuine NativeSmoothActionLimit of the actual sequential smooth factors and proved existence of ONE smooth witness from their actual convergence. It contains only the original uniform action-freezing estimate, not a point/cube/source/Haar oracle.",
+    "Proved point and cube smooth-insertion laws for a GIVEN common smooth-action witness. Both use the same h and actual factors; each discharges the original local estimates from the genuine freezing property and existing frozen Haar laws.",
+    "Proved the ORIGINAL point and cube residue laws while RETAINING that given h. Exact original factorization and periodic right-coset identities are used, with no identification of independently chosen existential witnesses.",
+    "Proved native_sequential_common_point_cube_limits by invoking the original periodic factorization ONCE and the actual common smooth-curve theorem ONCE. The SAME subsequence, filtration, period, rational representatives and h supply point residue/real laws, cube radius/bounded-alpha laws, continuous point-Haar integrals, actual global point-mixture weak probability convergence and the mixture formula for EVERY continuous complex observable.",
+    "Proved that a continuous measure-preserving map sends a closed full-support set into itself, and a measure-preserving homeomorphism preserves it SETWISE. Invariance of the inverse map is derived from the actual pushforward equality, not separately assumed.",
+    "Proved the ACTUAL projected cube Haar image is positive on exactly the opens meeting the projected compact cube orbit. Consequently a proved homeomorphic symmetry of that projected measure preserves the projected cube coset setwise. This supplies the measure-to-set bridge required by the marginal face-lift argument; the actual face measure-invariance premise remains to be discharged."
   ],
-  "hindman_module_count": 2961,
+  "hindman_module_count": 2969,
   "pntplus_module_count": 9,
-  "selected_axiom_report_count": 11434,
+  "selected_axiom_report_count": 11445,
   "pntplus_commit": "747e480362ef6a0a7341055a84372333d72fa62a",
-  "build_log": "round-native-cube-alpha-limit-build.txt",
-  "axiom_log": "round-native-cube-alpha-limit-axioms.txt",
-  "source_scan_module_count": 3012,
-  "build_job_count": 7003,
+  "build_log": "round-native-common-point-cube-build.txt",
+  "axiom_log": "round-native-common-point-cube-axioms.txt",
+  "source_scan_module_count": 3020,
+  "build_job_count": 7011,
   "last_round": {
     "classification": "PROGRESS",
     "new_module_count": 8,
-    "new_theorem_count": 14,
-    "new_selected_report_count": 19,
+    "new_theorem_count": 10,
+    "new_selected_report_count": 11,
     "retained_proof_sources_changed": false,
     "root_and_registry_changed": true,
-    "review_file": "round-native-cube-alpha-limit-review.json",
-    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The ORIGINAL-source cube law now includes explicit rounded alpha-scale boxes, uniform fixed bounded-Lipschitz test budgets, exact standard-window membership and eventual nonemptiness, and the actual alpha-down-to-zero limit of the LENGTH limsup. All cube dimensions through ORIGINAL s+1 share one subsequence and factorization data. Remaining: join the existing point and cube laws on the SAME factorization and smooth curve, then the joint point-mixture law; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
+    "review_file": "round-native-common-point-cube-review.json",
+    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Point and cube local laws, bounded alpha laws, continuous Haar families and the actual global point-mixture weak limit now share ONE original subsequence and ONE factorization/smooth curve. Projected cube Haar full support and the measure-symmetry-to-setwise-coset bridge are proved. Remaining: transfer the actual countably selected marginal face comparison estimates through length-first local limits to PROVE projected face measure invariance, then use the support bridge; genuine marginal-to-joint lifts and weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
   },
   "attributed_szemeredi_module_count": 42
 }
