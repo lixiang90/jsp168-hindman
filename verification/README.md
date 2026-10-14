@@ -21,10 +21,12 @@ analytic inputs; it does not replace or broaden the original snapshot audit.
    statement. `finite_iff_strong` is proved, but neither side is yet proved
    unconditionally. See [finite-to-strong](finite-to-strong/README.md).
 
-The existing `exists_masterParameterFamily` constructs admissible master
-parameters under its explicit positivity/nonzero input conditions. The
-remaining work must choose compatible data with the required quantifier
-order, rather than replace either analytic principle by a new assumption.
+The conditional `FinalStrongFromPrinciples` endpoint now eliminates all
+Ramsey, master-parameter, first-order inverse and count-extraction inputs.
+It assumes exactly the higher-order native inverse family and
+`HasUniformSelectedPrincipalAlignment`; see
+[local coverage and the final conditional endpoint](local-route-coverage/README.md).
+Both analytic principles still need unconditional completion.
 
 ## Exact remaining analytic nodes
 
@@ -84,24 +86,28 @@ integer-slot word readings, and a recurrence-produced closed cover are now
 proved; exact fine-to-outside harmonic conditioning is also verified. See
 [concrete route interfaces](concrete-joint-route-interfaces/README.md).
 
-The remaining realization chain is:
+The actual local geometric failure-mass step is now proved in
+[local route coverage](local-route-coverage/README.md): from the original
+represented functions, extraction from EVERY cofinal positive failure event
+and the same joint mixture imply that uniform microcell route coverage is
+at least `3/(4 Q)` outside a set of original full raw mass tending to zero.
+The literal prelimit native/raw events agree at every microcell point. All
+models, arrays, recipes and bases are constructed; no Haar or coverage
+hypothesis remains in this local endpoint. The padding-gap/principal-cutoff
+geometry and exact uniform-to-harmonic transfer are audited in
+[selected gap geometry](selected-gap-geometry/README.md).
 
-- Instantiate the proved closed/open threshold and Portmanteau argument
-  with the selected geometry to obtain good fine-conditioning coverage.
-  The padding-gap/principal-cutoff separation, original full-raw source,
-  actual per-key recipes, restricted common catalogue symmetries, and exact
-  uniform-to-harmonic microcell transfer are now proved in
-  [selected gap geometry](selected-gap-geometry/README.md).
-  Prove bad mass vanishes by extraction from every cofinal positive bad event,
-  rather than from one chosen subsequence.
-- Supply secured local thresholds along the actual future-protected paths,
-  then apply the proved event identification, harmonic extension and finite
-  pivot mass product. Stronger prelimit Boolean-palette equality is not a
-  necessary input.
-- Assemble the uniform principle with the actual finite prediction-scale
-  schedule and a positive lower bound fixed before models, padding,
-  complexity and threshold. Promote a zero step before choosing the plan
-  if the shear times slot action needs positive step.
+The remaining uniform-principle assembly is:
+
+- Apply the proved harmonic-cell transfer and fine-to-outside conditioning
+  to the actual local route events; remove the finite route-shift boundary.
+- Supply secured thresholds along the actual future-protected path
+  partition and apply the existing event identification and finite-pivot
+  mass product.
+- Construct one compatible finite prediction-scale schedule and common
+  clearing integer, with positive lower bound fixed before models, padding,
+  complexity and threshold. The local recurrence now handles zero native
+  step by choosing recurrence step `s+1` before models.
 
 The exact `HasAlignmentMonomialRecurrence s` input is already proved for
 all `s` by the original OpenAI PET proof. The canonical finite-word plan
