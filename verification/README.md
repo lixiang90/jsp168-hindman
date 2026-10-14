@@ -70,16 +70,23 @@ for every fixed shear/word. The actual integer point-orbit empirical
 probabilities also have their retained mixture weak limit. See
 [native joint geometry](native-joint-geometry/README.md).
 
+The finite-route closed/open mass deduction, exact same-joint frozen-piece
+readings, original-master harmonic shift removal and abstract conditional
+pivot product are now verified in
+[principal native mass](principal-native-mass/README.md).
+
 The remaining realization chain is:
 
 - Feed the concrete Alignment slot transformations and the proved target
   symmetries into those common-coordinate lift theorems, then interpret the
   finite recurrence routes and actual frozen-piece readings on that same
   joint space.
-- Derive the concrete `PrincipalSumAlignmentEvent` mass using the paper's
-  closed/open threshold comparisons and Portmanteau transfer, then complete
-  the conditional pivot iteration and integer harmonic shift removal.
-  Stronger prelimit Boolean-palette equality is not a necessary input.
+- Instantiate the proved closed/open threshold and Portmanteau argument
+  to obtain good-conditioning shifted success with vanishing bad mass.
+  Prove future-scale/path preservation and identify the final path event
+  with `PrincipalSumAlignmentEvent`, then apply the proved harmonic
+  extension and finite-pivot mass product. Stronger prelimit Boolean-palette
+  equality is not a necessary input.
 - Assemble the uniform principle with finite scales and a positive lower
   bound chosen before models, padding, complexity and threshold.
 

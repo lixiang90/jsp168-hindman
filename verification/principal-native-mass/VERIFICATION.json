@@ -1,0 +1,15 @@
+{
+  "lean": "4.32.2",
+  "modules": 17,
+  "audited_declarations_including_generated": 139,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "focused_build_jobs": 6481,
+  "build_exit_code": 0,
+  "audit_exit_code": 0,
+  "source_hash_mismatches": [],
+  "full_target_proved": false
+}

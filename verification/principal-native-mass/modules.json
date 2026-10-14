@@ -1,0 +1,19 @@
+[
+  "Hindman168.PositivePrincipalSumNativeIndices",
+  "Hindman168.PositivePrincipalSumNativeAdapter",
+  "Hindman168.PositivePrincipalSumNativePalette",
+  "Hindman168.PositivePrincipalSumNativeEvent",
+  "Hindman168.PositivePrincipalSumNativeReadings",
+  "Hindman168.PositivePrincipalSumMassCover",
+  "Hindman168.PositivePrincipalSumMassThresholds",
+  "Hindman168.PositivePrincipalSumMassDeduction",
+  "Hindman168.PositivePrincipalSumMassJointHaar",
+  "Hindman168.PositivePrincipalSumMassPlanOptions",
+  "Hindman168.PositivePrincipalSumPivotConditioning",
+  "Hindman168.PositivePrincipalSumPivotTranslation",
+  "Hindman168.PositivePrincipalSumPivotPaths",
+  "Hindman168.PositivePrincipalSumPivotIteration",
+  "Hindman168.PositivePrincipalSumPivotBoundary",
+  "Hindman168.PositivePrincipalSumPivotMasterBoundary",
+  "Hindman168.PositivePrincipalSumPivotMasterExtension"
+]
