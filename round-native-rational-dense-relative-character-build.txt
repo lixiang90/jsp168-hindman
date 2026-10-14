@@ -1,0 +1,4 @@
+✔ [6392/6395] Built Hindman168.NativeRationalDegreeTwoDenseRelativeCharacter (13s)
+✔ [6393/6395] Built Hindman168.NativeRationalPureDiagonalReconstruction (13s)
+✔ [6394/6395] Built Hindman168 (12s)
+Build completed successfully (6395 jobs).

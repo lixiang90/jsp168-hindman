@@ -1,0 +1,34 @@
+{
+  "baseline_hashes_verified_before_edits": 590,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "retained_proof_sources_unchanged": true,
+  "pins_and_attributed_sources_unchanged": true,
+  "root_imports_exact": true,
+  "registered_names_exact": true,
+  "kernel_names_exact": true,
+  "full_target_proved": false,
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4445,
+    "project_modules": 578,
+    "pntplus_modules": 9,
+    "source_scan_modules": 587,
+    "axiom_reports": 2854,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 596,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  }
+}

@@ -1,0 +1,26 @@
+from pathlib import Path
+import json
+
+v = json.loads(Path('round-exposed-joint-log-checks.json').read_text(encoding='utf-8'))
+assert not v['full_target_proved']
+p = Path('CONTINUATION.txt')
+s = p.read_text(encoding='utf-8').replace('Current batch: round-array-log-recovery',
+    'Earlier batch: round-array-log-recovery')
+start = s.index('Immediate next algebra work:')
+end = s.index('The uniform rough-step theorem', start)
+s = s[:start] + f'''Current batch: round-exposed-joint-log, verified 2026-10-11. Seven modules, {v['new_theorems']} theorems, {v['new_definitions']} definitions; full build ({v['build_jobs']} jobs), {v['selected_axiom_reports']} selected transitive axiom reports, {v['project_modules']} project modules. Retained sources and axiom sets are unchanged, standard axioms only, all six pinned paper sections match their Git objects. This is author-side verification, not independent kernel replay.
+- AlignmentCubeModelParameters gives affine real base C(Y+(r-rv)/M)+X+(s/M)*t and increment q/M-(rho/M)*t, each degree <=1. Exact and integral evaluation follow from M*k=r+t*s-rv and M*Delta=q-t*rho.
+- AlignmentJointCubeParameters directly substitutes X=x0+sum weight_j*x_j and t=product_j(t_j), with variables Sum(Option kappa) tau. The resulting base has total degree <=max(1,card T), each increment <=card T. Empty T works. No generic bind-degree lemma is needed. Use simp only [totalDegree_C,totalDegree_X] when proving coefficient times variable bounds, since broad simp rewrites C of a cast into a polynomial cast.
+- AlignmentCanonicalModelParameters evaluates those joint polynomials at the actual transformed cube base and increments tau*inc, plus original natural tail variables. Base integrality is discharged by alignment_cube_residue_correction_exact; increment integrality by alignmentPairProgression_exact with own-target filtering. Nested cast simplification needs Int.cast_prod as well as Nat.cast_prod.
+- AlignmentExposedJointParameters uses actual short-bin INTEGER quotient Y and pivot residues from the exposure anchor. Both polynomials are equal on a complete exposure fiber (base uses T earlier than pivot, roughness, and master conditions); degree bounds hold without coefficient bounds.
+- AlignmentExposedJointEvaluation evaluates polynomials frozen at x at every admissible y with the same exposure key and any signed origin p in the exposed pivot residue class. The origin affects transformed evaluation coordinates, not polynomial coefficients. Base equals the exact integer cube-vertex-plus-residue-correction exponent; increments equal own-target filtered canonical Delta.
+- AlignmentNativeCanonicalCubeArray constructs an actual array via the proved original nativeModelArray membership. At EVERY integer array slot z its value equals g^(alignmentIntegerArrayArgument / M)*b with the original numerical argument. This identity only requires positive modulus and allows signed cube coordinates. The local instance attribute alignmentAddingPairFintype selects the established canonical enumeration. Directly unfolding alignmentNativeModelArray avoids rw issues with its lambda evaluation lemma.
+- AlignmentNativeExposedJointLog constructs the actual exposed joint array logarithm polynomial for every real linear coefficient-log coordinate. Its evaluation equals L(coefficientLog(canonicalCubeArray)), its polynomial is unchanged on the exposure fiber, and total degree <=(s*s+1)^(s+1)*max(1,card T), uniform in coefficient sizes, samples, origin, and selected evaluation count. The nilsystem elements g,b and L remain fixed inputs.
+
+Review: pinned 08_alignment lines 496-509 now have explicit ORIGINAL individual array-log coordinate polynomials jointly in transformed cube coordinates and separate tail variables, with exact original array identity and integrality. The previous recovery theorem is used, not assumed target log polynomiality. This does not assert that arbitrary real input polynomials land in the actual array group; the required identity holds at admissible integer sample points. It does not assert that an arbitrary smooth observable is polynomial.
+
+Immediate next work: do not redo individual original array joint polynomiality. Package the finitely many stored native array readings/vertices into the joint group if needed, and connect actual face observables and counting to their conditional marginal cube laws. The main remaining analytic bridge is 06_rough_progressions. A fresh read confirms its structure: corrected quantitative Leibman input; tiling to box form and factorial-denominator conversion; stretched-filtration polynomiality; exact division after interpolation with H-independent analytic constants; dimension induction along smooth-difference bad progressions; density-to-progression reduction by finite Szemeredi. No rough-step/Leibman module was found by file search. Existing RoughDenominatorUnits supplies smooth/fixed denominator coprimality and SmoothRoughIntegerParts proves actual primorial-power divisibility, potentially useful for interpolation's rational exactness. Read the later section 06 proof before choosing the next sublemma. Do not claim pointwise convergence establishes the needed full uniformity.
+
+''' + s[end:]
+p.write_text(s, encoding='utf-8')
+print('Updated continuation checkpoint from verified counts.')

@@ -1,0 +1,2 @@
+✔ [5055/5055] Built Hindman168.SelectedColorNativeTestingModelsCapped (17s)
+Build completed successfully (5055 jobs).

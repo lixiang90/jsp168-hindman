@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 118.35999999986961,
+  "log": "round-central-subspace-quotient-build.txt",
+  "log_sha256": "fe0f22acf2ff97903591a1327ad98aa79714520da2f4255d3e8b3e91bf4d9f91"
+}

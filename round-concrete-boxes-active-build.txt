@@ -1,0 +1,5 @@
+⚠ [4080/4080] Built Hindman168.PredictionConcreteBoxes (14s)
+warning: Hindman168/PredictionConcreteBoxes.lean:164:2: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Build completed successfully (4080 jobs).

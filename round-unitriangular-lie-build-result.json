@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\A\\.elan\\bin\\lake.EXE",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 13.108,
+  "log": "round-unitriangular-lie-build.txt",
+  "log_sha256": "9722589d65f0a247337ee9a668583b607c70a8e8fb2b798c329726a72101ee72",
+  "process_terminal": true
+}

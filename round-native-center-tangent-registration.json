@@ -1,0 +1,76 @@
+{
+  "baseline_hashes_verified_before_registration": 850,
+  "new_modules": [
+    "Hindman168/HomeomorphSingletonDifferential.lean",
+    "Hindman168/NativeCenterQuotientLieBracket.lean",
+    "Hindman168/NativeCenterQuotientNativeExponential.lean",
+    "Hindman168/NativeCenterQuotientNativeLogarithm.lean",
+    "Hindman168/NativeCenterQuotientRationalSpan.lean",
+    "Hindman168/NativeCenterQuotientSeparation.lean",
+    "Hindman168/NativeCenterQuotientTangent.lean",
+    "Hindman168/NativeSmoothHomAdjoint.lean",
+    "Hindman168/NativeSmoothHomAdjointCurve.lean",
+    "Hindman168/NativeSmoothHomLieBracket.lean"
+  ],
+  "names": [
+    "Hindman168.homeomorphSingleton_hasMFDerivAt",
+    "Hindman168.homeomorphSingleton_mfderiv",
+    "Hindman168.nativeCenterQuotient_generator_projection",
+    "Hindman168.nativeCenterQuotient_bracket_projection",
+    "Hindman168.nativeCenterQuotient_nativeExponential_projection",
+    "Hindman168.nativeCenterQuotient_coordinateExponential_eq_native",
+    "Hindman168.nativeCenterQuotient_nativeLogarithm_projection",
+    "Hindman168.nativeCenterQuotient_coordinateLogarithm_eq_native",
+    "Hindman168.nativeCenterQuotient_logarithm_image",
+    "Hindman168.nativeCenterQuotient_rationalLogSpan_map",
+    "Hindman168.nativeCenterQuotient_t2Space",
+    "Hindman168.nativeCenterQuotient_mfderiv_eq_projection",
+    "Hindman168.nativeCenterQuotient_mfderiv_ker",
+    "Hindman168.nativeSmoothHom_adjoint_intertwine",
+    "Hindman168.nativeSmoothHom_adjointCurve_hasDerivAt",
+    "Hindman168.nativeSmoothHom_generator_intertwine",
+    "Hindman168.nativeSmoothHom_bracket"
+  ],
+  "module_report_counts": {
+    "HomeomorphSingletonDifferential": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeCenterQuotientLieBracket": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeCenterQuotientNativeExponential": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeCenterQuotientNativeLogarithm": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeCenterQuotientRationalSpan": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeCenterQuotientSeparation": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NativeCenterQuotientTangent": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeSmoothHomAdjoint": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NativeSmoothHomAdjointCurve": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NativeSmoothHomLieBracket": {
+      "theorems": 2,
+      "selected_declarations": 2
+    }
+  }
+}

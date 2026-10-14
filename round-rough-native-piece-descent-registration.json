@@ -1,0 +1,132 @@
+{
+  "modules": [
+    "Hindman168/UniformFiniteExpectationCongruence.lean",
+    "Hindman168/RoughDependentRescaledSelection.lean",
+    "Hindman168/RoughNativeRescaledPieceSelection.lean",
+    "Hindman168/RoughBalancedRescaledGeometry.lean",
+    "Hindman168/RoughNativeDescentPolynomial.lean",
+    "Hindman168/RoughNativeModelDescentPolynomial.lean",
+    "Hindman168/RoughRescaledPieceGeometry.lean",
+    "Hindman168/RoughNativePieceDescent.lean",
+    "Hindman168/RoughFiniteLabelThinning.lean",
+    "Hindman168/RoughJointProgressionPolynomial.lean",
+    "Hindman168/RoughPieceDescentThresholds.lean",
+    "Hindman168/RoughNativeKernelLabelThinning.lean",
+    "Hindman168/RoughNativeModelPieceDescent.lean"
+  ],
+  "names": [
+    "Hindman168.FiniteMass.uniformFinsetMass_expectation_congr",
+    "Hindman168.rough_dependent_rescaled_selection",
+    "Hindman168.rough_native_rescaled_piece_selection",
+    "Hindman168.rough_balanced_piece_minimum_side",
+    "Hindman168.rough_balanced_rescaled_side_bounds",
+    "Hindman168.rough_balanced_rescaled_position_bound",
+    "Hindman168.rough_native_descent_polynomial",
+    "Hindman168.rough_native_model_descent_polynomial",
+    "Hindman168.rough_residue_endpoint_scaled_bound",
+    "Hindman168.rough_rescaled_piece_geometry",
+    "Hindman168.rough_native_piece_descent",
+    "Hindman168.rough_finite_label_thinning",
+    "Hindman168.rough_smooth_progression_reparametrization",
+    "Hindman168.rough_joint_progression_polynomial",
+    "Hindman168.rough_piece_descent_thresholds",
+    "Hindman168.rough_native_kernel_label_thinning",
+    "Hindman168.rough_native_model_piece_descent"
+  ],
+  "declarations": {
+    "Hindman168/UniformFiniteExpectationCongruence.lean": [
+      [
+        "theorem",
+        "uniformFinsetMass_expectation_congr"
+      ]
+    ],
+    "Hindman168/RoughDependentRescaledSelection.lean": [
+      [
+        "theorem",
+        "rough_dependent_rescaled_selection"
+      ]
+    ],
+    "Hindman168/RoughNativeRescaledPieceSelection.lean": [
+      [
+        "theorem",
+        "rough_native_rescaled_piece_selection"
+      ]
+    ],
+    "Hindman168/RoughBalancedRescaledGeometry.lean": [
+      [
+        "theorem",
+        "rough_balanced_piece_minimum_side"
+      ],
+      [
+        "theorem",
+        "rough_balanced_rescaled_side_bounds"
+      ],
+      [
+        "theorem",
+        "rough_balanced_rescaled_position_bound"
+      ]
+    ],
+    "Hindman168/RoughNativeDescentPolynomial.lean": [
+      [
+        "theorem",
+        "rough_native_descent_polynomial"
+      ]
+    ],
+    "Hindman168/RoughNativeModelDescentPolynomial.lean": [
+      [
+        "theorem",
+        "rough_native_model_descent_polynomial"
+      ]
+    ],
+    "Hindman168/RoughRescaledPieceGeometry.lean": [
+      [
+        "theorem",
+        "rough_residue_endpoint_scaled_bound"
+      ],
+      [
+        "theorem",
+        "rough_rescaled_piece_geometry"
+      ]
+    ],
+    "Hindman168/RoughNativePieceDescent.lean": [
+      [
+        "theorem",
+        "rough_native_piece_descent"
+      ]
+    ],
+    "Hindman168/RoughFiniteLabelThinning.lean": [
+      [
+        "theorem",
+        "rough_finite_label_thinning"
+      ],
+      [
+        "theorem",
+        "rough_smooth_progression_reparametrization"
+      ]
+    ],
+    "Hindman168/RoughJointProgressionPolynomial.lean": [
+      [
+        "theorem",
+        "rough_joint_progression_polynomial"
+      ]
+    ],
+    "Hindman168/RoughPieceDescentThresholds.lean": [
+      [
+        "theorem",
+        "rough_piece_descent_thresholds"
+      ]
+    ],
+    "Hindman168/RoughNativeKernelLabelThinning.lean": [
+      [
+        "theorem",
+        "rough_native_kernel_label_thinning"
+      ]
+    ],
+    "Hindman168/RoughNativeModelPieceDescent.lean": [
+      [
+        "theorem",
+        "rough_native_model_piece_descent"
+      ]
+    ]
+  }
+}

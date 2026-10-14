@@ -1,0 +1,33 @@
+{
+  "baseline_hash_count": 1073,
+  "modules": [
+    "Hindman168/WeightedDualApproximation.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean_sample_variance_le",
+    "Hindman168.weightedHaar_exists_sample_L2",
+    "Hindman168.weightedHaar_discard_unit_factor",
+    "Hindman168.weighted_subgroupDualFunction_exists_approximation"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/WeightedDualApproximation.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_sample_variance_le"
+      ],
+      [
+        "theorem",
+        "weightedHaar_exists_sample_L2"
+      ],
+      [
+        "theorem",
+        "weightedHaar_discard_unit_factor"
+      ],
+      [
+        "theorem",
+        "weighted_subgroupDualFunction_exists_approximation"
+      ]
+    ]
+  }
+}

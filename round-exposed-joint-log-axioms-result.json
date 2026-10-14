@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.5,
+  "log": "round-exposed-joint-log-axioms.txt",
+  "log_sha256": "a88fe0a774bfdeb394726f9b12f85fad544de91c32f7154e98e5df55576ca892"
+}

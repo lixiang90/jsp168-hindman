@@ -1,0 +1,185 @@
+2026-10-13 GENUINE FREEZING / SHORT PROGRESSION / UNIT CHILD SIGNAL COMPLETED in author-audited registered Lean state.
+Actual complex Fourier scalar/error/sample freezing; true balanced complex
+residue partition and original-scale length; constant integer rational
+coset; genuine large frozen mean / ZERO child Haar mean; exact standard
+progression/source weights/degree/strict smaller nonlinearity; true compact
+UNIT detection / one positive finite-M/residue threshold are now PROVED.
+NativeRationalNonlinearityChildSignal selects actual highest j/y/q and
+block/UNIT budgets BEFORE all bounded M/raw p/N for each fixed valid chi.
+It derives genuine smaller-source Unit-cube discrepancy from ACTUAL Q
+bounds plus SAME original signal, with source-independent original threshold/
+child length and retained exact original factor/progression relationships.
+No same-degree child inverse is assumed. Full original inverse/target open.
+
+NEXT: finite simultaneous geometry/threshold budgeting over ORIGINAL finite
+CHARACTER pool; actual child-character source coefficient transport to BOTH
+full ORIGINAL tables; genuine degree+nonlinearity induction / small-N.
+See NATIVE-CHILD-INDUCTION-CONTINUATION.txt (concrete PLAN, NOT proof).
+Below is retained older PLAN; completed proof references supersede old
+open-status descriptions. Goal ACTIVE; no unavoidable obstruction found.
+
+2026-10-13 ACTUAL CONJUGATE / RIGHT QUOTIENT / HAAR MILESTONE COMPLETED in author-audited registered Lean state.
+True conjugated K source with original degree; ALL-real right-ordered
+factorization; SAME original Fourier packet / actual whole-sample finite
+right residues; correct different-quotient right homeomorphism/metric/
+native data/rational filtration; ACTUAL canonical Haar agreement; unit
+right pullback; frozen Fourier compact bounded ZERO-Haar-mean observable
+family and sample formula; original horizontal/grid character transport
+are now PROVED. See latest CURRENT-STATUS and mathematical review.
+
+CONJUGATE-SOURCE plan stages 1--9 and character/grid part of 13 are complete.
+Finite simultaneous geometry/period budgeting, actual compact-family
+freezing error, short residue progression / large child mean / length,
+unit-family detection, full original coefficient transfer and induction
+remain OPEN. Current next concrete plan is CORRELATION-FREEZING-CONTINUATION.txt.
+Below is retained prior PLAN. Completed proof references supersede its old
+open descriptions; remaining plan is NOT a proof. Goal ACTIVE.
+
+JSP-000168 continuation after actual small/rational factors, 2026-10-13.
+Concrete PLAN ONLY, not a formal theorem. Goal ACTIVE; full target OPEN.
+
+Current latest intended audit: round-native-rational-small-rational-factors.
+All audit steps must finish before treating registration as verified.
+
+Actual next source construction
+1. For actual scalar R with natDegree<=j, convert it to Unit Mv polynomial
+   via (MvPolynomial.uniqueAlgEquiv Real Unit).symm. Actual mathlib helpers
+   coeff_uniqueAlgEquiv_symm and eval2_const_uniqueAlgEquiv_symm are in
+   Mathlib/Algebra/MvPolynomial/Equiv.lean. Prove true totalDegree<=j and
+   actual scalar polynomial/evaluation round trips; do not assume them.
+2. Along actual y in Lj form r=[(R_mv,y)] and r_inv=[(R_mv,-y)]. Their
+   ACTUAL old L weights follow from degree<=j and L.antitone. They are
+   NOT claimed K-weighted. Actual K.layer<=L.layer transports pK weights.
+3. Form ACTUAL native product u=(r*pK)*r_inv using
+   roughNativeProductMvPolynomial twice. native_rational_product_polynomial_weighted
+   proves old L weights. native_rational_product_horizontal_projection
+   shows actual F(u)=F(r)+F(pK)+F(r_inv)=F(pK). The cancellation is an
+   equality of actual scalar Mv polynomials, not a raw list cancellation.
+4. K-weighted pK has actual F scalar degree<=1: K.layer(2) lies in ker F
+   and native_rational_functional_scalar_degree at j=1 supplies it.
+   Apply native_rational_kernel_collected_polynomial_weighted_degree to u,
+   constructing pK'=nativeRationalKernelCollectedPolynomial D u with TRUE
+   K weights and original degree ell. Original aggregate coefficients and
+   zero trimming retain true cancellation. No same-degree inverse assumed.
+5. Actual product evaluation + Exp/Log inverse prove ALL real samples
+   gK'=gamma*gK*gamma^-1 and g=epsilon*gK'*gamma, with the exact group order.
+   True finite Gamma right-coset residues can then replace gamma on the
+   RIGHT of gK'. Before that, gamma coset periodicity alone is insufficient.
+
+Correct quotient and native data
+6. Existing roughConjugateSubgroup Gamma rho is actual rho*Gamma*rho^-1.
+   Define quotient right map [x]_Gamma_rho -> [x*rho]_Gamma by actual
+   Quotient.lift, with relation verified using roughConjugateSubgroup_mem_iff.
+   Its inverse is [x]_Gamma -> [x*rho^-1]_Gamma_rho. Prove both identities,
+   continuity by continuous_quot_lift, equivariance under original LEFT G
+   action, and homeomorphism. Do not define right action on original quotient.
+7. Pull original D.metric back via this genuine homeomorphism (injective
+   metric pullback) and PROVE induced topology/metric quotientMap. Copy
+   same E/H/I/G and all native fields; use genuine conjugate lattice
+   discreteness/compactness. Existing NativeNilmanifoldData constructor
+   does not supply arbitrary conjugation data automatically.
+8. For actual rational rho=Exp((m/M)*y), original rational log span equals
+   conjugate log span by RoughNativeConjugateLogSpan. Rebuild actual K
+   rational filtration over new data; same ideals are invariant under true
+   adjoint action. Establish all rationality/weight identifications explicitly.
+9. Existing native_nilmanifold_invariant_probability_unique proves uniqueness
+   of actual invariant probability. Push conjugated native quotient probability
+   through actual equivariant right homeomorphism; prove it is a probability
+   and invariant, hence equals original native probability. This gives genuine
+   Haar integral transport. Left epsilon(base) translation preserves actual
+   probability by native_nilmanifold_probability_integral_translation.
+   Use actual metric/Borel compatibility; no assumed measure identification.
+
+Analytic and induction prerequisites
+10. Select highest direction/lattice power ONCE for each actual chi in fixed
+    finite C, then uniform period/geometry budgets over chi and M<=S. Existing
+    scalar period family has M*q representatives for actual q; uniform q
+    budget has not yet been selected. All budgets must precede raw p/N.
+11. Actual error E value is bounded and variation on H-long real intervals is
+    <=(j+1)^2*A*H/(M*N). Freeze epsilon(base) using actual compact parameter
+    family and continuity of native group action on original compact quotient.
+    D.metric is arbitrary compatible metric; do not assume globally Lipschitz
+    group action. Construct true uniform-continuity error and unit-observable
+    approximation/detection budgets before every source.
+12. Partition original actual N samples into genuine short residue progressions.
+    Prove one child mean remains large after controlling freezing error/tails,
+    zero Haar mean of actual nonzero terminal Fourier projection under the
+    above transfers, and actual child length>=tau*N. Only then invoke true
+    well-founded induction on (degree, sum_{i=2..ell} finrank(Li)).
+13. Transfer original horizontal character integrality across conjugation by
+    true logarithmic character invariance. Child character of bounded norm
+    gives bounded original horizontal/grid/nonzero character. Clear true
+    rational denominator using M*q and q*chi(y) integer from original lattice
+    power, account for REAL error coefficients and translated progression
+    monomial/binomial coefficients, and recover BOTH complete raw tables
+    at ORIGINAL N. Child tables alone are not original full inverse.
+
+P first/full diagonal alternative, all original small-N branches, corrected
+multivariate inverse, separate interval Gowers correlation inverse, rough
+progressions, cube/Alignment and final positive distinct rapid FS/FP remain
+open. Fixed-data existence does not prove explicit delta-power laws. Author
+checking is not independent kernel replay or peer review. No unavoidable
+obstruction found; public repository/PR/prize milestone has not been reached.
+
+
+LATEST 2026-10-13: round-native-rational-character-child-signal terminal verification recorded.
+Genuine smaller-source child UNIT discrepancy now retains LITERAL affine polynomial construction, proved by constructing the source and comparing actual integer quotient samples. It is never inferred from quotient equality alone.
+All valid characters in the ACTUAL original finite Fourier character pool receive ONE positive UNIT signal threshold and ONE natural budget BEFORE every raw polynomial, denominator and sample length. The budget bounds true q/K/direction norm and analytic threshold; child length is at least N/B. Invalid characters and the empty pool are handled explicitly without false geometry.
+The actual dense ORIGINAL Fourier branch now yields full original horizontal/grid/monomial/binomial inverse OR a GENUINE constructed child source with strictly smaller natural nonlinearity, original-scale length and uniform UNIT discrepancy. Every original dense/table/right-factor property is retained. Degree two has no lower-degree inverse premise; general degree retains only the full lower-degree premise.
+Actual ALL-real right-ordered source factorization proves the ORIGINAL horizontal scalar polynomial identity. Literal affine child construction proves exact scalar affine composition. True positive exponential lattice powers prove integer horizontal values and clear EVERY rational-factor coefficient by the bounded natural multiplier M*q. These exact identities do not yet prove the full original coefficient transport bounds or same-degree induction.
+Next: NATIVE-ORIGINAL-COEFFICIENT-TRANSPORT-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. The original finite-character pool now has simultaneous genuine geometry/UNIT-signal budgets, and the dense native Fourier branches explicitly yield a constructed smaller-nonlinearity child source with uniform UNIT discrepancy and length>=N/B before all raw sources. Literal child affine source construction, original ALL-real horizontal scalar factor identity, and complete rational-factor coefficient integrality after M*q are proved. Remaining: quantitative affine translation/step/length/REAL-error transport to BOTH COMPLETE raw ORIGINAL coefficient tables, actual finite-child inverse budgeting, genuine well-founded degree+nonlinearity induction and all original small-N cases. P first/full diagonal alternative, corrected multivariate inverse, separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture remain OPEN. Fixed-data existential constants are distinct from explicit delta-power laws. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.
+
+
+LATEST 2026-10-13: round-native-rational-original-coefficient-transport terminal verification recorded.
+Actual affine child coefficients now recover ALL ORIGINAL monomial coefficients at original scale using ONE positive NATURAL period^degree multiplier, exact affine coefficient identities, genuine retained length and signed integer untranslation. Above-degree rows vanish. Circle norms are never divided by the progression step.
+ALL positive REAL error coefficients are controlled from the original degree/zero-linear bounds, including outside the degree. Actual horizontal scalar factor identity and genuine rational-factor coefficient integrality prove ORIGINAL monomial transport with common multiplier period^(degree+1). The rational term vanishes modulo one; the REAL error is bounded explicitly. No summand smallness is inferred from a circle norm.
+Positive natural scaling preserves actual ORIGINAL nonzero horizontal lattice integrality, norm and original finite-grid budget. Integer tensor Stirling weights convert ALL original positive monomial rows to BOTH COMPLETE ORIGINAL tables, including binomial indices outside the degree box.
+For bounded M<=S, q<=B, direction norm<=B and child character norm<=C, ONE ORIGINAL Q budget is chosen BEFORE every raw child character/source/sample. Actual conjugated child horizontal integrality, literal affine child construction, ALL-real source factors, REAL error bounds and actual child coefficient bounds compose to a true ORIGINAL horizontal/grid/nonzero character and BOTH full original coefficient tables under Q. Child coefficient bounds still must be derived by genuine future degree/nonlinearity IH; no same-degree child inverse or full native inverse is assumed or proved.
+Next: NATIVE-FINITE-CHILD-INVERSE-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. Actual finite-character geometry/UNIT child-signal budgets and exact constructed child sources are retained. Quantitative step/translation/retained-length/REAL-error/rational-coefficient transport now returns BOTH COMPLETE raw ORIGINAL coefficient tables with true nonzero horizontal/grid character and ONE uniform budget preceding bounded child characters and all raw sources, PROVIDED actual child coefficient bounds are derived by legitimate IH. No same-degree inverse is assumed. Remaining: actual canonical finite-child inverse budgeting from lexicographic IH, genuine well-founded degree+nonlinearity induction, all original small-N cases and full native inverse Fourier assembly. P first/full diagonal alternative, corrected multivariate inverse, separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture remain OPEN. Fixed-data existential constants are distinct from explicit delta-power laws. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.
+
+
+LATEST 2026-10-13: round-native-rational-unit-inverse terminal verification recorded.
+ACTUAL bounded-denominator/residue canonical child data now receive ONE positive full inverse character/grid/two-table budget BEFORE every raw source, from legitimate strictly smaller-nonlinearity IH. True rational residue filtrations retain exact kernel layers and strict natural nonlinearity drop. Output source weights transfer directly by layer equality, without asserting equality of arbitrary filtration records.
+Every ACTUAL valid character in the original finite pool now closes its genuine child UNIT signal to BOTH COMPLETE raw ORIGINAL coefficient tables and nonzero horizontal/grid/norm character under ONE budget, from strictly smaller-nonlinearity IH. Empty pools and invalid characters assert no geometry. Full original nonzero terminal-frequency branches for large N and all finite terminal frequencies assemble with the genuine zero-mode lower-degree branch.
+TRUE finite discrepancy selects an ACTUAL sample anchor with point discrepancy at least the original mean discrepancy. A genuine weighted constant native polynomial through that actual sample preserves this discrepancy at EVERY positive length. The already proved large-N induction step applied to that constant source yields a true original bounded nonzero horizontal character; bounded short original N and actual degree then bound ALL monomial and binomial rows. No separate horizontal-character existence theorem, supplied inverse or unproved small-N case is used.
+UNCONDITIONAL NativeRationalWeightedInverseStatement D L Unit is now PROVED for ALL actual native data/rational Lie filtrations by genuine strong degree induction and strong NATURAL nonlinearity induction. Both actual lower-degree children use degree-1; conjugated canonical same-degree children use STRICTLY smaller nonlinearity. Genuine degree-zero/one bases and ALL original positive sample lengths are covered. The theorem returns an actual ORIGINAL nonzero horizontal/grid/norm character and BOTH COMPLETE raw ORIGINAL coefficient tables. It is a one-variable fixed-data existential inverse, not the corrected multiparameter theorem, explicit delta-power laws or final FS/FP goal.
+Next: NATIVE-MULTIPARAMETER-INVERSE-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. The COMPLETE unconditional native rational-filtration Unit inverse is now proved, with true degree/natural nonlinearity induction, actual canonical finite-child budgets, all zero/nonzero original Fourier branches, all positive sample lengths, actual original nonzero horizontal/grid/norm character and BOTH COMPLETE raw ORIGINAL coefficient tables. No higher-degree inverse premise remains in that Unit theorem. Remaining: construct genuine native multivariable short-line sources and use the corrected equal-cube common-character/dense-direction/basepoint reconstruction to prove the full multiparameter inverse; then separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture. Prior P/diagonal/bracket branches are retained; direct explicit source delta-power laws have not been certified by these fixed-data existential constants. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.
+
+
+LATEST 2026-10-13: round-native-rational-multiparameter-inverse terminal verification recorded.
+ACTUAL native multivariable short lines are constructed by scalar affine substitution term by term, with true rational-filtration weights and exact orbit, scalar projection, coefficient and canonical Haar discrepancy identities. The unconditional Unit inverse now PRODUCES a true original nonzero horizontal/grid/norm character and both line tables in ONE finite original character pool fixed before every raw source/basepoint/direction/length.
+The corrected bounded complex equal-cube averaging argument now obtains ONE SAME actual original character on dense directions and dense original basepoints. Genuine scalar multivariable small-value inverse recovers all positive line constant coefficients with one bounded positive multiplier per direction. Exact finite multiplier thinning and simultaneous homogeneous integer reconstruction produce ONE SAME scaled original nonzero character for BOTH COMPLETE raw original coefficient tables. The scalar budget precedes direction size, so no circular choice of constants is used.
+A positive explicit floor lower bound and fixed minimum line threshold close ALL large original equal-cube lengths. Empty original character pools make actual discrepancy impossible; they do not manufacture a character. Genuine actual sample anchors generalize the proved constant-source argument to arbitrary finite variables, closing ALL original short positive lengths without character-existence or inverse premises.
+UNCONDITIONAL NativeRationalWeightedInverseStatement D L sigma is now PROVED for EVERY finite variable type sigma and every actual native datum/rational Lie filtration. It includes degree zero, empty variable types, every positive original N, actual original nonzero horizontal/grid/norm character and BOTH COMPLETE original monomial/binomial tables. No native/scalar/line inverse or production premise remains. This is the corrected fixed-data existential multiparameter inverse, not explicit delta-power laws, a Gowers correlation inverse or final FS/FP target.
+Next: NATIVE-CORRECTED-BOX-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. The COMPLETE unconditional native rational-filtration inverse is now proved for EVERY finite variable type, degree and positive original equal-cube length, with actual original nonzero horizontal/grid/norm character and BOTH COMPLETE raw original coefficient tables. Unit degree/natural nonlinearity induction, actual native line sources, true complex averaging, same-character dense rows, genuine scalar constant recovery, common multiplier thinning, all-degree directional reconstruction and true short-length anchors are composed. Remaining: separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture. Fixed-data existential constants do not certify explicit source delta-power laws. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.
+
+
+LATEST 2026-10-13: round-native-original-real-box terminal verification recorded.
+UNCONDITIONAL general ORIGINAL native logarithmic-polynomial equal-cube inverse is now proved for every actual step bound, ordinary degree and finite variables. The actual rational stretched filtration at max(degree,1) supplies true weights. Original log identity supplies actual quotient orbit. Both COMPLETE raw output tables use ORIGINAL ordinary degree, original nonzero horizontal/grid/norm character and canonical native Haar. The stretched filtration degree is not silently substituted for the original binomial table.
+Arbitrary prescribed bounded complex Lipschitz observables are normalized BEFORE all sources and lengths against the SAME canonical native Haar probability. Actual Option-parameter specialization and literal affine source substitution produce the genuine translated-cube binomial input for every native step bound. All original source/log/orbit/mean/projection identities are proved; no translated-cube character-production or inverse premise remains.
+The corrected real-box finite obstruction is now proved for arbitrary native step bound, ordinary degree and finite spatial dimension. Exact retained corrected cube tiling, denominator clearing and ORIGINAL translation/location coefficient estimates are instantiated by the newly proved actual cube input. Original boxes/parameters/observables and raw polynomial coefficients vary after the fixed finite original character list, accuracy budget and length threshold. Every selected character is actual nonzero horizontal lattice character. ALL positive original spatial monomial rows at scale Z are retained.
+One SAME real-box accuracy budget and threshold now work across EVERY fixed finite list of actual native nilmanifolds, including empty lists. Genuine finite sums of positive bounds are chosen before all raw sources/samples/observables. No equidistribution inverse/production premise remains in the fixed-family box theorem. This closes the source quantitative Leibman box consequence in its fixed-data formulation, not rough progression comparison, Gowers correlation inverse, cube/Alignment or final FS/FP goal.
+Next: NATIVE-ACTUAL-BAD-CHARACTER-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Complete unconditional native rational-filtration inverse for every finite variable type and all positive original equal-cube lengths, general ordinary-degree original logarithmic-polynomial inverse, and corrected general real-box finite-character obstruction including fixed finite native families are now proved. Original nonzero horizontal/grid/norm characters, canonical Haar, and complete original coefficient tables are retained. Remaining: connect ACTUAL original full/progression bad samples to these uniform box characters, synthesize true native rough progression dimension descent/comparison, distinct interval Gowers correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP StrongConjecture. Fixed-data existential constants do not certify explicit delta-power laws. Only true positive exponential lattice powers are used. Author checking is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.
+
+
+LATEST 2026-10-13: round-native-actual-bad-characters terminal verification recorded.
+ACTUAL original residue classes reduce modulo the positive step and have EXACT normalized complex mean on the genuine quotient integer box. TRUE quotient-box length/location geometry and LITERAL Option-parameter-preserving spatial affine source/evaluation/scalar-projection identities are proved. No equality of vector/source polynomials is inferred from sampled quotient equality.
+ACTUAL original residue-box Haar discrepancy now PRODUCES one TRUE nonzero original horizontal lattice character in a fixed finite ORIGINAL list, plus ALL positive original spatial affine coefficient rows. It is instantiated by the UNCONDITIONAL general corrected native box theorem. The list, accuracy constant and quotient-scale threshold precede every original step/residue/source/box/parameter/observable. Exact reduced residues are retained as natural basepoints less than the original step.
+Both ACTUAL original full-box and residue-box Haar branches of a complex bad pair are now closed to one fixed finite ORIGINAL character list and ONE coefficient constant. The SAME character controls ALL positive affine rows; output step is literally 1 OR original t, and all natural affine basepoints are bounded by that step. Real bad pairs embed into the complex statement with EXACT discrepancy and unchanged Lipschitz/norm/geometry/sampling data. No inverse or character-production premise remains.
+TRUE PowerDominates and actual eventually-positive scales supply ONE source-independent asymptotic threshold for ALL original dyadic steps at once. Original finite character list and coefficient budget are fixed BEFORE ALL scale indices/raw Q/p/steps/boxes/observables. native_original_asymptotic_bad_pair_characters derives ALL positive original affine coefficient rows from ACTUAL RoughNativeBadIndex, with no analytic production premise. Common-character parameter thinning and full native dimension-descent comparison remain to be assembled.
+Next: NATIVE-COMMON-BAD-CHARACTER-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Complete unconditional native rational-filtration inverse, general original ordinary-degree inverse, corrected native real-box finite-family obstruction, and ACTUAL original full/residue bad-pair character production with ONE fixed original finite character list and ALL positive affine coefficient rows are now proved. True original residue mean/geometry/source identities, exact real-to-complex discrepancy and genuine PowerDominates uniform dyadic threshold are supplied. Remaining: common original character on a smooth parameter subprogression with literal reparametrized source/full rows, simultaneous finite kernel geometry/budgets, true all-native dimension induction and rough progression comparison, distinct interval Gowers correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP StrongConjecture. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent replay/external peer review. Repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone not reached.
+
+
+LATEST 2026-10-13: round-native-no-long-bad-family terminal verification recorded.
+ACTUAL original bad parameter progression now yields ONE common original nonzero horizontal/integral character on a genuine smooth subprogression, with LITERAL raw parameter-affine source, true degree/all-real log, same original bad samples, scale and rough coprimality, and ALL positive original affine coefficient rows. Fixed finite character pool and natural source lengths precede raw inputs; empty character pools assert no fake geometry. Real-power paper growth supplies the actual asymptotic thresholds.
+TRUE original horizontal character alone now supplies rational full Lie-subalgebra geometry, genuine normalized rational pivot V, positive original lattice power K, and actual canonical finite kernel family with STRICT original finrank decrease. Original real bad samples produce actual complex observables/geometry/mean discrepancy and every affine row input to the existing normalized kernel descent. No supplied pivot/subgroup/period, scalar model, inverse or analytic production oracle remains.
+Finite budgets are now assembled across EVERY candidate in the ACTUAL original finite character pool and EVERY canonical child. A common positive child target length and common original coefficient-packet length are chosen by finite sums BEFORE raw sources/w. True child bad-family length restriction, finite intersection of eventual thresholds and common-character production close the original step using ONLY legitimate universal strictly smaller-native-finrank IH. Source coefficients, boxes, residues and tests remain arbitrary.
+UNCONDITIONAL NativeNoLongBadFamilyStatement D is now PROVED for EVERY legitimate actual native datum D by genuine strong NATURAL finrank induction and true dimension-zero base. For every fixed ordinary degree/spatial dimension/bounded geometry and original real-power growth sequence, ONE positive length is chosen and eventually NO actual original bad family of that length exists. All smaller-native premises are discharged. This closes the strengthened bad-progression comparison; original exceptional-proportion rough-step conclusion, separate Gowers correlation inverse and final FS/FP remain open.
+Next: NATIVE-ROUGH-PROPORTION-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Complete unconditional native rational-filtration/ordinary-degree inverse, corrected real-box finite-family obstruction, actual bad-pair character production, genuine common smooth parameter-character/source/row transport and finite canonical kernel descent are proved. UNCONDITIONAL no-long-original-bad-family statement for EVERY actual native datum is proved by true strong natural finrank induction, with actual zero base and all finite original candidate/child budgets. Remaining: original exceptional proportion rough-step comparison (finite dense Szemeredi extraction, original residue-index interval, smooth step and literal joint source transport), separate arbitrary-input GTZ interval Gowers correlation inverse, cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP StrongConjecture. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent replay/external review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

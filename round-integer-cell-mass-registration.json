@@ -1,0 +1,41 @@
+{
+  "baseline_hash_count": 1033,
+  "modules": [
+    "Hindman168/CompleteResidueCellMass.lean",
+    "Hindman168/CompleteResidueCellMassError.lean"
+  ],
+  "names": [
+    "Hindman168.residue_coprime_iff",
+    "Hindman168.integerMass_on_residue_cell",
+    "Hindman168.completeResidueCell_integerMass_sum",
+    "Hindman168.completeResidueCell_integerMass_conditional",
+    "Hindman168.completeResidueCell_integerMass_error"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/CompleteResidueCellMass.lean": [
+      [
+        "theorem",
+        "residue_coprime_iff"
+      ],
+      [
+        "theorem",
+        "integerMass_on_residue_cell"
+      ],
+      [
+        "theorem",
+        "completeResidueCell_integerMass_sum"
+      ]
+    ],
+    "Hindman168/CompleteResidueCellMassError.lean": [
+      [
+        "theorem",
+        "completeResidueCell_integerMass_conditional"
+      ],
+      [
+        "theorem",
+        "completeResidueCell_integerMass_error"
+      ]
+    ]
+  }
+}

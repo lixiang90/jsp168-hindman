@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 501,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MasterPrimeJointDilation.lean",
+    "Hindman168/MaskBalancedCoordinates.lean",
+    "Hindman168/MaskRemovalCoordinateDilation.lean",
+    "Hindman168/MaskRemovalBalancedInsertion.lean",
+    "Hindman168/MaskRemovalOffDiagonalAbsorption.lean"
+  ],
+  "new_selected_report_count": 25,
+  "module_report_counts": {
+    "MasterPrimeJointDilation": 3,
+    "MaskBalancedCoordinates": 4,
+    "MaskRemovalCoordinateDilation": 6,
+    "MaskRemovalBalancedInsertion": 6,
+    "MaskRemovalOffDiagonalAbsorption": 6
+  },
+  "application_review": [
+    "All 501 baseline source/config hashes were revalidated before registering five new modules. Only Hindman168.lean imports and Verification.lean exact-name reports changed among retained files. All previous proof modules, StrongStatement, nine attributed PNT+ modules and fixed Lean/mathlib/PNT+ pins are unchanged. Both local preprint sections match adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote update was checked in this goal round.",
+    "The new fixed-single-prime eta transfer uses the actual endpoint-squared harmonic error cap already controlling supported p and pq. Original cutoff geometry, positive normalizer and eventual primorial coprimality are derived from MasterParameterConditions; no multiplier/cutoff assumption is added. Fixed-pair transfer reuses the previously proved distinct-prime product-divisibility identity.",
+    "Arbitrary finite outside probability masses are integrated by the support-sensitive finite expectation difference bound. The test remains globally bounded in the selected integer coordinate, with the outside parameter bound needed only on the outside support. No independence of divisor events or positive conditioned-event mass is asserted.",
+    "maskBalancedCoordinates changes u to z_u/p and v to p*z_v, with u distinct from v. Integer multiplication/division cancellation is proved for nonzero pool primes on all integer input tuples, including signed ones. The division expression is interpreted by ordinary integer division; exact inverse division is used only for a known multiple or under the stated divisibility hypothesis.",
+    "The current monomial product is unchanged when both chosen coordinates lie in its support and p divides z_u. This is proved by extracting the two finite product factors and using Int.ediv_mul_cancel. No unconditional reciprocal substitution on nondivisible inputs is claimed.",
+    "Actual stage coordinate-dilation, single-eta and pair-eta averages have exact selected-coordinate extraction formulas. The original old-prime tuple and all other harmonic coordinates form the same outside law proved to be a probability law in the previous round. No coordinate is discarded without its total-one identity.",
+    "The actual balanced average keeps eta_p=p*1_{p|z_u} outside the bounded test. After coordinate-u dilation its test is exactly the coordinate-v inserted test, by nonzero-prime division cancellation. The test H at the balanced coordinates is still bounded by V^B on every integer tuple, so no p<=V premise or unquantified error multiplied by a growing prime is introduced.",
+    "The balanced error is the sum of the derived v-coordinate prime-average insertion cap and the u-coordinate V^B fixed-prime dilation cap. Exact Fubini with the original fresh-prime mass integrates the fixed-prime estimate. Both limits are derived from existing actual master scale growth, and the final bound is uniform over all tests at each stage for every fixed natural B.",
+    "The actual fresh-prime off-diagonal expectation equals the original tensor-prime expectation of the original shared outer mean, with the p!=q indicator retained. Applying the actual stage fixed-pair transfer on supported p,q yields abs(V^B*dilationCap) as a uniform error. The original tensor law has total one; the off-diagonal part is neither normalized nor treated as an independent resampling of old tuples.",
+    "For a supported distinct fresh-prime pair, the two eta multipliers equal eta_{pq}. Absorbing them by original harmonic dilation changes the two balanced coordinate maps exactly into (q,p) and (p,q). Fresh-prime support supplies p!=0 and q!=0. The equality is only needed on that support and is extended to the actual averages by the support-congruence theorem.",
+    "The concrete two-branch bound currently concerns arbitrary branch tests H(r,p) globally bounded in the coordinates on the original old-prime/fresh-prime support. Their product is bounded by V^(2B), proved directly. The generic off-diagonal absorption also admits any pair-dependent polynomially bounded integrand. These results have not yet been identified with the full row-weight-normalized integrand containing the single invariant density Omega.",
+    "This round completes actual balanced insertion, joint-law non-diagonal pq absorption and the exact absorbed coordinate branches in 04_correlation.tex:162-181 and 230-245. The invariant-row scalar weight preservation, bounded merged functions f_p*f_q/W, exact row/anchor normalization, surviving mask combination, one-coordinate branch construction and complete finite analytic recurrence remain unfinished.",
+    "The previous goal turn was PROGRESS and this turn is PROGRESS. The untouched StrongConjecture is still only the full target proposition and conditional bridges. The full original correlation theorem, Prediction/Alignment and final ordered positive monochromatic witness remain unproved. No unavoidable blocker has been established."
+  ],
+  "source_preprint_section": "04_correlation.tex:162-181 (actual balanced insertion); 196-217 (original shared outside laws); 230-245 (actual off-diagonal pq absorption and coordinate branches); 247-264 (merged weighted functions remain incomplete).",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4353,
+    "project_modules": 488,
+    "pntplus_modules": 9,
+    "source_scan_modules": 497,
+    "axiom_reports": 2396,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 506,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original raw arbitrary-target additive source bound, centered-source cancellation and previous weighted cube transfers remain proved. Actual intermediate mask prefixes have original-law majorant means, invariant-row prefactor limits, the common m-only weighted-square cap and weighted fresh-prime diagonal deletion. Actual harmonic-pool first/second moments, centered-variance bounds, L2 replacement and single-coordinate prime-average insertion are proved with explicit uniform vanishing caps. Balanced two-coordinate insertion with retained eta_p, admissible integer division and current-mask product preservation is now proved under the actual intermediate old-prime/harmonic law. Actual off-diagonal pq absorption is integrated with the shared old-prime tuple and remaining-coordinate laws, with uniform vanishing error and exact balanced coordinate branches (q,p) and (p,q). The full multiplicative-mask analytic recurrence remains incomplete: derive actual invariant-row scalar weight preservation; construct bounded merged invariant functions f_p*f_q/W and noninvariant branch functions with the correct integer normalization anchors; identify the concrete branched linear forms with the existing symbolic descendant rows and keep the single invariant density Omega; combine surviving multiplicative masks and complete the one-coordinate branch case; preserve the distinguished target and compose all finite mask steps and their errors. Then compose the full original correlation principle. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

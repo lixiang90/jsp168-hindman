@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 449,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskCenteredCorrelationLimit.lean",
+    "Hindman168/MaskCenteredCorrelationUniform.lean",
+    "Hindman168/MaskTargetCubeDecay.lean",
+    "Hindman168/MaskTargetPredictionData.lean",
+    "Hindman168/MaskTargetPredictionIdentification.lean",
+    "Hindman168/MaskTargetPredictionLimit.lean",
+    "Hindman168/SingleCubeSamplingLaw.lean",
+    "Hindman168/SingleCubeVertexTransport.lean"
+  ],
+  "new_selected_report_count": 20,
+  "module_report_counts": {
+    "MaskCenteredCorrelationLimit": 3,
+    "MaskCenteredCorrelationUniform": 2,
+    "MaskTargetCubeDecay": 3,
+    "MaskTargetPredictionData": 4,
+    "MaskTargetPredictionIdentification": 2,
+    "MaskTargetPredictionLimit": 1,
+    "SingleCubeSamplingLaw": 2,
+    "SingleCubeVertexTransport": 3
+  },
+  "application_review": [
+    "All 449 baseline source/config hashes were revalidated before registration. Only the root import list and exact-name registry changed among retained files. All prior proof sources, the StrongStatement target, nine attributed PNT+ modules and fixed Lean/mathlib/PNT+ pins are unchanged. No remote or official update was checked. Local correlation and prediction sections both match the fixed adc7f1241b42e322a6451854ab7e4b4c146bf78a commit after newline normalization.",
+    "SingleCubeSamplingLaw constructs an explicit bijection from the original one-replica prediction columns to one harmonic root and the full original independent direction pairs. Exact product coefficients give its pushed mass and expectation identities. No positive interval-length, probability normalization or sampled-independence premise is supplied; zero lengths are included.",
+    "SingleCubeVertexTransport reindexes one-replica rows, including none, through finite subsets to all Boolean vertices. The root is the empty subset. Its evaluation identity retains y+M*sum(selected second-minus-first pairs). The row product and original harmonic/pair cube expectation are transported exactly without discarding any vertex or copying a factor.",
+    "MaskTargetPredictionData computes the actual off-target dimension, actual normalization-anchor root index, actual denominator polynomial and canonical centered divisor mask. targetPredictionAverage uses the original master prime slots, original copied-good event, original chain cutoff and quotient intervals. The signed prediction modulus equals the positive actual translation modulus, and its quotient length equals maskGeneratedShiftLength exactly. Denominator nonzero on the original good event is derived from the existing local prime-good certificate and actual denominator catalog membership.",
+    "MaskTargetPredictionLimit applies the already proved MasterParameterConditions.prediction_quotient_cube_product_tendsto at one replica and the actual cube order. Tail-before-gap, gap-before-root, smooth modulus divisibility and primorial divisibility are supplied by original chain/master data. All prime slots are at the actual gap. Actual supported denominator nonzero supplies the good-event condition. The canonical root is exactly nu-1 and every nonroot test has the derived 1+nu majorant. The actual raw prediction average tends to zero; no desired small cube mean, moment, insertion or terminal limit is an application premise.",
+    "MaskTargetPredictionIdentification proves the exact actual conditioned unrestricted average equals targetPredictionAverage divided by the actual good-event mass. The identity is valid at every w, including zero event masses, using the finite conditional expectation formula and proved single-cube transport. An eventual source-root identity F_root=nu-1 implies exact equality of the original unrestricted source average with the canonical centered one on the actual conditioned prime support.",
+    "MaskTargetCubeDecay normalizes the raw limit only through the separately proved actual good-event mass tending to one. It gives canonical and source unrestricted cube means tending to zero, then combines the previously proved rapid original-cube transfer at q=0 to prove source_targetCubeAverage_tendsto_zero. This source theorem requires the actual centered target F_root=nu-1; it is not arbitrary-target cube decay.",
+    "MaskCenteredCorrelationLimit composes the already proved unrestricted additive output with actual cube decay. Its genuinely constructed additive error and m-only prefactor give a nonnegative correlation-power squeeze to zero. A direct order-neighborhood argument derives absolute correlation tending to zero, and the norm criterion derives signed correlation tending to zero. Other row functions may vary with w and supported primes and are constrained only by the actual rowMajorant. The centered-root source condition is retained.",
+    "MaskCenteredCorrelationUniform defines the precise per-stage admissible inputs with actual copied-good primes, canonical centered root and original off-target majorants. The default has the canonical root and zero other rows; its admissibility follows from the proved actual nonnegative majorants. The existing uniform_zero_of_admissible_sequences selects bad inputs whenever any exist; the newly proved source sequence limit rules them out eventually. Thus for each epsilon>0 all admissible original input functions have original correlation absolute value below epsilon eventually. This is qualitative uniformity, with no asserted numerical rate.",
+    "The previous turn was PROGRESS, and this turn is PROGRESS. The actual centered-source cube decay and qualitative uniform centered-source correlation are now proved. General arbitrary-target correlation, application to all mask-removal/multiplicative source integrands, full Prediction/Alignment and required inverse/nilsequence/cube-limit inputs, global parameter/diagonal choices and positive separated monochromatic witness extraction remain incomplete. StrongConjecture and the full prize target are not proved; no unavoidable blocker has been established."
+  ],
+  "source_preprint_section": "04_correlation.tex:685-705 and 05_prediction.tex:64-187 (actual centered one-replica cube application, exact normalization and uniform centered-source correlation proved)",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4304,
+    "project_modules": 439,
+    "pntplus_modules": 9,
+    "source_scan_modules": 448,
+    "axiom_reports": 2201,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 457,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The actual centered-source unrestricted one-variable cube, original targetCubeAverage and unshiftedCorrelation now tend to zero under the original source conditions F_root=nu-1 and actual off-target majorants. Exact one-replica/Boolean-vertex sampling transport identifies the unnormalized original prediction average, and its proved cube product limit is normalized by the actual good-event mass tending to one. The original supported rapid cube transfer and m-only additive output then give correlation-power, absolute and signed source limits. A per-stage admissible-input theorem makes the centered-source correlation qualitatively uniform over all allowed other row functions. This does not establish decay for arbitrary target functions or the complete correlation principle. Next extend the actual root-bound/cube-transfer and correlation inequality to general targets bounded by the source majorant, and instantiate the resulting uniform centered-source estimates in the actual weighted mask-removal/multiplicative source integrands and their exception/error bounds. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

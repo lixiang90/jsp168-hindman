@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 22.0,
+  "log": "round-native-rational-nonlinearity-factorization-axioms.txt",
+  "log_sha256": "b72a796a451145b19611de19e8f288203605afb0e5b715c19154dd45260536f7"
+}

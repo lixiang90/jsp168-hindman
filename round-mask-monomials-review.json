@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 340,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskFlattenedCoefficients.lean",
+    "Hindman168/CoefficientOneMonomials.lean",
+    "Hindman168/MaskMonomialRowStructure.lean",
+    "Hindman168/MaskGeneratedMonomialCertificates.lean",
+    "Hindman168/MonomialPrimeArithmetic.lean",
+    "Hindman168/MonomialPrimeResidueUnits.lean",
+    "Hindman168/MaskGeneratedPrimeArithmetic.lean"
+  ],
+  "new_selected_report_count": 41,
+  "module_report_counts": {
+    "MaskFlattenedCoefficients": 8,
+    "CoefficientOneMonomials": 9,
+    "MaskMonomialRowStructure": 3,
+    "MaskGeneratedMonomialCertificates": 7,
+    "MonomialPrimeArithmetic": 6,
+    "MonomialPrimeResidueUnits": 5,
+    "MaskGeneratedPrimeArithmetic": 3
+  },
+  "application_review": [
+    "All 340 source/config hashes from the previous audited goal turn were revalidated unchanged before registration. The previous actual mask-row construction round remains classified PROGRESS.",
+    "The actual flattening of a fresh Bool pair has explicit disjoint injective new-slot and old-slot maps. Its constant embedding is exactly old-variable renaming, its X variables are exactly the two new slots, and every actual descendant coefficient has the derived renamed-old coefficient times its explicit fresh multiplier.",
+    "Coefficient-one integer monomials are closed under multiplication and variable renaming and are nonzero. Fresh multiplier variable membership is characterized exactly: no old slot occurs and a shared fresh slot forces equal nonzero tags.",
+    "The full per-row invariant is proved for the actual flattened update: every entry is zero or a coefficient-one monomial, and a formal variable can occur in at most one column of any single row. The invariant concerns individual rows, not the entire family.",
+    "The actual nonempty-subset indicator family satisfies the monomial invariant. The support-dependent chosen plans satisfy the necessary nonzero-tag uniqueness, so the actual step, arbitrary finite mask iteration, full mask stage and all generated original row types inherit the certificates without monomial or variable-disjointness hypotheses in the final application.",
+    "The natural absolute value of an actual coefficient-one monomial evaluation is exactly the product of the sampled natural primes to its formal exponents. Positive inputs give a positive evaluation absolute value, and evaluation in any integral domain is nonzero when all its occurring variables are nonzero.",
+    "The proved per-row variable invariant gives disjoint variable supports for distinct columns. On an injective prime tuple, distinct nonzero columns therefore evaluate to coprime natural absolute values, with no numerical independence hypothesis on the coefficients.",
+    "Prime slots strictly above a budget imply that every coefficient-one monomial evaluation is coprime to every positive integer within that budget. Its residue is a unit even at composite moduli. Integer-evaluation casting agrees exactly with polynomial evaluation over the residue ring.",
+    "These certificates apply to the actual mask-generated row family and actual independent prime-pool support. The original local good event supplies tuple injectivity for column coprimality. The derived master pool growth gives eventual units, uniformly over all generated types and every positive modulus at most the actual gap auxiliary budget; in particular every nonzero coefficient is a unit modulo the actual smooth master modulus.",
+    "The source preprint defines row templates by monomial nonzero entries and one formal prime variable per column of each row, and uses pool-prime anchor units at primes up to V. These properties are now derived for the actual full generated rows. Variable uniqueness is not asserted across different rows.",
+    "The coprimality theorem uses the actual pool support and original local good event, including its injective tuple condition. The unit theorems do not require tuple injectivity and include every positive composite modulus up to the auxiliary budget. They do not claim nonzero residues at modulus one.",
+    "The polynomial coefficient unit estimates do not yet settle the full normalized response/denominator unit estimates or integer W-multiple direction construction, and do not instantiate maximum-support normalization anchors or c_k factors.",
+    "No mask-removal analytic inequality, retained invariant weight bound, Cauchy--Schwarz recurrence, exceptional-tuple deletion/reinstatement estimate, Prediction/Alignment proposition or final strong witness is inferred solely from these algebraic certificates.",
+    "All retained proof/config sources, dependency/runtime pins and attributed PNT+ modules are unchanged; only root imports and the registry changed. StrongStatement.lean is unchanged and strong_implies_subtype still requires the unproved StrongConjecture. No full solution, prize eligibility or unavoidable blocker is claimed."
+  ],
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4194,
+    "project_modules": 329,
+    "pntplus_modules": 9,
+    "source_scan_modules": 338,
+    "axiom_reports": 1716,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 347,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The actual finite symbolic mask-row construction and its complete coefficient-one monomial and one-variable-per-column invariants are proved, including their application to all generated original row types. Actual supported prime tuples give positive coefficients, coprimality of distinct nonzero columns on the original local good event, and eventual coefficient units at all positive moduli within the actual auxiliary budget, including the smooth master modulus. Connect the constructed row recurrence to the actual weighted mask-removal integrands, preserving the distinguished function and all invariant weights. Prove the complete mask-removal Cauchy--Schwarz iteration and exceptional-tuple/error bounds under the original laws. Prove integer W-multiple normalized direction construction, growth and residue-unit estimates for the complete responses and generated denominator data, and connect them to the retained-weight correlation test and root pushforward. Instantiate the exact maximum-support normalization anchors (distinct from the already constructed direction anchors), concrete blocks, gaps, scale labels, colors, rho and master-scale companion diagonal requirements. Complete the full preprint Prediction/Alignment propositions, required nilsequence/inverse-theorem/cube-law inputs, diagonal test choices and final witness extraction/separation. Real-exponent clipping extensions remain unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit as authorized by the user. No unavoidable blocker is established."
+}

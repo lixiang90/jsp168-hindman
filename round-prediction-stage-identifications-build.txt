@@ -1,0 +1,14 @@
+✔ [4056/4057] Built Hindman168.PredictionSamplingLaw (15s)
+✖ [4057/4057] Building Hindman168.PredictionStageProducts (15s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\PredictionStageProducts.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionStageProducts.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionStageProducts.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionStageProducts.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionStageProducts.setup.json --json
+error: Hindman168/PredictionStageProducts.lean:24:2: Type mismatch
+  Finset.prod_coe_sort ?m.30 ?m.32
+has type
+  ∏ i, ?m.32 ↑i = ∏ i ∈ ?m.30, ?m.32 i
+but is expected to have type
+  predictionStageFactorProduct M dir K base z (predictionPairValues v) F =
+    ∏ r ∈ predictionStageRowCopies dir K base, F (copiedReplicaCubeForm M dir (↑r).1 (↑r).2 z (predictionPairValues v))
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.PredictionStageProducts
+error: build failed

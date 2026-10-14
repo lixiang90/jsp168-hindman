@@ -1,0 +1,34 @@
+✖ [4199/4200] Building Hindman168.RootSmoothedAdditiveRows (116s)
+error: build failed
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\RootSmoothedAdditiveRows.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\RootSmoothedAdditiveRows.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\RootSmoothedAdditiveRows.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\RootSmoothedAdditiveRows.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\RootSmoothedAdditiveRows.setup.json --json
+error: Hindman168/RootSmoothedAdditiveRows.lean:32:69: unsolved goals
+b c : ℕ
+⊢ Fintype.card (Fin c) + Fintype.card (Fin b × Bool) + 2 = c + 2 * b + 2
+warning: Hindman168/RootSmoothedAdditiveRows.lean:33:59: This simp argument is unused:
+  additiveCopiedColumn_card
+
+Hint: Omit it from the simp argument list.
+  simp only [RootSmoothedAdditiveColumn, Fintype.card_sum, a̵d̵d̵i̵t̵i̵v̵e̵C̵o̵p̵i̵e̵d̵C̵o̵l̵u̵m̵n̵_̵c̵a̵r̵d̵,̵
+  ̵ ̵ ̵ ̵ ̵Fintype.card_bool]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Hindman168/RootSmoothedAdditiveRows.lean:67:6: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ∑ col, D.copiedCoefficient ?r col * Sum.elim ?z (fun kb => ?v kb.1 kb.2) col
+in the target expression
+  ∑ x, D.copiedCoefficient (↑r).1 (Sum.inl x) * z x + ∑ x, D.copiedCoefficient (↑r).1 (Sum.inr x) * v x.1 x.2 +
+      ∑ x, (if x = (↑r).2 then D.form (↑(↑r).1).1 v₀ else 0) * u₀ x =
+    D.translatedForm (↑(↑r).1).1 (↑(↑r).1).2 z v + D.form (↑(↑r).1).1 v₀ * u₀ (↑r).2
+
+b c : ℕ
+D : AdditiveRowData b c
+v₀ : Fin c → ℤ
+r : RootSmoothedAdditiveCopy b
+z : Fin c → ℤ
+v : Fin b → Bool → ℤ
+u₀ : Bool → ℤ
+⊢ ∑ x, D.copiedCoefficient (↑r).1 (Sum.inl x) * z x + ∑ x, D.copiedCoefficient (↑r).1 (Sum.inr x) * v x.1 x.2 +
+      ∑ x, (if x = (↑r).2 then D.form (↑(↑r).1).1 v₀ else 0) * u₀ x =
+    D.translatedForm (↑(↑r).1).1 (↑(↑r).1).2 z v + D.form (↑(↑r).1).1 v₀ * u₀ (↑r).2
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.RootSmoothedAdditiveRows

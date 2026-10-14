@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2655,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6682,
+    "selected_axiom_reports": 10424,
+    "new_declarations": 2,
+    "new_theorems": 2,
+    "new_definitions": 0,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeFiniteRoughProportion.lean"
+  ],
+  "proved_components": [
+    "The actual original complex non-strict native rough-proportion theorem now has ONE positive ratio threshold and ONE eventual threshold simultaneous over EVERY member of a fixed finite family of legitimate native nilmanifolds. Genuine threshold monotonicity and finite sums/intersections precede all raw source coefficients, moduli, residues, boxes and observables. Empty families assert no fake model or character existence.",
+    "The prior genuine finite Szemeredi closure, literal all-real source/ordinary degree transport, exact residue-index/ceil/cardinality geometry, real/complex non-strict event comparison and original rough-fraction convergence remain proved with all retained source hashes and axiom sets unchanged."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original native complex non-strict rough exceptional-proportion convergence and ONE uniform fixed-finite-family budget are proved on actual nonempty dyadic residue samples, using the attributed verified finite Szemeredi closure and unconditional native dimension induction. Remaining: actual master/source instantiation and source-interface/cofinal-index/nonempty-sample boundary bridges, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-finite-proportion-mathematical-review.txt",
+  "mathematical_review_sha256": "c37f6770e4a7dbb6f2ac50d91576094bc87b23608b24a31d99a364dd39547b7d",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

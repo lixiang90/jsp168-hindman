@@ -1,0 +1,21 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "-o",
+      ".lake\\build\\lib\\lean\\Hindman168\\RoughNativeBadProgressionThinning.olean",
+      "Hindman168/RoughNativeBadProgressionThinning.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.266000000061467,
+    "log": "round-rough-native-bad-family-RoughNativeBadProgressionThinning-artifact-refresh.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeBadProgressionThinning.lean",
+    "source_sha256": "406092c1d15ab22d34f9adfc9ebb7c3483c4f5b1a46e8015a698e053fc5a1232",
+    "olean_sha256": "79863195d5ae7446d30a0c1abfffc9bb05e14cf29fd7fc2abaa46354df5b2e6e"
+  }
+]

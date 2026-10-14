@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 380,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskGeneratedShiftLengths.lean",
+    "Hindman168/MaskCopiedOriginalSampling.lean",
+    "Hindman168/MaskOriginalStagePrefactors.lean",
+    "Hindman168/MaskCopiedNormalizedMoments.lean",
+    "Hindman168/MaskOriginalNormalizedLaw.lean"
+  ],
+  "new_selected_report_count": 29,
+  "module_report_counts": {
+    "MaskGeneratedShiftLengths": 7,
+    "MaskCopiedOriginalSampling": 4,
+    "MaskOriginalStagePrefactors": 6,
+    "MaskCopiedNormalizedMoments": 7,
+    "MaskOriginalNormalizedLaw": 5
+  },
+  "application_review": [
+    "All 380 audited baseline hashes were rechecked before registration. Only root imports and the exact-name registry changed. Every previously retained proof source, StrongStatement.lean, dependency/runtime pin and attributed PNT+ source remains unchanged. The previous goal turn and this turn are both PROGRESS.",
+    "The actual integer translation modulus is the master smooth modulus times the multiplicity-preserving rough part of the evaluated generated denominator. Its J multiple is bounded by (pool upper+gap auxiliary)^(J+maskRowDirectionSizeExponent m) on the original prime-pool support. This is an actual generated-family polynomial cap, with no modulus-size hypothesis in the final application.",
+    "The source length is defined as the exact natural quotient R/(J M(p)), using the actual master gap and actual generated translation modulus. It is uniformly bounded below on original supported good tuples by the master gap divided by the proved fixed polynomial cap.",
+    "The constructed master gap yields every-power growth of that uniform lower length, including the full paper gap budget V=auxiliary at the gap. Its eventual positivity and positivity of every actual good-tuple interval are proved for each fixed J>0. Neither a desired positive-length conclusion nor a PowerDominates interval premise is assumed.",
+    "The actual target displacement obeys M(p)L(p)<=R for J>=1. The length-growth exponent and eventual threshold may depend on fixed J; the majorant constant remains independent of J, as required by the preprint.",
+    "MaskOriginalSampling is a concrete instance of the earlier MaskCopiedSampling contract. Every original column is harmonic at its actual chain pivot; every shift branch is uniform on [0,L(p)). The budget is the actual gap auxiliary V. The only external sampling/order data are positive rational labels, bounded chain blocks, a positive fixed J and the gap-before-pivots ordering; these are source inputs, not moment or error hypotheses.",
+    "The concrete harmonic coordinate index is in Fin N because the actual pivot belongs to its bounded chain block. Auxiliary monotonicity across the gap-before-pivots ordering proves all harmonic budgets. Exact decoding identifies original and shift columns without assuming a distribution relation.",
+    "Tails before the gap imply every original row tail divisor budget is at most the actual gap V. Hence arbitrary original row labels inherit the divisor budgets needed by the copied linear-forms estimate. A global full-pivot budget is not used.",
+    "The concrete originalColumnMass is exactly the original pivot harmonic mass and the concrete directionMass is exactly the common zero-location quotient interval mass. The original independent base law is eventually nonnegative with total mass one, derived from actual master raw-cutoff validity.",
+    "The raw stage prefactor is exactly the integral under these original harmonic coordinates and common conditional independent interval pairs, and the original tail order supplies its m-only eventual bound without any desired budget or mean limit assumption.",
+    "The actual generated supported good-prime event has mass tending to one. This follows from the injective local prime-slot embedding and original generated catalogue inclusion in the unchanged fixed master list. Requiring original pool support changes no event probability.",
+    "Conditioning the actual prime mass on this event gives a nonnegative probability eventually. Exact division by its event mass transfers the copied majorant mean to a limit of 2^|U| and gives the same C_m bound; no extra factor depending on J is introduced.",
+    "The normalized stage prefactor is defined as an actual expectation under the conditioned prime law, original coordinate law and independent direction pairs. It equals the raw stage prefactor divided by the actual good-event mass. Its C_m bound is derived from the normalized subset majorant limit.",
+    "The original normalized outside mass joins this conditioned prime law with the actual independent pivot base law and is eventually a probability. Every conditional direction law is completed by a unit point mass off the original good event; all completed direction laws are eventually probabilities for every outside parameter.",
+    "The normalized stage prefactor is exactly the integral under that original outside joint law and the completed conditional independent pairs. The completion changes nothing on conditionMass support. All finite stage subsets and base rows satisfy the same C_m bound simultaneously eventually.",
+    "The original chain/gap ordering itself remains an input to this analytic application; global construction of the final block/gap/color and companion data is not claimed. The computed ordered recurrence prefactors/cap must still be identified with these normalized actual stage integrals.",
+    "Initial harmonic translation weighted total-variation error, the extra root translation copied family, B/BH/BH^2 moment estimates and retained-weight removal remain incomplete. A copied majorant mean alone does not remove Psi or establish the full analytic additive-elimination lemma.",
+    "No full StrongConjecture, prize eligibility or unavoidable blocker is claimed. No official upstream update was checked, following the user instruction."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:10-26;375-395;418-440;443-507;530-568 remains uncompleted",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4232,
+    "project_modules": 367,
+    "pntplus_modules": 9,
+    "source_scan_modules": 376,
+    "axiom_reports": 1922,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 385,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The ordinary actual copied-row product means, raw and normalized subset majorant means, and m-only raw/normalized stage-prefactor bounds are proved. The exact source quotient L(p)=floor(R/(J M(p))) now has an actual generated modulus cap, a uniform lower length dominating every power of the gap budget V, eventual positivity on every supported good tuple, and M(p)L(p)<=R. MaskOriginalSampling instantiates the original chain-pivot harmonic coordinates and common conditional quotient intervals; all sampling budgets and length conditions are derived from the source tail-before-gap and gap-before-pivots ordering. The actual generated good event has probability tending to one; its conditioned prime law and original outside joint law are eventually probabilities. Completed direction laws are normalized everywhere and exactly preserve the normalized stage integrals; all finite stage prefactors obey the same C_m bound simultaneously. Still identify the computed original ordered recurrence prefactors/cap with these normalized stage integrals, propagate the resulting m-only constant through the actual finite recurrence, and prove the initial harmonic translation weighted total-variation o(1) error. Extend the copied coefficients to the extra root translation and retained-weight second-moment family; prove E B, E BH and E BH^2 and E B(H-2^t)^2=o(1). A mean estimate alone does not remove retained weights. Connect the actual weighted mask-removal integrands, full multiplicative Cauchy--Schwarz recurrence and exception/error bounds. Complete the retained-weight correlation test, root pushforward, full preprint Prediction/Alignment propositions, inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and final witness extraction and separation. Real-exponent clipping remains unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

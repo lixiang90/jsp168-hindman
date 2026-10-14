@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 47.51600000006147,
+  "log": "round-leibman-dense-directions-build.txt",
+  "log_sha256": "52cec819d5a9f8d8f198e39227c5ac222616fe31972d720525a698d77ee3d74c"
+}

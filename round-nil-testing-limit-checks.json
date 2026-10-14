@@ -1,0 +1,44 @@
+{
+  "baseline_hashes_verified_before_edits": 596,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "retained_proof_sources_unchanged": true,
+  "pins_and_attributed_sources_unchanged": true,
+  "root_imports_exact": true,
+  "registered_names_exact": true,
+  "kernel_names_exact": true,
+  "full_target_proved": false,
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4451,
+    "project_modules": 584,
+    "pntplus_modules": 9,
+    "source_scan_modules": 593,
+    "axiom_reports": 2869,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 602,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "fresh_final_recheck": {
+    "all_602_hashes_match": true,
+    "retained_changes_only_root_and_registry": true,
+    "pins_match_baseline_and_actual_configuration": true,
+    "exact_2869_kernel_names_and_standard_axioms": true,
+    "complete_logs_and_evidence_match": true,
+    "all_6_new_oleans_exist": true,
+    "remaining_scope_matches_manifest_and_audit": true,
+    "full_target_proved": false
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "path": "Hindman168/BinaryDyadicCutoffDiscard.lean",
+    "sha256": "18be31b4d29b4e318f1edb67910e7cb2ef5a5b3fcaaa6ad892d6ee296b660c76"
+  },
+  {
+    "path": "Hindman168/MasterBinaryDyadicDiscard.lean",
+    "sha256": "c78637271fd790a45f10d4792da9a10896cf5837b162d9ce0bace8664586a262"
+  }
+]

@@ -1,0 +1,84 @@
+JSP-000168 / Erdos #172 -- author mathematical review, 2026-10-14
+Verdict: Partial overall coverage; PROGRESS. StrongConjecture UNPROVED.
+Goal ACTIVE; no unavoidable obstruction established.
+Author checks are not independent kernel replay or external peer review.
+
+Primary source: OpenAI math adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+08_alignment.tex 363--377 (actual original joint linear array orbit), and
+07_cube_limits.tex 187--208, 246--258 (adaptation and ordered Taylor coordinates).
+All six retained paper sections are compared to pinned Git objects.
+
+1. Actual orbit. CanonicalPointExponent is the exact original integer quotient
+tau*p/M plus the exact original integer residue correction. Canonical cube
+group membership is already proved in the retained model-array constructor.
+CubeBase/Vertex affine identities cancel Y before any quotient projection.
+Different target components retain THEIR own tau and progression indicators.
+All component equations come from the literal native product projection.
+The empty finite family remains the actual trivial product.
+
+2. Adaptation. The native product-log polynomial is used on singleton X*log(g)
+and constant log(a); the true termwise original Lie weights are preserved.
+Parameter ONE equals the actual lower central series, with paper indices
+K_0=K_1=K. Aggregated coefficients have their original lower central membership.
+Zero trimming removes ONLY zero vectors, preserving all actual values and
+weighted coefficients. Original terminal layer s+1 forces degree at most s.
+All-real group differences are derived by the previously proved actual native
+weighted difference construction; signed-integer restriction is exact.
+Neither the old loose model-log degree bound nor a larger stretch is used.
+
+3. Cube identity. Common vertex profiles give one common joint point time.
+Per-component profiles are represented by their own times in the same orbit.
+Uniform target specialization is definitionally the ORIGINAL native empirical
+cube quotient state. Arbitrary integer weights include every zero/one vertex,
+with no restriction on original cube dimension. This algebra does NOT assert
+the joint face invariance of other marginals.
+
+4. Taylor layer argument. Project the vector log polynomial to the quotient
+by F_j, then apply every algebraic scalar dual. Weighted coefficient membership
+makes ALL scalar coefficients of degrees >=j zero. For j>0 the scalar degree
+is at most j-1. Its j distinct values at 0,...,j-1 vanish; the genuine finite
+root-count theorem forces it to be zero. Algebraic dual separation therefore
+gives layer membership at EVERY real input. The j=0 Taylor step uses the
+genuine weighted value in F_0, not a nonexistent positive root count.
+
+5. Ordered construction. The correction at stage j is exp(-binom(b,j)*v_j),
+where v_j is the actual current residual log at the actual integer j. Its
+polynomial degree <=j and v_j lies in original layer j. Original product
+weights prove adaptedness after correction; at m<j, binom(m,j)=0, and at
+m=j it is one. Thus the next residual has j+1 initial integer zeros.
+The recursion retains the exact ALL-real product identity; inverse cancellation
+is proved in the actual group. The ordered product places each removed factor
+on the RIGHT of the accumulated prefix, preserving the noncommutative order.
+There is no commutation of Taylor factors.
+
+6. Terminal step. Stage s+1 has s+1 genuine initial integer zeros and original
+weighted coefficients. The layer argument and ACTUAL original nilpotence make
+its log value zero at EVERY real input. The ordered reconstruction therefore
+has no residual. This covers s=0, where the original data already force the
+group to be trivial. Natural sample powers are actual choose(m,j) powers;
+the full real identity and signed-integer original orbit identity do not rely
+on extrapolating those natural choose values to negative integers.
+
+7. Original instantiation. The genuine all-target joint source has the proved
+original weighted log, so its ordered representation has exactly s+1 factors,
+including the constant factor at index 0. Every actual coefficient lies in
+the SAME original lower central group layer. All signed original orbit inputs
+are recovered by the true native integer exponential identity.
+
+8. Trust and boundaries. No new axiom, sorry, admit, native decision shortcut,
+kernel bypass, heartbeat change or extra analytic production premise is used.
+Development logs preserve the model/Lie-algebra type-matching diagnostics.
+Typed equality transport fixes these without changing mathematics or toolchain.
+Old proof source hashes and transitive selected axiom sets are compared by the
+terminal audit. Standard axioms remain propext, Classical.choice, Quot.sound.
+
+9. Remaining. This closes the ORIGINAL linear-adaptation interface and the
+starting original lower-central ordered Taylor coordinates. It does not prove
+the lemma's sequential finite rational filtration descent, simultaneous character
+irrationality, rational periodic factors or convergent smooth factors. General
+Taylor closure for descended rational filtrations still needs proof. The actual
+local cube-Haar law, sequence-before-locality limit, marginal Haar/coset symmetry,
+joint lifts, full Alignment, distinct GTZ Gowers correlation inverse and final
+same-color positive distinct rapidly separated FS AND FP remain UNPROVED.
+Publication is pending the user's stated completion-or-unavoidable-obstruction
+milestone. No unavoidable obstruction or award eligibility is asserted.

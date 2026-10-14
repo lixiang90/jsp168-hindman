@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 64.65600000019185,
+  "log": "round-native-smooth-character-coordinates-build.txt",
+  "log_sha256": "6bb8cc9779bc62f1993aab8286afbe8242ddc7ddc9b406e963167cec753d08ca"
+}

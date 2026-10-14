@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCompactUnivariateScalars.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.42200000002049,
+    "log": "round-native-rational-dense-nonlinear-separation-NativeRationalCompactUnivariateScalars-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCompactUnivariateScalars.lean",
+    "source_sha256": "400d217d58044424dc10a7064125867f29d392c132663b43f7423e8b3376723b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDenseNonlinearSeparation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.79700000002049,
+    "log": "round-native-rational-dense-nonlinear-separation-NativeRationalDenseNonlinearSeparation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDenseNonlinearSeparation.lean",
+    "source_sha256": "cf4bce432fecd69cfa7051a35de1498261ba606109532da067d3e1b822f4cbbe"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarDenseDifferenceBinomialSeparation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.046000000089407,
+    "log": "round-native-rational-dense-nonlinear-separation-ScalarDenseDifferenceBinomialSeparation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarDenseDifferenceBinomialSeparation.lean",
+    "source_sha256": "a235837899fd56ad06ca62037a6ff4b1cb54c0af4014edeffcf97a7d31c1cbe6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarDenseDifferenceSeparation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.843999999808148,
+    "log": "round-native-rational-dense-nonlinear-separation-ScalarDenseDifferenceSeparation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarDenseDifferenceSeparation.lean",
+    "source_sha256": "cffabe0b416ac292257bedc92473cf086ca666177f71392e825d7c766bb738f9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarDenseDifferenceWeightedCoefficients.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.17200000002049,
+    "log": "round-native-rational-dense-nonlinear-separation-ScalarDenseDifferenceWeightedCoefficients-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarDenseDifferenceWeightedCoefficients.lean",
+    "source_sha256": "7baa692fea5e83d9eab4d2954c91fe66252de2836e1e73251bed50c92be2b900"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarDifferenceSecondCoefficient.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.891000000061467,
+    "log": "round-native-rational-dense-nonlinear-separation-ScalarDifferenceSecondCoefficient-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarDifferenceSecondCoefficient.lean",
+    "source_sha256": "a26b86a28825c7beb88d97b9835a9b514cbe85ea6b4c36badc2c8afcbc837d96"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarUnitPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.515000000130385,
+    "log": "round-native-rational-dense-nonlinear-separation-ScalarUnitPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarUnitPolynomial.lean",
+    "source_sha256": "99ec927fc88f51e295fdbbbd96709509c8ae258974724734fa3f5e362a10466b"
+  }
+]

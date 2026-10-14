@@ -1,0 +1,67 @@
+{
+  "modules": [
+    "Hindman168/AlignmentRawPivotSplit.lean",
+    "Hindman168/AlignmentRawBoundaryLimit.lean",
+    "Hindman168/AlignmentRawArrayStability.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentOutsideRawMass",
+    "Hindman168.alignment_block_insert_pivot",
+    "Hindman168.alignment_raw_pivot_event",
+    "Hindman168.alignmentOutsideRawMass_geometry",
+    "Hindman168.alignment_raw_block_boundary_tendsto",
+    "Hindman168.alignment_raw_finite_boundary_tendsto",
+    "Hindman168.alignmentRawArrayStable",
+    "Hindman168.alignmentGlobalRawMass_geometry",
+    "Hindman168.alignment_raw_array_failure_tendsto",
+    "Hindman168.alignment_raw_array_success_tendsto"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentRawPivotSplit.lean": [
+      [
+        "def",
+        "alignmentOutsideRawMass"
+      ],
+      [
+        "theorem",
+        "alignment_block_insert_pivot"
+      ],
+      [
+        "theorem",
+        "alignment_raw_pivot_event"
+      ],
+      [
+        "theorem",
+        "alignmentOutsideRawMass_geometry"
+      ]
+    ],
+    "Hindman168/AlignmentRawBoundaryLimit.lean": [
+      [
+        "theorem",
+        "alignment_raw_block_boundary_tendsto"
+      ],
+      [
+        "theorem",
+        "alignment_raw_finite_boundary_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentRawArrayStability.lean": [
+      [
+        "def",
+        "alignmentRawArrayStable"
+      ],
+      [
+        "theorem",
+        "alignmentGlobalRawMass_geometry"
+      ],
+      [
+        "theorem",
+        "alignment_raw_array_failure_tendsto"
+      ],
+      [
+        "theorem",
+        "alignment_raw_array_success_tendsto"
+      ]
+    ]
+  }
+}

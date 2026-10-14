@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding dual-translation round was rechecked before edits; all retained proof source hashes and axiom sets remain unchanged.",
+    "The internal averaging type may vary with the stage and its size is not assumed bounded. For each positive tolerance one fixed sample count is chosen, then the existing weighted variance theorem selects samples at every stage. This avoids an invalid use of ordinary finite-sum closure for unbounded internal sums.",
+    "The sample approximation is an actual finite linear combination of selected bounded families. Its Hilbert squared distance from the internal average is at most the reciprocal sample count, by the original weighted coordinate norm-square limits. Closedness then proves average membership.",
+    "Unit structured finite products are proved by induction using the existing actual structured multiplier theorem, with the constant-one generator as the empty product. Only indices in the finite product require the unit and structure hypotheses.",
+    "For each selected second-subgroup cube increment, the integrand is a finite product of translated first-space inputs. Translation invariance and product closure place every such selected family in the first closed dual space; internal-average closure then localizes the actual mixed dual.",
+    "Applying localization to the pure dual of an actual unit represented first-space vector places that dual in both spaces. Orthogonality to the intersection kills its self-dual pairing, which is the limiting second-system Gowers power. The existing zero-Gowers characterization gives orthogonality to the whole second space.",
+    "Five theorems are audited. Relative orthogonality is proved here only for actual unit-bounded represented vectors. No arbitrary-vector projection commutation or full factor-intersection identification is inferred. Higher-order concatenation, full Bessel, and the main target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/WeightedHaarInternalAverage.lean",
+    "Hindman168/MixedDualInternalLocalization.lean"
+  ],
+  "verified": {
+    "project_modules": 1084,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1093,
+    "source_config_hashes": 1102,
+    "build_jobs": 5040,
+    "axiom_reports": 5132,
+    "new_theorems": 5,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 5,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The common-system master estimates, first-order Bessel, dual energy reduction, recursion and stability are proved. Actual dual functions now have a common finite empirical approximation preserving arbitrary cell probabilities, unit bounds and uniform bounded-test correlations. Exact arbitrary-vertex reflection of the actual subgroup cube law and mixed products is now proved. Mixed cubes now have exact arbitrary-vertex duality and weighted single-vertex replacement estimates. Finite products of dual functions now have quantitative empirical approximation uniform over bounded tests. Exact translated-product expansions and extraction for each fixed test are now proved. The exact mixed face split, projected-face correlation and one-step face Cauchy-Schwarz inequality are now proved. Face energies are now identified with actual copied cube means, with nonnegativity and copy algebra verified. Arbitrary-coordinate permutation invariance, copied-mean nonnegativity and reflection bounds are now established. Full multidimensional mixed Gowers Cauchy-Schwarz, the product-root bound and the single-vertex bound are now proved. Actual dual anti-uniformity, its weighted version and the finite zero-root orthogonality characterization are now proved. Mixed dual recursion, covariance and exact subgroup-shift expansions are now established. Same-subgroup mixed-dual finite products now have an exact averaged dual representation and retain weighted anti-uniformity. The actual unit-input mixed-dual convex hull now has multiplicative and translation closure with unchanged weighted anti-uniform bounds. For varying finite groups and cell types, the exact weighted Haar Hilbert realization and vanishing-Gowers/closed-dual-span orthogonality equivalence are now proved. The dual Hilbert span now has uniformly bounded scaled-hull representatives dense in its closure; their bound may depend on the approximation. Fixed-polynomial and continuous functional calculus for scaled-hull representatives, their clipping closure, and unit-interval-valued approximation of the actual dual Hilbert projection are now proved. The actual dual projection now controls the limiting Gowers power and yields unit-interval models with arbitrarily small Gowers error along the same ultrafilter. For ultrafilters containing every tail, diagonalization now provides one exact unit-interval representative of the dual projection and residual Gowers convergence to zero. Actual unit mixed-dual-hull multiplication now preserves the closed dual space and its orthogonal complement and satisfies the genuine projection pull-out identity on represented inputs. Every unit-bounded actual representative in the closed mixed-dual subspace now multiplies that subspace and its orthogonal complement into themselves. The genuine projection pull-out identity extends to these structured multipliers without requiring cellwise convex-hull membership. Actual translations, with shifts allowed to vary by stage and cell, act linearly on weighted-Haar L2-bounded families, preserve their Hilbert distances, and have inverse-shift adjoints. They preserve the closed mixed-dual subspace and its orthogonal complement; the genuine dual projection commutes with translation on actual represented inputs. Closed Hilbert subspaces containing every selected actual unit family now contain their internal finite averages, using fixed sample counts and the original weighted L2 variance bound. Finite products of unit represented structured inputs remain structured. Taking a mixed dual along any second subgroup system preserves the first closed dual space for such inputs. A unit represented member of the first space orthogonal to the intersection has vanishing second-system Gowers seminorm and is orthogonal to the entire second dual space. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

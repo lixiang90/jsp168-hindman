@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.45299999997951,
+  "log": "round-native-rational-full-bracket-alternative-axioms.txt",
+  "log_sha256": "e90ab2ffcbd48868e3de5809861a9ebc26b191f5b51defc54ae1c4d0d0fe6642"
+}

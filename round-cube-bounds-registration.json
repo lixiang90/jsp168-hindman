@@ -1,0 +1,64 @@
+{
+  "modules": [
+    "Hindman168/AlignmentCubeCoordinateBounds.lean",
+    "Hindman168/AlignmentActualCubeBounds.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentCubeBase_rounding_error",
+    "Hindman168.alignmentCubeBase_displacement_bound",
+    "Hindman168.alignmentCubeBase_scale_bound",
+    "Hindman168.alignmentCubeBase_normalized_bound",
+    "Hindman168.alignmentCubeIncrement_scale_bound",
+    "Hindman168.alignmentCubeScale",
+    "Hindman168.alignment_actual_cube_base_bound",
+    "Hindman168.alignment_actual_cube_increment_bound",
+    "Hindman168.alignmentCubeScale_ge_one",
+    "Hindman168.alignment_actual_cube_base_fixed_multiple"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentCubeCoordinateBounds.lean": [
+      [
+        "theorem",
+        "alignmentCubeBase_rounding_error"
+      ],
+      [
+        "theorem",
+        "alignmentCubeBase_displacement_bound"
+      ],
+      [
+        "theorem",
+        "alignmentCubeBase_scale_bound"
+      ],
+      [
+        "theorem",
+        "alignmentCubeBase_normalized_bound"
+      ],
+      [
+        "theorem",
+        "alignmentCubeIncrement_scale_bound"
+      ]
+    ],
+    "Hindman168/AlignmentActualCubeBounds.lean": [
+      [
+        "def",
+        "alignmentCubeScale"
+      ],
+      [
+        "theorem",
+        "alignment_actual_cube_base_bound"
+      ],
+      [
+        "theorem",
+        "alignment_actual_cube_increment_bound"
+      ],
+      [
+        "theorem",
+        "alignmentCubeScale_ge_one"
+      ],
+      [
+        "theorem",
+        "alignment_actual_cube_base_fixed_multiple"
+      ]
+    ]
+  }
+}

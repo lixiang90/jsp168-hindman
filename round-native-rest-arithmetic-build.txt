@@ -1,0 +1,112 @@
+⚠ [5184/5378] Replayed OAI.Combinatorics.Progressions.FixedDensity.OrderedBoundaryPartition
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/OrderedBoundaryPartition.lean:166:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5247/5523] Replayed OAI.Combinatorics.Progressions.FixedDensity.StrongOrderedComplexRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:807:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:882:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:932:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5248/5523] Replayed OAI.Combinatorics.Progressions.FixedDensity.CoarseTargetRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:365:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:446:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:484:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5249/5523] Replayed OAI.Combinatorics.Progressions.FixedDensity.AdaptiveCoarseTargetRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:537:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:644:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:669:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:700:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5252/5523] Replayed OAI.Combinatorics.Progressions.FixedDensity.TowerDominatingGrowth
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean:278:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean:285:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5253/5523] Replayed OAI.Combinatorics.Progressions.FixedDensity.SourceFullCoarseTargetRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/SourceFullCoarseTargetRegularity.lean:505:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✖ [6252/6253] Building Hindman168.AlignmentRetainedCubeResidue (12s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\AlignmentRetainedCubeResidue.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AlignmentRetainedCubeResidue.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AlignmentRetainedCubeResidue.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AlignmentRetainedCubeResidue.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AlignmentRetainedCubeResidue.setup.json --json
+error: Hindman168/AlignmentRetainedCubeResidue.lean:11:14: invalid occurrence of `·` notation, it must be surrounded by parentheses (e.g. `(· + 1)`)
+warning: Hindman168/AlignmentRetainedCubeResidue.lean:21:16: declaration uses `sorry`
+warning: Hindman168/AlignmentRetainedCubeResidue.lean:14:8: declaration uses `sorry`
+warning: Hindman168/AlignmentRetainedCubeResidue.lean:15:5: Variable name `hd` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Hindman168/AlignmentRetainedCubeResidue.lean:15:18: Variable name `hretained` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+error: Hindman168/AlignmentRetainedCubeResidue.lean:32:12: Type mismatch
+  (alignmentRetainedRepresentative_classes M d retained hd Y r (c none)).left
+has type
+  alignmentRetainedRepresentative M d retained Y r (c none) ≡ c none [ZMOD ↑d]
+but is expected to have type
+  alignmentRetainedCubeResidue M d retained Y r c none ≡ c none [ZMOD ↑d]
+error: Hindman168/AlignmentRetainedCubeResidue.lean:33:14: Type mismatch
+  (alignmentRetainedRepresentative_classes 1 d retained hd 0 0 (c (some k))).left
+has type
+  alignmentRetainedRepresentative 1 d retained 0 0 (c (some k)) ≡ c (some k) [ZMOD ↑d]
+but is expected to have type
+  alignmentRetainedCubeResidue M d retained Y r c (some k) ≡ c (some k) [ZMOD ↑d]
+error: Hindman168/AlignmentRetainedCubeResidue.lean:52:4: Type mismatch: After simplification, term
+  alignment_retained_cube_class M d retained hr hM hd tau p Y r (c none) (ell none) hdiv hrOrigin (hc none)
+ has type
+  alignmentRetainedRepresentative M d retained Y r (c none) ≡ alignmentCubeBase (↑M) tau p Y (ell none) [ZMOD
+    ↑d * ↑retained]
+but is expected to have type
+  alignmentRetainedCubeResidue M d retained Y r c none ≡ alignmentCubeCoordinate (↑M) tau p Y none (ell none) [ZMOD
+    ↑d * ↑retained]
+error: Hindman168/AlignmentRetainedCubeResidue.lean:55:4: Tactic `apply` failed: could not unify the conclusion of `(alignment_retained_increment_class_iff d retained hr hd
+    (c (some k)) ?m.68).mpr`
+  alignmentRetainedRepresentative 1 d retained 0 0 (c (some k)) ≡ ?m.68 [ZMOD ↑(d * retained)]
+with the goal
+  alignmentRetainedCubeResidue M d retained Y r c (some k) ≡
+    alignmentCubeCoordinate (↑M) tau p Y (some k) (ell (some k)) [ZMOD ↑(d * retained)]
+
+Note: The full type of `(alignment_retained_increment_class_iff d retained hr hd (c (some k)) ?m.68).mpr` is
+  ?m.68 ≡ c (some k) [ZMOD ↑d] ∧ ?m.68 ≡ 0 [ZMOD ↑retained] →
+    alignmentRetainedRepresentative 1 d retained 0 0 (c (some k)) ≡ ?m.68 [ZMOD ↑(d * retained)]
+
+case some
+κ : Type u_1
+M d retained : ℕ
+hr : 0 < retained
+hM : M.Coprime retained
+hd : d.Coprime retained
+tau p Y r : ℤ
+hdiv : ↑retained ∣ tau
+hrOrigin : tau * p % ↑M = r
+c ell : Option κ → ℤ
+hc : ∀ (k : Option κ), alignmentCubeCoordinate (↑M) tau p Y k (ell k) ≡ c k [ZMOD ↑d]
+k : κ
+⊢ alignmentRetainedCubeResidue M d retained Y r c (some k) ≡
+    alignmentCubeCoordinate (↑M) tau p Y (some k) (ell (some k)) [ZMOD ↑(d * retained)]
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.AlignmentRetainedCubeResidue
+error: build failed

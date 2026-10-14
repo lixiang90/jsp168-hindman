@@ -1,0 +1,87 @@
+{
+  "baseline_hashes_verified_before_registration": 904,
+  "new_modules": [
+    "Hindman168/NativeLatticeRationalCoordinates.lean",
+    "Hindman168/NativeLatticeRationalDimension.lean",
+    "Hindman168/NativeLatticeRationalForm.lean",
+    "Hindman168/RationalCoordinateSpanPreimage.lean",
+    "Hindman168/RationalSubspaceCoordinates.lean",
+    "Hindman168/RationalSubspaceRealBasis.lean",
+    "Hindman168/RationalSubspaceScalarExtension.lean",
+    "Hindman168/RationalSubspaceSpanIntersection.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLatticeRealBasis_rational_coordinates",
+    "Hindman168.nativeLattice_mem_rationalLogSpan_iff_coordinates",
+    "Hindman168.nativeLattice_exponential_positive_power_iff_coordinates",
+    "Hindman168.nativeLattice_rationalSubspace_realSpan_intersection",
+    "Hindman168.nativeLatticeRationalSubspace",
+    "Hindman168.nativeLatticeRationalSubspace_realSpan",
+    "Hindman168.nativeLattice_identityModel_rationalLogSpan_finrank",
+    "Hindman168.nativeLattice_rationalLogSpan_finrank",
+    "Hindman168.nativeLatticeRationalBasis",
+    "Hindman168.nativeLatticeRealBasis",
+    "Hindman168.nativeLatticeRealBasis_apply",
+    "Hindman168.nativeLatticeRationalBasis_rational_span",
+    "Hindman168.nativeLatticeRationalBasis_real_linearIndependent",
+    "Hindman168.nativeLatticeRealBasis_mem_rationalLogSpan",
+    "Hindman168.nativeLatticeRationalScalarExtensionEquiv",
+    "Hindman168.nativeLatticeRationalScalarExtensionEquiv_toLinearMap",
+    "Hindman168.nativeLatticeRationalScalarExtensionEquiv_tmul",
+    "Hindman168.nativeLatticeRationalScalarExtensionMap_bijective",
+    "Hindman168.rationalCoordinateCast_mem_realSpan_iff",
+    "Hindman168.rationalCoordinatePreimage_realSpan_eq",
+    "Hindman168.rationalSubspaceRealBasis_coordinates",
+    "Hindman168.rationalSubspace_mem_iff_coordinates",
+    "Hindman168.rationalSubspace_mem_iff_each_coordinate",
+    "Hindman168.rationalSubspaceBasis",
+    "Hindman168.rationalSubspaceBasis_rational_span",
+    "Hindman168.rationalSubspaceBasis_real_span",
+    "Hindman168.rationalSubspaceBasis_real_linearIndependent",
+    "Hindman168.rationalSubspaceRealBasis",
+    "Hindman168.rationalSubspaceRealBasis_apply",
+    "Hindman168.rationalSubspaceScalarExtensionMap",
+    "Hindman168.rationalSubspaceScalarExtensionMap_tmul",
+    "Hindman168.rationalSubspaceScalarExtensionEquiv",
+    "Hindman168.rationalSubspaceScalarExtensionEquiv_toLinearMap",
+    "Hindman168.rationalSubspaceScalarExtensionMap_bijective",
+    "Hindman168.rationalSubspaceScalarExtensionEquiv_tmul",
+    "Hindman168.rationalSubspace_realSpan_map_coordinates",
+    "Hindman168.rationalSubspace_mem_realSpan_iff",
+    "Hindman168.rationalSubspace_realSpan_intersection_eq"
+  ],
+  "module_report_counts": {
+    "NativeLatticeRationalCoordinates": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "NativeLatticeRationalDimension": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLatticeRationalForm": {
+      "theorems": 7,
+      "selected_declarations": 10
+    },
+    "RationalCoordinateSpanPreimage": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "RationalSubspaceCoordinates": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "RationalSubspaceRealBasis": {
+      "theorems": 4,
+      "selected_declarations": 6
+    },
+    "RationalSubspaceScalarExtension": {
+      "theorems": 4,
+      "selected_declarations": 6
+    },
+    "RationalSubspaceSpanIntersection": {
+      "theorems": 3,
+      "selected_declarations": 3
+    }
+  }
+}

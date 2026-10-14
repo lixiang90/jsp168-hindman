@@ -1,0 +1,2 @@
+✔ [4296/4296] Built Hindman168.MaskInvariantCoordinateForms (10s)
+Build completed successfully (4296 jobs).

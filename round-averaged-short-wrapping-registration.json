@@ -1,0 +1,36 @@
+{
+  "baseline_hash_count": 1052,
+  "modules": [
+    "Hindman168/HaarMeanTestError.lean",
+    "Hindman168/AveragedShortCubeWrapping.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean_sub",
+    "Hindman168.finiteHaarMean_test_error",
+    "Hindman168.cyclicCell_shortCube_average_wrap_error",
+    "Hindman168.weighted_cyclicCell_shortCube_wrap_error"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/HaarMeanTestError.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_sub"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_test_error"
+      ]
+    ],
+    "Hindman168/AveragedShortCubeWrapping.lean": [
+      [
+        "theorem",
+        "cyclicCell_shortCube_average_wrap_error"
+      ],
+      [
+        "theorem",
+        "weighted_cyclicCell_shortCube_wrap_error"
+      ]
+    ]
+  }
+}

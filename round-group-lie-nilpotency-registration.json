@@ -1,0 +1,57 @@
+{
+  "baseline_hashes_verified_before_registration": 733,
+  "new_modules": [
+    "Hindman168/NativeLieCommutatorDerivative.lean",
+    "Hindman168/NativeLieCommutatorWords.lean",
+    "Hindman168/LieLowerCentralProductCutoff.lean",
+    "Hindman168/NativeLieCommutatorProducts.lean",
+    "Hindman168/NativeLieGroupNilpotency.lean"
+  ],
+  "names": [
+    "Hindman168.nativeGroupCommutatorMap",
+    "Hindman168.nativeGroupCommutatorMap_one",
+    "Hindman168.nativeGroupCommutatorMap_contMDiff",
+    "Hindman168.nativeLieMultiplication_mfderiv_identity",
+    "Hindman168.nativeGroupCommutatorMap_mfderiv",
+    "Hindman168.nativeGroupCommutatorWord",
+    "Hindman168.nativeGroupCommutatorWord_one",
+    "Hindman168.nativeGroupCommutatorWord_contMDiff",
+    "Hindman168.nativeGroupCommutatorWord_mem_lowerCentral",
+    "Hindman168.nativeGroupCommutatorWord_eq_one_of_lowerCentral_bot",
+    "Hindman168.nativeGroupCommutatorWord_mfderiv",
+    "Hindman168.nativeLieAdjointDifference_products_zero_of_lowerCentral_bot",
+    "Hindman168.lie_lowerCentral_eq_bot_of_action_products_zero",
+    "Hindman168.lie_isNilpotent_of_action_products_zero",
+    "Hindman168.nativeLieAdjointGenerator_products_zero_of_lowerCentral_bot",
+    "Hindman168.nativeLieAdjointGenerator_pow_zero_of_lowerCentral_bot",
+    "Hindman168.nativeLieAdjointGenerator_products_toEnd",
+    "Hindman168.nativeLieLowerCentral_bot_of_group_lowerCentral_bot",
+    "Hindman168.nativeLieLowerCentral_nilpotencyClass_bot",
+    "Hindman168.nativeLieAlgebra_isNilpotent_of_group_isNilpotent",
+    "Hindman168.nativeLieAdjointGenerator_pow_nilpotencyClass",
+    "Hindman168.nativeLieAdjointCurve_finite_formula_of_group_isNilpotent",
+    "Hindman168.nativeLieAdjoint_exponential_finite_formula_of_group_isNilpotent"
+  ],
+  "module_report_counts": {
+    "NativeLieCommutatorDerivative": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeLieCommutatorWords": {
+      "theorems": 6,
+      "selected_declarations": 7
+    },
+    "LieLowerCentralProductCutoff": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLieCommutatorProducts": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLieGroupNilpotency": {
+      "theorems": 7,
+      "selected_declarations": 7
+    }
+  }
+}

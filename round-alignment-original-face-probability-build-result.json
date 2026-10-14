@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 14.188000000081956,
+  "log": "round-alignment-original-face-probability-build.txt",
+  "log_sha256": "e94a56a12d25a8a385ee84fe7ec9641f355dd4f2a0dd8d4e3a7481cb1006cd21"
+}

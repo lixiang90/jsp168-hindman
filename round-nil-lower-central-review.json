@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 602,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/NilLowerCentralCommutator.lean",
+    "Hindman168/NilLowerCentralFiltration.lean",
+    "Hindman168/NilClosedLowerCentralFiltration.lean",
+    "Hindman168/NilLowerCentralGeometry.lean",
+    "Hindman168/NilLowerCentralNilsequenceTesting.lean"
+  ],
+  "new_selected_report_count": 32,
+  "module_report_counts": {
+    "NilLowerCentralCommutator": 2,
+    "NilLowerCentralFiltration": 9,
+    "NilClosedLowerCentralFiltration": 11,
+    "NilLowerCentralGeometry": 7,
+    "NilLowerCentralNilsequenceTesting": 3
+  },
+  "application_review": [
+    "All 602 baseline source/config hashes were checked before edits and again before registration. Among retained files only the root imports and exact-name verification registry changed; retained proofs, StrongStatement, PNT+ sources and fixed dependency pins remain byte-identical.",
+    "The normal-target three-subgroup inclusion is proved by mapping the three subgroups to G/K, applying the retained Hall-Witt three-subgroup equality there, and using the quotient-map kernel K. The target is explicitly normal; no normality of the three source subgroups is assumed or needed.",
+    "Induction on the first lower-central index, with the second index generalized, proves [L_i,L_j]<=L_(i+j+1) for the actual mathlib convention L_0=G. The two rotating inclusions use the same induction hypothesis and the exact lower-central successor formula. This strong law was not assumed.",
+    "The paper filtration is defined by F_i=L_(i-1), so F_0=F_1=G, F_2=[G,G]. Its antitonicity, normality and all commutator inclusions, including cases with index zero, are derived. The zero-index cases use the proved normality of every actual lower-central layer.",
+    "The assumed algebraic Group.IsNilpotent class bound <=s yields F_(s+1)=bot from the retained actual lower-central nilpotency-class theorem; antitonicity proves all later terms trivial. This does not yet construct Group.IsNilpotent from a concrete Lie-group representation.",
+    "A continuous commutator map on GxG carries the closure of A x B into the closed target layer. The exact closure-product identity proves that taking topological closure of every layer preserves the full filtered commutator condition.",
+    "The closed lower-central filtration is an actual defined sequence, has top layers G, contains the original layers, is closed and normal, and remains terminal in a T1 group. Closure of the trivial subgroup is trivial only with the stated separation hypothesis.",
+    "The closed and original filtrations, and hence their cube groups, are proved equal when all original layers are closed. No unconditional equality of an algebraic lower-central layer and its topological closure is claimed.",
+    "Existing compact-representative theorems apply to the actual original or closed layers and their restricted lattice. They prove compactness of the cube image and, for the closed series, compactness of the actual cube subgroup modulo its lattice intersection.",
+    "Only finitely many layers i<=s require closedness/cocompactness data. Above s the actual layer is bot; its subgroup type and every coset quotient are subsingleton, so compactness is derived without a new geometric hypothesis. The original closed-layer requirement is likewise reduced to i<=s under T1.",
+    "The original-law uniform testing theorems now use either the actual lower-central filtration with finite closed-layer inputs, or its closed expansion with no separate closedness input. Abstract filtration, top-layer, terminal-layer and cube compactness assumptions from the earlier theorem are all discharged by these constructions. The restricted-lattice quotients, metric compactness and continuous quotient map remain explicit.",
+    "The quotient topology used by the test data is explicitly the topology of the chosen metric, with a uniquely named local instance. Continuity into that topology is an input. Compactness of restricted layer quotients uses their actual subgroup quotient topology; no incompatible topology is silently substituted.",
+    "The existing mask models retain their bounds and original all-scale dual estimates. A new canonical closed-lower-central instance proves their uniform nilsequence testing with dimension s+1, without rebuilding the model or changing the root law.",
+    "The fixed local paper cube-filtration equations at Section 07 lines 23-32 and the lower-central missing-corner use at lines 117-137 are represented by these actual algebraic filtrations and testing bridges. The rational Lie/lattice assertions in lines 13-22 remain to be proved for concrete nilmanifold data. Ambient quotient compactness alone is not used to assert compactness of every restricted lattice quotient.",
+    "Local paper sections 04, 05 and 07 match the exact pinned local Git objects after newline normalization. No remote paper updates were checked, and no dependency pin was changed.",
+    "Full default build completed 4458 jobs without warnings/errors. All 2901 exact registered names were reported once by the Lean kernel, including all 32 new theorems, with only standard allowed axioms or none. Executable scanning covers 589 own modules and 9 attributed PNT+ modules plus the root/registry; every own module is imported exactly once. No new heartbeat or linter override is used.",
+    "The previous completed goal proof round and this round are PROGRESS. Full StrongConjecture, complete nilmanifold instantiation, prize eligibility, public submission and an unavoidable blocker are not asserted."
+  ],
+  "source_preprint_sections": {
+    "07_cube_limits.tex": "13-32: rational layer/lattice facts still pending; actual lower-central commutator filtration and terminal degree now proved; 117-137: canonical lower-central cube/testing instances",
+    "05_prediction.tex": "275-352: retained original-law uniform testing applied to actual lower-central and closed-lower-central filtrations with finite layer-quotient inputs"
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4458,
+    "project_modules": 589,
+    "pntplus_modules": 9,
+    "source_scan_modules": 598,
+    "axiom_reports": 2901,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 607,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original-law detection, actual constructed dense block models, full uniform dual estimates, model-error cube cancellation, nonsingleton count replacement, ordered cube coordinates, reflections, compactness from layer quotients, finite uniform root recipes and original interval/residue selectors remain proved. Original harmonic/divisor-weighted boundary deletion, actual positive shift windows and the weighted total bound remain proved. Original-law nilsequence testing is uniform over bounded Lipschitz piece observables with arbitrary translations/base points, and the same finite counting model family retains every original replacement, cube, companion slow-stage and dual-prefix property. The actual lower central series now has its strong commutator law, normal layers and the paper's shifted filtration G_0=G_1=G proved. Algebraic nilpotence with class at most s derives the trivial layer at s+1 and all later layers. Taking topological closures gives an actual closed normal filtration in any topological group; in a T1 nilpotent group it has the same terminal bound. This closed expansion agrees with the original series when those original layers are closed; no general equality is asserted. The actual lower-central and closed-lower-central cube geometry and nilsequence-testing instances now follow from finite restricted-lattice quotient hypotheses at layers 0 through s, with the original version additionally requiring those finite layers to be closed. The later layers are singleton groups and their quotients are automatically compact. Next prove the remaining concrete rational nilmanifold facts: the required rational lower-central layers are closed and their intersections with the specified lattice are cocompact, together with the compatible quotient metric. The concrete Lie/nilmanifold data must also supply the algebraic Group.IsNilpotent class bound and weak local compactness used by these instantiated theorems. These inputs are not proved merely from ambient quotient compactness or by taking layer closures. Complete nested coarse-model projections, calibration and Alignment; instantiate natural-number coloring weights, arithmetic chain/block/gap data and companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

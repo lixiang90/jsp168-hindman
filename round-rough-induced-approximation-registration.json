@@ -1,0 +1,103 @@
+{
+  "modules": [
+    "Hindman168/RoughUniformLipschitzApproximation.lean",
+    "Hindman168/RoughCompactFamilyApproximation.lean",
+    "Hindman168/RoughScalarFamilyApproximation.lean",
+    "Hindman168/RoughNativeOrbitSourceMetric.lean",
+    "Hindman168/RoughNativeOrbitApproximation.lean",
+    "Hindman168/RoughFiniteFamilyApproximation.lean",
+    "Hindman168/RoughNativeKernelApproximation.lean",
+    "Hindman168/RoughNativeFiniteResidueApproximation.lean",
+    "Hindman168/RoughFamilyApproximateDiscrepancy.lean",
+    "Hindman168/RoughFrozenApproximateDiscrepancy.lean"
+  ],
+  "names": [
+    "Hindman168.rough_uniform_lipschitz_approximation",
+    "Hindman168.rough_compact_family_lipschitz_approximation",
+    "Hindman168.rough_scalar_family_lipschitz_approximation",
+    "Hindman168.roughNativeOrbitSourceMetric",
+    "Hindman168.rough_native_orbit_source_metric_topology",
+    "Hindman168.rough_native_orbit_source_metric_compact",
+    "Hindman168.rough_native_scalar_orbit_continuous",
+    "Hindman168.rough_native_orbit_lipschitz_approximation",
+    "Hindman168.rough_finite_family_lipschitz_approximation",
+    "Hindman168.rough_native_residue_kernel_lipschitz_approximation",
+    "Hindman168.rough_native_finite_residue_lipschitz_approximation",
+    "Hindman168.rough_finite_family_approximate_discrepancy",
+    "Hindman168.FiniteMass.rough_frozen_approximated_discrepancy"
+  ],
+  "declarations": {
+    "Hindman168/RoughUniformLipschitzApproximation.lean": [
+      [
+        "theorem",
+        "rough_uniform_lipschitz_approximation"
+      ]
+    ],
+    "Hindman168/RoughCompactFamilyApproximation.lean": [
+      [
+        "theorem",
+        "rough_compact_family_lipschitz_approximation"
+      ]
+    ],
+    "Hindman168/RoughScalarFamilyApproximation.lean": [
+      [
+        "theorem",
+        "rough_scalar_family_lipschitz_approximation"
+      ]
+    ],
+    "Hindman168/RoughNativeOrbitSourceMetric.lean": [
+      [
+        "def",
+        "roughNativeOrbitSourceMetric"
+      ],
+      [
+        "theorem",
+        "rough_native_orbit_source_metric_topology"
+      ],
+      [
+        "theorem",
+        "rough_native_orbit_source_metric_compact"
+      ]
+    ],
+    "Hindman168/RoughNativeOrbitApproximation.lean": [
+      [
+        "theorem",
+        "rough_native_scalar_orbit_continuous"
+      ],
+      [
+        "theorem",
+        "rough_native_orbit_lipschitz_approximation"
+      ]
+    ],
+    "Hindman168/RoughFiniteFamilyApproximation.lean": [
+      [
+        "theorem",
+        "rough_finite_family_lipschitz_approximation"
+      ]
+    ],
+    "Hindman168/RoughNativeKernelApproximation.lean": [
+      [
+        "theorem",
+        "rough_native_residue_kernel_lipschitz_approximation"
+      ]
+    ],
+    "Hindman168/RoughNativeFiniteResidueApproximation.lean": [
+      [
+        "theorem",
+        "rough_native_finite_residue_lipschitz_approximation"
+      ]
+    ],
+    "Hindman168/RoughFamilyApproximateDiscrepancy.lean": [
+      [
+        "theorem",
+        "rough_finite_family_approximate_discrepancy"
+      ]
+    ],
+    "Hindman168/RoughFrozenApproximateDiscrepancy.lean": [
+      [
+        "theorem",
+        "rough_frozen_approximated_discrepancy"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "Cell membership is identified with the existing quotient/remainder intervalResiduePiece; positivity of R is required for the Euclidean quotient bounds. No replacement partition is introduced.",
+    "Disjointness uses equality of the original labels and injectivity of the Fin residue cast.",
+    "Aligned coverage constructs the unique quotient interval and canonical nonnegative remainder modulo M. Both moduli are strictly positive; arbitrary signed endpoints and empty intervals are retained.",
+    "The finite sum decomposition is exact and uses the proved disjointness. This does not yet identify a specific interior of the harmonic window or bound its deleted endpoints. Five new theorems are individually kernel audited."
+  ],
+  "new_modules": [
+    "Hindman168/CompleteResidueCellPartition.lean",
+    "Hindman168/AlignedIntervalResiduePartition.lean"
+  ],
+  "verified": {
+    "project_modules": 1021,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1030,
+    "source_config_hashes": 1039,
+    "build_jobs": 4975,
+    "axiom_reports": 4895,
+    "new_theorems": 5,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 5,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The original intervalResiduePiece labels now give a proved exact disjoint partition and sum decomposition of aligned integer intervals. Selecting the aligned interior of the original harmonic window, deleting the partial endpoint pieces, restricting to admissible residues, assembling normalized cell probabilities and wrapping errors remain, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

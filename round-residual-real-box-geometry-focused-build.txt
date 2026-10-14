@@ -1,0 +1,7 @@
+⚠ [5247/5247] Built Hindman168.ResidualRealBoxGeometry (14s)
+warning: Hindman168/ResidualRealBoxGeometry.lean:40:30: Variable name `hC` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (5247 jobs).

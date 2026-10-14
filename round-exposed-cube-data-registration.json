@@ -1,0 +1,88 @@
+{
+  "modules": [
+    "Hindman168/AlignmentDyadicResidueGrowth.lean",
+    "Hindman168/AlignmentDyadicResidueLimit.lean",
+    "Hindman168/AlignmentFrozenCubeData.lean",
+    "Hindman168/AlignmentExposedCubePolynomial.lean",
+    "Hindman168/AlignmentExposedCubeEvaluation.lean"
+  ],
+  "names": [
+    "Hindman168.alignment_exposure_modulus_bound",
+    "Hindman168.alignment_dyadic_residue_eventually_large",
+    "Hindman168.alignment_dyadic_residue_ratio_eventually",
+    "Hindman168.alignment_dyadic_residue_ratio_tendsto",
+    "Hindman168.alignment_exposed_dyadic_ratio_eventually",
+    "Hindman168.alignmentShortExposureKey_volume_eq",
+    "Hindman168.alignmentShortExposureKey_start_eq",
+    "Hindman168.alignmentShortExposureKey_arrayResidue_eq",
+    "Hindman168.alignmentShortExposureKey_retained_representative",
+    "Hindman168.alignmentExposedCubePolynomial",
+    "Hindman168.alignmentExposedCubePolynomial_degree",
+    "Hindman168.alignmentExposedCubePolynomial_frozen",
+    "Hindman168.alignmentExposedCubePolynomial_eval"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentDyadicResidueGrowth.lean": [
+      [
+        "theorem",
+        "alignment_exposure_modulus_bound"
+      ],
+      [
+        "theorem",
+        "alignment_dyadic_residue_eventually_large"
+      ]
+    ],
+    "Hindman168/AlignmentDyadicResidueLimit.lean": [
+      [
+        "theorem",
+        "alignment_dyadic_residue_ratio_eventually"
+      ],
+      [
+        "theorem",
+        "alignment_dyadic_residue_ratio_tendsto"
+      ],
+      [
+        "theorem",
+        "alignment_exposed_dyadic_ratio_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentFrozenCubeData.lean": [
+      [
+        "theorem",
+        "alignmentShortExposureKey_volume_eq"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_start_eq"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_arrayResidue_eq"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_retained_representative"
+      ]
+    ],
+    "Hindman168/AlignmentExposedCubePolynomial.lean": [
+      [
+        "def",
+        "alignmentExposedCubePolynomial"
+      ],
+      [
+        "theorem",
+        "alignmentExposedCubePolynomial_degree"
+      ],
+      [
+        "theorem",
+        "alignmentExposedCubePolynomial_frozen"
+      ]
+    ],
+    "Hindman168/AlignmentExposedCubeEvaluation.lean": [
+      [
+        "theorem",
+        "alignmentExposedCubePolynomial_eval"
+      ]
+    ]
+  }
+}

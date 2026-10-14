@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 70.2039999999106,
+  "log": "round-native-rational-nonzero-pair-build.txt",
+  "log_sha256": "f3f3b61f08b6cdc028faadaf3a30879d48b9a83cdb17833ee286c3d6b5fb70b4"
+}

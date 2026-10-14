@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2800,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6827,
+    "selected_axiom_reports": 10890,
+    "new_declarations": 52,
+    "new_theorems": 40,
+    "new_definitions": 12,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeOriginalLinearOrbitPolynomial.lean",
+    "Hindman168/NativeOriginalLinearOrbitAdapted.lean",
+    "Hindman168/AlignmentCanonicalPointOrbit.lean",
+    "Hindman168/AlignmentOriginalJointLinearOrbit.lean",
+    "Hindman168/AlignmentOriginalJointCubeOrbit.lean",
+    "Hindman168/AdaptedTaylorInitialZeros.lean",
+    "Hindman168/AdaptedTaylorBinomial.lean",
+    "Hindman168/AdaptedTaylorRemoval.lean",
+    "Hindman168/AdaptedTaylorRecursion.lean",
+    "Hindman168/AlignmentOriginalJointTaylorCoordinates.lean"
+  ],
+  "proved_components": [
+    "The ACTUAL original heterogeneous joint point orbit is constructed in the literal finite product of original native array groups at the unchanged original step s. Every target retains its own tail product, exact integer residue correction, progression table, source and base array. The canonical native cube array is exactly the SAME point orbit at ell0 plus its original weighted increments; the integer origin Y cancels at the GROUP level.",
+    "ALL-real native logarithmic polynomials for a genuine left-linear orbit are constructed from the original proved native product-log formula. Their aggregated coefficients lie in the ACTUAL ORIGINAL lower central Lie layers and their ordinary degree is at most the original step s. The parameter one is proved identical to the original lower central group/Lie series, and genuine real and signed-integer iterated differences use that SAME series. No loose degree bound or degree-dependent stretch replaces adaptation.",
+    "Every common integer vertex profile across ALL original target components is exactly one state of the SAME heterogeneous joint point orbit. Arbitrary per-component profiles retain their actual point times. For one original target the quotient is literally the previously proved original native cube state, with no change to integer-slot/lattice readings. No other-marginal face invariance is inferred.",
+    "The initial-zero Taylor layer lemma is proved for ANY antitone real vector filtration by quotient dual projections and genuine finite polynomial zero counting. An actual adapted polynomial vanishing at the first j integers has ALL-real values in layer j. This is an algebraic theorem, not a supplied Taylor representation or finite-difference oracle.",
+    "Actual binomial correction and original native group product construct each ordered Taylor residual, preserving the SAME original lower central weights and adding one genuine initial integer zero. Natural recursion constructs every residual and ordered product. Original step s makes residual s+1 vanish at EVERY real input, giving the complete all-real ORDERED Taylor representation, actual coefficient membership in each original group layer, and actual nonnegative integer binomial powers. The construction also covers original step zero.",
+    "The ordered Taylor representation and all actual group-layer coefficient memberships are instantiated by the ACTUAL original all-target joint linear orbit. Exact signed original integer inputs recover the genuine original joint state. Sequential smooth/equidistributed/periodic factorization is still unproved; Taylor coordinates alone do not assert coefficient irrationality, local Haar laws or final StrongConjecture."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The ACTUAL original heterogeneous all-target joint linear orbit, canonical cube vertex identities, original lower central ALL-real coefficient/group-difference adaptation and original step-s complete ORDERED Taylor coordinates are now proved. Remaining: general rational filtered Taylor closure and genuine sequential smooth/equidistributed/periodic factorization with ONE rational filtration, strict finite descent, coefficient irrationality, sequence-selected period and bounded smooth-factor limits; local cube-Haar laws on every original dimension through s+1; sequence limit BEFORE relative-box-size limit, projected Haar face invariance and full-support coset symmetry; actual joint face lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse at sufficient native step; final positive distinct rapidly separated SAME-color nonempty FS AND FP. Author checks are not independent kernel replay or external peer review. No explicit delta-power law or other-marginal invariance is claimed. The repaired slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-original-linear-cube-mathematical-review.txt",
+  "mathematical_review_sha256": "ca6315b4ef6a74cf6b9c36f1f7c94310ce276024cdbb14631dccd5a782fe73eb",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

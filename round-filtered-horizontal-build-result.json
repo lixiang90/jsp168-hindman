@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 118.31199999991804,
+  "log": "round-filtered-horizontal-build.txt",
+  "log_sha256": "f1ae97d2b3c5eb3e5430b068efc4381f167e39e0174201388db99c5ab791862b"
+}

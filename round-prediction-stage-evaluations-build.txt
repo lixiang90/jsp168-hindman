@@ -1,0 +1,31 @@
+✔ [4034/4035] Built Hindman168.PredictionStageDuplication (10s)
+✖ [4035/4035] Building Hindman168.PredictionStageEvaluations (10s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\PredictionStageEvaluations.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionStageEvaluations.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionStageEvaluations.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionStageEvaluations.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionStageEvaluations.setup.json --json
+error: Hindman168/PredictionStageEvaluations.lean:27:4: `simp` made no progress
+error: Hindman168/PredictionStageEvaluations.lean:106:6: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ∏ r, ?f ↑r
+in the target expression
+  ∏ r, F (copiedReplicaCubeForm M dir (↑↑r).1 (↑↑r).2 z v) =
+    (∏ r, F (copiedReplicaCubeForm M dir (↑↑r).1 (↑↑r).2 z v)) *
+      ∏ r, F (copiedReplicaCubeForm M dir (↑↑r).1 (↑↑r).2 z (Function.update v k fun x => v k true))
+
+b d h : ℕ
+R : Type u_1
+inst✝ : CommMonoid R
+M : Fin b → ℤ
+dir : Fin h → Fin b × CubeVertex d
+K : Finset (Fin h)
+k : Fin h
+hk : k ∉ K
+base : ReplicaCubeRow b d
+ha : base ≠ some (dir k)
+z : ReplicaCubeColumn b d → ℤ
+v : Fin h → Bool → ℤ
+F : ℤ → R
+⊢ ∏ r, F (copiedReplicaCubeForm M dir (↑↑r).1 (↑↑r).2 z v) =
+    (∏ r, F (copiedReplicaCubeForm M dir (↑↑r).1 (↑↑r).2 z v)) *
+      ∏ r, F (copiedReplicaCubeForm M dir (↑↑r).1 (↑↑r).2 z (Function.update v k fun x => v k true))
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.PredictionStageEvaluations
+error: build failed

@@ -1,0 +1,19 @@
+import Hindman168.FiniteWeightedSubgroupSystem
+#print axioms Hindman168.FiniteWeightedSubgroupSystem
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.mk
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.G
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.addCommGroup
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.finiteGroup
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.κ
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.finiteCells
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.A
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.finiteIndices
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.p
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.p_nonneg
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.p_total
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.α
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.α_nonneg
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.α_total
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.Q
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.g
+#print axioms Hindman168.FiniteWeightedSubgroupSystem.g_unit

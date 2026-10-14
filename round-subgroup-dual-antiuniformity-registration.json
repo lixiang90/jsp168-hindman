@@ -1,0 +1,38 @@
+{
+  "baseline_hash_count": 1082,
+  "modules": [
+    "Hindman168/SubgroupDualAntiuniformity.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupVertexDual_correlation_le_gowers",
+    "Hindman168.subgroupDualFunction_correlation_le_gowers",
+    "Hindman168.probabilityWeighted_gowers_le_weightedGowers",
+    "Hindman168.weighted_subgroupVertexDual_correlation_le_gowers",
+    "Hindman168.subgroupGowersValue_zero_iff_dual_orthogonal"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/SubgroupDualAntiuniformity.lean": [
+      [
+        "theorem",
+        "subgroupVertexDual_correlation_le_gowers"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_correlation_le_gowers"
+      ],
+      [
+        "theorem",
+        "probabilityWeighted_gowers_le_weightedGowers"
+      ],
+      [
+        "theorem",
+        "weighted_subgroupVertexDual_correlation_le_gowers"
+      ],
+      [
+        "theorem",
+        "subgroupGowersValue_zero_iff_dual_orthogonal"
+      ]
+    ]
+  }
+}

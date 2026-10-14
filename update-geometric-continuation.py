@@ -1,0 +1,11 @@
+from pathlib import Path
+import json
+p = Path('CONTINUATION.txt')
+s = p.read_text(encoding='utf-8').replace('Current batch: round-rough-sampling-weights', 'Earlier batch: round-rough-sampling-weights')
+r = json.loads(Path('round-rough-geometric-descent-review.json').read_text(encoding='utf-8'))
+s += '\n\nCurrent batch: round-rough-geometric-descent, verified 2026-10-11. Ten modules, 35 theorems, 9 definitions; full build 5620 jobs; 1654 project modules; 7227 selected transitive axiom reports. Retained proof sources and axiom sets unchanged; standard axioms only; pinned paper sections matched. Author-side verification, not independent kernel replay.\n'
+s += '\n'.join('- ' + c for c in r['application_review'][:10]) + '\n'
+s += '\nReview: the actual bounded geometric partition and its exact original label fibers are now proved, including the final balanced piece lower bound. Original probability losses and uniform large-scale side/weight thresholds are explicit. The genuine smaller kernel now has complete native nilmanifold data and strictly smaller finrank. Supplying actual native frozen/approximate tests, affine sample transport and subgroup native log polynomial coordinates remains necessary before claiming full dimension descent.\n'
+s += '\nImmediate next work: transfer the original ambient joint kernel logarithmic polynomial to the newly packaged native subgroup model. A scratch proof in probe-subgroup-tangent.lean is being developed: inclusion differential at identity equals the real submodule inclusion, then native exponential naturality identifies the subgroup exponential and native logarithm with the restricted original ones. Its tangent theorem already passed a focused Lean run, but the scratch file is not yet registered or included in the verified checkpoint. Next prove exact x=u+Ky original uniform-law transport and transformed box side/position bounds. Combine actual finite residue approximants with the constructed labels and frozen piece selection. The next quantitative main input is the full Leibman obstruction and its uniform finite character list, followed by finite density extraction and dimension induction.\n'
+s += '\nRemaining: ' + r['remaining'] + '\n'
+p.write_text(s, encoding='utf-8')

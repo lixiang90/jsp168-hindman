@@ -1,0 +1,126 @@
+{
+  "modules": [
+    "Hindman168/FiniteEventMajorization.lean",
+    "Hindman168/HarmonicIntervalEventBound.lean",
+    "Hindman168/HarmonicCutoffBands.lean",
+    "Hindman168/ShortBinCutoffGeometry.lean",
+    "Hindman168/ShortBinCutoffProbability.lean",
+    "Hindman168/MasterShortBinCutoffDiscard.lean"
+  ],
+  "names": [
+    "Hindman168.FiniteMass.event_le_total_of_pointwise",
+    "Hindman168.FiniteMass.event_or_le_add",
+    "Hindman168.rawMass_interval_event_le",
+    "Hindman168.roughHarmonic_interval_upper",
+    "Hindman168.rawMass_interval_log_bound",
+    "Hindman168.rawMass_support_window",
+    "Hindman168.rawMass_lower_cutoff_band",
+    "Hindman168.rawMass_upper_cutoff_band",
+    "Hindman168.rawMass_cutoff_bands",
+    "Hindman168.shortBin_preimage_contained",
+    "Hindman168.shortBin_failed_preimage_endpoints",
+    "Hindman168.shortBin_bad_endpoints_pivot_band",
+    "Hindman168.shortBin_failed_cutoff_pivot_band",
+    "Hindman168.failedCutoffShortBin",
+    "Hindman168.rawMass_failedCutoffShortBin_bound",
+    "Hindman168.harmonic_cutoff_band_bound_tendsto",
+    "Hindman168.rawMass_failedCutoffShortBin_tendsto",
+    "Hindman168.master_failedCutoffShortBin_tendsto",
+    "Hindman168.alignedSqrtWidth_le",
+    "Hindman168.master_alignedSqrt_failedCutoffShortBin_tendsto"
+  ],
+  "declarations": {
+    "Hindman168/FiniteEventMajorization.lean": [
+      [
+        "theorem",
+        "event_le_total_of_pointwise"
+      ],
+      [
+        "theorem",
+        "event_or_le_add"
+      ]
+    ],
+    "Hindman168/HarmonicIntervalEventBound.lean": [
+      [
+        "theorem",
+        "rawMass_interval_event_le"
+      ],
+      [
+        "theorem",
+        "roughHarmonic_interval_upper"
+      ],
+      [
+        "theorem",
+        "rawMass_interval_log_bound"
+      ]
+    ],
+    "Hindman168/HarmonicCutoffBands.lean": [
+      [
+        "theorem",
+        "rawMass_support_window"
+      ],
+      [
+        "theorem",
+        "rawMass_lower_cutoff_band"
+      ],
+      [
+        "theorem",
+        "rawMass_upper_cutoff_band"
+      ],
+      [
+        "theorem",
+        "rawMass_cutoff_bands"
+      ]
+    ],
+    "Hindman168/ShortBinCutoffGeometry.lean": [
+      [
+        "theorem",
+        "shortBin_preimage_contained"
+      ],
+      [
+        "theorem",
+        "shortBin_failed_preimage_endpoints"
+      ],
+      [
+        "theorem",
+        "shortBin_bad_endpoints_pivot_band"
+      ],
+      [
+        "theorem",
+        "shortBin_failed_cutoff_pivot_band"
+      ]
+    ],
+    "Hindman168/ShortBinCutoffProbability.lean": [
+      [
+        "def",
+        "failedCutoffShortBin"
+      ],
+      [
+        "theorem",
+        "rawMass_failedCutoffShortBin_bound"
+      ],
+      [
+        "theorem",
+        "harmonic_cutoff_band_bound_tendsto"
+      ],
+      [
+        "theorem",
+        "rawMass_failedCutoffShortBin_tendsto"
+      ]
+    ],
+    "Hindman168/MasterShortBinCutoffDiscard.lean": [
+      [
+        "theorem",
+        "master_failedCutoffShortBin_tendsto"
+      ],
+      [
+        "theorem",
+        "alignedSqrtWidth_le"
+      ],
+      [
+        "theorem",
+        "master_alignedSqrt_failedCutoffShortBin_tendsto"
+      ]
+    ]
+  }
+}

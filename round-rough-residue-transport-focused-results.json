@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughResidueCoordinateEndpoints.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.42200000002049,
+    "log": "round-rough-residue-transport-RoughResidueCoordinateEndpoints-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughResidueCoordinateEndpoints.lean",
+    "source_sha256": "7871742828e5d02090f729afaf8682d9d4d8904e6d8569127e38549bfd0a53eb"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughResidueCoordinateGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.858999999938533,
+    "log": "round-rough-residue-transport-RoughResidueCoordinateGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughResidueCoordinateGeometry.lean",
+    "source_sha256": "9ed548e4c575190632b3c995b7860bcd80fe38955f393173101cd4f907bb0189"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughResidueCoordinateStep.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.312000000150874,
+    "log": "round-rough-residue-transport-RoughResidueCoordinateStep-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughResidueCoordinateStep.lean",
+    "source_sha256": "9aa7c20a03732fa4b02c0c4609ca174e98c94f57625241924191c5b3a05bdf6c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughResidueBoxTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.593999999808148,
+    "log": "round-rough-residue-transport-RoughResidueBoxTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughResidueBoxTransport.lean",
+    "source_sha256": "682b2453225c0944d6b525f7c8466e2dc702f7c65caddd0fccb90d970372d1fc"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughResidueBoxSampling.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.610000000102445,
+    "log": "round-rough-residue-transport-RoughResidueBoxSampling-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughResidueBoxSampling.lean",
+    "source_sha256": "ab075948e08d4bfab95398609e888989bd8109faad34e64c93987882d7de4d34"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughResidueScaleGrowth.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.671000000089407,
+    "log": "round-rough-residue-transport-RoughResidueScaleGrowth-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughResidueScaleGrowth.lean",
+    "source_sha256": "7d253420b16069005958a2468792160770e605de88ef31ae23f97541fbb46c23"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughResidueBoxGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.375,
+    "log": "round-rough-residue-transport-RoughResidueBoxGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughResidueBoxGeometry.lean",
+    "source_sha256": "e674c3100f0d4c2224a2f25da4deb0b12c70ea4b9c4ec59bb5ea10f46880a275"
+  }
+]

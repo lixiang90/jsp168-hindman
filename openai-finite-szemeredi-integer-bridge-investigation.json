@@ -1,0 +1,19 @@
+[
+  {
+    "path": "dependencies/openai-dense-progressions/OAI/Combinatorics/Progressions/Probability/RelativeSourceDensityParameter.lean",
+    "matches": [
+      "theorem APFree.progressionPreimage {S : Finset \u2115} {k : \u2115} (hS : APFree (S : Set \u2115) k)",
+      "    (a q M : \u2115) (hq : 0 < q) : APFree (progressionPreimage S a q M : Set \u2115) k := by",
+      "      S \u2286 Finset.range N \u2192 \u03b4 * N \u2264 (S.card : \u211d) \u2192 HasAP (S : Set \u2115) k := by",
+      "  obtain \u27e8c, hc, hcount\u27e9 := FixedDensity.szemeredi K (le_max_left _ _)",
+      "      S \u2286 Finset.range N \u2192 APFree (S : Set \u2115) k \u2192 S.Nonempty \u2192",
+      "structure APFreeInterval (k : \u2115) where",
+      "  free : APFree (points : Set \u2115) k",
+      "namespace APFreeInterval",
+      "noncomputable def density (S : APFreeInterval k) : \u211d := intervalDensity S.length S.points",
+      "noncomputable def parameter (S : APFreeInterval k) : \u211d := densityParameter S.density",
+      "theorem density_pos (S : APFreeInterval k) : 0 < S.density :=",
+      "theorem parameter_ge_two (S : APFreeInterval k) : 2 \u2264 S.parameter := densityParameter_ge_two _"
+    ]
+  }
+]

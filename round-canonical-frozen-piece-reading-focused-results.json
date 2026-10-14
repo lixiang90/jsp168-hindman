@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCanonicalArrayResidues.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.640000000130385,
+    "log": "round-canonical-frozen-piece-reading-AlignmentCanonicalArrayResidues-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCanonicalArrayResidues.lean",
+    "source_sha256": "cb0a45c42aacf2aa076a2747335e208188c084cbbf92576f6c385b9a6c537e13"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentFrozenPieceReading.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.843999999808148,
+    "log": "round-canonical-frozen-piece-reading-AlignmentFrozenPieceReading-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentFrozenPieceReading.lean",
+    "source_sha256": "9ee6cecd5a60aabc96f65e8c2923f8c28479f4809852272c4c6fc04bdc8ac88a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRawCanonicalPieces.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.734000000171363,
+    "log": "round-canonical-frozen-piece-reading-AlignmentRawCanonicalPieces-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRawCanonicalPieces.lean",
+    "source_sha256": "99588cbf2304261d8d3983226ded225e0a32d8c59f6e8017e83a913826e8dcf5"
+  }
+]

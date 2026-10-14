@@ -1,0 +1,52 @@
+{
+  "modules": [
+    "Hindman168/AlignmentRetainedEndpointBounds.lean",
+    "Hindman168/AlignmentRetainedBoxGeometry.lean",
+    "Hindman168/AlignmentPermittedRetainedGeometry.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentRetainedEndpoint_error",
+    "Hindman168.alignmentRetainedEndpoint_side_error",
+    "Hindman168.alignmentRetainedEndpoint_location",
+    "Hindman168.alignmentRetainedEndpoint_sides",
+    "Hindman168.alignment_retained_step_small_eventually",
+    "Hindman168.alignment_retained_box_geometry_eventually",
+    "Hindman168.alignment_permitted_retained_geometry_eventually"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentRetainedEndpointBounds.lean": [
+      [
+        "theorem",
+        "alignmentRetainedEndpoint_error"
+      ],
+      [
+        "theorem",
+        "alignmentRetainedEndpoint_side_error"
+      ],
+      [
+        "theorem",
+        "alignmentRetainedEndpoint_location"
+      ],
+      [
+        "theorem",
+        "alignmentRetainedEndpoint_sides"
+      ]
+    ],
+    "Hindman168/AlignmentRetainedBoxGeometry.lean": [
+      [
+        "theorem",
+        "alignment_retained_step_small_eventually"
+      ],
+      [
+        "theorem",
+        "alignment_retained_box_geometry_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentPermittedRetainedGeometry.lean": [
+      [
+        "theorem",
+        "alignment_permitted_retained_geometry_eventually"
+      ]
+    ]
+  }
+}

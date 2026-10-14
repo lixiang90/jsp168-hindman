@@ -1,0 +1,44 @@
+✖ [4086/4086] Building Hindman168.PredictionQuotientLengths (10s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\PredictionQuotientLengths.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionQuotientLengths.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionQuotientLengths.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionQuotientLengths.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionQuotientLengths.setup.json --json
+error: Hindman168/PredictionQuotientLengths.lean:22:11: Function expected at
+  List.filter_sublist
+but this term has type
+  (List.filter ?m.29 ?m.30).Sublist ?m.30
+
+Note: Expected a function because this term is being applied to the argument
+  _
+error: Hindman168/PredictionQuotientLengths.lean:74:26: Function expected at
+  Nat.lt_two_pow_self
+but this term has type
+  ?m.60 < 2 ^ ?m.60
+
+Note: Expected a function because this term is being applied to the argument
+  J
+error: Hindman168/PredictionQuotientLengths.lean:75:26: Function expected at
+  Nat.lt_two_pow_self
+but this term has type
+  ?m.72 < 2 ^ ?m.72
+
+Note: Expected a function because this term is being applied to the argument
+  C
+error: Hindman168/PredictionQuotientLengths.lean:111:8: Unknown constant `Int.cast_natAbs`
+error: Hindman168/PredictionQuotientLengths.lean:108:31: unsolved goals
+N r b : ℕ
+F : MasterParameterFamily
+gap : ℕ → Fin b → Fin N
+J : ℕ
+s : ℕ → Fin b → ℕ
+f : Fin b → MvPolynomial (Fin r) ℤ
+w : ℕ
+x : Fin r → ℕ
+q : Fin b
+hJ : 1 ≤ J
+hb :
+  (predictionCubeModulus w (s w q) (f q) x).natAbs *
+      (F.gap w ↑(gap w q) / (J * (predictionCubeModulus w (s w q) (f q) x).natAbs)) ≤
+    F.gap w ↑(gap w q)
+⊢ |↑(predictionCubeModulus w (s w q) (f q) x)| * ↑(predictionQuotientLength F gap J s f w x q) ≤ ↑(F.gap w ↑(gap w q))
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.PredictionQuotientLengths
+error: build failed

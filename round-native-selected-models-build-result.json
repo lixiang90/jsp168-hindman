@@ -1,0 +1,10 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "exit_code": 0,
+  "terminal": true,
+  "elapsed_seconds": 12.827999999979511,
+  "log_sha256": "c8c1a36231958c9b6bc3a724e368ef467fe619ce1046db144cee9f1dd1ab162a"
+}

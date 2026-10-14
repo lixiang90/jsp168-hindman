@@ -1,0 +1,91 @@
+{
+  "modules": [
+    "Hindman168/RoughNativePartitionFreezing.lean",
+    "Hindman168/RoughMvAffineMonomialCoefficient.lean",
+    "Hindman168/RoughMvAffineCoefficient.lean",
+    "Hindman168/RoughAffineBinomialCoefficient.lean",
+    "Hindman168/RoughFixedAffineCoefficient.lean",
+    "Hindman168/RoughActualAffineObstructionModels.lean"
+  ],
+  "names": [
+    "Hindman168.rough_native_balanced_piece_freezing",
+    "Hindman168.roughAffinePowerCoefficient",
+    "Hindman168.rough_affine_power_expansion",
+    "Hindman168.rough_affine_monomial_expansion",
+    "Hindman168.rough_affine_monomial_coefficient",
+    "Hindman168.rough_mv_affine_monomial_coefficient",
+    "Hindman168.rough_mv_affine_coefficient",
+    "Hindman168.roughAffinePowerCoefficient_uniform",
+    "Hindman168.roughAffinePowerCoefficient_nat",
+    "Hindman168.rough_affine_binomial_coefficient",
+    "Hindman168.rough_affine_positive_binomial_coefficient",
+    "Hindman168.rough_fixed_affine_coefficient",
+    "Hindman168.rough_actual_affine_obstruction_models"
+  ],
+  "declarations": {
+    "Hindman168/RoughNativePartitionFreezing.lean": [
+      [
+        "theorem",
+        "rough_native_balanced_piece_freezing"
+      ]
+    ],
+    "Hindman168/RoughMvAffineMonomialCoefficient.lean": [
+      [
+        "def",
+        "roughAffinePowerCoefficient"
+      ],
+      [
+        "theorem",
+        "rough_affine_power_expansion"
+      ],
+      [
+        "theorem",
+        "rough_affine_monomial_expansion"
+      ],
+      [
+        "theorem",
+        "rough_affine_monomial_coefficient"
+      ]
+    ],
+    "Hindman168/RoughMvAffineCoefficient.lean": [
+      [
+        "theorem",
+        "rough_mv_affine_monomial_coefficient"
+      ],
+      [
+        "theorem",
+        "rough_mv_affine_coefficient"
+      ]
+    ],
+    "Hindman168/RoughAffineBinomialCoefficient.lean": [
+      [
+        "theorem",
+        "roughAffinePowerCoefficient_uniform"
+      ],
+      [
+        "theorem",
+        "roughAffinePowerCoefficient_nat"
+      ],
+      [
+        "theorem",
+        "rough_affine_binomial_coefficient"
+      ],
+      [
+        "theorem",
+        "rough_affine_positive_binomial_coefficient"
+      ]
+    ],
+    "Hindman168/RoughFixedAffineCoefficient.lean": [
+      [
+        "theorem",
+        "rough_fixed_affine_coefficient"
+      ]
+    ],
+    "Hindman168/RoughActualAffineObstructionModels.lean": [
+      [
+        "theorem",
+        "rough_actual_affine_obstruction_models"
+      ]
+    ]
+  }
+}

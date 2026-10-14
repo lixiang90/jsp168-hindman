@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.733999999938533,
+  "log": "round-microcell-growth-slot-control-build.txt",
+  "log_sha256": "88ffe6cbc60af20e5cbc37d47c564f0d04935a709b28ee9b9013175278fad9bd"
+}

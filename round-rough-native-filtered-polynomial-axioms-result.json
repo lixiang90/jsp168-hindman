@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.875,
+  "log": "round-rough-native-filtered-polynomial-axioms.txt",
+  "log_sha256": "c9060c675e507f2ce675474a1192d197822f91d44c5cd789070c7900b03cb806"
+}

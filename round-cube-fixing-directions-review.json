@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 1002 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "The cube vertex evaluation is defined on G times (Fin d to Q) by the original root plus the sum over the vertex. The two directions are explicit additive homomorphisms from Q; no surrogate action is assumed.",
+    "For a selected coordinate belonging to the vertex, the added root and subtracted increment cancel exactly. The proof extends to any translated copy, and all parameter translations commute. The root vertex has response a.",
+    "The root-only direction preserves the entire increment tuple and hence any density depending only on increments.",
+    "Translated-copy products are invariant under every element of the image subgroup, using its actual preimage witness. Their absolute values are at most one for arbitrary finite copy families, including the empty family.",
+    "The elimination estimates instantiate the already proved invariant-factor Cauchy-Schwarz theorem with those actual image subgroups. Finite enumerations of the image subgroups are explicit typeclass parameters; in the finite parameter group these exist. The remaining function is arbitrary.",
+    "Eleven theorems and three definitions are individually kernel audited. This proves the direction and copy-removal mechanism, not the full iteration or final Haar-cube identification. Bessel, inverse correlator existence and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/CubeVertexFixingDirections.lean",
+    "Hindman168/CubeCopyElimination.lean"
+  ],
+  "verified": {
+    "project_modules": 986,
+    "pntplus_modules": 9,
+    "source_scan_modules": 995,
+    "source_config_hashes": 1004,
+    "build_jobs": 4940,
+    "axiom_reports": 4791,
+    "new_theorems": 11,
+    "new_definitions": 3,
+    "new_instances": 0,
+    "new_axiom_reports": 14,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The paper root and vertex-fixing directions, translated-copy invariance, and exact single-step density/copy elimination are proved. The full iterated Cauchy-Schwarz induction, identification of the retained root copies with a Haar cube, the short-increment reduction, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

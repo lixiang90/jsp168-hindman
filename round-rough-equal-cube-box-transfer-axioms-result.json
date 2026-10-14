@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.313000000081956,
+  "log": "round-rough-equal-cube-box-transfer-axioms.txt",
+  "log_sha256": "420401fd8fe0bdd996fb4030134c35d9ca40c288df34f1dfc0d4533f8139e19d"
+}

@@ -1,0 +1,77 @@
+{
+  "modules": [
+    "Hindman168/IntegerSubspaceQuotient.lean",
+    "Hindman168/IntegerSubspaceSplit.lean",
+    "Hindman168/NativeCenterLayerIntegerSplit.lean"
+  ],
+  "names": [
+    "Hindman168.integerSubspaceIntersection",
+    "Hindman168.integerSubspaceQuotientEmbedding",
+    "Hindman168.integer_subspace_quotient_embedding_mk",
+    "Hindman168.integer_subspace_quotient_embedding_injective",
+    "Hindman168.integer_subspace_quotient_torsionFree",
+    "Hindman168.integer_subspace_quotient_free",
+    "Hindman168.integer_subspace_quotient_section_exists",
+    "Hindman168.integer_subspace_integer_complement_exists",
+    "Hindman168.nativeCenterLayerIntegerIntersection",
+    "Hindman168.native_center_layer_integer_intersection_mem_iff",
+    "Hindman168.native_center_layer_integer_quotient_free",
+    "Hindman168.native_center_layer_integer_complement_exists"
+  ],
+  "declarations": {
+    "Hindman168/IntegerSubspaceQuotient.lean": [
+      [
+        "def",
+        "integerSubspaceIntersection"
+      ],
+      [
+        "def",
+        "integerSubspaceQuotientEmbedding"
+      ],
+      [
+        "theorem",
+        "integer_subspace_quotient_embedding_mk"
+      ],
+      [
+        "theorem",
+        "integer_subspace_quotient_embedding_injective"
+      ],
+      [
+        "theorem",
+        "integer_subspace_quotient_torsionFree"
+      ],
+      [
+        "theorem",
+        "integer_subspace_quotient_free"
+      ]
+    ],
+    "Hindman168/IntegerSubspaceSplit.lean": [
+      [
+        "theorem",
+        "integer_subspace_quotient_section_exists"
+      ],
+      [
+        "theorem",
+        "integer_subspace_integer_complement_exists"
+      ]
+    ],
+    "Hindman168/NativeCenterLayerIntegerSplit.lean": [
+      [
+        "def",
+        "nativeCenterLayerIntegerIntersection"
+      ],
+      [
+        "theorem",
+        "native_center_layer_integer_intersection_mem_iff"
+      ],
+      [
+        "theorem",
+        "native_center_layer_integer_quotient_free"
+      ],
+      [
+        "theorem",
+        "native_center_layer_integer_complement_exists"
+      ]
+    ]
+  }
+}

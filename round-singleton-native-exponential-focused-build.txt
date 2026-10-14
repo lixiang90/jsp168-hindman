@@ -1,0 +1,2 @@
+✔ [3070/3070] Built Hindman168.SingletonChartNativeExponential (11s)
+Build completed successfully (3070 jobs).

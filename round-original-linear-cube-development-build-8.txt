@@ -1,0 +1,63 @@
+✖ [4381/4382] Building Hindman168.AdaptedTaylorRemoval (12s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\AdaptedTaylorRemoval.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AdaptedTaylorRemoval.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AdaptedTaylorRemoval.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AdaptedTaylorRemoval.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AdaptedTaylorRemoval.setup.json --json
+error: Hindman168/AdaptedTaylorRemoval.lean:80:6: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  nativeLieExponential 0
+in the target expression
+  nativeLieGlobalLogarithm (nativeLieExponential 0 * nativeLieExponential 0) = 0
+
+case pos
+s : ℕ
+D : NativeNilmanifoldData s
+p : RoughVectorMvPolynomial Unit D.E
+j : ℕ
+hz : ∀ m < j, (roughVectorMvEval p fun x => ↑m) = 0
+m : ℕ
+hm : m < j + 1
+hj : m < j
+⊢ nativeLieGlobalLogarithm (nativeLieExponential 0 * nativeLieExponential 0) = 0
+
+Note: The target expression is not type-correct under the `instances` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  Application type mismatch: The argument
+    0
+  has type
+    D.E
+  but is expected to have type
+    GroupLieAlgebra D.I D.G
+  in the application
+    nativeLieExponential 0
+error: Hindman168/AdaptedTaylorRemoval.lean:83:53: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  nativeLieExponential (-?v)
+in the target expression
+  nativeLieGlobalLogarithm
+      (nativeLieExponential (-roughVectorMvEval p fun x => ↑j) *
+        nativeLieExponential (roughVectorMvEval p fun x => ↑j)) =
+    0
+
+case neg
+s : ℕ
+D : NativeNilmanifoldData s
+p : RoughVectorMvPolynomial Unit D.E
+j : ℕ
+hz : ∀ m < j, (roughVectorMvEval p fun x => ↑m) = 0
+hm : j < j + 1
+hj : ¬j < j
+⊢ nativeLieGlobalLogarithm
+      (nativeLieExponential (-roughVectorMvEval p fun x => ↑j) *
+        nativeLieExponential (roughVectorMvEval p fun x => ↑j)) =
+    0
+
+Note: The target expression is not type-correct under the `instances` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  Application type mismatch: The argument
+    -roughVectorMvEval p fun x => ↑j
+  has type
+    D.E
+  but is expected to have type
+    GroupLieAlgebra D.I D.G
+  in the application
+    nativeLieExponential (-roughVectorMvEval p fun x => ↑j)
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.AdaptedTaylorRemoval
+error: build failed

@@ -1,0 +1,102 @@
+{
+  "baseline_hash_count": 1211,
+  "modules": [
+    "Hindman168/RenamedPrimeShortCubeLaw.lean",
+    "Hindman168/MaskRenamedShortCubeLaw.lean",
+    "Hindman168/MaskNativeModelShortCubeThreshold.lean",
+    "Hindman168/MaskNativeModelCorrelationThreshold.lean",
+    "Hindman168/MaskMasterGapIndependence.lean",
+    "Hindman168/SelectedChainMaskShortCubeTransfer.lean",
+    "Hindman168/SelectedNativeMaskCorrelation.lean"
+  ],
+  "names": [
+    "Hindman168.conditioned_push_expectation",
+    "Hindman168.primeSampleGood_rename_equiv",
+    "Hindman168.integerPredictionShortCubeStatistic_rename",
+    "Hindman168.renamed_primeGood_shortCube_expectation",
+    "Hindman168.maskGeneratedRowDataFamily_arity",
+    "Hindman168.maskGeneratedSlot_eq_finCongr",
+    "Hindman168.maskRenamedLocalCatalog_nonzero",
+    "Hindman168.maskLocal_primeGood_shortCube_eq_renamed",
+    "Hindman168.mask_native_model_shortCube_threshold",
+    "Hindman168.mask_native_model_original_correlation_threshold",
+    "Hindman168.maskGeneratedMasterCatalog_gap_independent",
+    "Hindman168.maskGeneratedMaster_gap_independent",
+    "Hindman168.selected_chain_mask_correlation_of_shortCube",
+    "Hindman168.selected_native_mask_original_correlations"
+  ],
+  "theorem_count": 14,
+  "selected_report_count": 14,
+  "declarations": {
+    "Hindman168/RenamedPrimeShortCubeLaw.lean": [
+      [
+        "theorem",
+        "conditioned_push_expectation"
+      ],
+      [
+        "theorem",
+        "primeSampleGood_rename_equiv"
+      ],
+      [
+        "theorem",
+        "integerPredictionShortCubeStatistic_rename"
+      ],
+      [
+        "theorem",
+        "renamed_primeGood_shortCube_expectation"
+      ]
+    ],
+    "Hindman168/MaskRenamedShortCubeLaw.lean": [
+      [
+        "theorem",
+        "maskGeneratedRowDataFamily_arity"
+      ],
+      [
+        "theorem",
+        "maskGeneratedSlot_eq_finCongr"
+      ],
+      [
+        "theorem",
+        "maskRenamedLocalCatalog_nonzero"
+      ],
+      [
+        "theorem",
+        "maskLocal_primeGood_shortCube_eq_renamed"
+      ]
+    ],
+    "Hindman168/MaskNativeModelShortCubeThreshold.lean": [
+      [
+        "theorem",
+        "mask_native_model_shortCube_threshold"
+      ]
+    ],
+    "Hindman168/MaskNativeModelCorrelationThreshold.lean": [
+      [
+        "theorem",
+        "mask_native_model_original_correlation_threshold"
+      ]
+    ],
+    "Hindman168/MaskMasterGapIndependence.lean": [
+      [
+        "theorem",
+        "maskGeneratedMasterCatalog_gap_independent"
+      ],
+      [
+        "theorem",
+        "maskGeneratedMaster_gap_independent"
+      ]
+    ],
+    "Hindman168/SelectedChainMaskShortCubeTransfer.lean": [
+      [
+        "theorem",
+        "selected_chain_mask_correlation_of_shortCube"
+      ]
+    ],
+    "Hindman168/SelectedNativeMaskCorrelation.lean": [
+      [
+        "theorem",
+        "selected_native_mask_original_correlations"
+      ]
+    ]
+  }
+}

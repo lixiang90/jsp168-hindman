@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 30.42200000002049,
+  "log": "round-exposed-cube-data-build.txt",
+  "log_sha256": "937b6088d6d951158a7ddca9cba5c561494b96427b928f3030e628879b9b42ba"
+}

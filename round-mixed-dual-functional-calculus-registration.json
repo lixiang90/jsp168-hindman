@@ -1,0 +1,56 @@
+{
+  "baseline_hash_count": 1090,
+  "modules": [
+    "Hindman168/MixedDualFunctionalCalculus.lean",
+    "Hindman168/MixedDualHilbertClipping.lean"
+  ],
+  "names": [
+    "Hindman168.mixedDualHilbert_polynomial_representative",
+    "Hindman168.weightedHaarHilbert_uniform_distance_le",
+    "Hindman168.mixedDualHilbert_continuous_comp_mem",
+    "Hindman168.weightedHaarClipFamily",
+    "Hindman168.mixedDualHilbert_clip_mem",
+    "Hindman168.weightedHaarHilbert_clip_distance_le",
+    "Hindman168.mixedDualHilbertSubspace_hasProjection",
+    "Hindman168.mixedDualHilbert_projection_unit_approximation"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/MixedDualFunctionalCalculus.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_polynomial_representative"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_uniform_distance_le"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_continuous_comp_mem"
+      ]
+    ],
+    "Hindman168/MixedDualHilbertClipping.lean": [
+      [
+        "def",
+        "weightedHaarClipFamily"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_clip_mem"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_clip_distance_le"
+      ],
+      [
+        "instance",
+        "mixedDualHilbertSubspace_hasProjection"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_projection_unit_approximation"
+      ]
+    ]
+  }
+}

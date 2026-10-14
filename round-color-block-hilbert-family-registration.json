@@ -1,0 +1,89 @@
+{
+  "baseline_hash_count": 1222,
+  "modules": [
+    "Hindman168/MaskColorBlockHilbertFamily.lean",
+    "Hindman168/MaskColorFamilyChainReplacement.lean",
+    "Hindman168/MaskColorFamilySelectedQuality.lean",
+    "Hindman168/MaskUnitNativeReplacement.lean",
+    "Hindman168/MaskColorNativePredictionTransfer.lean",
+    "Hindman168/SelectedColorDenseNativeModels.lean"
+  ],
+  "names": [
+    "Hindman168.MaskColorBlockDualControl",
+    "Hindman168.mask_color_block_hilbert_family",
+    "Hindman168.maskChainColorWeight",
+    "Hindman168.maskChainColorWeight_bounds",
+    "Hindman168.mask_color_family_chain_targetCube",
+    "Hindman168.mask_color_family_chain_replacements",
+    "Hindman168.mask_color_family_selected_chain_quality",
+    "Hindman168.maskSubsetModelReplacement_twice",
+    "Hindman168.mask_unit_native_replacement",
+    "Hindman168.mask_native_replacement_of_error_path",
+    "Hindman168.mask_color_native_prediction_transfer",
+    "Hindman168.selected_color_dense_native_models"
+  ],
+  "theorem_count": 10,
+  "selected_report_count": 12,
+  "declarations": {
+    "Hindman168/MaskColorBlockHilbertFamily.lean": [
+      [
+        "def",
+        "MaskColorBlockDualControl"
+      ],
+      [
+        "theorem",
+        "mask_color_block_hilbert_family"
+      ]
+    ],
+    "Hindman168/MaskColorFamilyChainReplacement.lean": [
+      [
+        "def",
+        "maskChainColorWeight"
+      ],
+      [
+        "theorem",
+        "maskChainColorWeight_bounds"
+      ],
+      [
+        "theorem",
+        "mask_color_family_chain_targetCube"
+      ],
+      [
+        "theorem",
+        "mask_color_family_chain_replacements"
+      ]
+    ],
+    "Hindman168/MaskColorFamilySelectedQuality.lean": [
+      [
+        "theorem",
+        "mask_color_family_selected_chain_quality"
+      ]
+    ],
+    "Hindman168/MaskUnitNativeReplacement.lean": [
+      [
+        "theorem",
+        "maskSubsetModelReplacement_twice"
+      ],
+      [
+        "theorem",
+        "mask_unit_native_replacement"
+      ],
+      [
+        "theorem",
+        "mask_native_replacement_of_error_path"
+      ]
+    ],
+    "Hindman168/MaskColorNativePredictionTransfer.lean": [
+      [
+        "theorem",
+        "mask_color_native_prediction_transfer"
+      ]
+    ],
+    "Hindman168/SelectedColorDenseNativeModels.lean": [
+      [
+        "theorem",
+        "selected_color_dense_native_models"
+      ]
+    ]
+  }
+}

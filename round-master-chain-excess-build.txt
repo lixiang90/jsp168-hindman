@@ -1,0 +1,8 @@
+✖ [4003/4003] Building Hindman168.MasterChainExcess (7.4s)
+error: build failed
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\MasterChainExcess.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterChainExcess.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterChainExcess.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterChainExcess.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterChainExcess.setup.json --json
+error: Hindman168/MasterChainExcess.lean:76:94: failed to prove positivity/nonnegativity/nonzeroness
+error: Hindman168/MasterChainExcess.lean:84:15: unexpected token '∈'; expected ','
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.MasterChainExcess

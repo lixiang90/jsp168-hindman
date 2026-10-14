@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding Gowers-model round was rechecked before edits. All retained proof sources and axiom sets are unchanged.",
+    "The slow-stage construction uses the largest admissible index at most the current stage. Each fixed requirement is known on a filter-large set, and containment of every tail proves that the selected index tends to infinity along the original filter.",
+    "The Hilbert diagonal proof uses finitely many pairwise coordinate-distance estimates at each selected stage. Uniform bounds produce an actual bounded family; every stated coordinate constraint is preserved by selecting existing coordinates.",
+    "All claims about exact representatives use the explicit hypothesis U <= atTop. No countable intersection of filter-large sets is asserted to be filter-large, and no general surjectivity for arbitrary ultrafilters is postulated.",
+    "For the actual weighted-Haar spaces, the [0,1]-valued projection approximants have a uniform norm bound of one. The diagonal therefore gives a single [0,1]-valued family whose Hilbert image equals the genuine dual-subspace projection.",
+    "The original family minus this exact model is unit-bounded and orthogonal to the actual dual subspace. The previously verified vanishing-Gowers characterization proves its weighted Gowers value tends to zero along U.",
+    "Four theorems are audited. This exact unit-interval model result does not identify a sigma-algebra, establish factor localization or relative orthogonality for distinct subgroups, or prove the missing higher-order concatenation/Bessel theorem."
+  ],
+  "new_modules": [
+    "Hindman168/UltrafilterBoundedDiagonal.lean",
+    "Hindman168/MixedDualExactModel.lean"
+  ],
+  "verified": {
+    "project_modules": 1077,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1086,
+    "source_config_hashes": 1095,
+    "build_jobs": 5033,
+    "axiom_reports": 5106,
+    "new_theorems": 4,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 4,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The common-system master estimates, first-order Bessel, dual energy reduction, recursion and stability are proved. Actual dual functions now have a common finite empirical approximation preserving arbitrary cell probabilities, unit bounds and uniform bounded-test correlations. Exact arbitrary-vertex reflection of the actual subgroup cube law and mixed products is now proved. Mixed cubes now have exact arbitrary-vertex duality and weighted single-vertex replacement estimates. Finite products of dual functions now have quantitative empirical approximation uniform over bounded tests. Exact translated-product expansions and extraction for each fixed test are now proved. The exact mixed face split, projected-face correlation and one-step face Cauchy-Schwarz inequality are now proved. Face energies are now identified with actual copied cube means, with nonnegativity and copy algebra verified. Arbitrary-coordinate permutation invariance, copied-mean nonnegativity and reflection bounds are now established. Full multidimensional mixed Gowers Cauchy-Schwarz, the product-root bound and the single-vertex bound are now proved. Actual dual anti-uniformity, its weighted version and the finite zero-root orthogonality characterization are now proved. Mixed dual recursion, covariance and exact subgroup-shift expansions are now established. Same-subgroup mixed-dual finite products now have an exact averaged dual representation and retain weighted anti-uniformity. The actual unit-input mixed-dual convex hull now has multiplicative and translation closure with unchanged weighted anti-uniform bounds. For varying finite groups and cell types, the exact weighted Haar Hilbert realization and vanishing-Gowers/closed-dual-span orthogonality equivalence are now proved. The dual Hilbert span now has uniformly bounded scaled-hull representatives dense in its closure; their bound may depend on the approximation. Fixed-polynomial and continuous functional calculus for scaled-hull representatives, their clipping closure, and unit-interval-valued approximation of the actual dual Hilbert projection are now proved. The actual dual projection now controls the limiting Gowers power and yields unit-interval models with arbitrarily small Gowers error along the same ultrafilter. For ultrafilters containing every tail, diagonalization now provides one exact unit-interval representative of the dual projection and residual Gowers convergence to zero. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

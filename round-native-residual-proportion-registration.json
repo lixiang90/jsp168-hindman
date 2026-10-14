@@ -1,0 +1,77 @@
+{
+  "modules": [
+    "Hindman168/NativeResidualSource.lean",
+    "Hindman168/NativeResidualLargeEvent.lean",
+    "Hindman168/NativeResidualRoughProportion.lean"
+  ],
+  "names": [
+    "Hindman168.roughNativeResidualSource",
+    "Hindman168.roughNativeResidualPolynomial",
+    "Hindman168.rough_native_residual_polynomial_degree",
+    "Hindman168.rough_native_residual_source_log",
+    "Hindman168.RoughNativeResidualComplexLargeIndex",
+    "Hindman168.rough_native_residual_large_event_normalize",
+    "Hindman168.NativeResidualRoughProportionBound",
+    "Hindman168.native_original_to_residual_rough_bound",
+    "Hindman168.native_residual_rough_bound_raw_source",
+    "Hindman168.native_residual_rough_proportion_uniform",
+    "Hindman168.native_finite_residual_rough_proportion_uniform",
+    "Hindman168.native_finite_residual_rough_fraction_tendsto"
+  ],
+  "declarations": {
+    "Hindman168/NativeResidualSource.lean": [
+      [
+        "def",
+        "roughNativeResidualSource"
+      ],
+      [
+        "def",
+        "roughNativeResidualPolynomial"
+      ],
+      [
+        "theorem",
+        "rough_native_residual_polynomial_degree"
+      ],
+      [
+        "theorem",
+        "rough_native_residual_source_log"
+      ]
+    ],
+    "Hindman168/NativeResidualLargeEvent.lean": [
+      [
+        "def",
+        "RoughNativeResidualComplexLargeIndex"
+      ],
+      [
+        "theorem",
+        "rough_native_residual_large_event_normalize"
+      ]
+    ],
+    "Hindman168/NativeResidualRoughProportion.lean": [
+      [
+        "def",
+        "NativeResidualRoughProportionBound"
+      ],
+      [
+        "theorem",
+        "native_original_to_residual_rough_bound"
+      ],
+      [
+        "theorem",
+        "native_residual_rough_bound_raw_source"
+      ],
+      [
+        "theorem",
+        "native_residual_rough_proportion_uniform"
+      ],
+      [
+        "theorem",
+        "native_finite_residual_rough_proportion_uniform"
+      ],
+      [
+        "theorem",
+        "native_finite_residual_rough_fraction_tendsto"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Prior audit rechecked and all retained proof hashes unchanged.",
+    "The product perturbation bound is proved by finite-set induction for two unit-bounded real factor families. It sums actual factor differences and does not divide by potentially zero factors.",
+    "The pointwise dual bound keeps the original short cube-direction Haar average and exact nonroot vertex sum.",
+    "Interchanging root and direction averages and translating the root identifies every vertex error with the original input L1 error. The exact number of nonroot vertices gives the factor 2^d-1, including dimension zero.",
+    "The squared-error bound uses the proved unit bounds on both actual dual functions, giving output L2 squared at most 2*(2^d-1) times input L1. Constants are uniform in all finite groups and subgroups.",
+    "Six new theorems are individually audited. These justify perturbation in prospective approximation arguments; no higher-order concatenation or Bessel conclusion is assumed or claimed."
+  ],
+  "new_modules": [
+    "Hindman168/SubgroupDualStability.lean"
+  ],
+  "verified": {
+    "project_modules": 1054,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1063,
+    "source_config_hashes": 1072,
+    "build_jobs": 5008,
+    "axiom_reports": 4988,
+    "new_theorems": 6,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 6,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The signed master short-cube and subgroup-combination estimates share the actual probability system. First-order Bessel, arbitrary-order dual energy reduction, recursion and uniform L1-to-L2 stability are proved. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

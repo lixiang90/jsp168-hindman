@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 617,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/TriangularGroupReduction.lean",
+    "Hindman168/UnitriangularGroup.lean",
+    "Hindman168/UnitriangularCoordinates.lean",
+    "Hindman168/UnitriangularIntegerLattice.lean",
+    "Hindman168/UnitriangularDepth.lean",
+    "Hindman168/UnitriangularDepthCoordinates.lean",
+    "Hindman168/SubgroupLatticeQuotient.lean",
+    "Hindman168/UnitriangularDepthLattice.lean"
+  ],
+  "new_selected_report_count": 63,
+  "module_report_counts": {
+    "TriangularGroupReduction": 3,
+    "UnitriangularGroup": 9,
+    "UnitriangularCoordinates": 7,
+    "UnitriangularIntegerLattice": 10,
+    "UnitriangularDepth": 6,
+    "UnitriangularDepthCoordinates": 6,
+    "SubgroupLatticeQuotient": 6,
+    "UnitriangularDepthLattice": 16
+  },
+  "application_review": [
+    "All 617 baseline source/config hashes were checked before edits. The previous completed proof goal round is PROGRESS. Only root imports and the exact-name verification registry changed among retained files; StrongStatement, retained proofs, dependency/runtime pins and attributed PNT+ sources are byte-identical.",
+    "Triangular coordinate reduction is proved by induction on the number of processed coordinates in an actual arbitrary group. Right multiplication by an actual lattice member with negative integer floor changes the pivot coordinate by that integer, preserves earlier coordinates, and updates the lattice factor so g=x*gamma remains exact. No commutativity, bounded representative, quotient compactness or normal lattice hypothesis replaces this argument. Empty coordinate types are covered.",
+    "A finite linear order is enumerated by an actual order isomorphism from Fin. Reduction then produces coordinates in [0,1). A genuine coordinate homeomorphism maps the compact closed unit cube into an actual compact set of representatives. The original natural group coset space is proved compact from its actual projection, including nonnormal lattices.",
+    "Unitriangular is the actual subgroup of matrix units having upper-triangular values and diagonal one. Product and inverse closure are proved with actual matrix multiplication and inversion. Every such matrix has determinant one and defines a genuine matrix unit. Its inverse is its actual adjugate.",
+    "Off-diagonal coordinates use descending row and ascending column order. A coordinate matrix is constructed for every finite coordinate tuple and proved inverse to the actual entry chart. Both maps are continuous in the inherited matrix-unit topology; inverse-chart continuity uses the polynomial adjugate. Explicit matrix annotations prevent accidental selection of the pointwise function-space monoid.",
+    "The original integer lattice is the range of the actual group homomorphism from integral unitriangular matrix units to real ones induced by the integer cast ring homomorphism. Membership is characterized exactly by integral off-diagonal entries. Its discreteness follows from an open half-unit coordinate neighborhood isolating the identity, and its closedness follows in the actual Hausdorff topological group.",
+    "Actual integral right transvections are in that original lattice. Matrix multiplication proves the pivot and earlier-coordinate laws: only one column changes, and entries below the pivot row vanish. Applying the proved reduction establishes bounded representatives and compactness for the actual real group quotient without a supplied cocompactness hypothesis.",
+    "Actual depth-k subgroups impose zero entries for positive column-row gaps below k. Product closure follows coefficientwise. Inverse closure is proved directly from the actual u*inverse(u)=1 matrix equation, using upper-triangular inverse support and diagonal one. The subgroups decrease with depth and are trivial at depth at least n; no lower-central or commutator-law identification is assumed.",
+    "Each actual depth subgroup has a constructed global coordinate homeomorphism using its allowed entries, with forbidden entries set to zero. Its closedness follows from the actual coefficient zero sets. Local compactness and second countability follow from these finite real coordinate charts.",
+    "The restricted depth lattice is exactly the comap of the original integer lattice under the actual subgroup inclusion. Its integer right-transvection coordinate laws are proved, giving actual bounded representatives and compact natural coset quotients for every n and k. Its discreteness follows from the topological embedding into the original integer lattice; closedness follows from the original lattice closedness. These are conclusions, not compactness inputs.",
+    "The inclusion-induced map of restricted group cosets is constructed as an actual quotient lift. Its representative formula, continuity, injectivity and exact projected subgroup image are proved with the original nonnormal-lattice equivalence relation. Compact restricted quotient plus Hausdorff ambient quotient proves a closed embedding. This is instantiated for every concrete depth subgroup, with compact projected orbits and metrizable natural quotients.",
+    "The fixed paper Section 07 lines 13-22 requires rational subgroup/lattice facts for arbitrary connected simply connected nilpotent Lie groups; lines 23-32 require a strong commutator filtration; lines 47-95 use these for cube compactness. This round establishes actual noncommutative lattice and layer-quotient geometry in arbitrary-dimensional unitriangular models. It does not prove the general rational subgroup theorem, matrix depth commutator law or nilpotency-class bound, group/Lie lower-central comparison, exponential/BCH/Malcev correspondence, or identification of the original paper models and their specified lattices with these models.",
+    "Full default build completed 4504 jobs with exit zero and no warnings/errors. All 3004 unique exact-name reports were returned by the Lean kernel, including all 63 new theorems, with only Classical.choice, Quot.sound and propext or no axioms. Executable scanning covers all 607 own modules, 9 attributed PNT+ modules, root and registry. Each own module is imported exactly once. No new option override is used.",
+    "Local paper sections 04, 05 and 07 match their exact fixed local Git objects after newline normalization. No remote update was checked. StrongConjecture, complete nilmanifold instantiation, prize eligibility, public submission and an unavoidable blocker are not asserted."
+  ],
+  "source_preprint_sections": {
+    "07_cube_limits.tex": "13-22: actual noncommutative matrix lattice/layer compact quotients and embedded orbits proved; general rational nilpotent Lie group comparison pending. 23-32: concrete descending closed depth subgroups and terminal layer proved; strong depth commutator law and nilpotency bound pending. 47-95: geometry required for the retained upper-face cube compactness route."
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4504,
+    "project_modules": 607,
+    "pntplus_modules": 9,
+    "source_scan_modules": 616,
+    "axiom_reports": 3004,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 625,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original-law detection, actual constructed dense block models, full uniform dual estimates, model-error cube cancellation, nonsingleton count replacement, ordered cube coordinates, reflections, compactness from layer quotients, finite uniform root recipes and original interval/residue selectors remain proved. Original harmonic/divisor-weighted boundary deletion, actual positive shift windows and the weighted total bound remain proved. The same finite counting models retain every original replacement, cube, companion slow-stage and dual-prefix property. The actual lower central series has its strong commutator law, normal layers, shifted filtration G_0=G_1=G and terminal degree from the algebraic nilpotency-class bound. Its closed expansion is an actual closed normal filtration and agrees with the original series when the original layers are closed; no unconditional equality is asserted. Natural compact coset spaces of closed subgroups in second-countable topological groups now have a constructed compatible metric, proved to induce exactly the natural quotient topology with a continuous quotient map and unchanged compactness. A discrete lattice is proved closed in a Hausdorff topological group; it need not be normal. Original-law testing is now proved directly in the natural compact quotient topology for every fixed compact continuous observable family, with unrestricted stage/piece orbit data and uniformity over all bounded admissible tests. Compatible supplied metrics retain their original numerical distances and Lipschitz constants when their bounded Lipschitz families are placed in compact hulls; bounded topologically equicontinuous families also admit compact hulls. No transfer of a Lipschitz constant to an arbitrary new compatible metric is claimed. Canonical natural-quotient lower-central and mask-model testing now needs no separately assumed quotient metric or continuous projection, but still requires compact restricted-lattice quotients for the finitely many layers i<=s. Clearing rational denominators now proves that the original integer intersections span every rational real linear layer relative to a specified integer submodule. For finite-dimensional normed realizations, discreteness then derives full restricted integer lattices, compact natural additive quotients and closed embedded compact layer orbits. Rationality is preserved by real linear images and rational-structure-preserving bilinear operations. The actual Lie-algebra lower central series is proved rational when its specified rational structure spans the ambient space and is closed under the actual Lie bracket; its realized coordinate additive layer quotients are proved compact for a discrete coordinate integer lattice. Those additive Lie-algebra conclusions alone do not establish noncommutative group-lattice cocompactness. Separately, actual unit upper-triangular matrix groups now have global off-diagonal coordinate homeomorphisms, discrete closed original integer matrix lattices and compact natural noncommutative quotients, constructed by ordered integer right-transvection reduction. Every actual superdiagonal-depth subgroup is proved closed, antitone in depth, terminal at depth at least the matrix dimension, and globally homeomorphic to its allowed finite real coordinate space. Its intersection with the original integer matrix lattice is the actual inclusion comap, is discrete and closed, and has proved compact metrizable natural quotient and a closed embedded compact orbit in the ambient quotient. Local compactness and second countability are proved for these concrete matrix groups and their depth subgroups. Their depth commutator law, normality, algebraic nilpotency-class bound and identification with the actual group lower-central series are not yet proved. The general rational subgroup theorem for arbitrary connected simply connected nilpotent Lie groups and arbitrary specified lattices is also still unproved. Next prove the concrete matrix depth commutator law and nilpotency bound, then the exponential/BCH or Malcev-coordinate comparison required to transfer rationality, group-layer closedness and actual lattice-intersection cocompactness to the original paper data. Logarithms of an arbitrary group lattice are not declared to form an additive lattice, and equality between group and Lie lower-central layers is not assumed. The concrete Lie/nilmanifold data must supply the algebraic Group.IsNilpotent class bound, weak local compactness, discrete lattice and ambient compact quotient used by these instantiated theorems; second countability is needed for the separately constructed compatible metric. Identifying any prescribed Riemannian metric with the natural topology is not asserted without its compatibility evidence. Rational layer cocompactness does not follow merely from ambient quotient compactness or taking layer closures. Recipe factors remain continuous and bounded by one, sufficient for the unrestricted original dual inputs; no Lipschitz refinement of those factors is asserted. Complete nested coarse-model projections, calibration and Alignment; instantiate natural-number coloring weights, arithmetic chain/block/gap data and companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

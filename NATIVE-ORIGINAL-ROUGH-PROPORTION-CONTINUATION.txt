@@ -1,0 +1,507 @@
+JSP-000168 / Erdos #172. Continuation after round-alignment-complete-cube-face-probability, 2026-10-14.
+Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction established.
+Authoritative terminal record: verification-manifest.json / last_round.
+Author checking is not independent kernel replay or external peer review.
+
+COMPLETED NATIVE ROUGH ROUTE:
+Original complex non-strict rough exceptional-proportion comparison is proved,
+including finite dense AP input and native finite-rank no-long-bad induction.
+Common finite-native-family budgets precede all raw source/sampling data.
+Literal native x=a+q*y source substitution preserves the removed parameter;
+q and a are fixed while t varies. Nested original q/q*t sampling, complex
+discrepancy and compatible residue identities need NO gcd(q,t).
+Arbitrary real boxes are handled by exact ceil geometry and actual simultaneous
+coarse/fine nonemptiness derived from growth. Comparison holds on ANY actual
+cofinal sieve-width sequence, including repeats/oscillation, with actual
+smoothness and primorial conditions at W(k), never the sample index k.
+Bounded varying normalized scales retain every actual endpoint/observable/
+compatible residue/discrepancy witness. Positive dyadic retained products
+derive a FIXED range factor 2^card independent of actual tuples/models.
+
+ACTUAL CONDITIONAL-PROBABILITY CONNECTION:
+ConditionalProductFiberComparison proves exact uniform count fractions,
+original product pivot-coordinate Fubini with support-restricted fibers,
+finite coordinate unions and actual positive-event conditioning domination.
+Conditioned factors are never assumed independent.
+AlignmentPosteriorFiberComparison applies the proved ACTUAL short-exposure
+posterior domination with constant 3*2^T.card before all events/models.
+Raw positive anchors ensure genuine nonempty factor windows and total-one laws.
+Actual joint source/event fiber caps are now instantiated below; full original cube-box/mean synthesis remains work.
+
+ACTUAL MASTER WINDOW CAPS, NOW PROVED:
+PowerDominationRealRatios derives every positive REAL exponent paper ratio
+from genuine natural-power little-o and positive scale denominators.
+AlignmentNativeReferenceGrowth supplies actual master reference-scale ratios
+and typical factor-scale divergence from MasterParameterConditions.
+AlignmentNativeWindowSampling proves exact binary-window/rough-dyadic-set and
+uniform-law equality, including half-open endpoints and actual representatives.
+It derives smoothness, primorial divisibility and residue rough units from the
+ACTUAL supported master law; retained q need not be coprime to removed t.
+AlignmentNativeWindowUniform obtains the reference analytic budget from the
+PROVED finite-native-family theorem. Growth, arithmetic, density and positive
+normalization are discharged rather than assumed.
+ActualSelectorUniformity and AlignmentNativeWindowAllAnchors promote this to
+ONE eventual cutoff before ALL supported typical anchors, retained subsets
+and tail directions. Positive actual typical-event mass supplies real valid
+anchors at all large widths. Defaults are confined to initial invalid widths,
+with no claimed source/model/analytic truth. Empty tails remain vacuous.
+AlignmentNativeWindowCap explicitly records the legitimate raw polynomial/log
+packet and bounded normalized-geometry inputs; the cap itself is PROVED,
+not an assumed analytic oracle.
+
+ACTUAL NATIVE SOURCE CONNECTION, NOW PROVED:
+SingletonChartNativeExponential identifies a genuine exponential coordinate
+homeomorphism with the native Lie exponential using its actual singleton-chart
+differential, original ray subgroup law and ODE uniqueness. Native log is its
+genuine inverse, not a renamed coefficient function.
+AlignmentArrayNativeCoordinates packages the same genuine array group/lattice/
+step/compatible metric for actual small finite indices and ANY original native
+model universe. The typed coefficient equivalence proves native global log
+equals the original coefficient log after applying that equivalence. Only
+previously proved canonical structures are bound locally, with no new instance
+declaration, source edits to old proofs or compiler limit changes.
+NativeVectorPolynomialSource constructs the native exponential source of the
+actual finite vector polynomial, proves the ALL-REAL log identity and proves
+sample equality from genuine scalar/basis coordinate identities.
+AlignmentExposedNativeVectorPolynomial assembles the EXISTING exposed scalar
+joint-log polynomials in a FIXED basis of the actual native array model.
+Its degree is ((s*s+1)^(s+1))*max(1,T.card), independent of coefficients/w;
+exposure-key freezing and exact native log evaluation on original cube arrays
+are proved. AlignmentExposedNativeSource proves that the exponential extension
+equals the ORIGINAL actual cube array at every permitted sample.
+RoughVectorMvSubstitution proves genuine linear variable changes preserve
+degree and exact vector evaluation. RoughRemovedFactorPolynomial makes ONLY
+the removed j free, freezes ALL other factors and keeps all spatial variables.
+It ignores the dummy frozen value at j, by a proved update invariance theorem.
+AlignmentRemovedFactorNativeSource builds this actual single-factor source,
+proves the original actual-cube sample identity, and constructs the spatial
+x=residue+q*y residual degree/log packet outright. No polynomial/log packet
+or analytic comparison is assumed. q and residue are fixed while j varies.
+Explicit DecidableEq binders reconcile actual Fin updates with generic updates;
+they add no arithmetic constraint or custom instance.
+These are the SINGLE-MODEL source inputs. The genuine finite JOINT source
+and test constructions are proved in the following section; the full actual
+conditional bad-event application remains work.
+
+ACTUAL FINITE JOINT SOURCE AND TEST CONNECTION, NOW PROVED:
+NativeFinitePiData constructs the GENUINE heterogeneous native product,
+retaining literal original groups/product lattice/step, actual smooth product
+chart and compatible quotient metric for small finite labels in ANY original
+model universe. Empty products keep actual unit/zero semantics.
+NativeFinitePiCoordinates derives true component native exponentials/logs via
+actual ray laws and singleton-chart ODE uniqueness. NativeFinitePiPolynomial
+inserts actual vector coefficients componentwise, preserving common degree,
+all-real evaluation/log identities and simultaneous original sample equality.
+AlignmentJointExposedNativeSource retains different original component models,
+finite determining evaluations, bases, vertex weights and slot shifts. The
+common degree ((s*s+1)^(s+1))*max(1,T.card), genuine exposure freezing and exact
+simultaneous ORIGINAL cube-array sample identity are proved.
+AlignmentJointRemovedNativeSource leaves exactly ONE removed factor free,
+freezes all others and retains every spatial direction. Dummy frozen value
+update invariance and the genuine normalized residue degree/all-real log
+packet are proved; no log or analytic comparison oracle is assumed.
+NativeFinitePiCosetCoordinates and AlignmentArrayNativeCosetEvaluation descend
+through literal product/pointwise lattices, without normality of lattices.
+Both natural quotient and specified native metric continuity are PROVED via
+nativeNilmanifold_metric_topology. No numerical Lipschitz bound is inferred
+for a projection or slot evaluation from mere continuity.
+AlignmentJointNativeReadings preserves exact original complex readings,
+pointwise bounds and uniform differences. BoundedComplexLipschitzObservables
+proves compactness of the ACTUAL input class at arbitrary fixed numerical
+sup/Lipschitz bounds by Arzela-Ascoli.
+AlignmentJointMetricReadings and AlignmentJointMetricProducts prove compactness
+of those actual pulled-back reading/product test families in the ACTUAL native
+metrics. One finite Lipschitz approximant list and common positive output
+bounds are chosen BEFORE every original test in the given input classes.
+Source quotient compactness in its metric is derived, not supplied. Fixed
+slot changes can use the same generic theorems with their shifted slots;
+the full face/box translation argument still needs assembly.
+AlignmentJointNativeSampleReadings proves that the ACTUAL metric product test
+on the joint source equals the ORIGINAL simultaneous component observations
+at every permitted integer cube sample. These are value-level identities;
+complete original cube-box/face synthesis still remains work; the actual posterior rough-event caps are assembled below.
+
+ACTUAL COORDINATE/OBSERVABLE/WINDOW CONNECTION, NOW PROVED:
+RoughCoordinateSamplingReindex preserves FULL box/residue images, counts,
+uniform laws and exact complex means under genuine finite equivalences.
+The empty law has algebraic zero mean; no probability is inferred from it.
+NativeCoordinateSourceReindex preserves the removed NONE parameter, degree,
+all-real native log and exact residual source. NativeRealResidualEventReindex
+preserves actual ceil-box means and all non-strict bad-event witnesses.
+ComplexMeanObservableApproximation controls each original normalized mean by
+epsilon and the two-mean discrepancy by two epsilon. Eta/4 uniform approximation
+therefore maps a non-strict eta original event into a genuine eta/2 event.
+NativeRealResidualObservableApproximation produces common positive bounded/
+Lipschitz constants BEFORE source, box, compatible residue or removed factor
+from compactness of the actual original continuous test family.
+AlignmentNativeCoordinateWindowCap applies the PROVED native cap to ANY actual
+finite spatial index by Fintype.equivFin, with no omitted variable.
+AlignmentNativeCompactTestWindow gives one all-anchor cutoff for the original
+compact family events under the SAME original dyadic window law.
+AlignmentJointResidualTestFamily identifies that compact family with the ACTUAL
+original finite product reading of the original numerical input test classes.
+AlignmentJointOriginalTestWindow uses the ACTUAL joint removed-factor source
+and its PROVED degree/ALL-REAL residual log packet; no source packet is assumed.
+Actual retained residue and normalized range are ordinary arithmetic inputs,
+not analytic oracle assumptions. Actual sampled discrepancy inclusion still
+needs to be assembled with these caps and posterior Fubini.
+AlignmentActualRetainedScaleRange proves original window retained products are
+bounded in BOTH directions by 2^T.card times the raw anchor product. Reference
+scale CubeScale/(d*anchorProduct*2^T.card) and actual scale CubeScale/(d*restProduct)
+therefore have fixed range ratio (2^T.card)^2. CubeScale is preserved by the
+original exposure key; the range holds for actual supported posterior tuples.
+
+ACTUAL REST-FIBER AND POSTERIOR CONNECTION, NOW PROVED:
+AlignmentTailRestTuple inserts literal T coordinates into the original anchor.
+Moving the removed factor is exactly Function.update of that actual tuple.
+Retained products/CRT representatives stay fixed before it varies.
+AlignmentTailRestWindowGeometry reads ACTUAL PRODUCT support coordinates into
+the original dyadic/residue windows. No full posterior-key assumption is
+inserted on independent rest tuples. Window membership alone preserves the
+actual lower dyadic product/CubeScale and the proved normalized scale range.
+AlignmentNativeModelLogEvalCongruence proves the ALL-REAL algebraic evaluation
+congruence of original native model log polynomials. Original exponent evals
+are the only inputs used, not off-sample integer nilsequence identities.
+AlignmentJointParameterTailCongruence and AlignmentJointSourceTailDependence
+prove the ACTUAL original native source reads only tail T and its one-factor
+extension reads only the OTHER tail factors. Outside/pivot values therefore
+do not enlarge supported rest-fiber events. Genuine native exp/log equality
+and original bases/product data are retained; no source is replaced.
+AlignmentRetainedCubeResidue constructs the original full CRT residue VECTOR:
+base origin congruence and increment zero congruences, with original chosen
+d residues. Bounds and classes are proved. AlignmentTailRestRetainedArithmetic
+inherits rough units from original supported anchors into rest windows,
+derives positive retained q and its coprimality with actual M and fixed d,
+and proves the entire residue vector fixed before the removed t varies.
+AlignmentRetainedCubeNestedResidue proves actual fine/coarse CRT vectors are
+nested WITHOUT gcd(retained,t), including factors sharing primes.
+AlignmentJointTailRemovalEvent uses that actual source/q/CRT vector and actual
+normalized scale. Its original observation family retains all original tests.
+The all-anchor original-test window cap supplies supported fiber bounds;
+degree, ALL-REAL residual log and scale range are PROVED, not assumed.
+AlignmentJointTailRemovalPosterior integrates these fiber bounds under the
+ORIGINAL independent product law and THEN uses the ACTUAL short-exposure
+3*2^T.card domination. No conditional independence is assumed. Its finite
+removal-direction union tends uniformly to zero before arbitrary raw anchors
+and allowed original source/CRT parameters.
+AlignmentJointTailFiniteResidueChoices permits ANY fixed finite list of
+original residue choices, selected after exposure; its actual posterior
+union still vanishes with the list cardinality cost fixed before the cutoff.
+Empty tail/choice lists remain vacuous, without fabricated choice existence.
+AlignmentJointTailTupleSampleReadings proves the anchor-filled rest-fiber
+source equals original simultaneous cube arrays and complex observations
+at EVERY valid integer cube sample. Actual sampled values outside T are
+not assumed fixed by the posterior. Exact sample/reading equality is not
+an off-sample orbit assertion; actual full box/mean synthesis remains work.
+
+COMPLETE PERMITTED-BOX REMOVAL COMPARISON, NOW PROVED:
+AlignmentJointSourceRestriction proves the ALL-REAL actual one-factor source
+at its actual factor equals the SAME full joint spatial source. Actual integer
+sample equality remains distinct from off-sample original orbit assertions.
+OriginalIntegerResidualBoxGeometry obtains exact native real residual geometry
+from the ORIGINAL integer cube endpoints, positive q, q<=CubeScale and CRT
+representative bounds. Endpoints/sample sets are unchanged. No sign assumption
+on the generic endpoint bound constant is required.
+AlignmentActualOriginalResidualGeometry derives every retained-subset box
+condition from actual rounded cube bounds, actual raw supports and master
+scale growth. AlignmentTailTupleOriginalData preserves original retained
+products and CubeScale when filling anchor values outside tail T.
+NativeRealResidualGoodMean turns the original non-strict bad-event complement
+into a strict bound on the SAME normalized fine/coarse complex means.
+AlignmentJointTailResidueMean defines literal same-source/same-endpoint means
+on retained CRT grids and proves each exact one-factor good-event discrepancy.
+AlignmentJointActualRemovalStep discharges its geometry and all fine/coarse
+CRT arithmetic under original raw supports and original exposure keys. No
+analytic cap, degree/log packet or gcd(retained,removed) is assumed.
+OrderedRemovalTelescope uses U(j)={k in T | j<k} with genuine subset/exclusion
+and Finset induction on the minimum. All adjacent differences use one set
+function. Empty chains have zero cost and no removal direction is invented.
+AlignmentJointActualRemovalChain telescopes the COMPLETE original permitted
+cube-box means from full tail T to denominator-only step d, with exact
+T.card*eta cost. A shared explicit mean function resolves Lean reduction;
+compiler options/heartbeats/native structures remain unchanged.
+AlignmentJointOriginalBoxRemovalFailure quantifies over ALL original permitted
+boxes and all tests in the ACTUAL original joint observation-family image.
+AlignmentJointOriginalBoxRemovalPosterior uses the actual posterior support
+and key to prove inclusion in the earlier genuine direction failure union.
+With eta=epsilon/(T.card+1), COMPLETE box/mean removal failure vanishes
+uniformly under the original short-exposure posterior. No event narrowing,
+endpoint change, fabricated nonempty probability or assumed analytic estimate.
+AlignmentJointOriginalBoxRemovalFiniteChoices allows every fixed finite
+original residue-choice list selected after exposure, with cardinality cost
+before the cutoff. Empty lists remain empty.
+AlignmentOriginalCubeCRTMean proves congruent residue vectors give equal WHOLE
+box sets, and the FULL original affine cube sample mean equals the full-tail
+CRT-grid mean for arbitrary sample readings. This includes algebraic empty
+means, with no changed endpoint, dense subsample or gcd between factors.
+The final specialization of that scalar identity to actual original product
+observations and exposed origin/denominator labels still needs assembly.
+
+LITERAL ORIGINAL PRODUCT CUBE LAW CONNECTION, NOW PROVED:
+AlignmentJointFullSpatialReadings proves all-real full-source tail congruence
+and exact ORIGINAL simultaneous nilsequence product reading at every valid
+integer cube sample, including empty tails. No removed tail direction is
+chosen to handle an empty tail, and no off-sample integer orbit is asserted.
+AlignmentJointOriginalProductCubeMean defines the LITERAL original nilsequence
+product cube average and proves it equals the COMPLETE full-tail CRT joint
+mean. Actual raw supports derive tail positivity and coprimality with M/d.
+The original key/pivot residue identifies tau*p mod M with the EXPOSED anchor
+origin. Every original sample, endpoint, slot and observation is preserved.
+AlignmentOriginalDenominatorChoices constructs the FULL fixed finite list
+Option(kappa)->Fin d, d>0. Actual sample-selected denominator choice is EXACTLY
+its integer remainder and has its original congruence, selected AFTER sampling.
+Terminal retained=1 is the genuine step-d box with only original d residues;
+there is no origin restriction or fake positive mass on an empty box.
+AlignmentJointMetricProductBounds proves original product reading sup bound
+is the product of original component bounds on EVERY joint quotient point.
+No numerical Lipschitz bound on source/projection/composed reading is assumed.
+AlignmentJointTerminalGridMeans defines literal terminal d and spatially
+translated d means, proves exact retained-empty identity and the original
+normalized boundary-count translation bound on whole grids.
+AlignmentJointActualTerminalTranslation derives actual d|Delta, uniform
+|Delta|/CubeScale smallness, positive/large side geometry and the product
+reading bound from original master/raw data. ONE uniform cutoff before source
+data, endpoints/residues, every own pair/coordinate and original observers
+makes the actual terminal-grid translation error < epsilon. No desired
+analytic cap or source coefficient bound is provided as hypothesis.
+AlignmentOriginalProductRemovalFailure now records the LITERAL original
+nilsequence product cube law versus its genuine terminal d law. It quantifies
+ALL original permitted boxes, original residue samples and original numerical
+bounded/Lipschitz observer classes. The denominator label may depend on sampled
+factor, pivot or microcell, and lies in the FULL fixed finite list.
+AlignmentOriginalProductRemovalPosterior identifies exact original/full-CRT
+and terminal-grid means on the actual posterior support and includes this
+failure in the PROVED finite-choice original joint failure union. Uniform
+posterior removal vanishing is now an actual original product cube-law result.
+The origin stays exposed/fixed; do not union an unbounded data-dependent origin.
+The integer-state/upper-face equality was completed in the next registered
+round below. Full original marginal face invariance still remains to prove.
+
+LITERAL INTEGER STATE AND ORIGINAL FACE ACTION, NOW PROVED:
+AlignmentIntegerSpatialParameters defines the actual spatial vertex/base
+and proves original residue-correction integrality on EVERY integer grid,
+including empty tails. Base freezing uses actual exposed key and rough units.
+AlignmentNativeIntegerSpatialArray proves original native scalar/model-log
+and actual coefficient-log/basis reconstruction identify EACH literal native
+model array at any integer spatial z. The own increment is actual Delta_e,
+zero otherwise. Real polynomiality alone is not used as an orbit identity.
+AlignmentJointIntegerSpatialSource proves both full and tail-restricted
+joint original source equal the literal heterogeneous product model-array
+state on ALL integer spatial grids, through original native product sampling.
+AlignmentIntegerSpatialTranslation proves exact original spatial coordinate
+Delta shift changes the base by weight_j*Delta_e and equals the original
+slot input shift Pi.single e weight_j when e.targetTail=T. Own-pair condition
+is explicit. Weight zero/one gives lower-face identity/upper-face unit shift.
+AlignmentJointNativeSlotTranslations types original product slot automorphism
+on actual native product and pointwise/product lattice, proves lattice
+preservation, exact original slot evaluation, descended quotient action and
+continuity in the PROVED supplied native metric topology. No numerical
+Lipschitz bound or normality assumption is introduced.
+AlignmentJointIntegerFaceTranslation identifies this original slot action
+with actual spatial Delta on EVERY original integer denominator grid, in the
+joint group and quotient simultaneously at every slot and component.
+AlignmentJointTranslatedTestFamilies proves fixed face-composed ORIGINAL
+product observations equal originals at translated slots. Compact original
+bounded/Lipschitz observer families admit ONE finite bounded/Lipschitz
+approximant list before source coefficients, endpoints, denominator choices
+and sampled tuples. Reuse the original shifted-slot family/removal cap.
+AlignmentJointTerminalFaceMean proves exact translated terminal d-grid mean
+is the same original d-grid tested by its original slot automorphism.
+AlignmentJointTerminalFaceProducts identifies the terminal product face mean
+and derives actual UNIFORM vanishing original product face discrepancy from
+original master arithmetic/growth/geometry and raw support/key conditions.
+One cutoff precedes all original boxes/choices, own pairs/coordinates, actual
+sources/weights and bounded/Lipschitz observations. Terminal d-law invariance
+is now genuine; full original cube-law invariance still needs BOTH removal
+comparisons and actual posterior finite unions. No other-component invariance.
+
+ORIGINAL MARGINAL PRODUCT FACE PROBABILITY, NOW PROVED:
+AlignmentOriginalProductFaceFailure is LITERAL original cube mean at original
+slots vs original own-face shifted slots; it retains ALL original permitted
+boxes/residues and observer choices AFTER the sampled tuple.
+AlignmentOriginalProductFacePosterior proves actual conditional failure
+vanishes by BOTH original removal errors (epsilon/3, delta/2) and genuine
+terminal face error. Raw support/key identities identify SAME origin Y,
+endpoints, selected denominator remainder and normalization. No conditional
+independence. Native data/array determining evaluations/bases are explicit
+proof parameters even though the final literal event omits them.
+AlignmentOriginalProductFaceFiniteFamily gives ONE cutoff for arbitrary fixed
+finite original own-pair/coordinate/profile/slot/observer lists. Empty lists
+stay empty and source formulae remain selectable after width/exposed anchor.
+AlignmentOriginalProductAllFacesPosterior instantiates the FULL fixed finite
+list: actual own-pair subtype x ALL coordinates x ALL Fin 2 vertex profiles.
+Exact integer zero/one representation covers any sample-selected profile or
+failing face AFTER y. No unbounded integer-weight union is made.
+FiniteTypicalExposureEventBound integrates actual good-key conditional caps
+through EXACT original exposure disintegration. Original total and bad-key
+mass remain; no bad-key positive likelihood or artificial probability.
+AlignmentOriginalProductAllFacesGlobal uses PROVED actual bad-key vanishing
+and key-good/typical identity. Original global all-face failure vanishes
+uniformly BEFORE arbitrary exposed-key source maps. On conditional support,
+sampled formula selections equal fixed key selections. Width/key-dependent
+formulae are covered; unexposed-factor-dependent selections are NOT claimed.
+AlignmentOriginalProductFacePositiveSelection gives genuine original global
+failure zero limit for arbitrary width-varying key formulae, preserves it
+under ANY additional probability-bounded-below conditioning, and chooses
+supported original samples in prescribed positive-mass sets with all own
+faces and zero/one profiles good for the fixed numerical condition.
+These assertions concern ORIGINAL PRODUCT OBSERVATIONS. Full marginal
+continuous cube test classes, countable simultaneity and local cube-coset
+limits/face lift/full Alignment are still work, not supplied by these caps.
+
+COMPLETE ORIGINAL CUBE TEST APPROXIMATION, NOW PROVED:
+FinitePiLipschitzProducts defines literal coordinate-observer products and
+PROVES their complex submodule span is a genuine star algebra on the FULL
+product space. Multiplication/conjugation are handled by original Lipschitz
+coordinate algebra and actual span inductions. No new instances or axioms.
+FinitePiLipschitzProductDensity proves coordinate products separate EVERY
+full product point via a single original coordinate observer and ones at
+other coordinates. Complex Stone-Weierstrass gives genuine sup-norm density
+in ALL continuous complex cube tests, including the empty-coordinate case.
+FinitePiProductLinearApproximation gives an actual FINITE list of retained
+complex coefficients and original coordinate Lipschitz observers for EVERY
+span element. Any COMPACT test family has ONE finite span approximant list.
+AlignmentOriginalContinuousCubeMean defines literal original cube reading
+tuples and arbitrary continuous cube-test means. Product means equal EXACTLY
+the registered ORIGINAL product cube mean. Approximation controls BOTH
+original and own-face means with original boxes/residues/normalization;
+empty grids preserve algebraic zero. eta/4 approximation forces eta/2
+approximant face failure from a complete-test eta failure.
+AlignmentOriginalCubeTestApproximation instantiates the COMPLETE original
+numerical bounded/Lipschitz cube test class on the actual product of original
+quotient metrics. Actual native compactness gives compactness and ONE fixed
+finite span approximant list BEFORE source/box/residue/sample choices.
+FinitePiProductLinearMeans proves EXACT finite coefficient combination of
+original finite-mass means. AlignmentOriginalCubeProductLinearMean proves
+complete-test span approximant mean equals its retained coefficient finite
+combination of registered ORIGINAL product cube means.
+Complete-test posterior/global probabilities still need common finite
+coordinate-observer/coefficient budgets and finite-sum error transfer below.
+
+COMPLETE FINITE-READING CUBE FACE PROBABILITIES, NOW PROVED:
+FiniteProductApproximationBudgets DERIVES a common actual coordinate-observer
+pool bound from norms and actual Lipschitz constants, and strict positive
+retained coefficient budget R. All choices precede original sources/data.
+FiniteComplexCoefficientError gives exact finite coefficient-list linear
+difference and norm/error budgets. Zero coefficients/empty lists retained.
+AlignmentCompleteCubeTestBudget combines the PROVED compact finite span
+approximation with these actual bounds. EVERY complete numerical test has
+a product-list approximant with common coordinate numerical classes, strict
+coefficient-size <R and sup-error eta/4, before source/endpoint/sample data.
+AlignmentCompleteCubeFaceFailure defines the LITERAL COMPLETE finite-reading
+cube class all-face failure: ALL boxes/residues, complete test after sample,
+ALL own pairs/coordinates and ALL zero/one vertex profiles are retained.
+AlignmentCompleteCubeFaceTransfer proves its pointwise inclusion in ORIGINAL
+all-product-face failure at eta/(2R). Exact original mean linearity, both
+sup-error controls and genuine strict coefficient budget force contradiction.
+AlignmentCompleteCubeFacePosterior instantiates the old actual all-product
+posterior cap with DERIVED common budgets; complete failure vanishes under
+the ACTUAL short posterior. No desired cap or source estimate is assumed.
+AlignmentCompleteCubeFaceGlobal integrates by exact original key disintegration
+and actual bad-key vanishing, uniformly before every exposed-key source map.
+AlignmentCompleteCubeFacePositiveSelection gives actual global zero failure,
+preserves it under every probability-bounded-below extra conditioning, and
+chooses supported original good samples in its prescribed set.
+The complete test DOMAIN is the full finite product of ORIGINAL quotient
+READING spaces in their actual product metric. This is not automatically the
+ACTUAL native ARRAY/CUBE quotient used in local Haar law. Verify its reading
+interface/density next; do not silently equate those spaces.
+
+NEXT MAIN ROUTE:
+1. Native marginal cube test interface, countable diagonal and local law.
+   Full numerical COMPLETE finite-reading test all-face posterior/global
+   caps, actual common budgets and supported positive-set selection are now
+   PROVED. Do not repeat product approximation/linear error/probability layers.
+   Actual native array group lattice is POINTWISE at ALL integer slots;
+   finite-product lattice is its product. Verify that original integer-slot
+   quotient readings separate distinct points of actual native J/Gamma.
+   Distinct quotient points mean a^-1*b NOT in actual product/pointwise
+   lattice, yielding some original component nu and integer slot z whose
+   quotient evaluations differ. Use proved original quotient evaluation and
+   native metric-topology continuity. A fixed determining Lie evaluation
+   list must NOT be assumed to embed the lattice quotient without proof.
+   If needed build the compact native cube test star algebra generated by
+   ALL integer-slot cylinder observers. Complex Stone-Weierstrass yields
+   full native test density; compact numerical classes give finite actual
+   observer/slot approximants before source/endpoints. Products involving
+   multiple slots of the same component can be handled by duplicated original
+   model indices (generic original product cap allows distinct/repeated models).
+   Prove actual source readings equal registered literal ORIGINAL means;
+   preserve actual vertex weights and the same own-face slot action. This
+   supplies native complete-test law interface without a projection Lipschitz
+   assumption. Actual native array quotient C-test conclusion is still work.
+   Prescribed positive events may only occur along a subsequence/cofinal W(k).
+   Pull back the pointwise cutoff BEFORE all sources along ANY actual cofinal
+   W, allowing source choices indexed by k (even repeated/oscillating W); never
+   force those choices to factor through W or treat k as the sieve width.
+   Then enumerate ALL fixed positive integer moduli, cube dimension through
+   s+1, target, endpoint/side/test bounds and accuracies. Actual finite-prefix
+   failure caps plus supported selection in probability-bounded-below sets,
+   and SlowStageDiagonal, must give ONE countable simultaneous sequence.
+   Keep master/source/model choices compatible; no analytic truth for early
+   invalid widths. The original local-law period d0 is sequence-selected AFTER
+   this diagonal, so never fix only one modulus in advance.
+   Pass to genuine local cube-law limits/cosets, take sequence limit BEFORE
+   small-relative-box limit, derive local cube Haar own-face invariance and
+   compact coset preservation, then face lift/full Alignment and strong FS/FP.
+
+2. Separate GTZ interval Gowers correlation inverse remains unproved.
+   NativePeriodicIntervalInverseThreshold defines HasNativePeriodicIntervalInverse,
+   requiring arbitrary bounded periodic inputs and LINEAR nilsequence correlation
+   with a fixed finite native list/Lipschitz/positive correlation before q,K,v.
+   Completed native equidistribution inverse does NOT discharge this. Existing
+   master inverse projection and short-cube steps remain conditional on this
+   genuine proposition. A missing library theorem is not an unavoidable block.
+   Preserve full quantifiers and actual K=0/d=0 semantics.
+   Inverse call sites were re-read: finite_order_* uses q in a FINTYPE
+   degree list; finite_scale_* uses d<=maskRowCountBound. Choose sufficient
+   step s for that actual finite list. Do not claim a universal inverse for
+   incompatible arbitrary step/Gowers-degree pairs. Native equidistribution
+   and the new joint-source construction still do NOT supply GTZ correlation.
+
+3. Final full cube/Alignment and positive distinct rapidly separated FS/FP.
+   StrongConjecture is unchanged. One common color must cover every nonempty
+   sum AND product, for arbitrary finite coloring and witness length.
+   Fixed-data existential constants do not certify explicit delta-power laws.
+
+DEPENDENCIES AND CHECKING:
+Main pins unchanged: Lean 4.32.2 and mathlib
+905b95818eb32af7874a58b427f50c1711a5e96c.
+Nine attributed PNT+ modules retained. The 42-module minimal attributed finite
+Szemeredi closure is certified under these pins, with source attribution,
+Apache-2.0 license and all compatibility/provenance files preserved.
+The separate 4137-module full dense-progression archive remains UNVERIFIED
+and not imported. Do not confuse it with the certified minimal closure.
+Keep all registered source hashes and old axiom sets exact; add new modules,
+root imports and registry only. No sorry/admit/custom axiom/native_decide/
+unsafe/option/instance bypass. Explicit autoImplicit=false checks must have
+EMPTY logs. Run complete build, expanded selected transitive standard-only
+axiom audit and actual pinned paper-source comparison before registration.
+
+PUBLICATION:
+Only completed formalization or a genuinely established unavoidable obstruction
+reaches the user's public-repository/PR/prize milestone. Neither has occurred.
+Repaired source slab estimate, compiler APIs or absent library imports are not
+obstruction certificates. Preserve paper/dependency/solver authorship accurately.
+
+LATEST TERMINAL AUDIT, 2026-10-14: round-alignment-complete-cube-face-probability.
+{
+  "project_modules": 2769,
+  "pntplus_modules": 9,
+  "attributed_szemeredi_modules": 42,
+  "build_jobs": 6796,
+  "selected_axiom_reports": 10795,
+  "new_declarations": 13,
+  "new_theorems": 12,
+  "new_definitions": 1,
+  "new_external_targets": 0,
+  "retained_proof_sources_unchanged": true,
+  "retained_axiom_sets_unchanged": true,
+  "standard_axioms_only": true,
+  "main_pins_unchanged": true,
+  "full_target_proved": false,
+  "independent_kernel_replay": false
+}
+This goal turn added 8 modules, 12 theorems and 1 definitions in one terminal author audit round.
+Every prior registered proof and axiom set is unchanged. No audit/compiler process remains active after terminal completion.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. COMPLETE bounded/Lipschitz tests on every fixed finite original reading tuple now have genuine all-face posterior/global failure vanishing, common budgets DERIVED before sources/samples, and supported good samples in any probability-bounded-below prescribed set. Remaining: verify/promote original finite integer-slot readings to complete tests of the ACTUAL native marginal array/cube quotient where needed (pointwise product lattice gives separating slot witnesses; do not assume a fixed evaluation list already embeds that quotient), construct one original countable numerical-condition/modulus/dimension/target diagonal sequence compatible with master/source selections and the later sequence-selected period, then local cube-law limits/coset face symmetry and full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. No independent kernel replay, other-component invariance, unexposed-factor-dependent formula uniformity or explicit delta-power law claimed. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

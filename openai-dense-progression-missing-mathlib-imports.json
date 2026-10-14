@@ -1,0 +1,18 @@
+{
+  "Mathlib.Analysis.Normed.Module.Seminorm.Basic": [
+    "OAI/Combinatorics/Progressions/Estimates/SampledNativeModel.lean"
+  ],
+  "Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Invertible": [
+    "OAI/Combinatorics/Progressions/Estimates/SigmaAxisOperator.lean",
+    "OAI/Combinatorics/Progressions/Linear/MatrixSupInverse.lean"
+  ],
+  "Mathlib.Basic.Complex.Basic": [
+    "OAI/Combinatorics/Progressions/Fourier/CharacterCoordinateScale.lean"
+  ],
+  "Mathlib.Analysis.InnerProductSpace.ExteriorPower": [
+    "OAI/Combinatorics/Progressions/Geometry/CoordinateMinorCovolume.lean"
+  ],
+  "Mathlib.Basic.NNReal.Basic": [
+    "OAI/Combinatorics/Progressions/Sampling/ForecastJacobianBudget.lean"
+  ]
+}

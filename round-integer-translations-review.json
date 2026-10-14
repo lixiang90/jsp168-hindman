@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 347,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/SmoothRoughIntegerParts.lean",
+    "Hindman168/NormalizedTranslationArithmetic.lean",
+    "Hindman168/PolynomialRowNormalization.lean",
+    "Hindman168/MasterColumnCoefficients.lean",
+    "Hindman168/PolynomialRowIntegerTranslations.lean",
+    "Hindman168/MaskGeneratedIntegerTranslations.lean",
+    "Hindman168/PolynomialTranslationSizeBounds.lean"
+  ],
+  "new_selected_report_count": 38,
+  "module_report_counts": {
+    "SmoothRoughIntegerParts": 5,
+    "NormalizedTranslationArithmetic": 5,
+    "PolynomialRowNormalization": 8,
+    "MasterColumnCoefficients": 2,
+    "PolynomialRowIntegerTranslations": 9,
+    "MaskGeneratedIntegerTranslations": 2,
+    "PolynomialTranslationSizeBounds": 7
+  },
+  "application_review": [
+    "All 347 source/config baseline hashes were checked; only the root imports and exact-name registry changed. All retained proof sources, runtime/dependency pins and attributed PNT+ modules remain unchanged.",
+    "The natural smooth/rough decomposition is proved with prime multiplicities preserved. Original local-good exclusion of small-prime powers implies the smooth part of the evaluated denominator divides W^(e-1), without strengthening the original good event.",
+    "Absorption of W^(e+1)*c into the actual master modulus and that smooth-part bound prove that c*S divides M and that the natural quotient M/(c*S) is a W multiple. Integer direction formulas have explicit natural quotients and exact rational equalities; sign and denominator divisibility are proved.",
+    "Every row now has the exact maximum-support normalization anchor, separate from its preexisting direction-selection anchor. Evaluated kernel responses and denominators agree with their formal polynomial definitions, and each off-target response divides the evaluated denominator.",
+    "Positive master column coefficients are constructed by the actual natural floor of masterScale times each fixed positive rational label. Their eventual absorption, divisibility and upper bound by M follow from the actual master parameter conditions, rather than being supplied as desired coefficient hypotheses.",
+    "The constructed integer translations and root translation are W multiples. Their normalized rational row responses have the exact formulas: each off-target direction annihilates its own row and has target response M times the rough denominator; every required other response is nonzero on the original local good event. The root direction annihilates the target and has nonzero other responses.",
+    "The integer-translation conditions are applied to the actual full mask-generated row family using its derived master conditions, actual floor coefficients and original local good event. No row-direction, response-nonvanishing, integrality or coefficient-absorption assumptions are introduced in this final application.",
+    "Every evaluated integer polynomial admits a fixed power cap depending only on its coefficient size and total degree. The direction sizes are bounded by a fixed power of B from the denominator and direction polynomial data. The actual pool support and master auxiliary give this bound for all generated types and both directions, even without the local good event.",
+    "The normalized row form is currently rational-valued. The exact response identities and integer coordinate construction do not yet prove the row form is integer-valued on the full source chain, or the required normalized response residue-unit conclusions.",
+    "The final coefficient application still takes fixed positive rational labels, block nonemptiness/range conditions and gaps as explicit inputs; the full concrete chain choices are not yet instantiated.",
+    "No weighted mask-removal integrand recurrence, full Cauchy--Schwarz iteration/error estimate, retained-weight correlation/root pushforward, complete Prediction/Alignment proposition, inverse-theorem integration or final strong witness is inferred from the arithmetic and size bounds.",
+    "The user-requested upstream sync completed successfully at the October 7 merge fd4aeeb2. All 259 SumProduct Lean files are in Alignment and unchanged since the audited initial source pin; the target preprint is also unchanged. The target has no entry in the inspected formalization index or comparator directory. Main is import-only and RawMenu proves a support Alignment result. The local source/index check is not an independent build or global uniqueness claim.",
+    "StrongStatement.lean remains unchanged and strong_implies_subtype still requires the unproved StrongConjecture. No complete solution, prize eligibility or unavoidable blocker is claimed."
+  ],
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4201,
+    "project_modules": 336,
+    "pntplus_modules": 9,
+    "source_scan_modules": 345,
+    "axiom_reports": 1754,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 354,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "upstream_sync_report": "openai-math-sync-2026-10-08.json",
+  "remaining": "The actual mask-row construction, coefficient-one monomial invariants, actual prime coefficient arithmetic, maximum-support normalization anchors, natural master column coefficients, integer W-multiple normalized directions, exact zero/nonzero responses and fixed polynomial size caps are proved. Connect the constructed row recurrence to the actual weighted mask-removal integrands, preserving the distinguished function and all invariant weights. Prove the complete mask-removal Cauchy--Schwarz iteration and exceptional-tuple/error bounds under the original laws. Prove the integer-valued normalized row-form and full normalized response residue-unit estimates outside the specified exceptional primes, and connect the derived directions and size caps to the retained-weight correlation test and root pushforward. Instantiate concrete blocks, gaps, scale labels, colors, rho and master-scale companion diagonal requirements. Complete the full preprint Prediction/Alignment propositions, required nilsequence/inverse-theorem/cube-law inputs, diagonal test choices and final witness extraction/separation. Real-exponent clipping extensions remain unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit as authorized by the user. The updated OpenAI main at fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb still supplies unchanged Alignment support sources, with no full target/comparator found in this inspection; these sources have not been independently built here. No unavoidable blocker is established."
+}

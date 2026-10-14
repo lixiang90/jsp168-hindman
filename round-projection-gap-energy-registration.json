@@ -1,0 +1,79 @@
+{
+  "baseline_hash_count": 930,
+  "modules": [
+    "Hindman168/NestedProjectionEnergy.lean",
+    "Hindman168/RamseyEnergySelection.lean",
+    "Hindman168/RamseyProjectionSelection.lean"
+  ],
+  "names": [
+    "Hindman168.nested_projection_energy_identity",
+    "Hindman168.nested_projection_energy_mono",
+    "Hindman168.nested_projection_distance_le",
+    "Hindman168.nested_projection_model_error",
+    "Hindman168.projection_pythagoras_of_mem",
+    "Hindman168.projection_clipping_distance_le",
+    "Hindman168.projection_clipped_representative_exists",
+    "Hindman168.energy_bin_distance",
+    "Hindman168.finite_energy_homogeneous_bound",
+    "Hindman168.projection_energy_unit_interval",
+    "Hindman168.finite_projection_gap_selection",
+    "Hindman168.finite_projection_model_selection"
+  ],
+  "theorem_count": 12,
+  "declarations": {
+    "Hindman168/NestedProjectionEnergy.lean": [
+      [
+        "theorem",
+        "nested_projection_energy_identity"
+      ],
+      [
+        "theorem",
+        "nested_projection_energy_mono"
+      ],
+      [
+        "theorem",
+        "nested_projection_distance_le"
+      ],
+      [
+        "theorem",
+        "nested_projection_model_error"
+      ],
+      [
+        "theorem",
+        "projection_pythagoras_of_mem"
+      ],
+      [
+        "theorem",
+        "projection_clipping_distance_le"
+      ],
+      [
+        "theorem",
+        "projection_clipped_representative_exists"
+      ]
+    ],
+    "Hindman168/RamseyEnergySelection.lean": [
+      [
+        "theorem",
+        "energy_bin_distance"
+      ],
+      [
+        "theorem",
+        "finite_energy_homogeneous_bound"
+      ]
+    ],
+    "Hindman168/RamseyProjectionSelection.lean": [
+      [
+        "theorem",
+        "projection_energy_unit_interval"
+      ],
+      [
+        "theorem",
+        "finite_projection_gap_selection"
+      ],
+      [
+        "theorem",
+        "finite_projection_model_selection"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.843999999808148,
+  "log": "round-short-bin-cutoff-discard-build.txt",
+  "log_sha256": "eb0d0a9016b41f7e46362580d424090dd0d925423f102ca730a6950f94467ded"
+}

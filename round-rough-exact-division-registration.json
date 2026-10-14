@@ -1,0 +1,108 @@
+{
+  "modules": [
+    "Hindman168/RoughRationalExactness.lean",
+    "Hindman168/RoughPolynomialDenominators.lean",
+    "Hindman168/RoughPolynomialExactDivision.lean",
+    "Hindman168/RoughInterpolationExactnessScale.lean",
+    "Hindman168/RoughInterpolationDenominator.lean"
+  ],
+  "names": [
+    "Hindman168.rough_integer_eq_zero_of_abs_lt_one",
+    "Hindman168.rough_lattice_eq_zero",
+    "Hindman168.rough_lattice_near_integer",
+    "Hindman168.rough_coprime_integer_cancel",
+    "Hindman168.rough_smooth_denominator_integer_cancel",
+    "Hindman168.rough_polynomial_ratio_clear",
+    "Hindman168.rough_polynomial_derivative_clear",
+    "Hindman168.rough_polynomial_small_derivative_zero",
+    "Hindman168.rough_root_power_dvd",
+    "Hindman168.rough_affine_exact_division",
+    "Hindman168.rough_small_derivatives_exact_division",
+    "Hindman168.rough_interpolation_error_below_lattice",
+    "Hindman168.rough_interpolation_error_eventually",
+    "Hindman168.rough_interpolation_exact_division_eventually",
+    "Hindman168.rough_rational_polynomial_clear",
+    "Hindman168.rough_finite_polynomial_common_denominator",
+    "Hindman168.rough_interpolation_fixed_denominator"
+  ],
+  "declarations": {
+    "Hindman168/RoughRationalExactness.lean": [
+      [
+        "theorem",
+        "rough_integer_eq_zero_of_abs_lt_one"
+      ],
+      [
+        "theorem",
+        "rough_lattice_eq_zero"
+      ],
+      [
+        "theorem",
+        "rough_lattice_near_integer"
+      ],
+      [
+        "theorem",
+        "rough_coprime_integer_cancel"
+      ],
+      [
+        "theorem",
+        "rough_smooth_denominator_integer_cancel"
+      ]
+    ],
+    "Hindman168/RoughPolynomialDenominators.lean": [
+      [
+        "theorem",
+        "rough_polynomial_ratio_clear"
+      ],
+      [
+        "theorem",
+        "rough_polynomial_derivative_clear"
+      ],
+      [
+        "theorem",
+        "rough_polynomial_small_derivative_zero"
+      ]
+    ],
+    "Hindman168/RoughPolynomialExactDivision.lean": [
+      [
+        "theorem",
+        "rough_root_power_dvd"
+      ],
+      [
+        "theorem",
+        "rough_affine_exact_division"
+      ],
+      [
+        "theorem",
+        "rough_small_derivatives_exact_division"
+      ]
+    ],
+    "Hindman168/RoughInterpolationExactnessScale.lean": [
+      [
+        "theorem",
+        "rough_interpolation_error_below_lattice"
+      ],
+      [
+        "theorem",
+        "rough_interpolation_error_eventually"
+      ],
+      [
+        "theorem",
+        "rough_interpolation_exact_division_eventually"
+      ]
+    ],
+    "Hindman168/RoughInterpolationDenominator.lean": [
+      [
+        "theorem",
+        "rough_rational_polynomial_clear"
+      ],
+      [
+        "theorem",
+        "rough_finite_polynomial_common_denominator"
+      ],
+      [
+        "theorem",
+        "rough_interpolation_fixed_denominator"
+      ]
+    ]
+  }
+}

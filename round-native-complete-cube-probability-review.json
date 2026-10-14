@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2790,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6817,
+    "selected_axiom_reports": 10838,
+    "new_declarations": 19,
+    "new_theorems": 15,
+    "new_definitions": 4,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/AlignmentOriginalNativeCubeState.lean",
+    "Hindman168/AlignmentOriginalNativeCubeMeans.lean",
+    "Hindman168/AlignmentNativeCompleteCubeFailure.lean",
+    "Hindman168/AlignmentNativeCompleteCubeDetection.lean",
+    "Hindman168/AlignmentNativeCylinderOriginalFailure.lean",
+    "Hindman168/AlignmentNativeCylinderFaceGlobal.lean",
+    "Hindman168/AlignmentNativeCompleteCubeGlobal.lean",
+    "Hindman168/AlignmentNativeCompleteCubePositiveSelection.lean",
+    "Hindman168/AlignmentNativeCompleteCubeCountableSelection.lean",
+    "Hindman168/AlignmentOriginalNativeCubeExposedState.lean",
+    "Hindman168/AlignmentAllTargetsNativeCountableSelection.lean"
+  ],
+  "proved_components": [
+    "LITERAL original native cube states retain the actual product group/lattice and ALL original integer-slot readings. Integer Y, modulus, residues, progressions, original sources and signed cube coordinates are exact. Original and translated cylinder means equal the ORIGINAL duplicated-component product means on the SAME original box/residue grid, with unchanged normalization and empty-grid zero means.",
+    "The fixed finite native complete-test detector list transfers every literal native all-face failure to one actual cylinder failure. Each cylinder failure enters the ORIGINAL duplicated-component all-product-face event with genuine derived numerical observer bounds. Original own face, zero/one profile, endpoints, residues, slots, source and raw sample are unchanged; no detector analytic cap is supplied as a premise.",
+    "UNCONDITIONAL actual native complete bounded/Lipschitz all-face failure probability now vanishes under the ORIGINAL raw master law. One genuine finite union cutoff precedes every exposure-key-selected original source formula. ALL original boxes/residues/tests/own faces/zero-one profiles remain selectable AFTER sampling. Probability-bounded-below extra conditioning preserves vanishing and supplies actual supported native-good samples.",
+    "ONE countable supported sample sequence inside prescribed positive original events satisfies EVERY fixed actual NATIVE complete-test cube condition on ANY cofinal width sequence, with varying small finite cube dimensions and extra eventual stage obligations. All fixed positive moduli/numerical/geometry conditions can be chosen BEFORE the later local-law period.",
+    "The exact quotient of the exposure-fixed joint native logarithmic-polynomial source equals the literal original native cube state at EVERY original integer cube sample. The raw-supported self-exposure specialization DERIVES coprimality and actual microcell-origin congruence. Original all-real polynomial/log identities and degree inputs remain the previously proved genuine source data; unsampled extensions never replace sampled states.",
+    "ONE common supported positive-event sample sequence now works for countably many HETEROGENEOUS original target/model families. Actual target T, model index type, native groups, determining evaluations, basis, dimension, numerical data and exposure-key source family may vary with each fixed enumerated condition. This supplies simultaneous original marginal selection across ALL targets before a later global local-law period, without asserting other-marginal invariance."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. ACTUAL native complete numerical cube tests now have unconditional original raw-law all-face probability vanishing, positive-event supported selection and one heterogeneous ALL-target countable diagonal on every cofinal width sequence. Exact original native empirical means, duplicated cylinder observations, genuine own-face actions and actual exposure-fixed polynomial source sample identities are proved. Remaining: formalize the original adapted sequential factorization/local cube-Haar laws with one rational filtration and sequence-selected period; derive weak-limit face measure invariance and full-support coset preservation with sequence limit BEFORE relative-box-size limit; original joint face lifts and full Alignment synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. No other-component invariance, unexposed-factor-dependent source uniformity, independent kernel replay, external peer review or explicit delta-power law is claimed. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-complete-cube-probability-mathematical-review.txt",
+  "mathematical_review_sha256": "bdbb62a2a9c231df88ce5707e07bb118425052a4cdcc7ec17158a3079465fdae",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

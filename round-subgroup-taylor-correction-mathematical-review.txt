@@ -1,0 +1,86 @@
+JSP-000168 / Erdos #172 -- author mathematical review, 2026-10-14
+Verdict: Partial overall coverage; PROGRESS. StrongConjecture UNPROVED.
+Goal ACTIVE; no unavoidable obstruction established.
+This is AUTHOR review, not external peer review or independent kernel replay.
+
+Primary source: OpenAI math adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+07_cube_limits.tex 26--34, 246--258, 271--313.
+
+1. Coverage correction. NativeRationalLieFiltration requires both initial
+layers to be ambient top, so its level-j>=2 kernel theorem cannot cover the
+paper's j=1 ambient subgroup shrinkage. The new geometric structure requires
+only layer 0=layer 1. Its bracket/rational/terminal fields are explicitly
+proved for each kernel; no polynomial or analytic conclusion is a field.
+Each actual group layer is the exponential of its actual native Lie
+subalgebra; no normality in the full ambient group is asserted.
+
+2. Kernel geometry. Only index j changes, except that index 0 also changes
+when j=1. In the changed target j, positive bracket indices use exactly the
+level-character annihilation input. Zero indices use initial equality and
+the OLD (1,j)/(j,1) bracket in the next layer. In changed target 0, j=1
+and both bracket inputs are zero: initial equality moves them to (1,1),
+already in layer 2. Nesting into the unchanged tail uses next-layer
+annihilation. Rationality uses the specified ORIGINAL lattice rational span
+and the explicit rational extension input. Original terminal index ell is
+retained. At the original start ell=s, preserving all original cube dimensions.
+
+3. Strictness and pivot. A nonzero restriction to layer j gives a genuine
+strict finrank drop. The zeroth layer is excluded from the dimension sum,
+so the level-one shrinkage still counts exactly once. Rational spanning
+of the changed layer finds an ACTUAL rational vector with nonzero value;
+scaling by its inverse rational value gives phi(V)=1 in both original
+layer j and the original lattice rational form. Finite descent length is
+bounded by the initial dimension sum; no universal convergence or
+character-extraction property is inferred solely from this bound.
+
+4. Taylor operations. The SAME original residuals and ordered products
+work with arbitrary subgroup filtrations; terminality is ell+1, not a
+changed ambient step. Initial-zero/quotient-dual arguments do not require
+top. The two-sided corrected logarithmic source is actually constructed
+from the proved original native product polynomial, and old weights follow
+from actual scalar binomial degree bounds. Values at integers below j are
+unchanged. Induction on the ORIGINAL residual definition shows all lower
+actual Taylor coefficients and all ordered lower prefixes are unchanged.
+
+5. Collected adaptation. An actual logarithmic polynomial for the ordered
+Taylor product is recursively constructed. Memberships of the ACTUAL
+residual coefficients in a desired new filtration give its weighted
+source. Original Taylor termination plus actual exponential injectivity
+identifies all-real evaluations with the original polynomial. Polynomial
+uniqueness identifies AGGREGATED coefficients. Its literal canonical
+monomial collection is therefore weighted; no original list-term
+membership is inferred from scalar or coefficient cancellation.
+
+6. Noncommutative cancellation. BCH pair errors use the next layer as an
+ideal INSIDE H_0, which follows from the old zero-index bracket. For an
+H_j correction, H_0=H_1 improves the bracket into H_(j+1). Conjugating the
+left correction by the actual lower prefix is explicitly computed, and
+the resulting logarithmic error is in the next layer. The selected
+functional kills it. Both residual coefficient and conjugated correction
+lie in H_j; two genuine product-character identities then give the exact
+real value old_value - epsilon - m. This uses a REAL decomposition, never
+smallness of a circle norm. No bound on m or original Taylor coefficients
+is assumed or derived.
+
+7. Actual new source. Old corrected residual properties place higher
+coefficients in unchanged old layers. Lower coefficients are unchanged.
+At j the exact real decomposition forces character zero. At j=1 the
+changed index 0 has coefficient zero from ACTUAL normalized input and
+unchanged value at zero. The collected adaptation theorem produces a
+true new-kernel weighted source with the SAME all-real evaluations.
+
+8. Unfinished route. The geometric conditions and real decomposition
+remain explicit one-step inputs. Selecting a fixed rational character,
+bounded scaled error along a subsequence, simultaneous finite descent,
+convergent smooth factors, bounded rational period, local cube-Haar laws,
+coset face symmetries, joint lifts/Alignment, the separate arbitrary-input
+GTZ Gowers LINEAR nilsequence inverse, and the final positive distinct
+rapidly separated SAME-color FS AND FP remain unproved. No mathematical
+obstruction has been established. No prize-qualified completion is claimed.
+
+9. Trust. Only the existing local native smoothness instance is used.
+There are no new axioms, sorry/admit, native_decide, unsafe computation,
+heartbeat overrides or kernel bypasses. The only new structure is the
+explicitly audited geometric NativeRationalSubgroupFiltration above.
+Old source hashes, retained axiom sets, pinned dependencies and pinned
+paper sections are compared by the terminal author audit.

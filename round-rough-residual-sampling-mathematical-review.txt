@@ -1,0 +1,26 @@
+JSP-000168 / Erdos #172, 2026-10-13. Partial overall coverage.
+Author-side checking, not independent replay or external peer review.
+
+Source Section 6 residual-step corollary explicitly disallows an extra coprimality
+assumption between the retained q and removed t. Existing unrelated CRT intersection
+lemmas require coprimality and cannot be substituted for this nested-class law.
+
+The actual signed residue endpoints reconstruct the original first q-class point
+at each original endpoint. Under x=u+q*y, an actual t-class becomes the q*t-class
+with residue u+q*v. Finer congruence implies the coarse q-congruence, so the exact
+coarse endpoint equivalences recover the ORIGINAL full box boundaries without tails.
+No modular inverse or gcd assumption is used. The scalar q is genuinely positive.
+
+Independent coordinate images give the full original box image. Injectivity
+of the positive-q affine map gives the exact uniform probability push. Both
+coarse and fine laws retain their actual empty/nonempty supports; equality
+is valid even for empty supports, with no invented probability mass.
+The complex expectation push proves an exact discrepancy identity for the
+SAME original arbitrary observable. Compatible arbitrary finer representatives
+are recovered by actual integer congruence witnesses, not by assuming divisibility.
+
+Retained u/q must be independent of the factor removed when these laws are
+composed with native joint polynomial sources. That composition and the
+conditional/master application are subsequent obligations, not claimed here.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original native complex non-strict rough exceptional-proportion convergence, ONE uniform fixed-finite-family budget, and exact ORIGINAL residual q/q*t sampling laws WITHOUT coprimality are proved. Remaining: literal native residual-source/event composition and actual master/source/conditional-probability application with source-interface/cofinal-index/nonempty-sample bridges, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

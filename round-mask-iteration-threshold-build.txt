@@ -1,0 +1,2 @@
+✔ [4326/4326] Built Hindman168.MaskFiniteSquareThresholds (11s)
+Build completed successfully (4326 jobs).

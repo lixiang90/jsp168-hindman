@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 555,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskSubsetReplacementData.lean",
+    "Hindman168/MaskSubsetSingleReplacement.lean",
+    "Hindman168/MaskSubsetReplacementPath.lean",
+    "Hindman168/MaskSubsetModelTelescoping.lean",
+    "Hindman168/MaskFiniteModelReplacementFamily.lean",
+    "Hindman168/MaskBlockWeightReplacement.lean"
+  ],
+  "new_selected_report_count": 24,
+  "module_report_counts": {
+    "MaskSubsetReplacementData": 6,
+    "MaskSubsetSingleReplacement": 3,
+    "MaskSubsetReplacementPath": 6,
+    "MaskSubsetModelTelescoping": 3,
+    "MaskFiniteModelReplacementFamily": 4,
+    "MaskBlockWeightReplacement": 2
+  },
+  "application_review": [
+    "All 555 retained source/config hashes were verified before edits. Only the root import list and exact-name Verification registry changed among retained files. All retained proof modules, StrongStatement, the nine attributed PNT+ sources and fixed Lean/mathlib/PNT+ pins remain unchanged. Fixed local preprint sections 04 and 05 match adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote updates were checked in this goal round.",
+    "The exact tracked support enumeration is inverse to the original nonempty-subset index, and the genuine generated target normalization anchor equals the maximum of that original subset. Its original tail mask is exactly the block majorant at that anchor.",
+    "All original subset tail majorants are eventually nonnegative globally, derived from the actual constructed master family and valid chain cutoffs. Replacing a single factor by any function satisfying its original global majorant preserves complete original subset/product-mask admissibility.",
+    "The product with one function updated is exactly the updated factor times the product of all other original factors. The difference of the two actual original subset correlations is exactly the correlation with that factor replaced by its signed difference, under the same original harmonic base law and product masks.",
+    "For the genuine bounded model error rho-model, actual cube decay and the original rho<=nu bound give a uniform single-factor replacement error tending to zero, for every other admissible subset factor and product mask.",
+    "A deterministic finite hybrid path replaces every nonsingleton subset exactly once, at its original maximum-element block. The zero endpoint is the original factor family and the full endpoint replaces only nonsingletons. Its tracked factor remains the original rho before that step, and every intermediate factor family satisfies the original global majorants.",
+    "Exact finite telescoping bounds the full replacement difference by L times the uniform one-step tolerance. Choosing epsilon/(L+1) gives a uniform full replacement error at most epsilon. No upper bound on intermediate correlations is assumed, and the argument also covers L=0.",
+    "The difference between the actual original count and its all-nonsingleton model replacement tends to zero for every eventually admissible factor sequence with the actual block-rho target matching. Original singleton factors and product masks remain in the count.",
+    "One genuinely constructed model family handles every fixed finite coefficient/color data index and every block, using the union of the finite positive rational coefficient lists in the same fixed mask-generated master. Each model is globally [0,1]-valued and has full original dual control for all generated row templates plus an extra zero-prime template of any specified fixed positive dimension d0.",
+    "The same actual finite model family has repeated model-error cube decay for all tracked supports and every fixed positive quotient scale, and full nonsingleton replacement bounds uniformly over every admissible remaining factor and product mask.",
+    "For every fixed finite stage q, actual original dual estimates imply simultaneous uniform errors at most 1/(q+1) over every generated template, every positive quotient scale J<=q, all finite data/block indices and every admissible dual input. A newly proved common slow diagonal stage satisfies this actual dual prefix control, the full count replacement tolerance 1/(stage(w)+1) and any supplied companion P(stage(w),w), with stage tending to infinity and stage(w)<=w.",
+    "The finite model family is instantiated on the actual nonnegative block-weight factors themselves, whose global admissibility is derived from 0<=rho<=nu. Replacing all nonsingleton block weights makes the total original count difference tend to zero and retains the same models full original dual control and common-stage dual prefix estimates.",
+    "The generated target anchor is derived directly from its tracked_support certificate and the genuine PolynomialRowFamily normalizationAnchor properties. It is not an assumed identification between the model block and the original factor support.",
+    "The exact difference identity is proved before any asymptotic estimate or admissibility premise. It updates one original function, evaluates all original normalized integer forms, factors the finite product and uses exact expectation subtraction. No event restriction, independent surrogate law, discarded center weight or missing product mask is introduced.",
+    "The hybrid path uses the actual Fintype equivalence for all supports of cardinality at least two; proof irrelevance handles support certificates. Every support occurs at exactly its finite index. Before replacement its factor equals the original block rho; after replacement its factor is the globally bounded block model. Eventual original tail-mask nonnegativity derives every required intermediate majorant.",
+    "The finite telescoping error uses one-step tolerance epsilon/(L+1) for L=card(LargeColumnSubset m). This is valid also when L=0 and does not divide by L. Intermediate counts are never assumed bounded. The original singleton factors may remain unbounded within their actual majorants.",
+    "The finite model family is indexed by arbitrary fixed Fintype data and actual blocks. The global master catalogue remains fixed in m and the original gap. The finite positive coefficient catalogue is the union of all data-index coefficient images. The extra zero-prime dual dimension d0 is an arbitrary fixed positive input, with the common dimension cap max(d0,maskRowCountBound m), rather than a growing-order convergence assertion.",
+    "The same models return complete original dual-control estimates, not merely repeated-error cubes. In particular the extra zero-prime template is retained for the later nilsequence reconstruction argument. Its mathematical missing-corner reconstruction and weighted boundary estimates are not yet asserted proved.",
+    "The common slow stage is freshly selected from P(q,w), full count quality and all finite original dual prefix requirements. Taking a minimum of independent stages would not justify arbitrary nonmonotone P; that unsupported shortcut is not used. Every fixed q prefix is derived by finite intersections from genuine uniform dual estimates before the slow selection.",
+    "Inspection of the initially narrower stage interface identified the need to retain actual dual prefixes J<=stage(w). The final implementation adds and proves that requirement; the final full build and kernel audit were rerun on this strengthened interface. Earlier trial build logs are not used as final evidence.",
+    "The block-weight count theorem proves the first model-replacement consequence at fixed original chain/rho/coefficients. It does not yet construct the actual natural-number coloring weights or claim Prediction nilsequence testing, coarse projections, calibration, Alignment or StrongWitness extraction. The unchanged StrongConjecture remains unproved, and public prize submission still awaits full completion.",
+    "The final full build completed 4408 jobs without warnings/errors. The exact-name kernel audit covers 2675 unique registered names, including all 24 new names, using only standard axioms or none. Source scan covers 543 own plus 9 attributed PNT+ modules, with 561 source/config hashes. Both consecutive goal rounds are PROGRESS; no unavoidable blocker is established."
+  ],
+  "source_preprint_section": "05_prediction.tex:199-247 (actual bounded models, full original dual tests and joint slow diagonal), 250-261 (rho-model cube, single nonsingleton-factor replacement and finite telescoping). Later nilsequence testing beginning at line 263, weighted boundary estimate at 325 onward and nested projections/Alignment remain required.",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4408,
+    "project_modules": 543,
+    "pntplus_modules": 9,
+    "source_scan_modules": 552,
+    "axiom_reports": 2675,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 561,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The complete original-law arbitrary-target correlation detection, exact model-error cube/dual pairing, genuine bounded block models and original model-error cancellation remain proved. This round completes exact single-factor replacement, the actual finite nonsingleton replacement path, derived intermediate admissibility, the full uniform finite telescoping count error and its zero limit. It constructs a simultaneous finite coefficient/color-data block-model family, retaining full original dual control with an arbitrary specified fixed positive extra zero-prime dimension. A genuine common slow stage coordinates every actual positive quotient scale up to that stage, all template/input/data/block dual errors, full count replacement errors and the arbitrary companion requirements. The replacement theorem applies to actual nonnegative block-weight counts under explicit original rho<=nu bounds; the concrete natural-number color indicators, scale labels and arithmetic block/gap data still need instantiation. Next complete the Prediction nilsequence-testing/missing-corner and weighted-boundary applications, nested coarse-model projections, calibration and Alignment required by the fixed paper. Then coordinate the concrete data and all required companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/moment/master-index rate or arbitrary target cube decay is asserted; the joint stage is chosen slowly from proved fixed-prefix requirements. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

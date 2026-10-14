@@ -1,0 +1,620 @@
+Hindman168/RoughPartitionPieceSelection.lean:57:32: error: Type mismatch: After simplification, term
+  hgap'
+ has type
+  θ +
+      M *
+        ∑ p,
+          |↑{x ∈ alignmentBoxClass A B a ↑t | roughBoxLabel A B N K hN hK x = p}.card /
+                ↑(alignmentBoxClass A B a ↑t).card -
+              ↑{x ∈ Fintype.piFinset fun j => Finset.Ico (A j) (B j) | roughBoxLabel A B N K hN hK x = p}.card /
+                ↑(Fintype.piFinset fun j => Finset.Ico (A j) (B j)).card| <
+    η
+but is expected to have type
+  θ +
+      M *
+        ∑ i,
+          |↑{x ∈ alignmentBoxClass A B a ↑t | roughBoxLabel A B N K hN hK x = i}.card /
+                ↑(alignmentBoxClass A B a ↑t).card -
+              ↑{x ∈ Fintype.piFinset fun j => Finset.Ico (A j) (B j) | roughBoxLabel A B N K hN hK x = i}.card /
+                ↑(Fintype.piFinset fun j => Finset.Ico (A j) (B j)).card| <
+    η
+Hindman168/RoughPartitionPieceSelection.lean:61:2: error: `simp` made no progress
+ι : Type u_1
+inst✝ : Fintype.{u_1} ι
+A B a : ι → Int
+N K t : Nat
+hN : @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) N
+hK : @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) K
+ht : @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) t
+hcop : Nat.Coprime t K
+c Z : Real
+hc : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c
+hZ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) Z
+htZ :
+  @LE.le.{0} Real Real.instLE
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@OfNat.ofNat.{0} Real (nat_lit 2)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))
+      (@Nat.cast.{0} Real Real.instNatCast t))
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c Z)
+hlen :
+  ∀ (j : ι),
+    @LE.le.{0} Real Real.instLE (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c Z)
+      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub) (@Int.cast.{0} Real Real.instIntCast (B j))
+        (@Int.cast.{0} Real Real.instIntCast (A j)))
+f g : (ι → Int) → Real
+θ M η : Real
+hM : @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) M
+hg :
+  ∀ (x : (a : ι) → Int),
+    @Membership.mem.{u_1, u_1} ((a : ι) → Int) (Finset.{u_1} ((a : ι) → Int))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} ((a : ι) → Int)) ((a : ι) → Int)
+          (@Finset.instSetLike.{u_1} ((a : ι) → Int)))
+        (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+          (fun (j : ι) => Int) fun (j : ι) =>
+          @Finset.Ico.{0} Int
+            (@PartialOrder.toPreorder.{0} Int
+              (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                  (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                    (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                      Int.instConditionallyCompleteLinearOrder)))))
+            Int.instLocallyFiniteOrder (A j) (B j))
+        x →
+      @LE.le.{0} Real Real.instLE (@abs.{0} Real Real.lattice Real.instAddGroup (g x)) M
+hgap :
+  @LT.lt.{0} Real Real.instLT
+    (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) θ
+      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) M
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+            (@Nat.cast.{0} Real Real.instNatCast
+              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+                  (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid))) N
+                  (@Fintype.card.{u_1} ι inst✝))
+                (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+                  (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid))) K
+                  (@Fintype.card.{u_1} ι inst✝))))
+            (@Nat.cast.{0} Real Real.instNatCast (@Fintype.card.{u_1} ι inst✝)))
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+              (@OfNat.ofNat.{0} Real (nat_lit 5)
+                (@instOfNatAtLeastTwo.{0} Real (nat_lit 5) Real.instNatCast
+                  (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+                    (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))))))
+              (@Nat.cast.{0} Real Real.instNatCast t))
+            (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c Z)))))
+    η
+hbad :
+  @LE.le.{0} Real Real.instLE η
+    (@abs.{0} Real Real.lattice Real.instAddGroup
+      (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+        (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+          (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+            (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))
+          f)
+        (@Hindman168.FiniteMass.expectation.{u_1} ((a : ι) → Int)
+          (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} ((a : ι) → Int)
+            (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+              (fun (j : ι) => Int) fun (j : ι) =>
+              @Finset.Ico.{0} Int
+                (@PartialOrder.toPreorder.{0} Int
+                  (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                    (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                      (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                        (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                          Int.instConditionallyCompleteLinearOrder)))))
+                Int.instLocallyFiniteOrder (A j) (B j)))
+          g)))
+hAB : ∀ (j : ι), @LE.le.{0} Int Int.instLEInt (A j) (B j)
+hS :
+  @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+    (@Finset.card.{u_1} (ι → Int)
+      (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))
+hw :
+  @LE.le.{0} Real Real.instLE
+    (@Finset.sum.{u_1, 0} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) Real Real.instAddCommMonoid
+      (@Finset.univ.{u_1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+        (@instFintypeProd.{u_1, u_1} (ι → Fin N) (ι → Fin K)
+          (@Pi.instFintype.{u_1, 0} ι (fun (a : ι) => Fin N)
+            (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝ fun (a : ι) => Fin.fintype N)
+          (@Pi.instFintype.{u_1, 0} ι (fun (a : ι) => Fin K)
+            (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝ fun (a : ι) => Fin.fintype K)))
+      fun (p : Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) =>
+      @abs.{0} Real Real.lattice Real.instAddGroup
+        (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@Nat.cast.{0} Real Real.instNatCast
+              (@Finset.card.{u_1} (ι → Int)
+                (@Finset.filter.{u_1} (ι → Int)
+                  (fun (x : ι → Int) =>
+                    @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                      (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) p)
+                  (fun (a : ι → Int) =>
+                    @instDecidableEqProd.{u_1, u_1} (ι → Fin N) (ι → Fin K)
+                      (fun (a b : ι → Fin N) =>
+                        @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Fin N)
+                          (fun (a : ι) => instDecidableEqFin N) inst✝ a b)
+                      (fun (a b : ι → Fin K) =>
+                        @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Fin K)
+                          (fun (a : ι) => instDecidableEqFin K) inst✝ a b)
+                      (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) p)
+                  (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+            (@Nat.cast.{0} Real Real.instNatCast
+              (@Finset.card.{u_1} (ι → Int)
+                (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+          (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+            (@Nat.cast.{0} Real Real.instNatCast
+              (@Finset.card.{u_1} (ι → Int)
+                (@Finset.filter.{u_1} (ι → Int)
+                  (fun (x : ι → Int) =>
+                    @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                      (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) p)
+                  (fun (a : ι → Int) =>
+                    @instDecidableEqProd.{u_1, u_1} (ι → Fin N) (ι → Fin K)
+                      (fun (a b : ι → Fin N) =>
+                        @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Fin N)
+                          (fun (a : ι) => instDecidableEqFin N) inst✝ a b)
+                      (fun (a b : ι → Fin K) =>
+                        @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Fin K)
+                          (fun (a : ι) => instDecidableEqFin K) inst✝ a b)
+                      (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) p)
+                  (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+                    (fun (j : ι) => Int) fun (j : ι) =>
+                    @Finset.Ico.{0} Int
+                      (@PartialOrder.toPreorder.{0} Int
+                        (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                          (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                            (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                              (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                                Int.instConditionallyCompleteLinearOrder)))))
+                      Int.instLocallyFiniteOrder (A j) (B j)))))
+            (@Nat.cast.{0} Real Real.instNatCast
+              (@Finset.card.{u_1} ((a : ι) → Int)
+                (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+                  (fun (j : ι) => Int) fun (j : ι) =>
+                  @Finset.Ico.{0} Int
+                    (@PartialOrder.toPreorder.{0} Int
+                      (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                        (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                          (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                            (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                              Int.instConditionallyCompleteLinearOrder)))))
+                    Int.instLocallyFiniteOrder (A j) (B j)))))))
+    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+        (@Nat.cast.{0} Real Real.instNatCast
+          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+            (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+              (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid))) N
+              (@Fintype.card.{u_1} ι inst✝))
+            (@HPow.hPow.{0, 0, 0} Nat Nat Nat
+              (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid))) K
+              (@Fintype.card.{u_1} ι inst✝))))
+        (@Nat.cast.{0} Real Real.instNatCast (@Fintype.card.{u_1} ι inst✝)))
+      (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+          (@OfNat.ofNat.{0} Real (nat_lit 5)
+            (@instOfNatAtLeastTwo.{0} Real (nat_lit 5) Real.instNatCast
+              (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4)))
+                (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))))))
+          (@Nat.cast.{0} Real Real.instNatCast t))
+        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) c Z)))
+hgap' :
+  @LT.lt.{0} Real Real.instLT
+    (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) θ
+      (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) M
+        (@Finset.sum.{u_1, 0} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) Real Real.instAddCommMonoid
+          (@Finset.univ.{u_1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+            (@instFintypeProd.{u_1, u_1} (ι → Fin N) (ι → Fin K)
+              (@Pi.instFintype.{u_1, 0} ι (fun (a : ι) => Fin N)
+                (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝ fun (a : ι) => Fin.fintype N)
+              (@Pi.instFintype.{u_1, 0} ι (fun (a : ι) => Fin K)
+                (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝ fun (a : ι) => Fin.fintype K)))
+          fun (p : Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) =>
+          @abs.{0} Real Real.lattice Real.instAddGroup
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@Nat.cast.{0} Real Real.instNatCast
+                  (@Finset.card.{u_1} (ι → Int)
+                    (@Finset.filter.{u_1} (ι → Int)
+                      (fun (x : ι → Int) =>
+                        @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                          (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) p)
+                      (fun (a : ι → Int) =>
+                        @instDecidableEqProd.{u_1, u_1} (ι → Fin N) (ι → Fin K)
+                          (fun (a b : ι → Fin N) =>
+                            @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Fin N)
+                              (fun (a : ι) => instDecidableEqFin N) inst✝ a b)
+                          (fun (a b : ι → Fin K) =>
+                            @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Fin K)
+                              (fun (a : ι) => instDecidableEqFin K) inst✝ a b)
+                          (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) p)
+                      (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+                (@Nat.cast.{0} Real Real.instNatCast
+                  (@Finset.card.{u_1} (ι → Int)
+                    (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+              (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                (@Nat.cast.{0} Real Real.instNatCast
+                  (@Finset.card.{u_1} (ι → Int)
+                    (@Finset.filter.{u_1} (ι → Int)
+                      (fun (x : ι → Int) =>
+                        @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                          (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) p)
+                      (fun (a : ι → Int) =>
+                        @instDecidableEqProd.{u_1, u_1} (ι → Fin N) (ι → Fin K)
+                          (fun (a b : ι → Fin N) =>
+                            @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Fin N)
+                              (fun (a : ι) => instDecidableEqFin N) inst✝ a b)
+                          (fun (a b : ι → Fin K) =>
+                            @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Fin K)
+                              (fun (a : ι) => instDecidableEqFin K) inst✝ a b)
+                          (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) p)
+                      (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b))
+                        inst✝ (fun (j : ι) => Int) fun (j : ι) =>
+                        @Finset.Ico.{0} Int
+                          (@PartialOrder.toPreorder.{0} Int
+                            (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                              (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                                (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                                  (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                                    Int.instConditionallyCompleteLinearOrder)))))
+                          Int.instLocallyFiniteOrder (A j) (B j)))))
+                (@Nat.cast.{0} Real Real.instNatCast
+                  (@Finset.card.{u_1} ((a : ι) → Int)
+                    (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+                      (fun (j : ι) => Int) fun (j : ι) =>
+                      @Finset.Ico.{0} Int
+                        (@PartialOrder.toPreorder.{0} Int
+                          (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                            (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                              (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                                (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                                  Int.instConditionallyCompleteLinearOrder)))))
+                        Int.instLocallyFiniteOrder (A j) (B j)))))))))
+    η
+hselect :
+  ∀
+    (hg :
+      ∀ (x : ι → Int),
+        @Membership.mem.{u_1, u_1} (ι → Int) (Finset.{u_1} (ι → Int))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (ι → Int)) (ι → Int)
+              (@Finset.instSetLike.{u_1} (ι → Int)))
+            (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+              (fun (a : ι) => Int) fun (j : ι) =>
+              @Finset.Ico.{0} Int
+                (@PartialOrder.toPreorder.{0} Int
+                  (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                    (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                      (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                        (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                          Int.instConditionallyCompleteLinearOrder)))))
+                Int.instLocallyFiniteOrder (A j) (B j))
+            x →
+          @LE.le.{0} Real Real.instLE (@abs.{0} Real Real.lattice Real.instAddGroup (g x)) M)
+    (hgap :
+      @LT.lt.{0} Real Real.instLT
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) θ
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) M
+            (@Finset.sum.{u_1, 0} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) Real Real.instAddCommMonoid
+              (@Finset.univ.{u_1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                (@instFintypeProd.{u_1, u_1} (ι → Fin N) (ι → Fin K)
+                  (@Pi.instFintype.{u_1, 0} ι (fun (a : ι) => Fin N)
+                    (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝ fun (a : ι) => Fin.fintype N)
+                  (@Pi.instFintype.{u_1, 0} ι (fun (a : ι) => Fin K)
+                    (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝ fun (a : ι) =>
+                    Fin.fintype K)))
+              fun (i : Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) =>
+              @abs.{0} Real Real.lattice Real.instAddGroup
+                (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@Finset.card.{u_1} (ι → Int)
+                        (@Finset.filter.{u_1} (ι → Int)
+                          (fun (x : ι → Int) =>
+                            @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                              (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+                          (fun (a : ι → Int) =>
+                            Classical.propDecidable
+                              (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                                (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+                          (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@Finset.card.{u_1} (ι → Int)
+                        (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@Finset.card.{u_1} (ι → Int)
+                        (@Finset.filter.{u_1} (ι → Int)
+                          (fun (x : ι → Int) =>
+                            @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                              (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+                          (fun (a : ι → Int) =>
+                            Classical.propDecidable
+                              (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                                (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+                          (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b))
+                            inst✝ (fun (a : ι) => Int) fun (j : ι) =>
+                            @Finset.Ico.{0} Int
+                              (@PartialOrder.toPreorder.{0} Int
+                                (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                                  (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                                    (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                                      (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                                        Int.instConditionallyCompleteLinearOrder)))))
+                              Int.instLocallyFiniteOrder (A j) (B j)))))
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@Finset.card.{u_1} (ι → Int)
+                        (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b))
+                          inst✝ (fun (a : ι) => Int) fun (j : ι) =>
+                          @Finset.Ico.{0} Int
+                            (@PartialOrder.toPreorder.{0} Int
+                              (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                                (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                                  (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                                    (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                                      Int.instConditionallyCompleteLinearOrder)))))
+                            Int.instLocallyFiniteOrder (A j) (B j)))))))))
+        η)
+    (hbad :
+      @LE.le.{0} Real Real.instLE η
+        (@abs.{0} Real Real.lattice Real.instAddGroup
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+            (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+              (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))
+              f)
+            (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+              (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+                  (fun (a : ι) => Int) fun (j : ι) =>
+                  @Finset.Ico.{0} Int
+                    (@PartialOrder.toPreorder.{0} Int
+                      (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                        (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                          (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                            (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                              Int.instConditionallyCompleteLinearOrder)))))
+                    Int.instLocallyFiniteOrder (A j) (B j)))
+              g)))),
+    @Exists.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) fun (i : Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) =>
+      And
+        (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+          (@Finset.card.{u_1} (ι → Int)
+            (@Finset.filter.{u_1} (ι → Int)
+              (fun (x : ι → Int) =>
+                @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                  (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+              (fun (a : ι → Int) =>
+                Classical.propDecidable
+                  (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                    (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+              (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+        (@LT.lt.{0} Real Real.instLT θ
+          (@abs.{0} Real Real.lattice Real.instAddGroup
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+                (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                  (@Finset.filter.{u_1} (ι → Int)
+                    (fun (x : ι → Int) =>
+                      @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                        (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+                    (fun (a : ι → Int) =>
+                      Classical.propDecidable
+                        (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                          (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+                    (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t))))
+                f)
+              (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+                (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                  (@Finset.filter.{u_1} (ι → Int)
+                    (fun (x : ι → Int) =>
+                      @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                        (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+                    (fun (a : ι → Int) =>
+                      Classical.propDecidable
+                        (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                          (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+                    (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+                      (fun (a : ι) => Int) fun (j : ι) =>
+                      @Finset.Ico.{0} Int
+                        (@PartialOrder.toPreorder.{0} Int
+                          (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                            (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                              (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                                (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                                  Int.instConditionallyCompleteLinearOrder)))))
+                        Int.instLocallyFiniteOrder (A j) (B j))))
+                g))))
+hselect2 :
+  ∀
+    (hgap :
+      @LT.lt.{0} Real Real.instLT
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) θ
+          (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) M
+            (@Finset.sum.{u_1, 0} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) Real Real.instAddCommMonoid
+              (@Finset.univ.{u_1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                (@instFintypeProd.{u_1, u_1} (ι → Fin N) (ι → Fin K)
+                  (@Pi.instFintype.{u_1, 0} ι (fun (a : ι) => Fin N)
+                    (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝ fun (a : ι) => Fin.fintype N)
+                  (@Pi.instFintype.{u_1, 0} ι (fun (a : ι) => Fin K)
+                    (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝ fun (a : ι) =>
+                    Fin.fintype K)))
+              fun (i : Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) =>
+              @abs.{0} Real Real.lattice Real.instAddGroup
+                (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@Finset.card.{u_1} (ι → Int)
+                        (@Finset.filter.{u_1} (ι → Int)
+                          (fun (x : ι → Int) =>
+                            @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                              (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+                          (fun (a : ι → Int) =>
+                            Classical.propDecidable
+                              (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                                (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+                          (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@Finset.card.{u_1} (ι → Int)
+                        (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+                  (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                    (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@Finset.card.{u_1} (ι → Int)
+                        (@Finset.filter.{u_1} (ι → Int)
+                          (fun (x : ι → Int) =>
+                            @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                              (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+                          (fun (a : ι → Int) =>
+                            Classical.propDecidable
+                              (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                                (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+                          (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b))
+                            inst✝ (fun (a : ι) => Int) fun (j : ι) =>
+                            @Finset.Ico.{0} Int
+                              (@PartialOrder.toPreorder.{0} Int
+                                (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                                  (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                                    (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                                      (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                                        Int.instConditionallyCompleteLinearOrder)))))
+                              Int.instLocallyFiniteOrder (A j) (B j)))))
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@Finset.card.{u_1} (ι → Int)
+                        (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b))
+                          inst✝ (fun (a : ι) => Int) fun (j : ι) =>
+                          @Finset.Ico.{0} Int
+                            (@PartialOrder.toPreorder.{0} Int
+                              (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                                (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                                  (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                                    (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                                      Int.instConditionallyCompleteLinearOrder)))))
+                            Int.instLocallyFiniteOrder (A j) (B j)))))))))
+        η)
+    (hbad :
+      @LE.le.{0} Real Real.instLE η
+        (@abs.{0} Real Real.lattice Real.instAddGroup
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+            (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+              (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))
+              f)
+            (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+              (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+                  (fun (a : ι) => Int) fun (j : ι) =>
+                  @Finset.Ico.{0} Int
+                    (@PartialOrder.toPreorder.{0} Int
+                      (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                        (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                          (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                            (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                              Int.instConditionallyCompleteLinearOrder)))))
+                    Int.instLocallyFiniteOrder (A j) (B j)))
+              g)))),
+    @Exists.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) fun (i : Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) =>
+      And
+        (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+          (@Finset.card.{u_1} (ι → Int)
+            (@Finset.filter.{u_1} (ι → Int)
+              (fun (x : ι → Int) =>
+                @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                  (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+              (fun (a : ι → Int) =>
+                Classical.propDecidable
+                  (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                    (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+              (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t)))))
+        (@LT.lt.{0} Real Real.instLT θ
+          (@abs.{0} Real Real.lattice Real.instAddGroup
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+                (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                  (@Finset.filter.{u_1} (ι → Int)
+                    (fun (x : ι → Int) =>
+                      @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                        (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+                    (fun (a : ι → Int) =>
+                      Classical.propDecidable
+                        (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                          (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+                    (@Hindman168.alignmentBoxClass.{u_1} ι inst✝ A B a (@Nat.cast.{0} Int instNatCastInt t))))
+                f)
+              (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+                (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                  (@Finset.filter.{u_1} (ι → Int)
+                    (fun (x : ι → Int) =>
+                      @Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                        (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK x) i)
+                    (fun (a : ι → Int) =>
+                      Classical.propDecidable
+                        (@Eq.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K))
+                          (@Hindman168.roughBoxLabel.{u_1} ι A B N K hN hK a) i))
+                    (@Fintype.piFinset.{u_1, 0} ι (fun (a b : ι) => Classical.propDecidable (@Eq.{u_1 + 1} ι a b)) inst✝
+                      (fun (a : ι) => Int) fun (j : ι) =>
+                      @Finset.Ico.{0} Int
+                        (@PartialOrder.toPreorder.{0} Int
+                          (@ConditionallyCompletePartialOrderSup.toPartialOrder.{0} Int
+                            (@ConditionallyCompletePartialOrder.toConditionallyCompletePartialOrderSup.{0} Int
+                              (@ConditionallyCompleteLattice.toConditionallyCompletePartialOrder.{0} Int
+                                (@ConditionallyCompleteLinearOrder.toConditionallyCompleteLattice.{0} Int
+                                  Int.instConditionallyCompleteLinearOrder)))))
+                        Int.instLocallyFiniteOrder (A j) (B j))))
+                g))))
+⊢ @Exists.{u_1 + 1} (Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) fun (p : Prod.{u_1, u_1} (ι → Fin N) (ι → Fin K)) =>
+    And
+      (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+        (@Finset.card.{u_1} (ι → Int)
+          (@Inter.inter.{u_1} (Finset.{u_1} (ι → Int))
+            (@Finset.instInter.{u_1} (ι → Int) fun (a b : ι → Int) =>
+              @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Int) (fun (a : ι) => Int.instDecidableEq) inst✝ a
+                b)
+            (@Hindman168.alignmentBoxClass.{u_1} ι inst✝
+              (@Hindman168.roughBoxLower.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p))
+              (@Hindman168.roughBoxUpper.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p)) a
+              (@Nat.cast.{0} Int instNatCastInt t))
+            (@Hindman168.alignmentBoxClass.{u_1} ι inst✝
+              (@Hindman168.roughBoxLower.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p))
+              (@Hindman168.roughBoxUpper.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p))
+              (fun (j : ι) =>
+                @Nat.cast.{0} Int instNatCastInt (@Fin.val K (@Prod.snd.{u_1, u_1} (ι → Fin N) (ι → Fin K) p j)))
+              (@Nat.cast.{0} Int instNatCastInt K)))))
+      (@LT.lt.{0} Real Real.instLT θ
+        (@abs.{0} Real Real.lattice Real.instAddGroup
+          (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+            (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+              (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                (@Inter.inter.{u_1} (Finset.{u_1} (ι → Int))
+                  (@Finset.instInter.{u_1} (ι → Int) fun (a b : ι → Int) =>
+                    @Fintype.decidablePiFintype.{0, u_1} ι (fun (a : ι) => Int) (fun (a : ι) => Int.instDecidableEq)
+                      inst✝ a b)
+                  (@Hindman168.alignmentBoxClass.{u_1} ι inst✝
+                    (@Hindman168.roughBoxLower.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p))
+                    (@Hindman168.roughBoxUpper.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p)) a
+                    (@Nat.cast.{0} Int instNatCastInt t))
+                  (@Hindman168.alignmentBoxClass.{u_1} ι inst✝
+                    (@Hindman168.roughBoxLower.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p))
+                    (@Hindman168.roughBoxUpper.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p))
+                    (fun (j : ι) =>
+                      @Nat.cast.{0} Int instNatCastInt (@Fin.val K (@Prod.snd.{u_1, u_1} (ι → Fin N) (ι → Fin K) p j)))
+                    (@Nat.cast.{0} Int instNatCastInt K))))
+              f)
+            (@Hindman168.FiniteMass.expectation.{u_1} (ι → Int)
+              (@Hindman168.FiniteMass.uniformFinsetMass.{u_1} (ι → Int)
+                (@Hindman168.alignmentBoxClass.{u_1} ι inst✝
+                  (@Hindman168.roughBoxLower.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p))
+                  (@Hindman168.roughBoxUpper.{u_1} ι A B N (@Prod.fst.{u_1, u_1} (ι → Fin N) (ι → Fin K) p))
+                  (fun (j : ι) =>
+                    @Nat.cast.{0} Int instNatCastInt (@Fin.val K (@Prod.snd.{u_1, u_1} (ι → Fin N) (ι → Fin K) p j)))
+                  (@Nat.cast.{0} Int instNatCastInt K)))
+              g))))

@@ -1,0 +1,37 @@
+{
+  "baseline_hash_count": 1283,
+  "modules": [
+    "Hindman168/NativeUnitObservables.lean",
+    "Hindman168/FiniteScaleNativeUnitModels.lean"
+  ],
+  "names": [
+    "Hindman168.unitIntervalClip_abs_le",
+    "Hindman168.piecewise_unit_observables",
+    "Hindman168.native_piece_on_unit_observables",
+    "Hindman168.finite_scale_prediction_models_unit_observables"
+  ],
+  "theorem_count": 4,
+  "selected_report_count": 4,
+  "declarations": {
+    "Hindman168/NativeUnitObservables.lean": [
+      [
+        "theorem",
+        "unitIntervalClip_abs_le"
+      ],
+      [
+        "theorem",
+        "piecewise_unit_observables"
+      ],
+      [
+        "theorem",
+        "native_piece_on_unit_observables"
+      ]
+    ],
+    "Hindman168/FiniteScaleNativeUnitModels.lean": [
+      [
+        "theorem",
+        "finite_scale_prediction_models_unit_observables"
+      ]
+    ]
+  }
+}

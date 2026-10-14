@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentShortExposureDistance.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.75,
+    "log": "round-exposure-interval-stability-AlignmentShortExposureDistance-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentShortExposureDistance.lean",
+    "source_sha256": "0f1f9c0e076f459dff2a4f4a1262aab65f93618ccf26feca007bff994d8afc70"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentExposureIntervalStability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.735000000102445,
+    "log": "round-exposure-interval-stability-AlignmentExposureIntervalStability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentExposureIntervalStability.lean",
+    "source_sha256": "711e93bb8c961edce5ab3b64623c398452dffd8322891b4fc6c8b0effbe86713"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentExposureStabilityProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.780999999959022,
+    "log": "round-exposure-interval-stability-AlignmentExposureStabilityProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentExposureStabilityProbability.lean",
+    "source_sha256": "ba408250121951df245875a7b3f582bd73e69ea4f89c91faadef298c841fc704"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentExposureArrayGoodEvent.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.983999999938533,
+    "log": "round-exposure-interval-stability-AlignmentExposureArrayGoodEvent-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentExposureArrayGoodEvent.lean",
+    "source_sha256": "408a0a68929e72ef307e91ff3988d29dad3e21952f16ec6518f92f0e8682fe1f"
+  }
+]

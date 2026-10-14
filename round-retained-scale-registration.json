@@ -1,0 +1,47 @@
+{
+  "modules": [
+    "Hindman168/AlignmentRetainedScaleBound.lean",
+    "Hindman168/AlignmentRetainedScaleGrowth.lean",
+    "Hindman168/AlignmentRawRetainedScale.lean"
+  ],
+  "names": [
+    "Hindman168.alignment_retained_scale_power_bound",
+    "Hindman168.alignment_retained_scale_eventually",
+    "Hindman168.alignment_tail_factor_scale_eventually",
+    "Hindman168.alignment_tail_factor_scale_powerDominates",
+    "Hindman168.alignment_raw_retained_scale_eventually",
+    "Hindman168.alignment_raw_retained_scale_powerDominates"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentRetainedScaleBound.lean": [
+      [
+        "theorem",
+        "alignment_retained_scale_power_bound"
+      ]
+    ],
+    "Hindman168/AlignmentRetainedScaleGrowth.lean": [
+      [
+        "theorem",
+        "alignment_retained_scale_eventually"
+      ],
+      [
+        "theorem",
+        "alignment_tail_factor_scale_eventually"
+      ],
+      [
+        "theorem",
+        "alignment_tail_factor_scale_powerDominates"
+      ]
+    ],
+    "Hindman168/AlignmentRawRetainedScale.lean": [
+      [
+        "theorem",
+        "alignment_raw_retained_scale_eventually"
+      ],
+      [
+        "theorem",
+        "alignment_raw_retained_scale_powerDominates"
+      ]
+    ]
+  }
+}

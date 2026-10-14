@@ -1,0 +1,146 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBorelProbabilityTranslation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.530999999959022,
+    "log": "round-native-product-probability-NativeBorelProbabilityTranslation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBorelProbabilityTranslation.lean",
+    "source_sha256": "e7d6d9143f18c6857acd4870ab8e5fcea4a4171afe89bd18d38ae32cbc6bc425"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ProductCosetProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.063000000081956,
+    "log": "round-native-product-probability-ProductCosetProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ProductCosetProbability.lean",
+    "source_sha256": "afa153b5c66a020276325a3e70483de3c8243f4c98b42d433926c846545556ca"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeProductCanonicalProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.561999999918044,
+    "log": "round-native-product-probability-NativeProductCanonicalProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeProductCanonicalProbability.lean",
+    "source_sha256": "c0e23642b9b1a05f54643039c6e97f5125abb79e0b2aa74e7ee4db6a8250ed26"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeProductCanonicalIntegral.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.141000000061467,
+    "log": "round-native-product-probability-NativeProductCanonicalIntegral-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeProductCanonicalIntegral.lean",
+    "source_sha256": "4fbd205ffab7ebc6fc0f330e0fefb78149ce83002b4a0b47165cdf78c80eb1a9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFourierPairIntegral.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.719000000040978,
+    "log": "round-native-product-probability-NativeFourierPairIntegral-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeFourierPairIntegral.lean",
+    "source_sha256": "a3ea359c2769a002c144a235dcd1ceb398e7407f04ddc84b8f339f8febebafdb"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CentralSubgroupFactorProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.296000000089407,
+    "log": "round-native-product-probability-CentralSubgroupFactorProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CentralSubgroupFactorProbability.lean",
+    "source_sha256": "677187180ed4ebc3e8aab32469dbbe96e6014f585b75f634d327d74c64517489"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeDiagonalFactorProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.484999999869615,
+    "log": "round-native-product-probability-NativeDiagonalFactorProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeDiagonalFactorProbability.lean",
+    "source_sha256": "b6f7871af6073f83d197255049313e0e597826d79571d4614e2e40932f74bb20"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFourierPairFactorIntegral.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.57799999997951,
+    "log": "round-native-product-probability-NativeFourierPairFactorIntegral-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeFourierPairFactorIntegral.lean",
+    "source_sha256": "c903bb3ddd6189b08053eeaba86a21ce4362e48d213998356d8a5dd1904627cf"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/DiagonalCenterClosed.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.5,
+    "log": "round-native-product-probability-DiagonalCenterClosed-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/DiagonalCenterClosed.lean",
+    "source_sha256": "0605a48cde46fdc945ca2352e72e75148d5652e9fca5900e91c63ff0b9c490dd"
+  }
+]

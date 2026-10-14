@@ -1,0 +1,64 @@
+{
+  "baseline_hash_count": 995,
+  "modules": [
+    "Hindman168/SubgroupCubeDerivative.lean",
+    "Hindman168/FiniteHaarCauchySchwarz.lean",
+    "Hindman168/SubgroupCubeMomentMonotone.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupCubeProduct_mul",
+    "Hindman168.subgroupCubeProduct_succ_derivative",
+    "Hindman168.subgroupCubeAverage_succ_derivative",
+    "Hindman168.finiteHaarMean_mono",
+    "Hindman168.finiteHaarMean_cauchy_schwarz",
+    "Hindman168.finiteHaarMean_square_le",
+    "Hindman168.finiteHaarMean_discard_unit_factor",
+    "Hindman168.subgroupHaarMean_integral",
+    "Hindman168.subgroupCubeAverage_square_le_succ"
+  ],
+  "theorem_count": 9,
+  "declarations": {
+    "Hindman168/SubgroupCubeDerivative.lean": [
+      [
+        "theorem",
+        "subgroupCubeProduct_mul"
+      ],
+      [
+        "theorem",
+        "subgroupCubeProduct_succ_derivative"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_succ_derivative"
+      ]
+    ],
+    "Hindman168/FiniteHaarCauchySchwarz.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_mono"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_cauchy_schwarz"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_square_le"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_discard_unit_factor"
+      ]
+    ],
+    "Hindman168/SubgroupCubeMomentMonotone.lean": [
+      [
+        "theorem",
+        "subgroupHaarMean_integral"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_square_le_succ"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "modules": [
+    "Hindman168/RoughSpatialAffineSubstitution.lean",
+    "Hindman168/RoughResidueBoxNormalization.lean",
+    "Hindman168/NativeOriginalResidueBoxObstruction.lean",
+    "Hindman168/NativeOriginalBadPairCharacters.lean",
+    "Hindman168/RoughNativeRealBadIndexComplex.lean",
+    "Hindman168/NativeOriginalRealBadPairCharacters.lean",
+    "Hindman168/RoughOriginalBadPairScaleThresholds.lean",
+    "Hindman168/NativeOriginalAsymptoticBadPairCharacters.lean"
+  ],
+  "names": [
+    "Hindman168.rough_spatial_affine_specialize",
+    "Hindman168.rough_spatial_affine_vector_projection",
+    "Hindman168.rough_spatial_affine_vector_eval",
+    "Hindman168.rough_residue_box_reduce",
+    "Hindman168.rough_integer_real_box",
+    "Hindman168.rough_residue_box_normalized_mean",
+    "Hindman168.rough_residue_box_normalized_geometry",
+    "Hindman168.native_original_residue_box_obstruction",
+    "Hindman168.native_original_bad_pair_characters",
+    "Hindman168.finite_mass_complex_expectation_real",
+    "Hindman168.rough_native_real_bad_index_complex",
+    "Hindman168.native_original_real_bad_pair_characters",
+    "Hindman168.rough_original_bad_pair_scale_thresholds",
+    "Hindman168.native_original_asymptotic_bad_pair_characters"
+  ],
+  "declarations": {
+    "Hindman168/RoughSpatialAffineSubstitution.lean": [
+      [
+        "theorem",
+        "rough_spatial_affine_specialize"
+      ],
+      [
+        "theorem",
+        "rough_spatial_affine_vector_projection"
+      ],
+      [
+        "theorem",
+        "rough_spatial_affine_vector_eval"
+      ]
+    ],
+    "Hindman168/RoughResidueBoxNormalization.lean": [
+      [
+        "theorem",
+        "rough_residue_box_reduce"
+      ],
+      [
+        "theorem",
+        "rough_integer_real_box"
+      ],
+      [
+        "theorem",
+        "rough_residue_box_normalized_mean"
+      ],
+      [
+        "theorem",
+        "rough_residue_box_normalized_geometry"
+      ]
+    ],
+    "Hindman168/NativeOriginalResidueBoxObstruction.lean": [
+      [
+        "theorem",
+        "native_original_residue_box_obstruction"
+      ]
+    ],
+    "Hindman168/NativeOriginalBadPairCharacters.lean": [
+      [
+        "theorem",
+        "native_original_bad_pair_characters"
+      ]
+    ],
+    "Hindman168/RoughNativeRealBadIndexComplex.lean": [
+      [
+        "theorem",
+        "finite_mass_complex_expectation_real"
+      ],
+      [
+        "theorem",
+        "rough_native_real_bad_index_complex"
+      ]
+    ],
+    "Hindman168/NativeOriginalRealBadPairCharacters.lean": [
+      [
+        "theorem",
+        "native_original_real_bad_pair_characters"
+      ]
+    ],
+    "Hindman168/RoughOriginalBadPairScaleThresholds.lean": [
+      [
+        "theorem",
+        "rough_original_bad_pair_scale_thresholds"
+      ]
+    ],
+    "Hindman168/NativeOriginalAsymptoticBadPairCharacters.lean": [
+      [
+        "theorem",
+        "native_original_asymptotic_bad_pair_characters"
+      ]
+    ]
+  }
+}

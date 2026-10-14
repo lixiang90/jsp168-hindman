@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.968000000109896,
+  "log": "round-rough-conjugate-lattice-build.txt",
+  "log_sha256": "7f0826a727c600de2d369128f0083e43c510e7d392f6d198212d73e02c4496c7"
+}

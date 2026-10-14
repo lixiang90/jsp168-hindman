@@ -1,0 +1,38 @@
+{
+  "baseline_hash_count": 1084,
+  "modules": [
+    "Hindman168/MixedDualProductClosure.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedDualFunction_abs_le_one",
+    "Hindman168.subgroupMixedDualFunction_correlation_le_gowers",
+    "Hindman168.subgroupMixedDualFunction_product_average",
+    "Hindman168.subgroupMixedDualFunction_product_correlation_le_gowers",
+    "Hindman168.weighted_mixedDual_product_correlation_le_gowers"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/MixedDualProductClosure.lean": [
+      [
+        "theorem",
+        "subgroupMixedDualFunction_abs_le_one"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_correlation_le_gowers"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_product_average"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_product_correlation_le_gowers"
+      ],
+      [
+        "theorem",
+        "weighted_mixedDual_product_correlation_le_gowers"
+      ]
+    ]
+  }
+}

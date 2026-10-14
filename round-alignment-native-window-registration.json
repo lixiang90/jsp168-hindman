@@ -1,0 +1,81 @@
+{
+  "modules": [
+    "Hindman168/PowerDominationRealRatios.lean",
+    "Hindman168/AlignmentNativeReferenceGrowth.lean",
+    "Hindman168/AlignmentNativeWindowSampling.lean",
+    "Hindman168/AlignmentNativeWindowUniform.lean",
+    "Hindman168/ActualSelectorUniformity.lean",
+    "Hindman168/AlignmentNativeWindowAllAnchors.lean"
+  ],
+  "names": [
+    "Hindman168.rough_power_domination_real_ratios",
+    "Hindman168.alignment_raw_native_reference_real_ratios",
+    "Hindman168.alignment_typical_native_factor_scale_tendsto",
+    "Hindman168.alignment_native_binary_window_eq",
+    "Hindman168.alignment_native_binary_window_law",
+    "Hindman168.alignment_native_window_arithmetic",
+    "Hindman168.alignment_native_variable_scale_window_event_lt",
+    "Hindman168.alignment_native_actual_window_uniform",
+    "Hindman168.rough_eventual_uniform_of_actual_selectors",
+    "Hindman168.AlignmentNativeWindowCap",
+    "Hindman168.alignment_native_window_all_anchors_uniform"
+  ],
+  "declarations": {
+    "Hindman168/PowerDominationRealRatios.lean": [
+      [
+        "theorem",
+        "rough_power_domination_real_ratios"
+      ]
+    ],
+    "Hindman168/AlignmentNativeReferenceGrowth.lean": [
+      [
+        "theorem",
+        "alignment_raw_native_reference_real_ratios"
+      ],
+      [
+        "theorem",
+        "alignment_typical_native_factor_scale_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentNativeWindowSampling.lean": [
+      [
+        "theorem",
+        "alignment_native_binary_window_eq"
+      ],
+      [
+        "theorem",
+        "alignment_native_binary_window_law"
+      ],
+      [
+        "theorem",
+        "alignment_native_window_arithmetic"
+      ],
+      [
+        "theorem",
+        "alignment_native_variable_scale_window_event_lt"
+      ]
+    ],
+    "Hindman168/AlignmentNativeWindowUniform.lean": [
+      [
+        "theorem",
+        "alignment_native_actual_window_uniform"
+      ]
+    ],
+    "Hindman168/ActualSelectorUniformity.lean": [
+      [
+        "theorem",
+        "rough_eventual_uniform_of_actual_selectors"
+      ]
+    ],
+    "Hindman168/AlignmentNativeWindowAllAnchors.lean": [
+      [
+        "def",
+        "AlignmentNativeWindowCap"
+      ],
+      [
+        "theorem",
+        "alignment_native_window_all_anchors_uniform"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleNormBump.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.015000000130385,
+    "log": "round-circle-strong-recurrence-UnitCircleNormBump-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleNormBump.lean",
+    "source_sha256": "49db423e465563e3992c656bba67e12d97e423f9002d5a7749827e4ae4f90d65"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleDenseSmallValues.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.062999999849126,
+    "log": "round-circle-strong-recurrence-UnitCircleDenseSmallValues-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleDenseSmallValues.lean",
+    "source_sha256": "d93f776261e58000475c8487fd6af670b01b0bbe10fa6d8e8379a73b0872f867"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteIntegerSpanCard.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.812000000150874,
+    "log": "round-circle-strong-recurrence-FiniteIntegerSpanCard-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteIntegerSpanCard.lean",
+    "source_sha256": "23638df3aae9a155c10d22383356c663f674542f2d0a7fe110d3f0d21f1d741e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/LinearNearestIntegerHitCount.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.718999999808148,
+    "log": "round-circle-strong-recurrence-LinearNearestIntegerHitCount-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/LinearNearestIntegerHitCount.lean",
+    "source_sha256": "7d86c8e35cff4691d86ff24169f755b408b8396054d257d58915d47055670ca3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleProgressionHitCount.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.327999999979511,
+    "log": "round-circle-strong-recurrence-UnitCircleProgressionHitCount-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleProgressionHitCount.lean",
+    "source_sha256": "4f3116eab78623a5bf4228b0d3869182b29bb5997f7d3ae01e8fdd280d1dcb5f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleStrongLinearRecurrence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.406000000191852,
+    "log": "round-circle-strong-recurrence-UnitCircleStrongLinearRecurrence-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleStrongLinearRecurrence.lean",
+    "source_sha256": "5b2bad208b283151fc4c7aaa1fcad908b2faac7c06eb45365b788027ef46ba7d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleAffineSmallValueInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.5,
+    "log": "round-circle-strong-recurrence-UnitCircleAffineSmallValueInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleAffineSmallValueInverse.lean",
+    "source_sha256": "71d1e73ff5c89718fdedf6480c4f9eca0ff76a2f2b16e3fa090070ef4d97545d"
+  }
+]

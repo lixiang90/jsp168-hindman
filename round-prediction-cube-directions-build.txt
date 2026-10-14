@@ -1,0 +1,2 @@
+✔ [2512/2512] Built Hindman168.PredictionCubeDirections (5.9s)
+Build completed successfully (2512 jobs).

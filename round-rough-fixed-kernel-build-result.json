@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.141000000061467,
+  "log": "round-rough-fixed-kernel-build.txt",
+  "log_sha256": "fc6163f93420ccee325bea07e190d7e7d0fc010abbb63aabaf2923650bcdcc82"
+}

@@ -1,0 +1,107 @@
+JSP-000168 continuation, 2026-10-14
+
+Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction established.
+Previous turn made substantial verified proof progress, not a no-progress wait.
+Consult verification-manifest.json and last_round.review_file for the terminal
+author checkpoint, round-sequential-finite-descent. Author audit is not
+independent kernel replay or external peer review. Continue the FULL user goal.
+Public repository/PR/prize follow completion or a genuine unavoidable obstruction.
+
+NOW CLOSED in the pinned section-7 factorization route:
+- Failure of a scaled-circle atTop limit PRODUCES a bounded strictly increasing
+  subsequence, actual nearest integer m=round(x), exact epsilon=x-m, scaled
+  error bound and inverse-power bound. Any cofinal original lengths remain cofinal.
+- Local rational level characters have actual ambient rational extensions on
+  the ENTIRE ORIGINAL lattice rational form, retaining all original-layer
+  values. NativeSubgroupSequentialIrrational quantifies over ALL geometric
+  rational layer functionals and all positive levels through ell.
+- Failure of that all-character proposition PRODUCES every actual one-step
+  descent input: fixed rational pivot, one smaller rational filtration, actual
+  corrected collected sources, old/new weights, normalized values, strict total
+  dimension decrease and exact all-real left/source/right factor identities.
+- Genuine well-founded induction on total positive-layer dimension proves ONE
+  final rational filtration with ALL rational-character escape limits. Every
+  final layer is included in its original layer. Number of actual correction
+  factors plus final dimension is bounded by the original dimension sum.
+- NativeSequentialBinomialFactor is RAW data only (order, vector, real and
+  integer coefficient sequences); no bound, convergence or factorization field.
+  All bounds and identities are proved. Right factors multiply in REVERSE
+  order, so accumulated smooth factors are never rationally conjugated.
+- ONE actual further subsequence makes ALL finite scaled real coefficients
+  converge and retains the all-character limits and exact all-real identities.
+- Initial compact normalization works for ANY original adapted source inside
+  its rational subgroup, with the SAME original lattice and actual right
+  lattice factor. Original weights, zero at zero and exact group recovery hold.
+  Compact constants converge along an actual subsequence through the genuine
+  native exponential homeomorphism and original normed real model.
+- NativeSequentialAlgebraicFactorization is now PROVED for ANY original cofinal
+  real length and arbitrary adapted sequence, with one final filtration,
+  all-character limits, finite bounded-error corrections, convergent compact
+  constants and simultaneously convergent scaled coefficients. An actual
+  cofinal positive tail removes all-indices positivity assumptions.
+- NativeOriginalSequentialFactorization instantiates this at the EXACT original
+  lower central series, terminal index s, for ALL genuine left-linear orbit
+  sequences. It applies to the unchanged original heterogeneous joint group;
+  no ordinary-degree substitute or degree-dependent stretched filtration is used.
+
+Immediate remaining part of 07_cube_limits.tex 315--end factorization proof:
+A. ACTUAL SMOOTH-FACTOR LIMITS AND FIRST-DERIVATIVE BOUNDS.
+   Prove the exact scaled identity
+     epsilon * binom(L*beta,j)
+       = (L^j*epsilon)/j! * product_{0<=r<j}(beta-r/L).
+   The finite scalars L^j*epsilon already converge, 1/L -> 0, compact constants
+   already converge. Parametrize each original left factor by those actual
+   finite parameters; its limit is Exp(z*beta^j/j! * V). Preserve real/group
+   multiplication order and the ACTUAL compact constant on the LEFT.
+   A useful precise native route is to use the original global logarithm as
+   output in D.E. The parameter space D.E x R x (Fin factor_count -> R) is
+   finite-dimensional and locally compact. Actual exp/products/log are smooth;
+   on compact beta intervals, joint continuity gives uniform convergence and
+   joint continuity of the beta derivative gives uniform first-derivative bounds.
+   The genuine native diffeomorphism transfers to the original group. Do not
+   assume exp is globally Lipschitz or insert a local-uniform convergence oracle.
+   Mathlib.Topology.UniformSpace.HeineCantor has Continuous.tendstoUniformly
+   for a continuous family on locally compact parameters and compact beta.
+   Tendsto.inv_tendsto_atTop / tendsto_inv_atTop_zero gives 1/L -> 0.
+
+B. UNIFORM RATIONAL PERIOD AND FINITE RESIDUE REPRESENTATIVES.
+   Right factors are actual integer-coefficient binomial powers of finitely
+   many fixed vectors rational for the ORIGINAL specified lattice. Show a
+   common bounded period modulo the original lattice, despite UNBOUNDED m_n.
+   Include SIGNED integer inputs, not just nonnegative natural binomial values.
+   Derive discreteness of the subgroup generated by the original lattice and
+   the finite rational elements, or an equivalent genuine bounded-denominator
+   coordinate result; the paper's collection argument uses nilpotence to keep
+   a fixed denominator. Do not assume Log(Gamma) is an additive lattice and do
+   not use Exp(y) in Gamma without actual original subgroup evidence.
+   Use its finite original coset action and binomial congruences to obtain one
+   period, then select ONE finite residue pattern on a further subsequence.
+   The initial gamma_n in the algebraic factorization is an ACTUAL member of
+   ORIGINAL Gamma on the RIGHT, so it disappears only at the last coset quotient.
+
+Then the COMPLETE factorization lemma supports actual simultaneous local
+cube-Haar laws through ORIGINAL s+1, sequence limit BEFORE locality alpha->0,
+projected Haar face invariance/full-support coset symmetry, original joint
+face lifts/full Alignment. The distinct arbitrary-input GTZ interval Gowers
+LINEAR nilsequence inverse and final positive distinct rapidly separated
+SAME-color ALL nonempty finite sums AND finite products remain unproved.
+
+Retain pinned Lean/mathlib/OpenAI source and original s, all original source
+hashes/axiom sets and raw law/sample/marginal quantifiers. New proper subgroup
+layers need not be ideals in the ambient group. No explicit delta-power law,
+other-marginal face invariance, independent replay or prize eligibility is claimed.
+
+Additional established period input found during this audit:
+NativeSubgroupRationalHullRoots.lean already proves
+nativeSubgroupRationalHull_uniform_power_of_fg and
+nativeSubgroupRationalLogSpan_mem_iff_positive_power. In particular the
+finitely generated subgroup K of the finite rational right-factor elements
+has ONE positive exponent N with every g in K satisfying g^N in ORIGINAL
+Gamma. This may avoid reproving the paper's entire denominator argument.
+A possible pure-group route is to show the core of K intersect Gamma
+contains every Nth power, so the finitely generated nilpotent quotient by
+that core has bounded exponent and is finite. Its finite coset action gives
+a common period for every generator despite unbounded m_n. This finite-index
+step is NOT yet proved; do not treat uniform powers alone as finite index.
+Then signed binomial congruences and a finite residue-pattern subsequence
+produce actual original right coset representatives on one fixed period.

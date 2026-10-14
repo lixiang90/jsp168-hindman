@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRetainedCRT.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.07800000021234,
+    "log": "round-retained-crt-AlignmentRetainedCRT-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRetainedCRT.lean",
+    "source_sha256": "9f8f5565f750ea909a8bf0710002467ab50bdc595dbd95129a52d9f49ea055e3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRetainedCRTClasses.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.04699999978766,
+    "log": "round-retained-crt-AlignmentRetainedCRTClasses-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRetainedCRTClasses.lean",
+    "source_sha256": "213516e8a83045656b22474619d26a4b47d208dad0abb1e95e0807926e086d06"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentMasterRetainedCRT.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.985000000102445,
+    "log": "round-retained-crt-AlignmentMasterRetainedCRT-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentMasterRetainedCRT.lean",
+    "source_sha256": "5e41d8cb2aee8da0e88d2dc569694917bab7ba7ae9fe44a479d5a7a54290aff7"
+  }
+]

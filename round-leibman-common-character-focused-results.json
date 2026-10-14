@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteRealDenseWeights.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.984999999869615,
+    "log": "round-leibman-common-character-FiniteRealDenseWeights-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteRealDenseWeights.lean",
+    "source_sha256": "53519be26342f1da677bcba6b00faa570c34249e3935ff8fc2e7a73ffc851213"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteCandidateDenseRows.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.093000000109896,
+    "log": "round-leibman-common-character-FiniteCandidateDenseRows-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteCandidateDenseRows.lean",
+    "source_sha256": "7fd0b984748adf4f8add032912e9915fe455075e5cd18d794a6a0b8a8ecbc088"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/LeibmanCubeCommonCharacter.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.640999999828637,
+    "log": "round-leibman-common-character-LeibmanCubeCommonCharacter-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/LeibmanCubeCommonCharacter.lean",
+    "source_sha256": "fb1b8bb564b9caac201997ac693bdac199799c3327d8c502b1dc0f8f41f60665"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFilteredHorizontalDenseSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.375,
+    "log": "round-leibman-common-character-NativeFilteredHorizontalDenseSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeFilteredHorizontalDenseSelection.lean",
+    "source_sha256": "09927a22c2f9bddb1a288a1d2ac6c40bca9c46d2d5f5a23d98eb2fcbe4e5a7e3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/LeibmanCubeCommonSpanningDirections.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.702999999979511,
+    "log": "round-leibman-common-character-LeibmanCubeCommonSpanningDirections-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/LeibmanCubeCommonSpanningDirections.lean",
+    "source_sha256": "05dfdf5687d40a848f9729b3a2111569e861e74272eebb6101e98ed456c2d644"
+  }
+]

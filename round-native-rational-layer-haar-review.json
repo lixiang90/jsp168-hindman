@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2845,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6872,
+    "selected_axiom_reports": 11091,
+    "new_declarations": 18,
+    "new_theorems": 14,
+    "new_definitions": 4,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeRationalLayerOrbit.lean",
+    "Hindman168/NativeRationalLayerHaarImage.lean",
+    "Hindman168/NativeSubgroupMaximalCharacter.lean"
+  ],
+  "proved_components": [
+    "For EVERY layer of the ACTUAL final rational subgroup filtration and EVERY original rational residue representative, nativeRationalLayerOrbitData constructs the genuine ORIGINAL subgroup with the intersection of the ORIGINAL conjugated lattice. Actual compactness, native geometry, source metric and original step s come from proved constructors.",
+    "The ACTUAL adapted polynomial is bundled into the ORIGINAL initial subgroup, with exact original exponential and logarithmic identities. No new polynomial source or source-membership oracle is introduced.",
+    "nativeRationalLayerHaarImage is the image of the constructed normalized invariant probability under the ACTUAL original map x -> h*x*rho*Gamma. Exact evaluation, continuity, injectivity, compact orbit range, probability normalization, concentration on that orbit and invariance under h -> h*y for y in the SAME actual subgroup are proved. Empirical convergence, full support and face invariance are not inferred from these constructors.",
+    "An actual nonzero rational functional on the initial subgroup, annihilating its internal brackets, has a TRUE greatest nonzero filtration level. Its restriction satisfies the EXACT NativeSubgroupRationalLevelCharacter predicate and vanishes on EVERY higher layer. Actual original conjugated-lattice intersection integrality implies rationality on the ORIGINAL lattice rational form by the proved positive-root intersection identity."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual sequential smooth/irrational/periodic factorization is proved on ONE subsequence at the ORIGINAL step s. Actual layer subgroup/conjugated-lattice compact native data, original polynomial orbit inclusion, canonical Haar images and greatest-level rational character implications are now proved. Remaining: transport actual subgroup/cube horizontal inverse obstructions into these exact level characters and isolate the actual Taylor coefficients; actual simultaneous local point/cube-Haar laws through ORIGINAL s+1, sequence limit BEFORE locality alpha->0, projected Haar face invariance/full-support coset symmetry and actual joint face lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse at sufficient native step; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No Haar law, source geometry, character, period, inverse or bound oracle is introduced. Author build/hash/axiom/source checks are not independent kernel replay or external peer review. No explicit delta-power law or other-marginal invariance is claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-rational-layer-haar-mathematical-review.txt",
+  "mathematical_review_sha256": "2af96d79e2ee40fc7030825600d32db1d089c58c907886a0ee8587266fbcb917",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

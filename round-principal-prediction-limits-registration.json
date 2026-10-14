@@ -1,0 +1,109 @@
+{
+  "baseline_hash_count": 1273,
+  "modules": [
+    "Hindman168/EventualUltrafilterBounds.lean",
+    "Hindman168/FiniteProbabilityBounds.lean",
+    "Hindman168/PrincipalModelCountBounds.lean",
+    "Hindman168/PrincipalPredictionLimits.lean",
+    "Hindman168/PrincipalPredictionLimitData.lean",
+    "Hindman168/PrincipalPredictionModelsWithLimits.lean"
+  ],
+  "names": [
+    "Hindman168.eventual_Icc_ultrafilter_tendsto",
+    "Hindman168.eventual_Icc_ultrafilter_limit",
+    "Hindman168.eventual_abs_error_ultrafilter_limit",
+    "Hindman168.FiniteMass.expectation_probability_Icc",
+    "Hindman168.FiniteMass.event_probability_Icc",
+    "Hindman168.principalCalibrationProbability",
+    "Hindman168.principalModelColorCount",
+    "Hindman168.principalColorProductMask_Icc",
+    "Hindman168.principalBoundedColorIntegrand_Icc",
+    "Hindman168.principalCalibrationProbability_Icc",
+    "Hindman168.principalModelColorCount_Icc",
+    "Hindman168.principal_calibration_ultrafilter_limit",
+    "Hindman168.principal_model_count_ultrafilter_limit",
+    "Hindman168.principal_weighted_count_ultrafilter_limits",
+    "Hindman168.principal_prediction_limit_data",
+    "Hindman168.principal_prediction_models_with_limits"
+  ],
+  "theorem_count": 14,
+  "selected_report_count": 16,
+  "declarations": {
+    "Hindman168/EventualUltrafilterBounds.lean": [
+      [
+        "theorem",
+        "eventual_Icc_ultrafilter_tendsto"
+      ],
+      [
+        "theorem",
+        "eventual_Icc_ultrafilter_limit"
+      ],
+      [
+        "theorem",
+        "eventual_abs_error_ultrafilter_limit"
+      ]
+    ],
+    "Hindman168/FiniteProbabilityBounds.lean": [
+      [
+        "theorem",
+        "expectation_probability_Icc"
+      ],
+      [
+        "theorem",
+        "event_probability_Icc"
+      ]
+    ],
+    "Hindman168/PrincipalModelCountBounds.lean": [
+      [
+        "def",
+        "principalCalibrationProbability"
+      ],
+      [
+        "def",
+        "principalModelColorCount"
+      ],
+      [
+        "theorem",
+        "principalColorProductMask_Icc"
+      ],
+      [
+        "theorem",
+        "principalBoundedColorIntegrand_Icc"
+      ],
+      [
+        "theorem",
+        "principalCalibrationProbability_Icc"
+      ],
+      [
+        "theorem",
+        "principalModelColorCount_Icc"
+      ]
+    ],
+    "Hindman168/PrincipalPredictionLimits.lean": [
+      [
+        "theorem",
+        "principal_calibration_ultrafilter_limit"
+      ],
+      [
+        "theorem",
+        "principal_model_count_ultrafilter_limit"
+      ],
+      [
+        "theorem",
+        "principal_weighted_count_ultrafilter_limits"
+      ]
+    ],
+    "Hindman168/PrincipalPredictionLimitData.lean": [
+      [
+        "theorem",
+        "principal_prediction_limit_data"
+      ]
+    ],
+    "Hindman168/PrincipalPredictionModelsWithLimits.lean": [
+      [
+        "theorem",
+        "principal_prediction_models_with_limits"
+      ]
+    ]
+  }
+}

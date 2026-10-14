@@ -1,0 +1,60 @@
+✔ [4070/4071] Built Hindman168.PredictionTranslationCoordinates (10s)
+✖ [4071/4071] Building Hindman168.PredictionTranslationLaw (10s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\PredictionTranslationLaw.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionTranslationLaw.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionTranslationLaw.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionTranslationLaw.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionTranslationLaw.setup.json --json
+error: Hindman168/PredictionTranslationLaw.lean:83:4: 'change' tactic failed, pattern
+  distance
+      (Finsupp.mapDomain (fun z => z + predictionInsertedTranslation M dir t (some (q, j, true)))
+        (uniformIntervalMass (A (q, j, true)) (T q)))
+      (uniformIntervalMass (A (q, j, true)) (T q)) ≤
+    ?m.258
+is not definitionally equal to target
+  ((Finsupp.sum
+        (Finsupp.mapDomain (fun z => z + predictionInsertedTranslation M dir t (some (q, j, true)))
+            (uniformIntervalMass (A (q, j, true)) (T q)) -
+          uniformIntervalMass (A (q, j, true)) (T q))
+        fun x a => |a|) +
+      Finsupp.sum
+        (Finsupp.mapDomain (fun z => z) (uniformIntervalMass (A (q, j, false)) (T q)) -
+          uniformIntervalMass (A (q, j, false)) (T q))
+        fun x a => |a|) ≤
+    2 * ↑h * |↑(cubeShiftDirection j)| * L q / ↑(T q)
+warning: Hindman168/PredictionTranslationLaw.lean:81:16: This simp argument is unused:
+  Finsupp.mapDomain_id
+
+Hint: Omit it from the simp argument list.
+  simp only [predictionOriginalColumnMass, predictionInsertedTranslation_false, add_zero,
+  ̲  ̲ ̲ ̲ ̲ ̲F̵i̵n̵s̵u̵p̵p̵.̵m̵a̵p̵D̵o̵m̵a̵i̵n̵_̵i̵d̵,̵ ̵distance, sub_self, variation, Finsupp.sum_zero_index, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/PredictionTranslationLaw.lean:81:48: This simp argument is unused:
+  sub_self
+
+Hint: Omit it from the simp argument list.
+  simp only [predictionOriginalColumnMass, predictionInsertedTranslation_false,
+  ̵  ̵ ̵ ̵ ̵ ̵add_zero,
+  ̲  ̲ ̲ ̲ ̲ ̲Finsupp.mapDomain_id, distance, s̵u̵b̵_̵s̵e̵l̵f̵,̵ ̵variation, Finsupp.sum_zero_index,
+  ̵  ̵ ̵ ̵ ̵ ̵zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/PredictionTranslationLaw.lean:81:69: This simp argument is unused:
+  Finsupp.sum_zero_index
+
+Hint: Omit it from the simp argument list.
+  simp only [predictionOriginalColumnMass, predictionInsertedTranslation_false, add_zero,
+  ̲  ̲ ̲ ̲ ̲ ̲Finsupp.mapDomain_id, distance, sub_self, variation, F̵i̵n̵s̵u̵p̵p̵.̵s̵u̵m̵_̵z̵e̵r̵o̵_̵i̵n̵d̵e̵x̵,̵zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/PredictionTranslationLaw.lean:82:6: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  simp only [predictionOriginalColumnMass, predictionInsertedTranslation_false,
+  ̵  ̵ ̵ ̵ ̵ ̵add_zero,
+  ̲  ̲ ̲ ̲ ̲ ̲Finsupp.mapDomain_id, distance, sub_self, variation, Finsupp.sum_zero_index,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵z̵e̵r̵o̵_̵a̵d̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.PredictionTranslationLaw
+error: build failed

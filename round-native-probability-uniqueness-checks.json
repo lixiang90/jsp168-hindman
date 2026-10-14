@@ -1,0 +1,14 @@
+{
+  "project_modules": 2098,
+  "pntplus_modules": 9,
+  "build_jobs": 6071,
+  "selected_axiom_reports": 8636,
+  "new_declarations": 27,
+  "new_theorems": 25,
+  "new_definitions": 2,
+  "retained_proof_sources_unchanged": true,
+  "retained_axiom_sets_unchanged": true,
+  "standard_axioms_only": true,
+  "full_target_proved": false,
+  "independent_kernel_replay": false
+}

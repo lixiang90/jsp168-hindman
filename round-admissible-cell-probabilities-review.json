@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "The zero contribution theorem uses the original integerMass cell formula with W dividing M and the actual coprimality condition; arbitrary real tests are permitted.",
+    "For each interval index in Ico a b, the global containment hypotheses imply cell containment inside the original harmonic window. Both M and q are positive.",
+    "The admissible-only sum is proved by removing exactly the zero summands from the existing exact aligned partition.",
+    "Cell probabilities are the actual integerMass cell sums divided by the actual interval sum. Positive retained mass is explicit before division and sum-one cancellation; it is not supplied as an inverse-theorem certificate.",
+    "Four new theorems are individually kernel audited. The cyclic correlation transfer and deep inverse inputs remain incomplete."
+  ],
+  "new_modules": [
+    "Hindman168/AdmissibleCellProbabilities.lean"
+  ],
+  "verified": {
+    "project_modules": 1028,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1037,
+    "source_config_hashes": 1046,
+    "build_jobs": 4982,
+    "axiom_reports": 4914,
+    "new_theorems": 4,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 4,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Admissible residue restriction and normalized actual cell probabilities are now proved, with positivity of the retained mass already available eventually at master scales. Connecting this probability law to the uniformized cyclic correlation, renormalization errors and wrapping errors remains, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

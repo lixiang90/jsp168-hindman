@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SingletonChartNativeExponential.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.452999999979511,
+    "log": "round-alignment-native-source-SingletonChartNativeExponential-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/SingletonChartNativeExponential.lean",
+    "source_sha256": "2f588ae171210442ef396420d35dbfad4fd106e6df80f0ffed9940754f30949c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentArrayNativeCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.468000000109896,
+    "log": "round-alignment-native-source-AlignmentArrayNativeCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentArrayNativeCoordinates.lean",
+    "source_sha256": "160c16dafdd1d3690bc8040dcfb32557b6d696ee97e9d0a19d934087eb30940e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeVectorPolynomialSource.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.109999999869615,
+    "log": "round-alignment-native-source-NativeVectorPolynomialSource-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeVectorPolynomialSource.lean",
+    "source_sha256": "8c6292dae9522be42d68fbeea540ab30a2716deaa76e67e6c16df5e3f251eeb8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentExposedNativeVectorPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.719000000040978,
+    "log": "round-alignment-native-source-AlignmentExposedNativeVectorPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentExposedNativeVectorPolynomial.lean",
+    "source_sha256": "686bd843bc95e914a82c230036ee345913ba47bd754c1a9fddfba259d7511d52"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughVectorMvSubstitution.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.046000000089407,
+    "log": "round-alignment-native-source-RoughVectorMvSubstitution-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughVectorMvSubstitution.lean",
+    "source_sha256": "79a3d8447deb0cfcaf84a600043084ac4872d6a5b8f01aee777d4576e34c6c47"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughRemovedFactorPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.0,
+    "log": "round-alignment-native-source-RoughRemovedFactorPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughRemovedFactorPolynomial.lean",
+    "source_sha256": "564954b650de1e79858dd51d0996579756d15de42ffd0f9beda42663ea46f0d5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentExposedNativeSource.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.734999999869615,
+    "log": "round-alignment-native-source-AlignmentExposedNativeSource-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentExposedNativeSource.lean",
+    "source_sha256": "419d90530143579a9d0c829fc9f7ed0946f6fc4efea66ba08d6311fec3b4f9b5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRemovedFactorNativeSource.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.312000000150874,
+    "log": "round-alignment-native-source-AlignmentRemovedFactorNativeSource-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRemovedFactorNativeSource.lean",
+    "source_sha256": "e94158f8d423779022b84386cc8d2fc91f3831b6385d450ca36e36ca4a118011"
+  }
+]

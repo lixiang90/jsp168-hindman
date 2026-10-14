@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python",
+    "bracket-slab-volume-counterexample.py"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 0.06299999984912574,
+  "log": "round-native-no-long-bad-family-slab-certificate.txt",
+  "log_sha256": "54b6ed19947202ef5c2389783d78dc4fd63be471096ac6002fd63f3a1cfe8290"
+}

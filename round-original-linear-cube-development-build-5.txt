@@ -1,0 +1,48 @@
+✖ [3940/3940] Building Hindman168.AdaptedTaylorInitialZeros (11s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\AdaptedTaylorInitialZeros.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AdaptedTaylorInitialZeros.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AdaptedTaylorInitialZeros.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AdaptedTaylorInitialZeros.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AdaptedTaylorInitialZeros.setup.json --json
+error: Hindman168/AdaptedTaylorInitialZeros.lean:34:8: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  Submodule.Quotient.mk (roughVectorMvCoefficient p (Finsupp.single () k))
+in the target expression
+  φ ((F j).mkQ (roughVectorMvCoefficient p (Finsupp.single () k))) = 0
+
+E : Type u_1
+inst✝¹ : NormedAddCommGroup E
+inst✝ : NormedSpace ℝ E
+F : ℕ → Submodule ℝ E
+hF : Antitone F
+p : RoughVectorMvPolynomial Unit E
+hp : RoughVectorMvWeightedDegree F p 0
+j : ℕ
+hj : 0 < j
+hz : ∀ m < j, (roughVectorMvEval p fun x => ↑m) = 0
+b : ℝ
+φ : Module.Dual ℝ (E ⧸ F j)
+ell : E →ₗ[ℝ] ℝ := φ ∘ₗ (F j).mkQ
+P : ℝ[X] := scalarUnitPolynomial (roughVectorMvProjection ell p)
+k : ℕ
+hk : j ≤ k
+h : roughVectorMvCoefficient p (Finsupp.single () k) ∈ F k
+hs : ((Finsupp.single () k).sum fun x m => m) = k
+hm : roughVectorMvCoefficient p (Finsupp.single () k) ∈ F j
+⊢ φ ((F j).mkQ (roughVectorMvCoefficient p (Finsupp.single () k))) = 0
+error: Hindman168/AdaptedTaylorInitialZeros.lean:58:4: failed to synthesize instance of type class
+  LieGroup D.I (minSmoothness ℝ 3) D.G
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Hindman168/AdaptedTaylorInitialZeros.lean:63:2: Tactic `assumption` failed
+
+s : ℕ
+error: build failed
+D : NativeNilmanifoldData s
+p : RoughVectorMvPolynomial Unit D.E
+hp : RoughVectorMvWeightedDegree (roughNativeStretchedLieFiltration 1) p 0
+j : ℕ
+hj : 0 < j
+hz : ∀ m < j, (roughVectorMvEval p fun x => ↑m) = 0
+b : ℝ
+hm : (roughVectorMvEval p fun x => b) ∈ roughNativeStretchedLieFiltration 1 j
+he : nativeLieExponential (roughVectorMvEval p fun x => b) ∈ nilLowerCentralFiltration D.G j
+⊢ sorry ∈ nilLowerCentralFiltration D.G j
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.AdaptedTaylorInitialZeros

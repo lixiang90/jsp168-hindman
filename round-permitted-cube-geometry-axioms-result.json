@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.42200000002049,
+  "log": "round-permitted-cube-geometry-axioms.txt",
+  "log_sha256": "1c7ad864db6b7b241b5605520b1eb441970dc2cd8224cd0228cd67832ea884ac"
+}

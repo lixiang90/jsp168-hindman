@@ -1,0 +1,3 @@
+✔ [5002/5004] Built Hindman168.SubgroupHaarComposition (5.2s)
+✔ [5003/5004] Built Hindman168 (51s)
+Build completed successfully (5004 jobs).

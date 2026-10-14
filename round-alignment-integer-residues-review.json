@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding palette-slots round was rechecked successfully and its authoritative 1323-source manifest was copied before proof edits. All retained proof sources and exact selected axiom sets remain fixed.",
+    "The finite pairs are mapped into the original natural-index Chain.AddsTo relation using all four actual order conditions and nonempty tails. The natural block image lies inside range n. Consequently the original reversed-weight master-scale divisibility applies to the actual source and target blocks.",
+    "Coprimality supplies a bounded residue modulo M*V, not merely modulo M. The full modulus is necessary for V-divisibility of the exact progression quotient. Small-prime residue divisibility follows by Euclid cancellation of the coprime target tail. No divisibility of q by that tail is introduced.",
+    "Natural subtraction is not used for a potentially negative progression shift. The quotient is an integer expression (q-t*rho)/M and its exactness follows from the full congruence. All numerical identities quantify over arbitrary signed integer exponents.",
+    "The denominator absorption threshold q0+1 is independent of raw variables, pivot, pair, and model complexity. The numerator uses exact natural division, with a proved factorization and a proved rational value equal to the paper formula. A floor or an arbitrary integer with merely compatible divisibility is not substituted for that formula.",
+    "Smoothness and the actual primorial power divisor come from MasterParameterConditions. These master conditions already have a genuine construction in the retained sources; the residue theorem does not assume the desired congruence or Alignment success. Raw unit conditions imply tail coprimality modulo the full smooth modulus.",
+    "The eventual fixed-integer divisibility statement fixes its threshold before universally quantifying over all raw unit values, pivots and actual adding pairs. This verifies the uniformity needed when the earlier raw variables are conditioned on in the paper.",
+    "The finite numerical slot sum uses exactly the actual finite adding-pair coordinates. Its signed unit update, small-prime divisibility and absolute-coordinate weight bound are proved. The residue bound rho<M^2 uses the actual primorial-power divisor of M.",
+    "The numerical array progression sums precisely the coordinates whose target tail is T. Updating an own-target letter moves both the slot and its progression coordinate. The resulting shift m*q_e is derived from the exact integer equation. This numerical calculation does not assert a group action, its nilpotence or compatibility with native observables.",
+    "Six new modules contain 25 theorems and 9 definitions; all 34 declarations are selected for kernel audit. No proof holes, new axioms, structures, global instances, unsafe code or resource increases are introduced. Strict focused checks, full build, kernel checking, retained-source and axiom comparisons and a final recheck must terminate successfully.",
+    "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional Prediction includes actual admissible parameters, positive finite scale-list closure, common native unit observables and complete fixed-ultrafilter calibration and count limits. Conditional Alignment includes the canonical finite-word schedule, actual execution, positive palette-scale budgets, common positive denominator and certified actual auxiliary visits. Integer realization now proves the actual master pair scale relation, exact natural numerator with its original rational value, bounded full-modulus residues, all required divisibilities, the uniform eventual fixed-integer divisibility, finite numerical slot bounds and the numerical own-target array-letter identity. HasAlignmentMonomialRecurrence remains an explicit unproved input. Its genuine nilpotent recurrence proof, the actual native polynomial-array model action with its required nilpotence and translation compatibility, microcell boundary and point-law estimates, and positive-probability Alignment bounds remain unproved. Final ordered positive rapidly separated monochromatic extraction is incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/AlignmentIntegerPairScales.lean",
+    "Hindman168/AlignmentIntegerResidues.lean",
+    "Hindman168/AlignmentIntegerNumerators.lean",
+    "Hindman168/AlignmentMasterResidueData.lean",
+    "Hindman168/AlignmentIntegerSlotShifts.lean",
+    "Hindman168/AlignmentIntegerArrayArguments.lean"
+  ],
+  "verified": {
+    "project_modules": 1311,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1320,
+    "source_config_hashes": 1329,
+    "build_jobs": 5268,
+    "axiom_reports": 5944,
+    "new_theorems": 25,
+    "new_definitions": 9,
+    "new_structures": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 34,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "axiom_free_reports": [
+      "Hindman168.MatrixDepth.smul",
+      "Hindman168.admissible_option_selection_none",
+      "Hindman168.alignmentProgressionShift",
+      "Hindman168.boundedLieWordValues",
+      "Hindman168.completeResidueCellPoint",
+      "Hindman168.finiteVectorPolynomialSum",
+      "Hindman168.integerCubeResidueShift",
+      "Hindman168.intervalResidueParent",
+      "Hindman168.lieWordValue",
+      "Hindman168.lieWordValue_cons",
+      "Hindman168.lieWordValue_nil",
+      "Hindman168.lowerCentralCommutatorGenerators",
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.matrixDepth_zero",
+      "Hindman168.matrixDepth_zero_iff_upper"
+    ],
+    "new_axiom_free_reports": [
+      "Hindman168.alignmentProgressionShift"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional Prediction includes actual admissible parameters, positive finite scale-list closure, common native unit observables and complete fixed-ultrafilter calibration and count limits. Conditional Alignment includes the canonical finite-word schedule, actual execution, positive palette-scale budgets, common positive denominator and certified actual auxiliary visits. Integer realization now proves the actual master pair scale relation, exact natural numerator with its original rational value, bounded full-modulus residues, all required divisibilities, the uniform eventual fixed-integer divisibility, finite numerical slot bounds and the numerical own-target array-letter identity. HasAlignmentMonomialRecurrence remains an explicit unproved input. Its genuine nilpotent recurrence proof, the actual native polynomial-array model action with its required nilpotence and translation compatibility, microcell boundary and point-law estimates, and positive-probability Alignment bounds remain unproved. Final ordered positive rapidly separated monochromatic extraction is incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "08_alignment integer residue shifts, full smooth-modulus divisibilities and numerical own-target array arguments"
+}

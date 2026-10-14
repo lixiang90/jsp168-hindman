@@ -1,0 +1,18 @@
+✖ [2008/2008] Building Hindman168.QuotientIntervalGrowth (8.4s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\QuotientIntervalGrowth.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\QuotientIntervalGrowth.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\QuotientIntervalGrowth.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\QuotientIntervalGrowth.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\QuotientIntervalGrowth.setup.json --json
+error: Hindman168/QuotientIntervalGrowth.lean:57:44: Invalid field `mp`: The environment does not contain `Function.mp`, so it is not possible to project the field `mp` from an expression
+  mul_le_mul_left ?m.574
+of type
+  ∀ (a : ?m.562), ?m.566 * a ≤ ?m.567 * a
+error: Hindman168/QuotientIntervalGrowth.lean:57:25: Application type mismatch: The argument
+  pow_pos hQpos p
+has type
+  0 < Q w ^ p
+but is expected to have type
+  ?m.566 ≤ ?m.567
+in the application
+  mul_le_mul_left (pow_pos hQpos p)
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.QuotientIntervalGrowth
+error: build failed

@@ -1,0 +1,129 @@
+{
+  "baseline_hash_count": 1350,
+  "modules": [
+    "Hindman168/NativeProductLieAlgebra.lean",
+    "Hindman168/NativeProductExponential.lean",
+    "Hindman168/NativeProductGlobalLogarithm.lean",
+    "Hindman168/NativeProductLieSubgroup.lean",
+    "Hindman168/NativeProductLieModel.lean",
+    "Hindman168/NativeProductLieTopology.lean"
+  ],
+  "names": [
+    "Hindman168.nativeProductLie_bracket_fst",
+    "Hindman168.nativeProductLie_bracket_snd",
+    "Hindman168.nativeProductLieEquiv",
+    "Hindman168.nativeProductExponential_fst",
+    "Hindman168.nativeProductExponential_snd",
+    "Hindman168.nativeProductExponential_eq",
+    "Hindman168.nativeProductGroup_contractible",
+    "Hindman168.nativeProductGroup_simplyConnected",
+    "Hindman168.nativeProductGlobalLogarithm_eq",
+    "Hindman168.nativeProductLieSubgroup",
+    "Hindman168.nativeProductLieSubgroup_mem_iff",
+    "Hindman168.nativeProductLieSubgroup_globalLogarithm_iff",
+    "Hindman168.nativeProductLieSubgroup_closed",
+    "Hindman168.nativeProductLieSubgroup_simplyConnected",
+    "Hindman168.nativeProductLieModel",
+    "Hindman168.nativeProductLieModel_map_eq",
+    "Hindman168.nativeProductLieExponentialHomeomorph",
+    "Hindman168.nativeProductLieExponentialHomeomorph_apply",
+    "Hindman168.nativeProductLieSubgroup_contractible",
+    "Hindman168.nativeProductLieSubgroup_connected"
+  ],
+  "theorem_count": 16,
+  "selected_report_count": 20,
+  "declarations": {
+    "Hindman168/NativeProductLieAlgebra.lean": [
+      [
+        "theorem",
+        "nativeProductLie_bracket_fst"
+      ],
+      [
+        "theorem",
+        "nativeProductLie_bracket_snd"
+      ],
+      [
+        "def",
+        "nativeProductLieEquiv"
+      ]
+    ],
+    "Hindman168/NativeProductExponential.lean": [
+      [
+        "theorem",
+        "nativeProductExponential_fst"
+      ],
+      [
+        "theorem",
+        "nativeProductExponential_snd"
+      ],
+      [
+        "theorem",
+        "nativeProductExponential_eq"
+      ]
+    ],
+    "Hindman168/NativeProductGlobalLogarithm.lean": [
+      [
+        "theorem",
+        "nativeProductGroup_contractible"
+      ],
+      [
+        "theorem",
+        "nativeProductGroup_simplyConnected"
+      ],
+      [
+        "theorem",
+        "nativeProductGlobalLogarithm_eq"
+      ]
+    ],
+    "Hindman168/NativeProductLieSubgroup.lean": [
+      [
+        "def",
+        "nativeProductLieSubgroup"
+      ],
+      [
+        "theorem",
+        "nativeProductLieSubgroup_mem_iff"
+      ],
+      [
+        "theorem",
+        "nativeProductLieSubgroup_globalLogarithm_iff"
+      ],
+      [
+        "theorem",
+        "nativeProductLieSubgroup_closed"
+      ],
+      [
+        "theorem",
+        "nativeProductLieSubgroup_simplyConnected"
+      ]
+    ],
+    "Hindman168/NativeProductLieModel.lean": [
+      [
+        "def",
+        "nativeProductLieModel"
+      ],
+      [
+        "theorem",
+        "nativeProductLieModel_map_eq"
+      ]
+    ],
+    "Hindman168/NativeProductLieTopology.lean": [
+      [
+        "def",
+        "nativeProductLieExponentialHomeomorph"
+      ],
+      [
+        "theorem",
+        "nativeProductLieExponentialHomeomorph_apply"
+      ],
+      [
+        "theorem",
+        "nativeProductLieSubgroup_contractible"
+      ],
+      [
+        "theorem",
+        "nativeProductLieSubgroup_connected"
+      ]
+    ]
+  }
+}

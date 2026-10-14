@@ -1,0 +1,46 @@
+{
+  "baseline_hash_count": 1027,
+  "modules": [
+    "Hindman168/MasterPredictionModulusCap.lean",
+    "Hindman168/MasterPredictionModulusGeometry.lean"
+  ],
+  "names": [
+    "Hindman168.masterPredictionModulus_cap",
+    "Hindman168.MasterParameterConditions.prediction_short_lengths_uniform",
+    "Hindman168.predictionCubeModulus_natAbs_dvd",
+    "Hindman168.MasterParameterConditions.predictionModulus_gap_dvd",
+    "Hindman168.predictionCubeModulus_master_factor",
+    "Hindman168.MasterParameterConditions.predictionModulus_cyclic_geometry"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/MasterPredictionModulusCap.lean": [
+      [
+        "theorem",
+        "masterPredictionModulus_cap"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.prediction_short_lengths_uniform"
+      ]
+    ],
+    "Hindman168/MasterPredictionModulusGeometry.lean": [
+      [
+        "theorem",
+        "predictionCubeModulus_natAbs_dvd"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.predictionModulus_gap_dvd"
+      ],
+      [
+        "theorem",
+        "predictionCubeModulus_master_factor"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.predictionModulus_cyclic_geometry"
+      ]
+    ]
+  }
+}

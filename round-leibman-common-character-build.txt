@@ -1,0 +1,7 @@
+✔ [5894/5900] Built Hindman168.FiniteRealDenseWeights (6.4s)
+✔ [5895/5900] Built Hindman168.FiniteCandidateDenseRows (6.7s)
+✔ [5896/5900] Built Hindman168.LeibmanCubeCommonCharacter (8.1s)
+✔ [5897/5900] Built Hindman168.NativeFilteredHorizontalDenseSelection (8.5s)
+✔ [5898/5900] Built Hindman168.LeibmanCubeCommonSpanningDirections (9.3s)
+✔ [5899/5900] Built Hindman168 (8.5s)
+Build completed successfully (5900 jobs).

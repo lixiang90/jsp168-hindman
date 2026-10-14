@@ -1,0 +1,89 @@
+{
+  "modules": [
+    "Hindman168/AlignmentOriginalProductFaceFailure.lean",
+    "Hindman168/AlignmentOriginalProductFacePosterior.lean",
+    "Hindman168/AlignmentOriginalProductFaceFiniteFamily.lean",
+    "Hindman168/AlignmentOriginalProductAllFacesPosterior.lean",
+    "Hindman168/FiniteTypicalExposureEventBound.lean",
+    "Hindman168/AlignmentOriginalProductAllFacesGlobal.lean",
+    "Hindman168/AlignmentOriginalProductFacePositiveSelection.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentOriginalProductFaceFailure",
+    "Hindman168.alignment_original_product_face_posterior_vanishing",
+    "Hindman168.alignment_original_product_face_finite_family",
+    "Hindman168.alignment_zero_one_vertex_weights_represent",
+    "Hindman168.alignmentOriginalProductAllFacesFailure",
+    "Hindman168.alignment_original_product_all_faces_posterior_vanishing",
+    "Hindman168.finite_good_exposure_event_bound",
+    "Hindman168.finite_typical_exposure_event_bound",
+    "Hindman168.alignment_original_product_all_faces_global_eventually",
+    "Hindman168.alignment_original_product_all_faces_global_tendsto",
+    "Hindman168.alignment_original_product_all_faces_positive_conditioning",
+    "Hindman168.alignment_original_product_all_faces_supported_selection"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentOriginalProductFaceFailure.lean": [
+      [
+        "def",
+        "alignmentOriginalProductFaceFailure"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalProductFacePosterior.lean": [
+      [
+        "theorem",
+        "alignment_original_product_face_posterior_vanishing"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalProductFaceFiniteFamily.lean": [
+      [
+        "theorem",
+        "alignment_original_product_face_finite_family"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalProductAllFacesPosterior.lean": [
+      [
+        "theorem",
+        "alignment_zero_one_vertex_weights_represent"
+      ],
+      [
+        "def",
+        "alignmentOriginalProductAllFacesFailure"
+      ],
+      [
+        "theorem",
+        "alignment_original_product_all_faces_posterior_vanishing"
+      ]
+    ],
+    "Hindman168/FiniteTypicalExposureEventBound.lean": [
+      [
+        "theorem",
+        "finite_good_exposure_event_bound"
+      ],
+      [
+        "theorem",
+        "finite_typical_exposure_event_bound"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalProductAllFacesGlobal.lean": [
+      [
+        "theorem",
+        "alignment_original_product_all_faces_global_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalProductFacePositiveSelection.lean": [
+      [
+        "theorem",
+        "alignment_original_product_all_faces_global_tendsto"
+      ],
+      [
+        "theorem",
+        "alignment_original_product_all_faces_positive_conditioning"
+      ],
+      [
+        "theorem",
+        "alignment_original_product_all_faces_supported_selection"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2879,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6906,
+    "selected_axiom_reports": 11163,
+    "new_declarations": 16,
+    "new_theorems": 15,
+    "new_definitions": 1,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/CompactGaugeUniformMesh.lean",
+    "Hindman168/CompactGaugeFiniteOscillation.lean",
+    "Hindman168/RealMeshResiduePartition.lean",
+    "Hindman168/ComplexTaggedMeshIntegral.lean",
+    "Hindman168/FiniteComplexCellMassError.lean",
+    "Hindman168/RealMeshComplexAverage.lean",
+    "Hindman168/NativeOriginalTaggedPointMesh.lean",
+    "Hindman168/NativeOriginalScaledPointMixture.lean",
+    "Hindman168/ComplexFloorWindowTransfer.lean",
+    "Hindman168/NativeOriginalPointMixture.lean"
+  ],
+  "proved_components": [
+    "An arbitrary strictly positive beta-dependent local gauge on [0,1] admits an actual finite uniform mesh with fixed tags subordinate to that gauge, by compactness and a Lebesgue number. The same mesh can control a finite continuous family of Haar expectations. No uniform lower bound on the original gauge is assumed.",
+    "The original integer ceil-window sum is EXACTLY partitioned into real-mesh cells and all signed residue classes. Direct interval-integral splitting and actual oscillation bounds prove the tagged integral error. Meshes/tags are fixed BEFORE every eventual sequence threshold.",
+    "True cell cardinalities have normalized error at most 2/L from 1/(N*M). Exact mean-times-cardinality identities retain BOTH local mean error and mass error, proving the whole ceil-window real-normalized error epsilon+2*N*M*(epsilon+1)/L.",
+    "The original source, same rational residue Haar images and continuous smooth curve satisfy the global real-normalized point-mixture formula for EVERY unit Lipschitz test. Meshes may depend on the test and tolerance but the source subsequence and all factorization data do not.",
+    "The exact floor-window mean differs from the ceil-window sum divided by real L by at most 2/L for any unit-bounded input, including both the at-most-one-point boundary and the denominator change. Thus the ORIGINAL sequential adapted source now satisfies the paper floor(L) point-mixture formula in unit-Lipschitz test form, retaining its SAME local laws, final filtration, positive period, actual sigma and smooth h."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 local laws and the global floor-window point-mixture formula in UNIT-LIPSCHITZ TEST FORM are proved on one original subsequence with SAME final filtration/period/sigma/h. Remaining: package the actual probability mixture and weak-measure convergence/all-continuous testing as required by later joint-law interfaces; actual SAME-filtration cube subgroup geometry and face-character coefficient isolation, simultaneous local cube laws through ORIGINAL s+1 with length before locality, projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No Haar/source/cardinality/partition/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. No global metric Lipschitz or quantitative locality rate claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-point-mixture-mathematical-review.txt",
+  "mathematical_review_sha256": "38875bb257ac215f47a426d0faf7c1f5f8b28ee25932d33b8dd2c25da98798fd",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

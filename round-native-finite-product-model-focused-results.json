@@ -1,0 +1,114 @@
+[
+  {
+    "module": "Hindman168/NativeFiniteProductSpaces.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFiniteProductSpaces.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.952999999979511,
+    "source_sha256": "d6926cfcc65e5162feefabb3931c029192cb9fe74c0ceee9bef00014baed2d6a",
+    "log": "round-native-finite-product-model-focused-NativeFiniteProductSpaces.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/NativeFiniteProductManifold.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFiniteProductManifold.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.094000000040978,
+    "source_sha256": "3896335447a14769f63a03e8a986d906a876994b135a898d9a9213d3c0146715",
+    "log": "round-native-finite-product-model-focused-NativeFiniteProductManifold.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/NativeFiniteProductCoordinates.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFiniteProductCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.672000000020489,
+    "source_sha256": "42285737bab87041950100a2fbc283d97dcd26ef694ba40b4f8beaf06d4252c0",
+    "log": "round-native-finite-product-model-focused-NativeFiniteProductCoordinates.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/NativeFiniteProductLieMap.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFiniteProductLieMap.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.827999999979511,
+    "source_sha256": "59562ac29edec406f537cedaccb54e24ec55128af5c798633b62ab1cfabf32b5",
+    "log": "round-native-finite-product-model-focused-NativeFiniteProductLieMap.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/NativeFiniteProductExponential.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFiniteProductExponential.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.562000000150874,
+    "source_sha256": "138fe91b414ee2afbd40cc842bd7b23d59b1dd8d2e4fa8a1da9ba6f9fcb10008",
+    "log": "round-native-finite-product-model-focused-NativeFiniteProductExponential.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentNativeFiniteEvaluationImage.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeFiniteEvaluationImage.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.077999999979511,
+    "source_sha256": "b50927de5b0784248527763e5d74d172dc84f5e5d245422dfcdac3c97a140c8a",
+    "log": "round-native-finite-product-model-focused-AlignmentNativeFiniteEvaluationImage.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentNativeFiniteImageSubgroup.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeFiniteImageSubgroup.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.890999999828637,
+    "source_sha256": "100f7e33b952b77e8df0cf876f57cf671c41ef698834dc95758b7a411ce9fd6e",
+    "log": "round-native-finite-product-model-focused-AlignmentNativeFiniteImageSubgroup.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

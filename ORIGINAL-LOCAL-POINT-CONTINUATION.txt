@@ -1,0 +1,109 @@
+Latest continuation: POINT-MIXTURE-CONTINUATION.txt.
+The finite-mesh global point-mixture formula below is now proved in
+unit-Lipschitz test form with the exact floor(L) window and denominator,
+audited in round-native-point-mixture. Probability/weak-law packaging remains.
+
+JSP-000168 / Erdos #172, 2026-10-14. Goal ACTIVE; StrongConjecture UNPROVED.
+No unavoidable obstruction established; public repository/PR/prize pending.
+Use CURRENT-STATUS.txt and verification-manifest.json for terminal audit status.
+
+round-native-original-local-point adds seven modules after the smooth-local
+round. They prove the actual original q=0 local law with real paper windows.
+
+NativeRationalLayerHaarContinuity:
+native_rational_layer_haar_integral_continuous D H i rho hRat h hh J.
+Actual Haar-image integral continuous along continuous h:T->G, T first
+countable locally compact. The important application is T=R and smooth h.
+Uses genuine subgroup compact probability and original orbit integral map.
+
+SignedProgressionResidue:
+signed_period_residue_eq_of_modEq; signed_period_residue_progression for
+arbitrary signed b,d,k, positive fixed M dividing d. d may be negative.
+
+NativeOriginalResidueLocalHaar:
+NativeResidueLocalHaarLaw D H L P M hM sigma hRat h is the full epsilon
+law with radius BEFORE fixed nonzero d divisible by M and positive tau,
+then eventual n BEFORE ALL integer origins b, m>=tau*L, and unit tests.
+Target is actual original P n (b+d*x), Haar image at sigma(residue b),h(beta).
+native_original_residue_local_haar PROVES it from actual q adaptation/
+irrationality, c->cLimit, actual binomial factors and scaled coefficient
+limits, exact all-real P factorization, gamma in Gamma, and actual fixed
+right residue pattern. These are exactly existing factorization conclusions.
+One finite intersection over Fin M makes thresholds uniform all residues.
+
+NativeOriginalIntervalLocalHaar:
+native_original_interval_local_haar turns the preceding PROVED law into
+ALL actual intervalResidueSet A T M r with kappa*L<=T and all normalized
+integerWindow A T points within radius of beta. Radius precedes kappa;
+eventual threshold uniform A,T,r,unit tests. True enumeration:
+IntegerResidueProgressionEnumeration.integer_residue_interval_progression.
+Count discrepancy <=1 yields m>=kappa*L/(2*M)>0 eventually L>=2*M/kappa.
+The first actual sample identifies its residue and original Haar measure.
+ScalarUnitCubeMean.scalar_unit_integer_cube_mean gives exact mean transport.
+
+RealIntervalResidueGeometry:
+realIntegerIntervalLength a b = (ceil b-ceil a).toNat.
+realIntervalResidueSet a b M r = intervalResidueSet (ceil a) length M r.
+For a<=b, exact membership a<=z<b AND z%M=r. True length error <1;
+residue count error |card-(b-a)/M|<=1+1/M for r:Fin M, positive M.
+Real floor instances require Mathlib.Algebra.Order.Archimedean.Real.Basic.
+
+NativeOriginalRealLocalHaar:
+NativeRealLocalHaarLaw D H L P M sigma hRat h = forall beta,epsilon>0,
+exists alpha0>0, forall FIXED 0<alpha<alpha0, eventually n, ALL residues
+and unit tests have error <epsilon on actual
+realIntervalResidueSet (beta*L n) ((beta+alpha)*L n) M r.
+native_original_real_local_haar derives it from NativeResidueLocalHaarLaw
+and cofinal L, using kappa=alpha/2 and eventual L>=2/alpha. This explicitly
+preserves length limit BEFORE alpha shrinking. No endpoint/cardinality oracle.
+
+NativeSequentialOriginalLocalPointLaw:
+native_sequential_original_local_point_law starts with only ORIGINAL
+native datum, rational filtration F, cofinal L, and adapted source p.
+Its ONE existing periodic factorization witness yields a subsequence f,
+cofinal L o f, final H subordinate to F, fixed positive M, actual rational
+sigma, ONE smooth h, BOTH original progression and real-window local laws,
+and continuous Haar expectations for EVERY residue and continuous test J.
+All Haar data use that SAME H,M,sigma,h. The actual source is
+exp(eval(p(f n),constant real b)); not a separately supplied replacement.
+The theorem is only q=0. Future simultaneous cubes must reuse SAME explicit
+factorization witness via the helper, not independently choose each q law.
+
+IMMEDIATE NEXT: global Riemann point-mixture assembly.
+Required original mean: integers 0<=b<floor(L), normalized by floor(L),
+converges to (1/M) sum_r integral beta in [0,1] of actual Haar expectation.
+Current local radius depends on beta. Do NOT silently assume a uniform
+radius over all beta in [0,1]. Two legitimate routes:
+(a) Use the existing arbitrary interval law plus a finite compact cover
+of [0,1] by balls within the beta-dependent radii, and uniform continuity
+of each fixed test's Haar expectation. Lebesgue-number subdivision gives
+finitely many cells with fixed tags beta_j; finite intersection of their
+length thresholds is valid. Their means freeze at tags, true residue
+counts converge to cell length/M, and integral error is bounded directly
+by uniform continuity. Need actual integer partition and bounded errors.
+(b) Strengthen actual parameter freezing uniformly beta in compact K by
+making K times quotient the compact fiber of the existing parameter lemma:
+F((theta,t),(beta,x))=g(theta,beta+t) acting on x, at t=0. This constructs
+one uniform radius, after which compact h(K) frozen Haar laws apply. Must
+retain same h in the final sequential statement, rather than unrelated
+existential curve witnesses. No need assume global Lipschitz metric action.
+
+Mathlib Topology/UniformSpace/Compact.lean has lebesgue_number_lemma and
+nhds variants. Generic BoxIntegral machinery exists but is not yet used;
+direct finite interval-integral splitting and oscillation bounds may be
+simpler than general Riemann-sum convergence.
+FiniteComplexSetMean.finiteComplexSetMean_difference_bound controls true
+boundary set differences and mean denominators. Important: [0,ceil L)
+integer samples from z<L differ from the paper's [0,floor L) by at most ONE
+point. Do not silently identify these sets when L is nonintegral.
+RealIntervalResidueGeometry supplies the needed uniform count error.
+
+STILL MISSING after point mixture: actual positive-dimensional rational cube
+subgroup geometry and lattice in product datum from SAME final filtration,
+face-character top coefficients/actual source adaptation and original level
+escape through ORIGINAL s+1. Then projection-face Haar invariance/full
+support, joint lifts/full Alignment, separate arbitrary-input GTZ interval
+Gowers LINEAR nilsequence inverse, final SAME-color positive distinct rapidly
+separated ALL nonempty FS AND FP. Original target has not been narrowed.
+Author build/hash/source/axiom checks are not independent kernel replay or
+external peer review. No premature final proof or prize application claim.

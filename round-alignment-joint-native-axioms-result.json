@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.968000000109896,
+  "log": "round-alignment-joint-native-axioms.txt",
+  "log_sha256": "2a948e8642b58a4d24adbca3eb4c63cdf5eb4bd21b2fa44cb78c871825f77baa"
+}

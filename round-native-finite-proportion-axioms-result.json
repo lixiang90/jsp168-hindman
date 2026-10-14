@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.266000000061467,
+  "log": "round-native-finite-proportion-axioms.txt",
+  "log_sha256": "5f3f270e1cd976e7e32030c823de9c5d7041c82516a7101531ab566f9ce1fb0a"
+}

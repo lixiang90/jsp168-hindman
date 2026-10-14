@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 490,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskRemovalStageDiagonal.lean",
+    "Hindman168/MaskRemovalStageDivisorCaps.lean",
+    "Hindman168/MaskRemovalWeightedOffDiagonal.lean",
+    "Hindman168/MasterPrimeDiagonalSampling.lean",
+    "Hindman168/MasterPrimePairDilation.lean",
+    "Hindman168/PrimeWeightedDiagonal.lean"
+  ],
+  "new_selected_report_count": 34,
+  "module_report_counts": {
+    "MaskRemovalStageDiagonal": 7,
+    "MaskRemovalStageDivisorCaps": 3,
+    "MaskRemovalWeightedOffDiagonal": 3,
+    "MasterPrimeDiagonalSampling": 7,
+    "MasterPrimePairDilation": 7,
+    "PrimeWeightedDiagonal": 7
+  },
+  "application_review": [
+    "All 490 baseline source/config hashes were revalidated before registration of six new modules. Only Hindman168.lean imports and Verification.lean exact-name reports changed among retained files. All prior proof modules, StrongStatement, nine PNT+ source modules and Lean/mathlib/PNT+ pins are unchanged. The fixed local correlation and prediction sections still match adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote update was checked in this goal round.",
+    "The prime divisor multiplier is p*1_{p|z} on all integers. Its expectation is exactly the total of the original unnormalized integerEtaMass, and its squared expectation is p times that total. Signed or negative integer arguments are covered by the existing original harmonic transport.",
+    "The actual harmonic prime weights satisfy sum_p lambda(p)^2*p=1/S. The weighted diagonal mass is exactly sum_p lambda(p)^2*p*total(integerEtaMass_p), with both independent fresh sampling atoms retained. This is the p^2*P(p|Y) diagonal in the paper, not an unweighted collision estimate.",
+    "Uniform residue-error monotonicity bounds the weighted diagonal by (1+residueError_K)/S. The nonnegative recorded cap uses (1+abs(residueError_K))/S. Its inverse-power rate follows from actual master pool harmonic-mass growth and actual earlier-pool upper-endpoint sampling growth; no pool-upper monotonicity or vanishing-error premise is added.",
+    "Actual pool primes are eventually primorial units by lower-endpoint growth beyond the earlier auxiliary budget and the derived primorial<=modulus<=auxiliary bound. Gap divisibility, rather than any pool monotonicity, supplies later-pivot logarithmic growth. The finite varying-index choice is over the fixed master index set.",
+    "Each intermediate outer law keeps its original old-prime tuple and original independent harmonic coordinates. The fresh-prime diagonal majorant at any selected column marginalizes exactly to the actual one-coordinate harmonic weighted diagonal mass. The other coordinates and the old-prime tuple are marginalized using their derived total-one laws, without conditioning on an unrelated good event.",
+    "For arbitrary supported integrands bounded by V^B*eta_p*eta_q, the full-minus-off-diagonal average is controlled by V^B times the actual diagonal cap. The cap tends to zero after any fixed polynomial loss. Uniformity over the test functions is explicit in the eventual inequality and its epsilon form; the old-prime tuple is shared.",
+    "The intermediate row divisor masks lie in [0,V] at the actual earlier-gap auxiliary budget, since the chain tails lie before that gap. This uses the exact actual tail-divisor probability and support laws. It does not use the incompatible larger pivot auxiliary budget as the smaller cap.",
+    "The actual invariant-row density is bounded by V^(2*maskRowCountBound m), using 1+V<=V^2 for V>=2 and the actual row-count bound. The doubled integrand Omega*g_p*g_q is therefore bounded by V^(2*maskRowCountBound m+2*B)*eta_p*eta_q when each g has the stated supported eta-weighted cap.",
+    "The previous actual weighted-square inequality is combined with diagonal deletion without changing its m-only coefficient 2^(maskRowCountBound m)+1. The explicit loss is that coefficient times V^(2*K+2*B) times the diagonal cap, and is proved to tend to zero. The off-diagonal average remains signed; no unjustified nonnegativity assumption is used.",
+    "Distinct supported primes are coprime. Integer divisibility is transported through natAbs, proving eta_p*eta_q=eta_{p*q} on all integers. The comparison expectation is identified exactly with the original unnormalized integerEtaMass at p*q.",
+    "The actual harmonic law dilated by p*q is compared to that unnormalized divisor law with a uniform endpoint-squared dilation cap. Its inverse-power rate follows from the existing earlier-pool polynomial affine log-growth theorem at degree two. Fixed polynomial sup losses are absorbed, and the resulting uniform bound covers every pair of distinct actual pool primes and every bounded test.",
+    "The pq transfer is currently a single-coordinate theorem. It has not yet been composed with the full old-prime/remaining-coordinate sampling law or identified with the two concrete descendant integrands with branch multipliers (q,p) and (p,q). The weighted-square theorem likewise assumes a supported eta-weighted polynomial bound on g; prime insertion and actual descendant-function construction remain to be proved.",
+    "The previous goal turn was PROGRESS and this turn is PROGRESS. The untouched full StrongConjecture is not claimed proved. The full correlation principle, Prediction/Alignment and final ordered monochromatic witness remain unfinished, and no unavoidable blocker has been established."
+  ],
+  "source_preprint_section": "04_correlation.tex:46-105 (fixed harmonic dilation and pool insertion, insertion still incomplete); 193-228 (weighted-square and invariant density); 230-245 (weighted fresh-prime diagonal deletion and distinct-prime product-multiplier absorption).",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4343,
+    "project_modules": 478,
+    "pntplus_modules": 9,
+    "source_scan_modules": 487,
+    "axiom_reports": 2338,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 496,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original raw arbitrary-target additive source bound, centered-source cancellation and previous weighted cube transfers remain proved. Actual intermediate mask prefixes have original-law majorant means, invariant-row prefactor limits and the common m-only weighted-square cap. Fresh-prime weighted diagonal deletion is now proved under the actual intermediate original prime/harmonic laws, including the derived invariant-density polynomial loss and a function-uniform vanishing error in the weighted-square inequality. The distinct-prime divisor-multiplier identity and its uniform pq dilation transfer are proved under the actual single-coordinate master harmonic law. The full multiplicative-mask analytic recurrence remains incomplete: derive actual one-coordinate and balanced prime-insertion errors, including the pool-divisor-mask first/second moments and L2 replacement; compose the single-coordinate off-diagonal absorption with the actual old-prime and remaining-coordinate laws; identify the bounded invariant/noninvariant descendant functions, normalization-anchor weights and surviving multiplicative masks; preserve the distinguished target and compose the finite mask steps with their vanishing errors. Then compose the full original correlation principle. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

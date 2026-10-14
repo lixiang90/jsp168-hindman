@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "ACTUAL fixed-length full-block selection from dense ORIGINAL integer range hits is now proved. Given fixed positive block length K, genuine positive block count floor(N/K) and exact tail tolerance 2*K<=delta*N, ONE complete original block has density at least delta/2. Its actual endpoint lies within the original range, and no tail is assumed dense. This is the fixed-K partition required by the source finite Szemeredi extraction route, not the older variable-length partition.",
+    "The entire final remainder is an ACTUAL subset of the original interval after floor(N/K)*K and has cardinality at most K by exact natural quotient/remainder arithmetic. Original retained-prefix density, genuine finite witness selection, injective remainder map and true complete-block endpoint bounds prove the output. No dense-AP/Szemeredi/inverse premise is used in this elementary selection lemma. Full arbitrary-length dense AP and original exceptional-proportion comparison remain open.",
+    "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Unconditional native no-long-original-bad-family comparison by actual finrank induction is proved. Exact fixed-length full-block density selection with genuine tail control is now supplied for the original proportion route. Remaining: verified arbitrary-length dense finite AP input and actual residue-index/source/smooth transport to original exceptional-proportion rough-step convergence, separate GTZ interval Gowers correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP. OpenAI quantitative dense-progression source is an ISOLATED UNVERIFIED dependency/port candidate only; its source scan/partial build is NOT a proof input. Main pins/registered proof sources retained. Fixed-data constants do not certify delta-power laws; author checking is not independent replay/peer review. Repaired source slab estimate not unavoidable obstruction. Public repository/PR/prize not reached."
+  ],
+  "verified": {
+    "project_modules": 2642,
+    "pntplus_modules": 9,
+    "build_jobs": 6615,
+    "selected_axiom_reports": 10392,
+    "new_declarations": 1,
+    "new_theorems": 1,
+    "new_definitions": 0,
+    "new_structures": 0,
+    "new_structure_generated_reports": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/DenseFixedLengthIntervalBlock.lean"
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Unconditional native no-long-original-bad-family comparison by actual finrank induction is proved. Exact fixed-length full-block density selection with genuine tail control is now supplied for the original proportion route. Remaining: verified arbitrary-length dense finite AP input and actual residue-index/source/smooth transport to original exceptional-proportion rough-step convergence, separate GTZ interval Gowers correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP. OpenAI quantitative dense-progression source is an ISOLATED UNVERIFIED dependency/port candidate only; its source scan/partial build is NOT a proof input. Main pins/registered proof sources retained. Fixed-data constants do not certify delta-power laws; author checking is not independent replay/peer review. Repaired source slab estimate not unavoidable obstruction. Public repository/PR/prize not reached.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "OpenAI quantitative Leibman route; exact ORIGINAL fixed-length full-block density selection and tail control; isolated dense-proof candidate not certified, full exceptional-proportion comparison and final target remain open",
+  "mathematical_review_file": "round-dense-fixed-length-block-mathematical-review.txt",
+  "mathematical_review_sha256": "31d1f9831c29cec9443a650caf43599bffe305fab386238cdb598c5d6fe5215b",
+  "source_slab_certificate": "round-dense-fixed-length-block-slab-review.json",
+  "source_slab_certificate_sha256": "5aa6bd5ec33029cf705914b51e59c5028126895986a19a257be0bd383ff5eea5",
+  "source_slab_script_sha256": "64cac480a164a883a31cb40256c47c1de0be223c81f1cc013519543a636f655d"
+}

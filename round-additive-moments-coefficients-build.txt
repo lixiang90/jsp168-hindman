@@ -1,0 +1,2 @@
+✔ [4206/4206] Built Hindman168.PolynomialCopiedIntegerRows (11s)
+Build completed successfully (4206 jobs).

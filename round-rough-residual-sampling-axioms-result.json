@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 22.235000000102445,
+  "log": "round-rough-residual-sampling-axioms.txt",
+  "log_sha256": "b4e2caa633732aaffaf988f5aa2d93ee6ad5a8b1581ba75ebae5870a62ee0219"
+}

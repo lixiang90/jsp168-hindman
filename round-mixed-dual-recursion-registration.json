@@ -1,0 +1,48 @@
+{
+  "baseline_hash_count": 1083,
+  "modules": [
+    "Hindman168/MixedDualRecursion.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedDualFunction",
+    "Hindman168.subgroupMixedDualFunction_eq_vertexDual",
+    "Hindman168.finset_fin_succ_nonempty_product",
+    "Hindman168.mixedNonrootCubeProduct_succ",
+    "Hindman168.subgroupMixedDualFunction_succ",
+    "Hindman168.subgroupMixedDualFunction_translate",
+    "Hindman168.subgroupMixedDualFunction_subgroup_translate_expansion"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/MixedDualRecursion.lean": [
+      [
+        "def",
+        "subgroupMixedDualFunction"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_eq_vertexDual"
+      ],
+      [
+        "theorem",
+        "finset_fin_succ_nonempty_product"
+      ],
+      [
+        "theorem",
+        "mixedNonrootCubeProduct_succ"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_succ"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_translate"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_subgroup_translate_expansion"
+      ]
+    ]
+  }
+}

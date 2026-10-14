@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.968999999808148,
+  "log": "round-alignment-complete-cube-test-approximation-build.txt",
+  "log_sha256": "bc1e38c798ef6d9272685ba7dcec09c604d3c83c4556cad4d21418572335d329"
+}

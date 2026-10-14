@@ -1,0 +1,226 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLieFilteredLayerSubalgebra.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.218999999808148,
+    "log": "round-native-relative-layer-rational-NativeLieFilteredLayerSubalgebra-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLieFilteredLayerSubalgebra.lean",
+    "source_sha256": "47a23b5c88ffa6653aa9065ac6fa8972a7291c8472e308ce91ee29542c56550a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLinearStepFiltered.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.094000000040978,
+    "log": "round-native-relative-layer-rational-NativeLinearStepFiltered-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLinearStepFiltered.lean",
+    "source_sha256": "827cde306f9c20590be1233c9ceac0499eedd8972a57f3549d2e035fbc0ea4fe"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLinearStepHorizontal.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.452999999979511,
+    "log": "round-native-relative-layer-rational-NativeLinearStepHorizontal-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLinearStepHorizontal.lean",
+    "source_sha256": "e6d32a2b78423573a8f06ecb8f7077b49f2282d27496188a5360cff55a080f85"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLinearStepPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.672000000020489,
+    "log": "round-native-relative-layer-rational-NativeLinearStepPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLinearStepPolynomial.lean",
+    "source_sha256": "02a8ca3dc26b7a845ff533830c77da33d9778b8e5bb375dbdea30066d5d08318"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLinearStepSamples.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.54700000002049,
+    "log": "round-native-relative-layer-rational-NativeLinearStepSamples-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLinearStepSamples.lean",
+    "source_sha256": "006e733c579f0a38a2dd53c23efab6e489ab935419ceef80e1f91cd253ed75a7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeLayerLatticeGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.45299999997951,
+    "log": "round-native-relative-layer-rational-NativeRelativeLayerLatticeGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeLayerLatticeGeometry.lean",
+    "source_sha256": "309077fb89f41d38d2f7c228c9a345632ee190c3e41f1c354932d77cff824130"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeLayerLieSubalgebras.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.312000000150874,
+    "log": "round-native-relative-layer-rational-NativeRelativeLayerLieSubalgebras-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeLayerLieSubalgebras.lean",
+    "source_sha256": "1fb5bdc29771e5ba87627919d628ed766b886f533a77d17409a392317ff26942"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeLieLayerRational.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.312999999849126,
+    "log": "round-native-relative-layer-rational-NativeRelativeLieLayerRational-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeLieLayerRational.lean",
+    "source_sha256": "43124c3d191be8d68e4cf2ae56b942f52f8b7cedd7b6054ce6fdc278729e8da9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeRationalInclusion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.516000000061467,
+    "log": "round-native-relative-layer-rational-NativeRelativeRationalInclusion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeRationalInclusion.lean",
+    "source_sha256": "1d88ae8553f4657ccbc1c265840ac91c0eded134dc0ebb04d4360cb5dc4cabf9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReducedLayerRational.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.171000000089407,
+    "log": "round-native-relative-layer-rational-NativeRelativeReducedLayerRational-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReducedLayerRational.lean",
+    "source_sha256": "6276c7efeffe6ee2c5c5bd762c611dba39fca23592e699005d0737f7bbc6b3cf"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReducedLieInitial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.609999999869615,
+    "log": "round-native-relative-layer-rational-NativeRelativeReducedLieInitial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReducedLieInitial.lean",
+    "source_sha256": "40a8789838b7a059a36d9c3e7d9eaf6fef2c9ec41615e15cd379b1f1614354b5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReductionRationalSpan.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.42200000002049,
+    "log": "round-native-relative-layer-rational-NativeRelativeReductionRationalSpan-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReductionRationalSpan.lean",
+    "source_sha256": "8ccdbf76d9e05fefd1bde52030120a622340207e4d129120f6db97fad21e8875"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTwoNormalizations.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.640000000130385,
+    "log": "round-native-relative-layer-rational-NativeTwoNormalizations-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTwoNormalizations.lean",
+    "source_sha256": "bdec659418c90f0fb87768a9641c3807c1a0eceeabad24069c6fd3db396acdd4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RationalRealSpanTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.781999999890104,
+    "log": "round-native-relative-layer-rational-RationalRealSpanTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RationalRealSpanTransport.lean",
+    "source_sha256": "a5f9773a218c513b6c0e5b09cff4a3a8dcd4864e3b2a8e0617fb4cf327b848dc"
+  }
+]

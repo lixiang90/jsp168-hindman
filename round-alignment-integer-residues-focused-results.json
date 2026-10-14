@@ -1,0 +1,98 @@
+[
+  {
+    "module": "Hindman168/AlignmentIntegerPairScales.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentIntegerPairScales.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.844000000040978,
+    "source_sha256": "74048606583258647daedc5deb864bdc2264d499d7d1a8e97c9b840d1e5ef2e4",
+    "log": "round-alignment-integer-residues-focused-AlignmentIntegerPairScales.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentIntegerResidues.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentIntegerResidues.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.858999999938533,
+    "source_sha256": "784813f6036564251c70810fe5bd38a1ba8bbb2c6067ae3670d5d4c0ce91cc9b",
+    "log": "round-alignment-integer-residues-focused-AlignmentIntegerResidues.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentIntegerNumerators.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentIntegerNumerators.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.875,
+    "source_sha256": "97c7e40e9772b2726dace024f0a4550cb35a9f9ae902a7dbbc36e65be38c9f70",
+    "log": "round-alignment-integer-residues-focused-AlignmentIntegerNumerators.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentMasterResidueData.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentMasterResidueData.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.844000000040978,
+    "source_sha256": "33135ce9d868e2e43ae1834f8fbdea5b07661631fde1f6076781110a9b77fe21",
+    "log": "round-alignment-integer-residues-focused-AlignmentMasterResidueData.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentIntegerSlotShifts.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentIntegerSlotShifts.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.047000000020489,
+    "source_sha256": "21ed62235610272855d21388567320981d3316cc3e6cca86d6fe3968df42f59d",
+    "log": "round-alignment-integer-residues-focused-AlignmentIntegerSlotShifts.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentIntegerArrayArguments.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentIntegerArrayArguments.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.093000000109896,
+    "source_sha256": "3f1ef53c1c860d37687627b4342f6d3f125e5c4e7ad971f2339eb292ef4b62c2",
+    "log": "round-alignment-integer-residues-focused-AlignmentIntegerArrayArguments.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalLayerHaarContinuity.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.969000000040978,
+    "log": "round-native-original-local-point-NativeRationalLayerHaarContinuity-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalLayerHaarContinuity.lean",
+    "source_sha256": "788279257e302e1ace4c4db2a0aa2fea6a9853fcc0332fec7b37e9ea79b614bc"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SignedProgressionResidue.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.655999999959022,
+    "log": "round-native-original-local-point-SignedProgressionResidue-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/SignedProgressionResidue.lean",
+    "source_sha256": "08b1f20fe01a7c9907580c788c22767fe2709c4f9ad91d46c6cfa68f34547d63"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalResidueLocalHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.313000000081956,
+    "log": "round-native-original-local-point-NativeOriginalResidueLocalHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalResidueLocalHaar.lean",
+    "source_sha256": "87d861d3276795d433a758dcfd980bce4af6d521ddbc8750eb619ac1c02e9c87"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalIntervalLocalHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.75,
+    "log": "round-native-original-local-point-NativeOriginalIntervalLocalHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalIntervalLocalHaar.lean",
+    "source_sha256": "6aa27c98111e5b8bbc42e738571ad3d961d84d4448d0834646463b2babbac2ab"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RealIntervalResidueGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.436999999918044,
+    "log": "round-native-original-local-point-RealIntervalResidueGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RealIntervalResidueGeometry.lean",
+    "source_sha256": "0a74ba6e5168f43186317e19913ecdfb74a10cec8c7358a1eee6b767357736be"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalRealLocalHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 21.07799999997951,
+    "log": "round-native-original-local-point-NativeOriginalRealLocalHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalRealLocalHaar.lean",
+    "source_sha256": "8af957d02a043ed645015724aeb9f4608ee1ee0fbcfb4e3ca77877f5f5f321b7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeSequentialOriginalLocalPointLaw.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 33.90599999995902,
+    "log": "round-native-original-local-point-NativeSequentialOriginalLocalPointLaw-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeSequentialOriginalLocalPointLaw.lean",
+    "source_sha256": "649e9175a91b247c4b8d2718e54896bb80953dcbaf51a15969146b79202a1251"
+  }
+]

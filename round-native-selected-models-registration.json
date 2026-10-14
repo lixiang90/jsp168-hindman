@@ -1,0 +1,36 @@
+{
+  "baseline_hash_count": 965,
+  "modules": [
+    "Hindman168/NativeSelectedModels.lean",
+    "Hindman168/NativeVaryingGapCommon.lean"
+  ],
+  "names": [
+    "Hindman168.finiteMassHilbert_unit_norm",
+    "Hindman168.native_selected_models",
+    "Hindman168.nativeVaryingGap_finset_common",
+    "Hindman168.nativeVaryingGap_common_uniform"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/NativeSelectedModels.lean": [
+      [
+        "theorem",
+        "finiteMassHilbert_unit_norm"
+      ],
+      [
+        "theorem",
+        "native_selected_models"
+      ]
+    ],
+    "Hindman168/NativeVaryingGapCommon.lean": [
+      [
+        "theorem",
+        "nativeVaryingGap_finset_common"
+      ],
+      [
+        "theorem",
+        "nativeVaryingGap_common_uniform"
+      ]
+    ]
+  }
+}

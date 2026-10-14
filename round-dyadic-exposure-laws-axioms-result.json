@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.781999999890104,
+  "log": "round-dyadic-exposure-laws-axioms.txt",
+  "log_sha256": "b5977388f7497dd961ddd4a0f42dc8c2902debddaaded4126dc619b7c5aba475"
+}

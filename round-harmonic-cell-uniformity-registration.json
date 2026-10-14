@@ -1,0 +1,61 @@
+{
+  "baseline_hash_count": 1029,
+  "modules": [
+    "Hindman168/NormalizedHaarWeightError.lean",
+    "Hindman168/HarmonicCellUniformity.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean_abs_le",
+    "Hindman168.normalizedHaarWeight_error",
+    "Hindman168.finiteHaarDensity_test_error",
+    "Hindman168.normalizedHaar_test_eq_ratio",
+    "Hindman168.harmonicCell_density_error",
+    "Hindman168.harmonicCell_test_error",
+    "Hindman168.harmonicCell_conditional_expectation_error",
+    "Hindman168.weightedCell_test_error",
+    "Hindman168.weightedHarmonicCell_test_error"
+  ],
+  "theorem_count": 9,
+  "declarations": {
+    "Hindman168/NormalizedHaarWeightError.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_abs_le"
+      ],
+      [
+        "theorem",
+        "normalizedHaarWeight_error"
+      ],
+      [
+        "theorem",
+        "finiteHaarDensity_test_error"
+      ],
+      [
+        "theorem",
+        "normalizedHaar_test_eq_ratio"
+      ]
+    ],
+    "Hindman168/HarmonicCellUniformity.lean": [
+      [
+        "theorem",
+        "harmonicCell_density_error"
+      ],
+      [
+        "theorem",
+        "harmonicCell_test_error"
+      ],
+      [
+        "theorem",
+        "harmonicCell_conditional_expectation_error"
+      ],
+      [
+        "theorem",
+        "weightedCell_test_error"
+      ],
+      [
+        "theorem",
+        "weightedHarmonicCell_test_error"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 992 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "The root exponent is the inverse real cast of the natural number 2^d. Its nonzero denominator is proved, and exact recovery of the original cube mean uses its previously established nonnegativity for d>0.",
+    "The weighted global power equals the probability-weighted sum of cell powers exactly. The proof does not equate a weighted average of roots with the root of a weighted average.",
+    "The threshold estimate is proved directly with original nonnegative finite weights summing to one. Below threshold each power is bounded by the threshold power; above threshold each power is at most one. For positive exponent, the half-threshold power is at most half the original power.",
+    "The good-cell theorem is instantiated with the actual subgroup roots and yields delta^(2^d)/2, preserving the paper threshold and independence from cell count. No equal-weight reduction or discarded cell probabilities are used.",
+    "The weighted combination estimate now applies to roots themselves, using their proved [0,1] bound. This still does not prove the Bessel theorem that relates individual subgroups to sums, and no triangle inequality or full seminorm package is asserted.",
+    "Ten theorems and two definitions are individually kernel audited. Inverse correlator existence and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/SubgroupGowersRoot.lean",
+    "Hindman168/WeightedMomentThreshold.lean",
+    "Hindman168/SubgroupGowersWeightedBounds.lean"
+  ],
+  "verified": {
+    "project_modules": 977,
+    "pntplus_modules": 9,
+    "source_scan_modules": 986,
+    "source_config_hashes": 995,
+    "build_jobs": 4931,
+    "axiom_reports": 4755,
+    "new_theorems": 10,
+    "new_definitions": 2,
+    "new_instances": 0,
+    "new_axiom_reports": 12,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Actual nonnegative Gowers roots, their exact power identities, unit bounds, weighted good-cell mass estimate and root-level coprime subgroup combination are now proved. Triangle inequalities and the Bessel inverse input are not implied by this construction. Next establish required Cauchy-Schwarz estimates, short-increment reduction, Bessel input, cyclic-to-interval transfer and inverse correlators. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

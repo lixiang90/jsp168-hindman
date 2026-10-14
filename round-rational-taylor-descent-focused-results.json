@@ -1,0 +1,34 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalTaylorCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.437999999849126,
+    "log": "round-rational-taylor-descent-NativeRationalTaylorCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalTaylorCoordinates.lean",
+    "source_sha256": "72123314e6709f9f1e41bf966efcf54ae2bf5b6bdc42baefd540801180877a2f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalTaylorLevelDescent.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.17200000002049,
+    "log": "round-rational-taylor-descent-NativeRationalTaylorLevelDescent-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalTaylorLevelDescent.lean",
+    "source_sha256": "372fe27fae1543d3c7e1e28c552114764cc9a8fd1f6f937cca0ab67d6f3975b8"
+  }
+]

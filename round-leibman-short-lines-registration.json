@@ -1,0 +1,52 @@
+{
+  "modules": [
+    "Hindman168/FiniteComplexDenseMean.lean",
+    "Hindman168/LeibmanCubeLineAveraging.lean",
+    "Hindman168/LeibmanCubeShortLines.lean"
+  ],
+  "names": [
+    "Hindman168.finiteComplexSetMean_comm",
+    "Hindman168.finiteComplexSetMean_sub_const",
+    "Hindman168.finiteComplexSetMean_difference_norm_bound",
+    "Hindman168.finite_complex_mean_dense_large_values",
+    "Hindman168.leibman_cube_line_mean_error",
+    "Hindman168.leibman_cube_line_dense_origins",
+    "Hindman168.leibman_equal_cube_dense_short_lines"
+  ],
+  "declarations": {
+    "Hindman168/FiniteComplexDenseMean.lean": [
+      [
+        "theorem",
+        "finiteComplexSetMean_comm"
+      ],
+      [
+        "theorem",
+        "finiteComplexSetMean_sub_const"
+      ],
+      [
+        "theorem",
+        "finiteComplexSetMean_difference_norm_bound"
+      ],
+      [
+        "theorem",
+        "finite_complex_mean_dense_large_values"
+      ]
+    ],
+    "Hindman168/LeibmanCubeLineAveraging.lean": [
+      [
+        "theorem",
+        "leibman_cube_line_mean_error"
+      ],
+      [
+        "theorem",
+        "leibman_cube_line_dense_origins"
+      ]
+    ],
+    "Hindman168/LeibmanCubeShortLines.lean": [
+      [
+        "theorem",
+        "leibman_equal_cube_dense_short_lines"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/DenseCompleteIntervalBlock.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.390000000130385,
+    "log": "round-native-rational-full-bracket-alternative-DenseCompleteIntervalBlock-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/DenseCompleteIntervalBlock.lean",
+    "source_sha256": "3ccfd88880cd35b55ba0f0b262edca03caf73cad977f5daeeeb4e3bb536cb589"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalBracketFullAlternative.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.07799999997951,
+    "log": "round-native-rational-full-bracket-alternative-NativeRationalBracketFullAlternative-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalBracketFullAlternative.lean",
+    "source_sha256": "d4a75270a484f8c511ac2c9dc4f6351edb96d57e9b868d2af51073ea5ce01acc"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeTwoDenseBracketFullAlternative.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.328999999910593,
+    "log": "round-native-rational-full-bracket-alternative-NativeRationalDegreeTwoDenseBracketFullAlternative-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeTwoDenseBracketFullAlternative.lean",
+    "source_sha256": "2f37857a17ac4997e6c2fc236b7be950d33da194467aebefdd114aabaf5f2964"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeTwoDenseBracketOriginalDischarge.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.889999999897555,
+    "log": "round-native-rational-full-bracket-alternative-NativeRationalDegreeTwoDenseBracketOriginalDischarge-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeTwoDenseBracketOriginalDischarge.lean",
+    "source_sha256": "9839eddc32d0efebe90620812cee2cec5cca3aebf8825a864e189a6fcb2a8c87"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDenseBracketFullAlternative.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.765000000130385,
+    "log": "round-native-rational-full-bracket-alternative-NativeRationalDenseBracketFullAlternative-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDenseBracketFullAlternative.lean",
+    "source_sha256": "25bd8ed3637a086aa0267707ca0ca506ed0b20954babe159e761d34c1b0eeca3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDenseBracketOriginalDischarge.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.984999999869615,
+    "log": "round-native-rational-full-bracket-alternative-NativeRationalDenseBracketOriginalDischarge-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDenseBracketOriginalDischarge.lean",
+    "source_sha256": "7a1c263727310ab27620c32b42ae11b6babfc351246caa3958498aa9c3725343"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarFractionalBracketAffineControl.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.906999999890104,
+    "log": "round-native-rational-full-bracket-alternative-ScalarFractionalBracketAffineControl-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarFractionalBracketAffineControl.lean",
+    "source_sha256": "47933249b8af26a4a07be43c59e26ac0afaa48523ba312c1c7e04a89f34171c1"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarFractionalBracketBlockFreezing.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.515000000130385,
+    "log": "round-native-rational-full-bracket-alternative-ScalarFractionalBracketBlockFreezing-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarFractionalBracketBlockFreezing.lean",
+    "source_sha256": "4169be4d8cfefd5712842d67f86053547c8bc98ca6257ab5fcc0f9e22118a77d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarFractionalBracketFullAlternative.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.07799999997951,
+    "log": "round-native-rational-full-bracket-alternative-ScalarFractionalBracketFullAlternative-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarFractionalBracketFullAlternative.lean",
+    "source_sha256": "b6d86c17d8f98eb677816cd0eb8ef983e4f92d500779a869e532bb4ead56d2e0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarSmallSlopeFractionalBracketInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.906999999890104,
+    "log": "round-native-rational-full-bracket-alternative-ScalarSmallSlopeFractionalBracketInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarSmallSlopeFractionalBracketInverse.lean",
+    "source_sha256": "9f261f60bcd11adad512bc242e197773d9b1330af65a63f7df3f9ae7b56b17d0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleAffineRelativeSlope.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 25.358999999938533,
+    "log": "round-native-rational-full-bracket-alternative-UnitCircleAffineRelativeSlope-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleAffineRelativeSlope.lean",
+    "source_sha256": "0870c75825c86ea48e4e08550b6d554acc415d84fa77fa3b918aeda27a8b38b9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitTorusAffineObservableInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.905999999959022,
+    "log": "round-native-rational-full-bracket-alternative-UnitTorusAffineObservableInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitTorusAffineObservableInverse.lean",
+    "source_sha256": "7a89939fb8a741300ecca69d4b49d3517892f0ce7df4c15512a16c70f0bb0358"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitTorusOptionAffineSlabInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.719000000040978,
+    "log": "round-native-rational-full-bracket-alternative-UnitTorusOptionAffineSlabInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitTorusOptionAffineSlabInverse.lean",
+    "source_sha256": "444067bbd706d93af2aedf10c36e8e7be0be05acf1390bf17d53876707eaf327"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitTorusOptionSmallSlopeBracketInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 29.765000000130385,
+    "log": "round-native-rational-full-bracket-alternative-UnitTorusOptionSmallSlopeBracketInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitTorusOptionSmallSlopeBracketInverse.lean",
+    "source_sha256": "71a952d1362fbe335ea09fecd4babe3b7a5ed68f664a9e47e51a02d72265a2b9"
+  }
+]

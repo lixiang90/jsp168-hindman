@@ -1,0 +1,4 @@
+✔ [4043/4045] Built Hindman168.FiniteWeightedCauchySchwarz (7.2s)
+✔ [4044/4045] Built Hindman168.MasterCopiedReplicaCubeMajorant (7.7s)
+✔ [4045/4045] Built Hindman168.PredictionTerminalCopies (7.6s)
+Build completed successfully (4045 jobs).

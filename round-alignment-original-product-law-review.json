@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2738,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6765,
+    "selected_axiom_reports": 10712,
+    "new_declarations": 18,
+    "new_theorems": 12,
+    "new_definitions": 6,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/AlignmentJointFullSpatialReadings.lean",
+    "Hindman168/AlignmentOriginalDenominatorChoices.lean",
+    "Hindman168/AlignmentJointOriginalProductCubeMean.lean",
+    "Hindman168/AlignmentJointMetricProductBounds.lean",
+    "Hindman168/AlignmentJointTerminalGridMeans.lean",
+    "Hindman168/AlignmentJointActualTerminalTranslation.lean",
+    "Hindman168/AlignmentOriginalProductRemovalFailure.lean",
+    "Hindman168/AlignmentOriginalProductRemovalPosterior.lean"
+  ],
+  "proved_components": [
+    "The actual full joint spatial source is proved tail-congruent on ALL real inputs and exactly equals the ORIGINAL simultaneous nilsequence product observations at every valid integer cube sample, including empty tails. The literal original product cube mean equals its COMPLETE full-tail CRT joint mean; raw supports derive positivity/coprimality and the actual exposed origin is identified from the original key.",
+    "The FULL fixed finite denominator-choice list is constructed using Fin d coordinates. Any original sample-selected denominator residue is exactly its integer remainder and has the original congruence. Retained=1 is proved equal to the genuine original terminal d-residue grid, without an origin restriction, endpoint change or invented normalization.",
+    "Original joint product observation norms are bounded by the product of original component sup bounds on EVERY actual quotient point. The genuine terminal d-grid spatial translation has the exact original normalized boundary-count bound. Actual master Delta divisibility, relative-scale smallness, raw support/cube growth and original geometry discharge its inputs, yielding ONE uniform vanishing translation cutoff before source data, original boxes/residues, every own pair and all original test choices.",
+    "The failure event now uses the LITERAL original nilsequence product cube law versus its genuine terminal d-grid law, with denominator choices made AFTER sampling. Exact original/full-CRT mean and terminal-grid identities force it into the proved finite-choice original joint failure union on the ACTUAL posterior support. It vanishes uniformly in original boxes, residues and numerical bounded/Lipschitz observer classes. The origin remains genuinely exposed rather than unioned over an unbounded data-dependent list."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Literal original nilsequence product cube law is now exactly connected to the full-tail CRT mean and genuine terminal d grid, with PROVED actual posterior uniform vanishing removal failure covering sample-selected denominator choices. Actual Delta terminal d-grid translation error also vanishes uniformly from original master data. Remaining: prove literal integer spatial array/model correspondence on coarse grids and identify actual upper-face array-slot automorphism with spatial Delta translation, including face-composed original test families; then full marginal face invariance/cube limits/Alignment/countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-original-product-law-mathematical-review.txt",
+  "mathematical_review_sha256": "f7d28eecfced775b903a4ca6b3747af23dd84a095dffe52bfbcd9fe5c3b9efff",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

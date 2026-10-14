@@ -1,0 +1,126 @@
+{
+  "baseline_hashes_verified_before_registration": 870,
+  "new_modules": [
+    "Hindman168/CentralCommutatorBilinear.lean",
+    "Hindman168/CentralCommutatorGeneration.lean",
+    "Hindman168/CentralCommutatorPowers.lean",
+    "Hindman168/CentralProductPowers.lean",
+    "Hindman168/CentralRootMultiplication.lean",
+    "Hindman168/ClassTwoPositiveRoots.lean",
+    "Hindman168/FiniteRelativePowerQuotient.lean",
+    "Hindman168/LowerCentralFiniteGenerators.lean",
+    "Hindman168/LowerCentralGeneratorPowers.lean",
+    "Hindman168/LowerCentralPowerCollection.lean",
+    "Hindman168/LowerCentralRelativeNormal.lean",
+    "Hindman168/NilpotentArbitraryPositiveRoots.lean",
+    "Hindman168/NilpotentPowerGenerators.lean"
+  ],
+  "names": [
+    "Hindman168.commutator_mul_left_of_central",
+    "Hindman168.commutator_mul_right_of_central",
+    "Hindman168.centralCommutatorLeftHom",
+    "Hindman168.centralCommutatorRightHom",
+    "Hindman168.centralCommutatorLeftHom_apply",
+    "Hindman168.centralCommutatorRightHom_apply",
+    "Hindman168.commutator_closure_eq_closure_pairs_of_central",
+    "Hindman168.commutator_pairs_finite",
+    "Hindman168.commutator_closure_fg_of_central",
+    "Hindman168.commutator_sup_central_left_eq",
+    "Hindman168.commutator_nat_pow_left_of_central",
+    "Hindman168.commutator_nat_pow_right_of_central",
+    "Hindman168.commutator_nat_powers_of_central",
+    "Hindman168.nat_power_swap_of_central_commutator",
+    "Hindman168.product_nat_pow_of_central_commutator",
+    "Hindman168.twice_denominator_choose_two",
+    "Hindman168.subgroup_product_double_power_of_central_commutator",
+    "Hindman168.positiveSubgroupRoots_mul_of_central_commutator",
+    "Hindman168.commutator_le_center_of_lowerCentral_two_bot",
+    "Hindman168.commutator_le_center_of_nilpotencyClass_le_two",
+    "Hindman168.classTwoPositiveRootSubgroup",
+    "Hindman168.classTwoPositiveRootSubgroup_mem_iff",
+    "Hindman168.finite_relative_power_generator_quotient",
+    "Hindman168.relative_power_generators_uniform_power",
+    "Hindman168.lowerCentralCommutatorGenerators",
+    "Hindman168.lowerCentralCommutatorGenerators_finite",
+    "Hindman168.lowerCentralCommutatorGenerators_subset",
+    "Hindman168.lowerCentral_generator_step_mod_next",
+    "Hindman168.lowerCentral_generated_mod_next",
+    "Hindman168.lowerCentral_factor_image_fg",
+    "Hindman168.lowerCentral_fg_of_terminating",
+    "Hindman168.nilpotent_lowerCentral_fg",
+    "Hindman168.lowerCentral_commutator_power_mem_sup",
+    "Hindman168.lowerCentral_generator_power_mem_sup",
+    "Hindman168.lowerCentral_mem_center_quotient_next",
+    "Hindman168.lowerCentral_commutator_quotient_central",
+    "Hindman168.lowerCentral_commutator_powers_quotient",
+    "Hindman168.lowerCentral_product_double_power_mem_sup",
+    "Hindman168.lowerCentral_mem_center_quotient_succ",
+    "Hindman168.lowerCentral_join_next_normal",
+    "Hindman168.positiveSubgroupRoots_mul_nilpotent",
+    "Hindman168.nilpotentArbitraryPositiveRootSubgroup",
+    "Hindman168.nilpotentArbitraryPositiveRootSubgroup_mem_iff",
+    "Hindman168.nilpotentArbitraryPositiveRootSubgroup_contains",
+    "Hindman168.nilpotentArbitraryPositiveRootSubgroup_root",
+    "Hindman168.finite_positiveRoots_common_power",
+    "Hindman168.nilpotent_arbitrary_roots_uniform_of_fg",
+    "Hindman168.nilpotentArbitraryPositiveRootSubgroup_least",
+    "Hindman168.nilpotentArbitraryPositiveRootSubgroup_idempotent",
+    "Hindman168.lowerCentral_join_step_uniform_power",
+    "Hindman168.lowerCentral_joins_uniform_power_of_terminating",
+    "Hindman168.nilpotent_power_generators_uniform"
+  ],
+  "module_report_counts": {
+    "CentralCommutatorBilinear": {
+      "theorems": 4,
+      "selected_declarations": 6
+    },
+    "CentralCommutatorGeneration": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "CentralCommutatorPowers": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "CentralProductPowers": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "CentralRootMultiplication": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "ClassTwoPositiveRoots": {
+      "theorems": 3,
+      "selected_declarations": 4
+    },
+    "FiniteRelativePowerQuotient": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "LowerCentralFiniteGenerators": {
+      "theorems": 7,
+      "selected_declarations": 8
+    },
+    "LowerCentralGeneratorPowers": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "LowerCentralPowerCollection": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "LowerCentralRelativeNormal": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NilpotentArbitraryPositiveRoots": {
+      "theorems": 8,
+      "selected_declarations": 9
+    },
+    "NilpotentPowerGenerators": {
+      "theorems": 3,
+      "selected_declarations": 3
+    }
+  }
+}

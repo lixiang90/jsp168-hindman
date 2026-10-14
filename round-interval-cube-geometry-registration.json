@@ -1,0 +1,119 @@
+{
+  "baseline_hash_count": 1153,
+  "modules": [
+    "Hindman168/IntegerCubeCornerCoordinates.lean",
+    "Hindman168/IntegerIntervalCubeDomain.lean",
+    "Hindman168/IntegerIntervalCubeCardBounds.lean",
+    "Hindman168/IntegerPeriodicCubeAverage.lean",
+    "Hindman168/IntegerIntervalCubeTranslateBoundary.lean",
+    "Hindman168/IntegerCubeResidueShiftBounds.lean"
+  ],
+  "names": [
+    "Hindman168.integerCubeVertex",
+    "Hindman168.integerCubeCornerCoordinates",
+    "Hindman168.integerCubeVertex_add",
+    "Hindman168.integerCubeVertex_neighbor",
+    "Hindman168.integerCubeCornerCoordinates_injective",
+    "Hindman168.integerIntervalCubeDomain",
+    "Hindman168.mem_integerIntervalCubeDomain",
+    "Hindman168.integerIntervalCubeDomain_nonempty",
+    "Hindman168.integerIntervalCubeDomain_vertex_strip_card_le",
+    "Hindman168.integerIntervalCubeDomain_card_lower_box",
+    "Hindman168.integerPeriodicCubeProduct",
+    "Hindman168.integerCubeResidueShift",
+    "Hindman168.integerPeriodicCubeProduct_abs_le_one",
+    "Hindman168.finiteCubeParameterMean_eq_top_cube",
+    "Hindman168.integerPeriodicCubeProduct_mean_residue_shift",
+    "Hindman168.integerIntervalCube_translate_out_card_le",
+    "Hindman168.integerIntervalCube_translate_back_out_card_le",
+    "Hindman168.integerCubeResidueShift_vertex_bounds"
+  ],
+  "theorem_count": 13,
+  "selected_report_count": 18,
+  "declarations": {
+    "Hindman168/IntegerCubeCornerCoordinates.lean": [
+      [
+        "def",
+        "integerCubeVertex"
+      ],
+      [
+        "def",
+        "integerCubeCornerCoordinates"
+      ],
+      [
+        "theorem",
+        "integerCubeVertex_add"
+      ],
+      [
+        "theorem",
+        "integerCubeVertex_neighbor"
+      ],
+      [
+        "theorem",
+        "integerCubeCornerCoordinates_injective"
+      ]
+    ],
+    "Hindman168/IntegerIntervalCubeDomain.lean": [
+      [
+        "def",
+        "integerIntervalCubeDomain"
+      ],
+      [
+        "theorem",
+        "mem_integerIntervalCubeDomain"
+      ],
+      [
+        "theorem",
+        "integerIntervalCubeDomain_nonempty"
+      ]
+    ],
+    "Hindman168/IntegerIntervalCubeCardBounds.lean": [
+      [
+        "theorem",
+        "integerIntervalCubeDomain_vertex_strip_card_le"
+      ],
+      [
+        "theorem",
+        "integerIntervalCubeDomain_card_lower_box"
+      ]
+    ],
+    "Hindman168/IntegerPeriodicCubeAverage.lean": [
+      [
+        "def",
+        "integerPeriodicCubeProduct"
+      ],
+      [
+        "def",
+        "integerCubeResidueShift"
+      ],
+      [
+        "theorem",
+        "integerPeriodicCubeProduct_abs_le_one"
+      ],
+      [
+        "theorem",
+        "finiteCubeParameterMean_eq_top_cube"
+      ],
+      [
+        "theorem",
+        "integerPeriodicCubeProduct_mean_residue_shift"
+      ]
+    ],
+    "Hindman168/IntegerIntervalCubeTranslateBoundary.lean": [
+      [
+        "theorem",
+        "integerIntervalCube_translate_out_card_le"
+      ],
+      [
+        "theorem",
+        "integerIntervalCube_translate_back_out_card_le"
+      ]
+    ],
+    "Hindman168/IntegerCubeResidueShiftBounds.lean": [
+      [
+        "theorem",
+        "integerCubeResidueShift_vertex_bounds"
+      ]
+    ]
+  }
+}

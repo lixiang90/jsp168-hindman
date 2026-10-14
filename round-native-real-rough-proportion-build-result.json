@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.139999999897555,
+  "log": "round-native-real-rough-proportion-build.txt",
+  "log_sha256": "fe8de5c881a61224bb405f06a858547aa78122b0b29cc78a45a6114383871022"
+}

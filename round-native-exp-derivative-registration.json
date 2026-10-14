@@ -1,0 +1,80 @@
+{
+  "baseline_hash_count": 707,
+  "new_modules": [
+    "Hindman168/LieCoordinateFlowControl.lean",
+    "Hindman168/LieCoordinateFlowIdentification.lean",
+    "Hindman168/NativeLieExponentialDerivative.lean",
+    "Hindman168/NativeLieLocalLogarithm.lean"
+  ],
+  "new_theorems": [
+    "Hindman168.lieCoordinateParametricFlow_continuousAt_zero",
+    "Hindman168.lieCoordinateParametricFlow_eventually_chart",
+    "Hindman168.lieCoordinateParametricFlow_frozen_first",
+    "Hindman168.lie_coordinate_curve_transport",
+    "Hindman168.lieIdentityCoordinateFlow_zero",
+    "Hindman168.lieIdentityCoordinateFlow_eventually_native",
+    "Hindman168.lieIdentityCoordinateFlow_eventually_chart_native",
+    "Hindman168.nativeLieExponential_chart_hasStrictFDerivAt_zero",
+    "Hindman168.nativeLieExponential_hasMFDerivAt_zero",
+    "Hindman168.nativeLieExponential_mfderiv_zero",
+    "Hindman168.nativeLieExponentialCoordinateInverse_left",
+    "Hindman168.nativeLieExponentialCoordinateInverse_right",
+    "Hindman168.nativeLieExponentialCoordinateInverse_hasStrictFDerivAt",
+    "Hindman168.nativeLieLocalLogarithm_one",
+    "Hindman168.nativeLieLocalLogarithm_continuousAt_one",
+    "Hindman168.nativeLieLocalLogarithm_eventually_left",
+    "Hindman168.nativeLieLocalLogarithm_eventually_right",
+    "Hindman168.nativeLieLocalLogarithm_hasMFDerivAt_one",
+    "Hindman168.nativeLieLocalLogarithm_mfderiv_one",
+    "Hindman168.nativeLieExponential_locally_injective",
+    "Hindman168.nativeLieExponential_image_mem_nhds"
+  ],
+  "new_selected_declarations": [
+    "Hindman168.lieCoordinateParametricFlow_continuousAt_zero",
+    "Hindman168.lieCoordinateParametricFlow_eventually_chart",
+    "Hindman168.lieCoordinateParametricFlow_frozen_first",
+    "Hindman168.lie_coordinate_curve_transport",
+    "Hindman168.lieIdentityCoordinateFlow",
+    "Hindman168.lieIdentityCoordinateFlow_zero",
+    "Hindman168.lieIdentityCoordinateFlow_eventually_native",
+    "Hindman168.lieIdentityCoordinateFlow_eventually_chart_native",
+    "Hindman168.nativeLieExponential_chart_hasStrictFDerivAt_zero",
+    "Hindman168.nativeLieExponential_hasMFDerivAt_zero",
+    "Hindman168.nativeLieExponential_mfderiv_zero",
+    "Hindman168.nativeLieExponentialCoordinateInverse",
+    "Hindman168.nativeLieExponentialCoordinateInverse_left",
+    "Hindman168.nativeLieExponentialCoordinateInverse_right",
+    "Hindman168.nativeLieExponentialCoordinateInverse_hasStrictFDerivAt",
+    "Hindman168.nativeLieLocalLogarithm",
+    "Hindman168.nativeLieLocalLogarithm_one",
+    "Hindman168.nativeLieLocalLogarithm_continuousAt_one",
+    "Hindman168.nativeLieLocalLogarithm_eventually_left",
+    "Hindman168.nativeLieLocalLogarithm_eventually_right",
+    "Hindman168.nativeLieLocalLogarithm_hasMFDerivAt_one",
+    "Hindman168.nativeLieLocalLogarithm_mfderiv_one",
+    "Hindman168.nativeLieExponential_locally_injective",
+    "Hindman168.nativeLieExponential_image_mem_nhds"
+  ],
+  "module_report_counts": {
+    "LieCoordinateFlowControl": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "LieCoordinateFlowIdentification": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeLieExponentialDerivative": {
+      "theorems": 6,
+      "selected_declarations": 7
+    },
+    "NativeLieLocalLogarithm": {
+      "theorems": 8,
+      "selected_declarations": 9
+    }
+  },
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ]
+}

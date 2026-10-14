@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.094000000040978,
+  "log": "round-native-subalgebra-smooth-build.txt",
+  "log_sha256": "6a1466915d56f44a9de214f9a68292d1e858f59dbdeb3c9933d75403a49cf6b5"
+}

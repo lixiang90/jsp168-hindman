@@ -1,0 +1,3 @@
+✔ [5335/5336] Built Hindman168.AlignmentIntegerSpatialParameters (8.6s)
+✔ [5336/5336] Built Hindman168.AlignmentNativeIntegerSpatialArray (8.9s)
+Build completed successfully (5336 jobs).

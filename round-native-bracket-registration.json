@@ -1,0 +1,68 @@
+{
+  "baseline_hashes_verified_before_registration": 727,
+  "new_modules": [
+    "Hindman168/NativeLieCoordinateBracket.lean",
+    "Hindman168/MixedFlowJacobian.lean",
+    "Hindman168/NativeLieRightCoordinateFlow.lean",
+    "Hindman168/NativeLieRightFlowTransport.lean",
+    "Hindman168/NativeLieAdjointInfinitesimal.lean",
+    "Hindman168/NativeLieNilpotentAdjoint.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLieCoordinateVectorField",
+    "Hindman168.nativeLieIdentityChart_range_nhds",
+    "Hindman168.nativeLieIdentityChart_target_nhds",
+    "Hindman168.nativeLieCoordinateVectorField_identity",
+    "Hindman168.nativeLieCoordinateVectorField_eq_chart_derivative",
+    "Hindman168.nativeLieInvariantVectorField_contMDiff_smooth",
+    "Hindman168.nativeLieCoordinateVectorField_contDiffAt_identity",
+    "Hindman168.nativeLieBracket_eq_coordinate_bracket",
+    "Hindman168.nativeLieBracket_eq_coordinate_derivatives",
+    "Hindman168.mixedFlowJacobian_hasDerivAt",
+    "Hindman168.nativeLieRightCoordinateFlow",
+    "Hindman168.nativeLieRightCoordinateFlow_zero",
+    "Hindman168.nativeLieRightCoordinateFlow_contDiffAt_identity",
+    "Hindman168.nativeLieRightCoordinateFlow_hasDerivAt",
+    "Hindman168.nativeLieRightCoordinateFlow_time_derivative_eventually",
+    "Hindman168.nativeLieRightCoordinateFlow_jacobian_hasDerivAt",
+    "Hindman168.nativeLieRightCoordinateFlow_identity_state",
+    "Hindman168.nativeLieIdentityChart_inverse_mfderiv",
+    "Hindman168.nativeLieRightCoordinateFlow_state_hasFDerivAt",
+    "Hindman168.nativeLieRightCoordinateFlow_transport_eventually",
+    "Hindman168.nativeLieRightCoordinateFlow_state_derivative_zero",
+    "Hindman168.nativeLieAdjointGenerator_eq_coordinate_bracket",
+    "Hindman168.nativeLieAdjointGenerator_eq_native_bracket",
+    "Hindman168.nativeLieAdjointGenerator_toEnd",
+    "Hindman168.nativeLieAdjointGenerator_uniform_pow_zero",
+    "Hindman168.nativeLieAdjointGenerator_isNilpotent",
+    "Hindman168.nativeLieAdjointCurve_eq_finite_sum",
+    "Hindman168.nativeLieAdjoint_nilpotent_uniform_finite_formula",
+    "Hindman168.nativeLieAdjoint_exponential_eq_finite_sum"
+  ],
+  "module_report_counts": {
+    "NativeLieCoordinateBracket": {
+      "theorems": 8,
+      "selected_declarations": 9
+    },
+    "MixedFlowJacobian": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NativeLieRightCoordinateFlow": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "NativeLieRightFlowTransport": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeLieAdjointInfinitesimal": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieNilpotentAdjoint": {
+      "theorems": 6,
+      "selected_declarations": 6
+    }
+  }
+}

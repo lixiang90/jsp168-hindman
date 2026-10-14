@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2754,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6781,
+    "selected_axiom_reports": 10752,
+    "new_declarations": 12,
+    "new_theorems": 10,
+    "new_definitions": 2,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/AlignmentOriginalProductFaceFailure.lean",
+    "Hindman168/AlignmentOriginalProductFacePosterior.lean",
+    "Hindman168/AlignmentOriginalProductFaceFiniteFamily.lean",
+    "Hindman168/AlignmentOriginalProductAllFacesPosterior.lean",
+    "Hindman168/FiniteTypicalExposureEventBound.lean",
+    "Hindman168/AlignmentOriginalProductAllFacesGlobal.lean",
+    "Hindman168/AlignmentOriginalProductFacePositiveSelection.lean"
+  ],
+  "proved_components": [
+    "The LITERAL original marginal product cube face failure compares original nilsequence cube means at unchanged original slots and their genuine own-pair face-shifted slots. The event retains ALL original permitted boxes/residues and original numerical bounded/Lipschitz observers after the sampled tuple. Its ACTUAL posterior probability vanishes: BOTH original-to-terminal removal errors and the genuine terminal face discrepancy are combined with epsilon/3 and delta/2 budgets; actual support/key identities identify the SAME endpoint origin and terminal denominator choices. Conditional independence is never assumed.",
+    "ONE actual posterior cutoff covers every fixed finite family of original own pairs, face coordinates, slots, vertex profiles and observer bounds. The COMPLETE fixed finite list of ALL original own pairs, ALL coordinates and ALL zero/one vertex profiles is instantiated with exact Fin 2 representation. The failing face/vertex profile can be chosen AFTER the sampled tuple. No unbounded arbitrary-integer-weight union is asserted, and empty face lists stay empty.",
+    "Exact original exposure disintegration integrates good-key conditional event caps to the original raw law, charging bad keys their ACTUAL original mass. The original marginal product all-face failure now vanishes uniformly BEFORE every original source formula selected by the actual exposed key. Bad-key mass is PROVED to vanish; original formulae can vary with width and exposed key, but never with unexposed factors in this result.",
+    "For arbitrary width-varying original exposed-key source selections the actual original all-face failure probability tends to zero. ANY additional actual conditioning of probability bounded below preserves the zero limit and yields supported ORIGINAL samples in that prescribed set satisfying all original own faces and zero/one vertex profiles at fixed numerical tolerances. Full continuous cube test classes, countable diagonal simultaneity and cube limits/Alignment remain work; product-observation results are not relabeled as those stronger conclusions."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original marginal PRODUCT-observation cube face discrepancy now vanishes under ACTUAL posterior and original global law, uniformly in original boxes/residues/tests and ALL own pairs/coordinates/zero-one vertex profiles, with genuine exposed-key-selected width-varying source formulae. Positive-mass extra conditioning preserves failure vanishing and admits supported original samples. Remaining: promote product observations through the original complete marginal continuous cube test class (finite product-span approximation as needed), obtain one countable numerical-condition/target/dimension diagonal sequence compatible with original master/data selections, and prove cube limits/local cube coset face invariance/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. No other-component invariance, unexposed-factor-dependent formula uniformity or explicit delta-power law asserted. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-original-face-probability-mathematical-review.txt",
+  "mathematical_review_sha256": "c20d5998f53db015863f7c6533d37ba01a4c99f172bf9bb43e7b85cb4a1936b9",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

@@ -1,0 +1,140 @@
+{
+  "modules": [
+    "Hindman168/NativeCentralChildZeroObservable.lean",
+    "Hindman168/CompactLipschitzAlgebra.lean",
+    "Hindman168/CompactLipschitzApproximation.lean",
+    "Hindman168/NativeCentralChildRegularFamily.lean",
+    "Hindman168/NativeCentralChildDiscrepancy.lean",
+    "Hindman168/LinearDiscrepancyStability.lean",
+    "Hindman168/NativeCentralChildRegularDetection.lean",
+    "Hindman168/BoundedLipschitzNormalization.lean",
+    "Hindman168/NativeCentralChildUnitDetection.lean"
+  ],
+  "names": [
+    "Hindman168.nativeCentralChildZeroObservable",
+    "Hindman168.native_central_child_zero_apply",
+    "Hindman168.native_central_child_zero_sub",
+    "Hindman168.native_central_child_zero_norm",
+    "Hindman168.compact_lipschitz_mul",
+    "Hindman168.compactLipschitzSubalgebra",
+    "Hindman168.compactLipschitzStarSubalgebra",
+    "Hindman168.compact_lipschitz_star_subalgebra_separates",
+    "Hindman168.compact_lipschitz_uniform_approximation",
+    "Hindman168.compact_family_finite_lipschitz_approximation",
+    "Hindman168.compact_family_bounded_lipschitz_approximation",
+    "Hindman168.native_central_child_zero_functionspace_lipschitz",
+    "Hindman168.native_central_child_zero_family_compact",
+    "Hindman168.native_central_child_zero_regular_approximation",
+    "Hindman168.native_central_child_zero_discrepancy",
+    "Hindman168.linear_discrepancy_approximation_error",
+    "Hindman168.linear_discrepancy_approximant_detection",
+    "Hindman168.native_central_child_regular_detection",
+    "Hindman168.bounded_lipschitz_normalization",
+    "Hindman168.linear_discrepancy_normalization_norm",
+    "Hindman168.native_central_child_unit_detection"
+  ],
+  "declarations": {
+    "Hindman168/NativeCentralChildZeroObservable.lean": [
+      [
+        "def",
+        "nativeCentralChildZeroObservable"
+      ],
+      [
+        "theorem",
+        "native_central_child_zero_apply"
+      ],
+      [
+        "theorem",
+        "native_central_child_zero_sub"
+      ],
+      [
+        "theorem",
+        "native_central_child_zero_norm"
+      ]
+    ],
+    "Hindman168/CompactLipschitzAlgebra.lean": [
+      [
+        "theorem",
+        "compact_lipschitz_mul"
+      ],
+      [
+        "def",
+        "compactLipschitzSubalgebra"
+      ],
+      [
+        "def",
+        "compactLipschitzStarSubalgebra"
+      ],
+      [
+        "theorem",
+        "compact_lipschitz_star_subalgebra_separates"
+      ]
+    ],
+    "Hindman168/CompactLipschitzApproximation.lean": [
+      [
+        "theorem",
+        "compact_lipschitz_uniform_approximation"
+      ],
+      [
+        "theorem",
+        "compact_family_finite_lipschitz_approximation"
+      ],
+      [
+        "theorem",
+        "compact_family_bounded_lipschitz_approximation"
+      ]
+    ],
+    "Hindman168/NativeCentralChildRegularFamily.lean": [
+      [
+        "theorem",
+        "native_central_child_zero_functionspace_lipschitz"
+      ],
+      [
+        "theorem",
+        "native_central_child_zero_family_compact"
+      ],
+      [
+        "theorem",
+        "native_central_child_zero_regular_approximation"
+      ]
+    ],
+    "Hindman168/NativeCentralChildDiscrepancy.lean": [
+      [
+        "theorem",
+        "native_central_child_zero_discrepancy"
+      ]
+    ],
+    "Hindman168/LinearDiscrepancyStability.lean": [
+      [
+        "theorem",
+        "linear_discrepancy_approximation_error"
+      ],
+      [
+        "theorem",
+        "linear_discrepancy_approximant_detection"
+      ]
+    ],
+    "Hindman168/NativeCentralChildRegularDetection.lean": [
+      [
+        "theorem",
+        "native_central_child_regular_detection"
+      ]
+    ],
+    "Hindman168/BoundedLipschitzNormalization.lean": [
+      [
+        "theorem",
+        "bounded_lipschitz_normalization"
+      ],
+      [
+        "theorem",
+        "linear_discrepancy_normalization_norm"
+      ]
+    ],
+    "Hindman168/NativeCentralChildUnitDetection.lean": [
+      [
+        "theorem",
+        "native_central_child_unit_detection"
+      ]
+    ]
+  }
+}

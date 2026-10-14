@@ -1,0 +1,91 @@
+{
+  "baseline_hash_count": 958,
+  "modules": [
+    "Hindman168/NativeHilbertRepresentations.lean",
+    "Hindman168/NativeHilbertClippedApproximation.lean"
+  ],
+  "names": [
+    "Hindman168.nativeBoundedHilbertRecipes",
+    "Hindman168.nativeHilbertRepresentations",
+    "Hindman168.mem_nativeHilbertRepresentations_iff",
+    "Hindman168.nativeHilbertRepresentations_realize",
+    "Hindman168.nativeHilbertRepresentations_refine",
+    "Hindman168.nativeNilHilbertSubspace",
+    "Hindman168.nativeNilHilbertSubspace_eq_closedSpan",
+    "Hindman168.nativeNilHilbertSubspace_refine",
+    "Hindman168.nativeNilHilbertSubspace_hasProjection",
+    "Hindman168.nativeNilHilbertSubspace_energy_identity",
+    "Hindman168.nativeHilbertRepresentation_mem_closed",
+    "Hindman168.nativeHilbertRepresentation_clip",
+    "Hindman168.nativeHilbert_projection_clip_distance_le",
+    "Hindman168.nativeHilbert_clipped_approximation",
+    "Hindman168.nativeHilbert_clipped_fine_error"
+  ],
+  "theorem_count": 11,
+  "declarations": {
+    "Hindman168/NativeHilbertRepresentations.lean": [
+      [
+        "def",
+        "nativeBoundedHilbertRecipes"
+      ],
+      [
+        "def",
+        "nativeHilbertRepresentations"
+      ],
+      [
+        "theorem",
+        "mem_nativeHilbertRepresentations_iff"
+      ],
+      [
+        "theorem",
+        "nativeHilbertRepresentations_realize"
+      ],
+      [
+        "theorem",
+        "nativeHilbertRepresentations_refine"
+      ],
+      [
+        "def",
+        "nativeNilHilbertSubspace"
+      ],
+      [
+        "theorem",
+        "nativeNilHilbertSubspace_eq_closedSpan"
+      ],
+      [
+        "theorem",
+        "nativeNilHilbertSubspace_refine"
+      ],
+      [
+        "instance",
+        "nativeNilHilbertSubspace_hasProjection"
+      ],
+      [
+        "theorem",
+        "nativeNilHilbertSubspace_energy_identity"
+      ]
+    ],
+    "Hindman168/NativeHilbertClippedApproximation.lean": [
+      [
+        "theorem",
+        "nativeHilbertRepresentation_mem_closed"
+      ],
+      [
+        "theorem",
+        "nativeHilbertRepresentation_clip"
+      ],
+      [
+        "theorem",
+        "nativeHilbert_projection_clip_distance_le"
+      ],
+      [
+        "theorem",
+        "nativeHilbert_clipped_approximation"
+      ],
+      [
+        "theorem",
+        "nativeHilbert_clipped_fine_error"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+JSP-000168 / Erdos #172, 2026-10-14. Goal ACTIVE; StrongConjecture UNPROVED.
+No unavoidable obstruction established; public repository/PR/prize pending.
+Use CURRENT-STATUS.txt and verification-manifest.json for terminal status.
+
+round-native-point-mixture adds TEN modules after original-local-point.
+It proves the GLOBAL original point-mixture formula in UNIT-LIPSCHITZ TEST
+FORM, with the exact paper floor(L) window and mean normalization.
+
+CompactGaugeUniformMesh: any positive gauge radius on Icc 0 1 yields N>0
+and tags:Fin N->Icc 0 1 so every point of cell [i/N,(i+1)/N] lies within
+radius(tag i). Uses actual compact-cover Lebesgue number; no uniform lower
+bound on the original gauge. Tags need NOT be cell endpoints or inside cell.
+CompactGaugeFiniteOscillation: same mesh additionally controls ANY finite
+continuous family g_r at all cell points, via finite continuity neighborhoods.
+
+RealMeshResiduePartition: integer_window_residue_sum (complex), monotone
+integer cut sum, realMeshResidueCell L N M i r, exact original sum identity
+over cells/residues = sum over Ico 0 ceil(L). Scalar Finset.sum_Ico_consecutive
+is natural-specific; the integer proof uses disjoint union of adjacent Ico.
+ComplexTaggedMeshIntegral: actual cell oscillation <=epsilon implies norm
+(integral_0^1 g - sum_i g(tag_i)/N)<=epsilon, via integral_sub, interval
+constant integral, adjacent intervals and norm integral bound. No Riemann
+convergence oracle. Continuous.intervalIntegrable needs explicit endpoints.
+
+FiniteComplexCellMassError: any actual finite cells with mean errors <=eps,
+mass errors |card/L-w|<=eta and reference norms<=1 yield scaled sum error
+<=card(index)*((w+eta)*eps+eta). Uses exact mean-times-card even for empty S.
+RealMeshComplexAverage: true mass |card/L-1/(N*M)|<=2/L, hence original
+ceil-window sum divided by real L differs from finiteComplexMean of actual
+tagged expectations by <=eps+2*N*M*(eps+1)/L.
+
+NativeOriginalTaggedPointMesh: from actual NativeResidueLocalHaarLaw and
+continuous SAME h, for each fixed unit test J and eps>0 gives ONE N,tags,
+both all-residue integral approximation and eventual all-cell/residue
+original means close. Mesh/tags precede all n thresholds. Uses true cell
+length>=L/(2*N) eventually, exact endpoints and arbitrary-interval local law.
+NativeOriginalScaledPointMixture: actual original sum on Ico 0 ceil(L),
+divided by real L, tends to finiteComplexMean_r integral beta 0..1 of
+the ORIGINAL Haar-image J expectation. Probability gives norms<=1. No
+further subsequence; mesh depends on fixed J/epsilon, factorization does not.
+
+ComplexFloorWindowTransfer: for L>0 and ANY unit-bounded integer input,
+norm(finite mean on Ico 0 floor(L) - ceil-window sum/L)<=2/L. Actual tail
+Ico floor(L) ceil(L) has at most one point. Both tail and denominator changes
+are each <=1/L. Includes small/zero floor cases algebraically. Generic
+complex_floor_window_limit transfers actual varying-input convergence.
+
+NativeOriginalPointMixture:
+native_original_point_mixture proves the EXACT floor-window scalar limit
+from same H,L,P,M,sigma,h and earlier local law.
+native_sequential_original_point_mixture starts with ONLY native D, input
+rational filtration F, cofinal L and adapted original vector polynomial p.
+Returns SAME original subsequence f, cofinal L o f, subordinate H, positive
+M, rational sigma, smooth h, BOTH original local laws and forall unit J the
+floor-window point-mixture limit. Explicit source p(f n), no replacement.
+The final proof must pass an EXPLICIT original source lambda and introduce
+J separately; leaving the source metavariable in a huge existential tuple
+caused a 200000-heartbeat elaboration timeout. Fixed without changing limits.
+
+IMMEDIATE NEXT: probability-mixture / weak-law packaging and continuous tests.
+Current theorem is genuinely proven for every UNIT LIPSCHITZ complex test.
+Do not claim the weak-probability API is already built. Construct the actual
+mixture rather than assume it: for each r, use probability volume restricted
+to [0,1] times actual Haar probability on A_r quotient, where
+A_r=nativeRationalLayerOrbitData D H 0 (sigma r) (hRat r), and push forward
+(beta,x) -> nativeRationalLayerOrbitMap D H 0 (sigma r) (hRat r) (h beta) x.
+Joint continuity is proved in NativeRationalLayerOrbitObservables. Average
+these probabilities over Fin M. This is the exact target mixture; prove
+integral formula via integral_map, product integration, interval conversion.
+Carefully align original/native metric and Borel instances. All original
+continuous tests are bounded because quotient is compact.
+
+Upgrade unit-test limits by genuine Lipschitz approximation/rescaling.
+Existing compact_family_bounded_lipschitz_approximation and
+bounded_lipschitz_normalization are in the NativeCompactFamilyUnitDetection
+dependency chain. The latter detector itself targets SINGLE native Haar,
+so cannot be reused unchanged for this mixture; reuse the actual generic
+approximation, norm and linearity ingredients. FiniteMeasure's
+tendsto_iff_forall_integral_rclike_tendsto (or bounded real version) gives
+weak convergence once actual empirical and target measures/integrals are
+proved. Empirical probability can be arbitrary at finitely many empty
+floor windows, but must coincide exactly eventually. No new oracle.
+
+Then actual positive-dimensional cube subgroup geometry from SAME final H:
+native rational cube Lie subalgebra in genuine product datum, actual compact
+lattice, face-character restrictions, largest surviving j and coefficient
+xi(Taylor_j)/(j-|D|)!, actual source adaptation and original irrationality.
+All q through ORIGINAL s+1, length before locality, no q-dependent new
+factorization. Then projected face Haar invariance/full support, joint lifts/
+full Alignment, separate arbitrary-input GTZ interval Gowers LINEAR
+nilsequence inverse, final SAME-color positive distinct rapidly separated
+ALL nonempty FS AND FP. Keep full target intact.
+Author audit is not independent kernel replay or external peer review.

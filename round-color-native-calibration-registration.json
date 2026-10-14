@@ -1,0 +1,112 @@
+{
+  "baseline_hash_count": 1235,
+  "modules": [
+    "Hindman168/NativeCalibrationCutoff.lean",
+    "Hindman168/FiniteCutoffCalibration.lean",
+    "Hindman168/MaskColorCoarseCalibration.lean",
+    "Hindman168/OriginalBlockProductTesting.lean",
+    "Hindman168/MaskColorProductCalibration.lean",
+    "Hindman168/SelectedColorBlockProductCalibration.lean",
+    "Hindman168/SelectedColorCalibratedModels.lean"
+  ],
+  "names": [
+    "Hindman168.calibrationCutoff",
+    "Hindman168.calibrationCutoff_bounds",
+    "Hindman168.calibrationCutoff_low",
+    "Hindman168.calibrationCutoff_high",
+    "Hindman168.calibrationCutoff_weight_bound",
+    "Hindman168.calibrationCutoff_lipschitz",
+    "Hindman168.nativePieceRepresented_calibrationCutoff",
+    "Hindman168.finite_cutoff_calibration",
+    "Hindman168.maskColorBlock_coarse_calibration",
+    "Hindman168.originalBlockProductMass",
+    "Hindman168.originalBlockComparison_expectation",
+    "Hindman168.MasterParameterConditions.block_product_distance_tendsto",
+    "Hindman168.MasterParameterConditions.block_product_testing_uniform",
+    "Hindman168.maskColorBlock_product_calibration",
+    "Hindman168.selected_color_block_product_calibration",
+    "Hindman168.selected_color_calibrated_models"
+  ],
+  "theorem_count": 14,
+  "selected_report_count": 16,
+  "declarations": {
+    "Hindman168/NativeCalibrationCutoff.lean": [
+      [
+        "def",
+        "calibrationCutoff"
+      ],
+      [
+        "theorem",
+        "calibrationCutoff_bounds"
+      ],
+      [
+        "theorem",
+        "calibrationCutoff_low"
+      ],
+      [
+        "theorem",
+        "calibrationCutoff_high"
+      ],
+      [
+        "theorem",
+        "calibrationCutoff_weight_bound"
+      ],
+      [
+        "theorem",
+        "calibrationCutoff_lipschitz"
+      ],
+      [
+        "theorem",
+        "nativePieceRepresented_calibrationCutoff"
+      ]
+    ],
+    "Hindman168/FiniteCutoffCalibration.lean": [
+      [
+        "theorem",
+        "finite_cutoff_calibration"
+      ]
+    ],
+    "Hindman168/MaskColorCoarseCalibration.lean": [
+      [
+        "theorem",
+        "maskColorBlock_coarse_calibration"
+      ]
+    ],
+    "Hindman168/OriginalBlockProductTesting.lean": [
+      [
+        "def",
+        "originalBlockProductMass"
+      ],
+      [
+        "theorem",
+        "originalBlockComparison_expectation"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.block_product_distance_tendsto"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.block_product_testing_uniform"
+      ]
+    ],
+    "Hindman168/MaskColorProductCalibration.lean": [
+      [
+        "theorem",
+        "maskColorBlock_product_calibration"
+      ]
+    ],
+    "Hindman168/SelectedColorBlockProductCalibration.lean": [
+      [
+        "theorem",
+        "selected_color_block_product_calibration"
+      ]
+    ],
+    "Hindman168/SelectedColorCalibratedModels.lean": [
+      [
+        "theorem",
+        "selected_color_calibrated_models"
+      ]
+    ]
+  }
+}

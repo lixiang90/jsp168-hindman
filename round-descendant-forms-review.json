@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 512,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskDescendantNormalization.lean",
+    "Hindman168/MaskFreshTupleEvaluations.lean",
+    "Hindman168/MaskDescendantIntegerForms.lean",
+    "Hindman168/MaskDescendantBoundedFunctions.lean",
+    "Hindman168/MaskUpdatedRowFunctions.lean",
+    "Hindman168/MaskFreshPrimeTupleLaw.lean"
+  ],
+  "new_selected_report_count": 38,
+  "module_report_counts": {
+    "MaskDescendantNormalization": 3,
+    "MaskFreshTupleEvaluations": 8,
+    "MaskDescendantIntegerForms": 6,
+    "MaskDescendantBoundedFunctions": 5,
+    "MaskUpdatedRowFunctions": 8,
+    "MaskFreshPrimeTupleLaw": 8
+  },
+  "application_review": [
+    "All 512 baseline source/config hashes were revalidated before registration. Only Hindman168.lean imports and Verification.lean exact-name reports changed among retained files. Every retained proof source, StrongStatement, nine attributed PNT+ modules and fixed Lean/mathlib/PNT+ pins is unchanged. Both local preprint sections match adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote update was checked in this goal round.",
+    "Every flattened mask descendant has exactly the same symbolic support and maximum-support normalization anchor as its origin row. This includes both invariant retained rows and both noninvariant copies; the natural column coefficient quotient therefore uses the original denominator, not merely an arbitrary construction anchor.",
+    "The new flattened natural tuple has exact old-slot and two-fresh-slot evaluations and inverse projections. Evaluating renamed old coefficients retains the original old tuple; evaluating each fresh multiplier gives its exact natural scalar on all tuple entries.",
+    "The actual integer-normalized coefficient of each flattened descendant is its origin coefficient times the branch scalar, and its integer linear form is exactly the retained old form for none or the appropriate absorbed coordinate branch for some b. Outside plans use fresh values (p,q), balanced plans (q,p), so false is the first actual branch in both cases.",
+    "Every descendant keeps its original tail divisor majorant because its maximum-support anchor is unchanged. Invariant none descendants receive f(alpha*t)*f(beta*t)/W(t); both noninvariant some descendants retain the original function. Actual gap-tail positivity and fresh-prime coprimality derive a global bound by the descendant majorant uniformly over all fixed row families.",
+    "Genuine updated row functions take the new flattened prime tuple as input, recover its shared old tuple and two prime values, and select the correct descendant function. Their exact evaluations at descendant forms recover the merged invariant function or the original function at its absorbed branch argument.",
+    "The tracked noninvariant row function is unchanged as a function of its integer argument after the update, for either tracked branch. This is a pointwise function identity; preservation of all distinguished centered-target analytic hypotheses remains separate work.",
+    "The unchanged actual new prime-slot law, pulled back by the explicit old/fresh tuple equivalence, equals the tensor law of the two fresh-prime masses and the original old-prime tuple mass. The exact expectation/Fubini identity retains all finite coefficients and diagonal pairs; no probability conditioning or normalized off-diagonal law is introduced.",
+    "Every supported new prime tuple projects to a supported old prime tuple and two primes in the actual pool. Updated row functions therefore satisfy the original global integer majorant bound throughout the entire new prime support, with a concrete actual TargetedMaskRowStage.step specialization.",
+    "The integer row/form identities hold for arbitrary natural column coefficients, including without a nonzero numerical evaluation assumption. They preserve the actual natural quotient definition. Stronger positivity/divisibility properties already required for the original master remain supplied by the pre-existing integer row conditions, rather than by weakening those conditions here.",
+    "The tuple order differs between outside and balanced plans only by swapping the two fresh variables, as required to identify false with H_p in both cases. Both new variables use the same original pool mass; the exact tuple-law proof checks the resulting finite product coefficients, including p=q, rather than assuming fresh-slot independence.",
+    "The generic eventual descendant function bound is uniform over row families because it uses only the original column tail masses, their positivity and supported-prime coprimality. The actual-stage support theorem assumes the original f bound only on old-prime-support tuples, obtains that support by projection, and proves the bound on all signed integer arguments on the full new support.",
+    "The final source scan covers 500 own and 9 attributed PNT+ modules, with root and registry also inspected. Exact-name kernel coverage is all 2478 registered statements, including all 38 new names. Only standard allowed axioms occur; the same three old registered statements are axiom-free. Build and kernel logs have no warnings or errors.",
+    "This round identifies every individual descendant coefficient, integer form and updated row function with its actual old or absorbed counterpart, and supplies the complete original prime law and function bounds needed for the next stage. It does not yet prove the finite full row-product decomposition or combine the remaining multiplicative masks into the full analytic integrand.",
+    "The previous goal turn was PROGRESS and this turn is PROGRESS. StrongConjecture remains the unchanged full target proposition with conditional bridges only. The complete finite multiplicative recurrence, original correlation theorem, full Prediction/Alignment and final ordered positive monochromatic witness remain unproved. No unavoidable blocker is established."
+  ],
+  "source_preprint_section": "04_correlation.tex:230-264 (two actual absorbed branches, bounded descendant row functions and invariant function merge); 266-294 (existing symbolic row update now identified with actual normalized integer forms).",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4365,
+    "project_modules": 500,
+    "pntplus_modules": 9,
+    "source_scan_modules": 509,
+    "axiom_reports": 2478,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 518,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original raw arbitrary-target additive source bound, centered-source cancellation and previous weighted cube transfers remain proved. Actual intermediate mask prefixes have original-law majorant means, invariant-row prefactor limits, the common m-only weighted-square cap, fresh-prime diagonal deletion and uniform vanishing insertion/absorption caps. Actual invariant integer scalar identities, divisor-weight preservation, bounded merged functions and the single surviving invariant density Omega, including its outer pq dilation, remain proved. Every flattened descendant now has its original maximum-support normalization anchor; its actual integer form is exactly the retained old form or an absorbed coordinate branch. Genuine updated functions of the new prime tuple are constructed with original weight bounds on the whole actual next-stage prime support, and the tracked noninvariant function is retained. The new prime law is exactly two independent fresh primes and the shared old tuple, with exact Fubini. The full multiplicative-mask analytic recurrence remains incomplete: prove the full descendant row-product decomposition with the finite invariant/noninvariant index multiplicities, combine every surviving multiplicative mask into a bounded function of its original monomial support, construct and identify the complete normalized branch integrand H_p, and apply the actual insertion/weighted-square/diagonal/absorption estimates with derived m-only polynomial bounds. Establish the distinguished centered target compatibility beyond the proved pointwise tracked-function identity; compose all finite mask steps, surviving masks and errors, including the one-coordinate case. Then compose the full original correlation principle. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

@@ -1,0 +1,85 @@
+{
+  "modules": [
+    "Hindman168/FiniteComplexMassMean.lean",
+    "Hindman168/UniformBoxMassComparison.lean",
+    "Hindman168/AlignmentBoxEndpointError.lean",
+    "Hindman168/AlignmentActualBoxEndpointError.lean"
+  ],
+  "names": [
+    "Hindman168.FiniteMass.complexExpectation",
+    "Hindman168.FiniteMass.complexExpectation_eq_sum",
+    "Hindman168.FiniteMass.complexExpectation_sub",
+    "Hindman168.FiniteMass.complexExpectation_difference_bound",
+    "Hindman168.FiniteMass.complexExpectation_uniformFinset",
+    "Hindman168.FiniteMass.complexExpectation_sign_difference",
+    "Hindman168.FiniteMass.uniformFinsetMass_distance_bound",
+    "Hindman168.FiniteMass.uniformFinsetMass_pi",
+    "Hindman168.FiniteMass.uniformBox_distance_bound",
+    "Hindman168.FiniteMass.finiteComplexBoxMean_difference_bound",
+    "Hindman168.alignment_forward_box_mean_error",
+    "Hindman168.alignment_endpoint_box_mean_error",
+    "Hindman168.alignment_actual_box_endpoint_error_eventually"
+  ],
+  "declarations": {
+    "Hindman168/FiniteComplexMassMean.lean": [
+      [
+        "def",
+        "complexExpectation"
+      ],
+      [
+        "theorem",
+        "complexExpectation_eq_sum"
+      ],
+      [
+        "theorem",
+        "complexExpectation_sub"
+      ],
+      [
+        "theorem",
+        "complexExpectation_difference_bound"
+      ],
+      [
+        "theorem",
+        "complexExpectation_uniformFinset"
+      ],
+      [
+        "theorem",
+        "complexExpectation_sign_difference"
+      ],
+      [
+        "theorem",
+        "uniformFinsetMass_distance_bound"
+      ]
+    ],
+    "Hindman168/UniformBoxMassComparison.lean": [
+      [
+        "theorem",
+        "uniformFinsetMass_pi"
+      ],
+      [
+        "theorem",
+        "uniformBox_distance_bound"
+      ],
+      [
+        "theorem",
+        "finiteComplexBoxMean_difference_bound"
+      ]
+    ],
+    "Hindman168/AlignmentBoxEndpointError.lean": [
+      [
+        "theorem",
+        "alignment_forward_box_mean_error"
+      ],
+      [
+        "theorem",
+        "alignment_endpoint_box_mean_error"
+      ]
+    ],
+    "Hindman168/AlignmentActualBoxEndpointError.lean": [
+      [
+        "theorem",
+        "alignment_actual_box_endpoint_error_eventually"
+      ]
+    ]
+  }
+}

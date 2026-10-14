@@ -1,0 +1,178 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCompactHorizontalPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.265999999828637,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalCompactHorizontalPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCompactHorizontalPolynomial.lean",
+    "source_sha256": "a00b3822e6fab18bc105015e069eaa5a00b9ac5827a7324834a61632e0bdf815"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCompactNormalizedPairSamples.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.609000000171363,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalCompactNormalizedPairSamples-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCompactNormalizedPairSamples.lean",
+    "source_sha256": "91f91d5c315e2e32a7f3ff469f592b4cc5320f65fa8aa9dbbf7b499e0c313998"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCompactNormalizedPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.328999999910593,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalCompactNormalizedPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCompactNormalizedPolynomial.lean",
+    "source_sha256": "4690d6acbd0f3b7b118216ddd4c8dd421a7eaad6a0e326e1620c9fabd1ada965"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCompactReducedPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.875,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalCompactReducedPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCompactReducedPolynomial.lean",
+    "source_sha256": "eaa14fcf5044606186f6d635474b7a20b00133fa4f583e36029275790a01b263"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalOriginalPolynomialRecursion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.219000000040978,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalOriginalPolynomialRecursion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalOriginalPolynomialRecursion.lean",
+    "source_sha256": "5d7372188935c2dd86ee733e9082c3ff5f73b6a3559eb58743f715e20e72c33e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalSelectedRepresentatives.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.875,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalSelectedRepresentatives-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalSelectedRepresentatives.lean",
+    "source_sha256": "c0fcb955ec3a1276abc705a11ad3dab4bac400535989a4df664191678e201df9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalTerminalPolynomialDiscrepancy.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.516000000061467,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalTerminalPolynomialDiscrepancy-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalTerminalPolynomialDiscrepancy.lean",
+    "source_sha256": "84dceaad21226fe4b99c1ed76230ad734c562a263ad08ab17ed3ed7c170c7997"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalWeightedPolynomialFixedGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.468000000109896,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalWeightedPolynomialFixedGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalWeightedPolynomialFixedGeometry.lean",
+    "source_sha256": "c2b3ff40bc9681f751d489c7cb4db61cf35a0b46d08aa68aa139e83a274e277f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalWeightedPolynomialRecursion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.29699999978766,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalWeightedPolynomialRecursion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalWeightedPolynomialRecursion.lean",
+    "source_sha256": "969ab37762801d0018837c9d8c1c4dee37350cf464258e40d6c0a6d838c0d6a4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalWeightedPolynomialState.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.813000000081956,
+    "log": "round-native-rational-polynomial-recursion-NativeRationalWeightedPolynomialState-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalWeightedPolynomialState.lean",
+    "source_sha256": "7c1006e7f5f3ac6383ffdc35e2c0a879f885c2868424334baa1ab8b02f424cbd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughVectorZeroTrimProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.296999999787658,
+    "log": "round-native-rational-polynomial-recursion-RoughVectorZeroTrimProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughVectorZeroTrimProjection.lean",
+    "source_sha256": "c2c6f54d2b99cc02ca20d29965ae2d266652f8adbe23b723c57c18f4ed45181a"
+  }
+]

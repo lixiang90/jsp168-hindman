@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.530999999959022,
+  "log": "round-raw-array-stability-probability-axioms.txt",
+  "log_sha256": "d6b43a46d8185e12038231930ea4326090781a291c53886d2b77526daac5005c"
+}

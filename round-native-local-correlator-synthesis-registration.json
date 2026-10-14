@@ -1,0 +1,90 @@
+{
+  "baseline_hash_count": 1184,
+  "modules": [
+    "Hindman168/NativeLocalCellRecipeSynthesis.lean",
+    "Hindman168/NativeIndexedCellRecipeSynthesis.lean",
+    "Hindman168/NativePeriodCellRecipeSynthesis.lean",
+    "Hindman168/NativeRawPeriodCellProjection.lean",
+    "Hindman168/MasterRawPeriodCellProjection.lean",
+    "Hindman168/CyclicIntervalNativeCorrelators.lean",
+    "Hindman168/MasterIntervalInverseProjection.lean",
+    "Hindman168/MasterInverseProjectionThreshold.lean"
+  ],
+  "names": [
+    "Hindman168.native_local_cell_recipe_synthesis",
+    "Hindman168.HasNativeRealCellCorrelator",
+    "Hindman168.native_indexed_real_cell_recipe_synthesis",
+    "Hindman168.HasNativePeriodCellCorrelator",
+    "Hindman168.native_period_cell_correlator_to_real",
+    "Hindman168.native_indexed_period_cell_recipe_synthesis",
+    "Hindman168.native_projection_lower_from_raw_period_correlators",
+    "Hindman168.MasterParameterConditions.raw_period_correlator_projection_lower",
+    "Hindman168.native_interval_inverse_to_cell_correlators",
+    "Hindman168.MasterParameterConditions.interval_inverse_projection_lower",
+    "Hindman168.MasterParameterConditions.interval_inverse_projection_norm_threshold"
+  ],
+  "theorem_count": 9,
+  "selected_report_count": 11,
+  "declarations": {
+    "Hindman168/NativeLocalCellRecipeSynthesis.lean": [
+      [
+        "theorem",
+        "native_local_cell_recipe_synthesis"
+      ]
+    ],
+    "Hindman168/NativeIndexedCellRecipeSynthesis.lean": [
+      [
+        "def",
+        "HasNativeRealCellCorrelator"
+      ],
+      [
+        "theorem",
+        "native_indexed_real_cell_recipe_synthesis"
+      ]
+    ],
+    "Hindman168/NativePeriodCellRecipeSynthesis.lean": [
+      [
+        "def",
+        "HasNativePeriodCellCorrelator"
+      ],
+      [
+        "theorem",
+        "native_period_cell_correlator_to_real"
+      ],
+      [
+        "theorem",
+        "native_indexed_period_cell_recipe_synthesis"
+      ]
+    ],
+    "Hindman168/NativeRawPeriodCellProjection.lean": [
+      [
+        "theorem",
+        "native_projection_lower_from_raw_period_correlators"
+      ]
+    ],
+    "Hindman168/MasterRawPeriodCellProjection.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.raw_period_correlator_projection_lower"
+      ]
+    ],
+    "Hindman168/CyclicIntervalNativeCorrelators.lean": [
+      [
+        "theorem",
+        "native_interval_inverse_to_cell_correlators"
+      ]
+    ],
+    "Hindman168/MasterIntervalInverseProjection.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.interval_inverse_projection_lower"
+      ]
+    ],
+    "Hindman168/MasterInverseProjectionThreshold.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.interval_inverse_projection_norm_threshold"
+      ]
+    ]
+  }
+}

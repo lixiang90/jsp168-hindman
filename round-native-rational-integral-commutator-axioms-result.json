@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.54700000002049,
+  "log": "round-native-rational-integral-commutator-axioms.txt",
+  "log_sha256": "4e20f04e447e2c85163cff1045c49b9c4c3aa4fffa7776b59bdb376a2c02a083"
+}

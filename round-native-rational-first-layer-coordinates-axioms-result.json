@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.187000000150874,
+  "log": "round-native-rational-first-layer-coordinates-axioms.txt",
+  "log_sha256": "ab0b55c450599756592df6d420c85f8ad0fc9499e16177f03817177ee17637a2"
+}

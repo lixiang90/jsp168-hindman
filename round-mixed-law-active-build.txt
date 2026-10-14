@@ -1,0 +1,8 @@
+⚠ [4130/4131] Replayed Hindman168.FiniteWeightedMomentProducts
+warning: Hindman168/FiniteWeightedMomentProducts.lean:91:14: Variable name `hCg` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [4131/4131] Built Hindman168.MasterDualWeightedLaw (7.7s)
+Build completed successfully (4131 jobs).

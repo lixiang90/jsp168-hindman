@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 1013 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "The difference convention is v-u, matching the paper increments. The density at a is the Haar mean of r(u)r(u+a). Its expectation identity follows by the actual additive translation equivalence, with no change of normalization.",
+    "Nonnegativity and total mean one are derived from the original density assumptions. The upper bound uses only r(u+a)<=C and the original total mean one, so taking differences does not square the density bound.",
+    "The product Haar identity explicitly accounts for the cardinality of the full function space and all coordinate denominators. Difference density factorization therefore expresses genuine independent coordinates.",
+    "The joint density upper bound is C^d, including the zero-dimensional empty product. The final cube estimate explicitly assumes C>0 and arbitrary unit-bounded real test functions.",
+    "The final theorem starts from the actual independently sampled two-tuple expectation, converts it exactly to its density representation and applies the previously proved density cube estimate. All cell probabilities are retained.",
+    "Nine theorems and one definition are individually kernel audited. Short-interval pushforward density estimates and harmonic periodization errors are still needed for the original sampling laws. Bessel, inverse correlator existence and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/HaarDifferenceDensity.lean",
+    "Hindman168/HaarIndependentDensities.lean",
+    "Hindman168/IndependentDifferenceCubeBound.lean"
+  ],
+  "verified": {
+    "project_modules": 998,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1007,
+    "source_config_hashes": 1016,
+    "build_jobs": 4952,
+    "axiom_reports": 4829,
+    "new_theorems": 9,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 10,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Independent increment differences now have an exact Haar density representation and the actual weighted two-tuple cube expectation satisfies the C^d subgroup Gowers bound. Instantiation with the original short-interval pushforward densities and the analytic passage from harmonic laws to the periodized Haar cell model, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

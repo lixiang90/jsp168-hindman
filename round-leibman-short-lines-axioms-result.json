@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.952999999979511,
+  "log": "round-leibman-short-lines-axioms.txt",
+  "log_sha256": "2bed059d5ec4b626f7c3475f517e096e59304dd7c6b1b482987f14a390e76978"
+}

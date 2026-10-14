@@ -1,0 +1,31 @@
+{
+  "baseline_hash_count": 1059,
+  "modules": [
+    "Hindman168/FullWindowShortCubeBound.lean",
+    "Hindman168/MasterShortCubeRemainder.lean"
+  ],
+  "names": [
+    "Hindman168.fullWindow_harmonic_shortCube_gowers_bound",
+    "Hindman168.MasterParameterConditions.cell_width_cutoff_ratio_tendsto",
+    "Hindman168.MasterParameterConditions.shortCube_fullWindow_remainder_tendsto"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/FullWindowShortCubeBound.lean": [
+      [
+        "theorem",
+        "fullWindow_harmonic_shortCube_gowers_bound"
+      ]
+    ],
+    "Hindman168/MasterShortCubeRemainder.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.cell_width_cutoff_ratio_tendsto"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.shortCube_fullWindow_remainder_tendsto"
+      ]
+    ]
+  }
+}

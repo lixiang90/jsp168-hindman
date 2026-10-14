@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "The full-window theorem uses the actual integerMass and the exact same finite cell probabilities as the aligned theorem. The added term is twice the actual deleted mass, not an assumed small error.",
+    "The short-cube test is proved unit-bounded before applying finite retained-probability comparison. Positive original normalizer supplies total one and positive retained mass is explicit.",
+    "The master R/X limit is dominated by the already proved W(R+1)/X rate using primorial>=1, without an extra growth assumption.",
+    "The combined remainder limit adds R/X to twice the already proved actual endpoint mass loss. Zero-normalizer stages remain in the sequences.",
+    "Three new theorems are individually kernel audited. The fully instantiated master Gowers theorem and the Bessel/inverse inputs remain unfinished."
+  ],
+  "new_modules": [
+    "Hindman168/FullWindowShortCubeBound.lean",
+    "Hindman168/MasterShortCubeRemainder.lean"
+  ],
+  "verified": {
+    "project_modules": 1043,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1052,
+    "source_config_hashes": 1061,
+    "build_jobs": 4997,
+    "axiom_reports": 4942,
+    "new_theorems": 3,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 3,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The full original-window short-cube bound and vanishing master remainder R/X plus twice the deleted mass are proved. Instantiating the complete bound with the actual master quotient and short-length geometry remains, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

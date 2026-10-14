@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalProductFaceFailure.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.57799999997951,
+    "log": "round-alignment-original-face-probability-AlignmentOriginalProductFaceFailure-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalProductFaceFailure.lean",
+    "source_sha256": "3feb8fabb2d948b7bfaa4dcdc48abba27c1853576fcebf0340e6b2a873a65113"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalProductFacePosterior.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.375,
+    "log": "round-alignment-original-face-probability-AlignmentOriginalProductFacePosterior-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalProductFacePosterior.lean",
+    "source_sha256": "2bbd2e865f5bce21a67d4e78d2c89dc5307329f02d29491513609263609a16bf"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalProductFaceFiniteFamily.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.172000000020489,
+    "log": "round-alignment-original-face-probability-AlignmentOriginalProductFaceFiniteFamily-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalProductFaceFiniteFamily.lean",
+    "source_sha256": "4dfe57eb55b56d2dcdb246616c888287a37dadf7e6a88fd491ae372e0c4c3357"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalProductAllFacesPosterior.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.5,
+    "log": "round-alignment-original-face-probability-AlignmentOriginalProductAllFacesPosterior-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalProductAllFacesPosterior.lean",
+    "source_sha256": "3d9464f7a146c2a0738afbeda9acf1508d46097313ee5a37adf38422aaa3e1b6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteTypicalExposureEventBound.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.297000000020489,
+    "log": "round-alignment-original-face-probability-FiniteTypicalExposureEventBound-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteTypicalExposureEventBound.lean",
+    "source_sha256": "6dba998b7f982ea50b9e39e51767d53ce63b82f5797ec5366633de84a5daa3e7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalProductAllFacesGlobal.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.952999999979511,
+    "log": "round-alignment-original-face-probability-AlignmentOriginalProductAllFacesGlobal-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalProductAllFacesGlobal.lean",
+    "source_sha256": "7fa91074a1d31ac994231eef03367a3a465636ca43206a1f689ac820b2c31d63"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalProductFacePositiveSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.780999999959022,
+    "log": "round-alignment-original-face-probability-AlignmentOriginalProductFacePositiveSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalProductFacePositiveSelection.lean",
+    "source_sha256": "a95967435a9ff21b2b77b611c92ff407388d5cd56a5f70f3672bdce0a9abe046"
+  }
+]

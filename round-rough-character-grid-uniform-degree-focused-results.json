@@ -1,0 +1,162 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeStretchedLieTerminal.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.75,
+    "log": "round-rough-character-grid-uniform-degree-RoughNativeStretchedLieTerminal-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeStretchedLieTerminal.lean",
+    "source_sha256": "14f4040fbaf97d3aa7652db27336b4be4a9e086b8e480af7bcd5b2b8a1fc9bf9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughVectorZeroTrim.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.609999999869615,
+    "log": "round-rough-character-grid-uniform-degree-RoughVectorZeroTrim-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughVectorZeroTrim.lean",
+    "source_sha256": "80b05ed8e1cf7c040db2116bb27cdff010af86afa3d1f6af9f40bd161e2986f6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeUniformDifferenceDegree.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.437000000150874,
+    "log": "round-rough-character-grid-uniform-degree-RoughNativeUniformDifferenceDegree-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeUniformDifferenceDegree.lean",
+    "source_sha256": "53fdd0fad2354f736dc11b690cbb0596049eb57c42c7e5a51ae174da2484c083"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughFiniteFunctionalGrid.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.812999999849126,
+    "log": "round-rough-character-grid-uniform-degree-RoughFiniteFunctionalGrid-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughFiniteFunctionalGrid.lean",
+    "source_sha256": "5fbfd24fa7ce5dcbdadc2f12099577ccfcb1057952b3b9cbee33207e333a2d98"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeCharacterBasisMultipliers.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.0,
+    "log": "round-rough-character-grid-uniform-degree-RoughNativeCharacterBasisMultipliers-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeCharacterBasisMultipliers.lean",
+    "source_sha256": "e4c98ca77a4dc2608761f9f74acde6a40d6fd13a67d2174063c9e0da2d48d330"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeFiniteFunctionalGrid.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.827999999979511,
+    "log": "round-rough-character-grid-uniform-degree-RoughNativeFiniteFunctionalGrid-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeFiniteFunctionalGrid.lean",
+    "source_sha256": "5e896c0059585093425f98958761a4da7d4da28b28065a7484c5b6098da08056"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeFunctionalGridBudget.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.687000000150874,
+    "log": "round-rough-character-grid-uniform-degree-RoughNativeFunctionalGridBudget-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeFunctionalGridBudget.lean",
+    "source_sha256": "74ddf52b265bdf3fcbad3bc843057ccbd53eb4ca682a090b5d987b461b5c456d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeHorizontalCharacterGrid.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.390999999828637,
+    "log": "round-rough-character-grid-uniform-degree-RoughNativeHorizontalCharacterGrid-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeHorizontalCharacterGrid.lean",
+    "source_sha256": "42856b6e9fdafbae335b584ecbd4cc67362b4da69d8a80d7fc173b0f56e5072b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeHorizontalGridNormalization.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.5,
+    "log": "round-rough-character-grid-uniform-degree-RoughNativeHorizontalGridNormalization-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeHorizontalGridNormalization.lean",
+    "source_sha256": "4ce83bbf1011d366beebf0a6a880945e337112333678fd2439b80291c39b0da7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeRealBoxHorizontalTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.625,
+    "log": "round-rough-character-grid-uniform-degree-RoughNativeRealBoxHorizontalTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeRealBoxHorizontalTransfer.lean",
+    "source_sha256": "6ca223cbc0376c56b6701a2b6116b53ec95afa8db777c24ed61d4bd98b52e5d8"
+  }
+]

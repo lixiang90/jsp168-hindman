@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.890000000130385,
+  "log": "round-positive-short-exposure-axioms.txt",
+  "log_sha256": "66571937ec8c6636abf80e27bdf070065983f90a2ab28e4b5641585e5322caf5"
+}

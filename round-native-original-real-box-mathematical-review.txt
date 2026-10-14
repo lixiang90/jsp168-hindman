@@ -1,0 +1,73 @@
+JSP-000168 mathematical/application review, 2026-10-13
+
+Classification: PROGRESS. General native original logarithmic-polynomial and
+corrected real-box finite-list obstruction now proved. StrongConjecture remains
+UNPROVED; this is author-side application review, not independent replay.
+
+1. Genuine ordinary-degree input. For fixed ordinary d, e=max(d,1)>0.
+The TRUE nativeOriginalRationalLieFiltration D e has degree s*e and genuine
+rational/bracket/terminal properties. Raw scalar term degree<=d<=e gives
+true stretched weighted membership. Zero ordinary degree and step bound zero
+are not discarded. The unconditional finite-variable inverse produces the
+actual original nonzero horizontal lattice character. ALL raw monomial rows
+survive unchanged. Complete integer Stirling transfer at ORIGINAL d gives
+ALL original binomial rows under one enlarged natural budget. This proof
+does not rely on d<=s*e, which is false when s=0, or equality of different
+binomial tables without justification. True ordinary projection degree<=d
+is later used for the exact d-truncated binomial expansion.
+
+2. Actual orbit and canonical Haar. The original all-real logarithm identity
+and true exponential/log inverse imply actual quotient orbit equality on
+every integer cube sample. No source equality is inferred from sampled coset
+equality. Probability is the actual nativeNilmanifoldQuotientProbability D,
+with the original metric/topology and quotient measurable instance. The
+abelian Haar is not substituted. A discovered extra borel quotient instance
+in generated initial drafts was removed before verification, avoiding a
+different typing of the canonical measure.
+
+3. Bounded complex observables. R=max(1,max(B,L))>0 is fixed before ALL raw
+source/length/F. The proved normalization lemma gives original unit observable
+R^-1*F, and actual finite mean/canonical integral real-scaling identity gives
+the exact discrepancy norm R^-1 times original. Accuracy eta/R is positive.
+The same original character/grid/norm/two tables result. No global spatial
+Lipschitz assertion about Fourier families or group action is introduced.
+
+4. Literal affine cube. True Option parameter specialization and affine
+substitution b+v preserve original ordinary source degree. All-real log
+identity is checked against actual Q, and original native discrepancy is
+transported through exact integer/natural cube means. The original spatial
+scalar projection equals the literal affine projection polynomial. Actual
+degree<=d gives its genuine COMPLETE constant-plus-positive-binomial expansion.
+The complete coefficient bounds use original N>0; no row is missing. The
+two Finset presentations have explicitly proved extensional equality.
+
+5. Corrected box transfer. Existing rough_native_real_box_horizontal_transfer
+already proves real integer box tiling with boundary strips, true large cube
+selection, factorial denominator clearing, integer translation and location
+error. The NEW actual affine cube theorem supplies ALL its analytic production
+premises. Fixed original grid.image of positive roughBinomialMultiplier is
+finite; every member is NONZERO, horizontal and integral by proved positive
+natural character scaling. ALL original positive spatial monomial coefficients
+are bounded by A'*Z^-weight. Constants precede original box endpoints, Q,p,z,F
+and original source coefficients. Empty dimensions and degree zero are covered.
+
+6. Finite native lists. For each datum the true fixed character list and
+positive A_i,Z_i>=1 precede raw data. R=1+sum(A_i+Z_i) is positive even for
+an empty family and exceeds each A_i,Z_i. Same threshold R and accuracy R
+work simultaneously, using Z>=R>=1 and positivity of Z^-weight. Dependent
+model/group types and SAME original canonical Haar are retained per datum;
+no invalid equality between different quotient records is asserted.
+
+7. Scope and next actual application. This closes the pinned Section 6
+quantitative Leibman equal-cube/box-consequence input in its fixed-data
+existential formulation. It does not prove the paper rough progression
+comparison yet: actual original bad pair may yield full-box OR residue-box
+Haar discrepancy, and the residue sample must be reparametrized with the
+original polynomial, scale and affine coefficients retained. Finite original
+character thinning then needs true raw coefficient inputs to existing smaller
+dimension descent and termination. Separate interval GTZ Gowers correlation
+inverse, full cube/Alignment and final monochromatic FS/FP remain open.
+Explicit delta-power complexity is not certified. Source slab arithmetic and
+all six pinned OpenAI sections are rechecked; repaired bound is not terminal
+obstruction. Old proof hashes/axioms unchanged; standard axioms only. Public
+repository/PR/prize user milestone has not been reached.

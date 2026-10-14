@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.79700000002049,
+  "log": "round-native-rational-multiparameter-inverse-axioms.txt",
+  "log_sha256": "20cdfaef67ed37dd14c0f11a1a27d460b49e46f6100b43b1d1a161ea31ac87db"
+}

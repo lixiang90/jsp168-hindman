@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 16.17199999978766,
+  "log": "round-native-cube-lie-build.txt",
+  "log_sha256": "40796f0fd9ffe6d84df9c106c7efcf3d666c80fbaada770349b41d1795e74195"
+}

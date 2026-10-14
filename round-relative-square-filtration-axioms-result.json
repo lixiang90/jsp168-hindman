@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.186999999918044,
+  "log": "round-relative-square-filtration-axioms.txt",
+  "log_sha256": "415c38bf7d580337d5aed889f1f452b942924b0139eb497ff17848dcd2582e08"
+}

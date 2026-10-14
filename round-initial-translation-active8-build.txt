@@ -1,0 +1,14 @@
+✔ [4074/4076] Built Hindman168.PredictionSquareRootIntervals (11s)
+✔ [4075/4076] Built Hindman168.PredictionInsertionAsymptotics (10s)
+✖ [4076/4076] Building Hindman168.MasterTranslationScales (11s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\MasterTranslationScales.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterTranslationScales.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterTranslationScales.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterTranslationScales.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterTranslationScales.setup.json --json
+error: Hindman168/MasterTranslationScales.lean:31:9: invalid 'by' tactic, expected type has not been provided
+error: Hindman168/MasterTranslationScales.lean:53:61: Invalid argument name `R` for function `Nat.cast_nonneg`
+
+Hint: Perhaps you meant one of the following parameter names:
+  • `α`: R̵α̲
+  • `n`: R̵n̲
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.MasterTranslationScales
+error: build failed

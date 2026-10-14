@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The previous round was rechecked before saving this baseline.",
+    "The natural prediction-modulus quotient is proved equal to the actual rough polynomial value using a positive base modulus, including zero evaluations.",
+    "A finite-mass good-event bound retains the original coefficients and charges the actual complementary event mass. It assumes only a normalized nonnegative finite law and a statistic bounded above by one.",
+    "The master specialization uses actual conditionMass on primeSampleGood, not replacement uniform tuple weights. Its normalization follows from the already proved event-mass limit.",
+    "On the nonzero rough-coprime event, Bezout gives the full cyclic group as subgroup sum. On the complement the unit bound controls the loss. This proves the exact combining-subgroups estimate in the paper.",
+    "The eventual threshold is uniform in all subsequently quantified cell types and probabilities, positive moduli and dimensions, and bounded real tests. No Bessel or inverse theorem is assumed.",
+    "This does not yet identify the cyclic groups and cells with the previous short-cube theorem or prove the Bessel step. The full target remains unproved."
+  ],
+  "new_modules": [
+    "Hindman168/MasterSubgroupCombination.lean"
+  ],
+  "verified": {
+    "project_modules": 1046,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1055,
+    "source_config_hashes": 1064,
+    "build_jobs": 5000,
+    "axiom_reports": 4949,
+    "new_theorems": 3,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 3,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The original master short-cube bound and conditioned rough-coprimality-to-subgroup-sum Gowers estimate are proved. Their common cyclic-model identification and replica/signed-modulus comparison remain, together with the deep Bessel theorem, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

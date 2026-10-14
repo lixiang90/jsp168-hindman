@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.82800000021234,
+  "log": "round-scalar-mv-inverse-build.txt",
+  "log_sha256": "9d7e73cbab5474a6711040e797f00c3605b4f1a7b616d3c846e35206078cb789"
+}

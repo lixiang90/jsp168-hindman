@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.140000000130385,
+  "log": "round-rough-smooth-quotient-axioms.txt",
+  "log_sha256": "60815bd1d36b0e3affc370008b185fbcac097930f321482e7605b902e188918f"
+}

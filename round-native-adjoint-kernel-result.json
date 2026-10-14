@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 14.078,
+  "log": "round-native-adjoint-axioms.txt",
+  "log_sha256": "b9590b91a924bdde8ef24211e8dc576f43011f6062f1738e5164328dcfe3854a",
+  "terminal": true
+}

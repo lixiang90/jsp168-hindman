@@ -1,0 +1,77 @@
+JSP-000168 / Erdos #172 -- author mathematical review, 2026-10-14
+Previous goal turn: PROGRESS; registered 21 theorems and 7 definitions with a
+terminal full author audit. This round also records actual proof progress.
+StrongConjecture UNPROVED, goal ACTIVE, no unavoidable obstruction established.
+Neither publication milestone nor independent kernel replay has been reached.
+
+Primary reference is the EXACT pinned original OpenAI paper, section 8
+conditional face-invariance proof, original joint-polynomial formula, and the
+paragraph comparing BOTH original cube laws through the denominator-only law.
+Six paper source sections are compared against the pinned Git objects by audit.
+
+1. Literal event. OriginalProductFaceFailure compares literal original cube
+means under original slots versus slots+Pi.single e weight_j. It quantifies
+original boxes, original residue vectors and bounded/Lipschitz observers AFTER
+y. Original microcell pivot p is the genuine sampled p. No source or terminal
+surrogate occurs in this event. Own-pair semantics remain explicit in the
+posterior theorem; unrelated components/targets are never declared invariant.
+
+2. Triangle and posterior. On ACTUAL posterior support, original x/y raw support,
+rough units, original key and original start are derived. The same exposed
+origin Y and actual sample-selected denominator remainder govern BOTH removal
+comparisons and terminal face comparison, with unchanged endpoints and mass
+normalization. Absence of each original removal event yields a strict epsilon/3
+error. Genuine terminal face error is epsilon/3 by already PROVED actual master
+growth/divisibility/geometry. Two norm triangle inequalities give original face
+error < epsilon, contradicting its non-strict failure witness. Actual support
+monotonicity and event union bound give delta/2+delta/2. Conditional independence
+is not supplied. The native arrays, bases and product source data are explicit
+proof parameters despite not occurring in the final literal event; no desired
+analytic cap or new axiom replaces their proved construction.
+
+3. Finite full face list. General fixed finite lists combine original slot,
+weight, face, observer and numerical data before analytic cutoffs. Instantiation
+uses the ACTUAL finite own-pair subtype, every face coordinate and ALL Fin 2
+vertex profiles. Exact zero/one integer representation shows any sample-selected
+original profile occurs in this list. Thus profile/face choice AFTER y is covered.
+Arbitrary unbounded integer profiles do not form a finite list. Empty own pairs
+or coordinates remain empty and cannot generate a fake exception.
+
+4. Original global law. Exact original exposed-key event disintegration is used,
+not an artificial probability. Generic good-key integration preserves total
+mass and charges bad keys their original event mass. Original exposed-key
+Good predicate is exactly original TypicalShortPosterior by a PROVED identity,
+and its failure tends to zero. On actual conditional support, all source
+formula selections evaluated at sampled key equal those at the exposed key;
+conditional events are exactly the fixed source events already capped. This
+proves one uniform global cutoff BEFORE arbitrary functions of the genuine
+exposed key. Formulae can vary with width/key; no unexposed-factor-dependent
+source selection is claimed or used.
+
+5. Positive prescribed sets. All-face failure for arbitrary width-varying
+exposed-key formulae tends to zero by actual global upper bounds and original
+mass nonnegativity. Actual conditioning of probability bounded below preserves
+zero failure via proved finite positive-conditioning domination. Supported sample
+selection follows because every prescribed original positive-mass set cannot
+be contained in this vanishing failure. Selections stay in the ORIGINAL raw
+support. This is fixed-condition selection, not yet the countable simultaneous
+sequence or original local cube-coset limit theorem.
+
+6. Scope. Current assertions concern original PRODUCT observation families.
+Full original marginal continuous cube tests require finite product-span density
+and compact-family approximation or the corresponding weak-law arguments.
+Countable numerical-condition/dimension/target diagonal, local cube-law limits,
+Haar/coset face lift, full Alignment and strong FS/FP synthesis remain. Separate
+GTZ arbitrary-input periodic interval Gowers LINEAR nilsequence inverse is still
+unproved; choose sufficiently large step for its actual finite degree list.
+Native equidistribution is not that correlation inverse. Main full coloring,
+arbitrary witness length, one color for EVERY nonempty sum AND product, positive
+strict increasing rapidly separated witnesses remain unchanged and unproved.
+
+The LITERAL original marginal product cube face failure compares original nilsequence cube means at unchanged original slots and their genuine own-pair face-shifted slots. The event retains ALL original permitted boxes/residues and original numerical bounded/Lipschitz observers after the sampled tuple. Its ACTUAL posterior probability vanishes: BOTH original-to-terminal removal errors and the genuine terminal face discrepancy are combined with epsilon/3 and delta/2 budgets; actual support/key identities identify the SAME endpoint origin and terminal denominator choices. Conditional independence is never assumed.
+ONE actual posterior cutoff covers every fixed finite family of original own pairs, face coordinates, slots, vertex profiles and observer bounds. The COMPLETE fixed finite list of ALL original own pairs, ALL coordinates and ALL zero/one vertex profiles is instantiated with exact Fin 2 representation. The failing face/vertex profile can be chosen AFTER the sampled tuple. No unbounded arbitrary-integer-weight union is asserted, and empty face lists stay empty.
+Exact original exposure disintegration integrates good-key conditional event caps to the original raw law, charging bad keys their ACTUAL original mass. The original marginal product all-face failure now vanishes uniformly BEFORE every original source formula selected by the actual exposed key. Bad-key mass is PROVED to vanish; original formulae can vary with width and exposed key, but never with unexposed factors in this result.
+For arbitrary width-varying original exposed-key source selections the actual original all-face failure probability tends to zero. ANY additional actual conditioning of probability bounded below preserves the zero limit and yields supported ORIGINAL samples in that prescribed set satisfying all original own faces and zero/one vertex profiles at fixed numerical tolerances. Full continuous cube test classes, countable diagonal simultaneity and cube limits/Alignment remain work; product-observation results are not relabeled as those stronger conclusions.
+
+Remaining proof work:
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original marginal PRODUCT-observation cube face discrepancy now vanishes under ACTUAL posterior and original global law, uniformly in original boxes/residues/tests and ALL own pairs/coordinates/zero-one vertex profiles, with genuine exposed-key-selected width-varying source formulae. Positive-mass extra conditioning preserves failure vanishing and admits supported original samples. Remaining: promote product observations through the original complete marginal continuous cube test class (finite product-span approximation as needed), obtain one countable numerical-condition/target/dimension diagonal sequence compatible with original master/data selections, and prove cube limits/local cube coset face invariance/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. No other-component invariance, unexposed-factor-dependent formula uniformity or explicit delta-power law asserted. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

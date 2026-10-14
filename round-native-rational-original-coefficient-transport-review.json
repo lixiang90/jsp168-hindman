@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "Actual affine child coefficients now recover ALL ORIGINAL monomial coefficients at original scale using ONE positive NATURAL period^degree multiplier, exact affine coefficient identities, genuine retained length and signed integer untranslation. Above-degree rows vanish. Circle norms are never divided by the progression step.",
+    "ALL positive REAL error coefficients are controlled from the original degree/zero-linear bounds, including outside the degree. Actual horizontal scalar factor identity and genuine rational-factor coefficient integrality prove ORIGINAL monomial transport with common multiplier period^(degree+1). The rational term vanishes modulo one; the REAL error is bounded explicitly. No summand smallness is inferred from a circle norm.",
+    "Positive natural scaling preserves actual ORIGINAL nonzero horizontal lattice integrality, norm and original finite-grid budget. Integer tensor Stirling weights convert ALL original positive monomial rows to BOTH COMPLETE ORIGINAL tables, including binomial indices outside the degree box.",
+    "For bounded M<=S, q<=B, direction norm<=B and child character norm<=C, ONE ORIGINAL Q budget is chosen BEFORE every raw child character/source/sample. Actual conjugated child horizontal integrality, literal affine child construction, ALL-real source factors, REAL error bounds and actual child coefficient bounds compose to a true ORIGINAL horizontal/grid/nonzero character and BOTH full original coefficient tables under Q. Child coefficient bounds still must be derived by genuine future degree/nonlinearity IH; no same-degree child inverse or full native inverse is assumed or proved.",
+    "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. Actual finite-character geometry/UNIT child-signal budgets and exact constructed child sources are retained. Quantitative step/translation/retained-length/REAL-error/rational-coefficient transport now returns BOTH COMPLETE raw ORIGINAL coefficient tables with true nonzero horizontal/grid character and ONE uniform budget preceding bounded child characters and all raw sources, PROVIDED actual child coefficient bounds are derived by legitimate IH. No same-degree inverse is assumed. Remaining: actual canonical finite-child inverse budgeting from lexicographic IH, genuine well-founded degree+nonlinearity induction, all original small-N cases and full native inverse Fourier assembly. P first/full diagonal alternative, corrected multivariate inverse, separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture remain OPEN. Fixed-data existential constants are distinct from explicit delta-power laws. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached."
+  ],
+  "verified": {
+    "project_modules": 2592,
+    "pntplus_modules": 9,
+    "build_jobs": 6565,
+    "selected_axiom_reports": 10304,
+    "new_declarations": 18,
+    "new_theorems": 16,
+    "new_definitions": 2,
+    "new_structures": 0,
+    "new_structure_generated_reports": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughAffineCommonMultiplier.lean",
+    "Hindman168/RoughAffineCoefficientRecovery.lean",
+    "Hindman168/ScalarRightFactorCoefficientTransport.lean",
+    "Hindman168/MvCompleteBinomialTransfer.lean",
+    "Hindman168/NativeHorizontalNaturalMultiplier.lean",
+    "Hindman168/NativeRationalOriginalCoefficientTransport.lean",
+    "Hindman168/NativeRationalUniformOriginalTransport.lean",
+    "Hindman168/NativeRationalConstructedChildInverseTransport.lean"
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. Actual finite-character geometry/UNIT child-signal budgets and exact constructed child sources are retained. Quantitative step/translation/retained-length/REAL-error/rational-coefficient transport now returns BOTH COMPLETE raw ORIGINAL coefficient tables with true nonzero horizontal/grid character and ONE uniform budget preceding bounded child characters and all raw sources, PROVIDED actual child coefficient bounds are derived by legitimate IH. No same-degree inverse is assumed. Remaining: actual canonical finite-child inverse budgeting from lexicographic IH, genuine well-founded degree+nonlinearity induction, all original small-N cases and full native inverse Fourier assembly. P first/full diagonal alternative, corrected multivariate inverse, separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture remain OPEN. Fixed-data existential constants are distinct from explicit delta-power laws. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "OpenAI quantitative Leibman route; complete original coefficient transport from actual constructed child coefficients, with uniform original character/grid/two-table budget; child IH, complete native inverse and final target remain open",
+  "mathematical_review_file": "round-native-rational-original-coefficient-transport-mathematical-review.txt",
+  "mathematical_review_sha256": "b7c0714411ccbd01955677aec1e22bd37d1aa21378acde419288fc5892a2261c",
+  "source_slab_certificate": "round-native-rational-original-coefficient-transport-slab-review.json",
+  "source_slab_certificate_sha256": "5aa6bd5ec33029cf705914b51e59c5028126895986a19a257be0bd383ff5eea5",
+  "source_slab_script_sha256": "64cac480a164a883a31cb40256c47c1de0be223c81f1cc013519543a636f655d"
+}

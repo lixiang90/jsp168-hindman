@@ -1,0 +1,146 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CosetSectionTransversal.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.188000000081956,
+    "log": "round-native-probability-uniqueness-CosetSectionTransversal-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CosetSectionTransversal.lean",
+    "source_sha256": "9a73d18d1b727c5d605ab95717642c700d45615912fee102662298f12a723327"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CosetSectionCountingRecovery.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.780999999959022,
+    "log": "round-native-probability-uniqueness-CosetSectionCountingRecovery-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CosetSectionCountingRecovery.lean",
+    "source_sha256": "b19652dcd6b549326f15e0f0384f622a1071742c6ca88f3284574975771881f1"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNilmanifoldCountingRecovery.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.297000000020489,
+    "log": "round-native-probability-uniqueness-NativeNilmanifoldCountingRecovery-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNilmanifoldCountingRecovery.lean",
+    "source_sha256": "a7af3af62b78eb8e414bdf669c369f239744849c707b163d3f3dba5fcdc660dc"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNilmanifoldTransversalDomain.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.655999999959022,
+    "log": "round-native-probability-uniqueness-NativeNilmanifoldTransversalDomain-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNilmanifoldTransversalDomain.lean",
+    "source_sha256": "1c56e636101065bce2dc2d217080238486ea6a553b095dd55592719aa469a11f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNilmanifoldProbabilityUniqueness.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.655999999959022,
+    "log": "round-native-probability-uniqueness-NativeNilmanifoldProbabilityUniqueness-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNilmanifoldProbabilityUniqueness.lean",
+    "source_sha256": "b9c54e5d40e6c1f55868779ddbc5990dbbef7a90696a0df44e55bcac1f9711e3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MeasurableSpaceMeasureTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.016000000061467,
+    "log": "round-native-probability-uniqueness-MeasurableSpaceMeasureTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MeasurableSpaceMeasureTransport.lean",
+    "source_sha256": "b86c532bbef8b3b8baa38f72cc29c00ac4016eb6609b6542c69ae2fb174a4bb2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNilmanifoldBorelProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.577999999979511,
+    "log": "round-native-probability-uniqueness-NativeNilmanifoldBorelProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNilmanifoldBorelProbability.lean",
+    "source_sha256": "bd4e00a08d1bec87feb5559d7d70fa4728a020b72eb60959ae0ed53aaa4ff699"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralCanonicalProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.937000000150874,
+    "log": "round-native-probability-uniqueness-NativeCentralCanonicalProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralCanonicalProbability.lean",
+    "source_sha256": "b130b07ed4d835cf08c6af27c2ea8c4477402535e2338c3feef47b03fc3c74bd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralCanonicalDiscrepancy.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.312999999849126,
+    "log": "round-native-probability-uniqueness-NativeCentralCanonicalDiscrepancy-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralCanonicalDiscrepancy.lean",
+    "source_sha256": "2c1d8b04b37e98859e2af3dd1447efba8cdaf93ac9974ac312e2c68670b51219"
+  }
+]

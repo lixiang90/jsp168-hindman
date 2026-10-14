@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeAbelianBinomialObstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.95299999997951,
+    "log": "round-native-abelian-box-NativeAbelianBinomialObstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeAbelianBinomialObstruction.lean",
+    "source_sha256": "c03f20e0bf0c30ef7b7d2c39eb5d9c5bb1e30b7b278cd76abe8361c9fe9a21c2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/BoundedComplexObservableNormalization.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.015000000130385,
+    "log": "round-native-abelian-box-BoundedComplexObservableNormalization-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/BoundedComplexObservableNormalization.lean",
+    "source_sha256": "438d96c0e5033b4566258365aca7b35bc4ba17d43e217762829c57afcdd77dcf"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeAbelianBoundedCubeObstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.890999999828637,
+    "log": "round-native-abelian-box-NativeAbelianBoundedCubeObstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeAbelianBoundedCubeObstruction.lean",
+    "source_sha256": "c719f20558c2591999d53e3d70e40de3848a40c245c9ead03e8300783e4e53d2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughVectorSpatialAffineProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.70299999997951,
+    "log": "round-native-abelian-box-RoughVectorSpatialAffineProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughVectorSpatialAffineProjection.lean",
+    "source_sha256": "27afd12fa87ef31865c3418e972727d6ccd162bc0abe207742862a9cd2b1dacf"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarMvNaturalCubeTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.391000000061467,
+    "log": "round-native-abelian-box-ScalarMvNaturalCubeTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarMvNaturalCubeTransport.lean",
+    "source_sha256": "3dd465e72f414f8d2083334629245e23a890753b66bc8f45bc18994b8b7246ff"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeAbelianAffineCubeInput.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.687999999849126,
+    "log": "round-native-abelian-box-NativeAbelianAffineCubeInput-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeAbelianAffineCubeInput.lean",
+    "source_sha256": "47e593587309a18b64be7face3a71fd8ce5e391e21b6eeb77008c0e885e7e888"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeAbelianRealBoxObstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.280999999959022,
+    "log": "round-native-abelian-box-NativeAbelianRealBoxObstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeAbelianRealBoxObstruction.lean",
+    "source_sha256": "ac575e07715d6a1591cb806ef1bb40191dc6b7f9798c93eab3b9eb4aaf368955"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.75,
+  "log": "round-dyadic-short-bin-domination-axioms.txt",
+  "log_sha256": "21be860c595ec8234a6cfcfd02166d4e62f37b960d3976e85e189723cbb77e7e"
+}

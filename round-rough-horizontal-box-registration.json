@@ -1,0 +1,90 @@
+{
+  "modules": [
+    "Hindman168/RoughHorizontalSplitting.lean",
+    "Hindman168/RoughScaledMonomials.lean",
+    "Hindman168/RoughSlowPolynomial.lean",
+    "Hindman168/RoughModelBoxBounds.lean"
+  ],
+  "names": [
+    "Hindman168.rough_coefficient_model_restrict",
+    "Hindman168.rough_horizontal_coefficient_splitting",
+    "Hindman168.rough_scaled_product_error",
+    "Hindman168.rough_monomial_product_bound",
+    "Hindman168.rough_monomial_eval_finite",
+    "Hindman168.rough_scaled_monomial_bound",
+    "Hindman168.rough_multiindex_lower_degree",
+    "Hindman168.rough_scaled_monomial_pderiv_bound",
+    "Hindman168.roughErrorPolynomial",
+    "Hindman168.rough_error_polynomial_value_bound",
+    "Hindman168.rough_error_polynomial_pderiv_bound",
+    "Hindman168.rough_error_polynomial_box_bounds",
+    "Hindman168.rough_model_box_bounds",
+    "Hindman168.rough_error_polynomial_sub"
+  ],
+  "declarations": {
+    "Hindman168/RoughHorizontalSplitting.lean": [
+      [
+        "theorem",
+        "rough_coefficient_model_restrict"
+      ],
+      [
+        "theorem",
+        "rough_horizontal_coefficient_splitting"
+      ]
+    ],
+    "Hindman168/RoughScaledMonomials.lean": [
+      [
+        "theorem",
+        "rough_scaled_product_error"
+      ],
+      [
+        "theorem",
+        "rough_monomial_product_bound"
+      ],
+      [
+        "theorem",
+        "rough_monomial_eval_finite"
+      ],
+      [
+        "theorem",
+        "rough_scaled_monomial_bound"
+      ],
+      [
+        "theorem",
+        "rough_multiindex_lower_degree"
+      ],
+      [
+        "theorem",
+        "rough_scaled_monomial_pderiv_bound"
+      ]
+    ],
+    "Hindman168/RoughSlowPolynomial.lean": [
+      [
+        "def",
+        "roughErrorPolynomial"
+      ],
+      [
+        "theorem",
+        "rough_error_polynomial_value_bound"
+      ],
+      [
+        "theorem",
+        "rough_error_polynomial_pderiv_bound"
+      ],
+      [
+        "theorem",
+        "rough_error_polynomial_box_bounds"
+      ]
+    ],
+    "Hindman168/RoughModelBoxBounds.lean": [
+      [
+        "theorem",
+        "rough_model_box_bounds"
+      ],
+      [
+        "theorem",
+        "rough_error_polynomial_sub"
+      ]
+    ]
+  }
+}

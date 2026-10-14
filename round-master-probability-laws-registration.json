@@ -1,0 +1,84 @@
+{
+  "baseline_hash_count": 967,
+  "modules": [
+    "Hindman168/HarmonicSubprobability.lean",
+    "Hindman168/SubprobabilityHilbertBounds.lean",
+    "Hindman168/MasterOriginalHilbertLaws.lean"
+  ],
+  "names": [
+    "Hindman168.harmonicNormalizer_nonnegative",
+    "Hindman168.integerMass_eq_zero_of_normalizer_zero",
+    "Hindman168.integerMass_nonnegative",
+    "Hindman168.integerMass_total_zero_or_one",
+    "Hindman168.integerMass_total_le_one",
+    "Hindman168.integerMass_nonnegFact",
+    "Hindman168.finiteMassL2_norm_le_subprob",
+    "Hindman168.subprobabilityBoundedFamily",
+    "Hindman168.subprobabilityClipFamily",
+    "Hindman168.subprobabilityHilbert_clip_distance_le",
+    "Hindman168.masterOriginalBoundedFamily",
+    "Hindman168.MasterParameterConditions.original_masses_eventually_probability",
+    "Hindman168.MasterParameterConditions.original_masses_uniform_stage"
+  ],
+  "theorem_count": 9,
+  "declarations": {
+    "Hindman168/HarmonicSubprobability.lean": [
+      [
+        "theorem",
+        "harmonicNormalizer_nonnegative"
+      ],
+      [
+        "theorem",
+        "integerMass_eq_zero_of_normalizer_zero"
+      ],
+      [
+        "theorem",
+        "integerMass_nonnegative"
+      ],
+      [
+        "theorem",
+        "integerMass_total_zero_or_one"
+      ],
+      [
+        "theorem",
+        "integerMass_total_le_one"
+      ],
+      [
+        "instance",
+        "integerMass_nonnegFact"
+      ]
+    ],
+    "Hindman168/SubprobabilityHilbertBounds.lean": [
+      [
+        "theorem",
+        "finiteMassL2_norm_le_subprob"
+      ],
+      [
+        "def",
+        "subprobabilityBoundedFamily"
+      ],
+      [
+        "def",
+        "subprobabilityClipFamily"
+      ],
+      [
+        "theorem",
+        "subprobabilityHilbert_clip_distance_le"
+      ]
+    ],
+    "Hindman168/MasterOriginalHilbertLaws.lean": [
+      [
+        "def",
+        "masterOriginalBoundedFamily"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.original_masses_eventually_probability"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.original_masses_uniform_stage"
+      ]
+    ]
+  }
+}

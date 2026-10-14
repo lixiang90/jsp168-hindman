@@ -1,0 +1,118 @@
+{
+  "baseline_hash_count": 1265,
+  "modules": [
+    "Hindman168/PrincipalCoordinateChains.lean",
+    "Hindman168/PrincipalCoordinateProducts.lean",
+    "Hindman168/PrincipalBoundedCounts.lean",
+    "Hindman168/SelectedColorRelabelModels.lean"
+  ],
+  "names": [
+    "Hindman168.PrincipalCoordinateChain.block",
+    "Hindman168.PrincipalCoordinateChain.lift",
+    "Hindman168.PrincipalCoordinateChain.lift_block",
+    "Hindman168.PrincipalCoordinateChain.lift_selected",
+    "Hindman168.PrincipalCoordinateChain.lift_range",
+    "Hindman168.PrincipalCoordinateChain.lift_tail_positions",
+    "Hindman168.PrincipalCoordinateChain.lift_pivot_coordinates",
+    "Hindman168.PrincipalCoordinateChain.sampleProducts",
+    "Hindman168.PrincipalCoordinateChain.coefficient",
+    "Hindman168.PrincipalCoordinateChain.coefficient_lift",
+    "Hindman168.PrincipalCoordinateChain.sampleProducts_lift",
+    "Hindman168.MasterParameterConditions.principal_chain_expectation",
+    "Hindman168.principalBoundedCountIntegrand",
+    "Hindman168.principalColorProductMask",
+    "Hindman168.principalBoundedCountIntegrand_lift",
+    "Hindman168.principalColorProductMask_lift",
+    "Hindman168.MasterParameterConditions.principal_bounded_count_expectation",
+    "Hindman168.principalColorProductMask_natural",
+    "Hindman168.selected_color_relabel_models"
+  ],
+  "theorem_count": 13,
+  "selected_report_count": 19,
+  "declarations": {
+    "Hindman168/PrincipalCoordinateChains.lean": [
+      [
+        "def",
+        "PrincipalCoordinateChain.block"
+      ],
+      [
+        "def",
+        "PrincipalCoordinateChain.lift"
+      ],
+      [
+        "theorem",
+        "PrincipalCoordinateChain.lift_block"
+      ],
+      [
+        "theorem",
+        "PrincipalCoordinateChain.lift_selected"
+      ],
+      [
+        "theorem",
+        "PrincipalCoordinateChain.lift_range"
+      ],
+      [
+        "theorem",
+        "PrincipalCoordinateChain.lift_tail_positions"
+      ],
+      [
+        "theorem",
+        "PrincipalCoordinateChain.lift_pivot_coordinates"
+      ]
+    ],
+    "Hindman168/PrincipalCoordinateProducts.lean": [
+      [
+        "def",
+        "PrincipalCoordinateChain.sampleProducts"
+      ],
+      [
+        "def",
+        "PrincipalCoordinateChain.coefficient"
+      ],
+      [
+        "theorem",
+        "PrincipalCoordinateChain.coefficient_lift"
+      ],
+      [
+        "theorem",
+        "PrincipalCoordinateChain.sampleProducts_lift"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.principal_chain_expectation"
+      ]
+    ],
+    "Hindman168/PrincipalBoundedCounts.lean": [
+      [
+        "def",
+        "principalBoundedCountIntegrand"
+      ],
+      [
+        "def",
+        "principalColorProductMask"
+      ],
+      [
+        "theorem",
+        "principalBoundedCountIntegrand_lift"
+      ],
+      [
+        "theorem",
+        "principalColorProductMask_lift"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.principal_bounded_count_expectation"
+      ],
+      [
+        "theorem",
+        "principalColorProductMask_natural"
+      ]
+    ],
+    "Hindman168/SelectedColorRelabelModels.lean": [
+      [
+        "theorem",
+        "selected_color_relabel_models"
+      ]
+    ]
+  }
+}

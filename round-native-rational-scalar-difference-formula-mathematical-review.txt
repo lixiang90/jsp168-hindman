@@ -1,0 +1,123 @@
+JSP-000168 / Erdos #172 -- actual group characters and scalar difference formula
+Author mathematical review, 2026-10-13. Verdict: Partial coverage.
+NOT independent kernel replay or external expert review.
+
+Original scope: every finite coloring of positive integers has arbitrarily
+large positive distinct monochromatic finite-sums/finite-products witnesses.
+StrongConjecture remains a proposition, not a proved theorem. This round is
+an intermediate part of the quantitative Leibman input to the OpenAI route.
+
+Pinned original source: six retained OpenAI sections at
+https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a
+Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026,
+06_rough_progressions. Auxiliary primary source:
+https://arxiv.org/html/0709.3562v4 , section 7, equations 7.10-7.11 and Lemma 7.5;
+corrected multivariate scope: https://arxiv.org/html/1311.6170v3 .
+
+1. Actual conjugation invariance
+The genuine relative group contains (g,g) for every original g and (w,1) for
+every original w in F_2. Normality of F_2 makes g*w*g^(-1) an actual F_2 element.
+The first-difference embedding of that conjugate equals the conjugate of
+(w,1) by (g,g), by a literal subtype/group equality. The ACTUAL relative real
+horizontal character is additive, its value at identity is zero, and its
+inverse value is the negative. Its value on this conjugate therefore equals
+its value on (w,1). This proves original F_2 character invariance under ALL
+original G, not just under F_2 or on Lie algebra infinitesimals.
+
+2. Commutator pairing
+The genuine rational Lie/group filtration proves [g,h] in F_2 using its 1+1
+commutator law and F_1=G. A generic lemma for a conjugation-invariant real
+character of a normal subgroup proves additivity of its commutator pairing
+in each ambient group variable. All generic inputs are discharged in the
+native application by actual filtration, actual real-character additivity
+and the above proved conjugation invariance. These are generic mathematics,
+not an assumed native compatibility interface.
+
+The pairing in its first variable gives an actual group homomorphism to
+Multiplicative R. Its integer-power law proves the exact real n factor for
+ALL integer n, including negative and zero. The conjugated commutator
+t^(-1)*[a^n,t]*t has the same value. Actual lattice-lattice commutators belong
+to the original lattice because it is a subgroup, and actual restricted F_2
+character integrality then gives integer values. Arbitrary a/t are NOT
+claimed to yield lattice-integral horizontal characters.
+
+3. Actual relative group decomposition
+The relative square initially supplies second^(-1)*first in F_2. Actual
+normality conjugates this to first*second^(-1) in SAME F_2. The true relative
+group element is (first*second^(-1),1)*(second,second). Real relative-character
+additivity and actual diagonal Log compatibility give the exact original
+diagonal plus true F_2 difference GROUP-character formula. It is not derived
+by incorrectly treating ambient noncommutative multiplication as addition.
+
+4. Actual nonlinear coefficient polynomial
+For original p with true weighted degree and logarithmic p(0)=0, the actual
+integer sequence P is filtered and P(0)=1. The checked quotient by original
+F_2 proves P(n)*P(1)^(-n) lies in F_2 for every integer n. The native logarithmic
+linear-step polynomial represents this SAME group sequence exactly. Applying
+the previously proved natural-grid aggregate-coefficient recovery proves all
+its canonical aggregate coefficients, including constant, in the true F_2
+model. The submodule coefficient polynomial is constructed from these proofs.
+No assumed F_2 coefficient membership, closure or bounded coefficient premise
+is used. Its native evaluation equals the actual nonlinear group's Log.
+
+The original rational weighted-product laws and actual zero trimming prove
+ordinary degree <=ell, without inflation to s*d. Submodule collection and
+scalar projection preserve this bound. Actual nonlinear group values at 0
+and 1 are identity, so the CONSTRUCTED scalar Q(0)=Q(1)=0. These equalities
+do not need horizontality because Log(identity)=0 and the linear functional
+kills zero. They also give the genuine discrete first difference at zero.
+
+5. Genuine scalar difference formula
+For ANY original weighted starting-zero polynomial, ANY shift representative
+t, integers h/n and genuine relative horizontal character, decompose the
+ACTUAL normalized relative pair by the true group decomposition above.
+The original normalized first-difference element is exactly
+ t^(-1)*q(n+h)*t * t^(-1)*[P(1)^n,t]*t * q(n)^(-1),
+where q(m)=P(m)*P(1)^(-m). This is proved by noncommutative group algebra;
+there is no commutation premise on original P/t.
+
+Applying the actual invariant F_2 real character gives Q(n+h)-Q(n) plus
+n*sigma, with sigma the actual character of [P(1),t]. The diagonal group
+character equals the diagonal scalar polynomial on original p at n.
+The exact relative polynomial exponential identity identifies the LEFT side
+with the SAME actual relative scalar. Thus the integer-sample formula is a
+derived theorem with ONLY the true horizontal-character premise, itself
+supplied by common-character extraction. No scalar formula is an input.
+
+6. COMPLETE polynomial and compact application
+Actual scalar translation is MvPolynomial variable substitution. Its eval
+theorem identifies the shifted argument literally. Polynomial uniqueness on
+the infinite natural grid promotes the actual integer formula to COMPLETE
+real polynomial equality. Hence every monomial/binomial coefficient of that
+polynomial agrees, not merely values on one fixed finite interval.
+
+The final theorem instantiates the original p with SAME compact-normalized
+polynomial and the actual original weighted/zero proofs. It uses SAME chosen
+compact shift representative. The resulting relative polynomial is DEFINITIONALLY
+the one used by the prior dense common-character theorem. No unrelated P/Q or
+new geometry/normalization/filteredness assumption is supplied.
+
+7. What remains and what is NOT claimed
+Small coefficients of the combined scalar do NOT yield small separate diagonal
+or nonlinear components. Dense polynomial separation, then a bracket-polynomial
+alternative and original horizontal-character reconstruction are required.
+In a reducible filtration, true nonlinearity/dimension reduction and actual
+factorization are required in addition to degree induction. This round proves
+the actual scalar input to these arguments, not their conclusions. The true
+Q is in original F_2; no whole-group extension of its character is asserted.
+Univariate results do not settle the corrected multiparameter inverse or the
+separate interval Gowers-to-nilsequence correlation theorem. Rough progression,
+cube/Alignment, positivity and full separated FS/FP extraction remain open.
+
+Author verification: explicitly check every new module with autoImplicit=false;
+build full root; inspect every registered actual axiom report; retain old proof
+hashes/axiom sets and pin Lean 4.32.2/mathlib/PNT+/six OpenAI sections. Final raw
+logs determine successful checking. Trust is standard classical Lean only;
+no sorry/admit/custom axiom/native computation/kernel-bypass shortcut allowed.
+This is NOT independent checker replay, external peer review or prize approval.
+
+Explicit judgments: correspondence to original problem is CONDITIONAL as real
+intermediate proof progress; checked source version passes actual author checks
+only when final logs confirm it; does NOT fully solve original problem; does
+NOT meet full Lean completeness for an award submission. No unavoidable
+obstruction found. Goal ACTIVE; no publication/application milestone reached.

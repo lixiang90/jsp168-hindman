@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/PiCosetQuotient.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.452999999979511,
+    "log": "round-native-joint-array-orbit-PiCosetQuotient-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/PiCosetQuotient.lean",
+    "source_sha256": "a2cba68a7baad46e4d9b9171eaf4cdb0144be171845595f7640abe6b6af08967"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FinitePiLatticeNilpotence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.469000000040978,
+    "log": "round-native-joint-array-orbit-FinitePiLatticeNilpotence-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FinitePiLatticeNilpotence.lean",
+    "source_sha256": "0902591b0c1d96fb3f0aeb86fab33297d74fcc7b24576ee75816e3740b12a31f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeJointArrayGroup.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.04700000002049,
+    "log": "round-native-joint-array-orbit-AlignmentNativeJointArrayGroup-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeJointArrayGroup.lean",
+    "source_sha256": "1f11078b78cd8eecaaeaeb88947deea94972dc135183a6364d39e8cb447085ab"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeJointModelOrbit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.32800000021234,
+    "log": "round-native-joint-array-orbit-AlignmentNativeJointModelOrbit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeJointModelOrbit.lean",
+    "source_sha256": "acc2ace57bd91cd2cd9139a7f202eb2327e618888b1f2e1354e1e95d30b524d4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeJointTranslations.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.531999999890104,
+    "log": "round-native-joint-array-orbit-AlignmentNativeJointTranslations-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeJointTranslations.lean",
+    "source_sha256": "82fc9d117dcf2a61835930bf933c9227979fb7c905f2bb69de974a0504863a24"
+  }
+]

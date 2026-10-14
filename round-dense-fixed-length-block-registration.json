@@ -1,0 +1,16 @@
+{
+  "modules": [
+    "Hindman168/DenseFixedLengthIntervalBlock.lean"
+  ],
+  "names": [
+    "Hindman168.dense_fixed_length_interval_block"
+  ],
+  "declarations": {
+    "Hindman168/DenseFixedLengthIntervalBlock.lean": [
+      [
+        "theorem",
+        "dense_fixed_length_interval_block"
+      ]
+    ]
+  }
+}

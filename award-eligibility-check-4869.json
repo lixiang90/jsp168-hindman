@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-10T08:09:49.172266+00:00",
+  "classification": "ELIGIBILITY_ROUTE_CONFIRMED_NOT_AWARD_CONFIRMED",
+  "problem": "JSP-000168",
+  "catalog_observed": {
+    "mathematical_status": "Solved",
+    "lean_proof": "No",
+    "eligible_to_claim": "No",
+    "solver_claim": "Unavailable",
+    "lean_claim": "Unavailable"
+  },
+  "pr_4869": {
+    "merged_date": "2026-10-08",
+    "purpose": "Catalog attribution update; explicitly not an award claim",
+    "jsp168_scope": "Mathematical solution credited; no Lean formalization credited"
+  },
+  "rule_findings": [
+    "Separate Lean submissions remain allowed for existing mathematical solutions.",
+    "Only complete original-problem proofs qualify; intermediate lemmas or conditional arguments do not.",
+    "Lean acceptance requires mathematical review and independent formal verification; solver registration is not prerequisite.",
+    "Lean claim requires a merged contribution PR, attribution and identity verification, priority review, public notice and recipient confirmation.",
+    "No priority guarantee is established by a currently empty catalog formalization source."
+  ],
+  "sources": [
+    "https://github.com/TheJustinSunPrize/awards/pull/4869",
+    "https://github.com/TheJustinSunPrize/awards/blob/main/problems/README.md",
+    "https://github.com/TheJustinSunPrize/awards/blob/main/docs/award-process.md",
+    "https://github.com/TheJustinSunPrize/awards/blob/main/CONTRIBUTING.md"
+  ],
+  "local_status": "Main formal target remains unproved; complete prize submission is not ready.",
+  "goal_effect": "Continue formalization; do not treat Unavailable as prohibition on future complete Lean submissions."
+}

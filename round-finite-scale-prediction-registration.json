@@ -1,0 +1,118 @@
+{
+  "baseline_hash_count": 1279,
+  "modules": [
+    "Hindman168/FiniteScaleLists.lean",
+    "Hindman168/FiniteScaleColorIndices.lean",
+    "Hindman168/FiniteScalePredictionLimits.lean",
+    "Hindman168/FiniteScalePredictionModels.lean"
+  ],
+  "names": [
+    "Hindman168.finiteScaleBlockProduct",
+    "Hindman168.FiniteScaleClosure",
+    "Hindman168.finiteScaleProductClosure",
+    "Hindman168.finiteScaleBlockProduct_positive",
+    "Hindman168.finiteScaleProductClosure_contains",
+    "Hindman168.finiteScaleProductClosure_block_mem",
+    "Hindman168.finiteScaleProductClosure_positive",
+    "Hindman168.finiteScaleProductClosure_closed",
+    "Hindman168.ScaleColorIndex",
+    "Hindman168.scaleColorFactor",
+    "Hindman168.scaleColorValue",
+    "Hindman168.scaleBlockColorIndex",
+    "Hindman168.scaleColorFactor_positive",
+    "Hindman168.scaleBlockColorIndex_factor",
+    "Hindman168.scaleBlockColorIndex_color",
+    "Hindman168.finite_scale_calibration_limit",
+    "Hindman168.finite_scale_block_calibration_limit",
+    "Hindman168.finite_scale_chain_count_limits",
+    "Hindman168.finite_scale_prediction_models"
+  ],
+  "theorem_count": 12,
+  "selected_report_count": 19,
+  "declarations": {
+    "Hindman168/FiniteScaleLists.lean": [
+      [
+        "def",
+        "finiteScaleBlockProduct"
+      ],
+      [
+        "def",
+        "FiniteScaleClosure"
+      ],
+      [
+        "def",
+        "finiteScaleProductClosure"
+      ],
+      [
+        "theorem",
+        "finiteScaleBlockProduct_positive"
+      ],
+      [
+        "theorem",
+        "finiteScaleProductClosure_contains"
+      ],
+      [
+        "theorem",
+        "finiteScaleProductClosure_block_mem"
+      ],
+      [
+        "theorem",
+        "finiteScaleProductClosure_positive"
+      ],
+      [
+        "theorem",
+        "finiteScaleProductClosure_closed"
+      ]
+    ],
+    "Hindman168/FiniteScaleColorIndices.lean": [
+      [
+        "abbrev",
+        "ScaleColorIndex"
+      ],
+      [
+        "def",
+        "scaleColorFactor"
+      ],
+      [
+        "def",
+        "scaleColorValue"
+      ],
+      [
+        "def",
+        "scaleBlockColorIndex"
+      ],
+      [
+        "theorem",
+        "scaleColorFactor_positive"
+      ],
+      [
+        "theorem",
+        "scaleBlockColorIndex_factor"
+      ],
+      [
+        "theorem",
+        "scaleBlockColorIndex_color"
+      ]
+    ],
+    "Hindman168/FiniteScalePredictionLimits.lean": [
+      [
+        "theorem",
+        "finite_scale_calibration_limit"
+      ],
+      [
+        "theorem",
+        "finite_scale_block_calibration_limit"
+      ],
+      [
+        "theorem",
+        "finite_scale_chain_count_limits"
+      ]
+    ],
+    "Hindman168/FiniteScalePredictionModels.lean": [
+      [
+        "theorem",
+        "finite_scale_prediction_models"
+      ]
+    ]
+  }
+}

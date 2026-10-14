@@ -1,0 +1,162 @@
+{
+  "modules": [
+    "Hindman168/AlignmentJointSourceRestriction.lean",
+    "Hindman168/OriginalIntegerResidualBoxGeometry.lean",
+    "Hindman168/NativeRealResidualGoodMean.lean",
+    "Hindman168/AlignmentActualOriginalResidualGeometry.lean",
+    "Hindman168/AlignmentJointTailResidueMean.lean",
+    "Hindman168/OrderedRemovalTelescope.lean",
+    "Hindman168/AlignmentTailTupleOriginalData.lean",
+    "Hindman168/AlignmentJointActualRemovalStep.lean",
+    "Hindman168/AlignmentJointActualRemovalChain.lean",
+    "Hindman168/AlignmentJointOriginalBoxRemovalFailure.lean",
+    "Hindman168/AlignmentJointOriginalBoxRemovalPosterior.lean",
+    "Hindman168/AlignmentOriginalCubeCRTMean.lean",
+    "Hindman168/AlignmentJointOriginalBoxRemovalFiniteChoices.lean"
+  ],
+  "names": [
+    "Hindman168.alignment_joint_removed_native_source_restriction",
+    "Hindman168.alignmentJointTailSpatialSource",
+    "Hindman168.alignment_joint_removed_native_actual_tail_spatial_source",
+    "Hindman168.original_integer_residual_box_geometry",
+    "Hindman168.native_real_residual_good_integer_mean",
+    "Hindman168.alignmentOriginalResidualUpper",
+    "Hindman168.alignment_actual_original_residual_geometry_eventually",
+    "Hindman168.alignmentJointTailResidueMean",
+    "Hindman168.alignment_tail_retained_insert_product",
+    "Hindman168.alignment_joint_tail_good_mean_difference",
+    "Hindman168.orderedRetainedTail",
+    "Hindman168.ordered_retained_tail_subset",
+    "Hindman168.ordered_retained_tail_excludes",
+    "Hindman168.ordered_removal_telescope_le",
+    "Hindman168.alignment_tail_tuple_original_product",
+    "Hindman168.alignment_tail_tuple_original_cube_scale",
+    "Hindman168.alignment_joint_actual_removal_step_eventually",
+    "Hindman168.alignment_joint_actual_removal_chain_eventually",
+    "Hindman168.alignmentJointOriginalBoxRemovalFailure",
+    "Hindman168.alignment_joint_original_box_removal_posterior_vanishing",
+    "Hindman168.alignment_box_class_residue_congr",
+    "Hindman168.alignment_original_cube_crt_complex_mean",
+    "Hindman168.alignment_joint_original_box_removal_finite_choices"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentJointSourceRestriction.lean": [
+      [
+        "theorem",
+        "alignment_joint_removed_native_source_restriction"
+      ],
+      [
+        "def",
+        "alignmentJointTailSpatialSource"
+      ],
+      [
+        "theorem",
+        "alignment_joint_removed_native_actual_tail_spatial_source"
+      ]
+    ],
+    "Hindman168/OriginalIntegerResidualBoxGeometry.lean": [
+      [
+        "theorem",
+        "original_integer_residual_box_geometry"
+      ]
+    ],
+    "Hindman168/NativeRealResidualGoodMean.lean": [
+      [
+        "theorem",
+        "native_real_residual_good_integer_mean"
+      ]
+    ],
+    "Hindman168/AlignmentActualOriginalResidualGeometry.lean": [
+      [
+        "def",
+        "alignmentOriginalResidualUpper"
+      ],
+      [
+        "theorem",
+        "alignment_actual_original_residual_geometry_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentJointTailResidueMean.lean": [
+      [
+        "def",
+        "alignmentJointTailResidueMean"
+      ],
+      [
+        "theorem",
+        "alignment_tail_retained_insert_product"
+      ],
+      [
+        "theorem",
+        "alignment_joint_tail_good_mean_difference"
+      ]
+    ],
+    "Hindman168/OrderedRemovalTelescope.lean": [
+      [
+        "def",
+        "orderedRetainedTail"
+      ],
+      [
+        "theorem",
+        "ordered_retained_tail_subset"
+      ],
+      [
+        "theorem",
+        "ordered_retained_tail_excludes"
+      ],
+      [
+        "theorem",
+        "ordered_removal_telescope_le"
+      ]
+    ],
+    "Hindman168/AlignmentTailTupleOriginalData.lean": [
+      [
+        "theorem",
+        "alignment_tail_tuple_original_product"
+      ],
+      [
+        "theorem",
+        "alignment_tail_tuple_original_cube_scale"
+      ]
+    ],
+    "Hindman168/AlignmentJointActualRemovalStep.lean": [
+      [
+        "theorem",
+        "alignment_joint_actual_removal_step_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentJointActualRemovalChain.lean": [
+      [
+        "theorem",
+        "alignment_joint_actual_removal_chain_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentJointOriginalBoxRemovalFailure.lean": [
+      [
+        "def",
+        "alignmentJointOriginalBoxRemovalFailure"
+      ]
+    ],
+    "Hindman168/AlignmentJointOriginalBoxRemovalPosterior.lean": [
+      [
+        "theorem",
+        "alignment_joint_original_box_removal_posterior_vanishing"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalCubeCRTMean.lean": [
+      [
+        "theorem",
+        "alignment_box_class_residue_congr"
+      ],
+      [
+        "theorem",
+        "alignment_original_cube_crt_complex_mean"
+      ]
+    ],
+    "Hindman168/AlignmentJointOriginalBoxRemovalFiniteChoices.lean": [
+      [
+        "theorem",
+        "alignment_joint_original_box_removal_finite_choices"
+      ]
+    ]
+  }
+}

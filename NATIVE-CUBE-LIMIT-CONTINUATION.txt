@@ -1,0 +1,82 @@
+JSP-000168 continuation, 2026-10-14
+
+Consult verification-manifest.json and its last_round.review_file for the
+terminal author checkpoint. This round is round-native-complete-cube-probability:
+actual native complete-test all-face probability vanishing and heterogeneous
+ALL-target positive-event countable selection. StrongConjecture remains
+UNPROVED; goal ACTIVE; no unavoidable obstruction established. Continue the
+user's full goal, including eventual public repository, PR and prize application.
+
+Closed inputs:
+- Literal original native cube states have exact readings at ALL original
+  integer slots. Original empirical native/product/translated-face means use
+  the SAME original ceil-box/residue grid and normalization.
+- Every fixed native cylinder detector is an actual duplicated original
+  component/slot product with genuine numerical bounds. Exact original
+  sample/face identities instantiate the old original all-product-face cap.
+- A finite detector union derives unconditional ACTUAL native bounded/Lipschitz
+  all-face failure vanishing, with one cutoff before every key-selected source.
+  ALL boxes/residues/tests/own faces/zero-one profiles follow the raw sample.
+- Positive extra events preserve zero failure and contain supported good
+  samples. One countable slow diagonal works on any W(j)->infinity sequence.
+- AlignmentAllTargetsNativeCountableSelection allows heterogeneous target
+  tails T(q), native model families/index types, determining evaluations/bases,
+  cube dimensions, numerical conditions and original source choices, on the
+  SAME original raw-law sample sequence and prescribed positive events.
+- The actual exposure-fixed polynomial source quotient equals the original
+  native cube state at every signed integer cube sample. The raw-supported
+  self-exposure wrapper derives rough coprimality and first-residue congruence.
+  No unsampled source extension substitutes for a sampled state.
+
+Immediate next route: ORIGINAL section 7 local cube laws.
+
+IMPORTANT source audit: 08_alignment.tex 377 uses a LINEAR joint array orbit
+adapted to its LOWER CENTRAL filtration, of step at most s. A loose ordinary
+log-degree bound (or stretched filtration) is NOT a substitute for that input.
+Preserve the original step s and cube dimensions through s+1.
+
+1. Construct/identify the actual joint point orbit in the real native finite
+   product. Existing alignmentNativeJointModelOrbit_linear and
+   alignmentNativeModelOrbit_linear give exact step^ell * base array identities.
+   For a fixed sampled target T, tau=original tail product, the canonical
+   cube exponent is k_nu+tau*(ell_0+sum_j weight_nu_j*ell_j), with fixed k_nu
+   and original own-coordinate progression table. Derive k_nu exactly from
+   alignmentCubeBase/Vertex and the original integer residue correction.
+   Across original targets use the genuine heterogeneous product and their
+   own tau values. All target marginal projections must be actual.
+2. For genuine cube vertices, duplicate original model factors by
+   (factor,vertex) and use weight(factor,vertex,j)=the zero/one vertex bit.
+   Prove that the original native cube tuple is exactly the vertex tuple of
+   the same joint point orbit at ell_0+sum vertex_j*ell_j. The native probability
+   theorem already covers these profiles; no joint other-marginal invariance
+   should be inferred from its individual marginal statements.
+3. Prove adaptation of this LINEAR orbit to the original lower central
+   filtration. Integer group differences are elementary; the exact all-real
+   logarithmic coefficient/filtration formulation in the paper must be
+   supplied before using its sequential adapted factorization theorem.
+4. Formalize the pinned 07_cube_limits.tex sequential smooth/equidistributed/
+   periodic factorization with ONE fixed rational filtration H_bullet,
+   actual period d0 and rational representatives after a subsequence.
+   Preserve all coefficient irrationality, genuine finite descent and all
+   fixed cube dimensions on the SAME factorization. Do not insert a
+   factorization/equidistribution oracle as an axiom or circular premise.
+5. Derive actual simultaneous local cube-Haar laws, including arbitrary
+   fixed-modulus restrictions and uniform permitted boxes/tests. The period
+   may be selected AFTER the already constructed all-modulus diagonal.
+   Take the sequence/length limit BEFORE alpha->0. Then transfer actual
+   marginal face invariance to the projected Haar measures and use full
+   support and homeomorphic face actions to preserve the local cube cosets.
+6. Original joint face lifts and full Alignment synthesis remain. Existing
+   upper-face group/rational/lattice machinery is substantial but does not
+   establish the general local cube law by itself.
+
+Separate deep input remains: arbitrary-input GTZ interval Gowers LINEAR
+nilsequence inverse with enough native step for the actual finite degree list.
+The previously proved equidistribution inverse is not this theorem.
+Final SAME-color ALL nonempty sums AND products, positive distinct rapidly
+separated witnesses and arbitrary original coloring/length remain UNPROVED.
+
+No independent kernel replay/external peer review or explicit delta-power
+rate is claimed. The repaired earlier slab estimate is not an unavoidable
+obstruction. Publication/PR/prize milestone remains pending until completion
+or a genuine unavoidable obstruction, in the user's requested order.

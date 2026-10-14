@@ -1,0 +1,50 @@
+{
+  "exact_report_count": 2823,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_free_reports": [
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.maskDescendant_encoding_injective"
+  ],
+  "new_reports": [
+    "Hindman168.pieceRecipeFactor_abs_le",
+    "Hindman168.pieceRecipeFactor_on_piece",
+    "Hindman168.pieceRecipeProduct_on_piece",
+    "Hindman168.pieceRecipeCubeSum_on_piece",
+    "Hindman168.pieceRecipeCubeSum_abs_le",
+    "Hindman168.cubeVertex_nonempty_of_pos",
+    "Hindman168.pieceRecipeDualInput_admissible",
+    "Hindman168.pieceRecipeDualInput_zeroPrime_formula",
+    "Hindman168.finiteMass_expectation_list_map_sum",
+    "Hindman168.pieceRecipeZeroDualSum_eq_expectation",
+    "Hindman168.zeroPrimeRecipeShiftMass_slot_bounds",
+    "Hindman168.zeroPrimeRecipeVertex_distance_bound",
+    "Hindman168.intervalInteriorRoot_shift_quotient",
+    "Hindman168.zeroPrimeRecipeVertex_piece_stable",
+    "Hindman168.zeroPrimeCubeMargin_scale_bound",
+    "Hindman168.zeroPrimeRecipeVertex_quotient",
+    "Hindman168.pieceLinearOrbit_zeroPrimeVertex",
+    "Hindman168.upperFaceCubeGroup_piece_linear_recipe_family",
+    "Hindman168.pieceRecipeCubeSum_linear_good_root",
+    "Hindman168.zeroPrimeRecipeShiftMass_nonneg",
+    "Hindman168.zeroPrimeRecipeShiftMass_total",
+    "Hindman168.pieceRecipeOriginalDual_abs_le",
+    "Hindman168.finiteMass_goodRoot_weighted_error",
+    "Hindman168.pieceRecipeOriginalDual_linear_good_root",
+    "Hindman168.pieceRecipeOriginalDual_error_bound",
+    "Hindman168.finiteMass_weighted_recipe_list_pairing",
+    "Hindman168.pieceRecipeZeroDualSum_pairing_formula",
+    "Hindman168.pieceRecipeZeroDualSum_pairing_bound",
+    "Hindman168.pieceRecipeZeroDualSum_pairing_tendsto_zero",
+    "Hindman168.periodicCellWindow_mem_iff",
+    "Hindman168.periodicCellCount_eq_card",
+    "Hindman168.periodicCellCount_nonneg",
+    "Hindman168.periodicCellCount_discrepancy",
+    "Hindman168.periodicCell_end_strips_bound",
+    "Hindman168.periodicCell_boundary_count_bound"
+  ]
+}

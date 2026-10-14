@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.95299999997951,
+  "log": "round-native-fourier-pair-build.txt",
+  "log_sha256": "4e12c6e89785aa39b8088b70becc8d48ebe123c255f49317a3b6e693d33ddd3f"
+}

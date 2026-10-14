@@ -1,0 +1,69 @@
+{
+  "baseline_hash_count": 1121,
+  "modules": [
+    "Hindman168/NestedMixedDualRecursion.lean",
+    "Hindman168/NestedMixedDualCoefficientStructure.lean",
+    "Hindman168/NestedMixedDualUniformThreshold.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedDualRecursiveCoefficient",
+    "Hindman168.subgroupMixedDualRecursiveCoefficient_abs_le_one",
+    "Hindman168.subgroupMixedDualRecursiveCoefficient_zero",
+    "Hindman168.subgroupNestedMixedDualCoefficient",
+    "Hindman168.subgroupMixedDualFunction_nested_translate_expansion",
+    "Hindman168.subgroupNestedMixedDualCoefficient_abs_le_one",
+    "Hindman168.mixedDualHilbert_recursive_coefficient_target",
+    "Hindman168.mixedDualHilbert_nested_coefficient_target",
+    "Hindman168.nestedMixedDualFamily_translate_expansion",
+    "Hindman168.mixedDualHilbert_nested_pair_gowers_threshold"
+  ],
+  "theorem_count": 8,
+  "declarations": {
+    "Hindman168/NestedMixedDualRecursion.lean": [
+      [
+        "def",
+        "subgroupMixedDualRecursiveCoefficient"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualRecursiveCoefficient_abs_le_one"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualRecursiveCoefficient_zero"
+      ],
+      [
+        "def",
+        "subgroupNestedMixedDualCoefficient"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_nested_translate_expansion"
+      ],
+      [
+        "theorem",
+        "subgroupNestedMixedDualCoefficient_abs_le_one"
+      ]
+    ],
+    "Hindman168/NestedMixedDualCoefficientStructure.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_recursive_coefficient_target"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_nested_coefficient_target"
+      ],
+      [
+        "theorem",
+        "nestedMixedDualFamily_translate_expansion"
+      ]
+    ],
+    "Hindman168/NestedMixedDualUniformThreshold.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_nested_pair_gowers_threshold"
+      ]
+    ]
+  }
+}

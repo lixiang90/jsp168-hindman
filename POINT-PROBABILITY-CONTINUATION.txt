@@ -1,0 +1,69 @@
+JSP-000168 / Erdos #172, 2026-10-14. Goal ACTIVE; StrongConjecture UNPROVED.
+No unavoidable obstruction established; public repository/PR/prize pending.
+Use CURRENT-STATUS.txt and verification-manifest.json for terminal status.
+
+round-native-point-probability adds NINE modules after native-point-mixture.
+UnitIntervalProbability: volume restricted to Ioc 0 1, actual mass one.
+FiniteProbabilityMixture: inverse cardinality times finite measure sum;
+probability for nonempty index, exact complex integral for integrable tests.
+NativeRationalCurveHaarImage: product of unitIntervalProbability and actual
+nativeRationalLayerOrbitData subgroup Haar, pushed by (beta,x)->h(beta)x rho.
+Continuous h implies map measurable and image probability. Fubini plus
+bounded continuous observables proves its exact interval-integral formula.
+NativePointMixtureMeasure: actual uniform residue mixture of those curves,
+probability for M>0, exact paper integral formula for ALL continuous complex J.
+
+UnitLipschitzProbabilityConvergence: on compact metric Borel X, convergence
+of complex unit Lipschitz tests determines weak convergence of probabilities.
+Uses mathlib MeasureTheory.tendsto_iff_forall_lipschitz_integral_tendsto,
+not a newly assumed density result. Real Lipschitz f embedded as complex F;
+R=norm(F)+K+1 gives actual unit normalization, reverse with integral_const_mul,
+then continuous real projection and integral_complex_ofReal.
+FiniteEmpiricalProbability: finite mixture of Dirac over subtype S for
+nonempty S; fixed Dirac x0 for empty S. Exact nonempty complex integral is
+finiteComplexSetMean S. integrable_dirac requires (by simp) finite enorm.
+
+NativeOriginalPointWeakLimit: nativePointMixtureProbability packages the
+actual measure. native_original_point_weak_limit proves weak convergence
+of original empirical floor-window probabilities to this EXACT mixture
+from the established local law. L->infinity gives eventual 1<=floor(L), so
+empty-window fallback is irrelevant. The theorem statement itself includes
+compatible quotient metric AND BorelSpace (needed for ProbabilityMeasure
+weak topology). Int.le_floor.mpr needs (by simpa using hn) for cast 1.
+NativeSequentialPointWeakLimit: original input D,F,L,p and adaptation gives
+ONE f,H,M,sigma,h with subordinate H, strict f, cofinal L o f, BOTH original
+local Haar laws and weak convergence. Smoothness witness hh is explicitly
+bound by exists since hh.continuous appears in target probability.
+NativeOriginalContinuousPointMixture: all continuous complex J, no unit
+bound/Lipschitz assumption, same exact original floor-window scalar formula.
+Uses ProbabilityMeasure.tendsto_iff_forall_integral_rclike_tendsto with
+BoundedContinuousFunction.mkOfCompact J; no new extraction or source change.
+
+NEXT: true positive-dimensional rational cube group from SAME final H.
+Re-read pinned 07_cube_limits.tex upper-face coordinates and cube filtration
+(max(i,card D)), then isolated-horizontal-coefficient. Existing group-side
+NilUpperFaceGroup/Filtration/Coordinates/UniqueCoordinates/Reflection/
+LatticeRepresentatives/Compactness cover actual upperFaceCubeGroup for any
+CubeGroupFiltration. NativeLowerCentralCubeGeometry is LOWER CENTRAL ONLY;
+do not substitute it for the final adapted subgroup filtration H.
+NativeRationalSubgroupFiltration has actual rational Lie layers, decreasing,
+initial layer0=layer1 (possibly proper), bracket i+j, terminal ell+1.
+NativeFiniteProductSpaces/Manifold/Coordinates/LieMap/Exponential/Lattice
+provide genuine finite product groups, recursively n+1 coordinates.
+NativeProductRationalInclusions proves original diagonal/first-coordinate
+rational log-span inclusion by positive powers. Extend appropriately for
+upper faces, not by assuming product rationality. Need actual rational cube
+Lie subalgebra, lattice compactness, same filtration and original step s.
+
+Paper coefficient proof: choose largest surviving level j>=1 of horizontal
+chi restricted to a face D with card D<=j. It kills layer j+1 and bracket
+splits by face commutators, including EMPTY faces. Binomial expansion has
+exact increment support D, so degree-j monomial b0^(j-card D)*prod b_k has
+coefficient xi(Taylor_j)/(j-card D)! without cancellation. Fixed residue
+progression multiplies top coefficient by d^j; translations leave it alone.
+Use original irrationality; all q through ORIGINAL s+1, no q-dependent new
+factorization, length limit before locality. Then projected face invariance/
+full support, joint lifts/full Alignment, separate arbitrary-input GTZ
+interval Gowers LINEAR nilsequence inverse, final SAME-color positive
+distinct rapidly separated ALL nonempty FS AND FP remain.
+Author audit is not independent kernel replay or external peer review.

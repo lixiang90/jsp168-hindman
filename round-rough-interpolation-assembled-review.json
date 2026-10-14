@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "RoughInterpolationProgression derives m<=S and abs(-t/m)<=2S from the actual progression, proves the low derivatives of the actual affine-power target vanish at its root, and selects integer data at the constructed separated nodes.",
+    "RoughExactInterpolation assembles the full exact interpolation lemma. One eventual threshold precedes every t,m,theta and every index. It constructs a rational quotient of degree<=q-e, with w-smooth coefficient denominators, integral values at all original indices and error<=Cq*A*Z^(-e). D is chosen before all integer data and Cq depends only on q.",
+    "RoughExactInterpolationModOne proves the standard UnitAddCircle norm equals the integer-distance infimum and the near-integer existential, then obtains the full theorem from the original mod-one hypothesis.",
+    "RoughInterpolationPaperGrowth derives power domination and eventual positivity from S tending to infinity and positive-natural-power ratio divergence. The final theorem accepts precisely all positive real exponent ratio divergences Z/S^a tending to infinity, and any roughness sequence tending to infinity.",
+    "Compared with 06_rough_progressions exact division after interpolation. The formal conclusion includes all four requirements: degree, smooth coefficient denominators, integer values at every index, and the H-independent Cq*A*Z^(-e) error.",
+    "The eventual threshold is outside all t,m,theta quantifiers and includes both rational lattice thresholds and roughness>=D. H is fixed first. There is no bounded-coefficient assumption, no bound m<=w, and no input asserting interpolation or exact division.",
+    "The actual target T=(t+mX)^e*theta has vanishing derivatives proved from divisibility. Interpolation error bounds and exact rational derivative lattices imply exact divisibility, then coprimality with the primorial removes the denominator at each original index.",
+    "The UnitAddCircle norm is explicitly identified with the paper integer-distance infimum using a nearest integer. The growth wrapper handles all positive real exponents; the n=0 power-domination case is derived, not silently assumed.",
+    "The formal t,m,z use naturals. Eventual S>=1 and positive integral progression steps justify this positive progression parametrization; no separate all-integer-parametrization wrapper is claimed.",
+    "All retained proof sources and axiom sets are unchanged. This finishes the interpolation lemma, not quantitative Leibman, rough-step comparison, Alignment or StrongConjecture. These checks are author-side, not independent kernel replay.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. The Section 06 exact division after interpolation lemma is now assembled with the manuscript mod-one and real-exponent growth hypotheses, for natural positive progression parameters. Next prove corrected quantitative Leibman/box comparison and stretched-filtration prerequisites, smooth-progression dimension induction and uniform rough-step comparison over coefficients, boxes/endpoints, residues and tests. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1561,
+    "pntplus_modules": 9,
+    "build_jobs": 5524,
+    "selected_axiom_reports": 6916,
+    "new_declarations": 9,
+    "new_theorems": 9,
+    "new_definitions": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughInterpolationProgression.lean",
+    "Hindman168/RoughExactInterpolation.lean",
+    "Hindman168/RoughExactInterpolationModOne.lean",
+    "Hindman168/RoughInterpolationPaperGrowth.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. The Section 06 exact division after interpolation lemma is now assembled with the manuscript mod-one and real-exponent growth hypotheses, for natural positive progression parameters. Next prove corrected quantitative Leibman/box comparison and stretched-filtration prerequisites, smooth-progression dimension induction and uniform rough-step comparison over coefficients, boxes/endpoints, residues and tests. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions lines 168-269: exact division after interpolation"
+}

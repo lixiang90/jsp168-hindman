@@ -1,0 +1,7 @@
+⚠ [4240/4240] Built Hindman168.MaskRootOriginalMajorants (7.7s)
+warning: Hindman168/MaskRootOriginalMajorants.lean:74:64: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (4240 jobs).

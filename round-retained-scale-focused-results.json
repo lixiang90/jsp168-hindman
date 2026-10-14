@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRetainedScaleBound.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.077999999979511,
+    "log": "round-retained-scale-AlignmentRetainedScaleBound-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRetainedScaleBound.lean",
+    "source_sha256": "a4efac834933480e662b7796a1c2236a955c5e62a9f05d94d6dade05db7a315b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRetainedScaleGrowth.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.327999999979511,
+    "log": "round-retained-scale-AlignmentRetainedScaleGrowth-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRetainedScaleGrowth.lean",
+    "source_sha256": "472e1edaa6cab4ac2722b9dc163f07fa929341ce9523145657dd79736c804890"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRawRetainedScale.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.141000000061467,
+    "log": "round-retained-scale-AlignmentRawRetainedScale-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRawRetainedScale.lean",
+    "source_sha256": "4221456c5344738908c64791880d32824b00e4be6f6a514f5d0773b04ff1ad5f"
+  }
+]

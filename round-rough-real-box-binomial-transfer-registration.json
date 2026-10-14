@@ -1,0 +1,52 @@
+{
+  "modules": [
+    "Hindman168/RoughRealBoxCeil.lean",
+    "Hindman168/RoughCorrectedRealBoxCubeSelection.lean",
+    "Hindman168/RoughNativeRealBoxBinomialTransfer.lean"
+  ],
+  "names": [
+    "Hindman168.roughRealIntegerBox",
+    "Hindman168.roughRealBoxWidths",
+    "Hindman168.rough_real_integer_box_mem",
+    "Hindman168.rough_real_integer_box_width_representation",
+    "Hindman168.rough_real_integer_box_scaled_bounds",
+    "Hindman168.rough_corrected_real_box_cube_selection",
+    "Hindman168.rough_native_real_box_binomial_transfer"
+  ],
+  "declarations": {
+    "Hindman168/RoughRealBoxCeil.lean": [
+      [
+        "def",
+        "roughRealIntegerBox"
+      ],
+      [
+        "def",
+        "roughRealBoxWidths"
+      ],
+      [
+        "theorem",
+        "rough_real_integer_box_mem"
+      ],
+      [
+        "theorem",
+        "rough_real_integer_box_width_representation"
+      ],
+      [
+        "theorem",
+        "rough_real_integer_box_scaled_bounds"
+      ]
+    ],
+    "Hindman168/RoughCorrectedRealBoxCubeSelection.lean": [
+      [
+        "theorem",
+        "rough_corrected_real_box_cube_selection"
+      ]
+    ],
+    "Hindman168/RoughNativeRealBoxBinomialTransfer.lean": [
+      [
+        "theorem",
+        "rough_native_real_box_binomial_transfer"
+      ]
+    ]
+  }
+}

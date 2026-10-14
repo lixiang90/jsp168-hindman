@@ -1,0 +1,18 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFiniteRoughProportion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.156999999890104,
+    "log": "round-native-finite-proportion-NativeFiniteRoughProportion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeFiniteRoughProportion.lean",
+    "source_sha256": "cd8b93158b1c72645251ac41951acd8b8a851371234540d680d3045b54ba22c7"
+  }
+]

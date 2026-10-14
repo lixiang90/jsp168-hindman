@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.969000000040978,
+  "log": "round-native-rational-original-coefficient-transport-build.txt",
+  "log_sha256": "7dd17a5bd100a50c64b63f7ffb44a7deb3bc637aa40f6884b7603dbee8de29a9"
+}

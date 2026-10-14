@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 14.124,
+  "log": "round-oneparameter-axioms.txt",
+  "log_sha256": "3b38d564a6d761c3bf18abf4abfdc6b9bee69a4b9d7cd1de01cdeb8c35d03b46",
+  "terminal": true
+}

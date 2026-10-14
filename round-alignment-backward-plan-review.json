@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The previous alignment-stage-budgets round was terminal-successfully rechecked and its authoritative 1303-source manifest copied before new proof edits. All retained proof sources remain fixed.",
+    "Pivot requests carry the actual Fin n tail, its before-pivot proof, leading rational factors and ordered rational-letter words. Typed stages carry their actual target and finite choices. Request semantics is exactly the retained palette requirement at insert i tail. Predecessors keep the target and replace only the two finite budgets.",
+    "Backward construction uses strong induction on request-list length. Ordinary induction on a particular unchanged prefix would not justify applying the hypothesis to a different strengthened budget list. The proof explicitly recurses on the mapped predecessor list, whose length is the strictly shorter prefix length. No arbitrary assumed plan or assumed predecessor satisfiability is used.",
+    "The fitting predicate is a recursive Prop definition and retains the exact terminal list. It proves the same number of stages and targets. Last-stage-first storage is converted to a forward schedule by list reverse and the exact reverse-cons/append identity.",
+    "Forward execution inducts on the constructed backward plan. Its recursive call uses every strengthened prior request and actual state. Prefix scale-catalogue containment supplies the same previously chosen denominator at the recursive state. The final stage picks its actual successful word jump; the retained all-choice preservation theorem protects each prior request through that same jump. Repeated target blocks require no distinctness assumption.",
+    "Terminal scales belong to the actual frontier of the whole schedule by its append identity and the explicit scale-step membership theorem. The final theorem also exposes positivity of every option in the plan. An initially weaker endpoint statement did not reference the starting center; it was strengthened before registration to include an explicit recursive reachability trace. Each trace step uses a member of the actual finite stage table and the original old-scale ordered word action.",
+    "The common denominator covers the finite union of all stage target alphabets at every enumerated scale. Signed jump interpretation already follows from integrality of those alphabets. The final theorem explicitly quantifies one plan before every incoming finite scale family, then one positive denominator before all groups, state spaces, actions, numerical generators, palettes and centers. This round completes fixed-pivot finite planning only; all-pivot future budgets and integer positive probability remain absent.",
+    "Four new modules contain nine theorems, eight definitions and two data structures. Seventeen selected reports cover all theorems and definitions; structure field semantics is exposed by these reports. No new axioms, proof holes, unsafe implementation or resource options are allowed. Full build, kernel audit and retained-source/dependency comparisons must finish successfully before recording progress.",
+    "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional Prediction includes actual admissible parameters, finite positive scale-list closure, all scale/color indices, globally unit-range common native observables and actual fixed-ultrafilter calibration and complete count limits. Conditional Alignment now has a complete backward-built and forward-executed finite plan for every prescribed finite request list at one pivot, with exact predecessor budgets, positive scales, complete path catalogues and a uniform common denominator. The plan precedes incoming numerical scales, and the denominator precedes all group actions and palettes. HasAlignmentMonomialRecurrence remains an explicit unproved input. Its genuine nilpotent recurrence existence proof, decreasing-pivot future-multiplier planning, finite auxiliary slot planning and positive-probability integer Alignment realization remain unproved. Final ordered positive rapidly separated monochromatic extraction is also incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/AlignmentPivotRequests.lean",
+    "Hindman168/AlignmentBackwardPlan.lean",
+    "Hindman168/AlignmentPivotExecution.lean",
+    "Hindman168/AlignmentUniformPivotPlan.lean"
+  ],
+  "verified": {
+    "project_modules": 1289,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1298,
+    "source_config_hashes": 1307,
+    "build_jobs": 5246,
+    "axiom_reports": 5789,
+    "new_theorems": 9,
+    "new_definitions": 8,
+    "new_structures": 2,
+    "new_instances": 0,
+    "new_axiom_reports": 17,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "axiom_free_reports": [
+      "Hindman168.MatrixDepth.smul",
+      "Hindman168.admissible_option_selection_none",
+      "Hindman168.boundedLieWordValues",
+      "Hindman168.completeResidueCellPoint",
+      "Hindman168.finiteVectorPolynomialSum",
+      "Hindman168.integerCubeResidueShift",
+      "Hindman168.intervalResidueParent",
+      "Hindman168.lieWordValue",
+      "Hindman168.lieWordValue_cons",
+      "Hindman168.lieWordValue_nil",
+      "Hindman168.lowerCentralCommutatorGenerators",
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.matrixDepth_zero",
+      "Hindman168.matrixDepth_zero_iff_upper"
+    ],
+    "new_axiom_free_reports": [],
+    "full_target_proved": false
+  },
+  "remaining": "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional Prediction includes actual admissible parameters, finite positive scale-list closure, all scale/color indices, globally unit-range common native observables and actual fixed-ultrafilter calibration and complete count limits. Conditional Alignment now has a complete backward-built and forward-executed finite plan for every prescribed finite request list at one pivot, with exact predecessor budgets, positive scales, complete path catalogues and a uniform common denominator. The plan precedes incoming numerical scales, and the denominator precedes all group actions and palettes. HasAlignmentMonomialRecurrence remains an explicit unproved input. Its genuine nilpotent recurrence existence proof, decreasing-pivot future-multiplier planning, finite auxiliary slot planning and positive-probability integer Alignment realization remain unproved. Final ordered positive rapidly separated monochromatic extraction is also incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "08_alignment complete fixed-pivot backward finite plan and forward execution with a uniform common denominator"
+}

@@ -1,0 +1,2 @@
+✔ [5218/5218] Built Hindman168.AlignmentOriginalCubeCRTMean (8.7s)
+Build completed successfully (5218 jobs).

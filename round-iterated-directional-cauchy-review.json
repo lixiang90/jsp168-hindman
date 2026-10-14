@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 1007 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "Dyadic-power Jensen includes signed real functions. The n=0 case is equality and the n=1 case is mean-square. Higher powers are nonnegative before squaring an inequality, so no invalid squaring of a signed bound occurs.",
+    "The iterated directional mean is defined by finite recursive averages of multiplicative derivatives. This is a concrete definition, not an assumption of the desired estimate.",
+    "The full induction first removes the first invariant factor by actual image-subgroup Cauchy-Schwarz and an injective-direction Haar equivalence. It then raises the nonnegative squared left side and applies dyadic-power Jensen to the new direction average.",
+    "Every remaining factor is replaced by its actual multiplicative derivative. Unit bounds follow by multiplying absolute values, and invariance follows from commutativity of the original additive group. The induction hypothesis applies to these explicitly constructed factors.",
+    "For root-response directions, induction with the original cube derivative identity identifies the recursive mean exactly with the original subgroup cube mean. No seminorm triangle inequality or external inverse theorem is assumed.",
+    "Probability-weighted dyadic Jensen preserves every original cell weight. The positive-dimensional Gowers corollary uses the even exponent to remove the absolute value and the proved exact weighted root power identity.",
+    "Eight theorems and one definition are individually kernel audited. The complete abstract iteration is proved; the paper-specific density and nonroot vertex packaging and analytic short-increment comparison remain. Bessel, inverse correlator existence and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/HaarDyadicPower.lean",
+    "Hindman168/IteratedDirectionalCauchy.lean",
+    "Hindman168/IteratedRootCubeBound.lean"
+  ],
+  "verified": {
+    "project_modules": 992,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1001,
+    "source_config_hashes": 1010,
+    "build_jobs": 4946,
+    "axiom_reports": 4810,
+    "new_theorems": 8,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 9,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The complete abstract finite-direction Cauchy-Schwarz induction, its exact identification with original root subgroup cubes, and the weighted Gowers-root bound are proved. Instantiation with the normalized density and all nonroot vertices, the complete short-increment reduction, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

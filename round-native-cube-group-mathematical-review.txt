@@ -1,0 +1,52 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI 07_cube_limits.tex, upper-face coordinates and rational cube
+group construction. This round connects the previously proved Lie algebra
+to the ACTUAL group and actual original lattice quotient.
+
+The native subgroup is the exponential image of the embedding's Lie range.
+The original proven native Lie-subalgebra theorem supplies group closure.
+Its membership theorem is an existential witness in the original cube Lie
+algebra, with exact original exponential values at every vertex. Coordinate
+injectivity proves the reverse implication; no surrogate group is used.
+
+The actual product-lattice rationality from the preceding round discharges
+the hypothesis of nativeRationalLieLattice_quotient_compact. The lattice is
+exactly product Gamma comapped along the ACTUAL subgroup inclusion. Its
+discreteness and compact quotient are derived. Gamma need not be normal.
+The metric has exactly the natural coset topology, and the quotient map is
+open. Native data uses genuine subgroup Lie structures and retains ORIGINAL
+step bound s by finite product and subgroup nilpotency-class bounds.
+
+For a face A and g in H_cardA, original log(g) lies in the corresponding
+Lie layer. Its single-face Lie vector exponentiates exactly to the original
+upperFaceArray A g; the zero coordinates exponentiate to identity. Thus
+every generator of the paper group lies in the native vertex image.
+
+The reverse inclusion is not inferred from that one-sided result. First,
+if a Lie cube vanishes on every proper subvertex of V, triangular powerset
+recovery makes all proper face coefficients zero. Its value at V is exactly
+the V coefficient, which lies in H_cardV's Lie layer. Original exponential
+injectivity therefore implies the analogous group-layer detection property.
+
+A separate generic elimination theorem removes vertices in the actual
+orderedCubeFaces order. At the current face D every proper subset has
+already been removed, so the detected z(D) lies in H_cardD. Multiply by the
+inverse of its D-face. Closure keeps the residual in the native image.
+Upward closure of the remaining face list ensures already removed vertices
+remain identity. The empty suffix is the identity array. All factors are
+actual paper generators, proving the reverse inclusion and EXACT equality.
+The generic triangular premises are completely discharged in the final
+native theorem; they are not an oracle or final assumption.
+
+The constructions include d=0 through the existing actual enumeration of
+2^d vertices. The final filtration can be proper or trivial. No extraction,
+source replacement, lower-central substitution or reduced nilpotency bound.
+
+This is NOT yet the simultaneous cube law: native rational filtration on
+the cube subgroup, conjugated rational residue orbit data, original source
+adaptation, horizontal face restrictions/coefficient isolation and analytic
+local cube laws through original s+1 still remain. Projected face invariance/
+full support, joint lifts/full Alignment, separate GTZ inverse and final
+SAME-color ALL nonempty FS/FP with positivity, distinctness and rapid
+separation also remain. No unavoidable obstruction established.
+Author checks are not independent kernel replay or external peer review.

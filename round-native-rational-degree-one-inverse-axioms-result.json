@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.140000000130385,
+  "log": "round-native-rational-degree-one-inverse-axioms.txt",
+  "log_sha256": "6bf59128c8130e595bac32314f647e3127228298f6f94a4e3180f350f5a9ed06"
+}

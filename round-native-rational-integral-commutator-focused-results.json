@@ -1,0 +1,178 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCommutatorCharacterBudget.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.985000000102445,
+    "log": "round-native-rational-integral-commutator-NativeRationalCommutatorCharacterBudget-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCommutatorCharacterBudget.lean",
+    "source_sha256": "1089d7de5290d75314701bee573561b85fbad55f26149ee83abf0ef27df8efd1"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCommutatorInverseReconstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.186999999918044,
+    "log": "round-native-rational-integral-commutator-NativeRationalCommutatorInverseReconstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCommutatorInverseReconstruction.lean",
+    "source_sha256": "f6890e59887c544a90a68749796ce5be71ebcefc1e806a4cb1b9d55633da2ce2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCommutatorLeftCharacter.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.125,
+    "log": "round-native-rational-integral-commutator-NativeRationalCommutatorLeftCharacter-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCommutatorLeftCharacter.lean",
+    "source_sha256": "ab33d66e626cf8865a827313af5469b2027e4fe973631d769640456398b7a17e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCommutatorOriginalBounds.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.859000000171363,
+    "log": "round-native-rational-integral-commutator-NativeRationalCommutatorOriginalBounds-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCommutatorOriginalBounds.lean",
+    "source_sha256": "5051b49710e3375ede21490cdd2e9ad1b48899fd77c9af5be550623b81d2d349"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeTwoDenseCommutatorAlternative.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.484999999869615,
+    "log": "round-native-rational-integral-commutator-NativeRationalDegreeTwoDenseCommutatorAlternative-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeTwoDenseCommutatorAlternative.lean",
+    "source_sha256": "27a8b41fba714b06b2ba6b3f3a5b30bad6cf0af8eeba7b38cc5c46855ba33af0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDenseCommutatorAlternative.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.937000000150874,
+    "log": "round-native-rational-integral-commutator-NativeRationalDenseCommutatorAlternative-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDenseCommutatorAlternative.lean",
+    "source_sha256": "8a6f9e23e535024054325e7514dff90458f2658f1db671cccbc809ca75bd9c4a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalIntegralCommutatorCharacter.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.82799999997951,
+    "log": "round-native-rational-integral-commutator-NativeRationalIntegralCommutatorCharacter-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalIntegralCommutatorCharacter.lean",
+    "source_sha256": "2f525f6a6e2959c86b7f7fa0c91eeea5881e2ad34d181430bfa9738c9a3b36f1"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalKillsTwoOriginalBounds.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.359000000171363,
+    "log": "round-native-rational-integral-commutator-NativeRationalKillsTwoOriginalBounds-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalKillsTwoOriginalBounds.lean",
+    "source_sha256": "039cac20753aa0a5981e76bf228ae8350eced292e42379769efbc55f4a411ae7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalPureDiagonalInverseReconstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.04700000002049,
+    "log": "round-native-rational-integral-commutator-NativeRationalPureDiagonalInverseReconstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalPureDiagonalInverseReconstruction.lean",
+    "source_sha256": "c20f71054404d36bfefec2f33311eec22e041b997b9dc25a007cfe02fb3a8b96"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalSplitBasisDenominator.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.640999999828637,
+    "log": "round-native-rational-integral-commutator-NativeRationalSplitBasisDenominator-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalSplitBasisDenominator.lean",
+    "source_sha256": "3fd60c4e121271e76a21579156a7d750340acf02203e6fe55d842c2e7ac5368c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalZeroCommutatorCharacters.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.687000000150874,
+    "log": "round-native-rational-integral-commutator-NativeRationalZeroCommutatorCharacters-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalZeroCommutatorCharacters.lean",
+    "source_sha256": "1ad42f0c31f1a37d8d1b7d9ffa66fe00049dd0a196542159540af4608532ead0"
+  }
+]

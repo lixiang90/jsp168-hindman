@@ -1,0 +1,56 @@
+{
+  "goal_active": true,
+  "full_target_proved": false,
+  "baseline_review": "round-native-central-descent-review.json",
+  "proposed_round": "round-native-quotient-counting",
+  "observed_time": "2026-10-12 06:11:06 UTC",
+  "modules": [
+    "NativeCentralFactorMetric",
+    "NativeCentralQuotientData",
+    "NativeCentralQuotientProjection",
+    "MeasurableTransversalEquivalence",
+    "NativeNilmanifoldMeasurableSection",
+    "CosetSectionCoordinates",
+    "CosetSectionCountingLift",
+    "CosetSectionCountingInvariance",
+    "NativeNilmanifoldCountingLift"
+  ],
+  "completed_local_builds": [
+    "NativeCentralFactorMetric",
+    "NativeCentralQuotientData",
+    "NativeCentralQuotientProjection",
+    "MeasurableTransversalEquivalence",
+    "NativeNilmanifoldMeasurableSection",
+    "CosetSectionCoordinates",
+    "CosetSectionCountingLift",
+    "CosetSectionCountingInvariance",
+    "NativeNilmanifoldCountingLift"
+  ],
+  "live_builds_last_confirmed": [],
+  "unverified_modules": [],
+  "registration_done": true,
+  "next_actions": [
+    "Poll SAME live session ids first; observation expiration is not terminal and must not trigger restarts.",
+    "Read terminal compiler results and fix actual diagnostics if any.",
+    "Build CosetSectionCountingInvariance then NativeNilmanifoldCountingLift after dependencies succeed.",
+    "Only after every new module succeeds, run prepare-native-quotient-counting-audit.py and round-native-quotient-counting-audit.py prepare/build/axioms/record and write continuation/recheck.",
+    "Counting lift left invariance, local finiteness/Haar positivity/uniqueness and canonical factor compatibility are not yet claimed."
+  ],
+  "status": "AUDITED",
+  "all_checks_terminal_success": true,
+  "review_file": "round-native-quotient-counting-review.json",
+  "verified": {
+    "project_modules": 2085,
+    "pntplus_modules": 9,
+    "build_jobs": 6058,
+    "selected_axiom_reports": 8600,
+    "new_declarations": 32,
+    "new_theorems": 22,
+    "new_definitions": 10,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  }
+}

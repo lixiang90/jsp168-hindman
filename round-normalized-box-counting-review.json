@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "Normalized complex means on finite sets now have exact injective-image transport, correct cardinal normalization (including empty targets), a uniform norm bound, and a symmetric-difference error at most twice the test bound times the changed-point count divided by the original cardinality.",
+    "The original affine/cube-base interval sample-set identities now give exact normalized means, retaining the full transformed residue class. Aligning interval endpoints preserves the restricted mean exactly. Arbitrary signed residues have a uniform count error at most one and nonempty classes once the side length is at least twice the modulus.",
+    "Forward endpoint movement by at most D changes each one-dimensional unrestricted bounded-test mean by at most 4*K*D/(U-L). Actual master growth makes this error arbitrarily small for alignment by d times the actual tail product, uniformly in samples, endpoints, residues and bounded tests, under the explicit side lower bound c*Z.",
+    "Full finite product boxes have exact cardinal products, nonemptiness from per-side length bounds, and exact affine normalized-mean transport. Aligning endpoints to a coarse retained class and then dividing by the retained integer step gives an exact full-box sampling identity. No coprimality of retained and removed factors is used.",
+    "For the actual master cube scale and full step d*t, one eventual threshold proves every allowed one-dimensional class nonempty and its cardinality times d*t divided by side length within epsilon of one, uniformly in all samples, signed endpoints and residues. The side lower bound remains explicit.",
+    "Reviewed normalization at empty sets: the finite mean is zero there; the error theorem requires only the original set nonempty, and does not silently cancel a zero target cardinality.",
+    "Reviewed restricted versus unrestricted endpoint movement: exact equality is proved only on the retained congruence class. Unrestricted means use the separate symmetric-difference bound.",
+    "Reviewed coarse endpoint alignment before division: finer classes lie inside the chosen coarse class, both endpoints reconstruct exactly after integer division, and the transformed finer class is preserved. No inverse of the removed factor or retained/removed coprimality is introduced.",
+    "Reviewed uniform quantifier order: actual scale thresholds precede sample, endpoint, residue and test choices. All limit applications retain c*Z as an explicit side lower bound; neither uniform transformation of every permitted original box nor a multidimensional endpoint-error conclusion is claimed.",
+    "Pinned 08_alignment lines 392-401 assume original side lengths at least c*N_loc. The remaining geometry obligation is to transfer this input uniformly through integer rounding and the actual coordinate map, not to replace arbitrary boxes by one chosen box.",
+    "All retained proof sources and transitive axiom sets are unchanged. This is author-side verification, not an independent kernel replay or proof of StrongConjecture.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. Exact normalized affine and retained-step box sampling, arbitrary-residue counting, one-dimensional endpoint errors and their uniform actual-master-scale bounds are now proved. Construct actual microcell origins; derive transformed common-scale location and side bounds uniformly for every permitted original box, whose side lower bound c*N_loc is a hypothesis of the paper, including integer endpoint rounding. Extend endpoint errors to full multidimensional box tests. Connect the normalized-box identities and counts to the actual conditional cube laws. The complete exposure fixes the degree-two scalar exponent polynomial, with exact original evaluation; substitute the actual tail product and cube vertex and prove bounded-degree joint native BCH log-polynomiality. Prove and apply the uniform rough-step proposition of section 06, with uniformity in coefficients, endpoints, residues and tests. Buffered short-bin geometry, prior-event positive probability, posterior control after additional prior conditioning, quantitative smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. Existing conditional theorems and standard-only axiom reports are not a full proof. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1499,
+    "pntplus_modules": 9,
+    "build_jobs": 5459,
+    "selected_axiom_reports": 6687,
+    "new_declarations": 31,
+    "new_theorems": 27,
+    "new_definitions": 4,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/FiniteComplexSetMean.lean",
+    "Hindman168/AlignmentIntervalMeans.lean",
+    "Hindman168/AlignmentClassCounts.lean",
+    "Hindman168/AlignmentEndpointMeanError.lean",
+    "Hindman168/AlignmentActualEndpointMean.lean",
+    "Hindman168/AlignmentBoxMeans.lean",
+    "Hindman168/AlignmentRetainedClassMean.lean",
+    "Hindman168/AlignmentActualClassCounts.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. Exact normalized affine and retained-step box sampling, arbitrary-residue counting, one-dimensional endpoint errors and their uniform actual-master-scale bounds are now proved. Construct actual microcell origins; derive transformed common-scale location and side bounds uniformly for every permitted original box, whose side lower bound c*N_loc is a hypothesis of the paper, including integer endpoint rounding. Extend endpoint errors to full multidimensional box tests. Connect the normalized-box identities and counts to the actual conditional cube laws. The complete exposure fixes the degree-two scalar exponent polynomial, with exact original evaluation; substitute the actual tail product and cube vertex and prove bounded-degree joint native BCH log-polynomiality. Prove and apply the uniform rough-step proposition of section 06, with uniformity in coefficients, endpoints, residues and tests. Buffered short-bin geometry, prior-event positive probability, posterior control after additional prior conditioning, quantitative smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. Existing conditional theorems and standard-only axiom reports are not a full proof. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "08_alignment lines 482-567: normalized box sampling, retained steps and endpoint errors"
+}

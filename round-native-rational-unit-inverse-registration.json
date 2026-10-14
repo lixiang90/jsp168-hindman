@@ -1,0 +1,139 @@
+{
+  "modules": [
+    "Hindman168/NativeRationalFiniteInverseBudget.lean",
+    "Hindman168/NativeRationalResidueInverseBudget.lean",
+    "Hindman168/NativeRationalCharacterInverseInduction.lean",
+    "Hindman168/NativeRationalFiniteCharacterInverseInduction.lean",
+    "Hindman168/NativeRationalNonzeroFourierInverseInduction.lean",
+    "Hindman168/NativeRationalLargeInverseInduction.lean",
+    "Hindman168/FiniteComplexDiscrepancyAnchor.lean",
+    "Hindman168/NativeRationalConstantDiscrepancyAnchor.lean",
+    "Hindman168/MvBoundedLengthCoefficient.lean",
+    "Hindman168/NativeRationalLargeToAllLengths.lean",
+    "Hindman168/NativeRationalFullInverseInductionStep.lean",
+    "Hindman168/NativeRationalUnitInverse.lean"
+  ],
+  "names": [
+    "Hindman168.native_rational_finite_inverse_budget",
+    "Hindman168.native_rational_residue_inverse_budget",
+    "Hindman168.NativeRationalCharacterOriginalBudget",
+    "Hindman168.native_rational_character_original_budget_mono",
+    "Hindman168.native_rational_character_inverse_induction",
+    "Hindman168.native_rational_finite_character_inverse_induction",
+    "Hindman168.native_rational_nonzero_fourier_inverse_induction",
+    "Hindman168.NativeRationalTerminalFrequencyBudget",
+    "Hindman168.native_rational_large_inverse_induction",
+    "Hindman168.finite_complex_discrepancy_anchor",
+    "Hindman168.finite_complex_set_mean_const_nonempty",
+    "Hindman168.nativeRationalConstantPolynomial",
+    "Hindman168.native_rational_constant_polynomial_eval",
+    "Hindman168.native_rational_constant_polynomial_weighted",
+    "Hindman168.native_rational_constant_discrepancy_anchor",
+    "Hindman168.mv_bounded_length_coefficient",
+    "Hindman168.native_rational_large_inverse_to_all_lengths",
+    "Hindman168.native_rational_full_inverse_induction_step",
+    "Hindman168.native_rational_weighted_inverse_unit"
+  ],
+  "declarations": {
+    "Hindman168/NativeRationalFiniteInverseBudget.lean": [
+      [
+        "theorem",
+        "native_rational_finite_inverse_budget"
+      ]
+    ],
+    "Hindman168/NativeRationalResidueInverseBudget.lean": [
+      [
+        "theorem",
+        "native_rational_residue_inverse_budget"
+      ]
+    ],
+    "Hindman168/NativeRationalCharacterInverseInduction.lean": [
+      [
+        "def",
+        "NativeRationalCharacterOriginalBudget"
+      ],
+      [
+        "theorem",
+        "native_rational_character_original_budget_mono"
+      ],
+      [
+        "theorem",
+        "native_rational_character_inverse_induction"
+      ]
+    ],
+    "Hindman168/NativeRationalFiniteCharacterInverseInduction.lean": [
+      [
+        "theorem",
+        "native_rational_finite_character_inverse_induction"
+      ]
+    ],
+    "Hindman168/NativeRationalNonzeroFourierInverseInduction.lean": [
+      [
+        "theorem",
+        "native_rational_nonzero_fourier_inverse_induction"
+      ]
+    ],
+    "Hindman168/NativeRationalLargeInverseInduction.lean": [
+      [
+        "def",
+        "NativeRationalTerminalFrequencyBudget"
+      ],
+      [
+        "theorem",
+        "native_rational_large_inverse_induction"
+      ]
+    ],
+    "Hindman168/FiniteComplexDiscrepancyAnchor.lean": [
+      [
+        "theorem",
+        "finite_complex_discrepancy_anchor"
+      ],
+      [
+        "theorem",
+        "finite_complex_set_mean_const_nonempty"
+      ]
+    ],
+    "Hindman168/NativeRationalConstantDiscrepancyAnchor.lean": [
+      [
+        "def",
+        "nativeRationalConstantPolynomial"
+      ],
+      [
+        "theorem",
+        "native_rational_constant_polynomial_eval"
+      ],
+      [
+        "theorem",
+        "native_rational_constant_polynomial_weighted"
+      ],
+      [
+        "theorem",
+        "native_rational_constant_discrepancy_anchor"
+      ]
+    ],
+    "Hindman168/MvBoundedLengthCoefficient.lean": [
+      [
+        "theorem",
+        "mv_bounded_length_coefficient"
+      ]
+    ],
+    "Hindman168/NativeRationalLargeToAllLengths.lean": [
+      [
+        "theorem",
+        "native_rational_large_inverse_to_all_lengths"
+      ]
+    ],
+    "Hindman168/NativeRationalFullInverseInductionStep.lean": [
+      [
+        "theorem",
+        "native_rational_full_inverse_induction_step"
+      ]
+    ],
+    "Hindman168/NativeRationalUnitInverse.lean": [
+      [
+        "theorem",
+        "native_rational_weighted_inverse_unit"
+      ]
+    ]
+  }
+}

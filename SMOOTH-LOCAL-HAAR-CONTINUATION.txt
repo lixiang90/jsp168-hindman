@@ -1,0 +1,79 @@
+Latest continuation: ORIGINAL-LOCAL-POINT-CONTINUATION.txt.
+The original periodic source, actual interval and real-window local laws,
+endpoint/cardinality bounds and Haar continuity below are now proved and
+audited in round-native-original-local-point. Global mixture remains open.
+
+JSP-000168 / Erdos #172, 2026-10-14. Goal ACTIVE; StrongConjecture UNPROVED.
+No unavoidable obstruction established. Public repository/PR/prize pending.
+Use CURRENT-STATUS.txt and verification-manifest.json for terminal audit status.
+
+round-native-smooth-local-haar adds six modules after round-native-window-haar:
+1. NativeRationalLayerCompactWindowHaar: ANY compact continuous test family
+   on the genuine layer-zero subgroup quotient, uniformly all real origins
+   and natural m>=tau*L for fixed rational nonzero step and positive tau.
+2. NativeRationalLayerOrbitObservables: actual joint original orbit map
+   continuity in compatible metrics, actual continuous pullback, compact
+   pullback family and original Haar-image integral transport.
+3. NativeRationalLayerFrozenHaar: original Haar-image law uniformly compact
+   left factors and compact original continuous observable families.
+4. CompactSequentialParameterFreezing: genuine converging continuous
+   parameter family freezes uniformly on compact fibers. Explicit uniform
+   spaces and weak local compactness on P; satisfied by native parameters.
+5. NativeSmoothActionFreezing: actual original group action continuous in
+   native metric; actual finite-dimensional parameter freezing yields ONE
+   manifold-smooth h and uniform errors over the entire original quotient.
+6. NativeRationalLayerSmoothLocalHaar: actual smooth-times-irrational local
+   q=0 law. h precedes beta/epsilon, positive radius precedes ALL rational
+   right factors rho, fixed rational nonzero d and positive tau<=1. For each
+   fixed rho/d/tau there is one eventual threshold before all b, m>=tau*L,
+   unit tests. Every normalized sample (b+d*x)/L must be within radius of beta.
+   The same h and radius therefore work for all eventual residue classes.
+
+The main theorem's inputs are original D,F,L,p,hp,hIrr,c,cLimit,hc,as,scaled
+coefficient limits; rho/hRat occur only AFTER existence of h and radius.
+No extra smooth-limit or Haar-limit oracle; no global Lipschitz action
+assumption in an arbitrary compatible metric. No O(alpha) rate is claimed.
+This epsilon criterion preserves LENGTH LIMIT BEFORE locality shrinking.
+
+IMMEDIATE NEXT: exact original residue-source assembly and point mixture.
+NativeSequentialPeriodicFactorization.native_sequential_adapted_periodic_factorization
+already supplies ONE subsequence f, H,q,as,c,gamma,cLimit,K, fixed M>0,
+rational sigma:Fin M->G, genuine irrationality at L o f, scaled coefficient
+limits, c->cLimit, exact ALL-real group identity and signed-integer frozen
+right residue pattern. The q=0 local theorem now gives ONE h for these data.
+Use native_factorization_original_quotient_identity to remove gamma in Gamma
+and replace the actual right factor by sigma at each signed integer input.
+No normal-lattice argument is valid or needed.
+
+For a progression b+d*x (integer b,d with nonzero d and M dividing d),
+signedPeriodResidue M hM (b+d*x) is constant; the relevant definitions are
+FiniteSequenceFreeze.lean and NativeRightCosetPeriod.lean. First one can
+state a local original-source theorem for all windows whose sampled signed
+residues are one fixed r, avoiding any endpoint assumption; subsequently
+prove explicit progression/residue arithmetic and endpoint/cardinality laws.
+Do NOT lose common h, H, original s, source q or fixed period when assembling.
+
+Prove continuity beta -> integral f against nativeRationalLayerHaarImage
+at h(beta), using actual pullback continuous family and integration continuity
+on continuous functions over compact subgroup quotient. Original action
+need only be continuous. Then finite partitions/residue proportions and
+Riemann approximation give global original point-mixture law.
+Mathlib/MeasureTheory/Integral/Bochner/Set.lean:1129 has the ready theorem
+continuous_parametric_integral_of_continuous: X first countable and locally
+compact, Y Borel-compatible, finite/locally finite measure, jointly continuous
+integrand and compact integration set. Use X=R, Y=actual subgroup quotient,
+s=univ, probability measure and actual orbit map at continuous h(beta),
+then integral transport above. This avoids constructing an integration CLM.
+
+POSITIVE-DIMENSIONAL CUBES STILL MISSING: native rational cube Lie subalgebra
+in genuine product datum with SAME final filtration, compact actual lattice,
+face-character restrictions, largest surviving degree j, increment support
+D coefficient xi(Taylor_j)/(j-|D|)!, source adaptation and original irrational
+escape. Use exact face-union commutators from NilUpperFaceFiltration.
+All local cube laws through ORIGINAL s+1, length limit before locality.
+Then full-support/projection face Haar invariance, joint lifts/full Alignment;
+separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse;
+final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP.
+
+Author build/hash/source/axiom checks are not independent kernel replay or
+external peer review. No premature final proof or prize submission claims.

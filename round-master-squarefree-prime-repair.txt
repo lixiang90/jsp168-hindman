@@ -1,0 +1,18 @@
+✖ [3796/3796] Building Hindman168.MasterPrimeSquarefreeLaw (6.9s)
+error: build failed
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\MasterPrimeSquarefreeLaw.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterPrimeSquarefreeLaw.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterPrimeSquarefreeLaw.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterPrimeSquarefreeLaw.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterPrimeSquarefreeLaw.setup.json --json
+error: Hindman168/MasterPrimeSquarefreeLaw.lean:58:48: Invalid field `trans`: The environment does not contain `Function.trans`, so it is not possible to project the field `trans` from an expression
+  Finset.prod_dvd_prod_of_subset S ?m.87 ?m.89
+of type
+  S ⊆ ?m.87 → ∏ i ∈ S, ?m.89 i ∣ ∏ i ∈ ?m.87, ?m.89 i
+error: Hindman168/MasterPrimeSquarefreeLaw.lean:58:44: Application type mismatch: The argument
+  hs
+has type
+  S ⊆ Finset.filter Nat.Prime (Finset.Icc (w + 1) V)
+of sort `Prop` but is expected to have type
+  ℕ → ?m.85
+of sort `Type (max ?u.54 0)` in the application
+  Finset.prod_dvd_prod_of_subset S ?m.87 hs
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.MasterPrimeSquarefreeLaw

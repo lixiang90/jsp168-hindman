@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all 978 baseline hashes verified before registration. Prior proofs, original target, law definitions and source/dependency pins remain unchanged.",
+    "Reviewed against the final paragraphs of the subgroup-inverse lemma in fixed 05_prediction.tex. This increment proves the analytic implication from an existing native correlator to a positive projection, not the GTZ inverse theorem or the Bessel input.",
+    "Stage restriction constructs an actual observable equal to the original observable or the zero continuous map, with unchanged translations, basepoints, partition and native lattice. Nonnegative B and Lipschitz weakening justify the zero branch uniformly.",
+    "Orthogonality identifies correlation with correlation against the projection; Cauchy-Schwarz and the actual original weighted norm bound then control its absolute value. The correlator is allowed to take both signs, so the hypothesis is abs(v)<=1, not v in [0,1].",
+    "Eventual correlation lower bounds with an explicit error tending to zero are transferred using the actual ultrafilter limit of weighted expectations. No exchange of limits or unproved convergence is inserted.",
+    "The restricted family is bounded under total<=1, including zero-mass stages. On the ultrafilter-large set it equals the original coordinate family exactly, so the completed equality follows from the verified zero-distance criterion.",
+    "Seven theorems and one definition are individually kernel audited. Full inverse correlator existence, finite subgroup estimates, coloring-derived targets, Calibration/Alignment and final combinatorial conclusion remain."
+  ],
+  "new_modules": [
+    "Hindman168/NativeStageRestriction.lean",
+    "Hindman168/NativeProjectionCorrelation.lean",
+    "Hindman168/NativeUltrafilterRestriction.lean"
+  ],
+  "verified": {
+    "project_modules": 963,
+    "pntplus_modules": 9,
+    "source_scan_modules": 972,
+    "source_config_hashes": 981,
+    "build_jobs": 4917,
+    "axiom_reports": 4702,
+    "new_theorems": 7,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 8,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The correlation-to-projection conclusion and restriction to ultrafilter-large stage sets are now proved on actual original-law native representations. The existence of the inverse correlator is not assumed away or proved by these statements. Next establish finite subgroup Gowers inputs, cyclic-to-interval transfer and weighted cell assembly needed to derive positive correlations, alongside coloring-derived dense targets. Calibration/Alignment and final arithmetic extraction of ordered positive rapidly separated monochromatic witnesses remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

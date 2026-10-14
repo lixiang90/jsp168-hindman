@@ -1,0 +1,170 @@
+[
+  {
+    "module": "FiniteOrderNativeShortCubeModelsCapped",
+    "kind": "dependency",
+    "command": [
+      "lake",
+      "build",
+      "Hindman168.FiniteOrderNativeShortCubeModelsCapped"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 27.609999999869615,
+    "log_sha256": "71107a650c52ae49d6f94819740b176cd68b539d59ace29bc4db739c6292ddc2"
+  },
+  {
+    "module": "FiniteOrderNativeChainPredictionCapped",
+    "kind": "focused",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteOrderNativeChainPredictionCapped.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.718999999808148,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "FiniteOrderNativeChainPredictionCapped",
+    "kind": "dependency",
+    "command": [
+      "lake",
+      "build",
+      "Hindman168.FiniteOrderNativeChainPredictionCapped"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.45299999997951,
+    "log_sha256": "b7a861119fafed0e64a409fcd605be437535d752ca56db8eda762260d5353240"
+  },
+  {
+    "module": "SelectedNativeMaskCorrelationCapped",
+    "kind": "focused",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SelectedNativeMaskCorrelationCapped.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.32799999997951,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "SelectedNativeMaskCorrelationCapped",
+    "kind": "dependency",
+    "command": [
+      "lake",
+      "build",
+      "Hindman168.SelectedNativeMaskCorrelationCapped"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.593000000109896,
+    "log_sha256": "0c86a0e879f56901304ec72a4d4dbb35ba42251c4cb9fce48e1a204e7c79e8db"
+  },
+  {
+    "module": "SelectedColorDenseNativeModelsCapped",
+    "kind": "focused",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SelectedColorDenseNativeModelsCapped.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.984999999869615,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "SelectedColorDenseNativeModelsCapped",
+    "kind": "dependency",
+    "command": [
+      "lake",
+      "build",
+      "Hindman168.SelectedColorDenseNativeModelsCapped"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 21.875,
+    "log_sha256": "9752ce43ae3d4edbbf80b3ed6a3b4349a404a22a4fddf245a5d08917191e77d6"
+  },
+  {
+    "module": "SelectedColorNativeTestingModelsCapped",
+    "kind": "focused",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SelectedColorNativeTestingModelsCapped.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 21.5,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "SelectedColorNativeTestingModelsCapped",
+    "kind": "dependency",
+    "command": [
+      "lake",
+      "build",
+      "Hindman168.SelectedColorNativeTestingModelsCapped"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 23.078999999910593,
+    "log_sha256": "1c57abc74a18264069681683c653420e9d92da651278c372b9fe5a5b7f85331b"
+  },
+  {
+    "module": "SelectedColorCalibratedModelsCapped",
+    "kind": "focused",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SelectedColorCalibratedModelsCapped.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 22.281000000191852,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "SelectedColorCalibratedModelsCapped",
+    "kind": "dependency",
+    "command": [
+      "lake",
+      "build",
+      "Hindman168.SelectedColorCalibratedModelsCapped"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 23.390999999828637,
+    "log_sha256": "6c9745ec48e08e0dfa33a6f0ad9d5df87c61fe129da52e788639c2ee50f5ae16"
+  },
+  {
+    "module": "SelectedColorCalibrationTolerance",
+    "kind": "focused",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SelectedColorCalibrationTolerance.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 22.688000000081956,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

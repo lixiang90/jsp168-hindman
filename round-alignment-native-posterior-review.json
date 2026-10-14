@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2717,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6744,
+    "selected_axiom_reports": 10671,
+    "new_declarations": 38,
+    "new_theorems": 35,
+    "new_definitions": 3,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/AlignmentTailRestTuple.lean",
+    "Hindman168/AlignmentTailRestWindowGeometry.lean",
+    "Hindman168/AlignmentNativeModelLogEvalCongruence.lean",
+    "Hindman168/AlignmentJointParameterTailCongruence.lean",
+    "Hindman168/AlignmentJointSourceTailDependence.lean",
+    "Hindman168/AlignmentRetainedCubeResidue.lean",
+    "Hindman168/AlignmentTailRestRetainedArithmetic.lean",
+    "Hindman168/AlignmentJointTailRemovalEvent.lean",
+    "Hindman168/AlignmentJointTailRemovalPosterior.lean",
+    "Hindman168/AlignmentJointTailTupleSampleReadings.lean",
+    "Hindman168/AlignmentRetainedCubeNestedResidue.lean",
+    "Hindman168/AlignmentJointTailFiniteResidueChoices.lean"
+  ],
+  "proved_components": [
+    "Original supported PRODUCT rest windows are read without assuming their tuples satisfy the posterior exposure key. Literal tail insertion is exactly one original coordinate update; retained products and their CRT vectors stay fixed before the removed factor. Actual dyadic-window memberships alone preserve CubeScale and derive the fixed normalized scale range.",
+    "Actual native model-log evaluations depend only on the original exponent polynomial evaluations, on ALL real inputs. The actual exposed vector/joint source reads only the original tail set T; its one-factor extension reads only the OTHER tail factors. Genuine source equality therefore eliminates outside/pivot values from supported rest fibers, without assuming conditional independence or integer orbit identities off samples.",
+    "The actual retained base/increment CRT VECTOR is constructed with bounds and original classes. Original rest-window rough units derive positive retained q and actual smooth-modulus/fixed-denominator coprimality. Both source and coarse residue are fixed before t varies. Fine/coarse vectors are proved nested even when retained and removed factors share primes.",
+    "The ACTUAL joint original-test removal event uses the literal retained q, CRT residue vector and actual normalized cube scale. The proved all-anchor cap supplies every actual supported rest-fiber bound with no assumed degree/log/scale or analytic fiber cap. Original product Fubini followed by the ACTUAL short-exposure posterior domination yields a uniform vanishing union over removal directions, and over any fixed finite residue-choice list.",
+    "The native source using anchor values outside the tail is proved exactly equal to the ORIGINAL simultaneous array samples and complex nilsequence product observations at all valid integer cube samples. Actual sampled values outside T are not assumed fixed by the posterior, and no off-sample original orbit equality is claimed."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual joint original-test removed-factor events now have PROVED uniform supported rest-fiber caps and actual posterior finite-direction/residue-choice vanishing unions. Literal retained CRT vectors and fixed normalized scale ranges are instantiated; sources ignore outside-tail values and retain exact original joint cube samples/readings. Remaining: match actual full permitted original cube boxes/ceil geometry and normalized q/q*t means to these events, derive per-removal good-event discrepancies and telescope the complete factor-removal chain, then full face invariance/cube limits/Alignment/countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-native-posterior-mathematical-review.txt",
+  "mathematical_review_sha256": "3c09c5851124582a951f87592a26d79415dcccf918c13b4dd9032098f73c0e15",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.609000000171363,
+  "log": "round-positive-short-exposure-build.txt",
+  "log_sha256": "b86d53f2683741f145bec66c90259839413bb70ed0ecc3eef543038817ab3d19"
+}

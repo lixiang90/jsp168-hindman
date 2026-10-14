@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2914,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6955,
+    "selected_axiom_reports": 11280,
+    "new_declarations": 39,
+    "new_theorems": 28,
+    "new_definitions": 11,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeRationalCubeInclusion.lean",
+    "Hindman168/NativeCubeAmbientLayers.lean",
+    "Hindman168/NativeCubeAmbientRationality.lean",
+    "Hindman168/NativeCubeInclusionRationality.lean",
+    "Hindman168/NativeCubeInternalFiltration.lean",
+    "Hindman168/NativeConjugateSubgroupFiltration.lean",
+    "Hindman168/NativeFiniteProductDiagonalLattice.lean",
+    "Hindman168/NativeResidueCubeData.lean"
+  ],
+  "proved_components": [
+    "Proved actual native cube subgroup inclusion smoothness, its exact differential, exponential compatibility and adjoint intertwining. No supplied bracket compatibility is used.",
+    "Constructed every ambient cube layer as the actual full-array Lie embedding image. Proved antitonicity, initial equality, exact zero-layer model, actual bracket closure, termination and rationality for the specified product lattice.",
+    "Proved actual internal rational-log-span membership iff its inclusion lies in the ambient product-lattice rational span, using positive powers and actual exponential compatibility. Derived the FULL native cube rational Lie filtration with internal initial layers top and ORIGINAL degree and step bounds.",
+    "Transported the SAME possibly proper final subgroup filtration to rationally conjugated original native data, preserving every Lie and group layer exactly. The residue is only ambient-rational and need not lie in the subgroup.",
+    "Constructed the actual finite-product diagonal and proved product of conjugated lattices equals diagonal conjugation of the specified product lattice.",
+    "Constructed full native rational-residue cube data and rational filtration. Its group is the SAME original cube group, its lattice is EXACTLY the diagonal-conjugated original product lattice intersected with that group, and all internal Lie layers and the paper upper-face group identification are preserved."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 weak probability limit and all-continuous tests, SAME-filtration actual native cube group, EXACT paper upper-face identification, compact actual lattice quotient, FULL internal rational cube filtration and rational-residue cube data preserving original step s and degree are proved. Remaining: actual residue cube orbit maps/Haar images; face-character coefficient isolation and original source adaptation; simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-cube-filtration-mathematical-review.txt",
+  "mathematical_review_sha256": "d16e2749476b0ff50749fa0cae9bd4f597e29f2beca51b87f0d6ef0a03cb4bad",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

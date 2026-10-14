@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.516000000061467,
+  "log": "round-multiplied-boundary-discard-build.txt",
+  "log_sha256": "46a8ad391f8694345cac304b74856e3f633c0fec640f980e3acd343cd7e36195"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.390000000130385,
+  "log": "round-native-central-pullback-axioms.txt",
+  "log_sha256": "d206361b061278e82f0206fcfae24cfcc33bada23ece2cdc05386a5d116776aa"
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.82799999997951,
+  "log": "round-native-lattice-ordered-basis-build.txt",
+  "log_sha256": "1dd17e4ca78a0e2658d44a6b8ce55c8096c3dc72b582f61ebe6aa66a9c9bc3cc"
+}

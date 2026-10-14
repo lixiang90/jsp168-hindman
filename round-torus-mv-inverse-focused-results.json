@@ -1,0 +1,98 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitTorusUniformFourierApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.547000000020489,
+    "log": "round-torus-mv-inverse-UnitTorusUniformFourierApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitTorusUniformFourierApproximation.lean",
+    "source_sha256": "90f3870de87a34cea7f8c15955cb08e7a385706370abe43addb85cf7d624b17d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitTorusFiniteDiscrepancy.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.077999999979511,
+    "log": "round-torus-mv-inverse-UnitTorusFiniteDiscrepancy-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitTorusFiniteDiscrepancy.lean",
+    "source_sha256": "301565e2e48b9510899d4ab1fe2658f25d2d52161396f4dc04e53d0cd68e5fa7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitTorusFiniteObservablePhaseSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.891000000061467,
+    "log": "round-torus-mv-inverse-UnitTorusFiniteObservablePhaseSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitTorusFiniteObservablePhaseSelection.lean",
+    "source_sha256": "2e587392acd748ae0802c205240a1d5c5593fe8c75e4390564c040898cc8a1b4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/TorusPolynomialCharacterProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.313000000081956,
+    "log": "round-torus-mv-inverse-TorusPolynomialCharacterProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/TorusPolynomialCharacterProjection.lean",
+    "source_sha256": "9ca8865223680864b50aa6a23f7572086f26b9fc6ad54c6c0092fcc22d6359bd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/TorusMvPolynomialInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.483999999938533,
+    "log": "round-torus-mv-inverse-TorusMvPolynomialInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/TorusMvPolynomialInverse.lean",
+    "source_sha256": "e3f8b2f302c8fd3f2e8aee3981fee3dac37e1232c70b1d17c8a2780e97be5d8f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/TorusIntegerHorizontalCharacter.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.422000000020489,
+    "log": "round-torus-mv-inverse-TorusIntegerHorizontalCharacter-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/TorusIntegerHorizontalCharacter.lean",
+    "source_sha256": "53763c3a4d9e6d6079107ac263b0550c40b28c25aa28614307679ee7cb1be4a2"
+  }
+]

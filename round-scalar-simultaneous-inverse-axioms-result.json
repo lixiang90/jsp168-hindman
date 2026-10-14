@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.530999999959022,
+  "log": "round-scalar-simultaneous-inverse-axioms.txt",
+  "log_sha256": "e0978382283a349942e6c6fd78bc4595c40676a500923fa58ef8b58d4278b34e"
+}

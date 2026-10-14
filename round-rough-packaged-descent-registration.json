@@ -1,0 +1,102 @@
+{
+  "modules": [
+    "Hindman168/RoughNativeKernelMap.lean",
+    "Hindman168/RoughNativeKernelSpatialPolynomial.lean",
+    "Hindman168/RoughNativeKernelDegreeBound.lean",
+    "Hindman168/RoughRescaledPieceSelection.lean",
+    "Hindman168/RoughRescaledPieceLabel.lean",
+    "Hindman168/RoughNativeModelFiniteResidue.lean",
+    "Hindman168/RoughNativePackagedResidueApproximation.lean",
+    "Hindman168/RoughConjugateResidueTest.lean"
+  ],
+  "names": [
+    "Hindman168.roughNativeKernelMap",
+    "Hindman168.roughNativeKernelMap_val",
+    "Hindman168.roughNativeKernelMap_log_polynomial",
+    "Hindman168.rough_native_kernel_spatial_log_polynomial",
+    "Hindman168.roughKernelDegreeFactor",
+    "Hindman168.roughKernelDegreeFactor_mono",
+    "Hindman168.rough_native_kernel_degree_uniform",
+    "Hindman168.rough_frozen_rescaled_piece_selection",
+    "Hindman168.rough_rescaled_piece_label",
+    "Hindman168.rough_rescaled_piece_test",
+    "Hindman168.rough_native_joint_model_finite_residue",
+    "Hindman168.rough_native_packaged_residue_approximation",
+    "Hindman168.rough_conjugate_residue_test",
+    "Hindman168.rough_frozen_conjugate_residue_test"
+  ],
+  "declarations": {
+    "Hindman168/RoughNativeKernelMap.lean": [
+      [
+        "def",
+        "roughNativeKernelMap"
+      ],
+      [
+        "theorem",
+        "roughNativeKernelMap_val"
+      ],
+      [
+        "theorem",
+        "roughNativeKernelMap_log_polynomial"
+      ]
+    ],
+    "Hindman168/RoughNativeKernelSpatialPolynomial.lean": [
+      [
+        "theorem",
+        "rough_native_kernel_spatial_log_polynomial"
+      ]
+    ],
+    "Hindman168/RoughNativeKernelDegreeBound.lean": [
+      [
+        "def",
+        "roughKernelDegreeFactor"
+      ],
+      [
+        "theorem",
+        "roughKernelDegreeFactor_mono"
+      ],
+      [
+        "theorem",
+        "rough_native_kernel_degree_uniform"
+      ]
+    ],
+    "Hindman168/RoughRescaledPieceSelection.lean": [
+      [
+        "theorem",
+        "rough_frozen_rescaled_piece_selection"
+      ]
+    ],
+    "Hindman168/RoughRescaledPieceLabel.lean": [
+      [
+        "theorem",
+        "rough_rescaled_piece_label"
+      ],
+      [
+        "theorem",
+        "rough_rescaled_piece_test"
+      ]
+    ],
+    "Hindman168/RoughNativeModelFiniteResidue.lean": [
+      [
+        "theorem",
+        "rough_native_joint_model_finite_residue"
+      ]
+    ],
+    "Hindman168/RoughNativePackagedResidueApproximation.lean": [
+      [
+        "theorem",
+        "rough_native_packaged_residue_approximation"
+      ]
+    ],
+    "Hindman168/RoughConjugateResidueTest.lean": [
+      [
+        "theorem",
+        "rough_conjugate_residue_test"
+      ],
+      [
+        "theorem",
+        "rough_frozen_conjugate_residue_test"
+      ]
+    ]
+  }
+}

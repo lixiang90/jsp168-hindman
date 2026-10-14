@@ -1,0 +1,53 @@
+{
+  "modules": [
+    "Hindman168/RoughNativeResidueProductApproximation.lean",
+    "Hindman168/RoughNativeLabelledModelResidues.lean",
+    "Hindman168/RoughNativeLabelledPieceTests.lean",
+    "Hindman168/RoughRescaledDependentPieceTest.lean",
+    "Hindman168/RoughFiniteCofinalSelection.lean"
+  ],
+  "names": [
+    "Hindman168.rough_native_residue_product_approximation",
+    "Hindman168.rough_native_labelled_model_residues",
+    "Hindman168.rough_native_labelled_piece_tests",
+    "Hindman168.rough_rescaled_dependent_piece_test",
+    "Hindman168.rough_finite_diagonal_cofinal_selection",
+    "Hindman168.rough_finite_cofinal_selection"
+  ],
+  "declarations": {
+    "Hindman168/RoughNativeResidueProductApproximation.lean": [
+      [
+        "theorem",
+        "rough_native_residue_product_approximation"
+      ]
+    ],
+    "Hindman168/RoughNativeLabelledModelResidues.lean": [
+      [
+        "theorem",
+        "rough_native_labelled_model_residues"
+      ]
+    ],
+    "Hindman168/RoughNativeLabelledPieceTests.lean": [
+      [
+        "theorem",
+        "rough_native_labelled_piece_tests"
+      ]
+    ],
+    "Hindman168/RoughRescaledDependentPieceTest.lean": [
+      [
+        "theorem",
+        "rough_rescaled_dependent_piece_test"
+      ]
+    ],
+    "Hindman168/RoughFiniteCofinalSelection.lean": [
+      [
+        "theorem",
+        "rough_finite_diagonal_cofinal_selection"
+      ],
+      [
+        "theorem",
+        "rough_finite_cofinal_selection"
+      ]
+    ]
+  }
+}

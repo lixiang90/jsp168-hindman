@@ -1,0 +1,123 @@
+JSP-000168 / Erdos #172: FULL fixed-data bracket alternative / original-vector discharge
+Author mathematical review, 2026-10-13. Verdict: Partial coverage.
+Previous goal turn: PROGRESS. NOT independent replay or external peer review.
+Full positive distinct monochromatic finite-sums/products target remains OPEN.
+Primary pinned source: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a
+Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026,
+06_rough_progressions.tex. Auxiliary primary source:
+https://arxiv.org/html/0709.3562v4 , Proposition 5.3 / Claim 7.7.
+Corrected multivariate scope: https://arxiv.org/html/1311.6170v3 .
+
+1. Exact affine inverse
+Actual torus Fourier addition is proved on POINTS, not confused with
+frequency addition. Actual Fourier basepoint phase has complex norm ONE.
+Factoring it from the actual finite mean preserves its norm exactly.
+Compact unit-observable selection produces a genuinely nonzero frequency.
+The actual geometric mean inverse then gives length^-1 scale. One fixed
+natural size/error budget precedes ALL frequencies, basepoints and lengths.
+This uses SAME circle Haar and does not assume a shifted-interval inverse.
+
+2. Relative affine slope
+Let epsilon=B/N+D*w with w>=0 and B<=N*w. Choose T before alpha,beta,w,N,
+including 2*A*A0 and 20*B/delta, where A is the proved affine inverse bound.
+If epsilon<=delta/10, actual affine recurrence produces 1<=q<=A and
+N*norm(q*alpha)<=A*epsilon. Initial N*abs(alpha)<=A0 and N>=2*A*A0 imply
+abs(q*alpha)<=1/2, so its circle norm is its actual absolute value. Since
+q>=1, N*abs(alpha)<=A*(D+1)*w. No wrap-around is ignored.
+If epsilon>delta/10, B/N<=delta/20 forces delta<=20*D*w. The INITIAL
+absolute slope bound gives N*abs(alpha)<=20*D*A0*w/delta directly.
+The fixed C covers both branches. D=0/w=0 edge cases are included.
+
+3. Actual dense complete block
+Set L=N/J. Original useful points beyond J*L form a true subset of
+Ico(J*L,N), with card<=J, by the actual division-remainder identity.
+If 2J<=delta*N, the retained useful set has card>=delta*N/2.
+Actual labels floor(n/L) lie in range J. Proved finite dense witness
+selection gives one label with V.card*J>=retained.card. On that fiber,
+n mod L is injective and j*L+(n mod L)=n, proving actual block density
+delta*L/2. The block endpoint (j+1)*L<=N is actually proved.
+The remainder and a useful block are NEVER assumed dense without proof.
+
+4. Same shifted samples and freezing
+Actual fractional bracket bounds imply affine beta+alpha*h circle bounds
+at tolerance B/N+D*w, because fract(h*gamma_i) lies in [0,1).
+After relative slope refinement N*abs(alpha)<=C*w, actual n<L=N/J gives
+abs(alpha*n)<=C*w/J. Freezing beta+alpha*a retains fract((a+n)*gamma_i)
+on the SAME original useful points. Circle triangle inequality bounds
+the frozen expression by B/N+C*w/J.
+The affine torus basepoint is exactly a*gamma modulo one; no fractional
+representative translation identity is assumed. True slab membership,
+unit cutoff discrepancy and the actual affine inverse apply on range L.
+
+5. Full small-slope inverse budgets and branches
+Select maximal nonzero zeta_none, w=abs(zeta_none). The corrected full
+torus slab argument gives fixed c and K before all raw source inputs,
+now at density delta/2. Choose J=ceil(4*C/c)+1 and threshold T including
+J and ceil(2J/delta), before raw inputs. If N<T, N*abs(zeta_i)<=T*Z.
+If N*w<=P=B+4*B/c, all real coefficient bounds follow directly.
+Otherwise B<=N*w, refinement/block selection apply; B/N<=c*w/4 and
+C*w/J<=c*w/4, so actual frozen tolerance<=c*w. Actual affine inverse
+produces nonzero k with L*norm(k dot gamma)<=K. The previously proved
+N/L<=2J yields ORIGINAL N*norm(k dot gamma)<=2J*K. The final fixed
+natural A absorbs small-N, small-w, phase and size budgets.
+Arbitrary finite indices are handled by actual maximal coordinate
+reindexing; finite simultaneous budgets precede selection. Actual
+nonzeroness, natAbs sum and dot-product equality transport exactly.
+Empty index types/zero coefficients give the real-coefficient branch.
+Thus the FULL small-linear-slope lemma is proved, without an analytic oracle.
+
+6. Full fixed-data Claim 7.7
+First apply the already proved unrestricted-alpha mixed alternative.
+Its coefficient-small branch uses r=1. A mixed pair (k,r) with r=0
+already gives a nonzero original k dot gamma. For r!=0 set
+a=r*alpha+k dot gamma, alpha'=a-round(a), zeta'=r*zeta-k,
+beta'=r*beta. The proved correction gives N*abs(alpha')<=Q,
+abs(zeta'_i)<=Q*(Z+1), and SAME original useful set satisfies corrected
+circle bound Q*B. Filter inclusion transports density with NO loss.
+Apply the newly proved small-slope inverse SECOND time, with these fixed
+budgets. Its nonzero-vector branch gives original k dot gamma ALONE.
+Its real-coefficient branch bounds circle norms of r*zeta_i by their
+actual distance to integer k_i. Replacing r by its positive natAbs
+preserves circle norms for either sign. Thus the full positive bounded
+natural multiplier OR nonzero original integer-vector alternative is proved.
+All constants precede ALL beta/alpha/zeta/gamma/N. Original explicit
+delta-power dependence is NOT claimed; fixed-data existential bounds suffice
+for this milestone, not a complete complexity audit of the source theorem.
+
+7. True native application and original-vector discharge
+Apply full Claim 7.7 to actual compact native bracket parameters and SAME
+useful V subset range N, with density capped at min(rho,1). Actual character,
+positive bounded M, BOTH higher P/Q monomial/binomial tables and bounded
+integer offsets are retained. The child inverse premise is only the FULL
+actual lower-degree statement; degree-two versions discharge it using the
+proved degree-one base. They are NOT the full original degree-two inverse.
+
+The pure-vector output gives v!=0, sum natAbs(v_i)<=A and original-scale
+small v dot gamma. Each abs(v_i)<=A is proved via a finite sum inequality.
+Apply the existing original reconstruction with fixed R=B=A BEFORE sources.
+This gives a true nonzero horizontal/lattice character on the ORIGINAL
+group, bounded norm and finite grid, and BOTH COMPLETE original raw
+monomial/Mv-binomial tables for EVERY positive Unit multiindex.
+The OR theorem now leaves only the actual relative commutator-coefficient
+packet with positive multiplier; it does NOT hide that branch as a proof
+of the original inverse. No new named statement or inverse oracle is added.
+
+8. Scope and next obligations
+Actual case (i) still needs common multiplier absorption, rational
+denominators and lattice-integral commutator characters. Split-basis
+exponentials are NOT assumed lattice points. The zero-character case
+needs actual smaller rational nonlinearity filtration AND genuine source
+factorization, followed by degree+nonlinearity induction. Original inverse
+small-N completion, corrected multivariate inverse, separate interval
+Gowers correlation inverse, rough progressions, Alignment and StrongConjecture
+remain OPEN. The full target has not been proved and no unavoidable
+obstruction has been found. Public repository/PR/prize milestone not reached.
+
+All retained registered proof-source hashes/axiom sets must remain unchanged.
+Explicit autoImplicit=false checks require EMPTY logs for every new module,
+full build and expanded axiom audit require terminal success. Only
+propext/Classical.choice/Quot.sound permitted; no sorry/admit/custom axioms,
+unsafe/native_decide bypass or relaxed heartbeat configuration.
+The exact rational reviewed source-slab certificate is re-executed and
+hashed; it refutes the displayed volume estimate, not Proposition 5.3 itself.
+The corrected full torus estimates and needed inverse are now PROVED in Lean.

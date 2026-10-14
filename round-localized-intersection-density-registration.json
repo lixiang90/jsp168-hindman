@@ -1,0 +1,66 @@
+{
+  "baseline_hash_count": 1113,
+  "modules": [
+    "Hindman168/WeightedHaarAlgebraProjection.lean",
+    "Hindman168/LocalizedMixedDualDensity.lean"
+  ],
+  "names": [
+    "Hindman168.weightedHaarHilbert_algebra_power_representatives",
+    "Hindman168.weightedHaarHilbert_algebra_polynomial_representative",
+    "Hindman168.weightedHaarHilbert_algebra_continuous_comp_mem",
+    "Hindman168.weightedHaarHilbert_algebra_projection_unit_approximation",
+    "Hindman168.weightedHaarHilbert_algebra_projection_exact_representative",
+    "Hindman168.localizedMixedDualHilbert_projection_exact_representative",
+    "Hindman168.localizedMixedDualHilbert_unit_interval_intersection_mem",
+    "Hindman168.localizedMixedDualHilbert_projection_mem",
+    "Hindman168.localizedMixedDualHilbertSubspace_eq_intersection",
+    "Hindman168.localizedMixedDualHilbert_intersection_approximation"
+  ],
+  "theorem_count": 10,
+  "declarations": {
+    "Hindman168/WeightedHaarAlgebraProjection.lean": [
+      [
+        "theorem",
+        "weightedHaarHilbert_algebra_power_representatives"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_algebra_polynomial_representative"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_algebra_continuous_comp_mem"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_algebra_projection_unit_approximation"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_algebra_projection_exact_representative"
+      ]
+    ],
+    "Hindman168/LocalizedMixedDualDensity.lean": [
+      [
+        "theorem",
+        "localizedMixedDualHilbert_projection_exact_representative"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbert_unit_interval_intersection_mem"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbert_projection_mem"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbertSubspace_eq_intersection"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbert_intersection_approximation"
+      ]
+    ]
+  }
+}

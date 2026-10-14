@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "RoughVectorMvPolynomial represents a vector-valued multivariate polynomial by a finite list of scalar MvPolynomial and original vector pairs. It proves actual evaluation and degree bounds for sums, scalar multiplication, bilinear operations and every real linear scalar projection.",
+    "RoughParametricCurve lifts the existing finite vector-polynomial coefficient operations to multivariate polynomial coefficients. Specialization at every real parameter point commutes exactly with rational scaling, primitive, bilinear products, iterated adjoints, finite sums and endpoint evaluation.",
+    "RoughParametricDegree tracks degree in the external parameters separately from the auxiliary curve time. In particular the primitive changes auxiliary time exponents but preserves external parameter degree; bilinear operations add parameter degrees.",
+    "RoughParametricPicard constructs finite parameter-polynomial defect, defect powers, inverse field and Picard iterates. For nilpotence parameter s and input degree d its n-th Picard coefficient family has external degree at most (s*s+1)^n*d.",
+    "RoughNativeProductMvPolynomial proves pointwise specialization is exactly the original native rational defect, field and Picard polynomial, then identifies its endpoint with the actual original logarithm of exp(u(x))*exp(w(x)). The joint degree bound is (s*s+1)^(s+1)*d with s the original group nilpotency class.",
+    "RoughVectorMvCoordinates converts ordinary finite-basis coordinate MvPolynomials to the finite vector representation without increasing degree. It also proves every intrinsic linear coordinate on a subspace-valued polynomial is polynomial of the same degree, using extension of a linear map.",
+    "RoughNativeKernelLogPolynomial explicitly constructs the joint logarithm of Q(x)=exp(-a(x)V)*P(x)*exp(-m(x)V) by two applications of the actual native product polynomial. It proves equality for every real parameter point, degree at most (((s*s+1)^(s+1))^2)*d, interfaces from ordinary logarithmic coordinates, actual membership in the given character kernel, and the same degree bound for intrinsic kernel coordinates.",
+    "Compared with Section 06 rough-kernel-polynomial: the parameter type sigma is arbitrary, and every evaluation theorem holds for all x:sigma->Real. Thus z and all spatial variables may be included simultaneously; the result is not just separate or single-parameter polynomiality.",
+    "The old nativeLieRationalProductPolynomial controls an auxiliary real curve time. Merely substituting into that single time would not prove polynomiality in arbitrary u(x),w(x). This batch lifts every coefficient operation and proves exact specialization to the original finite Picard construction before invoking its original-group endpoint theorem.",
+    "External degree and auxiliary time exponent are separated. Rational integration coefficients depend on the auxiliary time exponent only. Primitive therefore preserves external degree. Bracket products add degree, defect powers give n*s*d+e, field gives s*s*d+e, and Picard iteration is bounded by (s*s+1)^n*d.",
+    "The new product endpoint is proved equal to nativeLieGlobalLogarithm of the original group product. The three-factor construction preserves multiplication order and uses the genuine global exponential/logarithm inverse twice. No formal BCH model or unrelated matrix group is substituted.",
+    "The bound C(s)^2*d for C(s)=(s*s+1)^(s+1) is coarse but depends only on old degree and group nilpotency class. It is independent of input polynomial coefficients, progression length, scale and parameter values. All-zero/constant degree and nilpotency class zero are included.",
+    "Finite-list vector polynomials need not have unique representations. The ordinary basis-coordinate interface proves that every supplied finite-basis logarithmic coordinate family of degree d has the required vector representation. Linear projections yield actual MvPolynomial statements, so polynomiality is not merely a custom predicate.",
+    "Actual kernel membership follows from the same fixed character and the previously proved factor membership, identically for all real parameter values. Intrinsic linear coordinates on the kernel are covered by extending the linear functional to the ambient space; the degree does not increase. No coefficient-size control is required or claimed.",
+    "Extracted coefficient models and affine spatial substitutions still need to be assembled with this joint logarithm theorem. Conjugated lattice compactness, analytic slow-factor and induced-observable estimates, sampling comparison and dimension induction remain separate open obligations.",
+    "All retained proof sources and axiom sets are unchanged; these are author-side checks, not independent kernel replay.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. Joint bounded-degree native logarithmic polynomiality of the exact kernel factor is now proved for arbitrary simultaneous real parameters, from ordinary logarithmic coordinate polynomials, including intrinsic kernel coordinates. Fixed-character rational normalization, strict kernel dimension descent, original kernel quotient compactness, exact ordered factorization and integer-polynomial residue cosets were retained. Assembly with the extracted scalar coefficient models, affine spatial substitution, rational conjugated lattices and their kernel quotients, uniformly Lipschitz induced observables, slow-factor freezing and sampling estimates remain open. The quantitative Leibman obstruction, affine substituted-polynomial coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1598,
+    "pntplus_modules": 9,
+    "build_jobs": 5564,
+    "selected_axiom_reports": 7070,
+    "new_declarations": 66,
+    "new_theorems": 44,
+    "new_definitions": 22,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughVectorMvPolynomial.lean",
+    "Hindman168/RoughParametricCurve.lean",
+    "Hindman168/RoughParametricDegree.lean",
+    "Hindman168/RoughParametricPicard.lean",
+    "Hindman168/RoughNativeProductMvPolynomial.lean",
+    "Hindman168/RoughVectorMvCoordinates.lean",
+    "Hindman168/RoughNativeKernelLogPolynomial.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. Joint bounded-degree native logarithmic polynomiality of the exact kernel factor is now proved for arbitrary simultaneous real parameters, from ordinary logarithmic coordinate polynomials, including intrinsic kernel coordinates. Fixed-character rational normalization, strict kernel dimension descent, original kernel quotient compactness, exact ordered factorization and integer-polynomial residue cosets were retained. Assembly with the extracted scalar coefficient models, affine spatial substitution, rational conjugated lattices and their kernel quotients, uniformly Lipschitz induced observables, slow-factor freezing and sampling estimates remain open. The quantitative Leibman obstruction, affine substituted-polynomial coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions rough-kernel-polynomial: joint native logarithm polynomiality and uniform degree bounds"
+}

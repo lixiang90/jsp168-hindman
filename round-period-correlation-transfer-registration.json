@@ -1,0 +1,152 @@
+{
+  "baseline_hash_count": 1165,
+  "modules": [
+    "Hindman168/FiniteComplexMean.lean",
+    "Hindman168/PeriodicComplexCorrelation.lean",
+    "Hindman168/NilsequencePeriodCorrelation.lean",
+    "Hindman168/PhaseObservableCorrelation.lean",
+    "Hindman168/NativeRealPeriodCorrelation.lean",
+    "Hindman168/CompleteCellNilOrbitRebase.lean",
+    "Hindman168/NativeCellCorrelationTransfer.lean"
+  ],
+  "names": [
+    "Hindman168.finiteComplexMean",
+    "Hindman168.finiteComplexMean_equiv",
+    "Hindman168.finiteComplexMean_prod",
+    "Hindman168.finiteComplexMean_norm_le",
+    "Hindman168.finiteComplexMean_norm_le_of_bound",
+    "Hindman168.finiteComplexMean_exists_norm_ge",
+    "Hindman168.finiteComplexMean_fin_mul",
+    "Hindman168.periodic_complex_correlation_split",
+    "Hindman168.periodic_complex_correlation_extract",
+    "Hindman168.quotient_linear_orbit_shift",
+    "Hindman168.linear_nilsequence_period_correlation_extract",
+    "Hindman168.native_nilsequence_period_correlation_extract",
+    "Hindman168.phaseRealObservable",
+    "Hindman168.phaseRealObservable_abs_le",
+    "Hindman168.phaseRealObservable_lipschitz",
+    "Hindman168.finiteComplexMean_re",
+    "Hindman168.finiteComplexMean_const_mul",
+    "Hindman168.finite_real_phase_correlation",
+    "Hindman168.finite_real_correlation_phase_choice",
+    "Hindman168.native_real_period_correlation_extract",
+    "Hindman168.completeResidueCellPoint_ediv",
+    "Hindman168.completeResidueCellPoint_orbit_rebase",
+    "Hindman168.completeResidueCell_nil_correlation_rebase",
+    "Hindman168.native_complete_cell_correlation_transfer"
+  ],
+  "theorem_count": 22,
+  "selected_report_count": 24,
+  "declarations": {
+    "Hindman168/FiniteComplexMean.lean": [
+      [
+        "def",
+        "finiteComplexMean"
+      ],
+      [
+        "theorem",
+        "finiteComplexMean_equiv"
+      ],
+      [
+        "theorem",
+        "finiteComplexMean_prod"
+      ],
+      [
+        "theorem",
+        "finiteComplexMean_norm_le"
+      ],
+      [
+        "theorem",
+        "finiteComplexMean_norm_le_of_bound"
+      ],
+      [
+        "theorem",
+        "finiteComplexMean_exists_norm_ge"
+      ]
+    ],
+    "Hindman168/PeriodicComplexCorrelation.lean": [
+      [
+        "theorem",
+        "finiteComplexMean_fin_mul"
+      ],
+      [
+        "theorem",
+        "periodic_complex_correlation_split"
+      ],
+      [
+        "theorem",
+        "periodic_complex_correlation_extract"
+      ]
+    ],
+    "Hindman168/NilsequencePeriodCorrelation.lean": [
+      [
+        "theorem",
+        "quotient_linear_orbit_shift"
+      ],
+      [
+        "theorem",
+        "linear_nilsequence_period_correlation_extract"
+      ],
+      [
+        "theorem",
+        "native_nilsequence_period_correlation_extract"
+      ]
+    ],
+    "Hindman168/PhaseObservableCorrelation.lean": [
+      [
+        "def",
+        "phaseRealObservable"
+      ],
+      [
+        "theorem",
+        "phaseRealObservable_abs_le"
+      ],
+      [
+        "theorem",
+        "phaseRealObservable_lipschitz"
+      ],
+      [
+        "theorem",
+        "finiteComplexMean_re"
+      ],
+      [
+        "theorem",
+        "finiteComplexMean_const_mul"
+      ],
+      [
+        "theorem",
+        "finite_real_phase_correlation"
+      ],
+      [
+        "theorem",
+        "finite_real_correlation_phase_choice"
+      ]
+    ],
+    "Hindman168/NativeRealPeriodCorrelation.lean": [
+      [
+        "theorem",
+        "native_real_period_correlation_extract"
+      ]
+    ],
+    "Hindman168/CompleteCellNilOrbitRebase.lean": [
+      [
+        "theorem",
+        "completeResidueCellPoint_ediv"
+      ],
+      [
+        "theorem",
+        "completeResidueCellPoint_orbit_rebase"
+      ],
+      [
+        "theorem",
+        "completeResidueCell_nil_correlation_rebase"
+      ]
+    ],
+    "Hindman168/NativeCellCorrelationTransfer.lean": [
+      [
+        "theorem",
+        "native_complete_cell_correlation_transfer"
+      ]
+    ]
+  }
+}

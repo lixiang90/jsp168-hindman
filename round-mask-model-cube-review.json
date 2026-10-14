@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 550,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/FiniteSupportedConditioning.lean",
+    "Hindman168/SingleRepeatedDualCube.lean",
+    "Hindman168/MaskModelCubePairing.lean",
+    "Hindman168/MaskModelErrorCubeLimit.lean",
+    "Hindman168/MaskModelOriginalCorrelation.lean"
+  ],
+  "new_selected_report_count": 20,
+  "module_report_counts": {
+    "FiniteSupportedConditioning": 3,
+    "SingleRepeatedDualCube": 7,
+    "MaskModelCubePairing": 5,
+    "MaskModelErrorCubeLimit": 2,
+    "MaskModelOriginalCorrelation": 3
+  },
+  "application_review": [
+    "All 550 retained source/config hashes were verified before edits. Only the root import list and exact-name axiom registry changed among retained files; every retained proof source, StrongStatement, nine attributed PNT+ sources and all pinned dependency/config files remain unchanged. The fixed local preprint sections 04 and 05 match adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote updates were checked in this goal round.",
+    "Finite conditioning is exactly invariant under event equivalence on the original support. Adding explicit support membership does not change the conditioned law or its normalizer, even when the event mass is zero.",
+    "The direction array indexed by Fin d times Bool is exactly equivalent to independent ordered direction pairs. Its product finite mass and expectation are preserved for every interval length, including zero.",
+    "The product over all Boolean cube vertices factors exactly as g at the root times the product over all nonempty subset vertices. Exact finite Fubini identifies the repeated cube with the original single dual-test root pairing without any boundedness or probability normalization premise.",
+    "The actual target prediction order equals the generated original row-template dimension. The actual full conditioned mask prime law equals the template conditioned prime law, retaining the same polynomial catalogue and designated denominator.",
+    "The actual mask endpoint cube for any g is exactly its generated original row-template dual pairing with epsilon=1 and every nonempty vertex input equal to g. Its full prime support, good-event normalizer, polynomial modulus, prime-dependent quotient intervals and original harmonic root are unchanged.",
+    "For 0<=rho<=nu and a globally [0,1]-valued model, |rho-model|<=1+nu globally. Thus every repeated model-error nonempty vertex is an admissible original dual input; the bound is derived rather than assumed as a cube-decay premise.",
+    "For each fixed modeled block, the existing actual generated-template model theorem constructs one bounded model and companion stage tending to infinity with stage(w)<=w and the arbitrary supplied companion condition P(stage(w),w). Its actual repeated model-error cubes tend to zero for all finite tracked support templates having that block as root anchor and every fixed positive integer quotient scale.",
+    "The actual cube-error limit gives original subset correlation detection uniformly over all other globally admissible subset factors and product masks whose tracked function equals the model error. A single actual block model simultaneously supplies these uniform bounds for all its tracked templates and fixed positive quotient scales.",
+    "Any eventually admissible original subset-factor sequence whose tracked factor eventually equals the actual zero-cube error has original correlation tending to zero. This applies to the constructed model errors; arbitrary target cube decay is not claimed.",
+    "The support-restriction equality is an identity of finite masses, rather than an approximation between tuple laws. Both normalized laws therefore have precisely the same coefficients. It does not require a positive event mass; at zero mass both are the same zero finite mass.",
+    "The Boolean product includes the root exactly once and all nonempty vertices exactly once. False/true direction coordinates are transported to first/second pair coordinates with their original order. No conjugation, signed root, extra prime factor or missing singleton cube vertex is introduced.",
+    "The model is selected before the quotient scale J and tracked support t. All templates whose targetRootAnchor equals the modeled block use the same rho-model error and root cutoff. The generated-template model estimate is uniform over admissible inputs, so its w-dependent repeated error input is permitted. Model bounds hold on all integers and admissibility uses eventual original global rho bounds.",
+    "The extra zero-prime template is chosen with dimension 1 and the original gap. The fixed dimension cap max(1,maskRowCountBound m) covers all generated templates. The finite catalogue contains every selected row template at its exact Fin.succ index. Companion P and stage bounds are retained in the model output rather than dropped.",
+    "The final original detection statement still quantifies over the original admissible subset factors and product masks. Their target equals rho-model; no unconditional statement about arbitrary correlations is made. Actual single-factor replacement, finite telescoping and simultaneous original color-family data are not yet inferred from this interface.",
+    "Full nilsequence Prediction and Alignment applications, concrete data selection and the StrongWitness extraction remain necessary. StrongConjecture is unchanged and unproved. No public prize repository, PR or claim is created for this incomplete target.",
+    "Full build completed 4402 jobs without warnings/errors. Exact-name kernel audit covers all 2651 registered names, including all 20 new names, using only standard axioms or none. Source scan covers 546 proof modules; 555 source/config hashes are recorded. No unavoidable blocker is established."
+  ],
+  "source_preprint_section": "05_prediction.tex:199-247 (bounded actual models and diagonal stage), 250-261 (model-error repeated cube as original admissible dual pairing and nonsingleton factor replacement); exact cube structure from fixed 04_correlation.tex and 05_prediction.tex:40-60. Finite replacement/telescoping and later nilsequence/nested-projection applications remain explicit tasks.",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4402,
+    "project_modules": 537,
+    "pntplus_modules": 9,
+    "source_scan_modules": 546,
+    "axiom_reports": 2651,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 555,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The full actual ordered mask recurrence, target/anchor retention, complete-law endpoint transfer, centered nu-1 cancellation, original subset-average identification and quantitative arbitrary-target correlation detection remain proved. This round completes the exact generated row-template dual pairing for the actual endpoint cube and constructs bounded block models whose genuine repeated error cubes tend to zero, preserving original good-event normalization, full prime law, polynomial denominators, quotient shifts and harmonic root sampling. The same block model supplies uniform original error-correlation bounds over all other admissible factors, every tracked support with that root anchor and every fixed positive integer quotient scale, together with its companion stage. Next prove exact single-factor replacement and a finite telescoping sum for all nonsingleton original color factors, deriving their actual majorant and root-anchor matching bounds and coordinating the finite block/scale/color model family. Complete the remaining Prediction nilsequence-testing/nested-projection and Alignment applications required by the fixed paper, including compatibility with the original correlation output. Then choose concrete arithmetic block/gap/scale/color/rho data and the required companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary growing master-index/moment convergence rate or arbitrary target cube decay is claimed. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

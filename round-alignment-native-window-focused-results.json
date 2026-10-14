@@ -1,0 +1,98 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/PowerDominationRealRatios.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.875,
+    "log": "round-alignment-native-window-PowerDominationRealRatios-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/PowerDominationRealRatios.lean",
+    "source_sha256": "32c4d92155f73b6934392124ae530d0cc5eeeb436bf3503869bcdab2c413a249"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeReferenceGrowth.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.610000000102445,
+    "log": "round-alignment-native-window-AlignmentNativeReferenceGrowth-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeReferenceGrowth.lean",
+    "source_sha256": "ed07188fb8f2d506b60ee744e38f1e0f05a4d8edfaee32a79e36bc6ff97b6de5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeWindowSampling.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.25,
+    "log": "round-alignment-native-window-AlignmentNativeWindowSampling-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeWindowSampling.lean",
+    "source_sha256": "a2d8364f5076dac85db3b4d2a390ea07729e93b7f481487fb602e29322d73ca4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeWindowUniform.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.968000000109896,
+    "log": "round-alignment-native-window-AlignmentNativeWindowUniform-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeWindowUniform.lean",
+    "source_sha256": "b1a2c1910e4fc1d795971237f96700bfe33eb08632b731788e93a792d472d524"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ActualSelectorUniformity.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 5.75,
+    "log": "round-alignment-native-window-ActualSelectorUniformity-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ActualSelectorUniformity.lean",
+    "source_sha256": "8cb90d982ffed2303c865b0919b714825ad81365765630fc37cf573f051d2700"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeWindowAllAnchors.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.687999999849126,
+    "log": "round-alignment-native-window-AlignmentNativeWindowAllAnchors-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeWindowAllAnchors.lean",
+    "source_sha256": "563bc3f0a2538bca23f84d989790f42cabff8100bbfc0477560d4b65184a86f8"
+  }
+]

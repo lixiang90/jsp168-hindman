@@ -1,0 +1,17 @@
+{
+  "project_modules": 2835,
+  "pntplus_modules": 9,
+  "attributed_szemeredi_modules": 42,
+  "build_jobs": 6862,
+  "selected_axiom_reports": 11037,
+  "new_declarations": 47,
+  "new_theorems": 30,
+  "new_definitions": 17,
+  "new_external_targets": 0,
+  "retained_proof_sources_unchanged": true,
+  "retained_axiom_sets_unchanged": true,
+  "standard_axioms_only": true,
+  "main_pins_unchanged": true,
+  "full_target_proved": false,
+  "independent_kernel_replay": false
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2669,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6696,
+    "selected_axiom_reports": 10483,
+    "new_declarations": 14,
+    "new_theorems": 14,
+    "new_definitions": 0,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/ResidualScaleVariation.lean",
+    "Hindman168/ConditionalProductFiberComparison.lean",
+    "Hindman168/AlignmentPosteriorFiberComparison.lean"
+  ],
+  "proved_components": [
+    "Bounded actual normalized-scale variation is handled by inclusion of the SAME real-box residual complex bad events into a reference-scale event. Actual positive dyadic retained products derive the fixed factor 2^card independently of tuples and native model complexity; common finite-family budgets are proved unconditionally at the enlarged geometry bound.",
+    "Exact uniform finite-event fractions, original product Fubini with support-restricted fibers, coordinate union bounds, actual conditionMass domination and convergence are proved. Positive normalizing mass is derived where needed; conditioned factors are never declared independent.",
+    "The ACTUAL short-exposure master posterior now obeys the coordinate fiber union bound with constant 3*2^T.card, obtained from the already proved actual posterior domination before every event/model. Original raw support supplies nonempty dyadic residue windows and total-one product factors. Actual native source/geometry/growth instantiation of the fiber hypotheses remains separate."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Unconditional native rough proportions cover real residual boxes, arbitrary cofinal widths, fixed finite native families and bounded varying normalized scales; actual short-exposure posterior Fubini/union comparison is proved. Remaining: actual master/native source, coarse residue, polynomial degree/log identities and reference-growth instantiation of native fiber caps; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse; full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-conditional-proportion-mathematical-review.txt",
+  "mathematical_review_sha256": "1c4618e7b82ddeb2fd77bf95740970e44f8d0a3d7326b603f5b6bb1ba8bd73a6",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

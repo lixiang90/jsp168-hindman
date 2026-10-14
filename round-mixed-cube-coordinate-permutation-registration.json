@@ -1,0 +1,33 @@
+{
+  "baseline_hash_count": 1080,
+  "modules": [
+    "Hindman168/MixedCubeCoordinatePermutation.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedCubeAverage_permute",
+    "Hindman168.cubeFaceCopy_permute",
+    "Hindman168.subgroupMixedCubeAverage_copy_nonneg_any",
+    "Hindman168.subgroupMixedCubeAverage_reflection_bound_any"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/MixedCubeCoordinatePermutation.lean": [
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_permute"
+      ],
+      [
+        "theorem",
+        "cubeFaceCopy_permute"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_copy_nonneg_any"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_reflection_bound_any"
+      ]
+    ]
+  }
+}

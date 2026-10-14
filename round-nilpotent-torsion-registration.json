@@ -1,0 +1,49 @@
+{
+  "baseline_hashes_verified_before_registration": 866,
+  "new_modules": [
+    "Hindman168/FiniteCentralQuotientCommutator.lean",
+    "Hindman168/FiniteTorsionGenerators.lean",
+    "Hindman168/NilpotentPositiveRoots.lean",
+    "Hindman168/NilpotentTorsionClosure.lean"
+  ],
+  "names": [
+    "Hindman168.commutator_right_central_multiplier_left",
+    "Hindman168.commutator_right_central_multiplier_right",
+    "Hindman168.commutator_eq_of_center_quotient_eq",
+    "Hindman168.finite_commutator_of_finite_center_quotient",
+    "Hindman168.finite_abelianization_of_torsion_generators",
+    "Hindman168.finite_of_finite_commutator_torsion_generators",
+    "Hindman168.nilpotentTorsionSubgroup",
+    "Hindman168.nilpotentTorsionSubgroup_mem_iff",
+    "Hindman168.nilpotentTorsionSubgroup_normal",
+    "Hindman168.normalPositiveRootSubgroup",
+    "Hindman168.normalPositiveRootSubgroup_mem_iff",
+    "Hindman168.positiveSubgroupRoots_mul_of_normal",
+    "Hindman168.normalPositiveRootSubgroup_normal",
+    "Hindman168.normalPositiveRootSubgroup_root",
+    "Hindman168.normalPositiveRoot_quotient_finiteOrder_iff",
+    "Hindman168.finite_normal_root_quotient_of_fg",
+    "Hindman168.normal_roots_uniform_positive_power_of_fg",
+    "Hindman168.nilpotent_finite_closure_of_torsion",
+    "Hindman168.nilpotent_finite_of_fg_torsion",
+    "Hindman168.nilpotent_finiteOrder_mul"
+  ],
+  "module_report_counts": {
+    "FiniteCentralQuotientCommutator": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "FiniteTorsionGenerators": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NilpotentPositiveRoots": {
+      "theorems": 8,
+      "selected_declarations": 11
+    },
+    "NilpotentTorsionClosure": {
+      "theorems": 3,
+      "selected_declarations": 3
+    }
+  }
+}

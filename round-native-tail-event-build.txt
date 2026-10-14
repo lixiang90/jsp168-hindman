@@ -1,0 +1,71 @@
+⚠ [5252/5485] Replayed OAI.Combinatorics.Progressions.FixedDensity.OrderedBoundaryPartition
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/OrderedBoundaryPartition.lean:166:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5269/5485] Replayed OAI.Combinatorics.Progressions.FixedDensity.StrongOrderedComplexRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:807:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:882:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:932:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5270/5485] Replayed OAI.Combinatorics.Progressions.FixedDensity.CoarseTargetRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:365:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:446:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:484:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5271/5485] Replayed OAI.Combinatorics.Progressions.FixedDensity.AdaptiveCoarseTargetRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:537:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:644:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:669:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:700:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5274/5485] Replayed OAI.Combinatorics.Progressions.FixedDensity.TowerDominatingGrowth
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean:278:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean:285:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5275/5485] Replayed OAI.Combinatorics.Progressions.FixedDensity.SourceFullCoarseTargetRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/SourceFullCoarseTargetRegularity.lean:505:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✖ [6365/6365] Building Hindman168.AlignmentJointTailRemovalEvent (16s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\AlignmentJointTailRemovalEvent.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AlignmentJointTailRemovalEvent.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AlignmentJointTailRemovalEvent.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AlignmentJointTailRemovalEvent.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AlignmentJointTailRemovalEvent.setup.json --json
+error: Hindman168/AlignmentJointTailRemovalEvent.lean:97:2: Type mismatch: After simplification, term
+  ht
+ has type
+  RoughNativeRealResidualTestFamilyLargeIndex (nativeFinitePiData fun ν => alignmentNativeArrayData (D ν) (n ν) (v ν) ⋯)
+    (alignmentJointRemovedNativeSource D n v hv r b F q₀ w T x (↑j) (fun k => ↑(y k)) shift weight g a)
+    (alignmentRetainedCubeResidue (↑(F.modulus w)) d
+      (alignmentNaturalBlockProduct (alignmentTailTuple T x (insertPivotCoordinate j rest (x ↑j))) U) Y rho
+      residueChoice)
+    (d * alignmentNaturalBlockProduct (alignmentTailTuple T x (insertPivotCoordinate j rest (x ↑j))) U)
+    (insertPivotCoordinate j rest t j) (insertPivotCoordinate j rest t j)
+    (alignmentCubeScale F w i T (alignmentTailTuple T x (insertPivotCoordinate j rest t)) /
+      (↑d * ↑(alignmentNaturalBlockProduct (alignmentTailTuple T x (insertPivotCoordinate j rest (x ↑j))) U)))
+    c C η (alignmentJointOriginalTestFamily D n v hv slots B L)
+but is expected to have type
+  RoughNativeRealResidualTestFamilyLargeIndex (nativeFinitePiData fun ν => alignmentNativeArrayData (D ν) (n ν) (v ν) ⋯)
+    (alignmentJointRemovedNativeSource D n v hv r b F q₀ w T x (↑j) (fun k => ↑(y k)) shift weight g a) residue q t t
+    (Zactual t) c C η (alignmentJointOriginalTestFamily D n v hv slots B L)
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.AlignmentJointTailRemovalEvent
+error: build failed

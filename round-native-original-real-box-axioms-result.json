@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.719000000040978,
+  "log": "round-native-original-real-box-axioms.txt",
+  "log_sha256": "17b5a630d34e97106a5a8bb456fab0eb966043ea07f02e3e7547c12be3d930a5"
+}

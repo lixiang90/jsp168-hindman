@@ -1,0 +1,21 @@
+✖ [4015/4015] Building Hindman168.MasterWeightedMeanOne (7.5s)
+error: build failed
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\MasterWeightedMeanOne.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterWeightedMeanOne.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterWeightedMeanOne.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterWeightedMeanOne.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterWeightedMeanOne.setup.json --json
+error: Hindman168/MasterWeightedMeanOne.lean:136:4: Type mismatch: After simplification, term
+  Tendsto.add hm (Tendsto.add hb hp)
+ has type
+  @Tendsto ℕ ℝ
+    (fun x =>
+      expectation (piMass fun i => tailMass (primorial x) ((C x).tailCutoffs (F.cutoff x) (label x i)))
+          (comparisonPrimePowerCRTIntegrand (S x) ⋯ T) +
+        (↑(V x) ^ q * εbase x + ↑(V x) ^ q * masterPrimeSlotsResidueError F x fun j => ↑(gap x j)))
+    atTop (𝓝 0)
+but is expected to have type
+  @Tendsto ℕ ℝ
+    (fun w =>
+      expectation (masterChainDivisorMass F w (C w) (label w)) (comparisonPrimePowerCRTIntegrand (S w) ⋯ T) +
+        (↑(V w) ^ q * εbase w + ↑(V w) ^ q * masterPrimeSlotsResidueError F w fun j => ↑(gap w j)))
+    atTop (𝓝 0)
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.MasterWeightedMeanOne

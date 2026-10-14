@@ -1,0 +1,43 @@
+{
+  "baseline_hash_count": 1004,
+  "modules": [
+    "Hindman168/RetainedRootCube.lean"
+  ],
+  "names": [
+    "Hindman168.retainedRootCubeProduct",
+    "Hindman168.retainedRootCubeAverage",
+    "Hindman168.rootResponseDirection_injective",
+    "Hindman168.rootResponseDirection_haar",
+    "Hindman168.retainedRootImageCubeAverage",
+    "Hindman168.weightedRetainedRootImageCubeAverage"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/RetainedRootCube.lean": [
+      [
+        "theorem",
+        "retainedRootCubeProduct"
+      ],
+      [
+        "theorem",
+        "retainedRootCubeAverage"
+      ],
+      [
+        "theorem",
+        "rootResponseDirection_injective"
+      ],
+      [
+        "theorem",
+        "rootResponseDirection_haar"
+      ],
+      [
+        "theorem",
+        "retainedRootImageCubeAverage"
+      ],
+      [
+        "theorem",
+        "weightedRetainedRootImageCubeAverage"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "baseline_hash_count": 976,
+  "modules": [
+    "Hindman168/SelectedChainIndices.lean",
+    "Hindman168/ChainMasterSelectedModels.lean"
+  ],
+  "names": [
+    "Hindman168.principalTailPositions",
+    "Hindman168.principalTailPositions_image",
+    "Hindman168.selected_chain_coordinates",
+    "Hindman168.selected_chain_common_padding",
+    "Hindman168.selected_chain_allocated",
+    "Hindman168.chain_master_selected_models"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/SelectedChainIndices.lean": [
+      [
+        "def",
+        "principalTailPositions"
+      ],
+      [
+        "theorem",
+        "principalTailPositions_image"
+      ],
+      [
+        "theorem",
+        "selected_chain_coordinates"
+      ],
+      [
+        "theorem",
+        "selected_chain_common_padding"
+      ],
+      [
+        "theorem",
+        "selected_chain_allocated"
+      ]
+    ],
+    "Hindman168/ChainMasterSelectedModels.lean": [
+      [
+        "theorem",
+        "chain_master_selected_models"
+      ]
+    ]
+  }
+}

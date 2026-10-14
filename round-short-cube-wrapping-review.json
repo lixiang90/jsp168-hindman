@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "Each vertex uses the actual signed difference sum over its subset of Fin d. Its bound follows from Fin coordinate bounds and subset cardinality at most d.",
+    "The scale inequality uses the exact natural floor division q/(J*a), with J positive and q nonzero. No divisibility or discarded rounding error is assumed.",
+    "The complete product includes every subset vertex and applies the existing 4H/q bound with H=d*a*floor(q/(J*a)). The final constant is 4d/J, not exponential in the number of vertices.",
+    "The statement is uniform in fixed increment tuples; averaging these tuples and joining the Gowers bound remain subsequent work. Three new theorems are individually kernel audited."
+  ],
+  "new_modules": [
+    "Hindman168/ShortCubeWrapBound.lean"
+  ],
+  "verified": {
+    "project_modules": 1034,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1043,
+    "source_config_hashes": 1052,
+    "build_jobs": 4988,
+    "axiom_reports": 4928,
+    "new_theorems": 3,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 3,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The full short-cube vertex product has a proved pointwise-in-increment-tuples cyclic wrapping error at most 4d/J. Averaging the increment tuples, aggregating the cyclic harmonic comparison and joining the existing finite Gowers bound remain, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

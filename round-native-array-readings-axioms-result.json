@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.218999999808148,
+  "log": "round-native-array-readings-axioms.txt",
+  "log_sha256": "c5debd0c5905de2c7050abfc8cf3be8532cb556307e6cfbc9e4febbd216d7ee7"
+}

@@ -1,0 +1,146 @@
+JSP-000168 / Erdos #172: ACTUAL fractional bracket input and original reconstruction
+Author mathematical review, 2026-10-13. Verdict: Partial coverage.
+Previous goal turn: PROGRESS, verified by retained registered proof state.
+NOT independent kernel replay or external peer review.
+
+The full original positive distinct monochromatic FS/FP target remains OPEN.
+Pinned OpenAI six-section source:
+https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a
+Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026,
+06_rough_progressions. Auxiliary primary route:
+https://arxiv.org/html/0709.3562v4 , Proposition 5.3 / Claim 7.7 and case (ii).
+Corrected multivariate scope: https://arxiv.org/html/1311.6170v3 .
+
+1. Genuine parameters from SAME source
+gamma=H(P_0(1)), zeta_i=M*commutatorCoefficient_i, alpha=M*secondBinomial(Q),
+beta=M*P(1)+sum zeta_i*b_i. All definitions refer to ACTUAL compact normalized
+source P_0, ACTUAL relative character, ACTUAL nonlinear Q and SAME natural M.
+The offset correction is present, not dropped. Actual compact first-value
+membership gives the fixed frequency bound. Operator norm plus M<=S and
+norm(chi)<=A gives one fixed |zeta_i|<=Z=S*A*B. Z can be zero; no nonzero
+commutator coefficient is inferred from relative-character nonzeroness.
+
+2. Actual density and circle bound transported
+The original finite-offset box is fixed before all raw sources. Actual
+finite witness refinement supplies SAME V subset U, V nonempty, with
+card U <= card C * card V. C nonempty gives its positive cardinality and
+therefore a positive geometry-only rho'=rho/card C. The original useful
+density rho*N<=card U implies rho'*N<=card V by a checked real division
+identity. No N is rescaled. The PROVED exact scalar bracket identity carries
+the original N*norm(M*(beta+alpha*h+sigma(h))) bound to SAME fractional
+bracket at every h in V, using ACTUAL beta/alpha/zeta/gamma parameters.
+
+3. Native signal application and exact scope
+The new native theorem composes the genuine paper scalar separation with
+the PROVED refinement and geometry-only parameter bounds. The signal is
+the SAME actual original nonzero Fourier mean. Its original lower-degree
+inverse premise is retained in GENERAL degree. ALL source geometry,
+normalizations, observations, relative character, original finite grid,
+operator bound, M positivity/bound, higher P/Q monomial/BOTH binomial tables,
+true original scale and EVERY combined coefficient bound on V are proved.
+Fixed A/B/rho/H/Z/S/T/K and the character grid precede every RAW source,
+sample length and original unit observation. The degree-TWO native input
+discharges the FULL child inverse using the actual proved degree-one base.
+No quantitative bracket alternative is supplied as an oracle or claimed solved.
+
+4. TRUE F_2 gives affine original scalar
+For ANY actual real functional f killing L.layer(2), actual aggregated
+weighted coefficient membership gives coeff_j in L.layer(j) for j>=2.
+Antitonicity puts it in L.layer(2), so f(coeff_j)=0. A polynomial coefficient
+proof now gives the exact affine polynomial, with constant and linear
+coefficients retained. The compactly normalized source has genuine zero
+at the origin, so its scalar is exactly linear. Evaluating at one and
+using true native Exp/Log identities gives its first coefficient as
+f(Log(P_0(1))). This proof includes cancellations in vector-list terms;
+it never assumes each raw coefficient term bounded or individually zero.
+
+5. COMPLETE actual case-(ii) original reconstruction
+Take the actual integer-coordinate functional f_k. Previous proofs establish
+f_k kills F_2, is original-lattice integral and is nonzero when k!=0.
+Actual compact normalization preserves its nonconstant coefficients modulo
+an actual lattice integer. The normalized first coefficient is f_k(Log a),
+which is EXACTLY sum k_i*gamma_i. Therefore the original RAW first scalar
+coefficient equals this dot product MODULO Z. All original RAW higher scalar
+coefficients vanish. An ACTUAL small dot-product bound hence proves the
+COMPLETE raw monomial table for EVERY positive Unit multiindex, not just
+indices <=ell and not only the normalized polynomial.
+
+For the actual Mv paper-binomial table, apply the checked integer tensor
+Stirling norm estimate inside the ell box at multiplier one and lower index
+one. Outside that box the Unit index exceeds ell; every actual Stirling
+weight is zero, proved term by term. This proves the COMPLETE original
+binomial table for EVERY positive Unit multiindex with a fixed finite budget.
+Finally one fixed positive natural Q absorbs candidate operator norm, raw
+monomial and raw binomial budgets. The ACTUAL candidate lies in the original
+finite horizontal grid at Q. The theorem has EXACT full original univariate
+inverse output: nonzero/horizontal/operator/grid and BOTH COMPLETE tables.
+Its input is an ACTUAL bounded nonzero integer vector with small dot gamma.
+No child inverse premise is needed for reconstruction. EXTRACTING that
+vector from the fractional bracket signal remains UNPROVED.
+
+6. Exact Claim 7.7 augmentation and second correction
+Adjoin one coordinate of frequency alpha and coefficient ONE, with new
+linear slope ZERO. The augmented bracket equals the original real bracket
+minus floor(h*alpha), so its circle value is EXACTLY the original value.
+The actual coefficient budget is max(Z,1), despite unrestricted alpha.
+This establishes the algebra needed for the FIRST bracket-lemma use.
+
+For the SECOND use, let a=r*alpha+sum k_i*gamma_i and replace it by
+a-round(a). Its absolute value is EXACTLY the actual UnitAddCircle norm
+of a, including when [0,1) fract(a) would be close to one. Set new
+zeta_i=r*zeta_i-k_i and beta'=r*beta. For NATURAL h, the corrected bracket
+differs from r times the original bracket by the ACTUAL INTEGER
+-h*round(a)+sum k_i*floor(h*gamma_i). Circle values are therefore equal.
+The checked integer-weighted circle norm bound gives error <=|r|*B at
+SAME original N scale, for both signs of r. No false real-multiplier norm
+principle or absolute-smallness claim for ordinary Int.fract is used.
+These are algebra/error results, not the missing quantitative alternatives.
+
+7. Fresh source numerical issue, not an unavoidable obstruction
+The source's displayed slab volume bound before (5.10)-(5.11) cannot be
+used unchanged. In ONE dimension choose delta=1/100, zeta=100, theta=0.
+Then |zeta|=1/delta and its displayed tolerance delta*|zeta|/10 is 1/10.
+On [0,1], the condition norm(100*t)<=1/10 consists of 101 disjoint clipped
+intervals centered at k/100. Interior intervals have width 1/500; the two
+end intervals have width 1/1000. Their exact total length is 1/5, exceeding
+the displayed delta/2=1/200. Enlarging the set cannot reduce its measure.
+The retained certificate checks all exact rational endpoints, disjointness,
+endpoint affine bounds and total interval length. This is author interval
+arithmetic, NOT a Lean measure proof of the counterexample. It does NOT
+refute Proposition 5.3, whose fixed-degree/budget powers permit a corrected
+small tolerance and neighborhood radius. No unavoidable obstruction found.
+
+8. Correct measure step formally proved
+The new Lean lemma proves a TRUE one-dimensional slab estimate. If S has
+an actual finite nearby-integer cover C and z>0, each relevant affine slab
+lies in the actual closed interval [(k-theta-eps)/z,(k-theta+eps)/z].
+Measure monotonicity and finite union subadditivity, followed by actual
+Lebesgue interval volumes, prove
+ volume(S)<=ofReal(card(C)*2*eps/z).
+The exact sufficient condition card(C)*2*eps <= (delta/2)*z now PROVES
+volume(S)<=ofReal(delta/2), with the integer-cover budget retained.
+
+For |theta|<=T, |z|<=Z, t in [0,1] and eps<=1, actual nearest-integer
+witnesses have |k|<=T+Z+1. One natural K>T+Z+1 before ALL actual inputs
+provides the fixed finite cover [-K,K]. Thus a genuine bounded-circle-slab
+measure bound is formally PROVED. This remains one-dimensional and z>0;
+negative slopes, torus boundaries, neighborhood bounds, product/Fubini
+transport and discrepancy detection are NOT claimed finished.
+
+9. Full remaining goal
+Next prove corrected torus slab boundary/neighborhood/Fubini/discrepancy
+arguments and the true Proposition 5.3 / Claim 7.7 alternatives. Apply the
+now completed original reconstruction to case (ii). In case (i), actual
+commutator character lattice integrality/rational denominators still require
+proof because split-basis exponential points are not asserted lattice.
+Then handle true reducible rational nonlinearity filtration/factorization,
+degree+nonlinearity induction and small-N completion. Corrected multivariate
+inverse, separate interval Gowers correlation inverse, rough progressions,
+Alignment/positivity and final original positive distinct FS/FP remain OPEN.
+No public repository/PR/application milestone has been reached.
+
+Every old registered proof source/hash and selected axiom set is retained.
+All new modules must pass explicit autoImplicit=false checks with EMPTY logs,
+full build and selected axiom audit, with final terminal processes awaited.
+Only standard propext/Classical.choice/Quot.sound are allowed; no sorry,
+admit, custom axiom, unsafe or native_decide implementation bypass.

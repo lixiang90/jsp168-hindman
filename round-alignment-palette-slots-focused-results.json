@@ -1,0 +1,98 @@
+[
+  {
+    "module": "Hindman168/AlignmentPlanPositivity.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentPlanPositivity.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.703999999910593,
+    "source_sha256": "99505fa79693f688877d9fa64b1d358616f4f5ddecdb40d560fe43a2a3caa3b6",
+    "log": "round-alignment-palette-slots-focused-AlignmentPlanPositivity.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentGlobalPaletteScales.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentGlobalPaletteScales.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.827999999979511,
+    "source_sha256": "964ee29301d69ce537354ab415d2a55c668fe6a2d4051b4fb0167b5392ac871a",
+    "log": "round-alignment-palette-slots-focused-AlignmentGlobalPaletteScales.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentAuxiliaryWords.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentAuxiliaryWords.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.030999999959022,
+    "source_sha256": "771a9166e616f30f0f91ef286b7385195752ff84604b235bd9808449addf7558",
+    "log": "round-alignment-palette-slots-focused-AlignmentAuxiliaryWords.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentAuxiliaryPlanSlots.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentAuxiliaryPlanSlots.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.905999999959022,
+    "source_sha256": "eaae07e58c9c079a314367f43ce434bbf56183fe359c4e5cc05b0999a911a4f4",
+    "log": "round-alignment-palette-slots-focused-AlignmentAuxiliaryPlanSlots.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentAuxiliaryTerminalSlots.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentAuxiliaryTerminalSlots.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.985000000102445,
+    "source_sha256": "356ea83e2abfe12af7ea20f90ade78ab6edf757f1b3382e78209d6f59e5b6e9a",
+    "log": "round-alignment-palette-slots-focused-AlignmentAuxiliaryTerminalSlots.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentFiniteWordBudgets.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentFiniteWordBudgets.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.889999999897555,
+    "source_sha256": "59c404baa369db87b77f4aa9f53d15f20fdb775543102339e15364c22477bcba",
+    "log": "round-alignment-palette-slots-focused-AlignmentFiniteWordBudgets.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

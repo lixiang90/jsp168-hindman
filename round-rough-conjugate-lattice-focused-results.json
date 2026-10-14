@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughConjugateLatticeTopology.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 7.765000000130385,
+    "log": "round-rough-conjugate-lattice-RoughConjugateLatticeTopology-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughConjugateLatticeTopology.lean",
+    "source_sha256": "c74f43daf902949b5ef47860a136e84849f5448fe949699f0af84fa03fcd02bf"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeConjugateLogSpan.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.265999999828637,
+    "log": "round-rough-conjugate-lattice-RoughNativeConjugateLogSpan-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeConjugateLogSpan.lean",
+    "source_sha256": "9e3a8ba8443681f585cd989ab7d314966a175420e16ee5a950ab3957705f93af"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeConjugateLatticeCompact.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.437000000150874,
+    "log": "round-rough-conjugate-lattice-RoughNativeConjugateLatticeCompact-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeConjugateLatticeCompact.lean",
+    "source_sha256": "cd356e13824e9fa46f42fc30815fd26e1ca9ad4a01794481e8fc518d07223888"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughConjugateOrbitMap.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 7.687999999849126,
+    "log": "round-rough-conjugate-lattice-RoughConjugateOrbitMap-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughConjugateOrbitMap.lean",
+    "source_sha256": "95776c3eb44bb5232dd3f7d198ee70a6842ee5885151c3e19cc6a69b4f9752d7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeKernelOrbit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.234000000171363,
+    "log": "round-rough-conjugate-lattice-RoughNativeKernelOrbit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeKernelOrbit.lean",
+    "source_sha256": "0864c5d156b832ce090cacfdc2fa0ffd106e1954b641c82e6451abb9707105ee"
+  }
+]

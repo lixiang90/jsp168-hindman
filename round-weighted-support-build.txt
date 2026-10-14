@@ -1,0 +1,50 @@
+✖ [3953/3954] Building Hindman168.FiniteWeightedErrors (6.9s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\FiniteWeightedErrors.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\FiniteWeightedErrors.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\FiniteWeightedErrors.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\FiniteWeightedErrors.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\FiniteWeightedErrors.setup.json --json
+error: Hindman168/FiniteWeightedErrors.lean:46:49: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  f a
+in the target expression
+  (fun x a => a * f x) a (μ a) = (fun x a => a * g x) a (μ a)
+
+α : Type u_1
+μ : Mass α
+f g : α → ℝ
+hfg : ∀ a ∈ μ.support, f a = g a
+a : α
+ha : a ∈ μ.support
+⊢ (fun x a => a * f x) a (μ a) = (fun x a => a * g x) a (μ a)
+error: Lean exited with code 1
+✖ [3954/3954] Building Hindman168.ActualDivisorRowCRT (7.6s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\ActualDivisorRowCRT.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\ActualDivisorRowCRT.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\ActualDivisorRowCRT.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\ActualDivisorRowCRT.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\ActualDivisorRowCRT.setup.json --json
+error: Hindman168/ActualDivisorRowCRT.lean:69:2: Type mismatch
+  h
+has type
+  (↑(∏ x, k x) *
+      event
+        (uniformFintypeMass
+          (Fin d → ZMod (∏ i ∈ @Finset.univ (↥S) (Finset.Subtype.fintype S), ↑i ^ ∑ u, (k u).factorization ↑i)))
+        fun x =>
+        (residueRowSystem (∏ i, ↑i ^ ∑ u, (k u).factorization ↑i) q d (fun u => ∏ i, ↑i ^ (k u).factorization ↑i) ⋯ c)
+            x =
+          0) =
+    ∏ i,
+      primePowerLocalAlpha (↑i) q d (rowMaxValuation fun u => (k u).factorization ↑i) (fun u => (k u).factorization ↑i)
+        ⋯ c
+but is expected to have type
+  (↑(∏ u, k u) *
+      event (uniformFintypeMass (Fin d → ZMod (∏ u ∈ @Finset.univ (Fin q) (Fin.fintype q), k u))) fun x =>
+        (residueRowSystem (∏ u, k u) q d k ⋯ c) x = 0) =
+    ∏ p,
+      primePowerLocalAlpha (↑p) q d (rowMaxValuation fun u => (k u).factorization ↑p) (fun u => (k u).factorization ↑p)
+        ⋯ c
+warning: Hindman168/ActualDivisorRowCRT.lean:67:19: This simp argument is unused:
+  actual_row_divisor_crt_modulus S hS k hk hcover
+
+Hint: Omit it from the simp argument list.
+  simp only [hrow,̵ ̵a̵c̵t̵u̵a̵l̵_̵r̵o̵w̵_̵d̵i̵v̵i̵s̵o̵r̵_̵c̵r̵t̵_̵m̵o̵d̵u̵l̵u̵s̵ ̵S̵ ̵h̵S̵ ̵k̵ ̵h̵k̵ ̵h̵c̵o̵v̵e̵r̵] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.FiniteWeightedErrors
+- Hindman168.ActualDivisorRowCRT
+error: build failed

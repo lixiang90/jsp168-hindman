@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteComplexSetMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.234999999869615,
+    "log": "round-normalized-box-counting-FiniteComplexSetMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteComplexSetMean.lean",
+    "source_sha256": "67dd64c6cc25650f87b419f2e2ca6cd24fa3d97ca5b56e19f9d2d5a958a4e054"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentIntervalMeans.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.25,
+    "log": "round-normalized-box-counting-AlignmentIntervalMeans-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentIntervalMeans.lean",
+    "source_sha256": "7621c8410670895273c208a53ab6146b09cf6204745922b57efa0d6e8de7204d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentClassCounts.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.468000000109896,
+    "log": "round-normalized-box-counting-AlignmentClassCounts-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentClassCounts.lean",
+    "source_sha256": "457fea6cbe4fe7dff3ff5a2bd7c0e0ad23e37dce2aad4ee62c771bd9d8233c29"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentEndpointMeanError.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.468999999808148,
+    "log": "round-normalized-box-counting-AlignmentEndpointMeanError-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentEndpointMeanError.lean",
+    "source_sha256": "32ea362be73a840abd2e9c3b06b59ae512dad770b7f4113df24393371dd46bdd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentActualEndpointMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.156000000191852,
+    "log": "round-normalized-box-counting-AlignmentActualEndpointMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentActualEndpointMean.lean",
+    "source_sha256": "b76e320db09befe2bc410781ef4db1fcf236017ce47ac416b8438d855bbf3ca2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentBoxMeans.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.484999999869615,
+    "log": "round-normalized-box-counting-AlignmentBoxMeans-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentBoxMeans.lean",
+    "source_sha256": "6e489efa9844ee603343cf51c4f1c1573b67ec40ce060f05ae408feec493a773"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRetainedClassMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.0,
+    "log": "round-normalized-box-counting-AlignmentRetainedClassMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRetainedClassMean.lean",
+    "source_sha256": "e6f3e2b94f9a0274b32fc32988325de4cc2e32681c36f3ee46be7444a2b4803a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentActualClassCounts.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.75,
+    "log": "round-normalized-box-counting-AlignmentActualClassCounts-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentActualClassCounts.lean",
+    "source_sha256": "3cfdf4f54a1a7c3481f130cd09c24a9fc8d064dbb3e73a7e2587b915f5b379bf"
+  }
+]

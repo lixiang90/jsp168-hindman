@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 18.234,
+  "log": "round-lie-transfer-build.txt",
+  "log_sha256": "2d9a8513257c382d5731599cbb96a75108d94121b59a0c9206bad8ebd5263f98",
+  "terminal": true
+}

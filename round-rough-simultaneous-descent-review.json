@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "RoughDescentModels defines the actual rational coefficient model predicate and proves monotonicity in the error constant, simultaneous integer-data selection, and a positive recursive common error constant depending only on q, coefficient count, A0 and B, never H.",
+    "RoughDescentSystem defines the explicit finite triangular obstruction system and proves one eventual step from all higher-degree rational models, constructing the current model with the recursive common constant.",
+    "RoughSimultaneousDescent proves the finite descending induction over q rounds. One threshold precedes all varying progressions, coefficient polynomials, pointwise sample steps and integer weights; all positive-degree coefficients obtain rational models simultaneously.",
+    "RoughTriangularBinomial defines the actual integer product of binomial weights. Its diagonal is one, non-comparable indices give zero, and the complete finite weighted sum splits exactly into the diagonal plus strictly higher total degrees. A degree-only weight bound is proved.",
+    "RoughSpatialCoefficientModels specializes the completed induction to the original finite binomial-weight obstruction, obtaining all positive spatial coefficient models simultaneously. The manuscript-growth wrapper accepts S tending to infinity and Z/S^a tending to infinity for every positive real a.",
+    "Compared with Section 06 lines 378-436: the entire finite descending induction now terminates after q rounds, rather than leaving a one-step implication. Base case has no degree above q; each successor preserves old models and constructs every model at degree q-k.",
+    "The recursive constant starts at 1 and adds Cq*2^q*(A0+N*B*C) each round. Positivity and domination of every subset coefficient bound are proved. It depends on fixed q,N,A0,B only; H appears only in the eventual thresholds.",
+    "Finite intersections of thresholds precede all variable t,m,theta,p,c. Higher models are obtained before lower models, and integer approximations are selected from the proved all-index integral values of those actual rational polynomials. No lower model is used circularly.",
+    "The formal obstruction system is an explicit conjunction of original progression conditions and the finite weighted norm bounds. It contains no assumption that rational models exist. The model predicate includes all degree, smooth-denominator, integer-value and real-error conclusions.",
+    "The actual binomial product includes zero weights for non-comparable multiindices. The exact finite-sum triangular identity isolates the diagonal and proves every nonzero off-diagonal contribution has larger total degree. This justifies the graded abstract system from the displayed binomial obstruction.",
+    "The final specialization allows pointwise sample step and residue choices to depend even on the coefficient index. The paper common choices are a special case. Its residue hypothesis b_j<=p is slightly weaker than the paper b_j<p, so no strengthened residue restriction is introduced.",
+    "The final paper-growth wrapper uses the already-proved ratio bridge. The displayed obstruction, the degree cap on (t+mX)^e*theta, and positive finite multiindices remain explicit inputs. Deriving the obstruction from quantitative Leibman and proving the polynomial substitution coefficient formula remain required.",
+    "All retained proof sources and axiom sets are unchanged; these are author-side checks, not independent kernel replay.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. Section 06 exact interpolation and simultaneous descending induction for all positive-degree spatial coefficients are proved conditional on the displayed finite binomial-weight obstruction. The quantitative Leibman obstruction and its substituted-polynomial coefficient identity are not yet derived. Constant-term floor-polynomial splitting after finite coloring, corrected quantitative Leibman/box comparison, stretched-filtration prerequisites, smooth-progression dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1569,
+    "pntplus_modules": 9,
+    "build_jobs": 5532,
+    "selected_axiom_reports": 6944,
+    "new_declarations": 18,
+    "new_theorems": 14,
+    "new_definitions": 4,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughDescentModels.lean",
+    "Hindman168/RoughDescentSystem.lean",
+    "Hindman168/RoughSimultaneousDescent.lean",
+    "Hindman168/RoughTriangularBinomial.lean",
+    "Hindman168/RoughSpatialCoefficientModels.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. Section 06 exact interpolation and simultaneous descending induction for all positive-degree spatial coefficients are proved conditional on the displayed finite binomial-weight obstruction. The quantitative Leibman obstruction and its substituted-polynomial coefficient identity are not yet derived. Constant-term floor-polynomial splitting after finite coloring, corrected quantitative Leibman/box comparison, stretched-filtration prerequisites, smooth-progression dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions lines 378-436: simultaneous positive spatial coefficient models"
+}

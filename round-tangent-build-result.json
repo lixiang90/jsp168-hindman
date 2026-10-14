@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 12.792,
+  "log": "round-tangent-build.txt",
+  "log_sha256": "da3a9561326a9565f88f5b5370697b0f5b63d91110851fc245d1ed9078cd0288",
+  "terminal": true
+}

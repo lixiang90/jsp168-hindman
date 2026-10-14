@@ -1,0 +1,107 @@
+{
+  "modules": [
+    "Hindman168/RoughNativeBadIndex.lean",
+    "Hindman168/RoughNativeModelBadIndex.lean",
+    "Hindman168/RoughNativeBadProgressionThinning.lean",
+    "Hindman168/RoughCofinalSubsequences.lean",
+    "Hindman168/RoughNativeBadFamily.lean",
+    "Hindman168/RoughNativeSmallerBadFamily.lean",
+    "Hindman168/RoughNativeModelBadFamily.lean",
+    "Hindman168/RoughNativeZeroDimension.lean"
+  ],
+  "names": [
+    "Hindman168.RoughNativeBadIndex",
+    "Hindman168.rough_native_bad_index_mono",
+    "Hindman168.rough_native_bad_index_reparametrize",
+    "Hindman168.rough_native_model_bad_index",
+    "Hindman168.rough_native_bad_progression_thinning",
+    "Hindman168.rough_cofinal_strict_subsequence",
+    "Hindman168.rough_finite_lengthwise_subsequences",
+    "Hindman168.rough_subsequence_rescaled_growth",
+    "Hindman168.RoughNativeBadFamily",
+    "Hindman168.rough_native_bad_family_length_mono",
+    "Hindman168.rough_native_fixed_bad_quotient_subsequences",
+    "Hindman168.rough_native_smaller_bad_family",
+    "Hindman168.rough_native_model_bad_family",
+    "Hindman168.rough_native_zero_dimension_no_bad_index",
+    "Hindman168.rough_native_zero_dimension_no_bad_family"
+  ],
+  "declarations": {
+    "Hindman168/RoughNativeBadIndex.lean": [
+      [
+        "def",
+        "RoughNativeBadIndex"
+      ],
+      [
+        "theorem",
+        "rough_native_bad_index_mono"
+      ],
+      [
+        "theorem",
+        "rough_native_bad_index_reparametrize"
+      ]
+    ],
+    "Hindman168/RoughNativeModelBadIndex.lean": [
+      [
+        "theorem",
+        "rough_native_model_bad_index"
+      ]
+    ],
+    "Hindman168/RoughNativeBadProgressionThinning.lean": [
+      [
+        "theorem",
+        "rough_native_bad_progression_thinning"
+      ]
+    ],
+    "Hindman168/RoughCofinalSubsequences.lean": [
+      [
+        "theorem",
+        "rough_cofinal_strict_subsequence"
+      ],
+      [
+        "theorem",
+        "rough_finite_lengthwise_subsequences"
+      ],
+      [
+        "theorem",
+        "rough_subsequence_rescaled_growth"
+      ]
+    ],
+    "Hindman168/RoughNativeBadFamily.lean": [
+      [
+        "def",
+        "RoughNativeBadFamily"
+      ],
+      [
+        "theorem",
+        "rough_native_bad_family_length_mono"
+      ],
+      [
+        "theorem",
+        "rough_native_fixed_bad_quotient_subsequences"
+      ]
+    ],
+    "Hindman168/RoughNativeSmallerBadFamily.lean": [
+      [
+        "theorem",
+        "rough_native_smaller_bad_family"
+      ]
+    ],
+    "Hindman168/RoughNativeModelBadFamily.lean": [
+      [
+        "theorem",
+        "rough_native_model_bad_family"
+      ]
+    ],
+    "Hindman168/RoughNativeZeroDimension.lean": [
+      [
+        "theorem",
+        "rough_native_zero_dimension_no_bad_index"
+      ],
+      [
+        "theorem",
+        "rough_native_zero_dimension_no_bad_family"
+      ]
+    ]
+  }
+}

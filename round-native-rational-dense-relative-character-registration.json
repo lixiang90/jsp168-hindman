@@ -1,0 +1,125 @@
+{
+  "modules": [
+    "Hindman168/FiniteCoefficientScaleTransfer.lean",
+    "Hindman168/FiniteComplexMeanEnergy.lean",
+    "Hindman168/FiniteDenseDerivativeMeans.lean",
+    "Hindman168/FiniteDenseWitnessSelection.lean",
+    "Hindman168/NativeRationalDegreeTwoDenseRelativeCharacter.lean",
+    "Hindman168/NativeRationalDenseFourierDerivatives.lean",
+    "Hindman168/NativeRationalDenseRelativeCharacter.lean",
+    "Hindman168/NativeRationalPureDiagonalReconstruction.lean",
+    "Hindman168/NativeRationalRelativeCoefficientScale.lean"
+  ],
+  "names": [
+    "Hindman168.finite_coefficient_scale_transfer",
+    "Hindman168.finite_complex_set_mean_product",
+    "Hindman168.finite_complex_set_mean_star",
+    "Hindman168.finite_complex_set_mean_pair_square",
+    "Hindman168.finite_complex_set_mean_cauchy_square",
+    "Hindman168.finite_complex_set_mean_energy",
+    "Hindman168.finite_complex_dense_derivative_means",
+    "Hindman168.finite_complex_Ico_nat_mean",
+    "Hindman168.finite_complex_dense_integer_derivative_means",
+    "Hindman168.finite_dense_witness_selection",
+    "Hindman168.native_rational_degree_two_dense_relative_character",
+    "Hindman168.native_rational_dense_fourier_derivatives",
+    "Hindman168.native_rational_dense_relative_character",
+    "Hindman168.native_rational_pure_diagonal_scalar",
+    "Hindman168.native_rational_pure_diagonal_original_coefficient",
+    "Hindman168.native_rational_pure_diagonal_original_bound",
+    "Hindman168.NativeRationalRelativeCoefficientBounds",
+    "Hindman168.native_rational_relative_coefficient_scale"
+  ],
+  "declarations": {
+    "Hindman168/FiniteCoefficientScaleTransfer.lean": [
+      [
+        "theorem",
+        "finite_coefficient_scale_transfer"
+      ]
+    ],
+    "Hindman168/FiniteComplexMeanEnergy.lean": [
+      [
+        "theorem",
+        "finite_complex_set_mean_product"
+      ],
+      [
+        "theorem",
+        "finite_complex_set_mean_star"
+      ],
+      [
+        "theorem",
+        "finite_complex_set_mean_pair_square"
+      ],
+      [
+        "theorem",
+        "finite_complex_set_mean_cauchy_square"
+      ],
+      [
+        "theorem",
+        "finite_complex_set_mean_energy"
+      ]
+    ],
+    "Hindman168/FiniteDenseDerivativeMeans.lean": [
+      [
+        "theorem",
+        "finite_complex_dense_derivative_means"
+      ],
+      [
+        "theorem",
+        "finite_complex_Ico_nat_mean"
+      ],
+      [
+        "theorem",
+        "finite_complex_dense_integer_derivative_means"
+      ]
+    ],
+    "Hindman168/FiniteDenseWitnessSelection.lean": [
+      [
+        "theorem",
+        "finite_dense_witness_selection"
+      ]
+    ],
+    "Hindman168/NativeRationalDegreeTwoDenseRelativeCharacter.lean": [
+      [
+        "theorem",
+        "native_rational_degree_two_dense_relative_character"
+      ]
+    ],
+    "Hindman168/NativeRationalDenseFourierDerivatives.lean": [
+      [
+        "theorem",
+        "native_rational_dense_fourier_derivatives"
+      ]
+    ],
+    "Hindman168/NativeRationalDenseRelativeCharacter.lean": [
+      [
+        "theorem",
+        "native_rational_dense_relative_character"
+      ]
+    ],
+    "Hindman168/NativeRationalPureDiagonalReconstruction.lean": [
+      [
+        "theorem",
+        "native_rational_pure_diagonal_scalar"
+      ],
+      [
+        "theorem",
+        "native_rational_pure_diagonal_original_coefficient"
+      ],
+      [
+        "theorem",
+        "native_rational_pure_diagonal_original_bound"
+      ]
+    ],
+    "Hindman168/NativeRationalRelativeCoefficientScale.lean": [
+      [
+        "def",
+        "NativeRationalRelativeCoefficientBounds"
+      ],
+      [
+        "theorem",
+        "native_rational_relative_coefficient_scale"
+      ]
+    ]
+  }
+}

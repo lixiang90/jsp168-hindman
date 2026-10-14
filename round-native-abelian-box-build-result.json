@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.0,
+  "log": "round-native-abelian-box-build.txt",
+  "log_sha256": "18cc92077dc7066ae3d054d72715ccfd19ed66f35518b97dbef984a127bf3d91"
+}

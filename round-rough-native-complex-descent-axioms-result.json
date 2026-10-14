@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.328999999910593,
+  "log": "round-rough-native-complex-descent-axioms.txt",
+  "log_sha256": "d7c9c8cd94a8e7c5f03993d0d78a3a732e618c798631d2c26520293ca8cfb783"
+}

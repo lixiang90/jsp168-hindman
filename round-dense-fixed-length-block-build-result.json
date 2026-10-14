@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.485000000102445,
+  "log": "round-dense-fixed-length-block-build.txt",
+  "log_sha256": "51285fdbb2410eed52217dede46558dc63bba3de3846945c8205a0347e2babde"
+}

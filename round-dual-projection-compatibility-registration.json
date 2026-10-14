@@ -1,0 +1,43 @@
+{
+  "baseline_hash_count": 1102,
+  "modules": [
+    "Hindman168/MixedDualProjectionCompatibility.lean"
+  ],
+  "names": [
+    "Hindman168.mixedDualHilbert_projected_orthogonal",
+    "Hindman168.mixedDualHilbert_projection_mem_other",
+    "Hindman168.mixedDualHilbert_projections_commute_unit_interval",
+    "Hindman168.mixedDualHilbert_intersection_unit_model",
+    "Hindman168.mixedDualHilbert_projection_preserves_closed_space",
+    "Hindman168.mixedDualHilbert_projections_commute"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/MixedDualProjectionCompatibility.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_projected_orthogonal"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_projection_mem_other"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_projections_commute_unit_interval"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_intersection_unit_model"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_projection_preserves_closed_space"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_projections_commute"
+      ]
+    ]
+  }
+}

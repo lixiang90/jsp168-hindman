@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.844000000040978,
+  "log": "round-native-rational-original-coefficient-transport-axioms.txt",
+  "log_sha256": "53c79d9ae88e5b88df2fdab7a8f41c78813dbf835cbf660ff975b7401b4f852d"
+}

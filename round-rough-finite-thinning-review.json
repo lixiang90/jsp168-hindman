@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "RoughFiniteVanDerWaerden derives a uniform finite monochromatic progression bound directly from finite-dimensional Hales-Jewett. N precedes every coloring; the extracted positive step is <=N and every progression point lies below N.",
+    "RoughAffinePolynomial proves degree does not increase under affine composition over a semiring, and natural affine evaluation transports exactly over a commutative semiring.",
+    "RoughConstantTermThinning combines the finite coloring bound with actual polynomial affine composition and the floor-model theorem. For every real polynomial of degree<=q, a bounded subprogression has a rational floor model of degree<=q with q!-dividing denominators and remainder in [0,1).",
+    "RoughAffineDenominators proves prime-support membership in the actual denominator subring, closure of polynomial coefficients under integer affine composition via subring lifts, and preservation of smooth rational coefficient denominators.",
+    "RoughModelReparametrization preserves all coefficient model conclusions and the exact error constant on contained affine indices. It also proves that the reparametrized positive progression stays in the original interval, remains rough, and has smooth step m*b when b<=w.",
+    "RoughJointCoefficientThinning uses one common affine subprogression for the constant term and an arbitrary family of existing positive-degree models. The initial length bound is fixed before all models and polynomial values; all positive-model constants are unchanged and the new constant model has smooth denominators once w exceeds that bound.",
+    "Compared with Section 06 finite-color thinning and constant-term splitting. A finite bound is proved from Hales-Jewett itself, not inferred from the unbounded natural-domain van der Waerden statement.",
+    "The finite alphabet is Fin H and its fixed Hales-Jewett coordinate count gives N=card(iota)*H+1. The line has a positive number of free coordinates, its sum projection is an arithmetic progression, and every word sum is bounded by card(iota)*H. Thus both the support and step bounds are uniform before coloring.",
+    "The constant-term polynomial is composed with the actual integer affine map. Degree and evaluation identities are proved, then the previous monochromatic floor-model theorem constructs the rational polynomial. The theorem no longer assumes a monochromatic interval exists.",
+    "Integer affine composition preserves the actual denominator subring by mapping a lifted subring polynomial. This proves preservation for every coefficient, without imposing a bound on numerator sizes or assuming new denominator certificates.",
+    "Positive-degree errors and integral values transport through contained indices with exactly the same constant. The smooth-step argument separates prime divisors of m and b and uses b<=w; original roughness and interval containment follow from the exact progression identity.",
+    "The joint theorem selects N=max(N0,q0) before all variable polynomials and models, making q0<=w and b<=w automatic when w>=N. It does not make any analytic constant depend on H. A target H>0 is explicit.",
+    "This completes finite monochromatic extraction and model preservation but not the finite density-to-progression Szemeredi step, the quantitative Leibman obstruction, slow-factor estimates, dimension induction or full rough-step removal.",
+    "All retained proof sources and axiom sets are unchanged; these are author-side checks, not independent kernel replay.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. Section 06 exact interpolation and positive-degree simultaneous induction are proved conditional on the binomial obstruction. Constant-term splitting now includes actual uniform finite monochromatic progression extraction and simultaneous preservation of all earlier models by integer affine composition. Joint assembly with the original obstruction, whole-box slow-factor bounds, quantitative Leibman obstruction and affine coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, group dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1582,
+    "pntplus_modules": 9,
+    "build_jobs": 5548,
+    "selected_axiom_reports": 6976,
+    "new_declarations": 10,
+    "new_theorems": 10,
+    "new_definitions": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughFiniteVanDerWaerden.lean",
+    "Hindman168/RoughAffinePolynomial.lean",
+    "Hindman168/RoughConstantTermThinning.lean",
+    "Hindman168/RoughAffineDenominators.lean",
+    "Hindman168/RoughModelReparametrization.lean",
+    "Hindman168/RoughJointCoefficientThinning.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. Section 06 exact interpolation and positive-degree simultaneous induction are proved conditional on the binomial obstruction. Constant-term splitting now includes actual uniform finite monochromatic progression extraction and simultaneous preservation of all earlier models by integer affine composition. Joint assembly with the original obstruction, whole-box slow-factor bounds, quantitative Leibman obstruction and affine coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, group dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions finite-color thinning and constant-term splitting under affine reparametrization"
+}

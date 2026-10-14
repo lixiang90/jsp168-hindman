@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 370,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/AdditiveRowCopiedCoefficients.lean",
+    "Hindman168/AdditiveRowResidueIndependence.lean",
+    "Hindman168/MaskGeneratedAdditiveResidues.lean",
+    "Hindman168/AdditiveRowLocalCounts.lean"
+  ],
+  "new_selected_report_count": 24,
+  "module_report_counts": {
+    "AdditiveRowCopiedCoefficients": 5,
+    "AdditiveRowResidueIndependence": 8,
+    "MaskGeneratedAdditiveResidues": 9,
+    "AdditiveRowLocalCounts": 2
+  },
+  "application_review": [
+    "All 370 audited baseline hashes were rechecked. Only the root imports and exact-name registry changed. Previously retained proof modules, StrongStatement.lean, runtime/dependency pins and attributed PNT+ sources remain unchanged.",
+    "Actual copied coefficients use the unchanged original normalized integer row on the base columns and its actual direction response on the selected Bool shift slot. The integer dot product equals the translated form used in the weighted additive recurrence, before and after finite coordinate reindexing.",
+    "A nonzero base coefficient and an annihilating direction with nonzero response on the other row prove base-row pair independence over the prime residue field. No common coefficient-one anchor is assumed for these general rows.",
+    "Copies of different base rows inherit pair independence by restriction to the original base columns. Copies of the same base row differ in an active direction: one selected slot has a unit response and the other has zero. Their own zero-response branch cannot distinguish copies because the canonical index fixes that branch to false.",
+    "The actual AdditiveEliminationConditions form identity determines every coefficient by testing on Pi.single. Its direction identity gives the exact integer response. These equalities transfer the previously proved actual arithmetic direction certificate to the new modular coefficient arrays.",
+    "The original generated-family theorem, actual independent prime-pool support and original local good event supply the residue certificate for every rough prime w<p<=V outside the existing fixed nonzero polynomial catalogue. The upper limit V is needed for the anchor-unit bound and is retained explicitly.",
+    "Every canonical full copy is primitive and every distinct pair is independent. Thus every duplication-stage subset inherits the same result. Failure of primitivity or pair independence implies a zero residue of a polynomial in the existing catalogue; no enlarged exception list is introduced.",
+    "The full copied column count is c+2b. For the actual m+1 original columns and generated off-target directions, it is bounded by (m+1)+2*maskRowCountBound m, independently of scale, sampled primes and gap choices.",
+    "Under the uniform original prime-power residue-vector law, the exact probability a copied row vanishes modulo p^A is p^(-A). For distinct copies constrained modulo p^B and p^C, it is p^(-(B+C)), including zero exponents. Pair-value independence is derived by the unit-minor counting theorem, not assumed.",
+    "These are algebraic and uniform-residue local counts. Closeness of the actual harmonic/interval sampling law to those residue laws, exceptional-tuple error costs, the analytic linear-forms moments and a prefactor constant depending only on m are not proved by this round.",
+    "The additional root translation needed to smooth retained weights, and its B/BH/BH^2 copied second-moment family, still need their own certificate/application. The present result concerns the ordinary additive-elimination copy family.",
+    "No full analytic additive-elimination lemma, StrongConjecture, prize eligibility or unavoidable blocker is claimed."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:483-507;530-568 remains uncompleted",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4221,
+    "project_modules": 356,
+    "pntplus_modules": 9,
+    "source_scan_modules": 365,
+    "axiom_reports": 1868,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 374,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The arithmetic row-direction lemma and exact finite weighted additive Cauchy--Schwarz recurrence are proved for the actual generated mask data. The initial pair law has the original single-sample marginal and the terminal expression retains the distinguished target cube times every invariant weight. Actual ordinary copied general rows now have explicit integer coefficient arrays whose evaluation equals this translated form. On original prime-pool support and the original local good event, these coefficients are primitive and distinct copies are pairwise independent for each rough prime w<p<=V outside the original fixed polynomial exception catalogue. Failures force a zero residue of that same catalogue; no new exception polynomial is needed. Exact single-row and two-row zero probabilities are proved under the uniform prime-power residue law. Still bound the exceptional-tuple costs and prove the original mixed base/shift sampling law is uniformly close to the required uniform residue laws. Prove the initial harmonic translation weighted total-variation o(1) error, actual linear-forms moment estimates and a prefactor cap depending only on m. The current finite cap depends on the actual data and laws. Instantiate the original normalized good-prime/base joint law and the actual positive growing quotient intervals in the recurrence. Extend the copied-coefficient certificates to the extra root translation and retained-weight second-moment family; prove all three moments E B, E BH and E BH^2 and E B(H-2^t)^2=o(1). A mean estimate alone does not remove retained weights. Connect the actual weighted mask-removal integrands, full multiplicative Cauchy--Schwarz recurrence and exception/error bounds. Complete the retained-weight correlation test, root pushforward, full preprint Prediction/Alignment propositions, inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and final witness extraction and separation. Real-exponent clipping remains unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

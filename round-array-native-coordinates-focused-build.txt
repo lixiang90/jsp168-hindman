@@ -1,0 +1,2 @@
+✔ [5212/5212] Built Hindman168.AlignmentArrayNativeCoordinates (15s)
+Build completed successfully (5212 jobs).

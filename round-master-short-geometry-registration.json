@@ -1,0 +1,28 @@
+{
+  "baseline_hash_count": 1061,
+  "modules": [
+    "Hindman168/MasterPredictionShortCubeGeometry.lean"
+  ],
+  "names": [
+    "Hindman168.cyclicScale_full_factorization",
+    "Hindman168.MasterParameterConditions.samePool_prediction_short_lengths",
+    "Hindman168.MasterParameterConditions.prediction_shortCube_geometry"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/MasterPredictionShortCubeGeometry.lean": [
+      [
+        "theorem",
+        "cyclicScale_full_factorization"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.samePool_prediction_short_lengths"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.prediction_shortCube_geometry"
+      ]
+    ]
+  }
+}

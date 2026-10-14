@@ -1,0 +1,97 @@
+{
+  "baseline_hash_count": 1228,
+  "modules": [
+    "Hindman168/MaskColorFamilyCoarseDualControl.lean",
+    "Hindman168/NativeMetricMaskModelTesting.lean",
+    "Hindman168/MaskColorBlockNativeTesting.lean",
+    "Hindman168/NativeCoarseProjectionTesting.lean",
+    "Hindman168/MaskColorCoarseNativeTesting.lean",
+    "Hindman168/SelectedColorBlockCoarseTesting.lean",
+    "Hindman168/SelectedColorNativeTestingModels.lean"
+  ],
+  "names": [
+    "Hindman168.maskColorBlockDualControl_chain",
+    "Hindman168.mask_color_family_coarse_dual_control",
+    "Hindman168.nativeNilmanifold_metric_topology",
+    "Hindman168.nativeNilmanifold_metric_cube_compact",
+    "Hindman168.nativeMetric_maskModel_testing_uniform",
+    "Hindman168.nativeMetric_original_zeroDual_testing_uniform",
+    "Hindman168.maskColorBlockDualControl_native_testing",
+    "Hindman168.mask_color_family_block_native_testing",
+    "Hindman168.nativeCoarseProjection_inner_testing",
+    "Hindman168.nativeCoarseProjection_expectation_testing",
+    "Hindman168.maskColorBlock_coarse_native_testing",
+    "Hindman168.selected_color_block_coarse_testing",
+    "Hindman168.selected_color_native_testing_models"
+  ],
+  "theorem_count": 13,
+  "selected_report_count": 13,
+  "declarations": {
+    "Hindman168/MaskColorFamilyCoarseDualControl.lean": [
+      [
+        "theorem",
+        "maskColorBlockDualControl_chain"
+      ],
+      [
+        "theorem",
+        "mask_color_family_coarse_dual_control"
+      ]
+    ],
+    "Hindman168/NativeMetricMaskModelTesting.lean": [
+      [
+        "theorem",
+        "nativeNilmanifold_metric_topology"
+      ],
+      [
+        "theorem",
+        "nativeNilmanifold_metric_cube_compact"
+      ],
+      [
+        "theorem",
+        "nativeMetric_maskModel_testing_uniform"
+      ],
+      [
+        "theorem",
+        "nativeMetric_original_zeroDual_testing_uniform"
+      ]
+    ],
+    "Hindman168/MaskColorBlockNativeTesting.lean": [
+      [
+        "theorem",
+        "maskColorBlockDualControl_native_testing"
+      ],
+      [
+        "theorem",
+        "mask_color_family_block_native_testing"
+      ]
+    ],
+    "Hindman168/NativeCoarseProjectionTesting.lean": [
+      [
+        "theorem",
+        "nativeCoarseProjection_inner_testing"
+      ],
+      [
+        "theorem",
+        "nativeCoarseProjection_expectation_testing"
+      ]
+    ],
+    "Hindman168/MaskColorCoarseNativeTesting.lean": [
+      [
+        "theorem",
+        "maskColorBlock_coarse_native_testing"
+      ]
+    ],
+    "Hindman168/SelectedColorBlockCoarseTesting.lean": [
+      [
+        "theorem",
+        "selected_color_block_coarse_testing"
+      ]
+    ],
+    "Hindman168/SelectedColorNativeTestingModels.lean": [
+      [
+        "theorem",
+        "selected_color_native_testing_models"
+      ]
+    ]
+  }
+}

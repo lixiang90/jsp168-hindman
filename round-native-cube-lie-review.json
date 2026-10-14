@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2897,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6938,
+    "selected_axiom_reports": 11214,
+    "new_declarations": 33,
+    "new_theorems": 22,
+    "new_definitions": 11,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/PointwiseLieAlgebra.lean",
+    "Hindman168/UpperFaceLieArray.lean",
+    "Hindman168/UpperFaceLieFiltration.lean",
+    "Hindman168/UpperFaceLieCoordinates.lean",
+    "Hindman168/UpperFaceLieRestrictedSpan.lean",
+    "Hindman168/NativeRationalCubeLieLayers.lean",
+    "Hindman168/NativeRationalCubeLieEmbedding.lean",
+    "Hindman168/NativeFiniteProductRationalSpan.lean",
+    "Hindman168/NativeRationalCubeLieImage.lean"
+  ],
+  "proved_components": [
+    "Constructed exact pointwise Lie arrays and upper-face Lie homomorphisms, including the empty face. Proved bracket(face D x,face E y)=face(D union E)[x,y] and individual injectivity.",
+    "Constructed the paper cube Lie layers using max(i,card D) in the SAME arbitrary adapted filtration. Proved antitonicity, initial layer equality, bracket i+j and terminal vanishing, without substituting lower-central layers.",
+    "Proved Boolean upper-face coordinate existence and uniqueness by actual powerset sums and triangular recovery. Each filtered array has unique coefficients in its specified max(i,card D) layers; no direct-sum independence oracle is assumed.",
+    "Layerwise restricted spanning proves coordinatewise rational vectors span every cube Lie layer. Applied to the ORIGINAL final rational subgroup filtration, with its actual native bracket.",
+    "Constructed an injective Lie homomorphism into the genuine native finite product algebra and proved exact original exponential vertex coordinates. An actual enumeration exists for all 2^d vertices, including d=0.",
+    "Proved coordinatewise rational logarithms are rational for the ACTUAL original product lattice by constructing common positive powers. Combined this with restricted spanning to prove the embedded cube Lie algebra range is nativeLatticeRationalSubspace for that specified product lattice."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 probability weak limit and all-continuous tests are proved. SAME-filtration cube Lie layers, unique linear face coordinates, genuine native product embedding and its ACTUAL lattice rationality are now proved. Remaining: exponential cube subgroup identification, compact quotient and complete native cube data/filtration; face-character coefficient isolation; simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. No public repository/PR/prize milestone yet.",
+  "mathematical_review_file": "round-native-cube-lie-mathematical-review.txt",
+  "mathematical_review_sha256": "169169f3be54c0fa98af2f854d7a6806d5dc835fcf3ea7bda171e905ca861eb2",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

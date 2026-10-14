@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 33.125,
+  "log": "round-actual-short-posterior-build.txt",
+  "log_sha256": "bad89685c4376ce7b465239f21e353755340dddc03bcfd99ef4335fb0b3b7925"
+}

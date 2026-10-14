@@ -1,0 +1,84 @@
+{
+  "baseline_hash_count": 986,
+  "modules": [
+    "Hindman168/FiniteHaarIdentities.lean",
+    "Hindman168/SubgroupHaarSquare.lean",
+    "Hindman168/SubgroupCubeDimensionOne.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean_equiv",
+    "Hindman168.finiteHaarMean_mul_const",
+    "Hindman168.finiteHaarMean_const_mul",
+    "Hindman168.finiteHaarMean_comm",
+    "Hindman168.finiteHaarMean_nonneg",
+    "Hindman168.finiteHaarMean_add_left",
+    "Hindman168.subgroupHaarMean",
+    "Hindman168.subgroupHaarMean_translate",
+    "Hindman168.subgroupHaar_correlation_square",
+    "Hindman168.subgroupHaar_correlation_nonneg",
+    "Hindman168.subgroupCubeProduct_one",
+    "Hindman168.subgroupCubeAverage_one_dimension",
+    "Hindman168.subgroupCubeAverage_one_nonneg"
+  ],
+  "theorem_count": 12,
+  "declarations": {
+    "Hindman168/FiniteHaarIdentities.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_equiv"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_mul_const"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_const_mul"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_comm"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_nonneg"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_add_left"
+      ]
+    ],
+    "Hindman168/SubgroupHaarSquare.lean": [
+      [
+        "def",
+        "subgroupHaarMean"
+      ],
+      [
+        "theorem",
+        "subgroupHaarMean_translate"
+      ],
+      [
+        "theorem",
+        "subgroupHaar_correlation_square"
+      ],
+      [
+        "theorem",
+        "subgroupHaar_correlation_nonneg"
+      ]
+    ],
+    "Hindman168/SubgroupCubeDimensionOne.lean": [
+      [
+        "theorem",
+        "subgroupCubeProduct_one"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_one_dimension"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_one_nonneg"
+      ]
+    ]
+  }
+}

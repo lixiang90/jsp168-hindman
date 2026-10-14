@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2730,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6757,
+    "selected_axiom_reports": 10694,
+    "new_declarations": 23,
+    "new_theorems": 18,
+    "new_definitions": 5,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/AlignmentJointSourceRestriction.lean",
+    "Hindman168/OriginalIntegerResidualBoxGeometry.lean",
+    "Hindman168/NativeRealResidualGoodMean.lean",
+    "Hindman168/AlignmentActualOriginalResidualGeometry.lean",
+    "Hindman168/AlignmentJointTailResidueMean.lean",
+    "Hindman168/OrderedRemovalTelescope.lean",
+    "Hindman168/AlignmentTailTupleOriginalData.lean",
+    "Hindman168/AlignmentJointActualRemovalStep.lean",
+    "Hindman168/AlignmentJointActualRemovalChain.lean",
+    "Hindman168/AlignmentJointOriginalBoxRemovalFailure.lean",
+    "Hindman168/AlignmentJointOriginalBoxRemovalPosterior.lean",
+    "Hindman168/AlignmentOriginalCubeCRTMean.lean",
+    "Hindman168/AlignmentJointOriginalBoxRemovalFiniteChoices.lean"
+  ],
+  "proved_components": [
+    "The actual one-factor joint source evaluated at its actual factor is proved equal to the SAME full joint spatial source on ALL REAL spatial inputs. This is genuine native source restriction, not an off-sample integer nilsequence assertion. Actual tail insertion preserves original retained products and CubeScale.",
+    "Original integer cube endpoints give exact native real residual geometry without modifying any endpoint or sample. Actual master scale growth, raw supports and original rounded cube bounds discharge all retained-subset geometry and residue-normalization hypotheses. Complement of the original non-strict test-family event gives a strict bound for the SAME fine/coarse complex means.",
+    "Literal joint means on each original retained CRT grid use the SAME source and SAME endpoints. Actual raw supports derive all fine/coarse CRT arithmetic without gcd(retained,removed). Original event complements control exact per-removal mean differences on every permitted original cube box. A genuine fixed natural-order removal chain telescopes from full tail to denominator-only step with cost exactly T.card.",
+    "The COMPLETE original permitted-box mean-removal failure event retains all original observation-family tests and endpoints. On the ACTUAL short-exposure posterior support, actual geometry, every step and the proved telescope force its inclusion in the proved finite direction failure union. It vanishes uniformly in original boxes/tests/source/CRT data; any fixed finite original residue-choice list may be selected after exposure with its cardinality before the cutoff.",
+    "The FULL original cube residue sample set transforms exactly to its full-tail CRT grid. Original residue congruences yield equal whole box sets and normalized complex means for arbitrary original sample readings, including algebraic empty-set cases. There is no dense subsample, endpoint change or fabricated positive normalization."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual original permitted cube-box joint means now have PROVED exact per-factor comparison, full same-source/same-endpoint removal telescope and actual posterior uniform vanishing failure, including fixed finite original residue choices. Full original cube-to-CRT scalar sample mean equality is proved. Remaining: specialize that exact scalar identity and registered original joint sample/read identities to the literal original product-observation cube laws and their exposed origin/denominator labels; terminal d-grid face translation and original array upper-face automorphism correspondence, then full face invariance/cube limits/Alignment/countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-native-cube-removal-mathematical-review.txt",
+  "mathematical_review_sha256": "bc1c674632ec6e2b618c48a825a27645998f5114a86c41efc5f0c27d08c042f2",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRetainedEndpointBounds.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.608999999938533,
+    "log": "round-retained-box-geometry-AlignmentRetainedEndpointBounds-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRetainedEndpointBounds.lean",
+    "source_sha256": "239739271aca2f27a7194cf0a274b54b07a88b4221d24d6b686202f739939c89"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRetainedBoxGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.234000000171363,
+    "log": "round-retained-box-geometry-AlignmentRetainedBoxGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentRetainedBoxGeometry.lean",
+    "source_sha256": "3b40d3703dcfd371c1b559183bd36dd8f821fdc044500d8adef2734343dc9b9a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentPermittedRetainedGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.297000000020489,
+    "log": "round-retained-box-geometry-AlignmentPermittedRetainedGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentPermittedRetainedGeometry.lean",
+    "source_sha256": "108f55bd4867fb90f38b3ad548a2a202db236073b3662d4fce8d4584bec16b06"
+  }
+]

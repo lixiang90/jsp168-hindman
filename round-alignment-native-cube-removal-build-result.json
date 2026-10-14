@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 14.077999999979511,
+  "log": "round-alignment-native-cube-removal-build.txt",
+  "log_sha256": "083278ccbd33ece4004caef4b0e167a08a19fbeb7c53899b9788b1c56587db91"
+}

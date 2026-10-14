@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "Interior product agreement is proved factor by factor using the actual signed no-wrap coordinate equality. The finite set of shifts is arbitrary, so all cube vertices can be included simultaneously.",
+    "The boundary count maps actual ZMod q residues injectively to natural values. For H<=q it uses the union of two width-H intervals; for H>q it uses the total group size. No small-margin assumption is hidden.",
+    "The mean error bounds the pointwise difference by two on bad roots and zero on good roots, then divides the actual finite sum by q.",
+    "The product specialization derives absolute unit bounds from the bounds on the original integer function. Four new theorems are individually kernel audited; actual short-cube instantiation and inverse inputs remain incomplete."
+  ],
+  "new_modules": [
+    "Hindman168/CyclicCellInterior.lean",
+    "Hindman168/CyclicWrapTestError.lean"
+  ],
+  "verified": {
+    "project_modules": 1033,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1042,
+    "source_config_hashes": 1051,
+    "build_jobs": 4987,
+    "axiom_reports": 4925,
+    "new_theorems": 4,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 4,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Quantitative cyclic wrapping error is now bounded by 4H/q for actual finite vertex products with signed shifts bounded by H. Instantiation for the original short-cube shifts, aggregation of the cyclic harmonic comparison and full short-cube transfer remain, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

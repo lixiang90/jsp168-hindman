@@ -1,0 +1,88 @@
+{
+  "modules": [
+    "Hindman168/VectorPolynomialMultivariateProjection.lean",
+    "Hindman168/NativeLieMultivariateOrbitLog.lean",
+    "Hindman168/RationalPolynomialRealTransfer.lean",
+    "Hindman168/AlignmentExposedOrbitLogPolynomial.lean",
+    "Hindman168/AlignmentActualOrbitLogEvaluation.lean"
+  ],
+  "names": [
+    "Hindman168.vectorPolynomialMultivariateProjection",
+    "Hindman168.vectorPolynomialMultivariateProjection_eval",
+    "Hindman168.vectorPolynomialMultivariateProjection_degree",
+    "Hindman168.nativeLieMultivariateOrbitLog",
+    "Hindman168.nativeLieMultivariateOrbitLog_degree",
+    "Hindman168.nativeLieMultivariateOrbitLog_eval",
+    "Hindman168.rationalPolynomial_real_degree",
+    "Hindman168.rationalPolynomial_real_eval",
+    "Hindman168.alignmentExposedOrbitLogPolynomial",
+    "Hindman168.alignmentExposedOrbitLogPolynomial_degree",
+    "Hindman168.alignmentExposedOrbitLogPolynomial_eval",
+    "Hindman168.alignmentExposedOrbitLogPolynomial_frozen",
+    "Hindman168.alignment_actual_orbit_log_evaluation"
+  ],
+  "declarations": {
+    "Hindman168/VectorPolynomialMultivariateProjection.lean": [
+      [
+        "def",
+        "vectorPolynomialMultivariateProjection"
+      ],
+      [
+        "theorem",
+        "vectorPolynomialMultivariateProjection_eval"
+      ],
+      [
+        "theorem",
+        "vectorPolynomialMultivariateProjection_degree"
+      ]
+    ],
+    "Hindman168/NativeLieMultivariateOrbitLog.lean": [
+      [
+        "def",
+        "nativeLieMultivariateOrbitLog"
+      ],
+      [
+        "theorem",
+        "nativeLieMultivariateOrbitLog_degree"
+      ],
+      [
+        "theorem",
+        "nativeLieMultivariateOrbitLog_eval"
+      ]
+    ],
+    "Hindman168/RationalPolynomialRealTransfer.lean": [
+      [
+        "theorem",
+        "rationalPolynomial_real_degree"
+      ],
+      [
+        "theorem",
+        "rationalPolynomial_real_eval"
+      ]
+    ],
+    "Hindman168/AlignmentExposedOrbitLogPolynomial.lean": [
+      [
+        "def",
+        "alignmentExposedOrbitLogPolynomial"
+      ],
+      [
+        "theorem",
+        "alignmentExposedOrbitLogPolynomial_degree"
+      ],
+      [
+        "theorem",
+        "alignmentExposedOrbitLogPolynomial_eval"
+      ],
+      [
+        "theorem",
+        "alignmentExposedOrbitLogPolynomial_frozen"
+      ]
+    ],
+    "Hindman168/AlignmentActualOrbitLogEvaluation.lean": [
+      [
+        "theorem",
+        "alignment_actual_orbit_log_evaluation"
+      ]
+    ]
+  }
+}

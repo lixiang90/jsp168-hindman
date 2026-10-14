@@ -1,0 +1,182 @@
+{
+  "modules": [
+    "Hindman168/RoughIndexProgressionTransport.lean",
+    "Hindman168/RoughResidueIndexRange.lean",
+    "Hindman168/RoughNaturalResidueIndexRange.lean",
+    "Hindman168/FiniteDenseArithmeticProgression.lean",
+    "Hindman168/NativeDenseIndexBadFamily.lean",
+    "Hindman168/NativeIndexExceptionalDensity.lean",
+    "Hindman168/RoughIndexBadLaw.lean",
+    "Hindman168/NativeResidueExceptionalDensity.lean",
+    "Hindman168/RoughDyadicResidueGeometry.lean",
+    "Hindman168/NativeDyadicExceptionalDensity.lean",
+    "Hindman168/RoughNativeComplexLargeIndex.lean",
+    "Hindman168/NativeOriginalRoughProportion.lean"
+  ],
+  "names": [
+    "Hindman168.rough_index_progression_bad_family",
+    "Hindman168.rough_residue_index_range_image",
+    "Hindman168.rough_residue_index_affine_injective",
+    "Hindman168.rough_residue_index_range_card",
+    "Hindman168.rough_residue_index_dense_hits",
+    "Hindman168.rough_natural_residue_index_range_image",
+    "Hindman168.rough_natural_residue_index_range_card",
+    "Hindman168.finite_dense_arithmetic_progression",
+    "Hindman168.dense_range_bounded_progression",
+    "Hindman168.native_dense_index_bad_family",
+    "Hindman168.NativeIndexExceptionalBound",
+    "Hindman168.native_index_exceptional_density",
+    "Hindman168.rough_index_bad_affine_iff",
+    "Hindman168.NativeResidueExceptionalBound",
+    "Hindman168.native_index_to_residue_exceptional_bound",
+    "Hindman168.native_residue_exceptional_density",
+    "Hindman168.roughDyadicResidueSteps",
+    "Hindman168.rough_dyadic_residue_steps_mem",
+    "Hindman168.rough_dyadic_residue_steps_card_lower",
+    "Hindman168.NativeDyadicExceptionalBound",
+    "Hindman168.native_dyadic_exceptional_density",
+    "Hindman168.native_rough_residue_bad_fraction_tendsto",
+    "Hindman168.RoughNativeComplexLargeIndex",
+    "Hindman168.rough_native_complex_large_index_real",
+    "Hindman168.NativeOriginalRoughProportionBound",
+    "Hindman168.native_original_rough_proportion_uniform",
+    "Hindman168.native_original_rough_bad_fraction_tendsto",
+    "OAI.Erdos3.FixedDensity.szemeredi",
+    "OAI.Erdos3.FixedDensity.cyclicAPVal_isIntegerAP",
+    "OAI.Erdos3.fixed_density_hasAP"
+  ],
+  "declarations": {
+    "Hindman168/RoughIndexProgressionTransport.lean": [
+      [
+        "theorem",
+        "rough_index_progression_bad_family"
+      ]
+    ],
+    "Hindman168/RoughResidueIndexRange.lean": [
+      [
+        "theorem",
+        "rough_residue_index_range_image"
+      ],
+      [
+        "theorem",
+        "rough_residue_index_affine_injective"
+      ],
+      [
+        "theorem",
+        "rough_residue_index_range_card"
+      ],
+      [
+        "theorem",
+        "rough_residue_index_dense_hits"
+      ]
+    ],
+    "Hindman168/RoughNaturalResidueIndexRange.lean": [
+      [
+        "theorem",
+        "rough_natural_residue_index_range_image"
+      ],
+      [
+        "theorem",
+        "rough_natural_residue_index_range_card"
+      ]
+    ],
+    "Hindman168/FiniteDenseArithmeticProgression.lean": [
+      [
+        "theorem",
+        "finite_dense_arithmetic_progression"
+      ],
+      [
+        "theorem",
+        "dense_range_bounded_progression"
+      ]
+    ],
+    "Hindman168/NativeDenseIndexBadFamily.lean": [
+      [
+        "theorem",
+        "native_dense_index_bad_family"
+      ]
+    ],
+    "Hindman168/NativeIndexExceptionalDensity.lean": [
+      [
+        "def",
+        "NativeIndexExceptionalBound"
+      ],
+      [
+        "theorem",
+        "native_index_exceptional_density"
+      ]
+    ],
+    "Hindman168/RoughIndexBadLaw.lean": [
+      [
+        "theorem",
+        "rough_index_bad_affine_iff"
+      ]
+    ],
+    "Hindman168/NativeResidueExceptionalDensity.lean": [
+      [
+        "def",
+        "NativeResidueExceptionalBound"
+      ],
+      [
+        "theorem",
+        "native_index_to_residue_exceptional_bound"
+      ],
+      [
+        "theorem",
+        "native_residue_exceptional_density"
+      ]
+    ],
+    "Hindman168/RoughDyadicResidueGeometry.lean": [
+      [
+        "def",
+        "roughDyadicResidueSteps"
+      ],
+      [
+        "theorem",
+        "rough_dyadic_residue_steps_mem"
+      ],
+      [
+        "theorem",
+        "rough_dyadic_residue_steps_card_lower"
+      ]
+    ],
+    "Hindman168/NativeDyadicExceptionalDensity.lean": [
+      [
+        "def",
+        "NativeDyadicExceptionalBound"
+      ],
+      [
+        "theorem",
+        "native_dyadic_exceptional_density"
+      ],
+      [
+        "theorem",
+        "native_rough_residue_bad_fraction_tendsto"
+      ]
+    ],
+    "Hindman168/RoughNativeComplexLargeIndex.lean": [
+      [
+        "def",
+        "RoughNativeComplexLargeIndex"
+      ],
+      [
+        "theorem",
+        "rough_native_complex_large_index_real"
+      ]
+    ],
+    "Hindman168/NativeOriginalRoughProportion.lean": [
+      [
+        "def",
+        "NativeOriginalRoughProportionBound"
+      ],
+      [
+        "theorem",
+        "native_original_rough_proportion_uniform"
+      ],
+      [
+        "theorem",
+        "native_original_rough_bad_fraction_tendsto"
+      ]
+    ]
+  }
+}

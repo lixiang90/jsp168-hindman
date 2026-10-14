@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 265,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean",
+    "Hindman168/MasterDivisorSampling.lean",
+    "Hindman168/MasterWeightedMeanOne.lean",
+    "Hindman168/MasterBaseSampling.lean",
+    "Hindman168/MasterMixedWeightedMeanOne.lean",
+    "Hindman168/MasterRationalDenominators.lean",
+    "Hindman168/MasterRationalWeightedMeanOne.lean",
+    "Hindman168/MasterReplicaCubeMeanOne.lean",
+    "Hindman168/MasterReplicaCubeMajorant.lean",
+    "Hindman168/MasterCopiedReplicaCubeMeanOne.lean",
+    "Hindman168/MasterCopiedReplicaCubeMajorant.lean",
+    "Hindman168/PredictionTerminalCopies.lean",
+    "Hindman168/MasterPredictionEliminationLimit.lean",
+    "Hindman168/MasterPredictionStageMoments.lean",
+    "Hindman168/MasterTailGapBudgets.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MasterCommonTailBudgets.lean",
+    "Hindman168/MasterCommonTailPrediction.lean",
+    "Hindman168/MasterPredictionOriginalCubeLimit.lean",
+    "Hindman168/MasterPredictionQuotientCubeLimit.lean",
+    "Hindman168/PredictionAbsorbedSmoothFactors.lean",
+    "Hindman168/PredictionConcreteBoxes.lean",
+    "Hindman168/PredictionDivisorSupBounds.lean",
+    "Hindman168/PredictionQuotientLengths.lean"
+  ],
+  "application_review": [
+    "Original coarse pivot divisor cap has been replaced by actual tailBound throughout master CRT, divisor sampling, mean-one, copied moments and ordered elimination.",
+    "The common tail budget covers every actual tail and lies below after-tail prime gaps, replica shift gaps and the harmonic root; no contradictory before-pivot cap is retained in those interfaces.",
+    "Concrete root-only harmonic and square-root auxiliary boxes exactly identify the original finite coefficient law at every stage.",
+    "Insertion rapid error and translated elimination combine to the original fixed-dimension cube row-product limit.",
+    "Actual quotient lengths use NATURAL integer division R/(J|M_q|). Their lower length and displacement bounds are derived from sparse polynomial size and actual prime support.",
+    "Each polynomial uses only slots at its own replica gap; independent replicas may use different gaps.",
+    "W-divisibility of actual smooth factors is derived from coefficient absorption W^(e0+1)c|M, not inferred from smoothness alone.",
+    "Original prime events are not renormalized, and support restriction changes no finite average, including zero-mass events.",
+    "No desired moment, prefactor, terminal limit, insertion error or cube limit is supplied as a hypothesis.",
+    "Common fixed dimension and original concrete test/prime-slot/parameter identifications remain to be connected to the full dual test system. StrongConjecture remains unproved.",
+    "The preprint normalizes the surviving good prime tuples (04_correlation.tex, lines 387-388). The present theorem proves the numerator under the unnormalized event law. Exact normalized replica expansion and good-event probability tending to one still need connection; no normalized full dual-test theorem is claimed."
+  ],
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4117,
+    "project_modules": 255,
+    "pntplus_modules": 9,
+    "axiom_reports": 1427,
+    "source_config_hash_count": 273,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "baseline_hash_count": 1013,
+  "modules": [
+    "Hindman168/HaarDifferenceDensity.lean",
+    "Hindman168/HaarIndependentDensities.lean",
+    "Hindman168/IndependentDifferenceCubeBound.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarDifferenceDensity",
+    "Hindman168.finiteHaarDifferenceDensity_nonneg",
+    "Hindman168.finiteHaarDifferenceDensity_total",
+    "Hindman168.finiteHaarDifferenceDensity_le",
+    "Hindman168.finiteHaarDifferenceDensity_expectation",
+    "Hindman168.finiteHaarMean_pi_prod",
+    "Hindman168.finiteHaarDifferenceDensity_pi",
+    "Hindman168.independentDifferenceDensity_bound",
+    "Hindman168.independentDifferences_expectation",
+    "Hindman168.weightedIndependentDifferenceCube_bound"
+  ],
+  "theorem_count": 9,
+  "declarations": {
+    "Hindman168/HaarDifferenceDensity.lean": [
+      [
+        "def",
+        "finiteHaarDifferenceDensity"
+      ],
+      [
+        "theorem",
+        "finiteHaarDifferenceDensity_nonneg"
+      ],
+      [
+        "theorem",
+        "finiteHaarDifferenceDensity_total"
+      ],
+      [
+        "theorem",
+        "finiteHaarDifferenceDensity_le"
+      ],
+      [
+        "theorem",
+        "finiteHaarDifferenceDensity_expectation"
+      ]
+    ],
+    "Hindman168/HaarIndependentDensities.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_pi_prod"
+      ],
+      [
+        "theorem",
+        "finiteHaarDifferenceDensity_pi"
+      ],
+      [
+        "theorem",
+        "independentDifferenceDensity_bound"
+      ],
+      [
+        "theorem",
+        "independentDifferences_expectation"
+      ]
+    ],
+    "Hindman168/IndependentDifferenceCubeBound.lean": [
+      [
+        "theorem",
+        "weightedIndependentDifferenceCube_bound"
+      ]
+    ]
+  }
+}

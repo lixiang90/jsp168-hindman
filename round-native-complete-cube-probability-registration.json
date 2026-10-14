@@ -1,0 +1,136 @@
+{
+  "modules": [
+    "Hindman168/AlignmentOriginalNativeCubeState.lean",
+    "Hindman168/AlignmentOriginalNativeCubeMeans.lean",
+    "Hindman168/AlignmentNativeCompleteCubeFailure.lean",
+    "Hindman168/AlignmentNativeCompleteCubeDetection.lean",
+    "Hindman168/AlignmentNativeCylinderOriginalFailure.lean",
+    "Hindman168/AlignmentNativeCylinderFaceGlobal.lean",
+    "Hindman168/AlignmentNativeCompleteCubeGlobal.lean",
+    "Hindman168/AlignmentNativeCompleteCubePositiveSelection.lean",
+    "Hindman168/AlignmentNativeCompleteCubeCountableSelection.lean",
+    "Hindman168/AlignmentOriginalNativeCubeExposedState.lean",
+    "Hindman168/AlignmentAllTargetsNativeCountableSelection.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentOriginalNativeCubeState",
+    "Hindman168.alignment_original_native_cube_state_reading",
+    "Hindman168.alignment_original_native_cube_state_Y_invariant",
+    "Hindman168.alignmentOriginalNativeCubeMean",
+    "Hindman168.alignment_original_native_cube_product_mean",
+    "Hindman168.alignment_original_native_cube_translated_product_mean",
+    "Hindman168.alignmentNativeCompleteCubeAllFacesFailure",
+    "Hindman168.alignmentNativeCylinderCubeAllFacesFailure",
+    "Hindman168.alignment_native_complete_cube_failure_finite_detection",
+    "Hindman168.alignment_native_cylinder_failure_original_product",
+    "Hindman168.alignment_native_cylinder_all_faces_global_eventually",
+    "Hindman168.alignment_native_complete_cube_all_faces_global_eventually",
+    "Hindman168.alignment_native_complete_cube_all_faces_global_tendsto",
+    "Hindman168.alignment_native_complete_cube_all_faces_positive_conditioning",
+    "Hindman168.alignment_native_complete_cube_all_faces_supported_selection",
+    "Hindman168.alignment_native_complete_cube_countable_supported_selection",
+    "Hindman168.alignment_original_native_cube_exposed_state",
+    "Hindman168.alignment_original_native_cube_raw_exposed_state",
+    "Hindman168.alignment_all_targets_native_cube_countable_supported_selection"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentOriginalNativeCubeState.lean": [
+      [
+        "def",
+        "alignmentOriginalNativeCubeState"
+      ],
+      [
+        "theorem",
+        "alignment_original_native_cube_state_reading"
+      ],
+      [
+        "theorem",
+        "alignment_original_native_cube_state_Y_invariant"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalNativeCubeMeans.lean": [
+      [
+        "def",
+        "alignmentOriginalNativeCubeMean"
+      ],
+      [
+        "theorem",
+        "alignment_original_native_cube_product_mean"
+      ],
+      [
+        "theorem",
+        "alignment_original_native_cube_translated_product_mean"
+      ]
+    ],
+    "Hindman168/AlignmentNativeCompleteCubeFailure.lean": [
+      [
+        "def",
+        "alignmentNativeCompleteCubeAllFacesFailure"
+      ],
+      [
+        "def",
+        "alignmentNativeCylinderCubeAllFacesFailure"
+      ]
+    ],
+    "Hindman168/AlignmentNativeCompleteCubeDetection.lean": [
+      [
+        "theorem",
+        "alignment_native_complete_cube_failure_finite_detection"
+      ]
+    ],
+    "Hindman168/AlignmentNativeCylinderOriginalFailure.lean": [
+      [
+        "theorem",
+        "alignment_native_cylinder_failure_original_product"
+      ]
+    ],
+    "Hindman168/AlignmentNativeCylinderFaceGlobal.lean": [
+      [
+        "theorem",
+        "alignment_native_cylinder_all_faces_global_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentNativeCompleteCubeGlobal.lean": [
+      [
+        "theorem",
+        "alignment_native_complete_cube_all_faces_global_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentNativeCompleteCubePositiveSelection.lean": [
+      [
+        "theorem",
+        "alignment_native_complete_cube_all_faces_global_tendsto"
+      ],
+      [
+        "theorem",
+        "alignment_native_complete_cube_all_faces_positive_conditioning"
+      ],
+      [
+        "theorem",
+        "alignment_native_complete_cube_all_faces_supported_selection"
+      ]
+    ],
+    "Hindman168/AlignmentNativeCompleteCubeCountableSelection.lean": [
+      [
+        "theorem",
+        "alignment_native_complete_cube_countable_supported_selection"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalNativeCubeExposedState.lean": [
+      [
+        "theorem",
+        "alignment_original_native_cube_exposed_state"
+      ],
+      [
+        "theorem",
+        "alignment_original_native_cube_raw_exposed_state"
+      ]
+    ],
+    "Hindman168/AlignmentAllTargetsNativeCountableSelection.lean": [
+      [
+        "theorem",
+        "alignment_all_targets_native_cube_countable_supported_selection"
+      ]
+    ]
+  }
+}

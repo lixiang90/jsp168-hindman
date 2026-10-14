@@ -1,0 +1,36 @@
+{
+  "baseline_hash_count": 1041,
+  "modules": [
+    "Hindman168/AlignedInteriorMassCrude.lean",
+    "Hindman168/MasterAlignedEndpointLoss.lean"
+  ],
+  "names": [
+    "Hindman168.harmonicNormalizer_reciprocal_le_modulus",
+    "Hindman168.alignedInterior_deleted_integerMass_crude",
+    "Hindman168.MasterParameterConditions.aligned_endpoint_loss_tendsto",
+    "Hindman168.MasterParameterConditions.aligned_endpoint_test_tendsto"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/AlignedInteriorMassCrude.lean": [
+      [
+        "theorem",
+        "harmonicNormalizer_reciprocal_le_modulus"
+      ],
+      [
+        "theorem",
+        "alignedInterior_deleted_integerMass_crude"
+      ]
+    ],
+    "Hindman168/MasterAlignedEndpointLoss.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.aligned_endpoint_loss_tendsto"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.aligned_endpoint_test_tendsto"
+      ]
+    ]
+  }
+}

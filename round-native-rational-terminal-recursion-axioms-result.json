@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.156000000191852,
+  "log": "round-native-rational-terminal-recursion-axioms.txt",
+  "log_sha256": "debcb77981d517cfd6b4f25b374f8d74d292f4b44dc24143f8752541dca342be"
+}

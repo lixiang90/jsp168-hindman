@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 538,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskEndpointSourceRows.lean",
+    "Hindman168/MaskEndpointTerminalTransfer.lean",
+    "Hindman168/MaskEndpointCenteredDecay.lean",
+    "Hindman168/MaskInitialCenteredCorrelation.lean",
+    "Hindman168/MaskInitialSubsetForms.lean",
+    "Hindman168/MaskInitialSubsetInputs.lean",
+    "Hindman168/MaskOriginalCenteredCorrelation.lean"
+  ],
+  "new_selected_report_count": 26,
+  "module_report_counts": {
+    "MaskEndpointSourceRows": 6,
+    "MaskEndpointTerminalTransfer": 5,
+    "MaskEndpointCenteredDecay": 2,
+    "MaskInitialCenteredCorrelation": 2,
+    "MaskInitialSubsetForms": 4,
+    "MaskInitialSubsetInputs": 4,
+    "MaskOriginalCenteredCorrelation": 3
+  },
+  "application_review": [
+    "All 538 retained source/config hashes were checked before registration. Only root imports and the exact-name Verification registry changed among retained files. Retained proofs, StrongStatement, all nine attributed PNT+ sources and the Lean/mathlib/PNT+ pins remain unchanged. Both fixed local preprint sections match adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote update was checked in this goal round.",
+    "The actual full-mask endpoint is reindexed through the exact generated additive row family. The independent complete prime law and original harmonic base law agree definitionally; the whole row product is transported by a finite equivalence without dropping or duplicating rows.",
+    "Every endpoint row satisfies the original additive source majorant on the entire prime support and all integer arguments. The actual empty-mask endpoint correlation equals rawCorrelation of this reindexed source, and its additive root is exactly its tracked target row.",
+    "The actual terminal input is transported to fullMaskRowStage with its complete correlation and target function unchanged. Its centered additive root equals the initial original tail divisor mask minus one because the tracked maximum-support normalization anchor is preserved by all mask steps.",
+    "Existing raw centered-source cancellation proves uniform zero decay for every admissible actual empty-mask terminal input whose tracked function is the original centered tail mask. This decay is simultaneous over the finite catalogue of all supports of cardinality at least two.",
+    "The previous finite-mask elimination implication is specialized to the original centered target and its endpoint-decay condition is discharged. The actual initial full row/mask correlation decays uniformly over all admissible initial inputs, simultaneously over all tracked supports.",
+    "An initial subset-indicator row has exactly its nonempty subset as symbolic support and the maximum element of that subset as normalization anchor. Its integer form is precisely the subset sum of original natural coefficient quotients times the signed integer coordinates.",
+    "The full initial row-function product is exactly the product over all nonempty column subsets of their functions at the original normalized subset sums. This is an exact finite reindexing, independent of the asymptotic coefficient integrality conditions.",
+    "Actual initial row/mask inputs are constructed from arbitrary subset functions with bounds 1 plus their original maximum-anchor tail mask, and arbitrary unit-bounded product masks. A distinguished subset function equal to that tail mask minus one becomes exactly the initial tracked centered function.",
+    "The original initial correlation equals the independent harmonic expectation of the complete normalized subset-sum function product times every nonempty-subset product mask. The empty initial prime tuple has exactly unit law, so eliminating it introduces neither conditioning nor mass error.",
+    "For every positive tolerance, the paper original subset-sum/subset-product correlation is eventually uniformly small whenever any distinguished subset of cardinality at least two has function equal to its actual tail mask minus one. Other admissible functions and masks may vary arbitrarily; any eventually admissible sequence has correlation tending to zero.",
+    "Source admissibility is derived from the genuine endpoint row bounds on the complete original prime support. The auxiliary endpoint conversion changes only dependent stage/index descriptions; its original complete-law correlation is proved equal to the additive raw average. The source root equality holds on every prime tuple, so every original good tuple required by existing centered cancellation is included.",
+    "The initial source contains no prime coordinates, and piMass_empty_expectation removes it with exact unit mass even before eventual probability statements for nonempty prime pools. The harmonic coordinate laws, original column coefficients and every nonempty multiplicative support are retained in the resulting originalSubsetCorrelation.",
+    "Natural integer coefficient quotients in the exact subset-form identity are unconditional. Their agreement with the paper rational coefficient ratios uses the existing monomialRows_integer_conditions_eventually and normalized integer row cast results for the actual positive master column coefficients; arbitrary natural scales are not asserted to have integral rational ratios.",
+    "Uniformity quantifies over all functions satisfying global integer-argument bounds at each sufficiently large w, and over the finite support catalogue. J is an arbitrary fixed positive integer. No rate uniform in increasing master data is claimed. The sequence Tendsto theorem requires eventual original admissibility and follows from the same uniform estimate.",
+    "The first kernel pass exposed a Windows default-decoding error in three retained eval₂ registry names. The original registry prefix was recovered with an exact match to its previous CRLF SHA-256, explicit UTF-8 was used for the repaired names, and all 2602 exact names were reaudited successfully. No retained proof source changed.",
+    "The proved centered target is exactly the original nu-1. The arbitrary-target model-error and full Correlation Principle remain separate proof work, as do full Prediction/Alignment and the strong monochromatic conclusion. The complete goal has not been declared achieved and no public prize submission is made.",
+    "The full build completed 4392 jobs with no warnings or errors. The final kernel audit covers every one of 2602 exact registered names, including all 26 new names, with only standard axioms or no axioms. The scan covers 527 own and 9 attributed PNT+ modules, plus root and registry; 545 source/config hashes are recorded. Both the previous and current goal rounds are PROGRESS. No unavoidable blocker is established."
+  ],
+  "source_preprint_section": "04_correlation.tex:25-46 (original subset forms, masks and bounds), 266-307 (tracked function and complete-law finite mask iteration), 310 onward (additive elimination and original root cube); existing raw centered cancellation from the fixed 05_prediction.tex inputs. This round discharges only the actual nu-1 terminal condition and proves its original initial average decay.",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4392,
+    "project_modules": 527,
+    "pntplus_modules": 9,
+    "source_scan_modules": 536,
+    "axiom_reports": 2602,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 545,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The actual finite mask update chain, exact target/anchor retention, complete prime-law transfer, original arbitrary-target additive source bound and centered cancellation remain proved. This round identifies the genuine empty-mask endpoint with that exact additive source and proves its uniform decay for the actual centered tail mask. The endpoint condition of the finite-mask iteration is therefore discharged for nu-1. The original initial average is identified exactly with the paper normalized subset-sum/subset-product correlation, and its uniform centered decay and sequence zero limit are proved simultaneously over all large tracked subsets, for fixed finite master data. The full arbitrary-target correlation detection principle is still incomplete: transfer a genuine terminal input with tracked function g to targetUnrestrictedAverage, prove that this average depends only on g at the additive root, and combine the actual finite mask thresholds with the existing arbitrary-target additive inequality to control the original correlation by the repeated target cube. Centered nu-1 decay alone does not prove the model-error case g=rho-model or the complete preprint Correlation Principle. Derive the quantitative powered mask inequality if needed, preserving all complete-law errors. Then complete full preprint Prediction/Alignment and the required model/inverse/nilsequence/cube-law interfaces, concrete block/gap/scale/color/rho choices and companion diagonals, and ordered positive rapidly separated monochromatic witness extraction. Real-exponent clipping remains unproved if required. No uniform convergence rate in a growing master index count, arbitrary iterated row-family cap, or decay for an arbitrary target function is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

@@ -1,0 +1,29 @@
+{
+  "baseline_hashes_verified_before_registration": 770,
+  "new_modules": [
+    "Hindman168/NativeLieGlobalLogarithm.lean",
+    "Hindman168/NativeLieExponentialDiffeomorph.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLieGlobalLogarithm_exists",
+    "Hindman168.nativeLieGlobalLogarithm",
+    "Hindman168.nativeLieGlobalLogarithm_one",
+    "Hindman168.nativeLieExponential_globalLogarithm",
+    "Hindman168.nativeLieGlobalLogarithm_exponential",
+    "Hindman168.nativeLieExponential_injective",
+    "Hindman168.nativeLieExponentialPeriods_eq_bot",
+    "Hindman168.nativeLieGlobalLogarithm_contMDiff",
+    "Hindman168.nativeLieExponentialDiffeomorph",
+    "Hindman168.nativeLieGlobalLogarithm_mfderiv"
+  ],
+  "module_report_counts": {
+    "NativeLieGlobalLogarithm": {
+      "theorems": 6,
+      "selected_declarations": 7
+    },
+    "NativeLieExponentialDiffeomorph": {
+      "theorems": 2,
+      "selected_declarations": 3
+    }
+  }
+}

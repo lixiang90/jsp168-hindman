@@ -1,0 +1,28 @@
+{
+  "baseline_hash_count": 1063,
+  "modules": [
+    "Hindman168/MasterSubgroupCombination.lean"
+  ],
+  "names": [
+    "Hindman168.predictionCubeModulus_quotient_rough",
+    "Hindman168.finiteMass_good_event_statistic_bound",
+    "Hindman168.constructedMasterFamily_conditioned_subgroup_gowers_eventually"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/MasterSubgroupCombination.lean": [
+      [
+        "theorem",
+        "predictionCubeModulus_quotient_rough"
+      ],
+      [
+        "theorem",
+        "finiteMass_good_event_statistic_bound"
+      ],
+      [
+        "theorem",
+        "constructedMasterFamily_conditioned_subgroup_gowers_eventually"
+      ]
+    ]
+  }
+}

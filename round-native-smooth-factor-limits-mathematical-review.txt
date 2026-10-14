@@ -1,0 +1,100 @@
+JSP-000168 / Erdos #172 -- author mathematical review, 2026-10-14
+Verdict: Partial overall coverage; PROGRESS. StrongConjecture UNPROVED.
+Goal ACTIVE; no unavoidable obstruction established.
+AUTHOR review only; no independent kernel replay or external peer review.
+Primary source: OpenAI math adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+07_cube_limits.tex 308--328; original native orbit application retains
+08_alignment.tex 377 and the exact lower-central step-s constructors.
+
+1. Original smooth product. The actual native global logarithm and exponential
+are a proved native diffeomorphism. Composing their smooth maps with the
+actual original group multiplication proves product-log smoothness. Recursion
+constructs a true finite chronological logarithmic product; exponential
+injectivity/global inverse identities identify it with the ACTUAL original
+ordered group product. There is no assumed BCH smoothness or group metric.
+
+2. Exact scalar scaling. Evaluate the actual original adaptedTaylorBinomial,
+then factor L from each falling-polynomial term. This proves
+ epsilon*binom(L*beta,j)
+ = (L^j*epsilon)/j! * product_{r<j}(beta-r/L).
+The proof first treats nonzero L, then proves zero L separately, including
+j=0 and j>0. For j>0 the true natural binomial value at zero is zero; for j=0
+both sides are epsilon. Thus NO original finite early indices are omitted
+from the actual family identity. Inverse length zero gives the real polynomial
+z*beta^j/j!, and the entire finite scalar parameter family is smooth.
+
+3. Actual finite parameters. Parameters are the original global logarithm
+of c_n, 1/L_n, and the finite vector of L_n^j*epsilon_j,n. Each coordinate's
+convergence is already PROVED in the retained finite-descent theorem. Native
+log continuity, actual inverse-length convergence and finite product topology
+derive joint parameter convergence. The indexed native family expands to
+Exp(Log c_n) times the EXACT original left factors, in the original order.
+The canonical List.ofFn/get identity proves the actual finite list equality.
+No different source sequence replaces the original left product.
+
+4. C1 limits and bounds. A jointly smooth map on the finite-dimensional
+parameter model and beta has a jointly smooth ACTUAL beta derivative, via
+the Fréchet derivative-with-parameter theorem, evaluated on the real tangent
+1. On each compact beta set, continuous-family uniform convergence follows
+from Heine-Cantor and genuine parameter convergence. The same argument applies
+to the actual beta derivative, giving uniform C1 limits. The convergent parameter
+sequence plus its limit is genuinely compact; multiplying this compact set by
+the compact beta set and taking continuous images gives ALL-index bounds.
+Each original real curve is separately proved smooth before its derivative
+is used, so a default zero derivative at nondifferentiable points is impossible.
+No equicontinuity, derivative bound or uniform convergence is an input.
+
+5. Actual group topology. The continuous original group family is bundled
+and curried into C(parameters,C(R,ORIGINAL G)). Continuity of that actual
+compact-open family and parameter convergence gives a true compact-open group
+limit. Every bundled sequence map is proved to evaluate to c_n times the
+ACTUAL scaled original left product. No extra metric/uniform structure is
+introduced on G, and no globally Lipschitz exponential assertion is made.
+
+6. Intrinsic derivative identity. nativeCurveBodyVelocity is the ACTUAL
+manifold derivative of the real group curve evaluated on the real tangent 1,
+then the ACTUAL derivative of left translation by its current inverse. The
+native manifold chain rule and the original native dexp definition prove that
+for a smooth logarithmic curve it equals dexp(h(beta)) applied to deriv h(beta).
+The existing finite native dexp formula already proves joint smoothness. Thus
+the body-velocity family is genuinely smooth in the same actual parameters.
+The original source group curve is exactly Exp of its actual native logarithmic
+family, giving equality to the ACTUAL manifold body velocity at every index.
+No abstract or unrelated velocity function is supplied.
+
+7. Intrinsic limits and all-index bounds. The SAME convergent finite parameters
+give the smooth original group limit, original group compact-open convergence,
+uniform body-velocity limits on every compact beta set, and all-index bounds
+for original logarithmic values and original native body velocities. Every
+original group curve is explicitly proved ContMDiff infinity. The group map
+limit is bundled in the ORIGINAL group's compact-open topology. Coordinate
+C1 and intrinsic conclusions concern the SAME actual original c/list/length
+sequence; their group limits are unique in the original Hausdorff topology.
+
+8. Unconditional synthesis. The prior UNCONDITIONAL algebraic factorization
+constructs all actual witnesses, constant/coefficient limits, final rational
+filtration and ALL rational level-character escape conditions. This round's
+PROVED smooth/velocity machinery applies to those SAME witnesses without
+another subsequence. NativeSequentialIntrinsicFactorization is therefore
+proved from arbitrary actual adapted source and cofinal real length only.
+Original s=0, empty factor lists, arbitrary early real lengths and every
+original real beta are covered. The original left-linear sequence theorem
+uses the exact original lower central series and terminal index s. No stretched
+filtration, step enlargement or ordinary-degree substitute is used.
+
+9. Remaining scope. Uniform rational periodicity for the ACTUAL signed-integer
+right products, one selected residue-representative pattern, and thus the
+complete smooth/irrational/periodic factorization lemma remain open. Actual
+local cube-Haar laws through original s+1, sequence-before-locality limits,
+projected Haar face symmetry and joint lifts/Alignment, the separate GTZ
+arbitrary-input interval Gowers LINEAR nilsequence inverse, and the final
+positive distinct rapidly separated SAME-color ALL finite sums/products
+remain unproved. No unavoidable obstruction or prize eligibility is claimed.
+
+10. Trust. No new structures, instances, axioms, sorry/admit, native_decide,
+unsafe computation, heartbeat changes or kernel bypasses are introduced.
+Only the existing local native smoothness instance is used. Default-heartbeat
+elaboration timeouts were resolved by explicit types, split smoothness lemmas
+and direct dexp composition; the budget was never increased. Standard native
+and real calculus is used, with all retained hashes/axiom sets/pins and pinned
+primary paper sections compared by the terminal author audit.

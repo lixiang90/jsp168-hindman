@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\A\\.elan\\bin\\lake.EXE",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 14.343,
+  "log": "round-rational-exponential-axioms.txt",
+  "log_sha256": "0f3440d84072b2d43136e9c31047ebc23475bb13b90167a8d22c6d8cd077b5b9",
+  "process_terminal": true
+}

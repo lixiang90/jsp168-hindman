@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding prediction-limits round was terminal-successfully rechecked, and its authoritative manifest copied before new source edits. All retained proof sources remain fixed.",
+    "The closure enlargement is a finite biUnion over B of finite powerset images. It retains A, contains all nonempty block products and, harmlessly, empty products. Actual coordinatewise positivity proves positivity of each new rational product. The construction is independent of models, thresholds and all master parameters.",
+    "ScaleColorIndex is the product of the actual finite subtype A and Fin r. Its projections and the block-product index preserve the actual rational factor and color definitionally. Membership is supplied by the proved finite closure, not by a new external assumption about the count.",
+    "Calibration is specialized directly from the same PrincipalPredictionLimitData on the same ultrafilter. For chain counting, each column is indexed by b_(C.block col), and every index color is the one requested common color. The original selected weighted count, full bounded model integrand and all nonempty product-color masks are unchanged.",
+    "The native existence theorem is the exact retained statement specialized to the finite scale-and-color index type and its projection functions. All original outputs are retained verbatim. The index family and tolerances are fixed before N; positivity of the finite scale list discharges the actual factor positivity premise.",
+    "The paper 02_framework scale-list closure and Prediction equations now connect to the finite-family models and their actual principal laws. This does not prove a finite Alignment plan, positive-probability Alignment, external native inverse existence or StrongConjecture.",
+    "Four new modules contain twelve theorems and seven definitions/abbreviations. Nineteen selected kernel reports cover every new declaration. Full build and kernel reports must finish without warnings; no new resource options, axioms or proof holes are allowed. Retained source hashes and full transitive axiom sets must remain unchanged except root imports and registry.",
+    "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional Prediction now includes actual admissible parameters, the same selected native models, finite positive scale-list closure, all scale/color indices, and actual fixed-ultrafilter calibration and complete count limits. The common-manifold model output still needs explicitly proved [0,1] observable range on the entire quotient with uniform Lipschitz bounds; unconditional inverse inputs still need proof. Alignment, including its finite nilpotent recurrence plan and positive-probability realization, and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/FiniteScaleLists.lean",
+    "Hindman168/FiniteScaleColorIndices.lean",
+    "Hindman168/FiniteScalePredictionLimits.lean",
+    "Hindman168/FiniteScalePredictionModels.lean"
+  ],
+  "verified": {
+    "project_modules": 1265,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1274,
+    "source_config_hashes": 1283,
+    "build_jobs": 5222,
+    "axiom_reports": 5666,
+    "new_theorems": 12,
+    "new_definitions": 7,
+    "new_structures": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 19,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "axiom_free_reports": [
+      "Hindman168.MatrixDepth.smul",
+      "Hindman168.admissible_option_selection_none",
+      "Hindman168.boundedLieWordValues",
+      "Hindman168.completeResidueCellPoint",
+      "Hindman168.finiteVectorPolynomialSum",
+      "Hindman168.integerCubeResidueShift",
+      "Hindman168.intervalResidueParent",
+      "Hindman168.lieWordValue",
+      "Hindman168.lieWordValue_cons",
+      "Hindman168.lieWordValue_nil",
+      "Hindman168.lowerCentralCommutatorGenerators",
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.matrixDepth_zero",
+      "Hindman168.matrixDepth_zero_iff_upper"
+    ],
+    "new_axiom_free_reports": [],
+    "full_target_proved": false
+  },
+  "remaining": "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional Prediction now includes actual admissible parameters, the same selected native models, finite positive scale-list closure, all scale/color indices, and actual fixed-ultrafilter calibration and complete count limits. The common-manifold model output still needs explicitly proved [0,1] observable range on the entire quotient with uniform Lipschitz bounds; unconditional inverse inputs still need proof. Alignment, including its finite nilpotent recurrence plan and positive-probability realization, and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "02_framework finite scale-list closure and Prediction; 08_alignment finite palette index requirements"
+}

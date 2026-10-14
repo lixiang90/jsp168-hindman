@@ -1,0 +1,44 @@
+JSP-000168 / Erdos #172, 2026-10-13. Partial overall coverage.
+Author-side checking, not independent replay or external peer review.
+
+Primary route: pinned Section 6 original/residual rough-step comparison.
+The old integer-box/nonempty-event formulation required an application bridge.
+This round explicitly closes that gap for arbitrary real box endpoints.
+
+For actual q>0, the exact residue-index endpoint at ceil(x) equals
+ceil((x-a)/q). The proof compares all integer upper cuts using the original
+first-residue-point characterization and exact positive-q division. This is
+an equality, not a discarded-tail estimate or a sampled-source inference.
+
+The normalized real box with side >=c*Z yields an integer side >=c*Z/2.
+The true ceil endpoint bounds yield location/width constants 2*(C+1).
+The changes are fixed geometry constants, independent of every raw box,
+source, q/a, removed t and compatible finer residue. Original eta and the
+complex discrepancy are unchanged; exact sampling laws are retained.
+
+Actual Z/S -> infinity (from the source power ratios) and S->infinity give
+one threshold with S,Z>=1, c*Z>=2 and c*Z>=8*S. Every actual dyadic t<2*S
+is positive and 4*t<=c*Z. Thus every normalized integer t-class is
+nonempty. Exact affine images give BOTH original q and q*t samples
+nonempty for every compatible fine residue, WITHOUT coprimality.
+No nonempty premise is included in the original real-box large-event
+definition; nonemptiness is proved at the uniform eventual threshold.
+
+The original real-box event uses the actual ceil endpoint samples and
+non-strict complex error. Exact event inclusion maps it to the already
+proved residual comparison. One fixed threshold precedes all raw sources
+and retained q/a across the fixed finite native family. Actual family
+members/source coefficients and q/a may vary with w.
+
+Taking retained q=1, a=0 gives the true ORIGINAL rough-step event. The
+coarse class equals exactly the full integer points of the real box,
+and the literal residual source equals Q at EVERY real input. The raw
+original polynomial supplies the source identity without an extra
+normalized-source or inverse premise. No false empty-family model
+existence, fixed-box restriction or zero-denominator substitution occurs.
+
+C>=0 is weaker than the manuscript C>0 requirement. Geometry results
+retain this original harmless assumption; no compiler or linter option
+is suppressed. Full-goal completion is not inferred from these results.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original/residual complex non-strict rough exceptional-proportion convergence is proved for arbitrary REAL boxes, with actual simultaneous nonempty sample proofs, literal source/event composition and common finite-native-family budgets WITHOUT coprimality. Remaining: cofinal w-index bridge and actual master/source/conditional-probability application (including uniform bounded normalized-scale variation), separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

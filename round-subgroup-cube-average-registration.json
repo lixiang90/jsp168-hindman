@@ -1,0 +1,79 @@
+{
+  "baseline_hash_count": 983,
+  "modules": [
+    "Hindman168/FiniteHaarMean.lean",
+    "Hindman168/SubgroupCubeAverage.lean",
+    "Hindman168/SubgroupCubeCombination.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean",
+    "Hindman168.finiteHaarMean_const",
+    "Hindman168.finiteHaarMean_abs_le_one",
+    "Hindman168.finiteHaarMean_add",
+    "Hindman168.subgroupCubeProduct",
+    "Hindman168.subgroupCubeAverage",
+    "Hindman168.subgroupCubeProduct_abs_le_one",
+    "Hindman168.subgroupCubeAverage_abs_le_one",
+    "Hindman168.subgroupCubeAverage_one",
+    "Hindman168.weightedSubgroupCubeAverage",
+    "Hindman168.weightedSubgroupCubeAverage_abs_le_one",
+    "Hindman168.weighted_subgroup_cube_combination"
+  ],
+  "theorem_count": 8,
+  "declarations": {
+    "Hindman168/FiniteHaarMean.lean": [
+      [
+        "def",
+        "finiteHaarMean"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_const"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_abs_le_one"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_add"
+      ]
+    ],
+    "Hindman168/SubgroupCubeAverage.lean": [
+      [
+        "def",
+        "subgroupCubeProduct"
+      ],
+      [
+        "def",
+        "subgroupCubeAverage"
+      ],
+      [
+        "theorem",
+        "subgroupCubeProduct_abs_le_one"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_abs_le_one"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_one"
+      ],
+      [
+        "def",
+        "weightedSubgroupCubeAverage"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupCubeAverage_abs_le_one"
+      ]
+    ],
+    "Hindman168/SubgroupCubeCombination.lean": [
+      [
+        "theorem",
+        "weighted_subgroup_cube_combination"
+      ]
+    ]
+  }
+}

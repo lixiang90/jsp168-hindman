@@ -1,0 +1,26 @@
+✖ [3796/3796] Building Hindman168.MasterPrimeSquarefreeLaw (6.9s)
+error: build failed
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\MasterPrimeSquarefreeLaw.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterPrimeSquarefreeLaw.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterPrimeSquarefreeLaw.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterPrimeSquarefreeLaw.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterPrimeSquarefreeLaw.setup.json --json
+error: Hindman168/MasterPrimeSquarefreeLaw.lean:53:6: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ∏ i, ↑i
+in the target expression
+  squarefreeCRTModulus S ∣ masterStageModulus w e V
+
+S : Finset ℕ
+hS : ∀ p ∈ S, Nat.Prime p
+w e V : ℕ
+hgreater : ∀ p ∈ S, w < p
+hV : ∀ p ∈ S, p ≤ V
+⊢ squarefreeCRTModulus S ∣ masterStageModulus w e V
+warning: Hindman168/MasterPrimeSquarefreeLaw.lean:77:23: Variable name `j` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+error: Hindman168/MasterPrimeSquarefreeLaw.lean:103:8: failed to synthesize instance of type class
+  NeZero (masterStageModulus w (F.exponent w) (F.auxiliary w (gap j)))
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.MasterPrimeSquarefreeLaw

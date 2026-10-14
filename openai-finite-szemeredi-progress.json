@@ -1,0 +1,15 @@
+{
+  "classification": "CANDIDATE ONLY; not a certified project dependency",
+  "terminal": true,
+  "completed": 42,
+  "total": 42,
+  "failures": [],
+  "elapsed_seconds": 276.5150000001304,
+  "max_parallel_lake_processes": 2,
+  "all_modules_built": true,
+  "selected_target_built": true,
+  "uniform_cyclic_target_built": true,
+  "count_extraction_built": true,
+  "standard_axiom_audit_done": false,
+  "main_project_dependency": false
+}

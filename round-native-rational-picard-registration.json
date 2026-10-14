@@ -1,0 +1,122 @@
+{
+  "baseline_hashes_verified_before_registration": 782,
+  "new_modules": [
+    "Hindman168/FiniteVectorPolynomial.lean",
+    "Hindman168/FiniteVectorPolynomialBilinear.lean",
+    "Hindman168/FiniteVectorPolynomialIntegral.lean",
+    "Hindman168/FiniteVectorPolynomialRational.lean",
+    "Hindman168/FiniteVectorPolynomialSums.lean",
+    "Hindman168/NativeLieRationalAdjoint.lean",
+    "Hindman168/NativeLieRationalBCH.lean",
+    "Hindman168/NativeLieRationalDefectPolynomial.lean",
+    "Hindman168/NativeLieRationalFieldPolynomial.lean",
+    "Hindman168/NativeLieRationalPicardPolynomial.lean",
+    "Hindman168/NativeLieRationalProductCurve.lean"
+  ],
+  "names": [
+    "Hindman168.finiteVectorPolynomialEval",
+    "Hindman168.finiteVectorPolynomialScale",
+    "Hindman168.finiteVectorPolynomialEval_nil",
+    "Hindman168.finiteVectorPolynomialEval_cons",
+    "Hindman168.finiteVectorPolynomialEval_append",
+    "Hindman168.finiteVectorPolynomialEval_singleton",
+    "Hindman168.finiteVectorPolynomialEval_scale",
+    "Hindman168.finiteVectorPolynomialEval_continuous",
+    "Hindman168.finiteVectorPolynomialBilinear",
+    "Hindman168.finiteVectorPolynomialEval_bilinear_right",
+    "Hindman168.finiteVectorPolynomialEval_bilinear",
+    "Hindman168.finiteVectorPolynomialPrimitive",
+    "Hindman168.finiteVectorPolynomial_monomial_integral",
+    "Hindman168.finiteVectorPolynomialEval_primitive",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_singleton",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_nil",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_append",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_scale",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_primitive",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_bilinear",
+    "Hindman168.finiteVectorPolynomialEval_rational_mem",
+    "Hindman168.finiteVectorPolynomialEval_flatten",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_flatten",
+    "Hindman168.finiteVectorPolynomialSum",
+    "Hindman168.finiteVectorPolynomialSum_succ",
+    "Hindman168.finiteVectorPolynomialEval_sum",
+    "Hindman168.finiteVectorPolynomialAdPower",
+    "Hindman168.finiteVectorPolynomialEval_adPower",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_sum",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_adPower",
+    "Hindman168.nativeLieAdjointGenerator_pow_mem_rational",
+    "Hindman168.nativeLieAdjoint_exponential_mem_rational",
+    "Hindman168.nativeLieAdjoint_mem_rational_of_logarithm",
+    "Hindman168.nativeLieRationalBracketClosed",
+    "Hindman168.nativeLieAdjointDifferential_mem_rational",
+    "Hindman168.nativeLieLogarithmLift_mem_rational_structure",
+    "Hindman168.nativeLieRationalExponentialSubgroup",
+    "Hindman168.nativeLieRationalBCH_mem",
+    "Hindman168.nativeLieRationalExponentialSubgroup_mem_logarithm_iff",
+    "Hindman168.nativeLieRationalDefectPolynomial",
+    "Hindman168.nativeLieRationalDefectPolynomial_eval",
+    "Hindman168.nativeLieRationalDefectPolynomial_coefficients_mem",
+    "Hindman168.nativeLieRationalDefectPowerPolynomial",
+    "Hindman168.nativeLieRationalDefectPowerPolynomial_eval",
+    "Hindman168.nativeLieRationalFieldPolynomial",
+    "Hindman168.nativeLieRationalFieldPolynomial_eval",
+    "Hindman168.nativeLieRationalDefectPowerPolynomial_coefficients_mem",
+    "Hindman168.nativeLieRationalFieldPolynomial_coefficients_mem",
+    "Hindman168.nativeLieRationalPicardPolynomial",
+    "Hindman168.nativeLieRationalPicardPolynomial_eval",
+    "Hindman168.nativeLieRationalPicardPolynomial_coefficients_mem",
+    "Hindman168.nativeLiePicard_rational_mem",
+    "Hindman168.nativeLieLogarithmLift_rational_mem",
+    "Hindman168.nativeLieRationalProductPolynomial",
+    "Hindman168.nativeLieRationalProductPolynomial_eval",
+    "Hindman168.nativeLieRationalProductPolynomial_endpoint",
+    "Hindman168.nativeLieRationalProductPolynomial_coefficients_mem"
+  ],
+  "module_report_counts": {
+    "FiniteVectorPolynomial": {
+      "theorems": 6,
+      "selected_declarations": 8
+    },
+    "FiniteVectorPolynomialBilinear": {
+      "theorems": 2,
+      "selected_declarations": 3
+    },
+    "FiniteVectorPolynomialIntegral": {
+      "theorems": 2,
+      "selected_declarations": 3
+    },
+    "FiniteVectorPolynomialRational": {
+      "theorems": 9,
+      "selected_declarations": 10
+    },
+    "FiniteVectorPolynomialSums": {
+      "theorems": 5,
+      "selected_declarations": 7
+    },
+    "NativeLieRationalAdjoint": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieRationalBCH": {
+      "theorems": 4,
+      "selected_declarations": 6
+    },
+    "NativeLieRationalDefectPolynomial": {
+      "theorems": 2,
+      "selected_declarations": 3
+    },
+    "NativeLieRationalFieldPolynomial": {
+      "theorems": 4,
+      "selected_declarations": 6
+    },
+    "NativeLieRationalPicardPolynomial": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeLieRationalProductCurve": {
+      "theorems": 3,
+      "selected_declarations": 4
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2695,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6722,
+    "selected_axiom_reports": 10601,
+    "new_declarations": 67,
+    "new_theorems": 47,
+    "new_definitions": 20,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeFinitePiData.lean",
+    "Hindman168/NativeFinitePiCoordinates.lean",
+    "Hindman168/NativeFinitePiPolynomial.lean",
+    "Hindman168/AlignmentJointExposedNativeSource.lean",
+    "Hindman168/AlignmentJointRemovedNativeSource.lean",
+    "Hindman168/NativeFinitePiCosetCoordinates.lean",
+    "Hindman168/AlignmentArrayNativeCosetEvaluation.lean",
+    "Hindman168/AlignmentJointNativeReadings.lean",
+    "Hindman168/BoundedComplexLipschitzObservables.lean",
+    "Hindman168/AlignmentJointMetricReadings.lean",
+    "Hindman168/AlignmentJointMetricProducts.lean",
+    "Hindman168/AlignmentJointNativeSampleReadings.lean"
+  ],
+  "proved_components": [
+    "A genuine finite heterogeneous native product is constructed with literal component groups and product lattice, original nilpotency cutoff, smooth product chart and compatible quotient metric in arbitrary model universes. Native exponential/log coordinates and actual product-model vector-polynomial/source identities are proved; empty products are genuine empty products without invented component existence.",
+    "The ACTUAL finite JOINT exposed and one-removed-factor native sources now retain all original groups, determining evaluations, bases, vertices and slot shifts. Common original degree, exposure freezing, all-real normalized residual log packets and exact simultaneous equality to ORIGINAL cube arrays are proved.",
+    "Actual product-lattice coset projections and integer-slot evaluations are proved continuous in BOTH natural quotient and specified native metric topologies via proved topology equality. Original complex readings retain exact values and bounds. No projection or reading is assumed numerically Lipschitz.",
+    "The ACTUAL fixed numerical bounded/Lipschitz complex input classes and their joint finite product reading families are proved compact. One finite Lipschitz approximant list and positive output bounds are chosen BEFORE every original observation in these classes. The native metric product test equals the ORIGINAL simultaneous component observations at every permitted cube sample."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Genuine finite heterogeneous JOINT native sources, common degree, all-real residual packets, exact sampled arrays/complex metric readings and unconditional uniform finite Lipschitz approximation of bounded test product families are proved. Earlier native rough proportions, all-anchor master-window caps and posterior Fubini domination remain verified. Remaining: exact spatial finite-coordinate reindexing; actual retained coarse residue and bounded normalized-box scale-range; approximation error/bad-event inclusion and actual conditional fiber application; face/cube/Alignment and countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient step for the actual finite required degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-joint-native-mathematical-review.txt",
+  "mathematical_review_sha256": "c6c007b9a224f3201cb49385e720d1155ee06dcbed857e3a7ae7a164c13af833",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

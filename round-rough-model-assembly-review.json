@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "RoughJointCoefficientPolynomial constructs actual joint multivariate polynomials from the univariate coefficient models, keeping progression and spatial variables separate. It proves exact specialization to the spatial coefficient polynomial and a weighted joint total degree bound.",
+    "RoughIntegerSpatialModels constructs an actual integer-coefficient spatial polynomial at every original progression index from the proved integer coefficient-model values, with equality of its rational coefficient map to the actual fixed spatial model polynomial.",
+    "RoughModelPolynomialCosets proves exact rational and real evaluation identities of the actual joint model with that integer polynomial and obtains original exponential coset equality for coordinatewise congruent spatial inputs.",
+    "RoughFiniteCoefficientAssembly transfers the earlier finite-function multiindices and coefficient models to actual Finsupp exponents. It derives the joint real model degree bound from the original q-minus-spatial-degree model bounds without coefficient size assumptions.",
+    "RoughJointHorizontalError proves coefficient-map transport of the actual joint polynomial and identifies its real error section with the earlier slow polynomial for every real spatial point. It inherits the actual whole-box value estimate.",
+    "RoughNativeHorizontalModelKernel assembles the actual rational model polynomial m, slow polynomial a=theta-m and original native log representation. It constructs a joint vector polynomial equal to the actual log of exp(-aV)*P*exp(-mV), proves its uniform degree bound, and proves membership in the same specified character kernel for every real parameter point.",
+    "The integer-coefficient spatial polynomial is constructed at each original natural index from actual integral model values; integrality of evaluations was not confused with integrality of coefficients of a generic rational polynomial.",
+    "The joint model is an actual polynomial in z and every x_j, with total degree bounded by coefficient degree plus spatial monomial degree. The real coefficient map cannot increase total degree. Model denominators may depend on progression length, but the degree estimate does not.",
+    "The finite-function and Finsupp indexing interfaces are bridged by the actual equivFunOnFinite and its finite-set embedding. No unnamed coordinate-identification premise is needed.",
+    "The original coset theorem is applied after actual integer-polynomial realization and exact real evaluation identities. No normality of the original lattice is assumed. Coordinatewise residue classes determine the same original exponential right coset.",
+    "The error section identity holds for arbitrary real spatial points, not only integer samples, and therefore supports the full-box estimate. Algebraic partial-derivative bounds from the previous slow polynomial still require an analytic freezing argument.",
+    "The native kernel assembly uses the same character, rational model, slow difference and original group map. Its log endpoint and kernel membership hold for all real simultaneous parameters. The degree bound C(s)^2*q follows from the proved joint model degree and the prior actual native product theorem.",
+    "Extraction of the scalar models from the displayed obstruction is retained, but construction of that quantitative Leibman obstruction, stretched-filtration polynomiality and full rough-step induction remain open. This batch does not replace them with hypotheses and claim the full target.",
+    "All retained source hashes and transitive axiom sets are unchanged. These are author-side checks, not an independent kernel replay.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. Actual scalar model assembly, joint weighted degree, integer spatial realization, original residue cosets and exact native kernel logarithm assembly are now proved. Rational conjugated lattice compactness, joint smoothness of its induced orbit map and degree-preserving spatial affine substitution were retained. Uniform quantitative Lipschitz induced-observable bounds, analytic slow-factor freezing, sampling weights and discrepancy transfer remain open. The quantitative Leibman obstruction, affine substituted-polynomial coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1614,
+    "pntplus_modules": 9,
+    "build_jobs": 5580,
+    "selected_axiom_reports": 7130,
+    "new_declarations": 24,
+    "new_theorems": 20,
+    "new_definitions": 4,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughJointCoefficientPolynomial.lean",
+    "Hindman168/RoughIntegerSpatialModels.lean",
+    "Hindman168/RoughModelPolynomialCosets.lean",
+    "Hindman168/RoughFiniteCoefficientAssembly.lean",
+    "Hindman168/RoughJointHorizontalError.lean",
+    "Hindman168/RoughNativeHorizontalModelKernel.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. Actual scalar model assembly, joint weighted degree, integer spatial realization, original residue cosets and exact native kernel logarithm assembly are now proved. Rational conjugated lattice compactness, joint smoothness of its induced orbit map and degree-preserving spatial affine substitution were retained. Uniform quantitative Lipschitz induced-observable bounds, analytic slow-factor freezing, sampling weights and discrepancy transfer remain open. The quantitative Leibman obstruction, affine substituted-polynomial coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions scalar model assembly, rough-kernel-polynomial and residue cosets"
+}

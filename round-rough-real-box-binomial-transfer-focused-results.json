@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughRealBoxCeil.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.45299999997951,
+    "log": "round-rough-real-box-binomial-transfer-RoughRealBoxCeil-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughRealBoxCeil.lean",
+    "source_sha256": "4af6f8af6acdcd5dc49aae46b3e7a83ec83aa01fb8891342e8dc9f9db2df4d47"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughCorrectedRealBoxCubeSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.812000000150874,
+    "log": "round-rough-real-box-binomial-transfer-RoughCorrectedRealBoxCubeSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughCorrectedRealBoxCubeSelection.lean",
+    "source_sha256": "bfa7c40a57e81f94e0a35ae7ad52f6d29353d0809af64a39fee8027dc900d2e8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeRealBoxBinomialTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.078999999910593,
+    "log": "round-rough-real-box-binomial-transfer-RoughNativeRealBoxBinomialTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeRealBoxBinomialTransfer.lean",
+    "source_sha256": "353bb2974b123d7542ec00086b34b4738294b35586df7b7d32f69b5e4621ab55"
+  }
+]

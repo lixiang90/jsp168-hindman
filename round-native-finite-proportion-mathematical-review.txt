@@ -1,0 +1,21 @@
+JSP-000168 / Erdos #172, 2026-10-13. Partial overall coverage.
+This is author-side checking, not independent replay or external peer review.
+
+The original rough-proportion bound is monotone in its required ratio threshold:
+raising R merely restricts eligible raw moduli, so the existing conclusion applies
+with the SAME raw source, dyadic residue set and existential bad-event law.
+No equality of arbitrary native filtration/model records is asserted.
+
+For each actual native datum in a fixed Fintype family, the unconditional original
+theorem provides Ri before all raw sources. The common R=1+sum Ri is positive,
+dominates every Ri and works after the finite intersection of eventual thresholds.
+The SAME eventual w works for every member; the family member and all raw source,
+modulus/residue/box/test inputs follow the common threshold.
+Empty families give a positive bound and vacuous universal property only;
+they do not manufacture a model, horizontal character or nonempty sample.
+
+All prior proof sources and registered transitive axiom sets remain unchanged.
+The same 42-module attributed finite Szemeredi dependency remains pinned;
+no new dependency or toolchain configuration is introduced.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original native complex non-strict rough exceptional-proportion convergence and ONE uniform fixed-finite-family budget are proved on actual nonempty dyadic residue samples, using the attributed verified finite Szemeredi closure and unconditional native dimension induction. Remaining: actual master/source instantiation and source-interface/cofinal-index/nonempty-sample boundary bridges, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

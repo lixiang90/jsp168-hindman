@@ -1,0 +1,122 @@
+JSP-000168 / Erdos #172: actual dense higher nonlinear coefficient separation
+Author mathematical review, 2026-10-13. Verdict: Partial coverage.
+NOT independent kernel replay or external peer review.
+
+Original target: all finite colorings of the positive integers have arbitrarily
+large positive distinct monochromatic finite-sums/finite-products witnesses.
+StrongConjecture is UNPROVED. This round continues the quantitative Leibman
+input on the pinned OpenAI route; it does not assert the full inverse.
+Original pinned six-section source:
+https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a
+Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026,
+06_rough_progressions. Auxiliary route:
+https://arxiv.org/html/0709.3562v4 , section 7, Lemma 7.6 higher coefficient stage;
+corrected multiparameter scope: https://arxiv.org/html/1311.6170v3 .
+
+1. The ACTUAL shift polynomial
+For real univariate P/Q and arbitrary real sigma, consider
+R_h(X)=P(X)+Q(X+h)-Q(X)+sigma(h)*X. Its actual coefficient of X^2 equals
+F(h), where F=HasseDeriv(2,Q)+C(P_2-Q_2). The equality is proved by the actual
+Taylor coefficient theorem. Sigma has zero second coefficient. For j>0,
+F_j=choose(j+2,2)*Q_(j+2). The bound degree(F)<=D follows from true Q degree;
+the proof does not assume any cap on raw Q coefficients or smoothness of sigma.
+
+2. Apply the existing COMPLETE small-value inverse
+Dense useful shifts U are literally a subset of range N. Their combined
+second-coefficient bound is N^2*norm(F(h) mod 1)<=A. Hence the SAME integer
+shifts are actual small values of F with epsilon=A/N^2. The already proved
+polynomial_small_values_inverse covers all coefficients, including constant,
+and epsilon=0, and has NO remaining degree-induction premise.
+
+Choose its B before ALL P/Q, sigma, N and U. The genuine threshold
+T=B+ceil(10*A/delta)+1 forces N>=B and epsilon<=delta/10, using N>=1 and
+N^2>=N. This is an explicit actual large-N condition; it is not dropped or
+silently treated as the full inverse on all original lengths. U cardinality
+transfers to the actual F small-value filter by inclusion. No replacement
+sample, shorter scale, or hypothetical dense set is substituted.
+
+The actual inverse gives ONE q<=B controlling all F coefficients at N^-j
+scale times epsilon. For original j>=3, multiplying by N^2 and the exact
+F_(j-2) identity yields N^j*norm(q*choose(j,2)*Q_j)<=B*A. The algebra preserves
+the exact original j exponent and handles nonnegative A, including zero.
+
+3. ONE common multiplier
+The factors d_j=q*choose(j,2) for j in Icc(3,D) are positive. Each is bounded
+by K=B*(1+sum_{j in Icc(3,D)} choose(j,2))+1, fixed before coefficients.
+The previously checked finite_mod_one_common_multiplier uses the ACTUAL
+product of these d_j and proves a fixed bound S=K^(card(Icc(3,D))+1).
+It applies separately to x=Q_j and epsilon=A/N^j, so the SAME common M controls
+ALL higher Q_j with original N^-j scale. An empty higher-index set yields an
+actual positive product and a vacuous higher conclusion, never an invented
+degree-two inverse proof. Natural multiplication on the circle is used with
+its proved norm inequality, not with unsupported division of a circle norm.
+
+4. BOTH actual coefficient tables
+The scalar binomial table is an INTEGER triangular combination of original
+monomial coefficients. Its row budget and true scale comparison for N>=1
+transfer the higher monomial bounds to binomial bounds. The helper's lower
+index is explicitly 3. Thus no unavailable constant/linear/quadratic bound
+is imported. One common M suffices for BOTH higher tables; only the fixed
+real error budget grows. This is the higher-coefficient portion of the
+separation argument, not completion of its linear/quadratic residual.
+
+5. EXACT Unit/univariate/native correspondence
+The Unit-variable polynomial is mapped by the actual mathlib unique-variable
+algebra equivalence. Its coefficient j is EXACTLY the Mv coefficient at the
+single Unit index j, all evaluations agree, and true total-degree bounds give
+ordinary natDegree bounds. Substituting X+h is preserved by evaluation and
+polynomial uniqueness. This is an actual bridge, not a renaming of definitions.
+
+Actual compact diagonal P, actual compact nonlinear Q, and actual commutator
+slope sigma(h) are constructed from SAME original p, weighted hp, compact
+normalization/zero proofs, selected relative chi and original compact shift
+representative. The prior COMPLETE native scalar equality maps exactly to
+R_h(X). The relative source table at Unit index 2 gives the actual second
+coefficient bound when ell>=2; its finite degree and actual N are unchanged.
+Original p coefficients remain unbounded. No alternate P/Q or new native
+compatibility premise is supplied.
+
+6. Actual native application and quantifier order
+The prior native common-relative-character theorem supplies fixed A/R/rho/C
+before p/hp/F/N. Take mu=min(rho,1), which is positive and <=1; useful U retains
+mu-density without assuming rho<=1. Apply the FULL generic separation theorem
+at ell, mu and R, fixing S/T/higher budget before p/hp/F/N. After choosing the
+actual common relative chi and actual useful U, all generic inputs are PROVED:
+true Q degree, exact second coefficient, exact range N and actual cardinality.
+Both higher Q tables are returned with an actual M<=S. Enlarging one fixed
+budget preserves BOTH original combined relative tables on SAME U as well.
+
+The native theorem's sole inverse premise is the FULL desired inverse on the
+ACTUAL relative-then-terminal lower-degree child. This is not circularly
+claimed as already proved for all degrees. Original mean and its true
+large-N/large-signal requirements are retained. Relative chi is genuinely
+nonzero/horizontal/norm-bounded and in the same fixed finite list. No original
+nonzero horizontal character is claimed from relative nonzeroness alone.
+
+7. Remaining exact tasks
+Finish the true linear coefficient remainder bound after removing the bounded
+higher Q coefficients; identify the quadratic paper-binomial alpha with its
+ordinary coefficient, with the actual integral correction and N scales;
+derive P(1)+alpha*h+sigma(h) mod-one on SAME useful shifts. This completes the
+remaining scalar part of the auxiliary lemma. Next are the genuine bracket
+alternative, original character construction/finite grid/operator/BOTH raw
+coefficient bounds, or actual smaller rational filtration/factorization in
+the reducible case. The secondary nonlinearity induction remains necessary.
+Small combined coefficients alone do not control small individual summands.
+
+The full original inverse, corrected multivariate inverse, separate interval
+Gowers correlation inverse, rough progressions, cube/Alignment/positivity and
+final original separated FS/FP extraction remain UNPROVED. No unavoidable
+obstruction has been found. Publication/application milestone not reached.
+
+Author checks: actual focused autoImplicit=false checks of every new module,
+full root build and all registered axiom reports; unchanged old proof hashes
+and axiom sets; Lean 4.32.2/pinned mathlib/PNT+ and six OpenAI section hashes.
+Final raw logs are authoritative. Only standard classical Lean foundations
+are allowed. No sorry/admit/custom axiom/native computation/kernel bypass.
+This is not independent kernel replay, external review or prize approval.
+
+Explicit judgments: intermediate work addresses original scope CONDITIONALLY;
+exact saved source passes author checks only as confirmed by final logs; does
+NOT fully solve original problem; does NOT meet full Lean completeness for
+an award submission. Goal ACTIVE; no public repository/PR/prize application.

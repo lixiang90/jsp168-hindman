@@ -1,0 +1,18 @@
+{
+  "baseline_hash_count": 1062,
+  "modules": [
+    "Hindman168/MasterOriginalShortCubeGowers.lean"
+  ],
+  "names": [
+    "Hindman168.MasterParameterConditions.original_shortCube_gowers_eventually"
+  ],
+  "theorem_count": 1,
+  "declarations": {
+    "Hindman168/MasterOriginalShortCubeGowers.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.original_shortCube_gowers_eventually"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "modules": [
+    "Hindman168/AlignmentNativeArrayReadings.lean",
+    "Hindman168/AlignmentNativeFrozenReadings.lean",
+    "Hindman168/AlignmentNativeJointReadings.lean",
+    "Hindman168/AlignmentNativeSmoothReadings.lean",
+    "Hindman168/BinaryDyadicCutoffDiscard.lean",
+    "Hindman168/MasterBinaryDyadicDiscard.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentNativeArrayReading",
+    "Hindman168.alignmentNativeArrayReading_modelOrbit",
+    "Hindman168.alignmentNativeArrayReading_translation",
+    "Hindman168.alignmentNativeArrayReading_bound",
+    "Hindman168.alignmentTargetArrayCoefficients",
+    "Hindman168.alignmentTargetArrayCoefficients_sum",
+    "Hindman168.alignment_exposure_native_array_reading",
+    "Hindman168.alignmentNativeJointReading",
+    "Hindman168.alignmentNativeJointReading_modelOrbit",
+    "Hindman168.alignmentNativeJointReading_bound",
+    "Hindman168.alignmentNativeJointReading_difference_bound",
+    "Hindman168.alignmentNativeJointReading_translation",
+    "Hindman168.alignmentNativeJointReading_contMDiff",
+    "Hindman168.binaryDyadicCutoffGood",
+    "Hindman168.binaryDyadic_cutoff_failure_band",
+    "Hindman168.rawMass_binaryDyadic_cutoff_bound",
+    "Hindman168.rawMass_binaryDyadic_cutoff_tendsto",
+    "Hindman168.master_binaryDyadic_cutoff_tendsto",
+    "Hindman168.master_global_binaryDyadic_coordinate_tendsto",
+    "Hindman168.master_global_binaryDyadic_discard_tendsto"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentNativeArrayReadings.lean": [
+      [
+        "def",
+        "alignmentNativeArrayReading"
+      ],
+      [
+        "theorem",
+        "alignmentNativeArrayReading_modelOrbit"
+      ],
+      [
+        "theorem",
+        "alignmentNativeArrayReading_translation"
+      ],
+      [
+        "theorem",
+        "alignmentNativeArrayReading_bound"
+      ]
+    ],
+    "Hindman168/AlignmentNativeFrozenReadings.lean": [
+      [
+        "def",
+        "alignmentTargetArrayCoefficients"
+      ],
+      [
+        "theorem",
+        "alignmentTargetArrayCoefficients_sum"
+      ],
+      [
+        "theorem",
+        "alignment_exposure_native_array_reading"
+      ]
+    ],
+    "Hindman168/AlignmentNativeJointReadings.lean": [
+      [
+        "def",
+        "alignmentNativeJointReading"
+      ],
+      [
+        "theorem",
+        "alignmentNativeJointReading_modelOrbit"
+      ],
+      [
+        "theorem",
+        "alignmentNativeJointReading_bound"
+      ],
+      [
+        "theorem",
+        "alignmentNativeJointReading_difference_bound"
+      ],
+      [
+        "theorem",
+        "alignmentNativeJointReading_translation"
+      ]
+    ],
+    "Hindman168/AlignmentNativeSmoothReadings.lean": [
+      [
+        "theorem",
+        "alignmentNativeJointReading_contMDiff"
+      ]
+    ],
+    "Hindman168/BinaryDyadicCutoffDiscard.lean": [
+      [
+        "def",
+        "binaryDyadicCutoffGood"
+      ],
+      [
+        "theorem",
+        "binaryDyadic_cutoff_failure_band"
+      ],
+      [
+        "theorem",
+        "rawMass_binaryDyadic_cutoff_bound"
+      ],
+      [
+        "theorem",
+        "rawMass_binaryDyadic_cutoff_tendsto"
+      ]
+    ],
+    "Hindman168/MasterBinaryDyadicDiscard.lean": [
+      [
+        "theorem",
+        "master_binaryDyadic_cutoff_tendsto"
+      ],
+      [
+        "theorem",
+        "master_global_binaryDyadic_coordinate_tendsto"
+      ],
+      [
+        "theorem",
+        "master_global_binaryDyadic_discard_tendsto"
+      ]
+    ]
+  }
+}

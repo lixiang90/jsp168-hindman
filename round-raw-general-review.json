@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 482,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskIntermediateMajorantMeans.lean",
+    "Hindman168/MaskIntermediateResidueCertificates.lean",
+    "Hindman168/MaskIntermediateRestrictedMean.lean",
+    "Hindman168/MaskOriginalFullMajorant.lean",
+    "Hindman168/MaskRawGeneralCorrelation.lean",
+    "Hindman168/MaskRawNormalizationErrors.lean",
+    "Hindman168/MaskRemovalStagePrefactors.lean",
+    "Hindman168/MaskRemovalStageWeightedSquares.lean"
+  ],
+  "new_selected_report_count": 34,
+  "module_report_counts": {
+    "MaskIntermediateMajorantMeans": 5,
+    "MaskIntermediateResidueCertificates": 3,
+    "MaskIntermediateRestrictedMean": 1,
+    "MaskOriginalFullMajorant": 5,
+    "MaskRawGeneralCorrelation": 5,
+    "MaskRawNormalizationErrors": 5,
+    "MaskRemovalStagePrefactors": 5,
+    "MaskRemovalStageWeightedSquares": 5
+  },
+  "application_review": [
+    "All 482 baseline source/config hashes were revalidated before registration of eight new modules. Only the root imports and exact-name registry changed among retained files. All previous proof modules, StrongStatement, nine attributed PNT+ sources and Lean/mathlib/PNT+ pins are unchanged. No official or remote update was checked; both local sections match the fixed adc7f1241b42e322a6451854ab7e4b4c146bf78a preprint commit after newline normalization.",
+    "The actual full original majorant is reindexed to the proved base-row restricted mean on the whole prime domain. Its probability main term is exactly 1 by the actual raw prime total law, so the full mean tends to 2^q without an input mean-one hypothesis.",
+    "Raw and retained good-domain source averages are dominated on the actual supports. Eventual good-event probability greater than 1/2, derived from its actual limit 1, yields the stated uniform constant conditioned cap. No pointwise V-growing sup cap is multiplied by an unquantified probability o(1).",
+    "The explicit normalization error contains abs(P_good-1)*2*(2^q+1)+abs(actual bad-majorant mass). Both terms have proved zero limits and the exact raw decomposition supplies the source-difference estimate for all per-stage supported-majorized inputs.",
+    "The standard ordered-ring power-difference estimate and the two derived constant correlation caps give error*power*(constant cap)^(power-1). This covers all natural powers, including zero, and is input-independent. Its vanishing follows from the actual normalization error limit.",
+    "The raw arbitrary-target additive output preserves the exact old m-only maskAdditiveOutputBound, exponent and targetUnrestrictedAverage. The retained target cube still uses its already proved original conditioned prime and prime-dependent quotient laws; no unconditioned cube decay or arbitrary-target cube-zero assertion is introduced.",
+    "Global raw-support majorization implies the old good-domain majorization because the actual good predicate includes raw support. The selected admissible default is zero with its bound derived from actual nonnegative row majorants. Uniformity follows from the limit for all admissible input sequences, and is for fixed source data and fixed J.",
+    "The intermediate-family normalization is derived from actual master column coefficients and ordered-chain ratios. It holds for every polynomial row family with its derived maximum-support anchors, while monomial structure supplies unit evaluated anchors on the whole original pool support.",
+    "Pair independence for intermediate rows uses the new integer cross-multiplication identities, unit actual smooth column coefficients and a nonzero fixed raw row minor. The rough-prime squarefree bad catalogue is the intermediate family catalogue itself. Its fixed nonzero polynomial property suffices in the master weighted CRT theorem; inclusion in the final good-tuple catalogue is not an unproved premise.",
+    "The intermediate mean application retains the same actual harmonic pivots and original unconditioned old-prime law, with arbitrary varying prime-only restrictions. Actual tail budgets and gap-to-pivot inequalities supply the analytic estimates. Primitive/independence hypotheses are proved from actual row data; no mean or error limit is passed in by the application caller.",
+    "Every fixed prefix starts at the actual nonempty-subset indicators and uses the existing chosen mask plans. Its monomial certificate is derived by the old symbolic iteration theorem and its row count is bounded by the full maskRowCountBound. The formalization indexes m+1 columns, so the phase length is 2^(m+1)-1; this is the existing code dimension convention, not a claim that the paper uses that exact symbol convention.",
+    "The actual invariant subset is filtered using the old symbolic maskRowInvariant test. Its weights are evaluated on the actual normalized integer rows with their actual normalization-anchor tail labels. Expansion gives 2^s_inv for the prefactor, and the count bound gives 2^(maskRowCountBound m)+1 independently of scales and input functions. Finite eventual-all combines all phase and mask-support caps.",
+    "The actual outer law is the conditional joint of the old unconditioned pool-prime tuple and original harmonic base, with its nonnegative coefficients proved from actual laws. The density is the actual invariant-row majorant product with positivity proved from valid original cutoffs. The fresh prime mass is the same actual pool law and has no dependence on the old tuple or base.",
+    "The weighted square applies to every outer bounded mask factor and every fresh-prime integrand. Both branches share the old tuple. The two new primes are sampled from tensor(lambda,lambda). The doubled average is nonnegative by its exact conditional-square identity, allowing the derived prefactor cap to replace the first factor.",
+    "These are concrete sampling and prefactor applications of weighted Cauchy-Schwarz, not the complete mask-removal recurrence. The substituted source integrand has not yet been identified with the original correlation up to the actual prime-insertion error. Fresh diagonal deletion, off-diagonal multiplier absorption, bounded descendant function updates and distinguished-target preservation still need analytic composition.",
+    "The previous goal turn was PROGRESS and this turn is PROGRESS. StrongConjecture is still only the unchanged full target statement, not a proved theorem. Full correlation principle, Prediction/Alignment and global monochromatic witness extraction remain unfinished; no unavoidable blocker is established."
+  ],
+  "source_preprint_section": "04_correlation.tex:43-56, 375-388 and 390-705 (raw general-target source transfer); 193-228 (actual invariant-row weighted-square prefactor and shared-old/independent-fresh prime law). The insertion and two-prime absorption parts remain incomplete.",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4337,
+    "project_modules": 472,
+    "pntplus_modules": 9,
+    "source_scan_modules": 481,
+    "axiom_reports": 2304,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 490,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original arbitrary-target additive source bound is now composed under the raw unconditioned prime/harmonic law with the same m-only coefficient and actual target cube, including an input-independent normalization-power error and qualitative function-uniform inequality. The centered raw-source cancellation and prior weighted cube transfers remain proved and unchanged. The actual intermediate multiplicative-mask row prefixes now have original-law restricted means, invariant-row prefactor limits, a common m-only prefactor cap and weighted squaring under the shared-old/independent-fresh prime laws. The full multiplicative-mask analytic recurrence is still incomplete: derive the actual one-coordinate and balanced prime-insertion errors, delete the fresh-prime diagonal with its weighted bound, absorb the off-diagonal product multiplier, identify the bounded invariant/noninvariant descendant functions and surviving multiplicative masks, preserve the distinguished target and compose all steps with their vanishing errors. Then compose the full original correlation principle. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

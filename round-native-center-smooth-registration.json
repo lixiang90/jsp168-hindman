@@ -1,0 +1,74 @@
+{
+  "baseline_hashes_verified_before_registration": 842,
+  "new_modules": [
+    "Hindman168/ClosedFiniteRealQuotientSection.lean",
+    "Hindman168/HomeomorphSingletonDiffeomorph.lean",
+    "Hindman168/NativeCenterQuotientCharted.lean",
+    "Hindman168/NativeCenterQuotientDifferential.lean",
+    "Hindman168/NativeCenterQuotientLieGroup.lean",
+    "Hindman168/NativeCenterQuotientNormedModel.lean",
+    "Hindman168/NativeCenterQuotientSmoothLift.lean",
+    "Hindman168/NativeCenterQuotientSmoothProjection.lean"
+  ],
+  "names": [
+    "Hindman168.finiteRealQuotientProjection",
+    "Hindman168.finiteRealQuotientProjection_apply",
+    "Hindman168.finiteRealQuotientSection_exists",
+    "Hindman168.finiteRealQuotientSection",
+    "Hindman168.finiteRealQuotientSection_right",
+    "Hindman168.homeomorphSingletonChart",
+    "Hindman168.homeomorphSingletonChart_isManifold",
+    "Hindman168.homeomorphSingletonDiffeomorph",
+    "Hindman168.nativeCenterQuotientChartedSpace",
+    "Hindman168.nativeCenterQuotient_isManifold",
+    "Hindman168.nativeCenterQuotientExponentialDiffeomorph",
+    "Hindman168.nativeCenterQuotientLift_one",
+    "Hindman168.nativeCenterQuotient_mfderiv_right",
+    "Hindman168.nativeCenterQuotient_mfderiv_surjective",
+    "Hindman168.nativeCenterQuotient_mul_contMDiff",
+    "Hindman168.nativeCenterQuotient_inv_contMDiff",
+    "Hindman168.nativeCenterQuotient_lieGroup",
+    "Hindman168.nativeLieCenterModel_closed",
+    "Hindman168.nativeCenterQuotientProjection",
+    "Hindman168.nativeCenterQuotientSection",
+    "Hindman168.nativeCenterQuotientSection_right",
+    "Hindman168.nativeCenterQuotientLift",
+    "Hindman168.nativeCenterQuotientLift_right",
+    "Hindman168.nativeCenterQuotientLift_contMDiff",
+    "Hindman168.nativeCenterQuotient_projection_contMDiff"
+  ],
+  "module_report_counts": {
+    "ClosedFiniteRealQuotientSection": {
+      "theorems": 3,
+      "selected_declarations": 5
+    },
+    "HomeomorphSingletonDiffeomorph": {
+      "theorems": 1,
+      "selected_declarations": 3
+    },
+    "NativeCenterQuotientCharted": {
+      "theorems": 1,
+      "selected_declarations": 3
+    },
+    "NativeCenterQuotientDifferential": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeCenterQuotientLieGroup": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeCenterQuotientNormedModel": {
+      "theorems": 1,
+      "selected_declarations": 4
+    },
+    "NativeCenterQuotientSmoothLift": {
+      "theorems": 2,
+      "selected_declarations": 3
+    },
+    "NativeCenterQuotientSmoothProjection": {
+      "theorems": 1,
+      "selected_declarations": 1
+    }
+  }
+}

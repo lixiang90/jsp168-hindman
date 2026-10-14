@@ -1,0 +1,23 @@
+{
+  "baseline_hash_count": 1065,
+  "modules": [
+    "Hindman168/MasterCommonCellProbability.lean"
+  ],
+  "names": [
+    "Hindman168.MasterParameterConditions.common_cell_probability_eventually",
+    "Hindman168.constructedMasterFamily_actual_cell_subgroup_gowers_eventually"
+  ],
+  "theorem_count": 2,
+  "declarations": {
+    "Hindman168/MasterCommonCellProbability.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.common_cell_probability_eventually"
+      ],
+      [
+        "theorem",
+        "constructedMasterFamily_actual_cell_subgroup_gowers_eventually"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CompactGaugeUniformMesh.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.109000000171363,
+    "log": "round-native-point-mixture-CompactGaugeUniformMesh-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CompactGaugeUniformMesh.lean",
+    "source_sha256": "8ccbdda556d6b5de93bd51b1ebc80bfad49fe2d28d44897b93e2d4782b8e7b9f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CompactGaugeFiniteOscillation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.343999999808148,
+    "log": "round-native-point-mixture-CompactGaugeFiniteOscillation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CompactGaugeFiniteOscillation.lean",
+    "source_sha256": "185a2d5bbe36645ee8ae1314e899c65d69572ae5a3d56ca30f1768ccd3724fa6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RealMeshResiduePartition.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.719000000040978,
+    "log": "round-native-point-mixture-RealMeshResiduePartition-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RealMeshResiduePartition.lean",
+    "source_sha256": "54305bf9dadf6f99704f8ae3accda24721d6a01a2ba6d3d05da16f0164284145"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ComplexTaggedMeshIntegral.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.687000000150874,
+    "log": "round-native-point-mixture-ComplexTaggedMeshIntegral-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ComplexTaggedMeshIntegral.lean",
+    "source_sha256": "f1f57e75da154657269bd9953732e901fc089dd92cb919e16770b7894829ca8e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteComplexCellMassError.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.75,
+    "log": "round-native-point-mixture-FiniteComplexCellMassError-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteComplexCellMassError.lean",
+    "source_sha256": "584758dfc155e484e4b172a631dc7814a6dc574fcea2c56ef0481217ed08e5bc"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RealMeshComplexAverage.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.016000000061467,
+    "log": "round-native-point-mixture-RealMeshComplexAverage-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RealMeshComplexAverage.lean",
+    "source_sha256": "859eb979a34f870fbad604d3ec10b7de5654d2da1f49a58d67360527500e4570"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTaggedPointMesh.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.843000000109896,
+    "log": "round-native-point-mixture-NativeOriginalTaggedPointMesh-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTaggedPointMesh.lean",
+    "source_sha256": "01a3e5d7300992bfdf7a75e413e1e201274c2a3bff27b5f394c4fd0383a02a0c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalScaledPointMixture.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.656999999890104,
+    "log": "round-native-point-mixture-NativeOriginalScaledPointMixture-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalScaledPointMixture.lean",
+    "source_sha256": "c5362fb4232d1cb84c07de4e6bc53db12ed65fc4554962fc83101f736348975f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ComplexFloorWindowTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.125,
+    "log": "round-native-point-mixture-ComplexFloorWindowTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ComplexFloorWindowTransfer.lean",
+    "source_sha256": "457d5a9b9337aef4a146d1f1d784e99bebc5afb579bce265e844d89698adb2d3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalPointMixture.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.343000000109896,
+    "log": "round-native-point-mixture-NativeOriginalPointMixture-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalPointMixture.lean",
+    "source_sha256": "c501935355e8e82955211a0fe46d2132ef470436b074b3b34d3d1fa60723e819"
+  }
+]

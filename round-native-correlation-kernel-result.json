@@ -1,0 +1,12 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "terminal": true,
+  "elapsed_seconds": 17.875,
+  "log_sha256": "0701c81f1e198a921ef90e7b1d16760b79c44713772e7b03eda33bcc828577ab"
+}

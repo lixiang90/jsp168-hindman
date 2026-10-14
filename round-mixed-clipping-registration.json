@@ -1,0 +1,48 @@
+{
+  "baseline_hash_count": 301,
+  "modules": [
+    "FiniteWeightedMomentProducts",
+    "PredictionProductClipping",
+    "MasterDualWeightedLaw",
+    "MasterMixedDualClipping",
+    "FiniteCenteredLimitTransfer",
+    "MasterClippedDualProductLimit",
+    "MasterFiniteClippedTemplateLimit",
+    "UniformAdmissibleInputLimit",
+    "MasterUniformClippedDualProducts"
+  ],
+  "module_report_counts": {
+    "FiniteWeightedMomentProducts": 5,
+    "PredictionProductClipping": 2,
+    "MasterDualWeightedLaw": 4,
+    "MasterMixedDualClipping": 1,
+    "FiniteCenteredLimitTransfer": 3,
+    "MasterClippedDualProductLimit": 1,
+    "MasterFiniteClippedTemplateLimit": 2,
+    "UniformAdmissibleInputLimit": 1,
+    "MasterUniformClippedDualProducts": 1
+  },
+  "new_selected_report_count": 20,
+  "new_names": [
+    "Hindman168.FiniteMass.weighted_product_cauchy_schwarz",
+    "Hindman168.FiniteMass.weighted_moment_one",
+    "Hindman168.FiniteMass.weighted_moment_mul",
+    "Hindman168.FiniteMass.weighted_moment_finset_prod",
+    "Hindman168.FiniteMass.weighted_l2_product_tendsto",
+    "Hindman168.predictionClip_abs_le",
+    "Hindman168.prediction_product_clipping_error_tendsto",
+    "Hindman168.master_replica_good_dual_single",
+    "Hindman168.MasterParameterConditions.dual_weighted_root_mass_tendsto",
+    "Hindman168.MasterParameterConditions.dual_weighted_root_mass_eventually_le",
+    "Hindman168.MasterParameterConditions.single_dual_weighted_moments_bounded",
+    "Hindman168.MasterParameterConditions.normalized_mixed_dual_clipping_tendsto",
+    "Hindman168.centered_mask_abs_le_one_add",
+    "Hindman168.weighted_centered_difference_bound",
+    "Hindman168.weighted_centered_limit_transfer",
+    "Hindman168.MasterParameterConditions.normalized_clipped_dual_product_tendsto",
+    "Hindman168.predictionDualThreshold_mono",
+    "Hindman168.MasterParameterConditions.normalized_clipped_dual_finite_template_tendsto",
+    "Hindman168.uniform_zero_of_admissible_sequences",
+    "Hindman168.MasterParameterConditions.uniform_clipped_dual_products"
+  ]
+}

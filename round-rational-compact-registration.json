@@ -1,0 +1,36 @@
+{
+  "new_modules": [
+    "Hindman168/UnitriangularRationalSupportInduction.lean",
+    "Hindman168/UnitriangularRationalCompactRepresentatives.lean",
+    "Hindman168/UnitriangularRationalLieLatticeCompact.lean",
+    "Hindman168/UnitriangularRationalLieGeneration.lean"
+  ],
+  "new_theorems": [
+    "Hindman168.unitriangularLieSubalgebra_first_support",
+    "Hindman168.unitriangularLieSubalgebra_false_support_slice",
+    "Hindman168.unitriangularLieSubalgebra_pivot_slice_finrank_lt",
+    "Hindman168.unitriangularLieCompactRepresentatives_zero",
+    "Hindman168.unitriangularLieCompactRepresentatives_pivot_lift",
+    "Hindman168.rationalUnitriangularLieSubalgebra_compact_representatives",
+    "Hindman168.rationalUnitriangularLieLattice_quotient_compact",
+    "Hindman168.rationalUnitriangularLieLattice_quotient_closedEmbedding",
+    "Hindman168.rationalUnitriangularLieLattice_orbit_isCompact",
+    "Hindman168.rationalUnitriangularLieLattice_quotient_metrizable",
+    "Hindman168.unitriangularLatticeRationalStructure_lie_mem",
+    "Hindman168.rationalMatrixLie_real_span_lie_mem",
+    "Hindman168.realMatrixLieSpan_eq_rational_extension",
+    "Hindman168.rationalUnitriangularLieSubalgebra_lieSpan",
+    "Hindman168.unitriangularRationalLieSpan_le_strict",
+    "Hindman168.unitriangularRationalLieSpan_lattice_quotient_compact",
+    "Hindman168.unitriangularRationalLieSpan_lattice_orbit_isCompact"
+  ],
+  "module_report_counts": {
+    "UnitriangularRationalSupportInduction": 3,
+    "UnitriangularRationalCompactRepresentatives": 3,
+    "UnitriangularRationalLieLatticeCompact": 4,
+    "UnitriangularRationalLieGeneration": 7
+  },
+  "new_selected_report_count": 17,
+  "total_selected_report_count": 3339,
+  "root_imports_exact": true
+}

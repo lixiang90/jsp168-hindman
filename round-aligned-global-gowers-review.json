@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "The cell index is the actual finite product of Ico l u and admissible residues in Fin M. The index is neither arbitrary nor assumed to partition the interval.",
+    "Each weight is the original integerMass cell sum divided by the actual retained interval mass. Nonnegativity and sum one are derived from previously proved original-law results and the explicit positive retained mass hypothesis.",
+    "Finite subtype summation is converted exactly to the double interval/residue sum. Exact disintegration then rewrites the weighted conditional test as the normalized retained interval test.",
+    "The weighted harmonic short-cube theorem is applied with cell endpoints and admissibility derived from index membership. The resulting Gowers quantity uses the actual cell law and actual affine cyclic observables.",
+    "One new global theorem is individually kernel audited. The full-window transfer and master specialization remain separate work; Bessel and inverse inputs are not assumed."
+  ],
+  "new_modules": [
+    "Hindman168/AlignedGlobalShortCubeBound.lean"
+  ],
+  "verified": {
+    "project_modules": 1041,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1050,
+    "source_config_hashes": 1059,
+    "build_jobs": 4995,
+    "axiom_reports": 4939,
+    "new_theorems": 1,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 1,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The global aligned retained-interval harmonic short-cube estimate now uses the explicitly constructed actual cell law. Transfer back to the full original window and specialization of all errors and quotient geometry to the master scales remains, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

@@ -1,0 +1,24 @@
+✖ [3951/3952] Building Hindman168.DivisorMaskExpansion (7.1s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\DivisorMaskExpansion.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\DivisorMaskExpansion.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\DivisorMaskExpansion.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\DivisorMaskExpansion.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\DivisorMaskExpansion.setup.json --json
+error: Hindman168/DivisorMaskExpansion.lean:83:2: Type mismatch
+  expectation_indicator μ fun x => ∀ (i : ι), ↑(k i) ∣ z x i
+has type
+  (expectation μ fun a =>
+      @ite ℝ (∀ (i : ι), ↑(k i) ∣ z a i) (Classical.propDecidable (∀ (i : ι), ↑(k i) ∣ z a i)) 1 0) =
+    event μ fun x => ∀ (i : ι), ↑(k i) ∣ z x i
+but is expected to have type
+  (expectation μ fun a => @ite ℝ (∀ (i : ι), ↑(k i) ∣ z a i) Fintype.decidableForallFintype 1 0) =
+    event μ fun x => ∀ (i : ι), ↑(k i) ∣ z x i
+error: Hindman168/DivisorMaskExpansion.lean:104:2: Type mismatch
+  expectation_indicator μ fun x => E x ∧ ∀ (i : ι), ↑(k i) ∣ z x i
+has type
+  (expectation μ fun a =>
+      @ite ℝ (E a ∧ ∀ (i : ι), ↑(k i) ∣ z a i) (Classical.propDecidable (E a ∧ ∀ (i : ι), ↑(k i) ∣ z a i)) 1 0) =
+    event μ fun x => E x ∧ ∀ (i : ι), ↑(k i) ∣ z x i
+but is expected to have type
+  (expectation μ fun a => @ite ℝ (E a ∧ ∀ (i : ι), ↑(k i) ∣ z a i) instDecidableAnd 1 0) =
+    event μ fun x => E x ∧ ∀ (i : ι), ↑(k i) ∣ z x i
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.DivisorMaskExpansion
+error: build failed

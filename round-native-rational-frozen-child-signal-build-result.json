@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.0,
+  "log": "round-native-rational-frozen-child-signal-build.txt",
+  "log_sha256": "71ef5f3757a52440cd9167e8b045fd427b8cfbf89ef2ebb56b1677911e089043"
+}

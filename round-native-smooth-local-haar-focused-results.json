@@ -1,0 +1,98 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalLayerCompactWindowHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 34.67200000002049,
+    "log": "round-native-smooth-local-haar-NativeRationalLayerCompactWindowHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalLayerCompactWindowHaar.lean",
+    "source_sha256": "ed31b9a4ab6b9cf47d393320dd1d8c887527aeb6bf4f454c98d8f2fec134de86"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalLayerOrbitObservables.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 33.875,
+    "log": "round-native-smooth-local-haar-NativeRationalLayerOrbitObservables-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalLayerOrbitObservables.lean",
+    "source_sha256": "b0cdba6d30916a253fbc77abaf640aee3add1cb5342fd994fdef8b476b474572"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalLayerFrozenHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 34.609999999869615,
+    "log": "round-native-smooth-local-haar-NativeRationalLayerFrozenHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalLayerFrozenHaar.lean",
+    "source_sha256": "9eb0dfa11775daef21cdc35a4fca5ada4e760c964e50aa122c7095f48e9a5d88"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CompactSequentialParameterFreezing.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.29700000002049,
+    "log": "round-native-smooth-local-haar-CompactSequentialParameterFreezing-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CompactSequentialParameterFreezing.lean",
+    "source_sha256": "e6ccc8b9fcd56c465f34248e5f8ec3a306e431a101bd0f21673bb2b557883d9a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeSmoothActionFreezing.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 31.093000000109896,
+    "log": "round-native-smooth-local-haar-NativeSmoothActionFreezing-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeSmoothActionFreezing.lean",
+    "source_sha256": "8703d8fb659e8b31c051b1e87612ae00e14222d49d0774b323160f41cf34b3d7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalLayerSmoothLocalHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 36.57799999997951,
+    "log": "round-native-smooth-local-haar-NativeRationalLayerSmoothLocalHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalLayerSmoothLocalHaar.lean",
+    "source_sha256": "2f776b71bd3141ca84c1ea6341de1c4a2579fd60638b75918b8a7dbd64ad02fb"
+  }
+]

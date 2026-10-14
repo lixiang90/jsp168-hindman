@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.843999999808148,
+  "log": "round-alignment-original-product-law-build.txt",
+  "log_sha256": "87d894f8b528836efc5a41f63c8610141e5e47882f644c9537bc356b741ce87a"
+}

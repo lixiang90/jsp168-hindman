@@ -1,0 +1,29 @@
+{
+  "baseline_hashes_verified_before_registration": 912,
+  "new_modules": [
+    "Hindman168/NativeRationalLieSubgroupSpan.lean",
+    "Hindman168/RationalSubspaceDimensions.lean"
+  ],
+  "names": [
+    "Hindman168.nativeSubgroupRationalLogSpan_inf_lieSubalgebra",
+    "Hindman168.nativeSubgroupRationalHull_inf_lieSubalgebra",
+    "Hindman168.nativeRationalLieSubalgebra_intersection_logarithms_real_span",
+    "Hindman168.nativeRationalLieSubalgebra_intersection_realLieSpan_eq",
+    "Hindman168.nativeRationalLieSubalgebra_intersection_expRealLieSpan_eq",
+    "Hindman168.nativeLattice_lieSubalgebra_intersection_rationalLogSpan_finiteDimensional",
+    "Hindman168.nativeLattice_rationalLieSubalgebra_intersection_rationalLogSpan_finrank",
+    "Hindman168.nativeRationalLieSubalgebra_exists_actual_lattice_pivot",
+    "Hindman168.rationalSubspace_linearIndependent_real",
+    "Hindman168.rationalSubspace_subspace_realSpan_finrank"
+  ],
+  "module_report_counts": {
+    "NativeRationalLieSubgroupSpan": {
+      "theorems": 8,
+      "selected_declarations": 8
+    },
+    "RationalSubspaceDimensions": {
+      "theorems": 2,
+      "selected_declarations": 2
+    }
+  }
+}

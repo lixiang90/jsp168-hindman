@@ -1,0 +1,162 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointNativeSlotSeparation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.687999999849126,
+    "log": "round-native-cylinder-diagonal-AlignmentJointNativeSlotSeparation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointNativeSlotSeparation.lean",
+    "source_sha256": "054ef74ac345d6016895c77dc05d2ca9e5f9035061ca5e068e4f7e4eb4b8030c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointNativeCylinderAlgebra.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.359000000171363,
+    "log": "round-native-cylinder-diagonal-AlignmentJointNativeCylinderAlgebra-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointNativeCylinderAlgebra.lean",
+    "source_sha256": "31b800e1d9557349666540f479e8e1926e85edce6ce6a45f78c5be6901aad3c8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ContinuousCylinderListRepresentation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.640999999828637,
+    "log": "round-native-cylinder-diagonal-ContinuousCylinderListRepresentation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ContinuousCylinderListRepresentation.lean",
+    "source_sha256": "1171640b7ec7ce23de7877ce4f1f7f28a868f93588a879afc7d94322e685b9a9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointNativeCylinderLists.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.234000000171363,
+    "log": "round-native-cylinder-diagonal-AlignmentJointNativeCylinderLists-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointNativeCylinderLists.lean",
+    "source_sha256": "f4ba79eb85f945bd2b930338508615a0fefcd40eca9b500cb68175df63cedddc"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointNativeCompleteCylinderPool.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.484999999869615,
+    "log": "round-native-cylinder-diagonal-AlignmentJointNativeCompleteCylinderPool-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointNativeCompleteCylinderPool.lean",
+    "source_sha256": "1a275ea48928644dfb4115999ffc25f51511cc93f7776481ff5ea0e70253911c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ContinuousCylinderMeanTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.015999999828637,
+    "log": "round-native-cylinder-diagonal-ContinuousCylinderMeanTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ContinuousCylinderMeanTransfer.lean",
+    "source_sha256": "eda5570d5577918e88677aee50f04ffd898791a666ebe302cb18e530eda9869f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointNativeCylinderDetection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.20299999997951,
+    "log": "round-native-cylinder-diagonal-AlignmentJointNativeCylinderDetection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointNativeCylinderDetection.lean",
+    "source_sha256": "bdb6ac9f5d387f4c9084eb224b9018c6a733c51acfc8cf8cad55a9b0f07cd015"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CountablePositiveEventDiagonal.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.938000000081956,
+    "log": "round-native-cylinder-diagonal-CountablePositiveEventDiagonal-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CountablePositiveEventDiagonal.lean",
+    "source_sha256": "71590afdadbd2ca914c5f37bd85f7a2e7aa1c23db90ac6fd0213aabf0eb86949"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCompleteCubeCountableSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.57799999997951,
+    "log": "round-native-cylinder-diagonal-AlignmentCompleteCubeCountableSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCompleteCubeCountableSelection.lean",
+    "source_sha256": "3e6d8ed0fe1cc1a4a66c6cd1250a7fed7311b4b24ec358b0f9fa65772e588d6d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointNativeCylinderPresentation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.67200000002049,
+    "log": "round-native-cylinder-diagonal-AlignmentJointNativeCylinderPresentation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointNativeCylinderPresentation.lean",
+    "source_sha256": "b7cd6b65e547fe283ee4823b2d2dc37f85c87b407a2903fecbde148d2aa192da"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.125,
+  "log": "round-native-relative-polynomial-build.txt",
+  "log_sha256": "888053d8b6a8fbd8cd5b6863bf54eb88dc83060078c67ce14e42876750b479d3"
+}

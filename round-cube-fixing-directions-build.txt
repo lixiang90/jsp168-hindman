@@ -1,0 +1,4 @@
+✔ [4937/4940] Built Hindman168.CubeVertexFixingDirections (5.3s)
+✔ [4938/4940] Built Hindman168.CubeCopyElimination (5.1s)
+✔ [4939/4940] Built Hindman168 (8.5s)
+Build completed successfully (4940 jobs).

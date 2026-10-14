@@ -1,0 +1,145 @@
+{
+  "modules": [
+    "Hindman168/ScalarMvSmallValueEstimate.lean",
+    "Hindman168/ScalarMvCommonHomogeneousDirections.lean",
+    "Hindman168/ScalarMvShortLineThreshold.lean",
+    "Hindman168/ScalarMvPhaseDegreeStep.lean",
+    "Hindman168/UnitCircleFiniteDiscrepancy.lean",
+    "Hindman168/UnitCircleFiniteObservablePhaseSelection.lean",
+    "Hindman168/ScalarMvObservableInverse.lean",
+    "Hindman168/ScalarMvSmallValuesCoarse.lean",
+    "Hindman168/ScalarMvNaturalMultiples.lean"
+  ],
+  "names": [
+    "Hindman168.ScalarMvSmallValueEstimate",
+    "Hindman168.scalar_mv_small_value_estimate_zero",
+    "Hindman168.scalar_mv_common_homogeneous_directions",
+    "Hindman168.scalar_mv_short_line_threshold",
+    "Hindman168.scalar_mv_phase_degree_step",
+    "Hindman168.scalar_mv_linear_phase_inverse",
+    "Hindman168.unitCircleFiniteDiscrepancy",
+    "Hindman168.unit_circle_finite_discrepancy_norm_bound",
+    "Hindman168.unit_circle_finite_nonzero_fourier_discrepancy",
+    "Hindman168.unit_circle_finite_zero_fourier_discrepancy",
+    "Hindman168.unit_circle_finite_fourier_large_frequency",
+    "Hindman168.unit_circle_finite_observable_phase_selection",
+    "Hindman168.scalarMvCircleOrbit",
+    "Hindman168.scalar_mv_fourier_phase",
+    "Hindman168.scalar_mv_observable_inverse_from_phase",
+    "Hindman168.scalar_mv_observable_degree_step",
+    "Hindman168.scalar_mv_linear_observable_inverse",
+    "Hindman168.unit_circle_finite_small_values_discrepancy",
+    "Hindman168.scalar_mv_small_values_coarse_degree_step",
+    "Hindman168.scalar_mv_linear_small_values_coarse_inverse",
+    "Hindman168.scalar_mv_natural_multiple_degree",
+    "Hindman168.scalar_mv_natural_multiple_small_value_density"
+  ],
+  "declarations": {
+    "Hindman168/ScalarMvSmallValueEstimate.lean": [
+      [
+        "def",
+        "ScalarMvSmallValueEstimate"
+      ],
+      [
+        "theorem",
+        "scalar_mv_small_value_estimate_zero"
+      ]
+    ],
+    "Hindman168/ScalarMvCommonHomogeneousDirections.lean": [
+      [
+        "theorem",
+        "scalar_mv_common_homogeneous_directions"
+      ]
+    ],
+    "Hindman168/ScalarMvShortLineThreshold.lean": [
+      [
+        "theorem",
+        "scalar_mv_short_line_threshold"
+      ]
+    ],
+    "Hindman168/ScalarMvPhaseDegreeStep.lean": [
+      [
+        "theorem",
+        "scalar_mv_phase_degree_step"
+      ],
+      [
+        "theorem",
+        "scalar_mv_linear_phase_inverse"
+      ]
+    ],
+    "Hindman168/UnitCircleFiniteDiscrepancy.lean": [
+      [
+        "def",
+        "unitCircleFiniteDiscrepancy"
+      ],
+      [
+        "theorem",
+        "unit_circle_finite_discrepancy_norm_bound"
+      ],
+      [
+        "theorem",
+        "unit_circle_finite_nonzero_fourier_discrepancy"
+      ],
+      [
+        "theorem",
+        "unit_circle_finite_zero_fourier_discrepancy"
+      ],
+      [
+        "theorem",
+        "unit_circle_finite_fourier_large_frequency"
+      ]
+    ],
+    "Hindman168/UnitCircleFiniteObservablePhaseSelection.lean": [
+      [
+        "theorem",
+        "unit_circle_finite_observable_phase_selection"
+      ]
+    ],
+    "Hindman168/ScalarMvObservableInverse.lean": [
+      [
+        "def",
+        "scalarMvCircleOrbit"
+      ],
+      [
+        "theorem",
+        "scalar_mv_fourier_phase"
+      ],
+      [
+        "theorem",
+        "scalar_mv_observable_inverse_from_phase"
+      ],
+      [
+        "theorem",
+        "scalar_mv_observable_degree_step"
+      ],
+      [
+        "theorem",
+        "scalar_mv_linear_observable_inverse"
+      ]
+    ],
+    "Hindman168/ScalarMvSmallValuesCoarse.lean": [
+      [
+        "theorem",
+        "unit_circle_finite_small_values_discrepancy"
+      ],
+      [
+        "theorem",
+        "scalar_mv_small_values_coarse_degree_step"
+      ],
+      [
+        "theorem",
+        "scalar_mv_linear_small_values_coarse_inverse"
+      ]
+    ],
+    "Hindman168/ScalarMvNaturalMultiples.lean": [
+      [
+        "theorem",
+        "scalar_mv_natural_multiple_degree"
+      ],
+      [
+        "theorem",
+        "scalar_mv_natural_multiple_small_value_density"
+      ]
+    ]
+  }
+}

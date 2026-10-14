@@ -1,0 +1,36 @@
+{
+  "baseline_hash_count": 1093,
+  "modules": [
+    "Hindman168/UltrafilterBoundedDiagonal.lean",
+    "Hindman168/MixedDualExactModel.lean"
+  ],
+  "names": [
+    "Hindman168.exists_slow_stage_filter",
+    "Hindman168.ultrafilterHilbert_bounded_diagonal",
+    "Hindman168.mixedDualHilbert_projection_exact_representative",
+    "Hindman168.mixedDualHilbert_exact_model"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/UltrafilterBoundedDiagonal.lean": [
+      [
+        "theorem",
+        "exists_slow_stage_filter"
+      ],
+      [
+        "theorem",
+        "ultrafilterHilbert_bounded_diagonal"
+      ]
+    ],
+    "Hindman168/MixedDualExactModel.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_projection_exact_representative"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_exact_model"
+      ]
+    ]
+  }
+}

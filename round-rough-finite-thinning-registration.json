@@ -1,0 +1,76 @@
+{
+  "modules": [
+    "Hindman168/RoughFiniteVanDerWaerden.lean",
+    "Hindman168/RoughAffinePolynomial.lean",
+    "Hindman168/RoughConstantTermThinning.lean",
+    "Hindman168/RoughAffineDenominators.lean",
+    "Hindman168/RoughModelReparametrization.lean",
+    "Hindman168/RoughJointCoefficientThinning.lean"
+  ],
+  "names": [
+    "Hindman168.rough_finite_van_der_waerden",
+    "Hindman168.rough_affine_comp_degree",
+    "Hindman168.rough_affine_comp_eval",
+    "Hindman168.rough_constant_term_thinning",
+    "Hindman168.roughDenominatorSubring_mem_of_prime_support",
+    "Hindman168.rough_subring_affine_comp_coeff",
+    "Hindman168.rough_affine_comp_prime_support",
+    "Hindman168.rough_coefficient_model_reparametrize",
+    "Hindman168.rough_progression_reparametrize",
+    "Hindman168.rough_joint_coefficient_thinning"
+  ],
+  "declarations": {
+    "Hindman168/RoughFiniteVanDerWaerden.lean": [
+      [
+        "theorem",
+        "rough_finite_van_der_waerden"
+      ]
+    ],
+    "Hindman168/RoughAffinePolynomial.lean": [
+      [
+        "theorem",
+        "rough_affine_comp_degree"
+      ],
+      [
+        "theorem",
+        "rough_affine_comp_eval"
+      ]
+    ],
+    "Hindman168/RoughConstantTermThinning.lean": [
+      [
+        "theorem",
+        "rough_constant_term_thinning"
+      ]
+    ],
+    "Hindman168/RoughAffineDenominators.lean": [
+      [
+        "theorem",
+        "roughDenominatorSubring_mem_of_prime_support"
+      ],
+      [
+        "theorem",
+        "rough_subring_affine_comp_coeff"
+      ],
+      [
+        "theorem",
+        "rough_affine_comp_prime_support"
+      ]
+    ],
+    "Hindman168/RoughModelReparametrization.lean": [
+      [
+        "theorem",
+        "rough_coefficient_model_reparametrize"
+      ],
+      [
+        "theorem",
+        "rough_progression_reparametrize"
+      ]
+    ],
+    "Hindman168/RoughJointCoefficientThinning.lean": [
+      [
+        "theorem",
+        "rough_joint_coefficient_thinning"
+      ]
+    ]
+  }
+}

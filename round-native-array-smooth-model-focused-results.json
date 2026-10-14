@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeArrayTranslationCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.031999999890104,
+    "log": "round-native-array-smooth-model-AlignmentNativeArrayTranslationCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeArrayTranslationCoordinates.lean",
+    "source_sha256": "8fa9962b082934865dbdad8e6bcbb9cd56270abe98cf0141821b3cabd002e4d9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeArrayTranslationSmooth.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.530999999959022,
+    "log": "round-native-array-smooth-model-AlignmentNativeArrayTranslationSmooth-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeArrayTranslationSmooth.lean",
+    "source_sha256": "8dad7158a5ac24aa33905b12299dffb80bf230f93a9617e80b94e47cf9762974"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeModelArrayMembership.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.125,
+    "log": "round-native-array-smooth-model-AlignmentNativeModelArrayMembership-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeModelArrayMembership.lean",
+    "source_sha256": "2886574ddcf3f028e92eb08a7bd8f9160f22a1458b21090b95a935d86f67c22c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeModelArrays.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.45299999997951,
+    "log": "round-native-array-smooth-model-AlignmentNativeModelArrays-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeModelArrays.lean",
+    "source_sha256": "5ff5e6efc9d8509bdd64833688762fa0d817d51edb56ed0dfd22d6ae65555b61"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeModelCosetOrbit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.641000000061467,
+    "log": "round-native-array-smooth-model-AlignmentNativeModelCosetOrbit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeModelCosetOrbit.lean",
+    "source_sha256": "a31d3edf6a5bcec52b3cfd65dd73b7464af831dba9c2409ba753f4d6156aab93"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteEventMajorization.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.141000000061467,
+    "log": "round-short-bin-cutoff-discard-FiniteEventMajorization-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteEventMajorization.lean",
+    "source_sha256": "4de0a8e3d9e88f161d1e2bf84bf2867fb3649f73838ae8e5d2cbef6577f0267c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/HarmonicIntervalEventBound.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.764999999897555,
+    "log": "round-short-bin-cutoff-discard-HarmonicIntervalEventBound-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/HarmonicIntervalEventBound.lean",
+    "source_sha256": "0f317da07208e65557475751b50a62587c22536f1835bc0d7e7ef3792bedbcd0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/HarmonicCutoffBands.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.04700000002049,
+    "log": "round-short-bin-cutoff-discard-HarmonicCutoffBands-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/HarmonicCutoffBands.lean",
+    "source_sha256": "acc7b2d7d6653ac72949ec12f623c7ce1b1571026ffcc03d23a85723a7e7a81b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ShortBinCutoffGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.266000000061467,
+    "log": "round-short-bin-cutoff-discard-ShortBinCutoffGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ShortBinCutoffGeometry.lean",
+    "source_sha256": "d1709149261bc8eca59b3e6c7f19388f1dcd92b9410506d891eaad5107904ff8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ShortBinCutoffProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.733999999938533,
+    "log": "round-short-bin-cutoff-discard-ShortBinCutoffProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ShortBinCutoffProbability.lean",
+    "source_sha256": "f75f0e2d2fba43e0ba5d06e5c8c3fcce608b0b8fd4b88a96aad2445e5e404fe2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MasterShortBinCutoffDiscard.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.141000000061467,
+    "log": "round-short-bin-cutoff-discard-MasterShortBinCutoffDiscard-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MasterShortBinCutoffDiscard.lean",
+    "source_sha256": "fb7ca895f929df4a58935622a861cb4d3d8bef32020f94c5eff0031605818829"
+  }
+]

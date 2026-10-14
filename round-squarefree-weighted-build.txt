@@ -1,0 +1,4 @@
+✔ [4009/4011] Built Hindman168.MasterPrimeSquarefreeLaw (7.1s)
+✔ [4010/4011] Built Hindman168.SquarefreeExcessTransfer (7.7s)
+✔ [4011/4011] Built Hindman168.SquarefreeWeightedLinearForms (7.7s)
+Build completed successfully (4011 jobs).

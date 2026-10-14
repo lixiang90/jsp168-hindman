@@ -1,0 +1,48 @@
+{
+  "baseline_hash_count": 1079,
+  "modules": [
+    "Hindman168/MixedCubeFaceCopy.lean"
+  ],
+  "names": [
+    "Hindman168.cubeFaceCopy",
+    "Hindman168.cubeFaceCopy_twice",
+    "Hindman168.subgroupMixedCubeAverage_faceCopy_false",
+    "Hindman168.subgroupMixedCubeAverage_faceCopy_true",
+    "Hindman168.subgroupMixedCubeAverage_faceCopy_nonneg",
+    "Hindman168.subgroupMixedCubeAverage_face_reflection_bound",
+    "Hindman168.cubeFaceCopy_commute"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/MixedCubeFaceCopy.lean": [
+      [
+        "def",
+        "cubeFaceCopy"
+      ],
+      [
+        "theorem",
+        "cubeFaceCopy_twice"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_faceCopy_false"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_faceCopy_true"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_faceCopy_nonneg"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_face_reflection_bound"
+      ],
+      [
+        "theorem",
+        "cubeFaceCopy_commute"
+      ]
+    ]
+  }
+}

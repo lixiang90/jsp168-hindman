@@ -1,0 +1,24 @@
+{
+  "exact_name_count": 3446,
+  "unique_reports": 3446,
+  "registered_names_match_reports": true,
+  "all_new_names_reported": true,
+  "new_name_count": 40,
+  "new_theorem_count": 37,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_free_reports": [
+    "Hindman168.MatrixDepth.smul",
+    "Hindman168.maskDescendant_encoding_injective",
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.matrixDepth_zero",
+    "Hindman168.matrixDepth_zero_iff_upper"
+  ],
+  "unexpected_axioms": {},
+  "new_oleans_current": true,
+  "full_target_proved": false
+}

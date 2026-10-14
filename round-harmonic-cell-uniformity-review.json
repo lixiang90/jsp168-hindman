@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 1029 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "The generic normalized-weight bound first proves l<=mean(w)<=u and strict positivity of that mean. It divides the absolute weight-minus-mean bound by this positive mean, so no denominator sign is assumed implicitly.",
+    "Unit-bounded tests preserve the pointwise density error by absolute product bounds and the exact normalized finite sum inequality.",
+    "The normalized Haar expression is proved equal to the original weighted-sum ratio using the nonzero finite cardinality. This identity does not silently replace the conditional normalization.",
+    "For harmonic weights the reciprocal bounds are 1/(A+R) and 1/A. The resulting ratio simplifies exactly to R/A under A>0 and R>=0.",
+    "The aggregate estimate preserves each cell probability. A common lower endpoint X controls every local error by R/X, so summing cannot introduce a factor equal to the number of cells.",
+    "Nine theorems in two modules are individually kernel audited. The actual integerMass partition and partial-cell/wrapping comparisons still require assembly; Bessel, inverse correlator existence and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/NormalizedHaarWeightError.lean",
+    "Hindman168/HarmonicCellUniformity.lean"
+  ],
+  "verified": {
+    "project_modules": 1013,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1022,
+    "source_config_hashes": 1031,
+    "build_jobs": 4967,
+    "axiom_reports": 4873,
+    "new_theorems": 9,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 9,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The local harmonic-to-uniform conditional density and test bounds are proved with error R/A, and original cell probabilities give total error at most R/X. Instantiation with the actual complete interval/residue cell partition, deletion of partial endpoint cells and wrapping errors, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain, along with assembling the subgroup inverse lemma. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

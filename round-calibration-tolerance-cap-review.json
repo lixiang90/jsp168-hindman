@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding original native calibration audit was terminal-successfully rechecked and its unchanged authoritative manifest copied before these proof edits. The prior round exposed an uncapped coarse approximation choice. This round proves a capped route without changing retained proof sources.",
+    "The actual finite-order short-cube threshold theorem fixes J and kappa first. The new coarse error is min(kappa/4,cap/2), where cap is prescribed before all master data. Positivity, strict cap bound and twice-error below kappa are proved by real order inequalities. The same concrete selected energy theorem is then called at that chosen error before selecting N.",
+    "The capped witness is transported through the existing proof construction rather than inserted as an additional unproved premise. New modules preserve every native representation, unit bound, original law and the actual short-cube/correlation conclusions. Neither the native step bound nor the explicit finite inverse existence hypothesis is weakened or removed.",
+    "The coloring dense family is still constructed before the ultrafilter and selected indices. Each assembly passes the same chosen f to the capped energy model construction and preserves the same S family in all subsequent statements. No later calibration threshold or stage chooses another dense or native model.",
+    "Original product calibration retained its coarse-error term plus arbitrary positive slack. The capped error is strictly below cap, so cap-error is positive. Applying the actual calibration theorem at this slack gives the strict eventual bound 3*threshold+cap. Both the approximation error and the requested cap are fixed before N; the cutoff threshold is fixed before its eventual stage.",
+    "The global raw-coordinate transport is exact after the actual normalizers become positive. The retained global_chain_coordinate_mass theorem identifies disjoint block statistics, and expectation_piMass_coordinate marginalizes the one-column statistic with its derived total one. Tail mass one follows from actual valid cutoffs; pivot mass one follows from the actual positive harmonic normalizer. All unused original coordinates retain their original laws.",
+    "Arbitrary original scalar tests transfer exactly to the integer block law through its actual natural-number pushforward. Event transfer is the same identity applied to the actual event indicator. No artificial probability normalization, counting measure, bounded input restriction or assumed sampling-law identification is added.",
+    "The global calibration assembly uses the same selected model witnesses as the proved capped product calibration, native testing and original subset-count replacement. Its raw event is evaluated at the actual one-block sampleProducts on Fin M raw coordinates, using the same natural master color coefficient and positive-integer convention.",
+    "Nine new modules contain ten theorems, with no new definitions, instances or resource options. Focused checks, sequential dependency builds, the complete project build, transitive kernel audit and authoritative recheck must all finish successfully without warnings. All retained proof hashes and selected axiom sets must remain unchanged except the root import and registry files.",
+    "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. The finite-list native periodic interval inverse existence statement remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. The same actual selected coloring model family now supports original rho-S subset-count replacement, own-coarse-gap native testing and calibration at a prescribed tolerance under both the original block product law and complete global raw-coordinate law, conditional on the inverse inputs for selected model existence. The coarse tolerance cap is proved and chosen before N; the former uncapped calibration error issue is resolved in the new capped route. Testing, calibration and raw marginal transport themselves have no inverse existence premise. The full Prediction Principle still needs final bounded count distribution replacement and admissible parameter, relabeling, tolerance and output integration. Alignment and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/FiniteOrderNativeShortCubeModelsCapped.lean",
+    "Hindman168/FiniteOrderNativeChainPredictionCapped.lean",
+    "Hindman168/SelectedNativeMaskCorrelationCapped.lean",
+    "Hindman168/SelectedColorDenseNativeModelsCapped.lean",
+    "Hindman168/SelectedColorNativeTestingModelsCapped.lean",
+    "Hindman168/SelectedColorCalibratedModelsCapped.lean",
+    "Hindman168/SelectedColorCalibrationTolerance.lean",
+    "Hindman168/OriginalBlockRawSampling.lean",
+    "Hindman168/SelectedColorGlobalCalibration.lean"
+  ],
+  "verified": {
+    "project_modules": 1233,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1242,
+    "source_config_hashes": 1251,
+    "build_jobs": 5190,
+    "axiom_reports": 5540,
+    "new_theorems": 10,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 10,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. The finite-list native periodic interval inverse existence statement remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. The same actual selected coloring model family now supports original rho-S subset-count replacement, own-coarse-gap native testing and calibration at a prescribed tolerance under both the original block product law and complete global raw-coordinate law, conditional on the inverse inputs for selected model existence. The coarse tolerance cap is proved and chosen before N; the former uncapped calibration error issue is resolved in the new capped route. Testing, calibration and raw marginal transport themselves have no inverse existence premise. The full Prediction Principle still needs final bounded count distribution replacement and admissible parameter, relabeling, tolerance and output integration. Alignment and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "05_prediction: capped tolerance chosen before N and exact global raw-coordinate calibration"
+}

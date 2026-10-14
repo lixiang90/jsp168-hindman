@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.70300000021234,
+  "log": "round-native-orbit-degree-build.txt",
+  "log_sha256": "4a1a9cbdc51feb4be3b14ae1f84a4089c689cdb5a96f8eba3cdb6bc65288eb28"
+}

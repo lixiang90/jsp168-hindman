@@ -1,0 +1,61 @@
+{
+  "baseline_hash_count": 1031,
+  "modules": [
+    "Hindman168/CompleteResidueCell.lean",
+    "Hindman168/CompleteResidueCellHarmonic.lean"
+  ],
+  "names": [
+    "Hindman168.completeResidueCellPoint",
+    "Hindman168.completeResidueCellPoint_bounds",
+    "Hindman168.completeResidueCellPoint_residue",
+    "Hindman168.completeResidueCellPoint_mem",
+    "Hindman168.completeResidueCellPoint_injective",
+    "Hindman168.completeResidueCellPoint_surjective",
+    "Hindman168.completeResidueCell_card",
+    "Hindman168.completeResidueCell_sum",
+    "Hindman168.completeResidueCell_harmonic_error"
+  ],
+  "theorem_count": 8,
+  "declarations": {
+    "Hindman168/CompleteResidueCell.lean": [
+      [
+        "def",
+        "completeResidueCellPoint"
+      ],
+      [
+        "theorem",
+        "completeResidueCellPoint_bounds"
+      ],
+      [
+        "theorem",
+        "completeResidueCellPoint_residue"
+      ],
+      [
+        "theorem",
+        "completeResidueCellPoint_mem"
+      ],
+      [
+        "theorem",
+        "completeResidueCellPoint_injective"
+      ],
+      [
+        "theorem",
+        "completeResidueCellPoint_surjective"
+      ],
+      [
+        "theorem",
+        "completeResidueCell_card"
+      ]
+    ],
+    "Hindman168/CompleteResidueCellHarmonic.lean": [
+      [
+        "theorem",
+        "completeResidueCell_sum"
+      ],
+      [
+        "theorem",
+        "completeResidueCell_harmonic_error"
+      ]
+    ]
+  }
+}

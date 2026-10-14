@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.95299999997951,
+  "log": "round-rough-binomial-obstruction-transfer-build.txt",
+  "log_sha256": "9b8db4abacca79a3919c4ab3696abd2f06735572adb24c66b1576f8a9441b23e"
+}

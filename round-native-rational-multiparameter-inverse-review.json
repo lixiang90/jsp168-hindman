@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "ACTUAL native multivariable short lines are constructed by scalar affine substitution term by term, with true rational-filtration weights and exact orbit, scalar projection, coefficient and canonical Haar discrepancy identities. The unconditional Unit inverse now PRODUCES a true original nonzero horizontal/grid/norm character and both line tables in ONE finite original character pool fixed before every raw source/basepoint/direction/length.",
+    "The corrected bounded complex equal-cube averaging argument now obtains ONE SAME actual original character on dense directions and dense original basepoints. Genuine scalar multivariable small-value inverse recovers all positive line constant coefficients with one bounded positive multiplier per direction. Exact finite multiplier thinning and simultaneous homogeneous integer reconstruction produce ONE SAME scaled original nonzero character for BOTH COMPLETE raw original coefficient tables. The scalar budget precedes direction size, so no circular choice of constants is used.",
+    "A positive explicit floor lower bound and fixed minimum line threshold close ALL large original equal-cube lengths. Empty original character pools make actual discrepancy impossible; they do not manufacture a character. Genuine actual sample anchors generalize the proved constant-source argument to arbitrary finite variables, closing ALL original short positive lengths without character-existence or inverse premises.",
+    "UNCONDITIONAL NativeRationalWeightedInverseStatement D L sigma is now PROVED for EVERY finite variable type sigma and every actual native datum/rational Lie filtration. It includes degree zero, empty variable types, every positive original N, actual original nonzero horizontal/grid/norm character and BOTH COMPLETE original monomial/binomial tables. No native/scalar/line inverse or production premise remains. This is the corrected fixed-data existential multiparameter inverse, not explicit delta-power laws, a Gowers correlation inverse or final FS/FP target.",
+    "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. The COMPLETE unconditional native rational-filtration inverse is now proved for EVERY finite variable type, degree and positive original equal-cube length, with actual original nonzero horizontal/grid/norm character and BOTH COMPLETE raw original coefficient tables. Unit degree/natural nonlinearity induction, actual native line sources, true complex averaging, same-character dense rows, genuine scalar constant recovery, common multiplier thinning, all-degree directional reconstruction and true short-length anchors are composed. Remaining: separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture. Fixed-data existential constants do not certify explicit source delta-power laws. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached."
+  ],
+  "verified": {
+    "project_modules": 2619,
+    "pntplus_modules": 9,
+    "build_jobs": 6592,
+    "selected_axiom_reports": 10356,
+    "new_declarations": 33,
+    "new_theorems": 28,
+    "new_definitions": 5,
+    "new_structures": 0,
+    "new_structure_generated_reports": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeRationalLinePolynomial.lean",
+    "Hindman168/FiniteComplexIntegerRangeMean.lean",
+    "Hindman168/NativeRationalLineDiscrepancy.lean",
+    "Hindman168/NativeRationalLineCharacterProduction.lean",
+    "Hindman168/NativeRationalCommonLineCharacter.lean",
+    "Hindman168/FiniteDirectionLabelThinning.lean",
+    "Hindman168/NativeRationalLineConstantRecovery.lean",
+    "Hindman168/LeibmanCompleteDirectionalCoefficients.lean",
+    "Hindman168/NativeRationalDenseDirectionReconstruction.lean",
+    "Hindman168/NaturalDivisionLengthBounds.lean",
+    "Hindman168/NativeRationalConstantMvDiscrepancyAnchor.lean",
+    "Hindman168/NativeRationalLargeMvToAllLengths.lean",
+    "Hindman168/NativeRationalMultiparameterLargeInverse.lean",
+    "Hindman168/NativeRationalMultiparameterInverse.lean",
+    "Hindman168/NativeRationalFiniteVariablesInverse.lean"
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. The COMPLETE unconditional native rational-filtration inverse is now proved for EVERY finite variable type, degree and positive original equal-cube length, with actual original nonzero horizontal/grid/norm character and BOTH COMPLETE raw original coefficient tables. Unit degree/natural nonlinearity induction, actual native line sources, true complex averaging, same-character dense rows, genuine scalar constant recovery, common multiplier thinning, all-degree directional reconstruction and true short-length anchors are composed. Remaining: separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture. Fixed-data existential constants do not certify explicit source delta-power laws. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "OpenAI quantitative Leibman route; unconditional complete corrected native rational-filtration inverse for every finite variable type and positive original length; separate Gowers correlation inverse and final target remain open",
+  "mathematical_review_file": "round-native-rational-multiparameter-inverse-mathematical-review.txt",
+  "mathematical_review_sha256": "d222d2e5205872b1b1e832c9c1bbbbab422907a4da30fda5ee1a5cedd24b7f1e",
+  "source_slab_certificate": "round-native-rational-multiparameter-inverse-slab-review.json",
+  "source_slab_certificate_sha256": "5aa6bd5ec33029cf705914b51e59c5028126895986a19a257be0bd383ff5eea5",
+  "source_slab_script_sha256": "64cac480a164a883a31cb40256c47c1de0be223c81f1cc013519543a636f655d"
+}

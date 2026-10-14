@@ -1,0 +1,122 @@
+{
+  "modules": [
+    "Hindman168/RoughNativeNormalizedObstructionBadFamily.lean",
+    "Hindman168/RoughNativeFiniteBadData.lean",
+    "Hindman168/RoughModOneIntegerCombination.lean",
+    "Hindman168/RoughSignedTranslationCoefficients.lean",
+    "Hindman168/RoughIntegerTranslationInverse.lean",
+    "Hindman168/RoughBoxCharacterTranslation.lean",
+    "Hindman168/RoughBoxCharacterFixedSupport.lean",
+    "Hindman168/RoughComplexHaarObstruction.lean"
+  ],
+  "names": [
+    "Hindman168.rough_native_normalized_obstruction_bad_family",
+    "Hindman168.rough_native_finite_bad_data_subsequences",
+    "Hindman168.rough_mod_one_integer_combination",
+    "Hindman168.roughSignedBinomialWeight",
+    "Hindman168.roughSignedBinomialWeight_eq_zero",
+    "Hindman168.roughSignedBinomialWeight_real",
+    "Hindman168.roughSignedBinomialWeight_bound",
+    "Hindman168.rough_affine_positive_signed_coefficient",
+    "Hindman168.rough_mv_translation_inverse",
+    "Hindman168.rough_mv_translation_degree",
+    "Hindman168.rough_box_character_translation_bound",
+    "Hindman168.rough_spatial_support_fixed",
+    "Hindman168.rough_fixed_spatial_expansion",
+    "Hindman168.rough_box_character_fixed_translation",
+    "Hindman168.rough_box_character_untranslate",
+    "Hindman168.rough_two_sample_haar_obstruction",
+    "Hindman168.rough_haar_obstruction_perturbation",
+    "Hindman168.rough_convex_haar_obstruction"
+  ],
+  "declarations": {
+    "Hindman168/RoughNativeNormalizedObstructionBadFamily.lean": [
+      [
+        "theorem",
+        "rough_native_normalized_obstruction_bad_family"
+      ]
+    ],
+    "Hindman168/RoughNativeFiniteBadData.lean": [
+      [
+        "theorem",
+        "rough_native_finite_bad_data_subsequences"
+      ]
+    ],
+    "Hindman168/RoughModOneIntegerCombination.lean": [
+      [
+        "theorem",
+        "rough_mod_one_integer_combination"
+      ]
+    ],
+    "Hindman168/RoughSignedTranslationCoefficients.lean": [
+      [
+        "def",
+        "roughSignedBinomialWeight"
+      ],
+      [
+        "theorem",
+        "roughSignedBinomialWeight_eq_zero"
+      ],
+      [
+        "theorem",
+        "roughSignedBinomialWeight_real"
+      ],
+      [
+        "theorem",
+        "roughSignedBinomialWeight_bound"
+      ],
+      [
+        "theorem",
+        "rough_affine_positive_signed_coefficient"
+      ]
+    ],
+    "Hindman168/RoughIntegerTranslationInverse.lean": [
+      [
+        "theorem",
+        "rough_mv_translation_inverse"
+      ],
+      [
+        "theorem",
+        "rough_mv_translation_degree"
+      ]
+    ],
+    "Hindman168/RoughBoxCharacterTranslation.lean": [
+      [
+        "theorem",
+        "rough_box_character_translation_bound"
+      ]
+    ],
+    "Hindman168/RoughBoxCharacterFixedSupport.lean": [
+      [
+        "theorem",
+        "rough_spatial_support_fixed"
+      ],
+      [
+        "theorem",
+        "rough_fixed_spatial_expansion"
+      ],
+      [
+        "theorem",
+        "rough_box_character_fixed_translation"
+      ],
+      [
+        "theorem",
+        "rough_box_character_untranslate"
+      ]
+    ],
+    "Hindman168/RoughComplexHaarObstruction.lean": [
+      [
+        "theorem",
+        "rough_two_sample_haar_obstruction"
+      ],
+      [
+        "theorem",
+        "rough_haar_obstruction_perturbation"
+      ],
+      [
+        "theorem",
+        "rough_convex_haar_obstruction"
+      ]
+    ]
+  }
+}

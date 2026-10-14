@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteComplexDenseMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.781000000191852,
+    "log": "round-leibman-short-lines-FiniteComplexDenseMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteComplexDenseMean.lean",
+    "source_sha256": "0f00ea29b17900542952644bf07e6bd3736e2f758c4736bdaf7e9cb6077ec331"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/LeibmanCubeLineAveraging.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.843999999808148,
+    "log": "round-leibman-short-lines-LeibmanCubeLineAveraging-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/LeibmanCubeLineAveraging.lean",
+    "source_sha256": "15cbb9a62997e25ba5e3b4ec00f02427098214de22d359a6754dd61c678b5b53"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/LeibmanCubeShortLines.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.469000000040978,
+    "log": "round-leibman-short-lines-LeibmanCubeShortLines-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/LeibmanCubeShortLines.lean",
+    "source_sha256": "8d91510c058d1e5e10ede4820de74c4608ce04c679ec812a902c96a2d56f4625"
+  }
+]

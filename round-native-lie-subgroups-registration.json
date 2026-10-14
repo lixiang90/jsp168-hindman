@@ -1,0 +1,106 @@
+{
+  "baseline_hashes_verified_before_registration": 772,
+  "new_modules": [
+    "Hindman168/NativeLieSubalgebraModel.lean",
+    "Hindman168/NativeLieSubalgebraPicard.lean",
+    "Hindman168/NativeLieSubalgebraSubgroup.lean",
+    "Hindman168/NativeLieSubalgebraTopology.lean",
+    "Hindman168/NativeLieIdealSubgroup.lean",
+    "Hindman168/NativeLieLowerCentralSubgroups.lean",
+    "Hindman168/NativeLieLogarithmAffineLayer.lean",
+    "Hindman168/NativeLieAdjointLayer.lean",
+    "Hindman168/NativeLieGroupLowerCentralComparison.lean",
+    "Hindman168/NativeLieGlobalProductLog.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLieSubalgebraModel",
+    "Hindman168.nativeLieSubalgebraModel_closed",
+    "Hindman168.nativeLieAdjointGenerator_mem_subalgebra",
+    "Hindman168.nativeLieAdjointGenerator_pow_mem_subalgebra",
+    "Hindman168.nativeLieDexpDefect_mem_subalgebra",
+    "Hindman168.nativeLieDexpDefect_pow_mem_subalgebra",
+    "Hindman168.nativeLieDexpFiniteInverse_mem_subalgebra",
+    "Hindman168.nativeLieLogarithmVectorField_mem_subalgebra",
+    "Hindman168.nativeLieSubalgebraPicard_mem",
+    "Hindman168.nativeLieLogarithmLift_mem_subalgebra",
+    "Hindman168.nativeLieSubalgebraSubgroup",
+    "Hindman168.nativeLieSubalgebraSubgroup_mem_iff",
+    "Hindman168.nativeLieSubalgebraSubgroup_eq_generated",
+    "Hindman168.nativeLieSubalgebraSubgroup_mem_globalLogarithm_iff",
+    "Hindman168.nativeLieSubalgebraExponentialHomeomorph",
+    "Hindman168.nativeLieSubalgebraSubgroup_closed",
+    "Hindman168.nativeLieSubalgebraSubgroup_contractible",
+    "Hindman168.nativeLieSubalgebraSubgroup_simplyConnected",
+    "Hindman168.nativeLieSubalgebraSubgroup_connected",
+    "Hindman168.nativeLieAdjointGenerator_mem_ideal",
+    "Hindman168.nativeLieAdjointGenerator_pow_mem_ideal",
+    "Hindman168.nativeLieAdjoint_exponential_mem_ideal",
+    "Hindman168.nativeLieAdjoint_mem_ideal",
+    "Hindman168.nativeLieIdealSubgroup_normal",
+    "Hindman168.nativeLieLowerCentralSubgroup",
+    "Hindman168.nativeLieLowerCentralSubgroup_mem_iff",
+    "Hindman168.nativeLieLowerCentralSubgroup_antitone",
+    "Hindman168.nativeLieLowerCentralSubgroup_terminal",
+    "Hindman168.nativeLieLowerCentralSubgroup_zero",
+    "Hindman168.nativeLieLowerCentralSubgroup_normal",
+    "Hindman168.nativeLieLowerCentralSubgroup_closed",
+    "Hindman168.nativeLieLowerCentralSubgroup_contractible",
+    "Hindman168.nativeLieLowerCentralSubgroup_simplyConnected",
+    "Hindman168.nativeLieLowerCentralSubgroup_mem_globalLogarithm_iff",
+    "Hindman168.nativeLieLogarithmVectorField_sub_velocity_lowerCentral",
+    "Hindman168.nativeLieLogarithmLift_sub_affine_lowerCentral",
+    "Hindman168.nativeLieExponential_product_mem_lowerCentral_next",
+    "Hindman168.nativeLieAdjoint_exponential_sub_one_finite_formula",
+    "Hindman168.nativeLieAdjoint_exponential_sub_mem_lowerCentral_next",
+    "Hindman168.nativeLieAdjoint_sub_mem_lowerCentral_next",
+    "Hindman168.nativeLieCommutator_exponential_mem_lowerCentral_next",
+    "Hindman168.nativeLieLowerCentralSubgroup_commutator_le_next",
+    "Hindman168.nativeGroupLowerCentralSeries_le_exponential",
+    "Hindman168.nativeLieGlobalLogarithm_product_exponentials",
+    "Hindman168.nativeLieGlobalLogarithm_product_lowerCentral",
+    "Hindman168.nativeLieGlobalLogarithm_mul_add_mod_commutatorLayer",
+    "Hindman168.nativeGroupLowerCentralSeries_log_mem"
+  ],
+  "module_report_counts": {
+    "NativeLieSubalgebraModel": {
+      "theorems": 7,
+      "selected_declarations": 8
+    },
+    "NativeLieSubalgebraPicard": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLieSubalgebraSubgroup": {
+      "theorems": 3,
+      "selected_declarations": 4
+    },
+    "NativeLieSubalgebraTopology": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeLieIdealSubgroup": {
+      "theorems": 5,
+      "selected_declarations": 5
+    },
+    "NativeLieLowerCentralSubgroups": {
+      "theorems": 9,
+      "selected_declarations": 10
+    },
+    "NativeLieLogarithmAffineLayer": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieAdjointLayer": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieGroupLowerCentralComparison": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieGlobalProductLog": {
+      "theorems": 4,
+      "selected_declarations": 4
+    }
+  }
+}

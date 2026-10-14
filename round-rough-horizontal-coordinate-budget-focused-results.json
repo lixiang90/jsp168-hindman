@@ -1,0 +1,146 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughBasisFunctionalNorm.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.437999999849126,
+    "log": "round-rough-horizontal-coordinate-budget-RoughBasisFunctionalNorm-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughBasisFunctionalNorm.lean",
+    "source_sha256": "0582d1e9e2695d9d1bcfa2f7250654198d9d8814af9c064abcf1b10386cca679"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RationalSubspaceArbitraryBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.280999999959022,
+    "log": "round-rough-horizontal-coordinate-budget-RationalSubspaceArbitraryBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RationalSubspaceArbitraryBasis.lean",
+    "source_sha256": "587f881e2da282ef38b7c0f5aebdfc8d4fdc24bfa1e541a3bdfaa2d525bf7d6e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RationalSubspaceSplitBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.5,
+    "log": "round-rough-horizontal-coordinate-budget-RationalSubspaceSplitBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RationalSubspaceSplitBasis.lean",
+    "source_sha256": "136cf0d69d029c93a9449fb1aaa76d489b3be5d3e270f29558cdb53037d36a99"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeCommutatorBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.265000000130385,
+    "log": "round-rough-horizontal-coordinate-budget-RoughNativeCommutatorBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeCommutatorBasis.lean",
+    "source_sha256": "18a22b7bb7d98a3ad8f515f164e525f3b47ee43b05f0616f23d867801963536c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeBasisCharacterGrid.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.156000000191852,
+    "log": "round-rough-horizontal-coordinate-budget-RoughNativeBasisCharacterGrid-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeBasisCharacterGrid.lean",
+    "source_sha256": "566988d6157fcc557c1e7d05667c3a3ad39f5f3738c61971c5d23381994e5b3c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeCommutatorCharacterGrid.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.375,
+    "log": "round-rough-horizontal-coordinate-budget-RoughNativeCommutatorCharacterGrid-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeCommutatorCharacterGrid.lean",
+    "source_sha256": "79300fa6541c233aae328af7e147758ab96662089a28e6b1657960b9f9810997"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeRealBoxBasisTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.327999999979511,
+    "log": "round-rough-horizontal-coordinate-budget-RoughNativeRealBoxBasisTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeRealBoxBasisTransfer.lean",
+    "source_sha256": "a5fc51701adc6a66223734410785fc72271806eaa405a97e3fb1a3de1329c50a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughHorizontalIntegerSize.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.437999999849126,
+    "log": "round-rough-horizontal-coordinate-budget-RoughHorizontalIntegerSize-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughHorizontalIntegerSize.lean",
+    "source_sha256": "84b5f5dd523f33c58eb739520a82a32790fe6ad02c3063b7e07a94cb1e404b62"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeRealBoxCoordinateTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.641000000061467,
+    "log": "round-rough-horizontal-coordinate-budget-RoughNativeRealBoxCoordinateTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeRealBoxCoordinateTransfer.lean",
+    "source_sha256": "09ad82f1c250323672fa657e740911c7d9fb0f10e72bc1be654b7367e32f4886"
+  }
+]

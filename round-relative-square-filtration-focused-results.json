@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RelativeSquareSubgroup.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 63.39100000006147,
+    "log": "round-relative-square-filtration-RelativeSquareSubgroup-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RelativeSquareSubgroup.lean",
+    "source_sha256": "f064414c92d56ab4fd5613516f3e70f1a603ad7f1057d31dbc297c6153268ec3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RelativeSquareFiltration.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.890000000130385,
+    "log": "round-relative-square-filtration-RelativeSquareFiltration-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RelativeSquareFiltration.lean",
+    "source_sha256": "05ca6d68ce040d0e8f02ad660982beec474802ab0b9ad72444db3781720c27c2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RelativeSquareTerminalCenter.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.859999999869615,
+    "log": "round-relative-square-filtration-RelativeSquareTerminalCenter-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RelativeSquareTerminalCenter.lean",
+    "source_sha256": "1280951b2094491b16e061444b20bf3ff9381ba8af9963fd0d3358be46065f7b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SubgroupFiltrationTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.75,
+    "log": "round-relative-square-filtration-SubgroupFiltrationTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/SubgroupFiltrationTransport.lean",
+    "source_sha256": "ebd560681e403b2e8589d4db578f3c9e9f49880321c38ea627043054cab5b472"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RelativeSquareInternalFiltration.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.719000000040978,
+    "log": "round-relative-square-filtration-RelativeSquareInternalFiltration-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RelativeSquareInternalFiltration.lean",
+    "source_sha256": "3e13062f75af0af15cbd9fc74d1cf60f5bd620e5a05aa04c474f28490be5428a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RelativeSquareReducedFiltration.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.702999999979511,
+    "log": "round-relative-square-filtration-RelativeSquareReducedFiltration-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RelativeSquareReducedFiltration.lean",
+    "source_sha256": "b352891a3b40022906dd55e71fa92be798a6d13d251fb5d4216987b60405e73b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RelativeSquareTopology.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.140000000130385,
+    "log": "round-relative-square-filtration-RelativeSquareTopology-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RelativeSquareTopology.lean",
+    "source_sha256": "8b3f0f78431ea0662681e7fb0a14429b16a1f87e0cd485abce2af9eddc2da633"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeSquareFiltration.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 38.57799999997951,
+    "log": "round-relative-square-filtration-NativeRelativeSquareFiltration-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeSquareFiltration.lean",
+    "source_sha256": "dacc66698802d1006b369638390d133d0fb583188f923ba28cbc2c931d368d31"
+  }
+]

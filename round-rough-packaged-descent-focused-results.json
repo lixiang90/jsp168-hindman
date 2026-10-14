@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeKernelMap.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.95299999997951,
+    "log": "round-rough-packaged-descent-RoughNativeKernelMap-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeKernelMap.lean",
+    "source_sha256": "a7ec135a1881358a9ee9992f2b4542232d77f841c981f1ae759e7e82cf957345"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeKernelSpatialPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.813000000081956,
+    "log": "round-rough-packaged-descent-RoughNativeKernelSpatialPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeKernelSpatialPolynomial.lean",
+    "source_sha256": "7282bdf2a340e2c86018396f64a779105a19ce7b0ff563f856fdc74182725296"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeKernelDegreeBound.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.5,
+    "log": "round-rough-packaged-descent-RoughNativeKernelDegreeBound-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeKernelDegreeBound.lean",
+    "source_sha256": "26a66732895ad9629e060c6a85774eaefdb12bebc3c45c36f8f25b9b8cc1d532"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughRescaledPieceSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.389999999897555,
+    "log": "round-rough-packaged-descent-RoughRescaledPieceSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughRescaledPieceSelection.lean",
+    "source_sha256": "a1c0ba110e4e1bd2e2005e478bc4e2c436dffff550e63d9b51142acc4e85ef04"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughRescaledPieceLabel.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.375,
+    "log": "round-rough-packaged-descent-RoughRescaledPieceLabel-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughRescaledPieceLabel.lean",
+    "source_sha256": "51e44d03e66ffb24996919edece998d1a0867bf7f05936f4d4cc5040b48672c0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeModelFiniteResidue.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.75,
+    "log": "round-rough-packaged-descent-RoughNativeModelFiniteResidue-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeModelFiniteResidue.lean",
+    "source_sha256": "130556d7545658f0ce88106d1c7cdd454155811179a9f4a4c86ac4aed6bffe7d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativePackagedResidueApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.735000000102445,
+    "log": "round-rough-packaged-descent-RoughNativePackagedResidueApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativePackagedResidueApproximation.lean",
+    "source_sha256": "13c46663da0fae78738d06bcd4ff7131aef9b71d0bbb01b04fb85759a4baa968"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughConjugateResidueTest.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 7.608999999938533,
+    "log": "round-rough-packaged-descent-RoughConjugateResidueTest-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughConjugateResidueTest.lean",
+    "source_sha256": "edd0278376d403e5c0266f9e0dbbd2131fe1bd20eb95747e32544684f46477b8"
+  }
+]

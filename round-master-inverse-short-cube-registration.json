@@ -1,0 +1,94 @@
+{
+  "baseline_hash_count": 1192,
+  "modules": [
+    "Hindman168/MasterCompleteCellLawIdentities.lean",
+    "Hindman168/MasterCanonicalGlobalGowers.lean",
+    "Hindman168/MasterFixedBesselModulus.lean",
+    "Hindman168/MasterUniformShortCubeThreshold.lean",
+    "Hindman168/NativePeriodicIntervalInverseThreshold.lean",
+    "Hindman168/MasterInverseShortCubeEstimate.lean"
+  ],
+  "names": [
+    "Hindman168.MasterParameterConditions.complete_cell_mass_eq_interior_eventually",
+    "Hindman168.masterCompleteCellMass",
+    "Hindman168.masterCompleteCellProbability",
+    "Hindman168.masterCompleteGlobalGowersValue",
+    "Hindman168.MasterParameterConditions.canonical_cell_probability_eq_aligned_eventually",
+    "Hindman168.MasterParameterConditions.canonical_global_gowers_eq_aligned_eventually",
+    "Hindman168.constructedMasterFamily_conditioned_bessel_of_modulus_eventually",
+    "Hindman168.constructedMasterFamily_canonical_cell_bessel_of_modulus_eventually",
+    "Hindman168.constructedMasterFamily_shortCube_budget_of_modulus_eventually",
+    "Hindman168.master_shortCube_uniform_global_threshold",
+    "Hindman168.HasNativePeriodicIntervalInverse",
+    "Hindman168.native_interval_inverse_uniform_projection_threshold",
+    "Hindman168.master_inverse_shortCube_uniform_threshold"
+  ],
+  "theorem_count": 9,
+  "selected_report_count": 13,
+  "declarations": {
+    "Hindman168/MasterCompleteCellLawIdentities.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.complete_cell_mass_eq_interior_eventually"
+      ]
+    ],
+    "Hindman168/MasterCanonicalGlobalGowers.lean": [
+      [
+        "def",
+        "masterCompleteCellMass"
+      ],
+      [
+        "def",
+        "masterCompleteCellProbability"
+      ],
+      [
+        "def",
+        "masterCompleteGlobalGowersValue"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.canonical_cell_probability_eq_aligned_eventually"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.canonical_global_gowers_eq_aligned_eventually"
+      ]
+    ],
+    "Hindman168/MasterFixedBesselModulus.lean": [
+      [
+        "theorem",
+        "constructedMasterFamily_conditioned_bessel_of_modulus_eventually"
+      ],
+      [
+        "theorem",
+        "constructedMasterFamily_canonical_cell_bessel_of_modulus_eventually"
+      ]
+    ],
+    "Hindman168/MasterUniformShortCubeThreshold.lean": [
+      [
+        "theorem",
+        "constructedMasterFamily_shortCube_budget_of_modulus_eventually"
+      ],
+      [
+        "theorem",
+        "master_shortCube_uniform_global_threshold"
+      ]
+    ],
+    "Hindman168/NativePeriodicIntervalInverseThreshold.lean": [
+      [
+        "def",
+        "HasNativePeriodicIntervalInverse"
+      ],
+      [
+        "theorem",
+        "native_interval_inverse_uniform_projection_threshold"
+      ]
+    ],
+    "Hindman168/MasterInverseShortCubeEstimate.lean": [
+      [
+        "theorem",
+        "master_inverse_shortCube_uniform_threshold"
+      ]
+    ]
+  }
+}

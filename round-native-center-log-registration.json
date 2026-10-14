@@ -1,0 +1,95 @@
+{
+  "baseline_hashes_verified_before_registration": 823,
+  "new_modules": [
+    "Hindman168/IntegerCocompactRealSpan.lean",
+    "Hindman168/IntegerLatticeRationalBasis.lean",
+    "Hindman168/NativeCenterLogLattice.lean",
+    "Hindman168/NativeCenterLogQuotient.lean",
+    "Hindman168/NativeCenterLogSpanning.lean",
+    "Hindman168/NativeCenterRationalBasis.lean",
+    "Hindman168/NativeCenterRationalInclusion.lean",
+    "Hindman168/NativeLieCenterExponential.lean",
+    "Hindman168/NativeLieCenterModel.lean"
+  ],
+  "names": [
+    "Hindman168.integerSubmodule_real_span_top_of_compact_quotient",
+    "Hindman168.integerSubmodule_isZLattice_of_compact_quotient",
+    "Hindman168.integerLatticeRealBasis",
+    "Hindman168.integerLatticeRealBasis_integer_span",
+    "Hindman168.integerLatticeRealBasis_rational_span",
+    "Hindman168.integerLatticeRationalBasis",
+    "Hindman168.integerLatticeRationalBasis_apply",
+    "Hindman168.integerLatticeRationalSpan_finiteDimensional",
+    "Hindman168.integerLatticeRationalSpan_finrank",
+    "Hindman168.integerLatticeRationalBasis_real_linearIndependent",
+    "Hindman168.nativeCenterLogLattice",
+    "Hindman168.nativeCenterLogLattice_mem_iff",
+    "Hindman168.nativeCenterLogLattice_logarithm_mem_iff",
+    "Hindman168.nativeCenterLogLattice_discrete",
+    "Hindman168.nativeCenterQuotientLogarithm",
+    "Hindman168.nativeCenterQuotientLogarithm_mk",
+    "Hindman168.nativeCenterQuotientLogarithm_continuous",
+    "Hindman168.nativeCenterQuotientLogarithm_surjective",
+    "Hindman168.nativeCenterLogLattice_quotient_compactSpace",
+    "Hindman168.nativeCenterLogLattice_real_span_top",
+    "Hindman168.nativeCenterLogLattice_isZLattice",
+    "Hindman168.nativeCenterLogLattice_integer_rank_eq",
+    "Hindman168.nativeCenterRationalLogSpan",
+    "Hindman168.nativeCenterRationalLogSpan_finiteDimensional",
+    "Hindman168.nativeCenterRationalLogSpan_finrank",
+    "Hindman168.nativeCenterRationalLogSpan_exists_real_independent_basis",
+    "Hindman168.nativeCenterLogLattice_image_eq_logarithms",
+    "Hindman168.nativeCenterRationalLogSpan_map_eq_original_span",
+    "Hindman168.nativeCenterRationalLogSpan_map_le_original_span",
+    "Hindman168.nativeCenter_lattice_logarithms_real_span_eq",
+    "Hindman168.nativeLieCenterExponentialHomeomorph",
+    "Hindman168.nativeLieGlobalLogarithm_central_mul",
+    "Hindman168.nativeLieCenterExponentialHomeomorph_add",
+    "Hindman168.nativeLieCenterExponentialHomeomorph_symm_mul",
+    "Hindman168.nativeLieCenter_contractible",
+    "Hindman168.nativeLieCenterModel",
+    "Hindman168.nativeLieCenterModel_mem_iff_generator_eq_zero",
+    "Hindman168.nativeLieCenterModel_mem_iff_native_bracket_zero",
+    "Hindman168.nativeLieExponential_mem_center_iff_mem_centerModel",
+    "Hindman168.nativeLieGlobalLogarithm_mem_centerModel_iff",
+    "Hindman168.nativeLieExponential_add_of_mem_centerModel"
+  ],
+  "module_report_counts": {
+    "IntegerCocompactRealSpan": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "IntegerLatticeRationalBasis": {
+      "theorems": 6,
+      "selected_declarations": 8
+    },
+    "NativeCenterLogLattice": {
+      "theorems": 3,
+      "selected_declarations": 4
+    },
+    "NativeCenterLogQuotient": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeCenterLogSpanning": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeCenterRationalBasis": {
+      "theorems": 3,
+      "selected_declarations": 4
+    },
+    "NativeCenterRationalInclusion": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeLieCenterExponential": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeLieCenterModel": {
+      "theorems": 5,
+      "selected_declarations": 6
+    }
+  }
+}

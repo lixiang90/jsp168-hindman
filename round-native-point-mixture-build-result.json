@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.608999999938533,
+  "log": "round-native-point-mixture-build.txt",
+  "log_sha256": "d2a70e50d1c005e16d3e642ead865d690b15123d34ede406cf626adb7ae2ec07"
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ProjectionAppendIndependent.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.625,
+    "log": "round-native-lattice-ordered-basis-ProjectionAppendIndependent-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ProjectionAppendIndependent.lean",
+    "source_sha256": "d3bfec3a271f58e4b3e7643f973771b1c216818ee718c7719dc3efad31b211d4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterLatticeIndependent.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.530999999959022,
+    "log": "round-native-lattice-ordered-basis-NativeCenterLatticeIndependent-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterLatticeIndependent.lean",
+    "source_sha256": "01060427b8f41ec8d29a93b389762a7e1459ea43b81a12d45fe3076026a6b817"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterOrderedBasisExtension.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.953000000212342,
+    "log": "round-native-lattice-ordered-basis-NativeCenterOrderedBasisExtension-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterOrderedBasisExtension.lean",
+    "source_sha256": "7cce906b21cf39737a123f38860169987cf04833cc73b4d17d02634c6e2ebc94"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.718999999808148,
+    "log": "round-native-lattice-ordered-basis-NativeLatticeOrderedBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedBasis.lean",
+    "source_sha256": "8191621aa5e1047255b0f31b75e2990c0d65aa672bc9a95f3bca31f8d54a34c6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedRealBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.608999999938533,
+    "log": "round-native-lattice-ordered-basis-NativeLatticeOrderedRealBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedRealBasis.lean",
+    "source_sha256": "36badf2a92690dd0142bfe04a682f760665cf8b287f2a154206844e902dda0d5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedRationalBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.063000000081956,
+    "log": "round-native-lattice-ordered-basis-NativeLatticeOrderedRationalBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedRationalBasis.lean",
+    "source_sha256": "1496077c350317a63c4134ba366812f6bf64b7f105a768fac1ffa7508edb2ff3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedBasisCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.0,
+    "log": "round-native-lattice-ordered-basis-NativeLatticeOrderedBasisCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedBasisCoordinates.lean",
+    "source_sha256": "90a470c42bc3a642178b1afb48e2eff3a68dd5b3c8c0547beb003bc676de7ae7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedIntegerEvaluations.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.203000000212342,
+    "log": "round-native-lattice-ordered-basis-NativeLatticeOrderedIntegerEvaluations-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedIntegerEvaluations.lean",
+    "source_sha256": "ae6b2c76da17b2c96bcee5ba60dcc1528010050eddf61f9c10e679561437d70b"
+  }
+]

@@ -1,0 +1,37 @@
+Author mathematical review, 2026-10-14.
+Primary reference: pinned OpenAI math adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+07_cube_limits.tex, simultaneous local cube law proof, especially the maximal
+character and isolated coefficient argument. This round proves q=0 on full
+unshifted integer intervals. It does not prove the full local cube proposition.
+
+1. The inherited unregistered horizontal bridge was explicitly recompiled.
+Its subgroup is the original layer zero and its lattice is the actual
+intersection with rho Gamma rho^-1. Native derivative/logarithm transport
+is used; no ambient commutator-kernel claim is made.
+2. Existing exact zero trim resolves a representation issue: weighted
+lists may contain zero-vector terms of arbitrary scalar degree. Ordinary
+degree is asserted only after trim. The original scalar projection is
+preserved as a polynomial, not only at sampled points.
+3. Inverse constants and finite character grid precede all sources and tests.
+The inverse theorem is unconditional; source adaptation and geometric
+filtration fields are its legitimate inputs, not replacements for an inverse.
+4. The horizontal extension need only kill internal brackets. Its relative
+kernel in layer zero is used in the actual BCH theorem. Higher original
+monomial coefficients survive all lower Taylor removals exactly. The actual
+residual has j initial zeros and scalar degree at most j; finite root
+counting identifies it with value-at-j times the binomial polynomial.
+5. The reciprocal factorial is explicitly rational and nonzero. The existing
+all-rational-character irrationality includes this multiple; no invalid
+real scalar invariance of circle norm is assumed.
+6. The finite character/level intersection produces ONE eventual threshold
+for ALL unit Lipschitz tests, including tests depending on the sequence index.
+The finite list may be empty and ell may be zero: then discrepancy cannot
+produce the required character/positive level, so no fake witness is chosen.
+7. The source sampling is literally scalarMvIntegerCube Unit N = [0,N).
+N is any cofinal natural length sequence. The irrationality scale in this
+theorem is exactly N. Floor/real-length transport, shorter windows,
+translations and fixed rational/integer progression factors require further
+proof and are not part of this theorem.
+8. No full Hindman theorem, independent review, award eligibility or
+unavoidable obstruction is asserted. Full source/hash/axiom/build checks
+remain author-side checks and do not constitute independent kernel replay.

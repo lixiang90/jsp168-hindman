@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.765999999828637,
+  "log": "round-rough-fixed-kernel-axioms.txt",
+  "log_sha256": "590b31eff09d2043dd49a36fa9989b87821122e745c5d67828258c8f5f3715d4"
+}

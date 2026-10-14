@@ -1,0 +1,178 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MvScalarTranslation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.437000000150874,
+    "log": "round-native-rational-scalar-difference-formula-MvScalarTranslation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MvScalarTranslation.lean",
+    "source_sha256": "b5226da24c5094caa30be36126a7c75de1d54e324988c3acb2f94505d4b5eee3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCommutatorCharacter.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.312999999849126,
+    "log": "round-native-rational-scalar-difference-formula-NativeRationalCommutatorCharacter-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCommutatorCharacter.lean",
+    "source_sha256": "e5dc924722fc3e8a8677142ad52ce2b73490db1bfde2e60cd774164e622c9b22"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCompactScalarDifferencePolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.79700000002049,
+    "log": "round-native-rational-scalar-difference-formula-NativeRationalCompactScalarDifferencePolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCompactScalarDifferencePolynomial.lean",
+    "source_sha256": "9f3c8797647aed231dc8fae992281c4ff5be1e25c821937e30cd28d972e709b4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDifferenceConjugation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.061999999918044,
+    "log": "round-native-rational-scalar-difference-formula-NativeRationalDifferenceConjugation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDifferenceConjugation.lean",
+    "source_sha256": "5248019def3b14130bddce8cd963973ab557a7c37f3407eab7fc8a7f2897c836"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalNonlinearPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.280999999959022,
+    "log": "round-native-rational-scalar-difference-formula-NativeRationalNonlinearPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalNonlinearPolynomial.lean",
+    "source_sha256": "ff2520e147cd02b3cfeaa4b65e3f1063abe843d1838f5d478e024a1e279790de"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalNonlinearScalarGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.29700000002049,
+    "log": "round-native-rational-scalar-difference-formula-NativeRationalNonlinearScalarGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalNonlinearScalarGeometry.lean",
+    "source_sha256": "cb07ae556ca52cee9730bc542d90e1df4bc6e1564fb8d00a5932c130ddfa6967"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalRelativeGroupDecomposition.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.54700000002049,
+    "log": "round-native-rational-scalar-difference-formula-NativeRationalRelativeGroupDecomposition-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalRelativeGroupDecomposition.lean",
+    "source_sha256": "8d65dbe2124145d35a94bdc9afcc5e0af816a914699308f4ba260bf852bac7de"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalScalarDifferenceFormula.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.75,
+    "log": "round-native-rational-scalar-difference-formula-NativeRationalScalarDifferenceFormula-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalScalarDifferenceFormula.lean",
+    "source_sha256": "61335760b37ad29fff3df988b79a9787b6b557881e3de363f52480f8477112b1"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalScalarDifferencePolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.890000000130385,
+    "log": "round-native-rational-scalar-difference-formula-NativeRationalScalarDifferencePolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalScalarDifferencePolynomial.lean",
+    "source_sha256": "2490533c67f189f25764b96d11d77022c03073438ba38aa4e8d619a308e610ec"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SubgroupCharacterNormalizedPair.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.562999999849126,
+    "log": "round-native-rational-scalar-difference-formula-SubgroupCharacterNormalizedPair-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/SubgroupCharacterNormalizedPair.lean",
+    "source_sha256": "c95a3abf711efc4864cef1c6524a3f6513305dc77906606dc09539c2241a4e02"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SubgroupRealCharacterConjugation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.984000000171363,
+    "log": "round-native-rational-scalar-difference-formula-SubgroupRealCharacterConjugation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/SubgroupRealCharacterConjugation.lean",
+    "source_sha256": "33084efa0f3997f3d36a26310765eec83301feaadbe9d996b281111f9dcdd803"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous round rechecked before edits. All 981 retained hashes verified at registration; original targets, prior proofs, laws, pins and attribution remain unchanged.",
+    "Follows the combining-subgroups paragraph of fixed 05_prediction.tex. The subgroup is the actual image of multiplication by q, not an abstract subgroup assumed to satisfy a sum identity.",
+    "The decomposition uses Nat.gcdA and Nat.gcdB as integer scalar coefficients and the exact Bezout identity. Negative coefficients are legitimate in the additive group. The theorem covers cyclic groups directly and does not assume a field or invertibility of either coefficient separately.",
+    "The subgroup sum is the lattice join of actual additive subgroups; explicit summands prove every group element lies in the join. This corresponds to the paper subgroup sum, not multiplication of elements in a quotient.",
+    "The weighted error estimate assumes nonnegative finite weights summing to one and retains their product weights. On coprime pairs the actual subgroup join is top; on the complement a bounded statistic costs at most one. Summing the constant term uses exact normalization.",
+    "The statistic is deliberately an explicit arbitrary subgroup function with upper bound one and nonnegative full-group value. This theorem does not claim Gowers norms or a Bessel modulus have already been constructed. Their properties remain a separate obligation.",
+    "One definition and six theorems are individually registered for kernel axiom audit. No completed inverse theorem or main target is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/CoprimeMultipleSubgroups.lean",
+    "Hindman168/WeightedSubgroupCombination.lean"
+  ],
+  "verified": {
+    "project_modules": 965,
+    "pntplus_modules": 9,
+    "source_scan_modules": 974,
+    "source_config_hashes": 983,
+    "build_jobs": 4919,
+    "axiom_reports": 4709,
+    "new_theorems": 6,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 7,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The exact Bezout subgroup-sum identity and probability-weighted noncoprime-pair error bound are now proved. These support the combining-subgroups paragraph of the inverse argument but do not establish Gowers norm properties or the Bessel inverse input. Next construct the actual subgroup cube norms and their finite-system estimates, cyclic-to-interval transfer, weighted cell assembly and inverse correlators. Coloring-derived dense targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

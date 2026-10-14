@@ -1,0 +1,13 @@
+import Hindman168.FiniteComplexSetMean
+import Mathlib.Tactic
+#check Finset.sum_range_add
+#check Finset.sum_product
+#check Finset.sum_bij'
+#check Nat.div_lt_iff_lt_mul
+#check Nat.lt_floor_add_one
+#check Nat.floor_le
+#check Nat.le_floor
+#check Complex.norm_exp_I_mul_ofReal_sub_one_le
+#check AddCircle.toCircle_apply_mk
+#check Circle.coe_exp
+#check AddCircle.toCircle_zero

@@ -1,0 +1,64 @@
+{
+  "baseline_hash_count": 1016,
+  "modules": [
+    "Hindman168/UniformImageHaarDensity.lean",
+    "Hindman168/ShortIntervalDensityBound.lean",
+    "Hindman168/ShortIntervalDifferenceCubeBound.lean"
+  ],
+  "names": [
+    "Hindman168.uniformImageHaarDensity",
+    "Hindman168.uniformImageHaarDensity_nonneg",
+    "Hindman168.uniformImageHaarDensity_le",
+    "Hindman168.uniformImageHaarDensity_expectation",
+    "Hindman168.uniformImageHaarDensity_total",
+    "Hindman168.shortInterval_card_ratio",
+    "Hindman168.shortInterval_uniform_density_le",
+    "Hindman168.shortZModInterval_injective",
+    "Hindman168.weightedShortIntervalDensityCube_bound"
+  ],
+  "theorem_count": 8,
+  "declarations": {
+    "Hindman168/UniformImageHaarDensity.lean": [
+      [
+        "def",
+        "uniformImageHaarDensity"
+      ],
+      [
+        "theorem",
+        "uniformImageHaarDensity_nonneg"
+      ],
+      [
+        "theorem",
+        "uniformImageHaarDensity_le"
+      ],
+      [
+        "theorem",
+        "uniformImageHaarDensity_expectation"
+      ],
+      [
+        "theorem",
+        "uniformImageHaarDensity_total"
+      ]
+    ],
+    "Hindman168/ShortIntervalDensityBound.lean": [
+      [
+        "theorem",
+        "shortInterval_card_ratio"
+      ],
+      [
+        "theorem",
+        "shortInterval_uniform_density_le"
+      ],
+      [
+        "theorem",
+        "shortZModInterval_injective"
+      ]
+    ],
+    "Hindman168/ShortIntervalDifferenceCubeBound.lean": [
+      [
+        "theorem",
+        "weightedShortIntervalDensityCube_bound"
+      ]
+    ]
+  }
+}

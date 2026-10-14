@@ -1,0 +1,70 @@
+{
+  "baseline_hashes_verified_before_registration": 897,
+  "new_modules": [
+    "Hindman168/NativeCenterQuotientRationalKernel.lean",
+    "Hindman168/NativeLieRationalIdealCosets.lean",
+    "Hindman168/NativeLieRationalPowerMembership.lean",
+    "Hindman168/NativeLieRationalRootLayerSubmodule.lean",
+    "Hindman168/NativeSubgroupRationalCenterKernel.lean",
+    "Hindman168/NativeSubgroupRationalHullRoots.lean",
+    "Hindman168/NativeSubgroupRationalRootInduction.lean"
+  ],
+  "names": [
+    "Hindman168.nativeCenterQuotientProjection_eq_zero_iff",
+    "Hindman168.nativeCenterQuotientRationalLogKernelEquiv",
+    "Hindman168.nativeCenterQuotient_rationalLogSpan_finrank_split",
+    "Hindman168.nativeLattice_center_original_rationalLogSpan_finrank",
+    "Hindman168.nativeLattice_rationalLogSpan_finrank_center_step",
+    "Hindman168.nativeLieGlobalLogarithm_ideal_difference",
+    "Hindman168.nativeLieExponential_mem_of_ideal_difference",
+    "Hindman168.nativeLieExponential_int_smul",
+    "Hindman168.nativeLieExponential_rat_power_den",
+    "Hindman168.nativeLieExponential_rat_smul_mem_root_closed",
+    "Hindman168.nativeLieExponential_add_mem_of_internal_next",
+    "Hindman168.nativeLieRationalRootLayerSubmodule",
+    "Hindman168.nativeLieRationalRootLayerSubmodule_mem_iff",
+    "Hindman168.nativeSubgroupRationalLogSpan_center_intersection_le",
+    "Hindman168.nativeSubgroupRationalLogSpan_central_mem_intersection",
+    "Hindman168.nativeSubgroupRationalLogSpan_center_kernel_eq",
+    "Hindman168.nativeSubgroupRationalHull_center_intersection_eq",
+    "Hindman168.nativeSubgroupRationalHull_le_positiveRoots",
+    "Hindman168.nativeSubgroupRationalHull_eq_positiveRoots",
+    "Hindman168.nativeSubgroupRationalHull_mem_iff_positive_power",
+    "Hindman168.nativeSubgroupRationalLogSpan_mem_iff_positive_power",
+    "Hindman168.nativeSubgroupRationalHull_eq_self_of_root_closed",
+    "Hindman168.nativeSubgroupRationalHull_uniform_power_of_fg",
+    "Hindman168.nativeSubgroup_internal_exponentials_mem_root_closed_of_terminating",
+    "Hindman168.nativeSubgroupRationalLogSpan_exponential_mem_root_closed",
+    "Hindman168.nativeSubgroupRationalHull_le_root_closed"
+  ],
+  "module_report_counts": {
+    "NativeCenterQuotientRationalKernel": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeLieRationalIdealCosets": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLieRationalPowerMembership": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieRationalRootLayerSubmodule": {
+      "theorems": 2,
+      "selected_declarations": 3
+    },
+    "NativeSubgroupRationalCenterKernel": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeSubgroupRationalHullRoots": {
+      "theorems": 6,
+      "selected_declarations": 6
+    },
+    "NativeSubgroupRationalRootInduction": {
+      "theorems": 3,
+      "selected_declarations": 3
+    }
+  }
+}

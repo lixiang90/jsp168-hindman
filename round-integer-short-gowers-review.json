@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "Positive a justifies exact cancellation of a in the natural floor quotient. The short length n/J is explicitly positive before averaging.",
+    "The cyclic observable is the actual original integer function pulled back along the affine cell representative. Its unit bound follows directly from the original integer bound.",
+    "Integer casts of the signed subset sums are identified exactly with the existing cyclic subgroup vertices. The Gowers estimate and the previously proved wrapping estimate are then combined by the absolute-value triangle inequality.",
+    "The subgroup is the actual multiples-of-a subgroup in ZMod(a*n), and the Gowers order remains 2^d. No Bessel or inverse-theorem hypothesis is introduced. Two new theorems are individually kernel audited."
+  ],
+  "new_modules": [
+    "Hindman168/IntegerShortCubeGowersBound.lean"
+  ],
+  "verified": {
+    "project_modules": 1037,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1046,
+    "source_config_hashes": 1055,
+    "build_jobs": 4991,
+    "axiom_reports": 4934,
+    "new_theorems": 2,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 2,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The weighted integer short-cube average is now bounded directly by the finite subgroup Gowers quantity plus 4d/J. Aggregating original harmonic uniformization with this bound remains, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

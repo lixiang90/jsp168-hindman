@@ -1,0 +1,94 @@
+{
+  "modules": [
+    "Hindman168/FiniteConditionedSignalBudgets.lean",
+    "Hindman168/NativeRationalConstructedChildSignal.lean",
+    "Hindman168/NativeRationalCharacterChildBudget.lean",
+    "Hindman168/NativeRationalFiniteCharacterChildBudget.lean",
+    "Hindman168/NativeRationalDenseChildSignal.lean",
+    "Hindman168/NativeRationalDegreeTwoDenseChildSignal.lean",
+    "Hindman168/NativeRationalChildScalarTransport.lean"
+  ],
+  "names": [
+    "Hindman168.finite_conditioned_signal_budgets",
+    "Hindman168.native_rational_constructed_nonlinearity_child_signal",
+    "Hindman168.NativeRationalNonlinearityCharacterGood",
+    "Hindman168.NativeRationalCharacterChildBudget",
+    "Hindman168.native_rational_character_child_budget_exists",
+    "Hindman168.native_rational_character_child_budget_mono",
+    "Hindman168.native_rational_finite_character_child_budget",
+    "Hindman168.native_rational_dense_child_signal",
+    "Hindman168.native_rational_degree_two_dense_child_signal",
+    "Hindman168.native_rational_right_factor_scalar_identity",
+    "Hindman168.native_rational_progression_scalar_identity",
+    "Hindman168.native_rational_horizontal_positive_power_integer",
+    "Hindman168.native_rational_horizontal_rational_coeff_integer"
+  ],
+  "declarations": {
+    "Hindman168/FiniteConditionedSignalBudgets.lean": [
+      [
+        "theorem",
+        "finite_conditioned_signal_budgets"
+      ]
+    ],
+    "Hindman168/NativeRationalConstructedChildSignal.lean": [
+      [
+        "theorem",
+        "native_rational_constructed_nonlinearity_child_signal"
+      ]
+    ],
+    "Hindman168/NativeRationalCharacterChildBudget.lean": [
+      [
+        "def",
+        "NativeRationalNonlinearityCharacterGood"
+      ],
+      [
+        "def",
+        "NativeRationalCharacterChildBudget"
+      ],
+      [
+        "theorem",
+        "native_rational_character_child_budget_exists"
+      ],
+      [
+        "theorem",
+        "native_rational_character_child_budget_mono"
+      ]
+    ],
+    "Hindman168/NativeRationalFiniteCharacterChildBudget.lean": [
+      [
+        "theorem",
+        "native_rational_finite_character_child_budget"
+      ]
+    ],
+    "Hindman168/NativeRationalDenseChildSignal.lean": [
+      [
+        "theorem",
+        "native_rational_dense_child_signal"
+      ]
+    ],
+    "Hindman168/NativeRationalDegreeTwoDenseChildSignal.lean": [
+      [
+        "theorem",
+        "native_rational_degree_two_dense_child_signal"
+      ]
+    ],
+    "Hindman168/NativeRationalChildScalarTransport.lean": [
+      [
+        "theorem",
+        "native_rational_right_factor_scalar_identity"
+      ],
+      [
+        "theorem",
+        "native_rational_progression_scalar_identity"
+      ],
+      [
+        "theorem",
+        "native_rational_horizontal_positive_power_integer"
+      ],
+      [
+        "theorem",
+        "native_rational_horizontal_rational_coeff_integer"
+      ]
+    ]
+  }
+}

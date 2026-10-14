@@ -1,0 +1,69 @@
+{
+  "baseline_hash_count": 695,
+  "new_modules": [
+    "Hindman168/ODEContinuousLocalFlow.lean",
+    "Hindman168/LieInvariantParameterField.lean",
+    "Hindman168/ManifoldContinuousLocalFlow.lean",
+    "Hindman168/LieFrozenParameterFlow.lean",
+    "Hindman168/LieExponentialContinuity.lean"
+  ],
+  "new_theorems": [
+    "Hindman168.contDiffAt_exists_continuous_local_flow",
+    "Hindman168.contDiffAt_exists_continuous_open_local_flow",
+    "Hindman168.contDiffAt_exists_continuous_local_flow_mem",
+    "Hindman168.lie_identity_tangent_inclusion_contMDiff",
+    "Hindman168.lie_invariant_field_joint_contMDiff",
+    "Hindman168.lie_invariant_field_joint_contMDiff_one",
+    "Hindman168.manifold_contMDiffAt_exists_continuous_local_flow",
+    "Hindman168.lieFrozenParameterField_contMDiff_one",
+    "Hindman168.lieFrozenParameterCurve_integral",
+    "Hindman168.lieOneParameterCurve_continuousAt_local_parameter",
+    "Hindman168.lieOneParameterCurve_nat_mul",
+    "Hindman168.nativeLieExponential_continuous",
+    "Hindman168.lieOneParameterCurve_joint_continuous",
+    "Hindman168.lieInvariantFlow_joint_continuous"
+  ],
+  "new_selected_declarations": [
+    "Hindman168.contDiffAt_exists_continuous_local_flow",
+    "Hindman168.contDiffAt_exists_continuous_open_local_flow",
+    "Hindman168.contDiffAt_exists_continuous_local_flow_mem",
+    "Hindman168.lie_identity_tangent_inclusion_contMDiff",
+    "Hindman168.lie_invariant_field_joint_contMDiff",
+    "Hindman168.lie_invariant_field_joint_contMDiff_one",
+    "Hindman168.manifold_contMDiffAt_exists_continuous_local_flow",
+    "Hindman168.lieFrozenParameterField",
+    "Hindman168.lieFrozenParameterField_contMDiff_one",
+    "Hindman168.lieFrozenParameterCurve_integral",
+    "Hindman168.lieOneParameterCurve_continuousAt_local_parameter",
+    "Hindman168.lieOneParameterCurve_nat_mul",
+    "Hindman168.nativeLieExponential_continuous",
+    "Hindman168.lieOneParameterCurve_joint_continuous",
+    "Hindman168.lieInvariantFlow_joint_continuous"
+  ],
+  "module_report_counts": {
+    "ODEContinuousLocalFlow": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "LieInvariantParameterField": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "ManifoldContinuousLocalFlow": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "LieFrozenParameterFlow": {
+      "theorems": 2,
+      "selected_declarations": 3
+    },
+    "LieExponentialContinuity": {
+      "theorems": 5,
+      "selected_declarations": 5
+    }
+  },
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ]
+}

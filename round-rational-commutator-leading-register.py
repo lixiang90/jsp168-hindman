@@ -1,0 +1,34 @@
+from pathlib import Path
+import json
+from importlib.util import spec_from_file_location,module_from_spec
+spec=spec_from_file_location("previous_audit","round-rational-bch-layers-audit.py")
+old=module_from_spec(spec);spec.loader.exec_module(old)
+prefix="round-rational-commutator-leading"
+baseline=old.obj(prefix+"-baseline.json")
+assert len(baseline["files"])==889
+assert all(old.digest(f["path"])==f["sha256"] for f in baseline["files"])
+modules=['Hindman168/NativeLieRationalAdjointInternal.lean', 'Hindman168/NativeLieRationalCommutatorLeading.lean', 'Hindman168/NativeLieRationalInternalGeneration.lean', 'Hindman168/NativeLieRationalLayerDescent.lean', 'Hindman168/NativeLieRationalPairIdealBCH.lean', 'Hindman168/NativeSubgroupRationalGroupLayers.lean', 'Hindman168/NativeSubgroupRationalLayerEquality.lean', 'Hindman168/RationalBilinearPairIdeal.lean']
+names=[]
+counts={}
+for path in modules:
+    ds=old.declarations(path)
+    names.extend("Hindman168."+n for _,n in ds)
+    counts[Path(path).stem]={"theorems":sum(k in {"theorem","lemma"} for k,_ in ds),"selected_declarations":len(ds)}
+assert len(names)==len(set(names))==26
+assert sum(c["theorems"] for c in counts.values())==25
+root=old.read("Hindman168.lean")
+registry=old.read("Verification.lean")
+for path in modules:
+    statement="import "+path[:-5].replace("/",".")
+    assert statement not in root.splitlines()
+    root+="\n"+statement+"\n"
+for name in names:
+    statement="#print axioms "+name
+    assert statement not in registry.splitlines()
+    registry+="\n"+statement+"\n"
+Path("Hindman168.lean").write_text(root,encoding="utf-8")
+Path("Verification.lean").write_text(registry,encoding="utf-8")
+old.write_obj(prefix+"-registration.json",{
+"baseline_hashes_verified_before_registration":889,
+"new_modules":modules,"names":names,"module_report_counts":counts})
+print(json.dumps({"new_modules":len(modules),"new_reports":len(names),"counts":counts}))

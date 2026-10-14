@@ -1,0 +1,67 @@
+{
+  "modules": [
+    "Hindman168/RoughHorizontalError.lean",
+    "Hindman168/RoughHorizontalInterpolation.lean",
+    "Hindman168/RoughBinomialWeights.lean"
+  ],
+  "names": [
+    "Hindman168.rough_mod_one_integer_scale",
+    "Hindman168.rough_mod_one_remove_integer_parts",
+    "Hindman168.rough_mod_one_sample_step_transfer",
+    "Hindman168.rough_horizontal_tail_error",
+    "Hindman168.rough_mod_one_descending_coefficient",
+    "Hindman168.rough_horizontal_interpolation_step",
+    "Hindman168.rough_binomial_weight_bound",
+    "Hindman168.rough_binomial_weight_degree_bound",
+    "Hindman168.rough_multiindex_strict_degree",
+    "Hindman168.rough_mod_one_multiindex_descent"
+  ],
+  "declarations": {
+    "Hindman168/RoughHorizontalError.lean": [
+      [
+        "theorem",
+        "rough_mod_one_integer_scale"
+      ],
+      [
+        "theorem",
+        "rough_mod_one_remove_integer_parts"
+      ],
+      [
+        "theorem",
+        "rough_mod_one_sample_step_transfer"
+      ],
+      [
+        "theorem",
+        "rough_horizontal_tail_error"
+      ],
+      [
+        "theorem",
+        "rough_mod_one_descending_coefficient"
+      ]
+    ],
+    "Hindman168/RoughHorizontalInterpolation.lean": [
+      [
+        "theorem",
+        "rough_horizontal_interpolation_step"
+      ]
+    ],
+    "Hindman168/RoughBinomialWeights.lean": [
+      [
+        "theorem",
+        "rough_binomial_weight_bound"
+      ],
+      [
+        "theorem",
+        "rough_binomial_weight_degree_bound"
+      ],
+      [
+        "theorem",
+        "rough_multiindex_strict_degree"
+      ],
+      [
+        "theorem",
+        "rough_mod_one_multiindex_descent"
+      ]
+    ]
+  }
+}

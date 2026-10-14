@@ -1,0 +1,79 @@
+{
+  "baseline_hashes_verified_before_registration": 747,
+  "new_modules": [
+    "Hindman168/NativeLieShiftedExponential.lean",
+    "Hindman168/NativeLieExponentialLocalLogAt.lean",
+    "Hindman168/NativeLieExponentialLocalHomeomorph.lean",
+    "Hindman168/NilpotentFiniteExponentialKernel.lean",
+    "Hindman168/NativeLieExponentialCentralKernel.lean",
+    "Hindman168/NativeLieAdjointKernelCenter.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLieShiftedExponential",
+    "Hindman168.nativeLieShiftedExponential_zero",
+    "Hindman168.nativeLieShiftedExponential_contDiffAt",
+    "Hindman168.nativeLieShiftedExponential_hasFDerivAt",
+    "Hindman168.nativeLieDexpEquiv",
+    "Hindman168.nativeLieDexpEquiv_toContinuousLinearMap",
+    "Hindman168.nativeLieShiftedExponential_hasStrictFDerivAt",
+    "Hindman168.nativeLieShiftedExponentialInverse",
+    "Hindman168.nativeLieShiftedExponentialInverse_left",
+    "Hindman168.nativeLieShiftedExponentialInverse_right",
+    "Hindman168.nativeLieShiftedExponentialInverse_center",
+    "Hindman168.nativeLieShiftedExponentialInverse_hasStrictFDerivAt",
+    "Hindman168.nativeLieShiftedExponentialInverse_contDiffAt",
+    "Hindman168.nativeLieExponentialRelativeChart",
+    "Hindman168.nativeLieExponentialRelativeChart_self",
+    "Hindman168.nativeLieExponentialRelativeChart_contMDiffAt",
+    "Hindman168.nativeLieExponentialRelativeChart_exponential",
+    "Hindman168.nativeLieExponentialLocalLogAt",
+    "Hindman168.nativeLieExponentialLocalLogAt_self",
+    "Hindman168.nativeLieExponentialLocalLogAt_contMDiffAt",
+    "Hindman168.nativeLieExponentialLocalLogAt_left",
+    "Hindman168.nativeLieExponentialLocalLogAt_right",
+    "Hindman168.nativeLieExponential_image_mem_nhds_at",
+    "Hindman168.nativeLieExponential_isOpenMap",
+    "Hindman168.nativeLieExponential_injOn_nhds",
+    "Hindman168.nativeLieExponential_isLocalHomeomorph",
+    "Hindman168.nativeLieExponential_map_nhds",
+    "Hindman168.nativeLieExponential_fiber_closed",
+    "Hindman168.nativeLieExponential_fiber_discrete",
+    "Hindman168.nativeLieExponential_range_open",
+    "Hindman168.nilpotent_finite_exponential_factor",
+    "Hindman168.eq_zero_of_nilpotent_finite_exponential_eq_one",
+    "Hindman168.nativeLieAdjointGenerator_eq_zero_of_exponential_eq_one",
+    "Hindman168.nativeLieBracket_eq_zero_of_exponential_eq_one",
+    "Hindman168.nativeLieAdjointCurve_eq_one_of_exponential_eq_one",
+    "Hindman168.nativeLieExponential_commute_of_adjoint_eq_one",
+    "Hindman168.nativeLie_mem_center_of_adjoint_eq_one",
+    "Hindman168.nativeLieAdjoint_eq_one_of_mem_center",
+    "Hindman168.nativeLieAdjoint_eq_one_iff_mem_center",
+    "Hindman168.nativeLiePeriodCurve_mem_center"
+  ],
+  "module_report_counts": {
+    "NativeLieShiftedExponential": {
+      "theorems": 10,
+      "selected_declarations": 13
+    },
+    "NativeLieExponentialLocalLogAt": {
+      "theorems": 7,
+      "selected_declarations": 9
+    },
+    "NativeLieExponentialLocalHomeomorph": {
+      "theorems": 8,
+      "selected_declarations": 8
+    },
+    "NilpotentFiniteExponentialKernel": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLieExponentialCentralKernel": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieAdjointKernelCenter": {
+      "theorems": 5,
+      "selected_declarations": 5
+    }
+  }
+}

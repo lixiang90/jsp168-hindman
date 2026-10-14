@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous round rechecked before editing. All 960 retained hashes checked at registration; only root imports and axiom registry change among baseline files. Original statements, original laws, dependencies and fixed source remain unchanged.",
+    "The paper energy-selection argument colors increasing tuples with tail T followed by gap l and pivot i. Encoding by a finite set is valid because all tail entries precede l<i. Explicit decoding, cardinality and subset theorems establish the bridge to the finite-set Ramsey theorem.",
+    "A sup on natural numbers defines the total decoder even on empty or singleton sets. Invalid tuples cause no problem: the energy function is globally bounded, while decoding identities are used only for valid tuples. No assumption that an arbitrary finite set has two distinct largest elements is made.",
+    "The compared finite sets both have cardinality T.card+2. Their recovered tails and pivots coincide exactly, even when l=k. Both gap entries and the pivot belong to the selected set. This rules out the erroneous comparison of projections of unrelated target vectors.",
+    "The uniform master bound is selected before energy data, projection spaces and vectors. The finite labels are jointly colored, and energy bin width is epsilon squared. The projection variant allows genuinely different Hilbert spaces at different pivots.",
+    "The fine residual theorem explicitly requires the relevant space inclusion and coarse approximation. It derives the actual energy bound from the indexed homogeneous set and applies the previously proved projection identity. It does not yet instantiate the native original-law spaces or extract alternating padding indices.",
+    "All four definitions and six theorems are individually kernel-audited. Full target, Calibration/Alignment, final arithmetic extraction, publication and prize submission remain uncompleted."
+  ],
+  "new_modules": [
+    "Hindman168/EnergyTupleEncoding.lean",
+    "Hindman168/IndexedEnergySelection.lean",
+    "Hindman168/IndexedProjectionSelection.lean"
+  ],
+  "verified": {
+    "project_modules": 945,
+    "pntplus_modules": 9,
+    "source_scan_modules": 954,
+    "source_config_hashes": 963,
+    "build_jobs": 4899,
+    "axiom_reports": 4645,
+    "new_theorems": 6,
+    "new_definitions": 4,
+    "new_instances": 0,
+    "new_axiom_reports": 10,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Native geometry, Hilbert realization, native finite product closure, actual clipped dense approximation and its conditional fine residual estimate remain proved. Exact tail-gap-pivot tuple encoding and uniform indexed Ramsey energy/projection selection are now proved, including pivot-dependent Hilbert spaces and the same target vector in both compared energies. Next extract alternating padding/principal indices from the homogeneous set, instantiate the native spaces and original block laws, and assemble simultaneous actual representatives with common finite bounds. Calibration/Alignment, subgroup inverse inputs, actual coloring/arithmetic extraction, ordered positive rapidly separated monochromatic witnesses and required quantitative bounds remain. Original StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

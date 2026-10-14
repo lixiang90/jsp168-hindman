@@ -1,0 +1,15 @@
+✖ [3971/3971] Building Hindman168.FreshDivisorOccurrences (7.8s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\FreshDivisorOccurrences.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\FreshDivisorOccurrences.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\FreshDivisorOccurrences.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\FreshDivisorOccurrences.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\FreshDivisorOccurrences.setup.json --json
+error: Hindman168/FreshDivisorOccurrences.lean:61:2: 'change' tactic failed, pattern
+  (expectation (variableHarmonicRowDivisorMass X W) fun k =>
+      ↑(∏ i, k i) * @ite ℝ (∀ (i : Fin q), ↑(k i) ∣ z i) (Nat.decidableForallFin fun i => ↑(k i) ∣ z i) 1 0) =
+    ?m.79
+is not definitionally equal to target
+  (expectation (piMass fun i => harmonicDivisorMass (X i) W) fun k =>
+      ↑(∏ i, k i) * @ite ℝ (∀ (i : Fin q), ↑(k i) ∣ z i) Fintype.decidableForallFintype 1 0) =
+    expectation (freshDivisorRawMass X W) fun x =>
+      ↑(∏ i, freshDivisorProducts x i) * if ∀ (i : Fin q), ↑(freshDivisorProducts x i) ∣ z i then 1 else 0
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.FreshDivisorOccurrences
+error: build failed

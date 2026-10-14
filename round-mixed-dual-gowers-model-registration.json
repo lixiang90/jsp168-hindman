@@ -1,0 +1,28 @@
+{
+  "baseline_hash_count": 1092,
+  "modules": [
+    "Hindman168/MixedDualGowersModel.lean"
+  ],
+  "names": [
+    "Hindman168.mixedDualHilbert_gowers_power_le_projection",
+    "Hindman168.mixedDualHilbert_unit_model",
+    "Hindman168.mixedDualHilbert_unit_model_eventually"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/MixedDualGowersModel.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_gowers_power_le_projection"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_unit_model"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_unit_model_eventually"
+      ]
+    ]
+  }
+}

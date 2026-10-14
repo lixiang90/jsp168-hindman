@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 532,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskOrderedPrefixSteps.lean",
+    "Hindman168/MaskOrderedInputTransfer.lean",
+    "Hindman168/MaskOrderedInputPath.lean",
+    "Hindman168/MaskFiniteSquareThresholds.lean",
+    "Hindman168/MaskOrderedTargetRetention.lean",
+    "Hindman168/MaskFiniteElimination.lean"
+  ],
+  "new_selected_report_count": 37,
+  "module_report_counts": {
+    "MaskOrderedPrefixSteps": 7,
+    "MaskOrderedInputTransfer": 4,
+    "MaskOrderedInputPath": 5,
+    "MaskFiniteSquareThresholds": 5,
+    "MaskOrderedTargetRetention": 11,
+    "MaskFiniteElimination": 5
+  },
+  "application_review": [
+    "All 532 retained source/config hashes were revalidated before registration. Only root imports and the exact-name Verification registry changed among retained files. Retained proofs, StrongStatement, nine attributed PNT+ sources and Lean/mathlib/PNT+ pins remain unchanged. Both local preprint sections match fixed adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote update was checked in this goal round.",
+    "The actual ordered nonempty-mask list has remaining family (list.drop k).toFinset, contains the current mask at each valid step, and erasing that mask gives exactly the next remaining family by list nodup. Its final remaining family is empty. Actual prefix(k+1) equals prefix(k).step by that current mask, and the final prefix is fullMaskRowStage.",
+    "Genuine updated row and mask functions can be transported across the adjacent actual-stage equality without changing their complete correlation. At every eventually valid w, updated row bounds hold uniformly over every supplied actual-stage input on the entire new prime support and every integer argument; mask bounds pass to exactly the erased family.",
+    "A recursive admissible input path is constructed along all actual mask steps, using the genuine update at every step. The correlation at the next path node is exactly the one-step updated correlation, and its terminal input is a complete-law admissible input with empty multiplicative-mask family.",
+    "Positive finite square tolerances satisfy theta_(j+1)=theta_j^2/(c+1) and the exact closed form epsilon^(2^j)/(c+1)^(2^j-1). A finite nonnegative correlation chain bounded at each step by c times the next value plus theta_(j+1), and with terminal value at most theta_L, has initial value at most epsilon.",
+    "The actual targeted noninvariant descendant keeps the old target row function at every integer argument and every flattened prime tuple, after projecting to the shared old tuple. Its maximum-support normalization anchor is unchanged by every actual step.",
+    "If the initial distinguished function is g independently of its prime tuple, every genuine admissible input on the ordered path, including the empty-mask terminal input, has that same function g at its tracked target. The tracked anchor and original tail majorant are exactly the initial ones at every valid prefix.",
+    "All actual finite one-step square estimates can be made simultaneous over the finite ordered prefix choices, with the positive tolerance theta_(k+1) and uniformity over every admissible row/mask input. Their thresholds use the single m-only constant c_m=2^(maskRowCountBound m)+1.",
+    "For every positive epsilon, eventually every admissible initial row/mask input with distinguished function g has a genuinely constructed admissible empty-mask terminal input with the same g; if its correlation is at most epsilon^(2^L)/(c_m+1)^(2^L-1), the original correlation is at most epsilon. All finite-step errors are controlled by proved simultaneous eventual thresholds.",
+    "Under the explicitly stated remaining hypothesis of uniform decay for all admissible empty-mask terminal inputs with the actual distinguished function g(w), the initial full row/mask correlation decays uniformly over all admissible initial inputs with that function. The hypothesis is not asserted proved or added as an axiom.",
+    "The auxiliary MaskRowStageInput is solely for dependent equality transport of actual-stage functions and their original bounds. It supplies no new analytic assumption or arbitrary-family row-count cap. The next actual input is the genuine updated family transported across the proved ordered prefix identity, retaining the entire independent new-prime law.",
+    "The recursive path is built only for k <= the actual mask-list length. Nodup proves each current mask is present and is removed exactly once; the input constructor preserves bounds on all integer arguments, not merely values sampled in the base-law support.",
+    "Finite error control uses a distinct fixed positive tolerance for each finite step. Finitely many eventual estimates are intersected before quantifying over all inputs. No bound on an intermediate correlation is assumed, and no claim is made that an unspecified o(1) may be raised to powers. The final threshold has an exact m-dependent length and square constant.",
+    "Target retention is an equality of functions on every flattened tuple. The tracked branch is the actual false noninvariant copy chosen by TargetedMaskRowStage.step, and the descendant normalization theorem proves its maximum-support anchor, hence original tail majorant, remains the initial one. This does not itself prove the distinguished function has zero mean on the final additive sampling law.",
+    "The terminal decay implication retains its analytic endpoint condition explicitly. It must still be discharged by identifying the actual final generated row family, prime/base laws, distinguished centered function and source admissibility with the existing additive estimates. Neither this implication nor the existence of an empty-mask endpoint proves StrongConjecture.",
+    "The full build completed 4385 jobs with no warnings or errors. The kernel audit covers all 2576 exact registered names including all 37 new names, with no unexpected axioms. The scan covers 520 own and 9 attributed PNT+ modules, plus root and registry; 538 source/config hashes were recorded. The previous goal turn and this goal turn are PROGRESS. No unavoidable blocker is established."
+  ],
+  "source_preprint_section": "04_correlation.tex:266-280 (actual row structure and tracked function); 291-307 (original full prime law, fixed ordered mask sequence and finite squaring); 310 onward (remaining additive endpoint). The finite positive-threshold formulation controls all actual steps without assuming preservation of an unspecified powered error.",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4385,
+    "project_modules": 520,
+    "pntplus_modules": 9,
+    "source_scan_modules": 529,
+    "axiom_reports": 2576,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 538,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original raw arbitrary-target additive source bound, centered-source cancellation and previous weighted cube transfers remain proved. Actual intermediate mask prefixes retain original-law majorant means, invariant-row prefactor limits, the common m-only weighted-square cap, original fresh-prime diagonal deletion and vanishing insertion/absorption caps. Descendant maximum-support normalization anchors, genuine updated row/mask functions, complete new prime law, absorbed full correlation identities and the actual uniform one-step recurrence remain proved. This round composes every actual ordered nonempty mask into a genuine admissible input path. Remaining masks are exactly the list tail, adjacent stages are actual prefix steps, every updated bound holds on the complete new prime support and all signed integer arguments, and the terminal input has no multiplicative masks. The distinguished function is unchanged at all stages when initially independent of the empty prime tuple; the tracked maximum-support normalization anchor and original tail majorant are unchanged. Finite positive thresholds theta_j = epsilon^(2^j)/(c_m+1)^(2^j-1) control all step errors uniformly over admissible functions. For each epsilon>0 a genuine mask-free terminal correlation at most theta_L implies an initial correlation at most epsilon. Uniform decay of all admissible mask-free terminal inputs with the actual distinguished function would therefore imply uniform decay of the initial row/mask correlation; that endpoint decay is an explicit hypothesis of the last theorem and has not been discharged. Instantiate the distinguished function with the actual centered target, identify the initial full row/mask correlation with the original preprint average, and transfer the genuine terminal stage to the exact additive source interface. Use the proved arbitrary-target additive estimates and centered cancellation with the required compatible normalization, labels, base laws and generated-row/prime support data to prove the mask-free endpoint decay. Then compose the unconditional original correlation principle. The finite threshold result does not assert the separately displayed quantitative bound |C_0|^(2^L) <= A_m*|C_L| + o(1); derive that bound if the subsequent proof requires it. No polynomial or constant bound for arbitrary iterated row families is claimed. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and ordered positive rapidly separated monochromatic witness extraction. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

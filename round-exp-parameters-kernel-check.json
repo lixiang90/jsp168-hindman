@@ -1,0 +1,40 @@
+{
+  "exact_registered_names": true,
+  "registered_count": 3461,
+  "report_count": 3461,
+  "old_report_count": 3446,
+  "new_reports": [
+    "Hindman168.contDiffAt_exists_continuous_local_flow",
+    "Hindman168.contDiffAt_exists_continuous_local_flow_mem",
+    "Hindman168.contDiffAt_exists_continuous_open_local_flow",
+    "Hindman168.lieFrozenParameterCurve_integral",
+    "Hindman168.lieFrozenParameterField",
+    "Hindman168.lieFrozenParameterField_contMDiff_one",
+    "Hindman168.lieInvariantFlow_joint_continuous",
+    "Hindman168.lieOneParameterCurve_continuousAt_local_parameter",
+    "Hindman168.lieOneParameterCurve_joint_continuous",
+    "Hindman168.lieOneParameterCurve_nat_mul",
+    "Hindman168.lie_identity_tangent_inclusion_contMDiff",
+    "Hindman168.lie_invariant_field_joint_contMDiff",
+    "Hindman168.lie_invariant_field_joint_contMDiff_one",
+    "Hindman168.manifold_contMDiffAt_exists_continuous_local_flow",
+    "Hindman168.nativeLieExponential_continuous"
+  ],
+  "old_axiom_sets_unchanged": true,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_free_reports": [
+    "Hindman168.MatrixDepth.smul",
+    "Hindman168.maskDescendant_encoding_injective",
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.matrixDepth_zero",
+    "Hindman168.matrixDepth_zero_iff_upper"
+  ],
+  "all_new_modules_warning_free": true,
+  "new_oleans_current": true,
+  "build_jobs": 4625
+}

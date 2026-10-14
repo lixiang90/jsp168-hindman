@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteProductApproximationBudgets.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.077999999979511,
+    "log": "round-alignment-complete-cube-face-probability-FiniteProductApproximationBudgets-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteProductApproximationBudgets.lean",
+    "source_sha256": "b5e7d55ae848ebda3c1857e4275d5448db8c6babbd4333e5443a938f60708e71"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteComplexCoefficientError.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.360000000102445,
+    "log": "round-alignment-complete-cube-face-probability-FiniteComplexCoefficientError-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteComplexCoefficientError.lean",
+    "source_sha256": "d1aeccfe1d3f853725ab72b9420cb7870f807e7b1ca918386f7fcfc2a2a29441"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCompleteCubeTestBudget.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.702999999979511,
+    "log": "round-alignment-complete-cube-face-probability-AlignmentCompleteCubeTestBudget-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCompleteCubeTestBudget.lean",
+    "source_sha256": "b63458ad0c012b72ece351602ce2dc4e47bd19b02353ea8f9f213ad6fe8332a4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCompleteCubeFaceFailure.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.672000000020489,
+    "log": "round-alignment-complete-cube-face-probability-AlignmentCompleteCubeFaceFailure-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCompleteCubeFaceFailure.lean",
+    "source_sha256": "6469742bcc9eddf7cd9be40ae4cbd468e95a35e4ef58a08bd4fff96689ac3897"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCompleteCubeFaceTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.468000000109896,
+    "log": "round-alignment-complete-cube-face-probability-AlignmentCompleteCubeFaceTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCompleteCubeFaceTransfer.lean",
+    "source_sha256": "d65b1e8c3c6790b0d21da6a31a47c6932b1cb77aa538ec7f0800dae820439633"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCompleteCubeFacePosterior.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.812999999849126,
+    "log": "round-alignment-complete-cube-face-probability-AlignmentCompleteCubeFacePosterior-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCompleteCubeFacePosterior.lean",
+    "source_sha256": "f378df3ebd739907c6eb9fa5eda88617ad1eddf78b778e1077d923900b35e39b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCompleteCubeFaceGlobal.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.172000000020489,
+    "log": "round-alignment-complete-cube-face-probability-AlignmentCompleteCubeFaceGlobal-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCompleteCubeFaceGlobal.lean",
+    "source_sha256": "30117ee7a15b9a9a06e259b629db35b6a00530c26a94906f747b6915050f3c10"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCompleteCubeFacePositiveSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.811999999918044,
+    "log": "round-alignment-complete-cube-face-probability-AlignmentCompleteCubeFacePositiveSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCompleteCubeFacePositiveSelection.lean",
+    "source_sha256": "6b31cb323d07cb6a4a6e2fa247539f1ae994fbac4da2e025c709949529197e2b"
+  }
+]

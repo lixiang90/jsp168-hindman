@@ -1,0 +1,61 @@
+{
+  "baseline_hashes_verified_before_registration": 753,
+  "previous_current_state_rechecked_before_edits": true,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "retained_proof_sources_unchanged": true,
+  "pins_and_attributed_sources_unchanged": true,
+  "root_imports_exact": true,
+  "registered_names_exact": true,
+  "kernel_names_exact": true,
+  "full_target_proved": false,
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4689,
+    "project_modules": 741,
+    "pntplus_modules": 9,
+    "source_scan_modules": 750,
+    "axiom_reports": 3799,
+    "axiom_free_reports": [
+      "Hindman168.MatrixDepth.smul",
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.matrixDepth_zero",
+      "Hindman168.matrixDepth_zero_iff_upper"
+    ],
+    "source_config_hash_count": 759,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "fresh_final_recheck": {
+    "source_config_hashes": 759,
+    "retained_only_root_registry_changed": true,
+    "new_modules": 6,
+    "new_theorems": 25,
+    "new_selected_declarations": 27,
+    "all_source_modules_scanned": 750,
+    "build_jobs": 4689,
+    "kernel_exact_unique_reports": 3799,
+    "new_oleans_current": true,
+    "root_imports_exact": true,
+    "source_theorem_names_match_registration": true,
+    "allowed_standard_axioms_only": true,
+    "retained_axiom_sets_unchanged": true,
+    "combined_logs_exact": true,
+    "review_audit_manifest_remaining_agree": true,
+    "lean_actual": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+    "mathlib_actual": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "pntplus_actual": "747e480362ef6a0a7341055a84372333d72fa62a",
+    "fixed_local_preprint_objects_match": true,
+    "remote_updates_checked": false,
+    "full_target_proved": false
+  }
+}

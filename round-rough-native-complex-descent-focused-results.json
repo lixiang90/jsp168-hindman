@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteComplexRealComponents.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.484000000171363,
+    "log": "round-rough-native-complex-descent-FiniteComplexRealComponents-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteComplexRealComponents.lean",
+    "source_sha256": "40356e904ad8d03733b9bb2e54214f55c0b27432460d39c5b958d73a8f8d6f04"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ComplexRealObservable.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.125,
+    "log": "round-rough-native-complex-descent-ComplexRealObservable-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ComplexRealObservable.lean",
+    "source_sha256": "98e29bda8e37902d9428ee7322fd211244b1afaa349f1994a50927b19b2dba7d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeComplexBadIndex.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.093999999808148,
+    "log": "round-rough-native-complex-descent-RoughNativeComplexBadIndex-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeComplexBadIndex.lean",
+    "source_sha256": "cc95d4a5a2e791cd58b2e021075f500fc552cc1beadc6314c1ef86f2c377374e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeComplexBadFamily.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.906000000191852,
+    "log": "round-rough-native-complex-descent-RoughNativeComplexBadFamily-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeComplexBadFamily.lean",
+    "source_sha256": "ce4f602f3ceabaaca4c3d482f7bed5ab8b70bd5b9d3cd14f111899dba1d81dc3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeComplexObstructionBadFamily.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.452999999979511,
+    "log": "round-rough-native-complex-descent-RoughNativeComplexObstructionBadFamily-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeComplexObstructionBadFamily.lean",
+    "source_sha256": "5ec5b1af545e189359e4cc3e9fcb19d4b059a8d0917f496cd76e3f5b672f6587"
+  }
+]

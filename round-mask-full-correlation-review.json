@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 545,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskFinitePowerIteration.lean",
+    "Hindman168/MaskPoweredElimination.lean",
+    "Hindman168/MaskEndpointTargetCube.lean",
+    "Hindman168/MaskFullCorrelationOutput.lean",
+    "Hindman168/MaskOriginalCorrelationOutput.lean"
+  ],
+  "new_selected_report_count": 29,
+  "module_report_counts": {
+    "MaskFinitePowerIteration": 6,
+    "MaskPoweredElimination": 8,
+    "MaskEndpointTargetCube": 3,
+    "MaskFullCorrelationOutput": 7,
+    "MaskOriginalCorrelationOutput": 5
+  },
+  "application_review": [
+    "All 545 retained source/config hashes were checked before registration. Only root imports and the exact-name Verification registry changed among retained files. Retained proof modules, StrongStatement, the nine attributed PNT+ sources and all Lean/mathlib/PNT+ pins remain unchanged. Every retained Unicode eval₂ registry name was preserved with explicit UTF-8. Both fixed local preprint sections match adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote updates were checked in this goal round.",
+    "A finite powered square chain has coefficient A_0=1, A_(k+1)=2*c*A_k^2 and error E_0=0, E_(k+1)=2*A_k^2*e_k+2*E_k^2. The whole initial correlation raised to 2^k is at most A_k times the kth correlation plus E_k; every E_k tends to zero when all fixed e_j do. No bound on intermediate correlations is required.",
+    "The actual ordered mask step error is the absolute value of the previously derived full one-step error cap, extended by zero beyond the finite list. Every step error is nonnegative and tends to zero. The recursively composed original-law mask error is nonnegative, independent of input functions, and tends to zero.",
+    "The genuine actual mask input path satisfies the quantitative bound |C_0|^(2^L) <= A_m*|C_L|+E_m(w), with original complete prime/base laws and E_m(w)->0. An admissible empty-mask endpoint with the identical tracked function g is actually constructed for every initial admissible input at every sufficiently large w.",
+    "The actual repeated unrestricted target cube depends only on the tracked function g at the source root. Its exact value for every genuine terminal input equals targetUnrestrictedAverage evaluated with that g at every root; all actual good-event normalization, prime-dependent quotient intervals, polynomial modulus and original harmonic root law are retained.",
+    "For every admissible actual empty-mask terminal input with arbitrary tracked function g, the complete additive inequality controls |C_L|^(2^d_t) by the m-only additive output coefficient times its repeated target cube plus any fixed positive uniform tolerance. No centered-function or zero-cube hypothesis is imposed.",
+    "The actual additive dimension d_t is bounded by maskRowCountBound m. The combined exponent is Q_t=2^(L+d_t)>0 and is at most 2^(L+maskRowCountBound m). The lifted mask coefficient is bounded by (2*A_m)^(2^maskRowCountBound m), yielding a final coefficient depending only on m.",
+    "Combining the actual mask and additive powers gives an epsilon-uniform inequality |C_initial|^Q_t <= B_m*|Cube_t(g)|+epsilon for arbitrary tracked g, simultaneously over all finite tracked supports and every admissible initial row/mask input. The finite mask error is raised only to the fixed positive additive power, so it still tends to zero.",
+    "The full arbitrary-target inequality is instantiated on the paper original normalized subset-sum/subset-product harmonic average. Its tracked function is exactly f at the chosen original nonempty subset, and all other subset functions and product masks remain arbitrary within their original global bounds.",
+    "The explicit positive detection threshold delta_t(epsilon)=(epsilon^Q_t/2)/(B_m+1) ensures that a target cube of absolute value at most delta_t(epsilon) forces the original correlation to have absolute value at most epsilon, eventually uniformly over original admissible functions. Any eventually admissible sequence whose actual repeated target cube tends to zero has original correlation tending to zero.",
+    "The finite power induction uses the exact algebraic inequality (u+v)^2 <= 2*u^2+2*v^2. The extra factors enter a deterministic m-only coefficient rather than an omitted error. It applies directly to the actual correlations along maskOrderedInputPath, whose adjacent equalities and complete-support admissibility were previously proved. Every error cap remains independent of input functions.",
+    "The source endpoint cube equality is pointwise in every prime tuple and every integer root argument before expectation. The tracked function is unchanged by the genuine mask update and reindexing. All row-source majorization bounds remain on the entire original prime support, so the existing raw arbitrary-target additive estimate applies without an extra source-decay premise.",
+    "For combined powers p=2^d_t, (u+v)^p is bounded by 2^p*u^p+2^p*v^p. The actual nonnegative mask error raised to this fixed nonzero power tends to zero. The additive uniform tolerance is selected as epsilon/(2*(H_t+1)); its coefficient loss is accounted for explicitly. There is no use of an unspecified powered o(1) multiplied by an uncontrolled intermediate correlation.",
+    "The final coefficient B_m=(2*A_m)^(2^maskRowCountBound m)*maskAdditiveOutputBound m depends only on the fixed number of columns. The exact exponent Q_t=2^(L+d_t) depends on the finite deterministic tracked-support row template and has an m-only upper bound. No claim that every support has identical d_t or an increasing-master convergence rate is made.",
+    "The model-error case is admitted by the arbitrary-target theorem only when its original admissibility bounds are proved. This round provides the genuine correlation-to-cube inequality and detection threshold; it does not assert that all target cubes decay or that existing model dual-test estimates are already identified with this cube. That exact original-template pairing and the actual model error cube remain the next proof task.",
+    "Full Prediction/Alignment, concrete arithmetic/color data, companion diagonal selection and positive rapidly separated monochromatic witness extraction remain necessary. StrongConjecture remains an unchanged named proposition and has not been proved. No public prize repository, PR or claim is created in this incomplete state.",
+    "The full build completed 4397 jobs without warnings or errors. The exact-name kernel audit covers all 2631 registered names, including all 29 new names, and uses only standard axioms or no axioms. The scan covers 532 own and 9 attributed PNT+ modules, plus root and registry; 550 source/config hashes are recorded. Both the previous and current goal rounds are PROGRESS. No unavoidable blocker is established."
+  ],
+  "source_preprint_section": "04_correlation.tex:35-46 (original average and arbitrary target), 135-153 and 291-307 (powered complete-law mask output), 424 onward (arbitrary repeated target cube), 590-727 (original root sampling and next-section dual interface). The harmless deterministic square factors are retained in the m-only coefficient. Existing local 05_prediction.tex remains the next model-error application.",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4397,
+    "project_modules": 532,
+    "pntplus_modules": 9,
+    "source_scan_modules": 541,
+    "axiom_reports": 2631,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 550,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The full actual ordered mask recurrence, target/anchor retention, complete-law endpoint transfer, centered nu-1 cancellation and original subset-average identification remain proved. This round completes the previously missing quantitative powered mask inequality with an explicit nonnegative function-independent vanishing error. It also completes the arbitrary-target powered original correlation inequality, with positive actual exponent Q_t=2^(L+d_t), an m-only coefficient B_m and exponent bound, uniform over all admissible functions and finite tracked supports. An explicit target-cube detection tolerance and a sequence zero-limit transfer are proved. For the actual model-error application g=rho-model, identify maskEndpointTargetCube with the original generated row-template dual-test pairing, including its good-event normalizer, full prime sampling, polynomial denominator, prime-dependent quotient lengths and original harmonic root law. Use the existing mask-generated uniform bounded-model statements to prove that actual repeated model-error cube tends to zero, with its admissible nonempty vertex tests derived from the original tail majorant. Cube decay for an arbitrary target is not asserted. The full Prediction/Alignment applications and their compatibility with the original correlation output still need completion. Then choose the concrete block/gap/scale/color/rho data and companion diagonal sequences required by the fixed paper, and extract ordered positive rapidly separated monochromatic witnesses. Finish any remaining model or cube-law inputs and real-exponent clipping if actually required by that application. No uniform rate in a growing master index count or arbitrary iterated row-family cap is claimed. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

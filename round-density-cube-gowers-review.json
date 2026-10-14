@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 1010 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "A finite factor type is reindexed by an actual equivalence from Fin of its cardinality. Product reindexing is exact, so the induction retains the original number of directions.",
+    "All subsets of Fin d index the factors. The empty subset contributes the normalized density, not an extra vertex function. The original root function remains outside the factor product. The total number of factors is exactly 2^d, also for d=0.",
+    "For each nonempty subset, its minimum element supplies a valid vertex-fixing coordinate. The corresponding direction is an explicit additive homomorphism and has root response a. The density uses the root-only direction.",
+    "Factor bounds and invariance are proved before applying the complete iterated estimate. Separating the empty subset in the product proves the exact density times original cube product identity.",
+    "For C>0, the density is divided by C, and its unit bound follows from the original absolute bound. Linearity of both Haar means and the weighted sum restores C exactly; positivity justifies its absolute value. No sign assumption on density or vertex function is required.",
+    "The final bound is for the actual weighted subgroup Gowers root in dimension 2^d, with the original weights nonnegative and summing to one. It does not replace a weighted root by an average of roots.",
+    "Seven theorems and two definitions are individually kernel audited. The finite Haar density-model estimate is complete. The original harmonic-to-periodic comparison, Bessel and inverse inputs, and final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/IndexedRootGowersBound.lean",
+    "Hindman168/DensityCubeFactors.lean",
+    "Hindman168/DensityCubeGowersBound.lean"
+  ],
+  "verified": {
+    "project_modules": 995,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1004,
+    "source_config_hashes": 1013,
+    "build_jobs": 4949,
+    "axiom_reports": 4819,
+    "new_theorems": 7,
+    "new_definitions": 2,
+    "new_instances": 0,
+    "new_axiom_reports": 9,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The paper-specific finite Haar density-weighted cube to subgroup U^(2^d) bound is proved, with uniform constant equal to the density bound and original cell probabilities retained. The analytic passage from original harmonic short-increment laws to the finite Haar density model, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

@@ -1,0 +1,46 @@
+{
+  "baseline_hash_count": 284,
+  "new_modules": [
+    "ReplicaPrimeSlots",
+    "MasterLocalGoodTupleLaw",
+    "MasterReplicaDualFormula",
+    "MasterNormalizedDualProductLimit",
+    "FiniteEmptyCoordinateLaw",
+    "MasterEmptyDualProductLimit",
+    "MasterFiniteDualTemplateLimit"
+  ],
+  "new_reports": [
+    "Hindman168.replicaPrimeSlot_injective",
+    "Hindman168.replicaPrimeGap_slot",
+    "Hindman168.master_replica_prime_law",
+    "Hindman168.master_replica_prime_expectation",
+    "Hindman168.replicaPolynomialLift_eval",
+    "Hindman168.replicaPolynomialLift_nonzero",
+    "Hindman168.replicaPolynomialLift_vars_gap",
+    "Hindman168.predictionLocalPrimeGoodEvent_den_nonzero",
+    "Hindman168.master_good_implies_local_good",
+    "Hindman168.MasterParameterConditions.local_prime_pool_projection",
+    "Hindman168.MasterParameterConditions.local_prime_good_event_tendsto_one",
+    "Hindman168.MasterParameterConditions.local_prime_good_mass_eventually_positive",
+    "Hindman168.masterReplicaLocalModulus_lift",
+    "Hindman168.masterReplicaLocalLength_lift",
+    "Hindman168.master_replica_dual_normalized_formula",
+    "Hindman168.MasterParameterConditions.normalized_dual_product_tendsto",
+    "Hindman168.FiniteMass.piMass_empty_expectation",
+    "Hindman168.variable_cube_empty_root_average",
+    "Hindman168.variable_cube_empty_row_product",
+    "Hindman168.MasterParameterConditions.empty_dual_product_tendsto",
+    "Hindman168.finite_dual_real_choice_tendsto",
+    "Hindman168.MasterParameterConditions.normalized_dual_product_all_b_tendsto",
+    "Hindman168.MasterParameterConditions.normalized_dual_finite_template_tendsto"
+  ],
+  "module_counts": {
+    "ReplicaPrimeSlots": 7,
+    "MasterLocalGoodTupleLaw": 5,
+    "MasterReplicaDualFormula": 3,
+    "MasterNormalizedDualProductLimit": 1,
+    "FiniteEmptyCoordinateLaw": 3,
+    "MasterEmptyDualProductLimit": 1,
+    "MasterFiniteDualTemplateLimit": 3
+  }
+}

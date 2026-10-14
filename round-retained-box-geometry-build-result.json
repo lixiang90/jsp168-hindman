@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.0,
+  "log": "round-retained-box-geometry-build.txt",
+  "log_sha256": "3a8ca6c497e7d7af78010318b3aa6b2fea6ede37c5e2bb47941d3d049b6c406d"
+}

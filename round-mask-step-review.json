@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 524,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskAbsorbedDiagonalPositivity.lean",
+    "Hindman168/MaskCurrentNormalizedExtraction.lean",
+    "Hindman168/MaskStageCorrelationInputs.lean",
+    "Hindman168/MaskInsertionSquaredErrors.lean",
+    "Hindman168/MaskInputSubstitution.lean",
+    "Hindman168/MaskNormalizedDoubleAbsorption.lean",
+    "Hindman168/MaskActualWeightedStep.lean",
+    "Hindman168/MaskOneStepCorrelation.lean"
+  ],
+  "new_selected_report_count": 34,
+  "module_report_counts": {
+    "MaskAbsorbedDiagonalPositivity": 3,
+    "MaskCurrentNormalizedExtraction": 5,
+    "MaskStageCorrelationInputs": 5,
+    "MaskInsertionSquaredErrors": 6,
+    "MaskInputSubstitution": 3,
+    "MaskNormalizedDoubleAbsorption": 6,
+    "MaskActualWeightedStep": 3,
+    "MaskOneStepCorrelation": 3
+  },
+  "application_review": [
+    "All 524 retained source/config hashes were revalidated before registration. Only the root imports and exact-name Verification registry changed among retained files. All retained proofs, StrongStatement, nine attributed PNT+ sources, and fixed Lean/mathlib/PNT+ pins are unchanged. The two local preprint sections match fixed adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote updates were checked in this goal round.",
+    "The absorbed fresh-prime diagonal is nonnegative on the original outer/base law: at p=q the two normalized branches coincide and the density is nonnegative. The signed absorbed off-diagonal average is consequently bounded above by the full next-stage average without conditioning or restoration error.",
+    "The actual eta multiplier enforces balanced divisibility whenever nonzero. On that admissible locus, the selected current mask monomial and invariant density are preserved, so the current mask and single original density factor out of the actual fresh-prime average; exactly T.erase U remains in the normalized test.",
+    "Actual prefix row/mask input structures impose original majorant bounds on full old-prime-support tuples and every signed integer argument. The outer support projects to that support and the original joint law has exact total one, deriving V^(2*maskRowCountBound m) bounds for both original and normalized tests and the original correlation.",
+    "The insertion cap satisfies the exact polynomial identity V^D * insertionCap(B) = insertionCap(B+D). Both outside and balanced actual caps therefore tend to zero after every fixed polynomial weighting. A square transfer using only the original correlation bound gives the explicit loss 2*V^B*abs(insertionCap(B)).",
+    "The actual normalized double test contains one original density and two normalized branches, and its all-integer bound is V^(6*maskRowCountBound m). In the balanced case the actual signed off-diagonal pq absorption estimate applies to this complete test, with the old prime tuple shared.",
+    "The genuine next-stage complete row/mask correlation is the full absorbed two-prime average. In the outside case the raw double test is already this absorbed test; in the balanced case the coordinate dilation identity on actual pool support identifies the absorbed branches and the signed off-diagonal average is bounded by the next-stage correlation.",
+    "Actual weighted Cauchy-Schwarz and the derived invariant-density mean cap give a substituted-average square bound c_m*abs(C_next)+branchError. The outside branch has zero branch error; the balanced branch is the original weighted diagonal loss plus c_m*abs(V^(6*maskRowCountBound m)*pairDilationCap), and this explicit branch error tends to zero.",
+    "For each fixed actual prefix k and selected mask U, the original correlation obeys |C_k|^2 <= c_m*abs(C_next)+totalStepError, where c_m=2^(maskRowCountBound m)+1 and totalStepError is the sum of the proved squared insertion loss and actual branch error. Its zero limit yields an epsilon version uniform over every T containing U and all admissible inputs at w.",
+    "The selected mask is required to belong to the supplied finite family. Balanced eta=0 makes both sides of the extraction zero; eta nonzero supplies actual divisibility. No cancellation of arbitrary integer division and no restriction to positive coordinates is assumed.",
+    "The square-transfer estimate needs only |C_k| <= V^B and |C_k-I| <= insertionCap. It does not introduce a hidden bound on I. Polynomial weighting of every insertion/diagonal/dilation error is proved from the fixed master family rather than postulated as o(1).",
+    "In the balanced branch the pre-absorption diagonal is still paid explicitly. After absorption the diagonal is density times a real square, so the signed off-diagonal is no larger than the full next-stage correlation. No sign of the off-diagonal is assumed, no distinct-prime conditioning is used, and no error is lost during restoration.",
+    "The output uses the actual prefix step by U, the original full new-prime law, the unchanged harmonic base law, and genuine updated row/mask functions. It is not yet packaged as an admissible input at prefix(k+1); that requires the actual ordered-mask prefix identity and transport of bounds. The theorem is uniform in all input functions but is currently eventually quantified for each fixed k and U.",
+    "The current recurrence is not the full original correlation principle or a proof of StrongConjecture. All finite steps, centering/anchor compatibility, accumulated finite errors, mask-free additive endpoint, Prediction/Alignment and final ordered positive rapidly separated monochromatic witness still require composition. No unavoidable blocker is established.",
+    "The full build completed 4379 jobs without warnings or errors. The exact-name kernel audit covers all 2539 registered statements, including every one of the 34 new names. The source scan covers 514 own and 9 attributed PNT+ modules, with root and registry also inspected. Only propext, Classical.choice and Quot.sound occur, and the same three old statements remain axiom-free. The previous goal turn and this goal turn are both PROGRESS."
+  ],
+  "source_preprint_section": "04_correlation.tex:184-217 (actual eta-normalized extraction and weighted joint square); 219-228 (original-law density mean cap); 230-245 (pre-absorption diagonal and pq dilation); 247-264 (surviving masks and genuine row updates). Nonnegative absorbed diagonal justifies restoring the complete next-stage law.",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4379,
+    "project_modules": 514,
+    "pntplus_modules": 9,
+    "source_scan_modules": 523,
+    "axiom_reports": 2539,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 532,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original raw arbitrary-target additive source bound, centered-source cancellation and previous weighted cube transfers remain proved. Actual intermediate mask prefixes retain original-law majorant means, invariant-row prefactor limits, the common m-only weighted-square cap, fresh-prime diagonal deletion and vanishing insertion/absorption caps. Descendant maximum-support normalization anchors, original integer forms, genuine updated row/mask functions, complete new prime law and the absorbed full correlation identity remain proved. This round proves the actual one-step recurrence |C_k|^2 <= c_m |C_next| + e_U(w), with derived e_U(w) -> 0, for each fixed actual prefix k and selected mask U, uniformly over all supplied mask families T containing U and all row/mask inputs satisfying original full-prime-support bounds on every integer argument. The outside branch uses the complete fresh square directly; the balanced branch pays the original weighted pre-absorption diagonal loss and pq absorption cap, then restores the complete law by nonnegative absorbed diagonal without another error. Compose all finite mask steps: identify prefix(k+1) with prefix(k).step for the actual ordered nonempty-mask list, erase masks in that order, and transport the genuine updated functions with their complete prime-support bounds into the next actual input structure. Establish distinguished centered target compatibility beyond the proved pointwise tracked-function identity, including all centering weights and normalization-anchor compatibility; accumulate the finite errors and m-only constants/exponents, with uniform control over the finite prefix/mask choices. No bound for arbitrary iterated row families is claimed: the current polynomial caps use the actual prefix row-count bound, and the output is its genuine step by U. Then prove the full original correlation principle connecting the initial multiplicative correlation to the final mask-free additive endpoint. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and ordered positive rapidly separated monochromatic witness extraction. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

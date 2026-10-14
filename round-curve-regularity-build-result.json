@@ -1,0 +1,12 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 22.89,
+  "sha256": "d5eb68de5d7f1c5679ff36f2e5c49901941a6d55ea88025020ebafa60b60344f",
+  "log": "round-curve-regularity-build.txt",
+  "log_sha256": "d5eb68de5d7f1c5679ff36f2e5c49901941a6d55ea88025020ebafa60b60344f",
+  "terminal": true
+}

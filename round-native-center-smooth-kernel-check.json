@@ -1,0 +1,38 @@
+{
+  "exact_unique_reports": 4152,
+  "registered_names_exact": true,
+  "new_names_exact": true,
+  "retained_axiom_sets_unchanged": true,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_free_reports": [
+    "Hindman168.MatrixDepth.smul",
+    "Hindman168.boundedLieWordValues",
+    "Hindman168.finiteVectorPolynomialSum",
+    "Hindman168.lieWordValue",
+    "Hindman168.lieWordValue_cons",
+    "Hindman168.lieWordValue_nil",
+    "Hindman168.maskDescendant_encoding_injective",
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.matrixDepth_zero",
+    "Hindman168.matrixDepth_zero_iff_upper"
+  ],
+  "retained_axiom_free_reports": [
+    "Hindman168.MatrixDepth.smul",
+    "Hindman168.boundedLieWordValues",
+    "Hindman168.finiteVectorPolynomialSum",
+    "Hindman168.lieWordValue",
+    "Hindman168.lieWordValue_cons",
+    "Hindman168.lieWordValue_nil",
+    "Hindman168.maskDescendant_encoding_injective",
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.matrixDepth_zero",
+    "Hindman168.matrixDepth_zero_iff_upper"
+  ],
+  "new_axiom_free_reports": []
+}

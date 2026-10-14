@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "NativeLieSubalgebraNativeCoordinates proves that the actual smooth subgroup inclusion has differential at identity equal to its real model-subspace inclusion. Native exponential naturality then identifies the subgroup native exponential with the original exponential restricted to the model subspace. The genuine subgroup native logarithm is exactly the original ambient native logarithm with its proved subspace membership.",
+    "RoughVectorMvLinearMap constructs the actual image of an arbitrary finite vector multivariate polynomial under a real linear map. Evaluation commutes with the map, and the uniform total-degree bound is preserved without any coordinate or coefficient bound.",
+    "RoughNativeSubgroupLogPolynomial applies the constructed finite-dimensional continuous linear retraction to an actual ambient joint logarithmic polynomial. For every real parameter point of the actual subgroup-valued map, its evaluation equals the genuine subgroup native logarithm. Every real linear scalar coordinate is represented by an actual multivariate polynomial with the original total-degree bound.",
+    "RoughNativeNilmanifoldLogTransfer applies this constructed coordinate transfer to the exact NativeNilmanifoldData of the previous rational subgroup/conjugated lattice constructor. It produces an actual vector polynomial and all scalar coordinate polynomials for the newly packaged group native logarithm, retaining the degree and all-real-parameter quantifier order.",
+    "The previous ambient logarithmic polynomial alone did not prove polynomiality in the newly packaged native subgroup model. These theorems discharge that coordinate obligation by identifying actual native exponential/logarithm via the actual subgroup inclusion differential.",
+    "The inclusion differential is computed by actual manifold chain rules at zero on the restricted original exponential. Its subgroup singleton chart has identity derivative, while the original native exponential derivative at zero is identity. No replacement group exponential or unspecified chart conversion is assumed.",
+    "The native subgroup Lie structure, chart, topology, rational scalar action, lattice and metric are exactly those constructed in the previous checked native nilmanifold package. Structural field identities are used by definitional reduction in the final native data wrapper.",
+    "The actual ambient vector polynomial is mapped through a constructed continuous linear left inverse of the model subspace inclusion. Its vectors need not individually lie in the subspace. Actual all-real-parameter subgroup membership ensures the total evaluation lies in that subspace, and the proved retraction identity identifies it with the actual new native logarithm.",
+    "The multivariate polynomial total-degree bound does not increase under linear retraction or scalar projection. Coefficients and basis norms remain unrestricted, as required by the bad-progression dimension induction. This is polynomiality in all real parameters, not just original integer samples.",
+    "The new wrappers require an actual subgroup-valued map and its actual ambient vector polynomial. Earlier assembled kernel maps supply the corresponding ingredients, but their concrete specialization, x=u+Ky sample transport and uniform dimension-induction theorem remain explicit future work.",
+    "One declaration originally emitted unused-section-instance warnings. Its theorem assumptions were narrowed with explicit omit declarations and the final focused runs/full build are warning-free. No tactic limit increase or additional logical axiom was introduced.",
+    "All retained sources and previous transitive axiom sets remain unchanged. This author-side verification does not constitute independent kernel replay or prove the remaining existence inputs or StrongConjecture.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. The bounded geometric subbox/residue partition, uniform thresholds, original weight and freezing/approximation losses, smaller native character-kernel nilmanifold with strict dimension decrease, and actual ambient-to-subgroup native logarithmic polynomial transfer are now proved. Apply native freezing and the uniform finite-residue induced-test approximants to the constructed piece labels; specialize the new log-transfer theorem to the actual assembled kernel map and affine spatial substitution. Prove the actual x=u+Ky conditional sampling transport and comparable transformed-box bounds, preserving uniform constants. The quantitative Leibman obstruction, affine substituted-polynomial coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1658,
+    "pntplus_modules": 9,
+    "build_jobs": 5624,
+    "selected_axiom_reports": 7239,
+    "new_declarations": 12,
+    "new_theorems": 10,
+    "new_definitions": 2,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeLieSubalgebraNativeCoordinates.lean",
+    "Hindman168/RoughVectorMvLinearMap.lean",
+    "Hindman168/RoughNativeSubgroupLogPolynomial.lean",
+    "Hindman168/RoughNativeNilmanifoldLogTransfer.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. The bounded geometric subbox/residue partition, uniform thresholds, original weight and freezing/approximation losses, smaller native character-kernel nilmanifold with strict dimension decrease, and actual ambient-to-subgroup native logarithmic polynomial transfer are now proved. Apply native freezing and the uniform finite-residue induced-test approximants to the constructed piece labels; specialize the new log-transfer theorem to the actual assembled kernel map and affine spatial substitution. Prove the actual x=u+Ky conditional sampling transport and comparable transformed-box bounds, preserving uniform constants. The quantitative Leibman obstruction, affine substituted-polynomial coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions actual native subgroup log polynomial coordinates for character-kernel dimension descent"
+}

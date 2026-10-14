@@ -1,0 +1,125 @@
+{
+  "modules": [
+    "Hindman168/UnitIntervalProbability.lean",
+    "Hindman168/FiniteProbabilityMixture.lean",
+    "Hindman168/NativeRationalCurveHaarImage.lean",
+    "Hindman168/NativePointMixtureMeasure.lean",
+    "Hindman168/UnitLipschitzProbabilityConvergence.lean",
+    "Hindman168/FiniteEmpiricalProbability.lean",
+    "Hindman168/NativeOriginalPointWeakLimit.lean",
+    "Hindman168/NativeSequentialPointWeakLimit.lean",
+    "Hindman168/NativeOriginalContinuousPointMixture.lean"
+  ],
+  "names": [
+    "Hindman168.unitIntervalProbability",
+    "Hindman168.unit_interval_probability_isProbability",
+    "Hindman168.finiteProbabilityMixture",
+    "Hindman168.finite_probability_mixture_isProbability",
+    "Hindman168.finite_probability_mixture_integral",
+    "Hindman168.nativeRationalCurveHaarImage",
+    "Hindman168.native_rational_curve_haar_isProbability",
+    "Hindman168.native_rational_curve_haar_integral",
+    "Hindman168.nativePointMixtureMeasure",
+    "Hindman168.native_point_mixture_isProbability",
+    "Hindman168.native_point_mixture_integral",
+    "Hindman168.unit_lipschitz_probability_tendsto",
+    "Hindman168.finiteEmpiricalProbability",
+    "Hindman168.finite_empirical_probability_integral",
+    "Hindman168.nativePointMixtureProbability",
+    "Hindman168.native_original_point_weak_limit",
+    "Hindman168.native_sequential_original_point_weak_limit",
+    "Hindman168.native_original_continuous_point_mixture"
+  ],
+  "declarations": {
+    "Hindman168/UnitIntervalProbability.lean": [
+      [
+        "def",
+        "unitIntervalProbability"
+      ],
+      [
+        "theorem",
+        "unit_interval_probability_isProbability"
+      ]
+    ],
+    "Hindman168/FiniteProbabilityMixture.lean": [
+      [
+        "def",
+        "finiteProbabilityMixture"
+      ],
+      [
+        "theorem",
+        "finite_probability_mixture_isProbability"
+      ],
+      [
+        "theorem",
+        "finite_probability_mixture_integral"
+      ]
+    ],
+    "Hindman168/NativeRationalCurveHaarImage.lean": [
+      [
+        "def",
+        "nativeRationalCurveHaarImage"
+      ],
+      [
+        "theorem",
+        "native_rational_curve_haar_isProbability"
+      ],
+      [
+        "theorem",
+        "native_rational_curve_haar_integral"
+      ]
+    ],
+    "Hindman168/NativePointMixtureMeasure.lean": [
+      [
+        "def",
+        "nativePointMixtureMeasure"
+      ],
+      [
+        "theorem",
+        "native_point_mixture_isProbability"
+      ],
+      [
+        "theorem",
+        "native_point_mixture_integral"
+      ]
+    ],
+    "Hindman168/UnitLipschitzProbabilityConvergence.lean": [
+      [
+        "theorem",
+        "unit_lipschitz_probability_tendsto"
+      ]
+    ],
+    "Hindman168/FiniteEmpiricalProbability.lean": [
+      [
+        "def",
+        "finiteEmpiricalProbability"
+      ],
+      [
+        "theorem",
+        "finite_empirical_probability_integral"
+      ]
+    ],
+    "Hindman168/NativeOriginalPointWeakLimit.lean": [
+      [
+        "def",
+        "nativePointMixtureProbability"
+      ],
+      [
+        "theorem",
+        "native_original_point_weak_limit"
+      ]
+    ],
+    "Hindman168/NativeSequentialPointWeakLimit.lean": [
+      [
+        "theorem",
+        "native_sequential_original_point_weak_limit"
+      ]
+    ],
+    "Hindman168/NativeOriginalContinuousPointMixture.lean": [
+      [
+        "theorem",
+        "native_original_continuous_point_mixture"
+      ]
+    ]
+  }
+}

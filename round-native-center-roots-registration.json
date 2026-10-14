@@ -1,0 +1,60 @@
+{
+  "baseline_hashes_verified_before_registration": 860,
+  "new_modules": [
+    "Hindman168/CentralPositiveRootSubgroup.lean",
+    "Hindman168/NativeCenterRootSpan.lean",
+    "Hindman168/NativeCentralPowerRoots.lean",
+    "Hindman168/NativePositiveRootsRationalHull.lean",
+    "Hindman168/PositiveSubgroupRoots.lean",
+    "Hindman168/RationalSpanPositiveDenominators.lean"
+  ],
+  "names": [
+    "Hindman168.centralPositiveRootSubgroup",
+    "Hindman168.centralPositiveRootSubgroup_mem_iff",
+    "Hindman168.centralPositiveRootSubgroup_le_center",
+    "Hindman168.center_intersection_le_positiveRootSubgroup",
+    "Hindman168.nativeCenterRationalLogSpan_mem_iff_positive_root",
+    "Hindman168.nativeCenter_original_logSpan_mem_iff_central_roots",
+    "Hindman168.nativeCenter_intersection_rationalHull_eq_positiveRoots",
+    "Hindman168.nativeLie_positive_power_mem_center_iff",
+    "Hindman168.nativePositiveRoots_center_intersection",
+    "Hindman168.nativeLie_logarithm_mem_rational_of_positive_power",
+    "Hindman168.positiveSubgroupRoots_le_nativeRationalHull",
+    "Hindman168.nativeSubgroupRationalHull_positive_root",
+    "Hindman168.nativeSubgroupRationalHull_logarithm_span_eq",
+    "Hindman168.positiveSubgroupRoots",
+    "Hindman168.subgroup_mem_positiveRoots",
+    "Hindman168.positiveSubgroupRoots_inv",
+    "Hindman168.positiveSubgroupRoots_mul_of_commute",
+    "Hindman168.positiveSubgroupRoots_root",
+    "Hindman168.positiveSubgroupRoots_conjugation",
+    "Hindman168.rationalSpan_positive_nat_multiple",
+    "Hindman168.rationalSpan_mem_iff_positive_nat_multiple"
+  ],
+  "module_report_counts": {
+    "CentralPositiveRootSubgroup": {
+      "theorems": 3,
+      "selected_declarations": 4
+    },
+    "NativeCenterRootSpan": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeCentralPowerRoots": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativePositiveRootsRationalHull": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "PositiveSubgroupRoots": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "RationalSpanPositiveDenominators": {
+      "theorems": 2,
+      "selected_declarations": 2
+    }
+  }
+}

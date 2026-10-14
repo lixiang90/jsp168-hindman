@@ -1,0 +1,126 @@
+{
+  "modules": [
+    "Hindman168/RoughDenominatorSubring.lean",
+    "Hindman168/RoughSubringPolynomialDivision.lean",
+    "Hindman168/RoughSmoothQuotient.lean",
+    "Hindman168/RoughSmoothDenominatorSupport.lean",
+    "Hindman168/RoughInterpolationIntegerValues.lean",
+    "Hindman168/RoughInterpolationValueError.lean"
+  ],
+  "names": [
+    "Hindman168.roughDenominatorSubring",
+    "Hindman168.roughDenominatorSubring_mem_of_dvd",
+    "Hindman168.roughDenominatorSubring_inverse",
+    "Hindman168.roughDenominatorSubring_integer_of_rough_power",
+    "Hindman168.rough_polynomial_lift_subring",
+    "Hindman168.rough_monic_quotient_coeff_mem",
+    "Hindman168.rough_affine_quotient_coeff_mem",
+    "Hindman168.rough_cleared_polynomial_coeff_mem",
+    "Hindman168.rough_smooth_quotient_coeff_mem",
+    "Hindman168.rough_smooth_polynomial_eval",
+    "Hindman168.rough_smooth_quotient_integer_eval",
+    "Hindman168.rough_smooth_integer_dvd_primorial_power",
+    "Hindman168.roughDenominatorSubring_den_dvd",
+    "Hindman168.roughDenominatorSubring_prime_support",
+    "Hindman168.rough_smooth_quotient_prime_support",
+    "Hindman168.rough_cleared_polynomial_integer_eval_lattice",
+    "Hindman168.rough_cleared_polynomial_near_integer",
+    "Hindman168.rough_interpolation_quotient_integer_eventually",
+    "Hindman168.rough_interpolation_near_integer_bound",
+    "Hindman168.rough_interpolation_divided_error"
+  ],
+  "declarations": {
+    "Hindman168/RoughDenominatorSubring.lean": [
+      [
+        "def",
+        "roughDenominatorSubring"
+      ],
+      [
+        "theorem",
+        "roughDenominatorSubring_mem_of_dvd"
+      ],
+      [
+        "theorem",
+        "roughDenominatorSubring_inverse"
+      ],
+      [
+        "theorem",
+        "roughDenominatorSubring_integer_of_rough_power"
+      ]
+    ],
+    "Hindman168/RoughSubringPolynomialDivision.lean": [
+      [
+        "theorem",
+        "rough_polynomial_lift_subring"
+      ],
+      [
+        "theorem",
+        "rough_monic_quotient_coeff_mem"
+      ],
+      [
+        "theorem",
+        "rough_affine_quotient_coeff_mem"
+      ]
+    ],
+    "Hindman168/RoughSmoothQuotient.lean": [
+      [
+        "theorem",
+        "rough_cleared_polynomial_coeff_mem"
+      ],
+      [
+        "theorem",
+        "rough_smooth_quotient_coeff_mem"
+      ],
+      [
+        "theorem",
+        "rough_smooth_polynomial_eval"
+      ],
+      [
+        "theorem",
+        "rough_smooth_quotient_integer_eval"
+      ]
+    ],
+    "Hindman168/RoughSmoothDenominatorSupport.lean": [
+      [
+        "theorem",
+        "rough_smooth_integer_dvd_primorial_power"
+      ],
+      [
+        "theorem",
+        "roughDenominatorSubring_den_dvd"
+      ],
+      [
+        "theorem",
+        "roughDenominatorSubring_prime_support"
+      ],
+      [
+        "theorem",
+        "rough_smooth_quotient_prime_support"
+      ]
+    ],
+    "Hindman168/RoughInterpolationIntegerValues.lean": [
+      [
+        "theorem",
+        "rough_cleared_polynomial_integer_eval_lattice"
+      ],
+      [
+        "theorem",
+        "rough_cleared_polynomial_near_integer"
+      ],
+      [
+        "theorem",
+        "rough_interpolation_quotient_integer_eventually"
+      ]
+    ],
+    "Hindman168/RoughInterpolationValueError.lean": [
+      [
+        "theorem",
+        "rough_interpolation_near_integer_bound"
+      ],
+      [
+        "theorem",
+        "rough_interpolation_divided_error"
+      ]
+    ]
+  }
+}

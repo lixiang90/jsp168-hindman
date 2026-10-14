@@ -1,0 +1,77 @@
+JSP-000168 continuation, 2026-10-14
+
+Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction established.
+Continue the complete user goal. Publication/PR/prize comes after completion
+or a genuine unavoidable obstruction, in the order the user requested.
+
+Latest checkpoint: verification-manifest.json, last_round.review_file.
+The round is round-subgroup-taylor-correction. Its mathematical-review.txt
+explains the exact coverage and trust limits. Author audit is not independent
+kernel replay or external peer review.
+
+Now closed algebraic descent step (07_cube_limits.tex 271--313):
+- NativeRationalSubgroupFiltration allows actual proper H_0=H_1, with the
+  SAME ambient native group and original lattice rational form. Actual
+  exponential group layers/product weights/group-difference adaptation exist.
+- nativeRationalSubgroupLevelKernel changes only H_j, also H_0 when j=1.
+  All nesting/zero-index brackets/rationality/terminality are proved.
+- Actual rational phi(V)=1 pivots and strict total-positive-layer dimension
+  decrease are proved; finite chains are bounded and infinite descent impossible.
+- Original Taylor residuals retain complete all-real representation after
+  arbitrary subgroup descent. No ambient-top field is required.
+- NativeTaylorDescentCorrection actually constructs the two-sided binomial
+  correction. OLD adaptation and ALL lower Taylor coefficients/prefixes are
+  retained. New source construction does not imply adaptation by itself.
+- NativeSubgroupLevelAffine proves BCH/conjugation errors inside H_(j+1),
+  using ideals INSIDE H_0. No ambient normality of arbitrary layers is asserted.
+- NativeTaylorDescentCoefficient proves EXACT real character value
+  old_value - epsilon - m for the ACTUAL corrected order-j coefficient.
+- NativeTaylorKernelAdaptation proves the COLLECTED original corrected
+  logarithmic polynomial is weighted for the genuine new kernel filtration,
+  including j=1, from explicit actual level-character/rational/real-decomposition
+  inputs and normalized original source. It preserves actual zero at zero.
+  No termwise membership is inferred from aggregate cancellation.
+
+Immediate next: genuine SEQUENTIAL factorization, not another geometry oracle.
+1. For fixed current filtration and a sequence of actual adapted normalized
+   sources, define rational level characters on H_j with next-layer and
+   positive-bracket annihilation, extending the rational functional to the
+   original lattice rational form. The geometric one-step theorem currently
+   takes this extension explicitly; derive it for actual selected characters.
+2. If scaled circle distance L^j ||phi(a_j)|| fails to tend to infinity,
+   extract a genuine strictly increasing subsequence and ONE finite bound C.
+   Use actual nearest integers m_L=round(phi(a_j)) and epsilon_L=value-m_L;
+   prove exact decomposition and |epsilon_L| <= C*L^(-j). Existing
+   RoughExactInterpolationModOne.lean / UnitAddCircle.norm_eq can supply
+   the real distance-to-integer identity; do not assume a decomposition oracle.
+3. Choose one fixed rational pivot from NativeRationalSubgroupDescentBounds.
+   Apply the proved ACTUAL collected correction to every subsequence source.
+   Preserve L->infinity, source normalization and the current rational filtration.
+4. Organize well-founded finite descent by the proved total dimension sum.
+   At termination derive simultaneous irrationality for EVERY rational level
+   character, including all nonzero rational multiples. Failure would give
+   an additional actual strict descent. This is not proved merely by having
+   a dimension bound.
+5. Recover P=epsilon_1...epsilon_t Q gamma_t...gamma_1 with genuine original
+   all-real identities. Smooth factors stay on the LEFT and rational factors
+   on the RIGHT; do not conjugate accumulated smooth factors by unbounded
+   rational factors. Original Taylor coefficients and m_L need not be bounded.
+6. Supply initial compact lattice normalization, convergent compact constants
+   and convergent bounded scaled epsilon_L on one subsequence. Prove compact
+   C^1 (or all-derivative) limits of scaled binomial factors and finite products.
+7. Prove a common bounded period modulo the original lattice for finitely
+   many fixed rational factors, including integer binomial values at SIGNED
+   inputs, then select one finite residue-representative pattern by subsequence.
+
+Then: actual simultaneous local cube-Haar laws through ORIGINAL dimensions
+s+1 on the SAME final filtration; sequence limit BEFORE relative-box locality
+limit; actual projected Haar face invariance and full-support coset symmetry;
+original joint lifts/full Alignment. The separate arbitrary-input GTZ interval
+Gowers LINEAR nilsequence inverse and final positive distinct rapidly separated
+SAME-color ALL nonempty finite sums AND finite products remain unproved.
+
+Preserve pinned Lean/mathlib/OpenAI paper commits, all retained proof hashes,
+old selected axiom sets, exact original raw laws, periods and original step s.
+New proper subgroup layers are not silently full ambient ideals, and the
+original inverse theorem for full native data needs a genuine subgroup model
+before use there. No unavoidable obstruction or prize eligibility is claimed.

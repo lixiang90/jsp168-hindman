@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 13.172,
+  "log": "round-native-adjoint-build.txt",
+  "log_sha256": "60084bff52215f07a19c290a090056ab490d1306ec814cfe42c946402469e9b9",
+  "terminal": true
+}

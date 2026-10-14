@@ -1,0 +1,86 @@
+{
+  "modules": [
+    "Hindman168/NativeRationalLayerCompactWindowHaar.lean",
+    "Hindman168/NativeRationalLayerOrbitObservables.lean",
+    "Hindman168/NativeRationalLayerFrozenHaar.lean",
+    "Hindman168/CompactSequentialParameterFreezing.lean",
+    "Hindman168/NativeSmoothActionFreezing.lean",
+    "Hindman168/NativeRationalLayerSmoothLocalHaar.lean"
+  ],
+  "names": [
+    "Hindman168.native_rational_layer_compact_window_haar",
+    "Hindman168.native_rational_layer_orbit_metric_joint_continuous",
+    "Hindman168.nativeRationalLayerPullback",
+    "Hindman168.native_rational_layer_pullback_continuous",
+    "Hindman168.native_rational_layer_pullback_family_compact",
+    "Hindman168.native_rational_layer_haar_image_integral",
+    "Hindman168.native_rational_layer_frozen_window_haar",
+    "Hindman168.compact_sequential_parameter_freezing",
+    "Hindman168.native_metric_group_action_continuous",
+    "Hindman168.native_parameter_action_freezing",
+    "Hindman168.native_sequential_smooth_left_action_freezing",
+    "Hindman168.native_rational_layer_smooth_local_haar"
+  ],
+  "declarations": {
+    "Hindman168/NativeRationalLayerCompactWindowHaar.lean": [
+      [
+        "theorem",
+        "native_rational_layer_compact_window_haar"
+      ]
+    ],
+    "Hindman168/NativeRationalLayerOrbitObservables.lean": [
+      [
+        "theorem",
+        "native_rational_layer_orbit_metric_joint_continuous"
+      ],
+      [
+        "def",
+        "nativeRationalLayerPullback"
+      ],
+      [
+        "theorem",
+        "native_rational_layer_pullback_continuous"
+      ],
+      [
+        "theorem",
+        "native_rational_layer_pullback_family_compact"
+      ],
+      [
+        "theorem",
+        "native_rational_layer_haar_image_integral"
+      ]
+    ],
+    "Hindman168/NativeRationalLayerFrozenHaar.lean": [
+      [
+        "theorem",
+        "native_rational_layer_frozen_window_haar"
+      ]
+    ],
+    "Hindman168/CompactSequentialParameterFreezing.lean": [
+      [
+        "theorem",
+        "compact_sequential_parameter_freezing"
+      ]
+    ],
+    "Hindman168/NativeSmoothActionFreezing.lean": [
+      [
+        "theorem",
+        "native_metric_group_action_continuous"
+      ],
+      [
+        "theorem",
+        "native_parameter_action_freezing"
+      ],
+      [
+        "theorem",
+        "native_sequential_smooth_left_action_freezing"
+      ]
+    ],
+    "Hindman168/NativeRationalLayerSmoothLocalHaar.lean": [
+      [
+        "theorem",
+        "native_rational_layer_smooth_local_haar"
+      ]
+    ]
+  }
+}

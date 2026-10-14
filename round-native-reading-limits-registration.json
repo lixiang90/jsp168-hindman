@@ -1,0 +1,52 @@
+{
+  "modules": [
+    "Hindman168/ObservablePullbackCompactness.lean",
+    "Hindman168/FiniteObservablePullbackLimits.lean",
+    "Hindman168/AlignmentNativeReadingLimits.lean"
+  ],
+  "names": [
+    "Hindman168.observable_pullback_family_compact",
+    "Hindman168.observable_pullback_uniform_subsequence",
+    "Hindman168.compatibleMetric_observable_pullback_subsequence",
+    "Hindman168.finite_observable_pullback_uniform_subsequence",
+    "Hindman168.finite_compatibleMetric_pullback_subsequence",
+    "Hindman168.alignmentNativeJointReading_compact_family",
+    "Hindman168.alignmentNativeJointReading_uniform_subsequence"
+  ],
+  "declarations": {
+    "Hindman168/ObservablePullbackCompactness.lean": [
+      [
+        "theorem",
+        "observable_pullback_family_compact"
+      ],
+      [
+        "theorem",
+        "observable_pullback_uniform_subsequence"
+      ],
+      [
+        "theorem",
+        "compatibleMetric_observable_pullback_subsequence"
+      ]
+    ],
+    "Hindman168/FiniteObservablePullbackLimits.lean": [
+      [
+        "theorem",
+        "finite_observable_pullback_uniform_subsequence"
+      ],
+      [
+        "theorem",
+        "finite_compatibleMetric_pullback_subsequence"
+      ]
+    ],
+    "Hindman168/AlignmentNativeReadingLimits.lean": [
+      [
+        "theorem",
+        "alignmentNativeJointReading_compact_family"
+      ],
+      [
+        "theorem",
+        "alignmentNativeJointReading_uniform_subsequence"
+      ]
+    ]
+  }
+}

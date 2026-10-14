@@ -1,0 +1,105 @@
+{
+  "modules": [
+    "Hindman168/AlignmentAffineIntervalClasses.lean",
+    "Hindman168/AlignmentResidueEndpoints.lean",
+    "Hindman168/AlignmentCubeSideLengths.lean",
+    "Hindman168/AlignmentCubeStepRatio.lean"
+  ],
+  "names": [
+    "Hindman168.alignment_affine_interval_image",
+    "Hindman168.alignment_affine_interval_residue_image",
+    "Hindman168.alignmentCubeBase_interval_residue_image",
+    "Hindman168.alignmentCubeBase_interval_length",
+    "Hindman168.alignmentResidueEndpoint",
+    "Hindman168.alignmentResidueEndpoint_bounds",
+    "Hindman168.alignmentResidueEndpoint_modEq",
+    "Hindman168.alignmentResidueEndpoint_le_iff",
+    "Hindman168.alignmentResidueEndpoint_interval_exact",
+    "Hindman168.alignmentResidueEndpoint_affine_displacement",
+    "Hindman168.alignment_scaled_interval_length",
+    "Hindman168.alignment_actual_cube_side_lengths",
+    "Hindman168.alignment_retained_step_interval",
+    "Hindman168.alignment_retained_step_length",
+    "Hindman168.alignment_step_scale_small",
+    "Hindman168.alignment_actual_step_eventually_small",
+    "Hindman168.alignment_actual_endpoint_eventually_small"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentAffineIntervalClasses.lean": [
+      [
+        "theorem",
+        "alignment_affine_interval_image"
+      ],
+      [
+        "theorem",
+        "alignment_affine_interval_residue_image"
+      ],
+      [
+        "theorem",
+        "alignmentCubeBase_interval_residue_image"
+      ],
+      [
+        "theorem",
+        "alignmentCubeBase_interval_length"
+      ]
+    ],
+    "Hindman168/AlignmentResidueEndpoints.lean": [
+      [
+        "def",
+        "alignmentResidueEndpoint"
+      ],
+      [
+        "theorem",
+        "alignmentResidueEndpoint_bounds"
+      ],
+      [
+        "theorem",
+        "alignmentResidueEndpoint_modEq"
+      ],
+      [
+        "theorem",
+        "alignmentResidueEndpoint_le_iff"
+      ],
+      [
+        "theorem",
+        "alignmentResidueEndpoint_interval_exact"
+      ],
+      [
+        "theorem",
+        "alignmentResidueEndpoint_affine_displacement"
+      ]
+    ],
+    "Hindman168/AlignmentCubeSideLengths.lean": [
+      [
+        "theorem",
+        "alignment_scaled_interval_length"
+      ],
+      [
+        "theorem",
+        "alignment_actual_cube_side_lengths"
+      ],
+      [
+        "theorem",
+        "alignment_retained_step_interval"
+      ],
+      [
+        "theorem",
+        "alignment_retained_step_length"
+      ]
+    ],
+    "Hindman168/AlignmentCubeStepRatio.lean": [
+      [
+        "theorem",
+        "alignment_step_scale_small"
+      ],
+      [
+        "theorem",
+        "alignment_actual_step_eventually_small"
+      ],
+      [
+        "theorem",
+        "alignment_actual_endpoint_eventually_small"
+      ]
+    ]
+  }
+}

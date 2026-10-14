@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.702999999979511,
+  "log": "round-box-translation-axioms.txt",
+  "log_sha256": "ae4da2b8a747a8bec4bf4efb4454a9ed12b35efc456c16b0ee3bfceaddd8ca7f"
+}

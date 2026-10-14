@@ -1,0 +1,98 @@
+[
+  {
+    "module": "Hindman168/NativeProductLieAlgebra.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeProductLieAlgebra.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.985000000102445,
+    "source_sha256": "d655a464e299e7b0aeca20be2aa627d3fbfcd0cd4b99537a70407e9bd82927c6",
+    "log": "round-native-product-lie-model-focused-NativeProductLieAlgebra.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/NativeProductExponential.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeProductExponential.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.046000000089407,
+    "source_sha256": "aa48a92cd9162ff4349aa8987ecb8cc43cc817473e889f02043e3d13dec33b6c",
+    "log": "round-native-product-lie-model-focused-NativeProductExponential.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/NativeProductGlobalLogarithm.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeProductGlobalLogarithm.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.297000000020489,
+    "source_sha256": "36459c10a563ec36bc337216cd71b89c8f24678cf90fdaa01d72d3377cdaa3c6",
+    "log": "round-native-product-lie-model-focused-NativeProductGlobalLogarithm.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/NativeProductLieSubgroup.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeProductLieSubgroup.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.468999999808148,
+    "source_sha256": "41664b17661f9b08ef270f118bba39e6418a3421063e6a32d6f49542fe6df1f0",
+    "log": "round-native-product-lie-model-focused-NativeProductLieSubgroup.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/NativeProductLieModel.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeProductLieModel.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.375,
+    "source_sha256": "c7a13c55bf5411ec4130d1fabb4a53b8f7e8ac4fba61725d8ee906578159d948",
+    "log": "round-native-product-lie-model-focused-NativeProductLieModel.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/NativeProductLieTopology.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeProductLieTopology.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.484000000171363,
+    "source_sha256": "5b0ee7ba6e789bb3617d3b8c8be85172720ba7aac511017e0c6ed07534936ad3",
+    "log": "round-native-product-lie-model-focused-NativeProductLieTopology.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

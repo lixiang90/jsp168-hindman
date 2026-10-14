@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughSpatialAffineSubstitution.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.813000000081956,
+    "log": "round-native-actual-bad-characters-RoughSpatialAffineSubstitution-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughSpatialAffineSubstitution.lean",
+    "source_sha256": "60fdba92c439d9107fb19461b0c5d669cf69643d35689037e9718ea8d8c62010"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughResidueBoxNormalization.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.547000000020489,
+    "log": "round-native-actual-bad-characters-RoughResidueBoxNormalization-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughResidueBoxNormalization.lean",
+    "source_sha256": "47942092b362be2942a5dc94c18e5a800ff039165fe05b7ba812473ea2c1330c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalResidueBoxObstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.672000000020489,
+    "log": "round-native-actual-bad-characters-NativeOriginalResidueBoxObstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalResidueBoxObstruction.lean",
+    "source_sha256": "f4d7127bc5c89fe3169cbd447eb0b03bd8c59b7a3ad19b432dcc31a8dce0781f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalBadPairCharacters.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.202999999979511,
+    "log": "round-native-actual-bad-characters-NativeOriginalBadPairCharacters-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalBadPairCharacters.lean",
+    "source_sha256": "a8291d80c99f4758287ed03122734cf5657b4d06c3f9eaef8db497d4ca00bcf6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeRealBadIndexComplex.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.422000000020489,
+    "log": "round-native-actual-bad-characters-RoughNativeRealBadIndexComplex-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeRealBadIndexComplex.lean",
+    "source_sha256": "8c92bcbfdad2900ced2ec9d87327d7bc4f2d910a89709789f7840ea5f4a7c346"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalRealBadPairCharacters.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.922000000020489,
+    "log": "round-native-actual-bad-characters-NativeOriginalRealBadPairCharacters-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalRealBadPairCharacters.lean",
+    "source_sha256": "0564e01252bdde4b076e71e6ea9765bbbe364c314b812204886ab9a5509da23f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughOriginalBadPairScaleThresholds.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.015000000130385,
+    "log": "round-native-actual-bad-characters-RoughOriginalBadPairScaleThresholds-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughOriginalBadPairScaleThresholds.lean",
+    "source_sha256": "3cbb672c66a5c88e97560e0a524a1acd9686d423a17ef2f1e191b735311317c6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalAsymptoticBadPairCharacters.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.156999999890104,
+    "log": "round-native-actual-bad-characters-NativeOriginalAsymptoticBadPairCharacters-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalAsymptoticBadPairCharacters.lean",
+    "source_sha256": "aa6384246dca73bf56ec7fe79d7cfdf64008d88a80eb578b1c5920ec09d77e04"
+  }
+]

@@ -1,0 +1,13 @@
+✔ [3952/3953] Built Hindman168.FiniteCountableExpectations (6.9s)
+✖ [3953/3953] Building Hindman168.HarmonicDivisorMass (7.2s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\HarmonicDivisorMass.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\HarmonicDivisorMass.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\HarmonicDivisorMass.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\HarmonicDivisorMass.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\HarmonicDivisorMass.setup.json --json
+error: Hindman168/HarmonicDivisorMass.lean:65:25: Unknown constant `Finsupp.mem_support_mapDomain.mp`
+error: Hindman168/HarmonicDivisorMass.lean:65:9: Tactic `rcases` failed: `x✝ : ?m.46` is not an inductive datatype
+error: Hindman168/HarmonicDivisorMass.lean:83:5: synthesized type class instance is not definitionally equal to expression inferred by typing rules, synthesized
+  instDecidableEqFin q
+inferred
+  fun a b => Classical.propDecidable (a = b)
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.HarmonicDivisorMass
+error: build failed

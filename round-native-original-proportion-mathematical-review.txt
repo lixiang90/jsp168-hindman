@@ -1,0 +1,92 @@
+JSP-000168 / Erdos #172, 2026-10-13. Author-side mathematical review.
+Verdict: partial overall coverage. StrongConjecture is not proved.
+This report is not independent kernel replay or external peer review.
+
+Primary route: pinned OpenAI Hindman preprint, Section 6, rough-step removal.
+The six paper sections are compared to their actual pinned Git objects by the
+round audit. The repaired earlier source slab estimate remains a repairable
+proof defect, not an unavoidable obstruction to the proposition or final goal.
+
+Finite dense AP input:
+The isolated full quantitative density archive is not promoted as a dependency.
+Only the actual 42-module finite Szemeredi closure and integer extraction are
+vendored. Original OpenAI authorship, commit, Apache-2.0 license, source hashes,
+compatibility edits, exact build logs and target axiom logs are retained.
+The new main OAI library has only those 42 modules; original Lean/mathlib pins
+are unchanged. Style-only unnecessarySeqFocus lints are retained and explicitly
+classified; no option suppresses them or changes kernel checking.
+
+HasAP was expanded and checked against the independent statement: actual
+natural a, strictly positive b and every index below arbitrary H. The uniform
+cyclic count is not mistaken for a nontrivial AP: diagonal mass is removed,
+the modulus is four times the natural interval length, and short-interval
+integer reconstruction reverses negative differences. The independent bridge
+and main wrapper additionally prove b<K, including H=0 and H=1 by extracting
+max(2,H) first. Density delta>1 is permitted but has no false dense witnesses.
+
+Fixed-length density transport:
+K is chosen at density delta/2 before N or the bad set. The previously proved
+floor(N/K) block partition discards exactly the final remainder, controlled by
+2*K <= delta*N. All selected terms lie in the original bad set. The selected
+b<K and w>=K show every prime divisor of b is at most w; smoothness of the
+actual modulus proves smoothness of the actual product modulus*b.
+
+Original source transport:
+The vector polynomial uses literal parameter-affine substitution. Its ordinary
+degree bound and all-real logarithm identity are proved at every real input.
+No source equality is inferred from finite quotient samples. Bad-index laws
+are proved equivalent, preserving the actual existential witnesses for varying
+boxes, residue vectors and observables. The resulting bad family has actual
+positive step, rough coprimality and original dyadic membership at every index.
+
+Residue and interval geometry:
+Signed residue-coordinate endpoints parametrize the entire original integer
+residue interval by a zero-based natural range. The affine map is injective;
+image equality, cardinality and hit cardinalities are exact. Natural conversion
+is justified by the original lower endpoint being nonnegative, not by assuming
+that the signed residue-index endpoints themselves are nonnegative.
+The original start satisfies its actual residue congruence. W dividing the
+modulus and gcd(W,r)=1 yield actual coprimality of EVERY sampled step.
+
+The dyadic set is exactly ceil(S) <= t < ceil(2*S) with the original residue
+congruence, converted to naturals. Membership is proved equivalent to
+S<=t<2*S and the natural congruence, for nonnegative S. The original exact
+endpoint length error, ceil(S)<S+1 and ceil(2*S)>=2*S give the uniform count
+lower bound from S/modulus >= N0+2, including variable residues and moduli.
+
+Quantifiers and asymptotics:
+NativeNoLongBadFamily is the already proved unconditional natural finrank
+induction theorem. It supplies H before every source. Finite dense AP then
+supplies K, and N0=max(K,ceil(2*K/delta)). One eventual threshold handles w>=K
+and absence of every actual bad family. No additional no-bad, inverse, finite
+Szemeredi or character-production assumption is added to the conclusion.
+The uniform dyadic ratio threshold R follows before all raw sources/moduli.
+The sequence theorem uses actual S/modulus -> infinity. The original
+Z/S^a -> infinity supplies eventual nonnegative Z. C is enlarged to max(1,C)
+only for the proved real event monotonicity, with the SAME original sources,
+samples and tests. This does not assume C>=1 in the original final interface.
+
+Complex and non-strict discrepancy:
+RoughNativeComplexLargeIndex explicitly has error >= eta, eta>0. Its original
+witnesses give strict complex error > eta/2; the previously proved real/imaginary
+observable selection gives real error > eta/4, without extra colors or a fixed
+observable. Lipschitz and sup bounds, all varying boxes/classes and true
+nonempty samples survive. Finite filter inclusion gives the original complex
+exceptional count bound. The same exact dyadic denominator is retained.
+The uniform strict count bound implies a positive denominator; dividing gives
+the actual exceptional fraction tending to zero, with no zero-denominator
+substitution or loss of original varying-source quantifiers.
+
+Scope and remaining work:
+The resulting theorem is the original native complex rough-proportion
+comparison on genuine nonempty integer box/class samples. It includes arbitrary
+degree, spatial dimension and variable original source coefficients. It is not
+the separate GTZ interval Gowers linear nilsequence correlation inverse.
+Fixed finite native-family/master instantiation, any further source-interface
+or empty-sample boundary matching, full joint cube/Alignment synthesis and
+positive distinct rapidly separated monochromatic FS/FP remain required.
+The unconditional fixed-data inverse constants do not establish explicit
+delta-power estimates. There is no established unavoidable obstruction.
+Public repository, PR and award claim remain after the user's completion or
+genuine unavoidable-obstruction milestone; no partial result is submitted as
+a complete prize proof or claimed as the OpenAI mathematical solution.

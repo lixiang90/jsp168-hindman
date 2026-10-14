@@ -1,0 +1,79 @@
+{
+  "baseline_hash_count": 992,
+  "modules": [
+    "Hindman168/SubgroupGowersRoot.lean",
+    "Hindman168/WeightedMomentThreshold.lean",
+    "Hindman168/SubgroupGowersWeightedBounds.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupGowersValue",
+    "Hindman168.subgroupGowersValue_nonneg",
+    "Hindman168.subgroupGowersValue_pow",
+    "Hindman168.subgroupGowersValue_le_one",
+    "Hindman168.weightedSubgroupGowersValue",
+    "Hindman168.weightedSubgroupGowersValue_nonneg",
+    "Hindman168.weightedSubgroupGowersValue_pow",
+    "Hindman168.weightedSubgroupGowersValue_le_one",
+    "Hindman168.weighted_power_threshold",
+    "Hindman168.weighted_power_half_mass",
+    "Hindman168.subgroupGowers_good_cell_mass",
+    "Hindman168.weighted_subgroup_gowers_combination"
+  ],
+  "theorem_count": 10,
+  "declarations": {
+    "Hindman168/SubgroupGowersRoot.lean": [
+      [
+        "def",
+        "subgroupGowersValue"
+      ],
+      [
+        "theorem",
+        "subgroupGowersValue_nonneg"
+      ],
+      [
+        "theorem",
+        "subgroupGowersValue_pow"
+      ],
+      [
+        "theorem",
+        "subgroupGowersValue_le_one"
+      ],
+      [
+        "def",
+        "weightedSubgroupGowersValue"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_nonneg"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_pow"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_le_one"
+      ]
+    ],
+    "Hindman168/WeightedMomentThreshold.lean": [
+      [
+        "theorem",
+        "weighted_power_threshold"
+      ],
+      [
+        "theorem",
+        "weighted_power_half_mass"
+      ]
+    ],
+    "Hindman168/SubgroupGowersWeightedBounds.lean": [
+      [
+        "theorem",
+        "subgroupGowers_good_cell_mass"
+      ],
+      [
+        "theorem",
+        "weighted_subgroup_gowers_combination"
+      ]
+    ]
+  }
+}

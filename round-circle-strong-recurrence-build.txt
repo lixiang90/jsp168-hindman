@@ -1,0 +1,3 @@
+✔ [5913/5915] Built Hindman168.UnitCircleAffineSmallValueInverse (16s)
+✔ [5914/5915] Built Hindman168 (12s)
+Build completed successfully (5915 jobs).

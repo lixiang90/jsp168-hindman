@@ -1,0 +1,50 @@
+{
+  "baseline_hashes_verified_before_registration": 724,
+  "new_modules": [
+    "Hindman168/NativeLieAdjointExponential.lean",
+    "Hindman168/NativeLieAdjointGenerator.lean",
+    "Hindman168/NativeLieRightTranslation.lean"
+  ],
+  "names": [
+    "Hindman168.linearODE_eq_exp",
+    "Hindman168.nativeLieAdjointCurve_eq_exp",
+    "Hindman168.nativeLieAdjoint_exponential_eq_exp",
+    "Hindman168.nativeLieAdjointGenerator_curve_commute",
+    "Hindman168.nativeLieAdjointCurve_hasDerivAt_left",
+    "Hindman168.nativeLieAdjointDifferential",
+    "Hindman168.nativeLieAdjointCurve_hasDerivAt_differential",
+    "Hindman168.nativeLieAdjointGenerator_eq_differential",
+    "Hindman168.nativeLieAdjointGenerator_add",
+    "Hindman168.nativeLieAdjointGenerator_smul",
+    "Hindman168.nativeLieAdjointGenerator_zero",
+    "Hindman168.nativeLieAdjointGenerator_self",
+    "Hindman168.nativeLieAdjointGenerator_alternating",
+    "Hindman168.nativeLieAdjointGenerator_continuous",
+    "Hindman168.nativeLieAdjointCurve_conjugation",
+    "Hindman168.nativeLieAdjointGenerator_conjugation",
+    "Hindman168.nativeLieAdjointGenerator_equivariant",
+    "Hindman168.nativeLieAdjointGenerator_joint_continuous",
+    "Hindman168.nativeLieAdjointGenerator_hasFDerivAt",
+    "Hindman168.nativeLieAdjointCurve_action_hasDerivAt_zero",
+    "Hindman168.nativeLieAdjointGenerator_action_leibniz",
+    "Hindman168.nativeLieAdjointGenerator_commutator",
+    "Hindman168.nativeLieRightTranslation_contMDiff",
+    "Hindman168.nativeLieRightTranslation_inverse_mfderiv",
+    "Hindman168.nativeLieRightTranslation_invariant_field",
+    "Hindman168.nativeLieRightTranslation_pullback_invariant"
+  ],
+  "module_report_counts": {
+    "NativeLieAdjointExponential": {
+      "theorems": 5,
+      "selected_declarations": 5
+    },
+    "NativeLieAdjointGenerator": {
+      "theorems": 16,
+      "selected_declarations": 17
+    },
+    "NativeLieRightTranslation": {
+      "theorems": 4,
+      "selected_declarations": 4
+    }
+  }
+}

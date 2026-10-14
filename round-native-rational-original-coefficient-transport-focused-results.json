@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughAffineCommonMultiplier.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.75,
+    "log": "round-native-rational-original-coefficient-transport-RoughAffineCommonMultiplier-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughAffineCommonMultiplier.lean",
+    "source_sha256": "2f4dfc58c9ed5f19fbfcd20c35024c3413ff5623596cbe02c7679d05689955df"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughAffineCoefficientRecovery.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.45299999997951,
+    "log": "round-native-rational-original-coefficient-transport-RoughAffineCoefficientRecovery-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughAffineCoefficientRecovery.lean",
+    "source_sha256": "cb2997bf909c9d503ba430263135e8dac50e836e353ab4cadd29e558cd92598e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarRightFactorCoefficientTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.109999999869615,
+    "log": "round-native-rational-original-coefficient-transport-ScalarRightFactorCoefficientTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarRightFactorCoefficientTransport.lean",
+    "source_sha256": "e81d11c815edeeb1ce7a3ad7919835662029057fedbdbfa84ba0ca4871e68d47"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MvCompleteBinomialTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.577999999979511,
+    "log": "round-native-rational-original-coefficient-transport-MvCompleteBinomialTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MvCompleteBinomialTransfer.lean",
+    "source_sha256": "d8a9a9ba3a9a42219206df098ae8e353db6ab9ab3814684ebfb9dfe9d3481be9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeHorizontalNaturalMultiplier.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.187000000150874,
+    "log": "round-native-rational-original-coefficient-transport-NativeHorizontalNaturalMultiplier-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeHorizontalNaturalMultiplier.lean",
+    "source_sha256": "8e89119457775f0c8e1e5df841841e1908f64e443d321dca7fc0208a39d81150"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalOriginalCoefficientTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.937999999849126,
+    "log": "round-native-rational-original-coefficient-transport-NativeRationalOriginalCoefficientTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalOriginalCoefficientTransport.lean",
+    "source_sha256": "8387fae3cabdc1f4454f10e9a7aff11d4481ca4e3b6f3c989bca9ea9f4cedde6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalUniformOriginalTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.391000000061467,
+    "log": "round-native-rational-original-coefficient-transport-NativeRationalUniformOriginalTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalUniformOriginalTransport.lean",
+    "source_sha256": "2f32f2fa5ec639d8dfdaeace46910aaef74b67c93d5e59052a78cb46712caa25"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalConstructedChildInverseTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.811999999918044,
+    "log": "round-native-rational-original-coefficient-transport-NativeRationalConstructedChildInverseTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalConstructedChildInverseTransport.lean",
+    "source_sha256": "d7df2fba75fa20660b22249e2849a447988ba5cbaaab62cbc76f09a299ac29d9"
+  }
+]

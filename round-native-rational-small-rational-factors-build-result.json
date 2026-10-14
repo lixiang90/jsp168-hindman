@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.109999999869615,
+  "log": "round-native-rational-small-rational-factors-build.txt",
+  "log_sha256": "75c2323bbfa5f9a01def2548e8fd7a1efa058e391a335444268dbb8f17b0e081"
+}

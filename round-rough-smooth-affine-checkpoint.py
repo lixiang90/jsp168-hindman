@@ -1,0 +1,21 @@
+from pathlib import Path
+import json
+
+v = json.loads(Path('round-rough-smooth-affine-checks.json').read_text(encoding='utf-8'))
+s = Path('CONTINUATION.txt').read_text(encoding='utf-8')
+s = s.replace('Current batch: round-rough-conjugate-lattice', 'Earlier batch: round-rough-conjugate-lattice')
+a = s.index('Immediate next work:')
+b = s.index('The uniform rough-step theorem', a)
+s = s[:a] + f'''Current batch: round-rough-smooth-affine, verified 2026-10-11. Five modules, {v['new_theorems']} theorems, {v['new_definitions']} definitions; full build {v['build_jobs']} jobs; {v['project_modules']} project modules; {v['selected_axiom_reports']} selected transitive axiom reports. Retained sources and axiom sets unchanged, standard axioms only, pinned paper sections matched. Author-side verification, not independent kernel replay.
+- DiscreteCosetProductSmooth proves smooth descent with an arbitrary additional manifold parameter from the actual quotient projection. Local quotient chart inverses provide a jointly smooth local lift (p,q) to (p,chart(q)); the existing smooth lifted function is composed with this lift. The neighborhood identity is proved on the chart source. No normality is assumed and no inference from separate smoothness is used.
+- RoughNativeConjugateOrbitSmooth.rough_native_conjugate_orbit_joint_contMDiff proves actual (ell,h Delta) maps to ell*h*g Gamma is smooth in both variables. Delta is literally the conjugate lattice comap of the actual subgroup inclusion. Original quotient charts use nativeDiscreteCosetChartedSpace; subgroup charts and its LieGroup structure use existing native constructions, and source quotient charts use its exponential diffeomorph. No rationality or ambient quotient compactness is needed for smoothness. Discreteness of the original lattice suffices.
+- RoughMvAffineSubstitution proves generic total-degree preservation under degree<=1 substitutions over any commutative semiring. It expands the ORIGINAL polynomial by its support; each monomial is bounded using product and power degrees and its original support degree. The concrete scalar substitution is C(u_j)+C(k_j)*X_j; no invertibility/nontrivial-ring assumption is needed. Actual eval and finite-vector-polynomial eval/degree transport are proved.
+- RoughSpatialSubstitution uses Option kappa: none is z and some j is x_j. It substitutes z unchanged and x_j=u_j+K*y_j. Actual evaluation and total-degree preservation hold for all real (or commutative-semiring) parameters, including K=0 and empty spatial type.
+- RoughNativeAffineKernelCoordinates constructs each transformed coordinate polynomial by applying roughSpatialSubstitution to the actual previous native kernel log coordinate polynomial. For all real z,y it equals ell(log(Q_z(u+K*y))). The original bound C(s)^2*d remains, independent of residues, K, progression length, coefficient sizes and sample point. The required Module Q E instance is retained from the original native joint product construction.
+Review: Section 06 smooth induced-map assertion and affine substituted joint logarithm degree are proved. Smoothness does not by itself produce the uniform numerical Lipschitz estimate. That estimate, scalar model assembly, slow-factor freezing, sampling weights and dimension induction remain open.
+
+Immediate next work: assemble actual integer spatial polynomial m_z from earlier rational model evaluations, preserving the jointly real-polynomial dependence in z,x and the weighted joint degree. Connect Finsupp/finite-function indices explicitly. Prove exact integer polynomial realization at every original natural index, then invoke original integer-polynomial coset congruence. Next establish uniform quantitative Lipschitz bounds over finite residues and compact left factors with compatible metric/derivative bounds; do not infer a linear metric estimate from compact continuity. Prove analytic slow-factor freezing from scalar algebraic partial bounds and finite residue sampling weight comparison. Preserve quantitative Leibman obstruction, corrected box comparison, affine coefficient identity, stretched-filtration polynomiality, finite density extraction via Szemeredi and dimension induction.
+
+''' + s[b:]
+Path('CONTINUATION.txt').write_text(s, encoding='utf-8')
+print('Updated verified continuation checkpoint.')

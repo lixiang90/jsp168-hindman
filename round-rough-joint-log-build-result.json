@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 28.391000000061467,
+  "log": "round-rough-joint-log-build.txt",
+  "log_sha256": "bdaba4c8e05f2098f6f307493f025bb38beaca66bd5ff491ce4aec1d65f993c3"
+}

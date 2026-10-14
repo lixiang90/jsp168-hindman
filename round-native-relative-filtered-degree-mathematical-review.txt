@@ -1,0 +1,69 @@
+JSP-000168: relative filtered polynomial degree review
+Author review; 2026-10-12. Not independent kernel replay or peer review.
+
+Sources
+OpenAI math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+06_rough_progressions.tex: logarithmic coefficients are unbounded; the
+stretched lower-central filtration is fixed using the ordinary degree.
+Green--Tao https://arxiv.org/html/0709.3562v4, section 7,
+especially Proposition 7.2 and the two normalizations preceding (7.3).
+Corrected multiparameter scope: https://arxiv.org/html/1311.6170v3.
+
+Reviewed chain
+1. The original product native bracket really is coordinatewise, by its
+   previously proved Lie algebra equivalence. The actual smooth inclusion
+   has identity differential equal to the true relative model inclusion.
+   Its adjoint differential therefore intertwines the actual brackets.
+2. Relative Lie layer i is Fi x Fi with first-minus-second in Fi+1.
+   Expanding B(v1,w1)-B(v2,w2) as
+   B(v1-v2,w1)+B(v2,w1-w2) gives the extra next layer. This
+   works also at layer zero; no informal step decrease is used.
+3. Constant product corrections use F1=top, hence have weight one with
+   arbitrary coefficient size. Weighted Picard perturbation is an exact
+   product-log difference, not an assumption that BCH preserves weights.
+4. The shift difference and three actual constant perturbations telescope
+   to the ORIGINAL first-minus-second logarithmic polynomial. Applying
+   scalar duals to all real assignments proves aggregated coefficient
+   equality, retaining cancellations. Together with the previously proved
+   actual relative coefficient membership this gives genuine term weights.
+5. Generic iterated native group differences receive actual antitone,
+   bracket and exponential-layer proofs. They prove filteredness of the
+   CONSTRUCTED relative polynomial. Integer restriction uses the real
+   additive map n -> (fun _ => (n : real)); it keeps the exact original
+   normalized shifted pair, including negative shifts and samples.
+6. Projection to the terminal diagonal quotient preserves those exact
+   samples and all iterated differences. The actual image filtration
+   vanishes at s*d, so all such length-s*d differences are identity.
+   The reduced group retains the native step bound s; it is its actual
+   filtration degree, not necessarily its nilpotency class, that decreases.
+7. Actual reduced Lie layers are images under the true model quotient
+   projection. Native Log membership is proved in both directions using
+   actual inclusion/projection Exp compatibility. Smooth projection and
+   its proved differential give the true image bracket condition.
+8. Exp/Log identify each actual reduced group layer with its finite
+   dimensional projected real subspace. Closedness and contractibility
+   follow with the actual subtype topology; connectedness and simple
+   connectedness follow. No image of a general closed subgroup is assumed
+   closed, and no lattice rationality follows just from this topology.
+9. The constructed reduced polynomial has these exact projected Lie
+   weights. Coefficients at degrees >= s*d vanish. Zero-vector-term
+   removal preserves evaluations and gives ordinary degree <= s*d-1.
+   This bound also handles s*d=0 via truncated natural subtraction and
+   the terminal zero Lie layer; it does not assume positive s.
+
+Scope and remaining obligations
+These are genuine univariate relative/reduced degree proofs on the SAME
+original samples. They are not a quantitative inverse theorem. The next
+obligation is rationality of every internal relative and reduced image
+layer against the actual restricted/image lattice, then recursive
+native rational-filtered induction. Re-stretching the reduced lower
+central series would discard the filtration needed for this induction.
+The additional original linear-step normalization P(n)*gamma^(-n)
+is still needed for later character bounds. The current compact
+representative of P(1)^h does not bound P(1).
+Nonzero horizontal-character reconstruction, the multiparameter case,
+interval Gowers correlation inverse, rough progression descent,
+positive-probability Alignment and the full StrongConjecture remain open.
+No unavoidable obstruction and no prize eligibility are established.
+Publication and application remain authorized at the user's requested
+completion-or-unavoidable-obstruction milestone, with an honest scope.

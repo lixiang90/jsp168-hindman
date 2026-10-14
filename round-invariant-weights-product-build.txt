@@ -1,0 +1,8 @@
+⚠ [4299/4299] Built Hindman168.MaskInvariantProductMerge (11s)
+warning: Hindman168/MaskInvariantProductMerge.lean:159:10: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Hindman168/MaskInvariantProductMerge.lean:159:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Build completed successfully (4299 jobs).

@@ -1,0 +1,5 @@
+⚠ [5334/5334] Built Hindman168.AlignmentExposedNativeVectorPolynomial (14s)
+warning: Hindman168/AlignmentExposedNativeVectorPolynomial.lean:102:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (5334 jobs).

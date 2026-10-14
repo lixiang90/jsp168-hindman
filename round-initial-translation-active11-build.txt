@@ -1,0 +1,78 @@
+✔ [4077/4078] Built Hindman168.MasterSquareRootGapLengths (11s)
+✖ [4078/4078] Building Hindman168.ConditionalPredictionInsertion (11s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\ConditionalPredictionInsertion.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\ConditionalPredictionInsertion.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\ConditionalPredictionInsertion.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\ConditionalPredictionInsertion.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\ConditionalPredictionInsertion.setup.json --json
+error: Hindman168/ConditionalPredictionInsertion.lean:31:2: Tactic `apply` failed: could not unify the conclusion of `@add_le_add_left`
+  ?b + ?a ≤ ?c + ?a
+with the goal
+  translationError X W (predictionRootDisplacementCap dir R) +
+      ∑ q, ∑ j, ↑h * |↑(cubeShiftDirection j)| * (2 * ↑(T q).sqrt / ↑(T q)) ≤
+    translationError X W (predictionRootDisplacementCap dir R) +
+      ∑ q, ∑ j, ↑h * |↑(cubeShiftDirection j)| * (2 / ↑(Tmin q).sqrt)
+
+Note: The full type of `@add_le_add_left` is
+  ∀ {α : Type ?u.36} [inst : Add α] [inst_1 : LE α] [i : AddRightMono α] {b c : α}, b ≤ c → ∀ (a : α), b + a ≤ c + a
+
+b d h X W : ℕ
+T Tmin R : Fin b → ℕ
+dir : Fin h → Fin b × CubeVertex d
+hmin : ∀ (q : Fin b), 0 < Tmin q
+hT : ∀ (q : Fin b), Tmin q ≤ T q
+⊢ translationError X W (predictionRootDisplacementCap dir R) +
+      ∑ q, ∑ j, ↑h * |↑(cubeShiftDirection j)| * (2 * ↑(T q).sqrt / ↑(T q)) ≤
+    translationError X W (predictionRootDisplacementCap dir R) +
+      ∑ q, ∑ j, ↑h * |↑(cubeShiftDirection j)| * (2 / ↑(Tmin q).sqrt)
+error: Hindman168/ConditionalPredictionInsertion.lean:123:10: `simp` made no progress
+error: Hindman168/ConditionalPredictionInsertion.lean:132:10: `simp` made no progress
+error: Hindman168/ConditionalPredictionInsertion.lean:100:85: unsolved goals
+α : Type u_1
+β : Type u_2
+l : Filter α
+b d h : ℕ
+dir : Fin h → Fin b × CubeVertex d
+X W V : α → ℕ
+Tmin R : α → Fin b → ℕ
+ρ : α → Mass β
+E : α → β → Prop
+A : α → β → Fin b × Fin d × Bool → ℤ
+T : α → β → Fin b → ℕ
+M : α → β → Fin b → ℤ
+G Ω : α → β → ReplicaCubeRow b d → ℤ → ℝ
+B : ℕ
+hρ : ∀ (w : α) (x : β), 0 ≤ (ρ w) x
+htρ : ∀ (w : α), total (ρ w) = 1
+hV : ∀ᶠ (w : α) in l, 1 ≤ V w
+hW : ∀ᶠ (w : α) in l, 0 < W w
+hroot :
+  PowerDominates l (fun w => ↑(X w)) fun w => ↑(samplingSize (W w) 0 (predictionRootDisplacementCap dir (R w)) (V w))
+hshift : ∀ (q : Fin b), PowerDominates l (fun w => ↑(Tmin w q)) fun w => ↑(V w)
+hT : ∀ᶠ (w : α) in l, ∀ x ∈ (ρ w).support, E w x → ∀ (q : Fin b), Tmin w q ≤ T w x q
+hM : ∀ᶠ (w : α) in l, ∀ x ∈ (ρ w).support, E w x → ∀ (q : Fin b), ↑(W w) ∣ M w x q
+hR : ∀ᶠ (w : α) in l, ∀ x ∈ (ρ w).support, E w x → ∀ (q : Fin b), |↑(M w x q)| * ↑(T w x q) ≤ ↑(R w q)
+hG : ∀ᶠ (w : α) in l, ∀ x ∈ (ρ w).support, E w x → ∀ (base : ReplicaCubeRow b d) (y : ℤ), |G w x base y| ≤ ↑(V w) ^ B
+hcap : RapidlySmall l (fun w => ↑(V w)) fun w => predictionUniformInsertionCap (X w) (W w) (Tmin w) (R w) dir
+hmin : ∀ᶠ (w : α) in l, ∀ (q : Fin b), 0 < Tmin w q
+w : α
+hv : 2 ≤ X w ∧ ↑(W w) / ↑(X w) < Real.log ↑(X w) ∧ 0 < harmonicNormalizer (X w) (W w)
+hm : ∀ (q : Fin b), 0 < Tmin w q
+ht : ∀ x ∈ (ρ w).support, E w x → ∀ (q : Fin b), Tmin w q ≤ T w x q
+hmw : ∀ x ∈ (ρ w).support, E w x → ∀ (q : Fin b), ↑(W w) ∣ M w x q
+hr : ∀ x ∈ (ρ w).support, E w x → ∀ (q : Fin b), |↑(M w x q)| * ↑(T w x q) ≤ ↑(R w q)
+hg : ∀ x ∈ (ρ w).support, E w x → ∀ (base : ReplicaCubeRow b d) (y : ℤ), |G w x base y| ≤ ↑(V w) ^ B
+hww : 0 < W w
+hnonneg : 0 ≤ predictionUniformInsertionCap (X w) (W w) (Tmin w) (R w) dir
+⊢ |(expectation (ρ w) fun x =>
+          if E w x then
+            expectation (piMass (predictionOriginalColumnMass (X w) (W w) (A w x) (T w x))) fun z =>
+              expectation (predictionSquareRootPairMass dir (T w x)) fun v =>
+                predictionEliminationIntegrand (M w x) dir ∅ z v (G w x) (Ω w x)
+          else 0) -
+        expectation (ρ w) fun x =>
+          if E w x then
+            expectation (piMass (predictionOriginalColumnMass (X w) (W w) (A w x) (T w x))) fun z =>
+              ∏ base, G w x base (replicaCubeEval (M w x) base z)
+          else 0| ≤
+    |↑(V w) ^ (B * Fintype.card (ReplicaCubeRow b d)) * predictionUniformInsertionCap (X w) (W w) (Tmin w) (R w) dir|
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.ConditionalPredictionInsertion
+error: build failed

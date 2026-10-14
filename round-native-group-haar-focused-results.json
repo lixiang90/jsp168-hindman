@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NilpotentLinearDeterminant.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.530999999959022,
+    "log": "round-native-group-haar-NilpotentLinearDeterminant-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NilpotentLinearDeterminant.lean",
+    "source_sha256": "14ade7bb069740cd021d3b87bf6f8334c859de0e5f0c6e513cdbd4a90dba28be"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLieAdjointUnipotent.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.375,
+    "log": "round-native-group-haar-NativeLieAdjointUnipotent-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLieAdjointUnipotent.lean",
+    "source_sha256": "c613bec085ac9d926364a6d65549d437f7d9c1b579f8cc829ca4c7d6be20b2b9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLieDexpDeterminant.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.922000000020489,
+    "log": "round-native-group-haar-NativeLieDexpDeterminant-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLieDexpDeterminant.lean",
+    "source_sha256": "cf95a33060fd3232165ecf40dace354680a04125727cd7ccc0ca615fd719fa68"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLogLeftTranslation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.375,
+    "log": "round-native-group-haar-NativeLogLeftTranslation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLogLeftTranslation.lean",
+    "source_sha256": "84e9fc14afc82bb74c965f0bee06e8d88b3e002b0f108abefb773125c37a23d8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SmoothUnitJacobianMeasure.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.125,
+    "log": "round-native-group-haar-SmoothUnitJacobianMeasure-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/SmoothUnitJacobianMeasure.lean",
+    "source_sha256": "1de9ae53325147cd2e1d39ed8727d5d59917ba217fb3894cd02c1fb542f7bb06"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLieLogCoordinateHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.797000000020489,
+    "log": "round-native-group-haar-NativeLieLogCoordinateHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLieLogCoordinateHaar.lean",
+    "source_sha256": "332d504af6d97c2cd1680d38e2ded0863dd689e8655b25df8097c98cd85abcbd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNilmanifoldGroupHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.968000000109896,
+    "log": "round-native-group-haar-NativeNilmanifoldGroupHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNilmanifoldGroupHaar.lean",
+    "source_sha256": "94dfd3f9ef08b8635b4bc283a7f87c1e94d8fde8ce2b3b5367e922d376250681"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNilmanifoldQuotientCovering.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.313000000081956,
+    "log": "round-native-group-haar-NativeNilmanifoldQuotientCovering-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNilmanifoldQuotientCovering.lean",
+    "source_sha256": "792d3bfc5ca9832aab9cf23f332c4f975f381a895a52edb564743e19e24fda7b"
+  }
+]

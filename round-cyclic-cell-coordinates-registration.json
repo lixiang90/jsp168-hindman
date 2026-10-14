@@ -1,0 +1,33 @@
+{
+  "baseline_hash_count": 1048,
+  "modules": [
+    "Hindman168/CyclicCellCoordinates.lean"
+  ],
+  "names": [
+    "Hindman168.completeResidueCell_cyclic_mean",
+    "Hindman168.zmod_add_val_of_no_wrap",
+    "Hindman168.completeResidueCell_cyclic_shift",
+    "Hindman168.completeResidueCell_integerMass_cyclic_error"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/CyclicCellCoordinates.lean": [
+      [
+        "theorem",
+        "completeResidueCell_cyclic_mean"
+      ],
+      [
+        "theorem",
+        "zmod_add_val_of_no_wrap"
+      ],
+      [
+        "theorem",
+        "completeResidueCell_cyclic_shift"
+      ],
+      [
+        "theorem",
+        "completeResidueCell_integerMass_cyclic_error"
+      ]
+    ]
+  }
+}

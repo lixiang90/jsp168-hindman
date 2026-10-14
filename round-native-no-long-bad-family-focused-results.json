@@ -1,0 +1,146 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughParameterAffineProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.655999999959022,
+    "log": "round-native-no-long-bad-family-RoughParameterAffineProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughParameterAffineProjection.lean",
+    "source_sha256": "a03a6bbd3345c77a774d3b8b11172a04fa7ebba81e938db3d4e7b07596aeeb3a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalCommonBadCharacter.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.25,
+    "log": "round-native-no-long-bad-family-NativeOriginalCommonBadCharacter-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalCommonBadCharacter.lean",
+    "source_sha256": "27981b3a5350f34bb000d441bb1d8b13207ed9deee085ba6db3649034e3d73a0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalHorizontalKernelGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.406000000191852,
+    "log": "round-native-no-long-bad-family-NativeOriginalHorizontalKernelGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalHorizontalKernelGeometry.lean",
+    "source_sha256": "1c96c1462ad9e7a0d0962731e212a6f232577e8718335b62f0233b9fb50c3953"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalHorizontalKernelDescent.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.172000000020489,
+    "log": "round-native-no-long-bad-family-NativeOriginalHorizontalKernelDescent-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalHorizontalKernelDescent.lean",
+    "source_sha256": "870b2eb1233298470835ca112d4e94ff44ac698bf38eb99e7084c7408edc613f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalActualHorizontalKernelDescent.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.718999999808148,
+    "log": "round-native-no-long-bad-family-NativeOriginalActualHorizontalKernelDescent-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalActualHorizontalKernelDescent.lean",
+    "source_sha256": "4d3d238a514f48195f57dc0790f5d7e9352a51eb29211c4e4ee2542112aee092"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalCommonBadFamily.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.656000000191852,
+    "log": "round-native-no-long-bad-family-NativeOriginalCommonBadFamily-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalCommonBadFamily.lean",
+    "source_sha256": "739f0773648d4064d91ea89aeed8ed205fca4a32bd483f0b5717d846558ab257"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNoLongBadFamilyStatement.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.468999999808148,
+    "log": "round-native-no-long-bad-family-NativeNoLongBadFamilyStatement-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNoLongBadFamilyStatement.lean",
+    "source_sha256": "ffc77f3c3fbc6ddcadbbae2024030d9d901e5d2833a0614a5457cd4fde5fada8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNoLongBadFamilyInductionStep.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.906000000191852,
+    "log": "round-native-no-long-bad-family-NativeNoLongBadFamilyInductionStep-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNoLongBadFamilyInductionStep.lean",
+    "source_sha256": "502504d4c8588d43ba878bc95a998a80e45329e9a18bfb729302f2584bd22224"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNoLongBadFamily.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.265999999828637,
+    "log": "round-native-no-long-bad-family-NativeNoLongBadFamily-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNoLongBadFamily.lean",
+    "source_sha256": "f492cce5d9ea3b6a8d2ed710edf275d75403b58215d9aac32ee24ea0f215c203"
+  }
+]

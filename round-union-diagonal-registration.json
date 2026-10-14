@@ -1,0 +1,39 @@
+{
+  "baseline_hash_count": 317,
+  "modules": [
+    "OriginalDualTemplates",
+    "MasterTemplateUnionProducts",
+    "MasterTemplateUnionDenseModels",
+    "SlowStageDiagonal",
+    "CountableDenseModelDiagonal",
+    "OriginalTemplateScaleIndices",
+    "MasterCountableOriginalDenseModels"
+  ],
+  "module_report_counts": {
+    "OriginalDualTemplates": 3,
+    "MasterTemplateUnionProducts": 2,
+    "MasterTemplateUnionDenseModels": 4,
+    "SlowStageDiagonal": 1,
+    "CountableDenseModelDiagonal": 1,
+    "OriginalTemplateScaleIndices": 2,
+    "MasterCountableOriginalDenseModels": 2
+  },
+  "new_selected_report_count": 15,
+  "new_names": [
+    "Hindman168.signedOriginalClippedUnion_abs_le",
+    "Hindman168.signedOriginalClippedUnion_neg",
+    "Hindman168.signedOriginalClippedUnion_nonempty",
+    "Hindman168.MasterParameterConditions.uniform_template_union_products",
+    "Hindman168.MasterParameterConditions.uniform_template_union_hull_polynomial",
+    "Hindman168.MasterParameterConditions.uniform_template_union_positive_part",
+    "Hindman168.MasterParameterConditions.uniform_template_union_clipped_dense_models",
+    "Hindman168.MasterParameterConditions.uniform_template_union_clipping_error",
+    "Hindman168.MasterParameterConditions.uniform_template_union_original_dense_models",
+    "Hindman168.exists_slow_stage",
+    "Hindman168.FiniteMass.countable_dense_model_diagonal",
+    "Hindman168.OriginalDualTemplate.dual_withScaleIndex",
+    "Hindman168.OriginalDualTemplate.withScaleIndex_conditions",
+    "Hindman168.MasterParameterConditions.countable_original_dense_models",
+    "Hindman168.MasterParameterConditions.finite_templates_all_positive_scales_dense_models"
+  ]
+}

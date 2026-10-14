@@ -1,0 +1,10 @@
+{
+  "openai_math_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "newline_normalized_sha256": {
+    "04_correlation.tex": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+    "05_prediction.tex": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+    "07_cube_limits.tex": "cb447cb94564bd4f69e1175c424af0f6cb03d765f6a925a0dbf19564c37750d9"
+  },
+  "remote_updates_checked": false,
+  "matched_exact_pinned_git_objects": true
+}

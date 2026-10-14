@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignedSqrtMicrocellGrowth.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.547000000020489,
+    "log": "round-microcell-growth-slot-control-AlignedSqrtMicrocellGrowth-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignedSqrtMicrocellGrowth.lean",
+    "source_sha256": "a7b7475b89eea4e0701b91c8747a7fefb314141e0a29de25f836aef2a9968e7d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MasterMicrocellGrowth.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.155999999959022,
+    "log": "round-microcell-growth-slot-control-MasterMicrocellGrowth-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MasterMicrocellGrowth.lean",
+    "source_sha256": "f101427f302b074c4c1f60f974e88b21f565187c3cc5b51c727f7e5269085d25"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentSlotMicrocellBounds.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.969000000040978,
+    "log": "round-microcell-growth-slot-control-AlignmentSlotMicrocellBounds-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentSlotMicrocellBounds.lean",
+    "source_sha256": "594dc805eb4ebf3625b6053915c08ae72e7c27131c4f0cb8c4b940c73be0bf26"
+  }
+]

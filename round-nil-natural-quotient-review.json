@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 607,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/NilNaturalCosetMetric.lean",
+    "Hindman168/NilCompactObservableRecipes.lean",
+    "Hindman168/NilCompactObservableTesting.lean",
+    "Hindman168/NilObservableCompactHulls.lean",
+    "Hindman168/NilNaturalQuotientTesting.lean"
+  ],
+  "new_selected_report_count": 17,
+  "module_report_counts": {
+    "NilNaturalCosetMetric": 6,
+    "NilCompactObservableRecipes": 4,
+    "NilCompactObservableTesting": 2,
+    "NilObservableCompactHulls": 2,
+    "NilNaturalQuotientTesting": 3
+  },
+  "application_review": [
+    "All 607 baseline source/config hashes were checked before edits and again before registration. Only root imports and the exact-name verification registry changed among retained files; retained proofs, StrongStatement, attributed PNT+ sources and fixed pins remain byte-identical.",
+    "The actual natural coset topology is used throughout. Closed-subgroup Hausdorffness is obtained from the retained proper right action theorem, not from a quotient-group normality assumption. Ambient compactness then gives regularity, and second countability descends by the open quotient map.",
+    "Urysohn metrization supplies a compatible metric on every compact natural closed-subgroup quotient of a second-countable topological group. The metric is a reducible construction with its topology proved definitionally equal to the original coset quotient topology; continuity of the actual quotient map and compactness in that same metric topology are separately checked.",
+    "For an actual discrete subgroup in a Hausdorff topological group, closedness is derived from the retained spaced-out subgroup theorem. The subgroup is not assumed normal. This applies to the discrete lattice inputs in the new natural-quotient testing theorem.",
+    "Replacing a nilmanifold metric by an arbitrary compatible metric does not in general preserve the original Lipschitz constant. The new proof does not make that inference: finite recipes are proved for compact continuous observable families in the fixed domain topology.",
+    "The retained compact-family Stone-Weierstrass argument is applied to the genuine compact cube set and its proved missing-root uniqueness. Root recipes, linear-orbit recipes and actual interval/residue-piece recipe selection use only the fixed compact Hausdorff domain topology, not a domain metric.",
+    "The original-law test limit is reproved with compact-family recipe input. All actual master-law costs, selected duals, gap windows, cutoff endpoints and the delta then fixed-J then w limit order are retained. The observable sup bound controls bad roots independently of any hull bound.",
+    "Uniformity over all bounded admissible tests follows by the retained stage-varying selection principle. If the compact-family test class is empty, the uniform assertion is proved vacuously; no hidden nonemptiness premise is imposed.",
+    "For a supplied compatible metric, replaceTopology retains exactly its original numerical distance. The original Lipschitz inequalities with the original constant therefore yield an Arzela-Ascoli compact hull in the natural continuous-function space. No distance or Lipschitz constant is transferred to the constructed Urysohn metric.",
+    "A second compact-hull theorem covers any uniformly bounded topologically equicontinuous continuous family. It transports the indexed family into the actual bounded-continuous-function Arzela-Ascoli theorem by the exact compact-domain isometry, not by a new assumed compactness statement.",
+    "The canonical natural-quotient test theorem derives compact cube geometry from the actual closed lower-central layers and the finite restricted-lattice quotient inputs i<=s. The natural quotient map is automatically continuous, and natural quotient Hausdorffness/complete regularity are derived from the discrete lattice and ambient compactness. No auxiliary metric or assumed continuous projection remains in this test interface.",
+    "The new original-metric testing theorem takes the compact hull of the full original compatible-metric Lipschitz class and tests every piece observable from that original class, preserving its constant. Compatibility of a specifically prescribed Riemannian metric is still an explicit fact, not claimed from metrization alone.",
+    "The same existing mask counting models are used in the natural-quotient compact-family test. Their original all-scale dual control at dimension s+1 and weighted error bound are retained; no model or root distribution is reconstructed.",
+    "The fixed local paper Prediction lines 275-352 are represented by these strengthened topological testing interfaces. Cube-limit lines 119-137 can use compact observable hulls to avoid a metric-dependent recipe restriction. Rational Lie/lattice facts in Section 07 lines 13-22, including restricted lattice cocompactness, remain to be proved for concrete data.",
+    "Local paper sections 04, 05 and 07 match the exact pinned local Git objects after newline normalization. No remote updates were checked and no dependency pin changed.",
+    "Full default build completed 4464 jobs without warnings/errors. All 2918 exact registered names were reported once by the Lean kernel, including all 17 new theorems, with only standard allowed axioms or none. Executable scanning covers 594 own modules and 9 attributed PNT+ modules plus root/registry. Every own module appears exactly once in root imports. No new heartbeat or linter override is used; an explicit pairing function avoided the initial default elaboration timeout.",
+    "The previous completed goal proof round and this round are PROGRESS. Full StrongConjecture, concrete rational nilmanifold instantiation, prize eligibility, public submission and an unavoidable blocker are not asserted."
+  ],
+  "source_preprint_sections": {
+    "07_cube_limits.tex": "13-22: rational layer/lattice facts still pending; 119-137: natural compact quotient and compact observable hull root recipes",
+    "05_prediction.tex": "275-352: original-law uniform testing in natural quotient topology with the full supplied original-metric Lipschitz class retained"
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4464,
+    "project_modules": 594,
+    "pntplus_modules": 9,
+    "source_scan_modules": 603,
+    "axiom_reports": 2918,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 612,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original-law detection, actual constructed dense block models, full uniform dual estimates, model-error cube cancellation, nonsingleton count replacement, ordered cube coordinates, reflections, compactness from layer quotients, finite uniform root recipes and original interval/residue selectors remain proved. Original harmonic/divisor-weighted boundary deletion, actual positive shift windows and the weighted total bound remain proved. The same finite counting models retain every original replacement, cube, companion slow-stage and dual-prefix property. The actual lower central series has its strong commutator law, normal layers, shifted filtration G_0=G_1=G and terminal degree from the algebraic nilpotency-class bound. Its closed expansion is an actual closed normal filtration and agrees with the original series when the original layers are closed; no unconditional equality is asserted. Natural compact coset spaces of closed subgroups in second-countable topological groups now have a constructed compatible metric, proved to induce exactly the natural quotient topology with a continuous quotient map and unchanged compactness. A discrete lattice is proved closed in a Hausdorff topological group; it need not be normal. Original-law testing is now proved directly in the natural compact quotient topology for every fixed compact continuous observable family, with unrestricted stage/piece orbit data and uniformity over all bounded admissible tests. Compatible supplied metrics retain their original numerical distances and Lipschitz constants when their bounded Lipschitz families are placed in compact hulls; bounded topologically equicontinuous families also admit compact hulls. No transfer of a Lipschitz constant to an arbitrary new compatible metric is claimed. Canonical natural-quotient lower-central and mask-model testing now needs no separately assumed quotient metric or continuous projection, but still requires compact restricted-lattice quotients for the finitely many layers i<=s. Next prove the concrete rational nilmanifold facts: closedness of the required rational lower-central layers and cocompactness of their lattice intersections. The concrete Lie/nilmanifold data must supply the algebraic Group.IsNilpotent class bound, weak local compactness, discrete lattice and ambient compact quotient used by these instantiated theorems; second countability is needed for the separately constructed compatible metric. Identifying any prescribed Riemannian metric with the natural topology is not asserted without its compatibility evidence. Rational layer cocompactness does not follow merely from ambient quotient compactness or taking layer closures. Recipe factors remain continuous and bounded by one, sufficient for the unrestricted original dual inputs; no Lipschitz refinement of those factors is asserted. Complete nested coarse-model projections, calibration and Alignment; instantiate natural-number coloring weights, arithmetic chain/block/gap data and companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

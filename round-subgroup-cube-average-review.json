@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before editing. All 983 baseline hashes checked at registration, preserving prior proofs, original target, laws and fixed dependencies.",
+    "The fixed mathlib tree has no Gowers-norm development found by the relevant file search. This increment builds actual finite averages directly from finite sums, rather than adding an assumed norm interface.",
+    "A cube direction is an element of Fin d -> Q, and vertices are all finite subsets of Fin d. The product evaluates actual ambient-group additions using the subgroup inclusion; direction averaging therefore uses subgroup Haar measure and the root uses ambient Haar measure.",
+    "Every group and subgroup is nonempty. Normalization of finiteHaarMean_const explicitly requires nonempty finite types, preventing division-by-zero normalization claims. The cube bound uses the absolute value of each real factor.",
+    "Cell probabilities and prime-tuple probabilities are distinct finite weighted sums. The final combination theorem preserves both and charges only the original product probability of a noncoprime tuple pair, independently of both family cardinalities.",
+    "The combined statistic is the absolute value of the actual cube mean. It is not called a Gowers norm, and no nonnegativity or 2^d-th root identity is asserted. Applying the paper Bessel inequality still requires actual norm construction and its theorem.",
+    "Eight theorems and four definitions receive individual kernel axiom reports. Main inverse inputs and final target remain unproved; no unavoidable blocker is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/FiniteHaarMean.lean",
+    "Hindman168/SubgroupCubeAverage.lean",
+    "Hindman168/SubgroupCubeCombination.lean"
+  ],
+  "verified": {
+    "project_modules": 968,
+    "pntplus_modules": 9,
+    "source_scan_modules": 977,
+    "source_config_hashes": 986,
+    "build_jobs": 4922,
+    "axiom_reports": 4721,
+    "new_theorems": 8,
+    "new_definitions": 4,
+    "new_instances": 0,
+    "new_axiom_reports": 12,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Actual finite subgroup cube averages and cell-weighted cube averages are now defined and bounded, and their absolute values satisfy the probability-weighted coprime-pair combination bound. These are cube means, not yet Gowers norms: nonnegativity in positive dimensions, root conventions and seminorm estimates remain. Next prove those properties and the short-increment Cauchy-Schwarz reduction, Bessel inverse input, cyclic-to-interval transfer and inverse correlators. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

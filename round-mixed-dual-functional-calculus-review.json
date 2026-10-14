@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding representative round was rechecked before edits; retained proof sources and their axiom sets are unchanged.",
+    "The polynomial representative is a finite sum of actual bounded power families, with fixed polynomial coefficients and fixed scalar B across all stages and cells. Each power is in the actual dual convex hull by multiplicative closure.",
+    "Uniform pointwise errors control the norm in the original weighted-Haar ultrafilter Hilbert completion. No replacement of the cell probability law occurs.",
+    "For each error tolerance, Weierstrass approximation chooses one polynomial on the fixed compact interval [-B,B], before any stage or ultrafilter limit. Continuous compositions are proved to lie in the closed subspace via these actual span representatives.",
+    "Pointwise clipping to [0,1] is constructed as an actual bounded family for varying group and cell types. Its closed-subspace membership and distance contraction to a [0,1]-valued target are proved.",
+    "The actual closed dual subspace has its genuine orthogonal projection. Projection Pythagoras and clipping contraction give arbitrary approximation by [0,1]-valued families whose Hilbert images remain in that same subspace.",
+    "Six theorems, one clipping-family definition and one projection instance are audited. The projection is approximated, not asserted to have an exact internal representative. Characteristic-factor localization, different-subgroup relative orthogonality, higher-order concatenation and full Bessel remain missing."
+  ],
+  "new_modules": [
+    "Hindman168/MixedDualFunctionalCalculus.lean",
+    "Hindman168/MixedDualHilbertClipping.lean"
+  ],
+  "verified": {
+    "project_modules": 1074,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1083,
+    "source_config_hashes": 1092,
+    "build_jobs": 5030,
+    "axiom_reports": 5099,
+    "new_theorems": 6,
+    "new_definitions": 1,
+    "new_instances": 1,
+    "new_axiom_reports": 8,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The common-system master estimates, first-order Bessel, dual energy reduction, recursion and stability are proved. Actual dual functions now have a common finite empirical approximation preserving arbitrary cell probabilities, unit bounds and uniform bounded-test correlations. Exact arbitrary-vertex reflection of the actual subgroup cube law and mixed products is now proved. Mixed cubes now have exact arbitrary-vertex duality and weighted single-vertex replacement estimates. Finite products of dual functions now have quantitative empirical approximation uniform over bounded tests. Exact translated-product expansions and extraction for each fixed test are now proved. The exact mixed face split, projected-face correlation and one-step face Cauchy-Schwarz inequality are now proved. Face energies are now identified with actual copied cube means, with nonnegativity and copy algebra verified. Arbitrary-coordinate permutation invariance, copied-mean nonnegativity and reflection bounds are now established. Full multidimensional mixed Gowers Cauchy-Schwarz, the product-root bound and the single-vertex bound are now proved. Actual dual anti-uniformity, its weighted version and the finite zero-root orthogonality characterization are now proved. Mixed dual recursion, covariance and exact subgroup-shift expansions are now established. Same-subgroup mixed-dual finite products now have an exact averaged dual representation and retain weighted anti-uniformity. The actual unit-input mixed-dual convex hull now has multiplicative and translation closure with unchanged weighted anti-uniform bounds. For varying finite groups and cell types, the exact weighted Haar Hilbert realization and vanishing-Gowers/closed-dual-span orthogonality equivalence are now proved. The dual Hilbert span now has uniformly bounded scaled-hull representatives dense in its closure; their bound may depend on the approximation. Fixed-polynomial and continuous functional calculus for scaled-hull representatives, their clipping closure, and unit-interval-valued approximation of the actual dual Hilbert projection are now proved. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

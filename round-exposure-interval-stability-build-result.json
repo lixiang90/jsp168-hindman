@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.5,
+  "log": "round-exposure-interval-stability-build.txt",
+  "log_sha256": "e73438636816e98e88684caee2435558dcb72140e5671e6c3a5811c866828412"
+}

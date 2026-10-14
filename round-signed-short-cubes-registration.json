@@ -1,0 +1,28 @@
+{
+  "baseline_hash_count": 1066,
+  "modules": [
+    "Hindman168/SignedShortCubeSymmetry.lean"
+  ],
+  "names": [
+    "Hindman168.shortCube_average_neg",
+    "Hindman168.shortCube_average_natAbs",
+    "Hindman168.MasterParameterConditions.signed_common_cyclic_shortCube_gowers_eventually"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/SignedShortCubeSymmetry.lean": [
+      [
+        "theorem",
+        "shortCube_average_neg"
+      ],
+      [
+        "theorem",
+        "shortCube_average_natAbs"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.signed_common_cyclic_shortCube_gowers_eventually"
+      ]
+    ]
+  }
+}

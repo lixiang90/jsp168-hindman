@@ -1,0 +1,43 @@
+{
+  "baseline_hash_count": 1068,
+  "modules": [
+    "Hindman168/SubgroupBesselEnergy.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean_sum",
+    "Hindman168.subgroupHaarMean_weighted_square",
+    "Hindman168.subgroup_first_bessel_energy",
+    "Hindman168.probability_weighted_square_le",
+    "Hindman168.weighted_subgroup_first_bessel_energy",
+    "Hindman168.weighted_subgroup_first_bessel_quartic"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/SubgroupBesselEnergy.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_sum"
+      ],
+      [
+        "theorem",
+        "subgroupHaarMean_weighted_square"
+      ],
+      [
+        "theorem",
+        "subgroup_first_bessel_energy"
+      ],
+      [
+        "theorem",
+        "probability_weighted_square_le"
+      ],
+      [
+        "theorem",
+        "weighted_subgroup_first_bessel_energy"
+      ],
+      [
+        "theorem",
+        "weighted_subgroup_first_bessel_quartic"
+      ]
+    ]
+  }
+}

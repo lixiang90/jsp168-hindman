@@ -1,0 +1,58 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI 07_cube_limits.tex: q=0 of Proposition local-cube-law, exact
+periodic cosets, actual local windows, and continuity of Haar expectations.
+This is NOT positive-dimensional cube laws, global point mixture or final FS/FP.
+
+The continuity proof integrates a genuinely jointly continuous pullback over
+the compact original subgroup quotient with its actual probability. Explicit
+native metric/Borel structures match the earlier integral transport. The
+parameter assumptions of the generic theorem hold for R and the actual
+smooth curve. No extra Haar law or weak-continuity oracle is assumed.
+
+Signed arithmetic is exact for positive period M and ANY signed integer d
+divisible by M, including negative d. The nonzero-step condition is retained
+where inverse equidistribution is applied. Original source identities are
+at all real inputs; actual lattice gamma is removed using the existing
+right-coset identity, WITHOUT assuming the lattice normal. Unit-coordinate
+reparametrization and integer/rational/real casts are explicitly checked.
+There is one curve and radius for all rational representatives. A finite
+intersection over Fin M occurs BEFORE all varying origins/windows/tests.
+
+NativeResidueLocalHaarLaw and NativeRealLocalHaarLaw are proposition
+abbreviations for the displayed conclusions, not input structures carrying
+unproved analytic assertions. The top assembly theorem PROVES both directly
+from original adaptation/cofinality using the existing native factorization.
+The generic transport helpers take proved earlier conclusions as hypotheses.
+
+For integer intervals, exact enumeration gives the true residue cardinality
+m. The discrepancy |m-T/M|<=1 and eventual L>=2*M/kappa give
+m>=kappa*L/(2*M)>0. The actual first progression sample is therefore in the
+requested residue class, identifying its Haar image; all samples belong to
+the original integer window. Exact mean identities incur no boundary loss.
+
+For real endpoints a<=b, the integer window has endpoints ceil(a),ceil(b).
+Its membership is exactly a<=z<b, its length differs from b-a by less than
+one, and each residue count differs from (b-a)/M by at most 1+1/M. Empty and
+negative-endpoint windows cause no silent truncation; native applications
+derive eventual nonemptiness from positive alpha and cofinal original L.
+
+NativeRealLocalHaarLaw quantifies beta,epsilon, then alpha0>0, then EVERY
+FIXED 0<alpha<alpha0, then an eventual sequence threshold, then ALL residues
+and unit tests. This is the epsilon form of the required length-first,
+locality-second convergence. It does not allow alpha to vanish with n before
+taking the length limit. No uniform radius over all beta or O(alpha) rate
+in an arbitrary compatible metric is claimed. Global point-mixture assembly
+must still justify finite partition/freezing and its threshold order.
+
+The original source theorem uses ONE existing factorization witness and
+retains its exact H and period. It asserts only q=0. Future joint cube work
+must use this SAME witness; independently obtaining unrelated q-filtrations
+would not prove the paper's simultaneous theorem. Original ambient step s
+and input degree are not replaced.
+
+Still missing: Riemann global point mixture, native cube geometry and source
+coefficient isolation through original s+1, projected face Haar invariance
+and full support, joint lifts/full Alignment, separate GTZ inverse and final
+same-color ALL nonempty FS and FP with positive distinct rapid separation.
+No unavoidable obstruction established. Author checks are not independent
+kernel replay or external peer review; no publication or prize claim made.

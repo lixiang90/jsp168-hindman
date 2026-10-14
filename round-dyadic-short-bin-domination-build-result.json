@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.125,
+  "log": "round-dyadic-short-bin-domination-build.txt",
+  "log_sha256": "842005214077bedd4f934df8b3b0246d3d8aa24f52616061b6aa7a33f293d182"
+}

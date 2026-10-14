@@ -1,0 +1,48 @@
+{
+  "modules": [
+    "Hindman168/NativeOriginalPolynomialInverse.lean",
+    "Hindman168/NativeOriginalBoundedCubeObstruction.lean",
+    "Hindman168/NativeOriginalAffineCubeInput.lean",
+    "Hindman168/NativeOriginalRealBoxObstruction.lean",
+    "Hindman168/NativeOriginalFiniteRealBoxObstruction.lean"
+  ],
+  "names": [
+    "Hindman168.native_original_polynomial_observable_inverse",
+    "Hindman168.native_original_bounded_cube_obstruction",
+    "Hindman168.native_original_affine_cube_binomial_input",
+    "Hindman168.native_original_real_box_finite_obstruction",
+    "Hindman168.native_original_finite_real_box_obstruction"
+  ],
+  "declarations": {
+    "Hindman168/NativeOriginalPolynomialInverse.lean": [
+      [
+        "theorem",
+        "native_original_polynomial_observable_inverse"
+      ]
+    ],
+    "Hindman168/NativeOriginalBoundedCubeObstruction.lean": [
+      [
+        "theorem",
+        "native_original_bounded_cube_obstruction"
+      ]
+    ],
+    "Hindman168/NativeOriginalAffineCubeInput.lean": [
+      [
+        "theorem",
+        "native_original_affine_cube_binomial_input"
+      ]
+    ],
+    "Hindman168/NativeOriginalRealBoxObstruction.lean": [
+      [
+        "theorem",
+        "native_original_real_box_finite_obstruction"
+      ]
+    ],
+    "Hindman168/NativeOriginalFiniteRealBoxObstruction.lean": [
+      [
+        "theorem",
+        "native_original_finite_real_box_obstruction"
+      ]
+    ]
+  }
+}

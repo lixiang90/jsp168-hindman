@@ -1,0 +1,65 @@
+{
+  "modules": [
+    "Hindman168/RoughInterpolationProgression.lean",
+    "Hindman168/RoughExactInterpolation.lean",
+    "Hindman168/RoughExactInterpolationModOne.lean",
+    "Hindman168/RoughInterpolationPaperGrowth.lean"
+  ],
+  "names": [
+    "Hindman168.rough_interpolation_progression_geometry",
+    "Hindman168.rough_affine_power_derivatives_zero",
+    "Hindman168.rough_interpolation_choose_integer_data",
+    "Hindman168.rough_exact_interpolation_eventually",
+    "Hindman168.rough_mod_one_norm_eq_inf",
+    "Hindman168.rough_mod_one_near_integer_iff",
+    "Hindman168.rough_exact_interpolation_mod_one",
+    "Hindman168.rough_interpolation_growth_from_ratios",
+    "Hindman168.rough_exact_interpolation_paper"
+  ],
+  "declarations": {
+    "Hindman168/RoughInterpolationProgression.lean": [
+      [
+        "theorem",
+        "rough_interpolation_progression_geometry"
+      ],
+      [
+        "theorem",
+        "rough_affine_power_derivatives_zero"
+      ],
+      [
+        "theorem",
+        "rough_interpolation_choose_integer_data"
+      ]
+    ],
+    "Hindman168/RoughExactInterpolation.lean": [
+      [
+        "theorem",
+        "rough_exact_interpolation_eventually"
+      ]
+    ],
+    "Hindman168/RoughExactInterpolationModOne.lean": [
+      [
+        "theorem",
+        "rough_mod_one_norm_eq_inf"
+      ],
+      [
+        "theorem",
+        "rough_mod_one_near_integer_iff"
+      ],
+      [
+        "theorem",
+        "rough_exact_interpolation_mod_one"
+      ]
+    ],
+    "Hindman168/RoughInterpolationPaperGrowth.lean": [
+      [
+        "theorem",
+        "rough_interpolation_growth_from_ratios"
+      ],
+      [
+        "theorem",
+        "rough_exact_interpolation_paper"
+      ]
+    ]
+  }
+}

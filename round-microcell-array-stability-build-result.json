@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.640999999828637,
+  "log": "round-microcell-array-stability-build.txt",
+  "log_sha256": "c4c4b1ad1f95e241d4be4aa352c06fe977323cfc6f1be5d9112915d06492689f"
+}

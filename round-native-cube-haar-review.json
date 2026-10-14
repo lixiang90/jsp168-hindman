@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2919,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6960,
+    "selected_axiom_reports": 11297,
+    "new_declarations": 17,
+    "new_theorems": 14,
+    "new_definitions": 3,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeResidueCubeOrbit.lean",
+    "Hindman168/NativeResidueCubeHaarImage.lean",
+    "Hindman168/NativeNilmanifoldProbabilityFullSupport.lean",
+    "Hindman168/NativeResidueCubeHaarInvariance.lean",
+    "Hindman168/NativeResidueCubeHaarSupport.lean"
+  ],
+  "proved_components": [
+    "Constructed the actual rational-residue cube orbit map into ORIGINAL vertex coset spaces, with representative formula (h x_V rho Gamma)_V. Proved exact lattice vertex membership, well-definedness, injectivity, continuity and compact range.",
+    "Constructed the Haar image by pushing the actual normalized native quotient probability to these ORIGINAL vertex cosets. Proved probability and concentration on the actual orbit without any empirical limit assumption.",
+    "Proved the actual normalized native quotient probability positive on EVERY nonempty open set, using its established invariance and compact transitive coset action.",
+    "Proved exact equivariance of the original vertex orbit map for every actual cube-group element, with vertex action conjugated by h. Derived invariance of the Haar image under this full cube-group action from the actual quotient invariant probability.",
+    "Proved the actual cube orbit is a closed embedded compact quotient. Proved an ambient open set has positive Haar-image mass IFF it meets this actual orbit, identifying its full support with no supplied support or Haar oracle."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 weak probability limit and all-continuous tests, SAME-filtration actual native cube group, FULL rational cube filtration, rational-residue cube data, actual original vertex orbit and Haar probability image with full cube invariance and EXACT full support are proved, preserving original step s and degree. Remaining: face-character coefficient isolation and original source cube adaptation; simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-cube-haar-mathematical-review.txt",
+  "mathematical_review_sha256": "d8a22a0ac4d2fc8e2376accb54cab9e6dd2317044ddb54008573051e6d29eeca",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

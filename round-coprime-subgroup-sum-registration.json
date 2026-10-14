@@ -1,0 +1,51 @@
+{
+  "baseline_hash_count": 981,
+  "modules": [
+    "Hindman168/CoprimeMultipleSubgroups.lean",
+    "Hindman168/WeightedSubgroupCombination.lean"
+  ],
+  "names": [
+    "Hindman168.multipleAddSubgroup",
+    "Hindman168.mem_multipleAddSubgroup",
+    "Hindman168.coprime_multiple_decomposition",
+    "Hindman168.coprime_multiple_subgroups_sup",
+    "Hindman168.coprime_cyclic_multiple_subgroups",
+    "Hindman168.multiple_subgroup_statistic_bound",
+    "Hindman168.weighted_multiple_subgroup_bound"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/CoprimeMultipleSubgroups.lean": [
+      [
+        "def",
+        "multipleAddSubgroup"
+      ],
+      [
+        "theorem",
+        "mem_multipleAddSubgroup"
+      ],
+      [
+        "theorem",
+        "coprime_multiple_decomposition"
+      ],
+      [
+        "theorem",
+        "coprime_multiple_subgroups_sup"
+      ],
+      [
+        "theorem",
+        "coprime_cyclic_multiple_subgroups"
+      ]
+    ],
+    "Hindman168/WeightedSubgroupCombination.lean": [
+      [
+        "theorem",
+        "multiple_subgroup_statistic_bound"
+      ],
+      [
+        "theorem",
+        "weighted_multiple_subgroup_bound"
+      ]
+    ]
+  }
+}

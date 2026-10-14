@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteConditionedSignalBudgets.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 7.952999999979511,
+    "log": "round-native-rational-character-child-signal-FiniteConditionedSignalBudgets-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteConditionedSignalBudgets.lean",
+    "source_sha256": "e0848dd005a2a340672709a24a2400c6d9ec8cce658851b26cef2b6053051116"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalConstructedChildSignal.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.54700000002049,
+    "log": "round-native-rational-character-child-signal-NativeRationalConstructedChildSignal-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalConstructedChildSignal.lean",
+    "source_sha256": "6c2df44aa188099d46f9eb33d9ec08d2d349966eb8000664b5274a4874376b38"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCharacterChildBudget.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.359000000171363,
+    "log": "round-native-rational-character-child-signal-NativeRationalCharacterChildBudget-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCharacterChildBudget.lean",
+    "source_sha256": "2837326af305f51609afb82b41f50d063cc061737c688668be4f85567b4f8432"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalFiniteCharacterChildBudget.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.437999999849126,
+    "log": "round-native-rational-character-child-signal-NativeRationalFiniteCharacterChildBudget-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalFiniteCharacterChildBudget.lean",
+    "source_sha256": "e4a9103e271d3c14fee260d80b96a516ffd048f0b2d7cedbfae08109858920a0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDenseChildSignal.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 21.266000000061467,
+    "log": "round-native-rational-character-child-signal-NativeRationalDenseChildSignal-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDenseChildSignal.lean",
+    "source_sha256": "8d3ebd0d3506b1142bd1e4057c0026de1f2b1956a2b73c8b516c1428386bca28"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeTwoDenseChildSignal.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.82799999997951,
+    "log": "round-native-rational-character-child-signal-NativeRationalDegreeTwoDenseChildSignal-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeTwoDenseChildSignal.lean",
+    "source_sha256": "29c416e199542216f5c7899887e4a6aaacf3ec734099d85e0d33f00332a353d6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalChildScalarTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.593000000109896,
+    "log": "round-native-rational-character-child-signal-NativeRationalChildScalarTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalChildScalarTransport.lean",
+    "source_sha256": "83a24925a0930cda2097a1dde504ce2c008c32ebd82c690b9a56f39ac2fc1af7"
+  }
+]

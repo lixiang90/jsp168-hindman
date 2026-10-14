@@ -1,0 +1,41 @@
+JSP-000168 / Erdos #172, 2026-10-13. Partial overall coverage.
+Author-side checking, not independent replay or external peer review.
+
+Primary source says ALONG ANY SEQUENCE w->infinity. Earlier native
+proportion statements identified sequence index with sieve width;
+merely composing their limits would not check actual smoothness/primorial
+conditions on differently indexed or repeated widths. This gap is closed.
+
+For strictly increasing actual W(k), the largest observed index before
+each natural width is given by an actual finite Nat.findGreatest.
+Strict monotonicity proves k<=W(k), the selected index at W(k) is EXACTLY k,
+and the selector tends to infinity. Original scale/power-ratio limits
+therefore extend to all widths. NO raw source, modulus, model or bad
+sample is fabricated at an unobserved width. The unconditional
+uniform theorem is applied to the extended scales, then evaluated at
+the actual observed widths with the original arbitrary raw inputs.
+
+The resulting strict-cofinal native theorem uses prime<=W(k),
+primorial(W(k))|modulus(k) and actual rough coprimality, not width=k.
+Exact sample values recover original Scale(k), Z(k) before all
+source/geometry/denominator arguments. All actual family/source/q/a
+and non-strict complex real-box event quantifiers survive.
+
+An arbitrary cofinal W may repeat/oscillate. Any frequent failure
+admits an actual recursive subsequence with BOTH strictly increasing
+indices and widths: cofinal width thresholds intersect the frequent
+bad set, and the successor choice exceeds both previous bounds.
+The generic eventual/limit-transfer theorem proves convergence on
+the original arbitrary sequence from those genuine subcases. Its
+subsequence premise is discharged by the already proved native
+strict-cofinal comparison, not supplied as an analytic oracle.
+Original source degree/log identities and all actual sampling
+hypotheses restrict to that actual subsequence without alteration.
+
+NativeNilmanifoldData was inspected: it contains legitimate finite
+model/Lie group/nilpotence/lattice/compatible metric data, with no
+inverse, no-bad or rough-comparison field. StrongConjecture was
+re-read and remains the original full positive distinct rapidly
+separated simultaneous monochromatic FS/FP target; it is UNPROVED.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original/residual complex non-strict rough exceptional-proportion convergence is proved for arbitrary REAL boxes and ANY actual cofinal sieve-width sequence, with simultaneous nonempty samples, literal source/event composition and common finite-native-family budgets WITHOUT coprimality. Remaining: actual master/source/conditional-probability application including uniform bounded normalized-scale variation, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

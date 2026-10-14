@@ -1,0 +1,48 @@
+{
+  "exact_report_count": 2901,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_free_reports": [
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.maskDescendant_encoding_injective"
+  ],
+  "new_reports": [
+    "Hindman168.normal_threeSubgroup_commutator_le",
+    "Hindman168.lowerCentralSeries_commutator_le",
+    "Hindman168.nilLowerCentralFiltration_zero",
+    "Hindman168.nilLowerCentralFiltration_one",
+    "Hindman168.nilLowerCentralFiltration_succ",
+    "Hindman168.nilLowerCentralFiltration_antitone",
+    "Hindman168.nilLowerCentralFiltration_normal",
+    "Hindman168.nilLowerCentralFiltration_commutator_le",
+    "Hindman168.nilLowerCentralFiltration_conditions",
+    "Hindman168.nilLowerCentralFiltration_terminal",
+    "Hindman168.nilLowerCentralFiltration_beyond_terminal",
+    "Hindman168.topologicalClosure_commutator_le",
+    "Hindman168.CubeGroupFiltration.topologicalClosure",
+    "Hindman168.nilClosedLowerCentralFiltration_zero",
+    "Hindman168.nilClosedLowerCentralFiltration_one",
+    "Hindman168.nilClosedLowerCentralFiltration_conditions",
+    "Hindman168.nilClosedLowerCentralFiltration_isClosed",
+    "Hindman168.nilClosedLowerCentralFiltration_contains",
+    "Hindman168.nilClosedLowerCentralFiltration_eq_of_isClosed",
+    "Hindman168.nilClosedLowerCentralFiltration_terminal",
+    "Hindman168.nilClosedLowerCentralFiltration_beyond_terminal",
+    "Hindman168.nilClosedLowerCentralFiltration_normal",
+    "Hindman168.nilLowerCentral_cube_compact_from_layer_quotients",
+    "Hindman168.nilClosedLowerCentral_cube_compact_from_layer_quotients",
+    "Hindman168.nilClosedLowerCentral_cubeLattice_compactSpace",
+    "Hindman168.nilClosedLowerCentral_cubeGroup_eq_of_closed_layers",
+    "Hindman168.nilLowerCentral_finite_closed_layers",
+    "Hindman168.nilLowerCentral_finite_layer_quotients",
+    "Hindman168.nilClosedLowerCentral_finite_layer_quotients",
+    "Hindman168.nilLowerCentral_original_nilsequence_testing_uniform",
+    "Hindman168.nilClosedLowerCentral_original_nilsequence_testing_uniform",
+    "Hindman168.nilClosedLowerCentral_maskModel_testing_uniform"
+  ],
+  "all_registered_names_reported_exactly_once": true
+}

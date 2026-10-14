@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\A\\.elan\\bin\\lake.EXE",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 13.25,
+  "log": "round-bch-closure-build.txt",
+  "log_sha256": "9b75b0b19aa23ef1344c12763b8175642e26ec4b3724801987bfa70dc7c61dc7",
+  "process_terminal": true
+}

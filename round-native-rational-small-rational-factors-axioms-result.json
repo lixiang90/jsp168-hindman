@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.32799999997951,
+  "log": "round-native-rational-small-rational-factors-axioms.txt",
+  "log_sha256": "8ae655844201d9522e7856aa2f5d0267bac8b2b0fe4c873b5e43f224130585ce"
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-12",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "Exact native product adjoint differential is coordinatewise; actual smooth relative inclusion transports the native adjoint differential. Relative Lie layers consist of Fi-times-Fi pairs with difference in Fi+1 and satisfy the genuine bracket weight addition.",
+    "Actual parametric Picard product perturbations give exact logarithmic product differences. Arbitrary constant left/right corrections have weight ONE in the original positively stretched filtration; no coefficient size bound is assumed.",
+    "Actual normalized shifted first-minus-second logarithmic polynomial has weight ONE. Aggregated coefficient identities follow from all real evaluations and retain cancellations. Every actual ambient pair coefficient lies in the genuine relative layer at its monomial degree.",
+    "The CONSTRUCTED original relative native coefficient polynomial has genuine relative Lie weights. Actual antitone/bracket/Exp-layer proofs discharge every input of generic Picard group-difference transport. Both real and integer original normalized pair sequences are filtered for the SAME actual internal relative filtration.",
+    "The actual constructed reduced integer sequence equals the true terminal quotient projection of the original normalized relative pair. All iterated integer group differences of length at least s*d equal identity. The actual reduced filtration degree is at most s*d-1; this is not a decrease of the native nilpotency step bound s.",
+    "Exact logarithmic membership characterizes every original internal relative layer and every actual reduced group layer. Genuine projected relative Lie subspaces define the reduced Lie filtration, with actual bracket transport through the proved smooth terminal quotient projection and exact identity differential. The reduced Lie filtration vanishes from s*d onward.",
+    "Every ACTUAL reduced group layer is homeomorphic through original native Exp/Log to its actual finite-dimensional projected Lie subspace. Closedness, contractibility, connectedness and simple connectedness are proved for all actual reduced layers. Rationality against the actual image lattice remains OPEN.",
+    "The ACTUAL constructed reduced polynomial has weights in that same projected relative Lie filtration and genuine REAL filteredness. All aggregated monomial coefficients at degree at least s*d vanish. After removing zero vector terms its actual ordinary degree is at most s*d-1, with evaluations retained by the existing exact zero-trim identity.",
+    "StrongConjecture remains UNPROVED; no unavoidable obstruction established. Full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. Actual original normalized univariate relative polynomial weights, real/integer filteredness and genuine terminal quotient filtration-degree decrease are now PROVED for arbitrary starting values, representatives, integer shifts and UNBOUNDED coefficients. The actual reduced image Lie/group layers, exact logarithmic membership, brackets and closed/contractible/connected/simply-connected topology are now PROVED. SAME native nilpotency-step bound s is unchanged; the actual reduced filtration is NOT assumed to be another stretched lower-central series. Ordinary degree after removing zero terms is now at most s*d-1 with actual samples preserved. NEXT: rationality of every actual internal relative/reduced image layer against the SAME restricted/image lattice, recursive native rational-filtered induction, genuine ORIGINAL NONZERO quantitative Leibman horizontal-character reconstruction and pullback with finite-grid/operator/binomial bounds. Further original linear-step normalization P(n)*gamma^(-n) with true P(1)=a*gamma and ONE FIXED compact a remains to prove; representatives of P(1)^h alone do not bound P(1). The univariate degree-drop proof does not supply a multivariate inverse; justify corrected equal-side reduction or prove the multivariate branch. Fixed-data existence bounds only, no unsupported power laws or bounded original coefficients. Preserve corrected Green-Tao equal-side/erratum scope, actual large-N thresholds, equal-cube tiling/boundary discard/translation/integer bounded-location consequences and retained unrestricted-short-box O(eps) counterexample; this counterexample does not obstruct the corrected full goal. Separate HasNativePeriodicIntervalInverse interval Gowers-to-finite-list nilsequence CORRELATION existence remains UNPROVED, distinct from orbit quantitative Leibman. Actual rough progression density/obstruction/descent, step/dimension/length/cofinal-scale comparison, conditional face laws/cube invariance, buffered bins, prior-event positivity, extra-conditioning posterior control, positive-probability Alignment, HasAlignmentMonomialRecurrence and final FS/FP extraction remain UNPROVED. All earlier retained results and standard-axiom reports are preserved. Author source/build/axiom checking is not independent kernel replay or external peer review. No public repository, PR or prize submission yet; execute the authorized publication/application at actual full completion or genuine unavoidable obstruction with honest scope."
+  ],
+  "verified": {
+    "project_modules": 2273,
+    "pntplus_modules": 9,
+    "build_jobs": 6246,
+    "selected_axiom_reports": 9271,
+    "new_declarations": 56,
+    "new_theorems": 47,
+    "new_definitions": 9,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeArbitraryLieFilteredPolynomial.lean",
+    "Hindman168/NativeBasepointPairDifferencePolynomial.lean",
+    "Hindman168/NativeBasepointReducedFilteredPolynomial.lean",
+    "Hindman168/NativeBasepointReducedLieWeights.lean",
+    "Hindman168/NativeBasepointRelativeFilteredPolynomial.lean",
+    "Hindman168/NativeBasepointRelativePolynomialWeights.lean",
+    "Hindman168/NativeConstantProductPerturbation.lean",
+    "Hindman168/NativeProductAdjointDifferential.lean",
+    "Hindman168/NativeProductPerturbationPolynomial.lean",
+    "Hindman168/NativeRelativeLieExponentialLayers.lean",
+    "Hindman168/NativeRelativeLieFiltration.lean",
+    "Hindman168/NativeRelativeLieLayerLogarithm.lean",
+    "Hindman168/NativeRelativeReducedLayerTopology.lean",
+    "Hindman168/NativeRelativeReducedLieFiltration.lean",
+    "Hindman168/RelativeLinearFiltration.lean",
+    "Hindman168/RoughVectorCoefficientEvaluationEquality.lean"
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; no unavoidable obstruction established. Full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. Actual original normalized univariate relative polynomial weights, real/integer filteredness and genuine terminal quotient filtration-degree decrease are now PROVED for arbitrary starting values, representatives, integer shifts and UNBOUNDED coefficients. The actual reduced image Lie/group layers, exact logarithmic membership, brackets and closed/contractible/connected/simply-connected topology are now PROVED. SAME native nilpotency-step bound s is unchanged; the actual reduced filtration is NOT assumed to be another stretched lower-central series. Ordinary degree after removing zero terms is now at most s*d-1 with actual samples preserved. NEXT: rationality of every actual internal relative/reduced image layer against the SAME restricted/image lattice, recursive native rational-filtered induction, genuine ORIGINAL NONZERO quantitative Leibman horizontal-character reconstruction and pullback with finite-grid/operator/binomial bounds. Further original linear-step normalization P(n)*gamma^(-n) with true P(1)=a*gamma and ONE FIXED compact a remains to prove; representatives of P(1)^h alone do not bound P(1). The univariate degree-drop proof does not supply a multivariate inverse; justify corrected equal-side reduction or prove the multivariate branch. Fixed-data existence bounds only, no unsupported power laws or bounded original coefficients. Preserve corrected Green-Tao equal-side/erratum scope, actual large-N thresholds, equal-cube tiling/boundary discard/translation/integer bounded-location consequences and retained unrestricted-short-box O(eps) counterexample; this counterexample does not obstruct the corrected full goal. Separate HasNativePeriodicIntervalInverse interval Gowers-to-finite-list nilsequence CORRELATION existence remains UNPROVED, distinct from orbit quantitative Leibman. Actual rough progression density/obstruction/descent, step/dimension/length/cofinal-scale comparison, conditional face laws/cube invariance, buffered bins, prior-event positivity, extra-conditioning posterior control, positive-probability Alignment, HasAlignmentMonomialRecurrence and final FS/FP extraction remain UNPROVED. All earlier retained results and standard-axiom reports are preserved. Author source/build/axiom checking is not independent kernel replay or external peer review. No public repository, PR or prize submission yet; execute the authorized publication/application at actual full completion or genuine unavoidable obstruction with honest scope.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions and Green-Tao section 7: genuine relative weights/filteredness, actual reduced degree decrease and actual reduced layer topology; lattice rationality/recursive quantitative inverse/full prize theorem open",
+  "mathematical_review_file": "round-native-relative-filtered-degree-mathematical-review.txt",
+  "mathematical_review_sha256": "77d34a7c9cb5353e8388978b04e2f4dab0dc8121a57df3e4091cc058286fa601"
+}

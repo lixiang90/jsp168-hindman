@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.796000000089407,
+  "log": "round-native-rational-unit-inverse-build.txt",
+  "log_sha256": "ff1ed0c79b48f1240f31cb9deffba0914a7dcc30376850fb7d650e8880f49542"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.780999999959022,
+  "log": "round-alignment-native-cube-removal-axioms.txt",
+  "log_sha256": "67eb1dfc81b5cc06377a86126089843dcb0c15bc48b48c6714acd28e182f4b28"
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "RoughHorizontalError proves integer scaling of the standard mod-one norm, removal of finite integer parts, conversion from either sample step 1 or t to the rough step t, the scaled higher-term error bound for p<=Z, and one finite descending coefficient estimate.",
+    "RoughHorizontalInterpolation combines that coefficient estimate with the exact interpolation theorem. Its eventual threshold precedes all t,m,theta, all pointwise choices p(z) in {1,t+mz}, and all higher coefficient values and integer approximations. The output is an actual smooth-denominator rational polynomial, integral at every original index, with explicit H-independent error constant.",
+    "RoughBinomialWeights proves the actual finite product binomial weight bound <=2^D*p^(degreeJ-degreeI), strict degree increase for distinct comparable multiindices, and the original multiindex obstruction estimate with constant A0+card(s)*2^D*A.",
+    "Compared with Section 06 lines 378-436. The proof removes actual integer combinations in the circle norm, then controls their real errors; it does not assume that small mod-one error is small real error.",
+    "Integer scaling is valid for every integer, including negative integers, with its absolute real value. The sample step conversion treats p=1 and p=t separately and gives the explicit factor 2^e from t<=2S.",
+    "The higher-term bound explicitly requires p<=Z. The interpolation wrapper derives 2S<=Z eventually from PowerDominates and proves every permitted p(z)<=2S. No unproved uniform asymptotic estimate is inserted.",
+    "The binomial weight is the actual product of natural binomial coefficients and natural residue powers; the degree difference identity requires componentwise I<=J. Distinct comparable indices have strictly larger total degree. The bound only depends on the degree cap D and higher-term count, not progression length H or polynomial coefficients.",
+    "The generic interpolation step accepts higher integer approximations with error exponent e+n(i). The multiindex estimate proves this matches total degree J using n=degreeJ-degreeI. All p(z) choices may vary separately at each index.",
+    "This batch proves a single induction step and the needed numerical weights, not a completed simultaneous descending induction, a substituted-polynomial coefficient identity, or a quantitative Leibman obstruction. Those remain explicit obligations.",
+    "All retained proof sources and axiom sets are unchanged. These are author-side checks, not independent kernel replay.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. The Section 06 interpolation lemma and one descending horizontal coefficient step with actual binomial-weight estimates are proved. Complete finite simultaneous descending induction for all positive-degree spatial coefficients, and constant-term floor-polynomial splitting after finite coloring. Corrected quantitative Leibman/box comparison, stretched-filtration prerequisites, smooth-progression dimension induction and uniform rough-step comparison over coefficients, boxes/endpoints, residues and tests remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1564,
+    "pntplus_modules": 9,
+    "build_jobs": 5527,
+    "selected_axiom_reports": 6926,
+    "new_declarations": 10,
+    "new_theorems": 10,
+    "new_definitions": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughHorizontalError.lean",
+    "Hindman168/RoughHorizontalInterpolation.lean",
+    "Hindman168/RoughBinomialWeights.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. The Section 06 interpolation lemma and one descending horizontal coefficient step with actual binomial-weight estimates are proved. Complete finite simultaneous descending induction for all positive-degree spatial coefficients, and constant-term floor-polynomial splitting after finite coloring. Corrected quantitative Leibman/box comparison, stretched-filtration prerequisites, smooth-progression dimension induction and uniform rough-step comparison over coefficients, boxes/endpoints, residues and tests remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions lines 378-436: descending horizontal coefficient estimates"
+}

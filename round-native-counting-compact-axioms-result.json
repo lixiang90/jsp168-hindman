@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 16.983999999938533,
+  "log": "round-native-counting-compact-axioms.txt",
+  "log_sha256": "33caeb7bffac647a862028dc8649cf189b9be28a6c2c86776b16b96621e84696"
+}

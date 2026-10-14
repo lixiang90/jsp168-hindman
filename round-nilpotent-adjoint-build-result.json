@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\A\\.elan\\bin\\lake.EXE",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 9.937,
+  "log": "round-nilpotent-adjoint-build.txt",
+  "log_sha256": "25af97f7ea8817b894f89e7cae0fbd86d1ceb910be4891cc8688a7ae749337da",
+  "process_terminal": true
+}

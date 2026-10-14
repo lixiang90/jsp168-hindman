@@ -1,0 +1,26 @@
+{
+  "baseline_hash_count": 974,
+  "modules": [
+    "Hindman168/ConcreteMasterSelectedModels.lean",
+    "Hindman168/FiniteMasterSelectedModels.lean"
+  ],
+  "names": [
+    "Hindman168.concrete_master_selected_models",
+    "Hindman168.finite_master_selected_models"
+  ],
+  "theorem_count": 2,
+  "declarations": {
+    "Hindman168/ConcreteMasterSelectedModels.lean": [
+      [
+        "theorem",
+        "concrete_master_selected_models"
+      ]
+    ],
+    "Hindman168/FiniteMasterSelectedModels.lean": [
+      [
+        "theorem",
+        "finite_master_selected_models"
+      ]
+    ]
+  }
+}

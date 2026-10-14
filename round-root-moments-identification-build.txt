@@ -1,0 +1,10 @@
+✔ [4243/4244] Built Hindman168.RootSmoothedMomentIndices (7.9s)
+⚠ [4244/4244] Built Hindman168.MaskRootOriginalLaw (8.0s)
+warning: Hindman168/MaskRootOriginalLaw.lean:46:2: 'change
+  (if j ∈ maskRootHarmonic m gap t then
+      integerMass ((maskGeneratedMaster m gap).cutoff w (maskRootIndex m gap C hC t w j).val) (primorial w)
+    else uniformIntervalMass 0 (maskRootLength m gap t J w x j)) =
+    _' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (4244 jobs).

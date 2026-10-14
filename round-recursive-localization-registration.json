@@ -1,0 +1,46 @@
+{
+  "baseline_hash_count": 1104,
+  "modules": [
+    "Hindman168/WeightedHaarUniformSelection.lean",
+    "Hindman168/MixedDualRecursiveLocalization.lean"
+  ],
+  "names": [
+    "Hindman168.uniform_abs_small_of_all_dependent_selections",
+    "Hindman168.weightedHaarHilbert_uniform_orthogonal",
+    "Hindman168.mixedDualHilbert_recursive_inputs_localized",
+    "Hindman168.mixedDualHilbert_actual_mixed_dual_representative",
+    "Hindman168.mixedDualHilbert_recursive_coefficient_localized",
+    "Hindman168.mixedDualHilbert_recursive_coefficients_uniform_orthogonal"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/WeightedHaarUniformSelection.lean": [
+      [
+        "theorem",
+        "uniform_abs_small_of_all_dependent_selections"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_uniform_orthogonal"
+      ]
+    ],
+    "Hindman168/MixedDualRecursiveLocalization.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_recursive_inputs_localized"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_actual_mixed_dual_representative"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_recursive_coefficient_localized"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_recursive_coefficients_uniform_orthogonal"
+      ]
+    ]
+  }
+}

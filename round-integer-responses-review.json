@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 354,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/NormalizedResponseResidueArithmetic.lean",
+    "Hindman168/MasterChainColumnRatios.lean",
+    "Hindman168/PolynomialNormalizedIntegerRows.lean",
+    "Hindman168/PolynomialIntegerTranslationResponses.lean",
+    "Hindman168/MaskGeneratedNormalizedIntegerRows.lean",
+    "Hindman168/MaskGeneratedIntegerResponseUnits.lean",
+    "Hindman168/MaskGeneratedUniformDirectionBounds.lean",
+    "Hindman168/MaskGeneratedIntegerRowDirections.lean"
+  ],
+  "new_selected_report_count": 37,
+  "module_report_counts": {
+    "NormalizedResponseResidueArithmetic": 7,
+    "MasterChainColumnRatios": 2,
+    "PolynomialNormalizedIntegerRows": 6,
+    "PolynomialIntegerTranslationResponses": 10,
+    "MaskGeneratedNormalizedIntegerRows": 3,
+    "MaskGeneratedIntegerResponseUnits": 4,
+    "MaskGeneratedUniformDirectionBounds": 2,
+    "MaskGeneratedIntegerRowDirections": 3
+  },
+  "application_review": [
+    "All 354 previously audited source/config hashes were revalidated unchanged before registration. After registration, all retained proof modules, source/runtime/dependency pins and attributed PNT+ sources remain unchanged; only the root imports and exact-name registry changed.",
+    "Natural and integer exact quotients are units at an arbitrary residue modulus whenever their dividend is a unit. This follows by casting the proved quotient-product identities through ring homomorphisms, without assuming a rational-to-residue map or injectivity of residue casting. The sign of a nonzero integer is also a unit.",
+    "The existing absorption and smooth-part bounds prove residue-unit normalized integer coordinates and root coordinates. Every smooth actual master modulus is a unit at every modulus coprime to primorial.",
+    "The actual floor master coefficients along any ordered Chain have integer earlier-to-later ratios, and every such ratio is a multiple of W. Their exact positive coefficient values and the existing master chain-ratio condition supply these conclusions with no divisibility hypothesis in the final application.",
+    "The normalized integer row uses the actual natural quotient c_k/c_anchor. All formally nonzero columns lie at or below the maximum-support anchor, so their rational coefficients cast exactly from this integer row. The full rational row form equals the cast of the derived integer linear form on every integer input.",
+    "The anchor coefficient is exactly the original evaluated anchor monomial. Every off-anchor integer coefficient is divisible by W; formally zero columns above the anchor cause no quotient assumption. On actual pool support, the anchor is a unit at every positive modulus within the selected gap auxiliary budget, including composite moduli.",
+    "The integer translation response is explicitly constructed by the same signed smooth/rough cofactor formula with the receiving row anchor coefficient and actual response polynomial. Its rational cast equals the original normalized row response. Root responses have the corresponding exact quotient formula. Both are W multiples, with exact common target modulus, fixed-row zero and required nonzero other responses.",
+    "The integer linear form on each constructed translation equals that explicit integer response. Consequently the rough-prime unit conclusion concerns the actual integer row evaluation, not only a rational expression or a separately supplied response value.",
+    "The fixed nonzero catalogue already contains D and all nonzero response polynomials. Outside primes where some member evaluates to zero, every required response is a unit. This is derived from the actual master smoothness and absorbed actual coefficients. The purely arithmetic statement holds at all primes greater than w, so it covers the paper range w<p<=V without a new upper-bound hypothesis.",
+    "Conversely, any nonunit required response at a rough prime forces a zero residue of a member of the same fixed nonzero catalogue. This is an exception-list implication, not a claim that such exceptional primes or prime tuples have already been removed at zero cost.",
+    "A finite supremum over the full mask stages supplies one direction-size exponent depending only on the column parameter m, independently of N, gap labels, w, sampled primes, coefficient labels, chains and functions. Both actual direction types are bounded by (pool upper+auxiliary) raised to this same exponent.",
+    "The final maskGenerated_chain_integer_row_directions theorem combines the actual generated full mask family, actual master, actual floor coefficients, actual pool support and original local good event. It derives the complete integer-row direction contract, bounded anchor units and uniform size bound; no desired row integrality, direction, absorption, response-unit or response-nonvanishing hypotheses are supplied in this final application.",
+    "The proof matches the row-directions lemma and the chain normalization assertions in Section 4 of the unchanged OpenAI preprint: exact MQ modulus, signed cofactor clearing, W-multiple directions, zero/nonzero row responses, and a fixed polynomial exception list. The m in this implementation gives m+1 columns.",
+    "The chain, positive rational labels and gap choice remain explicit framework inputs. The analytic mask-removal/additive-elimination inequalities, weighted exception costs, retained-weight correlation/root pushforward, inverse/nilsequence integration and final witness are not inferred from this completed algebraic direction lemma.",
+    "StrongStatement.lean is unchanged; strong_implies_subtype still requires the unproved StrongConjecture. No full solution, prize eligibility or unavoidable blocker is claimed."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:10-33,113-121,322-415",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4209,
+    "project_modules": 344,
+    "pntplus_modules": 9,
+    "source_scan_modules": 353,
+    "axiom_reports": 1791,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 362,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The actual mask-row construction and monomial/prime certificates, maximum-support normalization anchors, positive master coefficients, integer normalized rows on ordered chains, W-multiple coordinates and off-anchor coefficients, exact integer zero/nonzero responses, fixed nonzero-polynomial rough-prime exception catalogue, bounded anchor units, and a direction-size exponent depending only on the column count are proved for the actual generated family and master law. Connect the constructed row recurrence to the actual weighted mask-removal integrands, preserving the distinguished function and all invariant weights. Prove the complete mask-removal Cauchy--Schwarz iteration and exceptional-tuple/error bounds under the original laws. Apply the actual integer row directions to weighted additive elimination and its full Cauchy--Schwarz recurrence, keeping the distinguished target cube and removing the remaining invariant weights with the original linear-forms limits. Connect this to the retained-weight correlation test, root pushforward and actual nilsequence detection. Instantiate concrete blocks, gaps, scale labels, colors, rho and master-scale companion diagonal requirements. Complete the full preprint Prediction/Alignment propositions, required nilsequence/inverse-theorem/cube-law inputs, diagonal test choices and final witness extraction/separation. Real-exponent clipping extensions remain unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit as authorized by the user. The latest checked OpenAI main fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb supplies unchanged partial Alignment support sources and no full target/comparator found in that source/index inspection. No unavoidable blocker is established."
+}

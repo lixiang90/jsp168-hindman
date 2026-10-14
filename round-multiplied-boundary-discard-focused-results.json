@@ -1,0 +1,98 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MultipliedBoundaryResidues.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.0,
+    "log": "round-multiplied-boundary-discard-MultipliedBoundaryResidues-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MultipliedBoundaryResidues.lean",
+    "source_sha256": "572ccdd53e0ac4024a8f8516b519f8d8b76fc474c9f8a392cc8b00690fc93eaa"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MultipliedBoundaryProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 22.75,
+    "log": "round-multiplied-boundary-discard-MultipliedBoundaryProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MultipliedBoundaryProbability.lean",
+    "source_sha256": "61ac4357d793d203d0637ca2d3d6796b7205b29d0838c8929c8233a7d8a7768c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AveragedMultipliedBoundary.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 28.219000000040978,
+    "log": "round-multiplied-boundary-discard-AveragedMultipliedBoundary-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AveragedMultipliedBoundary.lean",
+    "source_sha256": "03d008194d93877f12014cdfe06c05d6171be057f24421e1ec26dc7fcb83130b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignedSqrtBoundaryRates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.094000000040978,
+    "log": "round-multiplied-boundary-discard-AlignedSqrtBoundaryRates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignedSqrtBoundaryRates.lean",
+    "source_sha256": "9590589c949dcc344347e9e0f967e8441e7213dc2f4d50cd41663d0261561e09"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MasterMultipliedBoundaryLimit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.32799999997951,
+    "log": "round-multiplied-boundary-discard-MasterMultipliedBoundaryLimit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MasterMultipliedBoundaryLimit.lean",
+    "source_sha256": "f05f9af7e0354b3f08e9dd7602032863004c63982c68f9bc03ea49caec715f67"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentArrayIntervalStability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.515000000130385,
+    "log": "round-multiplied-boundary-discard-AlignmentArrayIntervalStability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentArrayIntervalStability.lean",
+    "source_sha256": "891afb399e2d3975f698dae96baf94839aa5de8598ee9c132c6cd716ffe16923"
+  }
+]

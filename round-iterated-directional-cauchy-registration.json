@@ -1,0 +1,64 @@
+{
+  "baseline_hash_count": 1007,
+  "modules": [
+    "Hindman168/HaarDyadicPower.lean",
+    "Hindman168/IteratedDirectionalCauchy.lean",
+    "Hindman168/IteratedRootCubeBound.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean_pow_two_pow_le",
+    "Hindman168.probabilityWeighted_pow_two_pow_le",
+    "Hindman168.iteratedDirectionalMean",
+    "Hindman168.injectiveDirection_factor_cauchy",
+    "Hindman168.iteratedDirectionalCauchy",
+    "Hindman168.iteratedDirectionalMean_root",
+    "Hindman168.iteratedRootCube_bound",
+    "Hindman168.weightedIteratedRootCube_bound",
+    "Hindman168.weightedIteratedRootGowers_bound"
+  ],
+  "theorem_count": 8,
+  "declarations": {
+    "Hindman168/HaarDyadicPower.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_pow_two_pow_le"
+      ],
+      [
+        "theorem",
+        "probabilityWeighted_pow_two_pow_le"
+      ]
+    ],
+    "Hindman168/IteratedDirectionalCauchy.lean": [
+      [
+        "def",
+        "iteratedDirectionalMean"
+      ],
+      [
+        "theorem",
+        "injectiveDirection_factor_cauchy"
+      ],
+      [
+        "theorem",
+        "iteratedDirectionalCauchy"
+      ]
+    ],
+    "Hindman168/IteratedRootCubeBound.lean": [
+      [
+        "theorem",
+        "iteratedDirectionalMean_root"
+      ],
+      [
+        "theorem",
+        "iteratedRootCube_bound"
+      ],
+      [
+        "theorem",
+        "weightedIteratedRootCube_bound"
+      ],
+      [
+        "theorem",
+        "weightedIteratedRootGowers_bound"
+      ]
+    ]
+  }
+}

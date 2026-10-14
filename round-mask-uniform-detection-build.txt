@@ -1,0 +1,3 @@
+✔ [5143/5145] Built Hindman168.MaskUniformDetectionThreshold (20s)
+✔ [5144/5145] Built Hindman168 (12s)
+Build completed successfully (5145 jobs).

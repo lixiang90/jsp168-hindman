@@ -1,0 +1,158 @@
+{
+  "modules": [
+    "Hindman168/AlignmentJointNativeSlotSeparation.lean",
+    "Hindman168/AlignmentJointNativeCylinderAlgebra.lean",
+    "Hindman168/ContinuousCylinderListRepresentation.lean",
+    "Hindman168/AlignmentJointNativeCylinderLists.lean",
+    "Hindman168/AlignmentJointNativeCompleteCylinderPool.lean",
+    "Hindman168/ContinuousCylinderMeanTransfer.lean",
+    "Hindman168/AlignmentJointNativeCylinderDetection.lean",
+    "Hindman168/CountablePositiveEventDiagonal.lean",
+    "Hindman168/AlignmentCompleteCubeCountableSelection.lean",
+    "Hindman168/AlignmentJointNativeCylinderPresentation.lean"
+  ],
+  "names": [
+    "Hindman168.alignment_array_native_lattice_iff",
+    "Hindman168.alignment_joint_native_all_slot_readings_eq_iff",
+    "Hindman168.alignment_joint_native_distinct_slot_witness",
+    "Hindman168.alignmentJointNativeCylinderGenerators",
+    "Hindman168.alignmentJointNativeCylinderTestAlgebra",
+    "Hindman168.alignment_joint_native_cylinder_generators_star",
+    "Hindman168.alignment_joint_native_cylinder_algebra_separates",
+    "Hindman168.alignment_joint_native_cylinder_uniform_approximation",
+    "Hindman168.continuousCylinderLinearCombination",
+    "Hindman168.continuous_cylinder_linear_combination_append",
+    "Hindman168.continuous_cylinder_linear_combination_smul",
+    "Hindman168.continuous_star_cylinder_list_representation",
+    "Hindman168.alignment_joint_native_cylinder_list_representation",
+    "Hindman168.alignment_joint_native_cylinder_list_approximation",
+    "Hindman168.alignment_joint_native_compact_cylinder_approximation",
+    "Hindman168.alignment_joint_native_complete_cylinder_pool",
+    "Hindman168.complex_expectation_cylinder_linear_combination",
+    "Hindman168.continuous_cylinder_two_mean_error",
+    "Hindman168.continuous_cylinder_approximant_detects",
+    "Hindman168.alignment_joint_native_complete_cylinder_detection",
+    "Hindman168.FiniteMass.finite_event_prefix_zero_limit",
+    "Hindman168.FiniteMass.countable_positive_event_diagonal",
+    "Hindman168.alignment_complete_cube_countable_supported_selection",
+    "Hindman168.alignment_native_cylinder_list_original_presentation"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentJointNativeSlotSeparation.lean": [
+      [
+        "theorem",
+        "alignment_array_native_lattice_iff"
+      ],
+      [
+        "theorem",
+        "alignment_joint_native_all_slot_readings_eq_iff"
+      ],
+      [
+        "theorem",
+        "alignment_joint_native_distinct_slot_witness"
+      ]
+    ],
+    "Hindman168/AlignmentJointNativeCylinderAlgebra.lean": [
+      [
+        "def",
+        "alignmentJointNativeCylinderGenerators"
+      ],
+      [
+        "def",
+        "alignmentJointNativeCylinderTestAlgebra"
+      ],
+      [
+        "theorem",
+        "alignment_joint_native_cylinder_generators_star"
+      ],
+      [
+        "theorem",
+        "alignment_joint_native_cylinder_algebra_separates"
+      ],
+      [
+        "theorem",
+        "alignment_joint_native_cylinder_uniform_approximation"
+      ]
+    ],
+    "Hindman168/ContinuousCylinderListRepresentation.lean": [
+      [
+        "def",
+        "continuousCylinderLinearCombination"
+      ],
+      [
+        "theorem",
+        "continuous_cylinder_linear_combination_append"
+      ],
+      [
+        "theorem",
+        "continuous_cylinder_linear_combination_smul"
+      ],
+      [
+        "theorem",
+        "continuous_star_cylinder_list_representation"
+      ]
+    ],
+    "Hindman168/AlignmentJointNativeCylinderLists.lean": [
+      [
+        "theorem",
+        "alignment_joint_native_cylinder_list_representation"
+      ],
+      [
+        "theorem",
+        "alignment_joint_native_cylinder_list_approximation"
+      ],
+      [
+        "theorem",
+        "alignment_joint_native_compact_cylinder_approximation"
+      ]
+    ],
+    "Hindman168/AlignmentJointNativeCompleteCylinderPool.lean": [
+      [
+        "theorem",
+        "alignment_joint_native_complete_cylinder_pool"
+      ]
+    ],
+    "Hindman168/ContinuousCylinderMeanTransfer.lean": [
+      [
+        "theorem",
+        "complex_expectation_cylinder_linear_combination"
+      ],
+      [
+        "theorem",
+        "continuous_cylinder_two_mean_error"
+      ],
+      [
+        "theorem",
+        "continuous_cylinder_approximant_detects"
+      ]
+    ],
+    "Hindman168/AlignmentJointNativeCylinderDetection.lean": [
+      [
+        "theorem",
+        "alignment_joint_native_complete_cylinder_detection"
+      ]
+    ],
+    "Hindman168/CountablePositiveEventDiagonal.lean": [
+      [
+        "theorem",
+        "finite_event_prefix_zero_limit"
+      ],
+      [
+        "theorem",
+        "countable_positive_event_diagonal"
+      ]
+    ],
+    "Hindman168/AlignmentCompleteCubeCountableSelection.lean": [
+      [
+        "theorem",
+        "alignment_complete_cube_countable_supported_selection"
+      ]
+    ],
+    "Hindman168/AlignmentJointNativeCylinderPresentation.lean": [
+      [
+        "theorem",
+        "alignment_native_cylinder_list_original_presentation"
+      ]
+    ]
+  }
+}

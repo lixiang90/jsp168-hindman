@@ -1,0 +1,44 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI 07_cube_limits.tex: the q=0 joint-point-law limit.
+This round packages that established scalar limit as actual probability
+weak convergence, without altering the source or choosing another subsequence.
+
+The base measure is Lebesgue measure restricted to Ioc 0 1, mass exactly one.
+Its product with the ACTUAL rational-layer orbit subgroup Haar probability
+is pushed to the original quotient by (beta,x) -> h(beta)*x*rho*Gamma.
+Joint continuity in the compatible quotient metrics implies measurability.
+All continuous observables on the compact original quotient are bounded,
+so the integrability premise of Fubini is proved, not assumed. The resulting
+integral is exactly the interval integral of the original Haar-image test.
+
+Residues are averaged by inverse cardinality times the finite measure sum.
+Positive M supplies a nonempty index type and legitimizes reciprocal mass
+cancellation. The integral formula also holds for the empty finite index
+case, but the probability claim explicitly REQUIRES nonemptiness. The actual
+normalizer is 1/M, not a symbolic average axiom.
+
+Unit complex Lipschitz convergence is upgraded via the existing proved
+Portmanteau theorem. A real Lipschitz test is embedded into complex numbers;
+its compact-space sup norm and Lipschitz constant give the strictly positive
+scale R = norm(F)+K+1. Scaling precedes all sequence limits and is reversed
+algebraically, before taking the real part. No density, uniform radius or
+rate is assumed; no new subsequence depends on the test.
+
+Empirical probability uses the ACTUAL sample finite set subtype and its
+cardinality, with Dirac masses at the original orbit points. For empty
+windows it is a specified fixed Dirac probability; no division-by-zero
+measure is claimed to be a probability. Cofinality L -> infinity proves
+1 <= floor(L) eventually, so this fallback does not affect the limit.
+
+The sequential theorem takes original D,F,L,p and adaptation, reuses the
+SAME witnesses of the original local theorem, and retains both residue and
+real-window local laws. The limiting measure really is the curve/residue
+Haar mixture defined above. Every continuous complex test follows from
+weak convergence using compactness and bounded continuous test topology.
+
+This settles the probability/all-continuous API for q=0 only. Positive
+cube dimensions, simultaneous laws through original s+1, projected face
+invariance/full support, joint lifts/full Alignment, separate GTZ inverse,
+and final SAME-color positive distinct rapidly separated ALL nonempty FS
+and FP remain unproved. No unavoidable obstruction or full theorem claim.
+Author checks are not independent kernel replay or external peer review.

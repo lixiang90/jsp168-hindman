@@ -1,0 +1,4 @@
+✔ [5094/5097] Built Hindman168.IntegerCubeResidueShiftBounds (13s)
+✔ [5095/5097] Built Hindman168.IntegerIntervalCubeTranslateBoundary (13s)
+✔ [5096/5097] Built Hindman168 (12s)
+Build completed successfully (5097 jobs).

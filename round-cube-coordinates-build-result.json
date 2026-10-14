@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 28.54700000002049,
+  "log": "round-cube-coordinates-build.txt",
+  "log_sha256": "0c034260568122122be94702926e1ac06b42154ea7f0d80b33526aef0c92b441"
+}

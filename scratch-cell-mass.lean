@@ -1,0 +1,9 @@
+import Hindman168.CompleteResidueCellHarmonic
+import Hindman168.HarmonicMass
+#check Nat.coprime_mod_left_iff
+#check Nat.coprime_mod_right_iff
+#check Nat.gcd_rec
+#check Nat.gcd_mod
+#check Int.natCast_emod
+#check Int.toNat_of_nonneg
+#check div_div_div_cancel_right₀

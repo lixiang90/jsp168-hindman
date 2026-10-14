@@ -1,0 +1,86 @@
+JSP-000168: actual arbitrary original terminal Fourier and zero-mode reduction
+Author mathematical review, 2026-10-13. Not independent kernel replay or external peer review.
+
+Route: retained six OpenAI sections at adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+especially 06_rough_progressions; Green--Tao section 7, Proposition 7.2:
+https://arxiv.org/html/0709.3562v4 . Corrected equal-side scope:
+https://arxiv.org/html/1311.6170v3 . Original coefficients remain UNBOUNDED.
+
+1. The actual terminal layer is ORIGINAL F(ell), with original rationality
+   against SAME original Gamma and genuine centrality from F.bracket and
+   F(ell+1)=0. Actual integrated group terminal equals true Exp subgroup.
+   Backend lattice/torus construction uses SAME original central subspace
+   and lattice intersection. Torus rank is its actual real rank; no lower-
+   central re-stretch or substitute coordinate lattice is introduced.
+2. Actual original torus/group action on original specified-metric cosets
+   is continuous, additive and commutes with original group translations.
+   Probability/integral invariance are proved for actual ORIGINAL canonical
+   Haar. Actual original terminal group projection realizes this action.
+3. Genuine continuous Fourier projections have actual torus/GROUP eigenlaws,
+   composition/idempotence, zero-mode invariance and NONZERO-frequency
+   ORIGINAL Haar mean zero. Zero-frequency is ALLOWED in finite selection.
+   Nonzero terminal frequency is a VERTICAL frequency on the actual terminal
+   torus, NOT an already-reconstructed original horizontal character.
+4. Original unit orbital family is compact in uniform function norm. A
+   single finite Fourier kernel reconstructs EVERY original unit observable
+   uniformly. Fixed support/positive threshold and actual frequency l1
+   budget precede ALL original observations/samples. The bounded alternative
+   is ZERO-mode discrepancy OR a NONZERO-frequency original finite mean.
+   It is false to discard zero mode, and this proof explicitly retains it.
+5. Actual terminal native image-lattice factor has true surjectivity,
+   equivariance and EXACT original terminal subgroup fibers. Both native
+   specified-metric/natural quotient topology equalities are used to PROVE
+   open quotient on source AND target. Original Gamma may be nonnormal;
+   normality/centrality belong only to actual terminal subgroup.
+6. True zero-mode group invariance descends continuously through these
+   actual fibers into the ACTUAL native terminal quotient/image lattice.
+   Every original point value is retained. Uniform norm is contracted;
+   this is a function-space norm statement, not spatial Lipschitz regularity.
+7. Actual original pushforward probability is constructed and its true
+   probability/full quotient-group invariance are proved. Native canonical
+   probability uniqueness identifies it with TRUE quotient native Haar.
+   Metric/natural Borel sigma-algebra compatibility is explicitly proved.
+   No presumed replacement Haar measure, disintegration or density is used.
+8. Original actual action invariance/Fubini proves zero-mode averaging
+   preserves original Haar mean. Pushforward/canonical/Borel integrals agree
+   for the actual descended observable; its child canonical integral equals
+   SAME parent zero/original integral. EXACT original zero-mode discrepancy
+   equals actual terminal quotient canonical discrepancy at SAME projected
+   original samples, with SAME original specified metrics.
+9. Actual zero-mode FAMILY is compact in uniform function norm. This does
+   NOT imply its members are spatial unit Lipschitz. A proved compact-family
+   approximation theorem produces one finite bounded spatial Lipschitz
+   family in ACTUAL child metric. Real positive bounds are normalized to
+   a finite TRUE UNIT child family, with positive detection threshold fixed
+   BEFORE ALL source observations/samples. This repairs the analytic input
+   needed to feed a genuine child inverse, rather than assuming regularity.
+10. Detection is applied to ACTUAL logarithmic-polynomial source orbits.
+    Exact native factor/Exp/coefficient projection identity retains ALL
+    original integer samples. For TRUE weighted sources the actual image
+    weights are PROVED in SAME original projected filtration; zero trimming
+    gives actual degree <=ell-1 while retaining full scalar pullback and
+    EVERY original scalar coefficient. Source representations can have
+    arbitrary high-degree zero-vector terms. No bound on original vector
+    coefficients/lattice logs, or re-stretched image filtration, is assumed.
+11. Degenerate actual terminal rank zero and ell=0 are allowed. Nonzero
+    frequency premise is then impossible; the genuine zero alternative
+    remains available. No unjustified nontrivial-terminal hypothesis or
+    empty-sample claim is introduced. The proved terminal discrepancy base
+    still requires nonempty samples; these selection/detection identities
+    correctly allow arbitrary finite samples.
+
+Review boundary: actual NONZERO-frequency relative-pair observable descent,
+actual reduced native canonical Haar/metric/unit detection for ANY rational
+filtration, and original normalization samples in that Fourier branch still
+need construction. Horizontal-character pullback in zero branch and genuine
+ORIGINAL NONZERO relative character reconstruction with fixed operator/grid/
+binomial bounds under HIGHER-DEGREE inverse induction remain open. Current
+zero-mode result is a TRUE inverse REDUCTION, not the complete higher-degree
+inverse. Corrected full multivariate inverse, separate interval Gowers
+correlation inverse, progression descent, conditional cube laws/posterior/
+positive Alignment and final FS/FP extraction remain open. StrongConjecture
+UNPROVED; no unavoidable obstruction established. Publication/application
+milestone not yet reached.
+
+Exact remaining record:
+StrongConjecture remains UNPROVED; no unavoidable obstruction established. Full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. Original true normalized relative/reduced weights/filteredness/degree, lattice rational geometry and BOTH actual Green-Tao normalizations are retained, including bounded true corrected P(1), SAME nonnormal original coset samples and every original nonconstant horizontal scalar coefficient modulo integers. Arbitrary finite rational native Lie-filtered relative GEOMETRY is retained and actually applies to original reduced IMAGE layers. NOW arbitrary actual terminal quotient NativeData/chart/model/image lattice/metric/smooth projection/identity differential/native Exp/Log and actual projected rational Lie/group filtration of bound ell-1 are CONSTRUCTED. Original model projection is surjective with kernel EXACT F(ell), and all source/image lattice logarithms/Q-spans agree exactly. EVERY actual relative-then-terminal quotient geometric recursion stage exists with bound ell-n; at ell stages the actual group is SUBSINGLETON. Geometric recursion is APPLIED to BOTH original stretched and retained original reduced IMAGE data, with SAME actual projected layers. ACTUAL weighted native terminal polynomial projection has genuine real filteredness, zero-trim degree (ell-1)-k, complete scalar coefficients/native exponentials/exact integer factor samples, and is APPLIED to ACTUAL twice-normalized ORIGINAL univariate source at SAME stretch d without inflating to ordinary s*d. NOW arbitrary WEIGHTED normalized RELATIVE coefficient-polynomial reconstruction is CONSTRUCTED with actual integer pair samples, all aggregate coefficient membership, SAME relative weights, real/integer filteredness, COMPLETE scalar pullbacks and zero-trim degree ell. Actual relative-then-terminal polynomial reduction has degree ell-1 and is APPLIED to ACTUAL twice-normalized ORIGINAL source at SAME stretch d. Generic true basepoint/lattice-linear normalizations preserve ALL actual image filtration weights and PROVE normalized logarithmic zero and degree ell. NOW actual iterated WEIGHTED POLYNOMIAL recursion is CONSTRUCTED at bound ell-n, with genuine compact representative/lattice normalization choices, all original pair coordinate/observable samples, complete scalar and aggregate coefficient preservation, true image weights/degree and exact EVERY-stage integer quotient factor samples. ALL actual stage group/model/lattice/chart/metric/filtration GEOMETRY is PROVED fixed before original coefficients and ALL shifts, equal to geometry-only recursion. At ell stages actual group/orbit is trivial and actual specified-metric canonical native Haar discrepancy is ZERO for every NONEMPTY finite sample. The FULL polynomial recursion is APPLIED to ORIGINAL degree <=d input at SAME stretch d, degree s*d-n and termination at s*d. NOW the TRUE degree-ONE rational-filtration quantitative inverse BASE CASE is PROVED on the ORIGINAL group/model/lattice/metric/canonical Haar. Original group commutativity and proven step<=1 are discharged; literal reclassification preserves original Haar/fundamental-domain/probability/samples/discrepancy. An ACTUALLY NONZERO original horizontal character is PRODUCED with fixed original finite grid, true operator norm and BOTH original monomial/paper-binomial bounds, for RAW UNBOUNDED weighted coefficients and ANY finite variable type including Unit. Exact variable equivalence preserves original cube samples, canonical discrepancy and COMPLETE monomial/binomial coefficients. This inverse is APPLIED to actual recursive degree-one polynomial state; actual node at j=ell-1 exists for ell>0 and retains SAME coefficient/shift-independent actual stage geometry. NOW ANY original finite rational Lie filtration has ACTUAL ORIGINAL terminal torus/action/canonical-Haar invariance, continuous Fourier projections/GROUP eigenlaws/NONZERO frequency mean zero, fixed finite uniform reconstruction/frequency selection/l1 bound, and genuine ZERO-mode OR NONZERO original-terminal-frequency alternative. ACTUAL terminal image-lattice native factor is surjective/equivariant with exact fibers and open quotient in BOTH specified metrics. ZERO mode descends to ACTUAL native terminal quotient; original pushforward equals TRUE quotient canonical Haar by PROVED probability/invariance/uniqueness and explicit metric/Borel transport. Original/descended ZERO integrals and canonical discrepancies agree on EXACT original samples. Compact FUNCTION-space zero family yields fixed finite actual SPATIAL Lipschitz/unit child family and positive detection threshold before ALL source inputs. Actual ZERO-mode weighted-polynomial reduction produces SAME actual image weights, ordinary degree ell-1, complete original scalar pullback and large TRUE quotient native canonical discrepancy in a fixed UNIT child observation. NEXT: actual NONZERO-frequency relative-pair observables/factor/quotient canonical Haar/finite-unit detection and original normalization samples for ANY original rational filtration; ORIGINAL horizontal-character pullback for zero quotient and genuine NONZERO relative character reconstruction under HIGHER-DEGREE quantitative induction beyond proved degree-zero/one bases; genuine ORIGINAL NONZERO quantitative Leibman horizontal-character reconstruction/pullback with actual finite-list/operator/binomial bounds. GEOMETRIC termination alone does not establish orbit inverse or nonzero character reconstruction. SAME native step bound s unchanged; actual image filtration never re-stretched. Corrected equal-side multivariate inverse or justified reduction remains open. Fixed-data existence bounds only; no unsupported power laws or bounded original coefficients. Keep corrected Green-Tao equal-side/erratum scope, actual large-N thresholds, equal-cube tiling/boundary discard/translation/integer bounded-location consequences and retained unrestricted-short-box O(eps) counterexample, which does not obstruct corrected full goal. Separate HasNativePeriodicIntervalInverse interval Gowers-to-finite-list nilsequence CORRELATION inverse remains UNPROVED, distinct from orbit quantitative Leibman. Actual rough progression density/obstruction/descent, step/dimension/length/cofinal-scale comparison, conditional face laws/cube invariance, buffered bins, prior-event positivity, extra-conditioning posterior control, positive-probability Alignment, HasAlignmentMonomialRecurrence and final FS/FP extraction remain UNPROVED. All earlier retained results and standard-axiom reports preserved. Author source/build/axiom checking is not independent kernel replay or external peer review. No public repository, PR or prize submission yet; execute authorized publication/application at actual full completion or genuine unavoidable obstruction with honest scope.

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 81.26600000006147,
+  "log": "round-native-quotient-counting-build.txt",
+  "log_sha256": "993c1cf5a2d23ddeb47d805ba8cae8346d6589c8575919a2dffbe3b4a0587193"
+}

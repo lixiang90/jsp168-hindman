@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 1004 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "Every direction has the explicit hypothesis that its first coordinate is the original subgroup element. Projection commutes with finite sums, so each root copy equals the original subset-sum vertex. The identity holds for every dimension, including zero.",
+    "Averaging the original parameter group removes the unused increment tuple by the exact product Haar formula and the normalized constant mean, not by an unnormalized counting sum.",
+    "Root response implies injectivity by projection to the first coordinate. Equiv.ofInjective therefore gives an actual bijection onto each image subgroup and preserves its normalized Haar mean.",
+    "Equiv.piCongrRight combines the distinct direction-image bijections into the required dependent product equivalence. This reparameterizes independently averaged image-subgroup directions simultaneously without changing denominators.",
+    "The weighted identity is linear in the original weights and hence holds even without positivity or normalization assumptions. No probability weights are discarded or replaced.",
+    "Six theorems are individually kernel audited. The retained-root expression is identified exactly, but the full repeated elimination inequality connecting it to the initial density-weighted cube is still unproved. Bessel, inverse correlator existence and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/RetainedRootCube.lean"
+  ],
+  "verified": {
+    "project_modules": 987,
+    "pntplus_modules": 9,
+    "source_scan_modules": 996,
+    "source_config_hashes": 1005,
+    "build_jobs": 4941,
+    "axiom_reports": 4797,
+    "new_theorems": 6,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 6,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The retained-root product and independent image-direction Haar averages are exactly identified with the original subgroup cube average, including weighted cells. The full iterated Cauchy-Schwarz induction connecting the original short-increment expression to this retained-root expression, the short-increment reduction, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

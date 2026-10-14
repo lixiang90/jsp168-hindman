@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.422000000020489,
+  "log": "round-rough-finite-thinning-build.txt",
+  "log_sha256": "f360835df977556509bb76df6e48edc484f9a60b76c0431ced909eca2a792bcc"
+}

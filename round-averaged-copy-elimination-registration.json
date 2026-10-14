@@ -1,0 +1,36 @@
+{
+  "baseline_hash_count": 1005,
+  "modules": [
+    "Hindman168/AveragedInvariantFactorCauchy.lean",
+    "Hindman168/AveragedCubeCopyElimination.lean"
+  ],
+  "names": [
+    "Hindman168.averaged_subgroup_invariant_factor_cauchy",
+    "Hindman168.averaged_rootResponse_factor_cauchy",
+    "Hindman168.averaged_cubeVertexCopies_cauchy",
+    "Hindman168.averaged_cubeDensity_cauchy"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/AveragedInvariantFactorCauchy.lean": [
+      [
+        "theorem",
+        "averaged_subgroup_invariant_factor_cauchy"
+      ]
+    ],
+    "Hindman168/AveragedCubeCopyElimination.lean": [
+      [
+        "theorem",
+        "averaged_rootResponse_factor_cauchy"
+      ],
+      [
+        "theorem",
+        "averaged_cubeVertexCopies_cauchy"
+      ],
+      [
+        "theorem",
+        "averaged_cubeDensity_cauchy"
+      ]
+    ]
+  }
+}

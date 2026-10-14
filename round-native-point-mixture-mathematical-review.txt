@@ -1,0 +1,58 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI 07_cube_limits.tex: equation joint-point-law and its final
+finite partition/Riemann argument. Proved here in unit-Lipschitz test form
+on the ORIGINAL source and paper floor(L) window. This is NOT the whole
+simultaneous positive-dimensional cube proposition or final FS/FP theorem.
+
+The prior local radius depends on beta. It is not silently replaced by a
+uniform lower radius. The actual positive gauge defines an open ball cover
+of compact [0,1]; a proved Lebesgue number yields a finite uniform mesh.
+Tags can lie outside their cells, but every point of the closed cell lies
+within the tag's allowed radius. All tags remain in [0,1]. The existing
+local theorem permits arbitrary intervals within that radius, so no invalid
+one-sided endpoint freezing is used. Finite continuous expectation families
+are included by intersecting their actual continuity neighborhoods.
+
+For a FIXED observable and tolerance, mesh N and finitely many tags are
+chosen before all length thresholds. The finite eventual intersection over
+tags is valid. No further subsequence is selected, and no sequence-dependent
+tag or mesh is introduced. True rounded cell lengths exceed L/(2*N) once
+L>=2*N, so the previous local laws apply to actual nonempty residue cells.
+
+Exact signed-residue sums and monotone integer cuts partition Ico 0 ceil(L).
+The cardinality error |card/L-1/(N*M)|<=2/L is derived from existing true
+real-endpoint residue counts, not an asymptotic oracle. The finite cell
+error retains both local mean deviation and actual mass deviation. Empty
+sets do not invalidate the mean-times-card identity. At fixed mesh the
+mass error tends to zero by the ORIGINAL real cofinality.
+
+Tagged integral error is proved directly by integration of each cell's
+oscillation, using continuous expectations and exact adjacent interval
+integral sums. It does not assume Riemann-sum convergence. The original
+Haar-image probability proves expectation norm<=1 for unit tests. Finite
+averaging over M residues gives exactly the paper factor 1/M.
+
+The real-normalized result is converted to the PAPER window Ico 0 floor(L).
+The actual integer tail Ico floor(L) ceil(L) has at most one point. Its sum
+norm is <=1. The denominator change contributes at most 1/L using the actual
+floor-card identity, 0<=L-floor(L)<1 and the unit mean bound. Total <=2/L.
+Thus neither integrality of L nor equality of ceil and floor is assumed.
+All small/zero floor cases satisfy the finite identity; eventual cofinality
+supplies positive paper denominators for the final limiting application.
+
+The final sequential theorem starts with original D,F,L,p and adaptation,
+uses ONE previously constructed factorization witness, and returns its SAME
+subsequence, subordinate H, positive M, rational sigma, smooth h, both local
+laws and global UNIT-LIPSCHITZ test limits. Unit tests are a standard weak
+convergence determining class on this compact metric quotient, but this
+round does NOT yet package the actual probability mixture or formally prove
+the all-continuous/weak-measure API. That remains explicit work, not a claim
+that the entire paper proposition has been finished.
+
+Still missing: probability/joint-law packaging, positive-dimensional actual
+native cube geometry/coefficient isolation through original s+1, projected
+face Haar invariance/full support, joint lifts/full Alignment, separate GTZ
+inverse, and final SAME-color ALL nonempty FS and FP with original positivity,
+distinctness and rapid separation. No unavoidable obstruction established.
+Author checks are not independent kernel replay or external peer review.
+No publication/prize completion claim is made.

@@ -1,0 +1,33 @@
+{
+  "baseline_hash_count": 1077,
+  "modules": [
+    "Hindman168/DualProductExpansion.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean_dependent_pi_prod",
+    "Hindman168.weighted_dual_product_correlation_expansion",
+    "Hindman168.weighted_dual_product_exists_translate_correlation",
+    "Hindman168.empirical_dual_product_expansion"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/DualProductExpansion.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_dependent_pi_prod"
+      ],
+      [
+        "theorem",
+        "weighted_dual_product_correlation_expansion"
+      ],
+      [
+        "theorem",
+        "weighted_dual_product_exists_translate_correlation"
+      ],
+      [
+        "theorem",
+        "empirical_dual_product_expansion"
+      ]
+    ]
+  }
+}

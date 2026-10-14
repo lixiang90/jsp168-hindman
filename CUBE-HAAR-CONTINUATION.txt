@@ -1,0 +1,74 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+No unavoidable obstruction established; public repository/PR/prize pending.
+Use verification-manifest.json and CURRENT-STATUS.txt for TERMINAL status.
+
+round-native-cube-haar adds five modules after round-native-cube-filtration.
+NativeResidueCubeOrbit: native_residue_cube_lattice_vertices characterizes
+the ACTUAL residue cube lattice by original vertex membership in conjugate
+Gamma. nativeResidueCubeOrbitMap D F rho hRat d n e h maps the actual
+residue quotient into Finset(Fin d) -> ORIGINAL G/Gamma. Formula is exactly
+(h x_V rho Gamma)_V. Well-defined, injective, continuous, compact range.
+native_cube_vertex_difference is the group-hom difference identity.
+
+NativeResidueCubeHaarImage: actual pushforward of native normalized quotient
+probability to those original vertex cosets. Probability and concentration
+on orbit proved. For target Pi Borel typeclass, set local PolishSpace D.G
+from native_nilmanifold_group_polish D as well as native coset BorelSpace.
+This supplies quotient second countability needed by Pi.borelSpace.
+
+NativeNilmanifoldProbabilityFullSupport: actual normalized native quotient
+probability is IsOpenPosMeasure. Uses established SMulInvariantMeasure and
+probability, compact univ and transitive coset action, via mathlib theorem
+measure_isOpen_pos_of_smulInvariant_of_compact_ne_zero. No new hypothesis.
+
+NativeResidueCubeHaarInvariance: nativeResidueCubeVertexAction of actual cube
+y sends vertex z_V to (h y_V h^-1) smul z_V. Continuous and intertwines
+orbit map with source left translation. native_residue_cube_haar_invariant
+is exact Measure.map action equality for EVERY original cube-group y.
+
+NativeResidueCubeHaarSupport: orbit map IsClosedEmbedding. The exact theorem
+native_residue_cube_haar_open_pos_iff says an ambient OPEN U has positive
+image probability IFF U meets the orbit. Together with closed compact
+range this gives FULL support on the ACTUAL orbit, not all ambient cosets.
+
+Current elaboration lessons: explicitly pass (G := D.G) to nativeCubeVertexHom
+when argument has conjugated-data group alias. rw/simp at aliases may fail
+under instances transparency; use exact iff.trans, congrFun map_mul and
+explicit equalities transported with Eq.rec instead of changing topology.
+IsOpen.measure_pos_iff needs explicit (mu := nativeNilmanifoldQuotientProbability A)
+(in Lean use Greek mu). Existing NativeFiniteProductCoordinateTopology was
+already audited and supplies nativeFiniteProductCoordinate_continuous; the
+redundant pending draft from previous continuation was removed, no retained
+source was overwritten. The previous two .pending drafts no longer exist.
+
+Next substantive work: actual horizontal cube functional -> face restrictions
+and largest surviving j. A useful generic route is an ambient linear
+extension on the full array space (via finite real submodule retraction),
+nonzero on upperFaceLieLayer F d 0, annihilating brackets inside that layer.
+Span induction gives a nonzero face. If face is empty use F0=F1 to start
+j>=1; otherwise start at card(face). Terminal ell+1=0 bounds all possible
+j. Select maximal j in finite range, proving all higher-face restrictions
+vanish. NativeSubgroupMaximalCharacter gives a selection template, but the
+cube maximum must range over ALL faces, not just one preselected face.
+
+For the bracket property, split D into A and B with union D, cardA<=i and
+cardB<=j-i when cardD<=j. Choose A subset D of card min(i,cardD), B=D\A.
+The generic upper_face_lie_array_bracket identifies [u_A,v_B] with [u,v]_D.
+Use this to derive actual level-character bracket annihilation. Rationality
+must be transported through ACTUAL internal cube rational-log-span and
+rational residue conjugation, not assumed. nativeRationalCubeLieEmbedding
+is injective onto the actual internal model; an explicit linear equivalence
+can pull native horizontal functionals back to Lie arrays.
+
+Then original source cube adaptation and isolated top coefficient
+xi(a_j)/(j-cardD)! without cancellation, simultaneous local laws through
+ORIGINAL s+1 with length before locality, projected face invariance/support,
+joint lifts/full Alignment, separate arbitrary-input GTZ interval Gowers
+LINEAR nilsequence inverse, final positive distinct rapidly separated
+SAME-color ALL nonempty FS AND FP. No final theorem or unavoidable barrier.
+Author checks are not independent kernel replay or external peer review.
+
+User asked progress and remaining time during this round. Answered honestly:
+substantial analytic/character/Alignment/inverse/final synthesis remains;
+module counts do not give a completion percentage, no reliable ETA. User
+did NOT pause/cancel goal or authorize lowering scope.

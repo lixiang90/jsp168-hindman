@@ -1,0 +1,128 @@
+{
+  "baseline_hash_count": 1269,
+  "modules": [
+    "Hindman168/PrincipalSubsetProductLaws.lean",
+    "Hindman168/PrincipalBlockCalibration.lean",
+    "Hindman168/PrincipalWeightedColorCounts.lean",
+    "Hindman168/PrincipalPredictionModels.lean"
+  ],
+  "names": [
+    "Hindman168.principalSubsetImageEquiv",
+    "Hindman168.principalSubsetImageEquiv_val",
+    "Hindman168.principalTailMass",
+    "Hindman168.principalTailMass_image",
+    "Hindman168.principalSubsetProduct",
+    "Hindman168.principalSubsetProduct_lift",
+    "Hindman168.principalTail_before",
+    "Hindman168.principalBlockCoefficient",
+    "Hindman168.principalBlockCoefficient_lift",
+    "Hindman168.principalBlock_sampleProducts",
+    "Hindman168.MasterParameterConditions.principal_block_product_expectation",
+    "Hindman168.MasterParameterConditions.principal_block_product_event",
+    "Hindman168.principalDivisorWeight",
+    "Hindman168.principalPivotProductMass",
+    "Hindman168.principalColorWeight",
+    "Hindman168.principalWeightedColorCount",
+    "Hindman168.principalDivisorWeight_lift",
+    "Hindman168.principalPivotProductMass_lift",
+    "Hindman168.principalColorWeight_lift",
+    "Hindman168.mask_principal_weighted_count_exact",
+    "Hindman168.principal_prediction_models"
+  ],
+  "theorem_count": 13,
+  "selected_report_count": 21,
+  "declarations": {
+    "Hindman168/PrincipalSubsetProductLaws.lean": [
+      [
+        "def",
+        "principalSubsetImageEquiv"
+      ],
+      [
+        "theorem",
+        "principalSubsetImageEquiv_val"
+      ],
+      [
+        "def",
+        "principalTailMass"
+      ],
+      [
+        "theorem",
+        "principalTailMass_image"
+      ],
+      [
+        "def",
+        "principalSubsetProduct"
+      ],
+      [
+        "theorem",
+        "principalSubsetProduct_lift"
+      ]
+    ],
+    "Hindman168/PrincipalBlockCalibration.lean": [
+      [
+        "theorem",
+        "principalTail_before"
+      ],
+      [
+        "def",
+        "principalBlockCoefficient"
+      ],
+      [
+        "theorem",
+        "principalBlockCoefficient_lift"
+      ],
+      [
+        "theorem",
+        "principalBlock_sampleProducts"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.principal_block_product_expectation"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.principal_block_product_event"
+      ]
+    ],
+    "Hindman168/PrincipalWeightedColorCounts.lean": [
+      [
+        "def",
+        "principalDivisorWeight"
+      ],
+      [
+        "def",
+        "principalPivotProductMass"
+      ],
+      [
+        "def",
+        "principalColorWeight"
+      ],
+      [
+        "def",
+        "principalWeightedColorCount"
+      ],
+      [
+        "theorem",
+        "principalDivisorWeight_lift"
+      ],
+      [
+        "theorem",
+        "principalPivotProductMass_lift"
+      ],
+      [
+        "theorem",
+        "principalColorWeight_lift"
+      ],
+      [
+        "theorem",
+        "mask_principal_weighted_count_exact"
+      ]
+    ],
+    "Hindman168/PrincipalPredictionModels.lean": [
+      [
+        "theorem",
+        "principal_prediction_models"
+      ]
+    ]
+  }
+}

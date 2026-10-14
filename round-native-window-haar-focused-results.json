@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeSubgroupAffineTopCoefficient.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.390999999828637,
+    "log": "round-native-window-haar-NativeSubgroupAffineTopCoefficient-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeSubgroupAffineTopCoefficient.lean",
+    "source_sha256": "f928b6bb149eb1122d22b7803b68fbee045154d02a2372f9a3a5bfa66b6a1111"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalLayerWindowHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 21.92200000002049,
+    "log": "round-native-window-haar-NativeRationalLayerWindowHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalLayerWindowHaar.lean",
+    "source_sha256": "a66231a6a81b079db7ea85a01675949ced90879bb61ecdc132caa7b2d548ecae"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeSubgroupIrrationalScale.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.094000000040978,
+    "log": "round-native-window-haar-NativeSubgroupIrrationalScale-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeSubgroupIrrationalScale.lean",
+    "source_sha256": "f3b134d21bc432a034bb434d3bfb899a8f56f33abb71f9884c7d2565a2db754b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalLayerRealWindowHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.780999999959022,
+    "log": "round-native-window-haar-NativeRationalLayerRealWindowHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalLayerRealWindowHaar.lean",
+    "source_sha256": "b1f9b6d0006c2461d961e662a7ede5fc9cdde593bc1f25dc33c84d56e6d9caf5"
+  }
+]

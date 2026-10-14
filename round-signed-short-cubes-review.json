@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Prior audit rechecked and baseline proof hashes preserved.",
+    "Exchanging the two independent uniform short-vector variables negates every increment simultaneously. The proof establishes equality of full cube averages for arbitrary vertex-specific real functions.",
+    "The symmetry is valid also for zero dimension, zero interval length and zero modulus. It does not silently assume a nonempty averaging set or boundedness.",
+    "The absolute-value identity follows by splitting the sign of the integer modulus. Applying it root by root leaves the original harmonic root law exactly unchanged.",
+    "The new common-cyclic master theorem uses the actual signed predictionCubeModulus in integer shifts, while subgroup generator and short interval length retain its natural absolute value.",
+    "Three new theorems are individually audited. This resolves the signed-modulus interface without adding an error term or changing the subgroup. Bessel, inverse and final extraction gaps remain."
+  ],
+  "new_modules": [
+    "Hindman168/SignedShortCubeSymmetry.lean"
+  ],
+  "verified": {
+    "project_modules": 1049,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1058,
+    "source_config_hashes": 1067,
+    "build_jobs": 5003,
+    "axiom_reports": 4957,
+    "new_theorems": 3,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 3,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The signed original master short-cube estimate and actual conditioned subgroup-combination estimate now share the common cyclic group R/M and normalized harmonic cell weights. The deep Bessel theorem remains missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

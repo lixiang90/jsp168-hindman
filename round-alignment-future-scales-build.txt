@@ -1,0 +1,4 @@
+✔ [5249/5252] Built Hindman168.AlignmentAllPivotPlanning (8.9s)
+✔ [5250/5252] Built Hindman168.AlignmentTerminalWords (9.1s)
+✔ [5251/5252] Built Hindman168 (8.4s)
+Build completed successfully (5252 jobs).

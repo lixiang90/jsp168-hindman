@@ -1,0 +1,52 @@
+{
+  "baseline_hash_count": 310,
+  "modules": [
+    "FiniteConvexPowerExpansion",
+    "FinitePolynomialHullBound",
+    "MasterSingleClippedConvexTests",
+    "FinitePositivePartHull",
+    "FiniteDenseModelSeparation",
+    "MasterSingleClippedDenseModel",
+    "MasterSingleOriginalDenseModel"
+  ],
+  "module_report_counts": {
+    "FiniteConvexPowerExpansion": 4,
+    "FinitePolynomialHullBound": 5,
+    "MasterSingleClippedConvexTests": 2,
+    "FinitePositivePartHull": 4,
+    "FiniteDenseModelSeparation": 6,
+    "MasterSingleClippedDenseModel": 5,
+    "MasterSingleOriginalDenseModel": 2
+  },
+  "new_selected_report_count": 28,
+  "new_names": [
+    "Hindman168.FiniteMass.expectation_finset_sum",
+    "Hindman168.FiniteMass.convex_combination_power_expectation",
+    "Hindman168.FiniteMass.convex_combination_power_bound",
+    "Hindman168.FiniteMass.convexHull_power_bound",
+    "Hindman168.FiniteMass.continuous_power_correlation",
+    "Hindman168.FiniteMass.closedConvexHull_power_bound",
+    "Hindman168.FiniteMass.polynomial_correlation_expansion",
+    "Hindman168.FiniteMass.polynomial_correlation_bound",
+    "Hindman168.FiniteMass.uniform_polynomial_closedConvexHull",
+    "Hindman168.MasterParameterConditions.uniform_single_signed_clipped_products",
+    "Hindman168.MasterParameterConditions.uniform_single_clipped_hull_polynomial",
+    "Hindman168.FiniteMass.closedConvexHull_abs_le",
+    "Hindman168.FiniteMass.exists_positive_part_polynomial",
+    "Hindman168.FiniteMass.positive_part_polynomial_error",
+    "Hindman168.FiniteMass.uniform_positive_part_closedConvexHull",
+    "Hindman168.FiniteMass.modelPairing_affine_left",
+    "Hindman168.FiniteMass.modelPairing_affine_right",
+    "Hindman168.FiniteMass.positivePartModel_mem_cube",
+    "Hindman168.FiniteMass.positivePartModel_pairing_le",
+    "Hindman168.FiniteMass.isCompact_bounded_closedConvexHull",
+    "Hindman168.FiniteMass.bounded_dense_model_of_positive_part",
+    "Hindman168.signedOriginalSingleClippedClass_abs_le",
+    "Hindman168.signedOriginalSingleClippedClass_neg",
+    "Hindman168.signedOriginalSingleClippedClass_nonempty",
+    "Hindman168.MasterParameterConditions.uniform_single_hull_positive_part",
+    "Hindman168.MasterParameterConditions.uniform_single_clipped_dense_models",
+    "Hindman168.MasterParameterConditions.uniform_single_dual_clipping_error",
+    "Hindman168.MasterParameterConditions.uniform_single_original_dense_models"
+  ]
+}

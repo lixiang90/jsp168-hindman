@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.389999999897555,
+  "log": "round-canonical-face-counting-axioms.txt",
+  "log_sha256": "ff57021756d543d4316fd4f6ef71e51adcf89a3f545b11fb34c803474fbed4cd"
+}

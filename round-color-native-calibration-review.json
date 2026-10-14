@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding original coarse native testing audit was terminal-successfully rechecked and its unchanged authoritative manifest copied before these proof edits. All retained proof sources, selected transitive axiom sets and pinned mathematical references must remain unchanged.",
+    "The actual cutoff matches the paper transition interval [2*tau,3*tau]. Its proved Lipschitz constant is inverse tau, so positive tau is an explicit hypothesis. Observable composition uses the retained boundedPieceNilsequence_lipschitz_comp theorem on the same native data, metric, group and lattice. No replacement quotient or unsupported compactness assumption is introduced.",
+    "The finite weighted inequality retains every original measure coefficient. Low model values make the cutoff exactly one; elsewhere nonnegativity bounds the event by the weighted cutoff pairing. The model-cutoff product is at most 3*tau and the original subprobability mass is at most one. Only the error pairing and the real triangle/order bounds supply the accuracy loss.",
+    "The actual color weight is eventually nonnegative by the proved original mask theorem. The model is globally nonnegative and has its original native coarse representation. Its cutoff is globally unit bounded and defines an original bounded Hilbert family without changing initial stages. The proved original rho-S test estimate supplies calibration error, rather than assuming a calibration claim.",
+    "The comparison measure support lies in the original pivot support because its pointwise density is the actual integer divisor mask. Expanding its expectation over that pivot support identifies exactly the original weighted expectation. The original product-distance convergence follows from actual master-chain sampling growth and the retained integer block product law. Its scalar testing bound is genuinely uniform over all unit-bounded functions at a stage.",
+    "The original product event indicator is exactly positive integer input, the original natural master color coefficient and the small-model condition. This indicator is bounded by one and its weighted pivot expectation agrees with the original color-weight small-model event by pointwise case analysis. Half-slack for product testing and half-slack for coarse testing give the stated calibration bound.",
+    "A decidability-instance mismatch between the event indicator and the local test is resolved by proving pointwise equality of their actual values, not by replacing either event. The original weighted law, model and color coefficient are unchanged.",
+    "The selected calibration assembly preserves exactly the retained chosen f and S witnesses, all count replacements, native test estimates, unit bounds and common native geometry. Every test threshold is fixed before its eventual stage. The positive scalar cutoff threshold is separate from coarse approximation accuracy; no quantifier exchange or uniform stage over all thresholds is claimed.",
+    "Proof review located a remaining tolerance issue in the retained finite_order_native_shortCube_models: its coarse approximation is kappa/4. That choice is sufficient for the inverse projection test but is not proved below a separately requested calibration tolerance. The current conclusion therefore states 3*threshold + approximation_error + slack. A future proof must choose a capped positive approximation accuracy, such as a minimum with a fraction of the requested tolerance, before selecting N, and carry it through the same energy model construction.",
+    "All fourteen new theorems and both new definitions are selected for transitive kernel audit. Focused compilation, complete build, kernel audit and authoritative recheck must all finish successfully without warnings. No new instances, resource options, proof axioms or forbidden proof steps are permitted.",
+    "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. The finite-list native periodic interval inverse existence statement remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. The same actual selected coloring model family now supports original rho-S subset-count replacement, own-coarse-gap native testing and actual block-product calibration, conditional on the inverse inputs for selected model existence. The testing and calibration transfers themselves have no inverse hypothesis. The full Prediction Principle still needs a coarse approximation tolerance cap chosen before the master count N: the retained selection currently chooses approximation accuracy kappa/4, which is not proved smaller than a separately requested calibration tolerance. Its calibration bound therefore explicitly retains that approximation error. Original global raw-coordinate transport, final bounded count distribution replacement, admissible parameter and output integration also remain. Alignment and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/NativeCalibrationCutoff.lean",
+    "Hindman168/FiniteCutoffCalibration.lean",
+    "Hindman168/MaskColorCoarseCalibration.lean",
+    "Hindman168/OriginalBlockProductTesting.lean",
+    "Hindman168/MaskColorProductCalibration.lean",
+    "Hindman168/SelectedColorBlockProductCalibration.lean",
+    "Hindman168/SelectedColorCalibratedModels.lean"
+  ],
+  "verified": {
+    "project_modules": 1224,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1233,
+    "source_config_hashes": 1242,
+    "build_jobs": 5181,
+    "axiom_reports": 5530,
+    "new_theorems": 14,
+    "new_definitions": 2,
+    "new_instances": 0,
+    "new_axiom_reports": 16,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. The finite-list native periodic interval inverse existence statement remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. The same actual selected coloring model family now supports original rho-S subset-count replacement, own-coarse-gap native testing and actual block-product calibration, conditional on the inverse inputs for selected model existence. The testing and calibration transfers themselves have no inverse hypothesis. The full Prediction Principle still needs a coarse approximation tolerance cap chosen before the master count N: the retained selection currently chooses approximation accuracy kappa/4, which is not proved smaller than a separately requested calibration tolerance. Its calibration bound therefore explicitly retains that approximation error. Original global raw-coordinate transport, final bounded count distribution replacement, admissible parameter and output integration also remain. Alignment and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "05_prediction: cutoff and original block-product calibration on the same selected models"
+}

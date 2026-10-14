@@ -1,0 +1,119 @@
+{
+  "baseline_hashes_verified_before_registration": 759,
+  "new_modules": [
+    "Hindman168/NativeLieLowerCentralModel.lean",
+    "Hindman168/NativeLieDexpDefectFiltration.lean",
+    "Hindman168/OperatorPowerFiltrationDifference.lean",
+    "Hindman168/NativeLieDexpInverseFiltration.lean",
+    "Hindman168/NativeLieLogarithmVectorField.lean",
+    "Hindman168/ClosedSubmoduleIntervalIntegral.lean",
+    "Hindman168/ContinuousPicardIteration.lean",
+    "Hindman168/NativeLieLogarithmPicard.lean",
+    "Hindman168/NativeLieExponentialProductLog.lean",
+    "Hindman168/NativeLieExponentialSurjective.lean",
+    "Hindman168/NativeLieExponentialCovering.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLieLowerCentralModel",
+    "Hindman168.nativeLieLowerCentralModel_zero",
+    "Hindman168.nativeLieLowerCentralModel_antitone",
+    "Hindman168.nativeLieLowerCentralModel_nilpotencyClass_bot",
+    "Hindman168.nativeLieAdjointGenerator_mem_lowerCentral_next",
+    "Hindman168.nativeLieAdjointGenerator_pow_mem_lowerCentral",
+    "Hindman168.nativeLieAdjointGenerator_pow_mem_lowerCentral_self",
+    "Hindman168.nativeLieAdjointGenerator_action_sub_mem_lowerCentral_next",
+    "Hindman168.nativeLieDexpDefect",
+    "Hindman168.nativeLieDexpDefect_finite_formula",
+    "Hindman168.nativeLieDexpDefect_mem_lowerCentral_next",
+    "Hindman168.nativeLieDexpDefect_pow_mem_lowerCentral",
+    "Hindman168.nativeLieDexpDefect_pow_nilpotencyClass",
+    "Hindman168.nativeLieDexpFiniteInverse",
+    "Hindman168.nativeLieDexp_mul_finiteInverse",
+    "Hindman168.nativeLieDexp_finiteInverse_mul",
+    "Hindman168.operator_pow_sub_mem_submodule",
+    "Hindman168.nativeLieDexp_inverse_eq_finiteInverse",
+    "Hindman168.nativeLieDexpFiniteInverse_mem_lowerCentral",
+    "Hindman168.nativeLieAdjointGenerator_pow_action_sub_mem_lowerCentral_next",
+    "Hindman168.nativeLieDexp_action_sub_mem_lowerCentral_next",
+    "Hindman168.nativeLieDexpDefect_action_sub_mem_lowerCentral_next",
+    "Hindman168.nativeLieDexpDefect_pow_action_sub_mem_lowerCentral_next",
+    "Hindman168.nativeLieDexpFiniteInverse_action_sub_mem_lowerCentral_next",
+    "Hindman168.nativeLieAdjointGenerator_contDiff",
+    "Hindman168.nativeLieDexp_contDiff",
+    "Hindman168.nativeLieDexpDefect_contDiff",
+    "Hindman168.nativeLieDexpFiniteInverse_contDiff",
+    "Hindman168.nativeLieLogarithmVectorField",
+    "Hindman168.nativeLieLogarithmVectorField_contDiff",
+    "Hindman168.nativeLieLogarithmVectorField_dexp",
+    "Hindman168.nativeLieLogarithmVectorField_sub_mem_lowerCentral_next",
+    "Hindman168.closedSubmodule_intervalIntegral_mem",
+    "Hindman168.nativeLieLowerCentralModel_closed",
+    "Hindman168.nativeLieLowerCentralModel_intervalIntegral_mem",
+    "Hindman168.continuousPicardIterate",
+    "Hindman168.continuousPicardIterate_continuous",
+    "Hindman168.continuousPicardIterate_zero",
+    "Hindman168.continuousPicardIterate_succ_hasDerivAt",
+    "Hindman168.continuousPicardIterate_succ_sub_succ",
+    "Hindman168.nativeLieLogarithmPicard_increment",
+    "Hindman168.nativeLieLogarithmPicard_stabilizes",
+    "Hindman168.nativeLieLogarithmLift",
+    "Hindman168.nativeLieLogarithmLift_zero",
+    "Hindman168.nativeLieLogarithmLift_continuous",
+    "Hindman168.nativeLieLogarithmLift_hasDerivAt",
+    "Hindman168.nativeLieExponential_logarithmLift_integral",
+    "Hindman168.nativeLieExponential_logarithmLift",
+    "Hindman168.nativeLieExponential_product_logarithm",
+    "Hindman168.nativeLieExponentialRangeSubgroup",
+    "Hindman168.nativeLieExponential_range_eq_univ",
+    "Hindman168.nativeLieExponential_surjective",
+    "Hindman168.nativeLieExponential_isQuotientMap",
+    "Hindman168.nativeLieExponential_isAddQuotientCoveringMap",
+    "Hindman168.nativeLieExponential_isCoveringMap"
+  ],
+  "module_report_counts": {
+    "NativeLieLowerCentralModel": {
+      "theorems": 7,
+      "selected_declarations": 8
+    },
+    "NativeLieDexpDefectFiltration": {
+      "theorems": 6,
+      "selected_declarations": 8
+    },
+    "OperatorPowerFiltrationDifference": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NativeLieDexpInverseFiltration": {
+      "theorems": 7,
+      "selected_declarations": 7
+    },
+    "NativeLieLogarithmVectorField": {
+      "theorems": 7,
+      "selected_declarations": 8
+    },
+    "ClosedSubmoduleIntervalIntegral": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "ContinuousPicardIteration": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeLieLogarithmPicard": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "NativeLieExponentialProductLog": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieExponentialSurjective": {
+      "theorems": 2,
+      "selected_declarations": 3
+    },
+    "NativeLieExponentialCovering": {
+      "theorems": 3,
+      "selected_declarations": 3
+    }
+  }
+}

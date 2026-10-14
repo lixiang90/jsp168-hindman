@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 29.125,
+  "log": "round-native-rational-zero-slope-bracket-build.txt",
+  "log_sha256": "8f397b4b583f61c94df627df5e6c626940d69c66a189cfb4de805d8e1f61867a"
+}

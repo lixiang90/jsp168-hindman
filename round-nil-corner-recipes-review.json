@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 561,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/NilCornerRecipe.lean",
+    "Hindman168/NilCornerBoundedRecipe.lean",
+    "Hindman168/NilCornerUniformRecipes.lean",
+    "Hindman168/NilCornerReconstruction.lean",
+    "Hindman168/NilCornerLatticeRecovery.lean",
+    "Hindman168/NilCornerCubeCertificate.lean",
+    "Hindman168/NilUpperFaceGroup.lean",
+    "Hindman168/NilCornerFiniteList.lean"
+  ],
+  "new_selected_report_count": 36,
+  "module_report_counts": {
+    "NilCornerRecipe": 6,
+    "NilCornerBoundedRecipe": 7,
+    "NilCornerUniformRecipes": 3,
+    "NilCornerReconstruction": 5,
+    "NilCornerLatticeRecovery": 6,
+    "NilCornerCubeCertificate": 3,
+    "NilUpperFaceGroup": 5,
+    "NilCornerFiniteList": 1
+  },
+  "application_review": [
+    "All 561 retained hashes were checked before proof edits. Only the root imports and exact-name kernel registry changed among retained files. Every retained proof module, StrongStatement and the nine attributed PNT+ modules remain byte-identical; Lean 4.32.2, mathlib and PNT+ pins are unchanged.",
+    "The local fixed paper sections 04, 05 and 07 were compared against the exact git objects at adc7f1241b42e322a6451854ab7e4b4c146bf78a. No remote or official update check was performed in this proof round.",
+    "Finite sums of products of individual continuous nonroot-coordinate functions form an explicit unital real subalgebra. Their append and multiplication operations are proved exactly, with the multiplication realized by a finite term expansion.",
+    "For a compact cube state space whose nonroot coordinate map is injective, the explicit coordinate-product algebra separates points and Stone--Weierstrass returns a genuine finite recipe approximating each root observable uniformly.",
+    "Every coordinate factor is globally normalized to absolute value at most one using max(1,norm(f)); the finite coefficients absorb the scales and recipe evaluation is unchanged exactly. The finite total coefficient mass bounds the recipe on every coordinate tuple, including bad cubes.",
+    "Every compact observable family has a finite uniform recipe set at each accuracy and a common finite coefficient-mass bound. Any fixed sup-bounded, fixed-Lipschitz observable family has a compact hull by a proved Arzela--Ascoli application, so the same finite recipe conclusion holds uniformly for the entire family.",
+    "A unique missing root on a genuine compact full-cube set gives an injective deletion map. Its compact-to-Hausdorff embedding has a continuous inverse onto the admissible partial-cube image, proving exact continuous missing-root reconstruction.",
+    "The triangular upper-face lattice-recovery argument is proved for arbitrary groups and arbitrary lattice subgroups without normality or commutativity. Proper face values in the lattice force each ordered face coefficient into the lattice and consequently the missing top vertex into the lattice.",
+    "For a cube subgroup with an explicit proper upper-face coordinate certificate, two quotient cubes agreeing at the proper vertices also agree at the missing top. The proved certificate-based uniqueness is connected directly to continuous reconstruction and normalized bounded-Lipschitz observable recipes, with actual cube compactness retained as an explicit hypothesis.",
+    "The actual upper-face generated cube subgroup is defined by subgroup closure of the original filtration-level face arrays. Every linear orbit cube g^(b0+sum_E bj)*x belongs to this subgroup whenever filtration levels zero and one are the whole group; translating elements, base points and all integer exponents are unrestricted.",
+    "The finite uniform recipe theorem is combined across an arbitrary fixed finite list of distinct compact ambient cube spaces and distinct bounded-Lipschitz observable families, with a single common finite coefficient bound for the whole list.",
+    "The uniformity result quantifies over the complete observable family, not just a selected finite list of observables. Arzela--Ascoli yields a compact hull; a finite uniform net plus each-center Stone--Weierstrass recipe proves the result. The common coefficient bound is independent of the observable and of the cube/base point/translation.",
+    "Normalization leaves the finite recipe exactly equal everywhere, and bounds every coordinate factor globally by one. These factors are continuous; a Lipschitz refinement of the factors themselves is not yet asserted. The observables being approximated do have the stated fixed Lipschitz bounds.",
+    "The lattice-recovery proof uses a finite ordered product in a possibly noncommutative group. Later faces do not affect earlier vertices; after recovering each coefficient, multiplying a remaining vertex by the inverse of a lattice prefix keeps it in the subgroup. No passage to a quotient group structure or subgroup normality is used.",
+    "The certificate-based result assumes explicit proper upper-face factorization of every element of the cube subgroup and actual compactness of its quotient cube image. Derivation of those inputs for the rational nilpotent Lie cube group remains required. The certificate is an explicit algebraic representation premise, not an additional axiom or an assertion that the actual cube group already satisfies it.",
+    "The independently proved linear-orbit membership uses only the actual constant and singleton face generators at filtration levels zero and one. It holds for arbitrary g, x and integer b0,bj without boundedness, commutativity of the ambient group or a nilpotence premise.",
+    "The extra zero-prime dual-template implementation was reviewed and does use the actual master modulus M; it was not replaced by a primorial-only cube. Piece-selection inputs and weighted boundaries have not yet been constructed in this round.",
+    "The final full build completed 4418 jobs without warnings/errors. Exact-name kernel reports cover all 2711 registered names including the 36 new theorems, with only standard axioms or none. Final executable-source scan covers 551 own plus 9 attributed modules; the manifest has 569 source/config hashes.",
+    "Both consecutive goal rounds are PROGRESS. The unchanged full StrongConjecture is unproved; no unavoidable blocker or award eligibility is asserted."
+  ],
+  "source_preprint_sections": {
+    "07_cube_limits.tex": "34-168: upper-face cube group, lattice recovery, compact-to-Hausdorff corner reconstruction, coordinate-product Stone--Weierstrass and fixed bounded-observable-family uniformity",
+    "05_prediction.tex": "287-309: the finite uniform nonroot-coordinate recipes needed before realizing original dual tests; piece selectors and weighted boundary at 312-352 remain pending"
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4418,
+    "project_modules": 551,
+    "pntplus_modules": 9,
+    "source_scan_modules": 560,
+    "axiom_reports": 2711,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 569,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "All previously proved original-law correlation detection, actual bounded block models, full dual estimates, model-error cube cancellation and complete nonsingleton count replacement remain intact. This round proves the explicit coordinate-product Stone--Weierstrass algebra, globally normalized bounded recipes, finite uniform recipes for full bounded-Lipschitz observable families and fixed finite lists, compact-corner continuous reconstruction, the noncommutative lattice-recovery argument, certificate-based quotient-cube uniqueness, and actual upper-face cube-group membership of every linear orbit cube. To finish the paper's nilpotent missing-corner lemma, still derive the ordered proper upper-face coordinate certificate for the actual filtered nilpotent Lie cube group in dimension s+1, prove rational lattice compactness and the required vertex reflection, and supply Lipschitz factor refinement where needed. The explicit coordinate certificate and compactness hypotheses are not asserted instantiated. Then realize the finite recipes through piece/residue selector inputs of the original extra zero-prime dual test and prove the original harmonic/divisor-weighted boundary estimate; complete Prediction nilsequence testing, nested coarse-model projections, calibration and Alignment. Concrete natural-number coloring weights, arithmetic chain/block/gap data and all companion diagonal sequences still need instantiation, followed by extraction of ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

@@ -1,0 +1,69 @@
+Latest continuation: SMOOTH-LOCAL-HAAR-CONTINUATION.txt.
+The compact tests, original Haar-image transport and actual smooth q=0 local law
+below have now been proved and audited in round-native-smooth-local-haar.
+
+JSP-000168, 2026-10-14. Goal ACTIVE. StrongConjecture UNPROVED.
+No unavoidable obstruction established; public repository/PR/prize pending.
+Read CURRENT-STATUS.txt and verification-manifest.json for terminal status.
+
+round-native-point-haar supplied seven modules, 20 theorems and two definitions.
+round-native-window-haar extends this with four modules and six theorems.
+Original proof sources and pins remain unchanged in each audit.
+
+NativeSubgroupAffineTopCoefficient proves genuine scalar totalDegree<=j from
+actual vector coefficient weights, and EXACT affine top coefficient
+d^j * phi(original Taylor_j)/j!, independent of arbitrary origin b.
+NativeRationalLayerWindowHaar proves ONE eventual threshold for ALL real
+origins b, ALL natural window lengths m>=tau*N and ALL unit Lipschitz tests,
+for each FIXED nonzero rational d and 0<tau<=1. Signed integer steps are
+included. No upper origin or window-length bound is needed for this subgroup
+law. It is NOT the law with a varying smooth factor inserted.
+NativeSubgroupIrrationalScale proves positive lower scale comparison and
+real-scale-to-natural-floor irrationality using eventual floor(L)>=L/2.
+NativeRationalLayerRealWindowHaar states the actual window law at ORIGINAL
+cofinal REAL scale L, using only the original all-character irrationality.
+No extra source irrationality, character, Haar law or geometry oracle.
+
+IMMEDIATE NEXT: original Haar images and actual smooth factors / compact tests.
+1. NativeCompactFamilyUnitDetection.native_compact_family_unit_detection is
+   already a proved actual detector theorem for ANY genuine compact family
+   of complex continuous observables on ANY actual native datum A. It gives
+   a positive threshold and finite unit-Lipschitz detector set BEFORE ALL
+   sample sets and orbits. Apply it to
+   A=nativeRationalLayerOrbitData D H 0 rho hRat, then use the new window law
+   at its detector threshold. This upgrades uniform unit tests to ANY fixed
+   compact continuous family without assuming the orbit embedding Lipschitz.
+2. NativeRationalLayerHaarImage has the actual original orbit map, its exact
+   mk evaluation, continuity and canonical pushed-forward probability.
+   roughNativeOrbitSourceMetric is INDUCED by the orbit map with h=1; this
+   makes that particular map isometric. Arbitrary left translates need only
+   be continuous. Do not assume the whole original group action is globally
+   Lipschitz for an arbitrary compatible metric.
+3. Construct the actual compact pullback test family from compact left
+   factors and compact bounded Lipschitz original tests via joint continuity
+   and continuous currying/composition. NativeCompactFamilyUnitDetection
+   then gives uniform original coset laws for frozen left factors. Existing
+   NativeCentralOrbitObservables and NativeOriginalTerminalOrbitObservables
+   prove similar genuine compact orbital observable families; inspect/reuse.
+4. Compare the varying left factor to its frozen h(beta). Use ORIGINAL
+   compact-open/local-uniform smooth limits, compactness and uniform
+   continuity of the actual action. Respect sequence-limit BEFORE locality
+   alpha->0. Avoid assuming a globally Lipschitz exponential or metric.
+5. Exact original residue classes are supplied by the SAME rational period
+   and frozen representatives. The new window law covers original integer
+   progression samples b+d*t with fixed d, but endpoint/cardinality and
+   Riemann integration are still required to assemble the global point law.
+
+Then actual SAME-filtration cubes: native rational cube Lie subalgebra in
+the genuine product datum, compact actual lattice, face restrictions and
+largest surviving degree j. Isolate increment support D with coefficient
+xi(Taylor_j)/(j-|D|)! and verify actual original source adaptation. Use
+NilUpperFaceFiltration's exact face-union commutators. No independently
+chosen q-filtrations or replacement step. Cover q=0 through ORIGINAL s+1.
+
+After local cube laws: full-support/projection-face Haar invariance, genuine
+joint lifts/full Alignment, separate arbitrary-input GTZ interval Gowers
+LINEAR nilsequence inverse, final SAME-color positive distinct rapidly
+separated ALL nonempty FS AND FP. Full target is not supplied by any current
+conditional reduction. Author checks are not independent kernel replay or
+external peer review. No new axioms/sorry or premature prize submission.

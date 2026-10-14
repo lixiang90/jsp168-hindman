@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 1005 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "The outer parameter type is arbitrary finite and nonempty, so it can include all previously introduced independent directions. The proof uses the actual normalized Haar mean and original nonnegative probability weights summing to one.",
+    "The square is first moved inside the cell average by weighted mean-square and then inside the old-direction average by Haar mean-square. The single-stage invariant-factor estimate is applied only after both justified inequalities.",
+    "The explicit root-response hypothesis yields the actual direction-image Haar equivalence. Reparameterization returns precisely one new original-subgroup variable, retaining every old variable and every cell weight.",
+    "For vertex-copy elimination, the removed product may contain an arbitrary finite family of shifts depending on both the cell and old parameters. All copies of the chosen vertex are invariant under its fixing direction and jointly unit-bounded.",
+    "For density elimination, the density may depend on the cell, old parameters and the increment tuple. It is independent of the root, with the uniform absolute bound C explicit. The remaining function is unrestricted.",
+    "Four theorems in two modules are individually kernel audited. The recurrence ingredients are proved, but the complete repeated-elimination induction and its exponent accounting are not yet established. Bessel, inverse correlator existence and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/AveragedInvariantFactorCauchy.lean",
+    "Hindman168/AveragedCubeCopyElimination.lean"
+  ],
+  "verified": {
+    "project_modules": 989,
+    "pntplus_modules": 9,
+    "source_scan_modules": 998,
+    "source_config_hashes": 1007,
+    "build_jobs": 4943,
+    "axiom_reports": 4801,
+    "new_theorems": 4,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 4,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Averaged density and vertex-copy elimination steps now retain all previous finite Haar variables and original cell probabilities, with new directions reparameterized by the original subgroup. The full iterated Cauchy-Schwarz induction and exponent accounting connecting the initial density-weighted cube to the identified retained-root cube, the short-increment reduction, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

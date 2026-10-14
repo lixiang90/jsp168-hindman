@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2761,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6788,
+    "selected_axiom_reports": 10782,
+    "new_declarations": 30,
+    "new_theorems": 22,
+    "new_definitions": 8,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/FinitePiLipschitzProducts.lean",
+    "Hindman168/FinitePiLipschitzProductDensity.lean",
+    "Hindman168/FinitePiProductLinearApproximation.lean",
+    "Hindman168/AlignmentOriginalContinuousCubeMean.lean",
+    "Hindman168/AlignmentOriginalCubeTestApproximation.lean",
+    "Hindman168/FinitePiProductLinearMeans.lean",
+    "Hindman168/AlignmentOriginalCubeProductLinearMean.lean"
+  ],
+  "proved_components": [
+    "The COMPLEX linear span of literal finite products of coordinate Lipschitz observers is constructed as a genuine star algebra on the FULL original compact product cube space. Original coordinate observers separate ALL points, including the vacuous empty-index case. Complex Stone-Weierstrass proves this actual product span uniformly dense in EVERY continuous complex cube test, not only coordinate-product tests.",
+    "Every product-span approximant is given by an actual FINITE coefficient/coordinate-observer list, retaining actual coefficients and original Lipschitz observers. A COMPACT complete cube test family admits ONE finite product-span approximant list before sources/sampling. The COMPLETE original numerical bounded/Lipschitz cube test class in the genuine product of original quotient metrics is instantiated, deriving its compactness and uniform finite approximation from PROVED original native compactness.",
+    "Literal original nilsequence cube reading tuples and arbitrary complete continuous cube test means are constructed. Product tests equal EXACTLY the registered original product cube law; product-span test means equal EXACTLY the actual finite coefficient combination of ORIGINAL product means. Sup-norm approximation controls BOTH original and face-transformed means on unchanged original grids, endpoints, normalization, slots and source formulae. Empty grids preserve algebraic zero mean. eta/4 approximation transfers a complete-test eta face failure to eta/2 approximant failure; no original probability conclusion for complete tests is yet asserted."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. FULL original compact cube test space product-span density, explicit finite coefficient/coordinate-observer representation, COMPLETE numerical test-class compact uniform approximation, literal continuous cube mean and exact finite combination of ORIGINAL product means are PROVED. Remaining: choose ONE actual finite coordinate-observer bound and coefficient budget from the fixed approximant list, transfer original product face caps through those genuine budgets to COMPLETE marginal cube test failure probabilities; then original countable numerical-condition/target/dimension diagonal sequence, local cube-law limits/coset face symmetry and full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. No independent kernel replay, other-component invariance, unexposed-factor-dependent formula uniformity or explicit delta-power law claimed. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-complete-cube-test-approximation-mathematical-review.txt",
+  "mathematical_review_sha256": "fde527d02e681ff7941ac4e57f5cb737b325f401e3eba71350aa1221d6d14fec",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

@@ -1,0 +1,77 @@
+{
+  "modules": [
+    "Hindman168/AlignedSqrtMicrocellGrowth.lean",
+    "Hindman168/MasterMicrocellGrowth.lean",
+    "Hindman168/AlignmentSlotMicrocellBounds.lean"
+  ],
+  "names": [
+    "Hindman168.alignedSqrtMicrocellWidth",
+    "Hindman168.alignedSqrtMicrocellWidth_floor",
+    "Hindman168.alignedSqrtMicrocellWidth_div",
+    "Hindman168.alignedSqrtMicrocellWidth_growth",
+    "Hindman168.alignedSqrtMicrocellLength_growth",
+    "Hindman168.master_microcell_growth",
+    "Hindman168.master_microcell_eventually_positive",
+    "Hindman168.master_microcell_polynomial_ratio_tendsto",
+    "Hindman168.master_microcell_eventually_polynomial_small",
+    "Hindman168.alignmentIntegerSlotWeight_nonneg",
+    "Hindman168.alignment_slot_microcell_uniform_small",
+    "Hindman168.alignment_slot_microcell_uniform_margin"
+  ],
+  "declarations": {
+    "Hindman168/AlignedSqrtMicrocellGrowth.lean": [
+      [
+        "def",
+        "alignedSqrtMicrocellWidth"
+      ],
+      [
+        "theorem",
+        "alignedSqrtMicrocellWidth_floor"
+      ],
+      [
+        "theorem",
+        "alignedSqrtMicrocellWidth_div"
+      ],
+      [
+        "theorem",
+        "alignedSqrtMicrocellWidth_growth"
+      ],
+      [
+        "theorem",
+        "alignedSqrtMicrocellLength_growth"
+      ]
+    ],
+    "Hindman168/MasterMicrocellGrowth.lean": [
+      [
+        "theorem",
+        "master_microcell_growth"
+      ],
+      [
+        "theorem",
+        "master_microcell_eventually_positive"
+      ],
+      [
+        "theorem",
+        "master_microcell_polynomial_ratio_tendsto"
+      ],
+      [
+        "theorem",
+        "master_microcell_eventually_polynomial_small"
+      ]
+    ],
+    "Hindman168/AlignmentSlotMicrocellBounds.lean": [
+      [
+        "theorem",
+        "alignmentIntegerSlotWeight_nonneg"
+      ],
+      [
+        "theorem",
+        "alignment_slot_microcell_uniform_small"
+      ],
+      [
+        "theorem",
+        "alignment_slot_microcell_uniform_margin"
+      ]
+    ]
+  }
+}

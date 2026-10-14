@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 496,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/PrimeInsertionMoments.lean",
+    "Hindman168/MasterPrimeInsertionVariance.lean",
+    "Hindman168/PrimeInsertionReplacement.lean",
+    "Hindman168/MasterPrimeAverageInsertion.lean",
+    "Hindman168/MaskRemovalPrimeInsertion.lean"
+  ],
+  "new_selected_report_count": 33,
+  "module_report_counts": {
+    "PrimeInsertionMoments": 11,
+    "MasterPrimeInsertionVariance": 7,
+    "PrimeInsertionReplacement": 4,
+    "MasterPrimeAverageInsertion": 5,
+    "MaskRemovalPrimeInsertion": 6
+  },
+  "application_review": [
+    "All 496 baseline source/config hashes were revalidated before registration of five new modules. Only Hindman168.lean imports and Verification.lean exact-name reports changed among retained files. All prior proof modules, StrongStatement, nine attributed PNT+ modules and fixed Lean/mathlib/PNT+ pins are unchanged. Both fixed local preprint sections match adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote update was checked in this goal round.",
+    "primePoolDivisorMask is the actual primePoolMass expectation of eta_p=p*1_{p|z}, on all integers. Its first moment is the average total of the original unnormalized integerEtaMass_p. Its second moment is exactly the two-fresh-prime average of E_mu eta_p eta_q, obtained by independent-square expansion and Fubini.",
+    "The pair mean model is p on p=q and one off the diagonal. Its exact average is 1+1/S-primePoolCollisionMass, where the collision mass is sum lambda(p)^2. This agrees with the paper negative correction sum 1/p^2 divided by S^2 under the previously defined harmonic weights. The collision is retained exactly before being discarded only in an upper bound.",
+    "Single and pair residue-counting errors are relative to that pair model. Diagonal eta_p^2=p*eta_p is used, and off-diagonal eta_p eta_q=eta_pq uses distinct-prime coprimality. Summing relative errors with the actual normalized prime weights yields an error bounded by residueError_K*(1+1/S), rather than by an unjustified uniform absolute pointwise pair error.",
+    "The centered-variance identity uses total(integerMass)=1 under the derived positive harmonic normalizer. First/second-moment errors and collision nonnegativity yield the finite cap 1/S+(3+1/S)*residueError_K. No limit or probabilistic independence of the divisor events is assumed.",
+    "K=(pool.upper+gap.auxiliary)^2 controls supported p, q and pq at all stages. Actual pool primes are eventually primorial units. Original raw-cutoff validity supplies harmonic normalization and the residue inequality. Pool mass growth proves inverse-S rapid decay; the existing actual polynomial affine logarithmic sampling growth proves residue-cap rapid decay. The variance cap remains rapidly small and tends to zero after every fixed natural V-power loss.",
+    "The L2 replacement applies finite weighted Cauchy-Schwarz under the original integer law with constant test majorant R. The finite insertion bound adds this replacement error and the averaged fixed-prime dilation error. The divisor comparison laws are never normalized, so their total-mass defects remain part of the stated error.",
+    "The constructed master insertion error is sqrt(V^(2B)*varianceCap)+V^B*dilationCap. Its zero limit is derived from the variance cap at exponent 2B, continuous square root, and the original dilation cap at exponent B. The eventual inequality and epsilon form quantify over all globally integer-bounded tests at each stage. B is a fixed natural exponent, and the master index count stays fixed.",
+    "Arbitrary independent finite outside masses of total one are allowed, with the test bound restricted to their support. The one-coordinate insertion bound is integrated using the exact finite original weights. This includes outside laws varying by stage and does not assume an extra averaged convergence premise.",
+    "The actual intermediate mask law has exact original-coordinate extraction identities before and after fresh-prime insertion. The old-prime tuple and remaining harmonic coordinates form the outside law. Equality between the finite coordinate enumeration instances is justified explicitly by Fintype subsingleton equality; it does not change any sampling coefficients. The selected coordinate update is identified with insertPivotCoordinate.",
+    "The actual outside law is eventually nonnegative and of total one from master prime-slot probabilities and raw harmonic cutoff validity. Actual stage insertion then follows for every old-prime-supported test bounded by V^B on all integer coordinate tuples, retaining the old tuple and the independent fresh prime. The result applies the polynomial bound as a hypothesis; constructing the concrete invariant/noninvariant descendant functions remains separate work.",
+    "This completes the actual single-coordinate prime-average insertion estimates corresponding to 04_correlation.tex:61-110 and their intermediate mask-law application. Balanced two-coordinate insertion, full old-prime/remaining-coordinate pq absorption, concrete descendant integrand identities and the composed mask recurrence have not yet been proved. No completed full correlation theorem or StrongConjecture is claimed.",
+    "The previous goal turn was PROGRESS and this turn is PROGRESS. Concrete proof state and authoritative registration/audit evidence have advanced. No unavoidable blocker has been established; the full original objective remains active."
+  ],
+  "source_preprint_section": "04_correlation.tex:61-110 (actual single-coordinate prime-average insertion and L2 replacement); 173-181 (balanced insertion remains incomplete); 196-217 (actual shared old-prime/remaining-coordinate outer laws); 230-245 (joint pq absorption and concrete two branches remain incomplete).",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4348,
+    "project_modules": 483,
+    "pntplus_modules": 9,
+    "source_scan_modules": 492,
+    "axiom_reports": 2371,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 501,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original raw arbitrary-target additive source bound, centered-source cancellation and previous weighted cube transfers remain proved. Actual intermediate mask prefixes have original-law majorant means, invariant-row prefactor limits and the common m-only weighted-square cap. Fresh-prime weighted diagonal deletion is proved under the actual intermediate original prime/harmonic laws, with invariant-density polynomial losses and function-uniform vanishing errors. The distinct-prime divisor-multiplier identity and its uniform pq dilation transfer are proved under the actual single-coordinate master harmonic law. The actual harmonic-pool first/second moments, centered-variance cap, L2 replacement, single-coordinate prime-average insertion, and its old-prime/remaining-coordinate intermediate mask-law application are now proved with explicit uniform vanishing caps. The full multiplicative-mask analytic recurrence remains incomplete: prove actual balanced two-coordinate insertion with admissible integer division and retained eta_p; compose the single-coordinate off-diagonal pq absorption with the actual old-prime and remaining-coordinate laws; identify the bounded invariant/noninvariant descendant functions, normalization-anchor weights and surviving multiplicative masks; identify the concrete branch multipliers (q,p) and (p,q), preserve the distinguished target and compose all finite mask steps and their vanishing errors. Then compose the full original correlation principle. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 518,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskDescendantProductSplit.lean",
+    "Hindman168/MaskUpdatedRowProducts.lean",
+    "Hindman168/MaskMonomialSubstitutions.lean",
+    "Hindman168/MaskUpdatedMultiplicativeMasks.lean",
+    "Hindman168/MaskStageNormalizedIntegrands.lean",
+    "Hindman168/MaskUpdatedCorrelationLaw.lean"
+  ],
+  "new_selected_report_count": 27,
+  "module_report_counts": {
+    "MaskDescendantProductSplit": 3,
+    "MaskUpdatedRowProducts": 3,
+    "MaskMonomialSubstitutions": 5,
+    "MaskUpdatedMultiplicativeMasks": 7,
+    "MaskStageNormalizedIntegrands": 6,
+    "MaskUpdatedCorrelationLaw": 3
+  },
+  "application_review": [
+    "All 518 baseline source/config hashes were revalidated before registration. Only the root imports and exact-name Verification registry changed among retained files; all retained proofs, StrongStatement, nine attributed PNT+ sources and fixed Lean/mathlib/PNT+ pins are unchanged. The two local preprint sections still match the fixed adc7f1241b42e322a6451854ab7e4b4c146bf78a commit after newline normalization. No official or remote update was checked in this goal round.",
+    "The actual MaskDescendant finite type is equivalent to invariant old rows plus noninvariant old rows times Bool. Both inverse maps are proved, and the exact whole descendant product is one invariant copy and two noninvariant copies, with no omitted or duplicated row.",
+    "The whole updated row product at the new flattened prime tuple is exactly the product of one merged invariant row function and the two products of the original noninvariant functions at the absorbed coordinate branches. The shared old tuple and actual normalized integer forms are retained.",
+    "Every support monomial under an absorbed coordinate branch is its original integer monomial times an explicit integer scalar. Outside plans have factor p precisely when u lies in the support; balanced plans have factor q when u lies in the support and p when v lies in it. The current removed-mask monomial is preserved before absorption on the stated admissible locus.",
+    "Genuine updated multiplicative masks recover the shared old tuple and fresh primes, and combine two scalar-changed copies on the same monomial support. Their product is exactly the product of both old branch mask products; their unit bound holds on all integer arguments and on the entire actual new prime support when the original unit bound holds on old prime support.",
+    "The full multiplicative mask product factors into its selected current mask and the product over the erased surviving mask family. This is an exact finite product identity, including singleton and empty remaining families.",
+    "The actual-stage normalized integrand is the invariant ratio product times the noninvariant row product and remaining multiplicative mask product. Multiplying it by the single density Omega recovers exactly the whole original row/mask product. Its all-integer bound is V^(2*maskRowCountBound m) under the original row majorant and mask unit bounds.",
+    "On each pair of actual pool primes, the absorption-dilated single density Omega times the two absorbed normalized integrands equals exactly the whole next-stage row/mask product with genuine updated functions of the flattened prime tuple. This covers both outside and balanced plans and includes p=q.",
+    "The whole updated row/mask correlation is integrated in the original complete new prime law and unchanged harmonic base law. Its exact averaged identity is the actual shared old-prime/base double-fresh-prime average of the absorbed normalized double branch, with all diagonal pairs retained and no conditioned off-diagonal law.",
+    "Finite products over invariant/noninvariant subtypes are checked against the actual Fintype instances by exact finite-set subtype identities. The descendant equivalence and reindexing prove the complete row multiplicities rather than assuming a schematic product decomposition.",
+    "The new multiplicative masks are defined for every support, including an empty support, and every signed integer argument. The surviving family is a supplied finite set T; the exact erase identity supplies the separate current-mask factor. The analytic recurrence must explicitly use T.erase U when removing U rather than treating the current mask as already gone.",
+    "Balanced monomial preservation before absorption requires the actual integer divisibility hypothesis. The new absorbed monomial scalar identity has no division and holds for all integer coordinates. No unjustified cancellation of integer division or restriction to positive coordinates is introduced.",
+    "The normalized bound assumes original f bounds on all integer arguments for the supplied old tuple, and unit bounds for masks in the supplied surviving family. The row majorant sup bound and actual prefix row-count cap derive the fixed exponent; there is no assumed polynomial sup bound for the new test. Together with the prior old/new prime-support projection, these hypotheses can be discharged throughout the actual supported tuple law.",
+    "The pointwise absorbed update needs actual pool membership for p and q and the eventually ordered tail support. Its averaged application derives pool membership from the full tensor support and keeps the same old tuple in both copies. It does not condition either prime law on distinctness or suppress diagonal coefficients.",
+    "The exact next-stage average is a preparation for the full analytic recurrence, not an inequality relating the original correlation to the next one. Applying all insertion/weighted-square/diagonal/absorption estimates to the now-concrete tests and composing finite error budgets remains required.",
+    "The final full build completed 4371 jobs without warnings or errors. The exact-name kernel audit covers all 2505 registered statements, including all 27 new names. The source scan covers 506 own and 9 attributed PNT+ modules, with root and registry inspected; only the standard allowed axioms occur and the same three old registered statements are axiom-free.",
+    "The previous goal turn was PROGRESS and this turn is PROGRESS. The unchanged StrongConjecture is still the full target proposition with conditional bridges only. The full finite mask recurrence, original correlation principle, Prediction/Alignment and final ordered positive monochromatic witness remain unproved. No unavoidable blocker is established."
+  ],
+  "source_preprint_section": "04_correlation.tex:184-217 (normalized full row/mask tests and weighted joint square); 230-264 (absorbed branches and bounded row/mask product update); 266-294 (actual finite descendant multiplicities and unchanged prime law).",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4371,
+    "project_modules": 506,
+    "pntplus_modules": 9,
+    "source_scan_modules": 515,
+    "axiom_reports": 2505,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 524,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original raw arbitrary-target additive source bound, centered-source cancellation and previous weighted cube transfers remain proved. Actual intermediate mask prefixes retain original-law majorant means, invariant-row prefactor limits, the common m-only weighted-square cap, fresh-prime diagonal deletion and vanishing insertion/absorption caps. Descendant maximum-support normalization anchors, original integer forms, genuine updated row functions and complete new prime law are proved. This round proves the complete descendant row-product multiplicities, bounded same-support updated multiplicative masks, the actual normalized row/mask integrand with all-integer V^(2*maskRowCountBound m) bound, and its absorbed full next-stage correlation identity under the unchanged harmonic law. The full multiplicative-mask analytic recurrence remains incomplete: factor and extract the selected current mask using its admissible monomial invariance, identify the actually substituted eta-weighted normalized H_p and preserved original Omega, and compose the actual prime insertion, weighted square, pre-absorption diagonal deletion, pq absorption and post-absorption restoration of the complete new prime law with uniform m-only polynomial error budgets. The absorbed full-law identity proved here includes p=q and does not by itself discard or bound any diagonal contribution. Handle the outside one-coordinate branch without an unnecessary pq absorption. Establish distinguished centered target compatibility beyond the proved pointwise tracked-function identity; compose all finite mask steps, surviving mask bounds and accumulated errors. Then compose the full original correlation principle. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

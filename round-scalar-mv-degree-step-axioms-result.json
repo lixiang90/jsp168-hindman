@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.0,
+  "log": "round-scalar-mv-degree-step-axioms.txt",
+  "log_sha256": "f8940261ca559d519dd65e5ea8a12205cc635315eab573cb9ba385b1a3b109f6"
+}

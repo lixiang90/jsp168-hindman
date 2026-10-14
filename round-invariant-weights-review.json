@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 506,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskRemovalTailScalarWeights.lean",
+    "Hindman168/MaskInvariantCoordinateForms.lean",
+    "Hindman168/MaskRemovalInvariantWeights.lean",
+    "Hindman168/MaskMergedInvariantFunctions.lean",
+    "Hindman168/MaskInvariantProductMerge.lean",
+    "Hindman168/MaskInvariantAbsorptionDensity.lean"
+  ],
+  "new_selected_report_count": 44,
+  "module_report_counts": {
+    "MaskRemovalTailScalarWeights": 6,
+    "MaskInvariantCoordinateForms": 9,
+    "MaskRemovalInvariantWeights": 9,
+    "MaskMergedInvariantFunctions": 9,
+    "MaskInvariantProductMerge": 5,
+    "MaskInvariantAbsorptionDensity": 6
+  },
+  "application_review": [
+    "All 506 baseline source/config hashes were revalidated before registration. Only Hindman168.lean imports and Verification.lean exact-name reports changed among retained files. Every retained proof source, StrongStatement, nine attributed PNT+ modules and fixed Lean/mathlib/PNT+ pins is unchanged. Both local preprint sections match adc7f1241b42e322a6451854ab7e4b4c146bf78a after newline normalization. No official or remote update was checked in this goal round.",
+    "Every prime in the actual fresh pool is eventually greater than the original gap auxiliary budget. Together with the derived tail support budget this proves coprimality with every original tail divisor uniformly over all row anchors. Multiplication by p, pq and admissible integer division by p preserve the original divisor mask without changing its finite mass.",
+    "Actual integer-normalized row coefficients vanish whenever their symbolic polynomial coefficient vanishes. Symbolic mask invariance therefore implies scalar linear-form identities on every old-prime tuple and every integer input, with the scalar read at the original maximum-support normalization anchor.",
+    "For the balanced map z_u/p,p*z_v, the actual integer form identity is cleared by p; its cleared scalar is 1,p or p^2. Coordinate divisibility is explicitly required. Coprimality of both cleared scalars with all tail divisors proves the original integer row weight is preserved without using rational-valued rows.",
+    "The actual chosen outside/balanced mask plan preserves every invariant original row divisor weight and its single invariant density Omega. Both absorbed branches preserve the same weights on every integer tuple; distinctness of p and q is not needed for these pointwise identities.",
+    "The quotient f(alpha*t)*g(beta*t)/(1+nu(t)) is globally bounded by 1+nu(t) when f,g have the original global weight bound and alpha,beta are units of every tail divisor. Nonnegative original tail masses give the strictly positive denominator. No arbitrary off-support extension or extra prime-size hypothesis is needed.",
+    "Actual stage merged invariant functions use the branch scalars determined by the original normalization anchor. Their global bound is proved for actual fresh-pool p,q, and their exact row factorization is proved with the old-prime tuple shared between both branches.",
+    "The actual product of normalized invariant row functions has absolute value at most one. After either absorbed branch its denominators equal the original undilated row majorants. The product of all merged invariant functions is bounded by the actual single density Omega.",
+    "At every actual intermediate stage the single density Omega times the two absorbed normalized invariant branch products equals exactly the product of the merged invariant row functions. This identity is pointwise in the shared old-prime tuple and integer coordinates, including an empty invariant row set.",
+    "Balanced symbolic row invariance also implies invariance under the selected u-coordinate dilation. Thus the outer Omega evaluated at z_u->pq*z_u equals the original Omega, and the actual absorption-dilated density with its two absorbed normalized branch products equals the merged invariant product. The full analytic recurrence still requires the noninvariant rows, surviving masks and error composition.",
+    "The bound and factorization of each merged invariant function are separate statements: its global bound needs the original f,g bounds and actual pool-unit conditions, while the pointwise factorization needs only positivity of the original tail majorant and symbolic row invariance. The pure coordinate/form identities cover signed integers and do not assume a nonzero evaluated coefficient or a good numerical prime event.",
+    "The outside plan has scalar p or 1 and no harmonic absorption coordinate. The balanced plan has absorbed scalars q,p or 1, with swapped scalars for the second branch. Scalar identities and original row supports are derived, rather than assuming the paper formula as an extra axiom.",
+    "The final source scan covers 494 own and 9 attributed PNT+ modules, with root and registry also inspected. Exact-name kernel coverage is all 2440 registered statements, including all 44 new names. Only the standard allowed axioms occur, and the same three old registered statements are axiom-free. Build and kernel logs have no warnings or errors.",
+    "The paper invariant-row portion is now concrete, including the outer density change made during pq absorption. The full row/mask analytic integrand is not yet identified with all symbolic descendants. In particular, the maximum-support normalization anchors for those descendants, noninvariant branch functions, surviving multiplicative masks and complete finite recurrence/error composition remain work.",
+    "The previous goal turn was PROGRESS and this turn is PROGRESS. StrongConjecture remains the unchanged full target proposition with conditional bridges only. The full original correlation theorem, Prediction/Alignment and final ordered positive monochromatic witness remain unproved. No unavoidable blocker is established."
+  ],
+  "source_preprint_section": "04_correlation.tex:184-194 (actual invariant weight preservation); 247-264 (bounded merged functions and single invariant density, including outer pq-dilated Omega).",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4359,
+    "project_modules": 494,
+    "pntplus_modules": 9,
+    "source_scan_modules": 503,
+    "axiom_reports": 2440,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 512,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original raw arbitrary-target additive source bound, centered-source cancellation and previous weighted cube transfers remain proved. Actual intermediate mask prefixes have original-law majorant means, invariant-row prefactor limits, the common m-only weighted-square cap and weighted fresh-prime diagonal deletion. Actual harmonic-pool moments, variance bounds, L2 replacement, single-coordinate and balanced prime insertion have derived uniform vanishing caps. Actual off-diagonal pq absorption retains the shared old-prime tuple and original laws. Actual invariant-row integer scalar identities, original-tail divisor-weight preservation, globally bounded merged functions f_p*f_q/W, normalized branch products and the single surviving invariant density Omega are now proved, including the outer Omega evaluated after pq dilation. The full multiplicative-mask analytic recurrence remains incomplete: identify both actual noninvariant coordinate branches and invariant retained rows with the symbolic flattened descendant families, derive their correct maximum-support integer normalization anchors and function bounds, combine all surviving multiplicative masks, form the complete row/mask integrand and connect it to the existing insertion/weighted-square/diagonal/absorption estimates. Preserve the distinguished target and compose all finite mask steps and their errors, including the one-coordinate case. Then compose the full original correlation principle. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

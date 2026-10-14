@@ -1,0 +1,50 @@
+JSP-000168 / Erdos #172, 2026-10-13. Partial overall coverage.
+Author checking, not independent replay or external peer review.
+
+Growth review: PowerDominates is natural-power little-o, whereas the
+original rough proposition asks for every positive REAL exponent. For
+S>=1 the real power a is bounded by the natural power ceil(a); positive
+fixed multiples of that natural power are eventually below Z. The exact
+positive rpow denominator then gives any lower ratio threshold. This
+does not assume the desired rough conclusion. Actual raw master retained
+products inherit PowerDominates from the previously proved master growth;
+division by fixed positive Kref preserves every real ratio. Typical binary
+cutoff conditions give actual factor-scale divergence using the proved
+dyadic-residue density ratio and positive residue modulus >=1.
+
+Sampling review: equality of finite windows is extensional membership
+equality, including half-open endpoints, casts and modulo representatives.
+Its exact uniform-law equality has no rounding/normalizer approximation.
+For w>=1 the actual modulus F.modulus(w)*primorial(w)^w is positive,
+smooth and divisible by the actual primorial. The original raw support
+gives genuine rough coprimality, which transfers to x mod modulus.
+These statements impose no gcd between retained q and removed factor t.
+
+Actual analytic cap review: the native finite-family reference bound
+is obtained from its PROVED unconditional theorem, using the derived
+master real-power growth. Actual master density discharges the selected
+ratio threshold. The real residual event retains literal Q, source log
+polynomial packet, q/a, all compatible samples and varying normalized
+geometry. Exact count/event conversion gives the actual window cap.
+Polynomial packet degree/log identity and bounded scale-range are the
+genuine remaining raw source/geometry class inputs, not assumed caps.
+
+Uniformity review: a theorem valid for every actual selector is promoted
+to one eventual cutoff before ALL actual anchors/subsets/directions.
+Positive typical-event probability supplies genuine valid raw anchors
+at all large widths. The selector chooses a failing valid object when
+one exists, otherwise a valid actual object. Defaults occur only before
+eventual validity; no analytic/source/model truth is asserted for them.
+The proved native selector theorem contradicts any remaining failure.
+Empty tails are treated vacuously, never by inventing a direction/model.
+This discharges anchor-dependent cutoff quantifiers, not just fixed
+anchor convergence. Conditional posterior factors remain dependent.
+
+The original target and actual interval correlation-inverse proposition
+were re-read. StrongConjecture and HasNativePeriodicIntervalInverse are
+still unproved. Actual Alignment polynomial packets and fiber event
+instantiation remain work; this is not a proof of final Alignment.
+No new axiom/sorry/unsafe/native shortcut or instance/option/structure
+bypass is used. Prior proof source hashes and axiom sets must remain exact.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Native rough proportions, real/cofinal/bounded-scale comparison and actual master-window caps now have fully derived growth/arithmetic and uniformity over all supported typical anchors. Actual posterior Fubini/union domination is proved. Remaining: construct actual Alignment orbit-array joint native logarithmic polynomial packets, degree bounds, retained coarse residue and scale-range/event inclusion; instantiate the conditional fiber caps and synthesize Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse; full cube synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

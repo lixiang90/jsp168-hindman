@@ -1,0 +1,111 @@
+{
+  "baseline_hash_count": 1131,
+  "modules": [
+    "Hindman168/FiniteProjectionBessel.lean",
+    "Hindman168/MixedDualSignedExactModel.lean",
+    "Hindman168/MixedDualFiniteBesselEnergy.lean",
+    "Hindman168/SubgroupCubeL2Energy.lean",
+    "Hindman168/MixedCubeProjectionLimit.lean",
+    "Hindman168/MixedDualGowersProjectionEnergy.lean",
+    "Hindman168/MixedDualFiniteGowersBessel.lean"
+  ],
+  "names": [
+    "Hindman168.finiteProjection_inner_eq_energy",
+    "Hindman168.finiteProjection_bessel_energy",
+    "Hindman168.mixedDualHilbert_projection_signed_exact_representative",
+    "Hindman168.mixedDualHilbert_finite_bessel_energy",
+    "Hindman168.mixedDualHilbert_finite_bessel_energy_le_one",
+    "Hindman168.subgroupCubeProduct_sq_le_root_sq",
+    "Hindman168.subgroupCubeAverage_le_L2_energy",
+    "Hindman168.weightedSubgroupCubeAverage_le_L2_energy",
+    "Hindman168.subgroupVertexDual_eq_reflected_mixedDual",
+    "Hindman168.subgroupVertexDual_mem_mixedDualHull",
+    "Hindman168.mixedDualHilbert_cube_replace_vertex_tendsto_zero",
+    "Hindman168.mixedDualHilbert_cube_projection_replacement_tendsto_zero",
+    "Hindman168.mixedDualHilbert_gowers_power_le_projection_energy",
+    "Hindman168.mixedDualHilbert_finite_gowers_bessel_powers",
+    "Hindman168.mixedDualHilbert_finite_gowers_bessel_average",
+    "Hindman168.mixedDualHilbert_finite_gowers_bessel_limit"
+  ],
+  "theorem_count": 16,
+  "declarations": {
+    "Hindman168/FiniteProjectionBessel.lean": [
+      [
+        "theorem",
+        "finiteProjection_inner_eq_energy"
+      ],
+      [
+        "theorem",
+        "finiteProjection_bessel_energy"
+      ]
+    ],
+    "Hindman168/MixedDualSignedExactModel.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_projection_signed_exact_representative"
+      ]
+    ],
+    "Hindman168/MixedDualFiniteBesselEnergy.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_finite_bessel_energy"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_finite_bessel_energy_le_one"
+      ]
+    ],
+    "Hindman168/SubgroupCubeL2Energy.lean": [
+      [
+        "theorem",
+        "subgroupCubeProduct_sq_le_root_sq"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_le_L2_energy"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupCubeAverage_le_L2_energy"
+      ]
+    ],
+    "Hindman168/MixedCubeProjectionLimit.lean": [
+      [
+        "theorem",
+        "subgroupVertexDual_eq_reflected_mixedDual"
+      ],
+      [
+        "theorem",
+        "subgroupVertexDual_mem_mixedDualHull"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_cube_replace_vertex_tendsto_zero"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_cube_projection_replacement_tendsto_zero"
+      ]
+    ],
+    "Hindman168/MixedDualGowersProjectionEnergy.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_gowers_power_le_projection_energy"
+      ]
+    ],
+    "Hindman168/MixedDualFiniteGowersBessel.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_finite_gowers_bessel_powers"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_finite_gowers_bessel_average"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_finite_gowers_bessel_limit"
+      ]
+    ]
+  }
+}

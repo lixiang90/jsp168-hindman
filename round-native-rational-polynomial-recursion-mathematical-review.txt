@@ -1,0 +1,81 @@
+JSP-000168: actual compactly normalized polynomial recursion and fixed geometry
+Author mathematical review, 2026-10-13. Not independent kernel replay or external peer review.
+
+Route: six retained OpenAI sections at adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+especially 06_rough_progressions and Green--Tao section 7, Proposition 7.2:
+https://arxiv.org/html/0709.3562v4 . Corrected equal-side scope:
+https://arxiv.org/html/1311.6170v3 . Original coefficients remain UNBOUNDED.
+
+1. Actual fixed compact original coset set comes from proved openness,
+   local compactness and original coset quotient compactness. Actual choices
+   include original lattice factors and exact g=r*gamma, with no normality
+   of the lattice. Compactness/continuous native Log proves a finite bound
+   on chosen representatives, NOT on lattice factors or original coefficients.
+2. Actual source-dependent r, gamma0, gamma1 and t are selected only AFTER
+   the native datum's fixed compact set. Actual corrected P(1) equals the
+   compact representative of true basepoint-normalized P(1), so it really
+   is bounded even for unbounded source coefficients. Its integer h power
+   is exactly t*gammah for actual original lattice gammah. Negative h is
+   included. True normalization weights use SAME F, not re-stretching.
+3. The actual normalized relative pair's first coordinate after r*t action
+   equals ORIGINAL sample at n+h, and its second coordinate after r action
+   equals ORIGINAL sample at n. This uses original nonnormal coset equality
+   and actual lattice factors, retaining exact complex derivative samples
+   for arbitrary observables. No Fourier mean/invariance assumption is
+   needed for the sample algebra; descent of observables remains separate.
+4. Actual compactly normalized relative coefficient polynomial projects
+   through true terminal quotient. Removing zero-vector terms retains
+   every actual evaluation, COMPLETE scalar polynomial and EVERY aggregate
+   vector/scalar coefficient. Actual ordinary degree ell-1 follows from
+   the SAME projected image terminal layer; input coefficients may remain
+   arbitrarily large. Exact group/coset integer factor samples are proved.
+5. Initial arbitrary weighted coefficient list is zero-trimmed, preserving
+   actual original samples and full scalar polynomials. F(ell+1)=bottom
+   proves degree <=ell even if the raw source representation has high
+   degree scalar terms attached to zero vectors. No invalid source termwise
+   ordinary-degree assumption is introduced.
+6. Actual state is a sigma of NativeData, a true finite rational filtration
+   and an actual polynomial with PROVED weights/ordinary degree. Successor
+   is fully constructed from actual normalizations and relative/terminal
+   quotient backend. No degree-drop, inverse or orbit-compatibility field
+   is postulated. Primitive recursion carries true polynomials at EVERY
+   stage, degree bound ell-n, and exact EVERY-stage predecessor pair samples.
+7. The geometry stripping map erases polynomial and normalization choices.
+   Direct induction proves the ENTIRE actual packed NativeData/filtration
+   equals a geometry-only recursion depending just on original D,F,n. Thus
+   group/model/lattice/chart/metric and EVERY filtration layer are fixed
+   BEFORE ALL original coefficients and shift choices. This is necessary
+   for later fixed-data compact/frequency/finite-unit bounds; it is PROVED,
+   not inferred from syntactic similarity of the recursive constructions.
+8. At ell stages bound is zero; top initial group layer equals bottom
+   terminal group layer. The ACTUAL native group is subsingleton and all
+   actual polynomial coset samples are identity. Scalar normalization
+   formulas retain complete original horizontal polynomial and EVERY
+   original nonconstant coefficient modulo integers for every lattice-
+   integral horizontal functional. These formulas do not assert existence
+   or nonzeroness of an inverse character.
+9. Terminal discrepancy base case uses ACTUAL native quotient probability
+   and ACTUAL specified metric topology. Quotient is subsingleton by
+   surjectivity of original coset map, hence each continuous observable
+   is constant. Integral equals that constant by probability normalization;
+   the NONEMPTY finite average also equals it. Empty samples are excluded:
+   claiming zero discrepancy for them would in general be false.
+10. Original ordinary degree <=d source feeds this FULL actual polynomial
+    recursion with weights from SAME original stretch d. Initial trimming
+    retains exact original samples/scalar polynomials; every stage degree
+    is s*d-n and group triviality occurs at s*d. No enlarged stretch s*d,
+    substitute coordinate lattice or bounded original coefficient input
+    is assumed. This is genuine polynomial/orbit recursion and terminal
+    analytical base case, not a complete quantitative inverse induction.
+
+Review boundary: arbitrary rational-filtration terminal torus/nonzero
+Fourier branches, canonical Haar/discrepancy/unit/frequency induction and
+ORIGINAL NONZERO horizontal-character reconstruction with finite-list/
+operator/binomial bounds are still open. Corrected multivariate and interval
+Gowers correlation inverse, rough progression descent, cube conditional
+laws/posterior/positive Alignment and final FS/FP theorem remain open.
+StrongConjecture is UNPROVED; no unavoidable obstruction is established.
+Public repository/PR/prize application remain pending the requested milestone.
+
+Exact remaining record:
+StrongConjecture remains UNPROVED; no unavoidable obstruction established. Full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. Original true normalized relative/reduced weights/filteredness/degree, lattice rational geometry and BOTH actual Green-Tao normalizations are retained, including bounded true corrected P(1), SAME nonnormal original coset samples and every original nonconstant horizontal scalar coefficient modulo integers. Arbitrary finite rational native Lie-filtered relative GEOMETRY is retained and actually applies to original reduced IMAGE layers. NOW arbitrary actual terminal quotient NativeData/chart/model/image lattice/metric/smooth projection/identity differential/native Exp/Log and actual projected rational Lie/group filtration of bound ell-1 are CONSTRUCTED. Original model projection is surjective with kernel EXACT F(ell), and all source/image lattice logarithms/Q-spans agree exactly. EVERY actual relative-then-terminal quotient geometric recursion stage exists with bound ell-n; at ell stages the actual group is SUBSINGLETON. Geometric recursion is APPLIED to BOTH original stretched and retained original reduced IMAGE data, with SAME actual projected layers. ACTUAL weighted native terminal polynomial projection has genuine real filteredness, zero-trim degree (ell-1)-k, complete scalar coefficients/native exponentials/exact integer factor samples, and is APPLIED to ACTUAL twice-normalized ORIGINAL univariate source at SAME stretch d without inflating to ordinary s*d. NOW arbitrary WEIGHTED normalized RELATIVE coefficient-polynomial reconstruction is CONSTRUCTED with actual integer pair samples, all aggregate coefficient membership, SAME relative weights, real/integer filteredness, COMPLETE scalar pullbacks and zero-trim degree ell. Actual relative-then-terminal polynomial reduction has degree ell-1 and is APPLIED to ACTUAL twice-normalized ORIGINAL source at SAME stretch d. Generic true basepoint/lattice-linear normalizations preserve ALL actual image filtration weights and PROVE normalized logarithmic zero and degree ell. NOW actual iterated WEIGHTED POLYNOMIAL recursion is CONSTRUCTED at bound ell-n, with genuine compact representative/lattice normalization choices, all original pair coordinate/observable samples, complete scalar and aggregate coefficient preservation, true image weights/degree and exact EVERY-stage integer quotient factor samples. ALL actual stage group/model/lattice/chart/metric/filtration GEOMETRY is PROVED fixed before original coefficients and ALL shifts, equal to geometry-only recursion. At ell stages actual group/orbit is trivial and actual specified-metric canonical native Haar discrepancy is ZERO for every NONEMPTY finite sample. The FULL polynomial recursion is APPLIED to ORIGINAL degree <=d input at SAME stretch d, degree s*d-n and termination at s*d. NEXT: genuine arbitrary rational-filtration terminal torus/nonzero Fourier branches, recursive orbit discrepancy/canonical Haar/specified metric/finite-unit/nonzero frequency transport beyond the proved terminal base case; genuine ORIGINAL NONZERO quantitative Leibman horizontal-character reconstruction/pullback with actual finite-list/operator/binomial bounds. GEOMETRIC termination alone does not establish orbit inverse or nonzero character reconstruction. SAME native step bound s unchanged; actual image filtration never re-stretched. Corrected equal-side multivariate inverse or justified reduction remains open. Fixed-data existence bounds only; no unsupported power laws or bounded original coefficients. Keep corrected Green-Tao equal-side/erratum scope, actual large-N thresholds, equal-cube tiling/boundary discard/translation/integer bounded-location consequences and retained unrestricted-short-box O(eps) counterexample, which does not obstruct corrected full goal. Separate HasNativePeriodicIntervalInverse interval Gowers-to-finite-list nilsequence CORRELATION inverse remains UNPROVED, distinct from orbit quantitative Leibman. Actual rough progression density/obstruction/descent, step/dimension/length/cofinal-scale comparison, conditional face laws/cube invariance, buffered bins, prior-event positivity, extra-conditioning posterior control, positive-probability Alignment, HasAlignmentMonomialRecurrence and final FS/FP extraction remain UNPROVED. All earlier retained results and standard-axiom reports preserved. Author source/build/axiom checking is not independent kernel replay or external peer review. No public repository, PR or prize submission yet; execute authorized publication/application at actual full completion or genuine unavoidable obstruction with honest scope.

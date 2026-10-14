@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2769,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6796,
+    "selected_axiom_reports": 10795,
+    "new_declarations": 13,
+    "new_theorems": 12,
+    "new_definitions": 1,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/FiniteProductApproximationBudgets.lean",
+    "Hindman168/FiniteComplexCoefficientError.lean",
+    "Hindman168/AlignmentCompleteCubeTestBudget.lean",
+    "Hindman168/AlignmentCompleteCubeFaceFailure.lean",
+    "Hindman168/AlignmentCompleteCubeFaceTransfer.lean",
+    "Hindman168/AlignmentCompleteCubeFacePosterior.lean",
+    "Hindman168/AlignmentCompleteCubeFaceGlobal.lean",
+    "Hindman168/AlignmentCompleteCubeFacePositiveSelection.lean"
+  ],
+  "proved_components": [
+    "COMMON actual coordinate-observer bounds and a retained finite coefficient budget are DERIVED from the fixed complete-test approximant list. Every retained coordinate observer belongs to its genuine original bounded/Lipschitz numerical class; the coefficient absolute-value sum is strictly below a common positive R. Exact finite-list linear-difference and weighted complex error bounds preserve zero coefficients and empty lists. These choices precede every original source formula, endpoint, residue and sampled tuple.",
+    "The LITERAL complete finite-reading cube test all-face failure retains ALL original numerical bounded/Lipschitz tests on the FULL product of original quotient reading spaces, ALL original permitted boxes/residues, ALL own pairs/coordinates and ALL zero/one vertex profiles AFTER sampling. eta/4 approximation and exact original linear mean identities force an eta/2 approximant discrepancy. Absence of original product failure at eta/(2R) controls every term, with coefficient-sum budget yielding a STRICT eta/2 bound. Thus COMPLETE test failure is contained in the ORIGINAL all-product-face failure with UNCHANGED source, slots, vertex weights, geometry and normalization.",
+    "Actual derived common budgets and the PROVED original product posterior cap establish COMPLETE finite-reading test all-face probability vanishing under the ACTUAL short posterior. Exact original key disintegration and actual bad-key vanishing promote it to ONE uniform original raw-law cutoff before arbitrary exposed-key-selected source formulae. For arbitrary width-varying key selections the complete-test all-face failure tends to zero; ANY positive-probability extra conditioning preserves this zero limit and supplies supported original good samples in its prescribed set.",
+    "The complete test domain is explicitly the FULL finite product of ORIGINAL quotient reading spaces in their actual product metric. This is stronger than product-only observers but is not yet the native array/cube quotient local Haar law. Actual reading separation/density or native law interface must be verified when passing to that quotient. Countable numerical/modulus/dimension/target simultaneity, sequence-selected period, original local cube laws and full Alignment remain unproved."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. COMPLETE bounded/Lipschitz tests on every fixed finite original reading tuple now have genuine all-face posterior/global failure vanishing, common budgets DERIVED before sources/samples, and supported good samples in any probability-bounded-below prescribed set. Remaining: verify/promote original finite integer-slot readings to complete tests of the ACTUAL native marginal array/cube quotient where needed (pointwise product lattice gives separating slot witnesses; do not assume a fixed evaluation list already embeds that quotient), construct one original countable numerical-condition/modulus/dimension/target diagonal sequence compatible with master/source selections and the later sequence-selected period, then local cube-law limits/coset face symmetry and full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. No independent kernel replay, other-component invariance, unexposed-factor-dependent formula uniformity or explicit delta-power law claimed. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-complete-cube-face-probability-mathematical-review.txt",
+  "mathematical_review_sha256": "762d87386989d8016d26010de05771b7289dabd18b3f5f69c9e10db66133d1f6",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

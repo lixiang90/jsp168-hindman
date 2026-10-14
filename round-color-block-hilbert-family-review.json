@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding all-gap color dense-model round was terminal-successfully rechecked and its unchanged authoritative manifest copied before proof edits. The present proof family preserves all earlier sources, selected axioms and pinned mathematical references.",
+    "Every valid tail/pivot/color/coefficient block receives the actual model constructed by the prior all-gap theorem. Invalid coordinates are zero, so the energy input family is total and globally unit bounded. The original harmonic laws are subprobability laws at every initial stage; the retained original bounded-family constructor therefore supplies actual Hilbert membership without modifying initial stages.",
+    "Actual chain color weights use the same original master coefficient and the same tail as the one-column block realization. The actual block divisor mask depends only on that tail. Selecting a later chain thus does not select another dense model. All nonsingleton replacements use the same original correlation, integer forms and product masks.",
+    "The common fine padding is the first selected padding. The proved principal-coordinate recovery gives its order before every pivot and after every tail. The total masterGapIndex agrees with the actual padding on its proved master range, at every w.",
+    "The bounded F-S path visits every actual nonsingleton mask support exactly once. Its error factor is bounded by one since both model values are in [0,1]; eventual nonnegativity of the original divisor mask gives the original admissibility bound. The exact update difference and finite real triangle inequality give L times the single-target accuracy. Singleton and product factors retain their original place in the actual count.",
+    "The retained selected native theorem bounds every admissible input sequence; it does not state an arbitrary uniform-stage bound. The new transfer supplies only the finitely many actual intermediate error sequences needed for this input count and uses their proved eventual admissibility. Finite eventual intersection then suffices for the actual telescoping bound. This avoids an invalid quantifier exchange and needs no assumption of target cube smallness.",
+    "The coloring dense family is chosen before the ultrafilter and selected indices. The same family is passed to the proved selected native model theorem, with all coarse representation, approximation, unit-bound and common native observable properties retained. The constructed rho-F and F-S estimates supply the full original rho-S subset-count replacement. The finite list of interval inverse existence hypotheses remains explicit throughout.",
+    "All twelve new declarations are selected for transitive kernel audit. Focused compilation, complete build, kernel audit and authoritative recheck must all be warning-free and terminal successful. No new resource options or forbidden proof steps are permitted.",
+    "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. The finite-list native periodic interval inverse existence statement remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. The same actual coloring dense Hilbert family now supports selected native models and the complete original rho-S subset-count replacement, conditional on those inverse inputs. This does not prove the entire coloring Prediction Principle: its remaining native/coarse testing, parameter and output integration must be completed. Calibration/Alignment and the final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/MaskColorBlockHilbertFamily.lean",
+    "Hindman168/MaskColorFamilyChainReplacement.lean",
+    "Hindman168/MaskColorFamilySelectedQuality.lean",
+    "Hindman168/MaskUnitNativeReplacement.lean",
+    "Hindman168/MaskColorNativePredictionTransfer.lean",
+    "Hindman168/SelectedColorDenseNativeModels.lean"
+  ],
+  "verified": {
+    "project_modules": 1210,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1219,
+    "source_config_hashes": 1228,
+    "build_jobs": 5167,
+    "axiom_reports": 5501,
+    "new_theorems": 10,
+    "new_definitions": 2,
+    "new_instances": 0,
+    "new_axiom_reports": 12,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. The finite-list native periodic interval inverse existence statement remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. The same actual coloring dense Hilbert family now supports selected native models and the complete original rho-S subset-count replacement, conditional on those inverse inputs. This does not prove the entire coloring Prediction Principle: its remaining native/coarse testing, parameter and output integration must be completed. Calibration/Alignment and the final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "05_prediction: one coloring Hilbert family and actual selected native rho-S count replacement"
+}

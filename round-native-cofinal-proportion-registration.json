@@ -1,0 +1,87 @@
+{
+  "modules": [
+    "Hindman168/RoughCofinalDataExtension.lean",
+    "Hindman168/RoughCofinalStrictSelection.lean",
+    "Hindman168/NativeCofinalRoughProportion.lean"
+  ],
+  "names": [
+    "Hindman168.roughCofinalIndexFloor",
+    "Hindman168.roughCofinalExtension",
+    "Hindman168.rough_strict_nat_sequence_index_le",
+    "Hindman168.rough_cofinal_index_floor_at_sample",
+    "Hindman168.rough_cofinal_index_floor_tendsto",
+    "Hindman168.rough_cofinal_extension_at_sample",
+    "Hindman168.rough_cofinal_extension_tendsto",
+    "Hindman168.rough_cofinal_extension_paper_growth",
+    "Hindman168.rough_cofinal_frequent_strict_subsequence",
+    "Hindman168.rough_cofinal_eventually_from_strict_subsequences",
+    "Hindman168.rough_cofinal_tendsto_from_strict_subsequences",
+    "Hindman168.native_finite_real_residual_fraction_strict_cofinal",
+    "Hindman168.native_finite_real_residual_fraction_cofinal",
+    "Hindman168.native_finite_real_original_fraction_cofinal"
+  ],
+  "declarations": {
+    "Hindman168/RoughCofinalDataExtension.lean": [
+      [
+        "def",
+        "roughCofinalIndexFloor"
+      ],
+      [
+        "def",
+        "roughCofinalExtension"
+      ],
+      [
+        "theorem",
+        "rough_strict_nat_sequence_index_le"
+      ],
+      [
+        "theorem",
+        "rough_cofinal_index_floor_at_sample"
+      ],
+      [
+        "theorem",
+        "rough_cofinal_index_floor_tendsto"
+      ],
+      [
+        "theorem",
+        "rough_cofinal_extension_at_sample"
+      ],
+      [
+        "theorem",
+        "rough_cofinal_extension_tendsto"
+      ],
+      [
+        "theorem",
+        "rough_cofinal_extension_paper_growth"
+      ]
+    ],
+    "Hindman168/RoughCofinalStrictSelection.lean": [
+      [
+        "theorem",
+        "rough_cofinal_frequent_strict_subsequence"
+      ],
+      [
+        "theorem",
+        "rough_cofinal_eventually_from_strict_subsequences"
+      ],
+      [
+        "theorem",
+        "rough_cofinal_tendsto_from_strict_subsequences"
+      ]
+    ],
+    "Hindman168/NativeCofinalRoughProportion.lean": [
+      [
+        "theorem",
+        "native_finite_real_residual_fraction_strict_cofinal"
+      ],
+      [
+        "theorem",
+        "native_finite_real_residual_fraction_cofinal"
+      ],
+      [
+        "theorem",
+        "native_finite_real_original_fraction_cofinal"
+      ]
+    ]
+  }
+}

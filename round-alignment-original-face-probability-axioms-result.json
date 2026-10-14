@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.79700000002049,
+  "log": "round-alignment-original-face-probability-axioms.txt",
+  "log_sha256": "e10717e8b42771cf65511c058142a70a486571e37e6bc29866d0a6128fd2c051"
+}

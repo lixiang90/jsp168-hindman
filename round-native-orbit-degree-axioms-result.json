@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.57799999997951,
+  "log": "round-native-orbit-degree-axioms.txt",
+  "log_sha256": "5ef13a711a9b0001cf881b56f9e0a540d223598107c4d93053b8ff432bf342ca"
+}

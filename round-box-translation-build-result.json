@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.141000000061467,
+  "log": "round-box-translation-build.txt",
+  "log_sha256": "0498f3d265b264bec954fe8514fd0c5f05a4f941260a3054a913321ce0b3cbf7"
+}

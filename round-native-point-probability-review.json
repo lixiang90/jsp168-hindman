@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2888,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6929,
+    "selected_axiom_reports": 11181,
+    "new_declarations": 18,
+    "new_theorems": 12,
+    "new_definitions": 6,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/UnitIntervalProbability.lean",
+    "Hindman168/FiniteProbabilityMixture.lean",
+    "Hindman168/NativeRationalCurveHaarImage.lean",
+    "Hindman168/NativePointMixtureMeasure.lean",
+    "Hindman168/UnitLipschitzProbabilityConvergence.lean",
+    "Hindman168/FiniteEmpiricalProbability.lean",
+    "Hindman168/NativeOriginalPointWeakLimit.lean",
+    "Hindman168/NativeSequentialPointWeakLimit.lean",
+    "Hindman168/NativeOriginalContinuousPointMixture.lean"
+  ],
+  "proved_components": [
+    "Constructed the ACTUAL curve-averaged subgroup Haar image as pushforward of unit-interval length probability times actual subgroup Haar probability; proved probability mass and complex continuous integral formula via measurable maps and Fubini.",
+    "Constructed the uniform finite residue mixture as an actual measure; proved mass one for positive period and the exact 1/M integral formula. No measure-valued integration oracle or assumed mixture exists.",
+    "Proved complex unit Lipschitz testing implies weak convergence of probabilities on compact metric spaces by fixed test-dependent normalization and the mathlib Portmanteau theorem. The normalizing constant is strictly positive; rescaling and real projection are exact.",
+    "Constructed actual empirical probabilities, with explicit fixed-point fallback for empty windows. Cofinality makes the ORIGINAL floor-window eventually nonempty; its integral is the true finite sum divided by its true cardinality.",
+    "Proved weak probability convergence of the ORIGINAL source on the SAME factorization subsequence, retaining both local laws, final filtration, positive period, rational residues and smooth curve. Also proved the original scalar point-mixture formula for EVERY continuous complex test without new extraction."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 local laws, actual global floor-window point-mixture probability weak convergence and all-continuous complex testing are proved on one original subsequence with SAME final filtration/period/sigma/h. Remaining: actual SAME-filtration cube subgroup geometry and face-character coefficient isolation, simultaneous local cube laws through ORIGINAL s+1 with length before locality, projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No Haar/source/cardinality/partition/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. No global metric Lipschitz or quantitative locality rate claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-point-probability-mathematical-review.txt",
+  "mathematical_review_sha256": "08d12c28c0e19715f6f83806faeed21a4b6e8ded5a877ee23622ecab0a250d83",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 569,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/NilUpperFaceFiltration.lean",
+    "Hindman168/NilUpperFaceOrdering.lean",
+    "Hindman168/NilUpperFaceCoordinates.lean",
+    "Hindman168/NilUpperFaceMissingCorner.lean",
+    "Hindman168/NilUpperFaceReflection.lean",
+    "Hindman168/NilUpperFaceRootUniqueness.lean",
+    "Hindman168/NilUpperFaceRootRecipes.lean",
+    "Hindman168/NilUpperFaceUniqueCoordinates.lean"
+  ],
+  "new_selected_report_count": 49,
+  "module_report_counts": {
+    "NilUpperFaceFiltration": 6,
+    "NilUpperFaceOrdering": 8,
+    "NilUpperFaceCoordinates": 5,
+    "NilUpperFaceMissingCorner": 6,
+    "NilUpperFaceReflection": 6,
+    "NilUpperFaceRootUniqueness": 5,
+    "NilUpperFaceRootRecipes": 9,
+    "NilUpperFaceUniqueCoordinates": 4
+  },
+  "application_review": [
+    "All 569 retained source/config hashes were checked before edits and registration. Only the root imports and exact-name kernel registry changed among retained files. All retained proof modules, StrongStatement, the nine attributed PNT+ files and fixed Lean/mathlib/PNT+ pins remain byte-identical.",
+    "Fixed local paper sections 04, 05 and 07 match the exact adc7f1241b42e322a6451854ab7e4b4c146bf78a Git objects after newline normalization. No official or remote updates were checked in this goal round.",
+    "The original filtration conditions are represented explicitly by an antitone subgroup family and the full level-additive commutator inclusion. Upper-face homomorphisms and their subgroup images are actual objects; the commutator of D and E face arrays is exactly the union face carrying the original group commutator.",
+    "For every upward-closed list of faces, an arbitrary face subgroup normalizes the actual suffix-generated subgroup. This is derived by conjugating original generators and applying the proved union-face commutator identity and the exact filtration-level bound.",
+    "Every Boolean face is concretely enumerated by a duplicate-free increasing-cardinality list. The full list and every recursively used suffix are upward closed under inclusion; equal-cardinality ties introduce no unsupported order assumption.",
+    "The actual suffix-generated subgroup is the supremum of the current face subgroup and the next suffix group. Proved normalization turns each element into one current-face element times one tail element. Recursive collection constructs an actual coefficient family at its original filtration levels for every element of the full upper-face cube group.",
+    "Triangular vertex recovery proves uniqueness of the entire actual coefficient family in the full face order. Every element of the original filtered cube group therefore has a unique ordered face-coordinate representation, with no independently assumed coordinate certificate.",
+    "When the filtration level at cube dimension d is trivial, the constructed top-face coefficient equals one. Filtering that face out leaves the exact group-valued cube unchanged and derives the previous proper-upper-face certificate for the actual generated cube subgroup.",
+    "Single-coordinate reflection maps an upper face either to itself or to the product of the erased-coordinate face and the original inverse face. Filtration antitonicity puts both factors in the actual cube group, proving reflection invariance. Reflecting the complete coordinate list is exactly complementation of each Boolean vertex.",
+    "The actual filtered cube group with trivial top layer has unique missing-top and missing-root quotient vertices. The missing-root theorem follows by proved full reflection from the original lattice-recovery proof and works for arbitrary lattice subgroups without normality.",
+    "The top-indexed quotient cube set transfers continuously to the exact root/Nonempty-CubeVertex indexing used in Prediction. Its root cube set is the image under this actual vertex reindexing, so actual top cube compactness implies root cube compactness rather than requiring a second independent compactness premise.",
+    "Actual root missing-corner uniqueness and the transferred compactness yield exact continuous root reconstruction and finite normalized recipes uniform over the complete fixed bounded-Lipschitz observable family. Independent coordinate-certificate and reflection assumptions are eliminated from this interface.",
+    "The actual root recipes approximate each observable simultaneously on every linear orbit cube, for arbitrary translating element, base-point representative and integer base/shift exponents. The recipe factors use the exact nonempty Boolean vertices and reconstruct the original root value g^b0*x.",
+    "CubeGroupFiltration contains exactly the explicit antitone and level-additive commutator requirements used by the original paper; it is not a coordinate-existence assertion. The proper-coordinate certificate is derived from subgroup collection, not added to the filtration data.",
+    "Suffix closure under face unions is proved from the actual complete finite face order. For a tail face E, any containing face has at least its cardinality; a containing face equal to the removed head would contradict the head-to-E size bound and duplicate-free order. Equal-cardinality tie order is arbitrary and harmless.",
+    "The collection argument works in a possibly noncommutative group. It uses subgroup normalization of the suffix to identify the carrier of the subgroup supremum with the ordered pointwise product. Each recursive residual belongs to the genuine suffix group and each chosen coefficient belongs to its original subgroup F(card(D)).",
+    "Uniqueness uses the first vertex to read off the first coefficient, since no later face is contained in that vertex. Cancellation of the common face array gives equality of the actual tail products and permits recursion. No Lie exponential map, commutative-product notation or coordinate bijection is assumed.",
+    "Reflection uses only the concrete flip of one finite-set coordinate, the erased face and inverse face. Arbitrary finite compositions preserve the actual cube group; a duplicate-free complete coordinate list gives the Boolean complement. No reflection-invariance premise remains in the missing-root theorem.",
+    "The quotient is the space of right cosets by an arbitrary subgroup. No quotient-group structure or lattice normality is used. Existing exact lattice recovery proves agreement of the missing top; actual complement reflection transfers that agreement to the empty/root vertex.",
+    "The root recipe theorem retains actual compactness of the quotient cube image and the compact metric ambient quotient as explicit topological inputs. The derivation of compactness from rational filtration layers, and the complete nilpotent/lower-central and rational-lattice instantiation, remains pending. It is not asserted proved merely because the algebraic coordinate theorem is proved.",
+    "The observable recipe factors are continuous and globally bounded by one; the observed functions have their fixed sup and Lipschitz bounds. A Lipschitz refinement of the factors themselves is not claimed. Piece/residue selectors and the original weighted boundary estimate have not yet been completed.",
+    "The final full build completed 4426 jobs without warnings/errors. The exact-name kernel audit covers 2760 unique names including all 49 new theorems, with only propext/Classical.choice/Quot.sound or no axioms. Final executable-source scan covers 559 own and 9 attributed PNT+ modules; the manifest contains 577 source/config hashes.",
+    "Both consecutive goal rounds are PROGRESS. The complete StrongConjecture remains unproved and unchanged. No unavoidable blocker, full nilsequence-testing theorem, award eligibility or public submission is asserted."
+  ],
+  "source_preprint_sections": {
+    "07_cube_limits.tex": "34-95: actual upper-face generation, unique ordered face coordinates and reflections; 117-168: proper-coordinate lattice recovery, missing-root reconstruction and uniform coordinate-product recipes",
+    "05_prediction.tex": "287-309: unrestricted linear orbit cube recipes now use the actual generated group and proved root uniqueness; actual compactness, selectors and weighted boundary remain needed"
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4426,
+    "project_modules": 559,
+    "pntplus_modules": 9,
+    "source_scan_modules": 568,
+    "axiom_reports": 2760,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 577,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "All prior original-law detection, constructed dense block models, full dual estimates, model-error cube cancellation, nonsingleton count replacement and finite uniform coordinate-product recipes remain proved. The previously assumed proper-upper-face coordinate certificate and reflection invariance are now derived for the actual upper-face generated subgroup under the explicit original group-filtration conditions. Every cube has a unique actual ordered coefficient family; trivial top layer gives missing-top and, by actual reflections, missing-root quotient uniqueness. Actual compactness transfers to Prediction's nonempty-vertex/root indexing and yields root recipes simultaneously for all linear orbits. Next prove actual compactness of the rational nilpotent quotient cube image, for example by collecting compact lattice representatives from the finite filtration layers. Instantiate the nilpotent/lower-central group filtration and the rational lattice/topological inputs for the paper's nilmanifolds; these inputs are not silently assumed instantiated. Complete Lipschitz refinement of coordinate factors if needed. Then realize the finite recipes through piece/residue selector inputs of the original extra zero-prime dual test and prove the original harmonic/divisor-weighted boundary estimate. Complete Prediction nilsequence testing, nested coarse-model projections, calibration and Alignment; instantiate concrete natural-number coloring weights, arithmetic chain/block/gap data and all companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

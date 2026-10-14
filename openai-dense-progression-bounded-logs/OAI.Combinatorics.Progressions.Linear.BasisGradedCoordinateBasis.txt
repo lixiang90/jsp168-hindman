@@ -1,0 +1,14 @@
+OAI/Combinatorics/Progressions/Linear/BasisGradedCoordinateBasis.lean:262:2: error: Type mismatch: After simplification, term
+  sub_basisCoordinateProjection_mem b {i | w i < j} x
+ has type
+  x - (basisCoordinateProjection b {i | w i < j}) x ∈ Submodule.span K (⇑b '' {i | w i < j}ᶜ)
+but is expected to have type
+  x - (basisCoordinateProjection b {i | w i < j}) x ∈ Submodule.span K (⇑b '' {i | j ≤ w i})
+OAI/Combinatorics/Progressions/Linear/BasisGradedCoordinateBasis.lean:268:2: error: Type mismatch: After simplification, term
+  basisCoordinateProjection_eq_iff b {i | w i < j} x y
+ has type
+  (basisCoordinateProjection b {i | w i < j}) x = (basisCoordinateProjection b {i | w i < j}) y ↔
+    x - y ∈ Submodule.span K (⇑b '' {i | w i < j}ᶜ)
+but is expected to have type
+  (basisCoordinateProjection b {i | w i < j}) x = (basisCoordinateProjection b {i | w i < j}) y ↔
+    x - y ∈ Submodule.span K (⇑b '' {i | j ≤ w i})

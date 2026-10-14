@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "Each conditional harmonic cell is an actual intervalResidueSet with original integerMass, admissible residue, positive original normalizer and containment in the original harmonic window.",
+    "The weighted uniformization error uses the common lower endpoint X>0 and the actual cell width M*q. Nonnegative sum-one cell weights prevent a cell-count loss.",
+    "The short-cube test is unit-bounded by two finite mean bounds and the full vertex-product bound. Positive short interval length is used before averaging.",
+    "The final bound combines the verified conditional harmonic comparison with the verified integer short-cube Gowers bound. The errors 4d/J and M*a*n/X remain explicit.",
+    "Two new theorems are individually kernel audited. Global original-law specialization, Bessel and inverse inputs remain unfinished and are not assumed as certificates."
+  ],
+  "new_modules": [
+    "Hindman168/WeightedHarmonicCyclicCells.lean",
+    "Hindman168/HarmonicShortCubeGowersBound.lean"
+  ],
+  "verified": {
+    "project_modules": 1039,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1048,
+    "source_config_hashes": 1057,
+    "build_jobs": 4993,
+    "axiom_reports": 4936,
+    "new_theorems": 2,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 2,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The weighted original integerMass conditional short-cube average now has the Gowers bound with explicit wrapping and harmonic uniformization errors. Applying the exact admissible aligned-cell probability decomposition and master rate limits to obtain the global original-law estimate remains, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

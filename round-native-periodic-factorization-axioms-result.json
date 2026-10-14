@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 48.10900000017136,
+  "log": "round-native-periodic-factorization-axioms.txt",
+  "log_sha256": "19d8d6bfab908f74dc59299411cae74035e5628caac07c0dce06f104e86c9e17"
+}

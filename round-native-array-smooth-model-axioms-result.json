@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.468999999808148,
+  "log": "round-native-array-smooth-model-axioms.txt",
+  "log_sha256": "a14a2da055845c73a6c8666fb231daec0c1e350c7ff96210268b60547bffc20e"
+}

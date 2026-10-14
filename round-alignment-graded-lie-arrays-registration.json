@@ -1,0 +1,131 @@
+{
+  "baseline_hash_count": 1339,
+  "modules": [
+    "Hindman168/AlignmentLieLowerCentralBrackets.lean",
+    "Hindman168/AlignmentGradedLiePolynomialArrays.lean",
+    "Hindman168/AlignmentLieArrayFiniteDimension.lean",
+    "Hindman168/AlignmentLieArrayEvaluation.lean",
+    "Hindman168/AlignmentNativeLieArrayCoefficients.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentLie_lowerCentral_bracket",
+    "Hindman168.alignmentLie_weighted_lowerCentral_bracket",
+    "Hindman168.alignmentLieArrayGenerators",
+    "Hindman168.alignmentLieArraySpace",
+    "Hindman168.alignmentLieArrayGenerators_bracket",
+    "Hindman168.alignmentLieArraySpace_bracket",
+    "Hindman168.alignmentLiePolynomialArrays",
+    "Hindman168.alignmentLiePolynomialArrays_monomial",
+    "Hindman168.alignmentBoundedLieArraySpace",
+    "Hindman168.alignmentLieArrayGenerator_highDegree_zero",
+    "Hindman168.alignmentLieArraySpace_le_bounded",
+    "Hindman168.alignmentBoundedLieArraySpace_finite",
+    "Hindman168.alignmentLiePolynomialArrays_finiteDimensional",
+    "Hindman168.alignmentLieArrayEvaluation",
+    "Hindman168.alignmentLieArrayEvaluation_tmul",
+    "Hindman168.alignmentLieArrayEvaluation_monomial",
+    "Hindman168.alignmentLiePolynomialArraysEvaluation",
+    "Hindman168.alignmentLiePolynomialArraysEvaluation_lowerCentral",
+    "Hindman168.alignmentNativeLieArrayCoefficients",
+    "Hindman168.alignmentNativeLieArrayCoefficients_finiteDimensional",
+    "Hindman168.alignmentNativeLieArrayCoefficients_highDegree_zero"
+  ],
+  "theorem_count": 14,
+  "selected_report_count": 21,
+  "declarations": {
+    "Hindman168/AlignmentLieLowerCentralBrackets.lean": [
+      [
+        "theorem",
+        "alignmentLie_lowerCentral_bracket"
+      ],
+      [
+        "theorem",
+        "alignmentLie_weighted_lowerCentral_bracket"
+      ]
+    ],
+    "Hindman168/AlignmentGradedLiePolynomialArrays.lean": [
+      [
+        "def",
+        "alignmentLieArrayGenerators"
+      ],
+      [
+        "def",
+        "alignmentLieArraySpace"
+      ],
+      [
+        "theorem",
+        "alignmentLieArrayGenerators_bracket"
+      ],
+      [
+        "theorem",
+        "alignmentLieArraySpace_bracket"
+      ],
+      [
+        "def",
+        "alignmentLiePolynomialArrays"
+      ],
+      [
+        "theorem",
+        "alignmentLiePolynomialArrays_monomial"
+      ]
+    ],
+    "Hindman168/AlignmentLieArrayFiniteDimension.lean": [
+      [
+        "def",
+        "alignmentBoundedLieArraySpace"
+      ],
+      [
+        "theorem",
+        "alignmentLieArrayGenerator_highDegree_zero"
+      ],
+      [
+        "theorem",
+        "alignmentLieArraySpace_le_bounded"
+      ],
+      [
+        "theorem",
+        "alignmentBoundedLieArraySpace_finite"
+      ],
+      [
+        "theorem",
+        "alignmentLiePolynomialArrays_finiteDimensional"
+      ]
+    ],
+    "Hindman168/AlignmentLieArrayEvaluation.lean": [
+      [
+        "def",
+        "alignmentLieArrayEvaluation"
+      ],
+      [
+        "theorem",
+        "alignmentLieArrayEvaluation_tmul"
+      ],
+      [
+        "theorem",
+        "alignmentLieArrayEvaluation_monomial"
+      ],
+      [
+        "def",
+        "alignmentLiePolynomialArraysEvaluation"
+      ],
+      [
+        "theorem",
+        "alignmentLiePolynomialArraysEvaluation_lowerCentral"
+      ]
+    ],
+    "Hindman168/AlignmentNativeLieArrayCoefficients.lean": [
+      [
+        "def",
+        "alignmentNativeLieArrayCoefficients"
+      ],
+      [
+        "theorem",
+        "alignmentNativeLieArrayCoefficients_finiteDimensional"
+      ],
+      [
+        "theorem",
+        "alignmentNativeLieArrayCoefficients_highDegree_zero"
+      ]
+    ]
+  }
+}

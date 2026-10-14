@@ -1,0 +1,35 @@
+Vendored AP prime-number-theorem proof input
+==========================================
+
+Source: AlexKontorovich/PrimeNumberTheoremAnd, Apache License 2.0.
+Exact commit: 747e480362ef6a0a7341055a84372333d72fa62a
+https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/tree/747e480362ef6a0a7341055a84372333d72fa62a
+The existing PNT+ authors and contributors receive credit for all retained
+proofs in PrimeNumberTheoremAnd/. They are not original results of this
+JSP-000168 formalization. See LICENSE-PNTPLUS for the complete license.
+
+Lean 4.32.2; mathlib 905b95818eb32af7874a58b427f50c1711a5e96c.
+These are exactly the versions of the current Hindman168 project.
+
+Changes to the nine source modules:
+- Replaced the blueprint-only Architect import with Batteries.Tactic.Lemma.
+- Removed blueprint attributes and blueprint_comment commands.
+- In Wiener.lean, removed the unused block starting at prelim_decay_2 and
+  ending immediately before decay_bounds_key. This block contained the
+  unproved prelim_decay_2 and prelim_decay_3, AbsolutelyContinuous, and
+  the dependent unused decay_alt. No retained proof body was changed.
+
+Isolated build: pnt-ap-build.txt, exit 0, 3698 jobs including dependencies.
+Actual dependency reports: pnt-ap-axioms.txt.
+WienerIkeharaTheorem'', WeakPNT_AP, and chebyshev_asymptotic_pnt depend only
+on propext, Classical.choice, Quot.sound. No custom analytic axiom was added.
+The retained sources contain no sorry/admit/sorryAx/custom axiom/unsafe.
+
+Reproduction notes: prepare-pnt-audit.py reproduces the source transformation
+using --source <pinned-checkout> --output <separate-audit-directory>.
+It checks the source Git commit and refuses to overwrite this project root.
+pntplus-source-modules.json lists the exact imported source closure.
+
+The AP theorem is an analytic input only. Deriving harmonic prime-pool
+residue equidistribution and completing StrongConjecture remain distinct
+proof tasks. This input is not a completed prize submission.

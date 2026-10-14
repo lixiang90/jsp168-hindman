@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughForwardDifferences.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.484000000171363,
+    "log": "round-rough-constant-term-RoughForwardDifferences-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughForwardDifferences.lean",
+    "source_sha256": "e63c7cbccea28f80ea19f72e882fe665f89ad3c8492e33ed0ecc6acc04ef2201"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughFloorDifferences.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.702999999979511,
+    "log": "round-rough-constant-term-RoughFloorDifferences-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughFloorDifferences.lean",
+    "source_sha256": "3ed2dde1069aee1f8ca97097b3023bb2e66d805aed326565a03c057e968a7a44"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughFiniteNewton.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.297000000020489,
+    "log": "round-rough-constant-term-RoughFiniteNewton-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughFiniteNewton.lean",
+    "source_sha256": "a03d1151947f7284d817820504f3dfbd66185390c2fe856aa6f6be4d81beb21c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNewtonPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.593999999808148,
+    "log": "round-rough-constant-term-RoughNewtonPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNewtonPolynomial.lean",
+    "source_sha256": "d294f666e400f504d778cd3cd6d7c545860ae01fe01b786879429e8c68e724d0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNewtonDenominators.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.516000000061467,
+    "log": "round-rough-constant-term-RoughNewtonDenominators-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNewtonDenominators.lean",
+    "source_sha256": "5f6524083288255bc6e394fd9a1097650f208f235bea61c13ae55eb6993195ef"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughConstantTermModel.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.547000000020489,
+    "log": "round-rough-constant-term-RoughConstantTermModel-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughConstantTermModel.lean",
+    "source_sha256": "161c6b10df780bc06c850e933ebfb7b97235451b240b79752f15b614fbb43720"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughFractionalColor.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.655999999959022,
+    "log": "round-rough-constant-term-RoughFractionalColor-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughFractionalColor.lean",
+    "source_sha256": "f82e57d4134d94f45e2ca9ab14728e205fdd274da0b9f92e39eda0367c890b4d"
+  }
+]

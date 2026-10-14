@@ -1,0 +1,36 @@
+{
+  "baseline_hash_count": 1106,
+  "modules": [
+    "Hindman168/UltrafilterUniformThreshold.lean",
+    "Hindman168/MixedDualUniformGowersThreshold.lean"
+  ],
+  "names": [
+    "Hindman168.ultrafilter_uniform_null_test_threshold",
+    "Hindman168.mixedDualHilbert_uniform_gowers_threshold",
+    "Hindman168.mixedDualHilbert_uniform_product_gowers_threshold",
+    "Hindman168.mixedDualHilbert_recursive_gowers_threshold"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/UltrafilterUniformThreshold.lean": [
+      [
+        "theorem",
+        "ultrafilter_uniform_null_test_threshold"
+      ]
+    ],
+    "Hindman168/MixedDualUniformGowersThreshold.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_uniform_gowers_threshold"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_uniform_product_gowers_threshold"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_recursive_gowers_threshold"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2810,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6837,
+    "selected_axiom_reports": 10948,
+    "new_declarations": 46,
+    "new_theorems": 37,
+    "new_definitions": 8,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeRationalSubgroupFiltration.lean",
+    "Hindman168/NativeRationalSubgroupTaylorCoordinates.lean",
+    "Hindman168/NativeRationalSubgroupDescentBounds.lean",
+    "Hindman168/NativeTaylorDescentCorrection.lean",
+    "Hindman168/NativeTaylorCollectedAdaptation.lean",
+    "Hindman168/NativeSubgroupLevelAffine.lean",
+    "Hindman168/NativeTaylorDescentCoefficient.lean",
+    "Hindman168/NativeTaylorKernelAdaptation.lean"
+  ],
+  "proved_components": [
+    "A genuine native rational SUBGROUP filtration permits H_0=H_1 to be a proper subalgebra of the unchanged original native group and original lattice rational form. Actual exponential group layers, native product weights and all-real group-difference adaptation are derived. Original full rational filtrations embed literally.",
+    "For EVERY positive level j, including j=1, the actual single-level kernel filtration is constructed. At j=1 BOTH H_0 and H_1 change; at larger j only H_j changes. Antitone nesting, all zero/positive bracket indices, rationality and the unchanged terminal index are proved. A nonzero restriction proves strict total positive-layer dimension decrease. Actual rational pivot construction gives phi(V)=1; every finite strict descent chain has length at most the initial dimension sum and an infinite chain is impossible.",
+    "The SAME original Taylor residual/correction/product constructors have complete ALL-real ordered representation and actual group-layer coefficient membership after arbitrary subgroup descent, without an ambient-top premise. Genuine two-sided binomial correction preserves OLD adaptation and every lower actual Taylor coefficient.",
+    "An actual logarithmic polynomial for its ordered Taylor product is constructed with all new-filtration weights. Equality to the ORIGINAL logarithmic polynomial follows by original exponential injectivity and Taylor termination. Canonical monomial collection then retains actual aggregate coefficient cancellations and gives a genuine new weighted source, rather than falsely inferring termwise adaptation.",
+    "Actual BCH affine errors and conjugation of layer-j corrections by lower Taylor factors lie in H_(j+1), using relative ideals INSIDE the subgroup rather than ambient ideal assumptions. The corrected actual order-j Taylor coefficient has EXACT real character value old_value - epsilon - m. A real integer/error decomposition and the constructed rational pivot therefore make that value zero.",
+    "The ACTUAL normalized corrected source, after monomial collection, is proved adapted to the new SINGLE-LEVEL kernel filtration, including genuine level-one subgroup shrinkage. All lower coefficients are unchanged, higher coefficients retain old layers, and the changed zeroth layer is handled by true normalization. This closes one algebraic descent step, not sequential character extraction, smooth limits, rational periodicity, local cube laws or the final StrongConjecture."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original all-target linear/cube identities and original lower-central Taylor coordinates remain proved. Arbitrary proper rational subgroup filtrations, exact level-one and higher single-level kernel geometry, actual rational pivot, strict finite descent bounds, complete subgroup Taylor closure, genuine two-sided source correction, exact order-j real character cancellation and actual COLLECTED new-kernel adaptation are now proved. Remaining: derive actual sequential rational level characters and bounded-error/integer decompositions from failure of irrationality on subsequences; organize finite sequential descent with ONE final filtration and simultaneous all-rational-character limits; initial compact normalization and genuinely convergent smooth factors; actual bounded rational period and sequence-selected representatives; local cube-Haar laws through ORIGINAL s+1, sequence-before-locality limits, projected Haar face invariance/full-support coset symmetry and actual joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse at sufficient native step; final positive distinct rapidly separated SAME-color nonempty FS AND FP. The new filtration structure contains ONLY geometric fields. The one-step theorem exposes geometric level-character and real decomposition conditions; it does not assume a corrected-source, factorization or Haar conclusion. Author build/hash/axiom/source checks are not independent kernel replay or external peer review. No unavoidable obstruction, explicit delta-power law or other-marginal invariance is claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-subgroup-taylor-correction-mathematical-review.txt",
+  "mathematical_review_sha256": "6dd15ec3c08aa2325e0ee31ba963bf151e7644597618a6321567387471976548",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

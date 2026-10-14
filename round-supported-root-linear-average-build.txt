@@ -1,0 +1,2 @@
+✔ [4231/4231] Built Hindman168.HarmonicLinearProgressionAverage (7.5s)
+Build completed successfully (4231 jobs).

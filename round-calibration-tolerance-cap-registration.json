@@ -1,0 +1,88 @@
+{
+  "baseline_hash_count": 1242,
+  "modules": [
+    "Hindman168/FiniteOrderNativeShortCubeModelsCapped.lean",
+    "Hindman168/FiniteOrderNativeChainPredictionCapped.lean",
+    "Hindman168/SelectedNativeMaskCorrelationCapped.lean",
+    "Hindman168/SelectedColorDenseNativeModelsCapped.lean",
+    "Hindman168/SelectedColorNativeTestingModelsCapped.lean",
+    "Hindman168/SelectedColorCalibratedModelsCapped.lean",
+    "Hindman168/SelectedColorCalibrationTolerance.lean",
+    "Hindman168/OriginalBlockRawSampling.lean",
+    "Hindman168/SelectedColorGlobalCalibration.lean"
+  ],
+  "names": [
+    "Hindman168.finite_order_native_shortCube_models_capped",
+    "Hindman168.finite_order_native_chain_prediction_capped",
+    "Hindman168.selected_native_mask_original_correlations_capped",
+    "Hindman168.selected_color_dense_native_models_capped",
+    "Hindman168.selected_color_native_testing_models_capped",
+    "Hindman168.selected_color_calibrated_models_capped",
+    "Hindman168.selected_color_calibration_tolerance",
+    "Hindman168.MasterParameterConditions.block_raw_product_expectation",
+    "Hindman168.MasterParameterConditions.block_raw_product_event",
+    "Hindman168.selected_color_global_calibration"
+  ],
+  "theorem_count": 10,
+  "selected_report_count": 10,
+  "declarations": {
+    "Hindman168/FiniteOrderNativeShortCubeModelsCapped.lean": [
+      [
+        "theorem",
+        "finite_order_native_shortCube_models_capped"
+      ]
+    ],
+    "Hindman168/FiniteOrderNativeChainPredictionCapped.lean": [
+      [
+        "theorem",
+        "finite_order_native_chain_prediction_capped"
+      ]
+    ],
+    "Hindman168/SelectedNativeMaskCorrelationCapped.lean": [
+      [
+        "theorem",
+        "selected_native_mask_original_correlations_capped"
+      ]
+    ],
+    "Hindman168/SelectedColorDenseNativeModelsCapped.lean": [
+      [
+        "theorem",
+        "selected_color_dense_native_models_capped"
+      ]
+    ],
+    "Hindman168/SelectedColorNativeTestingModelsCapped.lean": [
+      [
+        "theorem",
+        "selected_color_native_testing_models_capped"
+      ]
+    ],
+    "Hindman168/SelectedColorCalibratedModelsCapped.lean": [
+      [
+        "theorem",
+        "selected_color_calibrated_models_capped"
+      ]
+    ],
+    "Hindman168/SelectedColorCalibrationTolerance.lean": [
+      [
+        "theorem",
+        "selected_color_calibration_tolerance"
+      ]
+    ],
+    "Hindman168/OriginalBlockRawSampling.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.block_raw_product_expectation"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.block_raw_product_event"
+      ]
+    ],
+    "Hindman168/SelectedColorGlobalCalibration.lean": [
+      [
+        "theorem",
+        "selected_color_global_calibration"
+      ]
+    ]
+  }
+}

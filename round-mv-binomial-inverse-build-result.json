@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.609000000171363,
+  "log": "round-mv-binomial-inverse-build.txt",
+  "log_sha256": "d9b402364b01cbf4895e52d2d2279c281e0efbf264b475e0d32f3bdb0f8659c9"
+}

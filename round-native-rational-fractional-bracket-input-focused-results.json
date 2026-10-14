@@ -1,0 +1,178 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCompactBracketParameters.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.514999999897555,
+    "log": "round-native-rational-fractional-bracket-input-NativeRationalCompactBracketParameters-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCompactBracketParameters.lean",
+    "source_sha256": "edbe95fc7721d73873baa2076fc5d808007288c9ee2fd8d4d129b661bf14c0c4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeTwoDenseFractionalPaperSeparation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.266000000061467,
+    "log": "round-native-rational-fractional-bracket-input-NativeRationalDegreeTwoDenseFractionalPaperSeparation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeTwoDenseFractionalPaperSeparation.lean",
+    "source_sha256": "d91d8f83c35a7714b590e8feea9b6a013518b43f7034209a1349b6b28fc219f0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDenseFractionalInput.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.54700000002049,
+    "log": "round-native-rational-fractional-bracket-input-NativeRationalDenseFractionalInput-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDenseFractionalInput.lean",
+    "source_sha256": "f7d1f2768a203a0a74985f32d40aeb1d6fdea88a12d31dc3476c83e1b2c4882d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDenseFractionalPaperSeparation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.54699999978766,
+    "log": "round-native-rational-fractional-bracket-input-NativeRationalDenseFractionalPaperSeparation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDenseFractionalPaperSeparation.lean",
+    "source_sha256": "b8bbe08492d8d9ff3f559ed4892ce34c739c7a7d95c716bee8dced5bd8c889bd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalFirstLayerInverseReconstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.04700000002049,
+    "log": "round-native-rational-fractional-bracket-input-NativeRationalFirstLayerInverseReconstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalFirstLayerInverseReconstruction.lean",
+    "source_sha256": "652e77d873e43790e5e17b92faadfda8642df7f0df11e8c7b571197fa466bdfe"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalFirstLayerOriginalBounds.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.766000000061467,
+    "log": "round-native-rational-fractional-bracket-input-NativeRationalFirstLayerOriginalBounds-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalFirstLayerOriginalBounds.lean",
+    "source_sha256": "7885ebf13de6a1a28b8f0ca8fd95a3b7e1e701eb94ec2e3ef24abe054f416d59"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalFirstLayerPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.890000000130385,
+    "log": "round-native-rational-fractional-bracket-input-NativeRationalFirstLayerPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalFirstLayerPolynomial.lean",
+    "source_sha256": "635113a0db3a7c2ba1cf000948ad994c2171e34e6aefeaf5b124630d948cfaf3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RealAffineIntegerSlabMeasure.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.718999999808148,
+    "log": "round-native-rational-fractional-bracket-input-RealAffineIntegerSlabMeasure-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RealAffineIntegerSlabMeasure.lean",
+    "source_sha256": "40c97b888b41b8ad3b7d4eb2e4bf825f9c487535ca8897aa69813df039f99a6a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarFractionalBracket.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.359000000171363,
+    "log": "round-native-rational-fractional-bracket-input-ScalarFractionalBracket-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarFractionalBracket.lean",
+    "source_sha256": "e1592a2e3e2f79cdc7504019593053eb689ed9ead4cadc08ae44482d180447cc"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarFractionalBracketAugmentation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.312999999849126,
+    "log": "round-native-rational-fractional-bracket-input-ScalarFractionalBracketAugmentation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarFractionalBracketAugmentation.lean",
+    "source_sha256": "d4903e037ff7d6c19890bf3a21a21d1c6a1fb2e1ead40cbafc3817aed86f143f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarFractionalBracketCenteredCorrection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.75,
+    "log": "round-native-rational-fractional-bracket-input-ScalarFractionalBracketCenteredCorrection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarFractionalBracketCenteredCorrection.lean",
+    "source_sha256": "079940baed127c6b459277efd099ceed2d854c57d55aa564fb88b14e4f30aa88"
+  }
+]

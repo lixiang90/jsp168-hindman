@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "Actual stretched group lower central filtration: natural ceiling indices are monotone and subadditive; the actual group layers start at the whole group, are normal and antitone, satisfy the commutator condition and terminate at s*D+1 for step at most s and positive fixed D.",
+    "Actual native stretched group layers are identified by proved group/Lie lower central equality with the original exponential Lie layers. Closedness, contractibility, simple connectedness and exact original logarithm/exponential membership follow from this equality.",
+    "Actual native stretched Lie layers are antitone and initially the whole model. The original native adjoint differential bracket adds stretched weights using the actual original Lie lower central bracket theorem and the ceiling inequality.",
+    "A sufficient termwise weighted vector polynomial condition is proved stable under append, scalar multiplication and bilinear brackets that add weights. Its actual evaluations lie in the stated layer. Ordinary degree at most D gives the native initial condition; actual native brackets and exponential membership are connected.",
+    "Translation preserves every scalar coefficient at or above the original total degree. The affine power coefficient formula becomes diagonal under the total-degree comparison. Every nonzero ordinary translation difference has strictly smaller total degree.",
+    "The actual vector translation difference deletes exactly the zero scalar difference terms and evaluates to the true translated value minus the original value. Weighted ordinary differences increase the layer offset by one; actual affine substitutions preserve the weighted condition.",
+    "The stretch D is strictly positive in all substantive filtration and degree claims, as in the paper. D=0 is not a permitted polynomiality input. The layer formula uses ceil(i/D)-1 in mathlib lower central numbering and has the whole group at both i=0 and i=1.",
+    "Commutator inclusion uses the actual lower central series, including its zero-index normality behavior. The terminal index s*D+1 is justified by a lower ceiling bound; it is not asserted merely from a degree heuristic.",
+    "Native topological properties are transported through the already proved exact original group/Lie equality. No surrogate group, added instance, supplied filtration or unproved identification is introduced.",
+    "Weighted degree is a sufficient condition on each scalar-polynomial/vector pair in the finite list representation. It can be stronger than the coefficient condition after cancellation. No equivalence to the paper coefficient condition is asserted.",
+    "The native bracket is the original adjoint differential identified with the actual native Lie bracket. Its weighted inclusion uses both-input Lie lower central membership, not only a one-sided adjoint lowering estimate.",
+    "A nonzero scalar translation difference has degree strictly below the original degree. Zero polynomials have natural totalDegree zero and are handled separately: their difference terms are deleted from the actual vector representation, with exact evaluation preserved.",
+    "Ordinary difference increases the weighted offset by one, including cancellation and constant terms. Affine substitution only preserves the offset; no lowering is asserted for dilations.",
+    "These results prove the filtration and ordinary weighted difference portions of the paper argument. Cancellation of the terms in native BCH(A+Delta,-A) containing no Delta, finite weighted BCH propagation, lattice-relative rationality and iterated actual group difference polynomiality remain open.",
+    "The explicit equal-cube quantitative character obstruction, finite nonzero character construction and the two main existence inputs remain unproved. No new axiom is introduced to discharge them.",
+    "Focused checks, full build, retained hashes and selected transitive axiom reports are author-side verification. All six pinned primary paper sections are compared; no independent kernel replay, complete target or prize eligibility is claimed.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. The geometric and algebraic corrected box consequence is now assembled for actual integer samples of half-open real boxes, including exact ceil endpoint representation, count and location budgets, actual equal-cube tiling and selection, fixed floor side, finite character index retention and native binomial-to-monomial transfer. The transfer remains conditional on exact equal-cube binomial character obstruction; it does not prove quantitative Leibman or construct a uniformly finite nonzero horizontal character list. Prove the equal-side quantitative Leibman input and its finite character construction. The actual stretched group filtration, its original native Lie-layer equality and topology, native weighted brackets, initial bounded-degree coefficient condition and actual zero-filtered ordinary weighted differences are now proved. Actual native BCH cancellation and weighted group difference membership remain open; the sufficient termwise condition has not yet been propagated through the full BCH difference. Rationality of the actual stretched layers relative to the original lattice must still be assembled from actual rational log spans. Connect the resulting finite character selection to normalized descent and finish dimension induction using actual length restriction, cofinal scales and the zero-dimensional base. Finite density extraction from exceptional sets and the full uniform rough-step comparison remain open. Conditional face laws, buffered short-bin geometry, prior-event positivity, extra-conditioning posterior control, quantitative smooth-observable bounds, face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs; final ordered positive rapidly separated monochromatic extraction remains open. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1767,
+    "pntplus_modules": 9,
+    "build_jobs": 5734,
+    "selected_axiom_reports": 7512,
+    "new_declarations": 42,
+    "new_theorems": 38,
+    "new_definitions": 4,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughStretchedFiltrationIndices.lean",
+    "Hindman168/RoughStretchedLowerCentralFiltration.lean",
+    "Hindman168/RoughNativeStretchedFiltration.lean",
+    "Hindman168/RoughNativeStretchedLieBracket.lean",
+    "Hindman168/RoughVectorWeightedDegree.lean",
+    "Hindman168/RoughNativeWeightedPolynomial.lean",
+    "Hindman168/RoughTranslationTopCoefficients.lean",
+    "Hindman168/RoughWeightedPolynomialDifference.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. The geometric and algebraic corrected box consequence is now assembled for actual integer samples of half-open real boxes, including exact ceil endpoint representation, count and location budgets, actual equal-cube tiling and selection, fixed floor side, finite character index retention and native binomial-to-monomial transfer. The transfer remains conditional on exact equal-cube binomial character obstruction; it does not prove quantitative Leibman or construct a uniformly finite nonzero horizontal character list. Prove the equal-side quantitative Leibman input and its finite character construction. The actual stretched group filtration, its original native Lie-layer equality and topology, native weighted brackets, initial bounded-degree coefficient condition and actual zero-filtered ordinary weighted differences are now proved. Actual native BCH cancellation and weighted group difference membership remain open; the sufficient termwise condition has not yet been propagated through the full BCH difference. Rationality of the actual stretched layers relative to the original lattice must still be assembled from actual rational log spans. Connect the resulting finite character selection to normalized descent and finish dimension induction using actual length restriction, cofinal scales and the zero-dimensional base. Finite density extraction from exceptional sets and the full uniform rough-step comparison remain open. Conditional face laws, buffered short-bin geometry, prior-event positivity, extra-conditioning posterior control, quantitative smooth-observable bounds, face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs; final ordered positive rapidly separated monochromatic extraction remains open. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions actual stretched lower central filtration and weighted ordinary polynomial differences; native BCH propagation still open"
+}

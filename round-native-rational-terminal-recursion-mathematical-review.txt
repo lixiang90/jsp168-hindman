@@ -1,0 +1,90 @@
+JSP-000168: actual arbitrary terminal quotient and geometric degree recursion
+Author review, 2026-10-13. Not independent kernel replay or peer review.
+
+Route: six OpenAI sections at adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+especially 06_rough_progressions; Green--Tao section 7, Proposition 7.2,
+https://arxiv.org/html/0709.3562v4 . Corrected equal-side scope remains
+https://arxiv.org/html/1311.6170v3 . Original coefficients remain unbounded.
+
+Reviewed actual quotient construction
+1. For any ACTUAL finite rational native Lie filtration F of degree bound
+   ell, the PREVIOUSLY PROVED actual terminal model F(ell) is closed,
+   rational and central. Its actual central Exp subgroup is literally the
+   original group terminal layer; the actual image lattice is discrete and
+   cocompact. No output quotient geometry is assumed in F's data fields.
+2. The original central-subspace quotient backend supplies ACTUAL quotient
+   chart, smooth group operations, boundaryless/T2/simply-connected
+   structures. The original model quotient E/F(ell), original group
+   quotient G/Exp(F(ell)), actual projected lattice and natural compatible
+   quotient metric construct TRUE NativeData(s). The inherited nilpotency
+   step bound s is unchanged; only the filtration bound is reduced.
+3. The actual original group quotient projection is smooth; its identity
+   differential is EXACTLY the original real model quotient projection.
+   Genuine smooth-hom exponential uniqueness yields actual native Exp
+   compatibility; actual native Log compatibility follows from inverses.
+   Original specified lattice logarithms map EXACTLY to the image lattice
+   logarithms, and their Q-linear spans map EXACTLY.
+4. The true model projection is surjective and its kernel is precisely the
+   ORIGINAL F(ell). Every image Lie layer is the map of the ORIGINAL F(i).
+   Every image group layer is the map of the ORIGINAL integrated F(i).
+   Exact Log membership identifies the native Lie and group layers in both
+   directions, with original Exp lifts constructed rather than assumed.
+5. Differentiated actual smooth quotient hom intertwining gives TRUE image
+   Lie brackets. Full real-span transport gives rationality against the
+   SAME actual image lattice. Surjectivity gives zero/one top. For i>=ell,
+   F(i)<=F(ell)=ker(projection), so ACTUAL image Lie layers vanish.
+   nativeTerminalRationalLieFiltration CONSTRUCTS every field at degree
+   bound ell-1. The subtraction is truncated, including ell=0; then input
+   F(1)=top=bottom already forces the original group trivial.
+6. The new native filtration's integrated group layers equal the ACTUAL
+   original projected group layers by proved Log criteria. Group bracket,
+   initial and terminal conditions are proved for those SAME image layers.
+   The output is never replaced by a stretched lower-central filtration.
+
+Reviewed genuine finite geometric recursion
+7. Actual relative NativeData followed by actual terminal quotient
+   NativeData constructs a new finite rational Lie-filtration datum with
+   bound ell-1 and true original projected relative layers. For positive
+   ell the bound strictly decreases. Primitive recursion CONSTRUCTS actual
+   native groups/models/lattices/charts/metrics and all filtration fields
+   at every stage, with bound ell-n after n stages. At ell stages the
+   degree-zero group's top initial group layer equals its bottom terminal
+   layer, so the actual group is subsingleton. This is genuine termination
+   of GEOMETRY; it does not assume or prove an orbit quantitative inverse.
+8. This full construction is APPLIED to both original bounded-degree
+   stretched data and SAME retained original terminal quotient IMAGE data.
+   The actual next projected layer uses original reduced Lie layers in the
+   true relative pair and true quotient projection. Geometric termination
+   is proved for BOTH concrete original applications.
+
+Reviewed actual polynomial projection
+9. An ACTUAL weighted native coefficient polynomial maps term by term
+   under the true terminal model projection. Actual original evaluations
+   and native exponential/group projection agree. COMPLETE scalar
+   polynomials and EVERY scalar coefficient are retained under the actual
+   composed linear functional. Real filteredness uses actual output Lie
+   brackets and Exp/group-layer membership. Actual INTEGER quotient coset
+   samples commute exactly with the original factor map, for arbitrary
+   original nonnormal lattice and arbitrary variable set.
+10. True image weights and terminal zero imply ordinary degree at most
+    (ell-1)-k after removing zero vector terms, with original evaluations
+    retained by the proved zero-trim identity. This is a real degree drop,
+    not an assumed degree interface. It is APPLIED to the ACTUAL twice-
+    normalized ORIGINAL polynomial: every input weight comes from the
+    original degree bound and proved basepoint/lattice-linear correction,
+    with SAME stretch d, rather than increasing to ordinary degree s*d.
+
+Remaining boundary
+The arbitrary recursive GEOMETRY and actual terminal polynomial projection
+are now proved. Relative polynomial reconstruction for arbitrary WEIGHTED
+native source inputs (especially the twice-normalized source), and its
+actual successive pair/original samples still need proof. Geometric
+termination does not yet transport the orbit discrepancy, canonical Haar,
+specified metric/unit family or nonzero frequency through every recursive
+stage, nor reconstruct an ORIGINAL nonzero horizontal character. Those
+analytical/character induction and finite-list/operator/binomial bounds
+remain the NEXT core obligations. The corrected multivariate inverse,
+interval Gowers correlation inverse, rough progression density/descent,
+Alignment prior/posterior positivity and final recurrence/extraction remain
+open. StrongConjecture is UNPROVED; no unavoidable obstruction established.
+No public repository, PR or prize claim yet.

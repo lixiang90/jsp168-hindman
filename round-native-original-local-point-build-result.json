@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 23.484000000171363,
+  "log": "round-native-original-local-point-build.txt",
+  "log_sha256": "4ac05cd1ece4d8b9653c264f243138fa84f05f302fe2f1fa503764f2d14ffe5c"
+}

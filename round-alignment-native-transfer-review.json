@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2705,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6732,
+    "selected_axiom_reports": 10633,
+    "new_declarations": 32,
+    "new_theorems": 27,
+    "new_definitions": 5,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughCoordinateSamplingReindex.lean",
+    "Hindman168/NativeCoordinateSourceReindex.lean",
+    "Hindman168/NativeRealResidualEventReindex.lean",
+    "Hindman168/ComplexMeanObservableApproximation.lean",
+    "Hindman168/AlignmentNativeCoordinateWindowCap.lean",
+    "Hindman168/NativeRealResidualObservableApproximation.lean",
+    "Hindman168/AlignmentNativeCompactTestWindow.lean",
+    "Hindman168/AlignmentJointResidualTestFamily.lean",
+    "Hindman168/AlignmentJointOriginalTestWindow.lean",
+    "Hindman168/AlignmentActualRetainedScaleRange.lean"
+  ],
+  "proved_components": [
+    "Genuine spatial coordinate equivalences preserve the entire original box/residue sample sets, counts, uniform laws and complex means, including algebraic empty-set semantics. The removed NONE parameter is retained. Vector substitution preserves degree and the all-real native log, and commutes with the original spatial residual source. Original non-strict real ceil-box bad events transfer exactly to Fin coordinates.",
+    "Uniform complex observable approximation controls each normalized mean by epsilon and the q/q*t discrepancy by two epsilon. Original non-strict eta events enter genuine eta/2 bounded Lipschitz events through one compact-family approximation chosen before every source, box, compatible residue and removed factor. No nonempty probability assumption or gcd(q,t) is inserted.",
+    "The proved all-anchor native dyadic-window cap now handles any genuine finite spatial index and compact original observation family. The actual finite JOINT product test family is compact; the actual one-factor JOINT source supplies its degree and ALL-REAL normalized log packet outright. One eventual cutoff precedes every original supported typical anchor and source data. Retained residue/normalization and scale-range are still explicit ordinary arithmetic inputs, not assumed analytic caps.",
+    "Actual retained factor products from original dyadic residue windows are bounded in both directions by 2^T.card times the original anchor product. This derives a fixed normalized scale range with reference divisor 2^T.card and ratio (2^T.card)^2. The actual exposed cube scale is preserved by the original short-exposure key, and the range is proved on the actual original supported posterior tuples."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Exact spatial coordinate/log/source/box/mean/event transfer, two-mean approximation margin, actual joint-source original-test all-anchor window caps and genuine actual retained-product scale ranges are proved. Remaining: assemble actual fixed retained residue and actual supported rest-factor geometry into the cap, prove actual sampled original product discrepancies enter these events, apply posterior Fubini to the actual removal events; face/cube/Alignment and countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-native-transfer-mathematical-review.txt",
+  "mathematical_review_sha256": "38c972c3ad19a503ef95422ef72d93d121812dbb63b43f88bf2252187894bf0c",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

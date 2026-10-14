@@ -1,0 +1,58 @@
+{
+  "modules": [
+    "Hindman168/FiniteRealDenseWeights.lean",
+    "Hindman168/FiniteCandidateDenseRows.lean",
+    "Hindman168/LeibmanCubeCommonCharacter.lean",
+    "Hindman168/NativeFilteredHorizontalDenseSelection.lean",
+    "Hindman168/LeibmanCubeCommonSpanningDirections.lean"
+  ],
+  "names": [
+    "Hindman168.finite_real_sum_dense_large_weights",
+    "Hindman168.finite_candidate_origin_count_le_sum",
+    "Hindman168.finite_candidate_dense_rows",
+    "Hindman168.leibman_equal_cube_common_candidate",
+    "Hindman168.native_filtered_horizontal_common_dense_rows",
+    "Hindman168.leibman_equal_cube_common_dense_directions",
+    "Hindman168.leibman_equal_cube_common_spanning_directions"
+  ],
+  "declarations": {
+    "Hindman168/FiniteRealDenseWeights.lean": [
+      [
+        "theorem",
+        "finite_real_sum_dense_large_weights"
+      ]
+    ],
+    "Hindman168/FiniteCandidateDenseRows.lean": [
+      [
+        "theorem",
+        "finite_candidate_origin_count_le_sum"
+      ],
+      [
+        "theorem",
+        "finite_candidate_dense_rows"
+      ]
+    ],
+    "Hindman168/LeibmanCubeCommonCharacter.lean": [
+      [
+        "theorem",
+        "leibman_equal_cube_common_candidate"
+      ]
+    ],
+    "Hindman168/NativeFilteredHorizontalDenseSelection.lean": [
+      [
+        "theorem",
+        "native_filtered_horizontal_common_dense_rows"
+      ]
+    ],
+    "Hindman168/LeibmanCubeCommonSpanningDirections.lean": [
+      [
+        "theorem",
+        "leibman_equal_cube_common_dense_directions"
+      ],
+      [
+        "theorem",
+        "leibman_equal_cube_common_spanning_directions"
+      ]
+    ]
+  }
+}

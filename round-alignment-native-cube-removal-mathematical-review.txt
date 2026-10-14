@@ -1,0 +1,76 @@
+JSP-000168 / Erdos #172, 2026-10-14. Partial overall coverage.
+Author checking, not independent kernel replay or external peer review.
+
+Re-read the pinned original 08_alignment.tex factor-removal paragraphs and
+original StrongWitness/StrongConjecture scope. The prior supported rest-fiber
+caps and actual posterior union were not yet the full original permitted-box
+comparison. This round proves the actual geometry, source identity, full
+retained-grid means, removal telescope and actual posterior failure inclusion.
+
+The actual one-factor source is a genuine linear variable restriction of the
+original vector polynomial. ALL-REAL vector evaluation and native exp/log
+inversion give equality with the SAME full joint spatial source when the
+parameter is set to the actual factor. No integer nilsequence equality at
+arbitrary real coordinates is inferred. Actual tail insertion preserves all
+retained products/CubeScale without assuming pivot values fixed.
+
+Original transformed cube endpoints are integers. Their raw endpoint bounds,
+side-length bounds and actual growth q<=CubeScale imply EXACT real residual
+geometry at scale CubeScale/q. Endpoints, full sample sets and both means are
+unchanged. The generic geometry does not require a sign assumption on the
+endpoint bound constant. Actual rounded cube geometry and original raw master
+supports discharge all such hypotheses for every retained subset. The CRT
+representative stays in [0,q). There is no changing an endpoint by q, dense
+restriction, boundary discard or invented positive probability on an empty law.
+
+The complement of the original non-strict >=eta bad event gives a strict
+<eta bound for those SAME actual fine/coarse normalized complex means. The
+full source identity lets all steps use a single function of spatial variables.
+Original raw supported tuples give retained positivity and coprimality with M
+and fixed d, at large width. Fine/coarse CRT vectors are nested WITHOUT any
+gcd between retained and removed factor, even with repeated prime factors.
+The only event hypothesis at each actual step is the genuine original
+bad-event complement; no degree/log/geometry or desired analytic cap is assumed.
+
+A fixed natural order on Fin N gives original remaining factors
+U(j)={k in T | j<k}. It excludes j and stays inside T. Finset induction on
+its minimum proves the literal set-function telescope with original T.card
+cost. Each step compares the SAME source and SAME original endpoint box.
+The empty chain has zero cost and no direction existence is fabricated.
+Lean large-expression reduction was resolved with a shared explicit mean
+function; compiler heartbeats, autoImplicit and all native structures remain
+unchanged. No limit/instance/axiom/native bypass is introduced.
+
+The complete failure event quantifies over ALL permitted original boxes and
+ALL tests in the original joint observation-family image. On the actual
+conditioned support, the actual raw sample and original exposure key are
+proved from the ORIGINAL conditionMass definition. The exact full telescope
+forces this event into the PROVED finite direction failure union. Choosing
+eta=epsilon/(T.card+1) retains a strict margin. The original posterior law
+and its 3*2^T.card domination are preserved. Any fixed finite denominator
+residue-choice list may be selected after exposure; its original cardinality
+cost is fixed before the cutoff. Empty choice lists stay vacuous.
+
+Original cube coordinate affine images preserve entire residue-box samples.
+Literal origin/increment CRT conditions identify its transformed full-tail
+residue with the original fine class. Congruent residue vectors give equal
+whole box sets, hence exact normalized complex mean equality for arbitrary
+original readings. Original integer sample/read identities are already
+registered, but specialization to the original product-observation cube laws
+with actual exposed origin/denominator labels remains explicit work. The
+posterior source/grid result alone is not full original face invariance.
+
+Remaining terminal d-grid translations and actual upper-face array shift
+correspondence, cube limits, Alignment and countable diagonal are not supplied.
+The separate arbitrary-input GTZ interval Gowers LINEAR correlation inverse
+remains unproved; the equidistribution inverse does not discharge it. Adequate
+native step must be chosen for the actual FINITE required degree list. No
+missing library theorem or Lean API is an unavoidable obstruction certificate.
+Original positive, distinct, rapidly separated common-color FS/FP requirements
+are unchanged. Full theorem and publication milestones are not reached.
+
+All prior registered proof sources, axiom sets, dependency pins and compiler
+options must remain exact. New local bindings are genuine existing native
+structures. Author-side checking is not independent replay/external review.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual original permitted cube-box joint means now have PROVED exact per-factor comparison, full same-source/same-endpoint removal telescope and actual posterior uniform vanishing failure, including fixed finite original residue choices. Full original cube-to-CRT scalar sample mean equality is proved. Remaining: specialize that exact scalar identity and registered original joint sample/read identities to the literal original product-observation cube laws and their exposed origin/denominator labels; terminal d-grid face translation and original array upper-face automorphism correspondence, then full face invariance/cube limits/Alignment/countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.390000000130385,
+  "log": "round-native-original-real-box-build.txt",
+  "log_sha256": "2abf7c65e43515a3e7637bb80fd8e9fc38f1ae6412fb6d705f62d70309e1f72c"
+}

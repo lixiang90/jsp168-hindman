@@ -1,0 +1,52 @@
+{
+  "modules": [
+    "Hindman168/AlignmentNumericalPolynomialBounds.lean",
+    "Hindman168/AlignmentProgressionMicrocellBounds.lean",
+    "Hindman168/AlignmentMicrocellArrayStability.lean"
+  ],
+  "names": [
+    "Hindman168.alignment_earlier_block_product_bound",
+    "Hindman168.alignmentIntegerNumerator_polynomial_bound",
+    "Hindman168.alignmentProgressionShift_polynomial_bound",
+    "Hindman168.alignmentIntegerArrayProgression_scaled_bound",
+    "Hindman168.alignment_progression_microcell_uniform_small",
+    "Hindman168.alignment_progression_microcell_uniform_margin",
+    "Hindman168.alignment_microcell_array_uniform_interval_stable"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentNumericalPolynomialBounds.lean": [
+      [
+        "theorem",
+        "alignment_earlier_block_product_bound"
+      ],
+      [
+        "theorem",
+        "alignmentIntegerNumerator_polynomial_bound"
+      ],
+      [
+        "theorem",
+        "alignmentProgressionShift_polynomial_bound"
+      ]
+    ],
+    "Hindman168/AlignmentProgressionMicrocellBounds.lean": [
+      [
+        "theorem",
+        "alignmentIntegerArrayProgression_scaled_bound"
+      ],
+      [
+        "theorem",
+        "alignment_progression_microcell_uniform_small"
+      ]
+    ],
+    "Hindman168/AlignmentMicrocellArrayStability.lean": [
+      [
+        "theorem",
+        "alignment_progression_microcell_uniform_margin"
+      ],
+      [
+        "theorem",
+        "alignment_microcell_array_uniform_interval_stable"
+      ]
+    ]
+  }
+}

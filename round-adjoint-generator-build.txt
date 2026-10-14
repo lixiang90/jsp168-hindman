@@ -1,0 +1,5 @@
+✔ [4653/4657] Built Hindman168.NativeLieAdjointExponential (9.9s)
+✔ [4654/4657] Built Hindman168.NativeLieRightTranslation (9.9s)
+✔ [4655/4657] Built Hindman168.NativeLieAdjointGenerator (10s)
+✔ [4656/4657] Built Hindman168 (10s)
+Build completed successfully (4657 jobs).

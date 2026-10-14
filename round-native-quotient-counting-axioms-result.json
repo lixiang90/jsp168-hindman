@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 16.483999999938533,
+  "log": "round-native-quotient-counting-axioms.txt",
+  "log_sha256": "4f25e197275ce0dfeb4375430e800baee6805c5fced808e79befa3fec29816ab"
+}

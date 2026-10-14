@@ -1,0 +1,3 @@
+✔ [5008/5010] Built Hindman168.WeightedDualApproximation (12s)
+✔ [5009/5010] Built Hindman168 (11s)
+Build completed successfully (5010 jobs).

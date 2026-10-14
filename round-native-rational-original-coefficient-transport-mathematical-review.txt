@@ -1,0 +1,58 @@
+JSP-000168 mathematical/application review, 2026-10-13
+
+Classification: PROGRESS. No full native inverse, no StrongConjecture, and no
+unavoidable obstruction is asserted. This is author-side review, not independent
+kernel replay or external peer review.
+
+1. Original affine recovery. Exact ring-hom composition and diagonal scaling
+coefficients prove child_i=period^i*translated_original_i. Multiplication by
+period^d yields period^(d-i)*child_i for i<=d. The latter is NATURAL, so its circle
+norm is bounded by natural multiplication. The SAME period^d works in every row.
+For i>d, actual degree kills the row. Genuine T>=tau*N transfers child bounds
+to ORIGINAL scale N, uniformly with tau^(-d), not coefficient-specific constants.
+Signed integer untranslation uses abs(a)<=N and the original fixed-support
+translation theorem. Constants never involve polynomial coefficients.
+
+2. Original source factors. The registered ALL-real scalar identity follows from
+actual ordered group factorization via the true horizontal logarithm character.
+Rational coefficients become integer after period=M*q, using true Exp(y)^q in
+Gamma and original horizontal integrality. Extra period^d multiplies those
+integers. Real error is bounded by period^d*q*abs(kappa(y))*AE using the ORIGINAL
+M*N^i*abs(E_i)<=AE bounds. E_1=0 handles the first row and actual degree handles
+all higher rows outside j. No real smallness is inferred from circle smallness;
+no separate term is inferred small from a small sum.
+
+3. Original character. period^(d+1)>0 preserves nonzeroness. Horizontal commutator
+annihilation is preserved by linearity; actual Gamma values stay integer. Its
+norm is exactly period^(d+1)*norm(kappa). Original-grid membership follows from
+the proven original lattice/norm criterion. Arbitrary genuine conjugated child
+horizontal data are transferred back by the original conjugation-invariance
+theorem, without assuming that Gamma is normal.
+
+4. Complete original tables. Actual monomial recovery covers EVERY positive Unit
+multiindex, including above d. Integer tensor Stirling conversion bounds all
+positive binomial rows at the same original N; outside the degree box all tensor
+weights are zero. In the actual application the weighted original source has
+degree ell, so the ell-binomial table is the original full expansion. No missing
+linear coefficient, top-degree-only table, or child-only table is substituted.
+
+5. Uniform quantifiers. Given fixed S/B/AK/AE/C, period<=S*B and
+abs(kappa(y))<=norm(kappa)*norm(y)<=C*B. All norm and two-table budgets fit one
+explicit real upper bound, then one positive natural ceiling Q. Q is chosen
+BEFORE M/q/kappa/y/p/N. The composed native theorem consumes ACTUAL literal
+child construction, genuine factors/errors and actual child coefficients to
+return an original nonzero character/grid and BOTH tables under Q.
+
+6. What remains. The child coefficients are valid transport inputs, not an
+oracle theorem or assumed same-degree inverse. They MUST be supplied by true
+lexicographic degree/nonlinearity IH on legitimate canonical finite child data.
+That IH, uniform finite-child constants, full original small-N cases and native
+Fourier assembly remain open. Final rough progression/cube/Alignment and FS/FP
+target remain open. Fixed existential constants do not certify the source's
+explicit delta-power laws. No prize eligibility/publication milestone reached.
+
+7. Source alignment. This supplies the actual progression and rational/error
+character transport needed by the pinned quantitative Leibman route used in
+OpenAI section 06. All six source sections are hash-compared to pinned objects.
+The older exact slab counterexample concerns a repaired intermediate bound;
+its exact arithmetic is rechecked, and it is not a terminal obstruction.

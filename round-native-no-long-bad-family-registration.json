@@ -1,0 +1,115 @@
+{
+  "modules": [
+    "Hindman168/RoughParameterAffineProjection.lean",
+    "Hindman168/NativeOriginalCommonBadCharacter.lean",
+    "Hindman168/NativeOriginalHorizontalKernelGeometry.lean",
+    "Hindman168/NativeOriginalHorizontalKernelDescent.lean",
+    "Hindman168/NativeOriginalActualHorizontalKernelDescent.lean",
+    "Hindman168/NativeOriginalCommonBadFamily.lean",
+    "Hindman168/NativeNoLongBadFamilyStatement.lean",
+    "Hindman168/NativeNoLongBadFamilyInductionStep.lean",
+    "Hindman168/NativeNoLongBadFamily.lean"
+  ],
+  "names": [
+    "Hindman168.roughParameterAffineSource",
+    "Hindman168.rough_parameter_affine_degree",
+    "Hindman168.rough_parameter_affine_eval",
+    "Hindman168.rough_parameter_affine_specialize",
+    "Hindman168.rough_parameter_affine_spatial_projection",
+    "Hindman168.native_original_common_bad_character",
+    "Hindman168.native_original_top_lie_rational",
+    "Hindman168.native_original_horizontal_top_bracket",
+    "Hindman168.native_original_horizontal_kernel_geometry",
+    "Hindman168.native_original_horizontal_kernel_descent",
+    "Hindman168.native_original_actual_horizontal_kernel_descent",
+    "Hindman168.native_original_common_bad_family",
+    "Hindman168.NativeNoLongBadFamilyStatement",
+    "Hindman168.native_no_long_bad_family_zero",
+    "Hindman168.native_no_long_bad_family_induction_step",
+    "Hindman168.native_no_long_bad_family"
+  ],
+  "declarations": {
+    "Hindman168/RoughParameterAffineProjection.lean": [
+      [
+        "def",
+        "roughParameterAffineSource"
+      ],
+      [
+        "theorem",
+        "rough_parameter_affine_degree"
+      ],
+      [
+        "theorem",
+        "rough_parameter_affine_eval"
+      ],
+      [
+        "theorem",
+        "rough_parameter_affine_specialize"
+      ],
+      [
+        "theorem",
+        "rough_parameter_affine_spatial_projection"
+      ]
+    ],
+    "Hindman168/NativeOriginalCommonBadCharacter.lean": [
+      [
+        "theorem",
+        "native_original_common_bad_character"
+      ]
+    ],
+    "Hindman168/NativeOriginalHorizontalKernelGeometry.lean": [
+      [
+        "theorem",
+        "native_original_top_lie_rational"
+      ],
+      [
+        "theorem",
+        "native_original_horizontal_top_bracket"
+      ],
+      [
+        "theorem",
+        "native_original_horizontal_kernel_geometry"
+      ]
+    ],
+    "Hindman168/NativeOriginalHorizontalKernelDescent.lean": [
+      [
+        "theorem",
+        "native_original_horizontal_kernel_descent"
+      ]
+    ],
+    "Hindman168/NativeOriginalActualHorizontalKernelDescent.lean": [
+      [
+        "theorem",
+        "native_original_actual_horizontal_kernel_descent"
+      ]
+    ],
+    "Hindman168/NativeOriginalCommonBadFamily.lean": [
+      [
+        "theorem",
+        "native_original_common_bad_family"
+      ]
+    ],
+    "Hindman168/NativeNoLongBadFamilyStatement.lean": [
+      [
+        "def",
+        "NativeNoLongBadFamilyStatement"
+      ],
+      [
+        "theorem",
+        "native_no_long_bad_family_zero"
+      ]
+    ],
+    "Hindman168/NativeNoLongBadFamilyInductionStep.lean": [
+      [
+        "theorem",
+        "native_no_long_bad_family_induction_step"
+      ]
+    ],
+    "Hindman168/NativeNoLongBadFamily.lean": [
+      [
+        "theorem",
+        "native_no_long_bad_family"
+      ]
+    ]
+  }
+}

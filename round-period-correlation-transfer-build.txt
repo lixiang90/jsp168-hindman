@@ -1,0 +1,3 @@
+✔ [5108/5110] Built Hindman168.NativeCellCorrelationTransfer (12s)
+✔ [5109/5110] Built Hindman168 (12s)
+Build completed successfully (5110 jobs).

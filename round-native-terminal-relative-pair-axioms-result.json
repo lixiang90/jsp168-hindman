@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.014999999897555,
+  "log": "round-native-terminal-relative-pair-axioms.txt",
+  "log_sha256": "e183aff78a6009058e7e2c5df5a440d601a438555956380a1467ca413b9c2c85"
+}

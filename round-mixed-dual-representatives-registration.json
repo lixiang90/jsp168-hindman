@@ -1,0 +1,61 @@
+{
+  "baseline_hash_count": 1088,
+  "modules": [
+    "Hindman168/MixedDualBalancedHull.lean",
+    "Hindman168/MixedDualHilbertRepresentatives.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedDualFunction_neg_vertex",
+    "Hindman168.subgroupMixedDualHull_neg_mem",
+    "Hindman168.subgroupMixedDualHull_zero_mem",
+    "Hindman168.convex_symmetric_span_representation",
+    "Hindman168.mixedDualHilbertGenerators_convex",
+    "Hindman168.mixedDualHilbertGenerators_neg",
+    "Hindman168.mixedDualHilbertGenerators_zero",
+    "Hindman168.mixedDualHilbert_span_representative",
+    "Hindman168.mixedDualHilbert_closed_approximation"
+  ],
+  "theorem_count": 9,
+  "declarations": {
+    "Hindman168/MixedDualBalancedHull.lean": [
+      [
+        "theorem",
+        "subgroupMixedDualFunction_neg_vertex"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_neg_mem"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_zero_mem"
+      ],
+      [
+        "theorem",
+        "convex_symmetric_span_representation"
+      ]
+    ],
+    "Hindman168/MixedDualHilbertRepresentatives.lean": [
+      [
+        "theorem",
+        "mixedDualHilbertGenerators_convex"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbertGenerators_neg"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbertGenerators_zero"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_span_representative"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_closed_approximation"
+      ]
+    ]
+  }
+}

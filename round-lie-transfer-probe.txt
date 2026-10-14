@@ -1,0 +1,2 @@
+NormedAddCommGroup.toMetricSpace.{u_8} {E : Type u_8} [self : NormedAddCommGroup E] : MetricSpace E
+ContMDiff 𝓘(ℝ, ↥(StrictUpperTriangular n ℝ)) 𝓘(ℝ, UnitriangularIndex n → ℝ) ∞ unitriangularExponential : Prop

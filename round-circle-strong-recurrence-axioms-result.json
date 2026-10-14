@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.094000000040978,
+  "log": "round-circle-strong-recurrence-axioms.txt",
+  "log_sha256": "3fc60b0f88bff03983b140ab50a7ed5248d2b2d520eb0f7ad33eea08535d37a5"
+}

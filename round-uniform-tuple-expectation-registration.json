@@ -1,0 +1,59 @@
+{
+  "baseline_hash_count": 1019,
+  "modules": [
+    "Hindman168/UniformTupleExpectation.lean",
+    "Hindman168/UniformShortCubeBound.lean",
+    "Hindman168/MultipleCyclicIntervalEmbedding.lean"
+  ],
+  "names": [
+    "Hindman168.uniformImageTuple_expectation",
+    "Hindman168.uniformImageTuplePair_expectation",
+    "Hindman168.weightedUniformShortCube_bound",
+    "Hindman168.multipleCyclicIntervalEmbedding",
+    "Hindman168.multipleCyclicIntervalEmbedding_injective",
+    "Hindman168.multipleCyclicIntervalEmbedding_surjective",
+    "Hindman168.multipleCyclicSubgroup_card",
+    "Hindman168.multipleCyclicShortInterval_injective"
+  ],
+  "theorem_count": 7,
+  "declarations": {
+    "Hindman168/UniformTupleExpectation.lean": [
+      [
+        "theorem",
+        "uniformImageTuple_expectation"
+      ],
+      [
+        "theorem",
+        "uniformImageTuplePair_expectation"
+      ]
+    ],
+    "Hindman168/UniformShortCubeBound.lean": [
+      [
+        "theorem",
+        "weightedUniformShortCube_bound"
+      ]
+    ],
+    "Hindman168/MultipleCyclicIntervalEmbedding.lean": [
+      [
+        "def",
+        "multipleCyclicIntervalEmbedding"
+      ],
+      [
+        "theorem",
+        "multipleCyclicIntervalEmbedding_injective"
+      ],
+      [
+        "theorem",
+        "multipleCyclicIntervalEmbedding_surjective"
+      ],
+      [
+        "theorem",
+        "multipleCyclicSubgroup_card"
+      ],
+      [
+        "theorem",
+        "multipleCyclicShortInterval_injective"
+      ]
+    ]
+  }
+}

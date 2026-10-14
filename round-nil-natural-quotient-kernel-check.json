@@ -1,0 +1,33 @@
+{
+  "exact_report_count": 2918,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_free_reports": [
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.maskDescendant_encoding_injective"
+  ],
+  "new_reports": [
+    "Hindman168.discreteLattice_isClosed",
+    "Hindman168.compactClosedCosetQuotient_metrizable",
+    "Hindman168.compactDiscreteCosetQuotient_metrizable",
+    "Hindman168.naturalCompactCosetMetric_topology",
+    "Hindman168.naturalCompactCosetMetric_continuous_mk",
+    "Hindman168.naturalCompactCosetMetric_compactSpace",
+    "Hindman168.compactCorner_compactObservable_recipes",
+    "Hindman168.upperFaceCubeGroup_root_compactObservable_recipes",
+    "Hindman168.upperFaceCubeGroup_linear_compactObservable_recipes",
+    "Hindman168.upperFaceCubeGroup_piece_compactObservable_recipe_family",
+    "Hindman168.upperFaceCubeGroup_original_compactObservable_testing",
+    "Hindman168.upperFaceCubeGroup_original_compactObservable_testing_uniform",
+    "Hindman168.compatibleMetric_boundedLipschitz_compact_hull",
+    "Hindman168.boundedEquicontinuous_observable_compact_hull",
+    "Hindman168.nilNaturalQuotient_compactObservable_testing_uniform",
+    "Hindman168.nilNaturalQuotient_originalMetric_testing_uniform",
+    "Hindman168.nilNaturalQuotient_maskModel_testing_uniform"
+  ],
+  "all_registered_names_reported_exactly_once": true
+}

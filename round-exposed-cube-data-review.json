@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "The previously unregistered dyadic residue growth draft is checked and registered. Actual exposure modulus L=M*W^w is bounded by the square of the auxiliary scale; actual cutoff growth proves S/L tends to infinity uniformly over all finite tail indices and all cutoff-supported values, including arbitrary varying sequences.",
+    "Actual short-exposure equality fixes short-bin width and origin, hence the integer basepoint Y=floor(Q/M), and fixes every pivot array residue for any pivot in the exposed residue class. After fixing retained factor values and a chosen d residue, the literal bounded retained CRT representative is fixed across the complete exposure fiber.",
+    "A canonical rational scalar exponent polynomial is constructed from actual exposed data, has total degree at most two, and is proved identical across the complete exposure fiber. Own-target numerator filtering is retained, with no claim that other numerators are fixed.",
+    "The exposed polynomial evaluates exactly to the original numerical array integer quotient for every cube vertex, any integer origin in the exposed pivot residue class, and arbitrary integer array indices. The unexposed pivot microcell enters only the vertex coordinate. This remains a scalar exponent statement, not the required native joint BCH log-polynomiality.",
+    "Reviewed quantifier order: one threshold works for all finite indices and all cutoff-supported values. The growth proof covers varying sample and index sequences.",
+    "Reviewed exposure scope: retained factor equality is an additional conditioning hypothesis, while Y and r follow from the actual short exposure. No exact pivot microcell or independence after short-bin conditioning is assumed.",
+    "Exact evaluation caught and repaired an integer-division coercion in the new polynomial definition: Y is explicitly an integer quotient before rational embedding. The original numerical quotient is checked without a divisibility shortcut.",
+    "Reviewed own-target filtering and degree scope: non-own numerators may vary, and neither joint native BCH polynomiality nor the uniform rough-step conclusion is asserted.",
+    "All retained proof source hashes and prior transitive axiom sets are unchanged. No independent kernel replay or full-target proof is claimed.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. Completed arithmetic connections now include uniform dyadic S/L divergence, actual retained-scale power domination, retained CRT representatives fixed under the complete exposure and fixed retained factors, and a single exposure-fixed degree-two scalar exponent polynomial with exact evaluation at original numerical cube arguments. Construct concrete permitted cube boxes and prove original side lower bounds; connect residue sample-set transport to normalized finite averages and uniform counting/endpoint losses. Prove joint polynomiality in the native array Lie algebra by BCH after substituting the actual tail product; the scalar exponent result does not supply this. Prove and apply the uniform rough-step proposition of section 06, including uniformity in coefficients, endpoints, residue vectors and tests. Buffered short-bin geometry, prior-event positive probability and posterior control after additional prior conditioning, quantitative smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. Existing conditional theorems and standard-only axiom reports are not a full proof. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1491,
+    "pntplus_modules": 9,
+    "build_jobs": 5451,
+    "selected_axiom_reports": 6656,
+    "new_declarations": 13,
+    "new_theorems": 12,
+    "new_definitions": 1,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/AlignmentDyadicResidueGrowth.lean",
+    "Hindman168/AlignmentDyadicResidueLimit.lean",
+    "Hindman168/AlignmentFrozenCubeData.lean",
+    "Hindman168/AlignmentExposedCubePolynomial.lean",
+    "Hindman168/AlignmentExposedCubeEvaluation.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. Completed arithmetic connections now include uniform dyadic S/L divergence, actual retained-scale power domination, retained CRT representatives fixed under the complete exposure and fixed retained factors, and a single exposure-fixed degree-two scalar exponent polynomial with exact evaluation at original numerical cube arguments. Construct concrete permitted cube boxes and prove original side lower bounds; connect residue sample-set transport to normalized finite averages and uniform counting/endpoint losses. Prove joint polynomiality in the native array Lie algebra by BCH after substituting the actual tail product; the scalar exponent result does not supply this. Prove and apply the uniform rough-step proposition of section 06, including uniformity in coefficients, endpoints, residue vectors and tests. Buffered short-bin geometry, prior-event positive probability and posterior control after additional prior conditioning, quantitative smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. Existing conditional theorems and standard-only axiom reports are not a full proof. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "08_alignment lines 425-550: complete exposed cube data and dyadic scale divergence"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.358999999938533,
+  "log": "round-normalized-box-counting-axioms.txt",
+  "log_sha256": "b1305ee0ceb80a875fa90a2edc8f5b6802f68adf566bf52cd58c0739c7e4b8f9"
+}

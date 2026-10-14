@@ -1,0 +1,70 @@
+JSP-000168: arbitrary actual weighted relative polynomial reconstruction
+Author mathematical review, 2026-10-13. Not independent kernel replay or external peer review.
+
+Route: retained six OpenAI sections at adc7f1241b42e322a6451854ab7e4b4c146bf78a;
+06_rough_progressions and Green--Tao section 7, Proposition 7.2:
+https://arxiv.org/html/0709.3562v4 . Corrected equal-side scope:
+https://arxiv.org/html/1311.6170v3 . All original coefficients remain unbounded.
+
+1. Weighted product/perturbation proofs use actual native bilinear bracket
+   and same F antitonicity. Both constants lie in F(0); constant perturbations
+   lie in F(1)=top. The extra ONE weight is therefore justified for arbitrary
+   unbounded constants. Real filteredness uses actual native Exp layer
+   membership, integer filteredness uses genuine additive integer embedding.
+2. Input logarithmic zero gives actual P(0)=1 by native Exp zero. The generic
+   normalized-pair group lemma then gives membership in the original true
+   relative group. No normality of the lattice is assumed.
+3. The first logarithmic polynomial is an actual BCH product of translated
+   p and true logarithms of t and P(1)^(-h). Integer exponential powers use
+   true integer-scalar exponential identity, valid also for negative h.
+   Association changes are justified by actual group associativity/Log.
+4. First-minus-second logarithmic polynomial telescopes one translated
+   difference and three constant product perturbations. Translation raises
+   weight by ONE and each constant perturbation has the same ONE weight.
+   Hence ALL aggregate coefficient differences lie in F(|J|+1); both
+   coordinate coefficients lie in F(|J|). This is SAME original filtration.
+5. Ambient product Log equals actual original integer pair. On natural grid
+   values actual native relative Log/inclusion gives membership in the
+   genuine relative tangent model. Algebraic quotient and scalar polynomial
+   uniqueness recover ALL aggregate coefficients, including J=0. This
+   avoids an unjustified assumption that every original list term belongs
+   separately to the relative model.
+6. Collection into actual subtype model preserves real evaluations,
+   COMPLETE scalar polynomials, and EVERY aggregate coefficient. Monomial
+   total degree plus proved coordinate/difference weights supplies true
+   relative termwise weights. Real/integer filteredness is proved in true
+   INTERNAL group layers using actual bracket and Exp/Log compatibility.
+   Native Exp of the relative polynomial equals actual original pair for
+   every integer, and therefore their nonnormal coset samples agree.
+7. Source lists may contain high-degree scalar terms attached to zero
+   vectors or canceling representations. No ordinary termwise degree of
+   arbitrary source list is assumed. Removing zero terms from the collected
+   actual relative polynomial gives degree <=ell using F_relative(ell+1)=0.
+8. Actual relative polynomial projects through the proved actual terminal
+   quotient. It retains projected weights, exact original integer pair
+   group/coset factor samples, and COMPLETE scalar pullback polynomial.
+   Output zero-trim degree <=ell-1 follows from actual image terminal
+   vanishing, including ell=0. This is polynomial degree reduction, not
+   only geometric construction and not an assumed inverse interface.
+9. Both actual native normalizations preserve arbitrary true rational Lie
+   weights. Actual linear correction uses F(1)=top, NOT a new lower-central
+   stretch. Logarithmic zero follows from native Log(Exp(v))=v and Log(1)=0.
+   These lemmas apply at later actual projected image filtration stages.
+10. The construction is applied to actual twice-normalized ORIGINAL source
+   with ordinary degree <=d. Every weight/zero input is PROVED and SAME
+   original stretch d is retained. True output degree is s*d-1, with exact
+   original normalized-pair quotient samples. No bound on coefficients,
+   no replacement lattice and no inflated stretch s*d is assumed.
+
+Review boundary: actual iterative polynomial/orbit recursion and analytical
+discrepancy, canonical Haar/specified metric/unit/nonzero frequency transport
+are still open. Geometry and polynomial degree reduction do not yet yield
+an ORIGINAL nonzero horizontal character or quantitative inverse. Corrected
+equal-side multivariate inverse, interval Gowers correlation inverse,
+rough progression descent, cube laws/posterior/positive Alignment and final
+FS/FP extraction remain open. StrongConjecture is UNPROVED. No unavoidable
+obstruction is established. Public repository/PR/prize submission not yet
+executed, consistent with requested publication milestone.
+
+Exact remaining record:
+StrongConjecture remains UNPROVED; no unavoidable obstruction established. Full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. Original true normalized relative/reduced weights/filteredness/degree, lattice rational geometry and BOTH actual Green-Tao normalizations are retained, including bounded true corrected P(1), SAME nonnormal original coset samples and every original nonconstant horizontal scalar coefficient modulo integers. Arbitrary finite rational native Lie-filtered relative GEOMETRY is retained and actually applies to original reduced IMAGE layers. NOW arbitrary actual terminal quotient NativeData/chart/model/image lattice/metric/smooth projection/identity differential/native Exp/Log and actual projected rational Lie/group filtration of bound ell-1 are CONSTRUCTED. Original model projection is surjective with kernel EXACT F(ell), and all source/image lattice logarithms/Q-spans agree exactly. EVERY actual relative-then-terminal quotient geometric recursion stage exists with bound ell-n; at ell stages the actual group is SUBSINGLETON. Geometric recursion is APPLIED to BOTH original stretched and retained original reduced IMAGE data, with SAME actual projected layers. ACTUAL weighted native terminal polynomial projection has genuine real filteredness, zero-trim degree (ell-1)-k, complete scalar coefficients/native exponentials/exact integer factor samples, and is APPLIED to ACTUAL twice-normalized ORIGINAL univariate source at SAME stretch d without inflating to ordinary s*d. NOW arbitrary WEIGHTED normalized RELATIVE coefficient-polynomial reconstruction is CONSTRUCTED with actual integer pair samples, all aggregate coefficient membership, SAME relative weights, real/integer filteredness, COMPLETE scalar pullbacks and zero-trim degree ell. Actual relative-then-terminal polynomial reduction has degree ell-1 and is APPLIED to ACTUAL twice-normalized ORIGINAL source at SAME stretch d. Generic true basepoint/lattice-linear normalizations preserve ALL actual image filtration weights and PROVE normalized logarithmic zero and degree ell. NEXT: actual iterated weighted polynomial/orbit recursion using these normalizations and true relative/quotient stages; recursive orbit discrepancy/canonical Haar/specified metric/finite-unit/nonzero frequency transport; genuine ORIGINAL NONZERO quantitative Leibman horizontal-character reconstruction/pullback with actual finite-list/operator/binomial bounds. GEOMETRIC termination alone does not establish orbit inverse or nonzero character reconstruction. SAME native step bound s unchanged; actual image filtration never re-stretched. Corrected equal-side multivariate inverse or justified reduction remains open. Fixed-data existence bounds only; no unsupported power laws or bounded original coefficients. Keep corrected Green-Tao equal-side/erratum scope, actual large-N thresholds, equal-cube tiling/boundary discard/translation/integer bounded-location consequences and retained unrestricted-short-box O(eps) counterexample, which does not obstruct corrected full goal. Separate HasNativePeriodicIntervalInverse interval Gowers-to-finite-list nilsequence CORRELATION inverse remains UNPROVED, distinct from orbit quantitative Leibman. Actual rough progression density/obstruction/descent, step/dimension/length/cofinal-scale comparison, conditional face laws/cube invariance, buffered bins, prior-event positivity, extra-conditioning posterior control, positive-probability Alignment, HasAlignmentMonomialRecurrence and final FS/FP extraction remain UNPROVED. All earlier retained results and standard-axiom reports preserved. Author source/build/axiom checking is not independent kernel replay or external peer review. No public repository, PR or prize submission yet; execute authorized publication/application at actual full completion or genuine unavoidable obstruction with honest scope.

@@ -1,0 +1,23 @@
+{
+  "baseline_hash_count": 1057,
+  "modules": [
+    "Hindman168/AlignedCellDisintegration.lean"
+  ],
+  "names": [
+    "Hindman168.alignedInterval_completeCell_mass_pos",
+    "Hindman168.alignedInterval_conditional_disintegration"
+  ],
+  "theorem_count": 2,
+  "declarations": {
+    "Hindman168/AlignedCellDisintegration.lean": [
+      [
+        "theorem",
+        "alignedInterval_completeCell_mass_pos"
+      ],
+      [
+        "theorem",
+        "alignedInterval_conditional_disintegration"
+      ]
+    ]
+  }
+}

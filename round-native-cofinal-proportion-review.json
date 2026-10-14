@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2666,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6693,
+    "selected_axiom_reports": 10469,
+    "new_declarations": 14,
+    "new_theorems": 12,
+    "new_definitions": 2,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughCofinalDataExtension.lean",
+    "Hindman168/RoughCofinalStrictSelection.lean",
+    "Hindman168/NativeCofinalRoughProportion.lean"
+  ],
+  "proved_components": [
+    "Actual scale data on a strictly increasing sieve-width sequence now extend to ALL natural widths with EXACT values at each observed width and genuine inherited real-power growth. Only scales are extended; no fictitious source/model/modulus/bad sample is introduced at unobserved widths.",
+    "For ANY cofinal natural width sequence, a frequent failure yields a subsequence strictly increasing in BOTH original sample indices and ACTUAL widths. Genuine eventual/limit transfer from those subsequences discharges any monotonicity or injectivity restriction on the original sequence.",
+    "UNCONDITIONAL original/residual REAL-box non-strict complex rough-fraction convergence now holds along ANY actual w->infinity sequence, including repetitions/nonmonotonicity. Smooth prime bounds, primorial divisibility and rough coprimality use the ACTUAL sieve width W(k), never the sequence index k. Native family members, raw sources, q/a and all varying sampling witnesses are retained."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original/residual complex non-strict rough exceptional-proportion convergence is proved for arbitrary REAL boxes and ANY actual cofinal sieve-width sequence, with simultaneous nonempty samples, literal source/event composition and common finite-native-family budgets WITHOUT coprimality. Remaining: actual master/source/conditional-probability application including uniform bounded normalized-scale variation, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-cofinal-proportion-mathematical-review.txt",
+  "mathematical_review_sha256": "e2cb7150fba4d7972058cf0c72f1c2aa3bd275345d1a3ef9bf786a616383ee41",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

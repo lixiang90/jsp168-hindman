@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 596,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/NilTestingMasterGeometry.lean",
+    "Hindman168/NilRootPairingEstimate.lean",
+    "Hindman168/NilSequenceTestingLimit.lean",
+    "Hindman168/NilSequenceUniformTesting.lean",
+    "Hindman168/MaskNilsequenceTesting.lean",
+    "Hindman168/MaskFiniteNilsequenceModels.lean"
+  ],
+  "new_selected_report_count": 15,
+  "module_report_counts": {
+    "NilTestingMasterGeometry": 4,
+    "NilRootPairingEstimate": 3,
+    "NilSequenceTestingLimit": 2,
+    "NilSequenceUniformTesting": 2,
+    "MaskNilsequenceTesting": 3,
+    "MaskFiniteNilsequenceModels": 1
+  },
+  "application_review": [
+    "All 596 baseline source/config hashes were verified before registration. Among retained files only root imports and the exact-name verification registry changed. Retained proofs, StrongStatement, attributed PNT+ sources and all dependency pins remain byte-identical.",
+    "Actual every-power master gap growth proves eventual positivity of floor(R/(J*M)) for each fixed positive J, including stage-varying gap choices. Positive averaging length is not assumed.",
+    "The original boundary theorem is extended to stage-varying chain labels. Its tail divisor cap is derived at the selected gap from tail subset range(gap), while the order gap<=pivot is retained. The original integerMass and block mask are not conditioned or renormalized.",
+    "The same master conditions derive an eventual weighted total expectation of 1+nu_B at most 3 at the original pivot cutoff; root and gap choices may vary inside the fixed finite master index set.",
+    "The finite original-law pairing estimate splits the actual expectation into the selected-dual pairing, delta times the full original weighted total, and (sum of all recipe coefficient masses+B) times the original bad-root weighted expectation.",
+    "The global recipe error is bounded by total finite coefficient mass+B using the actual positive zero-prime shift window. The good-root error uses the retained exact selector and residue/interval orbit reconstruction theorem.",
+    "For accuracy epsilon, delta=epsilon/12 fixes one finite recipe family for all stage/piece pairs. Its finite total coefficient mass is fixed before gamma=epsilon/(4*(bound+1)) chooses a fixed positive J. Only then are original uniform dual estimates, positivity, total weight and the boundary estimate applied as w tends to infinity.",
+    "The three costs are respectively less than epsilon/4, at most epsilon/4 and less than epsilon/4. No growing J(w) or changing recipe family is inserted into a fixed-scale dual limit.",
+    "The main testing theorem quantifies over arbitrary stage-varying bounded Lipschitz observables, translations and base points, with the original gap interval and modulus pieces. The group filtration and quotient/cube compactness hypotheses remain explicit.",
+    "A separate proved selection principle chooses a violating test whenever one exists at a stage. Convergence for every admissible stage-varying family therefore gives eventual uniform control over the entire bounded Lipschitz test class. The zero observable proves this class is nonempty.",
+    "The extra template at index zero in the actual generated mask template family is definitionally the original zero-prime template. Thus the retained maskBlockModelDualControl supplies the required uniform zero-prime pairings without an additional analytic assumption.",
+    "The original constructed mask models satisfy the weighted error bound from 0<=rho<=nu_B and 0<=model<=1. The new finite-family existence theorem reuses exactly the previously constructed family and stage, retaining target cube cancellation, uniform count replacement, companion requirements, full dual prefixes and the 1/(stage+1) replacement quality.",
+    "The fixed local paper Prediction lines 275-352 are represented by original-law nilsequence testing under the explicit abstract nilpotent/cube hypotheses. The remaining concrete rational Lie-group/lattice instance is not proved or substituted by those hypotheses. Local sections 04, 05 and 07 match the exact pinned local Git objects after newline normalization; no remote updates were checked.",
+    "Full default build completed 4451 jobs without warnings/errors. All 2869 exact registered names were reported once by the Lean kernel, including all 15 new theorems. Reports use only the three standard allowed axioms or none. Executable source scanning covers 584 own modules and 9 attributed PNT+ modules, plus the root and registry; every own module appears exactly once in root imports. The new modules use no heartbeat or linter overrides.",
+    "The previous completed proof round and this round are PROGRESS. Full StrongConjecture, complete formalization of the paper, prize eligibility, public submission and an unavoidable blocker are not asserted."
+  ],
+  "source_preprint_sections": {
+    "05_prediction.tex": "275-352: original-law testing limit and uniform test class, applied to the same constructed finite counting models; concrete nilmanifold geometry remains explicit",
+    "07_cube_limits.tex": "retained abstract filtered-group cube/root reconstruction interfaces; concrete rational lower-central/lattice instance remains pending"
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4451,
+    "project_modules": 584,
+    "pntplus_modules": 9,
+    "source_scan_modules": 593,
+    "axiom_reports": 2869,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 602,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original-law detection, constructed dense block models, full uniform dual estimates, model-error cube cancellation, nonsingleton count replacement, actual ordered cube coordinates, reflections, cube compactness from layer quotients, finite uniform root recipes and original interval/residue selectors remain proved. The actual original harmonic/divisor-weighted boundary estimate remains at most 8*d/J+o(1), with both cutoff endpoints retained and all supported divisor draws controlled. Original-law nilsequence testing is now assembled under the explicit abstract group filtration, terminal trivial layer, quotient metric compactness and cube compactness hypotheses: first fix accurate finite recipes, then a sufficiently large fixed positive J, then let w tend to infinity. Positive actual shift-window length and weighted total at most 3 are derived from the master conditions. The testing limit is uniform over all bounded Lipschitz piece observables with arbitrary translations and base points, not just a previously fixed test sequence. The same actually constructed finite mask model family retains all original counting replacement, cube cancellation, companion slow-stage and full dual-prefix properties while satisfying these nilsequence tests. Next instantiate the concrete nilpotent/lower-central group filtration, closed rational layers and compact restricted-lattice quotients for the paper's nilmanifolds; quotient metric compatibility remains explicit. This abstract testing theorem does not establish those concrete geometric hypotheses. Recipe factors are continuous and bounded by one, sufficient for the unrestricted bounded original dual inputs used here; no Lipschitz refinement of recipe factors is asserted. Complete nested coarse-model projections, calibration and Alignment; instantiate concrete natural-number coloring weights, arithmetic chain/block/gap data and companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

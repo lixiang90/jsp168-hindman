@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The previous audit was rechecked before saving the baseline; retained proof hashes unchanged.",
+    "The new definition is the actual finite average of the cube product with the root vertex erased. It is not a supplied dual-function certificate or an abstract surrogate.",
+    "The exact correlation identity reconstructs the original full cube product by reinserting the root. The unit bound uses the remaining unit-bounded factors.",
+    "Dimension one is proved equal to the previously verified subgroupHaarMean, checking consistency with the first-order Bessel result.",
+    "The arbitrary-order energy reduction uses the actual cube correlation, finite square expansion and Cauchy-Schwarz. The cell version uses nonnegative normalized original cell weights without changing coefficients.",
+    "The right-hand side remains an actual pairwise dual-function inner product. No unproved higher-order subgroup-sum bound or characteristic-factor commutation is inserted.",
+    "Six theorems and one definition are individually kernel audited. This is a genuine energy reduction, not a proof of the missing general Tao-Ziegler Bessel theorem."
+  ],
+  "new_modules": [
+    "Hindman168/SubgroupDualEnergy.lean"
+  ],
+  "verified": {
+    "project_modules": 1052,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1061,
+    "source_config_hashes": 1070,
+    "build_jobs": 5006,
+    "axiom_reports": 4976,
+    "new_theorems": 6,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 7,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The signed original master short-cube and actual subgroup-combination estimates share the common probability system. First-order Bessel is proved. Arbitrary-order actual dual functions and their weighted energy reduction are now proved; controlling those dual correlations requires the still-missing higher-order concatenation and qualitative Bessel argument. Remaining replica integration, cyclic-to-interval transfer and inverse correlator existence are unfinished. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

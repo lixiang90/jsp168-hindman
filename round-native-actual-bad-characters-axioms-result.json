@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.718000000109896,
+  "log": "round-native-actual-bad-characters-axioms.txt",
+  "log_sha256": "64c079b87d54267afbd4a71d33ea6c4aa20b1292af45916adae72ecdf43278ed"
+}

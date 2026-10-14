@@ -1,0 +1,33 @@
+{
+  "baseline_hash_count": 1045,
+  "modules": [
+    "Hindman168/AdmissibleCellProbabilities.lean"
+  ],
+  "names": [
+    "Hindman168.inadmissible_completeCell_sum_zero",
+    "Hindman168.alignedInterval_admissible_cell_sum",
+    "Hindman168.alignedInterval_cell_probability_sum",
+    "Hindman168.integerMass_cell_probability_nonneg"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/AdmissibleCellProbabilities.lean": [
+      [
+        "theorem",
+        "inadmissible_completeCell_sum_zero"
+      ],
+      [
+        "theorem",
+        "alignedInterval_admissible_cell_sum"
+      ],
+      [
+        "theorem",
+        "alignedInterval_cell_probability_sum"
+      ],
+      [
+        "theorem",
+        "integerMass_cell_probability_nonneg"
+      ]
+    ]
+  }
+}

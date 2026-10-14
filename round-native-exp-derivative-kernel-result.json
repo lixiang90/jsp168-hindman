@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 14.062,
+  "log": "round-native-exp-derivative-axioms.txt",
+  "log_sha256": "634b65816afcafcbd3b20aba9a938e716345be8a7173fa745326b0408ade8b56",
+  "terminal": true
+}

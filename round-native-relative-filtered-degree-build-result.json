@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.593000000109896,
+  "log": "round-native-relative-filtered-degree-build.txt",
+  "log_sha256": "a38e3bcd6b8f63964a5bf4cc46a7988871eca54f0dbfb2bfdecd2f845b6eaa95"
+}

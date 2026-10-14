@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 14.282,
+  "log": "round-rational-support-axioms.txt",
+  "log_sha256": "d4735618a57ab806799be913cf81bf82bc34e53b2a05c5184a6b59fdd069623f",
+  "process_terminal": true
+}

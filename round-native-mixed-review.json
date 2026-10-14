@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 415,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/AdditiveRetainedProduct.lean",
+    "Hindman168/MaskRootMixedProfileProducts.lean",
+    "Hindman168/MaskNativeMomentLaw.lean",
+    "Hindman168/FiniteRootMixedMoments.lean",
+    "Hindman168/MaskNativeMixedMoments.lean",
+    "Hindman168/FiniteCenteredWeightedReplacement.lean",
+    "Hindman168/MaskNativeWeightedVariance.lean",
+    "Hindman168/MaskNativeWeightedReplacement.lean",
+    "Hindman168/MaskOriginalWeightedReplacement.lean",
+    "Hindman168/MaskOriginalAdditiveOutput.lean"
+  ],
+  "new_selected_report_count": 32,
+  "module_report_counts": {
+    "AdditiveRetainedProduct": 1,
+    "MaskRootMixedProfileProducts": 3,
+    "MaskNativeMomentLaw": 4,
+    "FiniteRootMixedMoments": 2,
+    "MaskNativeMixedMoments": 4,
+    "FiniteCenteredWeightedReplacement": 3,
+    "MaskNativeWeightedVariance": 2,
+    "MaskNativeWeightedReplacement": 4,
+    "MaskOriginalWeightedReplacement": 4,
+    "MaskOriginalAdditiveOutput": 5
+  },
+  "application_review": [
+    "All 415 prior source/config hashes were revalidated before registration. Only root imports and the exact-name kernel registry changed. All retained proof files, the full target statement, nine attributed PNT+ files and all runtime/dependency pins remain unchanged. The previous and current goal turns are PROGRESS.",
+    "AdditiveRowData.retained_product_flat derives the exact product over all old non-target canonical copies from the full terminal retained and flat identities. Setting the target source to one makes the target-copy product one without dividing by any target factor. Every non-target copy and its original row majorant is preserved.",
+    "The rootMomentRetained image is injective. Finite product reindexing identifies each branch subsystem with the complete actual retainedMajorant at z+u_bit*v0. Disjoint union products then identify the first and second actual profiles with B*Psi(u0) and B*Psi(u0)*Psi(u1), with the target subsystem B present only once.",
+    "nativeJointMass is the original good-prime conditional mass joined to the tensor of the original pivot harmonic mass and the prime-dependent original quotient-pair mass. Its Fubini identity and eventual nonnegativity are proved from actual source laws; no alternate probability model, independence of primes and directions, or desired positivity certificate is assumed.",
+    "Native B is the original targetMajorantCube, and native H is exactly the earlier smoothedRetainedMajorant=E_root Psi. The first unused root variable integrates to one by the actual rootMass probability theorem. The second moment uses exact tensor duplication to integrate Psi(u0)*Psi(u1) into H^2, requiring no additional factorization premise.",
+    "The first and second profile averages equal the native original E BH and E BH^2 on the same original conditional law. The audited all-subset mean limits and exact copy counts therefore give nativeFirstMoment -> 2^(2^d+t) and nativeSecondMoment -> 2^(2^d+2t), t=d*2^(d-1). These are now native moments, rather than only array limits.",
+    "The exact finite centered density expansion gives nativeVariance=E BH^2-2*2^t E BH+(2^t)^2 E B for every w. The three proved native limits and explicit power cancellation establish E B(H-2^t)^2 -> 0. Its convergence is an output of the actual sampler and source arithmetic, not a source assumption.",
+    "Finite weighted Cauchy--Schwarz keeps the same nonnegative finite coefficients and uses |G|<=B only on the actual support, without dividing by B. Mean and centered variance convergence squeeze the square of E G(H-2^t) to zero; continuity of the square root transfers this to the signed expectation itself.",
+    "nativeJointMass support projects to the original good-prime event by its exact conditionalJoint coefficient formula. The original centered-root source definition and actual nonnegative divisor masks prove each target factor satisfies |nu-1|<=1+nu, hence the actual product |G|<=B on that support. Applying the generic weighted theorem derives the native source replacement from source inputs only.",
+    "The native joint law is exactly the earlier outsideMass followed by the completed paired direction law: completion away from the good-prime event changes no supported term. This equality holds for every signed test and every w. The actual smoothedTerminalAverage is therefore E G H, and targetCubeAverage is the actual original E G. The source replacement smoothedTerminalAverage-2^t*targetCubeAverage -> 0 follows.",
+    "The retained constant 2^t is nonnegative and at most 2^(B_m*2^B_m), using the proved actual dimension d<=B_m=maskRowCountBound m. The new maskAdditiveOutputBound is the earlier m-only recurrence coefficient times this m-only cap; it is at least one and independent of J, template, gap, chain and source function.",
+    "source_unshifted_additive_output combines the actual original unshifted recurrence with weighted replacement and the retained-constant cap. It yields abs(unshiftedCorrelation)^(2^d) <= A_m*abs(targetCubeAverage)+e(w), with A_m depending only on m and e(w)->0. The composed error is the previous proved error plus the original recurrence coefficient times the actual absolute replacement difference. No desired error-smallness or cube estimate is assumed.",
+    "The source inputs remain positive rational scales, bounded original chain blocks, gap-before-pivots and tail-before-gap order, a positive fixed J, the actual centered root source function, and majorant-dominated off-target functions. This completes the retained-weight replacement and actual additive output estimate, but not the full uniform correlation theorem, mask-removal application or global monochromatic witness.",
+    "Next connect the actual target cube to the one-variable cube estimate and the retained-weight correlation test, and apply the additive output to concrete weighted mask-removal/multiplicative integrands. Full Prediction/Alignment, inverse/nilsequence/cube-law inputs, global block/gap/scale/color/rho and companion diagonal choices, and witness extraction remain incomplete. The full StrongConjecture and prize target remain unproved.",
+    "No official update, upstream fetch or prize response was checked. Public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker has been established."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:535-579 (native mixed moment limits, weighted variance, actual weighted replacement, and actual additive output with an m-only coefficient now proved; later one-variable cube/uniform correlation application pending)",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4272,
+    "project_modules": 407,
+    "pntplus_modules": 9,
+    "source_scan_modules": 416,
+    "axiom_reports": 2092,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 425,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The native original E B, E BH and E BH^2 moments, actual weighted variance E B(H-2^t)^2 -> 0, source domination |G|<=B on the original joint support and weighted replacement E G(H-2^t) -> 0 are now proved. Exact finite joint-law identities transfer this replacement to the actual completed-direction smoothedTerminalAverage. The actual unshifted additive output now has abs(unshiftedCorrelation)^(2^d) <= A_m*abs(targetCubeAverage)+e(w), with A_m depending only on m and an explicit composed error whose convergence is proved. All original non-target retained weights have been accounted for in this additive output. Next connect the actual targetCubeAverage with the paper one-variable cube estimate, retained-weight uniform correlation test and root pushforward. Apply the actual additive output to the weighted mask-removal source functions, multiplicative Cauchy--Schwarz recurrence and exception/error bounds. Complete full preprint Prediction/Alignment propositions, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and final ordered monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

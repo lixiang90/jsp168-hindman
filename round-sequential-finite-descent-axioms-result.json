@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 43.84400000004098,
+  "log": "round-sequential-finite-descent-axioms.txt",
+  "log_sha256": "5c47c1d3eb9eae8fe4984bf7e131a24d3bf846402fc3298afd6fc4e214ce851a"
+}

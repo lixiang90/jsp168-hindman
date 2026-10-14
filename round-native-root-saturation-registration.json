@@ -1,0 +1,84 @@
+{
+  "baseline_hashes_verified_before_registration": 813,
+  "new_modules": [
+    "Hindman168/CenterCompactRepresentatives.lean",
+    "Hindman168/CenterLatticeCocompactness.lean",
+    "Hindman168/CentralCommutatorRecords.lean",
+    "Hindman168/DiscreteCentralCommutatorRecords.lean",
+    "Hindman168/FiniteCoordinateRecords.lean",
+    "Hindman168/NativeCenterLattice.lean",
+    "Hindman168/NativeLatticeCentralizer.lean",
+    "Hindman168/NativeLieExponentialCommuteIff.lean",
+    "Hindman168/NativeLiePowerRoots.lean",
+    "Hindman168/NilpotentFiniteExponentialFixedVector.lean"
+  ],
+  "names": [
+    "Hindman168.center_isClosed",
+    "Hindman168.exists_compact_center_representatives",
+    "Hindman168.exists_compact_center_subtype_representatives",
+    "Hindman168.compact_quotient_of_compact_representatives",
+    "Hindman168.discreteSubgroup_center_intersection_discrete",
+    "Hindman168.center_quotient_compactSpace_of_lattice_centralizer",
+    "Hindman168.commutator_eq_of_mul_mem_center",
+    "Hindman168.inv_mul_mem_centralizer_of_commutator_records_eq",
+    "Hindman168.discreteSubgroup_central_commutator_image_finite",
+    "Hindman168.discreteSubgroup_central_finite_records",
+    "Hindman168.finite_image_of_finite_coordinate_images",
+    "Hindman168.exists_finite_image_representatives",
+    "Hindman168.nativeLattice_center_quotient_compactSpace",
+    "Hindman168.nativeLieExponential_mem_center_iff_generator_eq_zero",
+    "Hindman168.nativeLie_mem_center_iff_logarithm_generator_eq_zero",
+    "Hindman168.nativeLattice_centralizer_eq_center",
+    "Hindman168.nativeLieAdjointGenerator_apply_eq_zero_of_exponentials_commute",
+    "Hindman168.nativeLieExponential_commute_iff_generator_apply_eq_zero",
+    "Hindman168.nativeLieExponential_commute_iff_bracket_eq_zero",
+    "Hindman168.nativeLieExponential_nat_smul",
+    "Hindman168.nativeLieGlobalLogarithm_pow",
+    "Hindman168.nativeLie_pow_root",
+    "Hindman168.nativeLie_pow_injective",
+    "Hindman168.nativeLie_pow_bijective",
+    "Hindman168.nilpotent_finite_exponential_fixed_vector"
+  ],
+  "module_report_counts": {
+    "CenterCompactRepresentatives": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "CenterLatticeCocompactness": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "CentralCommutatorRecords": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "DiscreteCentralCommutatorRecords": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "FiniteCoordinateRecords": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeCenterLattice": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NativeLatticeCentralizer": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieExponentialCommuteIff": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLiePowerRoots": {
+      "theorems": 5,
+      "selected_declarations": 5
+    },
+    "NilpotentFiniteExponentialFixedVector": {
+      "theorems": 1,
+      "selected_declarations": 1
+    }
+  }
+}

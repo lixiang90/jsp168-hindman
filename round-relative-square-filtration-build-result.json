@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 59.0,
+  "log": "round-relative-square-filtration-build.txt",
+  "log_sha256": "fbfbd8842ba14e4b3faf52855cd28eeb47f78522572b106c2dbaa9f05c247f3d"
+}

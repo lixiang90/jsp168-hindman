@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding structured-multiplication round was rechecked before edits. Retained proof source hashes and axiom sets remain unchanged.",
+    "Translations are actual coordinate maps on the original weighted Haar families. Each shift may depend on the stage and cell, and is an arbitrary element of the corresponding ambient finite abelian group.",
+    "The finite L2 norm is invariant by Haar reindexing within each cell; no replacement of the original weights or stage-dependent cell types occurs. This constructs the bounded-family linear operator without any pointwise bound on the input.",
+    "Norm-square ultralimit uniqueness proves Hilbert distance preservation. Haar reindexing proves that the inner-product adjoint is the actual inverse shift.",
+    "Cellwise convex-hull translation closure gives preservation of the scaled algebraic span. The existing closed approximation and distance equality transfer this to the closed dual space.",
+    "Inverse-shift pairing with the original generators proves preservation of the orthogonal complement. Projection uniqueness then establishes translation equivariance for an actual representative of the projected vector.",
+    "Seven theorems and one linear-map definition are audited. These are same-subgroup invariance results, not commutation between distinct subgroup projections. Factor localization, higher-order concatenation and full Bessel remain unproved; the original main target remains unproved."
+  ],
+  "new_modules": [
+    "Hindman168/WeightedHaarTranslation.lean",
+    "Hindman168/MixedDualHilbertTranslation.lean"
+  ],
+  "verified": {
+    "project_modules": 1082,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1091,
+    "source_config_hashes": 1100,
+    "build_jobs": 5038,
+    "axiom_reports": 5127,
+    "new_theorems": 7,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 8,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The common-system master estimates, first-order Bessel, dual energy reduction, recursion and stability are proved. Actual dual functions now have a common finite empirical approximation preserving arbitrary cell probabilities, unit bounds and uniform bounded-test correlations. Exact arbitrary-vertex reflection of the actual subgroup cube law and mixed products is now proved. Mixed cubes now have exact arbitrary-vertex duality and weighted single-vertex replacement estimates. Finite products of dual functions now have quantitative empirical approximation uniform over bounded tests. Exact translated-product expansions and extraction for each fixed test are now proved. The exact mixed face split, projected-face correlation and one-step face Cauchy-Schwarz inequality are now proved. Face energies are now identified with actual copied cube means, with nonnegativity and copy algebra verified. Arbitrary-coordinate permutation invariance, copied-mean nonnegativity and reflection bounds are now established. Full multidimensional mixed Gowers Cauchy-Schwarz, the product-root bound and the single-vertex bound are now proved. Actual dual anti-uniformity, its weighted version and the finite zero-root orthogonality characterization are now proved. Mixed dual recursion, covariance and exact subgroup-shift expansions are now established. Same-subgroup mixed-dual finite products now have an exact averaged dual representation and retain weighted anti-uniformity. The actual unit-input mixed-dual convex hull now has multiplicative and translation closure with unchanged weighted anti-uniform bounds. For varying finite groups and cell types, the exact weighted Haar Hilbert realization and vanishing-Gowers/closed-dual-span orthogonality equivalence are now proved. The dual Hilbert span now has uniformly bounded scaled-hull representatives dense in its closure; their bound may depend on the approximation. Fixed-polynomial and continuous functional calculus for scaled-hull representatives, their clipping closure, and unit-interval-valued approximation of the actual dual Hilbert projection are now proved. The actual dual projection now controls the limiting Gowers power and yields unit-interval models with arbitrarily small Gowers error along the same ultrafilter. For ultrafilters containing every tail, diagonalization now provides one exact unit-interval representative of the dual projection and residual Gowers convergence to zero. Actual unit mixed-dual-hull multiplication now preserves the closed dual space and its orthogonal complement and satisfies the genuine projection pull-out identity on represented inputs. Every unit-bounded actual representative in the closed mixed-dual subspace now multiplies that subspace and its orthogonal complement into themselves. The genuine projection pull-out identity extends to these structured multipliers without requiring cellwise convex-hull membership. Actual translations, with shifts allowed to vary by stage and cell, act linearly on weighted-Haar L2-bounded families, preserve their Hilbert distances, and have inverse-shift adjoints. They preserve the closed mixed-dual subspace and its orthogonal complement; the genuine dual projection commutes with translation on actual represented inputs. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

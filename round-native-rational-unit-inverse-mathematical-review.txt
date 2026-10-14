@@ -1,0 +1,84 @@
+JSP-000168 mathematical/application review, 2026-10-13
+
+Classification: PROGRESS. Unconditional complete native Unit inverse is proved;
+StrongConjecture is NOT proved. This is author-side mathematical/application
+review and the usual Lean kernel build/axiom checks, not independent replay.
+
+1. Genuine child budgets. Each canonical rational residue data set is constructed
+from the original SAME model/group, conjugated lattice and proved compatible
+quotient metric. The residue direction is in the actual rational span, including
+dummy zero denominators in the finite bounding pool. Canonical layers equal
+the actual kernel layers; true natural nonlinearity strictly decreases. The
+only inverse premise in the step is universal strictly smaller-nonlinearity IH.
+Every finite child budget is chosen BEFORE raw p/N. Full norm/grid/monomial/
+binomial data are retained and the grid is proved again under larger budgets.
+
+2. Good character selection. Geometry from the proven actual character budget
+is fixed before raw M/p/N. Actual child source/observable/discrepancy and SAME
+original Fourier signal are used. Source weights transfer directly from output
+Km.layer=K0.layer to the canonical residue filtration. This does not strengthen
+coset equality to group/vector equality or postulate equality of metric data.
+Actual discrepancy>theta implies the IH accuracy theta/2. Actual character
+integrality, true affine source, all-real factor/error and complete child tables
+then apply the registered ORIGINAL coefficient transport. Invalid/empty pools
+carry conditional defaults only, never a false good character or inverse.
+
+3. Fourier assembly. Actual nonzero terminal frequencies close to original
+inverse conclusion under only actual degree-reduced IH and strictly smaller
+same-degree IH. The SAME original finite terminal-frequency set from the true
+zero/nonzero decomposition is used. Finite budgets/thresholds and a genuine
+ceil(4/eta^2) bound give ONE threshold before all raw sources. The zero mode
+uses the true terminal quotient's lower-degree inverse. No frequency is dropped;
+unit-cube/univariate-interval means are related by the registered exact identity.
+
+4. NEW complete small-N proof. A nonempty actual finite sample set has a maximum
+point discrepancy. Convex norm bound proves that this sample is at least the
+original mean discrepancy. Its actual logarithmic value constructs a constant
+vector polynomial, with TRUE weights because L.layer 0=top. Its orbit is the
+actual anchored native point at every integer input. Every positive resample
+has exactly the same discrepancy against the SAME original unit observable and
+canonical Haar mean. Therefore the already proved large-N step at its fixed
+positive threshold yields an actual nonzero original horizontal character with
+the SAME fixed norm budget. The character may depend on the original source;
+its norm/grid budget does not. This is not a circular invocation of the full
+inverse: it calls only the independently proved large-N induction STEP.
+
+The original scalar projection has true degree<=ell from original source
+weights and terminal layer=bottom, even if raw zero vector terms have higher
+ordinary degrees. For N below the fixed threshold, circle norm<=1 and actual
+degree give ALL positive monomial rows at most threshold^ell. Above-degree
+rows vanish. Integer Stirling transfer proves ALL binomial rows. The final
+natural budget is fixed before raw p/N/observable. Trivial quotient data cause
+no exception: a positive discrepancy anchor cannot exist there, so no horizontal
+character existence axiom or nontriviality assumption has been inserted.
+
+5. Genuine unconditional induction. NativeRationalUnitInverse first strong-
+induces on degree over ALL actual step bounds/data/filtrations. Degree zero/one
+are registered genuine bases. At degree>=2 it strong-induces on the ACTUAL
+natural sum of finranks of layers 2..ell, over ALL native data at the same step
+bound. Both true lower-degree child types have index ell-1, and their full
+inverse is obtained from the actual degree IH. Every canonical residue child
+has strictly smaller natural nonlinearity, giving the precise same-degree IH.
+No standalone inverse for a kernel, oracle record, supplied character or custom
+axiom is used. Nonlinearity zero is handled by this legitimate strong induction;
+a supposed smaller child would have an impossible negative natural rank sum.
+
+6. Exact theorem scope. The final public Lean theorem is
+Hindman168.native_rational_weighted_inverse_unit :
+  NativeRationalWeightedInverseStatement D L Unit
+for every legitimate actual native datum D and finite rational Lie filtration L.
+The definition includes every delta>0, ONE positive natural budget before all
+raw sources, every original N>0, every unit-Lipschitz observable, a NONZERO
+original horizontal lattice character, original norm/grid, and BOTH COMPLETE
+raw original monomial/binomial tables on all positive Unit multiindices.
+There are no lower-degree/same-degree inverse hypotheses in this theorem.
+
+7. Remaining full goal. This is the single-variable fixed-data existential
+quantitative inverse. It does not assert the corrected multiparameter theorem
+or explicit source delta-power laws. Native line-source construction, common
+finite original character/dense-direction/basepoint coefficient reconstruction,
+separate interval Gowers correlation inverse, rough progression comparison,
+cube/Alignment and final FS/FP theorem remain open. The older source slab issue
+concerns a repaired intermediate estimate and is not a terminal obstruction.
+All six pinned OpenAI source sections and exact rational slab arithmetic are
+rechecked. Public repository/PR/prize user milestone has not been reached.

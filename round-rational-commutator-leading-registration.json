@@ -1,0 +1,75 @@
+{
+  "baseline_hashes_verified_before_registration": 889,
+  "new_modules": [
+    "Hindman168/NativeLieRationalAdjointInternal.lean",
+    "Hindman168/NativeLieRationalCommutatorLeading.lean",
+    "Hindman168/NativeLieRationalInternalGeneration.lean",
+    "Hindman168/NativeLieRationalLayerDescent.lean",
+    "Hindman168/NativeLieRationalPairIdealBCH.lean",
+    "Hindman168/NativeSubgroupRationalGroupLayers.lean",
+    "Hindman168/NativeSubgroupRationalLayerEquality.lean",
+    "Hindman168/RationalBilinearPairIdeal.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLieAdjointGenerator_pow_mem_internal",
+    "Hindman168.nativeLieAdjoint_exponential_sub_mem_internal_next",
+    "Hindman168.nativeLieAdjoint_exponential_sub_generator_rational_formula",
+    "Hindman168.nativeLieAdjoint_exponential_sub_generator_mem_internal_two",
+    "Hindman168.nativeLieAdjoint_exponential_mem_internal",
+    "Hindman168.nativeLieRationalInternalLayer_ideal",
+    "Hindman168.nativeLieGlobalLogarithm_commutator_sub_adjoint_internal_two",
+    "Hindman168.nativeLieGlobalLogarithm_commutator_leading_internal",
+    "Hindman168.nativeLieGlobalLogarithm_commutator_mem_internal_next",
+    "Hindman168.nativeLieRationalInternalLayer_succ_le_iff",
+    "Hindman168.nativeLieRationalInternalLayer_bracket_closed",
+    "Hindman168.nativeLieRationalInternalSubgroup",
+    "Hindman168.nativeLieRationalInternalSubgroup_mem_logarithm_iff",
+    "Hindman168.nativeLieRationalInternalLayer_step_descent",
+    "Hindman168.nativeLieRationalInternalLayer_absorb_next",
+    "Hindman168.nativeLieAdjointDifferential_self",
+    "Hindman168.nativeLieAdjointDifferential_skew",
+    "Hindman168.nativeLieGlobalLogarithm_product_pair_ideal",
+    "Hindman168.nativeSubgroupLowerCentralSeries_le_internal_exponential",
+    "Hindman168.nativeSubgroupLowerCentralSeries_log_mem_internal",
+    "Hindman168.nativeSubgroupLowerCentralSeries_rationalSpan_le_internal",
+    "Hindman168.nativeSubgroupLowerCentralSeries_pair_bracket_mod_next",
+    "Hindman168.nativeSubgroupLowerCentralSeries_differential_spans_mod_next",
+    "Hindman168.nativeSubgroupLowerCentralSeries_rationalSpan_eq_internal",
+    "Hindman168.rationalBilinearPairSpan_mem",
+    "Hindman168.rationalBilinearPairIdeal_mem"
+  ],
+  "module_report_counts": {
+    "NativeLieRationalAdjointInternal": {
+      "theorems": 5,
+      "selected_declarations": 5
+    },
+    "NativeLieRationalCommutatorLeading": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeLieRationalInternalGeneration": {
+      "theorems": 3,
+      "selected_declarations": 4
+    },
+    "NativeLieRationalLayerDescent": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLieRationalPairIdealBCH": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeSubgroupRationalGroupLayers": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeSubgroupRationalLayerEquality": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "RationalBilinearPairIdeal": {
+      "theorems": 2,
+      "selected_declarations": 2
+    }
+  }
+}

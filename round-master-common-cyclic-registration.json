@@ -1,0 +1,28 @@
+{
+  "baseline_hash_count": 1064,
+  "modules": [
+    "Hindman168/MasterCommonCyclicShortCube.lean"
+  ],
+  "names": [
+    "Hindman168.cyclic_weighted_gowers_order_congr",
+    "Hindman168.MasterParameterConditions.common_cyclic_order_positive",
+    "Hindman168.MasterParameterConditions.common_cyclic_shortCube_gowers_eventually"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/MasterCommonCyclicShortCube.lean": [
+      [
+        "theorem",
+        "cyclic_weighted_gowers_order_congr"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.common_cyclic_order_positive"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.common_cyclic_shortCube_gowers_eventually"
+      ]
+    ]
+  }
+}

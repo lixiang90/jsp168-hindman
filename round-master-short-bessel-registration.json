@@ -1,0 +1,43 @@
+{
+  "baseline_hash_count": 1149,
+  "modules": [
+    "Hindman168/ConditionedDyadicTupleSupport.lean",
+    "Hindman168/IntegerPredictionShortCubeStatistic.lean",
+    "Hindman168/MasterShortCubeBesselBudget.lean",
+    "Hindman168/MasterShortCubeGlobalThreshold.lean"
+  ],
+  "names": [
+    "Hindman168.conditioned_dyadic_tuple_support",
+    "Hindman168.integerPredictionShortCubeStatistic",
+    "Hindman168.constructedMasterFamily_shortCube_bessel_budget_eventually",
+    "Hindman168.constructedMasterFamily_shortCube_global_threshold"
+  ],
+  "theorem_count": 3,
+  "selected_report_count": 4,
+  "declarations": {
+    "Hindman168/ConditionedDyadicTupleSupport.lean": [
+      [
+        "theorem",
+        "conditioned_dyadic_tuple_support"
+      ]
+    ],
+    "Hindman168/IntegerPredictionShortCubeStatistic.lean": [
+      [
+        "def",
+        "integerPredictionShortCubeStatistic"
+      ]
+    ],
+    "Hindman168/MasterShortCubeBesselBudget.lean": [
+      [
+        "theorem",
+        "constructedMasterFamily_shortCube_bessel_budget_eventually"
+      ]
+    ],
+    "Hindman168/MasterShortCubeGlobalThreshold.lean": [
+      [
+        "theorem",
+        "constructedMasterFamily_shortCube_global_threshold"
+      ]
+    ]
+  }
+}

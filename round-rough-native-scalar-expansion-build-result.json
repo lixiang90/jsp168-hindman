@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 35.593000000109896,
+  "log": "round-rough-native-scalar-expansion-build.txt",
+  "log_sha256": "7f1d03cefef3d3f4656b730d9645bbb1cab6c3792ce235b5ee6aaa46c837f9b7"
+}

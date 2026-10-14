@@ -1,0 +1,41 @@
+{
+  "baseline_hash_count": 1000,
+  "modules": [
+    "Hindman168/SubgroupInvariantFactorCauchy.lean",
+    "Hindman168/WeightedInvariantFactorCauchy.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupHaarMean_mul_invariant",
+    "Hindman168.finiteHaarMean_mul_invariant",
+    "Hindman168.finiteHaarMean_discard_bounded_factor",
+    "Hindman168.subgroup_invariant_factor_cauchy",
+    "Hindman168.weighted_subgroup_invariant_factor_cauchy"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/SubgroupInvariantFactorCauchy.lean": [
+      [
+        "theorem",
+        "subgroupHaarMean_mul_invariant"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_mul_invariant"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_discard_bounded_factor"
+      ],
+      [
+        "theorem",
+        "subgroup_invariant_factor_cauchy"
+      ]
+    ],
+    "Hindman168/WeightedInvariantFactorCauchy.lean": [
+      [
+        "theorem",
+        "weighted_subgroup_invariant_factor_cauchy"
+      ]
+    ]
+  }
+}

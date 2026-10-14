@@ -1,0 +1,146 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitIntervalProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.686999999918044,
+    "log": "round-native-point-probability-UnitIntervalProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitIntervalProbability.lean",
+    "source_sha256": "c05774de9f7199d073573f86b39181d70745f5a277c8798f65dd4ec072cf4266"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteProbabilityMixture.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.328000000212342,
+    "log": "round-native-point-probability-FiniteProbabilityMixture-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteProbabilityMixture.lean",
+    "source_sha256": "83a69ffafb63dcd0b890b4b18b871fda688fcd89f076ee546c5ef5b819dc12f3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCurveHaarImage.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 23.82799999997951,
+    "log": "round-native-point-probability-NativeRationalCurveHaarImage-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCurveHaarImage.lean",
+    "source_sha256": "6fb6a4723e1ebe371441104ad5ea4bae35f95cd048f3b1e63c2c2283bb445496"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativePointMixtureMeasure.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.375,
+    "log": "round-native-point-probability-NativePointMixtureMeasure-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativePointMixtureMeasure.lean",
+    "source_sha256": "017e9d05785b617785b41b741176025e69c3b4a4bf9d27728b81665d57db4995"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitLipschitzProbabilityConvergence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.766000000061467,
+    "log": "round-native-point-probability-UnitLipschitzProbabilityConvergence-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitLipschitzProbabilityConvergence.lean",
+    "source_sha256": "918e4ac1ad262743fbbeb79f18c38def32d1ae81e26d7225606842caf4c30b5d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteEmpiricalProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.375,
+    "log": "round-native-point-probability-FiniteEmpiricalProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteEmpiricalProbability.lean",
+    "source_sha256": "9343c4f720aac99b1b4e5951401a0fb9c917dd39e6cf6266e1e5bcf6cbba5efa"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalPointWeakLimit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 29.54700000002049,
+    "log": "round-native-point-probability-NativeOriginalPointWeakLimit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalPointWeakLimit.lean",
+    "source_sha256": "851b6102c83a5d145a78bbd6f457efc5d6a3f4a1139054093ea7d18f95ee8d4b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeSequentialPointWeakLimit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 30.75,
+    "log": "round-native-point-probability-NativeSequentialPointWeakLimit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeSequentialPointWeakLimit.lean",
+    "source_sha256": "f9bbc7842f185617d7a51b3d7740736d3440ee442909e0090c1d635ff4e6c94a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalContinuousPointMixture.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.608999999938533,
+    "log": "round-native-point-probability-NativeOriginalContinuousPointMixture-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalContinuousPointMixture.lean",
+    "source_sha256": "fbde1cc07df446b0fec6685e701c31feb8cbb45daeaa99def2b5ea6ad6378a21"
+  }
+]

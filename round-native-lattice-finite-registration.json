@@ -1,0 +1,83 @@
+{
+  "baseline_hashes_verified_before_registration": 804,
+  "new_modules": [
+    "Hindman168/BoundedLieWords.lean",
+    "Hindman168/CocompactDiscreteSubgroupFiniteGeneration.lean",
+    "Hindman168/ConnectedSubgroupOverlapGeneration.lean",
+    "Hindman168/DiscreteSubgroupCompactIntersection.lean",
+    "Hindman168/NativeLatticeFiniteGeneration.lean",
+    "Hindman168/NativeLieRationalAlgebra.lean",
+    "Hindman168/NativeSubgroupFiniteRationalSpan.lean",
+    "Hindman168/NilpotentFiniteLieSpan.lean",
+    "Hindman168/OpenMapCompactRepresentatives.lean"
+  ],
+  "names": [
+    "Hindman168.lieWordValue",
+    "Hindman168.lieWordValue_nil",
+    "Hindman168.lieWordValue_cons",
+    "Hindman168.lieWordValue_mem_lowerCentral",
+    "Hindman168.lieWordValue_zero_of_lowerCentral_bot",
+    "Hindman168.boundedLieWordValues",
+    "Hindman168.boundedLieWordValues_finite",
+    "Hindman168.subset_boundedLieWordValues",
+    "Hindman168.lieWordValue_subtype_mem_lieSpan",
+    "Hindman168.subgroup_open_representatives_mul_eq_univ",
+    "Hindman168.discreteCocompactSubgroup_fg",
+    "Hindman168.subgroup_eq_closure_overlaps_of_open_cover",
+    "Hindman168.discreteSubgroup_compact_inter_finite",
+    "Hindman168.nativeLieGroup_locallyCompact",
+    "Hindman168.nativeLattice_fg",
+    "Hindman168.nativeLieRationalAlgebra",
+    "Hindman168.nativeLieRationalSubalgebra",
+    "Hindman168.nativeLieRationalLowerCentral_nilpotencyClass_bot",
+    "Hindman168.nativeSubgroupRationalLogSpan_eq_lieSpan_of_closure",
+    "Hindman168.nativeSubgroupRationalLogSpan_fg_of_fg",
+    "Hindman168.nativeLatticeRationalLogSpan_finiteDimensional",
+    "Hindman168.nativeLatticeRationalLogSpan_finite_spanning_set",
+    "Hindman168.lieLinearSubspaceStabilizer",
+    "Hindman168.boundedLieWord_span_generator_stable",
+    "Hindman168.boundedLieWord_span_le_lieSpan",
+    "Hindman168.boundedLieWord_span_lie_mem",
+    "Hindman168.nilpotentLieSpan_eq_bounded_word_span",
+    "Hindman168.nilpotent_finite_lieSpan_fg",
+    "Hindman168.exists_compact_open_representatives"
+  ],
+  "module_report_counts": {
+    "BoundedLieWords": {
+      "theorems": 7,
+      "selected_declarations": 9
+    },
+    "CocompactDiscreteSubgroupFiniteGeneration": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "ConnectedSubgroupOverlapGeneration": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "DiscreteSubgroupCompactIntersection": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NativeLatticeFiniteGeneration": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLieRationalAlgebra": {
+      "theorems": 1,
+      "selected_declarations": 3
+    },
+    "NativeSubgroupFiniteRationalSpan": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NilpotentFiniteLieSpan": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "OpenMapCompactRepresentatives": {
+      "theorems": 1,
+      "selected_declarations": 1
+    }
+  }
+}

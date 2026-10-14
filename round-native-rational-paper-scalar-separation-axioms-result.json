@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 22.313000000081956,
+  "log": "round-native-rational-paper-scalar-separation-axioms.txt",
+  "log_sha256": "2649879a3b6dd60e7196b91031e573b12d37e0fc042f80400b9809f8faa5aa4b"
+}

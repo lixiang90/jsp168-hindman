@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.75,
+  "log": "round-native-cube-haar-build.txt",
+  "log_sha256": "fc34244bc8a1c294ad884113aab2a3a042cd650aa5b50c71443a7b06a5b101cb"
+}

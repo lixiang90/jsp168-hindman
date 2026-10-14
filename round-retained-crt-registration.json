@@ -1,0 +1,87 @@
+{
+  "modules": [
+    "Hindman168/AlignmentRetainedCRT.lean",
+    "Hindman168/AlignmentRetainedCRTClasses.lean",
+    "Hindman168/AlignmentMasterRetainedCRT.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentRetainedOriginResidue",
+    "Hindman168.alignmentRetainedRepresentative",
+    "Hindman168.alignmentRetainedOriginResidue_valid",
+    "Hindman168.alignmentRetainedRepresentative_bounds",
+    "Hindman168.alignmentRetainedRepresentative_classes",
+    "Hindman168.alignmentRetainedRepresentative_origin",
+    "Hindman168.alignment_coprime_modEq_cancel",
+    "Hindman168.alignmentRetainedRepresentative_class_iff",
+    "Hindman168.alignment_retained_cube_class",
+    "Hindman168.alignmentMaster_retained_coprime",
+    "Hindman168.alignmentMaster_retained_cube_class",
+    "Hindman168.alignment_raw_retained_cube_class",
+    "Hindman168.alignment_retained_product_update",
+    "Hindman168.alignmentRetainedRepresentative_update"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentRetainedCRT.lean": [
+      [
+        "def",
+        "alignmentRetainedOriginResidue"
+      ],
+      [
+        "def",
+        "alignmentRetainedRepresentative"
+      ],
+      [
+        "theorem",
+        "alignmentRetainedOriginResidue_valid"
+      ],
+      [
+        "theorem",
+        "alignmentRetainedRepresentative_bounds"
+      ],
+      [
+        "theorem",
+        "alignmentRetainedRepresentative_classes"
+      ],
+      [
+        "theorem",
+        "alignmentRetainedRepresentative_origin"
+      ]
+    ],
+    "Hindman168/AlignmentRetainedCRTClasses.lean": [
+      [
+        "theorem",
+        "alignment_coprime_modEq_cancel"
+      ],
+      [
+        "theorem",
+        "alignmentRetainedRepresentative_class_iff"
+      ],
+      [
+        "theorem",
+        "alignment_retained_cube_class"
+      ]
+    ],
+    "Hindman168/AlignmentMasterRetainedCRT.lean": [
+      [
+        "theorem",
+        "alignmentMaster_retained_coprime"
+      ],
+      [
+        "theorem",
+        "alignmentMaster_retained_cube_class"
+      ],
+      [
+        "theorem",
+        "alignment_raw_retained_cube_class"
+      ],
+      [
+        "theorem",
+        "alignment_retained_product_update"
+      ],
+      [
+        "theorem",
+        "alignmentRetainedRepresentative_update"
+      ]
+    ]
+  }
+}

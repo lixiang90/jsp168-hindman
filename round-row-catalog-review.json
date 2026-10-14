@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 324,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/PolynomialKernelBasis.lean",
+    "Hindman168/PolynomialKernelCurve.lean",
+    "Hindman168/PolynomialKernelDirectionSelection.lean",
+    "Hindman168/PolynomialRowDirectionCatalog.lean",
+    "Hindman168/PolynomialRowCatalogApplication.lean",
+    "Hindman168/OriginalZeroPrimeTemplate.lean",
+    "Hindman168/OriginalRowTemplateFamily.lean"
+  ],
+  "new_selected_report_count": 45,
+  "module_report_counts": {
+    "PolynomialKernelBasis": 4,
+    "PolynomialKernelCurve": 6,
+    "PolynomialKernelDirectionSelection": 6,
+    "PolynomialRowDirectionCatalog": 10,
+    "PolynomialRowCatalogApplication": 5,
+    "OriginalZeroPrimeTemplate": 7,
+    "OriginalRowTemplateFamily": 7
+  },
+  "application_review": [
+    "All 324 previously audited source/config hashes were unchanged before registration; among retained files only root imports and the exact-name registry changed. No retained proof, dependency pin or attributed PNT+ source was edited.",
+    "The explicit polynomial kernel basis A_j e_k-A_k e_j has exactly the two-column-minor response and annihilates its own row. Domain cancellation transports a nonzero minor to any chosen nonzero anchor.",
+    "The off-anchor polynomial kernel curve has response coefficients equal to the anchored minors and degree at most c-2 for c columns. A nonparallel row therefore has a nonzero response polynomial.",
+    "The product of all off-diagonal response polynomials is nonzero and has degree at most (r-1)(c-2). A degree bound and characteristic zero derive a nonroot among the first (r-1)(c-2)+1 positive integers. The selected direction itself is constructed, not supplied as a hypothesis.",
+    "For each row the derived direction annihilates exactly that row and has nonzero formal responses at all distinct rows. This supplies both non-target directions and the distinguished target direction w_0.",
+    "The designated denominator is the actual product of the target row responses to all other selected directions, and is nonzero. A finite generated catalogue contains this denominator, 1, every nonzero row response, coefficient and two-column minor, and has no zero polynomial.",
+    "For integer multivariate row coefficients, the generated nonzero catalogue supplies the actual constructed master family and its full master conditions. Local-list inclusion is proved by identity renaming; the original designated denominator and local good-event shape are retained.",
+    "The actual local-good event implies nonvanishing of the response denominator, all off-diagonal responses and a nonzero specialized minor for every distinct row pair. Its probability tending to one follows from the constructed master, rather than being assumed.",
+    "The catalogue application derives the original uniform bounded dense-model conclusion at dimension r-1. Desired dense-model limits or catalogue memberships are not application assumptions; actual block and gap hypotheses remain explicit.",
+    "The zero-prime template has exact local list {1}, denominator 1 and empty injective slots. With the actual positive master exponent its good event is identically true, its event mass is exactly one and its separately conditioned prime law is exactly unchanged even if the underlying nonempty prime pool is empty.",
+    "The zero-prime dual is exactly the original independent uniform-shift cube at modulus M and length floor(R_l/(J M)), including zero-length stages. No prime factor, missing normalization or altered root/shift law is introduced.",
+    "A finite heterogeneous row family may have different local prime arities, row/column counts and gaps, with injective embeddings into fixed master slots. The master list is the union of its actual renamed generated catalogues together with 1. Nonzero membership and every local inclusion are derived.",
+    "The derived actual master and original-template conditions feed the previously proved common-model diagonal. One bounded model sequence handles every row template, the extra zero-prime type and every fixed positive quotient scale, uniformly over admissible original inputs.",
+    "The original master list, arity and family stay fixed across quotient scales, replica counts and diagonal prefix lengths. The extra type can be present alone when the row-template family is empty.",
+    "The symbolic row family still takes explicit anchor and pair-minor evidence. Construction and preservation of these properties for the actual preprint mask-removal recurrence are unfinished; numerical prime specialization is not used to bypass symbolic nonparallelism.",
+    "Integer W-multiple translations, their growth and residue-unit bounds, concrete block/gap and template enumeration, rho and master-scale companion instantiations, full Prediction/Alignment and final witness extraction remain unfinished.",
+    "StrongStatement.lean is unchanged. strong_implies_subtype still requires StrongConjecture as a hypothesis. No full solution, award eligibility or unavoidable blocker is claimed."
+  ],
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4178,
+    "project_modules": 313,
+    "pntplus_modules": 9,
+    "source_scan_modules": 322,
+    "axiom_reports": 1626,
+    "source_config_hash_count": 331,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original row-template pipeline now generates bounded polynomial directions, response products and nonzero finite polynomial catalogues from explicit nonzero-anchor and pair-minor evidence. Injectively renamed catalogues of different local prime arities generate one fixed actual master list, including 1, and its actual master family supplies a common bounded model sequence for all row templates plus the exactly identified zero-prime constant-modulus type and all fixed positive quotient scales. Construct the specific mask-generated polynomial row families in the preprint and prove their anchors and pair-minor evidence at every elimination stage; instantiate their finite catalogue family, slots, blocks, gaps, scale labels, colors and rho. Prove the integer W-multiple direction construction, size/unit estimates and retained-weight correlation applications. Instantiate the companion eventual requirements with the actual master-scale diagonal; no such concrete companion or full preprint Prediction proposition is yet proved. Complete Prediction/Alignment, required nilsequence/inverse-theorem/cube-law inputs, diagonal test choices and final witness extraction/separation. Real-exponent clipping extensions remain unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit as authorized by the user. No unavoidable blocker is established."
+}

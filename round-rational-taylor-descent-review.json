@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2802,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6829,
+    "selected_axiom_reports": 10902,
+    "new_declarations": 12,
+    "new_theorems": 11,
+    "new_definitions": 1,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeRationalTaylorCoordinates.lean",
+    "Hindman168/NativeRationalTaylorLevelDescent.lean"
+  ],
+  "proved_components": [
+    "The SAME actual native ordered Taylor constructors now work for EVERY genuine NativeRationalLieFiltration D ell. All actual residuals retain that rational filtration, gain true initial integer zeros, and the genuine terminal layer ell+1 makes the final residual zero at EVERY real input. Actual ordered representation and every coefficient membership in the ORIGINAL exponential filtered group layer are derived, with no Taylor, inverse or factorization premise.",
+    "For EACH actual level j>=2, a rational functional killing the original next layer and all original positive bracket terms with indices summing to j constructs a genuine SINGLE-LEVEL kernel filtration. ONLY layer j changes. ALL other positive layers, ambient original group, original lattice and terminal index remain literal. Initial layers, antitone nesting, all bracket pairs INCLUDING zero indices, actual lattice rationality and terminality are proved.",
+    "A genuine nonzero value of the selected functional ON THE ORIGINAL changed layer proves STRICT actual finrank drop at that layer. The sum of ALL positive original layer dimensions through the genuine terminal index STRICTLY decreases. This is genuine finite-descent geometry; source correction/adaptation after correction, character production, level-one native subgroup descent and sequential factorization are not assumed or asserted."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original all-target linear/cube identities, original lower-central adaptation and complete ordered Taylor coordinates remain proved. The same Taylor constructors now have COMPLETE arbitrary genuine rational-filtration representation and actual group-layer memberships; exact j>=2 single-level rational kernel geometry and STRICT total positive-layer dimension decrease are proved. Remaining: actual sequential rational level characters and bounded-error/integer decomposition, rational pivot and j=1 original native subgroup descent; genuine left/right binomial source corrections and AGGREGATED coefficient adaptation to the new SINGLE-LEVEL filtration; finite sequential descent with ONE filtration and all rational-character irrationality; actual bounded smooth-factor limits and sequence-selected bounded rational period; local cube-Haar laws through ORIGINAL s+1, sequence-before-locality limits, projected Haar face invariance/full-support coset symmetry and actual joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse at sufficient native step; final positive distinct rapidly separated SAME-color nonempty FS AND FP. The new descent geometry assumes only its explicit geometric rational/bracket/next-layer/nonzero conditions; they must be derived for actual selected level characters. No corrected-source/factorization/Haar oracle is introduced. Author checks are not independent kernel replay or external peer review. No unavoidable obstruction, explicit delta-power law or other-marginal invariance is claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-rational-taylor-descent-mathematical-review.txt",
+  "mathematical_review_sha256": "922d79172f0d3b840238fd7fe0bddc813519288e731722c1d1fff69318571d27",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

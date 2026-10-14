@@ -1,0 +1,88 @@
+JSP-000168: arbitrary rational Lie-filtered native relative construction
+Author review, 2026-10-12. Not independent kernel replay or peer review.
+
+Primary route: the six pinned OpenAI sections at
+adc7f1241b42e322a6451854ab7e4b4c146bf78a, especially 06_rough_progressions;
+Green--Tao https://arxiv.org/html/0709.3562v4, section 7, Proposition 7.2.
+The corrected equal-side scope of arXiv:1311.6170v3 is unchanged.
+
+What the new data means
+NativeRationalLieFiltration stores the ACTUAL original finite dimensional
+Lie model layers, antitone order, layers zero/one equal top, bracket weight
+addition, rationality against the ACTUAL specified lattice, and terminal
+layer (ell+1) equal bottom. These are the definition of input filtration
+data; there is NO inverse, character, degree-drop, subgroup/chart/Exp
+compatibility, compactness or recurrence hypothesis hidden in the record.
+Every field is independently discharged for BOTH the original stretched
+filtration and the already constructed actual reduced IMAGE filtration.
+The latter is not identified with a stretched lower-central series.
+
+Reviewed proof chain
+1. Layer zero equals the full model. Bracket weight (0,i) therefore makes
+   every true Lie layer a real native Lie ideal. Its integrated native
+   subgroup is normal; actual native Log detects membership exactly.
+2. For vectors in layers i,j, powers of the genuine adjoint generator
+   applied to the second vector have weight at least i+j from the first
+   bracket onward. The actual finite adjoint formula puts
+   Ad(Exp v)w-w in that layer, including nilpotency class zero.
+3. The proved original ideal-difference BCH theorem and exact original
+   adjoint/Exp conjugation identity place the ACTUAL group commutator in
+   layer i+j. Thus CubeGroupFiltration is derived from native Lie data;
+   a group bracket compatibility field is not assumed in the record.
+4. All original group layer closedness, contractibility and restricted
+   lattice discreteness/cocompactness follow from the native ideal
+   description and original lattice rationality. Initial and terminal
+   group layers are proved. Both original and reduced image group layers
+   are literally identified with their retained original definitions.
+5. The relative Lie model at i is Fi x Fi with difference in Fi+1.
+   The actual original real-ideal coset Log criterion identifies its
+   integrated subgroup EXACTLY with the original relative square group.
+   It applies to ANY native rational filtration, including the true
+   terminal quotient image filtration. No group replacement is made.
+6. Diagonal rational directions from Fi and first-coordinate rational
+   directions from Fi+1 span the ENTIRE actual relative Lie layer.
+   Its original product-lattice intersection is discrete and cocompact.
+   Actual native charts, Lie-infinity operations, boundaryless structure,
+   contractibility and natural quotient metric give TRUE NativeData(s).
+   The proof keeps the actual specified restricted product lattice and
+   quotient topology. The inherited step bound s is not decreased.
+7. Actual smooth relative inclusion has its proved differential equal to
+   the true tangent submodule inclusion. Its actual Exp/Log commute with
+   inclusion. Differentiated smooth-hom adjoint intertwining proves
+   genuine native relative bracket weight addition, including the extra
+   first-minus-second layer.
+8. Rational membership through the actual inclusion is equivalent to
+   original product-lattice rational membership, by positive powers.
+   Injective real-span transport recovers every true internal relative
+   layer against the ACTUAL restricted lattice, including index zero.
+   Its initial layers and terminal (ell+1) zero layer are proved.
+   nativeRelativeRationalLieFiltration CONSTRUCTS all filtration fields
+   on the exact native relative model; it assumes no output compatibility.
+9. The terminal Lie layer of ANY such actual finite filtration is central
+   by bracket (ell,1) and terminal zero. Its native central Exp subgroup
+   equals the actual group terminal layer. The actual image lattice in
+   the true terminal quotient is discrete and cocompact, using the proved
+   rational terminal model; these are not assumed quotient inputs.
+10. nativeRecursiveRelativeData and nativeRecursiveRelativeLieFiltration
+    actually apply the generic native construction to the ORIGINAL
+    reduced quotient data and its SAME IMAGE filtration. Actual second
+    relative group membership is described using the ORIGINAL reduced
+    group layers, and its actual tangent layers use the ORIGINAL reduced
+    Lie layers. Its actual terminal subspace is central. This proves a
+    concrete second native relative stage, not just a conditional schema.
+
+Completion boundary
+The generic relative stage retains degree bound ell. The actual terminal
+quotient native chart/model/lattice/metric must still be constructed and
+its genuine projected Lie filtration proved to have degree <= ell-1.
+The image lattice discreteness/cocompactness and centrality proved here
+supply inputs, but do not themselves construct that output NativeData or
+prove indefinite degree recursion. That is the NEXT required proof.
+Also still needed: weighted-input normalized relative polynomial
+reconstruction (in particular from the ACTUAL twice-normalized original
+polynomial), recursive canonical Haar/metric/frequency inverse transport,
+genuine ORIGINAL NONZERO horizontal-character reconstruction and finite
+list/operator/binomial bounds. This round proves no quantitative inverse,
+multivariate inverse, interval Gowers correlation inverse, rough step
+descent, positive-probability Alignment, final recurrence or StrongConjecture.
+No unavoidable obstruction, public repository, PR or prize claim yet.

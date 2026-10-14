@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "Support containment is proved from the actual mapDomain and harmonicWindow support, preserving the original coprimality filter.",
+    "The interior is a subset of the original window from the proved endpoint bounds, even when empty. The sum split is a disjoint finite-set difference identity.",
+    "The finite split equals the original total, not an assumed constant one; it is valid even when the normalizer vanishes.",
+    "The limiting proof replaces the total by one only on the proved eventual positive-normalizer set, then uses the actual endpoint-loss convergence. Strict positivity of the interior mass follows from its limit one.",
+    "Five new theorems are individually kernel audited. No global normalized cell law or inverse correlator is assumed; these remain to construct."
+  ],
+  "new_modules": [
+    "Hindman168/AlignedInteriorMassSplit.lean",
+    "Hindman168/MasterAlignedInteriorMass.lean"
+  ],
+  "verified": {
+    "project_modules": 1027,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1036,
+    "source_config_hashes": 1045,
+    "build_jobs": 4981,
+    "axiom_reports": 4910,
+    "new_theorems": 5,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 5,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The actual aligned interior mass now tends to one and is eventually positive, with an exact decomposition retaining all zero-normalizer stages. Admissible-residue restriction, assembly and renormalization of cell probabilities, and wrapping errors remain to connect, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

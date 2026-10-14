@@ -1,0 +1,16 @@
+✖ [3953/3954] Building Hindman168.DivisorMaskExpansion (6.0s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\DivisorMaskExpansion.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\DivisorMaskExpansion.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\DivisorMaskExpansion.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\DivisorMaskExpansion.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\DivisorMaskExpansion.setup.json --json
+error: Hindman168/DivisorMaskExpansion.lean:79:34: `simp` made no progress
+error: Hindman168/DivisorMaskExpansion.lean:96:34: `simp` made no progress
+warning: Hindman168/DivisorMaskExpansion.lean:91:17: This simp argument is unused:
+  if_pos hx
+
+Hint: Omit it from the simp argument list.
+  simp only [̵i̵f̵_̵p̵o̵s̵ ̵h̵x̵,̵ ̵h̵x̵,̵[̲h̲x̲,̲ true_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+✔ [3954/3954] Built Hindman168.HarmonicDivisorMass (7.5s)
+Some required targets logged failures:
+- Hindman168.DivisorMaskExpansion
+error: build failed

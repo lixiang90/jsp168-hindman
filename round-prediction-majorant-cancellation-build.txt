@@ -1,0 +1,54 @@
+✖ [4037/4037] Building Hindman168.PredictionMajorantCancellation (7.5s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\PredictionMajorantCancellation.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionMajorantCancellation.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionMajorantCancellation.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionMajorantCancellation.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionMajorantCancellation.setup.json --json
+error: Hindman168/PredictionMajorantCancellation.lean:29:2: Tactic `apply` failed: could not unify the conclusion of `Finset.sum_congr rfl`
+  Finset.sum ?m.31 ?m.28 = Finset.sum ?m.31 ?m.29
+with the goal
+error: build failed
+  (∑ x ∈ μ.support,
+      μ x *
+        if E x then ∑ x_1 ∈ (base x).support, (base x) x_1 * f x x_1 - ∑ x_1 ∈ (base x).support, (base x) x_1 * g x x_1
+        else 0) =
+    (∑ x ∈ μ.support, μ x * if E x then ∑ x_1 ∈ (base x).support, (base x) x_1 * f x x_1 else 0) -
+      ∑ x ∈ μ.support, μ x * if E x then ∑ x_1 ∈ (base x).support, (base x) x_1 * g x x_1 else 0
+
+Note: The full type of `Finset.sum_congr rfl` is
+  (∀ x ∈ ?m.31, ?m.28 x = ?m.29 x) → Finset.sum ?m.31 ?m.28 = Finset.sum ?m.31 ?m.29
+
+α : Type u_1
+β : Type u_2
+μ : Mass α
+base : α → Mass β
+E : α → Prop
+f g : α → β → ℝ
+⊢ (∑ x ∈ μ.support,
+      μ x *
+        if E x then ∑ x_1 ∈ (base x).support, (base x) x_1 * f x x_1 - ∑ x_1 ∈ (base x).support, (base x) x_1 * g x x_1
+        else 0) =
+    (∑ x ∈ μ.support, μ x * if E x then ∑ x_1 ∈ (base x).support, (base x) x_1 * f x x_1 else 0) -
+      ∑ x ∈ μ.support, μ x * if E x then ∑ x_1 ∈ (base x).support, (base x) x_1 * g x x_1 else 0
+error: Hindman168/PredictionMajorantCancellation.lean:42:2: Tactic `apply` failed: could not unify the conclusion of `Finset.sum_congr rfl`
+  Finset.sum ?m.55 ?m.52 = Finset.sum ?m.55 ?m.53
+with the goal
+  (μ u * if E u then ∑ y ∈ U, ∑ x ∈ (base u).support, (base u) x * f y u x else 0) =
+    ∑ x ∈ U, μ u * if E u then ∑ x_1 ∈ (base u).support, (base u) x_1 * f x u x_1 else 0
+
+Note: The full type of `Finset.sum_congr rfl` is
+  (∀ x ∈ ?m.55, ?m.52 x = ?m.53 x) → Finset.sum ?m.55 ?m.52 = Finset.sum ?m.55 ?m.53
+
+α : Type u_1
+β : Type u_2
+ι : Type u_3
+μ : Mass α
+base : α → Mass β
+E : α → Prop
+U : Finset ι
+f : ι → α → β → ℝ
+u : α
+a✝ : u ∈ μ.support
+⊢ (μ u * if E u then ∑ y ∈ U, ∑ x ∈ (base u).support, (base u) x * f y u x else 0) =
+    ∑ x ∈ U, μ u * if E u then ∑ x_1 ∈ (base u).support, (base u) x_1 * f x u x_1 else 0
+error: Hindman168/PredictionMajorantCancellation.lean:70:11: `simp` made no progress
+warning: Hindman168/PredictionMajorantCancellation.lean:93:43: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.PredictionMajorantCancellation

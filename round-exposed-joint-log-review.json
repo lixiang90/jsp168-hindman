@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "AlignmentCubeModelParameters constructs explicit affine real polynomials for the cube base and each array increment, with exact evaluation and integer evaluation from proved multiplication identities.",
+    "AlignmentJointCubeParameters expands X into the vertex linear form and t into separate tail variables. The base has degree at most max(1,card(T)); each increment has degree at most card(T), including empty T. No coefficient bounds or division by a tail factor are used.",
+    "AlignmentCanonicalModelParameters discharges base integrality by the residue correction identity and increment integrality by alignmentPairProgression_exact, preserving the own-target filter. Evaluation uses actual transformed cube coordinates and original natural tail factors.",
+    "AlignmentExposedJointParameters constructs these polynomials from the actual complete exposure data. It proves equality on exposure fibers and degree bounds uniform in exposed coefficient sizes and samples. Y is the integer quotient of the actual short-bin start before real embedding.",
+    "AlignmentExposedJointEvaluation proves that a polynomial frozen at anchor x evaluates to the original integer base and filtered increments of every admissible sample y in the same complete exposure fiber and every signed pivot origin in its exposed residue class.",
+    "AlignmentNativeCanonicalCubeArray constructs an actual original array-group element using the existing proved native model-array membership. Its every integer-array evaluation equals g to the original numerical array quotient times b, with signed cube coordinates allowed.",
+    "AlignmentNativeExposedJointLog composes the frozen joint base/increment polynomials with the proved coefficient-log recovery. Every real linear coefficient-log coordinate of the actual canonical cube array has an explicit joint polynomial, exact admissible evaluation, exposure invariance, and total degree at most (s*s+1)^(s+1)*max(1,card(T)).",
+    "Checked pinned 08_alignment lines 496-509. The original exponent splits into an affine base and own-target filtered affine increments before the substitution t=product(t_l). The only previous quadratic terms involved array indices, which are fixed in the selected evaluation recovery. The resulting degree bound is valid for empty tail sets too.",
+    "The microcell origin p is not exposed. It enters the actual transformed base coordinate at evaluation, while all polynomial coefficients are fixed by the complete exposure. The fixed g,b and linear coordinate functional are inputs; their being fixed is not newly inferred from exposure.",
+    "Y is an INTEGER floor quotient before real embedding. The base residue correction is proved divisible by M, and the increment equality is obtained from the canonical progression identity under master conditions and roughness. No cancellation for a zero modulus or integrality for arbitrary real points is asserted.",
+    "The native array is constructed in the actual all-integer array group, and its every slot is proved to be the original numerical exponent quotient. The log polynomial equals a real linear functional of the actual coefficient logarithm on admissible sample points, through the previously proved global linear recovery. Arbitrary polynomial inputs need not belong to the selected-evaluation image.",
+    "No hypotheses assume polynomiality or degree bounds for the target array logarithm. Uniform degree is independent of coefficients, pivot origin, samples, and selected evaluation count. Polynomial coefficients may depend on the fixed nilsystem and linear functional.",
+    "This establishes the individual original array coordinate polynomiality needed for joint packaging. It does not prove rough-step equidistribution, independence after bin conditioning, conditional face invariance, the remaining inverse/recurrence existence inputs, or StrongConjecture.",
+    "All retained proof sources and axiom sets are unchanged; these are author-side checks, not independent kernel replay.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. The original exposed cube array now has explicit polynomial representatives for every real linear coefficient-log coordinate, jointly in transformed cube and separate tail variables, with actual array identity and uniform degree proved. Package the stored finite joint native readings as needed and connect native face observables and counting to conditional marginal cube laws. Prove and apply the uniform rough-step theorem of section 06, uniformly over coefficients, boxes/endpoints, residues and tests. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete the final ordered positive rapidly separated monochromatic extraction. Standard-only axiom reports do not prove the full target. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1539,
+    "pntplus_modules": 9,
+    "build_jobs": 5499,
+    "selected_axiom_reports": 6832,
+    "new_declarations": 34,
+    "new_theorems": 24,
+    "new_definitions": 10,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/AlignmentCubeModelParameters.lean",
+    "Hindman168/AlignmentJointCubeParameters.lean",
+    "Hindman168/AlignmentCanonicalModelParameters.lean",
+    "Hindman168/AlignmentExposedJointParameters.lean",
+    "Hindman168/AlignmentExposedJointEvaluation.lean",
+    "Hindman168/AlignmentNativeCanonicalCubeArray.lean",
+    "Hindman168/AlignmentNativeExposedJointLog.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. The original exposed cube array now has explicit polynomial representatives for every real linear coefficient-log coordinate, jointly in transformed cube and separate tail variables, with actual array identity and uniform degree proved. Package the stored finite joint native readings as needed and connect native face observables and counting to conditional marginal cube laws. Prove and apply the uniform rough-step theorem of section 06, uniformly over coefficients, boxes/endpoints, residues and tests. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete the final ordered positive rapidly separated monochromatic extraction. Standard-only axiom reports do not prove the full target. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "08_alignment lines 496-509: original frozen cube array joint polynomiality"
+}

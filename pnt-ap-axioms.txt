@@ -1,0 +1,3 @@
+'WienerIkeharaTheorem''' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeakPNT_AP' depends on axioms: [propext, Classical.choice, Quot.sound]
+'chebyshev_asymptotic_pnt' depends on axioms: [propext, Classical.choice, Quot.sound]

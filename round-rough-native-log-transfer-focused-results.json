@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLieSubalgebraNativeCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.29700000002049,
+    "log": "round-rough-native-log-transfer-NativeLieSubalgebraNativeCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLieSubalgebraNativeCoordinates.lean",
+    "source_sha256": "ac6d91fca8f0e3e83b0391323f4fd5a7ad5831bfa4b6c6f9673b86c87e731847"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughVectorMvLinearMap.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.547000000020489,
+    "log": "round-rough-native-log-transfer-RoughVectorMvLinearMap-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughVectorMvLinearMap.lean",
+    "source_sha256": "1e76a353fe452d525072da8f13d3bca0ab1603262ce84cfe5676ddc33486a3e6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeSubgroupLogPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.594000000040978,
+    "log": "round-rough-native-log-transfer-RoughNativeSubgroupLogPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeSubgroupLogPolynomial.lean",
+    "source_sha256": "28a731d0c5ed60278946ec6e13d0b1067896a3e722c903499eeae8d8890f0aff"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeNilmanifoldLogTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.936999999918044,
+    "log": "round-rough-native-log-transfer-RoughNativeNilmanifoldLogTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeNilmanifoldLogTransfer.lean",
+    "source_sha256": "5b8980fcf362ea9f06ad1decfe7a316dbeae49e38f613dff0ec1b376e1e802de"
+  }
+]

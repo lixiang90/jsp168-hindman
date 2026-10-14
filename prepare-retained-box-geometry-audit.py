@@ -1,0 +1,51 @@
+from pathlib import Path
+import ast
+import re
+
+source = Path('round-permitted-cube-geometry-audit.py').read_text(encoding='utf-8')
+components = [
+    'AlignmentRetainedEndpointBounds proves strict integer endpoint error <D for bounded representatives 0<=a<D, and strict side error <D for arbitrary representatives. It derives fixed normalized location and side bounds after exact integer division, preserving signed and half-open endpoints.',
+    'AlignmentRetainedBoxGeometry derives D=d*q=o(Z) uniformly over every sample and every positive q<=aux from the actual master retained-scale growth. It absorbs both endpoint errors for arbitrary integer boxes and representative vectors before any of these data are chosen.',
+    'AlignmentPermittedRetainedGeometry connects these bounds to every original real permitted cube box. For every retained subset V of the earlier positive tail factors, after the actual cube map and exact division by d*product(V), locations are bounded by [2^card(T)*(K+1)+3]*S and sides lie between (c/4)*S and [2^card(T)*(2*C+1)+1]*S, where S=Z/(d*product(V)).'
+]
+remaining = (
+    'StrongConjecture remains unproved; no unavoidable obstruction is established. Actual microcell origins, exact N_loc, '
+    'uniform integer rounding and common-scale location/side bounds for every permitted original real cube box are proved. '
+    'Uniform retained-step normalized location/side geometry is now connected to those original boxes and every retained '
+    'subset under the actual earlier cutoff bounds. Full exact mean transfer and per-coordinate counts are available. '
+    'Extend one-dimensional endpoint errors to full product-box tests and connect normalized sampling results to actual '
+    'conditional marginal cube laws. Prove uniform-degree joint native logarithm polynomiality after substituting the exposed '
+    'scalar exponent and tail product; the existing univariate native product-logarithm polynomial may provide a specialized '
+    'route via g^k*x=x*(x^-1*g*x)^k. Prove and apply the uniform rough-step proposition of section 06, including coefficients, '
+    'endpoints, residues and tests. Buffered short-bin geometry, prior-event positive probability, posterior control after '
+    'additional prior conditioning, quantitative native smooth-observable bounds, conditional face invariance and '
+    'positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence '
+    'remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. '
+    'Standard-only axiom reports do not prove the full target. No independent kernel replay, external review, public '
+    'contribution or prize submission is claimed.'
+)
+reviews = [
+    'Checked pinned 08_alignment lines 511-542: x=a+dw*y is divided exactly, with 0<=a<dw and common scale Z/(dw). Endpoint construction uses the first congruent integer at or above each endpoint, so no sample is lost by division.',
+    'The absolute endpoint error requires the bounded representative hypothesis and uses it explicitly. The side error cancels the representative and has no such hypothesis. No unproved equality with real division is used.',
+    'Uniform smallness D=o(Z) uses the proved retained-scale theorem at power zero with S=0, hence 0^0=1 in the polynomial estimate. Positive q and d justify multiplication by the denominator; the auxiliary upper bound is discharged for every retained subset from earlier cutoff bounds.',
+    'The threshold is chosen before all tuples, subsets, original permitted real endpoints and representative vectors. The final lower side is c/4 because one factor two is spent on original real endpoint rounding and the other on retained division.',
+    'No coprimality between retained and removed factors is assumed. Bounded CRT representatives proved earlier satisfy the representative hypotheses; this geometry theorem does not assert their exposure independence or prove joint log-polynomiality.',
+    'This establishes a required geometric hypothesis for rough-step removal, not the rough-step theorem, its exceptional proportion, or face invariance. All retained sources and axiom sets are checked unchanged.'
+]
+replacements = dict(PREFIX='round-retained-box-geometry', OLD='round-permitted-cube-geometry',
+    MODULES=['Hindman168/'+m+'.lean' for m in ['AlignmentRetainedEndpointBounds',
+        'AlignmentRetainedBoxGeometry', 'AlignmentPermittedRetainedGeometry']],
+    COMPONENTS=components, REMAINING=remaining)
+lines = source.splitlines(keepends=True)
+for node in reversed(ast.parse(source).body):
+    if isinstance(node, ast.Assign) and len(node.targets) == 1 and isinstance(node.targets[0], ast.Name):
+        name = node.targets[0].id
+        if name in replacements:
+            lines[node.lineno-1:node.end_lineno] = [name+' = '+repr(replacements[name])+'\n']
+source = ''.join(lines).replace('Audit actual microcell origins and uniform permitted cube-box geometry.',
+    'Audit exact retained-step endpoint division and uniform normalized box geometry.')
+source = re.sub(r'application_review=COMPONENTS\+\[.*?\]\+\[REMAINING\],',
+    lambda _: 'application_review=COMPONENTS+'+repr(reviews)+'+[REMAINING],', source)
+source = source.replace('08_alignment lines 273-290, 392-417 and 479-495: actual microcell and all permitted cube boxes',
+    '08_alignment lines 392-417 and 511-542: all permitted boxes after retained-step division')
+Path('round-retained-box-geometry-audit.py').write_text(source, encoding='utf-8')

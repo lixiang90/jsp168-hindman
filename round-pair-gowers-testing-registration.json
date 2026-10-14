@@ -1,0 +1,51 @@
+{
+  "baseline_hash_count": 1108,
+  "modules": [
+    "Hindman168/SubgroupCubePairDerivative.lean",
+    "Hindman168/SubgroupGowersPairTesting.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupCubeProduct_translate",
+    "Hindman168.subgroupCubeAverage_translate",
+    "Hindman168.subgroupCubeAverage_pair_derivative",
+    "Hindman168.weightedSubgroupGowersValue_pair_moment",
+    "Hindman168.finiteHaarMean_abs_le_of_power_threshold",
+    "Hindman168.weightedSubgroupGowersValue_pair_test_bound",
+    "Hindman168.weightedSubgroupGowersValue_pair_test_tendsto_zero"
+  ],
+  "theorem_count": 7,
+  "declarations": {
+    "Hindman168/SubgroupCubePairDerivative.lean": [
+      [
+        "theorem",
+        "subgroupCubeProduct_translate"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_translate"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_pair_derivative"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_pair_moment"
+      ]
+    ],
+    "Hindman168/SubgroupGowersPairTesting.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_abs_le_of_power_threshold"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_pair_test_bound"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_pair_test_tendsto_zero"
+      ]
+    ]
+  }
+}

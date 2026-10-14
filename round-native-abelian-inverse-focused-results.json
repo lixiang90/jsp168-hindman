@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeHorizontalTorusProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.515000000130385,
+    "log": "round-native-abelian-inverse-NativeHorizontalTorusProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeHorizontalTorusProjection.lean",
+    "source_sha256": "6f2724368e5b88e8a8de9722af0ec5c0489682130113d65695507766c8c86d15"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeAbelianTorusEquivalence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.203999999910593,
+    "log": "round-native-abelian-inverse-NativeAbelianTorusEquivalence-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeAbelianTorusEquivalence.lean",
+    "source_sha256": "b7680583f11b5dae6a9a484b6702eef6ca6a3b52dbb7c9a3a3bb70e87c6b5b7c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeAbelianMetricTorus.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.468000000109896,
+    "log": "round-native-abelian-inverse-NativeAbelianMetricTorus-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeAbelianMetricTorus.lean",
+    "source_sha256": "69203985a1e461117c4aa63b1cf2de416010bf71890ac3a6d7dd04a97c1def84"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitTorusCompactObservableSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.5,
+    "log": "round-native-abelian-inverse-UnitTorusCompactObservableSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitTorusCompactObservableSelection.lean",
+    "source_sha256": "bccadc8b6364ebce62e3e735006b76b105e1d7cd703e4435067c336ec36ba7c7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/TorusMvCompactObservableInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.625,
+    "log": "round-native-abelian-inverse-TorusMvCompactObservableInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/TorusMvCompactObservableInverse.lean",
+    "source_sha256": "8c9c35dfc2b28abc72a0095ac6fd95f0c10afae0b77e4a8c2c06c0f65dadcc34"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeAbelianTorusHaar.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.125,
+    "log": "round-native-abelian-inverse-NativeAbelianTorusHaar-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeAbelianTorusHaar.lean",
+    "source_sha256": "2f8effb0a6db1a7cfe5e92d56c8cc3726c8582c562c6b4057236e25031016389"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeHorizontalTorusFunctional.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.0,
+    "log": "round-native-abelian-inverse-NativeHorizontalTorusFunctional-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeHorizontalTorusFunctional.lean",
+    "source_sha256": "e9b50e0293fd90449354db35921b68f63c28440e93b337b90ec6ac2f28282905"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeAbelianMvPolynomialInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.859999999869615,
+    "log": "round-native-abelian-inverse-NativeAbelianMvPolynomialInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeAbelianMvPolynomialInverse.lean",
+    "source_sha256": "bb58a4cc28bd9f4fb54a331ce8a1871128ce97f90d9c2a31d485e6a7e2a8e650"
+  }
+]

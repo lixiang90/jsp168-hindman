@@ -1,0 +1,86 @@
+{
+  "baseline_hash_count": 1086,
+  "modules": [
+    "Hindman168/WeightedHaarHilbert.lean",
+    "Hindman168/MixedDualHilbertOrthogonality.lean"
+  ],
+  "names": [
+    "Hindman168.weightedHaarMass",
+    "Hindman168.weightedHaarMass_apply",
+    "Hindman168.weightedHaarMass_nonneg",
+    "Hindman168.weightedHaarMass_expectation",
+    "Hindman168.weightedHaarMass_total",
+    "Hindman168.weightedHaarMass_nonnegative",
+    "Hindman168.weightedHaarBoundedFamily",
+    "Hindman168.weightedHaarHilbert_inner_tendsto",
+    "Hindman168.mixedDualHilbertGenerators",
+    "Hindman168.mixedDualHilbertSubspace",
+    "Hindman168.mixedDualHilbert_inner_zero",
+    "Hindman168.mixedDualHilbert_orthogonal_of_gowers_zero",
+    "Hindman168.mixedDualHilbert_gowers_zero_of_orthogonal",
+    "Hindman168.mixedDualHilbert_gowers_zero_iff_orthogonal"
+  ],
+  "theorem_count": 9,
+  "declarations": {
+    "Hindman168/WeightedHaarHilbert.lean": [
+      [
+        "def",
+        "weightedHaarMass"
+      ],
+      [
+        "theorem",
+        "weightedHaarMass_apply"
+      ],
+      [
+        "theorem",
+        "weightedHaarMass_nonneg"
+      ],
+      [
+        "theorem",
+        "weightedHaarMass_expectation"
+      ],
+      [
+        "theorem",
+        "weightedHaarMass_total"
+      ],
+      [
+        "instance",
+        "weightedHaarMass_nonnegative"
+      ],
+      [
+        "def",
+        "weightedHaarBoundedFamily"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_inner_tendsto"
+      ]
+    ],
+    "Hindman168/MixedDualHilbertOrthogonality.lean": [
+      [
+        "def",
+        "mixedDualHilbertGenerators"
+      ],
+      [
+        "def",
+        "mixedDualHilbertSubspace"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_inner_zero"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_orthogonal_of_gowers_zero"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_gowers_zero_of_orthogonal"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_gowers_zero_iff_orthogonal"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteSetConditionDomination.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.141000000061467,
+    "log": "round-dyadic-short-bin-domination-FiniteSetConditionDomination-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteSetConditionDomination.lean",
+    "source_sha256": "4cff68ee4c56694e68a5c32fb9d4c667f58e0e49ad0fc240c5bd8ae1d0a84109"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/DyadicHarmonicConditioning.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.25,
+    "log": "round-dyadic-short-bin-domination-DyadicHarmonicConditioning-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/DyadicHarmonicConditioning.lean",
+    "source_sha256": "2f4e3f859d8917df6f19c8620976d1525030c3041dfedcee01243a527f269a5b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/DyadicHarmonicTailLaw.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.312999999849126,
+    "log": "round-dyadic-short-bin-domination-DyadicHarmonicTailLaw-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/DyadicHarmonicTailLaw.lean",
+    "source_sha256": "a34e062018a3c4f64dc00e7685a5ce7f6ac8ac9cf7f151ceda899859d21c7b62"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/DyadicShortBinPosterior.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.937000000150874,
+    "log": "round-dyadic-short-bin-domination-DyadicShortBinPosterior-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/DyadicShortBinPosterior.lean",
+    "source_sha256": "7d8a14f73727f0717d9cfeb479d70ea969771a09dc256da13eea068297db363d"
+  }
+]

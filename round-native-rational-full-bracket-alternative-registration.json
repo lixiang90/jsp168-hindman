@@ -1,0 +1,140 @@
+{
+  "modules": [
+    "Hindman168/DenseCompleteIntervalBlock.lean",
+    "Hindman168/NativeRationalBracketFullAlternative.lean",
+    "Hindman168/NativeRationalDegreeTwoDenseBracketFullAlternative.lean",
+    "Hindman168/NativeRationalDegreeTwoDenseBracketOriginalDischarge.lean",
+    "Hindman168/NativeRationalDenseBracketFullAlternative.lean",
+    "Hindman168/NativeRationalDenseBracketOriginalDischarge.lean",
+    "Hindman168/ScalarFractionalBracketAffineControl.lean",
+    "Hindman168/ScalarFractionalBracketBlockFreezing.lean",
+    "Hindman168/ScalarFractionalBracketFullAlternative.lean",
+    "Hindman168/ScalarSmallSlopeFractionalBracketInverse.lean",
+    "Hindman168/UnitCircleAffineRelativeSlope.lean",
+    "Hindman168/UnitTorusAffineObservableInverse.lean",
+    "Hindman168/UnitTorusOptionAffineSlabInverse.lean",
+    "Hindman168/UnitTorusOptionSmallSlopeBracketInverse.lean"
+  ],
+  "names": [
+    "Hindman168.dense_complete_interval_block",
+    "Hindman168.native_rational_bracket_full_alternative",
+    "Hindman168.native_rational_degree_two_dense_bracket_full_alternative",
+    "Hindman168.native_rational_degree_two_dense_bracket_original_discharge",
+    "Hindman168.native_rational_dense_bracket_full_alternative",
+    "Hindman168.native_rational_dense_bracket_original_discharge",
+    "Hindman168.scalar_fractional_bracket_affine_norm",
+    "Hindman168.scalar_fractional_bracket_relative_slope",
+    "Hindman168.scalar_fractional_bracket_block_freezing",
+    "Hindman168.scalar_fractional_bracket_full_alternative",
+    "Hindman168.scalar_small_slope_fractional_bracket_inverse",
+    "Hindman168.unit_circle_affine_relative_slope",
+    "Hindman168.unit_torus_fourier_point_add",
+    "Hindman168.unit_torus_affine_point_norm",
+    "Hindman168.unit_torus_affine_fourier_mean_norm",
+    "Hindman168.unit_torus_affine_observable_inverse",
+    "Hindman168.unit_torus_option_affine_slab_inverse",
+    "Hindman168.unit_torus_option_small_slope_bracket_inverse"
+  ],
+  "declarations": {
+    "Hindman168/DenseCompleteIntervalBlock.lean": [
+      [
+        "theorem",
+        "dense_complete_interval_block"
+      ]
+    ],
+    "Hindman168/NativeRationalBracketFullAlternative.lean": [
+      [
+        "theorem",
+        "native_rational_bracket_full_alternative"
+      ]
+    ],
+    "Hindman168/NativeRationalDegreeTwoDenseBracketFullAlternative.lean": [
+      [
+        "theorem",
+        "native_rational_degree_two_dense_bracket_full_alternative"
+      ]
+    ],
+    "Hindman168/NativeRationalDegreeTwoDenseBracketOriginalDischarge.lean": [
+      [
+        "theorem",
+        "native_rational_degree_two_dense_bracket_original_discharge"
+      ]
+    ],
+    "Hindman168/NativeRationalDenseBracketFullAlternative.lean": [
+      [
+        "theorem",
+        "native_rational_dense_bracket_full_alternative"
+      ]
+    ],
+    "Hindman168/NativeRationalDenseBracketOriginalDischarge.lean": [
+      [
+        "theorem",
+        "native_rational_dense_bracket_original_discharge"
+      ]
+    ],
+    "Hindman168/ScalarFractionalBracketAffineControl.lean": [
+      [
+        "theorem",
+        "scalar_fractional_bracket_affine_norm"
+      ],
+      [
+        "theorem",
+        "scalar_fractional_bracket_relative_slope"
+      ]
+    ],
+    "Hindman168/ScalarFractionalBracketBlockFreezing.lean": [
+      [
+        "theorem",
+        "scalar_fractional_bracket_block_freezing"
+      ]
+    ],
+    "Hindman168/ScalarFractionalBracketFullAlternative.lean": [
+      [
+        "theorem",
+        "scalar_fractional_bracket_full_alternative"
+      ]
+    ],
+    "Hindman168/ScalarSmallSlopeFractionalBracketInverse.lean": [
+      [
+        "theorem",
+        "scalar_small_slope_fractional_bracket_inverse"
+      ]
+    ],
+    "Hindman168/UnitCircleAffineRelativeSlope.lean": [
+      [
+        "theorem",
+        "unit_circle_affine_relative_slope"
+      ]
+    ],
+    "Hindman168/UnitTorusAffineObservableInverse.lean": [
+      [
+        "theorem",
+        "unit_torus_fourier_point_add"
+      ],
+      [
+        "theorem",
+        "unit_torus_affine_point_norm"
+      ],
+      [
+        "theorem",
+        "unit_torus_affine_fourier_mean_norm"
+      ],
+      [
+        "theorem",
+        "unit_torus_affine_observable_inverse"
+      ]
+    ],
+    "Hindman168/UnitTorusOptionAffineSlabInverse.lean": [
+      [
+        "theorem",
+        "unit_torus_option_affine_slab_inverse"
+      ]
+    ],
+    "Hindman168/UnitTorusOptionSmallSlopeBracketInverse.lean": [
+      [
+        "theorem",
+        "unit_torus_option_small_slope_bracket_inverse"
+      ]
+    ]
+  }
+}

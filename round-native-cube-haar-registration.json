@@ -1,0 +1,108 @@
+{
+  "modules": [
+    "Hindman168/NativeResidueCubeOrbit.lean",
+    "Hindman168/NativeResidueCubeHaarImage.lean",
+    "Hindman168/NativeNilmanifoldProbabilityFullSupport.lean",
+    "Hindman168/NativeResidueCubeHaarInvariance.lean",
+    "Hindman168/NativeResidueCubeHaarSupport.lean"
+  ],
+  "names": [
+    "Hindman168.native_cube_vertex_difference",
+    "Hindman168.native_residue_cube_lattice_vertices",
+    "Hindman168.nativeResidueCubeOrbitMap",
+    "Hindman168.native_residue_cube_orbit_map_mk",
+    "Hindman168.native_residue_cube_orbit_map_injective",
+    "Hindman168.native_residue_cube_orbit_map_continuous",
+    "Hindman168.native_residue_cube_orbit_range_compact",
+    "Hindman168.nativeResidueCubeHaarImage",
+    "Hindman168.native_residue_cube_haar_isProbability",
+    "Hindman168.native_residue_cube_haar_concentrated",
+    "Hindman168.native_nilmanifold_quotient_probability_fullSupport",
+    "Hindman168.nativeResidueCubeVertexAction",
+    "Hindman168.native_residue_cube_vertex_action_continuous",
+    "Hindman168.native_residue_cube_orbit_equivariant",
+    "Hindman168.native_residue_cube_haar_invariant",
+    "Hindman168.native_residue_cube_orbit_closedEmbedding",
+    "Hindman168.native_residue_cube_haar_open_pos_iff"
+  ],
+  "declarations": {
+    "Hindman168/NativeResidueCubeOrbit.lean": [
+      [
+        "theorem",
+        "native_cube_vertex_difference"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_lattice_vertices"
+      ],
+      [
+        "def",
+        "nativeResidueCubeOrbitMap"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_orbit_map_mk"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_orbit_map_injective"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_orbit_map_continuous"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_orbit_range_compact"
+      ]
+    ],
+    "Hindman168/NativeResidueCubeHaarImage.lean": [
+      [
+        "def",
+        "nativeResidueCubeHaarImage"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_haar_isProbability"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_haar_concentrated"
+      ]
+    ],
+    "Hindman168/NativeNilmanifoldProbabilityFullSupport.lean": [
+      [
+        "theorem",
+        "native_nilmanifold_quotient_probability_fullSupport"
+      ]
+    ],
+    "Hindman168/NativeResidueCubeHaarInvariance.lean": [
+      [
+        "def",
+        "nativeResidueCubeVertexAction"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_vertex_action_continuous"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_orbit_equivariant"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_haar_invariant"
+      ]
+    ],
+    "Hindman168/NativeResidueCubeHaarSupport.lean": [
+      [
+        "theorem",
+        "native_residue_cube_orbit_closedEmbedding"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_haar_open_pos_iff"
+      ]
+    ]
+  }
+}

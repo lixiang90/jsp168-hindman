@@ -1,0 +1,123 @@
+[
+  {
+    "old": "MaskOriginalFunctionBounds",
+    "module": "MaskGeneralFunctionBounds",
+    "names": [
+      "source_tests_eventually_sup_bound_majorized"
+    ]
+  },
+  {
+    "old": "MaskOriginalInsertionLimit",
+    "module": "MaskGeneralInsertionLimit",
+    "names": [
+      "source_insertion_difference_rapid_majorized",
+      "source_insertion_weighted_tendsto_zero_majorized"
+    ]
+  },
+  {
+    "old": "MaskOriginalInsertionPowers",
+    "module": "MaskGeneralInsertionPowers",
+    "names": [
+      "source_insertion_power_error_rapid_majorized",
+      "source_insertion_power_error_weighted_tendsto_majorized",
+      "source_unshifted_recurrence_majorized"
+    ]
+  },
+  {
+    "old": "MaskOriginalRetainedRootSmoothing",
+    "module": "MaskGeneralRetainedRootSmoothing",
+    "names": [
+      "terminal_integrand_eventually_bound_majorized",
+      "terminalTest_eventually_bound_majorized",
+      "source_terminal_root_smoothing_rapid_majorized"
+    ]
+  },
+  {
+    "old": "MaskOriginalSmoothedTerminal",
+    "module": "MaskGeneralSmoothedTerminal",
+    "names": [
+      "source_smoothed_terminal_difference_rapid_majorized",
+      "source_smoothed_terminal_weighted_tendsto_majorized",
+      "source_unshifted_smoothed_recurrence_majorized"
+    ]
+  },
+  {
+    "old": "MaskNativeWeightedReplacement",
+    "module": "MaskGeneralNativeReplacement",
+    "names": [
+      "source_nativeG_eventually_domination_majorized",
+      "source_native_weighted_replacement_tendsto_zero_majorized",
+      "source_native_terminal_replacement_tendsto_zero_majorized"
+    ]
+  },
+  {
+    "old": "MaskOriginalWeightedReplacement",
+    "module": "MaskGeneralWeightedReplacement",
+    "names": [
+      "source_smoothed_replacement_tendsto_zero_majorized"
+    ]
+  },
+  {
+    "old": "MaskOriginalAdditiveOutput",
+    "module": "MaskGeneralAdditiveOutput",
+    "names": [
+      "source_unshifted_additive_output_majorized"
+    ]
+  },
+  {
+    "old": "MaskTargetAnchorComparison",
+    "module": "MaskGeneralAnchorComparison",
+    "names": [
+      "source_rootCubeTest_eventually_bounded_majorized",
+      "source_targetCube_anchor_comparison_majorized"
+    ]
+  },
+  {
+    "old": "MaskTargetUniformAnchorError",
+    "module": "MaskGeneralUniformAnchorError",
+    "names": [
+      "source_targetCube_uniform_anchor_comparison_majorized"
+    ]
+  },
+  {
+    "old": "MaskTargetProgressionTransfer",
+    "module": "MaskGeneralProgressionTransfer",
+    "names": [
+      "source_targetProgression_transfer_bound_majorized",
+      "source_targetProgression_transfer_rapid_majorized",
+      "source_targetProgression_transfer_weighted_tendsto_majorized"
+    ]
+  },
+  {
+    "old": "MaskTargetResidueAverage",
+    "module": "MaskGeneralResidueAverage",
+    "names": [
+      "source_targetRootRest_progression_error_majorized"
+    ]
+  },
+  {
+    "old": "MaskTargetResidueErrorRates",
+    "module": "MaskGeneralResidueErrorRates",
+    "names": [
+      "source_targetRootRest_progression_uniform_majorized"
+    ]
+  },
+  {
+    "old": "MaskTargetUnrestrictedTransfer",
+    "module": "MaskGeneralUnrestrictedTransfer",
+    "names": [
+      "source_targetProgression_unrestricted_bound_majorized",
+      "source_targetProgression_unrestricted_rapid_majorized",
+      "source_targetCube_unrestricted_transfer_bound_majorized",
+      "source_targetCube_unrestricted_transfer_rapid_majorized",
+      "source_targetCube_unrestricted_transfer_weighted_tendsto_majorized"
+    ]
+  },
+  {
+    "old": "MaskUnrestrictedAdditiveOutput",
+    "module": "MaskGeneralUnrestrictedAdditiveOutput",
+    "names": [
+      "source_unshifted_unrestricted_additive_output_majorized"
+    ]
+  }
+]

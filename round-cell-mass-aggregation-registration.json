@@ -1,0 +1,31 @@
+{
+  "baseline_hash_count": 1035,
+  "modules": [
+    "Hindman168/CompleteResidueCellMassPositive.lean",
+    "Hindman168/CompleteResidueCellMassAggregate.lean"
+  ],
+  "names": [
+    "Hindman168.completeResidueCell_integerMass_pos",
+    "Hindman168.completeResidueCell_integerMass_unnormalized_error",
+    "Hindman168.completeResidueCells_integerMass_aggregate_error"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/CompleteResidueCellMassPositive.lean": [
+      [
+        "theorem",
+        "completeResidueCell_integerMass_pos"
+      ],
+      [
+        "theorem",
+        "completeResidueCell_integerMass_unnormalized_error"
+      ]
+    ],
+    "Hindman168/CompleteResidueCellMassAggregate.lean": [
+      [
+        "theorem",
+        "completeResidueCells_integerMass_aggregate_error"
+      ]
+    ]
+  }
+}

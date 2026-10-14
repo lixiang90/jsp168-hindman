@@ -1,0 +1,122 @@
+{
+  "modules": [
+    "Hindman168/AlignmentJointFullSpatialReadings.lean",
+    "Hindman168/AlignmentOriginalDenominatorChoices.lean",
+    "Hindman168/AlignmentJointOriginalProductCubeMean.lean",
+    "Hindman168/AlignmentJointMetricProductBounds.lean",
+    "Hindman168/AlignmentJointTerminalGridMeans.lean",
+    "Hindman168/AlignmentJointActualTerminalTranslation.lean",
+    "Hindman168/AlignmentOriginalProductRemovalFailure.lean",
+    "Hindman168/AlignmentOriginalProductRemovalPosterior.lean"
+  ],
+  "names": [
+    "Hindman168.alignment_joint_exposed_native_source_tail_congr",
+    "Hindman168.alignment_joint_full_spatial_original_product_sample",
+    "Hindman168.alignmentDenominatorChoice",
+    "Hindman168.alignmentDenominatorRemainder",
+    "Hindman168.alignment_denominator_choice_remainder",
+    "Hindman168.alignment_denominator_remainder_class",
+    "Hindman168.alignment_terminal_cube_residue_box",
+    "Hindman168.alignmentOriginalProductCubeMean",
+    "Hindman168.alignment_original_product_cube_mean_full_crt",
+    "Hindman168.alignment_joint_native_metric_product_norm_bound",
+    "Hindman168.alignment_joint_original_test_family_norm_bound",
+    "Hindman168.alignmentJointDenominatorSpatialMean",
+    "Hindman168.alignmentJointTranslatedDenominatorMean",
+    "Hindman168.alignment_joint_terminal_grid_mean",
+    "Hindman168.alignment_joint_terminal_single_translation_bound",
+    "Hindman168.alignment_joint_actual_terminal_translation_eventually",
+    "Hindman168.alignmentOriginalProductRemovalFailure",
+    "Hindman168.alignment_original_product_removal_posterior_vanishing"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentJointFullSpatialReadings.lean": [
+      [
+        "theorem",
+        "alignment_joint_exposed_native_source_tail_congr"
+      ],
+      [
+        "theorem",
+        "alignment_joint_full_spatial_original_product_sample"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalDenominatorChoices.lean": [
+      [
+        "def",
+        "alignmentDenominatorChoice"
+      ],
+      [
+        "def",
+        "alignmentDenominatorRemainder"
+      ],
+      [
+        "theorem",
+        "alignment_denominator_choice_remainder"
+      ],
+      [
+        "theorem",
+        "alignment_denominator_remainder_class"
+      ],
+      [
+        "theorem",
+        "alignment_terminal_cube_residue_box"
+      ]
+    ],
+    "Hindman168/AlignmentJointOriginalProductCubeMean.lean": [
+      [
+        "def",
+        "alignmentOriginalProductCubeMean"
+      ],
+      [
+        "theorem",
+        "alignment_original_product_cube_mean_full_crt"
+      ]
+    ],
+    "Hindman168/AlignmentJointMetricProductBounds.lean": [
+      [
+        "theorem",
+        "alignment_joint_native_metric_product_norm_bound"
+      ],
+      [
+        "theorem",
+        "alignment_joint_original_test_family_norm_bound"
+      ]
+    ],
+    "Hindman168/AlignmentJointTerminalGridMeans.lean": [
+      [
+        "def",
+        "alignmentJointDenominatorSpatialMean"
+      ],
+      [
+        "def",
+        "alignmentJointTranslatedDenominatorMean"
+      ],
+      [
+        "theorem",
+        "alignment_joint_terminal_grid_mean"
+      ],
+      [
+        "theorem",
+        "alignment_joint_terminal_single_translation_bound"
+      ]
+    ],
+    "Hindman168/AlignmentJointActualTerminalTranslation.lean": [
+      [
+        "theorem",
+        "alignment_joint_actual_terminal_translation_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalProductRemovalFailure.lean": [
+      [
+        "def",
+        "alignmentOriginalProductRemovalFailure"
+      ]
+    ],
+    "Hindman168/AlignmentOriginalProductRemovalPosterior.lean": [
+      [
+        "theorem",
+        "alignment_original_product_removal_posterior_vanishing"
+      ]
+    ]
+  }
+}

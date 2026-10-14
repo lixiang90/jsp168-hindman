@@ -1,0 +1,74 @@
+{
+  "modules": [
+    "Hindman168/NativeRationalTaylorCoordinates.lean",
+    "Hindman168/NativeRationalTaylorLevelDescent.lean"
+  ],
+  "names": [
+    "Hindman168.native_rational_taylor_initial_value_layer",
+    "Hindman168.native_rational_taylor_correction_weighted",
+    "Hindman168.native_rational_taylor_removal_weighted",
+    "Hindman168.native_rational_taylor_residual_properties",
+    "Hindman168.native_rational_taylor_residual_terminal",
+    "Hindman168.native_rational_taylor_ordered_representation",
+    "Hindman168.native_rational_taylor_actual_coefficient_layer",
+    "Hindman168.nativeRationalTaylorLevelKernel",
+    "Hindman168.native_rational_taylor_level_kernel_layer",
+    "Hindman168.native_rational_taylor_level_kernel_layer_le",
+    "Hindman168.native_rational_taylor_level_kernel_strict_dimension",
+    "Hindman168.native_rational_taylor_level_kernel_total_dimension_lt"
+  ],
+  "declarations": {
+    "Hindman168/NativeRationalTaylorCoordinates.lean": [
+      [
+        "theorem",
+        "native_rational_taylor_initial_value_layer"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_correction_weighted"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_removal_weighted"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_residual_properties"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_residual_terminal"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_ordered_representation"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_actual_coefficient_layer"
+      ]
+    ],
+    "Hindman168/NativeRationalTaylorLevelDescent.lean": [
+      [
+        "def",
+        "nativeRationalTaylorLevelKernel"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_level_kernel_layer"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_level_kernel_layer_le"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_level_kernel_strict_dimension"
+      ],
+      [
+        "theorem",
+        "native_rational_taylor_level_kernel_total_dimension_lt"
+      ]
+    ]
+  }
+}

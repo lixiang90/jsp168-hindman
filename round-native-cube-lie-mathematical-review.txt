@@ -1,0 +1,52 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI 07_cube_limits.tex, upper-face coordinates and explicit
+cube-group-filtration. This round proves the Lie algebra and its genuine
+native product-lattice rationality, not the complete local cube law.
+
+Arrays are actual vertex functions, with explicitly supplied local pointwise
+Lie structures. No global instance changes or native bracket replacements.
+The face homomorphism is x on vertices containing D and zero elsewhere.
+The exact bracket identity uses D union E and covers the empty face.
+
+Layer i is the REAL span of faces with x in F(max(i,card D)). Its bracket
+is closed at i+j because max(i,card D)+max(j,card E) is at least i+j and
+at least card(D union E). The two-sided span induction uses actual Lie
+bilinearity. Initial equality uses F0=F1, with card D=0 handled separately.
+Terminal vanishing follows antitonicity from F(ell+1)=0. The SAME final
+filtration is used; F0 is allowed to be a proper original Lie subspace.
+
+The value of a face sum at V is exactly the sum over powerset V. Strong
+induction over proper subsets recovers each coefficient, proving injectivity.
+Span induction constructs all coefficients with their stated layer bounds;
+therefore existence and uniqueness are proved, not installed as structure
+fields. This is LINEAR Lie-array coordinates, not yet the ordered nonlinear
+group-coordinate diffeomorphism.
+
+Restricted spanning needs only P(0) and original layer spanning by P-vectors.
+Each single-face vector is coordinatewise P; its span gives the whole cube
+layer. Native application takes P equal to membership in the actual original
+lattice rational logarithm span. This alone is not assumed to imply actual
+product-lattice rationality; a separate theorem proves that step.
+
+The native embedding is the actual finite product Lie map of vertex
+evaluations restricted to the cube algebra. Surjectivity of the finite
+vertex enumeration proves injectivity. The original finite product
+exponential theorem identifies every coordinate with the original
+exponential. The enumeration has 2^d vertices, so d=0 remains a nonempty
+single-coordinate product.
+
+For actual product rationality, recursively combine positive exponents a,b
+as a*b. Membership of each component follows from its original lattice
+membership after raising to b or a, respectively. No normal lattice is
+assumed. The rational-power characterization then gives actual membership
+in the product rational log span. Applying this to restricted generators
+and using linear span induction proves nativeLatticeRationalSubspace for
+the embedded cube algebra range and the SPECIFIED product lattice.
+
+Remaining are the exponential subgroup / upper-face generated-group
+identification, compact lattice quotient and full native cube datum, actual
+face-character coefficient isolation, simultaneous source cube laws through
+original s+1, face invariance/full support, joint lifts/full Alignment,
+separate GTZ inverse and the full positive distinct rapidly separated
+SAME-color ALL nonempty FS and FP conclusion. No unavoidable obstruction.
+Author checks are not independent kernel replay or external peer review.

@@ -1,0 +1,36 @@
+{
+  "modules": [
+    "Hindman168/RoughNestedResidueSampling.lean"
+  ],
+  "names": [
+    "Hindman168.rough_nested_residue_interval_image",
+    "Hindman168.rough_nested_residue_box_image",
+    "Hindman168.rough_nested_residue_box_uniform_push",
+    "Hindman168.rough_nested_residue_box_complex_discrepancy",
+    "Hindman168.rough_nested_residue_compatible_representatives"
+  ],
+  "declarations": {
+    "Hindman168/RoughNestedResidueSampling.lean": [
+      [
+        "theorem",
+        "rough_nested_residue_interval_image"
+      ],
+      [
+        "theorem",
+        "rough_nested_residue_box_image"
+      ],
+      [
+        "theorem",
+        "rough_nested_residue_box_uniform_push"
+      ],
+      [
+        "theorem",
+        "rough_nested_residue_box_complex_discrepancy"
+      ],
+      [
+        "theorem",
+        "rough_nested_residue_compatible_representatives"
+      ]
+    ]
+  }
+}

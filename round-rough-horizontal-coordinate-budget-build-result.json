@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.438000000081956,
+  "log": "round-rough-horizontal-coordinate-budget-build.txt",
+  "log_sha256": "73fa1f74c2acfc268ff2ef4fef9005f8c07d3c386eaffba9ccb60faa7f15a827"
+}

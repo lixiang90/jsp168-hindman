@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.281999999890104,
+  "log": "round-canonical-face-counting-build.txt",
+  "log_sha256": "7af6471c8489e6955a627417ae8ac0ac04c10443b672ecc90bf1a8cdff62e611"
+}

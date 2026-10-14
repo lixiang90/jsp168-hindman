@@ -1,0 +1,124 @@
+{
+  "baseline_hash_count": 1159,
+  "modules": [
+    "Hindman168/FiniteTranslateSumError.lean",
+    "Hindman168/IntegerIntervalPeriodicMean.lean",
+    "Hindman168/IntegerIntervalCubeRealLowerBound.lean",
+    "Hindman168/CyclicIntervalCubeTransfer.lean",
+    "Hindman168/CyclicIntervalUniformPeriodError.lean",
+    "Hindman168/CyclicIntervalPositiveNormTransfer.lean"
+  ],
+  "names": [
+    "Hindman168.finite_unit_sum_abs_le_card",
+    "Hindman168.finite_unit_sum_difference_bound",
+    "Hindman168.finite_translate_sum_difference_bound",
+    "Hindman168.integerIntervalPeriodicCubeMean",
+    "Hindman168.integerIntervalPeriodicCubeMean_translate_error",
+    "Hindman168.integerIntervalPeriodicCubeMean_residue_average",
+    "Hindman168.integerIntervalPeriodicCubeMean_cyclic_error",
+    "Hindman168.integerIntervalCubeDomain_card_real_lower",
+    "Hindman168.integerIntervalCubeTransferConstant",
+    "Hindman168.integerIntervalCubeTransferConstant_pos",
+    "Hindman168.integerIntervalPeriodicCubeMean_scaled_error",
+    "Hindman168.integerIntervalPeriodicCubeMean_period_error",
+    "Hindman168.integerIntervalPeriodicCubeMean_abs_le_one",
+    "Hindman168.integerIntervalCubeTransferConstant_lower",
+    "Hindman168.integerIntervalPeriodicCubeMean_all_period_error",
+    "Hindman168.integerIntervalPeriodicGowersValue",
+    "Hindman168.integerIntervalPeriodicGowersValue_pow",
+    "Hindman168.integerIntervalPeriodicGowersValue_nonneg",
+    "Hindman168.cyclic_positive_norm_interval_transfer"
+  ],
+  "theorem_count": 16,
+  "selected_report_count": 19,
+  "declarations": {
+    "Hindman168/FiniteTranslateSumError.lean": [
+      [
+        "theorem",
+        "finite_unit_sum_abs_le_card"
+      ],
+      [
+        "theorem",
+        "finite_unit_sum_difference_bound"
+      ],
+      [
+        "theorem",
+        "finite_translate_sum_difference_bound"
+      ]
+    ],
+    "Hindman168/IntegerIntervalPeriodicMean.lean": [
+      [
+        "def",
+        "integerIntervalPeriodicCubeMean"
+      ],
+      [
+        "theorem",
+        "integerIntervalPeriodicCubeMean_translate_error"
+      ],
+      [
+        "theorem",
+        "integerIntervalPeriodicCubeMean_residue_average"
+      ],
+      [
+        "theorem",
+        "integerIntervalPeriodicCubeMean_cyclic_error"
+      ]
+    ],
+    "Hindman168/IntegerIntervalCubeRealLowerBound.lean": [
+      [
+        "theorem",
+        "integerIntervalCubeDomain_card_real_lower"
+      ]
+    ],
+    "Hindman168/CyclicIntervalCubeTransfer.lean": [
+      [
+        "def",
+        "integerIntervalCubeTransferConstant"
+      ],
+      [
+        "theorem",
+        "integerIntervalCubeTransferConstant_pos"
+      ],
+      [
+        "theorem",
+        "integerIntervalPeriodicCubeMean_scaled_error"
+      ],
+      [
+        "theorem",
+        "integerIntervalPeriodicCubeMean_period_error"
+      ]
+    ],
+    "Hindman168/CyclicIntervalUniformPeriodError.lean": [
+      [
+        "theorem",
+        "integerIntervalPeriodicCubeMean_abs_le_one"
+      ],
+      [
+        "theorem",
+        "integerIntervalCubeTransferConstant_lower"
+      ],
+      [
+        "theorem",
+        "integerIntervalPeriodicCubeMean_all_period_error"
+      ]
+    ],
+    "Hindman168/CyclicIntervalPositiveNormTransfer.lean": [
+      [
+        "def",
+        "integerIntervalPeriodicGowersValue"
+      ],
+      [
+        "theorem",
+        "integerIntervalPeriodicGowersValue_pow"
+      ],
+      [
+        "theorem",
+        "integerIntervalPeriodicGowersValue_nonneg"
+      ],
+      [
+        "theorem",
+        "cyclic_positive_norm_interval_transfer"
+      ]
+    ]
+  }
+}

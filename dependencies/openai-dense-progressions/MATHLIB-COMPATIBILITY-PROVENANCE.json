@@ -1,0 +1,16 @@
+[
+  {
+    "module": "OAI.Compatibility.MathlibExteriorPower",
+    "path": "OAI/Compatibility/MathlibExteriorPower.lean",
+    "original_sha256": "5b908fd9b2e9f429431b7f38171d6e532bdb1b64f298fb51031c83344a50774a",
+    "immutable_original_path": "E:/codex-build/sun_prize/jsp168-hindman/openai-mathlib-exterior-power-original.lean",
+    "upstream_repository": "https://github.com/leanprover-community/mathlib4",
+    "upstream_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "upstream_path": "Mathlib/Analysis/InnerProductSpace/ExteriorPower.lean",
+    "authors": [
+      "Justus Springer"
+    ],
+    "license": "Apache-2.0",
+    "classification": "ATTRIBUTED COMPATIBILITY CANDIDATE; not yet a verified proof input"
+  }
+]

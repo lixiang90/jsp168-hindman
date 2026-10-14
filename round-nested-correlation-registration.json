@@ -1,0 +1,82 @@
+{
+  "baseline_hash_count": 1124,
+  "modules": [
+    "Hindman168/WeightedHaarRecursiveCauchySchwarz.lean",
+    "Hindman168/SubgroupSumPairMoment.lean",
+    "Hindman168/NestedMixedDualCorrelation.lean",
+    "Hindman168/NestedMixedDualCorrelationLimit.lean"
+  ],
+  "names": [
+    "Hindman168.weightedHaarMean_internal_comm",
+    "Hindman168.finiteHaarMean_square_eq_pair",
+    "Hindman168.weightedHaar_correlation_translate",
+    "Hindman168.weightedHaar_recursive_correlation_square_le",
+    "Hindman168.finiteHaarMean_sup_sum",
+    "Hindman168.finiteHaarMean_sup_pair",
+    "Hindman168.weightedSubgroupGowersValue_sum_pair_moment",
+    "Hindman168.weightedSubgroupGowersValue_sum_pair_test_bound",
+    "Hindman168.weightedHaarMean_abs_le_one",
+    "Hindman168.weightedHaar_nested_dual_correlation_square_le",
+    "Hindman168.weightedHaar_nested_dual_correlation_bound",
+    "Hindman168.mixedDualHilbert_nested_correlation_tendsto_zero"
+  ],
+  "theorem_count": 12,
+  "declarations": {
+    "Hindman168/WeightedHaarRecursiveCauchySchwarz.lean": [
+      [
+        "theorem",
+        "weightedHaarMean_internal_comm"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_square_eq_pair"
+      ],
+      [
+        "theorem",
+        "weightedHaar_correlation_translate"
+      ],
+      [
+        "theorem",
+        "weightedHaar_recursive_correlation_square_le"
+      ]
+    ],
+    "Hindman168/SubgroupSumPairMoment.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_sup_sum"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_sup_pair"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_sum_pair_moment"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_sum_pair_test_bound"
+      ]
+    ],
+    "Hindman168/NestedMixedDualCorrelation.lean": [
+      [
+        "theorem",
+        "weightedHaarMean_abs_le_one"
+      ],
+      [
+        "theorem",
+        "weightedHaar_nested_dual_correlation_square_le"
+      ],
+      [
+        "theorem",
+        "weightedHaar_nested_dual_correlation_bound"
+      ]
+    ],
+    "Hindman168/NestedMixedDualCorrelationLimit.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_nested_correlation_tendsto_zero"
+      ]
+    ]
+  }
+}

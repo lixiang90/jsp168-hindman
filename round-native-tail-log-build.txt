@@ -1,0 +1,11 @@
+✔ [5273/5274] Built Hindman168.AlignmentJointParameterTailCongruence (12s)
+✖ [5274/5274] Building Hindman168.AlignmentNativeModelLogEvalCongruence (13s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\AlignmentNativeModelLogEvalCongruence.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AlignmentNativeModelLogEvalCongruence.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\AlignmentNativeModelLogEvalCongruence.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AlignmentNativeModelLogEvalCongruence.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\AlignmentNativeModelLogEvalCongruence.setup.json --json
+error: Hindman168/AlignmentNativeModelLogEvalCongruence.lean:13:23: failed to synthesize instance of type class
+  LieRing (GroupLieAlgebra D.I D.G)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.AlignmentNativeModelLogEvalCongruence
+error: build failed

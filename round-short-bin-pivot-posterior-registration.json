@@ -1,0 +1,97 @@
+{
+  "modules": [
+    "Hindman168/ShortBinHarmonic.lean",
+    "Hindman168/FiniteConditionalLikelihood.lean",
+    "Hindman168/ShortBinPivotLaw.lean"
+  ],
+  "names": [
+    "Hindman168.shortBin_log_lower",
+    "Hindman168.shortBin_log_pos",
+    "Hindman168.shortBin_harmonic_error",
+    "Hindman168.shortBin_harmonic_relative_error",
+    "Hindman168.shortBin_harmonic_uniform_error",
+    "Hindman168.shortBin_harmonic_half_bounds",
+    "Hindman168.shortBin_harmonic_comparison",
+    "Hindman168.FiniteMass.event_conditionalJoint",
+    "Hindman168.FiniteMass.event_conditionJoint_outer",
+    "Hindman168.FiniteMass.likelihood_expectation_lower",
+    "Hindman168.FiniteMass.likelihood_event_upper",
+    "Hindman168.FiniteMass.conditionJoint_event_pos",
+    "Hindman168.FiniteMass.conditionJoint_outer_domination",
+    "Hindman168.mem_residueWindow",
+    "Hindman168.shortBin_rawMass_event",
+    "Hindman168.shortBin_pivot_posterior_domination"
+  ],
+  "declarations": {
+    "Hindman168/ShortBinHarmonic.lean": [
+      [
+        "theorem",
+        "shortBin_log_lower"
+      ],
+      [
+        "theorem",
+        "shortBin_log_pos"
+      ],
+      [
+        "theorem",
+        "shortBin_harmonic_error"
+      ],
+      [
+        "theorem",
+        "shortBin_harmonic_relative_error"
+      ],
+      [
+        "theorem",
+        "shortBin_harmonic_uniform_error"
+      ],
+      [
+        "theorem",
+        "shortBin_harmonic_half_bounds"
+      ],
+      [
+        "theorem",
+        "shortBin_harmonic_comparison"
+      ]
+    ],
+    "Hindman168/FiniteConditionalLikelihood.lean": [
+      [
+        "theorem",
+        "event_conditionalJoint"
+      ],
+      [
+        "theorem",
+        "event_conditionJoint_outer"
+      ],
+      [
+        "theorem",
+        "likelihood_expectation_lower"
+      ],
+      [
+        "theorem",
+        "likelihood_event_upper"
+      ],
+      [
+        "theorem",
+        "conditionJoint_event_pos"
+      ],
+      [
+        "theorem",
+        "conditionJoint_outer_domination"
+      ]
+    ],
+    "Hindman168/ShortBinPivotLaw.lean": [
+      [
+        "theorem",
+        "mem_residueWindow"
+      ],
+      [
+        "theorem",
+        "shortBin_rawMass_event"
+      ],
+      [
+        "theorem",
+        "shortBin_pivot_posterior_domination"
+      ]
+    ]
+  }
+}

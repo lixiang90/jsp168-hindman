@@ -1,0 +1,162 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLieSubalgebraGraph.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.484999999869615,
+    "log": "round-native-array-integration-NativeLieSubalgebraGraph-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLieSubalgebraGraph.lean",
+    "source_sha256": "d214c639d6ff66466ce426c78b9736b529881c88ce04cfc1aa9a614496551f5c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLieSubalgebraGraphProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.515000000130385,
+    "log": "round-native-array-integration-NativeLieSubalgebraGraphProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLieSubalgebraGraphProjection.lean",
+    "source_sha256": "3e84e48b70a78db2b3f3317a267cc7995de8af905ff6ed6db3114691b5f64c37"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLieSubalgebraIntegration.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.468999999808148,
+    "log": "round-native-array-integration-NativeLieSubalgebraIntegration-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLieSubalgebraIntegration.lean",
+    "source_sha256": "380f581245431019ac06d71401304f09725258aac54a0d14ddbff79ae9992687"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLieSubalgebraIntegrationContinuity.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.688000000081956,
+    "log": "round-native-array-integration-NativeLieSubalgebraIntegrationContinuity-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLieSubalgebraIntegrationContinuity.lean",
+    "source_sha256": "3f349f6d0f0ef5a8fe8c4ad748bb05ea91343d45f3db7d3c5cc8689bef7738ab"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeIntegerEvaluation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.5,
+    "log": "round-native-array-integration-AlignmentNativeIntegerEvaluation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeIntegerEvaluation.lean",
+    "source_sha256": "993d38c2a079ab5d8363988f0767750874e5face5240ff926f51561319309d1a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeAllIntegerArrays.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.671000000089407,
+    "log": "round-native-array-integration-AlignmentNativeAllIntegerArrays-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeAllIntegerArrays.lean",
+    "source_sha256": "dc1b99abec2f10f4adc2f026ed697dc06586cff22b1f00be379403608121b6b8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFiniteProductCoordinateTopology.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.484000000171363,
+    "log": "round-native-array-integration-NativeFiniteProductCoordinateTopology-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeFiniteProductCoordinateTopology.lean",
+    "source_sha256": "33097120d263dfb8168677f9eb2e8e98a9e750ed36bd298434cdbb55c972d58c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeArrayTopology.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.047000000020489,
+    "log": "round-native-array-integration-AlignmentNativeArrayTopology-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeArrayTopology.lean",
+    "source_sha256": "40ec590de8de60c611c253e092e4202577fe1546eada1b556ea1d4a234b3227c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteDeterminedArrayLattice.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.79699999978766,
+    "log": "round-native-array-integration-FiniteDeterminedArrayLattice-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteDeterminedArrayLattice.lean",
+    "source_sha256": "8e7b67c7e09b65fcb7508721eb368d2ca21c79492c70035270e2bb0cf0d9e4a5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeArrayLattice.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.766000000061467,
+    "log": "round-native-array-integration-AlignmentNativeArrayLattice-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeArrayLattice.lean",
+    "source_sha256": "e58894cad2a78203c0e5cd94814d9709a43bc3eba2d185d73bdf316d31941314"
+  }
+]

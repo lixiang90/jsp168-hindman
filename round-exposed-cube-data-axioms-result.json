@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.515999999828637,
+  "log": "round-exposed-cube-data-axioms.txt",
+  "log_sha256": "057202664cc48f2d7e769ddb062e0f09357595fd2d381e875264d330fa577ce4"
+}

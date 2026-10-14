@@ -1,0 +1,146 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralChildZeroObservable.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.20299999997951,
+    "log": "round-native-child-regularity-NativeCentralChildZeroObservable-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralChildZeroObservable.lean",
+    "source_sha256": "8e870c0a694b327ed8469e6a75f889e13e03c82b85fc65cf0967490bc913e9f2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CompactLipschitzAlgebra.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.25,
+    "log": "round-native-child-regularity-CompactLipschitzAlgebra-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CompactLipschitzAlgebra.lean",
+    "source_sha256": "cda1bf6bca123e0065df887ed971248ea7fab4c5854ccf737a6162c6c316c45b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CompactLipschitzApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.719000000040978,
+    "log": "round-native-child-regularity-CompactLipschitzApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CompactLipschitzApproximation.lean",
+    "source_sha256": "f7d37f3cf086d7c336b3be75e3d30ea2b2a1eb75777e69cc3d64f0df642409c4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralChildRegularFamily.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.20299999997951,
+    "log": "round-native-child-regularity-NativeCentralChildRegularFamily-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralChildRegularFamily.lean",
+    "source_sha256": "f0ec78fa823cb9512abc39e062a500d5749a8a72be33a86bf2245a8cfaa0a2af"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralChildDiscrepancy.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.07799999997951,
+    "log": "round-native-child-regularity-NativeCentralChildDiscrepancy-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralChildDiscrepancy.lean",
+    "source_sha256": "f274bd77e4b1d4fdce834d3bc1311a44aeaaa5ace2f8ba3f288f5edb49677f84"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/LinearDiscrepancyStability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.516000000061467,
+    "log": "round-native-child-regularity-LinearDiscrepancyStability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/LinearDiscrepancyStability.lean",
+    "source_sha256": "18d40157f1ee58baca727fe941deb2af9fb00a743e982903d66212fb24f55f25"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralChildRegularDetection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.17200000002049,
+    "log": "round-native-child-regularity-NativeCentralChildRegularDetection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralChildRegularDetection.lean",
+    "source_sha256": "cec95202bcb3ea097f73394dbf002ce5aa9a4b6010873b3eed965eb450376db6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/BoundedLipschitzNormalization.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.921000000089407,
+    "log": "round-native-child-regularity-BoundedLipschitzNormalization-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/BoundedLipschitzNormalization.lean",
+    "source_sha256": "0df60d54ba33470c7175775b9cc84fa5ffd7b5a9e53aadc902159aabe66b8c3b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralChildUnitDetection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.42200000002049,
+    "log": "round-native-child-regularity-NativeCentralChildUnitDetection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralChildUnitDetection.lean",
+    "source_sha256": "a2bc5bcd1593722748aabc30415a3f63bdcd2b09bc86da6aa5cf877a7126bbbd"
+  }
+]

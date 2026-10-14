@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2656,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6683,
+    "selected_axiom_reports": 10429,
+    "new_declarations": 5,
+    "new_theorems": 5,
+    "new_definitions": 0,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughNestedResidueSampling.lean"
+  ],
+  "proved_components": [
+    "The actual nested residual-step integer/box image laws x=u+q*y now retain ORIGINAL arbitrary box endpoints and the true finer step q*t WITHOUT any coprimality between q and t. Every compatible finer residue has an actual integer representative, with exact congruence equivalence.",
+    "Actual normalized uniform laws push exactly to the original coarse q-class and finer q*t-class. The COMPLEX discrepancy identity retains the same observable and actual samples, including empty-set equality cases. This supplies the arithmetic/sampling interface of the source residual-step corollary, not yet its full native source/master/conditional-probability application.",
+    "The prior original complex non-strict rough-proportion convergence and ONE common fixed-finite-native-family budget remain proved under unchanged source hashes, main pins and transitive axiom sets."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original native complex non-strict rough exceptional-proportion convergence, ONE uniform fixed-finite-family budget, and exact ORIGINAL residual q/q*t sampling laws WITHOUT coprimality are proved. Remaining: literal native residual-source/event composition and actual master/source/conditional-probability application with source-interface/cofinal-index/nonempty-sample bridges, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-rough-residual-sampling-mathematical-review.txt",
+  "mathematical_review_sha256": "7f1f5abecb08c05291ef3ed6b5d6b33dd39822c5c3806138e6185c16f36fedff",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

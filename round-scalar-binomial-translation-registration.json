@@ -1,0 +1,119 @@
+{
+  "modules": [
+    "Hindman168/ScalarPolynomialStirlingExpansion.lean",
+    "Hindman168/ScalarPolynomialBinomialExpansion.lean",
+    "Hindman168/ScalarBinomialCoefficientModOne.lean",
+    "Hindman168/ScalarBinomialPolynomialInverse.lean",
+    "Hindman168/ScalarPolynomialUnitShift.lean",
+    "Hindman168/PolynomialSmallValuesOneBased.lean",
+    "Hindman168/ScalarRoughBinomialCompatibility.lean"
+  ],
+  "names": [
+    "Hindman168.scalar_polynomial_stirling_expansion",
+    "Hindman168.scalarBinomialPolynomial",
+    "Hindman168.scalarPolynomialBinomialCoefficient",
+    "Hindman168.scalar_polynomial_stirling_expansion_bounded",
+    "Hindman168.scalar_binomial_polynomial_eval_nat",
+    "Hindman168.scalar_polynomial_binomial_expansion",
+    "Hindman168.scalarBinomialCoefficientBudget",
+    "Hindman168.scalar_binomial_coefficient_budget_positive",
+    "Hindman168.scalar_binomial_coefficient_row_budget",
+    "Hindman168.scalar_binomial_coefficient_mod_one",
+    "Hindman168.scalar_binomial_polynomial_observable_inverse",
+    "Hindman168.scalar_binomial_polynomial_small_values_inverse",
+    "Hindman168.scalar_polynomial_one_based_small_values_card",
+    "Hindman168.scalar_polynomial_unit_shift_recovery",
+    "Hindman168.polynomial_small_values_one_based_inverse",
+    "Hindman168.scalar_desc_pochhammer_product",
+    "Hindman168.scalar_rough_binomial_compatibility",
+    "Hindman168.scalar_rough_binomial_expansion"
+  ],
+  "declarations": {
+    "Hindman168/ScalarPolynomialStirlingExpansion.lean": [
+      [
+        "theorem",
+        "scalar_polynomial_stirling_expansion"
+      ]
+    ],
+    "Hindman168/ScalarPolynomialBinomialExpansion.lean": [
+      [
+        "def",
+        "scalarBinomialPolynomial"
+      ],
+      [
+        "def",
+        "scalarPolynomialBinomialCoefficient"
+      ],
+      [
+        "theorem",
+        "scalar_polynomial_stirling_expansion_bounded"
+      ],
+      [
+        "theorem",
+        "scalar_binomial_polynomial_eval_nat"
+      ],
+      [
+        "theorem",
+        "scalar_polynomial_binomial_expansion"
+      ]
+    ],
+    "Hindman168/ScalarBinomialCoefficientModOne.lean": [
+      [
+        "def",
+        "scalarBinomialCoefficientBudget"
+      ],
+      [
+        "theorem",
+        "scalar_binomial_coefficient_budget_positive"
+      ],
+      [
+        "theorem",
+        "scalar_binomial_coefficient_row_budget"
+      ],
+      [
+        "theorem",
+        "scalar_binomial_coefficient_mod_one"
+      ]
+    ],
+    "Hindman168/ScalarBinomialPolynomialInverse.lean": [
+      [
+        "theorem",
+        "scalar_binomial_polynomial_observable_inverse"
+      ],
+      [
+        "theorem",
+        "scalar_binomial_polynomial_small_values_inverse"
+      ]
+    ],
+    "Hindman168/ScalarPolynomialUnitShift.lean": [
+      [
+        "theorem",
+        "scalar_polynomial_one_based_small_values_card"
+      ],
+      [
+        "theorem",
+        "scalar_polynomial_unit_shift_recovery"
+      ]
+    ],
+    "Hindman168/PolynomialSmallValuesOneBased.lean": [
+      [
+        "theorem",
+        "polynomial_small_values_one_based_inverse"
+      ]
+    ],
+    "Hindman168/ScalarRoughBinomialCompatibility.lean": [
+      [
+        "theorem",
+        "scalar_desc_pochhammer_product"
+      ],
+      [
+        "theorem",
+        "scalar_rough_binomial_compatibility"
+      ],
+      [
+        "theorem",
+        "scalar_rough_binomial_expansion"
+      ]
+    ]
+  }
+}

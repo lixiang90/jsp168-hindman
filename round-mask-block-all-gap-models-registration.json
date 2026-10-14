@@ -1,0 +1,103 @@
+{
+  "baseline_hash_count": 1218,
+  "modules": [
+    "Hindman168/MaskBlockGapTemplates.lean",
+    "Hindman168/MaskBlockAllGapDenseModels.lean",
+    "Hindman168/MaskBlockModelChainCorrelations.lean",
+    "Hindman168/MaskBlockColorDenseModels.lean"
+  ],
+  "names": [
+    "Hindman168.maskBlockChain",
+    "Hindman168.MaskValidBlockGap",
+    "Hindman168.maskBlockChain_block_range",
+    "Hindman168.masterPredictionBlockMask_eq_of_tail",
+    "Hindman168.maskBlockGap_templates_conditions",
+    "Hindman168.maskBlock_all_gap_dense_models",
+    "Hindman168.maskBlock_dual_control_targetCube",
+    "Hindman168.maskBlock_all_gap_original_correlations",
+    "Hindman168.maskBlockColorIndicator",
+    "Hindman168.maskBlockColorWeight",
+    "Hindman168.maskBlockColorIndicator_unit",
+    "Hindman168.maskBlockColorIndicator_sum",
+    "Hindman168.maskBlockColorWeight_bounds",
+    "Hindman168.maskBlockColorWeight_sum",
+    "Hindman168.maskBlockColorCoefficient_exact",
+    "Hindman168.maskBlock_coloring_all_gap_dense_models"
+  ],
+  "theorem_count": 12,
+  "selected_report_count": 16,
+  "declarations": {
+    "Hindman168/MaskBlockGapTemplates.lean": [
+      [
+        "def",
+        "maskBlockChain"
+      ],
+      [
+        "abbrev",
+        "MaskValidBlockGap"
+      ],
+      [
+        "theorem",
+        "maskBlockChain_block_range"
+      ],
+      [
+        "theorem",
+        "masterPredictionBlockMask_eq_of_tail"
+      ],
+      [
+        "theorem",
+        "maskBlockGap_templates_conditions"
+      ]
+    ],
+    "Hindman168/MaskBlockAllGapDenseModels.lean": [
+      [
+        "theorem",
+        "maskBlock_all_gap_dense_models"
+      ]
+    ],
+    "Hindman168/MaskBlockModelChainCorrelations.lean": [
+      [
+        "theorem",
+        "maskBlock_dual_control_targetCube"
+      ],
+      [
+        "theorem",
+        "maskBlock_all_gap_original_correlations"
+      ]
+    ],
+    "Hindman168/MaskBlockColorDenseModels.lean": [
+      [
+        "def",
+        "maskBlockColorIndicator"
+      ],
+      [
+        "def",
+        "maskBlockColorWeight"
+      ],
+      [
+        "theorem",
+        "maskBlockColorIndicator_unit"
+      ],
+      [
+        "theorem",
+        "maskBlockColorIndicator_sum"
+      ],
+      [
+        "theorem",
+        "maskBlockColorWeight_bounds"
+      ],
+      [
+        "theorem",
+        "maskBlockColorWeight_sum"
+      ],
+      [
+        "theorem",
+        "maskBlockColorCoefficient_exact"
+      ],
+      [
+        "theorem",
+        "maskBlock_coloring_all_gap_dense_models"
+      ]
+    ]
+  }
+}

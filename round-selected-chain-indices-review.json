@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before editing. All 976 baseline hashes checked at registration. Prior proofs, original target, original laws and pins remain intact.",
+    "Chain is the existing structure with nonempty ordered tails, all tails before all pivots, and strictly increasing pivots. The proof uses these exact fields; it does not replace this by an ordered-block condition.",
+    "principalTailPositions is the finite preimage inside Fin n. Its image is proved exactly the original tail whenever the tail lies in the principal set. Pivot coordinates are recovered by the actual injective principal embedding.",
+    "For every nonempty chain the first pivot has the least recovered position. All chain tails precede that first pivot, and the alternating-order lemma places them below its padding. This is one padding for all chain blocks.",
+    "The model theorem retains the original master masses, exact selected gap indices, simultaneous coarse models and the common native representation bound. The chain quantifier occurs after the model family: no new model can be selected depending on the chain.",
+    "The fine bound is the previously proved all-padding estimate specialized using exact tail-image equalities and first-pivot order. The actual model is indexed by the recovered tail and pivot; the target is f(C.tail i,C.pivot i,a), expressed with its proved coordinate equality.",
+    "Allocation of chains with prescribed block sizes follows from the existing allocation theorem and exact principal-set cardinality n. Subgroup inverse inputs, coloring-derived targets, Calibration/Alignment and final arithmetic extraction remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/SelectedChainIndices.lean",
+    "Hindman168/ChainMasterSelectedModels.lean"
+  ],
+  "verified": {
+    "project_modules": 960,
+    "pntplus_modules": 9,
+    "source_scan_modules": 969,
+    "source_config_hashes": 978,
+    "build_jobs": 4914,
+    "axiom_reports": 4694,
+    "new_theorems": 5,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 6,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Actual chains on selected principal indices are now connected to simultaneously selected native models, with exact finite tail/pivot coordinates, a common fine padding before the first pivot and blockwise 2 epsilon projected residuals. Common native manifold and uniform observable bounds are retained before all chain choices. Next connect coloring-derived dense target families and subgroup inverse inputs to this projection conclusion, then Calibration/Alignment and final arithmetic extraction of ordered positive rapidly separated monochromatic witnesses. Required quantitative estimates remain. Original StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

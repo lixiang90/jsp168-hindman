@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 23.70299999997951,
+  "log": "round-dyadic-exposure-laws-build.txt",
+  "log_sha256": "4ddb4d12cc746c57d68f3f75dc5f2bb2bd7c6a0247a9adea46fcae51ae58e40a"
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 362,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/AdditiveRowTranslations.lean",
+    "Hindman168/AdditiveRowStageProducts.lean",
+    "Hindman168/AdditiveRowStageCauchySchwarz.lean",
+    "Hindman168/AdditiveRowEliminationStages.lean",
+    "Hindman168/AdditiveRowOrderedRecurrence.lean",
+    "Hindman168/AdditiveRowTerminalProducts.lean",
+    "Hindman168/MaskGeneratedAdditiveElimination.lean",
+    "Hindman168/AdditiveRowInitialLaw.lean"
+  ],
+  "new_selected_report_count": 53,
+  "module_report_counts": {
+    "AdditiveRowTranslations": 7,
+    "AdditiveRowStageProducts": 9,
+    "AdditiveRowStageCauchySchwarz": 6,
+    "AdditiveRowEliminationStages": 5,
+    "AdditiveRowOrderedRecurrence": 5,
+    "AdditiveRowTerminalProducts": 7,
+    "MaskGeneratedAdditiveElimination": 11,
+    "AdditiveRowInitialLaw": 3
+  },
+  "application_review": [
+    "All 362 baseline source/config hashes were checked after registration. Only the root imports and exact-name registry changed; retained proofs, runtime/dependency pins, attributed PNT+ sources and StrongStatement.lean are unchanged.",
+    "General integer row evaluation replaces the replica-cube evaluation while reusing the proved canonical copy indices and branch/product bijections. The single nonempty CubeVertex 1 assigns exactly one direction to each off-target row.",
+    "Own-direction annihilation makes the assigned factor invariant. Every responsive factor and every previously retained weight duplicates exactly into the next canonical stage; the assigned majorant is retained once.",
+    "The actual weighted Cauchy--Schwarz step uses the same conditional independent pair law and original outside finite mass. Its nonnegative prefactor is the actual integral, not a supplied desired bound.",
+    "The ordered finite recurrence derives |A_0|^(2^b) <= cap^(2^b-1)|A_b|. The cap is computed as one plus a finite sum of absolute actual prefactors. It has not been bounded uniformly by a constant depending only on m.",
+    "The actual mask-generated normalized integer rows and signed integer directions supply the evaluation, annihilation and exact target-modulus responses on the original local good event. These are derived from previous arithmetic theorems, not assumed in the final generated-family application.",
+    "The generated-family certificate may vary with the original outside prime tuple. Conditional uniform intervals have nonnegative mass and total mass one. This supplies the exact recurrence whenever the original good tuples and positive lengths are provided; it does not yet instantiate the full normalized good-prime/base law or the source quotient-length growth.",
+    "The first-coordinate marginal of the conditional independent pair law is exactly the original single law. The initial average equals the original single-shift product, reindexed back to the original row family.",
+    "The terminal root factor is exactly the full target cube with common actual integer modulus. All other row copies remain as the complete retained majorant product Psi. No replacement by its mean is made.",
+    "The source proof requires root smoothing and E B, E BH, E BH^2 to remove Psi. Those moment limits, the uniform prefactor estimate and initial harmonic translation error are still unproved in the actual generated-row application.",
+    "No full weighted additive-elimination analytic lemma, final StrongConjecture, prize eligibility or unavoidable blocker is claimed."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:443-568",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4217,
+    "project_modules": 352,
+    "pntplus_modules": 9,
+    "source_scan_modules": 361,
+    "axiom_reports": 1844,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 370,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The arithmetic row-direction lemma is proved for the actual generated mask family. Exact finite weighted additive Cauchy--Schwarz stages and the full finite power recurrence are now proved on general integer rows and instantiated with actual generated row data and conditional uniform interval shifts. The initial pair law has the original single-sample marginal; the terminal expression is the distinguished target cube times every retained weight. The computed finite prefactor cap can depend on the data and laws and is not yet a constant depending only on m. Still prove the initial harmonic translation weighted total-variation o(1) error, primitivity and pair independence of the actual copied general row coefficients outside the fixed rough-prime exception catalogue, and the actual linear-forms moment estimates giving a uniform prefactor bound. Instantiate the original normalized good-prime/base joint law and the actual positive growing quotient intervals in this recurrence. Remove retained weights through the root translation and all three moments E B, E BH and E BH^2, proving E B(H-2^t)^2=o(1); their mean alone is insufficient. Connect the actual weighted mask-removal integrands, full multiplicative Cauchy--Schwarz recurrence and exception/error bounds. Complete the retained-weight correlation test, root pushforward, full preprint Prediction/Alignment propositions, inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and the final witness extraction and separation. Real-exponent clipping remains unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 32.562000000150874,
+  "log": "round-native-rational-character-child-signal-build.txt",
+  "log_sha256": "b05545bb910b54297f5d77bbb6dae9db4697581018cbc6051612a70bb307b267"
+}

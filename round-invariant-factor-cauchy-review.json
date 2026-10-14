@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 1000 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "The fixed local paper identifies directions leaving individual factors invariant. The new elimination statement explicitly requires invariance under the actual subgroup translations; it does not assume the desired correlation estimate.",
+    "A subgroup-invariant factor pulls outside the subgroup Haar mean. The ambient integral identity then replaces the remaining factor by its exact subgroup conditional mean, preserving normalization.",
+    "Normalized Cauchy-Schwarz bounds the product mean squared by C squared times the mean square of the conditional mean. The previously proved exact square identity converts the latter into the original subgroup autocorrelation.",
+    "The general bounded-factor inequality needs no sign hypothesis on the remaining function. The absolute-value bound on the removed factor is explicit. No unproved seminorm properties are used.",
+    "The weighted theorem first applies the finite probability mean-square inequality and then the single-cell elimination. Original weights remain unchanged; all factors share the stated uniform bound C, which is independent of cell count.",
+    "Five theorems in two modules are individually kernel audited. The paper requires repeated elimination of vertex copies along commuting directions; that iteration is not yet proved. Bessel, inverse correlator existence and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/SubgroupInvariantFactorCauchy.lean",
+    "Hindman168/WeightedInvariantFactorCauchy.lean"
+  ],
+  "verified": {
+    "project_modules": 984,
+    "pntplus_modules": 9,
+    "source_scan_modules": 993,
+    "source_config_hashes": 1002,
+    "build_jobs": 4938,
+    "axiom_reports": 4777,
+    "new_theorems": 5,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 5,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "One-step invariant-factor Cauchy-Schwarz elimination is proved for actual subgroup Haar means and arbitrary probability-weighted cells. Iteration along the paper root and vertex-fixing directions, the full short-increment reduction, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

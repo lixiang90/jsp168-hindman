@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 23.436999999918044,
+  "log": "round-native-smooth-factor-limits-build.txt",
+  "log_sha256": "f3f76481c91b5e2911929b36619a10b60f363169f177d1dc04a814dedb8472d1"
+}

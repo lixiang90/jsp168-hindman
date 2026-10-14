@@ -1,0 +1,68 @@
+{
+  "modules": [
+    "Hindman168/ScalarMvConstantRecovery.lean",
+    "Hindman168/ScalarMvSmallValuesPositiveNonconstant.lean",
+    "Hindman168/ScalarMvSmallValuesPositive.lean",
+    "Hindman168/ScalarMvSmallValuesZero.lean",
+    "Hindman168/ScalarMvPolynomialInverse.lean"
+  ],
+  "names": [
+    "Hindman168.scalar_mv_integer_monomial_bound",
+    "Hindman168.scalar_mv_small_value_constant_recovery",
+    "Hindman168.scalar_mv_small_values_positive_nonconstant",
+    "Hindman168.scalar_mv_small_values_positive",
+    "Hindman168.scalar_mv_small_value_estimate_from_coarse",
+    "Hindman168.scalar_mv_polynomial_small_values_inverse",
+    "Hindman168.scalar_mv_polynomial_phase_inverse",
+    "Hindman168.scalar_mv_polynomial_observable_inverse",
+    "Hindman168.scalar_mv_polynomial_small_values_coarse_inverse"
+  ],
+  "declarations": {
+    "Hindman168/ScalarMvConstantRecovery.lean": [
+      [
+        "theorem",
+        "scalar_mv_integer_monomial_bound"
+      ],
+      [
+        "theorem",
+        "scalar_mv_small_value_constant_recovery"
+      ]
+    ],
+    "Hindman168/ScalarMvSmallValuesPositiveNonconstant.lean": [
+      [
+        "theorem",
+        "scalar_mv_small_values_positive_nonconstant"
+      ]
+    ],
+    "Hindman168/ScalarMvSmallValuesPositive.lean": [
+      [
+        "theorem",
+        "scalar_mv_small_values_positive"
+      ]
+    ],
+    "Hindman168/ScalarMvSmallValuesZero.lean": [
+      [
+        "theorem",
+        "scalar_mv_small_value_estimate_from_coarse"
+      ]
+    ],
+    "Hindman168/ScalarMvPolynomialInverse.lean": [
+      [
+        "theorem",
+        "scalar_mv_polynomial_small_values_inverse"
+      ],
+      [
+        "theorem",
+        "scalar_mv_polynomial_phase_inverse"
+      ],
+      [
+        "theorem",
+        "scalar_mv_polynomial_observable_inverse"
+      ],
+      [
+        "theorem",
+        "scalar_mv_polynomial_small_values_coarse_inverse"
+      ]
+    ]
+  }
+}

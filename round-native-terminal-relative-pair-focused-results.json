@@ -1,0 +1,274 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTerminalFourierCompactFamilies.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.04700000002049,
+    "log": "round-native-terminal-relative-pair-NativeOriginalTerminalFourierCompactFamilies-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTerminalFourierCompactFamilies.lean",
+    "source_sha256": "74a87b0d5c663d367919c43a0410582c57bd106cf96505267457b381f48949e7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeMetricCosetTranslation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.29700000002049,
+    "log": "round-native-terminal-relative-pair-NativeMetricCosetTranslation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeMetricCosetTranslation.lean",
+    "source_sha256": "a8fd9cb84c8c7b5d7bf235c36a69695969614bae6137a489648d96424afe5fb0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalProductPairObservable.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.5,
+    "log": "round-native-terminal-relative-pair-NativeTerminalProductPairObservable-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalProductPairObservable.lean",
+    "source_sha256": "12d8d921a5e5d139bc78a7c19bb1cdbe26ffdd1069e54022d4be4eefb09ab543"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeFirstTerminalTranslation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.344000000040978,
+    "log": "round-native-terminal-relative-pair-NativeRelativeFirstTerminalTranslation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeFirstTerminalTranslation.lean",
+    "source_sha256": "dba47330a5718f92b586c679009d7dcbcbf7165a771dbd6b22bcb0bd0785b08e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ProductCosetAction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 7.3899999998975545,
+    "log": "round-native-terminal-relative-pair-ProductCosetAction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ProductCosetAction.lean",
+    "source_sha256": "442d31bb6513f9595c9e555d41d0a80ea5577ce5b08ff08742898e4bee669987"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalProductPairTranslation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.110000000102445,
+    "log": "round-native-terminal-relative-pair-NativeTerminalProductPairTranslation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalProductPairTranslation.lean",
+    "source_sha256": "5c3d773e7f82cf8294e2271d61620a7a12a9ed8bbf332c0192aa49b909e899d9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalRelativePairObservable.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.608999999938533,
+    "log": "round-native-terminal-relative-pair-NativeTerminalRelativePairObservable-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalRelativePairObservable.lean",
+    "source_sha256": "5d45b73a21a79344661c63ca703c2e00560547c25dc4ab2e0ae13a6be58adc1e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalRelativePairTranslation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.344000000040978,
+    "log": "round-native-terminal-relative-pair-NativeTerminalRelativePairTranslation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalRelativePairTranslation.lean",
+    "source_sha256": "bc1c4a31a540b2c21d75fd4d5c9c2a88b8fd8da20c399cccc79763587f5eadee"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalRelativePairMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.233999999938533,
+    "log": "round-native-terminal-relative-pair-NativeTerminalRelativePairMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalRelativePairMean.lean",
+    "source_sha256": "4d2253b1f131f487bd6ef2d84f711069ac98b6ec89e6832dabb24d9661b098e0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalReducedPairObservable.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.17200000002049,
+    "log": "round-native-terminal-relative-pair-NativeTerminalReducedPairObservable-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalReducedPairObservable.lean",
+    "source_sha256": "eaa63caeaaa44eddd9619491dd5c39f728300804629933cc2d6eb1b906b8441f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalReducedPairMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.405999999959022,
+    "log": "round-native-terminal-relative-pair-NativeTerminalReducedPairMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalReducedPairMean.lean",
+    "source_sha256": "ec8db0a8fb39e6a67974a8f1df7b147e8918589cd3656f155784ab1dba9cdd67"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalReducedPairCompact.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.141000000061467,
+    "log": "round-native-terminal-relative-pair-NativeTerminalReducedPairCompact-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalReducedPairCompact.lean",
+    "source_sha256": "5c84481f2a15c4e1c18c3c755d3395fc6fb4ab7cac5f0bede76653a2ef263dc6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalReducedMetricObservable.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.155999999959022,
+    "log": "round-native-terminal-relative-pair-NativeTerminalReducedMetricObservable-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalReducedMetricObservable.lean",
+    "source_sha256": "b7570ca94c4ee65dead2bd853222d66e4a1a187ce7ed78a202de189655064827"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalReducedPairDiscrepancy.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.359000000171363,
+    "log": "round-native-terminal-relative-pair-NativeTerminalReducedPairDiscrepancy-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalReducedPairDiscrepancy.lean",
+    "source_sha256": "a99adc4d3aa4b386f74243045aca6ec47bf5dc0ed547c3bc5f9fcbd3eeb091c9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalReducedPairRegularity.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.328999999910593,
+    "log": "round-native-terminal-relative-pair-NativeTerminalReducedPairRegularity-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalReducedPairRegularity.lean",
+    "source_sha256": "e6609927586081830d3655957c993c5de7deca129711ed96ab5a2d093954f2ba"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalReducedPairUnitDetection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.905999999959022,
+    "log": "round-native-terminal-relative-pair-NativeTerminalReducedPairUnitDetection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalReducedPairUnitDetection.lean",
+    "source_sha256": "1ae7f2242f54caa6125070ba40e934887776dc458a7881165c374c6012ecdd38"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeTerminalReducedPairPolynomialSampling.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.25,
+    "log": "round-native-terminal-relative-pair-NativeTerminalReducedPairPolynomialSampling-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeTerminalReducedPairPolynomialSampling.lean",
+    "source_sha256": "7a3fdbeb12745c2c64bf9837dfbaac42975af09906361674c577613091805fbe"
+  }
+]

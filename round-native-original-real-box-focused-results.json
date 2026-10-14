@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalPolynomialInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.0,
+    "log": "round-native-original-real-box-NativeOriginalPolynomialInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalPolynomialInverse.lean",
+    "source_sha256": "47eda6ac8a8436de6402d434a17ff324b3091341db5967ebb931bce4744e2bb0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalBoundedCubeObstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.688000000081956,
+    "log": "round-native-original-real-box-NativeOriginalBoundedCubeObstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalBoundedCubeObstruction.lean",
+    "source_sha256": "ba8ab915b93a58152c6c6e7f1f261fbe0ef81f2335d1d24570a0c648eada6a70"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalAffineCubeInput.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.577999999979511,
+    "log": "round-native-original-real-box-NativeOriginalAffineCubeInput-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalAffineCubeInput.lean",
+    "source_sha256": "ea677c5ce99933db5150b678447d0e69711a7d451a48eda303907d6bea87cbf5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalRealBoxObstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.655999999959022,
+    "log": "round-native-original-real-box-NativeOriginalRealBoxObstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalRealBoxObstruction.lean",
+    "source_sha256": "6476973f3772808ae5002424a037c7d0fa73898519a6ee6fea95d94ce131c88a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalFiniteRealBoxObstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.547000000020489,
+    "log": "round-native-original-real-box-NativeOriginalFiniteRealBoxObstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalFiniteRealBoxObstruction.lean",
+    "source_sha256": "88d39a62876a06fe8af0ad4e8e57f083d80b07e22a7150b0ca6ec73cc251d752"
+  }
+]

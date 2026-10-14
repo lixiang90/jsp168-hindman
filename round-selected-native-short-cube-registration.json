@@ -1,0 +1,35 @@
+{
+  "baseline_hash_count": 1198,
+  "modules": [
+    "Hindman168/MasterModelDifferenceShortCube.lean",
+    "Hindman168/SelectedNativeShortCubeModels.lean",
+    "Hindman168/SelectedNativeChainShortCubeModels.lean"
+  ],
+  "names": [
+    "Hindman168.master_model_difference_shortCube_threshold",
+    "Hindman168.selected_native_shortCube_models",
+    "Hindman168.chain_selected_native_shortCube_models"
+  ],
+  "theorem_count": 3,
+  "selected_report_count": 3,
+  "declarations": {
+    "Hindman168/MasterModelDifferenceShortCube.lean": [
+      [
+        "theorem",
+        "master_model_difference_shortCube_threshold"
+      ]
+    ],
+    "Hindman168/SelectedNativeShortCubeModels.lean": [
+      [
+        "theorem",
+        "selected_native_shortCube_models"
+      ]
+    ],
+    "Hindman168/SelectedNativeChainShortCubeModels.lean": [
+      [
+        "theorem",
+        "chain_selected_native_shortCube_models"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "baseline_hash_count": 1118,
+  "modules": [
+    "Hindman168/MixedDualInputContinuity.lean",
+    "Hindman168/NestedMixedDualSpan.lean",
+    "Hindman168/NestedMixedDualDensity.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedDualFunction_input_average",
+    "Hindman168.weightedMixedDualInput_norm_le",
+    "Hindman168.weightedMixedDualInput",
+    "Hindman168.weightedMixedDualInput_apply",
+    "Hindman168.weightedMixedDualInput_hilbert_distance_le",
+    "Hindman168.nestedMixedDualFamilies",
+    "Hindman168.nestedMixedDualHilbertGenerators",
+    "Hindman168.nestedMixedDualHilbertSubspace",
+    "Hindman168.nestedMixedDualFamilies_subset_joint",
+    "Hindman168.nestedMixedDualHilbertSubspace_le_intersection",
+    "Hindman168.weightedMixedDualInput_mem_nested",
+    "Hindman168.nestedMixedDualFamily_unit",
+    "Hindman168.jointMixedDualFamily_mem_nested_closed",
+    "Hindman168.nestedMixedDualHilbertSubspace_eq_intersection",
+    "Hindman168.nestedMixedDualHilbert_intersection_approximation"
+  ],
+  "theorem_count": 11,
+  "declarations": {
+    "Hindman168/MixedDualInputContinuity.lean": [
+      [
+        "theorem",
+        "subgroupMixedDualFunction_input_average"
+      ],
+      [
+        "theorem",
+        "weightedMixedDualInput_norm_le"
+      ],
+      [
+        "def",
+        "weightedMixedDualInput"
+      ],
+      [
+        "theorem",
+        "weightedMixedDualInput_apply"
+      ],
+      [
+        "theorem",
+        "weightedMixedDualInput_hilbert_distance_le"
+      ]
+    ],
+    "Hindman168/NestedMixedDualSpan.lean": [
+      [
+        "def",
+        "nestedMixedDualFamilies"
+      ],
+      [
+        "def",
+        "nestedMixedDualHilbertGenerators"
+      ],
+      [
+        "def",
+        "nestedMixedDualHilbertSubspace"
+      ],
+      [
+        "theorem",
+        "nestedMixedDualFamilies_subset_joint"
+      ],
+      [
+        "theorem",
+        "nestedMixedDualHilbertSubspace_le_intersection"
+      ],
+      [
+        "theorem",
+        "weightedMixedDualInput_mem_nested"
+      ]
+    ],
+    "Hindman168/NestedMixedDualDensity.lean": [
+      [
+        "theorem",
+        "nestedMixedDualFamily_unit"
+      ],
+      [
+        "theorem",
+        "jointMixedDualFamily_mem_nested_closed"
+      ],
+      [
+        "theorem",
+        "nestedMixedDualHilbertSubspace_eq_intersection"
+      ],
+      [
+        "theorem",
+        "nestedMixedDualHilbert_intersection_approximation"
+      ]
+    ]
+  }
+}

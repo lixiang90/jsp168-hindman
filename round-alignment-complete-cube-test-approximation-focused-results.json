@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FinitePiLipschitzProducts.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.905999999959022,
+    "log": "round-alignment-complete-cube-test-approximation-FinitePiLipschitzProducts-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FinitePiLipschitzProducts.lean",
+    "source_sha256": "9df0734d575535b6bce828300ddf0392c1430d63879ca280170887a814225ba6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FinitePiLipschitzProductDensity.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.390000000130385,
+    "log": "round-alignment-complete-cube-test-approximation-FinitePiLipschitzProductDensity-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FinitePiLipschitzProductDensity.lean",
+    "source_sha256": "25446bb83646db13eb17759e38c14d310ea48772ae5ede50bccccf5a309bc747"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FinitePiProductLinearApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.203999999910593,
+    "log": "round-alignment-complete-cube-test-approximation-FinitePiProductLinearApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FinitePiProductLinearApproximation.lean",
+    "source_sha256": "da79a8e15b553cf01e54e715f61a3421e29afcd7f3aeaa5f711787ce35726a66"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalContinuousCubeMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.014999999897555,
+    "log": "round-alignment-complete-cube-test-approximation-AlignmentOriginalContinuousCubeMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalContinuousCubeMean.lean",
+    "source_sha256": "10f545342d4fb4c5ac9d30bc0959e5bb08b2ce3e8b9b6c8d0b9beee9192ac3e2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalCubeTestApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.672000000020489,
+    "log": "round-alignment-complete-cube-test-approximation-AlignmentOriginalCubeTestApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalCubeTestApproximation.lean",
+    "source_sha256": "569e2b6b8573c3ad12b8898a86fcf0615149c5bbf21bc650687b1f1665dd9a2e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FinitePiProductLinearMeans.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.563000000081956,
+    "log": "round-alignment-complete-cube-test-approximation-FinitePiProductLinearMeans-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FinitePiProductLinearMeans.lean",
+    "source_sha256": "4788ac75d880a158e39acc541257050db246b7496ca45fd7e227a3327ed99d5c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalCubeProductLinearMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.593000000109896,
+    "log": "round-alignment-complete-cube-test-approximation-AlignmentOriginalCubeProductLinearMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalCubeProductLinearMean.lean",
+    "source_sha256": "f6cfaefd1212cffabee0b2a4b2d2008a09d36a13ab0bafe576028824535b77ec"
+  }
+]

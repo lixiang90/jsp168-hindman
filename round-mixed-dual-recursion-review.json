@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous round rechecked and retained proof hashes preserved.",
+    "The mixed dual uses distinct real functions at every nonroot vertex and is proved equal to the already audited vertex dual at the root.",
+    "The nonempty vertex partition separates the singleton first vertex and pairs the remaining lower and upper faces exactly; no division by a root function is used.",
+    "The dimension recursion covers d=0 and arbitrary input functions without unit or nonvanishing assumptions.",
+    "The translated expansion requires the shift to belong to Q. Translation invariance of Haar averaging on Q makes the reparametrization exact; no claim is made for shifts outside Q.",
+    "One definition and six theorems are individually audited. The expansion is the finite subgroup analogue of the mixed-dual recursive structure used in the concatenation argument; characteristic-factor closure and localization, higher-order concatenation and Bessel remain missing."
+  ],
+  "new_modules": [
+    "Hindman168/MixedDualRecursion.lean"
+  ],
+  "verified": {
+    "project_modules": 1066,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1075,
+    "source_config_hashes": 1084,
+    "build_jobs": 5022,
+    "axiom_reports": 5052,
+    "new_theorems": 6,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 7,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The common-system master estimates, first-order Bessel, dual energy reduction, recursion and stability are proved. Actual dual functions now have a common finite empirical approximation preserving arbitrary cell probabilities, unit bounds and uniform bounded-test correlations. Exact arbitrary-vertex reflection of the actual subgroup cube law and mixed products is now proved. Mixed cubes now have exact arbitrary-vertex duality and weighted single-vertex replacement estimates. Finite products of dual functions now have quantitative empirical approximation uniform over bounded tests. Exact translated-product expansions and extraction for each fixed test are now proved. The exact mixed face split, projected-face correlation and one-step face Cauchy-Schwarz inequality are now proved. Face energies are now identified with actual copied cube means, with nonnegativity and copy algebra verified. Arbitrary-coordinate permutation invariance, copied-mean nonnegativity and reflection bounds are now established. Full multidimensional mixed Gowers Cauchy-Schwarz, the product-root bound and the single-vertex bound are now proved. Actual dual anti-uniformity, its weighted version and the finite zero-root orthogonality characterization are now proved. Mixed dual recursion, covariance and exact subgroup-shift expansions are now established. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

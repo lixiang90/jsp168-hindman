@@ -1,0 +1,338 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceLogLattice.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.906000000191852,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceLogLattice-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceLogLattice.lean",
+    "source_sha256": "9743a9c91fd5d48f43d86b45bb58140aaf061eaad0995799f5a7b2d31f3f3f42"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceLogSpanning.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.937999999849126,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceLogSpanning-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceLogSpanning.lean",
+    "source_sha256": "068ac6cc5757683a797badf384027dee139c3b2ceaee9f8b7c27bacdbc320e88"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceExponentialHomeomorph.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.812000000150874,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceExponentialHomeomorph-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceExponentialHomeomorph.lean",
+    "source_sha256": "db4482146baab634b27aa20a8b4b046c33e01343d59378c055d184635fdf1640"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceLatticeCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.046999999787658,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceLatticeCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceLatticeCoordinates.lean",
+    "source_sha256": "5bd78a2e242d43610f49628a433b71fe4fa3bb4e8215bdb20e9987ba4e2817bb"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceCoordinateRecovery.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.016000000061467,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceCoordinateRecovery-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceCoordinateRecovery.lean",
+    "source_sha256": "838f56263b6625b9f15385747211d5b7b15204ca397790529870b6c5a1512d6b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceOrderedCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.922000000020489,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceOrderedCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceOrderedCoordinates.lean",
+    "source_sha256": "36fd2cca3025935f081a784407b82fcd14fad720ca07bff4ba8f7528b8f4dca9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceLatticeIndependent.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.905999999959022,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceLatticeIndependent-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceLatticeIndependent.lean",
+    "source_sha256": "80f663ab6837039d2ae86780991b8c5cafdad443c7c857b7758452d182197fc1"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceOrderedProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.859000000171363,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceOrderedProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceOrderedProjection.lean",
+    "source_sha256": "6e9019de39f43957df67aeaf8ef35e34709c323d241e8345e769a6d32f4d59fb"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspacePairCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.046999999787658,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspacePairCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspacePairCoordinates.lean",
+    "source_sha256": "48f11c9fe64c699e4731b0ced7e44a9029329edeafced8d8f10c7a0c12bb2293"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspacePairSmoothInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.110000000102445,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspacePairSmoothInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspacePairSmoothInverse.lean",
+    "source_sha256": "03d237d9943ef78a57bae5ab7e11a844f2c058baea8268b111f5e0c374f8a718"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceOrderedSmoothExtension.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.125,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceOrderedSmoothExtension-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceOrderedSmoothExtension.lean",
+    "source_sha256": "c17b21bf678a9847d8af24f86817cc181ef53894a075747e33c77f22371da3b3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceFlagGeneratorLift.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.061999999918044,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceFlagGeneratorLift-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceFlagGeneratorLift.lean",
+    "source_sha256": "45ec9302e7bf4aaeff6b6e8308db5d2e5d4c4cdb3fff127d35df32cb7df70086"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ProjectionAppendLayerSpan.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 6.75,
+    "log": "round-filtered-smooth-basis-ProjectionAppendLayerSpan-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ProjectionAppendLayerSpan.lean",
+    "source_sha256": "5fc14399ce5fd56ac1620d1e7ba3e210f6699e053587a518aaab6022df0e22a9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceLatticeBasisSpan.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.797000000020489,
+    "log": "round-filtered-smooth-basis-NativeCentralSubspaceLatticeBasisSpan-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceLatticeBasisSpan.lean",
+    "source_sha256": "f4e9345723ce33e372f187a9c3b6fdfa4694355ca208cd55c0f3a76e6fd98ba6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeFilteredSmoothBasisExist.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.843000000109896,
+    "log": "round-filtered-smooth-basis-NativeLatticeFilteredSmoothBasisExist-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeFilteredSmoothBasisExist.lean",
+    "source_sha256": "c55f3f146f9d52346f3d429d6631d6443bc39200a8ee3ba2aea57389591305c0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeFilteredSmoothBasisStep.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.359999999869615,
+    "log": "round-filtered-smooth-basis-NativeLatticeFilteredSmoothBasisStep-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeFilteredSmoothBasisStep.lean",
+    "source_sha256": "230a2f6139dc4130903ffedd6ce47e2cf85ade35cfd19909a2e955e1f4a6f21d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeFilteredSmoothBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.875,
+    "log": "round-filtered-smooth-basis-NativeLatticeFilteredSmoothBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeFilteredSmoothBasis.lean",
+    "source_sha256": "e70115675d637b80ee7eaaa820c154b671cdb504224d3d02f657962f33e130df"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeFilteredDiffeomorph.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.125,
+    "log": "round-filtered-smooth-basis-NativeLatticeFilteredDiffeomorph-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeFilteredDiffeomorph.lean",
+    "source_sha256": "3b369cd6331be661dc6fa3564800a901e4cd658e720c84171ababc58df0d72a1"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeFilteredSmoothRationalBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.890000000130385,
+    "log": "round-filtered-smooth-basis-NativeLatticeFilteredSmoothRationalBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeFilteredSmoothRationalBasis.lean",
+    "source_sha256": "0cd95d399de2d57d171b854e25cc08da8a24b664bdb42a64e03091d57eaa4f4b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeFilteredSmoothBasisCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.952999999979511,
+    "log": "round-filtered-smooth-basis-NativeLatticeFilteredSmoothBasisCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeFilteredSmoothBasisCoordinates.lean",
+    "source_sha256": "c32ce05a1b7196e5999ecab82f0e9dbd5fc94b75fd78ef896645ec5d6569718f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeFilteredLayerDimensions.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.734999999869615,
+    "log": "round-filtered-smooth-basis-NativeLatticeFilteredLayerDimensions-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeFilteredLayerDimensions.lean",
+    "source_sha256": "0afa7c2a59e16a11425272e2e31139d3f677d4d9fde00dd497ac5f88ae783ab3"
+  }
+]

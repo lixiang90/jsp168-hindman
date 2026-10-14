@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 22.04699999978766,
+  "log": "round-native-rational-conjugate-right-factors-axioms.txt",
+  "log_sha256": "d192adb4ca7a3eb6ef8f3f7a4d0afd2fafb95d1ca538d9ef2e1421899283695d"
+}

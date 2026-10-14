@@ -1,0 +1,138 @@
+{
+  "baseline_hash_count": 917,
+  "modules": [
+    "Hindman168/RationalRestrictedKernel.lean",
+    "Hindman168/NativeRationalSubgroupCharacter.lean",
+    "Hindman168/NativeRationalCharacterKernel.lean",
+    "Hindman168/NativeCharacterLatticeReduction.lean",
+    "Hindman168/NativeRationalCompactRepresentatives.lean",
+    "Hindman168/NativeRationalLatticeCompact.lean"
+  ],
+  "names": [
+    "Hindman168.rationalRestrictedKernel_real_span",
+    "Hindman168.rationalRestrictedKernel_rational",
+    "Hindman168.restrictedKernel_finrank_lt",
+    "Hindman168.nativeRationalSubspace_exists_separating_character",
+    "Hindman168.nativeRationalLieSubalgebra_exists_character",
+    "Hindman168.nativeLieSubalgebra_character_product_exponentials",
+    "Hindman168.nativeLieSubalgebra_character_mul",
+    "Hindman168.nativeLieCharacterKernel",
+    "Hindman168.nativeLieCharacterKernel_model",
+    "Hindman168.nativeLieCharacterKernel_le",
+    "Hindman168.nativeLieCharacterKernel_subgroup_mem_iff",
+    "Hindman168.nativeRationalLieSubalgebra_character_descent",
+    "Hindman168.nativeCharacter_lattice_reduction",
+    "Hindman168.NativeLieCompactRepresentatives",
+    "Hindman168.nativeLieCompactRepresentatives_bot",
+    "Hindman168.nativeLieCompactRepresentatives_pivot_lift",
+    "Hindman168.nativeRationalLieSubalgebra_compact_representatives",
+    "Hindman168.nativeRationalLieLattice_quotient_compact",
+    "Hindman168.nativeRationalLieLattice_quotient_closedEmbedding",
+    "Hindman168.nativeRationalLieLattice_orbit_isCompact",
+    "Hindman168.nativeLieLattice_intersection_discrete",
+    "Hindman168.nativeRationalLieLattice_quotient_metrizable"
+  ],
+  "theorem_count": 20,
+  "declarations": {
+    "Hindman168/RationalRestrictedKernel.lean": [
+      [
+        "theorem",
+        "rationalRestrictedKernel_real_span"
+      ],
+      [
+        "theorem",
+        "rationalRestrictedKernel_rational"
+      ],
+      [
+        "theorem",
+        "restrictedKernel_finrank_lt"
+      ]
+    ],
+    "Hindman168/NativeRationalSubgroupCharacter.lean": [
+      [
+        "theorem",
+        "nativeRationalSubspace_exists_separating_character"
+      ],
+      [
+        "theorem",
+        "nativeRationalLieSubalgebra_exists_character"
+      ],
+      [
+        "theorem",
+        "nativeLieSubalgebra_character_product_exponentials"
+      ],
+      [
+        "theorem",
+        "nativeLieSubalgebra_character_mul"
+      ]
+    ],
+    "Hindman168/NativeRationalCharacterKernel.lean": [
+      [
+        "def",
+        "nativeLieCharacterKernel"
+      ],
+      [
+        "theorem",
+        "nativeLieCharacterKernel_model"
+      ],
+      [
+        "theorem",
+        "nativeLieCharacterKernel_le"
+      ],
+      [
+        "theorem",
+        "nativeLieCharacterKernel_subgroup_mem_iff"
+      ],
+      [
+        "theorem",
+        "nativeRationalLieSubalgebra_character_descent"
+      ]
+    ],
+    "Hindman168/NativeCharacterLatticeReduction.lean": [
+      [
+        "theorem",
+        "nativeCharacter_lattice_reduction"
+      ]
+    ],
+    "Hindman168/NativeRationalCompactRepresentatives.lean": [
+      [
+        "def",
+        "NativeLieCompactRepresentatives"
+      ],
+      [
+        "theorem",
+        "nativeLieCompactRepresentatives_bot"
+      ],
+      [
+        "theorem",
+        "nativeLieCompactRepresentatives_pivot_lift"
+      ],
+      [
+        "theorem",
+        "nativeRationalLieSubalgebra_compact_representatives"
+      ]
+    ],
+    "Hindman168/NativeRationalLatticeCompact.lean": [
+      [
+        "theorem",
+        "nativeRationalLieLattice_quotient_compact"
+      ],
+      [
+        "theorem",
+        "nativeRationalLieLattice_quotient_closedEmbedding"
+      ],
+      [
+        "theorem",
+        "nativeRationalLieLattice_orbit_isCompact"
+      ],
+      [
+        "theorem",
+        "nativeLieLattice_intersection_discrete"
+      ],
+      [
+        "theorem",
+        "nativeRationalLieLattice_quotient_metrizable"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "baseline_verified_before_registration": 711,
+  "new_modules": [
+    "Hindman168/CurvePointwiseOperator.lean",
+    "Hindman168/QuadraticDerivativeRemainder.lean",
+    "Hindman168/CurveSuperpositionRemainder.lean",
+    "Hindman168/CurveSuperpositionSmooth.lean",
+    "Hindman168/CurvePicardSmooth.lean",
+    "Hindman168/LieInvariantFieldSmooth.lean",
+    "Hindman168/NativeLieExponentialSmoothAtZero.lean",
+    "Hindman168/NativeLieExponentialSmooth.lean"
+  ],
+  "module_report_counts": {
+    "CurvePointwiseOperator": {
+      "theorems": 5,
+      "selected_declarations": 7
+    },
+    "QuadraticDerivativeRemainder": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "CurveSuperpositionRemainder": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "CurveSuperpositionSmooth": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "CurvePicardSmooth": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "LieInvariantFieldSmooth": {
+      "theorems": 5,
+      "selected_declarations": 5
+    },
+    "NativeLieExponentialSmoothAtZero": {
+      "theorems": 6,
+      "selected_declarations": 6
+    },
+    "NativeLieExponentialSmooth": {
+      "theorems": 4,
+      "selected_declarations": 4
+    }
+  },
+  "names": [
+    "Hindman168.curveApplyLinear",
+    "Hindman168.curveApplyLinear_apply",
+    "Hindman168.curveApplyLinear_norm_le",
+    "Hindman168.curvePointwiseOperator",
+    "Hindman168.curvePointwiseOperator_apply",
+    "Hindman168.curvePointwiseOperator_contDiff",
+    "Hindman168.curveApplyLinear_const",
+    "Hindman168.norm_derivative_remainder_le",
+    "Hindman168.curveSuperposition_quadratic_remainder",
+    "Hindman168.curveSuperposition_hasFDerivAt_ball",
+    "Hindman168.curveSuperposition_eventually_hasFDerivAt",
+    "Hindman168.curveSuperposition_contDiffAt_loss_one",
+    "Hindman168.curveSuperposition_contDiffAt_smooth",
+    "Hindman168.curvePicard_contDiffAt_smooth",
+    "Hindman168.curvePicardResidual_contDiffAt_smooth",
+    "Hindman168.curvePicardImplicit_contDiffAt_smooth",
+    "Hindman168.curvePicardImplicit_endpoint_contDiffAt_smooth",
+    "Hindman168.lieGroup_smooth_min_three",
+    "Hindman168.lie_identity_tangent_inclusion_contMDiff_smooth",
+    "Hindman168.lie_invariant_field_joint_contMDiff_smooth",
+    "Hindman168.lieInvariantCoordinateField_contDiffAt_smooth",
+    "Hindman168.lieFrozenCoordinateField_contDiffAt_smooth",
+    "Hindman168.lieCoordinateParametricFlow_contDiffAt_smooth",
+    "Hindman168.lieIdentityCoordinateFlow_state_endpoint_contDiffAt_smooth",
+    "Hindman168.nativeLieExponential_chart_contDiffAt_smooth_zero",
+    "Hindman168.nativeLieExponential_contMDiffAt_smooth_zero",
+    "Hindman168.nativeLieExponentialCoordinateInverse_contDiffAt_smooth",
+    "Hindman168.nativeLieLocalLogarithm_contMDiffAt_smooth_one",
+    "Hindman168.nativeLieGroup_pow_contMDiff",
+    "Hindman168.nativeLieExponential_contMDiff",
+    "Hindman168.lieOneParameterCurve_joint_contMDiff",
+    "Hindman168.lieInvariantFlow_joint_contMDiff"
+  ]
+}

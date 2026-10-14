@@ -1,0 +1,109 @@
+{
+  "modules": [
+    "Hindman168/NativeRationalLayerHaarContinuity.lean",
+    "Hindman168/SignedProgressionResidue.lean",
+    "Hindman168/NativeOriginalResidueLocalHaar.lean",
+    "Hindman168/NativeOriginalIntervalLocalHaar.lean",
+    "Hindman168/RealIntervalResidueGeometry.lean",
+    "Hindman168/NativeOriginalRealLocalHaar.lean",
+    "Hindman168/NativeSequentialOriginalLocalPointLaw.lean"
+  ],
+  "names": [
+    "Hindman168.native_rational_layer_haar_integral_continuous",
+    "Hindman168.signed_period_residue_eq_of_modEq",
+    "Hindman168.signed_period_residue_progression",
+    "Hindman168.NativeResidueLocalHaarLaw",
+    "Hindman168.native_original_residue_local_haar",
+    "Hindman168.native_original_interval_local_haar",
+    "Hindman168.realIntegerIntervalLength",
+    "Hindman168.realIntervalResidueSet",
+    "Hindman168.real_integer_interval_length_cast",
+    "Hindman168.real_integer_interval_mem",
+    "Hindman168.real_integer_interval_length_error",
+    "Hindman168.real_interval_residue_mem",
+    "Hindman168.real_interval_residue_count",
+    "Hindman168.NativeRealLocalHaarLaw",
+    "Hindman168.native_original_real_local_haar",
+    "Hindman168.native_sequential_original_local_point_law"
+  ],
+  "declarations": {
+    "Hindman168/NativeRationalLayerHaarContinuity.lean": [
+      [
+        "theorem",
+        "native_rational_layer_haar_integral_continuous"
+      ]
+    ],
+    "Hindman168/SignedProgressionResidue.lean": [
+      [
+        "theorem",
+        "signed_period_residue_eq_of_modEq"
+      ],
+      [
+        "theorem",
+        "signed_period_residue_progression"
+      ]
+    ],
+    "Hindman168/NativeOriginalResidueLocalHaar.lean": [
+      [
+        "def",
+        "NativeResidueLocalHaarLaw"
+      ],
+      [
+        "theorem",
+        "native_original_residue_local_haar"
+      ]
+    ],
+    "Hindman168/NativeOriginalIntervalLocalHaar.lean": [
+      [
+        "theorem",
+        "native_original_interval_local_haar"
+      ]
+    ],
+    "Hindman168/RealIntervalResidueGeometry.lean": [
+      [
+        "def",
+        "realIntegerIntervalLength"
+      ],
+      [
+        "def",
+        "realIntervalResidueSet"
+      ],
+      [
+        "theorem",
+        "real_integer_interval_length_cast"
+      ],
+      [
+        "theorem",
+        "real_integer_interval_mem"
+      ],
+      [
+        "theorem",
+        "real_integer_interval_length_error"
+      ],
+      [
+        "theorem",
+        "real_interval_residue_mem"
+      ],
+      [
+        "theorem",
+        "real_interval_residue_count"
+      ]
+    ],
+    "Hindman168/NativeOriginalRealLocalHaar.lean": [
+      [
+        "def",
+        "NativeRealLocalHaarLaw"
+      ],
+      [
+        "theorem",
+        "native_original_real_local_haar"
+      ]
+    ],
+    "Hindman168/NativeSequentialOriginalLocalPointLaw.lean": [
+      [
+        "theorem",
+        "native_sequential_original_local_point_law"
+      ]
+    ]
+  }
+}

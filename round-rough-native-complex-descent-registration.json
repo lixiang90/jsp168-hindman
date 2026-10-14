@@ -1,0 +1,93 @@
+{
+  "modules": [
+    "Hindman168/FiniteComplexRealComponents.lean",
+    "Hindman168/ComplexRealObservable.lean",
+    "Hindman168/RoughNativeComplexBadIndex.lean",
+    "Hindman168/RoughNativeComplexBadFamily.lean",
+    "Hindman168/RoughNativeComplexObstructionBadFamily.lean"
+  ],
+  "names": [
+    "Hindman168.FiniteMass.complexExpectation_re",
+    "Hindman168.FiniteMass.complexExpectation_im",
+    "Hindman168.FiniteMass.complex_discrepancy_component",
+    "Hindman168.complex_lipschitz_real_part",
+    "Hindman168.complex_lipschitz_imaginary_part",
+    "Hindman168.complex_discrepancy_real_observable",
+    "Hindman168.RoughNativeComplexBadIndex",
+    "Hindman168.rough_native_complex_bad_index_real",
+    "Hindman168.RoughNativeComplexBadFamily",
+    "Hindman168.rough_native_complex_bad_family_length_mono",
+    "Hindman168.rough_native_complex_bad_family_real",
+    "Hindman168.rough_native_zero_dimension_no_complex_bad_index",
+    "Hindman168.rough_native_zero_dimension_no_complex_bad_family",
+    "Hindman168.rough_native_complex_obstruction_bad_family"
+  ],
+  "declarations": {
+    "Hindman168/FiniteComplexRealComponents.lean": [
+      [
+        "theorem",
+        "complexExpectation_re"
+      ],
+      [
+        "theorem",
+        "complexExpectation_im"
+      ],
+      [
+        "theorem",
+        "complex_discrepancy_component"
+      ]
+    ],
+    "Hindman168/ComplexRealObservable.lean": [
+      [
+        "theorem",
+        "complex_lipschitz_real_part"
+      ],
+      [
+        "theorem",
+        "complex_lipschitz_imaginary_part"
+      ],
+      [
+        "theorem",
+        "complex_discrepancy_real_observable"
+      ]
+    ],
+    "Hindman168/RoughNativeComplexBadIndex.lean": [
+      [
+        "def",
+        "RoughNativeComplexBadIndex"
+      ],
+      [
+        "theorem",
+        "rough_native_complex_bad_index_real"
+      ]
+    ],
+    "Hindman168/RoughNativeComplexBadFamily.lean": [
+      [
+        "def",
+        "RoughNativeComplexBadFamily"
+      ],
+      [
+        "theorem",
+        "rough_native_complex_bad_family_length_mono"
+      ],
+      [
+        "theorem",
+        "rough_native_complex_bad_family_real"
+      ],
+      [
+        "theorem",
+        "rough_native_zero_dimension_no_complex_bad_index"
+      ],
+      [
+        "theorem",
+        "rough_native_zero_dimension_no_complex_bad_family"
+      ]
+    ],
+    "Hindman168/RoughNativeComplexObstructionBadFamily.lean": [
+      [
+        "theorem",
+        "rough_native_complex_obstruction_bad_family"
+      ]
+    ]
+  }
+}

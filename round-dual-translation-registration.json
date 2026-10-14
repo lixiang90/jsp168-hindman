@@ -1,0 +1,56 @@
+{
+  "baseline_hash_count": 1098,
+  "modules": [
+    "Hindman168/WeightedHaarTranslation.lean",
+    "Hindman168/MixedDualHilbertTranslation.lean"
+  ],
+  "names": [
+    "Hindman168.weightedHaarL2_translate_norm",
+    "Hindman168.weightedHaarTranslation",
+    "Hindman168.weightedHaarTranslation_hilbert_distance",
+    "Hindman168.weightedHaarTranslation_hilbert_inner",
+    "Hindman168.mixedDualHilbert_translation_scaled_span",
+    "Hindman168.mixedDualHilbert_translation_closed",
+    "Hindman168.mixedDualHilbert_translation_orthogonal",
+    "Hindman168.mixedDualHilbert_translation_projection"
+  ],
+  "theorem_count": 7,
+  "declarations": {
+    "Hindman168/WeightedHaarTranslation.lean": [
+      [
+        "theorem",
+        "weightedHaarL2_translate_norm"
+      ],
+      [
+        "def",
+        "weightedHaarTranslation"
+      ],
+      [
+        "theorem",
+        "weightedHaarTranslation_hilbert_distance"
+      ],
+      [
+        "theorem",
+        "weightedHaarTranslation_hilbert_inner"
+      ]
+    ],
+    "Hindman168/MixedDualHilbertTranslation.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_translation_scaled_span"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_translation_closed"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_translation_orthogonal"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_translation_projection"
+      ]
+    ]
+  }
+}

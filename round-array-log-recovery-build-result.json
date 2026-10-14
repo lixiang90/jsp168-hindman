@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.702999999979511,
+  "log": "round-array-log-recovery-build.txt",
+  "log_sha256": "b3e026410948a0bf1cb229281268b8c2caea647cad0a9d9d23a3d0c12ff44c4d"
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2675,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6702,
+    "selected_axiom_reports": 10494,
+    "new_declarations": 11,
+    "new_theorems": 10,
+    "new_definitions": 1,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/PowerDominationRealRatios.lean",
+    "Hindman168/AlignmentNativeReferenceGrowth.lean",
+    "Hindman168/AlignmentNativeWindowSampling.lean",
+    "Hindman168/AlignmentNativeWindowUniform.lean",
+    "Hindman168/ActualSelectorUniformity.lean",
+    "Hindman168/AlignmentNativeWindowAllAnchors.lean"
+  ],
+  "proved_components": [
+    "Genuine natural-power domination now yields ALL positive REAL-exponent paper ratios with explicit positive denominators. Actual raw master retained-product reference scales and typical exposed factor scales discharge native scale-growth hypotheses from MasterParameterConditions.",
+    "The ACTUAL binary dyadic residue window and its uniform factor law are exactly the roughDyadicResidueSteps analytic sampling set/law. Actual smooth master powers and original supported rough units derive every prime support, primorial divisibility and residue-unit premise, without coprimality of retained q.",
+    "The proved finite-native-family analytic budget now yields actual exposed-window variable-scale event caps with master scale/arithmetic/density/normalization hypotheses discharged. Uniformity is strengthened to ALL actual supported typical anchors, retained subsets and tail directions by a proved selector argument using genuine positive typical-event mass. No input rough-proportion/analytic bound or anchor-dependent cutoff remains; actual polynomial/log packets and scale geometry remain explicit."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Native rough proportions, real/cofinal/bounded-scale comparison and actual master-window caps now have fully derived growth/arithmetic and uniformity over all supported typical anchors. Actual posterior Fubini/union domination is proved. Remaining: construct actual Alignment orbit-array joint native logarithmic polynomial packets, degree bounds, retained coarse residue and scale-range/event inclusion; instantiate the conditional fiber caps and synthesize Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse; full cube synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-native-window-mathematical-review.txt",
+  "mathematical_review_sha256": "d2bf6d010cf0fd6c86c4b3102e7ab322d2b7f255c60f70833f06d7d4690ec47a",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

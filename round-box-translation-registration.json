@@ -1,0 +1,62 @@
+{
+  "modules": [
+    "Hindman168/ComplexMassTranslation.lean",
+    "Hindman168/ComplexBoxTranslation.lean",
+    "Hindman168/AlignmentResidueBoxTranslation.lean"
+  ],
+  "names": [
+    "Hindman168.FiniteMass.complexExpectation_push",
+    "Hindman168.FiniteMass.piMass_translation_complex_bound",
+    "Hindman168.uniformIntervalMass_eq_Ico",
+    "Hindman168.complex_box_translation_bound",
+    "Hindman168.alignmentBoxClass_one",
+    "Hindman168.alignment_residue_box_division_mean",
+    "Hindman168.alignment_residue_box_translation_bound",
+    "Hindman168.alignment_residue_box_divisible_translation_bound",
+    "Hindman168.alignment_residue_box_translation_scale_bound"
+  ],
+  "declarations": {
+    "Hindman168/ComplexMassTranslation.lean": [
+      [
+        "theorem",
+        "complexExpectation_push"
+      ],
+      [
+        "theorem",
+        "piMass_translation_complex_bound"
+      ]
+    ],
+    "Hindman168/ComplexBoxTranslation.lean": [
+      [
+        "theorem",
+        "uniformIntervalMass_eq_Ico"
+      ],
+      [
+        "theorem",
+        "complex_box_translation_bound"
+      ]
+    ],
+    "Hindman168/AlignmentResidueBoxTranslation.lean": [
+      [
+        "theorem",
+        "alignmentBoxClass_one"
+      ],
+      [
+        "theorem",
+        "alignment_residue_box_division_mean"
+      ],
+      [
+        "theorem",
+        "alignment_residue_box_translation_bound"
+      ],
+      [
+        "theorem",
+        "alignment_residue_box_divisible_translation_bound"
+      ],
+      [
+        "theorem",
+        "alignment_residue_box_translation_scale_bound"
+      ]
+    ]
+  }
+}

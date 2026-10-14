@@ -1,0 +1,178 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MvBinomialVariableEquiv.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.436999999918044,
+    "log": "round-native-rational-degree-one-inverse-MvBinomialVariableEquiv-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MvBinomialVariableEquiv.lean",
+    "source_sha256": "1ad8d644358437b63d955db9f831102eb560cc4722a715265fd196098fb9fe7c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativePolynomialVariableEquiv.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.469000000040978,
+    "log": "round-native-rational-degree-one-inverse-NativePolynomialVariableEquiv-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativePolynomialVariableEquiv.lean",
+    "source_sha256": "80e6ec63e283afb4d87a00392989e7697503d1670101bba2a41051e14b33040f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeOneCanonicalInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.953999999910593,
+    "log": "round-native-rational-degree-one-inverse-NativeRationalDegreeOneCanonicalInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeOneCanonicalInverse.lean",
+    "source_sha256": "8396dcf1770588618a41de153028cd3624c894493d10de08731dcaf8ac3ab715"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeOneData.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.983999999938533,
+    "log": "round-native-rational-degree-one-inverse-NativeRationalDegreeOneData-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeOneData.lean",
+    "source_sha256": "28a11aaccbb42c85fad14db3b6c77a637a0ab08669ff30988d88b1369383548f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeOneFiniteVariablesInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.234000000171363,
+    "log": "round-native-rational-degree-one-inverse-NativeRationalDegreeOneFiniteVariablesInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeOneFiniteVariablesInverse.lean",
+    "source_sha256": "a29e8613a43384d1ff4ab310f49c6d3ab8d9ab20bb93f7000cde6968e6e1cc1f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeOneProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.54699999978766,
+    "log": "round-native-rational-degree-one-inverse-NativeRationalDegreeOneProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeOneProbability.lean",
+    "source_sha256": "6ebe8486edc875ed0544c50c345551238f05a4cc599d456b74e5e16c03400bc6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeOneRecursionStage.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.344000000040978,
+    "log": "round-native-rational-degree-one-inverse-NativeRationalDegreeOneRecursionStage-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeOneRecursionStage.lean",
+    "source_sha256": "9c83566b790e57f1305d9c743fe01bcc8f9a8830efaad617c1d16045c39176bd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeOneStateInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.155999999959022,
+    "log": "round-native-rational-degree-one-inverse-NativeRationalDegreeOneStateInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeOneStateInverse.lean",
+    "source_sha256": "91d8e8c8dc5e9317fa51c49d64913fcbc88039a3a40f353b74dd8db41ace51d0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeOneWeightedInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.82800000021234,
+    "log": "round-native-rational-degree-one-inverse-NativeRationalDegreeOneWeightedInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeOneWeightedInverse.lean",
+    "source_sha256": "0a1c2104ef04f6efd86f711844008cab63503fba30ed33ea74636561641ed423"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughVectorVariableRenaming.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.344000000040978,
+    "log": "round-native-rational-degree-one-inverse-RoughVectorVariableRenaming-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughVectorVariableRenaming.lean",
+    "source_sha256": "5e7f250a20d02347a1e0de954881224ecf9cb90707d48da9a7b5407e2613e904"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarVariableEquiv.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.640000000130385,
+    "log": "round-native-rational-degree-one-inverse-ScalarVariableEquiv-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarVariableEquiv.lean",
+    "source_sha256": "53682ce3cea2f608e6ceaa7d1268640a4871f998a284c8f782bfad13b337bebf"
+  }
+]

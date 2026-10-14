@@ -1,0 +1,18 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNestedResidueSampling.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.265000000130385,
+    "log": "round-rough-residual-sampling-RoughNestedResidueSampling-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNestedResidueSampling.lean",
+    "source_sha256": "bf0894ffee5c2d58cd4186e51ca6a26f2781265142c12d9a4a6475342ffbdb9b"
+  }
+]

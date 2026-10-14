@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "The previous complete audit was rechecked before edits; all 914 baseline hashes were checked again before registration. Only root/registry among retained source/config files changed.",
+    "The rational functional is extended through the already proved NATURAL tensor scalar-extension equivalence. Its original rational values and uniqueness are proved, not assumed.",
+    "Kernel spanning is proved by a concrete rank-one projection using an original rational pivot; zero functionals are handled separately. Exact kernel intersection and rationality follow. Nonzero functionals have strictly lower-dimensional real kernels.",
+    "Nilpotent abelianization is nonzero because a bottom subalgebra generating it would generate the whole algebra. Linear separation produces a character; bracket annihilation is proved from actual lower-central membership.",
+    "For the actual original lattice rational Lie algebra, inclusion and the original group nilpotency bound prove termination. Real spanning gives nontriviality. Two genuine real span inductions extend rational bracket annihilation to the whole original real model.",
+    "The actual global BCH product-log theorem proves the continuous character additive on the SAME original group. It is surjective, rational on the SAME Gamma, and nonzero on an actual Gamma element. Its kernel is Gamma-rational and strictly smaller.",
+    "This last application is AMBIENT only. Restriction to arbitrary rational S and compact representative induction are not yet proved. Rational values do not imply the image of Gamma is discrete without further argument. No cocompactness theorem or main conjecture is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/RationalSubspaceFunctional.lean",
+    "Hindman168/NilpotentLieCharacter.lean",
+    "Hindman168/NativeLatticeRationalCharacter.lean"
+  ],
+  "verified": {
+    "project_modules": 899,
+    "pntplus_modules": 9,
+    "source_scan_modules": 908,
+    "source_config_hashes": 917,
+    "build_jobs": 4852,
+    "axiom_reports": 4413,
+    "new_theorems": 15,
+    "new_definitions": 1,
+    "new_axiom_reports": 16,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The new character theorem concerns the full original ambient group and its specified lattice. Next extend the character construction to EVERY nonzero original Gamma-rational Lie subalgebra S, prove that the restricted character kernel is rational and strictly smaller, and prove actual BCH character additivity inside Exp(S). Construct compact representatives by pivot reduction and a terminating induction on dim S, then derive cocompactness of the SAME Gamma intersect Exp(S) and the embedded compact orbit. The current ambient character theorem does NOT establish arbitrary rational subgroup cocompactness; rational character values alone do NOT assert a discrete image. Remaining full-target work includes quantitative bounds, required original group/Lie lower-central identifications, full Calibration/Alignment and ordered positive monochromatic witnesses. StrongConjecture and the prize target remain unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

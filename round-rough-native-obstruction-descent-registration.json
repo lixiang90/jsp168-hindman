@@ -1,0 +1,66 @@
+{
+  "modules": [
+    "Hindman168/RoughNativeDescentBudgets.lean",
+    "Hindman168/RoughNativeAsymptoticModelBadFamily.lean",
+    "Hindman168/RoughJointScalarReparametrization.lean",
+    "Hindman168/RoughNativeJointCoefficientThinning.lean",
+    "Hindman168/RoughNativeIntegerizedBadFamily.lean",
+    "Hindman168/RoughNativeObstructionBadFamily.lean"
+  ],
+  "names": [
+    "Hindman168.rough_native_descent_budgets",
+    "Hindman168.rough_native_asymptotic_model_bad_family",
+    "Hindman168.rough_joint_scalar_reparametrization",
+    "Hindman168.rough_joint_scalar_reparametrized_degree",
+    "Hindman168.rough_linear_step_weighted_degree",
+    "Hindman168.rough_native_joint_coefficient_thinning",
+    "Hindman168.rough_native_integerized_bad_family",
+    "Hindman168.rough_native_obstruction_bad_family"
+  ],
+  "declarations": {
+    "Hindman168/RoughNativeDescentBudgets.lean": [
+      [
+        "theorem",
+        "rough_native_descent_budgets"
+      ]
+    ],
+    "Hindman168/RoughNativeAsymptoticModelBadFamily.lean": [
+      [
+        "theorem",
+        "rough_native_asymptotic_model_bad_family"
+      ]
+    ],
+    "Hindman168/RoughJointScalarReparametrization.lean": [
+      [
+        "theorem",
+        "rough_joint_scalar_reparametrization"
+      ],
+      [
+        "theorem",
+        "rough_joint_scalar_reparametrized_degree"
+      ],
+      [
+        "theorem",
+        "rough_linear_step_weighted_degree"
+      ]
+    ],
+    "Hindman168/RoughNativeJointCoefficientThinning.lean": [
+      [
+        "theorem",
+        "rough_native_joint_coefficient_thinning"
+      ]
+    ],
+    "Hindman168/RoughNativeIntegerizedBadFamily.lean": [
+      [
+        "theorem",
+        "rough_native_integerized_bad_family"
+      ]
+    ],
+    "Hindman168/RoughNativeObstructionBadFamily.lean": [
+      [
+        "theorem",
+        "rough_native_obstruction_bad_family"
+      ]
+    ]
+  }
+}

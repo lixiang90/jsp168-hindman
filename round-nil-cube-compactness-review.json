@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 577,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/NilUpperFaceLatticeRepresentatives.lean",
+    "Hindman168/NilUpperFaceCompactness.lean",
+    "Hindman168/CompactQuotientRepresentatives.lean",
+    "Hindman168/NilFiltrationCompactQuotients.lean",
+    "Hindman168/NilCompactRootRecipes.lean",
+    "Hindman168/NilCubeLatticeCocompactness.lean"
+  ],
+  "new_selected_report_count": 28,
+  "module_report_counts": {
+    "NilUpperFaceLatticeRepresentatives": 5,
+    "NilUpperFaceCompactness": 7,
+    "CompactQuotientRepresentatives": 3,
+    "NilFiltrationCompactQuotients": 4,
+    "NilCompactRootRecipes": 6,
+    "NilCubeLatticeCocompactness": 3
+  },
+  "application_review": [
+    "The vertexwise lattice is an actual subgroup of group-valued Boolean arrays; upper-face arrays of lattice elements belong to it. No lattice normality is required.",
+    "Every layer factor g=k*gamma can be chosen with the residual gamma in the original filtration layer as well as the lattice. Its layer membership follows from the selected representative and g, rather than a new assumption.",
+    "Actual suffix normalization collects every face-generated cube as one ordered representative times a right vertexwise lattice factor. The representative lies in the genuine generated cube subgroup.",
+    "Finite ordered products of the original compact layer representative sets are compact under continuous multiplication; no compactness of the entire cube subgroup is assumed.",
+    "The actual quotient cube image is exactly the image of the compact ordered representatives, by right-lattice cancellation for arbitrary nonnormal lattice subgroups.",
+    "An open surjection from a weakly locally compact space to a compact space admits a compact representative set, constructed by a finite subcover of images of interiors of compact neighborhoods.",
+    "A compact quotient of each actual filtration subgroup by the restricted lattice gives compact ambient representatives belonging to that subgroup, with exact right-lattice factorizations.",
+    "Compactness of the actual upper-face quotient cube image follows from these layer quotients and local compactness, with continuity of the chosen quotient topology explicitly retained.",
+    "Closed filtration layers inherit weak local compactness from the ambient group; layer local compactness therefore need not be supplied as independent data in the closed-layer interfaces.",
+    "Root-indexed cube compactness, exact continuous root reconstruction and finite bounded-coefficient recipes uniform over the fixed bounded-Lipschitz observable family now follow from closed layers and their compact lattice quotients. The same recipes work for all translating elements, base representatives and integer exponents.",
+    "The actual upper-face cube subgroup modulo its intersection with the vertexwise lattice is itself compact, using a compact set of representatives inside the cube subgroup. This proves its lattice cocompactness from the original layer quotients, in addition to compactness of the ambient quotient image.",
+    "All 577 baseline source/config hashes were verified before edits; only Hindman168.lean and Verification.lean changed among retained files. StrongStatement, all retained proof modules, nine attributed PNT+ files and dependency pins remain byte-identical.",
+    "The fixed local paper sections 04, 05 and 07 match the exact pinned adc7f1241b42e322a6451854ab7e4b4c146bf78a Git objects after newline normalization. No remote updates were checked.",
+    "The right-factor collection respects the noncommutative order: writing the current face coefficient as k*gamma, conjugate the actual suffix by the gamma face, collect that suffix, then multiply its lattice residual by the original gamma face on the right. Proved suffix normalization guarantees the conjugated suffix remains in the actual group.",
+    "The layer representative predicate only specifies representative membership in the original layer and a right-lattice factorization. The residual layer membership needed to normalize the suffix is derived algebraically; it is not added to the predicate.",
+    "The representative set is defined recursively as an ordered finite product of actual upper-face images of layer sets. Its inclusion in the face-generated subgroup and its compactness are proved separately; this does not presume the cube group is closed or compact.",
+    "The quotient equality uses the original nonnormal right-coset relation k^-1*g in Gamma. Right multiplication by any vertexwise lattice factor preserves the entire quotient cube; no quotient-group multiplication or Gamma.Normal is used.",
+    "The compact representative existence proof uses compact neighborhoods, their open images and a finite subcover. It assumes an open surjection and weak local compactness, and does not introduce a continuous section.",
+    "The restricted layer lattice is exactly Gamma.comap (F i).subtype. Compact representatives of this genuine subgroup quotient map continuously into G and retain membership in F i and exact group factorizations.",
+    "The metric quotient interfaces explicitly use the metric-induced topology through a local topology instance. Continuity of G to the metric quotient is an explicit hypothesis. They do not silently identify an arbitrary quotient metric with the natural quotient topology.",
+    "The actual cube subgroup lattice is exactly the comap of the vertexwise lattice along the actual cube subgroup inclusion. Its representative set is the subtype preimage of the compact ambient representative set; that set is compact because the ambient representatives lie in the inclusion range. Residual cube-group membership is derived from k^-1*z.",
+    "The final reconstruction and recipe interfaces have no independent cube-compactness or coordinate-certificate premise. Their ambient weak local compactness, filtration/closed-layer conditions and compact restricted-lattice quotients remain explicit and mathematically substantive.",
+    "The concrete rational nilpotent Lie-group filtration and its layer cocompactness have not been instantiated. Observable factors are continuous bounded functions; no Lipschitz refinement of the factors, selector implementation or original weighted-boundary estimate is asserted.",
+    "Full build completed 4432 jobs with no warnings/errors; the kernel audit covers 2788 unique exact names including all 28 new theorems, with only the three standard axioms or none. Source scan covers 565 own and 9 PNT+ modules; all 565 own modules are imported exactly once.",
+    "Both consecutive goal proof rounds are PROGRESS. The complete StrongConjecture is unchanged and unproved. No full prize eligibility, public submission or unavoidable blocker is claimed."
+  ],
+  "source_preprint_sections": {
+    "07_cube_limits.tex": "34-95: actual face-group coordinates and compact quotient via rational-layer cocompactness; 117-168: compact missing-root reconstruction and uniform coordinate-product recipes",
+    "05_prediction.tex": "287-309: uniform recipes for unrestricted linear orbits; selectors and weighted boundary estimates in 312-352 remain pending"
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4432,
+    "project_modules": 565,
+    "pntplus_modules": 9,
+    "source_scan_modules": 574,
+    "axiom_reports": 2788,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 583,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original-law detection, constructed dense block models, full dual estimates, model-error cube cancellation, nonsingleton count replacement, actual unique ordered face coordinates, reflections, missing-corner uniqueness and finite uniform recipes remain proved. Cube compactness is now derived: compact representatives for each actual filtration layer collect to a compact representative set for the genuine cube group, and the quotient cube image equals its image. The actual cube subgroup modulo its intersection with the vertexwise lattice is compact as well. Compact layer quotients in a weakly locally compact ambient group with closed filtration layers imply these representatives, root reconstruction and recipes; there is no independent cube-image compactness premise in the new final interfaces. The actual nilpotent/lower-central group filtration, closed rational layers and compact restricted-lattice quotients still require instantiation for the paper's nilmanifolds; the explicit layer hypotheses are not silently treated as proved. The quotient metric topology and continuity of the natural projection are explicit. Recipe factors are continuous and bounded by one; Lipschitz refinement of those factors, if required by subsequent use, is not claimed. Next realize the finite recipes through piece/residue selector inputs of the original extra zero-prime dual test and prove the original harmonic/divisor-weighted boundary estimate. Complete Prediction nilsequence testing, nested coarse-model projections, calibration and Alignment; instantiate concrete natural-number coloring weights, arithmetic chain/block/gap data and all companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

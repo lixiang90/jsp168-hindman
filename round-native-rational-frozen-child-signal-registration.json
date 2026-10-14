@@ -1,0 +1,220 @@
+{
+  "modules": [
+    "Hindman168/BalancedComplexResidueGeometry.lean",
+    "Hindman168/BalancedComplexResidueSelection.lean",
+    "Hindman168/FiniteComplexFiberSelection.lean",
+    "Hindman168/FiniteComplexSampleStability.lean",
+    "Hindman168/FinitePositiveThresholdMinimum.lean",
+    "Hindman168/IntegerResidueProgressionEnumeration.lean",
+    "Hindman168/NativeCompactFamilyUnitDetection.lean",
+    "Hindman168/NativeConjugateFourierUnitDetection.lean",
+    "Hindman168/NativeRationalErrorFourierFreezing.lean",
+    "Hindman168/NativeRationalFiniteResidueUnitDetection.lean",
+    "Hindman168/NativeRationalFourierScalarFreezing.lean",
+    "Hindman168/NativeRationalFrozenProgressionMean.lean",
+    "Hindman168/NativeRationalFrozenProgressionUnitSignal.lean",
+    "Hindman168/NativeRationalFrozenResidueMean.lean",
+    "Hindman168/NativeRationalIntegerResidueCoset.lean",
+    "Hindman168/NativeRationalNonlinearityChildSignal.lean",
+    "Hindman168/NativeRationalProgressionSource.lean",
+    "Hindman168/NativeRationalRightSampleFreezing.lean",
+    "Hindman168/ScalarNonlinearIntegerPeriod.lean"
+  ],
+  "names": [
+    "Hindman168.balanced_complex_residue_cell_original_range",
+    "Hindman168.balanced_complex_residue_cell_close",
+    "Hindman168.balanced_complex_residue_cell_congruent",
+    "Hindman168.balancedComplexResidueCell",
+    "Hindman168.balancedComplexResidueLabel",
+    "Hindman168.balanced_complex_residue_cell_mem",
+    "Hindman168.balanced_complex_residue_cell_fiber",
+    "Hindman168.balanced_complex_residue_cell_card_lower",
+    "Hindman168.balanced_complex_residue_mean_selection",
+    "Hindman168.finite_complex_fiber_mean_selection",
+    "Hindman168.finite_complex_set_mean_sub",
+    "Hindman168.finite_complex_sample_mean_error",
+    "Hindman168.finite_complex_frozen_mean_large",
+    "Hindman168.finite_positive_threshold_minimum",
+    "Hindman168.integer_residue_interval_progression",
+    "Hindman168.native_compact_family_unit_detection",
+    "Hindman168.native_conjugate_fourier_unit_detection",
+    "Hindman168.native_rational_error_fourier_freezing",
+    "Hindman168.native_rational_finite_residue_unit_detection",
+    "Hindman168.native_rational_fourier_scalar_freezing",
+    "Hindman168.native_rational_frozen_progression_mean",
+    "Hindman168.native_rational_frozen_progression_unit_signal",
+    "Hindman168.native_rational_frozen_residue_mean",
+    "Hindman168.native_rational_polynomial_integer_modEq_coset",
+    "Hindman168.native_rational_nonlinearity_child_signal",
+    "Hindman168.nativeRationalProgressionPolynomial",
+    "Hindman168.native_rational_progression_polynomial_weighted",
+    "Hindman168.native_rational_progression_polynomial_degree",
+    "Hindman168.native_rational_progression_polynomial_orbit",
+    "Hindman168.native_rational_right_sample_freezing",
+    "Hindman168.scalar_nonlinear_rational_integer_modEq_period"
+  ],
+  "declarations": {
+    "Hindman168/BalancedComplexResidueGeometry.lean": [
+      [
+        "theorem",
+        "balanced_complex_residue_cell_original_range"
+      ],
+      [
+        "theorem",
+        "balanced_complex_residue_cell_close"
+      ],
+      [
+        "theorem",
+        "balanced_complex_residue_cell_congruent"
+      ]
+    ],
+    "Hindman168/BalancedComplexResidueSelection.lean": [
+      [
+        "def",
+        "balancedComplexResidueCell"
+      ],
+      [
+        "def",
+        "balancedComplexResidueLabel"
+      ],
+      [
+        "theorem",
+        "balanced_complex_residue_cell_mem"
+      ],
+      [
+        "theorem",
+        "balanced_complex_residue_cell_fiber"
+      ],
+      [
+        "theorem",
+        "balanced_complex_residue_cell_card_lower"
+      ],
+      [
+        "theorem",
+        "balanced_complex_residue_mean_selection"
+      ]
+    ],
+    "Hindman168/FiniteComplexFiberSelection.lean": [
+      [
+        "theorem",
+        "finite_complex_fiber_mean_selection"
+      ]
+    ],
+    "Hindman168/FiniteComplexSampleStability.lean": [
+      [
+        "theorem",
+        "finite_complex_set_mean_sub"
+      ],
+      [
+        "theorem",
+        "finite_complex_sample_mean_error"
+      ],
+      [
+        "theorem",
+        "finite_complex_frozen_mean_large"
+      ]
+    ],
+    "Hindman168/FinitePositiveThresholdMinimum.lean": [
+      [
+        "theorem",
+        "finite_positive_threshold_minimum"
+      ]
+    ],
+    "Hindman168/IntegerResidueProgressionEnumeration.lean": [
+      [
+        "theorem",
+        "integer_residue_interval_progression"
+      ]
+    ],
+    "Hindman168/NativeCompactFamilyUnitDetection.lean": [
+      [
+        "theorem",
+        "native_compact_family_unit_detection"
+      ]
+    ],
+    "Hindman168/NativeConjugateFourierUnitDetection.lean": [
+      [
+        "theorem",
+        "native_conjugate_fourier_unit_detection"
+      ]
+    ],
+    "Hindman168/NativeRationalErrorFourierFreezing.lean": [
+      [
+        "theorem",
+        "native_rational_error_fourier_freezing"
+      ]
+    ],
+    "Hindman168/NativeRationalFiniteResidueUnitDetection.lean": [
+      [
+        "theorem",
+        "native_rational_finite_residue_unit_detection"
+      ]
+    ],
+    "Hindman168/NativeRationalFourierScalarFreezing.lean": [
+      [
+        "theorem",
+        "native_rational_fourier_scalar_freezing"
+      ]
+    ],
+    "Hindman168/NativeRationalFrozenProgressionMean.lean": [
+      [
+        "theorem",
+        "native_rational_frozen_progression_mean"
+      ]
+    ],
+    "Hindman168/NativeRationalFrozenProgressionUnitSignal.lean": [
+      [
+        "theorem",
+        "native_rational_frozen_progression_unit_signal"
+      ]
+    ],
+    "Hindman168/NativeRationalFrozenResidueMean.lean": [
+      [
+        "theorem",
+        "native_rational_frozen_residue_mean"
+      ]
+    ],
+    "Hindman168/NativeRationalIntegerResidueCoset.lean": [
+      [
+        "theorem",
+        "native_rational_polynomial_integer_modEq_coset"
+      ]
+    ],
+    "Hindman168/NativeRationalNonlinearityChildSignal.lean": [
+      [
+        "theorem",
+        "native_rational_nonlinearity_child_signal"
+      ]
+    ],
+    "Hindman168/NativeRationalProgressionSource.lean": [
+      [
+        "def",
+        "nativeRationalProgressionPolynomial"
+      ],
+      [
+        "theorem",
+        "native_rational_progression_polynomial_weighted"
+      ],
+      [
+        "theorem",
+        "native_rational_progression_polynomial_degree"
+      ],
+      [
+        "theorem",
+        "native_rational_progression_polynomial_orbit"
+      ]
+    ],
+    "Hindman168/NativeRationalRightSampleFreezing.lean": [
+      [
+        "theorem",
+        "native_rational_right_sample_freezing"
+      ]
+    ],
+    "Hindman168/ScalarNonlinearIntegerPeriod.lean": [
+      [
+        "theorem",
+        "scalar_nonlinear_rational_integer_modEq_period"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 995 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "The multiplicative derivative is for real functions and uses the actual original cube product. Commutativity of the ambient additive group justifies the translated face identity.",
+    "The derivative mean recursion uses the exact Fin.cons equivalence and exchanges the finite Haar means; it does not change cardinality denominators.",
+    "The normalized Cauchy-Schwarz statement follows from the finite sum inequality divided by the square of the original cardinality. This statement allows empty finite types. Mean-square and unit-factor removal explicitly require nonemptiness.",
+    "The ambient integral of a subgroup Haar mean equals the original integral by translation invariance, independently of subgroup index.",
+    "Two applications of the normalized mean-square inequality to the exact successor square identity establish the adjacent cube moment bound for every natural dimension, including zero, and every real function. No sign or unit bound is assumed.",
+    "Nine theorems are individually kernel audited. These results do not establish the required generalized short-increment estimate or Bessel theorem; inverse correlator existence and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/SubgroupCubeDerivative.lean",
+    "Hindman168/FiniteHaarCauchySchwarz.lean",
+    "Hindman168/SubgroupCubeMomentMonotone.lean"
+  ],
+  "verified": {
+    "project_modules": 980,
+    "pntplus_modules": 9,
+    "source_scan_modules": 989,
+    "source_config_hashes": 998,
+    "build_jobs": 4934,
+    "axiom_reports": 4764,
+    "new_theorems": 9,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 9,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Actual derivative recursion, normalized Haar Cauchy-Schwarz and adjacent cube moment comparison are proved. Generalized Cauchy-Schwarz for the short-increment reduction, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

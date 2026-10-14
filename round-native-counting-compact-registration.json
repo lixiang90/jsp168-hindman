@@ -1,0 +1,65 @@
+{
+  "modules": [
+    "Hindman168/DiscreteLatticeCompactSheets.lean",
+    "Hindman168/CosetSectionCountingCompactMass.lean",
+    "Hindman168/NativeNilmanifoldCountingCompact.lean",
+    "Hindman168/NativeNilmanifoldCountingHaarScalar.lean"
+  ],
+  "names": [
+    "Hindman168.discrete_lattice_compact_intersection_finite",
+    "Hindman168.coset_section_compact_sheet_membership",
+    "Hindman168.coset_section_compact_sheets_finite",
+    "Hindman168.coset_section_counting_lift_compact_bound",
+    "Hindman168.coset_section_counting_lift_compact_finite",
+    "Hindman168.coset_section_counting_lift_finiteOnCompacts",
+    "Hindman168.native_nilmanifold_counting_lift_finiteOnCompacts",
+    "Hindman168.native_nilmanifold_counting_lift_compact_mass",
+    "Hindman168.native_nilmanifold_counting_lift_eq_haar_smul"
+  ],
+  "declarations": {
+    "Hindman168/DiscreteLatticeCompactSheets.lean": [
+      [
+        "theorem",
+        "discrete_lattice_compact_intersection_finite"
+      ],
+      [
+        "theorem",
+        "coset_section_compact_sheet_membership"
+      ],
+      [
+        "theorem",
+        "coset_section_compact_sheets_finite"
+      ]
+    ],
+    "Hindman168/CosetSectionCountingCompactMass.lean": [
+      [
+        "theorem",
+        "coset_section_counting_lift_compact_bound"
+      ],
+      [
+        "theorem",
+        "coset_section_counting_lift_compact_finite"
+      ],
+      [
+        "theorem",
+        "coset_section_counting_lift_finiteOnCompacts"
+      ]
+    ],
+    "Hindman168/NativeNilmanifoldCountingCompact.lean": [
+      [
+        "theorem",
+        "native_nilmanifold_counting_lift_finiteOnCompacts"
+      ],
+      [
+        "theorem",
+        "native_nilmanifold_counting_lift_compact_mass"
+      ]
+    ],
+    "Hindman168/NativeNilmanifoldCountingHaarScalar.lean": [
+      [
+        "theorem",
+        "native_nilmanifold_counting_lift_eq_haar_smul"
+      ]
+    ]
+  }
+}

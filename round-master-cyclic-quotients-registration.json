@@ -1,0 +1,54 @@
+{
+  "baseline_hash_count": 1024,
+  "modules": [
+    "Hindman168/CyclicScaleQuotients.lean",
+    "Hindman168/MasterCyclicQuotients.lean",
+    "Hindman168/MasterCyclicShortLengths.lean"
+  ],
+  "names": [
+    "Hindman168.cyclicScale_factorization",
+    "Hindman168.cyclicScale_quotient_dvd",
+    "Hindman168.cyclicScale_short_length",
+    "Hindman168.cyclicScale_subgroup_card",
+    "Hindman168.MasterParameterConditions.polynomial_cyclic_geometry",
+    "Hindman168.MasterParameterConditions.polynomial_cyclic_subgroup_card",
+    "Hindman168.MasterParameterConditions.capped_short_lengths_eventually"
+  ],
+  "theorem_count": 7,
+  "declarations": {
+    "Hindman168/CyclicScaleQuotients.lean": [
+      [
+        "theorem",
+        "cyclicScale_factorization"
+      ],
+      [
+        "theorem",
+        "cyclicScale_quotient_dvd"
+      ],
+      [
+        "theorem",
+        "cyclicScale_short_length"
+      ],
+      [
+        "theorem",
+        "cyclicScale_subgroup_card"
+      ]
+    ],
+    "Hindman168/MasterCyclicQuotients.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.polynomial_cyclic_geometry"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.polynomial_cyclic_subgroup_card"
+      ]
+    ],
+    "Hindman168/MasterCyclicShortLengths.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.capped_short_lengths_eventually"
+      ]
+    ]
+  }
+}

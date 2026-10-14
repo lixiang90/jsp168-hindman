@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding audit was rechecked before edits. All 930 baseline hashes are checked at registration. Only root imports and axiom registry change among retained source/config files; original statements, geometry, arithmetic and all retained proofs stay intact.",
+    "The source route is section 05_prediction.tex, nested-spaces equation and Ramsey selection of gap energies lemma. The new declarations prove their Hilbert identities and uniform selection mechanism, not the existence of the actual ultralimit or nilsequence spaces.",
+    "The nested projection identity uses the genuine mathlib orthogonal projection, its composition for U <= V, and the orthogonal-complement Pythagorean decomposition. The sign is fine-space energy minus coarse-space energy. Nonnegativity is proved, not assumed. The 2 epsilon bound uses the same vector and a model lying in the coarse space.",
+    "The clipping lemma compares squared distances to the original vector and cancels the SAME perpendicular residual in two exact Pythagorean identities. The representative existence theorem explicitly assumes density, closure under clipping, clipping contraction and its output predicate. These are obligations for the actual representing families and are not hidden in a claimed nilsequence construction.",
+    "Natural floor bins handle both endpoints of [0,1], including energy=1. The finite palette has floor(1/delta)+1 bins per label. Equal bins imply STRICT distance < delta via lower and upper floor inequalities and delta>0. No unjustified bound or unbounded color set enters Ramsey.",
+    "The joint palette is the finite function type from labels to bins. The retained finite size-homogeneous Ramsey theorem selects N before the arbitrary energy function. All equal-cardinality subsets up to K and all labels share the estimate. Empty label types and size-zero cases are permitted without fabricating colors.",
+    "Projection energy lies in [0,1] by the genuine operator contraction and the input vector norm bound. Selection uses delta=epsilon^2. The model-selection theorem explicitly requires equal vectors and nested spaces for a selected pair, preserving the same-vector condition required by the energy identity. Actual tail/padding tuple decoding remains to be supplied.",
+    "No full Calibration/Alignment, ultrafilter Hilbert completion, common-complexity actual nilsequence model, inverse theorem or final StrongConjecture is claimed. The task remains active, with no unavoidable blocker established."
+  ],
+  "new_modules": [
+    "Hindman168/NestedProjectionEnergy.lean",
+    "Hindman168/RamseyEnergySelection.lean",
+    "Hindman168/RamseyProjectionSelection.lean"
+  ],
+  "verified": {
+    "project_modules": 915,
+    "pntplus_modules": 9,
+    "source_scan_modules": 924,
+    "source_config_hashes": 933,
+    "build_jobs": 4868,
+    "axiom_reports": 4475,
+    "new_theorems": 12,
+    "new_definitions": 0,
+    "new_axiom_reports": 12,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Original native lower-central geometry, specified-lattice quotients and canonical cube compactness remain proved. The original-law model-error testing interface has no supplied layer-compactness premise. The abstract Hilbert-space energy identity, clipping approximation and uniform finite Ramsey gap-energy selection are NOW PROVED with the correct bound-before-data quantifiers. The actual ultrafilter/completed Hilbert space, piecewise nilsequence closed spans, their nesting and closure under representing operations/clipping still must be constructed and plugged into these lemmas, with finite common complexity and the paper's padding/principal tuple indexing. Remaining full-target work also includes Calibration/Alignment, subgroup inverse inputs, actual coloring/arithmetic data and ordered positive rapidly separated monochromatic witnesses, and quantitative degree/denominator bounds where required. The original model, group, Gamma and StrongConjecture statement remain unchanged. StrongConjecture and the prize target remain unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

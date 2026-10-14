@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.140000000130385,
+  "log": "round-native-array-lattice-span-axioms.txt",
+  "log_sha256": "b72fa9183ac1b6c370becaef93ee990cf87f604d45a14e034fda5cd97df09a7f"
+}

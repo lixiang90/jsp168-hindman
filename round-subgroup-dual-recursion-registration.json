@@ -1,0 +1,43 @@
+{
+  "baseline_hash_count": 1070,
+  "modules": [
+    "Hindman168/SubgroupDualRecursion.lean"
+  ],
+  "names": [
+    "Hindman168.prod_nonempty_powerset_insert",
+    "Hindman168.nonrootCubeProduct_image",
+    "Hindman168.nonrootCubeProduct_succ_derivative",
+    "Hindman168.subgroupDualFunction_succ",
+    "Hindman168.subgroupDualFunction_zero",
+    "Hindman168.subgroupDualFunction_translate"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/SubgroupDualRecursion.lean": [
+      [
+        "theorem",
+        "prod_nonempty_powerset_insert"
+      ],
+      [
+        "theorem",
+        "nonrootCubeProduct_image"
+      ],
+      [
+        "theorem",
+        "nonrootCubeProduct_succ_derivative"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_succ"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_zero"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_translate"
+      ]
+    ]
+  }
+}

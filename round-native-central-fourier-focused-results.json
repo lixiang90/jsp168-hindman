@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterTorusProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.436999999918044,
+    "log": "round-native-central-fourier-NativeCenterTorusProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterTorusProjection.lean",
+    "source_sha256": "2dce165619d335f4f0af3a865e20364be3a7d8adb04efde3df5c8c83299eba35"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterTorusEquivalence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.297000000020489,
+    "log": "round-native-central-fourier-NativeCenterTorusEquivalence-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterTorusEquivalence.lean",
+    "source_sha256": "75368c1cf8936d4eded8148d734744908b595b66598c0f7fbd591312c01b1b0d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CentralCosetAction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.125,
+    "log": "round-native-central-fourier-CentralCosetAction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CentralCosetAction.lean",
+    "source_sha256": "6c43de3deb45ade2babe2dfdc152bba0e110be5d4036601eca8f4e23c4316896"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNilmanifoldCentralAction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.0,
+    "log": "round-native-central-fourier-NativeNilmanifoldCentralAction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNilmanifoldCentralAction.lean",
+    "source_sha256": "8d0e2fb1b18b9c0a49941f7f72a6f0da1e1cb9e5b8e9f14f533e3f6b2bccbe22"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralOrbitObservables.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.375,
+    "log": "round-native-central-fourier-NativeCentralOrbitObservables-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralOrbitObservables.lean",
+    "source_sha256": "f2246f8a42a5fa52898b34529873ad1468bf2136c4956c221a06b47fafcdb442"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/TorusVerticalFourier.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.764999999897555,
+    "log": "round-native-central-fourier-TorusVerticalFourier-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/TorusVerticalFourier.lean",
+    "source_sha256": "3ddf714b1612e8d43180b9bed1552262a80aae9b1b298761754b171c1f765aa5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralFourierProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.17200000002049,
+    "log": "round-native-central-fourier-NativeCentralFourierProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralFourierProjection.lean",
+    "source_sha256": "f96d0882c6f7a7d883ec89db21cf59d3b8a34ddc0f6f198290540763d020336f"
+  }
+]

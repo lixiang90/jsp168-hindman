@@ -1,0 +1,67 @@
+JSP-000168 continuation, 2026-10-14. Goal ACTIVE.
+The window/real-scale next steps below have now been implemented in
+round-native-window-haar. See WINDOW-HAAR-CONTINUATION.txt for the next work;
+the manifest determines whether its terminal audit has completed.
+Read CURRENT-STATUS.txt and verification-manifest.json last_round for the
+latest TERMINAL checkpoint. StrongConjecture remains UNPROVED. No unavoidable
+obstruction established. Publication/PR/application milestone not reached.
+
+New work in round-native-point-haar (only terminal after audit record):
+NativeSubgroupHorizontalLevelBridge -- inherited unregistered source checked.
+NativeRationalLayerLogPolynomial -- actual degree-correct subgroup log source.
+NativeRationalLayerPolynomialInverse -- actual finite-grid inverse-to-level bridge.
+NativeSubgroupHorizontalTaylor -- internal horizontal scalarization and degree.
+NativeSubgroupTaylorTopCoefficient -- exact coefficient = Taylor value / j!.
+NativeSubgroupHorizontalEscape -- rational factorial denominator escape.
+NativeRationalLayerPointHaar -- uniform full-interval q=0 Haar law in the
+actual subgroup/conjugated-lattice quotient, for natural cofinal lengths N
+and the ORIGINAL all-character irrationality at scale N.
+
+Immediate next work: extend q=0 to genuine translated progression windows
+with length at least a fixed positive fraction of the original scale L.
+The character grid is fixed before sources, translations and observables.
+1. rough_vector_weighted_affine in RoughWeightedPolynomialDifference preserves
+   the SAME filtration under affine substitution. The original subgroup orbit
+   then has exact original log/source evaluation after substitution.
+2. rough_vector_projection_affine_substitution transports complete scalar
+   projections. rough_affine_uniform_coefficient in RoughAffineCommonMultiplier
+   gives coefficient(dilation after translation) = d^j * translated coefficient.
+   rough_translation_top_coefficient in RoughTranslationTopCoefficients removes
+   ANY origin from degree-j coefficients when scalar totalDegree<=j. Current
+   native_subgroup_horizontal_projection_degree proves univariate natDegree<=j;
+   either prove Unit conversion totalDegree equality or supply the same
+   coefficient-membership proof directly for multivariate totalDegree.
+3. Thus the actual top progression coefficient is d^j * phi(Taylor_j) / j!.
+   Apply all-rational irrationality to the genuine nonzero rational
+   (d^j / j!) * phi. Do NOT divide a circle norm by d. Fixed positive d only.
+4. In native_subgroup_horizontal_top_coefficient_escape, generalize reciprocal
+   factorial to fixed rational coefficient multiplier (or prove a new theorem).
+   Pass from scale L^j to window length N^j using eventual c*L<=N and c>0;
+   use a positive real constant comparison OUTSIDE the norm. No rate claimed.
+5. Reuse actual inverse and finite character/level intersections as in
+   native_rational_layer_point_haar_unit. A common threshold can cover ALL
+   origins and all N>=c*L because the top coefficient does not depend on the
+   origin and inverse grid is source/length-independent. Keep exact floor,
+   signed original progression inputs and true interval endpoints.
+6. Transport to nativeRationalLayerHaarImage via the actual orbit map,
+   continuous/Lipschitz approximation on compact quotients and true uniform
+   smooth-factor limit. Sequence limit must precede locality alpha->0.
+
+Then cubes: construct actual rational cube Lie subalgebra/filtration in
+the original finite product native datum, using the SAME final filtration.
+NilUpperFaceFiltration has exact upperFaceArray_commutator, face unions and
+tail normality. A maximal face restriction supplies an original rational
+level character. Isolate support D monomial b0^(j-|D|)*prod_D bi with exact
+coefficient xi(Taylor_j)/(j-|D|)!; no cancellation from other face supports.
+Cover every fixed dimension through ORIGINAL s+1, q=0 included.
+
+The current Haar theorem has a legitimate irrationality HYPOTHESIS already
+produced by the proved sequential factorization. It is not an unconditional
+equidistribution statement for arbitrary sources or the complete paper
+proposition. No Haar oracle, new source geometry, stretched original step,
+new axioms or theorem-completion claim may replace remaining work.
+
+Full-support/projected-face Haar invariance, actual joint lifts/Alignment,
+separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse and
+final SAME-color positive distinct rapidly separated nonempty FS AND FP
+remain. Author checks are not independent kernel replay or peer review.

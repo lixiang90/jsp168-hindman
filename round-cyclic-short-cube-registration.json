@@ -1,0 +1,41 @@
+{
+  "baseline_hash_count": 1022,
+  "modules": [
+    "Hindman168/UniformImageCubeBound.lean",
+    "Hindman168/CyclicShortCubeBound.lean"
+  ],
+  "names": [
+    "Hindman168.weightedUniformImageCube_bound",
+    "Hindman168.multipleDivisorSubgroup_card",
+    "Hindman168.weightedCyclicShortCube_bound",
+    "Hindman168.multipleCyclicCubeProduct_vertices",
+    "Hindman168.weightedCyclicShortCube_vertices_bound"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/UniformImageCubeBound.lean": [
+      [
+        "theorem",
+        "weightedUniformImageCube_bound"
+      ]
+    ],
+    "Hindman168/CyclicShortCubeBound.lean": [
+      [
+        "theorem",
+        "multipleDivisorSubgroup_card"
+      ],
+      [
+        "theorem",
+        "weightedCyclicShortCube_bound"
+      ],
+      [
+        "theorem",
+        "multipleCyclicCubeProduct_vertices"
+      ],
+      [
+        "theorem",
+        "weightedCyclicShortCube_vertices_bound"
+      ]
+    ]
+  }
+}

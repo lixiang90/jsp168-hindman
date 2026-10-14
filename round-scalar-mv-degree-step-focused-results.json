@@ -1,0 +1,146 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarMvSmallValueEstimate.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.515999999828637,
+    "log": "round-scalar-mv-degree-step-ScalarMvSmallValueEstimate-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarMvSmallValueEstimate.lean",
+    "source_sha256": "6161307bee817648476866e80d5604e96fda76c2a78c801640ed893e5b3a2743"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarMvCommonHomogeneousDirections.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.952999999979511,
+    "log": "round-scalar-mv-degree-step-ScalarMvCommonHomogeneousDirections-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarMvCommonHomogeneousDirections.lean",
+    "source_sha256": "d7352822a01b6cb6db62b3993d4ec64ee66da843d2179899fe79f79b214aeed4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarMvShortLineThreshold.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.827999999979511,
+    "log": "round-scalar-mv-degree-step-ScalarMvShortLineThreshold-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarMvShortLineThreshold.lean",
+    "source_sha256": "098199bb63a8db6a461781a598dd50d6c2dbe83dcbe96e6d39fb3f5df9e817e4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarMvPhaseDegreeStep.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.875,
+    "log": "round-scalar-mv-degree-step-ScalarMvPhaseDegreeStep-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarMvPhaseDegreeStep.lean",
+    "source_sha256": "020375bb3d90d2e13c0b61c218bb95e17b5f384ef1a7c9795e9cecd68afc4261"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleFiniteDiscrepancy.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.187000000150874,
+    "log": "round-scalar-mv-degree-step-UnitCircleFiniteDiscrepancy-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleFiniteDiscrepancy.lean",
+    "source_sha256": "4416c232ec8df9a169e7f08ce1daac88381bacf560cbb8254235e3b7ebd5c44a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleFiniteObservablePhaseSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.718999999808148,
+    "log": "round-scalar-mv-degree-step-UnitCircleFiniteObservablePhaseSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleFiniteObservablePhaseSelection.lean",
+    "source_sha256": "115bcc12a4bafb38c6cbafbbef8d5e756b92cd2f5368d0ff630941ca44243063"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarMvObservableInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.5,
+    "log": "round-scalar-mv-degree-step-ScalarMvObservableInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarMvObservableInverse.lean",
+    "source_sha256": "3567bd46ba1287ca1affc01dda50d852632a14ed7d48ab087661289d581d6679"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarMvSmallValuesCoarse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.79700000002049,
+    "log": "round-scalar-mv-degree-step-ScalarMvSmallValuesCoarse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarMvSmallValuesCoarse.lean",
+    "source_sha256": "5878cfce3add0365d0a44c566c2d360f9fd67087ad32664224a3c3d427640366"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarMvNaturalMultiples.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.391000000061467,
+    "log": "round-scalar-mv-degree-step-ScalarMvNaturalMultiples-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarMvNaturalMultiples.lean",
+    "source_sha256": "474e7942f31547bca48edd06258150ab9648754521ab2b58a56725e2c33da898"
+  }
+]

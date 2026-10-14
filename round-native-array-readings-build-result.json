@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 30.686999999918044,
+  "log": "round-native-array-readings-build.txt",
+  "log_sha256": "47524cbc3052864ba0f88e67809de850bcf8b42ad8423452bc4808816ff4100c"
+}

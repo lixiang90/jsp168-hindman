@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous round rechecked and all retained proof hashes preserved.",
+    "The weighted sampling result retains the supplied actual nonnegative normalized cell probabilities. It selects one sample tuple for the aggregate error, rather than separately changing the law in each cell.",
+    "Weighted Cauchy-Schwarz is proved from the existing weighted square inequality and root Haar Cauchy-Schwarz, with all coefficients retained.",
+    "The dual approximation is an empirical mean of actual nonroot cube products. Its unit bound follows from the unit bounds of those products and m>0.",
+    "The existential sample tuple precedes universal quantification over bounded tests. Thus all such tests share the same approximation and squared correlation error bound 1/m.",
+    "Four new theorems are individually audited. Neither a high-order concatenation assertion nor a substitute probability system is introduced; the principal Bessel and inverse gaps remain."
+  ],
+  "new_modules": [
+    "Hindman168/WeightedDualApproximation.lean"
+  ],
+  "verified": {
+    "project_modules": 1056,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1065,
+    "source_config_hashes": 1074,
+    "build_jobs": 5010,
+    "axiom_reports": 4998,
+    "new_theorems": 4,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 4,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The common-system master estimates, first-order Bessel, dual energy reduction, recursion and stability are proved. Actual dual functions now have a common finite empirical approximation preserving arbitrary cell probabilities, unit bounds and uniform bounded-test correlations. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

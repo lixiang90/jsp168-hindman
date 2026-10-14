@@ -1,0 +1,59 @@
+{
+  "baseline_hash_count": 978,
+  "modules": [
+    "Hindman168/NativeStageRestriction.lean",
+    "Hindman168/NativeProjectionCorrelation.lean",
+    "Hindman168/NativeUltrafilterRestriction.lean"
+  ],
+  "names": [
+    "Hindman168.nativePieceOn_stage_restrict",
+    "Hindman168.nativePieceRepresented_stage_restrict",
+    "Hindman168.subspace_inner_abs_le_projection_norm",
+    "Hindman168.nativeHilbert_correlation_bound",
+    "Hindman168.nativeHilbert_projection_lower_of_eventual_correlation",
+    "Hindman168.subprobabilityStageRestrict",
+    "Hindman168.subprobabilityStageRestrict_eq",
+    "Hindman168.nativeStageRestrict_represented"
+  ],
+  "theorem_count": 7,
+  "declarations": {
+    "Hindman168/NativeStageRestriction.lean": [
+      [
+        "theorem",
+        "nativePieceOn_stage_restrict"
+      ],
+      [
+        "theorem",
+        "nativePieceRepresented_stage_restrict"
+      ]
+    ],
+    "Hindman168/NativeProjectionCorrelation.lean": [
+      [
+        "theorem",
+        "subspace_inner_abs_le_projection_norm"
+      ],
+      [
+        "theorem",
+        "nativeHilbert_correlation_bound"
+      ],
+      [
+        "theorem",
+        "nativeHilbert_projection_lower_of_eventual_correlation"
+      ]
+    ],
+    "Hindman168/NativeUltrafilterRestriction.lean": [
+      [
+        "def",
+        "subprobabilityStageRestrict"
+      ],
+      [
+        "theorem",
+        "subprobabilityStageRestrict_eq"
+      ],
+      [
+        "theorem",
+        "nativeStageRestrict_represented"
+      ]
+    ]
+  }
+}

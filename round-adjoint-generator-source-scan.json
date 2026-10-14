@@ -1,0 +1,15 @@
+{
+  "project_modules": 709,
+  "pntplus_modules": 9,
+  "scanned_module_count": 718,
+  "root_registry_scanned": true,
+  "executable_banned_tokens": [],
+  "new_unlimited_heartbeats": [],
+  "new_disabled_linters": [],
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "root_imports_exact": true,
+  "new_option_overrides": []
+}

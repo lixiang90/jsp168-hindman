@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.062000000150874,
+  "log": "round-native-joint-smooth-interface-axioms.txt",
+  "log_sha256": "fabaa35ebf2aa651e83b04b26dd843ea22a3194f32f36ec2f11e39b49217db7b"
+}

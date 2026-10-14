@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 12.906,
+  "log": "round-rational-compact-build.txt",
+  "log_sha256": "c240e048674a1c6708f140e4b6b97fbe24d623d93d5253b7e82fc0643d7893a5",
+  "process_terminal": true
+}

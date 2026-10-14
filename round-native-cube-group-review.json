@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2906,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6947,
+    "selected_axiom_reports": 11241,
+    "new_declarations": 27,
+    "new_theorems": 21,
+    "new_definitions": 6,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeRationalCubeSubgroup.lean",
+    "Hindman168/NativeRationalCubeLatticeGeometry.lean",
+    "Hindman168/NativeRationalCubeMetric.lean",
+    "Hindman168/NativeRationalCubeData.lean",
+    "Hindman168/NativeFiniteProductCoordinateHom.lean",
+    "Hindman168/NativeRationalCubeFaceInclusion.lean",
+    "Hindman168/UpperFaceLieVertexDetection.lean",
+    "Hindman168/UpperFaceGroupVertexElimination.lean",
+    "Hindman168/NativeRationalCubeGroupIdentification.lean"
+  ],
+  "proved_components": [
+    "Constructed the actual exponential subgroup of the embedded SAME-filtration cube Lie algebra in the original finite product. Membership is equivalent to an actual Lie-cube witness with all original exponential vertex coordinates.",
+    "Proved discreteness, compactness and metrizability for the actual intersection of the specified product lattice with this exponential subgroup. No normality or assumed compactness of restricted lattices is used.",
+    "Constructed a compatible quotient metric and full native cube nilmanifold data with the ACTUAL group/lattice and ORIGINAL step bound s, including zero-dimensional and trivial subgroup cases.",
+    "Constructed actual injective finite-product vertex group homomorphisms. Every original upper-face generator in its SAME final filtration layer belongs to the exponential cube image, proving the forward subgroup inclusion.",
+    "Proved triangular Lie vertex detection from unique face coefficients and a generic group vertex-elimination theorem from actual ordered faces. Native exponential injectivity discharges every triangular layer premise.",
+    "Proved EXACT equality of the exponential cube subgroup vertex image with the paper upperFaceCubeGroup of the SAME final filtration, in BOTH directions. No exponential-generation, coordinate-recovery or group-identification oracle is assumed."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 weak probability limit and all-continuous tests, SAME-filtration cube Lie algebra, actual native exponential cube group and EXACT paper upper-face identification, compact actual lattice quotient and native cube nilmanifold data preserving original step s are proved. Remaining: full rational cube filtration on the native subgroup, rational conjugated residue cube orbit data, face-character coefficient isolation and original source adaptation; simultaneous local cube laws  through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-cube-group-mathematical-review.txt",
+  "mathematical_review_sha256": "552225ccbebc24734c357849898370ad021e223ae15e00ef416d9be40058bc6b",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

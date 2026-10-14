@@ -1,0 +1,52 @@
+{
+  "modules": [
+    "Hindman168/RoughComplexFiberMean.lean",
+    "Hindman168/RoughEqualIntervalTiling.lean",
+    "Hindman168/RoughComplexBoundarySelection.lean"
+  ],
+  "names": [
+    "Hindman168.rough_complex_set_fiber_mean",
+    "Hindman168.rough_complex_fiber_haar_selection",
+    "Hindman168.rough_equal_interval_tile_contained",
+    "Hindman168.rough_equal_interval_tile_card",
+    "Hindman168.rough_equal_interval_tiled_decomposition",
+    "Hindman168.rough_equal_interval_boundary_card",
+    "Hindman168.rough_complex_boundary_haar_selection"
+  ],
+  "declarations": {
+    "Hindman168/RoughComplexFiberMean.lean": [
+      [
+        "theorem",
+        "rough_complex_set_fiber_mean"
+      ],
+      [
+        "theorem",
+        "rough_complex_fiber_haar_selection"
+      ]
+    ],
+    "Hindman168/RoughEqualIntervalTiling.lean": [
+      [
+        "theorem",
+        "rough_equal_interval_tile_contained"
+      ],
+      [
+        "theorem",
+        "rough_equal_interval_tile_card"
+      ],
+      [
+        "theorem",
+        "rough_equal_interval_tiled_decomposition"
+      ],
+      [
+        "theorem",
+        "rough_equal_interval_boundary_card"
+      ]
+    ],
+    "Hindman168/RoughComplexBoundarySelection.lean": [
+      [
+        "theorem",
+        "rough_complex_boundary_haar_selection"
+      ]
+    ]
+  }
+}

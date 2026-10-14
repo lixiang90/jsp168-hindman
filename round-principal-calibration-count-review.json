@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The preceding selected relabel count audit was terminal-successfully rechecked and its authoritative manifest copied before new proof edits. All retained proof sources stay unchanged.",
+    "The subset-image equivalence uses injectivity of the genuine principal order embedding and surjectivity from actual finite-image membership. The full tail-law equality follows by piMass reindexing and equality of finite products, then by the retained raw-product law for the actual increasing enumeration. No normalization or independence input is added to this identity.",
+    "Subset and one-block sample identities convert dependent subtype products to ordinary finite-set products before image rewriting. This preserves the actual master-coordinate Fin M indices and avoids silently changing dependent enumeration instances. The block tail is nonempty and strictly before its pivot.",
+    "Block calibration uses exact selected-coordinate expectation transport and the retained actual original block-product event law. The arbitrary event is transported at each sufficiently late stage. The selected block coefficient equals the actual original rational floor, so there is no assumed rounding replacement or changed color argument.",
+    "The selected divisor weight is built from the actual independent tail-product pushforward, not an abstract equivalent density. The pivot law remains the exact original harmonic integer piMass. The mask-generated master is independent of gap metadata, so the same actual family is used for both chain and original block weights.",
+    "The weighted count is the expectation of all singleton center divisor factors times the full nonsingleton weighted-color integrand and complete product mask. The original correlation equality uses the retained singleton factor theorem and actual eventual coefficient positivity. No unbounded factor is dropped or bounded-test approximation substituted for an exact identity.",
+    "The final assembly keeps exactly the e, model and parameter witnesses from selected_color_relabel_models. Its new local block calibration rewrites the retained original product calibration; its new full local weighted comparison rewrites the retained original correlation by the proved weighted count identity. All calibration and counting tolerances remain chosen before N.",
+    "Four new modules contain thirteen theorems and eight definitions. No new resource options, axioms, sorry, admit or native_decide are allowed. Full build and kernel reports must finish without warnings. Retained proof hashes and full axiom sets must remain unchanged except root imports and registry.",
+    "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional on those inverse inputs, the same selected native models have actual admissible parameters, actual selected block calibration and complete selected weighted-versus-bounded color count at independently prescribed tolerances chosen before N. The relabeled raw harmonic product law, tail-product divisor law, pivot product law, coefficients, normalized forms, singleton center weights and all nonempty product-color masks are now connected by exact proved identities. Full Prediction output integration still needs the precise ultrafilter-limit statements, finite scale-list closure specialization and any remaining model representation details, as well as unconditional inverse inputs. Alignment and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/PrincipalSubsetProductLaws.lean",
+    "Hindman168/PrincipalBlockCalibration.lean",
+    "Hindman168/PrincipalWeightedColorCounts.lean",
+    "Hindman168/PrincipalPredictionModels.lean"
+  ],
+  "verified": {
+    "project_modules": 1255,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1264,
+    "source_config_hashes": 1273,
+    "build_jobs": 5212,
+    "axiom_reports": 5631,
+    "new_theorems": 13,
+    "new_definitions": 8,
+    "new_structures": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 21,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "axiom_free_reports": [
+      "Hindman168.MatrixDepth.smul",
+      "Hindman168.admissible_option_selection_none",
+      "Hindman168.boundedLieWordValues",
+      "Hindman168.completeResidueCellPoint",
+      "Hindman168.finiteVectorPolynomialSum",
+      "Hindman168.integerCubeResidueShift",
+      "Hindman168.intervalResidueParent",
+      "Hindman168.lieWordValue",
+      "Hindman168.lieWordValue_cons",
+      "Hindman168.lieWordValue_nil",
+      "Hindman168.lowerCentralCommutatorGenerators",
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.matrixDepth_zero",
+      "Hindman168.matrixDepth_zero_iff_upper"
+    ],
+    "new_axiom_free_reports": [],
+    "full_target_proved": false
+  },
+  "remaining": "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional on those inverse inputs, the same selected native models have actual admissible parameters, actual selected block calibration and complete selected weighted-versus-bounded color count at independently prescribed tolerances chosen before N. The relabeled raw harmonic product law, tail-product divisor law, pivot product law, coefficients, normalized forms, singleton center weights and all nonempty product-color masks are now connected by exact proved identities. Full Prediction output integration still needs the precise ultrafilter-limit statements, finite scale-list closure specialization and any remaining model representation details, as well as unconditional inverse inputs. Alignment and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "02_framework exact weighted count and block calibration; 05_prediction complete selected-law transport"
+}

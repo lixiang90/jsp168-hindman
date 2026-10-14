@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 590,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/NilBoundaryPeriod.lean",
+    "Hindman168/NilPeriodicHarmonic.lean",
+    "Hindman168/NilDivisorBoundary.lean",
+    "Hindman168/NilAveragedBoundary.lean",
+    "Hindman168/NilBoundaryMasterRates.lean",
+    "Hindman168/NilBoundaryOriginalLimit.lean"
+  ],
+  "new_selected_report_count": 31,
+  "module_report_counts": {
+    "NilBoundaryPeriod": 6,
+    "NilPeriodicHarmonic": 5,
+    "NilDivisorBoundary": 5,
+    "NilAveragedBoundary": 5,
+    "NilBoundaryMasterRates": 6,
+    "NilBoundaryOriginalLimit": 4
+  },
+  "application_review": [
+    "All 590 baseline source/config hashes were verified before proof edits and again before registration. Only root imports and the verification registry changed among retained files; retained proofs, StrongStatement, PNT+ sources and dependency pins remain byte-identical.",
+    "The joint boundary restriction has period q*R where q=W*σ. Its occupied residues are counted by the q complete R-cells in one joint period; no probability law is replaced by a periodic law.",
+    "The complete-cell bound gives joint bad-residue cardinality <= |U|*(2H+q*(2+4d)) when H<=dR. The separate total bound <= |U|*(R+1) controls the harmonic endpoint discrepancy.",
+    "The arbitrary-period harmonic discrepancy is proved on the original real cutoff endpoints A and B. It is at most |U|/A and already includes partial endpoint cells and the actual reciprocal weight; no per-cell normalization or assumed harmonic variation is used.",
+    "Exact finite expectation identities bridge the original raw harmonic mass and its integer pushforward to the periodic test. For divisor tests, support-restricted coprimality is derived from the original raw support. Negative integers contribute zero through the original natural inclusion, not through an altered root test.",
+    "The allowed unit/divisibility residues modulo W*σ are exactly n.Coprime W and σ|n. Their cardinality is phi(W) under the explicit positive and coprime hypotheses, as proved by the retained CRT theorem.",
+    "The original harmonic normalizer remains Z_X. Under log(X)>=2 and W/X<=1 it is at least unitDensity(W) and half unitDensity(W)*log(X); these finite hypotheses are later derived from master growth.",
+    "For every positive σ<=K coprime to W, the actual σ-weighted bad-root expectation is <=4d/J+(4+8d)*WK/R+WK*(R+1)/X when JH<=dR. The original divisor cap remains explicit and the inequality is uniform in the whole support.",
+    "Finite Fubini averages this bound under the original divisor mass. HarmonicDivisorMass and the actual recursive tailMass receive explicit instances. Adding the σ=1 contribution yields the actual (1+nu_B) bound <=8d/J+2*((4+8d)*WK/R+WK*(R+1)/X). No event or divisor draw is conditioned or renormalized.",
+    "The common-period endpoint error is larger than the paper's cellwise error. Its use is justified by a new proof from actual master conditions, not by assuming qR/X is small: WK/R tends to zero from every-power gap growth and K<=auxiliary at the gap; WK*(R+1)/X tends to zero from cutoff domination of a cubic root-gap bound and ordered gap<=pivot.",
+    "The master growth proofs allow gap and pivot indices to vary with stage inside the fixed master index set. Uniformity is obtained by retained finite-choice growth. No arbitrary fast-growing enumeration or order rate is claimed.",
+    "The actual chain-tail divisor cap is proved at the selected gap via tail subset range(gap), not at the larger root-pivot auxiliary value. The explicit order is gap<=pivot. Raw cutoff validity and divisor-law normalization/support follow from retained actual chain/harmonic sampling theorems.",
+    "The original margin is H=d*M*floor(R/(J*M)) with actual positive master M, and the retained JH<=dR theorem is used. The boundary theorem itself does not require positive shift-window length; that positivity remains necessary for the separate root-approximation averaging step.",
+    "For each fixed positive J the original chain-tail boundary expectation is <=8d/J+epsilon eventually. A constructive Archimedean choice of positive J then proves it can be made less than any positive epsilon by taking w sufficiently large.",
+    "The fixed local paper Prediction lines 325-342 are now represented by a complete original-law boundary estimate. The proof uses a joint-period harmonic summation alternative to individual-cell weight variation; both cutoff endpoints are covered. Paper sections 04, 05 and 07 match the exact pinned local Git objects after newline normalization, with no remote updates checked.",
+    "The new modules neither construct the concrete rational nilpotent Lie/lattice instance nor prove the final nilsequence testing limit. The delta-to-recipes, J-for-those-recipes, then w limit and actual positive averaging window must still be assembled.",
+    "Full default build completed 4445 jobs without warnings/errors. All 2854 exact registered names were reported once by the Lean kernel, including 31 new theorems, with only the three allowed standard axioms or none. Executable scanning covers 578 own modules and 9 attributed PNT+ modules; every own module occurs exactly once in the root imports.",
+    "The previous proof round and this round are both PROGRESS. StrongConjecture, prize eligibility, public submission and an unavoidable blocker are not asserted."
+  ],
+  "source_preprint_sections": {
+    "05_prediction.tex": "325-342: original harmonic/divisor boundary estimate complete, including exact cutoff endpoints; 344-352: accuracy/scale assembly pending"
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4445,
+    "project_modules": 578,
+    "pntplus_modules": 9,
+    "source_scan_modules": 587,
+    "axiom_reports": 2854,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 596,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original-law detection, constructed dense block models, full uniform dual estimates, model-error cube cancellation, nonsingleton count replacement, actual ordered cube coordinates, reflections, cube compactness from layer quotients, finite uniform root recipes and original interval/residue selectors remain proved. The original selected-dual pairing tends to zero under the retained full uniform admissible-input control, including stage-varying pieces and orbits. Actual nilorbit root approximation after averaging and the original weighted good-root/boundary split remain proved. The full original harmonic/divisor-weighted boundary estimate is now proved at the actual master scales, uniformly in all supported divisor draws: for a gap after the original tail and no later than the root pivot, the actual chain-tail (1+nu_B) boundary expectation is at most 8*d/J+o(1). The common-period proof integrates the original cutoff interval and includes both partial cutoff cells via the sharp residue-harmonic discrepancy; its larger period/endpoint errors are proved to vanish from the actual master conditions. First choosing sufficiently large fixed J and then increasing w makes this boundary expectation arbitrarily small. Next assemble the final accuracy/scale limit for Prediction nilsequence testing from the retained root recipes, original selected-dual pairing, weighted total means and this boundary estimate, including eventual positivity of the actual zero-prime shift window. Instantiate the concrete nilpotent/lower-central group filtration, closed rational layers and compact restricted-lattice quotients for the paper's nilmanifolds; quotient metric compatibility remains explicit. Recipe factors are continuous and bounded by one, sufficient for the unrestricted bounded original dual inputs used here; no Lipschitz refinement is asserted. Complete nested coarse-model projections, calibration and Alignment; instantiate concrete natural-number coloring weights, arithmetic chain/block/gap data and companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

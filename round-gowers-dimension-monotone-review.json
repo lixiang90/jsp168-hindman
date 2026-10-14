@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 998 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "Adjacent dimension comparison raises the actual roots to the same strictly positive natural power 2^(d+1), uses their exact power identities and the previously established cube-moment inequality, then uses monotonicity of powers on nonnegative reals.",
+    "The dimension comparison explicitly requires positive starting dimension. The zero-dimensional cube mean is separately identified with the signed ambient mean; no invalid nonnegative root assertion for dimension zero is made.",
+    "The ambient mean bound uses the square inequality from zero to one dimension and then positive-dimension monotonicity. It holds without a unit bound or sign assumption on the function.",
+    "The weighted mean-square inequality is proved by expanding the nonnegative weighted variance. Every original probability weight remains present, and the total probability one assumption is explicit.",
+    "The weighted root comparison uses the root of the weighted cube mean and its exact power identity, never the weighted average of roots. It applies to arbitrary finite probability weights and arbitrary real functions.",
+    "Eight theorems in two modules are individually kernel audited. These statements do not establish generalized short-increment Cauchy-Schwarz, Bessel, inverse correlator existence or the final target."
+  ],
+  "new_modules": [
+    "Hindman168/SubgroupGowersDimensionMonotone.lean",
+    "Hindman168/WeightedSubgroupGowersMonotone.lean"
+  ],
+  "verified": {
+    "project_modules": 982,
+    "pntplus_modules": 9,
+    "source_scan_modules": 991,
+    "source_config_hashes": 1000,
+    "build_jobs": 4936,
+    "axiom_reports": 4772,
+    "new_theorems": 8,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 8,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Actual single-cell and probability-weighted subgroup Gowers roots now have proved positive-dimension monotonicity; the single-cell roots control the ambient mean. Generalized Cauchy-Schwarz for the short-increment reduction, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

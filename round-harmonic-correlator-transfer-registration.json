@@ -1,0 +1,79 @@
+{
+  "baseline_hash_count": 1172,
+  "modules": [
+    "Hindman168/CompleteCellBoundedHarmonicError.lean",
+    "Hindman168/NativeHarmonicCellCorrelation.lean",
+    "Hindman168/NativePieceRestriction.lean",
+    "Hindman168/HarmonicGoodCellCorrelation.lean",
+    "Hindman168/OriginalCellCorrelationSum.lean",
+    "Hindman168/NativeGoodCellProjectionLower.lean"
+  ],
+  "names": [
+    "Hindman168.completeResidueCell_integerMass_bounded_error",
+    "Hindman168.completeResidueCell_integerMass_bounded_unnormalized_error",
+    "Hindman168.completeResidueCells_integerMass_bounded_aggregate_error",
+    "Hindman168.native_complete_cell_harmonic_correlation_transfer",
+    "Hindman168.nativePieceOn_piece_restrict",
+    "Hindman168.complete_cells_good_gowers_harmonic_correlation",
+    "Hindman168.finiteMass_expectation_eq_sum_of_zero_off",
+    "Hindman168.complete_cells_integerMass_expectation_sum",
+    "Hindman168.complete_cells_original_harmonic_correlation_lower",
+    "Hindman168.native_good_cells_projection_lower"
+  ],
+  "theorem_count": 10,
+  "selected_report_count": 10,
+  "declarations": {
+    "Hindman168/CompleteCellBoundedHarmonicError.lean": [
+      [
+        "theorem",
+        "completeResidueCell_integerMass_bounded_error"
+      ],
+      [
+        "theorem",
+        "completeResidueCell_integerMass_bounded_unnormalized_error"
+      ],
+      [
+        "theorem",
+        "completeResidueCells_integerMass_bounded_aggregate_error"
+      ]
+    ],
+    "Hindman168/NativeHarmonicCellCorrelation.lean": [
+      [
+        "theorem",
+        "native_complete_cell_harmonic_correlation_transfer"
+      ]
+    ],
+    "Hindman168/NativePieceRestriction.lean": [
+      [
+        "theorem",
+        "nativePieceOn_piece_restrict"
+      ]
+    ],
+    "Hindman168/HarmonicGoodCellCorrelation.lean": [
+      [
+        "theorem",
+        "complete_cells_good_gowers_harmonic_correlation"
+      ]
+    ],
+    "Hindman168/OriginalCellCorrelationSum.lean": [
+      [
+        "theorem",
+        "finiteMass_expectation_eq_sum_of_zero_off"
+      ],
+      [
+        "theorem",
+        "complete_cells_integerMass_expectation_sum"
+      ],
+      [
+        "theorem",
+        "complete_cells_original_harmonic_correlation_lower"
+      ]
+    ],
+    "Hindman168/NativeGoodCellProjectionLower.lean": [
+      [
+        "theorem",
+        "native_good_cells_projection_lower"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+✖ [5411/5412] Building Hindman168.OriginalIntegerResidualBoxGeometry (8.9s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\OriginalIntegerResidualBoxGeometry.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\OriginalIntegerResidualBoxGeometry.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\OriginalIntegerResidualBoxGeometry.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\OriginalIntegerResidualBoxGeometry.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\OriginalIntegerResidualBoxGeometry.setup.json --json
+error: Hindman168/OriginalIntegerResidualBoxGeometry.lean:30:8: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  |↑(a j)|
+in the target expression
+  ∀ (c : ℝ), |↑t - c| ≤ |↑t - ↑(a j)| + |↑(a j) - c|
+
+κ : Type u_1
+lo hi a : κ → ℤ
+q : ℕ
+hq : 0 < q
+Z c A C : ℝ
+hZ : ↑q ≤ Z
+hA : 0 ≤ A
+ha : ∀ (j : κ), 0 ≤ a j ∧ a j < ↑q
+hgeom : ∀ (j : κ), |↑(lo j)| ≤ A * Z ∧ |↑(hi j)| ≤ A * Z ∧ c * Z ≤ ↑(hi j) - ↑(lo j) ∧ ↑(hi j) - ↑(lo j) ≤ C * Z
+hqR : 0 < ↑q
+hZpos : 0 < Z
+j : κ
+haj : 0 ≤ ↑(a j)
+hajq : ↑(a j) < ↑q
+hd : (↑(hi j) - ↑(a j)) / ↑q - (↑(lo j) - ↑(a j)) / ↑q = (↑(hi j) - ↑(lo j)) / ↑q
+hupper : C * Z ≤ max C (A + 1) * Z
+t : ℤ
+ht : |↑t| ≤ A * Z
+he : ∀ (c : ℝ), |↑t - c| ≤ |↑t - ↑(a j)| + |↑(a j) - c|
+⊢ |↑t - ↑(a j)| ≤ max C (A + 1) * Z
+error: Lean exited with code 1
+✔ [5412/5412] Built Hindman168.NativeRealResidualGoodMean (9.0s)
+Some required targets logged failures:
+- Hindman168.OriginalIntegerResidualBoxGeometry
+error: build failed

@@ -1,0 +1,31 @@
+{
+  "baseline_hash_count": 1046,
+  "modules": [
+    "Hindman168/FiniteRetainedProbabilityError.lean",
+    "Hindman168/MasterInteriorRenormalization.lean"
+  ],
+  "names": [
+    "Hindman168.finite_nonnegative_weighted_test_bound",
+    "Hindman168.finite_retained_probability_test_error",
+    "Hindman168.MasterParameterConditions.aligned_interior_normalized_test_tendsto"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/FiniteRetainedProbabilityError.lean": [
+      [
+        "theorem",
+        "finite_nonnegative_weighted_test_bound"
+      ],
+      [
+        "theorem",
+        "finite_retained_probability_test_error"
+      ]
+    ],
+    "Hindman168/MasterInteriorRenormalization.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.aligned_interior_normalized_test_tendsto"
+      ]
+    ]
+  }
+}

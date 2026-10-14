@@ -1,0 +1,118 @@
+{
+  "modules": [
+    "Hindman168/RoughMonomialOscillation.lean",
+    "Hindman168/RoughScaledMonomialOscillation.lean",
+    "Hindman168/RoughSlowPolynomialOscillation.lean",
+    "Hindman168/RoughJointSlowOscillation.lean",
+    "Hindman168/RoughCompactParameterFreezing.lean",
+    "Hindman168/RoughNativeActionFreezing.lean",
+    "Hindman168/RoughNativeModelFreezing.lean",
+    "Hindman168/RoughNativeFrozenFactorization.lean",
+    "Hindman168/RoughFrozenDiscrepancy.lean",
+    "Hindman168/RoughConvexPieceSelection.lean"
+  ],
+  "names": [
+    "Hindman168.rough_power_oscillation",
+    "Hindman168.rough_finite_power_product_bound",
+    "Hindman168.rough_finite_monomial_oscillation",
+    "Hindman168.rough_monomial_rescale",
+    "Hindman168.rough_scaled_monomial_oscillation",
+    "Hindman168.rough_error_polynomial_oscillation",
+    "Hindman168.rough_error_polynomial_subbox_oscillation",
+    "Hindman168.rough_joint_slow_subbox_oscillation",
+    "Hindman168.rough_compact_parameter_modulus",
+    "Hindman168.rough_compact_lipschitz_test_freezing",
+    "Hindman168.rough_native_scalar_action_continuous",
+    "Hindman168.rough_native_scalar_test_freezing",
+    "Hindman168.rough_native_model_subbox_freezing",
+    "Hindman168.rough_native_ordered_factor_freezing",
+    "Hindman168.FiniteMass.rough_frozen_discrepancy",
+    "Hindman168.rough_convex_piece_after_reweighting"
+  ],
+  "declarations": {
+    "Hindman168/RoughMonomialOscillation.lean": [
+      [
+        "theorem",
+        "rough_power_oscillation"
+      ],
+      [
+        "theorem",
+        "rough_finite_power_product_bound"
+      ],
+      [
+        "theorem",
+        "rough_finite_monomial_oscillation"
+      ]
+    ],
+    "Hindman168/RoughScaledMonomialOscillation.lean": [
+      [
+        "theorem",
+        "rough_monomial_rescale"
+      ],
+      [
+        "theorem",
+        "rough_scaled_monomial_oscillation"
+      ]
+    ],
+    "Hindman168/RoughSlowPolynomialOscillation.lean": [
+      [
+        "theorem",
+        "rough_error_polynomial_oscillation"
+      ],
+      [
+        "theorem",
+        "rough_error_polynomial_subbox_oscillation"
+      ]
+    ],
+    "Hindman168/RoughJointSlowOscillation.lean": [
+      [
+        "theorem",
+        "rough_joint_slow_subbox_oscillation"
+      ]
+    ],
+    "Hindman168/RoughCompactParameterFreezing.lean": [
+      [
+        "theorem",
+        "rough_compact_parameter_modulus"
+      ],
+      [
+        "theorem",
+        "rough_compact_lipschitz_test_freezing"
+      ]
+    ],
+    "Hindman168/RoughNativeActionFreezing.lean": [
+      [
+        "theorem",
+        "rough_native_scalar_action_continuous"
+      ],
+      [
+        "theorem",
+        "rough_native_scalar_test_freezing"
+      ]
+    ],
+    "Hindman168/RoughNativeModelFreezing.lean": [
+      [
+        "theorem",
+        "rough_native_model_subbox_freezing"
+      ]
+    ],
+    "Hindman168/RoughNativeFrozenFactorization.lean": [
+      [
+        "theorem",
+        "rough_native_ordered_factor_freezing"
+      ]
+    ],
+    "Hindman168/RoughFrozenDiscrepancy.lean": [
+      [
+        "theorem",
+        "rough_frozen_discrepancy"
+      ]
+    ],
+    "Hindman168/RoughConvexPieceSelection.lean": [
+      [
+        "theorem",
+        "rough_convex_piece_after_reweighting"
+      ]
+    ]
+  }
+}

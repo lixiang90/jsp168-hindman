@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 374,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/PolynomialCopiedIntegerRows.lean",
+    "Hindman168/MaskGeneratedCopiedMeanOne.lean",
+    "Hindman168/MaskGeneratedCopiedMajorant.lean",
+    "Hindman168/MaskCopiedUniformBounds.lean",
+    "Hindman168/AdditiveRowSamplingLaw.lean",
+    "Hindman168/MaskCopiedStagePrefactors.lean"
+  ],
+  "new_selected_report_count": 25,
+  "module_report_counts": {
+    "PolynomialCopiedIntegerRows": 5,
+    "MaskGeneratedCopiedMeanOne": 1,
+    "MaskGeneratedCopiedMajorant": 4,
+    "MaskCopiedUniformBounds": 5,
+    "AdditiveRowSamplingLaw": 3,
+    "MaskCopiedStagePrefactors": 7
+  },
+  "application_review": [
+    "All 374 audited baseline hashes were rechecked before registration. Only the root imports and exact-name registry changed. Every previously retained proof source, StrongStatement.lean, runtime/dependency pin and attributed PNT+ source remains unchanged.",
+    "The actual raw copied integer coefficients are now defined on every sampled prime tuple, without first assuming additive-elimination conditions. On original good tuples they coincide with the actual additive-elimination coefficient array.",
+    "Primitivity follows from actual bounded anchor units for every prime p<=V, including polynomial-exception primes. Pair independence is required only for rough primes outside the same original fixed polynomial catalogue. Original squarefree bad events imply the catalogue avoidance used by the actual arithmetic certificate.",
+    "MaskCopiedSampling records original independent prime-pool and mixed harmonic/interval laws and explicit divisor, auxiliary, harmonic and interval-length budgets. It does not take primitivity, pair independence, total-variation smallness or a desired moment limit as structure fields. Concrete source quotient lengths and a full instance of this structure have not yet been constructed.",
+    "The existing proved master mixed weighted linear-forms theorem derives the copied product mean limit for these actual coefficients. The center is the probability of the original supported good prime event. This is an unnormalized restriction of the original prime law, not a normalized conditional good-prime law.",
+    "Every finite subset inherits the copied mean limit by exact finite reindexing. Expanding the product of one plus each weight gives its majorant mean minus 2^|U| times the original good-event probability tending to zero.",
+    "Original prime mass nonnegativity and total mass one imply an eventual majorant bound 2^|U|+1. No desired prefactor bound or mean convergence is assumed in the new theorem.",
+    "The canonical copied-row count is at most (b+1)2^b. For B_m=maskRowCountBound m this yields the explicit positive bound C_m=2^((B_m+1)2^B_m)+1. The bound depends only on m, which corresponds to m+1 original columns. Eventual thresholds may depend on the other fixed input data, including J0 through sampling lengths; the bound itself does not.",
+    "The finite collection of all subsets satisfies the same C_m bound simultaneously eventually. Selected row enumerations must be injective, and divisor budgets remain explicit.",
+    "An explicit bijection identifies the original integer-coordinate product law with original base coordinates and independent conditional direction pairs. Exact coefficient evaluation agrees with the translated row form. These are identities of finite masses, requiring no extra independence or normalization conclusion as a premise.",
+    "When shift columns use intervals and both branches have the same locations and lengths, the actual mixed base law equals the original coordinate/pair law exactly. This statement also holds for zero interval lengths; positive source lengths required for probability normalization in the recurrence are still to be instantiated.",
+    "The actual stage products are pointwise equal to their enumerated copied weight products. The generated mask-family application derives additive-elimination data on the original good event and identifies every stage product without supplied coefficient or direction identities.",
+    "The raw good-event stage prefactor is exactly a subset majorant integral under the same original coordinate and conditional pair laws and is eventually at most C_m, under the explicit original sampling budget conditions. Its transfer into the normalized joint-law ordered recurrence is not completed here.",
+    "The preprint requires the constant to be independent of J0 while allowing the error to converge for each fixed J0. The new majorant constant has this property. Actual source L(p)=floor(R/(J0 M(p))) growth, positive lengths and concrete original harmonic labels/pivot budgets remain to be proved.",
+    "These mean and raw-prefactor estimates do not remove the retained majorant Psi. The extra root translation and the B, BH, BH^2 second-moment family still need their own copied-row certificate and moment application.",
+    "No full analytic additive-elimination lemma, StrongConjecture, prize eligibility or unavoidable blocker is claimed. No official upstream update was checked in this round, following the user instruction."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:400-440;483-507;530-568 remains uncompleted",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4227,
+    "project_modules": 362,
+    "pntplus_modules": 9,
+    "source_scan_modules": 371,
+    "axiom_reports": 1893,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 380,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The actual ordinary copied general rows now have raw integer coefficient arrays on all tuples, unconditional bounded-prime primitivity, and rough-prime pair independence outside the original fixed polynomial catalogue. Under explicitly recorded original mixed harmonic/interval sampling budgets, their product means and every subset majorant mean are proved from the master linear-forms theorem, including the previously proved residue/CRT/exception estimates. An explicit constant C_m=2^((B_m+1)2^B_m)+1, B_m=maskRowCountBound m, bounds all subset majorants and raw good-event stage prefactors eventually and depends only on the original column parameter m. Exact coordinate/pair sampling laws and actual pointwise stage-product identification are proved. Still construct MaskCopiedSampling for the original harmonic labels/pivot indices and concrete lengths L(p)=floor(R/(J0 M(p))); prove every budget, PowerDominates condition, positive interval length and its uniform lower bound. Transfer the unnormalized original good-event restriction to the original normalized good-prime/base joint law, connect the computed ordered prefactors/cap with this law, and propagate the m-only constant through the full weighted additive recurrence. Prove the initial harmonic translation weighted total-variation o(1) error. Extend the copied coefficients to the extra root translation and retained-weight second-moment family; prove E B, E BH and E BH^2 and E B(H-2^t)^2=o(1). A mean estimate alone does not remove retained weights. Connect the actual weighted mask-removal integrands, full multiplicative Cauchy--Schwarz recurrence and exception/error bounds. Complete the retained-weight correlation test, root pushforward, full preprint Prediction/Alignment propositions, inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and final witness extraction and separation. Real-exponent clipping remains unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

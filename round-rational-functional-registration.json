@@ -1,0 +1,99 @@
+{
+  "baseline_hash_count": 914,
+  "modules": [
+    "Hindman168/RationalSubspaceFunctional.lean",
+    "Hindman168/NilpotentLieCharacter.lean",
+    "Hindman168/NativeLatticeRationalCharacter.lean"
+  ],
+  "names": [
+    "Hindman168.rationalSubspaceFunctional",
+    "Hindman168.rationalSubspaceFunctional_apply",
+    "Hindman168.rationalSubspaceFunctional_ne_zero",
+    "Hindman168.rationalSubspaceFunctional_kernel_intersection",
+    "Hindman168.rationalSubspaceFunctional_kernel_real_span",
+    "Hindman168.rationalSubspaceFunctional_kernel_rational",
+    "Hindman168.rationalSubspaceFunctional_unique",
+    "Hindman168.rationalSubspaceFunctional_annihilates_real_span",
+    "Hindman168.rationalSubspaceFunctional_kernel_finrank_lt",
+    "Hindman168.nilpotentLie_commutator_ne_top",
+    "Hindman168.nilpotentLie_exists_nonzero_character",
+    "Hindman168.lieCharacter_bracket_eq_zero",
+    "Hindman168.nativeLieFunctional_kills_brackets_of_rational_span",
+    "Hindman168.nativeLieFunctional_lowerCentral_le_kernel",
+    "Hindman168.nativeLattice_exists_rational_character",
+    "Hindman168.nativeLattice_exists_rational_character_with_pivot"
+  ],
+  "theorem_count": 15,
+  "declarations": {
+    "Hindman168/RationalSubspaceFunctional.lean": [
+      [
+        "def",
+        "rationalSubspaceFunctional"
+      ],
+      [
+        "theorem",
+        "rationalSubspaceFunctional_apply"
+      ],
+      [
+        "theorem",
+        "rationalSubspaceFunctional_ne_zero"
+      ],
+      [
+        "theorem",
+        "rationalSubspaceFunctional_kernel_intersection"
+      ],
+      [
+        "theorem",
+        "rationalSubspaceFunctional_kernel_real_span"
+      ],
+      [
+        "theorem",
+        "rationalSubspaceFunctional_kernel_rational"
+      ],
+      [
+        "theorem",
+        "rationalSubspaceFunctional_unique"
+      ],
+      [
+        "theorem",
+        "rationalSubspaceFunctional_annihilates_real_span"
+      ],
+      [
+        "theorem",
+        "rationalSubspaceFunctional_kernel_finrank_lt"
+      ]
+    ],
+    "Hindman168/NilpotentLieCharacter.lean": [
+      [
+        "theorem",
+        "nilpotentLie_commutator_ne_top"
+      ],
+      [
+        "theorem",
+        "nilpotentLie_exists_nonzero_character"
+      ],
+      [
+        "theorem",
+        "lieCharacter_bracket_eq_zero"
+      ]
+    ],
+    "Hindman168/NativeLatticeRationalCharacter.lean": [
+      [
+        "theorem",
+        "nativeLieFunctional_kills_brackets_of_rational_span"
+      ],
+      [
+        "theorem",
+        "nativeLieFunctional_lowerCentral_le_kernel"
+      ],
+      [
+        "theorem",
+        "nativeLattice_exists_rational_character"
+      ],
+      [
+        "theorem",
+        "nativeLattice_exists_rational_character_with_pivot"
+      ]
+    ]
+  }
+}

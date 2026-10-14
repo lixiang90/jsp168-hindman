@@ -1,0 +1,89 @@
+JSP-000168 / Erdos #172, 2026-10-14. Goal ACTIVE; StrongConjecture UNPROVED.
+No unavoidable obstruction established; public repository/PR/prize pending.
+Use CURRENT-STATUS.txt and verification-manifest.json for terminal status.
+
+round-native-cube-lie adds nine modules after native-point-probability.
+PointwiseLieAlgebra: explicit reducible local LieRing/LieAlgebra on V->L;
+pointwiseLieEvaluation actual LieHom. Local attributes only, no global
+instance changes. LieAlgebra definition needs toModule := inferInstance.
+UpperFaceLieArray: upperFaceLieArray R D : L ->Lie faces->L, if D subset V
+then x else0. Bracket exactly union face, injective. Use explicit change
+of vertex bracket before simp; unfolding pointwiseLieRing in simp fails.
+UpperFaceLieFiltration: upperFaceLieLayer F d i is real span of face arrays
+with x in F(max i cardD). Proved generators, antitone, F0=F1, bracket i+j,
+terminal vanishing and upperFaceLieAlgebra. No lower-central replacement.
+UpperFaceLieCoordinates: upperFaceLieSum a is actual finite sum over all
+faces. Vertex value equals sum over powerset V. Strong subset induction
+proves coefficient uniqueness; span induction constructs all coefficients.
+upper_face_lie_layer_coordinates gives exists UNIQUE a with all correct
+layer memberships and exact sum=z. This is LINEAR Lie coordinates only.
+UpperFaceLieRestrictedSpan: if every layer is spanned by vectors satisfying
+P and P0, every cube layer is spanned by arrays satisfying P coordinatewise.
+No additive-closure hypothesis on P is necessary because individual face
+arrays suffice as spanning generators.
+NativeRationalCubeLieLayers: uses SAME nativeRationalSubgroupFiltration;
+converts actual adjoint-differential bracket to native GroupLieAlgebra;
+constructs nativeRationalCubeLieAlgebra D F d and rational coordinate span.
+
+NativeRationalCubeLieEmbedding: actual LieHom into nativeFiniteProduct of
+original G with exact coordinate and exponential-coordinate theorems.
+Explicit e : Fin(n+1) equiv Finset(Fin d), n=2^d-1 supplied by the new
+nativeCubeVertexEnumeration d. Injective by e.surjective and all coordinate
+identities. Native group product has no substituted matrix model.
+NativeFiniteProductRationalSpan: local reducible nativeFiniteProductRationalModule
+recursively supplies Q module. Given every coordinate v_i in ORIGINAL Q
+log span, proves v in ACTUAL product-lattice rational log span. Inductively
+positive powers a,b are combined as a*b; pow_mul and subgroup pow_mem prove
+membership. No normal lattice needed. Statement uses local simplyConnected
+instance. Recursion requires explicit nativeFiniteProductLieGroup and
+Boundaryless instances at n+1. Before rewriting product exponential, change
+the goal to explicit binary product (v.1,v.2), avoiding elaborator alias
+transparency issues.
+NativeRationalCubeLieImage: subtype coordinatewise rational elements span
+top; combined with real embedding linearity and previous product rational
+lemma proves nativeLatticeRationalSubspace for ACTUAL embedding linear range
+and specified nativeFiniteProductLattice Gamma n.
+
+IMPORTANT Lean performance: GroupLieAlgebra D.I D.G and D.E are definitionally
+same but their instance aliases cause large inference/rewrite failures.
+Explicit (L := GroupLieAlgebra D.I D.G) on all upperFaceLieLayer/Algebra
+applications avoids heartbeat timeouts, without increased limits. Use exact
+congrArg/trans chains instead of rw/simpa when instance transparency blocks
+rewriting identical-looking terms. This was needed for native embedding
+injectivity and subtype span_val_image_eq_iff. All final new modules are
+checked with autoImplicit=false, no options or sorry.
+
+NEXT (actual goal route, no reduced substitute):
+Define actual native cube Lie subalgebra as range of embedding; identify its
+nativeLieSubalgebraModel with embedding.toLinearMap.range. Then actual
+exponential subgroup is nativeLieSubalgebraSubgroup of that range.
+NativeRationalLatticeCompact.nativeRationalLieLattice_quotient_compact already
+gives CompactSpace for this subgroup modulo actual Gamma intersection from
+precisely the rationality now proved. Supply local finite product lattice
+discrete/cocompact, simplyConnected, Module Q etc. The same file gives closed
+embedding of quotient, compact orbit and metrizable quotient, and lattice
+intersection discrete. This does NOT require normality of Gamma.
+
+nativeNilmanifoldProduct in NativeNilmanifoldData recursively builds full
+native data on binary products preserving original step s (via
+productGroup_nilpotencyClass_le), specified lattice and compatible quotient
+metric. Can form iterated native data consistent with nativeFiniteProduct
+then apply native rational subalgebra datum construction. Inspect
+NativeRationalLayerOrbit.lean and NativeRationalRelativeData.lean for actual
+subgroup data patterns. Must retain original s, even if filtration degree
+ell is smaller or final group is trivial.
+
+Need identify exponential cube subgroup with upperFaceCubeGroup of the SAME
+H group layers, not only abstract Lie span. Existing NilUpperFaceFiltration/
+Coordinates/UniqueCoordinates/Reflection/LatticeRepresentatives/Compactness
+provide generic ordered group coordinates. NativeLowerCentralCubeGeometry
+is only lower-central and cannot replace final H. Need cube filtration
+layers all max(i,card D) in actual subgroup, rationality of every layer,
+original source adaptation, actual horizontal face restrictions and isolated
+coefficient xi(Taylor_j)/(j-cardD)!, simultaneous laws through original s+1
+with length before locality, projected face invariance/full support, joint
+lifts/full Alignment, separate arbitrary-input GTZ interval Gowers LINEAR
+nilsequence inverse, and final SAME-color positive distinct rapidly separated
+ALL nonempty FS AND FP. Previous q=0 weak probability/all-continuous API is
+already terminally audited; no need repeat that work.
+Author audit is not independent kernel replay or external peer review.

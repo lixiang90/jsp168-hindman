@@ -1,0 +1,80 @@
+{
+  "modules": [
+    "Hindman168/NativeLieSubalgebraNativeCoordinates.lean",
+    "Hindman168/RoughVectorMvLinearMap.lean",
+    "Hindman168/RoughNativeSubgroupLogPolynomial.lean",
+    "Hindman168/RoughNativeNilmanifoldLogTransfer.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLieSubalgebra_inclusion_mfderiv",
+    "Hindman168.nativeLieSubalgebra_native_exponential",
+    "Hindman168.nativeLieSubalgebra_native_logarithm",
+    "Hindman168.roughVectorMvLinearMap",
+    "Hindman168.roughVectorMvLinearMap_degree",
+    "Hindman168.roughVectorMvLinearMap_eval",
+    "Hindman168.roughNativeSubgroupLogPolynomial",
+    "Hindman168.roughNativeSubgroupLogPolynomial_degree",
+    "Hindman168.roughNativeSubgroupLogPolynomial_eval",
+    "Hindman168.roughNativeSubgroupLogPolynomial_coordinates",
+    "Hindman168.rough_native_nilmanifold_log_transfer",
+    "Hindman168.rough_native_nilmanifold_scalar_coordinates"
+  ],
+  "declarations": {
+    "Hindman168/NativeLieSubalgebraNativeCoordinates.lean": [
+      [
+        "theorem",
+        "nativeLieSubalgebra_inclusion_mfderiv"
+      ],
+      [
+        "theorem",
+        "nativeLieSubalgebra_native_exponential"
+      ],
+      [
+        "theorem",
+        "nativeLieSubalgebra_native_logarithm"
+      ]
+    ],
+    "Hindman168/RoughVectorMvLinearMap.lean": [
+      [
+        "def",
+        "roughVectorMvLinearMap"
+      ],
+      [
+        "theorem",
+        "roughVectorMvLinearMap_degree"
+      ],
+      [
+        "theorem",
+        "roughVectorMvLinearMap_eval"
+      ]
+    ],
+    "Hindman168/RoughNativeSubgroupLogPolynomial.lean": [
+      [
+        "def",
+        "roughNativeSubgroupLogPolynomial"
+      ],
+      [
+        "theorem",
+        "roughNativeSubgroupLogPolynomial_degree"
+      ],
+      [
+        "theorem",
+        "roughNativeSubgroupLogPolynomial_eval"
+      ],
+      [
+        "theorem",
+        "roughNativeSubgroupLogPolynomial_coordinates"
+      ]
+    ],
+    "Hindman168/RoughNativeNilmanifoldLogTransfer.lean": [
+      [
+        "theorem",
+        "rough_native_nilmanifold_log_transfer"
+      ],
+      [
+        "theorem",
+        "rough_native_nilmanifold_scalar_coordinates"
+      ]
+    ]
+  }
+}

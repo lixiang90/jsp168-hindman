@@ -1,0 +1,89 @@
+JSP-000168 / Erdos #172, 2026-10-14. Goal ACTIVE; StrongConjecture UNPROVED.
+No unavoidable obstruction established; public repository/PR/prize pending.
+Use CURRENT-STATUS.txt and verification-manifest.json for terminal status.
+
+round-native-cube-group adds nine modules after round-native-cube-lie.
+NativeRationalCubeSubgroup: nativeRationalCubeNativeAlgebra D F d n e is
+the actual embedding Lie range; model equals its linear range. The subgroup
+nativeRationalCubeSubgroup is nativeLieSubalgebraSubgroup of that range.
+Membership iff exists x in nativeRationalCubeLieAlgebra with all actual
+product coordinates equal to ORIGINAL exp(x(e k)). No abstract replacement.
+NativeRationalCubeLatticeGeometry: actual intersection of original specified
+product lattice with this subgroup is discrete; quotient compact and
+metrizable. Uses previous ACTUAL lattice rationality and proved general
+nativeRationalLieLattice_quotient_compact. No Gamma normality needed.
+NativeRationalCubeMetric: metrizableSpaceMetric with proved exact natural
+quotient topology and open quotient map.
+NativeRationalCubeData: full NativeNilmanifoldData s using this subgroup,
+actual lattice, actual Lie subalgebra chart and compatible metric. ORIGINAL
+step s retained through native_finite_product_original_step (inductive
+productGroup_nilpotencyClass_le) and Subgroup.nilpotencyClass_le. Group and
+lattice identification theorems are rfl.
+
+Data elaboration: give model T the topology from its NormedAddCommGroup
+explicitly. Local recursive nativeFiniteProductTopologicalSpace otherwise
+causes subtype/norm-topology instance mismatch. Bind local ChartedSpace T L,
+LieGroup 𝓘(ℝ,T) infinity L and Boundaryless explicitly. Assign groupTopology,
+group, topologicalGroup, connected, simplyConnected, charted, lie,
+boundaryless explicitly in NativeNilmanifoldData record to avoid alias
+instance inference failure. No topology is changed mathematically; all
+record fields are checked by Lean and quotient topology is proved.
+
+NativeFiniteProductCoordinateHom: actual coordinate one/mul lemmas,
+injective nativeCubeVertexHom d n e : nativeFiniteProduct G n ->* faces->G,
+with V coordinate equal nativeFiniteProductCoordinate n g (e.symm V).
+NativeRationalCubeFaceInclusion: log(g) for g in original H_cardA gives a
+single-face Lie vector; its actual product exponential has EXACT face
+array coordinates. Thus every paper generator lies in subgroup vertex
+image and upperFaceCubeGroup <= that image. This alone was NOT claimed
+to identify the group; the reverse is now proved separately.
+
+UpperFaceLieVertexDetection: if filtered Lie array x vanishes at ALL proper
+subvertices of V, x(V) lies in original layer F(card V). Uses unique face
+coefficients, powerset sums and strong induction recovering all proper
+coefficients as zero. No Lie-group recovery oracle.
+UpperFaceGroupVertexElimination: for ANY subgroup B of arrays, face inclusion
+plus triangular vertex-layer detection implies B=upperFaceCubeGroup F.
+Induct actual orderedCubeFaces list. Earlier vertices are identity; proper
+subsets of head D have strictly lower card, so lie outside remaining list.
+Remove inverse upper face with coefficient z(D). Upward-closed suffix
+ensures already removed vertices remain identity. Empty list gives identity.
+NativeRationalCubeGroupIdentification: proves triangular native detection
+from actual exponential injectivity and Lie vertex detection; then EXACT
+(nativeRationalCubeSubgroup ...).map(nativeCubeVertexHom...) =
+upperFaceCubeGroup(nativeRationalSubgroupLayer D F)d. Both directions, all
+premises discharged. e may be nativeCubeVertexEnumeration d, n=2^d-1,
+including d=0. This is the SAME final filtration, possibly proper/trivial.
+
+NEXT: full rational filtration on nativeRationalCubeData and conjugated
+rational-residue cube orbit data, then face-character isolation and original
+source adaptation. Paper cube layers use max(i,card face), already proved
+as actual upperFaceLieLayer in preceding round. Need transport to internal
+model T=range and prove every layer rational for internal lattice.
+NativeRationalRelativeLieFiltration.lean shows the established transport
+pattern: internal layer as comap along model inclusion; bracket via
+nativeSmoothHom_generator_intertwine and proved mfderiv of inclusion;
+rationality via actual internal logarithm and original lattice span.
+Inspect native Lie-subalgebra inclusion/exponential/differential files,
+NativeRationalRelativeInclusion/ExponentialLogarithm for analogous proofs.
+
+Current nativeRationalCubeData lattice is ORIGINAL product Gamma intersect C.
+For residue rho=sigma_r need intersection of CONJUGATED product Gamma by
+constant diagonal rho with the SAME C; rho need not lie in H or C. Cannot
+simply conjugate by an element of C or silently replace the orbit lattice.
+roughNativeSubgroupNilmanifold can construct exactly this with ambient
+native finite-product data and rational diagonal log(rho). Need assemble
+original finite-product NativeNilmanifoldData (nativeNilmanifoldProduct
+recursion available) consistent with actual finite product structures, or
+reuse its conjugated lattice compactness proof directly. Preserve step s.
+
+After native cube filtration/orbits: actual horizontal face restrictions,
+largest surviving level j, commutator split incl empty faces, isolated
+coefficient xi(Taylor_j)/(j-cardD)!, original source adaptation and
+irrationality. Simultaneous all q through ORIGINAL s+1, length before
+locality, no q-dependent factorization. Then projected face invariance/full
+support, joint lifts/full Alignment, separate arbitrary-input GTZ interval
+Gowers LINEAR nilsequence inverse, final SAME-color positive distinct
+rapidly separated ALL nonempty FS AND FP. Full target remains unchanged.
+Author audit is not independent kernel replay or external peer review.
+Useful exact next API: NativeLieSubalgebraNativeCoordinates.lean proves nativeLieSubalgebra_inclusion_mfderiv (subtype continuous linear map), nativeLieSubalgebra_native_exponential, and nativeLieSubalgebra_native_logarithm. These can discharge internal bracket and actual rational-log-lattice transport without redoing differential analysis.

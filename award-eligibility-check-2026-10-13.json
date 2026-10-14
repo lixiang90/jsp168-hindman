@@ -1,0 +1,23 @@
+{
+  "checked_date": "2026-10-13",
+  "method": "Authenticated GitHub connector fetch_file against default branch",
+  "catalog_url": "https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0101-0200.md#JSP-000168",
+  "catalog_file_blob_sha": "0d9f5383502d943eee607ce3985a686e7c713cf4",
+  "problem": "JSP-000168",
+  "mathematical_status": "Solved: OpenAI published complete-solution claim; independent mathematical review pending",
+  "lean_proof": "No",
+  "eligible_to_claim": "No",
+  "recorded_lean_credit": "None",
+  "guidelines_url": "https://github.com/TheJustinSunPrize/awards/blob/main/CONTRIBUTING.md",
+  "guidelines_file_blob_sha": "4d6243d768c2cb1121b0ddc5358b89ee1d916e96",
+  "requirements": [
+    "Complete Lean proof of the original problem and supporting mathematical solution evidence",
+    "Original proof repository, branch, full selected commit, statement/proof paths and reproduction instructions",
+    "Attribution separates the OpenAI mathematical solution from the original Lean formalization contribution",
+    "Mathematical review must pass before Lean acceptance",
+    "Lean claim requires a merged contribution PR; a pending PR does not suffice"
+  ],
+  "local_status": "StrongConjecture unproved, no unavoidable obstruction established, goal active",
+  "publication_action": "No public repository, prize PR or claim created: user-specified full-proof or unavoidable-obstruction milestone has not been reached",
+  "note": "Local awards checkout is stale (it still says Open). Use current remote catalog when preparing eventual submission. This preflight is not an application or an eligibility decision."
+}

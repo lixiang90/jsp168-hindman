@@ -1,0 +1,64 @@
+{
+  "baseline_hash_count": 1010,
+  "modules": [
+    "Hindman168/IndexedRootGowersBound.lean",
+    "Hindman168/DensityCubeFactors.lean",
+    "Hindman168/DensityCubeGowersBound.lean"
+  ],
+  "names": [
+    "Hindman168.weightedIndexedRootGowers_bound",
+    "Hindman168.densityCubeDirection",
+    "Hindman168.densityCubeFactor",
+    "Hindman168.densityCubeDirection_root",
+    "Hindman168.densityCubeFactor_bound",
+    "Hindman168.densityCubeFactor_invariant",
+    "Hindman168.densityCubeFactor_product",
+    "Hindman168.weightedUnitDensityCube_gowers_bound",
+    "Hindman168.weightedDensityCube_gowers_bound"
+  ],
+  "theorem_count": 7,
+  "declarations": {
+    "Hindman168/IndexedRootGowersBound.lean": [
+      [
+        "theorem",
+        "weightedIndexedRootGowers_bound"
+      ]
+    ],
+    "Hindman168/DensityCubeFactors.lean": [
+      [
+        "def",
+        "densityCubeDirection"
+      ],
+      [
+        "def",
+        "densityCubeFactor"
+      ],
+      [
+        "theorem",
+        "densityCubeDirection_root"
+      ],
+      [
+        "theorem",
+        "densityCubeFactor_bound"
+      ],
+      [
+        "theorem",
+        "densityCubeFactor_invariant"
+      ],
+      [
+        "theorem",
+        "densityCubeFactor_product"
+      ]
+    ],
+    "Hindman168/DensityCubeGowersBound.lean": [
+      [
+        "theorem",
+        "weightedUnitDensityCube_gowers_bound"
+      ],
+      [
+        "theorem",
+        "weightedDensityCube_gowers_bound"
+      ]
+    ]
+  }
+}

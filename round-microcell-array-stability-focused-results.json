@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNumericalPolynomialBounds.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.358999999938533,
+    "log": "round-microcell-array-stability-AlignmentNumericalPolynomialBounds-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNumericalPolynomialBounds.lean",
+    "source_sha256": "f5a173556a39aa3de3c29ca599bfa2e2b119cde2de2e65ebaaa3862e6ac4849e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentProgressionMicrocellBounds.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.344000000040978,
+    "log": "round-microcell-array-stability-AlignmentProgressionMicrocellBounds-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentProgressionMicrocellBounds.lean",
+    "source_sha256": "8a2cc1d1b8c8b898d05254652adf29fd48ce3b032a137f724a7ee33f733bc40c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentMicrocellArrayStability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.95299999997951,
+    "log": "round-microcell-array-stability-AlignmentMicrocellArrayStability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentMicrocellArrayStability.lean",
+    "source_sha256": "b79e15ebe81d14a01b37908158240fdd3043b9ba5a27ba2f87f83957bd20d647"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.406999999890104,
+  "log": "round-native-central-reconstruction-axioms.txt",
+  "log_sha256": "d060763b68d6fafe2369bb39520892d06a8482da490fb0771e358a92767ec87d"
+}

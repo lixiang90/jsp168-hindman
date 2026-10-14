@@ -1,0 +1,123 @@
+JSP-000168 / Erdos #172, 2026-10-13. NEXT concrete PLAN, not a theorem.
+Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction found.
+Authoritative state is verification-manifest.json / last_round.
+
+NOW UNCONDITIONALLY PROVED:
+NativeRationalFiniteVariablesInverse.native_rational_weighted_inverse_finite_variables
+proves NativeRationalWeightedInverseStatement D L sigma for EVERY actual native
+datum, rational Lie filtration and finite variable type. No inverse or line
+production premise remains. ONE positive natural budget precedes all raw
+sources, original lengths and unit observables. Every original positive length,
+original nonzero horizontal/grid/norm character and BOTH COMPLETE original
+monomial/binomial tables are included. Actual short-line substitution, canonical
+Haar discrepancy, common character, scalar constant recovery, multiplier thinning,
+all-degree reconstruction and constant-source short-length extension are composed.
+The result is a corrected fixed-data existential equal-cube inverse.
+
+NEXT ACHIEVABLE NATIVE APPLICATION: close the general real-box obstruction.
+Follow pinned source 06_rough_progressions.tex, quantitative Leibman theorem and
+its explicit box-consequence derivation. Existing abelian application modules
+are patterns, not general native proofs. Preserve all old registered hashes.
+
+1. General ordinary logarithmic degree -> actual rational stretched weights.
+nativeOriginalRationalLieFiltration D d hd already has all TRUE algebraic and
+rational fields and terminal s*d. For raw source degree<=d, each nonzero scalar
+term has degree<=d and its vector lies in the initial full stretched layer.
+Prove this weighted conversion term by term; handle d=0 by choosing max d 1,
+not by supplying a false positive-degree hypothesis. Apply the NEW unconditional
+finite-variable inverse to this actual filtration, then retain true ordinary
+scalar degree<=d to truncate/re-express binomial expansion at d, even when
+inverse is initially stated at s*d. Do not silently substitute s*d binomial
+coefficients for d coefficients; use exact expansion uniqueness/degree tools.
+
+2. Genuine bounded observable detection against SAME canonical native Haar.
+For prescribed norm bound B and LipschitzWith L, choose a fixed positive
+normalization max(1,max B L) BEFORE source/N. Prove normalized F is in original
+unitLipschitzObservables and its actual discrepancy scales. NativeAbelianBoundedCubeObstruction
+provides a pattern but its abelian Haar cannot replace general canonical Haar.
+Actual Q/log polynomial equality yields actual orbit by global log injectivity.
+Keep original nonzero/norm/grid character and both COMPLETE tables.
+
+3. Actual translated affine cube input.
+Specialize the Option parameter z and apply vector affine substitution b+v.
+Literal all-real log/source equality, true degree/weights and exact natural/
+integer cube means must be supplied. rough_vector_spatial_affine_projection
+identifies the original spatial scalar polynomial, rather than a quotient
+sample surrogate. mv_polynomial_binomial_positive_expansion gives c0 plus
+ALL positive binomial terms after scalar degree<=d is established. Scaled
+coefficient bounds use actual N>0. NativeAbelianAffineCubeInput is the pattern.
+
+4. General real-box finite list, no cube-production premise.
+RoughNativeRealBoxHorizontalTransfer already proves corrected tiling, true
+cube discrepancy selection, factorial denominator clearing and original
+translation/location error. Instantiate with step-s ACTUAL datum, canonical
+Haar, general affine cube input from step 3, original operator/grid budget.
+The fixed list is original grid.image of positive roughBinomialMultiplier.
+NativeFilteredHorizontalMultiplier preserves true nonzero/integral characters.
+Conclude original positive coefficients at scale Z for arbitrarily selected
+real boxes/residues/parameters/observables; constants precede them all.
+The source fixed-data formulation uses these constants, not explicit delta
+power laws. NativeAbelianRealBoxObstruction is the pattern, not a hypothesis.
+
+5. Next rough progression application.
+Inspect RoughNativeBadFamily/BadProgressionThinning/AsymptoticModelBadFamily
+and retained rational normalization/small-value/character tools. Supply their
+ACTUAL original real-box obstruction from step 4. Original bad-index/box/
+observable may depend on factor, so finite list and constants must precede
+all raw samples. Do not use fixed-box or source-coefficient bounds silently.
+
+SEPARATE ANALYTIC INPUT STILL OPEN:
+HasNativePeriodicIntervalInverse is a proposition requiring the true GTZ
+finite-list LINEAR nilsequence CORRELATION conclusion for arbitrary 1-bounded
+inputs with interval Gowers norm large. The new equidistribution inverse does
+not imply it merely by renaming. Pinned 05_prediction.tex explicitly cites
+GTZ/GTZErratum and Tao-Ziegler concatenation. Existing NativePeriodicIntervalInverseThreshold,
+CyclicIntervalNativeCorrelators and master projection modules are conditional
+transfers, not existence proofs. Review full inverse/concatenation dependency
+before asserting master thresholds unconditional. Difficulty or external-paper
+dependence is not an unavoidable obstruction; do not add axioms/oracles.
+
+REMAINING FULL GOAL:
+General native real-box/rough progression application, distinct interval Gowers
+correlation inverse, full cube/Alignment synthesis and final positive distinct
+rapidly separated monochromatic FS/FP StrongConjecture remain open. Explicit
+delta-power complexity is not certified. Exact old source slab failure has a
+repaired bound and is not a terminal obstruction. Author review/build/hash/
+standard-axiom checks are not independent replay/external peer review.
+Public repository/PR/prize milestone has NOT been reached. Keep goal active.
+
+VERIFICATION PROTOCOL:
+New modules only; do not edit old registered proof sources. Every new file must
+pass explicit autoImplicit=false with EMPTY log; terminal complete project
+build and expanded standard-only axiom audit; old hashes/axioms unchanged;
+actual pins and all six original OpenAI proof sections and slab arithmetic
+certificate rechecked. No sorry/admit/custom axiom/native_decide/unsafe or
+instance/option bypass. Review quantifier order, constants, zero/empty cases,
+SAME original Haar, character and both full coefficient tables.
+
+
+LATEST 2026-10-13: round-native-original-real-box terminal verification recorded.
+UNCONDITIONAL general ORIGINAL native logarithmic-polynomial equal-cube inverse is now proved for every actual step bound, ordinary degree and finite variables. The actual rational stretched filtration at max(degree,1) supplies true weights. Original log identity supplies actual quotient orbit. Both COMPLETE raw output tables use ORIGINAL ordinary degree, original nonzero horizontal/grid/norm character and canonical native Haar. The stretched filtration degree is not silently substituted for the original binomial table.
+Arbitrary prescribed bounded complex Lipschitz observables are normalized BEFORE all sources and lengths against the SAME canonical native Haar probability. Actual Option-parameter specialization and literal affine source substitution produce the genuine translated-cube binomial input for every native step bound. All original source/log/orbit/mean/projection identities are proved; no translated-cube character-production or inverse premise remains.
+The corrected real-box finite obstruction is now proved for arbitrary native step bound, ordinary degree and finite spatial dimension. Exact retained corrected cube tiling, denominator clearing and ORIGINAL translation/location coefficient estimates are instantiated by the newly proved actual cube input. Original boxes/parameters/observables and raw polynomial coefficients vary after the fixed finite original character list, accuracy budget and length threshold. Every selected character is actual nonzero horizontal lattice character. ALL positive original spatial monomial rows at scale Z are retained.
+One SAME real-box accuracy budget and threshold now work across EVERY fixed finite list of actual native nilmanifolds, including empty lists. Genuine finite sums of positive bounds are chosen before all raw sources/samples/observables. No equidistribution inverse/production premise remains in the fixed-family box theorem. This closes the source quantitative Leibman box consequence in its fixed-data formulation, not rough progression comparison, Gowers correlation inverse, cube/Alignment or final FS/FP goal.
+Next: NATIVE-ACTUAL-BAD-CHARACTER-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Complete unconditional native rational-filtration inverse for every finite variable type and all positive original equal-cube lengths, general ordinary-degree original logarithmic-polynomial inverse, and corrected general real-box finite-character obstruction including fixed finite native families are now proved. Original nonzero horizontal/grid/norm characters, canonical Haar, and complete original coefficient tables are retained. Remaining: connect ACTUAL original full/progression bad samples to these uniform box characters, synthesize true native rough progression dimension descent/comparison, distinct interval Gowers correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP StrongConjecture. Fixed-data existential constants do not certify explicit delta-power laws. Only true positive exponential lattice powers are used. Author checking is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.
+
+
+LATEST 2026-10-13: round-native-actual-bad-characters terminal verification recorded.
+ACTUAL original residue classes reduce modulo the positive step and have EXACT normalized complex mean on the genuine quotient integer box. TRUE quotient-box length/location geometry and LITERAL Option-parameter-preserving spatial affine source/evaluation/scalar-projection identities are proved. No equality of vector/source polynomials is inferred from sampled quotient equality.
+ACTUAL original residue-box Haar discrepancy now PRODUCES one TRUE nonzero original horizontal lattice character in a fixed finite ORIGINAL list, plus ALL positive original spatial affine coefficient rows. It is instantiated by the UNCONDITIONAL general corrected native box theorem. The list, accuracy constant and quotient-scale threshold precede every original step/residue/source/box/parameter/observable. Exact reduced residues are retained as natural basepoints less than the original step.
+Both ACTUAL original full-box and residue-box Haar branches of a complex bad pair are now closed to one fixed finite ORIGINAL character list and ONE coefficient constant. The SAME character controls ALL positive affine rows; output step is literally 1 OR original t, and all natural affine basepoints are bounded by that step. Real bad pairs embed into the complex statement with EXACT discrepancy and unchanged Lipschitz/norm/geometry/sampling data. No inverse or character-production premise remains.
+TRUE PowerDominates and actual eventually-positive scales supply ONE source-independent asymptotic threshold for ALL original dyadic steps at once. Original finite character list and coefficient budget are fixed BEFORE ALL scale indices/raw Q/p/steps/boxes/observables. native_original_asymptotic_bad_pair_characters derives ALL positive original affine coefficient rows from ACTUAL RoughNativeBadIndex, with no analytic production premise. Common-character parameter thinning and full native dimension-descent comparison remain to be assembled.
+Next: NATIVE-COMMON-BAD-CHARACTER-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Complete unconditional native rational-filtration inverse, general original ordinary-degree inverse, corrected native real-box finite-family obstruction, and ACTUAL original full/residue bad-pair character production with ONE fixed original finite character list and ALL positive affine coefficient rows are now proved. True original residue mean/geometry/source identities, exact real-to-complex discrepancy and genuine PowerDominates uniform dyadic threshold are supplied. Remaining: common original character on a smooth parameter subprogression with literal reparametrized source/full rows, simultaneous finite kernel geometry/budgets, true all-native dimension induction and rough progression comparison, distinct interval Gowers correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP StrongConjecture. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent replay/external peer review. Repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone not reached.
+
+
+LATEST 2026-10-13: round-native-no-long-bad-family terminal verification recorded.
+ACTUAL original bad parameter progression now yields ONE common original nonzero horizontal/integral character on a genuine smooth subprogression, with LITERAL raw parameter-affine source, true degree/all-real log, same original bad samples, scale and rough coprimality, and ALL positive original affine coefficient rows. Fixed finite character pool and natural source lengths precede raw inputs; empty character pools assert no fake geometry. Real-power paper growth supplies the actual asymptotic thresholds.
+TRUE original horizontal character alone now supplies rational full Lie-subalgebra geometry, genuine normalized rational pivot V, positive original lattice power K, and actual canonical finite kernel family with STRICT original finrank decrease. Original real bad samples produce actual complex observables/geometry/mean discrepancy and every affine row input to the existing normalized kernel descent. No supplied pivot/subgroup/period, scalar model, inverse or analytic production oracle remains.
+Finite budgets are now assembled across EVERY candidate in the ACTUAL original finite character pool and EVERY canonical child. A common positive child target length and common original coefficient-packet length are chosen by finite sums BEFORE raw sources/w. True child bad-family length restriction, finite intersection of eventual thresholds and common-character production close the original step using ONLY legitimate universal strictly smaller-native-finrank IH. Source coefficients, boxes, residues and tests remain arbitrary.
+UNCONDITIONAL NativeNoLongBadFamilyStatement D is now PROVED for EVERY legitimate actual native datum D by genuine strong NATURAL finrank induction and true dimension-zero base. For every fixed ordinary degree/spatial dimension/bounded geometry and original real-power growth sequence, ONE positive length is chosen and eventually NO actual original bad family of that length exists. All smaller-native premises are discharged. This closes the strengthened bad-progression comparison; original exceptional-proportion rough-step conclusion, separate Gowers correlation inverse and final FS/FP remain open.
+Next: NATIVE-ROUGH-PROPORTION-CONTINUATION.txt.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Complete unconditional native rational-filtration/ordinary-degree inverse, corrected real-box finite-family obstruction, actual bad-pair character production, genuine common smooth parameter-character/source/row transport and finite canonical kernel descent are proved. UNCONDITIONAL no-long-original-bad-family statement for EVERY actual native datum is proved by true strong natural finrank induction, with actual zero base and all finite original candidate/child budgets. Remaining: original exceptional proportion rough-step comparison (finite dense Szemeredi extraction, original residue-index interval, smooth step and literal joint source transport), separate arbitrary-input GTZ interval Gowers correlation inverse, cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP StrongConjecture. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent replay/external review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

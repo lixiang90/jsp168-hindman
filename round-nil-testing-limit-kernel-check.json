@@ -1,0 +1,31 @@
+{
+  "exact_report_count": 2869,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_free_reports": [
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.maskDescendant_encoding_injective"
+  ],
+  "new_reports": [
+    "Hindman168.MasterParameterConditions.nil_shift_window_eventually_positive",
+    "Hindman168.MasterParameterConditions.nil_boundary_label_eventually",
+    "Hindman168.MasterParameterConditions.nil_boundary_label_small",
+    "Hindman168.MasterParameterConditions.nil_testing_weight_eventually_le",
+    "Hindman168.finiteMass_goodRoot_pairing_bound",
+    "Hindman168.pieceRecipeOriginalDual_badRoot_error",
+    "Hindman168.pieceRecipeOriginalDual_weighted_pairing_bound",
+    "Hindman168.piecewiseLinearNilsequence_abs_le",
+    "Hindman168.upperFaceCubeGroup_original_nilsequence_testing",
+    "Hindman168.uniform_abs_small_of_all_admissible_sequences",
+    "Hindman168.upperFaceCubeGroup_original_nilsequence_testing_uniform",
+    "Hindman168.maskGeneratedDualTemplates_zero",
+    "Hindman168.maskBlockModelDualControl_zeroPrime",
+    "Hindman168.maskBlockModelDualControl_nilsequence_testing",
+    "Hindman168.maskGenerated_finite_models_counting_and_nilsequence_testing"
+  ],
+  "all_registered_names_reported_exactly_once": true
+}

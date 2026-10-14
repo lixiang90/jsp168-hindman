@@ -1,0 +1,88 @@
+{
+  "modules": [
+    "Hindman168/DiscreteCosetProductSmooth.lean",
+    "Hindman168/RoughNativeConjugateOrbitSmooth.lean",
+    "Hindman168/RoughMvAffineSubstitution.lean",
+    "Hindman168/RoughSpatialSubstitution.lean",
+    "Hindman168/RoughNativeAffineKernelCoordinates.lean"
+  ],
+  "names": [
+    "Hindman168.discreteCoset_product_contMDiff_of_projection",
+    "Hindman168.rough_native_conjugate_orbit_joint_contMDiff",
+    "Hindman168.rough_mv_linear_substitution_degree",
+    "Hindman168.roughMvAffineSubstitution",
+    "Hindman168.roughMvAffineSubstitution_degree",
+    "Hindman168.roughMvAffineSubstitution_eval",
+    "Hindman168.roughVectorMvAffineSubstitution",
+    "Hindman168.roughVectorMvAffineSubstitution_degree",
+    "Hindman168.roughVectorMvAffineSubstitution_eval",
+    "Hindman168.roughSpatialSubstitution",
+    "Hindman168.roughSpatialSubstitution_degree",
+    "Hindman168.roughSpatialSubstitution_eval",
+    "Hindman168.rough_native_affine_kernel_coordinates"
+  ],
+  "declarations": {
+    "Hindman168/DiscreteCosetProductSmooth.lean": [
+      [
+        "theorem",
+        "discreteCoset_product_contMDiff_of_projection"
+      ]
+    ],
+    "Hindman168/RoughNativeConjugateOrbitSmooth.lean": [
+      [
+        "theorem",
+        "rough_native_conjugate_orbit_joint_contMDiff"
+      ]
+    ],
+    "Hindman168/RoughMvAffineSubstitution.lean": [
+      [
+        "theorem",
+        "rough_mv_linear_substitution_degree"
+      ],
+      [
+        "def",
+        "roughMvAffineSubstitution"
+      ],
+      [
+        "theorem",
+        "roughMvAffineSubstitution_degree"
+      ],
+      [
+        "theorem",
+        "roughMvAffineSubstitution_eval"
+      ],
+      [
+        "def",
+        "roughVectorMvAffineSubstitution"
+      ],
+      [
+        "theorem",
+        "roughVectorMvAffineSubstitution_degree"
+      ],
+      [
+        "theorem",
+        "roughVectorMvAffineSubstitution_eval"
+      ]
+    ],
+    "Hindman168/RoughSpatialSubstitution.lean": [
+      [
+        "def",
+        "roughSpatialSubstitution"
+      ],
+      [
+        "theorem",
+        "roughSpatialSubstitution_degree"
+      ],
+      [
+        "theorem",
+        "roughSpatialSubstitution_eval"
+      ]
+    ],
+    "Hindman168/RoughNativeAffineKernelCoordinates.lean": [
+      [
+        "theorem",
+        "rough_native_affine_kernel_coordinates"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentAffineIntervalClasses.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.671999999787658,
+    "log": "round-cube-intervals-AlignmentAffineIntervalClasses-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentAffineIntervalClasses.lean",
+    "source_sha256": "b7a2b67a76a1bec3858f20bc3b0caa0172317d58878f8f6d8d159701b5a2c21a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentResidueEndpoints.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.531000000191852,
+    "log": "round-cube-intervals-AlignmentResidueEndpoints-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentResidueEndpoints.lean",
+    "source_sha256": "8a791fac93d625c7788d93ba015ea5908355ec10e2bb3052c9472dbcd7e1f774"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCubeSideLengths.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.843999999808148,
+    "log": "round-cube-intervals-AlignmentCubeSideLengths-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCubeSideLengths.lean",
+    "source_sha256": "5710115bc686bd9095a6567b213d15806dc66bf99c5022844d37195c0f13c5c3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentCubeStepRatio.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.594000000040978,
+    "log": "round-cube-intervals-AlignmentCubeStepRatio-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentCubeStepRatio.lean",
+    "source_sha256": "100a814951f0ccbd81841adc149129efaaae4d5082d09a9c9e9be2c00fa15661"
+  }
+]

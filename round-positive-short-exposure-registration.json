@@ -1,0 +1,105 @@
+{
+  "modules": [
+    "Hindman168/FinitePositiveConditioningLimit.lean",
+    "Hindman168/FiniteExposureEventDisintegration.lean",
+    "Hindman168/AlignmentShortExposureKey.lean",
+    "Hindman168/AlignmentConditionedExposureStability.lean"
+  ],
+  "names": [
+    "Hindman168.finite_condition_event_inter",
+    "Hindman168.finite_condition_event_lower_bound",
+    "Hindman168.finite_positive_conditioning_zero_limit",
+    "Hindman168.finite_exposure_mass_eq_event",
+    "Hindman168.finite_exposure_weighted_event",
+    "Hindman168.finite_exposure_event_disintegration",
+    "Hindman168.finite_exposure_bad_fiber_bound",
+    "Hindman168.finite_exposure_bad_fiber_tendsto",
+    "Hindman168.alignmentShortExposureKey",
+    "Hindman168.alignmentShortExposureKey_rawExposure",
+    "Hindman168.alignmentShortExposureKey_dyadic_eq",
+    "Hindman168.alignmentShortExposureKey_pivot_residue",
+    "Hindman168.alignmentShortExposureKey_lower_product",
+    "Hindman168.alignmentShortExposureKey_product_bin",
+    "Hindman168.alignmentShortExposureKey_dyadic_window",
+    "Hindman168.alignment_conditioned_array_failure_tendsto",
+    "Hindman168.alignment_shortExposure_array_bad_fiber_tendsto"
+  ],
+  "declarations": {
+    "Hindman168/FinitePositiveConditioningLimit.lean": [
+      [
+        "theorem",
+        "finite_condition_event_inter"
+      ],
+      [
+        "theorem",
+        "finite_condition_event_lower_bound"
+      ],
+      [
+        "theorem",
+        "finite_positive_conditioning_zero_limit"
+      ]
+    ],
+    "Hindman168/FiniteExposureEventDisintegration.lean": [
+      [
+        "theorem",
+        "finite_exposure_mass_eq_event"
+      ],
+      [
+        "theorem",
+        "finite_exposure_weighted_event"
+      ],
+      [
+        "theorem",
+        "finite_exposure_event_disintegration"
+      ],
+      [
+        "theorem",
+        "finite_exposure_bad_fiber_bound"
+      ],
+      [
+        "theorem",
+        "finite_exposure_bad_fiber_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentShortExposureKey.lean": [
+      [
+        "def",
+        "alignmentShortExposureKey"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_rawExposure"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_dyadic_eq"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_pivot_residue"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_lower_product"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_product_bin"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_dyadic_window"
+      ]
+    ],
+    "Hindman168/AlignmentConditionedExposureStability.lean": [
+      [
+        "theorem",
+        "alignment_conditioned_array_failure_tendsto"
+      ],
+      [
+        "theorem",
+        "alignment_shortExposure_array_bad_fiber_tendsto"
+      ]
+    ]
+  }
+}

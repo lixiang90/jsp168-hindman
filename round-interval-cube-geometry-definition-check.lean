@@ -1,0 +1,5 @@
+import Hindman168.IntegerPeriodicCubeAverage
+#print axioms Hindman168.integerCubeVertex
+#print axioms Hindman168.integerCubeCornerCoordinates
+#print axioms Hindman168.integerCubeResidueShift
+#print axioms Hindman168.integerPeriodicCubeProduct

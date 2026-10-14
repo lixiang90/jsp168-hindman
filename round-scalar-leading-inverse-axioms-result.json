@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.45299999997951,
+  "log": "round-scalar-leading-inverse-axioms.txt",
+  "log_sha256": "2d0b7d4c69294491257befca989e56b4394831202b6e261a8c27312b73f30fb3"
+}

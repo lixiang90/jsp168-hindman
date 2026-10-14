@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. The finite-scale Prediction round was terminal-successfully rechecked and its authoritative manifest copied before these new proof edits. All retained proof sources remain unchanged.",
+    "The paper 02_framework piecewise-model definition explicitly requires representing observables to take values in [0,1] on their entire nilmanifolds. Prior output supplied unit-range model values and common globally bounded observables, without exposing this entire-quotient range property. This round proves and adds that exact output.",
+    "The clipping function max(0,min(1,t)) is 1-Lipschitz and vanishes at zero, hence its absolute value is at most |t|. The original supremum bound B is retained even when B is smaller than one. No weaker new bound is substituted.",
+    "Clipping composed with every continuous observable has the same Lipschitz constant. At every integer sample its value is unchanged because the actual model is already in [0,1]. The exact piecewise representation equality is proved, not assumed.",
+    "The common model theorem keeps the same e, model, parameter family, ultrafilter, native quotient G, B and Lip. Only the observables are clipped; g, x and every own interval/residue partition are retained. All earlier outputs are reproduced exactly. The added unit range holds for every point on the quotient, every stage, every piece and every model index.",
+    "Two new modules contain four theorems and no definitions or instances. Four new kernel reports must finish with standard axioms only. Full build and kernel logs must be warning-free, retained proof hashes and full transitive axiom sets must be unchanged, and the new model statement must differ only by the added observable range field.",
+    "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional Prediction now includes actual admissible parameters, finite positive scale-list closure, all scale/color indices, globally [0,1]-valued observables on a common native quotient with uniform bounds, and actual fixed-ultrafilter calibration and complete count limits. Alignment, including its finite nilpotent recurrence plan and positive-probability realization, and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/NativeUnitObservables.lean",
+    "Hindman168/FiniteScaleNativeUnitModels.lean"
+  ],
+  "verified": {
+    "project_modules": 1267,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1276,
+    "source_config_hashes": 1285,
+    "build_jobs": 5224,
+    "axiom_reports": 5670,
+    "new_theorems": 4,
+    "new_definitions": 0,
+    "new_structures": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 4,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "axiom_free_reports": [
+      "Hindman168.MatrixDepth.smul",
+      "Hindman168.admissible_option_selection_none",
+      "Hindman168.boundedLieWordValues",
+      "Hindman168.completeResidueCellPoint",
+      "Hindman168.finiteVectorPolynomialSum",
+      "Hindman168.integerCubeResidueShift",
+      "Hindman168.intervalResidueParent",
+      "Hindman168.lieWordValue",
+      "Hindman168.lieWordValue_cons",
+      "Hindman168.lieWordValue_nil",
+      "Hindman168.lowerCentralCommutatorGenerators",
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.matrixDepth_zero",
+      "Hindman168.matrixDepth_zero_iff_upper"
+    ],
+    "new_axiom_free_reports": [],
+    "full_target_proved": false
+  },
+  "remaining": "StrongConjecture and the original full finite monochromatic sums/products claim remain unproved. Finite-list native periodic interval inverse existence remains an explicit unproved hypothesis; its genuine existence proof and positive uniform correlation constants must be supplied. Conditional Prediction now includes actual admissible parameters, finite positive scale-list closure, all scale/color indices, globally [0,1]-valued observables on a common native quotient with uniform bounds, and actual fixed-ultrafilter calibration and complete count limits. Alignment, including its finite nilpotent recurrence plan and positive-probability realization, and final ordered positive rapidly separated monochromatic extraction remain incomplete. No unavoidable blocker is established. A complete public proof repository, official contribution PR, independent review and prize application remain pending; no completed prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "02_framework piecewise-model globally unit-range observables and Prediction output"
+}

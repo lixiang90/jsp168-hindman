@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 53.82799999997951,
+  "log": "round-native-rational-dense-nonlinear-separation-build.txt",
+  "log_sha256": "a7cd4b2a6ad8426f6b520058b8bdc44dab7d1c11c0e1b2aee3281d29e24999e3"
+}

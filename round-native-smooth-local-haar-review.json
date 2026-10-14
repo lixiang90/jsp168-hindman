@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2862,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6889,
+    "selected_axiom_reports": 11131,
+    "new_declarations": 12,
+    "new_theorems": 11,
+    "new_definitions": 1,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeRationalLayerCompactWindowHaar.lean",
+    "Hindman168/NativeRationalLayerOrbitObservables.lean",
+    "Hindman168/NativeRationalLayerFrozenHaar.lean",
+    "Hindman168/CompactSequentialParameterFreezing.lean",
+    "Hindman168/NativeSmoothActionFreezing.lean",
+    "Hindman168/NativeRationalLayerSmoothLocalHaar.lean"
+  ],
+  "proved_components": [
+    "Actual subgroup REAL-scale translated progression window laws now hold uniformly on ANY fixed compact family of continuous observables, via proved finite unit-Lipschitz detectors chosen before all sources, origins and window lengths.",
+    "The actual original orbit action is jointly continuous in compatible metrics. Pullback of original continuous observables along this action is continuous in the compact-open topology, hence compact original tests and compact left factors give a compact subgroup test family. Original Haar-image integrals equal these subgroup integrals.",
+    "Frozen left-factor window laws target the canonical ORIGINAL subgroup Haar image, uniformly over compact original tests and compact original left factors. No global Lipschitz assumption about arbitrary compatible metrics is used.",
+    "The actual converging finite-dimensional smooth parameters yield uniform freezing over the ENTIRE original compact quotient. The limiting curve is genuinely manifold-smooth. Only joint continuity and compactness are used for the quotient-action error modulus.",
+    "The actual smooth-times-irrational source satisfies a q=0 LOCAL Haar law in the original quotient. The smooth curve is chosen once; each beta and epsilon determines a positive radius BEFORE ALL rational right factors, every fixed nonzero rational progression step and positive window fraction. For each fixed right factor and fraction the eventual length threshold precedes all permitted origins, windows and unit-Lipschitz tests. Original real scale positivity is derived from cofinality."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual factorization, original subgroup q=0 Haar windows, compact observable transport, original Haar-image integrals and actual smooth-factor LOCAL q=0 Haar law are proved. Remaining: instantiate exact original periodic residues and progression endpoint/cardinality estimates, continuous Haar-image dependence and Riemann point-mixture assembly; actual SAME-filtration cube subgroup geometry and face-character coefficient isolation, simultaneous local cube laws through ORIGINAL s+1 with length before locality, projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/geometry/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. No global metric Lipschitz or quantitative locality rate claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-smooth-local-haar-mathematical-review.txt",
+  "mathematical_review_sha256": "5217c04b5f133240ca2a07648b74343fe8c773a6d6fa2b00450044f8bd957177",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

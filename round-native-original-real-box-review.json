@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "UNCONDITIONAL general ORIGINAL native logarithmic-polynomial equal-cube inverse is now proved for every actual step bound, ordinary degree and finite variables. The actual rational stretched filtration at max(degree,1) supplies true weights. Original log identity supplies actual quotient orbit. Both COMPLETE raw output tables use ORIGINAL ordinary degree, original nonzero horizontal/grid/norm character and canonical native Haar. The stretched filtration degree is not silently substituted for the original binomial table.",
+    "Arbitrary prescribed bounded complex Lipschitz observables are normalized BEFORE all sources and lengths against the SAME canonical native Haar probability. Actual Option-parameter specialization and literal affine source substitution produce the genuine translated-cube binomial input for every native step bound. All original source/log/orbit/mean/projection identities are proved; no translated-cube character-production or inverse premise remains.",
+    "The corrected real-box finite obstruction is now proved for arbitrary native step bound, ordinary degree and finite spatial dimension. Exact retained corrected cube tiling, denominator clearing and ORIGINAL translation/location coefficient estimates are instantiated by the newly proved actual cube input. Original boxes/parameters/observables and raw polynomial coefficients vary after the fixed finite original character list, accuracy budget and length threshold. Every selected character is actual nonzero horizontal lattice character. ALL positive original spatial monomial rows at scale Z are retained.",
+    "One SAME real-box accuracy budget and threshold now work across EVERY fixed finite list of actual native nilmanifolds, including empty lists. Genuine finite sums of positive bounds are chosen before all raw sources/samples/observables. No equidistribution inverse/production premise remains in the fixed-family box theorem. This closes the source quantitative Leibman box consequence in its fixed-data formulation, not rough progression comparison, Gowers correlation inverse, cube/Alignment or final FS/FP goal.",
+    "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Complete unconditional native rational-filtration inverse for every finite variable type and all positive original equal-cube lengths, general ordinary-degree original logarithmic-polynomial inverse, and corrected general real-box finite-character obstruction including fixed finite native families are now proved. Original nonzero horizontal/grid/norm characters, canonical Haar, and complete original coefficient tables are retained. Remaining: connect ACTUAL original full/progression bad samples to these uniform box characters, synthesize true native rough progression dimension descent/comparison, distinct interval Gowers correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP StrongConjecture. Fixed-data existential constants do not certify explicit delta-power laws. Only true positive exponential lattice powers are used. Author checking is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached."
+  ],
+  "verified": {
+    "project_modules": 2624,
+    "pntplus_modules": 9,
+    "build_jobs": 6597,
+    "selected_axiom_reports": 10361,
+    "new_declarations": 5,
+    "new_theorems": 5,
+    "new_definitions": 0,
+    "new_structures": 0,
+    "new_structure_generated_reports": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeOriginalPolynomialInverse.lean",
+    "Hindman168/NativeOriginalBoundedCubeObstruction.lean",
+    "Hindman168/NativeOriginalAffineCubeInput.lean",
+    "Hindman168/NativeOriginalRealBoxObstruction.lean",
+    "Hindman168/NativeOriginalFiniteRealBoxObstruction.lean"
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Complete unconditional native rational-filtration inverse for every finite variable type and all positive original equal-cube lengths, general ordinary-degree original logarithmic-polynomial inverse, and corrected general real-box finite-character obstruction including fixed finite native families are now proved. Original nonzero horizontal/grid/norm characters, canonical Haar, and complete original coefficient tables are retained. Remaining: connect ACTUAL original full/progression bad samples to these uniform box characters, synthesize true native rough progression dimension descent/comparison, distinct interval Gowers correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP StrongConjecture. Fixed-data existential constants do not certify explicit delta-power laws. Only true positive exponential lattice powers are used. Author checking is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "OpenAI quantitative Leibman route; unconditional general original native logarithmic-polynomial and corrected real-box finite-family obstruction; rough progression comparison, Gowers correlation inverse and final target remain open",
+  "mathematical_review_file": "round-native-original-real-box-mathematical-review.txt",
+  "mathematical_review_sha256": "074389cc4886448787e74970f22e53d2c3ec32d3842b66b3da3c131789532c24",
+  "source_slab_certificate": "round-native-original-real-box-slab-review.json",
+  "source_slab_certificate_sha256": "5aa6bd5ec33029cf705914b51e59c5028126895986a19a257be0bd383ff5eea5",
+  "source_slab_script_sha256": "64cac480a164a883a31cb40256c47c1de0be223c81f1cc013519543a636f655d"
+}

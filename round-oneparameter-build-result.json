@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 12.807,
+  "log": "round-oneparameter-build.txt",
+  "log_sha256": "3bc53138ec1b5de1968718de7328a761768383a89afc3532d42241d6052be223",
+  "terminal": true
+}

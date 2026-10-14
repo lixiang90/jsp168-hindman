@@ -1,0 +1,93 @@
+{
+  "modules": [
+    "Hindman168/RoughNativeCharacterNormalization.lean",
+    "Hindman168/RoughNativeFixedKernel.lean",
+    "Hindman168/RoughNativeKernelFactorization.lean",
+    "Hindman168/RoughNativeResidueCosets.lean",
+    "Hindman168/RoughNativePolynomialCosets.lean"
+  ],
+  "names": [
+    "Hindman168.rough_native_character_rational_on_span",
+    "Hindman168.rough_native_integral_character_rational_on_span",
+    "Hindman168.rough_native_fixed_character_normalization",
+    "Hindman168.rough_native_fixed_kernel_rational_dimension",
+    "Hindman168.rough_native_fixed_kernel_quotient_compact",
+    "Hindman168.roughNativeKernelFactor",
+    "Hindman168.rough_native_kernel_factor_mem",
+    "Hindman168.rough_native_kernel_factorization",
+    "Hindman168.rough_native_exponential_integer_period",
+    "Hindman168.rough_native_exponential_residue",
+    "Hindman168.rough_native_exponential_modEq",
+    "Hindman168.rough_native_exponential_finite_representative",
+    "Hindman168.rough_integer_polynomial_modEq",
+    "Hindman168.rough_native_integer_polynomial_coset"
+  ],
+  "declarations": {
+    "Hindman168/RoughNativeCharacterNormalization.lean": [
+      [
+        "theorem",
+        "rough_native_character_rational_on_span"
+      ],
+      [
+        "theorem",
+        "rough_native_integral_character_rational_on_span"
+      ],
+      [
+        "theorem",
+        "rough_native_fixed_character_normalization"
+      ]
+    ],
+    "Hindman168/RoughNativeFixedKernel.lean": [
+      [
+        "theorem",
+        "rough_native_fixed_kernel_rational_dimension"
+      ],
+      [
+        "theorem",
+        "rough_native_fixed_kernel_quotient_compact"
+      ]
+    ],
+    "Hindman168/RoughNativeKernelFactorization.lean": [
+      [
+        "def",
+        "roughNativeKernelFactor"
+      ],
+      [
+        "theorem",
+        "rough_native_kernel_factor_mem"
+      ],
+      [
+        "theorem",
+        "rough_native_kernel_factorization"
+      ]
+    ],
+    "Hindman168/RoughNativeResidueCosets.lean": [
+      [
+        "theorem",
+        "rough_native_exponential_integer_period"
+      ],
+      [
+        "theorem",
+        "rough_native_exponential_residue"
+      ],
+      [
+        "theorem",
+        "rough_native_exponential_modEq"
+      ],
+      [
+        "theorem",
+        "rough_native_exponential_finite_representative"
+      ]
+    ],
+    "Hindman168/RoughNativePolynomialCosets.lean": [
+      [
+        "theorem",
+        "rough_integer_polynomial_modEq"
+      ],
+      [
+        "theorem",
+        "rough_native_integer_polynomial_coset"
+      ]
+    ]
+  }
+}

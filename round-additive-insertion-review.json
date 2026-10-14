@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 389,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MasterPolynomialTranslationGrowth.lean",
+    "Hindman168/MaskOriginalTranslationBounds.lean",
+    "Hindman168/MaskOriginalTranslationError.lean",
+    "Hindman168/MaskOriginalFunctionBounds.lean",
+    "Hindman168/MaskOriginalInsertionLimit.lean",
+    "Hindman168/MaskOriginalInsertionPowers.lean"
+  ],
+  "new_selected_report_count": 29,
+  "module_report_counts": {
+    "MasterPolynomialTranslationGrowth": 4,
+    "MaskOriginalTranslationBounds": 6,
+    "MaskOriginalTranslationError": 4,
+    "MaskOriginalFunctionBounds": 3,
+    "MaskOriginalInsertionLimit": 6,
+    "MaskOriginalInsertionPowers": 6
+  },
+  "application_review": [
+    "All 389 audited baseline hashes were rechecked before registration. Only root imports and the exact-name registry changed. Every previously retained proof source, StrongStatement.lean, dependency/runtime pin and attributed PNT+ source remains unchanged. The previous goal turn and this turn are both PROGRESS.",
+    "For an arbitrary varying actual Fin N master index, the pool upper plus auxiliary is eventually at most its gap, and that gap eventually exceeds every fixed constant. Both facts are derived by finite choice from the actual master gap-growth theorem, not assumed as desired error estimates.",
+    "The varying actual pivot cutoff dominates the full harmonic sampling budget whenever the displacement is bounded by a fixed polynomial in its gap. Gap-before-pivot ordering and actual gap monotonicity transfer the earlier gap displacement K*R*(pool upper+V)^q to this proved polynomial budget. No new PowerDominates premise is supplied in the final generated-family application.",
+    "The actual quotient length L(p)=floor(R/(J M(p))) is at most R, including zero lengths and early or bad tuples. On every original good tuple, completedDirectionMass is exactly the original uniform interval [0,L(p)); every coordinate of its actual independent supported sample has natural absolute value at most L(p), hence at most R.",
+    "The inserted displacement is defined as the actual sum of the sampled u_k times the generated integerTranslation vectors assigned to the off-target rows. Actual generated IntegerTranslationConditions prove each coordinate is a primorial W multiple on the original good event, and therefore so is the complete displacement.",
+    "The actual uniform integer-direction size theorem and the actual off-target dimension bound prove the displacement cap H_m=B_m*R*(pool upper+V)^E_m, where B_m=maskRowCountBound m and E_m=maskRowDirectionSizeExponent m. This cap is independent of the sampled primes, interval samples, fixed J and the function data. Certificate existence, divisibility and direction bounds are not added as premises.",
+    "At each original chain pivot, the actual cutoff dominates samplingSize(W,0,H_m,V). This follows from the proved earlier-polynomial translation growth with the concrete original chain pivot in Fin N and the original gap-before-pivots ordering. The finite selection does not replace the actual varying pivot by a fixed one.",
+    "The explicit insertionErrorCap is the sum of translationError at the m+1 actual pivot cutoffs with that same H_m. Actual harmonic integer translation estimates, actual W divisibility and the supported displacement cap bound every original coordinate-sum L1 error by insertionErrorCap. The original coordinate laws are proved probabilities from actual raw-cutoff validity.",
+    "The insertionErrorCap is eventually nonnegative and RapidlySmall at the original gap auxiliary V. Its decay is derived from the actual cutoff sampling growth. It is not an input assumption, and every supported original good tuple and interval sample uses the same cap.",
+    "Original tail-before-gap ordering supplies every row tail divisor budget at most V. Actual tailMass support, nonnegativity and normalization imply 0<=integerDivisorMask<=V. Hence every actual one-plus-mask row majorant is at most V^2. The centered distinguished source test nu-1 also obeys that bound, while all off-target source functions inherit it from their original majorant bounds.",
+    "The unshiftedCorrelation is defined under the unchanged original normalized good-prime/base outside law, using the actual normalizedIntegerLinearForm rows and their existing additiveIndexEquiv indexing. Exact finite Fubini writes insertedCorrelation as the same conditioned prime law followed by the original independent conditional single-shift law and the actual shifted base coordinates. Prime parameters remain outside, and no law is resampled or replaced.",
+    "For arbitrary tests bounded by V^B on original good tuples, the actual insertion difference is bounded by V^(B*card(original rows))*insertionErrorCap. The actual conditioned prime normalization, original coordinate probabilities and completed direction probabilities remove their total-mass factors. Off-event completion is used only where conditionMass has zero support.",
+    "Applying this finite bound to the actual centered root and majorant-dominated source functions derives RapidlySmall for insertedCorrelation-unshiftedCorrelation, and proves V^q times that actual difference tends to zero for every fixed natural q. No desired sup bound or small insertion difference is a premise in this source application.",
+    "Both actual original and inserted source correlations have the derived polynomial bound V^(2*card(original rows)). The proved absolute-power difference inequality and rapid-error stability absorb the additional fixed loss from the actual power 2^d. The error insertionPowerError is defined as |unshiftedCorrelation|^(2^d)-|insertedCorrelation|^(2^d), not as zero or an unspecified small input.",
+    "That actual power error is RapidlySmall, and V^q*abs(insertionPowerError) tends to zero for every fixed q. Choosing e(w)=abs(insertionPowerError w) and combining the previously proved actual inserted recurrence gives the original unshifted bound |I|^(2^d)<=D_m*|E G Psi|+e(w), with e(w) tending to zero and the same m-only D_m. The fixed-J threshold is allowed to depend on J, while D_m remains independent of J.",
+    "All nonroot retained majorants remain in the complete actual Psi product. No ordinary mean estimate is used to replace Psi by its mean. The additional root translation, its enlarged copied-row certificate, B/BH/BH^2 moments and weighted second-moment cancellation remain unproved.",
+    "The positive rational scales, bounded original chain blocks, tail-before-gap and gap-before-pivots order, positive fixed J, actual centered root definition and original off-target function bounds remain the explicit source inputs. The global construction of chain/gap/scale/color/rho and companion data is not claimed by this analytic application.",
+    "StrongConjecture is still only a defined proposition with conditional bridges. Full weighted mask-removal and correlation/root-pushforward applications, inverse/nilsequence/cube-law arguments and final witness extraction and separation remain incomplete. No full analytic additive-elimination lemma, prize eligibility or unavoidable blocker is claimed.",
+    "No official upstream update was checked, following the user instruction. Public repository creation, award PR and prize application await complete formalization and audit."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:418-440 (actual initial insertion and polynomially weighted error now proved);443-529 (unshifted m-only recurrence retaining full Psi now instantiated);530-568 (extra-root smoothing, second moments and retained-weight removal pending)",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4242,
+    "project_modules": 377,
+    "pntplus_modules": 9,
+    "source_scan_modules": 386,
+    "axiom_reports": 1969,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 395,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original unshifted source correlation now obeys the actual m-only recurrence |I|^(2^d)<=D_m*|E G Psi|+e(w), with the explicit actual power insertion error e(w)=abs(|I|^(2^d)-|I_shift|^(2^d)) tending to zero after every fixed polynomial budget loss. Actual generated W divisibility, supported displacement caps, varying pivot sampling growth and centered-root/off-target function sup bounds are derived, so the initial insertion and its power loss are no longer pending. Next extend the copied coefficients to the extra root translation and its independent duplicate branches. Identify target-cube invariance under that actual root translation, prove its polynomially weighted sampling comparison with the full retained product, and establish the actual primitivity/pair-independence and local counts for the enlarged B/BH/BH^2 family. Prove E B, E BH and E BH^2, then E B(H-2^t)^2=o(1) and weighted replacement of Psi by 2^t. An ordinary majorant mean alone does not remove retained weights. Connect the resulting full actual additive elimination to the weighted mask-removal integrands, multiplicative Cauchy--Schwarz recurrence and exception/error bounds. Complete the retained-weight correlation test, root pushforward, full preprint Prediction/Alignment propositions, inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and final witness extraction and separation. Real-exponent clipping remains unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

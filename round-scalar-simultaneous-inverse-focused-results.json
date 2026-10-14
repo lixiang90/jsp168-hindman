@@ -1,0 +1,242 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteNaturalBlockReindex.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.812000000150874,
+    "log": "round-scalar-simultaneous-inverse-FiniteNaturalBlockReindex-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteNaturalBlockReindex.lean",
+    "source_sha256": "c4783b6db23b91c835d14a072478a86440f43243a358630b3a8ba0c5dce92287"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteNaturalBlockMeans.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.625,
+    "log": "round-scalar-simultaneous-inverse-FiniteNaturalBlockMeans-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteNaturalBlockMeans.lean",
+    "source_sha256": "ef455b1957e0fdb57893624b9aba50198dc02c0133f8f49fda55af6e02eb31bc"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCirclePhaseVariation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.734999999869615,
+    "log": "round-scalar-simultaneous-inverse-UnitCirclePhaseVariation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCirclePhaseVariation.lean",
+    "source_sha256": "d488e251347b58d22b60fa0a410871d3ee3c02015346e896d3f051450c25ef5f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NormalizedNaturalPowerVariation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.405999999959022,
+    "log": "round-scalar-simultaneous-inverse-NormalizedNaturalPowerVariation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NormalizedNaturalPowerVariation.lean",
+    "source_sha256": "aa7909288aa4f94cc1430948f3bbace2ea4a058e6eba59a74ea52b6ab15f9e35"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleTopPowerProgression.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.469000000040978,
+    "log": "round-scalar-simultaneous-inverse-UnitCircleTopPowerProgression-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleTopPowerProgression.lean",
+    "source_sha256": "b55e5ce0d939ba7b27b45e3c4679c93ec01eb18bd8e3585536368eedd3cb9373"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarPolynomialTopRemoval.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.140000000130385,
+    "log": "round-scalar-simultaneous-inverse-ScalarPolynomialTopRemoval-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarPolynomialTopRemoval.lean",
+    "source_sha256": "89cc9faf3f4ed8577e04948d251c36f2a3c34d9c901cb0ea171773bd50c6a1bb"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteComplexUnitFactorTransfer.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.515999999828637,
+    "log": "round-scalar-simultaneous-inverse-FiniteComplexUnitFactorTransfer-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteComplexUnitFactorTransfer.lean",
+    "source_sha256": "fa0a22604c52e569253eec5724a0afb9c9419286fdbec58b5367d4aac62d5b13"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/PositiveFractionalBlockLength.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.202999999979511,
+    "log": "round-scalar-simultaneous-inverse-PositiveFractionalBlockLength-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/PositiveFractionalBlockLength.lean",
+    "source_sha256": "4fe51dc76cb2d1b5058a3195c560aa859d27e16ba229e8f2e1e5b0fa078463e5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarPolynomialStrippingFraction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.5,
+    "log": "round-scalar-simultaneous-inverse-ScalarPolynomialStrippingFraction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarPolynomialStrippingFraction.lean",
+    "source_sha256": "028b4cbcd5d9a16d3f6aeb70ef6c5c5c49c1036b4baf2f5e73499c22a1097aa6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarPolynomialTopStripping.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.641000000061467,
+    "log": "round-scalar-simultaneous-inverse-ScalarPolynomialTopStripping-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarPolynomialTopStripping.lean",
+    "source_sha256": "e40236eb2618ac962d7f6a2bc05e24f049fd1fce95540961b701b8b0dc758be6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarPolynomialIntegerCoefficientRecovery.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.718000000109896,
+    "log": "round-scalar-simultaneous-inverse-ScalarPolynomialIntegerCoefficientRecovery-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarPolynomialIntegerCoefficientRecovery.lean",
+    "source_sha256": "9a1753e103918c4d32faf1c404f3b02563b8ec3280e4363eb5472831d8fa9c31"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/IntegerWeightedModOneNorm.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.5,
+    "log": "round-scalar-simultaneous-inverse-IntegerWeightedModOneNorm-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/IntegerWeightedModOneNorm.lean",
+    "source_sha256": "3c8d7aca0c89f68df7298bad070d1e898c9ec6b3f40679421bb3a53bfd2fe0b8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarPolynomialRecoveryWeights.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.547000000020489,
+    "log": "round-scalar-simultaneous-inverse-ScalarPolynomialRecoveryWeights-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarPolynomialRecoveryWeights.lean",
+    "source_sha256": "568da8acc93c5c6e2b29c646d6c758c98dcc59233f4209a31e9880147415190a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarPolynomialRecoveryModOne.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.968999999808148,
+    "log": "round-scalar-simultaneous-inverse-ScalarPolynomialRecoveryModOne-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarPolynomialRecoveryModOne.lean",
+    "source_sha256": "69d313703b9bcc9b872c37f1a86a9f95739e971714b5eecd769bdd58b24179ed"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarPolynomialSimultaneousInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.5,
+    "log": "round-scalar-simultaneous-inverse-ScalarPolynomialSimultaneousInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarPolynomialSimultaneousInverse.lean",
+    "source_sha256": "6bfe1ef758bc7160381ccc2ab4c4bd615b1ffa5897e35d44853983e8c2848a98"
+  }
+]

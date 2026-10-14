@@ -1,0 +1,2 @@
+✔ [2774/2774] Built Hindman168.FinitePushContraction (6.2s)
+Build completed successfully (2774 jobs).

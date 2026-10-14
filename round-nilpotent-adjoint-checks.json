@@ -1,0 +1,50 @@
+{
+  "baseline_hashes_verified_before_edits": 649,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "retained_proof_sources_unchanged": true,
+  "pins_and_attributed_sources_unchanged": true,
+  "root_imports_exact": true,
+  "registered_names_exact": true,
+  "kernel_names_exact": true,
+  "full_target_proved": false,
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4551,
+    "project_modules": 637,
+    "pntplus_modules": 9,
+    "source_scan_modules": 646,
+    "axiom_reports": 3187,
+    "axiom_free_reports": [
+      "Hindman168.MatrixDepth.smul",
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.matrixDepth_zero",
+      "Hindman168.matrixDepth_zero_iff_upper"
+    ],
+    "source_config_hash_count": 655,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "fresh_final_recheck": {
+    "all_655_hashes_match": true,
+    "retained_changes_only_root_and_registry": true,
+    "pins_match_baseline_actual_configuration_and_mathlib_head": true,
+    "actual_lean_version_matches": true,
+    "exact_3187_kernel_names_and_standard_axioms": true,
+    "complete_logs_and_evidence_match": true,
+    "all_6_new_oleans_exist_and_not_older_than_sources": true,
+    "source_scan_and_registration_cover_all_modules": true,
+    "fixed_local_paper_still_matches_exact_git_objects": true,
+    "remaining_scope_matches_manifest_and_audit": true,
+    "full_target_proved": false
+  }
+}

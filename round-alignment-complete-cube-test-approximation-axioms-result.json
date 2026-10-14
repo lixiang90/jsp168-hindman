@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.313000000081956,
+  "log": "round-alignment-complete-cube-test-approximation-axioms.txt",
+  "log_sha256": "21e461f4b6d79b7948641bc3fd636b35befa7ed0c7da8cbcd7ba794e4f7227fb"
+}

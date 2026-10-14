@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 41.54700000002049,
+  "log": "round-native-cube-haar-axioms.txt",
+  "log_sha256": "b7b03aab24bf1a2b5e65111e0439b89703758c529c3d03f74feab7353d91f44c"
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.67200000002049,
+  "log": "round-rational-taylor-descent-build.txt",
+  "log_sha256": "a613424f9a29f7651358ec6d890e0be7bcc59b2e67f24c9b87c0b106e979efd5"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughRationalExactness.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.625,
+    "log": "round-rough-exact-division-RoughRationalExactness-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughRationalExactness.lean",
+    "source_sha256": "89f6ae257f4960aafeab9fa7d0919927a193c50532fc221f5ad8d51f02394071"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughPolynomialDenominators.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.0,
+    "log": "round-rough-exact-division-RoughPolynomialDenominators-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughPolynomialDenominators.lean",
+    "source_sha256": "242432c45cf49d02f68877e95aca2b9c8f8a597f55254df6f2f3c55e67a6acc4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughPolynomialExactDivision.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.391000000061467,
+    "log": "round-rough-exact-division-RoughPolynomialExactDivision-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughPolynomialExactDivision.lean",
+    "source_sha256": "231721b4f6bb24219a676ae942b50ede8022eaf1b5c20d5e8480be5681c38132"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughInterpolationExactnessScale.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.969000000040978,
+    "log": "round-rough-exact-division-RoughInterpolationExactnessScale-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughInterpolationExactnessScale.lean",
+    "source_sha256": "2af1ecf74c42c395db5442d974177b91aa4e781d7c72c53ce31c0551e391bf20"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughInterpolationDenominator.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.671000000089407,
+    "log": "round-rough-exact-division-RoughInterpolationDenominator-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughInterpolationDenominator.lean",
+    "source_sha256": "88d01d256bb503f88632e724aa18a51f5ea69a513d6a3102d7fee3f9effeb064"
+  }
+]

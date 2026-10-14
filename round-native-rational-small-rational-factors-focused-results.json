@@ -1,0 +1,210 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDegreeTwoDenseSmallRationalFactors.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.07799999997951,
+    "log": "round-native-rational-small-rational-factors-NativeRationalDegreeTwoDenseSmallRationalFactors-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDegreeTwoDenseSmallRationalFactors.lean",
+    "source_sha256": "581b233fcd7721e7e52b9800066e5560f3bbeb0059f049149675b1fa5a9a490b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalDenseSmallRationalFactors.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.078999999910593,
+    "log": "round-native-rational-small-rational-factors-NativeRationalDenseSmallRationalFactors-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalDenseSmallRationalFactors.lean",
+    "source_sha256": "69fcf7a63ab15948c4144012716ce5470ebc69fc6bc4c3d1e78eb8469baaf67c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalNonlinearOriginalCoefficients.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.014999999897555,
+    "log": "round-native-rational-small-rational-factors-NativeRationalNonlinearOriginalCoefficients-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalNonlinearOriginalCoefficients.lean",
+    "source_sha256": "44bd3fb899f02dec9a19dfc365ba80579c8b70b1485c06acfd0a40bf6a53a477"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalNonlinearSmallRationalFactors.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.406000000191852,
+    "log": "round-native-rational-small-rational-factors-NativeRationalNonlinearSmallRationalFactors-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalNonlinearSmallRationalFactors.lean",
+    "source_sha256": "f8fa4611477e06d20a67a5cb506d1523b48ddc7891e0db3652f1919470cb76b5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalPolynomialFiniteResidues.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.67200000002049,
+    "log": "round-native-rational-small-rational-factors-NativeRationalPolynomialFiniteResidues-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalPolynomialFiniteResidues.lean",
+    "source_sha256": "2cba589b48dde2c3445733cc304a6d5df9e2a30a260853a4284b4879de61f535"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalZeroPairingAffineBracket.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.405999999959022,
+    "log": "round-native-rational-small-rational-factors-NativeRationalZeroPairingAffineBracket-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalZeroPairingAffineBracket.lean",
+    "source_sha256": "ea8aa8a3a36700c075808873e59bbc014ded760989de1cee93c0f4cd4644ca9b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalZeroPairingCompleteTables.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.735000000102445,
+    "log": "round-native-rational-small-rational-factors-NativeRationalZeroPairingCompleteTables-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalZeroPairingCompleteTables.lean",
+    "source_sha256": "6b88dc58d5096816a33646c6696a9a9bd67c6b7bef225f8de0f301ea3a107639"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarNonlinearRationalPeriod.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.07799999997951,
+    "log": "round-native-rational-small-rational-factors-ScalarNonlinearRationalPeriod-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarNonlinearRationalPeriod.lean",
+    "source_sha256": "cd631b226ef25beba30e949061dde7bfaa88421efeeaf650cfea6bad8082039e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarNonlinearSmallRationalSplit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.125,
+    "log": "round-native-rational-small-rational-factors-ScalarNonlinearSmallRationalSplit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarNonlinearSmallRationalSplit.lean",
+    "source_sha256": "d9db53e3ec5ea4643c6fddbfc8b01259d49dc6fed226262141705871a0df811a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarNonlinearSmallVariation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.733999999938533,
+    "log": "round-native-rational-small-rational-factors-ScalarNonlinearSmallVariation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarNonlinearSmallVariation.lean",
+    "source_sha256": "d1146d541ed7fd927d59102094458e0e9884d132c0bc03e5cd24e7c8a876d645"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ScalarQuadraticCoefficientCompletion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.515000000130385,
+    "log": "round-native-rational-small-rational-factors-ScalarQuadraticCoefficientCompletion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ScalarQuadraticCoefficientCompletion.lean",
+    "source_sha256": "674abd51847621f62c73d0cd20076d09d11b1da408f7f30f72fc85660f20134d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitCircleDenseScaledAffineInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.156999999890104,
+    "log": "round-native-rational-small-rational-factors-UnitCircleDenseScaledAffineInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitCircleDenseScaledAffineInverse.lean",
+    "source_sha256": "ddff34d8b42bc3a0ee3a0fc04b4eec91606736fca73ebb38c55b3d23c3b4a891"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UnitMvNonlinearPartCoefficients.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.733999999938533,
+    "log": "round-native-rational-small-rational-factors-UnitMvNonlinearPartCoefficients-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UnitMvNonlinearPartCoefficients.lean",
+    "source_sha256": "0753f5c06c1748497060392e8aa67085b9fb11143c28033d6a6a745e37f49597"
+  }
+]

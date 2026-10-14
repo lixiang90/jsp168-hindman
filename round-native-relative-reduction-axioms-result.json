@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 22.875,
+  "log": "round-native-relative-reduction-axioms.txt",
+  "log_sha256": "8c139e33c3660cca985819d2fb24817b32b4a0884075981274b7c7c31bc79776"
+}

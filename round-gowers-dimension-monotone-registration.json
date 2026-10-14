@@ -1,0 +1,56 @@
+{
+  "baseline_hash_count": 998,
+  "modules": [
+    "Hindman168/SubgroupGowersDimensionMonotone.lean",
+    "Hindman168/WeightedSubgroupGowersMonotone.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupGowersValue_le_succ",
+    "Hindman168.subgroupGowersValue_dimension_mono",
+    "Hindman168.subgroupCubeAverage_zero",
+    "Hindman168.abs_finiteHaarMean_le_subgroupGowersValue",
+    "Hindman168.probabilityWeighted_square_le",
+    "Hindman168.weightedSubgroupCubeAverage_square_le_succ",
+    "Hindman168.weightedSubgroupGowersValue_le_succ",
+    "Hindman168.weightedSubgroupGowersValue_dimension_mono"
+  ],
+  "theorem_count": 8,
+  "declarations": {
+    "Hindman168/SubgroupGowersDimensionMonotone.lean": [
+      [
+        "theorem",
+        "subgroupGowersValue_le_succ"
+      ],
+      [
+        "theorem",
+        "subgroupGowersValue_dimension_mono"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_zero"
+      ],
+      [
+        "theorem",
+        "abs_finiteHaarMean_le_subgroupGowersValue"
+      ]
+    ],
+    "Hindman168/WeightedSubgroupGowersMonotone.lean": [
+      [
+        "theorem",
+        "probabilityWeighted_square_le"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupCubeAverage_square_le_succ"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_le_succ"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupGowersValue_dimension_mono"
+      ]
+    ]
+  }
+}

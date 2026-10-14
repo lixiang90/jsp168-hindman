@@ -1,0 +1,98 @@
+[
+  {
+    "module": "Hindman168/AlignmentLieTensorLayers.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentLieTensorLayers.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.452999999979511,
+    "source_sha256": "a5a31ff4ccef71c828d87e25f70040dc4431b2763888059b0a4b88a8b793f55b",
+    "log": "round-alignment-array-separation-focused-AlignmentLieTensorLayers.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentLieArrayNilpotence.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentLieArrayNilpotence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.891000000061467,
+    "source_sha256": "15ebdcd2d619c9332a59f5feb270de052f9133a0dfbf3dd0c072f66694aedf34",
+    "log": "round-alignment-array-separation-focused-AlignmentLieArrayNilpotence.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentLieArrayIntegerSeparation.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentLieArrayIntegerSeparation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.577999999979511,
+    "source_sha256": "709c22c483f54b4a41be4a3a513ab9918f7fc4a096048f35751be62db95c56ce",
+    "log": "round-alignment-array-separation-focused-AlignmentLieArrayIntegerSeparation.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentFiniteEvaluationSelection.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentFiniteEvaluationSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.311999999918044,
+    "source_sha256": "22d8da7bff9b86d25057f83e04dfb3172e5abd44f1609f840937cb5404286a6c",
+    "log": "round-alignment-array-separation-focused-AlignmentFiniteEvaluationSelection.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentLieArrayFiniteEmbedding.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentLieArrayFiniteEmbedding.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.735000000102445,
+    "source_sha256": "03e44d68d88ecf4021863603f186a88f5a4431fe35bec3fd7d40dc24b6953cb5",
+    "log": "round-alignment-array-separation-focused-AlignmentLieArrayFiniteEmbedding.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentNativeLieArrayFiniteEvaluations.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeLieArrayFiniteEvaluations.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.718000000109896,
+    "source_sha256": "c37f4ce247291cc95ba6c8a2fb9c4b5ba4b629cc4c41305691c5c20cc97c5a92",
+    "log": "round-alignment-array-separation-focused-AlignmentNativeLieArrayFiniteEvaluations.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

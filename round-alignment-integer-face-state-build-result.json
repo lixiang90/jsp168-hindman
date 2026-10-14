@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.922000000020489,
+  "log": "round-alignment-integer-face-state-build.txt",
+  "log_sha256": "aee4ee34b600e1def5bfb5a2ecbe7a72d6b36abd0d6a64f4aeecec521ee7aad0"
+}

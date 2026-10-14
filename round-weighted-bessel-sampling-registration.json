@@ -1,0 +1,72 @@
+{
+  "baseline_hash_count": 1138,
+  "modules": [
+    "Hindman168/FiniteWeightedSamplingMoments.lean",
+    "Hindman168/FiniteWeightedSampleSelection.lean",
+    "Hindman168/WeightedBesselSampleLimit.lean",
+    "Hindman168/MixedDualWeightedBesselLimit.lean"
+  ],
+  "names": [
+    "Hindman168.FiniteMass.expectation_piMass_distinct_pair",
+    "Hindman168.FiniteMass.expectation_piMass_centered_sum_square",
+    "Hindman168.FiniteMass.expectation_piMass_sample_variance",
+    "Hindman168.FiniteMass.expectation_piMass_sample_variance_le",
+    "Hindman168.FiniteMass.expectation_exists_support_le",
+    "Hindman168.FiniteMass.expectation_exists_two_budgets",
+    "Hindman168.FiniteMass.expectation_piMass_offDiagonal_sum_le",
+    "Hindman168.FiniteMass.expectation_exists_bessel_sample",
+    "Hindman168.weighted_bessel_exists_sample_limit",
+    "Hindman168.mixedDualHilbert_weighted_bessel_tendsto_zero"
+  ],
+  "theorem_count": 10,
+  "declarations": {
+    "Hindman168/FiniteWeightedSamplingMoments.lean": [
+      [
+        "theorem",
+        "expectation_piMass_distinct_pair"
+      ],
+      [
+        "theorem",
+        "expectation_piMass_centered_sum_square"
+      ],
+      [
+        "theorem",
+        "expectation_piMass_sample_variance"
+      ],
+      [
+        "theorem",
+        "expectation_piMass_sample_variance_le"
+      ]
+    ],
+    "Hindman168/FiniteWeightedSampleSelection.lean": [
+      [
+        "theorem",
+        "expectation_exists_support_le"
+      ],
+      [
+        "theorem",
+        "expectation_exists_two_budgets"
+      ],
+      [
+        "theorem",
+        "expectation_piMass_offDiagonal_sum_le"
+      ],
+      [
+        "theorem",
+        "expectation_exists_bessel_sample"
+      ]
+    ],
+    "Hindman168/WeightedBesselSampleLimit.lean": [
+      [
+        "theorem",
+        "weighted_bessel_exists_sample_limit"
+      ]
+    ],
+    "Hindman168/MixedDualWeightedBesselLimit.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_weighted_bessel_tendsto_zero"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "baseline_verified_before_registration": 719,
+  "new_modules": [
+    "Hindman168/NativeLieAdjointDerivative.lean",
+    "Hindman168/NativeLieAdjointEquiv.lean",
+    "Hindman168/NativeLieAdjointBracket.lean",
+    "Hindman168/NativeLieAdjointSmooth.lean",
+    "Hindman168/NativeLieAdjointCurve.lean"
+  ],
+  "module_report_counts": {
+    "NativeLieAdjointDerivative": {
+      "theorems": 11,
+      "selected_declarations": 12
+    },
+    "NativeLieAdjointEquiv": {
+      "theorems": 8,
+      "selected_declarations": 9
+    },
+    "NativeLieAdjointBracket": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeLieAdjointSmooth": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieAdjointCurve": {
+      "theorems": 5,
+      "selected_declarations": 7
+    }
+  },
+  "names": [
+    "Hindman168.nativeLieConjugation_contMDiff",
+    "Hindman168.nativeLieConjugation_joint_contMDiff",
+    "Hindman168.nativeLieAdjoint",
+    "Hindman168.nativeLieAdjoint_apply",
+    "Hindman168.nativeLieAdjoint_one",
+    "Hindman168.nativeLieAdjoint_mul",
+    "Hindman168.nativeLieAdjoint_inv_comp",
+    "Hindman168.nativeLieAdjoint_comp_inv",
+    "Hindman168.nativeLieAdjoint_inv_apply",
+    "Hindman168.nativeLieAdjoint_apply_inv",
+    "Hindman168.nativeLieAdjoint_injective",
+    "Hindman168.nativeLieAdjoint_surjective",
+    "Hindman168.nativeLieAdjointEquiv",
+    "Hindman168.nativeLieAdjointEquiv_apply",
+    "Hindman168.nativeLieAdjointEquiv_symm_apply",
+    "Hindman168.nativeLieAdjoint_inverse",
+    "Hindman168.nativeLieConjugation_inverse_mfderiv",
+    "Hindman168.nativeLieAdjoint_curve_conjugation",
+    "Hindman168.nativeLieAdjoint_exponential_conjugation",
+    "Hindman168.nativeLieAdjoint_curve_self",
+    "Hindman168.nativeLieAdjoint_exponential_self",
+    "Hindman168.nativeLieAdjoint_pullback_invariant",
+    "Hindman168.nativeLieAdjoint_lie",
+    "Hindman168.nativeLieAdjointLieEquiv",
+    "Hindman168.nativeLieAdjointLieEquiv_apply",
+    "Hindman168.nativeLieAdjoint_lowerCentral_map",
+    "Hindman168.nativeLieAdjoint_contMDiff",
+    "Hindman168.nativeLieAdjoint_joint_contMDiff",
+    "Hindman168.nativeLieAdjoint_continuous",
+    "Hindman168.nativeLieAdjointCurve",
+    "Hindman168.nativeLieAdjointCurve_zero",
+    "Hindman168.nativeLieAdjointCurve_add",
+    "Hindman168.nativeLieAdjointCurve_contDiff",
+    "Hindman168.nativeLieAdjointGenerator",
+    "Hindman168.nativeLieAdjointCurve_hasDerivAt_zero",
+    "Hindman168.nativeLieAdjointCurve_hasDerivAt"
+  ]
+}

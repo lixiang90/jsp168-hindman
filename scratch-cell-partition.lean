@@ -1,0 +1,9 @@
+import Hindman168.CompleteResidueCellMassAggregate
+import Hindman168.NilPieceCubeGeometry
+#check Int.ediv_eq_iff
+#check Int.ediv_eq_iff_eq_mul_add
+#check Int.ediv_eq_of_lt_le
+#check Finset.sum_biUnion
+#check Finset.sum_fiberwise
+#check Finset.sum_fiberwise_of_maps_to
+#check Finset.sum_disjiUnion

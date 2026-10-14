@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 331,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskBranchPolynomialRows.lean",
+    "Hindman168/MaskRowInvariance.lean",
+    "Hindman168/MaskRowFamilyStep.lean",
+    "Hindman168/InitialMaskIndicatorRows.lean",
+    "Hindman168/PolynomialRowFamilyTransport.lean",
+    "Hindman168/MaskRowFlattening.lean",
+    "Hindman168/MaskColumnChoice.lean",
+    "Hindman168/TargetedMaskRowIteration.lean",
+    "Hindman168/MaskGeneratedOriginalTemplates.lean"
+  ],
+  "new_selected_report_count": 49,
+  "module_report_counts": {
+    "MaskBranchPolynomialRows": 7,
+    "MaskRowInvariance": 4,
+    "MaskRowFamilyStep": 9,
+    "InitialMaskIndicatorRows": 5,
+    "PolynomialRowFamilyTransport": 2,
+    "MaskRowFlattening": 2,
+    "MaskColumnChoice": 4,
+    "TargetedMaskRowIteration": 12,
+    "MaskGeneratedOriginalTemplates": 4
+  },
+  "application_review": [
+    "Previous goal turn is classified PROGRESS: its 7 new modules, 45 exact kernel reports and complete evidence changed authoritative proof state. All 331 source/config hashes from that audited state were revalidated unchanged before registration.",
+    "Fresh branch coefficients are explicit polynomial multipliers (1,p,q) and (1,q,p), with invariant rows retained through a constant embedding. A one-coordinate insertion uses one nonzero tag; balanced reciprocal substitution uses both affected columns after common absorption.",
+    "Evaluation at p=q=1 recovers every old coefficient and two-column minor. A nonzero old minor gives a nonzero minor for descendants of distinct old rows without specializing a potentially singular rational proportionality factor.",
+    "For distinct support tags, the two branch multiplier determinants are nonzero polynomials. An auxiliary algebraic evaluation at 2 and 3 proves this over characteristic-zero domains while the old coefficient ring remains symbolic. These values are not actual prime samples or a substitute for good-tuple estimates.",
+    "The exact same-row minor factors as the old coefficient product times the fresh determinant. Noninvariant support gives a nonzero minor for the two copies. Invariant support is equivalent to all two-copy minors vanishing and gives a common scalar multiplier on all supported coefficients.",
+    "The actual finite descendant type retains one row for each invariant row and two copies for each noninvariant row. New anchors, exact support equivalences and pair-minor evidence are derived. Injective encodings show its cardinality is between the old number and twice the old number.",
+    "The initial family is precisely the indicators of all nonempty column subsets. Distinct supports give minors 1 or -1. Its cardinality is 2^c-1, with actual nonzero anchors, pair minors and the selected tracked support proved rather than supplied.",
+    "Injective coefficient transport preserves anchors, supports and minors. An exact polynomial ring equivalence flattens each fresh Bool pair and the old Fin n slots back into ordinary integer multivariate polynomials in Fin (2+n).",
+    "For every mask support U and tracked support S with at least two elements, an actual coordinate plan chooses a tracked coordinate outside U, or two distinct tracked coordinates in U. Its tags separate the tracked support, hence the tracked row is noninvariant. Each nonzero tag names at most one column.",
+    "The targeted stage contains the actual row family and an exact support certificate. A fixed copy is tracked at each update, and all new family conditions and the target certificate are derived without an input nonparallelism hypothesis.",
+    "Finite list iteration has row count between r_0 and r_0*2^q and exactly two additional formal slots per step. The duplicate-free list of all nonempty masks contains exactly the nonempty subsets and has length q=2^c-1.",
+    "The full q-step iteration starts from the actual indicator family and gives at most q*2^q rows, exactly 2q slots, at least two rows and the original tracked support. It depends only on c and S, independently of functions, scales and the master index count.",
+    "All tracked supports of size at least two are enumerated into a finite actual original row-template family. Proved local arity equalities give injective casts into fixed master arity 2q, and row dimensions are bounded by q*2^q.",
+    "This mask-generated family instantiates the earlier generated response/denominator/minor catalogues and common actual master construction. Its derived conditions supply one bounded model sequence at every fixed positive quotient scale, including the zero-prime extra type, without row-anchor, pair-minor or desired-convergence hypotheses in the application.",
+    "The row stage certifies anchors, pair minors and support. A full separate monomial and one-variable-per-column coefficient invariant is not yet formalized. Tag uniqueness is proved but is not presented as the entire coefficient invariant.",
+    "This proves the row-construction part, not the full mask-removal analytic inequality. Actual substitutions, distinguished function retention, invariant weight division, Cauchy--Schwarz prefactors, repeated-prime diagonal estimates and deletion/reinstatement errors still need their complete recurrence application.",
+    "Integer W-multiple normalized directions, size/unit estimates, retained-weight correlation and root pushforward, concrete normalization anchors/blocks/gaps/rho, companion master-scale diagonal, full Prediction/Alignment and final witnesses remain unfinished.",
+    "All retained proof sources, runtime/dependency pins and attributed PNT+ modules are unchanged; only root imports and the registry changed among retained hashes. StrongStatement.lean is unchanged and strong_implies_subtype still requires StrongConjecture. No full solution, award eligibility or unavoidable blocker is claimed."
+  ],
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4187,
+    "project_modules": 322,
+    "pntplus_modules": 9,
+    "source_scan_modules": 331,
+    "axiom_reports": 1675,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 340,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The actual finite symbolic mask-row construction is now instantiated: all nonempty subset indicators, fixed support-dependent coordinate plans, invariant/split descendant indexing, nonzero anchors and pair minors at every step, exact tracked support, two fresh slots per step, and the row bound q*2^q for q=2^c-1 are proved. All tracked supports of size at least two generate one fixed finite family of original polynomial dual templates and an actual master catalogue/master family; their derived conditions supply one bounded model sequence for every fixed positive quotient scale and the zero-prime extra type. Certify the full monomial and one-prime-slot-per-column coefficient invariants and connect the constructed row recurrence to the actual weighted mask-removal integrands, preserving the distinguished function and all invariant weights. Prove the complete mask-removal Cauchy--Schwarz iteration and exceptional-tuple/error bounds under the original laws. Prove integer W-multiple direction construction, growth and residue-unit estimates; connect their generated denominator data to the retained-weight correlation test and root pushforward. Instantiate concrete blocks, normalization anchors, gaps, scale labels, colors, rho and the master-scale companion diagonal requirements. Complete the full preprint Prediction/Alignment propositions, required nilsequence/inverse-theorem/cube-law inputs, diagonal test choices and final witness extraction/separation. Real-exponent clipping extensions remain unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit as authorized by the user. No unavoidable blocker is established."
+}

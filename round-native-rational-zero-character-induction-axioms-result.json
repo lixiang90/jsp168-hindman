@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.391000000061467,
+  "log": "round-native-rational-zero-character-induction-axioms.txt",
+  "log_sha256": "e6278762dc5c2dc7e570621803f4212ba4df37048ae85623735f6db5beffda5e"
+}

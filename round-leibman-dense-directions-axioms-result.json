@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 16.32799999997951,
+  "log": "round-leibman-dense-directions-axioms.txt",
+  "log_sha256": "91fb59edd9cd42b9847972455ca8a0192aa6eabc5aa9cdce1094230878d172ff"
+}

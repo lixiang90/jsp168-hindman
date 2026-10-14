@@ -1,0 +1,523 @@
+{
+  "reference": "https://arxiv.org/html/0709.3562v4",
+  "location": "Proposition 5.3 proof, Omega and enlarged Omega before (5.10)-(5.11)",
+  "kind": "exact rational author interval certificate; NOT Lean measure proof",
+  "theta": "0",
+  "delta": "1/100",
+  "zeta": "100",
+  "tolerance": "1/10",
+  "interval_count": 101,
+  "intervals": [
+    {
+      "left": "0",
+      "right": "1/1000",
+      "nearby_integer": 0
+    },
+    {
+      "left": "9/1000",
+      "right": "11/1000",
+      "nearby_integer": 1
+    },
+    {
+      "left": "19/1000",
+      "right": "21/1000",
+      "nearby_integer": 2
+    },
+    {
+      "left": "29/1000",
+      "right": "31/1000",
+      "nearby_integer": 3
+    },
+    {
+      "left": "39/1000",
+      "right": "41/1000",
+      "nearby_integer": 4
+    },
+    {
+      "left": "49/1000",
+      "right": "51/1000",
+      "nearby_integer": 5
+    },
+    {
+      "left": "59/1000",
+      "right": "61/1000",
+      "nearby_integer": 6
+    },
+    {
+      "left": "69/1000",
+      "right": "71/1000",
+      "nearby_integer": 7
+    },
+    {
+      "left": "79/1000",
+      "right": "81/1000",
+      "nearby_integer": 8
+    },
+    {
+      "left": "89/1000",
+      "right": "91/1000",
+      "nearby_integer": 9
+    },
+    {
+      "left": "99/1000",
+      "right": "101/1000",
+      "nearby_integer": 10
+    },
+    {
+      "left": "109/1000",
+      "right": "111/1000",
+      "nearby_integer": 11
+    },
+    {
+      "left": "119/1000",
+      "right": "121/1000",
+      "nearby_integer": 12
+    },
+    {
+      "left": "129/1000",
+      "right": "131/1000",
+      "nearby_integer": 13
+    },
+    {
+      "left": "139/1000",
+      "right": "141/1000",
+      "nearby_integer": 14
+    },
+    {
+      "left": "149/1000",
+      "right": "151/1000",
+      "nearby_integer": 15
+    },
+    {
+      "left": "159/1000",
+      "right": "161/1000",
+      "nearby_integer": 16
+    },
+    {
+      "left": "169/1000",
+      "right": "171/1000",
+      "nearby_integer": 17
+    },
+    {
+      "left": "179/1000",
+      "right": "181/1000",
+      "nearby_integer": 18
+    },
+    {
+      "left": "189/1000",
+      "right": "191/1000",
+      "nearby_integer": 19
+    },
+    {
+      "left": "199/1000",
+      "right": "201/1000",
+      "nearby_integer": 20
+    },
+    {
+      "left": "209/1000",
+      "right": "211/1000",
+      "nearby_integer": 21
+    },
+    {
+      "left": "219/1000",
+      "right": "221/1000",
+      "nearby_integer": 22
+    },
+    {
+      "left": "229/1000",
+      "right": "231/1000",
+      "nearby_integer": 23
+    },
+    {
+      "left": "239/1000",
+      "right": "241/1000",
+      "nearby_integer": 24
+    },
+    {
+      "left": "249/1000",
+      "right": "251/1000",
+      "nearby_integer": 25
+    },
+    {
+      "left": "259/1000",
+      "right": "261/1000",
+      "nearby_integer": 26
+    },
+    {
+      "left": "269/1000",
+      "right": "271/1000",
+      "nearby_integer": 27
+    },
+    {
+      "left": "279/1000",
+      "right": "281/1000",
+      "nearby_integer": 28
+    },
+    {
+      "left": "289/1000",
+      "right": "291/1000",
+      "nearby_integer": 29
+    },
+    {
+      "left": "299/1000",
+      "right": "301/1000",
+      "nearby_integer": 30
+    },
+    {
+      "left": "309/1000",
+      "right": "311/1000",
+      "nearby_integer": 31
+    },
+    {
+      "left": "319/1000",
+      "right": "321/1000",
+      "nearby_integer": 32
+    },
+    {
+      "left": "329/1000",
+      "right": "331/1000",
+      "nearby_integer": 33
+    },
+    {
+      "left": "339/1000",
+      "right": "341/1000",
+      "nearby_integer": 34
+    },
+    {
+      "left": "349/1000",
+      "right": "351/1000",
+      "nearby_integer": 35
+    },
+    {
+      "left": "359/1000",
+      "right": "361/1000",
+      "nearby_integer": 36
+    },
+    {
+      "left": "369/1000",
+      "right": "371/1000",
+      "nearby_integer": 37
+    },
+    {
+      "left": "379/1000",
+      "right": "381/1000",
+      "nearby_integer": 38
+    },
+    {
+      "left": "389/1000",
+      "right": "391/1000",
+      "nearby_integer": 39
+    },
+    {
+      "left": "399/1000",
+      "right": "401/1000",
+      "nearby_integer": 40
+    },
+    {
+      "left": "409/1000",
+      "right": "411/1000",
+      "nearby_integer": 41
+    },
+    {
+      "left": "419/1000",
+      "right": "421/1000",
+      "nearby_integer": 42
+    },
+    {
+      "left": "429/1000",
+      "right": "431/1000",
+      "nearby_integer": 43
+    },
+    {
+      "left": "439/1000",
+      "right": "441/1000",
+      "nearby_integer": 44
+    },
+    {
+      "left": "449/1000",
+      "right": "451/1000",
+      "nearby_integer": 45
+    },
+    {
+      "left": "459/1000",
+      "right": "461/1000",
+      "nearby_integer": 46
+    },
+    {
+      "left": "469/1000",
+      "right": "471/1000",
+      "nearby_integer": 47
+    },
+    {
+      "left": "479/1000",
+      "right": "481/1000",
+      "nearby_integer": 48
+    },
+    {
+      "left": "489/1000",
+      "right": "491/1000",
+      "nearby_integer": 49
+    },
+    {
+      "left": "499/1000",
+      "right": "501/1000",
+      "nearby_integer": 50
+    },
+    {
+      "left": "509/1000",
+      "right": "511/1000",
+      "nearby_integer": 51
+    },
+    {
+      "left": "519/1000",
+      "right": "521/1000",
+      "nearby_integer": 52
+    },
+    {
+      "left": "529/1000",
+      "right": "531/1000",
+      "nearby_integer": 53
+    },
+    {
+      "left": "539/1000",
+      "right": "541/1000",
+      "nearby_integer": 54
+    },
+    {
+      "left": "549/1000",
+      "right": "551/1000",
+      "nearby_integer": 55
+    },
+    {
+      "left": "559/1000",
+      "right": "561/1000",
+      "nearby_integer": 56
+    },
+    {
+      "left": "569/1000",
+      "right": "571/1000",
+      "nearby_integer": 57
+    },
+    {
+      "left": "579/1000",
+      "right": "581/1000",
+      "nearby_integer": 58
+    },
+    {
+      "left": "589/1000",
+      "right": "591/1000",
+      "nearby_integer": 59
+    },
+    {
+      "left": "599/1000",
+      "right": "601/1000",
+      "nearby_integer": 60
+    },
+    {
+      "left": "609/1000",
+      "right": "611/1000",
+      "nearby_integer": 61
+    },
+    {
+      "left": "619/1000",
+      "right": "621/1000",
+      "nearby_integer": 62
+    },
+    {
+      "left": "629/1000",
+      "right": "631/1000",
+      "nearby_integer": 63
+    },
+    {
+      "left": "639/1000",
+      "right": "641/1000",
+      "nearby_integer": 64
+    },
+    {
+      "left": "649/1000",
+      "right": "651/1000",
+      "nearby_integer": 65
+    },
+    {
+      "left": "659/1000",
+      "right": "661/1000",
+      "nearby_integer": 66
+    },
+    {
+      "left": "669/1000",
+      "right": "671/1000",
+      "nearby_integer": 67
+    },
+    {
+      "left": "679/1000",
+      "right": "681/1000",
+      "nearby_integer": 68
+    },
+    {
+      "left": "689/1000",
+      "right": "691/1000",
+      "nearby_integer": 69
+    },
+    {
+      "left": "699/1000",
+      "right": "701/1000",
+      "nearby_integer": 70
+    },
+    {
+      "left": "709/1000",
+      "right": "711/1000",
+      "nearby_integer": 71
+    },
+    {
+      "left": "719/1000",
+      "right": "721/1000",
+      "nearby_integer": 72
+    },
+    {
+      "left": "729/1000",
+      "right": "731/1000",
+      "nearby_integer": 73
+    },
+    {
+      "left": "739/1000",
+      "right": "741/1000",
+      "nearby_integer": 74
+    },
+    {
+      "left": "749/1000",
+      "right": "751/1000",
+      "nearby_integer": 75
+    },
+    {
+      "left": "759/1000",
+      "right": "761/1000",
+      "nearby_integer": 76
+    },
+    {
+      "left": "769/1000",
+      "right": "771/1000",
+      "nearby_integer": 77
+    },
+    {
+      "left": "779/1000",
+      "right": "781/1000",
+      "nearby_integer": 78
+    },
+    {
+      "left": "789/1000",
+      "right": "791/1000",
+      "nearby_integer": 79
+    },
+    {
+      "left": "799/1000",
+      "right": "801/1000",
+      "nearby_integer": 80
+    },
+    {
+      "left": "809/1000",
+      "right": "811/1000",
+      "nearby_integer": 81
+    },
+    {
+      "left": "819/1000",
+      "right": "821/1000",
+      "nearby_integer": 82
+    },
+    {
+      "left": "829/1000",
+      "right": "831/1000",
+      "nearby_integer": 83
+    },
+    {
+      "left": "839/1000",
+      "right": "841/1000",
+      "nearby_integer": 84
+    },
+    {
+      "left": "849/1000",
+      "right": "851/1000",
+      "nearby_integer": 85
+    },
+    {
+      "left": "859/1000",
+      "right": "861/1000",
+      "nearby_integer": 86
+    },
+    {
+      "left": "869/1000",
+      "right": "871/1000",
+      "nearby_integer": 87
+    },
+    {
+      "left": "879/1000",
+      "right": "881/1000",
+      "nearby_integer": 88
+    },
+    {
+      "left": "889/1000",
+      "right": "891/1000",
+      "nearby_integer": 89
+    },
+    {
+      "left": "899/1000",
+      "right": "901/1000",
+      "nearby_integer": 90
+    },
+    {
+      "left": "909/1000",
+      "right": "911/1000",
+      "nearby_integer": 91
+    },
+    {
+      "left": "919/1000",
+      "right": "921/1000",
+      "nearby_integer": 92
+    },
+    {
+      "left": "929/1000",
+      "right": "931/1000",
+      "nearby_integer": 93
+    },
+    {
+      "left": "939/1000",
+      "right": "941/1000",
+      "nearby_integer": 94
+    },
+    {
+      "left": "949/1000",
+      "right": "951/1000",
+      "nearby_integer": 95
+    },
+    {
+      "left": "959/1000",
+      "right": "961/1000",
+      "nearby_integer": 96
+    },
+    {
+      "left": "969/1000",
+      "right": "971/1000",
+      "nearby_integer": 97
+    },
+    {
+      "left": "979/1000",
+      "right": "981/1000",
+      "nearby_integer": 98
+    },
+    {
+      "left": "989/1000",
+      "right": "991/1000",
+      "nearby_integer": 99
+    },
+    {
+      "left": "999/1000",
+      "right": "1",
+      "nearby_integer": 100
+    }
+  ],
+  "exact_slab_volume": "1/5",
+  "displayed_upper_bound": "1/200",
+  "violates_displayed_volume_bound": true,
+  "refutes_proposition_itself": false,
+  "unavoidable_obstruction": false,
+  "next_action": "Prove corrected slab/neighborhood bounds with explicit dependence on the coefficient budget; do not use displayed bound unchanged."
+}

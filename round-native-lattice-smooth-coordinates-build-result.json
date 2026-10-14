@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 14.577999999979511,
+  "log": "round-native-lattice-smooth-coordinates-build.txt",
+  "log_sha256": "f9d1f88cbb4fd804982954dd809d14c4d8643d6d461226bec1ef0d31e0545429"
+}

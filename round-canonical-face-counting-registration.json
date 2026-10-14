@@ -1,0 +1,45 @@
+{
+  "modules": [
+    "Hindman168/AlignmentCanonicalShiftScale.lean",
+    "Hindman168/AlignmentSingleCoordinateTranslation.lean",
+    "Hindman168/AlignmentCanonicalFaceCounting.lean",
+    "Hindman168/AlignmentRawFaceCounting.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentPairProgression_eventually_dvd",
+    "Hindman168.alignmentPairProgression_scale_small",
+    "Hindman168.alignment_single_coordinate_translation_scale_bound",
+    "Hindman168.alignment_canonical_face_counting_eventually",
+    "Hindman168.alignment_raw_face_counting_eventually"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentCanonicalShiftScale.lean": [
+      [
+        "theorem",
+        "alignmentPairProgression_eventually_dvd"
+      ],
+      [
+        "theorem",
+        "alignmentPairProgression_scale_small"
+      ]
+    ],
+    "Hindman168/AlignmentSingleCoordinateTranslation.lean": [
+      [
+        "theorem",
+        "alignment_single_coordinate_translation_scale_bound"
+      ]
+    ],
+    "Hindman168/AlignmentCanonicalFaceCounting.lean": [
+      [
+        "theorem",
+        "alignment_canonical_face_counting_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentRawFaceCounting.lean": [
+      [
+        "theorem",
+        "alignment_raw_face_counting_eventually"
+      ]
+    ]
+  }
+}

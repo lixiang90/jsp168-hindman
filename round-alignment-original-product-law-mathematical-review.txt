@@ -1,0 +1,78 @@
+JSP-000168 / Erdos #172, 2026-10-14. Partial overall coverage.
+Author checking, not independent kernel replay or external peer review.
+
+Reviewed pinned 08_alignment.tex original factor-removal and terminal d-grid
+translation paragraphs. Re-read original full StrongWitness/StrongConjecture
+requirements unchanged: all finite colorings and lengths, positive strictly
+increasing rapidly separated witnesses, ALL nonempty sums and products in
+one common color. The full theorem remains a proposition, not a proved claim.
+
+The prior exact scalar cube-to-CRT identity and original integer sample/read
+identities had not yet been specialized to the original product cube law.
+This round defines the LITERAL original nilsequence product mean, with original
+array arguments, component groups, slot/vertex shifts and quotient observations.
+The actual full joint spatial source agrees on real inputs that have the same
+original tail values; this is native exp/log congruence, not an assertion that
+integer nilsequence orbits exist at arbitrary real coordinates. Its integer
+sample equality to the original product observations is applied pointwise
+before the entire original box mean identity. Empty tails need no chosen
+tail direction: full-source congruence handles them outright.
+
+Actual raw supports derive tail positivity and rough units. They derive
+coprimality of full tail with master M and fixed d at large w. The original
+exposure key and original pivot M residue identify actual tau*p mod M with
+the exposed ANCHOR origin residue. This origin stays fixed before the factor
+varies; it is NOT put in a purported fixed finite list that could grow with w.
+The full original residue-box samples and both normalized means remain exact.
+No endpoint change, dense restriction, presumed coprimality between tail factors
+or fabricated nonempty probability is inserted.
+
+The original denominator-choice list is literally Option(kappa)->Fin d,
+fixed before the analytic cutoff, with d>0. Each sample-selected transformed
+residue is represented EXACTLY by its integer remainder via the original
+Int.emod bounds. Thus even denominator residues depending on the sampled
+factor, pivot or microcell are covered by the FULL fixed finite list. At
+retained product=1, the CRT vector is congruent to the chosen d residues and
+gives the original terminal d grid. The origin does not constrain that grid.
+
+Original product reading norm is bounded by the product of original component
+sup bounds on EVERY joint quotient point. Neither source nor quotient
+projections/readings are assumed Lipschitz. The terminal spatial translation
+uses original exact residue-box boundary counts and actual divisibility d|Delta.
+Actual master scale-smallness and raw support/cube geometry derive the entire
+vanishing translation bound, uniformly before every source, endpoint/residue,
+original test and own pair. Side-length positivity and 2d<=side-scale are
+proved from actual growth, not assumed as analytic outputs. A shared literal
+translation vector resolves equality-instance/reduction elaboration; compiler
+heartbeats/options and every prior native structure remain unchanged.
+
+The ORIGINAL product-removal failure now quantifies over original observer
+numerical sup/Lipschitz classes and all original permitted boxes/residue samples.
+On the actual short-exposure posterior support, raw support and original key
+are proved from conditionMass. Exact original/full-CRT and retained-empty/d-grid
+identities give its inclusion in the earlier PROVED full finite-choice failure
+union. Original observations are not replaced by regularized tests in this event;
+approximation was already handled inside the proved cap. Uniform posterior
+vanishing is therefore an actual original cube-law conclusion, not a renamed
+source-grid comparison. No analytic cap or degree/log packet is supplied as a
+hypothesis, and no source coefficient bound is inserted.
+
+The actual upper-face array-slot automorphism correspondence is STILL absent.
+Terminal spatial translation alone does not prove face invariance. On coarse
+integer spatial grids, genuine original exponent-correction integrality and
+native array/model log evaluation must identify the actual state and its slot
+shift. All-real log-polynomiality by itself must not substitute for those
+integer identities. Fixed face-composed original test families also remain
+to be assembled. The intended result is original MARGINAL face invariance;
+there must be no assertion about the other components. Cube limits, Alignment,
+countable diagonal and the separate arbitrary-input GTZ LINEAR correlation
+inverse remain work. Native equidistribution is not that inverse; choose
+sufficient native step for the actual FINITE required Gowers degree list.
+
+All prior registered sources, axiom sets and main dependency/compiler pins must
+remain exact. No custom axiom/sorry/native/unsafe/instance/option bypass is used.
+No unavailable library theorem, Lean API or repaired source slab estimate is an
+unavoidable obstruction certificate. No full-proof or publication milestone
+is claimed. Author checking is not independent replay or external peer review.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Literal original nilsequence product cube law is now exactly connected to the full-tail CRT mean and genuine terminal d grid, with PROVED actual posterior uniform vanishing removal failure covering sample-selected denominator choices. Actual Delta terminal d-grid translation error also vanishes uniformly from original master data. Remaining: prove literal integer spatial array/model correspondence on coarse grids and identify actual upper-face array-slot automorphism with spatial Delta translation, including face-composed original test families; then full marginal face invariance/cube limits/Alignment/countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

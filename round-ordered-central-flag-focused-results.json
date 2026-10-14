@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteFlagOrder.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 6.438000000081956,
+    "log": "round-ordered-central-flag-FiniteFlagOrder-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteFlagOrder.lean",
+    "source_sha256": "52e1f81d3842d9b70643b2022199890da2bd1d9a298a0656ab52ae2dacf43e0f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/OrderedFlagBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 7.625,
+    "log": "round-ordered-central-flag-OrderedFlagBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/OrderedFlagBasis.lean",
+    "source_sha256": "60989fb5dd99d4367387ae0c4de07f6defd659f357878b4a82c009dda34f1d62"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterOrderedFlagBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.077999999979511,
+    "log": "round-ordered-central-flag-NativeCenterOrderedFlagBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterOrderedFlagBasis.lean",
+    "source_sha256": "07a6199a38ce273e05affd9d2ba8f65d058fd0218bc9160bf04947723a66bb4d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/OrderedFlagDimensions.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 7.687000000150874,
+    "log": "round-ordered-central-flag-OrderedFlagDimensions-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/OrderedFlagDimensions.lean",
+    "source_sha256": "58792cf2258b845032f01c54989d20c875717962a13086387bbb5cd2ab1fa280"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterOrderedFlagCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.375,
+    "log": "round-ordered-central-flag-NativeCenterOrderedFlagCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterOrderedFlagCoordinates.lean",
+    "source_sha256": "6e68455ecfa12a94fa14be55a083f5ab1cdf2eb9a176ac4b8e2f80435086a833"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/KernelContainedLayerLatticeLift.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 6.265999999828637,
+    "log": "round-ordered-central-flag-KernelContainedLayerLatticeLift-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/KernelContainedLayerLatticeLift.lean",
+    "source_sha256": "137bb197ebbb6528272efa9f5eec3fa828f717eb5c893fe4c2666e6c14658fb9"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/IntegerLayerLiftCounterexample.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.984000000171363,
+    "log": "round-ordered-central-flag-IntegerLayerLiftCounterexample-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/IntegerLayerLiftCounterexample.lean",
+    "source_sha256": "23515dd8dc6c7a3909e81b65fa54894519902d658e1250183e32ac959b21b2f1"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.937000000150874,
+  "log": "round-alignment-native-source-build.txt",
+  "log_sha256": "989b3d5bbc73bc29646d3d5e00b9d5e80babc5dea249b7ca309a769e5d6f1450"
+}

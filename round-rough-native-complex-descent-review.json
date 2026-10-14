@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "FiniteComplexRealComponents proves that real and imaginary parts commute with finite complex expectations of real signed masses. At least one component retains half of the norm discrepancy, without any nonempty-support or probability premise.",
+    "ComplexRealObservable proves preservation of the Lipschitz constant and sup bound by either component and constructs a real observable retaining half of any actual complex sampling discrepancy.",
+    "RoughNativeComplexBadIndex records the actual paper complex-observable discrepancy on the native quotient with both nonempty sample supports and the same box bounds. It constructs a real bad-index witness at discrepancy eta/2 with the same map, box, step, Lipschitz constant and sup bound.",
+    "RoughNativeComplexBadFamily records actual complex bad progression families with a common all-real logarithmic polynomial. It proves length restriction, conversion of the whole family to a real family with discrepancy eta/2, and the zero-dimensional impossibility for both complex indices and nonempty complex families.",
+    "RoughNativeComplexObstructionBadFamily connects original complex Lipschitz tests and actual affine coefficient obstructions to the native smaller-family constructor. It produces a strictly smaller real bad family with discrepancy eta/4; partition count and Lipschitz bound still precede the requested length and source length precedes every varying test, box and polynomial.",
+    "The finite complex expectation uses real signed coefficients cast to complex numbers. Real and imaginary projections commute with it by finite summation; the argument does not assume a unit total mass or treat empty uniform laws as probabilities.",
+    "The factor one-half follows from norm(z) <= abs(re z)+abs(im z). A complex bad index with strict discrepancy eta yields a real one with strict discrepancy eta/2. The obstruction constructor with non-strict original discrepancy eta yields a final strictly bad family at eta/4 after the prior geometric descent.",
+    "Both component maps are contractions for the complex Euclidean norm. The original Lipschitz constant and sup bound are preserved without coefficient-dependent enlargement.",
+    "The selected component may depend on index, test and sampling laws. This is permitted by the paper varying-observable bad-family definition. It introduces no new coloring, progression thinning, degree increase or change in the actual native map.",
+    "Source sample supports and all endpoint bounds are unchanged during component reduction. The actual same vector logarithm polynomial at all real coordinates is retained in family reduction.",
+    "Zero-dimensional impossibility is derived from the proved actual real singleton-quotient base and positive eta/2. The positive-length premise is retained; empty families are not falsely excluded.",
+    "The complex obstruction theorem derives real tests at each source index below N using classical choice and applies the already proved real obstruction constructor. Tests outside that finite interval may be zero and are unused.",
+    "The horizontal character, rational subgroup and direction, lattice period, scalar representation, actual coefficient obstructions and original source discrepancies remain explicit assumptions. Quantitative Leibman, its finite character list and the full rough comparison are still unproved.",
+    "Paper comparison covers the complex-valued observable in the rough comparison proposition, varying tests in its bad-family definition, and the smaller-dimensional contradiction route. All six pinned primary sections are checked against fixed Git content.",
+    "All retained proof sources and transitive axiom sets are unchanged; fresh focused checks, full build, standard-only selected axiom reports and primary-source checks are author-side verification.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. Complex-observable actual bad indices and families now reduce to real ones with fixed positive discrepancy and unchanged geometry, degree, roughness, Lipschitz and sup bounds. Actual affine coefficient obstructions for complex source tests now yield strictly smaller native real bad families after all interpolation, constant-term and scale-budget steps. The quantitative Leibman obstruction and its fixed finite nonzero character list must still provide these coefficient obstructions, including corrected arbitrary-box comparison and stretched-filtration applicability. Extract the scalar joint polynomial with fixed spatial support and weighted degree bounds from the native logarithmic polynomial and selected character; connect finite character selection and finish dimension induction using the proved cofinal subsequences and zero-dimensional base. Finite density extraction from exceptional sets and the full uniform rough-step comparison remain open. Conditional face laws, buffered short-bin geometry, prior-event positivity, extra-conditioning posterior control, quantitative smooth-observable bounds, face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs; final ordered positive rapidly separated monochromatic extraction remains open. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1716,
+    "pntplus_modules": 9,
+    "build_jobs": 5682,
+    "selected_axiom_reports": 7351,
+    "new_declarations": 14,
+    "new_theorems": 12,
+    "new_definitions": 2,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/FiniteComplexRealComponents.lean",
+    "Hindman168/ComplexRealObservable.lean",
+    "Hindman168/RoughNativeComplexBadIndex.lean",
+    "Hindman168/RoughNativeComplexBadFamily.lean",
+    "Hindman168/RoughNativeComplexObstructionBadFamily.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. Complex-observable actual bad indices and families now reduce to real ones with fixed positive discrepancy and unchanged geometry, degree, roughness, Lipschitz and sup bounds. Actual affine coefficient obstructions for complex source tests now yield strictly smaller native real bad families after all interpolation, constant-term and scale-budget steps. The quantitative Leibman obstruction and its fixed finite nonzero character list must still provide these coefficient obstructions, including corrected arbitrary-box comparison and stretched-filtration applicability. Extract the scalar joint polynomial with fixed spatial support and weighted degree bounds from the native logarithmic polynomial and selected character; connect finite character selection and finish dimension induction using the proved cofinal subsequences and zero-dimensional base. Finite density extraction from exceptional sets and the full uniform rough-step comparison remain open. Conditional face laws, buffered short-bin geometry, prior-event positivity, extra-conditioning posterior control, quantitative smooth-observable bounds, face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs; final ordered positive rapidly separated monochromatic extraction remains open. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions complex-observable bad families and actual obstruction descent with explicit component reduction"
+}

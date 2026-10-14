@@ -1,0 +1,81 @@
+{
+  "baseline_hashes_verified_before_registration": 832,
+  "new_modules": [
+    "Hindman168/NativeCenterCompactRepresentatives.lean",
+    "Hindman168/NativeCenterQuotientDimension.lean",
+    "Hindman168/NativeCenterQuotientHomeomorph.lean",
+    "Hindman168/NativeCenterQuotientLattice.lean",
+    "Hindman168/NativeCenterQuotientRelation.lean",
+    "Hindman168/NormalQuotientFiniteLatticeImage.lean",
+    "Hindman168/NormalQuotientLatticeCocompactness.lean",
+    "Hindman168/NormalQuotientLatticeDiscreteness.lean",
+    "Hindman168/SubgroupFiniteIdentityNeighborhood.lean",
+    "Hindman168/SubgroupQuotientImageMap.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLattice_exists_compact_center_representatives",
+    "Hindman168.nativeLieCenterModel_finrank_pos",
+    "Hindman168.nativeCenterQuotientModel_finrank_lt",
+    "Hindman168.nativeCenterQuotientExponentialHomeomorph",
+    "Hindman168.nativeCenterQuotientExponentialHomeomorph_mk",
+    "Hindman168.nativeCenterQuotientExponentialHomeomorph_symm_mk",
+    "Hindman168.nativeCenterQuotientExponentialHomeomorph_zero",
+    "Hindman168.nativeCenterQuotient_contractible",
+    "Hindman168.nativeCenterQuotient_simplyConnected",
+    "Hindman168.nativeLattice_center_quotient_image_cocompact",
+    "Hindman168.nativeLattice_center_quotient_image_discrete",
+    "Hindman168.nativeLieCenter_coset_relation",
+    "Hindman168.nativeLieCenter_quotient_exponential_eq_iff",
+    "Hindman168.normalQuotient_lattice_image_inter_finite",
+    "Hindman168.normalQuotient_lattice_image_cocompact",
+    "Hindman168.normalQuotient_lattice_image_discrete",
+    "Hindman168.subgroup_discrete_of_finite_identity_neighborhood",
+    "Hindman168.subgroupQuotientImageMap",
+    "Hindman168.subgroupQuotientImageMap_mk",
+    "Hindman168.subgroupQuotientImageMap_surjective",
+    "Hindman168.subgroupQuotientImageMap_continuous",
+    "Hindman168.subgroupQuotientImageMap_compactSpace"
+  ],
+  "module_report_counts": {
+    "NativeCenterCompactRepresentatives": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NativeCenterQuotientDimension": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeCenterQuotientHomeomorph": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "NativeCenterQuotientLattice": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeCenterQuotientRelation": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NormalQuotientFiniteLatticeImage": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NormalQuotientLatticeCocompactness": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NormalQuotientLatticeDiscreteness": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "SubgroupFiniteIdentityNeighborhood": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "SubgroupQuotientImageMap": {
+      "theorems": 4,
+      "selected_declarations": 5
+    }
+  }
+}

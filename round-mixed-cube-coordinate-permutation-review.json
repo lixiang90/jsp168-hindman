@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous round rechecked and retained proof hashes preserved.",
+    "Permutation invariance uses an explicit equivalence of direction tuples and a bijection of finite vertex sets. No replacement probability law is introduced.",
+    "The vertex sum and product are reindexed exactly; face-copy equivariance is verified for both insert and erase operations.",
+    "An actual swap sends coordinate zero to any prescribed coordinate. The existing first-coordinate inequalities transfer along the verified invariance.",
+    "Zero-dimensional statements with a selected coordinate are eliminated using the impossibility of an element of Fin 0; no unsupported nonempty-coordinate assumption is added.",
+    "Four theorems are individually audited. Full multidimensional iteration and the high-order concatenation, Bessel and inverse gaps remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/MixedCubeCoordinatePermutation.lean"
+  ],
+  "verified": {
+    "project_modules": 1063,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1072,
+    "source_config_hashes": 1081,
+    "build_jobs": 5019,
+    "axiom_reports": 5032,
+    "new_theorems": 4,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 4,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The common-system master estimates, first-order Bessel, dual energy reduction, recursion and stability are proved. Actual dual functions now have a common finite empirical approximation preserving arbitrary cell probabilities, unit bounds and uniform bounded-test correlations. Exact arbitrary-vertex reflection of the actual subgroup cube law and mixed products is now proved. Mixed cubes now have exact arbitrary-vertex duality and weighted single-vertex replacement estimates. Finite products of dual functions now have quantitative empirical approximation uniform over bounded tests. Exact translated-product expansions and extraction for each fixed test are now proved. The exact mixed face split, projected-face correlation and one-step face Cauchy-Schwarz inequality are now proved. Face energies are now identified with actual copied cube means, with nonnegativity and copy algebra verified. Arbitrary-coordinate permutation invariance, copied-mean nonnegativity and reflection bounds are now established. Full multidimensional iteration and higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

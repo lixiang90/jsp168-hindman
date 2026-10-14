@@ -1,0 +1,178 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/QuotientSectionRetraction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.562000000150874,
+    "log": "round-native-lattice-smooth-coordinates-QuotientSectionRetraction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/QuotientSectionRetraction.lean",
+    "source_sha256": "1c1176adf9acf0425511ccc234e27a1b161e034418bcba8ee78b9da973218ee0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOrderedExponentialSmooth.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.5,
+    "log": "round-native-lattice-smooth-coordinates-NativeOrderedExponentialSmooth-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOrderedExponentialSmooth.lean",
+    "source_sha256": "07d2253b54d9aae507964e269dfb38f9f44f3a270e278e3550c9c21b2a842ac1"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterCoordinateRecovery.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.75,
+    "log": "round-native-lattice-smooth-coordinates-NativeCenterCoordinateRecovery-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterCoordinateRecovery.lean",
+    "source_sha256": "e5336dc17e6bff7f672aefb0fc38c33e21ce02326844707cacf5a2f596099d23"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterPairSmoothInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.75,
+    "log": "round-native-lattice-smooth-coordinates-NativeCenterPairSmoothInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterPairSmoothInverse.lean",
+    "source_sha256": "125ae1d1f135d522d76ba43cfe52c7c7ea1f5eb706bba5137a3113fa9b80deba"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteCoordinateSplitSmooth.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.109999999869615,
+    "log": "round-native-lattice-smooth-coordinates-FiniteCoordinateSplitSmooth-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteCoordinateSplitSmooth.lean",
+    "source_sha256": "6095001522298d9e8c0efbbce89afd97bf13f71d8802a3d8002973f37aba25bb"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOrderedSmoothInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.422000000020489,
+    "log": "round-native-lattice-smooth-coordinates-NativeOrderedSmoothInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOrderedSmoothInverse.lean",
+    "source_sha256": "29c51299d3274c02b408d2877c3b821c3650dd079df7b96d068fd6abf2d7888a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterOrderedSmoothBasisExtension.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.108999999938533,
+    "log": "round-native-lattice-smooth-coordinates-NativeCenterOrderedSmoothBasisExtension-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterOrderedSmoothBasisExtension.lean",
+    "source_sha256": "f6642b44de85a5f9767843760f31e4c845c5f579eda557613b8b94266145ac28"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedSmoothBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.609000000171363,
+    "log": "round-native-lattice-smooth-coordinates-NativeLatticeOrderedSmoothBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedSmoothBasis.lean",
+    "source_sha256": "15dc0dbb01cae7fa50eb06845aee0ffc7bc6679ebdd8ee9f0b6426e155dcbf92"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedDiffeomorph.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.562999999849126,
+    "log": "round-native-lattice-smooth-coordinates-NativeLatticeOrderedDiffeomorph-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedDiffeomorph.lean",
+    "source_sha256": "5147daa00356a72351be6d813b74c58ded7b0e106487dd5199cc7601503f5e49"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedSmoothRationalBasis.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.812000000150874,
+    "log": "round-native-lattice-smooth-coordinates-NativeLatticeOrderedSmoothRationalBasis-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedSmoothRationalBasis.lean",
+    "source_sha256": "fba95f0bf3b6ba10e7ca0a8f4082a04b6f0c50b80ec15af2c0b3751fa1fb5bf3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedSmoothBasisCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.063000000081956,
+    "log": "round-native-lattice-smooth-coordinates-NativeLatticeOrderedSmoothBasisCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedSmoothBasisCoordinates.lean",
+    "source_sha256": "9f4b140950e49204da4387b89ac653f5aca8742a38dafe80c601791fe492643a"
+  }
+]

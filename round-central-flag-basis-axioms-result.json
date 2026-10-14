@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.609000000171363,
+  "log": "round-central-flag-basis-axioms.txt",
+  "log_sha256": "ccbdeef7c102da3eaa41dfce3020ad15d447868ed3745fe834568a30f8e67d1e"
+}

@@ -1,0 +1,2 @@
+✔ [3940/3940] Built Hindman168.VariableComparisonExcess (7.8s)
+Build completed successfully (3940 jobs).

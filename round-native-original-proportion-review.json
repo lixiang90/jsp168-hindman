@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2654,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6681,
+    "selected_axiom_reports": 10422,
+    "new_declarations": 27,
+    "new_theorems": 21,
+    "new_definitions": 6,
+    "new_external_targets": 3,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughIndexProgressionTransport.lean",
+    "Hindman168/RoughResidueIndexRange.lean",
+    "Hindman168/RoughNaturalResidueIndexRange.lean",
+    "Hindman168/FiniteDenseArithmeticProgression.lean",
+    "Hindman168/NativeDenseIndexBadFamily.lean",
+    "Hindman168/NativeIndexExceptionalDensity.lean",
+    "Hindman168/RoughIndexBadLaw.lean",
+    "Hindman168/NativeResidueExceptionalDensity.lean",
+    "Hindman168/RoughDyadicResidueGeometry.lean",
+    "Hindman168/NativeDyadicExceptionalDensity.lean",
+    "Hindman168/RoughNativeComplexLargeIndex.lean",
+    "Hindman168/NativeOriginalRoughProportion.lean"
+  ],
+  "proved_components": [
+    "The genuine arbitrary-length finite dense integer AP theorem is supplied by an attributed, author-checked 42-module OpenAI finite Szemeredi closure, under the unchanged main Lean/mathlib pins. Its final targets and an independent author statement bridge have only standard classical axioms. This is not certification of the full quantitative reciprocal-sum source archive.",
+    "Literal all-real parameter-affine source transport, exact signed residue endpoint/range images and cardinalities, natural-step images, original rough coprimality and exact dense-event laws now compose with the previously proved fixed-K block/tail selection. K precedes every raw source and sampling datum.",
+    "Unconditional native no-long-bad-family plus the true dense AP input proves uniform original index/residue/dyadic exceptional-density bounds. Exact ceil endpoints and a uniform S/modulus cardinality estimate discharge the original residue interval length requirement.",
+    "Native original rough-step exceptional proportions now tend to zero for arbitrary varying jointly polynomial logarithmic sources, actual dyadic residue sets, genuinely nonempty sample boxes/classes, COMPLEX observables and discrepancy AT LEAST eta. Original coefficients, moduli, residues, boxes and tests follow the uniform fixed thresholds; C is unrestricted and handled by legitimate enlargement. No inverse/Szemeredi/production premise is left in this theorem."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original complex non-strict native rough exceptional-proportion convergence is proved on actual nonempty dyadic residue samples, using the attributed verified finite Szemeredi closure and unconditional native dimension induction. Remaining: fixed finite native-family/master instantiation and any source-interface boundary cases, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-original-proportion-mathematical-review.txt",
+  "mathematical_review_sha256": "6b3e6696f02ede2fc36a5521600e7c9ab78dbfc694c29f407cc31df5dc051a51",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

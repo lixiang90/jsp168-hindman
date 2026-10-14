@@ -1,0 +1,178 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/IntegerLatticeCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.469000000040978,
+    "log": "round-native-lattice-ordered-coordinates-IntegerLatticeCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/IntegerLatticeCoordinates.lean",
+    "source_sha256": "b5f90ef4d3db0428a6a2e251e65373938b4422bdc137eb5e302d91406663df6a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/GroupKernelCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 7.422000000020489,
+    "log": "round-native-lattice-ordered-coordinates-GroupKernelCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/GroupKernelCoordinates.lean",
+    "source_sha256": "8b1a7cf5ec67e4883edb71d48aac2d20f063925361edfd9a1825b55e37e4c5f6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterLatticeCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.75,
+    "log": "round-native-lattice-ordered-coordinates-NativeCenterLatticeCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterLatticeCoordinates.lean",
+    "source_sha256": "9ba5c4090950bdc11edc2c79c21024f76d5a36b15d7e92bcd517d4492eb80278"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterOrderedCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.469000000040978,
+    "log": "round-native-lattice-ordered-coordinates-NativeCenterOrderedCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterOrderedCoordinates.lean",
+    "source_sha256": "3266c281019f37681e5464516c539ef65ba13d68ec73519cb36c2a218a49b43c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterLatticeGeneratorLift.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.530999999959022,
+    "log": "round-native-lattice-ordered-coordinates-NativeCenterLatticeGeneratorLift-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterLatticeGeneratorLift.lean",
+    "source_sha256": "626a406915c7c55d8ba991a3f09d3effcaca6b2bdf47acc9b399e51cb8fa5b10"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOrderedExponentialCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.0,
+    "log": "round-native-lattice-ordered-coordinates-NativeOrderedExponentialCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOrderedExponentialCoordinates.lean",
+    "source_sha256": "a823148deb0e6369ff2a8125775ebd1f6277dc8da54b660db169eb5dbb3e524e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterCoordinateExtension.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.030999999959022,
+    "log": "round-native-lattice-ordered-coordinates-NativeCenterCoordinateExtension-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterCoordinateExtension.lean",
+    "source_sha256": "132ff82c667ea628c4e0d1cdfd4865ad66b16f9bd98b370b38b6b4b3a2798eef"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteCoordinateSplit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 7.2810000001918525,
+    "log": "round-native-lattice-ordered-coordinates-FiniteCoordinateSplit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteCoordinateSplit.lean",
+    "source_sha256": "3e4ed60ed323af046df0c486d570d4e38b5a17d30294069a55bdcf0f56c5a5a2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOrderedCoordinateAppend.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.827999999979511,
+    "log": "round-native-lattice-ordered-coordinates-NativeOrderedCoordinateAppend-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOrderedCoordinateAppend.lean",
+    "source_sha256": "de0ced6b7a198f11f31eb549f928ba8c0bc0b5472947610a7810663345351bbd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCenterOrderedCoordinateExtension.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.984999999869615,
+    "log": "round-native-lattice-ordered-coordinates-NativeCenterOrderedCoordinateExtension-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCenterOrderedCoordinateExtension.lean",
+    "source_sha256": "60b61c0d426430c014a6b80d43b04fc801d5037c33f293a62709e3b45f9fc2e0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeLatticeOrderedCoordinates.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.155999999959022,
+    "log": "round-native-lattice-ordered-coordinates-NativeLatticeOrderedCoordinates-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeLatticeOrderedCoordinates.lean",
+    "source_sha256": "7ef48fdaf63de183d79200e0d8081d122d726726f8b819095f9543f5fc2e5ec3"
+  }
+]

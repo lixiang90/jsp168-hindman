@@ -1,0 +1,160 @@
+{
+  "baseline_hash_count": 1251,
+  "modules": [
+    "Hindman168/FiniteProductDensityLaw.lean",
+    "Hindman168/OriginalChainWeightedSampling.lean",
+    "Hindman168/SubsetSingletonFactors.lean",
+    "Hindman168/MaskBoundedCountSampling.lean",
+    "Hindman168/SelectedColorRawCounting.lean",
+    "Hindman168/SelectedColorPredictionTolerance.lean",
+    "Hindman168/MaskColorProductMasks.lean",
+    "Hindman168/SelectedColorProductCounting.lean"
+  ],
+  "names": [
+    "Hindman168.FiniteMass.expectation_piMass_density",
+    "Hindman168.chain_comparison_coordinate_list",
+    "Hindman168.chain_integer_comparison_expectation",
+    "Hindman168.MasterParameterConditions.chain_coordinate_distance_tendsto",
+    "Hindman168.MasterParameterConditions.chain_weighted_testing_uniform",
+    "Hindman168.columnSingleton",
+    "Hindman168.columnSingleton_max",
+    "Hindman168.smallColumnSubset_eq_singleton",
+    "Hindman168.nonemptySubset_singleton_product",
+    "Hindman168.maskSubsetIntegerForm_singleton",
+    "Hindman168.subset_center_product",
+    "Hindman168.maskCenterAndRows",
+    "Hindman168.maskBoundedCountIntegrand",
+    "Hindman168.maskCenterAndRows_replacement",
+    "Hindman168.maskCenterAndRows_bounded_count",
+    "Hindman168.maskBoundedCountIntegrand_unit",
+    "Hindman168.mask_bounded_count_sampling_uniform",
+    "Hindman168.maskCenterAndRows_admissible",
+    "Hindman168.mask_original_count_sampling_transfer",
+    "Hindman168.selected_color_raw_counting",
+    "Hindman168.selected_color_prediction_tolerance",
+    "Hindman168.maskColorProductMask",
+    "Hindman168.maskColorProductMask_unit",
+    "Hindman168.maskColorProductMask_natural",
+    "Hindman168.selected_color_product_counting"
+  ],
+  "theorem_count": 21,
+  "selected_report_count": 25,
+  "declarations": {
+    "Hindman168/FiniteProductDensityLaw.lean": [
+      [
+        "theorem",
+        "FiniteMass.expectation_piMass_density"
+      ]
+    ],
+    "Hindman168/OriginalChainWeightedSampling.lean": [
+      [
+        "theorem",
+        "chain_comparison_coordinate_list"
+      ],
+      [
+        "theorem",
+        "chain_integer_comparison_expectation"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.chain_coordinate_distance_tendsto"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.chain_weighted_testing_uniform"
+      ]
+    ],
+    "Hindman168/SubsetSingletonFactors.lean": [
+      [
+        "def",
+        "columnSingleton"
+      ],
+      [
+        "theorem",
+        "columnSingleton_max"
+      ],
+      [
+        "theorem",
+        "smallColumnSubset_eq_singleton"
+      ],
+      [
+        "theorem",
+        "nonemptySubset_singleton_product"
+      ],
+      [
+        "theorem",
+        "maskSubsetIntegerForm_singleton"
+      ],
+      [
+        "theorem",
+        "subset_center_product"
+      ]
+    ],
+    "Hindman168/MaskBoundedCountSampling.lean": [
+      [
+        "def",
+        "maskCenterAndRows"
+      ],
+      [
+        "def",
+        "maskBoundedCountIntegrand"
+      ],
+      [
+        "theorem",
+        "maskCenterAndRows_replacement"
+      ],
+      [
+        "theorem",
+        "maskCenterAndRows_bounded_count"
+      ],
+      [
+        "theorem",
+        "maskBoundedCountIntegrand_unit"
+      ],
+      [
+        "theorem",
+        "mask_bounded_count_sampling_uniform"
+      ],
+      [
+        "theorem",
+        "maskCenterAndRows_admissible"
+      ],
+      [
+        "theorem",
+        "mask_original_count_sampling_transfer"
+      ]
+    ],
+    "Hindman168/SelectedColorRawCounting.lean": [
+      [
+        "theorem",
+        "selected_color_raw_counting"
+      ]
+    ],
+    "Hindman168/SelectedColorPredictionTolerance.lean": [
+      [
+        "theorem",
+        "selected_color_prediction_tolerance"
+      ]
+    ],
+    "Hindman168/MaskColorProductMasks.lean": [
+      [
+        "def",
+        "maskColorProductMask"
+      ],
+      [
+        "theorem",
+        "maskColorProductMask_unit"
+      ],
+      [
+        "theorem",
+        "maskColorProductMask_natural"
+      ]
+    ],
+    "Hindman168/SelectedColorProductCounting.lean": [
+      [
+        "theorem",
+        "selected_color_product_counting"
+      ]
+    ]
+  }
+}

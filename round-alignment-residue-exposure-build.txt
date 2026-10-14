@@ -1,0 +1,3 @@
+✔ [5270/5272] Built Hindman168.AlignmentExposedArrayOffsets (8.7s)
+✔ [5271/5272] Built Hindman168 (8.4s)
+Build completed successfully (5272 jobs).

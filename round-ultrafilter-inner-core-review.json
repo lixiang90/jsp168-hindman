@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 933 retained source/config hashes checked before registration; only root imports and registry change. No retained proof, original statement, model, lattice, law, pinned dependency or attributed source is modified.",
+    "The source route is the actual Hilbert-space paragraph of 05_prediction.tex immediately before nested-spaces. The coordinate spaces can vary with w and may be SEMInormed, permitting original zero-mass coordinates. Every family has one finite norm bound valid for all w; this is not an unbounded Cartesian product.",
+    "Cauchy-Schwarz bounds each scalar pairing by the product of two uniform norm bounds. The image ultrafilter lies in a compact real interval, giving genuine convergence to limUnder. Bilinearity and positivity use convergence and Hausdorff uniqueness, rather than an unproved limit functional or arbitrary choice of scalar values.",
+    "Positive semidefiniteness is established before quotient/completion. The UltrafilterFamily type synonym deliberately prevents coordinatewise product topology inference. Its seminorm comes ONLY from the proved ultralimit core. The complete space inherits this exact uniform structure, and inner preservation is checked explicitly by Completion.inner_coe.",
+    "The canonical map is a genuine real linear map with dense range. Its squared norm equals the ultralimit self-pairing. The squared-distance limit proves both directions of the equality/zero-distance equivalence, so zero-norm families are identified and distinct vectors cannot survive with zero norm. This is the separated completion required in the paper.",
+    "The fixed Filter.hyperfilter on natural numbers extends atTop by the library theorem Nat.hyperfilter_le_atTop. All ordinary scalar pairing limits therefore agree with the chosen free-ultrafilter pairing. No false claim of ordinary convergence is made from ultrafilter convergence.",
+    "FiniteMassL2 uses exactly expectation mu (f*g), with nonnegativity checked for the given mass. The squared norm equals expectation mu (f^2). The probability-bound theorem uses total mu=1 only for the uniform norm estimate; the space construction does not normalize mass. The function bound is needed only on the actual support.",
+    "FiniteMassUltrafilterHilbert instantiates the actual completed Hilbert space on the original mass family, with pairing exactly the original expectation ultralimit and equality exactly vanishing original mean squared distance. These identities certify the intended law, not a merely isomorphic unrelated probability model.",
+    "Actual bounded-complexity nilsequence representing families and their closed-span nesting, clipping stability, finite complexity bounds, tuple selection, Calibration/Alignment and StrongConjecture remain to be proved. No unavoidable blocker, full-target claim, publication or prize submission is asserted."
+  ],
+  "new_modules": [
+    "Hindman168/BoundedHilbertFamilies.lean",
+    "Hindman168/UltrafilterInnerCore.lean",
+    "Hindman168/UltrafilterHilbertCompletion.lean",
+    "Hindman168/UltrafilterHilbertEmbedding.lean",
+    "Hindman168/FiniteMassL2Space.lean",
+    "Hindman168/FiniteMassUltrafilterHilbert.lean"
+  ],
+  "verified": {
+    "project_modules": 921,
+    "pntplus_modules": 9,
+    "source_scan_modules": 930,
+    "source_config_hashes": 939,
+    "build_jobs": 4875,
+    "axiom_reports": 4517,
+    "new_theorems": 21,
+    "new_definitions": 10,
+    "new_instances": 11,
+    "new_axiom_reports": 42,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Original native lower-central geometry, specified-lattice quotients and cube compactness remain proved. The abstract Hilbert energy identities, clipping approximation and uniform finite Ramsey selection remain proved. The AMBIENT Hilbert construction is NOW PROVED: actual uniformly L2-bounded families for varying original nonnegative finite laws, actual ultrafilter pairing, zero-distance identification and separated complete Hilbert space with dense linear realization, original expectation pairing and ordinary-limit compatibility. Next construct actual bounded-complexity piecewise nilsequence families inside this space, their closed spans, nesting and closure under representing operations/clipping, then instantiate projection selection with finite common complexity and the paper's padding/principal tuple indexing. Remaining full-target work also includes Calibration/Alignment, subgroup inverse inputs, actual coloring/arithmetic data and ordered positive rapidly separated monochromatic witnesses, and quantitative degree/denominator bounds where required. Original model, group, Gamma, sampling laws and StrongConjecture remain unchanged. StrongConjecture and the prize target remain unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

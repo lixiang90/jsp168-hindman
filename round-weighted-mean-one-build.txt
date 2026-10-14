@@ -1,0 +1,19 @@
+✖ [3964/3964] Building Hindman168.WeightedLinearFormsMeanOne (7.5s)
+error: build failed
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\WeightedLinearFormsMeanOne.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\WeightedLinearFormsMeanOne.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\WeightedLinearFormsMeanOne.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\WeightedLinearFormsMeanOne.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\WeightedLinearFormsMeanOne.setup.json --json
+error: Hindman168/WeightedLinearFormsMeanOne.lean:59:13: `simp` made no progress
+error: Hindman168/WeightedLinearFormsMeanOne.lean:133:16: Application type mismatch: The argument
+  add_le_add_right hm ?m.525
+has type
+  ?m.525 + expectation (harmonicRowDivisorMass X (∏ p ∈ P, p)) (comparisonPrimePowerCRTIntegrand S hS D) ≤
+    ?m.525 + (4 * Real.exp 3) ^ (Fintype.card κ * q) * (2 * localExcessPrimeTestConstant (Fintype.card κ) q D / ↑w)
+but is expected to have type
+  expectation (piMass fun u => harmonicDivisorMass (X u) (∏ p ∈ P, p)) (comparisonPrimePowerCRTIntegrand S hS D) +
+      ↑(V ^ q) * (εbase + εprime) ≤
+    (4 * Real.exp 3) ^ (Fintype.card κ * q) * (2 * localExcessPrimeTestConstant (Fintype.card κ) q D / ↑w) +
+      ↑(V ^ q) * (εbase + εprime)
+in the application
+  LE.le.trans h (add_le_add_right hm ?m.525)
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.WeightedLinearFormsMeanOne

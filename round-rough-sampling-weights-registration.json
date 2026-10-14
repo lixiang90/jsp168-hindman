@@ -1,0 +1,158 @@
+{
+  "modules": [
+    "Hindman168/RoughCoprimeResidueIntersection.lean",
+    "Hindman168/RoughNormalizedCountError.lean",
+    "Hindman168/RoughNormalizedPieceWeights.lean",
+    "Hindman168/RoughIntervalPieceComparison.lean",
+    "Hindman168/RoughProbabilityProductError.lean",
+    "Hindman168/RoughBoxPieceWeights.lean",
+    "Hindman168/RoughFiniteBoxWeightComparison.lean",
+    "Hindman168/RoughUniformFiberMixture.lean",
+    "Hindman168/RoughResiduePieceNonempty.lean",
+    "Hindman168/RoughUniformFiberSelection.lean"
+  ],
+  "names": [
+    "Hindman168.rough_coprime_residue_pair",
+    "Hindman168.rough_coprime_interval_class_intersection",
+    "Hindman168.rough_coprime_interval_intersection_count",
+    "Hindman168.rough_normalized_count_error",
+    "Hindman168.rough_coprime_interval_residue_weight",
+    "Hindman168.rough_normalized_piece_count_error",
+    "Hindman168.rough_interval_piece_residue_weight",
+    "Hindman168.rough_interval_piece_weight_difference",
+    "Hindman168.rough_unit_product_difference",
+    "Hindman168.rough_unit_product_error",
+    "Hindman168.rough_interval_class_subwindow",
+    "Hindman168.rough_finset_card_ratio_bound",
+    "Hindman168.rough_box_class_intersection_card",
+    "Hindman168.rough_box_piece_weight_difference",
+    "Hindman168.rough_finite_box_piece_weights",
+    "Hindman168.rough_finite_box_piece_weights_scaled",
+    "Hindman168.FiniteMass.rough_uniform_fiber_weight_apply",
+    "Hindman168.FiniteMass.rough_uniform_finset_fiber_mixture",
+    "Hindman168.FiniteMass.rough_uniform_fiber_weight_sum",
+    "Hindman168.FiniteMass.rough_uniform_fiber_expectation",
+    "Hindman168.rough_coprime_interval_piece_nonempty",
+    "Hindman168.rough_coprime_box_piece_nonempty",
+    "Hindman168.rough_uniform_finset_test_bound",
+    "Hindman168.rough_uniform_fiber_discrepancy_selection"
+  ],
+  "declarations": {
+    "Hindman168/RoughCoprimeResidueIntersection.lean": [
+      [
+        "theorem",
+        "rough_coprime_residue_pair"
+      ],
+      [
+        "theorem",
+        "rough_coprime_interval_class_intersection"
+      ],
+      [
+        "theorem",
+        "rough_coprime_interval_intersection_count"
+      ]
+    ],
+    "Hindman168/RoughNormalizedCountError.lean": [
+      [
+        "theorem",
+        "rough_normalized_count_error"
+      ],
+      [
+        "theorem",
+        "rough_coprime_interval_residue_weight"
+      ]
+    ],
+    "Hindman168/RoughNormalizedPieceWeights.lean": [
+      [
+        "theorem",
+        "rough_normalized_piece_count_error"
+      ],
+      [
+        "theorem",
+        "rough_interval_piece_residue_weight"
+      ]
+    ],
+    "Hindman168/RoughIntervalPieceComparison.lean": [
+      [
+        "theorem",
+        "rough_interval_piece_weight_difference"
+      ]
+    ],
+    "Hindman168/RoughProbabilityProductError.lean": [
+      [
+        "theorem",
+        "rough_unit_product_difference"
+      ],
+      [
+        "theorem",
+        "rough_unit_product_error"
+      ]
+    ],
+    "Hindman168/RoughBoxPieceWeights.lean": [
+      [
+        "theorem",
+        "rough_interval_class_subwindow"
+      ],
+      [
+        "theorem",
+        "rough_finset_card_ratio_bound"
+      ],
+      [
+        "theorem",
+        "rough_box_class_intersection_card"
+      ],
+      [
+        "theorem",
+        "rough_box_piece_weight_difference"
+      ]
+    ],
+    "Hindman168/RoughFiniteBoxWeightComparison.lean": [
+      [
+        "theorem",
+        "rough_finite_box_piece_weights"
+      ],
+      [
+        "theorem",
+        "rough_finite_box_piece_weights_scaled"
+      ]
+    ],
+    "Hindman168/RoughUniformFiberMixture.lean": [
+      [
+        "theorem",
+        "rough_uniform_fiber_weight_apply"
+      ],
+      [
+        "theorem",
+        "rough_uniform_finset_fiber_mixture"
+      ],
+      [
+        "theorem",
+        "rough_uniform_fiber_weight_sum"
+      ],
+      [
+        "theorem",
+        "rough_uniform_fiber_expectation"
+      ]
+    ],
+    "Hindman168/RoughResiduePieceNonempty.lean": [
+      [
+        "theorem",
+        "rough_coprime_interval_piece_nonempty"
+      ],
+      [
+        "theorem",
+        "rough_coprime_box_piece_nonempty"
+      ]
+    ],
+    "Hindman168/RoughUniformFiberSelection.lean": [
+      [
+        "theorem",
+        "rough_uniform_finset_test_bound"
+      ],
+      [
+        "theorem",
+        "rough_uniform_fiber_discrepancy_selection"
+      ]
+    ]
+  }
+}

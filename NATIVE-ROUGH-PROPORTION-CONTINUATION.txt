@@ -1,0 +1,118 @@
+JSP-000168 / Erdos #172, 2026-10-13. NEXT concrete PLAN, not a theorem.
+Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction found.
+Authoritative state is verification-manifest.json / last_round.
+
+NOW UNCONDITIONALLY PROVED:
+Hindman168.native_no_long_bad_family D : NativeNoLongBadFamilyStatement D.
+For EVERY legitimate actual native datum, every fixed ordinary degree/spatial
+dimension/bounded geometry and actual original real-power growth sequence,
+ONE positive H is chosen and eventually NO original actual bad family of that
+length exists. All sources/raw coefficients/boxes/residues/tests remain
+arbitrary after the original length and asymptotic threshold. Genuine natural
+finrank strong induction discharges ALL smaller-native hypotheses. True point
+quotient zero base, actual common original horizontal character/smooth parameter
+source/complete affine rows, finite original canonical kernel geometry and
+ALL candidate/child budgets are assembled. This is the strengthened comparison,
+not the original bad-PROPORTION tends-to-zero statement.
+
+COMPLETED reusable exact modules:
+ RoughParameterAffineProjection: actual degree/eval/spatial projection for
+ literal parameter-affine source none->a+b*z, some->original spatial input.
+ NativeOriginalCommonBadCharacter / NativeOriginalCommonBadFamily: true common
+ original chi, literal raw source/map, full bad samples/rough coprimality and
+ COMPLETE positive affine spatial rows on smooth original subprogression.
+ NativeOriginalHorizontalKernelGeometry: genuine rational V, chi(V)=1,
+ POSITIVE K with Exp(K*V) in ORIGINAL Gamma and ALL canonical child finrank drops.
+ NativeOriginalActualHorizontalKernelDescent: actual real bad samples/rows
+ PRODUCE all observable/model/discrepancy inputs of true canonical kernel descent.
+ NativeNoLongBadFamilyInductionStep: finite sums choose ALL child no-bad lengths,
+ candidate descent lengths and original common-character input length before
+ raw sources; finite dependent eventual conjunction; actual child contradiction.
+
+NEXT: original Section 6 exceptional-PROPORTION rough-step conclusion.
+
+1. Dense arbitrary-length AP extraction must be proved or verified from a
+genuine dependency. Source 06_rough_progressions.tex explicitly uses finite
+Szemeredi: for EVERY prescribed H and alpha>0, one fixed K makes EVERY subset
+of a length-K interval with density>=alpha/2 contain an H-term progression.
+Finite COLOR van der Waerden does not imply this dense theorem by renaming.
+Pinned mathlib has Roth/3AP and graph Szemeredi regularity; local searches did
+not identify an arbitrary-length dense AP theorem. Absence in that search is
+not a mathematical obstruction. Do not insert a custom axiom or supplied
+Szemeredi premise into the claimed complete comparison.
+
+2. Genuine OpenAI dense-proof candidate to investigate before redoing work.
+Web primary source docs/159.md describes the reciprocal-sum result. Actual
+local solution candidate is OAI/Combinatorics/Progressions/Results/Conclusions.lean,
+which proves manuscriptQuantitativeDensityTheorem and manuscriptReciprocalProgressionTheorem.
+Model.QuantitativeDensityTheorem states a true finite extremal-number bound
+C*N*exp(-c*(log(log N))^(1+eta)), sufficient to deduce fixed-alpha dense AP.
+ComparatorChallenges/ErdosReciprocal.lean contains sorry and is a COMPARATOR,
+not the solution; NEVER import it. Actual selected solution module differs.
+Source checkout commit fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb uses Lean 4.34.1,
+whereas the project remains pinned to Lean 4.32.2 and its registered mathlib.
+4.34.1 toolchain is installed; no source .olean/dependency mathlib found in that
+checkout. openai-dense-progression-dependency-investigation.json (when terminal)
+is ONLY a source/dependency scan, not compatibility/kernel/axiom certification.
+Scan actual minimal transitive solution closure for sorry/admit/custom axiom/
+native_decide/unsafe; inspect semantic definitions, exact source hashes, LICENSE
+and provenance. Test/port or reprove a genuine minimal subset under CURRENT
+pins in an isolated local directory. Preserve every registered old hash and
+do not silently update shared mathlib or import an unverified .olean. Attribute
+any actual reused OpenAI Lean code; no unoriginal work may be called user-original.
+This candidate has NOT been imported or proved as a project dependency yet.
+
+3. Exact density-block / residue-index transport.
+Represent original t in [Scale,2Scale) intersect (r+L*Z) by an actual integer
+index interval. Prove its length -> infinity from Scale/L -> infinity and
+actual ceil/floor endpoints; W|L, L w-smooth, gcd(r,W)=1. Partition into fixed
+K full blocks and a final partial block. A genuinely positive bad fraction
+gives one complete block with density>=alpha/2 after exact tail fraction bound.
+Use finite dense AP there; extract t_z=t0+j*L*z, 1<=j<=K. For w>=K it is
+genuinely w-smooth, with actual rough coprimality and original scale membership.
+Construct literal native logarithmic polynomial by affine parameter substitution
+of original joint P(t,x), retain actual Q/log and ordinary degree. Every index
+is ACTUAL original bad. It contradicts native_no_long_bad_family at its fixed H.
+Thus all original arbitrary boxes/residues/observables are included in uniform
+exceptional-proportion convergence. Handle >=eta by testing >eta/2.
+
+4. Fixed finite native families / actual master application.
+Finite conjunction of no-long thresholds and source density comparison should
+remain simultaneous over original fixed finite native data. Then instantiate
+original pivot product factors/scales/box laws and retained alignment interfaces.
+Do not replace raw factor-dependent boxes or observables by fixed ones.
+
+OTHER FULL-GOAL WORK:
+Separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation
+inverse, full cube/Alignment synthesis and final positive distinct rapidly
+separated monochromatic FS/FP StrongConjecture remain open. Equidistribution
+inverse is not the GTZ correlation conclusion. Explicit delta-power laws not
+certified. Source slab repaired estimate is not unavoidable obstruction.
+Public repo/PR/prize user milestone not reached. Author checks are not independent
+kernel replay/external peer review. Keep complete original goal ACTIVE.
+
+VERIFICATION:
+New modules only, old registered sources/axiom sets unchanged; explicit
+autoImplicit=false EMPTY logs, terminal full build/expanded standard-only
+axiom audit; actual pins, six pinned OpenAI sections and exact slab arithmetic.
+No sorry/admit/custom axiom/native_decide/unsafe or instance/option bypass.
+
+
+LATEST 2026-10-13: round-dense-fixed-length-block terminal verification recorded.
+ACTUAL fixed-length full-block selection from dense ORIGINAL integer range hits is now proved. Given fixed positive block length K, genuine positive block count floor(N/K) and exact tail tolerance 2*K<=delta*N, ONE complete original block has density at least delta/2. Its actual endpoint lies within the original range, and no tail is assumed dense. This is the fixed-K partition required by the source finite Szemeredi extraction route, not the older variable-length partition.
+The entire final remainder is an ACTUAL subset of the original interval after floor(N/K)*K and has cardinality at most K by exact natural quotient/remainder arithmetic. Original retained-prefix density, genuine finite witness selection, injective remainder map and true complete-block endpoint bounds prove the output. No dense-AP/Szemeredi/inverse premise is used in this elementary selection lemma. Full arbitrary-length dense AP and original exceptional-proportion comparison remain open.
+Candidate verification: DENSE-PROGRESSION-CANDIDATE-CONTINUATION.txt.
+
+LATEST OVERRIDE, 2026-10-13: round-native-original-proportion terminal audit.
+The arbitrary-length finite dense AP input is now genuinely supplied by the
+attributed 42-module minimal OpenAI finite Szemeredi closure. Actual original
+residue interval/range/cardinality/ceil geometry, literal all-real source
+transport, smooth steps and rough coprimality now close the original complex
+non-strict exceptional-proportion conclusion on genuine nonempty samples.
+No finite Szemeredi/inverse/character-production/no-bad premise remains.
+Main pins/old proof hashes/old axiom sets retained; 6681 build jobs and 10422
+selected standard-only transitive axiom reports passed. See the authoritative
+verification-manifest.json and NATIVE-ORIGINAL-ROUGH-PROPORTION-CONTINUATION.txt.
+Full quantitative reciprocal-sum archive remains isolated/unverified.
+StrongConjecture UNPROVED; goal ACTIVE; no unavoidable obstruction established.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Unconditional native no-long-original-bad-family comparison by actual finrank induction is proved. Exact fixed-length full-block density selection with genuine tail control is now supplied for the original proportion route. Remaining: verified arbitrary-length dense finite AP input and actual residue-index/source/smooth transport to original exceptional-proportion rough-step convergence, separate GTZ interval Gowers correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP. OpenAI quantitative dense-progression source is an ISOLATED UNVERIFIED dependency/port candidate only; its source scan/partial build is NOT a proof input. Main pins/registered proof sources retained. Fixed-data constants do not certify delta-power laws; author checking is not independent replay/peer review. Repaired source slab estimate not unavoidable obstruction. Public repository/PR/prize not reached.

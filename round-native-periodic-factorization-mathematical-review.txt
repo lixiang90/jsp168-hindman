@@ -1,0 +1,81 @@
+JSP-000168 / Erdos #172. Author mathematical review, 2026-10-14.
+Verdict: Partial overall coverage; sequential periodic factorization progress.
+StrongConjecture remains UNPROVED. No unavoidable obstruction established.
+
+Primary source: OpenAI math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+Monochromatic finite sums and products in the positive integers,
+build/sections/07_cube_limits.tex, lemma adapted-factorization and proof.
+The local source is checked against its pinned Git object by the audit.
+
+1. The previously retained exact group identity includes gamma_n in the
+ORIGINAL Gamma on the far right. Its removal is justified only in the
+actual right-lattice coset quotient. Gamma is not assumed normal.
+
+2. For finitely generated nilpotent K inside Gamma's genuine rational hull,
+NativeSubgroupRationalHullRoots gives ONE N>0 with g^N in Gamma for every
+g in K. In K, every conjugate of g^N is the Nth power of another K element.
+Thus every such power lies in the TRUE normal core of Gamma.subgroupOf K.
+The quotient is finitely generated and nilpotent, and every element is
+torsion. NilpotentTorsionClosure proves it finite. This is a proved route
+to the finite normal-core quotient used by the paper; it avoids needing
+the paper's separate collected-word discreteness argument for Lambda'.
+It does not infer finite index from uniform powers in arbitrary groups.
+
+3. The fixed generator is Exp(V/order!), with the scalar taken in the
+actual original rational form. At EVERY signed integer b, the ACTUAL
+original right factor is this generator to the exponent
+integerCoefficient_n * product_{r<order}(b-r). The factorial is fixed;
+the coefficient sequence is unrestricted and may be unbounded or negative.
+The exact equality follows from the literal adaptedTaylorBinomial and the
+original exponential's actual integer-scalar/power identity. It also holds
+at order zero and when the factor list is empty. No signed choose formula
+or unproved denominator bound is inserted.
+
+4. Signed falling polynomials preserve congruence modulo M, and integer
+powers in a group preserve congruence modulo its Nat.card. After finiteness
+of the actual normal-core quotient is established, this card is positive.
+Its period works for every factor and every sequence index simultaneously.
+The actual reversed product order is retained through explicit list maps
+and homomorphism product identities. No commutativity of right factors is
+used. General nonfinite groups in the arithmetic lemma have card zero,
+where congruence modulo zero is equality; finiteness is required separately
+and proved before using this as a positive period.
+
+5. Quotient equality in the normal core gives r_b^{-1} r_c in that core,
+then in Gamma.subgroupOf K and finally in ORIGINAL Gamma. Hence it gives
+the original lattice coset equality, without a quotient-group structure on
+the original nonnormal Gamma cosets. Finite maps Fin M -> K/core admit a
+constant-pattern strictly increasing subsequence. sigma_r is the actual
+right product at the first selected sample; its rationality is proved by
+membership in the finitely generated rational subgroup. The SAME sigma
+and SAME M cover every signed integer and every selected index.
+
+6. Compose the original smooth/irrational factorization subsequence with
+this true pattern subsequence. Reindex EVERY actual coefficient, constant,
+polynomial and factor. Rational level-character limits and all scaled
+coefficient limits persist by cofinality. The final filtration, dimension
+bound and original step are retained. The parameter-family smoothness
+theorems supply compact-open/C1/body-velocity limits and ALL-index compact
+bounds for the reindexed actual source curves. Exact ALL-real original
+group identities remain valid; frozen coset assertions apply only to
+signed integers. The final quotient bridge cancels the common left factors
+and includes the far-right gamma_n by actual subgroup multiplication.
+
+7. NativeSequentialPeriodicFactorization is proved unconditionally from
+the original adapted source sequence and cofinal real lengths. Its
+left-linear specialization uses the EXACT original lower-central step s,
+with no stretching. The residual source's actual ordered Taylor
+representation and coefficient layer memberships are retained in
+NativeRationalSubgroupTaylorCoordinates. No arbitrary Haar law, new metric,
+finite-period oracle, rational-representative oracle or coefficient bound
+has been added as a premise of the factorization theorem.
+
+Remaining: the local point/cube-Haar laws on that SAME final filtration,
+through ORIGINAL s+1, with sequence limit before the locality limit; the
+projected Haar face symmetry and actual joint lifts/full Alignment; the
+distinct arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse;
+the final SAME-color ALL nonempty finite sums and products with positive,
+distinct, rapidly separated witnesses. These are substantial open proof
+obligations, not an unavoidable obstruction or a complete prize submission.
+This report records author checks, not independent kernel replay or
+external mathematical peer review.

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 44.60899999993853,
+  "log": "round-rough-smooth-quotient-build.txt",
+  "log_sha256": "812be2eb0b48831547d34877c4620acf3dfe84639c93d08e32d0b9c002a2779c"
+}

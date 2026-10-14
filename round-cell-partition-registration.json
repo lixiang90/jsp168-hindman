@@ -1,0 +1,41 @@
+{
+  "baseline_hash_count": 1037,
+  "modules": [
+    "Hindman168/CompleteResidueCellPartition.lean",
+    "Hindman168/AlignedIntervalResiduePartition.lean"
+  ],
+  "names": [
+    "Hindman168.mem_intervalResidueSet_iff_piece",
+    "Hindman168.intervalResidueSet_pairwise_disjoint",
+    "Hindman168.intervalResidueSet_union_sum",
+    "Hindman168.alignedInterval_residue_partition",
+    "Hindman168.alignedInterval_residue_sum"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/CompleteResidueCellPartition.lean": [
+      [
+        "theorem",
+        "mem_intervalResidueSet_iff_piece"
+      ],
+      [
+        "theorem",
+        "intervalResidueSet_pairwise_disjoint"
+      ],
+      [
+        "theorem",
+        "intervalResidueSet_union_sum"
+      ]
+    ],
+    "Hindman168/AlignedIntervalResiduePartition.lean": [
+      [
+        "theorem",
+        "alignedInterval_residue_partition"
+      ],
+      [
+        "theorem",
+        "alignedInterval_residue_sum"
+      ]
+    ]
+  }
+}

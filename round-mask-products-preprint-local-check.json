@@ -1,0 +1,17 @@
+{
+  "official_or_remote_updates_checked": false,
+  "sections": {
+    "04_correlation.tex": {
+      "local_path": "E:\\codex-build\\math\\preprints\\Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026\\build\\sections\\04_correlation.tex",
+      "fixed_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "newline_normalized_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+      "matches_fixed_commit": true
+    },
+    "05_prediction.tex": {
+      "local_path": "E:\\codex-build\\math\\preprints\\Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026\\build\\sections\\05_prediction.tex",
+      "fixed_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "newline_normalized_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+      "matches_fixed_commit": true
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "baseline_hash_count": 1205,
+  "modules": [
+    "Hindman168/MaskUniformDetectionThreshold.lean"
+  ],
+  "names": [
+    "Hindman168.maskUniformDetectionTolerance",
+    "Hindman168.maskUniformDetectionTolerance_pos",
+    "Hindman168.maskUniformDetectionTolerance_le_target",
+    "Hindman168.maskOriginalSubset_detection_before_master",
+    "Hindman168.maskOriginalSubset_uniform_detection_threshold"
+  ],
+  "theorem_count": 4,
+  "selected_report_count": 5,
+  "declarations": {
+    "Hindman168/MaskUniformDetectionThreshold.lean": [
+      [
+        "def",
+        "maskUniformDetectionTolerance"
+      ],
+      [
+        "theorem",
+        "maskUniformDetectionTolerance_pos"
+      ],
+      [
+        "theorem",
+        "maskUniformDetectionTolerance_le_target"
+      ],
+      [
+        "theorem",
+        "maskOriginalSubset_detection_before_master"
+      ],
+      [
+        "theorem",
+        "maskOriginalSubset_uniform_detection_threshold"
+      ]
+    ]
+  }
+}

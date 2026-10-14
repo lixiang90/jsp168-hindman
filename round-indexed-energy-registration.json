@@ -1,0 +1,69 @@
+{
+  "baseline_hash_count": 960,
+  "modules": [
+    "Hindman168/EnergyTupleEncoding.lean",
+    "Hindman168/IndexedEnergySelection.lean",
+    "Hindman168/IndexedProjectionSelection.lean"
+  ],
+  "names": [
+    "Hindman168.energyTuple",
+    "Hindman168.energyTuplePivot",
+    "Hindman168.energyTupleGap",
+    "Hindman168.energyTupleTail",
+    "Hindman168.energyTuple_decode",
+    "Hindman168.energyTuple_card",
+    "Hindman168.energyTuple_subset",
+    "Hindman168.indexed_energy_selection",
+    "Hindman168.indexed_projection_selection",
+    "Hindman168.indexed_projection_model_selection"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/EnergyTupleEncoding.lean": [
+      [
+        "def",
+        "energyTuple"
+      ],
+      [
+        "def",
+        "energyTuplePivot"
+      ],
+      [
+        "def",
+        "energyTupleGap"
+      ],
+      [
+        "def",
+        "energyTupleTail"
+      ],
+      [
+        "theorem",
+        "energyTuple_decode"
+      ],
+      [
+        "theorem",
+        "energyTuple_card"
+      ],
+      [
+        "theorem",
+        "energyTuple_subset"
+      ]
+    ],
+    "Hindman168/IndexedEnergySelection.lean": [
+      [
+        "theorem",
+        "indexed_energy_selection"
+      ]
+    ],
+    "Hindman168/IndexedProjectionSelection.lean": [
+      [
+        "theorem",
+        "indexed_projection_selection"
+      ],
+      [
+        "theorem",
+        "indexed_projection_model_selection"
+      ]
+    ]
+  }
+}

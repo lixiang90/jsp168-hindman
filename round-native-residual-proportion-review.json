@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2659,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6686,
+    "selected_axiom_reports": 10441,
+    "new_declarations": 12,
+    "new_theorems": 8,
+    "new_definitions": 4,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeResidualSource.lean",
+    "Hindman168/NativeResidualLargeEvent.lean",
+    "Hindman168/NativeResidualRoughProportion.lean"
+  ],
+  "proved_components": [
+    "ACTUAL native residual sources Q(t,a+q*y) and ordinary-degree-preserving vector polynomials are constructed by literal spatial-affine substitution, leaving the removed parameter unchanged. Their logarithmic identities hold at EVERY real input; retained q/a are fixed while t varies.",
+    "Original non-strict complex residual q/q*t bad events with ANY compatible finer representative now map to original normalized bad events, with EXACT complex discrepancy and genuine original/normalized sample cardinalities. All existential varying boxes/residues/observables are retained; NO coprimality between q and t is assumed.",
+    "UNCONDITIONAL residual rough-proportion bounds and convergence are proved from the actual source normalization and prior unconditional comparison. The normalized-only logarithmic polynomial premise matches the manuscript, and actual raw sources derive it by a proved constructor. ONE budget precedes retained q/a and every raw source/sampling datum, works across a fixed finite native family and permits the ACTUAL family member, q/a and source coefficients to vary with w. No same-comparison/inverse/production premise remains."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original and residual native complex non-strict rough exceptional-proportion convergence, literal residual source/event composition, common fixed-finite-family budgets and exact original sampling laws WITHOUT coprimality are proved. Remaining: actual master/source/conditional-probability application and source-interface/cofinal-index/real-box/nonempty-sample bridges, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-residual-proportion-mathematical-review.txt",
+  "mathematical_review_sha256": "e524660330b96c068f0980bde5f4d68b0c8c27e6cccb54d213c6c4326d1d4fda",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

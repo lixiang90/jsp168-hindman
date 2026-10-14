@@ -1,0 +1,18 @@
+{
+  "project_modules": 960,
+  "pntplus_modules": 9,
+  "source_scan_modules": 969,
+  "source_config_hashes": 978,
+  "build_jobs": 4914,
+  "axiom_reports": 4694,
+  "new_theorems": 5,
+  "new_definitions": 1,
+  "new_instances": 0,
+  "new_axiom_reports": 6,
+  "standard_axioms_only": true,
+  "retained_proof_sources_unchanged": true,
+  "retained_axiom_sets_unchanged": true,
+  "root_imports_exact": true,
+  "registered_kernel_names_exact": true,
+  "full_target_proved": false
+}

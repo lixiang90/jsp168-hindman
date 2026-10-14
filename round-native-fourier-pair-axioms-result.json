@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.67200000002049,
+  "log": "round-native-fourier-pair-axioms.txt",
+  "log_sha256": "80c3511a38461209f699d458e85fbe9cb0681b3b7c75b7f93dc664a7aa000851"
+}

@@ -1,0 +1,99 @@
+{
+  "baseline_hashes_verified_before_registration": 738,
+  "new_modules": [
+    "Hindman168/NativeLieRelativeCurve.lean",
+    "Hindman168/NativeLieCurveParameterJacobian.lean",
+    "Hindman168/NativeLieParameterJacobianInitial.lean",
+    "Hindman168/NativeLieParameterJacobianCocycle.lean",
+    "Hindman168/AdjointPrimitivePolynomial.lean",
+    "Hindman168/NativeLieExponentialDifferential.lean",
+    "Hindman168/NativeLieNilpotentDexp.lean",
+    "Hindman168/NilpotentPolynomialUnit.lean",
+    "Hindman168/NativeLieDexpInvertible.lean"
+  ],
+  "names": [
+    "Hindman168.lieOneParameterCurve_neg_eq_inv",
+    "Hindman168.lieOneParameterCurve_neg_parameter",
+    "Hindman168.nativeLieRelativeCurve",
+    "Hindman168.nativeLieRelativeCoordinateCurve",
+    "Hindman168.nativeLieRelativeCurve_time_zero",
+    "Hindman168.nativeLieRelativeCurve_state_zero",
+    "Hindman168.nativeLieRelativeCurve_contMDiff",
+    "Hindman168.nativeLieRelativeCoordinateCurve_contDiffAt",
+    "Hindman168.nativeLieRelativeCurve_time_add",
+    "Hindman168.nativeLieIdentityProductCurve_hasMFDerivAt",
+    "Hindman168.nativeLieRelativeCurve_hasMFDerivAt_time_zero",
+    "Hindman168.nativeLieCurveParameterJacobian",
+    "Hindman168.nativeLieCurveParameterJacobian_zero",
+    "Hindman168.nativeLieRelativeCurve_state_hasMFDerivAt",
+    "Hindman168.nativeLieRelativeCoordinateCurve_state_hasFDerivAt",
+    "Hindman168.nativeLieCurveParameterJacobian_eq_coordinate",
+    "Hindman168.nativeLieCurveParameterJacobian_contDiff",
+    "Hindman168.nativeLieRelativeCoordinateCurve_hasDerivAt_time_zero",
+    "Hindman168.nativeLieRelativeCoordinateCurve_time_derivative_eventually",
+    "Hindman168.nativeLieCurveParameterJacobian_action_hasDerivAt_zero",
+    "Hindman168.nativeLieCurveParameterJacobian_hasDerivAt_zero",
+    "Hindman168.nativeLieIdentityProductParameter_hasMFDerivAt",
+    "Hindman168.nativeLieCurveParameterJacobian_add",
+    "Hindman168.nativeLieCurveParameterJacobian_hasDerivAt",
+    "Hindman168.adjointPrimitivePolynomial",
+    "Hindman168.adjointPrimitivePolynomial_zero",
+    "Hindman168.adjointPrimitivePolynomial_coefficient",
+    "Hindman168.adjointPrimitivePolynomial_hasDerivAt",
+    "Hindman168.eq_adjointPrimitivePolynomial_of_hasDerivAt",
+    "Hindman168.nativeLieDexp",
+    "Hindman168.nativeLieRelativeCurve_time_one",
+    "Hindman168.nativeLieDexp_eq_parameterJacobian",
+    "Hindman168.nativeLieLeftTranslation_comp_inv",
+    "Hindman168.nativeLieExponential_mfderiv_eq_leftTranslation_dexp",
+    "Hindman168.nativeLieExponential_mfderiv_apply",
+    "Hindman168.nativeLieCurveParameterJacobian_eq_polynomial",
+    "Hindman168.nativeLieDexp_finite_formula",
+    "Hindman168.nilpotent_smul_pow_of_pos",
+    "Hindman168.nilpotent_polynomial_isUnit",
+    "Hindman168.nativeLieDexp_isUnit",
+    "Hindman168.nativeLieDexp_bijective",
+    "Hindman168.nativeLieLeftTranslation_inv_comp",
+    "Hindman168.nativeLieLeftTranslation_mfderiv_isUnit",
+    "Hindman168.nativeLieExponential_mfderiv_isUnit",
+    "Hindman168.nativeLieExponential_mfderiv_bijective"
+  ],
+  "module_report_counts": {
+    "NativeLieRelativeCurve": {
+      "theorems": 9,
+      "selected_declarations": 11
+    },
+    "NativeLieCurveParameterJacobian": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "NativeLieParameterJacobianInitial": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeLieParameterJacobianCocycle": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "AdjointPrimitivePolynomial": {
+      "theorems": 4,
+      "selected_declarations": 5
+    },
+    "NativeLieExponentialDifferential": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "NativeLieNilpotentDexp": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NilpotentPolynomialUnit": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLieDexpInvertible": {
+      "theorems": 6,
+      "selected_declarations": 6
+    }
+  }
+}

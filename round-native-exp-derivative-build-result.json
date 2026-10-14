@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 12.906,
+  "log": "round-native-exp-derivative-build.txt",
+  "log_sha256": "c89b62f5ba9cacb53f8da2b5b82cd77ec60000d0f9be84f006a92c0d906a2070",
+  "terminal": true
+}

@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 435,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/HarmonicLinearProgressionAverage.lean",
+    "Hindman168/HarmonicSupportedCoordinates.lean",
+    "Hindman168/MaskTargetPolynomialBudgets.lean",
+    "Hindman168/MaskTargetProgressionLaw.lean",
+    "Hindman168/MaskTargetProgressionTransfer.lean",
+    "Hindman168/MaskTargetResidueAverage.lean",
+    "Hindman168/MaskTargetResidueErrorRates.lean",
+    "Hindman168/MaskTargetRootOffsetBounds.lean",
+    "Hindman168/MaskTargetRootOffsetGrowth.lean",
+    "Hindman168/MaskTargetSecondCoordinate.lean",
+    "Hindman168/MaskTargetUniformAnchorError.lean",
+    "Hindman168/MaskTargetUnrestrictedTransfer.lean",
+    "Hindman168/MaskUnrestrictedAdditiveOutput.lean",
+    "Hindman168/PolynomialAffineSizeBounds.lean"
+  ],
+  "new_selected_report_count": 52,
+  "module_report_counts": {
+    "HarmonicLinearProgressionAverage": 2,
+    "HarmonicSupportedCoordinates": 4,
+    "MaskTargetPolynomialBudgets": 6,
+    "MaskTargetProgressionLaw": 4,
+    "MaskTargetProgressionTransfer": 3,
+    "MaskTargetResidueAverage": 2,
+    "MaskTargetResidueErrorRates": 4,
+    "MaskTargetRootOffsetBounds": 3,
+    "MaskTargetRootOffsetGrowth": 4,
+    "MaskTargetSecondCoordinate": 6,
+    "MaskTargetUniformAnchorError": 4,
+    "MaskTargetUnrestrictedTransfer": 5,
+    "MaskUnrestrictedAdditiveOutput": 1,
+    "PolynomialAffineSizeBounds": 4
+  },
+  "application_review": [
+    "All 435 retained source/config hashes were revalidated before registration. Only the root imports and exact-name registry changed among retained files. The target, all prior proof sources, nine attributed PNT+ modules and Lean/mathlib/PNT+ pins are unchanged. No remote or official update was checked. The local correlation section has the fixed pinned-source hash.",
+    "PolynomialAffineSizeBounds computes one fixed exponent from the actual row coefficients and bounds normalized coefficients and translation moduli by original pool budgets. Its offset estimate needs coordinate bounds only strictly before the maximum-support anchor; coefficients above that anchor vanish. Division bounds do not assume extra smoothness.",
+    "HarmonicSupportedCoordinates derives coordinate membership from the actual piMass support, bounds integer harmonic support by X^2, and derives earlier cutoff squares bounded by the later auxiliary budget from MasterParameterConditions. The actual rootRestMass preserves all original remaining harmonic coordinates and original chain pivots.",
+    "MaskTargetPolynomialBudgets derives positive smooth column coefficients, their master-modulus divisibility and V-gap bounds from the finite positive rational coefficient set and the actual chain. Supported pool tuples give the concrete row and denominator polynomial caps. No desired offset bound or negligible-error premise is added.",
+    "MaskTargetRootOffsetBounds retains the actual quotient directionPairMass, including its prime-dependent shift lengths. Its first coordinates and sum are bounded by the original gap radius. The actual affine offset is bounded uniformly on the original rest and direction supports, with separate row and translation contributions. Coordinates above the anchor need no artificial cutoff.",
+    "MaskTargetRootOffsetGrowth bounds the supported offset cap and multiplier cap by a fixed polynomial in the actual anchor gap. The original master logarithmic separation supplies domination of the full sampling budget, including the earlier harmonic-coordinate offset. Hence the actual affineRootErrorCap is rapidly small at the original gap auxiliary V.",
+    "MaskTargetUniformAnchorError retains the full original centered-root cube test bound V^(2*2^d). Its polynomial loss is absorbed in the affine rate. Actual arithmetic, supported-offset bounds and derived cutoff geometry now give a uniform original-anchor comparison, and the uniform error times any fixed V^q tends to zero.",
+    "MaskTargetProgressionLaw derives eventual nonnegative mass-one certificates separately for the actual conditioned prime law, every original remaining harmonic coordinate law and the prime-dependent quotient direction-pair law. The original targetCubeAverage is exactly reindexed as targetAnchorAverage. The unnormalized k-times progression law is retained as a comparison, never treated as a probability law.",
+    "MaskTargetProgressionTransfer averages the supported uniform bound through those three actual laws. The full original targetCubeAverage differs from targetProgressionAverage by a rapidly small error, including every fixed V^q weighted limit. No sampled independence or comparison normalization is introduced.",
+    "MaskTargetSecondCoordinate derives support cardinality at least two from the actual large-column template. A nonzero column strictly before the normalization anchor is chosen from that support. The normalized coefficient is a unit modulo the positive anchor multiplier: actual smooth ratios divide the W-smooth master modulus, and actual distinct-column monomials are coprime on supported pool tuples. The unit conclusion is proved, not assumed.",
+    "HarmonicLinearProgressionAverage extracts one coordinate from the exact finite product law, splits the integer linear sum, and applies the proved affine residue permutation estimate. Other coordinates may create an arbitrary integer offset. The k factor of the unnormalized class law and bounded-test factor B are retained. NeZero k includes k=1.",
+    "MaskTargetResidueAverage applies that finite theorem to the actual second supported harmonic coordinate and actual normalized coefficients. Original raw-cutoff validity, harmonic mass-one certificates, proved primorial coprimality, proved coefficient-unit arithmetic and the centered-source cube bound supply every hypothesis. It removes the actual progression restriction with explicit k*B*residueError; no target averaging identity or small-error estimate is an extra premise.",
+    "MaskTargetResidueErrorRates retains k in a cubic common sampling-size cap 4*Q^3/X_other. Original logarithmic master growth at the actual second pivot supplies its rapid decay. The actual polynomial cube bound B is absorbed by mul_power, yielding a uniform rapidly small progression-removal error for every remaining direction tuple.",
+    "MaskTargetUnrestrictedTransfer defines the concrete unrestricted average with the same conditioned primes, original quotient direction pairs and anchor harmonic law. The actual progression and original target cube are transferred to this average with explicit summed caps and rapidly small difference. Every fixed V^q weighted difference tends to zero. This is a full source cube-law transfer, not a proof of decay of the unrestricted cube average itself.",
+    "MaskUnrestrictedAdditiveOutput composes the transfer with the already proved source_unshifted_additive_output. The actual unshifted correlation power is bounded by the same m-only coefficient times the absolute unrestricted one-variable cube average, plus a genuinely constructed error tending to zero. The unrestricted cube estimate remains explicit on the right-hand side, preserving the outstanding analytic task.",
+    "The StrongConjecture and full award target remain unproved. Required one-variable cube decay, full uniform correlation, application to actual mask-removal/multiplicative source integrands, Prediction/Alignment and inverse/nilsequence inputs, global parameter choices and positive separated monochromatic witness extraction are still required. No unavoidable blocker has been established. Publication and award submission await full proof and audit."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:578-748 (supported actual affine growth, second-coordinate removal and full unrestricted cube transfer proved; unrestricted cube decay remains)",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4296,
+    "project_modules": 431,
+    "pntplus_modules": 9,
+    "source_scan_modules": 440,
+    "axiom_reports": 2181,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 449,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original targetCubeAverage has now been transferred to its actual unrestricted one-variable harmonic cube average with an error rapidly small at every inverse power of the original gap auxiliary V. Supported remaining-coordinate and direction bounds derive the full affine offset cap and its logarithmic growth. A second actual nonzero target support coordinate is proved to have a normalized coefficient that is a unit modulo the positive anchor multiplier; its original harmonic law removes the unnormalized progression restriction, including k=1. Both actual errors and the full polynomial centered-root test bound are retained. The actual unshifted additive output now bounds the original correlation power by the same m-only coefficient times the unrestricted cube average plus a constructed error tending to zero. Next prove the unrestricted one-variable cube estimate under the actual direction scales and source centered divisor mask; use it to finish the retained-weight uniform correlation conclusion. Apply the resulting actual additive output to weighted mask-removal/multiplicative source integrands and their exception/error bounds, and finish full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

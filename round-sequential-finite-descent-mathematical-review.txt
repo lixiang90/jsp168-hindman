@@ -1,0 +1,123 @@
+JSP-000168 / Erdos #172 -- author mathematical review, 2026-10-14
+Verdict: Partial overall coverage; PROGRESS. StrongConjecture UNPROVED.
+Goal ACTIVE; no unavoidable obstruction established.
+AUTHOR review only; no independent kernel replay or external peer review.
+Primary source: OpenAI math adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+07_cube_limits.tex 26--34, 260--328; original linear application follows
+08_alignment.tex 377 and the retained original step-s orbit constructors.
+
+1. Genuine sequential failure. Negation of Tendsto atTop gives a fixed
+threshold frequently violated. Mathlib's actual strictly increasing
+extraction supplies an index sequence. Enlarging the threshold to max(C,1)
+gives a positive bound. Composing any cofinal original length with that
+strictly increasing sequence preserves cofinality. Nearest integers are
+round(x), not chosen fictitious lattice values. UnitAddCircle.norm_eq proves
+absolute error equals circle norm exactly; the original positive length
+then proves both scaled and inverse-power error bounds. Integers may grow
+arbitrarily. No circle-smallness is substituted for real equality.
+
+2. Local rational extension. A layer character is only locally rational on
+the intersection of its layer with the ORIGINAL specified rational form.
+That restriction gives a genuine Q-linear map into Q by injectivity of
+rational casts. LinearMap.exists_extend extends this Q-map. The previously
+proved natural scalar extension identifies a real functional rational on
+the ENTIRE original rational form. Equality on the original layer follows
+from its actual rational spanning property, via a genuine linear equality
+locus. Thus the global rational-extension input in the earlier correction
+lemma is derived for each actually selected local level character, without
+changing any original-layer character value or its nonzero restriction.
+
+3. Level-character coverage. NativeSubgroupRationalLevelCharacter consists
+ONLY of geometric nonzero restriction, next-layer/bracket annihilation,
+and local rationality. NativeSubgroupSequentialIrrational is an EXPLICIT
+all-character target proposition, not a filtration field or assumed result.
+Its quantifiers include every positive original index through ell and every
+such real functional, hence all nonzero rational multiples satisfying the
+same geometric conditions. Actual Taylor coefficients belong to the tested
+layer by the retained subgroup Taylor theorem; rational extension therefore
+preserves the exact sequence whose escape to infinity is being tested.
+
+4. Actual failure step. Negating the full all-character target selects one
+fixed level and actual locally rational character with a genuine failed
+limit. Its derived global rational extension, actual bounded subsequence,
+actual nearest-integer decomposition, and constructed fixed rational pivot
+supply EVERY input of the earlier algebraic correction theorem. The actual
+collected correction is normalized and weighted for the ONE new kernel
+filtration, and its total positive-layer dimension is strictly smaller.
+The recovered identity holds at EVERY real input. No source adaptation,
+subsequence, inverse or factorization premise is substituted for this work.
+
+5. Well-founded descent. Induction is on the ORIGINAL dimension sum using
+its natural-number measure well-founded relation. If all-character escape
+already holds, the original source and empty factor list work. Otherwise
+the actual failure step strictly lowers the measure and legitimately invokes
+IH on its corrected source and actual subsequence length. Both subsequences
+compose strictly increasingly. Each new factor is reindexed under the IH
+subsequence. Every final layer is included in the original corresponding
+layer. The number of factors plus final measure is bounded by the original
+measure. A final failing character cannot remain because each induction
+branch either proves ALL limits or actually continues the strictly smaller
+problem. This does not claim simultaneous limits merely from a termination
+bound. Terminal index ell never changes.
+
+6. Factor order and raw data. NativeSequentialBinomialFactor has ONLY four
+raw fields: order, vector, realCoefficient and integerCoefficient. Bounds,
+factorization and convergence are separately PROVED predicates. All vectors
+are fixed in the specified ORIGINAL lattice rational form. Orders are between
+1 and ell. Left factors multiply chronologically and right factors in reverse.
+The genuine group identities use associativity only, so no accumulated left
+factor is conjugated by unbounded rational right factors. Neither original
+Taylor coefficients nor integer corrections are assumed bounded.
+
+7. One scalar-limit subsequence. Actual scaled real coefficients are bounded
+by the preceding proved admissibility. A finite-dimensional closed interval
+box is compact; its actual joint vector sequence has ONE strictly increasing
+convergent subsequence. Every finite factor's coordinate limit follows from
+that joint limit. Empty lists use the finite zero-coordinate space and cause
+no fabricated factor. Existing all-character atTop limits persist under this
+one subsequence. Reindexing preserves every admissibility bound and exact
+all-real group identity.
+
+8. Arbitrary adapted source normalization. Compact representatives of the
+ACTUAL original rational subgroup are obtained from the retained proved
+rational Lie subgroup compact-representative theorem. The original zero-value
+group element is actually in this subgroup by weighted evaluation. Choosing
+c in the compact set and gamma in the ORIGINAL lattice with P(0)=c*gamma
+gives gamma in the subgroup as well. The native product-log constructor
+builds c^(-1) P(b) gamma^(-1). Its OLD filtration weights, zero at zero,
+and ALL-real group recovery are proved. The lattice is never assumed normal;
+the actual gamma stays on the RIGHT. Constants c have a genuine compact
+subsequence through the ORIGINAL exponential/log homeomorphism and normed
+real model. No extra metric or topological-group countability is supplied.
+
+9. Final arbitrary sequence and original linear input. Compact normalization,
+constant-limit selection and convergent finite descent compose into an
+unconditional ALGEBRAIC factorization for every adapted native source and
+positive cofinal real length sequence. A genuine cofinal positive tail
+removes the all-indices-positive condition, so arbitrary cofinal sequences
+are covered. It has exact original group identities at ALL real inputs,
+a fixed rational final filtration, ALL level-character escape limits,
+convergent compact constants and simultaneously convergent scaled correction
+coefficients. The native original left-linear logarithmic sources instantiate
+this at the exact original lower-central series and terminal index s, not a
+stretched filtration. Original s=0, empty factor lists and all real inputs
+are retained.
+
+10. Explicit remaining scope. This is NOT the complete sequential smooth /
+equidistributed / periodic lemma. Locally uniform limits of the actual scaled
+smooth maps and first-derivative bounds still need the scaled binomial
+polynomial and native finite-product analytic argument. A uniform bounded
+period for products of true SIGNED-integer powers of fixed rational elements,
+and one sequence-selected residue pattern, also remain open. Local cube-Haar
+laws, sequence-before-locality limit, projected Haar face symmetry and joint
+lifts/Alignment, the separate arbitrary-input GTZ interval Gowers LINEAR
+nilsequence inverse, and the final same-color positive distinct rapidly
+separated FS AND FP are unproved. No unavoidable obstruction is established.
+
+11. Trust. No new axiom, sorry/admit, native_decide, unsafe computation,
+heartbeat override or kernel bypass is used. A default-heartbeat elaboration
+timeout was resolved by splitting the rational map lift and making scalar
+extension applications explicit; the budget was never increased. The only
+new structure is the raw four-field NativeSequentialBinomialFactor above.
+Old proof hashes and axiom sets, toolchain/mathlib/OpenAI pins and primary
+paper sections are checked by the terminal author audit.

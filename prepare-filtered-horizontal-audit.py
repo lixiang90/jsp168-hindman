@@ -1,0 +1,55 @@
+from pathlib import Path
+import re
+
+prefix = 'round-filtered-horizontal'
+old = 'round-filtered-smooth-basis'
+modules = ['Hindman168/'+m+'.lean' for m in [
+    'NativeFilteredSmoothBasisCharacterIntegrality',
+    'NativeFilteredSmoothBasisIntegerCharacters',
+    'NativeFilteredSmoothBasisIntegerCharacterGrid',
+    'NativeFilteredSmoothIntegerCharacterNormalization',
+    'NativeFilteredHorizontalTail', 'NativeFilteredHorizontalSize',
+    'NativeFilteredHorizontalGrid', 'RoughFilteredSmoothBasis',
+    'NativeFilteredLogLayerCoordinates', 'NativeFilteredHorizontalCoordinates',
+    'NativeFilteredHorizontalLatticeImage', 'NativeFilteredHorizontalCharacterCoordinates',
+    'RoughFilteredRealBoxHorizontalTransfer',
+    'NativeContinuousCharacterCommutator', 'NativeContinuousCharacterLinearization',
+    'NativeContinuousHorizontalCharacter', 'NativeContinuousCharacterFilteredGrid']]
+components = [
+    'In the exact retained original full filtered smooth lattice basis, original logarithmic horizontal characters have actual ordered-coordinate evaluation and Gamma integrality iff integer basis coefficients. Their unique integer representations have zero tail at the actual commutator suffix start.',
+    'The actual horizontal head indices have cardinality equal to the actual commutator codimension. Their Euclidean coefficient norm equals the full integer coefficient norm because the true commutator tail vanishes. A fixed finite original integral character grid contains every bounded horizontal character and has the explicit ambient integer-box cardinality bound.',
+    'Every nonzero character in this actual grid has a rational original vector V with differential value one and an actual original Gamma exponential period K, positive and bounded by the coefficient ceiling. Fixed grid choices preserve these exact properties.',
+    'The same original full filtered smooth basis is adapted to the paper prescribed stretched lower-central filtration with the actual ceiling-division minus one index, including endpoints. Original Lie layer and original group layer membership are equivalent to prefix vanishing of the actual linear Log coordinates.',
+    'The original group horizontal projection is continuous and surjective, equals the head of the actual ordered smooth coordinates, is additive on original group multiplication, has kernel exactly the original group commutator layer, and maps original Gamma onto the full integer head lattice. Actual logarithmic character evaluation is its coefficient dot product.',
+    'Every actual continuous real-valued additive group homomorphism has a unique continuous real-linear original logarithmic representation. Actual nonzero Gamma-integral continuous characters correspond to genuine RoughNativeHorizontalFunctional inputs, so bounded actual continuous characters enter the same finite filtered grid and have bounded actual Gamma periods.',
+    'Actual real-box binomial coefficient transfer is proved for the same filtered horizontal coefficient norm and finite grid. The corrected equal-cube nonzero character existence and uniform modular binomial bounds remain explicit premises.'
+]
+remaining = (
+    'StrongConjecture remains unproved; no unavoidable obstruction is established. '
+    'The full original filtered smooth lattice basis and its identical-column rational basis, actual bracket constants and all natural lower-central suffixes are retained. Its adaptation to the paper prescribed stretched filtration is now proved by the actual index ((i ceilingDiv D)-1). This does not assert adaptation to an arbitrary supplied filtration or literal equality with earlier separately chosen bases. '
+    'Actual linear Log prefix criteria for every layer and actual ordered horizontal head coordinates are proved. Full nonlinear ordered-coordinate prefix criteria for every deeper group layer are not yet claimed. '
+    'The paper horizontal torus is now realized by a continuous surjective original head projection with actual commutator kernel and exact Gamma integer lattice image. Every actual continuous Gamma-integral nonzero group character is uniquely an actual real-linear Log character. Its filtered horizontal Euclidean coefficient norm, actual integral grid and bounded rational normalization/actual Gamma exponential periods are proved; any additional uniform rational-height bounds remain to be derived as needed. '
+    'The corrected equal-side quantitative Leibman actual character existence and uniform modular binomial coefficient bounds remain open. Finite character grids and conditional real-box coefficient transfer do not prove that analytic existence/bound input. '
+    'Connect actual finite obstruction existence/bounds to normalized rough-progression descent and finish density extraction, dimension induction, length restriction, cofinal scales, zero-dimensional base and full uniform rough-step comparison. '
+    'Conditional face laws, face invariance, buffered short-bin geometry, prior-event positivity, extra-conditioning posterior control, quantitative smooth-observable bounds and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Final ordered positive rapidly separated monochromatic finite sums/products extraction remains open. '
+    'Author verification only: no independent kernel replay, external review, public repository, PR or award application is claimed. The complete original prize theorem remains the goal and submission target.')
+review = [
+    'The four new same-basis character modules reprove the old generic character arguments using the actual retained filtered smooth basis specification. They do not assert equality of independent basis choices. All retained proof sources remain hash-identical.',
+    'Commutator suffix spanning gives exactly zero tail, in both directions. Integral character coefficients are uniquely recovered on the same actual basis. The Euclidean norm is on the actual horizontal head, not an arbitrary operator norm. Tail vanishing proves its equality with the full integer vector norm before any previous integer-grid size estimate is applied.',
+    'Original group layer criteria use the previously proved equality of actual original group lower-central layers and actual exponentiated Lie layers, then actual linear basis coordinates of original Log. They are not claimed to describe all nonlinear ordered coordinates. The stretched-filtration membership is the literal retained ceiling-division index, not a new filtration or an assumed adapted basis.',
+    'For each horizontal head index, its actual coordinate functional kills the actual commutator suffix. Actual original logarithmic character additivity proves projection additivity; actual ordered-product evaluation proves that its head equals the same Diffeomorph coordinates. Kernel equality follows from true group/Log layer criteria. Surjectivity and exact original Gamma image extend specified head coordinates by zero to full ordered coordinates, then use the exact retained original Diffeomorph and original Gamma integer criterion.',
+    'An arbitrary original real additive homomorphism is encoded as a MonoidHom to Multiplicative real numbers. Actual group commutator generators map to one. Equality of actual horizontal projections then implies equality of actual character values. This proves additivity of character composed with original Exp, without falsely assuming Exp is globally additive. Original Exp continuity and the real-linearization theorem produce the genuine unique continuous real-linear functional. True Exp/Log inverses prove the representation and uniqueness.',
+    'Actual equality between group commutator layers and exponentiated original Lie layers proves annihilation of the real commutator layer for this arbitrary-character linearization. Nonzero original character implies nonzero original functional through true representation. Original Gamma integrality is transported verbatim, yielding precisely the existing horizontal functional predicate, rather than a strengthened assumed character definition.',
+    'The continuous-character norm is literally the Euclidean vector of actual original character values at the retained horizontal basis exponentials. The exact Exp/Log inverse identifies it with the actual functional coefficient norm. Only after this equality are the finite grid and bounded-period conclusions transferred to every original continuous character. These are candidate-list and normalization conclusions, not quantitative equidistribution.',
+    'The real-box theorem still accepts actual equal-cube character existence and uniform modular binomial estimates as stated hypotheses. The new norm and actual grid conclude the desired fixed list but do not discharge those analytic hypotheses. The full original theorem, independent replay and external/public submission remain open.'
+]
+src = Path(old+'-audit.py').read_text(encoding='utf-8')
+src = re.sub(r'^PREFIX = .*$', lambda _: 'PREFIX = '+repr(prefix), src, count=1, flags=re.M)
+src = re.sub(r'^OLD = .*$', lambda _: 'OLD = '+repr(old), src, count=1, flags=re.M)
+a = src.index('MODULES = '); b = src.index('\ndef declarations():', a)
+src = src[:a]+f'MODULES = {modules!r}\nCOMPONENTS = {components!r}\nREMAINING = {remaining!r}\n'+src[b:]
+a = src.index('        application_review=COMPONENTS+'); b = src.index('\n        verified=summary', a)
+src = src[:a]+f'        application_review=COMPONENTS+{review!r}+[REMAINING],'+src[b:]
+src = re.sub(r"reference_scope='[^']*'", "reference_scope='06_rough_progressions actual filtered horizontal torus, complete continuous-character representation, true coefficient norm, finite grid and bounded original lattice periods; prescribed stretched filtration; analytic input remains open'", src)
+Path(prefix+'-audit.py').write_text(src, encoding='utf-8')
+print('Prepared filtered horizontal audit for', len(modules), 'modules.')

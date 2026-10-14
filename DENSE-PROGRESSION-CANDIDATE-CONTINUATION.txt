@@ -1,0 +1,288 @@
+OpenAI finite dense AP dependency candidate, NOT a registered proof input.
+JSP-000168 goal ACTIVE; complete StrongConjecture UNPROVED; no unavoidable obstruction.
+
+Actual source commit: fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb.
+Actual minimal selected root: OAI.Combinatorics.Progressions.Results.Conclusions.
+Target: OAI.Erdos3.manuscriptQuantitativeDensityTheorem, exact primitive Model
+statement bounding finite progression-free extremal number by a density tending
+to zero. It suffices to derive the classical finite Szemeredi input. Selected
+OAI closure is 4136 files / 53,193,014 bytes; original source scan no
+sorry/admit/axiom/native_decide/unsafe. Only external imports are Mathlib modules.
+ComparatorChallenges/ErdosReciprocal.lean has sorry and is NOT the solution;
+it was NOT copied. Source scan is not actual kernel/axiom verification.
+
+Source clean Git check and original file SHA256 checked before copying to
+dependencies/openai-dense-progressions. Original Apache LICENSE copied.
+Original Lean 4.34.1; isolated candidate tests CURRENT 4.32.2 / pinned mathlib
+905b95818eb32af7874a58b427f50c1711a5e96c. Main proof pins/sources retained.
+SOURCE-MANIFEST.json holds original hashes; API-COMPATIBILITY-EDITS.json records
+port edits. NEVER run prepare-openai-dense-progression-candidate.py again on
+ongoing edited files because it deliberately reinitializes the copy.
+
+Execution evidence and scheduling:
+Initial full lake build under default parallelism caused real out-of-memory
+and resource read failures; canceled exact own session 69711, terminal exit1.
+Toolchain private files actually exist; failures were not evidence of missing
+installation. No global toolchain/dependency source was patched.
+Two Lake build workers with LEAN_NUM_THREADS=2 were interrupted in session12797
+after a port script CRLF bug. The bug is fixed: immutable original read+LF bytes.
+Current bounded workflow uses TWO lake env lean processes in exact OAI import
+order, explicit autoImplicit=false, actual .olean output and source/dependency
+hash records. This avoids Lake's own uncontrolled parallel dependency builds.
+Only terminal exact successful hashes/artifacts are retained between rounds;
+changed source/dependency hashes invalidate retained checks.
+
+Run 47707 terminal exit1: 18 actual modules passed, four true source/API failures.
+Run 48285 terminal exit1: 37 modules passed; BufferedSiteExpansion conjugate/star
+simplification, DenseProductCardDeficit and FiniteClassifiedRepresentatives
+new Mathlib.Basic.Real.Basic import, EuclideanBisectorNull Set.mem_ofPred_eq.
+All four have received compatibility edits; follow-up runner is in flight.
+
+MOST RECENT handle at note creation: exec session 58351 from
+python check-openai-dense-progression-bounded.py. Re-poll EXACT handle with
+write_stdin; do NOT start duplicate build merely because a poll timed out.
+This handle is now CONFIRMED TERMINAL exit1. No candidate build is live.
+Run 58351 completed 55/4136 modules under two direct Lean processes, in 141.594
+seconds. The previous four failures are fixed and passed. New failures are:
+ FiniteGradedBranchPrefixLog: original Finset.prod_le_prod (NATURAL products,
+ one order argument) must use old Finset.prod_le_prod' rather than REAL/nonnegative
+ prod_le_prod (two order arguments). Do not globally conflate these two lemmas.
+ FiniteInversePerturbation: newer Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Invertible
+ import does not exist under current pins. Inspect actual declarations used and
+ port/prove the needed inverse/perturbation API in an attributed compatibility
+ module within the isolated candidate. NEVER patch registered mathlib in place.
+ FormalExpLog: PowerSeries derivative API/log derivative/equality/compositional
+ inverse lemmas differ or are absent under 4.32.2; inspect actual old source and
+ genuine new mathlib proof source before a semantic-compatible port. Compiler
+ logs show synthesized error placeholders called sorry; source itself has NO
+ sorry, and those ERROR outputs are NOT valid proof artifacts.
+ FreimanInverseLift: Multiset map sum/real-or-ZMod cast rewrite in ruzsa model
+ needs exact map composition / cast-of-sum identity; the old simp proof does not
+ use its induction hypothesis as expected. Preserve actual sum statement.
+Inspect ALL four current module logs before editing. Only after fixes and
+confirmed terminal start a NEW check-openai-dense-progression-bounded.py run.
+The current terminal bounded-progress.json is now authoritative for run58351.
+
+For a FUTURE live run, progress/result JSON may describe an older run until the first new
+module finishes; use the real tool handle and new terminal stdout as authority.
+When terminal, inspect bounded-progress.json and all FAILED module logs.
+Runner stops after >=4 actual failures, preserving hashes/logs; fix real
+failures and resume same script only after confirmed terminal. A partial or
+still-running closure never certifies the target. Individual module logs may
+be EMPTY for many seconds during successful Mathlib import/proof elaboration.
+
+Compatibility currently applied from immutable originals:
+Exact-token ite_eq_left/right -> if_pos/if_neg, dite_eq_left/right -> dif_pos/dif_neg;
+suffix _iff theorem names preserved (first naive replacement wrongly changed
+Ne.ite_eq_right_iff; regenerated correctly with identifier boundaries).
+TensorProduct.inductionOn -> induction_on; Finset.prod_le_prod/one old names;
+Measurable.of_eval -> measurable_pi_iff.mpr; old Data.Real/NNReal imports;
+Set.mem_ofPred_eq -> Set.mem_setOf_eq.
+BooleanCubeModeWitness uses actual MvPolynomial.coeff_add in additive row proof.
+BufferedSiteExpansion actual COMPLEX-valued star distance uses Complex.star_def
+and Complex.dist_conj_conj. CappedDistanceReconstruction uses isometry.lipschitz.
+port-openai-dense-progression-api.py always regenerates from originals + recorded
+rules; any additional manual fixes MUST be added to it or separately preserved
+before calling it again. Keep mathematical statements/assumptions unchanged.
+Every candidate edit still needs proof elaboration and later standard-only
+transitive axiom review. Do not disable linters/options or inject instances/axioms.
+
+NEXT:
+Continue current bounded build/fix roots. After complete selected closure builds,
+inspect exact semantic Model target, transitive axioms, hashes/compatibility diffs
+and attribution; ideally all module logs EMPTY. Only then consider importing
+the candidate as an attributed dependency under preserved main pins, with an
+expanded foreign-module audit that actually covers ALL imported sources.
+Do not append unchecked .olean or rely on repository prose/source-scan claims.
+Then prove finite dense AP consequence, fixed-alpha complete block extraction,
+actual original residue-index polynomial/smooth-step transport and proportion
+convergence using unconditional native_no_long_bad_family.
+
+Main independent mathematical progress this turn:
+Hindman168.DenseFixedLengthIntervalBlock proves exact FIXED K full-block
+density >=delta/2 with actual tail <=K and original complete endpoint bound.
+It imports NO OAI module and requires NO finite Szemeredi premise. Its terminal
+registration/audit is round-dense-fixed-length-block when manifest confirms it.
+This supplies a genuine piece of the original density route while candidate
+verification proceeds. No public repo/PR/prize milestone yet.
+
+
+LATEST CONTINUATION, 2026-10-13: THIS SECTION SUPERSEDES PRIOR HANDLE/FIX NOTES.
+Candidate run73517 TERMINAL exit1, 91/4136 modules passed in 212.938seconds.
+Failures FormalExpLog, HorizontalPivotExclusion, LowerTriangularMinor,
+PositiveReconstruction. The last three now PASSED in the current new run.
+
+CURRENT LIVE tool handle: exec session94354, Python bounded checker. Re-poll
+EXACT handle; do NOT launch a duplicate or regenerate candidate sources while
+it is live. A terminal progress JSON may precede confirmed handle completion;
+require actual write_stdin terminal output. Current snapshot is appended below.
+Current run rechecks all old cached modules because recursive source evidence
+was added. Every module result now carries transitive_source_fingerprint:
+SHA256 of its exact source plus ALL recursive OAI dependency fingerprints.
+Thus changes invalidate every affected descendant, not merely direct imports.
+Prior cached records lacking this fingerprint are invalid and genuinely rebuilt.
+Current fixes CONFIRMED pass with EMPTY logs and recursive hash evidence:
+ FiniteGradedBranchPrefixLog: natural prod_le_prod prime;
+ FiniteInversePerturbation: old continuous map IsInvertible API lives in Equiv;
+ FreimanInverseLift: preserve recursive mapped sum and exact Nat.cast_add;
+ HorizontalPivotExclusion: old nonnegative subset-product lemma;
+ LowerTriangularMinor: exact old BlockTriangular OrderDual.toDual definition
+   (IMPLICIT i,j), old lower triangular determinant; label assumptions unchanged;
+ PositiveReconstruction: genuine isometry.lipschitz.comp.
+Global exact Complex.isometry_ofReal.lipschitzWith -> lipschitz also applies to
+other actual complex embedding modules. No main project proof/source changed.
+
+FormalExpLog current failure: nested dot notation resolves the SECOND .subst
+as MvPowerSeries.subst, requiring Unit-indexed substitutions. The latest FIX
+is already SAVED IN port-openai-dense-progression-api.py but NOT APPLIED to
+candidate while current run is live. The calc now uses explicit PowerSeries.subst
+for BOTH nested substitutions. Rational derivative takes explicit coefficient
+TYPE argument; derivative_subst ALSO takes explicit rational type. Existing
+substInvOfIsUnit gives both inverses, proving the original exp/log statement
+without the unavailable newer converse-composition lemma or extra assumptions.
+After current run terminal, apply port script then check FormalExpLog again.
+Original mathematical statement is retained and needs actual compilation.
+
+Whole-candidate missing Mathlib import scan:
+openai-dense-progression-missing-mathlib-imports.json. Future global replacements
+ALREADY saved in port script but not yet applied while current run live:
+ Mathlib.Basic.Complex.Basic -> Mathlib.Data.Complex.Basic;
+ Mathlib.Basic.NNReal.Basic -> Mathlib.Data.NNReal.Basic;
+ Mathlib.Analysis.Normed.Module.Seminorm.Basic -> Mathlib.Analysis.Seminorm;
+ ContinuousLinearMap.Invertible -> Module.Equiv (two additional modules).
+Missing ExteriorPower is a genuine new construction, not a rename.
+Exact upstream source fetched read-only from pinned raw GitHub into
+openai-mathlib-exterior-power-original.lean; author Justus Springer / Apache2.0;
+upstream mathlib commit d13f23b723b8a846827a245b89c10fc7d3f11612;
+SHA256 5b908fd9b2e9f429431b7f38171d6e532bdb1b64f298fb51031c83344a50774a.
+It is a ~170-line Gram-determinant INNER PRODUCT construction on true exterior
+powers, with norm and inner-self/cross formulas, not an axiom or instance bypass.
+All directly imported old Mathlib modules exist. Its actual compatibility
+under current pins is NOT yet verified.
+prepare-openai-exterior-power-compatibility.py is SAVED, NOT RUN. After current
+checker terminal, run it ONCE/idempotently, then port script. It copies this
+attributed source to OAI.Compatibility.MathlibExteriorPower and adds its exact
+source/provenance to the candidate manifest (4137 total thereafter). The port
+script has explicit immutable_original_path handling for this mathlib source
+and changes CoordinateMinorCovolume import to the attributed compatibility
+module. Do not port shared Mathlib in place. Compile the added module and
+repair using actual old APIs; record every edit in reproducible port script.
+NEVER rerun prepare-openai-dense-progression-candidate.py (overwrites all ports).
+
+Main recheck this turn: round-dense-fixed-length-block-audit.py recheck PASSED,
+2642 own +9 PNT+, 6615 jobs,10392 axiom reports; EVERY old registered proof hash
+and axiom set retained, standard axioms only, final target NOT proved.
+No additional main proof module in this candidate-focused turn. Candidate is
+NOT imported by main. Full selected closure/target/axiom audit still incomplete.
+No unavoidable obstruction established; goal stays ACTIVE; publication and
+prize application milestones not reached. Next main mathematical route remains
+fixed-K dense AP -> actual residue/source/smooth transport -> original uniform
+rough exceptional proportion, then GTZ correlation / cube / Alignment / finalFSFP.
+
+CURRENT SNAPSHOT (read real handle for later updates):
+{
+  "classification": "CANDIDATE ONLY; not a certified project dependency",
+  "terminal": false,
+  "completed": 111,
+  "total": 4136,
+  "failures": [
+    "OAI.Combinatorics.Progressions.Estimates.FormalExpLog",
+    "OAI.Combinatorics.Progressions.Estimates.RationalHeight",
+    "OAI.Combinatorics.Progressions.Estimates.RealSubquotientEquiv"
+  ],
+  "elapsed_seconds": 626.2970000000205,
+  "max_parallel_lake_processes": 2,
+  "toolchain": "4.32.2"
+}
+
+ADDITIONAL CURRENT-RUN FAILURES / PENDING FIXES:
+ RationalHeight NATURAL denominator-product bounds use prod_le_prod prime;
+   both exact calls fixed in saved port script, not yet applied to live sources.
+ RealSubquotientEquiv.realification_prod: old TensorProduct.induction_on requires
+   explicit ZERO case. Saved module-specific port inserts zero=>simp (map_zero),
+   leaving scalar/simple-tensor and sum cases and statement unchanged.
+Both genuine errors inspected. Fixes need actual Lean verification after the
+LIVE session94354 finishes. Source edits during live compilation remain avoided.
+Latest snapshot:
+{
+  "classification": "CANDIDATE ONLY; not a certified project dependency",
+  "terminal": true,
+  "completed": 133,
+  "total": 4136,
+  "failures": [
+    "OAI.Combinatorics.Progressions.Estimates.FormalExpLog",
+    "OAI.Combinatorics.Progressions.Estimates.RationalHeight",
+    "OAI.Combinatorics.Progressions.Estimates.RealSubquotientEquiv",
+    "OAI.Combinatorics.Progressions.Estimates.TensorContraction"
+  ],
+  "elapsed_seconds": 758.563000000082,
+  "max_parallel_lake_processes": 2,
+  "all_modules_built": false,
+  "selected_target_built": false,
+  "standard_axiom_audit_done": false,
+  "main_project_dependency": false
+}
+
+LATEST HANDLE/STATE OVERRIDE AFTER ABOVE NOTES:
+Session94354 CONFIRMED TERMINAL exit1: 133/4136,758.563seconds, failures
+FormalExpLog, RationalHeight, RealSubquotientEquiv, TensorContraction.
+ALL FOUR inspected and reproducible fixes now APPLIED from immutable original
+via port script. TensorContraction gets its THREE genuine old zero induction
+cases (simp from map_zero/zero multiplication), no assumptions changed.
+The future import path replacements described above are also NOW APPLIED.
+prepare-openai-exterior-power-compatibility.py WAS RUN; manifest now 4137,
+including attributed MathlibExteriorPower and supplemental exact provenance.
+
+FormalExpLog focused actual Lean check: session69054 TERMINAL exit0, EMPTY output.
+Correct explicit PowerSeries.subst nested calc proves original exp/log inverse.
+Its final source still needs bounded closure result/axiom audit below.
+MathlibExteriorPower focused check: sessions17926/36107 showed genuine missing
+orthonormal Gram identity. Added public Matrix.gram_eq_one_iff_orthonormal for
+REAL inner-product spaces, proved entrywise by old orthonormal_iff_ite;
+no axiom, no assumption or instance bypass. Full source construction by
+Justus Springer remains attributed. Session final70724 TERMINAL exit0 EMPTY,
+with ACTUAL .olean output after creating missing output directory. The previous
+36107 failed and the later directory-write failure were not successful artifacts.
+Its new compatibility proof is recorded in port script so regeneration preserves
+it. Supplemental module still needs bounded closure record and transitive axiom
+review; focused success is NOT full dense-AP dependency certification.
+
+NEW CURRENT LIVE handle: exec session92463, checker restarted AFTER ALL earlier
+sessions terminal, port regeneration terminal and focused sessions terminal.
+Two actual Lean workers at most. Re-poll this EXACT handle; NO duplicate build.
+Previous progress JSON may remain terminal133/4136 until first new job finishes.
+Current graph actually has4137 and recursively hashes the added compatibility
+source, invalidating all affected descendants. Full selected Conclusions target
+is still UNVERIFIED/NOT imported by main, and standard-axiom audit unfinished.
+NEXT: inspect real terminal result, fix all new failures, resume only after
+terminal. Preserve provenance, current pins, and old registered proof hashes.
+No main proof additions in this candidate-verification turn. Main retained audit
+PASSED. Goal ACTIVE, StrongConjecture UNPROVED, no unavoidable obstruction,
+publication/PR/prize milestones still not reached.
+Session92463 latest:143/4137 passed, LIVE. RealSubquotientEquiv zero case reduces to 0=(0,0); final proof needs simp only [map_zero];rfl. This exact fix SAVED IN PORT SCRIPT but NOT APPLIED while run live. FormalExpLog, RationalHeight, TensorContraction now passed via bounded recursive evidence; do not call missing zero case an obstruction.
+
+LATEST AUTHORITATIVE OVERRIDE, 2026-10-13, round-native-original-proportion:
+No old full-archive candidate session above is active in this continuation.
+The full 4137-module quantitative reciprocal-sum archive is NOT certified.
+The genuine minimal FINITE Szemeredi closure has now been selected, ported,
+compiled, axiom-audited and separately vendored in
+dependencies/openai-finite-szemeredi (42 modules). Its original integer AP
+extraction and independent author statement bridge were verified. Main OAI
+library uses ONLY this minimal directory. Standard-only transitive target
+axioms, source/port/license provenance and main-pinned builds are recorded in
+openai-finite-szemeredi-certification.json and the minimal SOURCE-MANIFEST.json.
+Recorded unnecessarySeqFocus tactic-style lints are retained, not suppressed.
+API fixes close actual reflexive goals and retain original assumptions.
+Do NOT restart or infer full success from obsolete handles above.
+
+The finite dense AP input now composes with actual fixed-K tail selection,
+literal original source substitution, genuine smoothness/coprimality and exact
+signed/natural residue-index/ceil geometry. UNCONDITIONAL native original
+complex non-strict exceptional-proportion convergence is now proved.
+Terminal full author audit: 2654 own +9 PNT+ +42 attributed Szemeredi modules,
+6681 build jobs, 10422 selected standard-only transitive axiom reports.
+Main pins and all old registered proof sources/axiom sets retained.
+See NATIVE-ORIGINAL-ROUGH-PROPORTION-CONTINUATION.txt for actual next work.
+StrongConjecture UNPROVED; goal ACTIVE; no unavoidable obstruction established;
+public repository/PR/prize milestone not reached. Author checks are not
+independent replay or external peer review.

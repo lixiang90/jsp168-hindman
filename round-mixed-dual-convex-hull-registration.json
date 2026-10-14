@@ -1,0 +1,68 @@
+{
+  "baseline_hash_count": 1085,
+  "modules": [
+    "Hindman168/MixedDualConvexHull.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedDualHull",
+    "Hindman168.convex_finiteHaarMean_mem",
+    "Hindman168.subgroupMixedDualFunction_mem_hull",
+    "Hindman168.subgroupMixedDualFunction_product_mem_hull",
+    "Hindman168.subgroupMixedDualHull_mul_mem",
+    "Hindman168.subgroupMixedDualHull_abs_le_one",
+    "Hindman168.subgroupMixedDualHull_correlation_le_gowers",
+    "Hindman168.subgroupMixedDualHull_one_mem",
+    "Hindman168.subgroupMixedDualHull_prod_mem",
+    "Hindman168.subgroupMixedDualHull_translate_mem",
+    "Hindman168.weighted_mixedDualHull_correlation_le_gowers"
+  ],
+  "theorem_count": 10,
+  "declarations": {
+    "Hindman168/MixedDualConvexHull.lean": [
+      [
+        "def",
+        "subgroupMixedDualHull"
+      ],
+      [
+        "theorem",
+        "convex_finiteHaarMean_mem"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_mem_hull"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualFunction_product_mem_hull"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_mul_mem"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_abs_le_one"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_correlation_le_gowers"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_one_mem"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_prod_mem"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_translate_mem"
+      ],
+      [
+        "theorem",
+        "weighted_mixedDualHull_correlation_le_gowers"
+      ]
+    ]
+  }
+}

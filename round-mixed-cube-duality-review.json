@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous round rechecked and retained proof hashes preserved.",
+    "The new cube and punctured dual are actual finite subgroup Haar averages. The anchor correlation identity follows from the verified reflection change of variables.",
+    "The dual excludes exactly the selected vertex, so it does not depend on that vertex function. Its unit bound requires only the other vertices to be unit-bounded.",
+    "The single-vertex replacement estimate allows unbounded anchor functions and bounds the absolute mixed cube change by their Haar L1 difference.",
+    "The weighted replacement estimate retains the supplied nonnegative normalized probabilities and gives squared aggregate error bounded by weighted squared L2 change. It uses the existing weighted Cauchy-Schwarz theorem.",
+    "Two definitions and five theorems are individually audited. These estimates do not assert higher-order concatenation or Bessel, and the principal target remains unproved."
+  ],
+  "new_modules": [
+    "Hindman168/SubgroupMixedCubeDuality.lean"
+  ],
+  "verified": {
+    "project_modules": 1058,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1067,
+    "source_config_hashes": 1076,
+    "build_jobs": 5012,
+    "axiom_reports": 5009,
+    "new_theorems": 5,
+    "new_definitions": 2,
+    "new_instances": 0,
+    "new_axiom_reports": 7,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The common-system master estimates, first-order Bessel, dual energy reduction, recursion and stability are proved. Actual dual functions now have a common finite empirical approximation preserving arbitrary cell probabilities, unit bounds and uniform bounded-test correlations. Exact arbitrary-vertex reflection of the actual subgroup cube law and mixed products is now proved. Mixed cubes now have exact arbitrary-vertex duality and weighted single-vertex replacement estimates. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

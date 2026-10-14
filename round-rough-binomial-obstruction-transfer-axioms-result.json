@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.063000000081956,
+  "log": "round-rough-binomial-obstruction-transfer-axioms.txt",
+  "log_sha256": "280b6942a087d1b79a6ab2d853ce251cc0c154a3e1d039007d539b2f895d157b"
+}

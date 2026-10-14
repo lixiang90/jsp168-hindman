@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2823,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6850,
+    "selected_axiom_reports": 10990,
+    "new_declarations": 42,
+    "new_theorems": 28,
+    "new_definitions": 13,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/SequentialCircleFailure.lean",
+    "Hindman168/RationalLocalFunctionalExtension.lean",
+    "Hindman168/NativeSubgroupLevelCharacters.lean",
+    "Hindman168/NativeTaylorCorrectionRecovery.lean",
+    "Hindman168/NativeSequentialBinomialFactors.lean",
+    "Hindman168/NativeSequentialDescentStep.lean",
+    "Hindman168/NativeSequentialFiniteDescent.lean",
+    "Hindman168/NativeSequentialScaledLimits.lean",
+    "Hindman168/NativeSequentialConvergentDescent.lean",
+    "Hindman168/NativeSubgroupCompactNormalization.lean",
+    "Hindman168/NativeCompactSequenceLimits.lean",
+    "Hindman168/NativeSequentialAdaptedFactorization.lean",
+    "Hindman168/NativeOriginalSequentialFactorization.lean"
+  ],
+  "proved_components": [
+    "Actual failure of escape to infinity yields ONE bounded strictly increasing subsequence. Nearest integers give the EXACT real integer/error decomposition and bounded scaled error, retaining cofinal original lengths. No subsequence or decomposition is supplied as an oracle.",
+    "Local rationality of a real functional on an ORIGINAL rational layer is extended to the ENTIRE original lattice rational form, with EXACT unchanged values on that layer. Geometric level characters kill the next layer and all required positive bracket terms; genuine rational extensions retain their nonzero restrictions and all actual Taylor coefficient values.",
+    "Failure of ACTUAL all-level irrationality now PRODUCES a fixed rational pivot, ONE smaller actual rational subgroup filtration, a strictly increasing subsequence, one bounded scaled error, actual unbounded integer coefficients, genuinely corrected weighted normalized sources, strict dimension decrease and exact ALL-real left/source/right factorization. All geometric and source correction inputs of the earlier one-step theorem are DERIVED.",
+    "Genuine well-founded induction on total positive-layer dimension PROVES finite sequential descent. ONE final rational filtration is included in EVERY original layer, and ALL original rational level-character escape limits hold simultaneously, including nonzero rational multiples. The finite correction count plus final dimension is at most the original dimension sum. Left corrections accumulate chronologically and right corrections in reverse, with no unbounded rational conjugation of accumulated smooth factors.",
+    "ONE actual further subsequence makes every scaled real correction coefficient in the finite list converge simultaneously, while retaining all-character irrationality and exact all-real identities. Empty correction lists and every original terminal index are covered. Neither raw Taylor coefficients nor integer corrections are bounded.",
+    "Initial compact normalization is constructed for ANY actual adapted source inside its original rational subgroup, using genuine compact representatives relative to the SAME specified lattice. Actual right lattice factors, normalized zero values, original adaptation and all-real group recovery are proved. Compact constants have an actual convergent subsequence through the ORIGINAL native exponential homeomorphism, without a new metric or first-countability assumption on arbitrary groups.",
+    "For EVERY original cofinal real length sequence and arbitrary actual adapted native polynomial sequence, the full ALGEBRAIC sequential factorization is now PROVED with a fixed final rational filtration, ALL level-character limits, bounded finite correction list, convergent compact constants, simultaneous scaled-coefficient limits and exact ALL-real original group identities. A genuine cofinal positive tail removes any all-indices-positive-length premise.",
+    "The algebraic sequential factorization is instantiated at the EXACT ORIGINAL lower-central Lie filtration with terminal index s for ALL genuine original left-linear orbit sequences, including the actual original heterogeneous joint native group. No degree-dependent stretch or step enlargement is used. Local uniform smooth-function limits/derivative bounds and bounded rational periodicity are NOT yet proved, so the complete paper factorization lemma and StrongConjecture are not claimed."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual sequential bounded-error selection, local-to-global rational character extension, fixed rational pivot/source correction, genuine dimension-based finite descent with ONE final filtration and ALL rational-character limits, simultaneous scaled-coefficient limits, initial compact original-lattice normalization, convergent compact constants and exact ALL-real ALGEBRAIC factorization are now proved for arbitrary original cofinal length/adapted source sequences, and instantiated at the original step-s lower-central LINEAR orbit. Remaining: actual locally uniform smooth-factor limits and first-derivative bounds from the scaled binomial factors; a common bounded rational period and sequence-selected finite residue representatives for the TRUE signed-integer right factors; then full section-7 sequential factorization and local cube-Haar laws through ORIGINAL s+1, sequence-before-locality limits, projected Haar face invariance/full-support coset symmetry and actual joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse at sufficient native step; final positive distinct rapidly separated SAME-color nonempty FS AND FP. NativeSequentialBinomialFactor contains only raw order/vector/scalar/integer data; no factorization, bound, convergence or irrationality is a field. Actual factor admissibility and all factorization/limit propositions are PROVED by constructors and well-founded induction, not inserted as premises. Neither raw Taylor coefficients nor integer corrections are assumed bounded. Author build/hash/axiom/source checks are not independent kernel replay or external peer review. No unavoidable obstruction, explicit delta-power law or other-marginal invariance is claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-sequential-finite-descent-mathematical-review.txt",
+  "mathematical_review_sha256": "c715ab8c115e4e2c138b59b02f3eeaf3b56bf43cf8da444daafd8113c2141272",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

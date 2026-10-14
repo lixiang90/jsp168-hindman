@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 301,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/FiniteWeightedMomentProducts.lean",
+    "Hindman168/PredictionProductClipping.lean",
+    "Hindman168/MasterDualWeightedLaw.lean",
+    "Hindman168/MasterMixedDualClipping.lean",
+    "Hindman168/FiniteCenteredLimitTransfer.lean",
+    "Hindman168/MasterClippedDualProductLimit.lean",
+    "Hindman168/MasterFiniteClippedTemplateLimit.lean",
+    "Hindman168/UniformAdmissibleInputLimit.lean",
+    "Hindman168/MasterUniformClippedDualProducts.lean"
+  ],
+  "new_selected_report_count": 20,
+  "module_report_counts": {
+    "FiniteWeightedMomentProducts": 5,
+    "PredictionProductClipping": 2,
+    "MasterDualWeightedLaw": 4,
+    "MasterMixedDualClipping": 1,
+    "FiniteCenteredLimitTransfer": 3,
+    "MasterClippedDualProductLimit": 1,
+    "MasterFiniteClippedTemplateLimit": 2,
+    "UniformAdmissibleInputLimit": 1,
+    "MasterUniformClippedDualProducts": 1
+  },
+  "application_review": [
+    "Under the actual unnormalized weighted law, weighted Cauchy--Schwarz derives every fixed product moment from single-factor moments and derives a vanishing L1 product from a vanishing L2 factor and a bounded L2 factor.",
+    "A finite telescoping product proves vanishing weighted mixed-product clipping error, including the empty product, without assuming any product moment or independence.",
+    "The actual original weighted harmonic root mass tends to two and is eventually at most three; original normalized single-dual moments give each factor a bounded weighted moment class.",
+    "Original normalized mixed local dual products with different dimensions, prime arities, denominators and valid gaps retain vanishing weighted clipping error under one fixed master and explicit polynomial inclusion conditions.",
+    "Using |nu-1|<=1+nu, the actual derived mixed clipping estimate transfers the original centered root product limit to its clipped product, including zero replicas.",
+    "The clipping threshold is monotone in dimension. One fixed threshold above A_d applies to any stage-wise choice from a fixed finite family of original profiles.",
+    "Arbitrary admissible sequence convergence implies qualitative uniform vanishing by selecting a bad input whenever one exists. This is instantiated for original clipped dual products, uniformly over finite profiles and all simultaneously admissible input families under fixed master/template/gap/J data. No quantitative rate or dense-model conclusion is claimed.",
+    "All weighted root-mass, single-factor moment and clipping inputs in the mixed application are derived from previously proved actual-law theorems; no desired product bound or clipping limit is supplied.",
+    "The original separately conditioned local prime laws, their own designated denominators, shifts, quotient lengths and coefficients remain unchanged.",
+    "The fixed original master family, arity and polynomial list do not depend on replica count or profile. Concrete original correlation polynomial template construction and fixed-list membership are still explicit inputs.",
+    "The uniform conclusion ranges over all simultaneously admissible profile input families with the fixed admissible template/gap/J data. Extending arbitrary single-profile inputs by zeros has not been separately formalized; no uniform quantitative rate is asserted.",
+    "Uniformity follows by applying the actual finite-profile clipped limit to every chosen sequence of epsilon and vertex tests; it is not a generic supplied-limit bridge presented as a concrete proof.",
+    "Signed convex combinations, polynomial approximation, closed convex hulls, separation/minimax, dense models, Prediction/Alignment and the final StrongConjecture proof remain unfinished.",
+    "StrongStatement.lean is unchanged; StrongConjecture remains a named proposition, and strong_implies_subtype requires it as a hypothesis.",
+    "All 301 baseline hashes were revalidated unchanged before registration. Only root imports and the exact-name registry changed among retained hashed files. Runtime, dependency and attributed PNT+ files remain unchanged."
+  ],
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4154,
+    "project_modules": 292,
+    "pntplus_modules": 9,
+    "source_scan_modules": 301,
+    "axiom_reports": 1538,
+    "source_config_hash_count": 310,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "Construct and instantiate the original correlation template polynomial families, response polynomials, minors and fixed-master inclusions, including the extra zero-prime constant-modulus type. Mixed-product clipping and finite-profile uniform clipped correlations are now proved under explicit fixed master/template, gap and law inputs. Finish signed convex-combination polynomial expansions, uniform polynomial correlations, closed-hull continuity, finite-dimensional separation/minimax and bounded dense models, followed by clipped-to-original test transfer. Complete concrete block/gap and correlation row/direction/integrality/denominator data, Prediction/Alignment, required nilsequence/inverse-theorem/cube-law inputs, diagonal test choices and final witness extraction/separation. Real-exponent clipping extensions remain unproved if the exact statement needs them. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit as authorized by the user. No unavoidable blocker is established."
+}

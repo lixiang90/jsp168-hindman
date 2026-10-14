@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 37.875,
+  "log": "round-native-periodic-factorization-build.txt",
+  "log_sha256": "af147d9ab6be9b5524ce04f1f4e9d0fd8e5925508c3dbe0549eb54ef5087856b"
+}

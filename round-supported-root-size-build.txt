@@ -1,0 +1,3 @@
+✔ [4267/4268] Built Hindman168.HarmonicSupportedCoordinates (11s)
+✔ [4268/4268] Built Hindman168.PolynomialAffineSizeBounds (11s)
+Build completed successfully (4268 jobs).

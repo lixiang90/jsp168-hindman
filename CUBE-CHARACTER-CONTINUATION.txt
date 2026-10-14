@@ -1,0 +1,85 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+No unavoidable obstruction established; public repository/PR/prize pending.
+Use verification-manifest.json and CURRENT-STATUS.txt for TERMINAL status.
+
+round-native-cube-character adds seven modules after round-native-cube-haar.
+UpperFaceCharacterBracket: finite_face_split D a b for cardD<=a+b gives
+A,B subsets of D, union D, cardA<=a,cardB<=b. A chosen with cardinality
+min(a,cardD), B=D\A. upper_face_character_bracket derives chi(faceD [x,y])=0
+from killing cube-layer-zero brackets, for x in F_a and y in F_b.
+UpperFaceCharacterMaximal: span detects a nonzero face, then finite maximum
+over ALL faces and levels selects j>=1, j<=ell, face A with cardA<=j and
+nonzero F_j restriction. All higher k and ALL faces B with cardB<=k vanish
+on F_k. Empty face handled by F0=F1; beyond ell by actual terminal zero.
+
+NativeCubeArrayFunctional: nativeCubeLieModelMap D F d n e is embedding
+codRestrict to actual cube native model, proved surjective from range.
+nativeCubeArrayFunctional D F d n e chi extends internal functional via
+finiteRealSubmoduleRetraction of actual product cube model, composed with
+FULL nativeCubeArrayEmbedding. Agrees on every cube Lie array. Nonzero on
+actual cube-layer-zero if chi nonzero. native_cube_lie_model_bracket is
+exact internal adjoint-differential identity with the actual Lie bracket.
+
+NativeCubeHorizontalArray: genuine RoughNativeHorizontalFunctional on
+nativeRationalCubeData yields bracket annihilation on ALL cube-layer-zero
+arrays. native_cube_lie_model_rational proves internal rational membership
+from coordinatewise ORIGINAL Q-log-span, using actual product rationality
+and native_cube_inclusion_rational_iff. Integrality on the ACTUAL internal
+lattice proves rational values of the array functional on those arrays.
+
+NativeCubeFaceLevelCharacter: nativeCubeFaceFunctional is array extension
+composed with actual upperFaceLieArray A. native_cube_horizontal_face_maximal_level
+produces j in 1..ell, A.card<=j and a genuine NativeSubgroupRationalLevelCharacter
+D F j of this functional, plus all-face higher-level vanishing. Nonzero,
+next-layer kernel, every mixed positive a+b=j bracket, and original rational
+form are all DERIVED. No horizontal/face/character oracle or field added.
+
+NativeResidueCubeLevelCharacter: native_conjugate_subgroup_level_character_iff
+uses actual rational conjugate log-span equality, transporting full level
+character predicate in BOTH directions. nativeResidueCubeFaceFunctional
+applies nativeCubeFaceFunctional to nativeConjugateNilmanifoldData D rho
+and SAME-layer nativeConjugateSubgroupFiltration. Actual residue cube
+horizontal functional then yields ORIGINAL rational level character plus
+all higher-face vanishing. rho only ambient rational; degree/step original.
+
+NativeResidueCubeFaceEscape: native_residue_cube_face_taylor_escape connects
+the preceding theorem to SAME-source NativeSubgroupSequentialIrrational.
+For the selected j,A, every nonzero q in Q makes
+L(m)^j * || q * phi(Taylor_j(p_m)) / (j-cardA)! mod 1 || tend to infinity.
+Uses the genuine level character multiplied by q/(j-cardA)!; denominator
+positive and no normalization loss. This is scalar Taylor escape ONLY.
+Actual polynomial coefficient identification and no-cancellation are NOT
+yet proved and must not be inferred from this theorem.
+
+Lean aliases: GroupLieAlgebra D.I D.G defeq D.E, but expression [x,y] with
+x:D.E fails instance synthesis even with type annotations. Obtain equality
+by composing nativeLieAdjointGenerator_eq_native_bracket.symm and applied
+nativeLieAdjointGenerator_eq_differential, without a declared [x,y] type.
+Exact equality chains and congrArg avoid alias transparency failures.
+
+Next concrete work: Boolean/binomial polynomial expansion and isolated
+coefficient, then actual source cube adaptation. Useful possible route:
+use Option(Fin d) variables, none=b0, some k=bk. Define increment support
+of a monomial m by univ.filter (m(some k)!=0). Group polynomial monomials
+by exactly that increment support (sum over p.support filtered by support
+=A). Prove coefficient formula is if incrementSupport(m)=A then coeff m p
+else 0, then sum over faces recovers polynomial. This avoids an assumed
+Boolean expansion. Need exact support and degree bounds for each part.
+Apply to scalarBinomialPolynomial j evaluated at sum of all variables,
+and recover vertex restrictions by setting absent increments to zero.
+Mathlib Algebra/MvPolynomial/Coeff.lean has coeff_sum_X_pow_of_fintype:
+coeff m ((sum i,X i)^j)=if sum exponents=j then m.multinomial else0.
+Use monomial b0^(j-cardA)*product bk on A; multinomial gives j!/(j-cardA)!.
+The binomial top coefficient is already proved by
+scalar_binomial_polynomial_top_coefficient in NativeSubgroupTaylorTopCoefficient.
+Lower Taylor orders cannot contribute to total degree j; other face parts
+cannot contribute because increment support must exactly equal A; higher
+orders vanish by the now-proved all-face tail property. Need prove all of
+this for the ACTUAL ordered Taylor product using horizontal scalarization.
+
+Further remaining: simultaneous local cube laws through ORIGINAL s+1 with
+length before locality; projected face invariance/full support and joint
+lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR
+nilsequence inverse; final positive distinct rapidly separated SAME-color
+ALL nonempty FS AND FP. Author audit is not independent kernel replay or
+external peer review. Full goal unchanged; no final theorem or barrier.

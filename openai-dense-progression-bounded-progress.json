@@ -1,0 +1,13 @@
+{
+  "classification": "CANDIDATE ONLY; not a certified project dependency",
+  "terminal": false,
+  "completed": 322,
+  "total": 4137,
+  "failures": [
+    "OAI.Combinatorics.Progressions.Linear.BasisGradedCoordinateBasis",
+    "OAI.Combinatorics.Progressions.Estimates.FreeLieTreeCoefficientBounds"
+  ],
+  "elapsed_seconds": 298.0470000000205,
+  "max_parallel_lake_processes": 2,
+  "toolchain": "4.32.2"
+}

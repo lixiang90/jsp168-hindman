@@ -1,0 +1,58 @@
+JSP-000168 / Erdos #172, 2026-10-14. Partial overall coverage.
+Author checking, not independent replay or external peer review.
+
+The pinned source rough residual corollary requires a true jointly
+logarithmically polynomial native source, and Alignment supplies actual
+exposed polynomial arrays. A scalar coefficient log cannot simply be
+renamed as the native global log. This missing connection is now proved.
+
+Singleton-chart differential is genuinely identity in the original normed
+model. The original exponential arrays obey the ray subgroup law at ALL
+integer array evaluations, which faithfully determine the actual group.
+Zero velocity and ODE uniqueness identify the original coordinate
+homeomorphism with native exponential; native log is its genuine inverse.
+The coefficient/log linear equivalence therefore gives the actual native
+coordinate relation, with no compatibility assumption.
+
+The old array nilmanifold wrapper tied its index and model universes.
+The new genuine construction allows actual small finite array indices
+and ANY original native model universe: it reuses the same original
+array Lie group, discrete pointwise lattice, compact quotient, step and
+compatible metric recipe. Explicit class bindings contain only those
+already proved canonical structures; no custom instance declaration or
+compiler option is introduced. Typed coefficient/value interfaces expose
+the same actual groups/modules, not replacement models.
+
+The fixed finite basis of the actual native array model assembles the
+EXISTING genuine scalar exposed joint-log polynomials into a finite list
+vector polynomial. Basis reconstruction proves all coordinates together;
+the uniform degree ((s*s+1)^(s+1))*max(1,T.card) survives, independent of
+coefficients/w/samples. Genuine exposure-key equality freezes the source.
+The exponential extension is real-log polynomial by the proved native
+log/exponential identity, and at every permitted original cube sample
+its value is exactly the original canonical cube array. This latter
+identity is essential and is proved, not inferred from extension values.
+
+Linear substitution leaves spatial variables untouched, exposes removed
+factor j as parameter none, and replaces ALL other factors by their
+literal frozen values. Total degree cannot increase. Genuine variable
+evaluation gives Function.update of exactly that parameter. The dummy
+frozen value at j is ignored; update invariance is proved. Explicit
+DecidableEq binders only reconcile actual Fin equality enumeration with
+generic updates; all such equalities are proved without new instances.
+The actual single-factor native source is then assembled from this
+restricted polynomial. Its sample identity uses the actual cube vector
+evaluation and update_eq_self, retaining original hypotheses. Spatial
+x=a+q*y composition gives normalized polynomial and all-real log packet
+at the original degree; q and a stay fixed while removed factor varies.
+No gcd(q,t), source/log packet or comparison bound is assumed.
+
+Remaining source work is accurately separated: heterogeneous finite
+JOINT array model/observable synthesis, coordinate indexing, actual
+retained residue, geometry range, bad-event inclusion and conditional
+application. The GTZ interval correlation inverse is still independent
+and unproved. No completed Alignment or StrongConjecture is claimed.
+Preserve all registered old proofs, axioms and main pins; no sorry,
+custom axiom, native/unsafe shortcut or option/instance bypass.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual single-model exposed/removed-factor native sources, uniform degree bounds, normalized residual log packets and original sampled-array identities are proved, together with earlier unconditional native rough proportions, all-anchor master-window caps and actual posterior Fubini domination. Remaining: assemble finite JOINT native source/observable families and exact spatial coordinate reindexing; derive actual retained coarse residue, bounded scale-range and bad-event inclusion; instantiate conditional fiber caps and synthesize Alignment; separately prove arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse; full cube synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 395,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/RootSmoothedAdditiveRows.lean",
+    "Hindman168/RootSmoothedAdditiveResidues.lean",
+    "Hindman168/PolynomialRootSmoothedRows.lean",
+    "Hindman168/MaskRootSmoothedArithmetic.lean",
+    "Hindman168/MaskOriginalRootTranslation.lean",
+    "Hindman168/MaskOriginalRootSmoothing.lean",
+    "Hindman168/MaskOriginalRetainedRootSmoothing.lean",
+    "Hindman168/MaskOriginalSmoothedTerminal.lean"
+  ],
+  "new_selected_report_count": 43,
+  "module_report_counts": {
+    "RootSmoothedAdditiveRows": 6,
+    "RootSmoothedAdditiveResidues": 4,
+    "PolynomialRootSmoothedRows": 6,
+    "MaskRootSmoothedArithmetic": 4,
+    "MaskOriginalRootTranslation": 7,
+    "MaskOriginalRootSmoothing": 6,
+    "MaskOriginalRetainedRootSmoothing": 5,
+    "MaskOriginalSmoothedTerminal": 5
+  },
+  "application_review": [
+    "All 395 prior source/config hashes were revalidated before registration. Only Hindman168.lean imports and Verification.lean exact-name reports changed. All old proof files, StrongStatement.lean, nine attributed PNT+ sources and dependency/runtime pins remain unchanged. The previous and current goal turns are PROGRESS.",
+    "RootSmoothedAdditiveCopy adds an independent Bool root branch to each old canonical copy. The branch is required to be false on target copies, because the actual root direction annihilates that row. It therefore excludes duplicate target forms rather than assuming them independent. The target-copy map is injective, and the enlarged family and column dimensions obey proved fixed bounds.",
+    "The enlarged coefficient array keeps all original base and additive-branch columns and adds two independent root columns. Its exact dot-product is the old translated form evaluated at z+u_root*v0; both the sum-type and Fin-indexed arrays are identified without taking any averaging limits.",
+    "For distinct old copies, restricting a linear relation to old columns reduces it to the already proved old pair independence. For the same old copy with different root branches, canonical target-branch fixing proves the base is non-target. Its unit root response appears in one branch column and is zero in the other row; the existing primitive row then proves independence. The zero-response case is explicitly excluded rather than hidden in a coefficient bound.",
+    "PolynomialRowFamily.rootSmoothedIntegerCoefficient and its Fin reindexing are defined at every prime tuple using the actual normalized integer row and actual rootIntegerTranslation. On a generated additive certificate they equal the generic root-smoothed data exactly. The actual anchor-unit theorem proves primitive rows for every prime p<=V without any rough-prime catalogue-avoidance premise.",
+    "The actual generated integer-row direction certificate supplies non-target unit root responses at rough primes outside the same original finite nonzero polynomial catalogue. This yields pair independence for every pair of distinct enlarged copies. Failure of that independence forces a zero of a polynomial in that unchanged catalogue; no new exception family is introduced.",
+    "MaskRootSmoothedArithmetic derives eventual primitive rows and pair independence on the original supported good-prime tuples from maskGenerated_chain_integer_row_directions and maskGenerated_additive_elimination_data. These desired certificates are not new premises. The family has at most 2*(B_m+1)*2^B_m rows and at most (m+1)+2*B_m+2 columns, where B_m=maskRowCountBound m.",
+    "The root direction and shift use the actual generated rootIntegerTranslation. rootMass is the actual uniform probability interval [0,R), where R is the original master gap. Its positivity and normalization are derived for every w from actual master gap positivity. Every supported root sample has natural absolute value at most R.",
+    "Actual generated root_W divisibility makes every root-shift coordinate a primorial W multiple on original good tuples. Actual uniform integer direction bounds give the cap R*(pool upper+V)^E_m on the full supported displacement. The varying original pivot cutoff dominates samplingSize(W,0,cap,V) by the proved earlier-polynomial translation growth and gap-before-pivots ordering.",
+    "Using the actual integer coefficients, the root target response is proved zero on the original good tuples. Therefore normalized target forms, and every centered target-cube factor for arbitrary source tests, are unchanged by the actual root translation. This is proved for every z, cube sample and integer root sample; no support restriction is needed for the invariance identity.",
+    "rootErrorCap is the explicit sum of harmonic translationError at the m+1 actual pivots for the supported root cap. Each actual coordinate L1 translation error is bounded by it. It is eventually nonnegative and RapidlySmall at the original auxiliary budget V, derived from actual sampling growth rather than supplied as an assumption.",
+    "The originalTestAverage and rootSmoothedAverage use the unchanged normalized outside law. Exact finite Fubini moves root sampling outside the original base average. Actual conditioned-prime normalization, original base probabilities and root probability yield an error bound V^q*rootErrorCap for every test with the stated polynomial bound. Its rapid decay absorbs every fixed polynomial loss.",
+    "The complete actual G*Psi terminal integrand is identified with the flat product over every old canonical copy: the centered root source function on target copies and the original row majorant on non-target copies. No retained factor is dropped. Actual centered-root/off-target function bounds, tail-before-gap ordering and canonical copy count give its sup bound V^(2*(B_m+1)*2^B_m), depending only on m.",
+    "The actual paired additive direction law is a probability on every tuple after the original event completion. Averaging the complete terminal product in that law preserves the derived sup bound. Applying the actual root-error theorem gives rapid decay for the entire terminal average difference without adding a desired product bound or desired error-smallness as a source premise.",
+    "smoothedRetainedMajorant is the actual root expectation of the full retainedMajorant, and remains nonnegative. Target-cube root invariance and finite Fubini prove the smoothed terminal average is exactly E G H, H=E_root Psi. Neither the original prime law, base law nor conditional additive branch law is resampled or replaced.",
+    "The difference between the actual smoothed and original terminal averages is RapidlySmall, and V^q times its absolute value tends to zero for every fixed natural q. Combining this with the audited actual insertion-power error yields the original unshifted recurrence ending at D_m*abs(E G H)+e(w). The composed e(w) is the actual previous insertion error plus D_m times the actual smoothing difference; its convergence is proved, not assumed. D_m remains independent of J.",
+    "The root-smoothed coefficients and finite algebra do not yet establish the enlarged sampling law, the exact B/BH/BH^2 subsystem counts or their three mixed moment limits. In particular H is not replaced by 2^t, and the weighted second-moment cancellation remains pending. No full analytic elimination, full StrongConjecture proof or prize eligibility is claimed.",
+    "The original positive rational scales, bounded chain blocks, tail-before-gap and gap-before-pivots order, positive fixed J, actual centered root definition and majorant-dominated off-target tests remain explicit source inputs. Their global concrete selection, later mask-removal/correlation/root-pushforward and inverse/nilsequence/cube-law work, and final witness extraction remain incomplete.",
+    "No upstream update or official prize response was checked, following the human instruction. Public repository creation, award PR and prize application await full proof and audit; no unavoidable blocker has been established."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:530-543 (actual extra-root smoothing, target invariance and full retained-product error now proved);544-568 (enlarged primitive/pair-independent coefficients now proved, enlarged mixed moments and weighted second-moment replacement pending)",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4250,
+    "project_modules": 385,
+    "pntplus_modules": 9,
+    "source_scan_modules": 394,
+    "axiom_reports": 2012,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 403,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The actual root-smoothed canonical family, raw generated coefficient identities, primitive rows and rough-prime pair independence under the unchanged fixed catalogue are now proved. Actual root sampling is the probability interval [0,R), its W-lattice displacement is capped by R*(pool upper+V)^E_m, and actual varying pivot growth supplies a rapidly-small coordinate translation error. The complete G*Psi source product has a derived m-only polynomial sup bound; smoothing it produces exactly G*H with H=E_root Psi and an error tending to zero after every fixed polynomial budget loss. The original unshifted source recurrence now ends in D_m*abs(E G H)+e(w), with a proved vanishing actual composed error. All retained weights remain present. Next construct the actual enlarged harmonic/uniform sampling law and identify the B, BH and BH^2 subsystems, their exact canonical copy counts and finite product expansions. Prove their mixed means E B -> 2^(2^d), E BH -> 2^(2^d+t) and E BH^2 -> 2^(2^d+2t), with t=d*2^(d-1), then derive E B(H-2^t)^2=o(1) and weighted replacement of H by 2^t. Primitivity/pair independence alone, or an ordinary majorant mean, does not supply these mixed moment limits or remove retained weights. Connect the resulting full actual additive elimination to the weighted mask-removal integrands, multiplicative Cauchy--Schwarz recurrence and exception/error bounds. Complete the retained-weight correlation test, root pushforward, full preprint Prediction/Alignment propositions, inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and final witness extraction and separation. Real-exponent clipping remains unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

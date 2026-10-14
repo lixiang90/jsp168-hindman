@@ -1,0 +1,2 @@
+✔ [4869/4869] Built Hindman168.SelectedColorDenseNativeModelsCapped (16s)
+Build completed successfully (4869 jobs).

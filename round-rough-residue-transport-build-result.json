@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 12.797000000020489,
+  "log": "round-rough-residue-transport-build.txt",
+  "log_sha256": "25f9aef85cb90b3e5b310c82cebe63d74d43ab3ba8b8790d47a092d75ef24f49"
+}

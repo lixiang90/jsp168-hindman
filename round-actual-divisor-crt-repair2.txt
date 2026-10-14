@@ -1,0 +1,56 @@
+✔ [3951/3952] Built Hindman168.DivisorMaskExpansion (7.1s)
+✖ [3952/3952] Building Hindman168.ActualDivisorRowCRT (7.3s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\ActualDivisorRowCRT.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\ActualDivisorRowCRT.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\ActualDivisorRowCRT.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\ActualDivisorRowCRT.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\ActualDivisorRowCRT.setup.json --json
+error: Hindman168/ActualDivisorRowCRT.lean:68:6: Tactic `rewrite` failed: motive is not type correct:
+  fun _a =>
+    (↑(∏ x, k x) *
+        event (uniformFintypeMass (Fin d → ZMod _a)) fun x =>
+          (residueRowSystem _a q d (fun u => ∏ i, ↑i ^ (k u).factorization ↑i) ⋯ c) x = 0) =
+      ∏ i,
+        primePowerLocalAlpha (↑i) q d (rowMaxValuation fun u => (k u).factorization ↑i)
+          (fun u => (k u).factorization ↑i) ⋯ c
+Error: Application type mismatch: The argument
+  this✝
+has type
+  NeZero (∏ p, ↑p ^ ∑ u, (k u).factorization ↑p)
+but is expected to have type
+  NeZero _a
+in the application
+  @ZMod.fintype _a ⋯
+
+Explanation: The rewrite tactic rewrites an expression 'e' using an equality 'a = b' by the following process. First, it looks for all 'a' in 'e'. Second, it tries to abstract these occurrences of 'a' to create a function 'm := fun _a => ...', called the *motive*, with the property that 'm a' is definitionally equal to 'e'. Third, we observe that 'congrArg' implies that 'm a = m b', which can be used with lemmas such as 'Eq.mpr' to change the goal. However, if 'e' depends on specific properties of 'a', then the motive 'm' might not typecheck.
+
+Possible solutions: use rewrite's 'occs' configuration option to limit which occurrences are rewritten, or use 'simp' or 'conv' mode, which have strategies for certain kinds of dependencies (these tactics can handle proofs and 'Decidable' instances whose types depend on the rewritten term, and 'simp' can apply user-defined '@[congr]' theorems as well).
+
+q d : ℕ
+S : Finset ℕ
+error: build failed
+hS : ∀ p ∈ S, Nat.Prime p
+k : Fin q → ℕ
+hk : ∀ (u : Fin q), k u ≠ 0
+hcover : ∀ (u : Fin q), (k u).primeFactors ⊆ S
+c : Fin q → Fin d → ℤ
+this✝¹ : ∀ (p : ↥S), NeZero ↑p := fun p => { out := Nat.Prime.ne_zero (hS (↑p) p.property) }
+this✝ : NeZero (∏ p, ↑p ^ ∑ u, (k u).factorization ↑p) :=
+  {
+    out :=
+      Finset.prod_ne_zero_iff.mpr fun p x =>
+        pow_ne_zero (∑ u, (k u).factorization ↑p) (Nat.Prime.ne_zero (hS (↑p) p.property)) }
+this : NeZero (∏ u, k u) := { out := Finset.prod_ne_zero_iff.mpr fun u x => hk u }
+hrow : ∀ (u : Fin q), ∏ p, ↑p ^ (k u).factorization ↑p = k u
+h :
+  (↑(∏ x, k x) *
+      event (uniformFintypeMass (Fin d → ZMod (∏ i, ↑i ^ ∑ u, (k u).factorization ↑i))) fun x =>
+        (residueRowSystem (∏ i, ↑i ^ ∑ u, (k u).factorization ↑i) q d (fun u => ∏ i, ↑i ^ (k u).factorization ↑i) ⋯ c)
+            x =
+          0) =
+    ∏ i,
+      primePowerLocalAlpha (↑i) q d (rowMaxValuation fun u => (k u).factorization ↑i) (fun u => (k u).factorization ↑i)
+        ⋯ c
+⊢ normalizedDivisorRowCount k c =
+    ∏ p,
+      primePowerLocalAlpha (↑p) q d (rowMaxValuation fun u => (k u).factorization ↑p) (fun u => (k u).factorization ↑p)
+        ⋯ c
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.ActualDivisorRowCRT

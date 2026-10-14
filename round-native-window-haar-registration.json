@@ -1,0 +1,50 @@
+{
+  "modules": [
+    "Hindman168/NativeSubgroupAffineTopCoefficient.lean",
+    "Hindman168/NativeRationalLayerWindowHaar.lean",
+    "Hindman168/NativeSubgroupIrrationalScale.lean",
+    "Hindman168/NativeRationalLayerRealWindowHaar.lean"
+  ],
+  "names": [
+    "Hindman168.native_subgroup_horizontal_projection_totalDegree",
+    "Hindman168.native_subgroup_affine_top_coefficient",
+    "Hindman168.native_rational_layer_window_haar_unit",
+    "Hindman168.native_subgroup_irrational_scale_comparison",
+    "Hindman168.native_subgroup_irrational_nat_floor",
+    "Hindman168.native_rational_layer_real_window_haar_unit"
+  ],
+  "declarations": {
+    "Hindman168/NativeSubgroupAffineTopCoefficient.lean": [
+      [
+        "theorem",
+        "native_subgroup_horizontal_projection_totalDegree"
+      ],
+      [
+        "theorem",
+        "native_subgroup_affine_top_coefficient"
+      ]
+    ],
+    "Hindman168/NativeRationalLayerWindowHaar.lean": [
+      [
+        "theorem",
+        "native_rational_layer_window_haar_unit"
+      ]
+    ],
+    "Hindman168/NativeSubgroupIrrationalScale.lean": [
+      [
+        "theorem",
+        "native_subgroup_irrational_scale_comparison"
+      ],
+      [
+        "theorem",
+        "native_subgroup_irrational_nat_floor"
+      ]
+    ],
+    "Hindman168/NativeRationalLayerRealWindowHaar.lean": [
+      [
+        "theorem",
+        "native_rational_layer_real_window_haar_unit"
+      ]
+    ]
+  }
+}

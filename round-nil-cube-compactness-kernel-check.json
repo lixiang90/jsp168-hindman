@@ -1,0 +1,43 @@
+{
+  "exact_report_count": 2788,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_free_reports": [
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.maskDescendant_encoding_injective"
+  ],
+  "new_reports": [
+    "Hindman168.cubeVertexLattice_upperFace",
+    "Hindman168.layerLatticeRepresentatives_factor",
+    "Hindman168.upperFaceRepresentativeSet_subset",
+    "Hindman168.upperFaceTailGroup_lattice_representatives",
+    "Hindman168.upperFaceCubeGroup_lattice_representatives",
+    "Hindman168.cosetCornerCube_lattice_mul",
+    "Hindman168.upperFaceCubeGroup_coset_image_representatives",
+    "Hindman168.upperFaceArray_continuous",
+    "Hindman168.upperFaceRepresentativeSet_isCompact",
+    "Hindman168.cosetCornerCube_continuous",
+    "Hindman168.upperFaceCubeGroup_coset_isCompact",
+    "Hindman168.upperFaceCubeGroup_quotient_isCompact",
+    "Hindman168.openSurjection_compact_representatives",
+    "Hindman168.compactQuotient_lattice_representatives",
+    "Hindman168.compactSpace_of_lattice_representatives",
+    "Hindman168.filtrationLayer_compact_representatives",
+    "Hindman168.filtration_compact_lattice_representatives",
+    "Hindman168.upperFaceCubeGroup_compact_from_layer_quotients",
+    "Hindman168.upperFaceCubeGroup_natural_compact_from_layer_quotients",
+    "Hindman168.closedFiltrationLayers_weaklyLocallyCompact",
+    "Hindman168.upperFaceCubeGroup_compact_from_closed_layers",
+    "Hindman168.upperFaceCubeGroup_root_compact_from_closed_layers",
+    "Hindman168.upperFaceCubeGroup_root_reconstruction_from_closed_layers",
+    "Hindman168.upperFaceCubeGroup_root_recipes_from_closed_layers",
+    "Hindman168.upperFaceCubeGroup_linear_recipes_from_closed_layers",
+    "Hindman168.upperFaceCube_compact_lattice_representatives",
+    "Hindman168.upperFaceCubeLattice_compactSpace",
+    "Hindman168.upperFaceCubeLattice_compactSpace_from_layer_quotients"
+  ]
+}

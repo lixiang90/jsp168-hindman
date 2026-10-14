@@ -1,0 +1,124 @@
+{
+  "modules": [
+    "Hindman168/UpperFaceCharacterBracket.lean",
+    "Hindman168/UpperFaceCharacterMaximal.lean",
+    "Hindman168/NativeCubeArrayFunctional.lean",
+    "Hindman168/NativeCubeHorizontalArray.lean",
+    "Hindman168/NativeCubeFaceLevelCharacter.lean",
+    "Hindman168/NativeResidueCubeLevelCharacter.lean",
+    "Hindman168/NativeResidueCubeFaceEscape.lean"
+  ],
+  "names": [
+    "Hindman168.finite_face_split",
+    "Hindman168.upper_face_character_bracket",
+    "Hindman168.upper_face_character_nonzero_generator",
+    "Hindman168.upper_face_character_maximal_level",
+    "Hindman168.nativeCubeLieModelMap",
+    "Hindman168.native_cube_lie_model_map_surjective",
+    "Hindman168.nativeCubeArrayFunctional",
+    "Hindman168.native_cube_array_functional_agrees",
+    "Hindman168.native_cube_array_functional_nonzero",
+    "Hindman168.native_cube_lie_model_bracket",
+    "Hindman168.native_cube_horizontal_array_bracket",
+    "Hindman168.native_cube_lie_model_rational",
+    "Hindman168.native_cube_horizontal_array_rational",
+    "Hindman168.nativeCubeFaceFunctional",
+    "Hindman168.native_cube_horizontal_face_maximal_level",
+    "Hindman168.native_conjugate_subgroup_level_character_iff",
+    "Hindman168.nativeResidueCubeFaceFunctional",
+    "Hindman168.native_residue_cube_horizontal_maximal_level",
+    "Hindman168.native_residue_cube_face_taylor_escape"
+  ],
+  "declarations": {
+    "Hindman168/UpperFaceCharacterBracket.lean": [
+      [
+        "theorem",
+        "finite_face_split"
+      ],
+      [
+        "theorem",
+        "upper_face_character_bracket"
+      ]
+    ],
+    "Hindman168/UpperFaceCharacterMaximal.lean": [
+      [
+        "theorem",
+        "upper_face_character_nonzero_generator"
+      ],
+      [
+        "theorem",
+        "upper_face_character_maximal_level"
+      ]
+    ],
+    "Hindman168/NativeCubeArrayFunctional.lean": [
+      [
+        "def",
+        "nativeCubeLieModelMap"
+      ],
+      [
+        "theorem",
+        "native_cube_lie_model_map_surjective"
+      ],
+      [
+        "def",
+        "nativeCubeArrayFunctional"
+      ],
+      [
+        "theorem",
+        "native_cube_array_functional_agrees"
+      ],
+      [
+        "theorem",
+        "native_cube_array_functional_nonzero"
+      ],
+      [
+        "theorem",
+        "native_cube_lie_model_bracket"
+      ]
+    ],
+    "Hindman168/NativeCubeHorizontalArray.lean": [
+      [
+        "theorem",
+        "native_cube_horizontal_array_bracket"
+      ],
+      [
+        "theorem",
+        "native_cube_lie_model_rational"
+      ],
+      [
+        "theorem",
+        "native_cube_horizontal_array_rational"
+      ]
+    ],
+    "Hindman168/NativeCubeFaceLevelCharacter.lean": [
+      [
+        "def",
+        "nativeCubeFaceFunctional"
+      ],
+      [
+        "theorem",
+        "native_cube_horizontal_face_maximal_level"
+      ]
+    ],
+    "Hindman168/NativeResidueCubeLevelCharacter.lean": [
+      [
+        "theorem",
+        "native_conjugate_subgroup_level_character_iff"
+      ],
+      [
+        "def",
+        "nativeResidueCubeFaceFunctional"
+      ],
+      [
+        "theorem",
+        "native_residue_cube_horizontal_maximal_level"
+      ]
+    ],
+    "Hindman168/NativeResidueCubeFaceEscape.lean": [
+      [
+        "theorem",
+        "native_residue_cube_face_taylor_escape"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "baseline_hashes_verified_before_registration": 793,
+  "new_modules": [
+    "Hindman168/NativeLatticeRealSpanning.lean",
+    "Hindman168/NativeLieAdjointNatPolynomial.lean",
+    "Hindman168/NativeLieCharacterCompactQuotient.lean",
+    "Hindman168/NativeLieLogarithmCharacter.lean",
+    "Hindman168/NativeSubgroupBracketSpan.lean",
+    "Hindman168/NativeSubgroupLogarithmSpan.lean",
+    "Hindman168/NativeSubgroupRationalHull.lean",
+    "Hindman168/NativeSubgroupRealLieSpan.lean",
+    "Hindman168/NilpotentLieSubalgebraSpanning.lean",
+    "Hindman168/RationalBilinearRealSpan.lean",
+    "Hindman168/RationalVectorPolynomialCoefficients.lean"
+  ],
+  "names": [
+    "Hindman168.nativeLieSubalgebra_eq_top_of_compact_quotient",
+    "Hindman168.nativeSubgroupRealLieSpan_eq_top_of_compact_quotient",
+    "Hindman168.nativeSubgroupRationalLogSpan_real_span_eq_top",
+    "Hindman168.nativeSubgroup_logarithms_real_span_eq_top",
+    "Hindman168.nativeLieAdjointCurve_apply_rational_polynomial",
+    "Hindman168.nativeLieAdjointCurve_apply_padded_rational_polynomial",
+    "Hindman168.nativeLieAdjointGenerator_mem_of_nat_curve_values",
+    "Hindman168.nativeLieLogarithmCharacterQuotient",
+    "Hindman168.nativeLieLogarithmCharacterQuotient_mk",
+    "Hindman168.nativeLieLogarithmFunctional_eq_zero_of_compact_quotient",
+    "Hindman168.nativeLieLogarithmCharacter",
+    "Hindman168.nativeLieLogarithmCharacter_exponential",
+    "Hindman168.nativeLieLogarithmCharacter_mul",
+    "Hindman168.nativeLieLogarithmCharacter_surjective",
+    "Hindman168.nativeLieAdjointGenerator_logarithms_mem_span",
+    "Hindman168.nativeSubgroupRationalLogSpan_differential_mem",
+    "Hindman168.nativeSubgroupRationalLogSpan_bracket_closed",
+    "Hindman168.nativeSubgroupRationalLogSpan_product_logarithm_mem",
+    "Hindman168.nativeSubgroupRationalLogSpan",
+    "Hindman168.nativeSubgroup_logarithm_mem_span",
+    "Hindman168.nativeLieAdjoint_logarithm_conjugation",
+    "Hindman168.nativeSubgroupRationalLogSpan_adjoint_mem",
+    "Hindman168.nativeSubgroupRationalHull",
+    "Hindman168.nativeSubgroupRationalHull_mem_iff",
+    "Hindman168.nativeSubgroup_le_rationalHull",
+    "Hindman168.nativeSubgroupRationalLogSpan_le_of_logarithms_mem",
+    "Hindman168.nativeSubgroupRationalHull_le_of_logarithms_mem",
+    "Hindman168.nativeSubgroupRationalHull_adjoint_mem",
+    "Hindman168.nativeSubgroupRationalLogSpan_real_span_eq",
+    "Hindman168.nativeSubgroupRealLieSpan",
+    "Hindman168.nativeSubgroupRealLieSpan_model_eq",
+    "Hindman168.nativeSubgroup_le_realLieSpan_subgroup",
+    "Hindman168.nativeSubgroupRealLieSpan_subgroup_closed",
+    "Hindman168.nativeSubgroupRealLieSpan_subgroup_contractible",
+    "Hindman168.lieSubalgebra_sup_commutator_le_next",
+    "Hindman168.nilpotentLieSubalgebra_eq_top_of_sup_commutator_eq_top",
+    "Hindman168.nilpotentLieSubalgebra_sup_commutator_ne_top",
+    "Hindman168.rationalBilinear_realSpan_mem",
+    "Hindman168.rationalVectorPolynomial_coeff_eq_of_nat_values",
+    "Hindman168.rationalVectorPolynomial_coeff_mem_of_nat_values",
+    "Hindman168.rationalVectorPolynomial_coeff_mem_of_real_nat_values"
+  ],
+  "module_report_counts": {
+    "NativeLatticeRealSpanning": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeLieAdjointNatPolynomial": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "NativeLieCharacterCompactQuotient": {
+      "theorems": 2,
+      "selected_declarations": 3
+    },
+    "NativeLieLogarithmCharacter": {
+      "theorems": 3,
+      "selected_declarations": 4
+    },
+    "NativeSubgroupBracketSpan": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeSubgroupLogarithmSpan": {
+      "theorems": 3,
+      "selected_declarations": 4
+    },
+    "NativeSubgroupRationalHull": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "NativeSubgroupRealLieSpan": {
+      "theorems": 5,
+      "selected_declarations": 6
+    },
+    "NilpotentLieSubalgebraSpanning": {
+      "theorems": 3,
+      "selected_declarations": 3
+    },
+    "RationalBilinearRealSpan": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "RationalVectorPolynomialCoefficients": {
+      "theorems": 3,
+      "selected_declarations": 3
+    }
+  }
+}

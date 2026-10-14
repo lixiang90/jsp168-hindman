@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 36.73400000017136,
+  "log": "round-leibman-short-lines-build.txt",
+  "log_sha256": "7031b54371bc24bba017cf14a68cb990523ebee1fbfe081aa06bf5b506150dc7"
+}

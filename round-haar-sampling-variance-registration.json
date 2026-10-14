@@ -1,0 +1,43 @@
+{
+  "baseline_hash_count": 1072,
+  "modules": [
+    "Hindman168/HaarSamplingVariance.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean_centered_sample_sum",
+    "Hindman168.finiteHaarMean_centered_variance",
+    "Hindman168.finiteHaarMean_sample_variance",
+    "Hindman168.finiteHaarMean_exists_le",
+    "Hindman168.finiteHaarMean_exists_sample_L2",
+    "Hindman168.subgroupDualFunction_exists_sample_L2"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/HaarSamplingVariance.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_centered_sample_sum"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_centered_variance"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_sample_variance"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_exists_le"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_exists_sample_L2"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_exists_sample_L2"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "baseline_hash_count": 1078,
+  "modules": [
+    "Hindman168/MixedCubeFaceCauchySchwarz.lean"
+  ],
+  "names": [
+    "Hindman168.finset_fin_succ_product",
+    "Hindman168.mixedCubeProduct_succ",
+    "Hindman168.subgroupHaar_cross_correlation",
+    "Hindman168.subgroupMixedCubeAverage_face_correlation",
+    "Hindman168.subgroupMixedCubeAverage_face_cauchy_schwarz"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/MixedCubeFaceCauchySchwarz.lean": [
+      [
+        "theorem",
+        "finset_fin_succ_product"
+      ],
+      [
+        "theorem",
+        "mixedCubeProduct_succ"
+      ],
+      [
+        "theorem",
+        "subgroupHaar_cross_correlation"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_face_correlation"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_face_cauchy_schwarz"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "module": "Hindman168/AlignmentPolynomialInputShifts.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentPolynomialInputShifts.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.125,
+    "source_sha256": "b744d6832934b7e87b4344bb552b02d3e43271142b588e083acd807b9fdaf767",
+    "log": "round-alignment-polynomial-arrays-focused-AlignmentPolynomialInputShifts.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentPolynomialArrayGroup.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentPolynomialArrayGroup.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.843000000109896,
+    "source_sha256": "73b8d294acac25aaf22b48155363c14eed15d0a2f1c32c3e9981e7ed4096a9f0",
+    "log": "round-alignment-polynomial-arrays-focused-AlignmentPolynomialArrayGroup.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentArrayInputTranslations.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentArrayInputTranslations.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.890999999828637,
+    "source_sha256": "f49d7573a5af2e1f08d35a4f3a993a1301bebccbd1eb46799dbbe3db8c9cd93a",
+    "log": "round-alignment-polynomial-arrays-focused-AlignmentArrayInputTranslations.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentPolynomialArrayLattice.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentPolynomialArrayLattice.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.0,
+    "source_sha256": "e061ec55f6c56d2611eb904aaa3174dc21feb6fc8c580d59c6c88e3ccb133bae",
+    "log": "round-alignment-polynomial-arrays-focused-AlignmentPolynomialArrayLattice.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentPolynomialModelArrays.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentPolynomialModelArrays.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.0,
+    "source_sha256": "497a8645031f757fc2c5bb5015e9fe31b81b93f06e89c636b9776e536620b53a",
+    "log": "round-alignment-polynomial-arrays-focused-AlignmentPolynomialModelArrays.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentJointArrayNilpotence.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointArrayNilpotence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.875,
+    "source_sha256": "fe58159ab6eb8e751237cfed17d0f7d0243e65a79afdc572b23864eba61171ad",
+    "log": "round-alignment-polynomial-arrays-focused-AlignmentJointArrayNilpotence.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

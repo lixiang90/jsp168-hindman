@@ -1,0 +1,2 @@
+✔ [4285/4285] Built Hindman168.MaskTargetCubeDecay (10s)
+Build completed successfully (4285 jobs).

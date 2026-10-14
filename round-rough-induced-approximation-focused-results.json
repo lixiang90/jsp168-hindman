@@ -1,0 +1,162 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughUniformLipschitzApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.609999999869615,
+    "log": "round-rough-induced-approximation-RoughUniformLipschitzApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughUniformLipschitzApproximation.lean",
+    "source_sha256": "1e52284f327ccef9056b85e55dff497e8df8de97187262feb1355c20ca92ed16"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughCompactFamilyApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.54700000002049,
+    "log": "round-rough-induced-approximation-RoughCompactFamilyApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughCompactFamilyApproximation.lean",
+    "source_sha256": "fb99ff571f349d2fb91989910ec9a233680b2ddf410f599a5f1bebbac21472b2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughScalarFamilyApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.827999999979511,
+    "log": "round-rough-induced-approximation-RoughScalarFamilyApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughScalarFamilyApproximation.lean",
+    "source_sha256": "5dadf7318d4fb89d491a80e18c98c3f140b756adb3d3f76a084f1964ce535e4c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeOrbitSourceMetric.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.54700000002049,
+    "log": "round-rough-induced-approximation-RoughNativeOrbitSourceMetric-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeOrbitSourceMetric.lean",
+    "source_sha256": "6a34f0ca852ce0c7288548fa6fbc20a86c0e4edcd26c160038e7f804186a1f34"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeOrbitApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.061999999918044,
+    "log": "round-rough-induced-approximation-RoughNativeOrbitApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeOrbitApproximation.lean",
+    "source_sha256": "bfd10feb9d019afb7d4efe4a685032d1dcfda7e610573cab18d00e9e288fa4e5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughFiniteFamilyApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.938000000081956,
+    "log": "round-rough-induced-approximation-RoughFiniteFamilyApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughFiniteFamilyApproximation.lean",
+    "source_sha256": "d8298335c37c563450ff96e6b441220650080ea34ba6d6b0d3a6e6ac11ba0c0b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeKernelApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.57799999997951,
+    "log": "round-rough-induced-approximation-RoughNativeKernelApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeKernelApproximation.lean",
+    "source_sha256": "9e5535f00a1ac779b7bf95bf638197ac6c8e8364f00523fda065553faaf00360"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeFiniteResidueApproximation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.093000000109896,
+    "log": "round-rough-induced-approximation-RoughNativeFiniteResidueApproximation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeFiniteResidueApproximation.lean",
+    "source_sha256": "8d6bd7c1b5d499ff4d7d04d96d71413421eb07b870022fc4c4e3bd56813a0444"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughFamilyApproximateDiscrepancy.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.656999999890104,
+    "log": "round-rough-induced-approximation-RoughFamilyApproximateDiscrepancy-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughFamilyApproximateDiscrepancy.lean",
+    "source_sha256": "fc456d090202d3795899f78445521a196cd04194dfcfe476348d407080048ddb"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughFrozenApproximateDiscrepancy.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.608999999938533,
+    "log": "round-rough-induced-approximation-RoughFrozenApproximateDiscrepancy-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughFrozenApproximateDiscrepancy.lean",
+    "source_sha256": "c90463902227a823c9155b80e6d45da63dde15c7f01ef5a30633ef6328c8abb4"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "Genuine smaller-source child UNIT discrepancy now retains LITERAL affine polynomial construction, proved by constructing the source and comparing actual integer quotient samples. It is never inferred from quotient equality alone.",
+    "All valid characters in the ACTUAL original finite Fourier character pool receive ONE positive UNIT signal threshold and ONE natural budget BEFORE every raw polynomial, denominator and sample length. The budget bounds true q/K/direction norm and analytic threshold; child length is at least N/B. Invalid characters and the empty pool are handled explicitly without false geometry.",
+    "The actual dense ORIGINAL Fourier branch now yields full original horizontal/grid/monomial/binomial inverse OR a GENUINE constructed child source with strictly smaller natural nonlinearity, original-scale length and uniform UNIT discrepancy. Every original dense/table/right-factor property is retained. Degree two has no lower-degree inverse premise; general degree retains only the full lower-degree premise.",
+    "Actual ALL-real right-ordered source factorization proves the ORIGINAL horizontal scalar polynomial identity. Literal affine child construction proves exact scalar affine composition. True positive exponential lattice powers prove integer horizontal values and clear EVERY rational-factor coefficient by the bounded natural multiplier M*q. These exact identities do not yet prove the full original coefficient transport bounds or same-degree induction.",
+    "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. The original finite-character pool now has simultaneous genuine geometry/UNIT-signal budgets, and the dense native Fourier branches explicitly yield a constructed smaller-nonlinearity child source with uniform UNIT discrepancy and length>=N/B before all raw sources. Literal child affine source construction, original ALL-real horizontal scalar factor identity, and complete rational-factor coefficient integrality after M*q are proved. Remaining: quantitative affine translation/step/length/REAL-error transport to BOTH COMPLETE raw ORIGINAL coefficient tables, actual finite-child inverse budgeting, genuine well-founded degree+nonlinearity induction and all original small-N cases. P first/full diagonal alternative, corrected multivariate inverse, separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture remain OPEN. Fixed-data existential constants are distinct from explicit delta-power laws. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached."
+  ],
+  "verified": {
+    "project_modules": 2584,
+    "pntplus_modules": 9,
+    "build_jobs": 6557,
+    "selected_axiom_reports": 10286,
+    "new_declarations": 13,
+    "new_theorems": 11,
+    "new_definitions": 2,
+    "new_structures": 0,
+    "new_structure_generated_reports": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/FiniteConditionedSignalBudgets.lean",
+    "Hindman168/NativeRationalConstructedChildSignal.lean",
+    "Hindman168/NativeRationalCharacterChildBudget.lean",
+    "Hindman168/NativeRationalFiniteCharacterChildBudget.lean",
+    "Hindman168/NativeRationalDenseChildSignal.lean",
+    "Hindman168/NativeRationalDegreeTwoDenseChildSignal.lean",
+    "Hindman168/NativeRationalChildScalarTransport.lean"
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. The original finite-character pool now has simultaneous genuine geometry/UNIT-signal budgets, and the dense native Fourier branches explicitly yield a constructed smaller-nonlinearity child source with uniform UNIT discrepancy and length>=N/B before all raw sources. Literal child affine source construction, original ALL-real horizontal scalar factor identity, and complete rational-factor coefficient integrality after M*q are proved. Remaining: quantitative affine translation/step/length/REAL-error transport to BOTH COMPLETE raw ORIGINAL coefficient tables, actual finite-child inverse budgeting, genuine well-founded degree+nonlinearity induction and all original small-N cases. P first/full diagonal alternative, corrected multivariate inverse, separate interval Gowers correlation inverse, rough progressions, cube/Alignment and final StrongConjecture remain OPEN. Fixed-data existential constants are distinct from explicit delta-power laws. Only true positive exponential lattice powers are used, not Exp(y) lattice membership. Author build/hash/axiom/source review is not independent kernel replay or external peer review. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone has not been reached.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "OpenAI quantitative Leibman route; simultaneous original finite-character budgets, constructed child UNIT signal, exact horizontal scalar transport identities; quantitative coefficient transport, induction and final target remain open",
+  "mathematical_review_file": "round-native-rational-character-child-signal-mathematical-review.txt",
+  "mathematical_review_sha256": "eedd0207bcc641324b2884de33359f3071a9ce7a72fc72ada9b12eab83ad3c9f",
+  "source_slab_certificate": "round-native-rational-character-child-signal-slab-review.json",
+  "source_slab_certificate_sha256": "5aa6bd5ec33029cf705914b51e59c5028126895986a19a257be0bd383ff5eea5",
+  "source_slab_script_sha256": "64cac480a164a883a31cb40256c47c1de0be223c81f1cc013519543a636f655d"
+}

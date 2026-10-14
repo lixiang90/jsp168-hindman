@@ -1,0 +1,66 @@
+[
+  {
+    "module": "Hindman168/AlignmentPivotRequests.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentPivotRequests.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.827999999979511,
+    "source_sha256": "41605da343150b02004071aae58504974fb6ad0197e10398a8b5a9a4ae224ac2",
+    "log": "round-alignment-backward-plan-focused-AlignmentPivotRequests.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentBackwardPlan.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentBackwardPlan.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.811999999918044,
+    "source_sha256": "3260cd2f1292be7db83808791ba4e71e5177ad69819fd8a0979ea0977b10ebd2",
+    "log": "round-alignment-backward-plan-focused-AlignmentBackwardPlan.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentPivotExecution.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentPivotExecution.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.0,
+    "source_sha256": "ce355c4acb1ec5b79f1d36a3ac3a8783db68cf36d09ac09e23373f0979254851",
+    "log": "round-alignment-backward-plan-focused-AlignmentPivotExecution.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentUniformPivotPlan.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentUniformPivotPlan.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.031000000191852,
+    "source_sha256": "a0771dc79f3e31640916fb0567d9189d82e8e1798d42c187ff39d3a07e482221",
+    "log": "round-alignment-backward-plan-focused-AlignmentUniformPivotPlan.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

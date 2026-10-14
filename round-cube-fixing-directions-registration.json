@@ -1,0 +1,86 @@
+{
+  "baseline_hash_count": 1002,
+  "modules": [
+    "Hindman168/CubeVertexFixingDirections.lean",
+    "Hindman168/CubeCopyElimination.lean"
+  ],
+  "names": [
+    "Hindman168.cubeVertexEvaluation",
+    "Hindman168.subgroupCubeRootDirection",
+    "Hindman168.cubeVertexFixingDirection",
+    "Hindman168.cubeVertexEvaluation_add",
+    "Hindman168.cubeVertexEvaluation_fixingDirection",
+    "Hindman168.cubeVertexEvaluation_translated_copy_fixed",
+    "Hindman168.cubeVertexEvaluation_root_response",
+    "Hindman168.subgroupCubeRootDirection_preserves_increments",
+    "Hindman168.cubeParameterDirections_commute",
+    "Hindman168.cubeVertexCopies_invariant",
+    "Hindman168.cubeVertexCopies_abs_le_one",
+    "Hindman168.cubeDensity_root_invariant",
+    "Hindman168.cubeVertexCopies_cauchy",
+    "Hindman168.cubeDensity_cauchy"
+  ],
+  "theorem_count": 11,
+  "declarations": {
+    "Hindman168/CubeVertexFixingDirections.lean": [
+      [
+        "def",
+        "cubeVertexEvaluation"
+      ],
+      [
+        "def",
+        "subgroupCubeRootDirection"
+      ],
+      [
+        "def",
+        "cubeVertexFixingDirection"
+      ],
+      [
+        "theorem",
+        "cubeVertexEvaluation_add"
+      ],
+      [
+        "theorem",
+        "cubeVertexEvaluation_fixingDirection"
+      ],
+      [
+        "theorem",
+        "cubeVertexEvaluation_translated_copy_fixed"
+      ],
+      [
+        "theorem",
+        "cubeVertexEvaluation_root_response"
+      ],
+      [
+        "theorem",
+        "subgroupCubeRootDirection_preserves_increments"
+      ],
+      [
+        "theorem",
+        "cubeParameterDirections_commute"
+      ]
+    ],
+    "Hindman168/CubeCopyElimination.lean": [
+      [
+        "theorem",
+        "cubeVertexCopies_invariant"
+      ],
+      [
+        "theorem",
+        "cubeVertexCopies_abs_le_one"
+      ],
+      [
+        "theorem",
+        "cubeDensity_root_invariant"
+      ],
+      [
+        "theorem",
+        "cubeVertexCopies_cauchy"
+      ],
+      [
+        "theorem",
+        "cubeDensity_cauchy"
+      ]
+    ]
+  }
+}

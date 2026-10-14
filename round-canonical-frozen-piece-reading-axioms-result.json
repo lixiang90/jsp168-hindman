@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.516000000061467,
+  "log": "round-canonical-frozen-piece-reading-axioms.txt",
+  "log_sha256": "001f51f78db382372b5c7dccee1efe648c1b7df9e71276107cf47a4381c6f4d4"
+}

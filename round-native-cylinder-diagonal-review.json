@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2779,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6806,
+    "selected_axiom_reports": 10819,
+    "new_declarations": 24,
+    "new_theorems": 21,
+    "new_definitions": 3,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/AlignmentJointNativeSlotSeparation.lean",
+    "Hindman168/AlignmentJointNativeCylinderAlgebra.lean",
+    "Hindman168/ContinuousCylinderListRepresentation.lean",
+    "Hindman168/AlignmentJointNativeCylinderLists.lean",
+    "Hindman168/AlignmentJointNativeCompleteCylinderPool.lean",
+    "Hindman168/ContinuousCylinderMeanTransfer.lean",
+    "Hindman168/AlignmentJointNativeCylinderDetection.lean",
+    "Hindman168/CountablePositiveEventDiagonal.lean",
+    "Hindman168/AlignmentCompleteCubeCountableSelection.lean",
+    "Hindman168/AlignmentJointNativeCylinderPresentation.lean"
+  ],
+  "proved_components": [
+    "ALL original integer-slot coset evaluations jointly determine the ACTUAL native array/product quotient by the genuine pointwise and product lattice. Distinct native quotient points have an actual original component/slot witness; no fixed finite lattice-quotient embedding is assumed.",
+    "Actual Lipschitz component cylinder generators form a star-closed family and separate native quotient points. Stone-Weierstrass supplies uniform approximation of EVERY native continuous test; exact finite coefficient/list representations retain all original slots and observers. Compact complete numerical test classes admit ONE finite cylinder observer pool and strict positive coefficient budget before sources, boxes, residues and samples.",
+    "Exact cylinder-list finite-mass means and weighted errors prove one finite ORIGINAL cylinder-product detector list and one positive tolerance control EVERY actual native bounded/Lipschitz test. Both arbitrary empirical sets/maps and their literal normalization are retained, including zero means on empty sets. This is a complete native test reduction, not yet the actual native all-face failure probability theorem.",
+    "Genuine finite-prefix failure mass tends to zero. Positive prescribed-event mass and slow-stage selection supply ONE supported sample sequence satisfying EVERY fixed enumerated condition and arbitrary additional eventual stage requirements. Actual original all-complete-reading-cube failure limits instantiate this along ANY cofinal width sequence, including repeated/nonmonotone widths and variable finite cube dimensions. All original modulus/geometry/numerical/slot conditions may be enumerated before the later sequence-selected period.",
+    "EVERY native cylinder-product list now has an EXACT Fin-indexed presentation by ORIGINAL duplicated component/slot observers, with genuine positive supremum and Lipschitz bounds before any source/sample. Repeated components and empty lists are retained. This proves the test-function identity; original empirical source and own-face sample-map identities remain to be assembled."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. ALL original integer-slot cylinder tests now separate the actual native quotient, approximate every native numerical test with fixed finite budgets and detect arbitrary empirical discrepancies. Actual original complete finite-reading cube conditions now admit one countable supported positive-event selection along any cofinal width sequence, compatible with additional stage requirements. Remaining: connect the proved duplicated ORIGINAL component/slot presentations and numerical budgets to exact original empirical source and own-face sample maps, and derive actual native all-face probability vanishing/countable selection; then original local cube/Haar law with sequence-selected period, limit-before-relative-box limit, coset face symmetry and full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. Author Lean checking is not independent kernel replay or external peer review. No other-component invariance, unexposed-factor-dependent formula uniformity or explicit delta-power law is claimed. Repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-cylinder-diagonal-mathematical-review.txt",
+  "mathematical_review_sha256": "da3e28f746e089f022a6c0458811ff59b45730e0d52e45bd48de45a3d3b211b0",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

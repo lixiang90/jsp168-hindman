@@ -1,0 +1,36 @@
+{
+  "baseline_hash_count": 1049,
+  "modules": [
+    "Hindman168/CyclicCellInterior.lean",
+    "Hindman168/CyclicWrapTestError.lean"
+  ],
+  "names": [
+    "Hindman168.cyclicCell_product_eq_of_interior",
+    "Hindman168.cyclic_boundary_card",
+    "Hindman168.cyclic_interior_test_error",
+    "Hindman168.cyclicCell_product_wrap_error"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/CyclicCellInterior.lean": [
+      [
+        "theorem",
+        "cyclicCell_product_eq_of_interior"
+      ],
+      [
+        "theorem",
+        "cyclic_boundary_card"
+      ]
+    ],
+    "Hindman168/CyclicWrapTestError.lean": [
+      [
+        "theorem",
+        "cyclic_interior_test_error"
+      ],
+      [
+        "theorem",
+        "cyclicCell_product_wrap_error"
+      ]
+    ]
+  }
+}

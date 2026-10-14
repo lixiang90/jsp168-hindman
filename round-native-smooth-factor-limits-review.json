@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2835,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6862,
+    "selected_axiom_reports": 11037,
+    "new_declarations": 47,
+    "new_theorems": 30,
+    "new_definitions": 17,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeSmoothProductLog.lean",
+    "Hindman168/ScaledBinomialSmooth.lean",
+    "Hindman168/NativeSmoothBinomialFamily.lean",
+    "Hindman168/SmoothParameterUniformLimits.lean",
+    "Hindman168/NativeSmoothFactorParameterization.lean",
+    "Hindman168/NativeSequentialSmoothLimits.lean",
+    "Hindman168/NativeSequentialSmoothFactorization.lean",
+    "Hindman168/NativeCurveBodyVelocity.lean",
+    "Hindman168/NativeSmoothBinomialVelocity.lean",
+    "Hindman168/NativeSmoothGroupMapLimits.lean",
+    "Hindman168/NativeSequentialBodyVelocityLimits.lean",
+    "Hindman168/NativeSequentialIntrinsicFactorization.lean"
+  ],
+  "proved_components": [
+    "The ACTUAL native product logarithm and finite ordered products are smooth in the original vector inputs, using the original native exponential/global-log diffeomorphism. The exact scaled binomial identity is proved for EVERY real length, including zero, EVERY order including zero, and every real beta. Its inverse-length-zero limit and joint smoothness are proved.",
+    "The original compact constants, actual inverse lengths and actual scaled real correction coefficients form ONE finite-dimensional parameter family. The native family is exactly the SAME actual chronological left product at L*beta for ALL real inputs and EVERY sequence index, including zero-length indices. Actual original parameter convergence follows from the already proved constant/coefficient limits and cofinal length.",
+    "Genuine joint smoothness and compactness of the convergent parameter sequence give locally uniform function AND first real-derivative limits in the ORIGINAL global logarithmic coordinates. Every actual sequence curve and the limit are smooth. Uniform value/first-derivative bounds on EVERY compact real set hold at ALL original indices; no derivative-zero default or equicontinuity oracle is used.",
+    "Continuous currying of the ACTUAL original group family proves convergence in the ORIGINAL group compact-open topology. Every bundled source map is literally the actual scaled left product. No extra metric, uniform structure or globally Lipschitz exponential is supplied.",
+    "The ACTUAL native manifold derivative, translated on the left back to the identity, is explicitly constructed. The genuine manifold chain rule identifies this exact body velocity with the original native dexp applied to the actual real logarithmic derivative. Actual dexp smoothness then gives one smooth body-velocity parameter family, exact equality to every original source velocity, locally uniform velocity limits and ALL-index uniform bounds on compact sets.",
+    "Unconditional native sequential INTRINSIC smooth factorization now retains ONE SAME original subsequence, final rational filtration, ALL rational level-character limits, exact ALL-real original group identities, actual compact-open group limit, smooth original group maps, log-coordinate C1 limits and genuine native body-velocity limits/bounds. It is instantiated for original left-linear orbit sequences at the EXACT original lower-central filtration/step s. Uniform rational period, finite residue-pattern selection and local cube-Haar laws are still unproved, so the full factorization lemma and StrongConjecture are not claimed."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual finite sequential descent/all-character irrationality, initial compact normalization and exact ALL-real original factorization are retained. The actual scaled smooth left factor now has locally uniform C1 limits and ALL-index compact bounds in the ORIGINAL logarithmic coordinates, convergence in the ORIGINAL group compact-open topology, genuine native manifold body-velocity limits/bounds and a smooth original group limit, on the SAME factorization subsequence/filter/list. Original step-s left-linear orbit application is proved without stretching. Remaining: a common bounded rational period and sequence-selected finite residue representatives for TRUE signed-integer right-factor products, then full section-7 sequential factorization and local cube-Haar laws through ORIGINAL s+1, sequence-before-locality limits, projected Haar face invariance/full-support coset symmetry and actual joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse at sufficient native step; final positive distinct rapidly separated SAME-color nonempty FS AND FP. All smooth-family/parameter/function/velocity identities and limit/bound conclusions are PROVED from the actual original constructors; no new metric, uniform structure, factorization oracle, equicontinuity premise, bound on raw Taylor coefficients or bound on integer corrections is introduced. Author build/hash/axiom/source checks are not independent kernel replay or external peer review. No unavoidable obstruction, explicit delta-power law or other-marginal invariance is claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-smooth-factor-limits-mathematical-review.txt",
+  "mathematical_review_sha256": "367a060bee446e645349ea25f58c2864fe8da2d89abeac490d4b79b67f3f764d",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

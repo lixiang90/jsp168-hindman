@@ -1,0 +1,97 @@
+{
+  "modules": [
+    "Hindman168/FiniteProductApproximationBudgets.lean",
+    "Hindman168/FiniteComplexCoefficientError.lean",
+    "Hindman168/AlignmentCompleteCubeTestBudget.lean",
+    "Hindman168/AlignmentCompleteCubeFaceFailure.lean",
+    "Hindman168/AlignmentCompleteCubeFaceTransfer.lean",
+    "Hindman168/AlignmentCompleteCubeFacePosterior.lean",
+    "Hindman168/AlignmentCompleteCubeFaceGlobal.lean",
+    "Hindman168/AlignmentCompleteCubeFacePositiveSelection.lean"
+  ],
+  "names": [
+    "Hindman168.finite_lipschitz_observer_budget",
+    "Hindman168.finite_product_span_common_budgets",
+    "Hindman168.finite_complex_list_coefficient_error",
+    "Hindman168.finite_complex_list_positive_budget",
+    "Hindman168.finite_complex_list_linear_difference",
+    "Hindman168.alignment_complete_cube_test_common_product_budget",
+    "Hindman168.alignmentCompleteCubeAllFacesFailure",
+    "Hindman168.alignment_complete_cube_face_failure_subset_product",
+    "Hindman168.alignment_complete_cube_all_faces_posterior_vanishing",
+    "Hindman168.alignment_complete_cube_all_faces_global_eventually",
+    "Hindman168.alignment_complete_cube_all_faces_global_tendsto",
+    "Hindman168.alignment_complete_cube_all_faces_positive_conditioning",
+    "Hindman168.alignment_complete_cube_all_faces_supported_selection"
+  ],
+  "declarations": {
+    "Hindman168/FiniteProductApproximationBudgets.lean": [
+      [
+        "theorem",
+        "finite_lipschitz_observer_budget"
+      ],
+      [
+        "theorem",
+        "finite_product_span_common_budgets"
+      ]
+    ],
+    "Hindman168/FiniteComplexCoefficientError.lean": [
+      [
+        "theorem",
+        "finite_complex_list_coefficient_error"
+      ],
+      [
+        "theorem",
+        "finite_complex_list_positive_budget"
+      ],
+      [
+        "theorem",
+        "finite_complex_list_linear_difference"
+      ]
+    ],
+    "Hindman168/AlignmentCompleteCubeTestBudget.lean": [
+      [
+        "theorem",
+        "alignment_complete_cube_test_common_product_budget"
+      ]
+    ],
+    "Hindman168/AlignmentCompleteCubeFaceFailure.lean": [
+      [
+        "def",
+        "alignmentCompleteCubeAllFacesFailure"
+      ]
+    ],
+    "Hindman168/AlignmentCompleteCubeFaceTransfer.lean": [
+      [
+        "theorem",
+        "alignment_complete_cube_face_failure_subset_product"
+      ]
+    ],
+    "Hindman168/AlignmentCompleteCubeFacePosterior.lean": [
+      [
+        "theorem",
+        "alignment_complete_cube_all_faces_posterior_vanishing"
+      ]
+    ],
+    "Hindman168/AlignmentCompleteCubeFaceGlobal.lean": [
+      [
+        "theorem",
+        "alignment_complete_cube_all_faces_global_eventually"
+      ]
+    ],
+    "Hindman168/AlignmentCompleteCubeFacePositiveSelection.lean": [
+      [
+        "theorem",
+        "alignment_complete_cube_all_faces_global_tendsto"
+      ],
+      [
+        "theorem",
+        "alignment_complete_cube_all_faces_positive_conditioning"
+      ],
+      [
+        "theorem",
+        "alignment_complete_cube_all_faces_supported_selection"
+      ]
+    ]
+  }
+}

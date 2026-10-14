@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.389999999897555,
+  "log": "round-rough-stretched-filtration-weighted-difference-build.txt",
+  "log_sha256": "34fb5029a506ffb40710eb6227546700f86303a4887b014b8536aea67c5705ec"
+}

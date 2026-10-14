@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.172000000020489,
+  "log": "round-native-joint-smooth-interface-build.txt",
+  "log_sha256": "116040fabeb5f2952229b4f2b575c44978e5ca1510e47442b4e54f61332a3df8"
+}

@@ -1,0 +1,33 @@
+{
+  "baseline_hash_count": 1097,
+  "modules": [
+    "Hindman168/StructuredDualMultiplication.lean"
+  ],
+  "names": [
+    "Hindman168.mixedDualHilbert_structured_scaled_product",
+    "Hindman168.mixedDualHilbert_structured_product_closed",
+    "Hindman168.mixedDualHilbert_structured_product_orthogonal",
+    "Hindman168.mixedDualHilbert_structured_projection_pullout"
+  ],
+  "theorem_count": 4,
+  "declarations": {
+    "Hindman168/StructuredDualMultiplication.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_structured_scaled_product"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_structured_product_closed"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_structured_product_orthogonal"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_structured_projection_pullout"
+      ]
+    ]
+  }
+}

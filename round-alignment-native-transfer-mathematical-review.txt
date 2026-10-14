@@ -1,0 +1,56 @@
+JSP-000168 / Erdos #172, 2026-10-14. Partial overall coverage.
+Author checking, not independent kernel replay or external peer review.
+
+Reviewed the pinned original 08_alignment.tex tail-step removal paragraph
+and unchanged StrongWitness/StrongConjecture. Original joint array/source
+and original products of bounded observations remain literal. All finite
+coordinate maps are genuine equivalences, not subsequences. They preserve
+ceil endpoints, residues, whole sample sets, exact cardinalities, normalized
+laws and both complex means. Empty finite sets have algebraic zero mean;
+no positive probability is inferred from an empty law. The NONE removed
+parameter stays fixed under reindexing. Coordinate polynomial substitution
+has linear variables, unchanged degree, all-real log and the exact residual
+source. The original non-strict discrepancy and its witnesses are retained.
+
+Approximation is uniform in the actual specified quotient metric. Compact
+original families produce one finite approximant list and positive common
+bounded/Lipschitz constants BEFORE source, endpoints, compatible residue or
+factor sampling. Each mean loses at most epsilon, so the discrepancy loses
+at most two epsilon. With epsilon=eta/4, a non-strict eta bad event maps to
+the genuine non-strict eta/2 event. The finite list is NOT pointwise chosen
+before compactness; the choice order is explicit and no hidden Lipschitz
+property of projections or composed original tests is claimed.
+
+The all-anchor cap is already proved from native rough comparison and actual
+master growth/sampling, not assumed. The coordinate wrapper preserves the
+normalized source/log packet and original event. The compact-family wrapper
+uses event monotonicity under the SAME original window law. The ACTUAL
+joint removed-factor source supplies its original degree and ALL-REAL log
+packet via the registered source theorem. All supported typical anchors
+share one eventual cutoff. Original test family is exactly the image of the
+original numerical bounded/Lipschitz component classes under their actual
+joint product reading, not an invented regular test class.
+
+The remaining scale-range input is ordinary arithmetic. Original supported
+rest factors lie in their actual dyadic residue windows. Their retained
+product differs in either direction from the anchor product by at most
+2^T.card. Exact positive denominators give reference scale
+CubeScale/(d*anchorProduct*2^T.card), with actual scale bounded above by
+(2^T.card)^2 times that reference. The short-exposure key preserves the actual
+cube scale, proved using its original lower product. The empty retained set
+has product one and the same proof applies; no factor existence is fabricated.
+No gcd between the retained product and removed factor is used.
+
+This does NOT yet prove that the actual removed-factor posterior events
+meet every arithmetic/box/sample identity uniformly over supported rest
+fibers. The precise application of posterior Fubini remains to be assembled.
+Likewise face/cube limits, Alignment synthesis and the separate original GTZ
+LINEAR correlation inverse are still absent. The equidistribution inverse
+must never be substituted for that arbitrary-input interval Gowers inverse.
+No source flaw found this round is an unavoidable obstruction.
+
+No prior proof source, axiom set, dependency pin or compiler option changes
+are permitted. No custom axiom/sorry/native/unsafe/new instance/compiler
+bypass is used; local bindings use genuine existing proved structures.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Exact spatial coordinate/log/source/box/mean/event transfer, two-mean approximation margin, actual joint-source original-test all-anchor window caps and genuine actual retained-product scale ranges are proved. Remaining: assemble actual fixed retained residue and actual supported rest-factor geometry into the cap, prove actual sampled original product discrepancies enter these events, apply posterior Fubini to the actual removal events; face/cube/Alignment and countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

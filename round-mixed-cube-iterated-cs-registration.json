@@ -1,0 +1,53 @@
+{
+  "baseline_hash_count": 1081,
+  "modules": [
+    "Hindman168/MixedCubeIteratedCauchySchwarz.lean"
+  ],
+  "names": [
+    "Hindman168.cubePartialCopy",
+    "Hindman168.cubePartialCopy_empty",
+    "Hindman168.cubePartialCopy_univ",
+    "Hindman168.cubePartialCopy_face",
+    "Hindman168.subgroupMixedCubeAverage_partial_cs",
+    "Hindman168.subgroupMixedCubeAverage_gowers_cauchy_schwarz",
+    "Hindman168.subgroupMixedCubeAverage_le_product_gowers",
+    "Hindman168.subgroupMixedCubeAverage_le_vertex_gowers"
+  ],
+  "theorem_count": 7,
+  "declarations": {
+    "Hindman168/MixedCubeIteratedCauchySchwarz.lean": [
+      [
+        "def",
+        "cubePartialCopy"
+      ],
+      [
+        "theorem",
+        "cubePartialCopy_empty"
+      ],
+      [
+        "theorem",
+        "cubePartialCopy_univ"
+      ],
+      [
+        "theorem",
+        "cubePartialCopy_face"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_partial_cs"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_gowers_cauchy_schwarz"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_le_product_gowers"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_le_vertex_gowers"
+      ]
+    ]
+  }
+}

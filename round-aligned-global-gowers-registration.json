@@ -1,0 +1,18 @@
+{
+  "baseline_hash_count": 1058,
+  "modules": [
+    "Hindman168/AlignedGlobalShortCubeBound.lean"
+  ],
+  "names": [
+    "Hindman168.alignedInterval_harmonic_shortCube_gowers_bound"
+  ],
+  "theorem_count": 1,
+  "declarations": {
+    "Hindman168/AlignedGlobalShortCubeBound.lean": [
+      [
+        "theorem",
+        "alignedInterval_harmonic_shortCube_gowers_bound"
+      ]
+    ]
+  }
+}

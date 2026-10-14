@@ -1,0 +1,83 @@
+JSP-000168 continuation, 2026-10-14.
+Latest continuation: WINDOW-HAAR-CONTINUATION.txt. The horizontal bridge,
+top-coefficient isolation, full-interval point Haar law and translated
+fixed-step windows at the original real scale have been implemented.
+Use the manifest/current status to determine the latest terminal audit.
+Goal ACTIVE. StrongConjecture UNPROVED. No unavoidable obstruction established.
+
+Read CURRENT-STATUS.txt and verification-manifest.json last_round.review_file
+for the latest TERMINAL checkpoint. Author source/build/axiom checks are
+not independent replay or external review. Keep pursuing the FULL goal;
+public repository, prize PR and application follow full completion or a
+genuine unavoidable obstruction in the user's requested order.
+
+New terminal milestone: round-native-periodic-factorization.
+NativeSequentialPeriodicFactorization unconditionally proves sequential
+smooth/irrational/periodic factorization at the ORIGINAL group, lattice and
+step, on ONE subsequence. Exact ALL-real original group identities remain;
+ONE frozen rational residue pattern covers ALL signed integer inputs.
+Core quotient finiteness follows from the actual rational hull/positive roots
+and finitely generated nilpotent torsion, without assuming Gamma normal.
+Actual reversed product order and ALL unbounded integer corrections remain.
+
+Next milestone: round-native-rational-layer-haar, status in manifest.
+NativeRationalLayerOrbit constructs the actual final layer's native group
+and actual conjugated-lattice intersection, with compactness and original
+step. Its original adapted polynomial orbit has exact original exp/log
+identities. NativeRationalLayerHaarImage constructs actual canonical subgroup
+Haar images, their probability normalization, compact range, concentration
+and invariance under h -> h*y for y in THAT SAME subgroup. This is NOT a
+local empirical Haar law or projected face invariance.
+NativeSubgroupMaximalCharacter proves greatest nonzero level and exact
+original-rational-form transport from ACTUAL lattice intersection integrality.
+
+IMMEDIATE NEXT: derive actual horizontal-character-to-level-character bridge.
+1. Let A=nativeRationalLayerOrbitData D H 0 rho hRat, with rho an ACTUAL
+   frozen representative from the SAME factorization. Any bounded horizontal
+   functional chi on A.E output by native_original_polynomial_observable_inverse
+   is finite-grid selected. Extend it to D.E by composition with the EXISTING
+   finiteRealSubmoduleRetraction (H.layer 0). This extension agrees exactly
+   on the actual initial subgroup, by finiteRealSubmoduleRetraction_left.
+2. The native inclusion's derivative is EXACTLY the original submodule
+   inclusion: NativeLieSubalgebraNativeCoordinates.nativeLieSubalgebra_inclusion_mfderiv.
+   The EXISTING NativeSmoothHomLieBracket.nativeSmoothHom_generator_intertwine
+   proves preservation of original native adjoint generators, hence brackets.
+   Apply it to the ACTUAL subgroup subtype with
+   nativeLieSubalgebra_inclusion_contMDiff. This discharges internal bracket
+   annihilation from chi's ACTUAL native horizontal commutator-layer kernel.
+   Do not assume bracket naturality as new data.
+3. NativeLieSubalgebraNativeCoordinates.nativeLieSubalgebra_native_logarithm
+   identifies the ACTUAL native subgroup log with ambient Log. The lattice
+   identity in NativeRationalLayerOrbit and chi's genuine lattice integrality
+   give integral values on (rho Gamma rho^-1) intersect H. Then apply
+   native_subgroup_integral_character_rational_on_layer and
+   native_subgroup_character_maximal_level to the actual extension.
+4. Degree cleanup: RoughVectorMvWeightedDegree is TERMWISE and its list may
+   contain high-degree scalar polynomials with ZERO vector coefficient.
+   Filter the actual source list to totalDegree<=ell. H.terminal and
+   antitonicity prove removed vectors zero, hence EXACT evaluation equality.
+   Never assume the unfiltered raw list already has ordinary degree<=ell.
+   Use RoughNativeSubgroupLogPolynomial for EXACT restricted log transport.
+5. Identify the greatest-level ACTUAL Taylor coefficient against the scalar
+   polynomial obstruction using NativeRationalSubgroupTaylorCoordinates's
+   original ordered Taylor representation. Characters kill all higher levels,
+   and internal commutators. The greatest-level ordinary/binomial coefficient
+   is the actual character value on the ORIGINAL Taylor coefficient.
+6. Finite bounded inverse-character grid + all rational-character
+   irrationality exclude persistent discrepancy, on all fixed positive
+   scale-fraction boxes and all fixed progression moduli. Keep original
+   sequence order and dimensions. This first closes the q=0 point Haar input.
+
+Then cubes: actual native rational cube Lie subalgebra/filtration, actual
+face-character restrictions, isolated highest-degree monomial with support D.
+NilUpperFaceFiltration already proves exact commutator face union; use it.
+Do not replace the SAME final filtration by independently chosen q-filtrations.
+Cover ALL fixed dimensions through ORIGINAL s+1, including q=0. Sequence
+limits precede locality alpha->0; original fixed-modulus restrictions remain.
+
+Full-support Haar and projected face invariance, true joint lifts/full
+Alignment, arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse,
+and the final positive distinct rapidly separated SAME-color ALL nonempty
+FS AND FP remain open. No period, Haar, geometry, inverse or bound oracle;
+no source-step stretch; no fixed delta-power claim; no invented unavoidable
+obstruction; no premature public prize-completeness claim.

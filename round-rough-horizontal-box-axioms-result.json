@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 15.797000000020489,
+  "log": "round-rough-horizontal-box-axioms.txt",
+  "log_sha256": "f830203f64f6f330a40568b96b46dc9ed4f7059b0bf2ae8c5db68edd5a453a96"
+}

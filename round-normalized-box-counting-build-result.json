@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.57799999997951,
+  "log": "round-normalized-box-counting-build.txt",
+  "log_sha256": "5af9eaf8b972d02d6782439265225401a403701d5226b04003c90f6a8e7e4326"
+}

@@ -1,0 +1,112 @@
+JSP-000168 / Erdos #172 -- author mathematical review, 2026-10-14
+Verdict: Partial overall coverage; PROGRESS. StrongConjecture UNPROVED.
+Goal ACTIVE; no unavoidable obstruction established.
+Author Lean checks are not independent kernel replay or external peer review.
+
+Primary source: OpenAI math adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+08_alignment.tex, actual original conditional face comparison and the countable
+diagonal/period paragraph (577-611); 07_cube_limits.tex, adapted sequential
+factorization and local cube laws. All six retained paper sections are compared
+to pinned Git objects by the terminal audit.
+
+1. Original native states. Construct the literal finite product of canonical
+original arrays in the actual array groups and pointwise/product lattice.
+Evaluation at ANY original integer slot is exactly the original group
+g^(integer-array-argument/M)*a projected to its original lattice quotient.
+Only the already genuine positive master modulus is needed for this algebra.
+Integer Y is the integer floor quotient before any real embedding. All-slot
+quotient separation proves Y invariance; a fixed finite evaluation list is
+not used to identify lattice cosets.
+
+2. Empirical laws. The original ceil-endpoint/residue alignmentBoxClass is the
+ONLY sampling grid. The same uniform finite mass and exact normalization are
+used for original/native, duplicated-component and translated-face means.
+No nonempty condition is hidden; empty sets keep zero mean. Arbitrary finite
+duplicated-component labels retain original heterogeneous groups and slots.
+The native slot automorphism shifts each corresponding reading by the exact
+original single-own-pair offset. No Lipschitz bound on an evaluation or face
+automorphism is inferred from continuity.
+
+3. Complete native tests. The previously proved fixed finite original cylinder
+detector list is selected from the whole ACTUAL native numerical test class
+BEFORE original source/sampling data. Apply it to two maps of the SAME original
+grid: the raw native state and its genuine face translation. Thus the literal
+native failure event is included in a finite cylinder union. Boxes, residues,
+tests, failing face and zero/one vertex profiles remain selectable AFTER the
+raw sample. Native cube dimensions here are arbitrary finite SMALL types
+(including every Fin q), exactly the original natural-dimensional cubes.
+
+4. Actual detector cap. For EACH fixed cylinder list, the prior exact Fin-list
+presentation provides original component/slot/observer choices and genuine
+positive sup and Lipschitz numerical bounds. Substitute the duplicated data
+D'(j)=D(label j), n', determining evaluations, basis and source formula.
+Both detector means are proved equal to the ORIGINAL all-product-face means.
+The old unconditional original raw-law all-face cap therefore applies, with
+no analytic cap/rough input supplied as a new assumption. Repeated components
+use the SAME original sampled tuple; no component independence is asserted.
+Empty lists retain Fin 0 and their constant-one product without fake models.
+
+5. Uniform raw probability. For the fixed finite detector pool Q use
+delta'=delta/(card Q+1)>0. Every fixed detector has one eventual source-
+independent cutoff; genuine finite intersection yields a common cutoff. The
+finite union bound and strict card Q*delta'<delta prove the native cap. The
+ORIGINAL raw law and exposure-key source dependence are unchanged. Width/
+key-varying formulas are allowed, but dependence on unexposed factors is not.
+All analytic and numerical budgets are DERIVED before those choices.
+
+6. Conditioning and diagonal. Original nonnegativity and the genuine native
+cap prove zero failure limit. Any prescribed event of mass at least fixed
+beta>0 preserves zero conditional failure and contains supported good samples.
+The existing finite-prefix slow-stage selection is instantiated with these
+NATIVE events, along any actual W(j)->infinity. Primorial, cutoff, key and
+source use W(j), never j. The same sample sequence satisfies every fixed
+enumerated native condition and extra eventual stage obligations. All fixed
+positive moduli may be enumerated BEFORE a later sequence-selected period.
+No posterior independence after extra conditioning is claimed.
+
+7. Genuine source interface. The quotient of the exposure-fixed native
+logarithmic-polynomial source equals the original native state at EVERY signed
+integer cube sample. Self-exposure of a raw-supported sample derives all
+original rough coprimality and microcell-origin congruence, rather than adding
+them as unproved production assumptions. The sampled source identity is
+separate from the previous genuine all-real log-polynomial/degree identities.
+Neither unsampled extension values nor equality of arbitrary vector polynomial
+coefficients is inferred from sampled quotient equality.
+
+8. Diagnostics. An attempted large-universe cube index did not match the prior
+finite detector theorem's small sample-index universe and exhausted elaboration
+heartbeats. The final theorem uses arbitrary SMALL finite cube indices as in
+the original Fin-dimensional source and checks under the original default
+heartbeat limit. No resource override, kernel bypass or new axiom is retained.
+The failed diagnostic logs are preserved separately. This is not a mathematical
+obstruction to the original natural-dimensional statement.
+
+9. Coverage. The native-test-to-actual-source/probability interface and native
+countable selection are now closed. The full original sequential adapted
+factorization, rational filtration/period and local cube-Haar limits still
+need proof. Then weak-limit face measure invariance, limit-before-relative-box
+limit, full-support coset preservation, joint face lifts and full Alignment
+remain. The separate arbitrary interval Gowers LINEAR nilsequence inverse and
+final positive distinct rapidly-separated SAME-color nonempty FS AND FP goal
+are UNPROVED. No formalization completion, publication or award claim is made.
+
+10. ALL target families. Countable native selection now permits actual T(q),
+finite model index types iota(q), native groups D(q,nu), determining evaluation
+lists, bases and source formulae to vary with the fixed condition q. Every
+q's failure limit is proved by the unconditional native cap and cofinal W;
+all q use the SAME original raw law and prescribed positive event. The
+generic finite-prefix diagonal therefore supplies ONE shared sample sequence
+for every marginal target, modulus and numerical/dimension condition. This
+does NOT assert invariance of other marginals of a translated component.
+
+Next-source audit. Original 08_alignment.tex 377 explicitly calls the actual
+joint array state a LINEAR orbit adapted to the LOWER CENTRAL filtration.
+Before invoking 07_cube_limits.tex, identify the actual state/cube tuple with
+this linear orbit and prove its adaptation to that original filtration.
+The existing loose multivariate log-degree bound is NOT that adaptation
+statement. A stretched filtration or higher degree must not silently replace
+the paper's step s or its cube dimensions through s+1. Existing
+alignmentNativeJointModelOrbit_linear is the exact algebraic starting point.
+
+Remaining proof work:
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. ACTUAL native complete numerical cube tests now have unconditional original raw-law all-face probability vanishing, positive-event supported selection and one heterogeneous ALL-target countable diagonal on every cofinal width sequence. Exact original native empirical means, duplicated cylinder observations, genuine own-face actions and actual exposure-fixed polynomial source sample identities are proved. Remaining: formalize the original adapted sequential factorization/local cube-Haar laws with one rational filtration and sequence-selected period; derive weak-limit face measure invariance and full-support coset preservation with sequence limit BEFORE relative-box-size limit; original joint face lifts and full Alignment synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. No other-component invariance, unexposed-factor-dependent source uniformity, independent kernel replay, external peer review or explicit delta-power law is claimed. The repaired source slab estimate is not an unavoidable obstruction. Public repository/PR/prize milestone not reached.

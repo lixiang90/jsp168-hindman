@@ -1,0 +1,28 @@
+Repository: https://github.com/lixiang90/jsp168-hindman
+Owner: lixiang90. Initial branch: main.
+
+On 2026-10-14 the user explicitly requested uploading existing work to a
+PRIVATE repository for continuation while travelling. GitHub creation
+returned this URL; the metadata check confirmed isPrivate=true and ADMIN
+permission. Keep the repository private during ongoing formalization;
+the user wants publication later when applying for the prize.
+
+This changes the previous publication timing: private backup now, public
+repository and requested PR/prize application at the later milestone.
+The full mathematical objective remains unchanged and ACTIVE.
+StrongConjecture is UNPROVED; no unavoidable obstruction established.
+
+Latest mathematical audit: round-native-cube-character. Seven new modules,
+15 theorems, four definitions. Full author build and registered axiom audit
+passed. See CURRENT-STATUS.txt, verification-manifest.json and
+CUBE-CHARACTER-CONTINUATION.txt for authoritative proof progress and next work.
+
+README.md contains portable setup and continuation instructions.
+scripts/verify_snapshot.py verifies exact canonical source hashes and,
+with --build, runs lake build and all registered axiom reports. Historical
+round scripts keep their original workstation paths as archival evidence.
+.gitattributes disables newline conversion so audited hashes survive cloning.
+.gitignore excludes .lake build caches, Python bytecode and local fresh logs.
+
+Private backup is not a claim of completed formalization, a public release,
+an independently checked proof, a prize submission or an awarded result.

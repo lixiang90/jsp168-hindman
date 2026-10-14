@@ -1,0 +1,28 @@
+{
+  "baseline_hash_count": 1076,
+  "modules": [
+    "Hindman168/DualProductApproximation.lean"
+  ],
+  "names": [
+    "Hindman168.unit_product_squared_difference_le",
+    "Hindman168.weightedHaar_product_L2_stability",
+    "Hindman168.weighted_dual_product_exists_approximation"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/DualProductApproximation.lean": [
+      [
+        "theorem",
+        "unit_product_squared_difference_le"
+      ],
+      [
+        "theorem",
+        "weightedHaar_product_L2_stability"
+      ],
+      [
+        "theorem",
+        "weighted_dual_product_exists_approximation"
+      ]
+    ]
+  }
+}

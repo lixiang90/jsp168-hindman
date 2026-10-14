@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous round rechecked before edits; all baseline source hashes verified at registration.",
+    "The original integerMass and harmonicWindow definitions are used directly. Coprimality is transported by the actual divisibility W | M and residue identity, via the Euclidean gcd recursion.",
+    "The sum formula includes both admissible and inadmissible residues, and is valid even for a zero normalizer. No probability law is replaced.",
+    "The conditional ratio theorem requires positivity of the original harmonicNormalizer before cancelling it. The error theorem additionally requires positive cell length and left endpoint.",
+    "All five new theorems are individually kernel checked. Global cell weights, endpoint deletion, wrapping and the deep inverse inputs remain open."
+  ],
+  "new_modules": [
+    "Hindman168/CompleteResidueCellMass.lean",
+    "Hindman168/CompleteResidueCellMassError.lean"
+  ],
+  "verified": {
+    "project_modules": 1017,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1026,
+    "source_config_hashes": 1035,
+    "build_jobs": 4971,
+    "axiom_reports": 4887,
+    "new_theorems": 5,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 5,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The original integerMass complete-cell sum and conditional expectation are now connected to the explicit coordinates with the exact unit-residue filter. Global cell probabilities, deletion of partial endpoint cells, renormalization and wrapping errors still require assembly, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

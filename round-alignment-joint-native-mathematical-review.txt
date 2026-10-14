@@ -1,0 +1,66 @@
+JSP-000168 / Erdos #172, 2026-10-14. Partial overall coverage.
+Author checking, not independent replay or external peer review.
+
+The original Alignment paragraph takes finite products over targets and
+models/vertices/slot shifts, and needs the ACTUAL joint array source and
+its original simultaneous observations. Single-model samples alone do
+not certify this. The new joint construction and sample/read identities
+address that actual requirement; no narrowed final target is introduced.
+
+nativeFinitePiData uses the literal heterogeneous dependent product group
+and literal product lattice. Each original native exponential diffeomorph
+constructs the smooth product chart; actual lower central cutoff, discrete
+lattice and compact quotient are proved dependencies. Compatible metric
+is constructed from the retained original native recipe. Actual small
+finite labels coexist with ANY original model universe. No group/lattice/
+compactness or analytic field is replaced by a desired conclusion.
+Original component ray laws and singleton-chart ODE uniqueness give the
+native product exponential/log coordinates. Genuine linear coefficient
+insertion and finite list flattening preserve total degree and literal
+component evaluation. Empty products retain actual unit/zero semantics,
+without deriving existence of a component or inverse character.
+
+Joint exposed sources allow every original component group, finite
+determining evaluation, basis, vertex weight and slot shift to differ.
+The original common degree survives, with no coefficient bound. Actual
+exposure freezing and simultaneous original cube-array sample identities
+are proved, not inferred from values off the sampling sets. Restriction
+to one free removed factor leaves all spatial directions free and freezes
+all other factors. Updating the dummy frozen value at that factor changes
+nothing. Spatial residue normalization retains q/residue independently
+of the removed parameter, with no gcd(q,t) assumption, and supplies the
+original degree and ALL-REAL native joint log packet outright.
+
+Coset coordinates descend through the actual product and pointwise array
+lattices; no normality of the original lattice is required. Natural
+quotient continuity transports through the PROVED native metric topology
+identity. This establishes continuity, NOT a numerical spatial Lipschitz
+constant for projections or readings. Exact slot readings preserve
+original complex values, bounds and uniform differences.
+
+The bounded complex test class has its original numerical B/L bounds.
+Closed pointwise bounded values and uniform equicontinuity give actual
+Arzela-Ascoli compactness. Continuous pullback and finite pointwise
+multiplication give compactness of the ACTUAL entire product test family.
+Proved compact-space Lipschitz density and a finite cover produce one
+finite approximant list and positive common output bounds BEFORE each
+original input test. Source quotient compactness in its specified metric
+is transported from genuine native compactness, not assumed. Nothing
+claims pointwise compositions were already Lipschitz. Original sampling
+readout equals the product of original component nilsequence values
+at all genuine integer cube samples, including every vertex/slot shift.
+
+The original StrongWitness/StrongConjecture was re-read unchanged.
+Inverse call sites were reviewed: required Gowers degrees are in a FINITE
+dimension list or bounded by maskRowCountBound. A genuine GTZ proof must
+choose sufficient native step for that actual finite list; no universal
+inverse for incompatible arbitrary step/degree pairs is claimed. This
+inverse remains unproved, not a consequence of equidistribution.
+
+Remaining geometry/coordinate/bad-event and conditional source application
+are explicit; this round is not a completed Alignment or Hindman theorem.
+All prior registered proofs and axiom sets must remain exact. No custom
+axiom/sorry/native/unsafe shortcut, new instance declaration or compiler
+option bypass is used. Local bindings are only genuine proved structures.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Genuine finite heterogeneous JOINT native sources, common degree, all-real residual packets, exact sampled arrays/complex metric readings and unconditional uniform finite Lipschitz approximation of bounded test product families are proved. Earlier native rough proportions, all-anchor master-window caps and posterior Fubini domination remain verified. Remaining: exact spatial finite-coordinate reindexing; actual retained coarse residue and bounded normalized-box scale-range; approximation error/bad-event inclusion and actual conditional fiber application; face/cube/Alignment and countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient step for the actual finite required degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

@@ -1,0 +1,108 @@
+{
+  "modules": [
+    "Hindman168/BinaryDyadicResidueExposure.lean",
+    "Hindman168/AlignmentDyadicExposureGeometry.lean",
+    "Hindman168/AlignmentDyadicExposureLaw.lean",
+    "Hindman168/AlignmentShortExposureFibers.lean",
+    "Hindman168/AlignmentShortExposureLaw.lean"
+  ],
+  "names": [
+    "Hindman168.binaryDyadicResidueWindow",
+    "Hindman168.binaryDyadicResidueWindow_mem",
+    "Hindman168.binaryDyadicResidueWindow_anchor",
+    "Hindman168.binaryDyadicResidueWindow_subset",
+    "Hindman168.alignmentShortExposureDyadicGood",
+    "Hindman168.alignmentShortExposureDyadicGood_key",
+    "Hindman168.alignment_shortExposure_tail_window",
+    "Hindman168.alignment_shortExposure_tail_windows_eventually",
+    "Hindman168.alignment_shortExposure_dyadic_discard_event",
+    "Hindman168.alignment_shortExposure_dyadic_discard_tendsto",
+    "Hindman168.alignment_dyadic_residue_condition_exact",
+    "Hindman168.alignment_dyadic_residue_condition_product",
+    "Hindman168.alignment_conditioned_dyadic_exposure_discard_tendsto",
+    "Hindman168.alignmentShortExposureKey_iff",
+    "Hindman168.alignmentShortExposureKey_window_iff",
+    "Hindman168.sameNaturalShortBin_iff",
+    "Hindman168.alignment_shortExposure_condition_exact"
+  ],
+  "declarations": {
+    "Hindman168/BinaryDyadicResidueExposure.lean": [
+      [
+        "def",
+        "binaryDyadicResidueWindow"
+      ],
+      [
+        "theorem",
+        "binaryDyadicResidueWindow_mem"
+      ],
+      [
+        "theorem",
+        "binaryDyadicResidueWindow_anchor"
+      ],
+      [
+        "theorem",
+        "binaryDyadicResidueWindow_subset"
+      ]
+    ],
+    "Hindman168/AlignmentDyadicExposureGeometry.lean": [
+      [
+        "def",
+        "alignmentShortExposureDyadicGood"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureDyadicGood_key"
+      ],
+      [
+        "theorem",
+        "alignment_shortExposure_tail_window"
+      ],
+      [
+        "theorem",
+        "alignment_shortExposure_tail_windows_eventually"
+      ],
+      [
+        "theorem",
+        "alignment_shortExposure_dyadic_discard_event"
+      ],
+      [
+        "theorem",
+        "alignment_shortExposure_dyadic_discard_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentDyadicExposureLaw.lean": [
+      [
+        "theorem",
+        "alignment_dyadic_residue_condition_exact"
+      ],
+      [
+        "theorem",
+        "alignment_dyadic_residue_condition_product"
+      ],
+      [
+        "theorem",
+        "alignment_conditioned_dyadic_exposure_discard_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentShortExposureFibers.lean": [
+      [
+        "theorem",
+        "alignmentShortExposureKey_iff"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_window_iff"
+      ]
+    ],
+    "Hindman168/AlignmentShortExposureLaw.lean": [
+      [
+        "theorem",
+        "sameNaturalShortBin_iff"
+      ],
+      [
+        "theorem",
+        "alignment_shortExposure_condition_exact"
+      ]
+    ]
+  }
+}

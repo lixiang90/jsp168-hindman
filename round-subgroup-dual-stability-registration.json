@@ -1,0 +1,43 @@
+{
+  "baseline_hash_count": 1071,
+  "modules": [
+    "Hindman168/SubgroupDualStability.lean"
+  ],
+  "names": [
+    "Hindman168.unit_product_difference_le",
+    "Hindman168.finiteHaarMean_abs_mean_le",
+    "Hindman168.finiteHaarMean_finset_sum",
+    "Hindman168.subgroupDualFunction_difference_bound",
+    "Hindman168.subgroupDualFunction_L1_stability",
+    "Hindman168.subgroupDualFunction_L2_square_stability"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/SubgroupDualStability.lean": [
+      [
+        "theorem",
+        "unit_product_difference_le"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_abs_mean_le"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_finset_sum"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_difference_bound"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_L1_stability"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_L2_square_stability"
+      ]
+    ]
+  }
+}

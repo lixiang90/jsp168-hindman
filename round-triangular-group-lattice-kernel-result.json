@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 13.811999999918044,
+  "complete_output_saved": true
+}

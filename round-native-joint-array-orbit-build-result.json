@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.889999999897555,
+  "log": "round-native-joint-array-orbit-build.txt",
+  "log_sha256": "8d57b4531fc974cf67d56d41dc93968edc3ed6dd6c4bbfd71e8b07a04c8999f0"
+}

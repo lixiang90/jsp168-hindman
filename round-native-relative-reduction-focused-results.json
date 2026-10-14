@@ -1,0 +1,242 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/SubgroupInclusionTransport.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 10.235000000102445,
+    "log": "round-native-relative-reduction-SubgroupInclusionTransport-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/SubgroupInclusionTransport.lean",
+    "source_sha256": "744d09ba73d133683ea48ca261fc8d74c610805391ab03168d0ba36c62c88a43"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeInclusion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.030999999959022,
+    "log": "round-native-relative-reduction-NativeRelativeInclusion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeInclusion.lean",
+    "source_sha256": "dcbc4167ff03c55b94ddfda894fed771a9497e8e9fd64c278fa64ef8fc88b9aa"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeExponentialLogarithm.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.562000000150874,
+    "log": "round-native-relative-reduction-NativeRelativeExponentialLogarithm-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeExponentialLogarithm.lean",
+    "source_sha256": "4070e1da764fff86fb0d286e5bb88177056d6fa0a4dfe8b0e76ea0b09871d2ca"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/DiagonalLinearModel.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 6.906999999890104,
+    "log": "round-native-relative-reduction-DiagonalLinearModel-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/DiagonalLinearModel.lean",
+    "source_sha256": "3cc4025b6c33b90a18e1287608ebea3f15c2722769b46c3cb7623f8a591bfdae"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeDiagonalLayerExponential.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.046000000089407,
+    "log": "round-native-relative-reduction-NativeDiagonalLayerExponential-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeDiagonalLayerExponential.lean",
+    "source_sha256": "a49cc668f3e833f55fa22996cd86d064eea14fc95aa3c3b48fb6d0f3da53bc1d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeTerminalModel.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.797000000020489,
+    "log": "round-native-relative-reduction-NativeRelativeTerminalModel-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeTerminalModel.lean",
+    "source_sha256": "ac1b9d8f296dc5599d386a28855cf0370780d5d845320b7a5f79fa1eed4b1c93"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeTerminalCenter.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.593999999808148,
+    "log": "round-native-relative-reduction-NativeRelativeTerminalCenter-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeTerminalCenter.lean",
+    "source_sha256": "b8f474cb7148c8e57615fe3ccadf0a3b814879e4d91daf74c8ea43982236ab37"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeDiagonalInclusion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.875,
+    "log": "round-native-relative-reduction-NativeRelativeDiagonalInclusion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeDiagonalInclusion.lean",
+    "source_sha256": "3eae81d89967ad7515e4a311bb6031e3a4a5ba7f43cbfd2bdd193dd02f814052"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeTerminalRational.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.656000000191852,
+    "log": "round-native-relative-reduction-NativeRelativeTerminalRational-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeTerminalRational.lean",
+    "source_sha256": "c8b02211aa423f1dceaaa7f0ee9927f6c1762a2b33e3004aa12c3b2b38a996d0"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeTerminalSubgroup.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.484999999869615,
+    "log": "round-native-relative-reduction-NativeRelativeTerminalSubgroup-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeTerminalSubgroup.lean",
+    "source_sha256": "9c86a91e41cf108450f8deb9d10c24b493d978d9efb7abf949bea6d15643899a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReducedLattice.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.515000000130385,
+    "log": "round-native-relative-reduction-NativeRelativeReducedLattice-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReducedLattice.lean",
+    "source_sha256": "2b3b6031fd6191c9a43d0742e1f4fefd5ce68541e7f679d1679a97cb8906687b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReducedStructures.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.687000000150874,
+    "log": "round-native-relative-reduction-NativeRelativeReducedStructures-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReducedStructures.lean",
+    "source_sha256": "1ccf18b5cba881895884da9fbab9f0d19fb03380f1f9823c0e16736f48b49ca7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReducedMetric.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.593999999808148,
+    "log": "round-native-relative-reduction-NativeRelativeReducedMetric-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReducedMetric.lean",
+    "source_sha256": "62ea39c7b804d7568fb3354ac3ccb88f7f4831ec0efc89a03a492e87af6677fc"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReducedData.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.610000000102445,
+    "log": "round-native-relative-reduction-NativeRelativeReducedData-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReducedData.lean",
+    "source_sha256": "922ed909471da89e5367c79eca3201741bad97816e2efb47e56b6050b7ad8493"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReducedNativeFiltration.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.733999999938533,
+    "log": "round-native-relative-reduction-NativeRelativeReducedNativeFiltration-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReducedNativeFiltration.lean",
+    "source_sha256": "37183b2ea9ecd516073f3af2b31f3c03aede88e7f8d24707e44e7b23d1745d43"
+  }
+]

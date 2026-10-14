@@ -1,0 +1,61 @@
+{
+  "baseline_hash_count": 1095,
+  "modules": [
+    "Hindman168/WeightedHaarMultiplication.lean",
+    "Hindman168/MixedDualMultiplication.lean"
+  ],
+  "names": [
+    "Hindman168.finiteMassL2_unit_mul_norm_le",
+    "Hindman168.weightedHaarMultiplier",
+    "Hindman168.weightedHaarMultiplier_hilbert_distance_le",
+    "Hindman168.weightedHaarMultiplier_hilbert_inner",
+    "Hindman168.mixedDualHilbert_multiplier_generator",
+    "Hindman168.mixedDualHilbert_multiplier_scaled_span",
+    "Hindman168.mixedDualHilbert_multiplier_closed",
+    "Hindman168.mixedDualHilbert_multiplier_orthogonal",
+    "Hindman168.mixedDualHilbert_projection_pullout"
+  ],
+  "theorem_count": 8,
+  "declarations": {
+    "Hindman168/WeightedHaarMultiplication.lean": [
+      [
+        "theorem",
+        "finiteMassL2_unit_mul_norm_le"
+      ],
+      [
+        "def",
+        "weightedHaarMultiplier"
+      ],
+      [
+        "theorem",
+        "weightedHaarMultiplier_hilbert_distance_le"
+      ],
+      [
+        "theorem",
+        "weightedHaarMultiplier_hilbert_inner"
+      ]
+    ],
+    "Hindman168/MixedDualMultiplication.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_multiplier_generator"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_multiplier_scaled_span"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_multiplier_closed"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_multiplier_orthogonal"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_projection_pullout"
+      ]
+    ]
+  }
+}

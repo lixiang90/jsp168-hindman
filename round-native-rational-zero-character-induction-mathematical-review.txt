@@ -1,0 +1,85 @@
+JSP-000168: actual original zero character reconstruction and induction step
+Author mathematical review, 2026-10-13. Not independent kernel replay or external peer review.
+
+Route: retained six OpenAI sections at adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+06_rough_progressions and Green--Tao section 7, Proposition 7.2:
+https://arxiv.org/html/0709.3562v4 . Corrected equal-side scope:
+https://arxiv.org/html/1311.6170v3 . Original coefficients remain UNBOUNDED.
+
+1. Child character is composed with TRUE original terminal model projection.
+   PROVED original model surjectivity prevents a nonzero child functional
+   becoming zero on the original model. Actual original Log compatibility
+   identifies the pulled real group character with actual child group
+   character composed with TRUE original group projection.
+2. Actual group projection is a group hom. Child horizontality yields real
+   multiplicativity; genuine continuous-character linearization proves the
+   ORIGINAL lower-central commutator model is killed. Every ORIGINAL gamma
+   maps into SAME ACTUAL child image lattice, and exact Log compatibility
+   proves original lattice integrality. Original horizontal/nonzero/integer
+   character conclusion is DERIVED, not assumed.
+3. True continuous-linear operator composition bounds the original norm.
+   Fixed budget A*(1+norm(P)) is >=A and bounds actual composition norm.
+   Existing proved native finite-grid theorem supplies the ORIGINAL grid
+   from this derived norm and original integrality/horizontality. There is
+   no parent size/character compatibility premise. Quotient is not assumed
+   isometric in its arbitrary specified coset metric.
+4. COMPLETE actual original scalar polynomial equals child projected AND
+   zero-trim scalar polynomial; hence EVERY monomial coefficient agrees.
+   True weighted image terminal vanishing gives scalar degree <=ell-1.
+   Original representations may have high-degree zero-vector terms; their
+   raw coefficients and unbounded nonzero vector values are not substituted.
+5. Actual binomial coefficient sums use a bounding box, so different child
+   and parent degree parameters cannot simply be identified by scalar
+   equality. Box monotonicity and TRUE polynomial degree force all extra
+   monomial coefficients to zero. This PROVES degree extension invariance,
+   and child ell-1 binomial table equals ORIGINAL parent ell table. This
+   resolves the real coefficient-transport gap rather than hiding it in
+   an assumed binomial interface or keeping the wrong child parameter.
+6. NativeRationalWeightedInverseStatement is a named FULL desired proposition,
+   NOT an axiom, class instance, data field or universal proved result.
+   It requires actual ORIGINAL NONZERO horizontal character, fixed finite
+   grid/operator bound and BOTH ORIGINAL coefficient tables, with bounds
+   preceding all source p,N,H. Only degree-zero and degree-one bases are
+   PROVED. Degree-zero uses the nonempty positive cube and actual terminal
+   canonical Haar discrepancy zero, not an invalid empty-average claim.
+7. General zero-mode induction theorem is CONDITIONAL precisely on this
+   FULL lower-degree conclusion on ACTUAL native terminal quotient/actual
+   IMAGE filtration. It assumes no parent character, parent bounds,
+   geometry, canonical measure identity, degree drop or unit detection.
+   Those are all supplied by actual proved original constructions. A
+   native unit child witness and actual weighted degree-reduced coefficient
+   polynomial feed the child premise; actual pullback reconstructs original
+   nonzero/horizontal/integer character and BOTH coefficient bounds.
+   This is a genuine induction step; it DOES NOT prove the higher inverse
+   merely because its child premise is named in a proposition.
+8. Rounding true operator budget gives a positive fixed NATURAL budget.
+   Actual original finite grid is obtained from that larger true norm
+   bound; original monomial/binomial bounds enlarge consistently. Existing
+   actual Fourier selection then combines zero reconstruction and bounded
+   NONZERO vertical frequency signal into one fixed-budget alternative.
+   Nonzero vertical mode is NOT a reconstructed horizontal character.
+9. For parent filtration degree TWO, actual terminal child has degree ONE.
+   Its desired inverse is ALREADY PROVED on SAME actual group/metric/Haar
+   and ANY finite variable type. The child hypothesis is fully discharged,
+   proving COMPLETE actual degree-two ZERO-frequency inverse with ORIGINAL
+   nonzero character/grid/operator/parent degree-two monomial/binomial
+   bounds. No original coefficient/lattice-log bound or assumed inverse
+   certificate is introduced.
+10. Degree-two full-discrepancy alternative likewise has NO inverse premise:
+    actual original horizontal obstruction OR bounded actual nonzero
+    terminal-frequency signal. The latter remains unresolved. This is NOT
+    a complete degree-two inverse, arbitrary-degree inverse or prize theorem.
+
+Review boundary: generic actual NONZERO-frequency relative-pair observable
+descent/canonical Haar/metric/unit detection and ORIGINAL nonzero relative
+horizontal-character reconstruction remain open, including the second
+degree-two alternative. General zero induction still needs its true child
+inverse from a complete degree induction; no higher universal statement is
+claimed. Corrected full multivariate inverse, separate interval Gowers
+correlation inverse, rough progression descent, conditional cube laws/
+posterior/positive Alignment and final FS/FP extraction remain open.
+StrongConjecture UNPROVED; no unavoidable obstruction established.
+Publication/application milestone not met.
+
+Exact remaining record:
+StrongConjecture remains UNPROVED; no unavoidable obstruction established. Full original positive distinct rapidly separated monochromatic finite sums/products is the prize target. Original true normalized relative/reduced weights/filteredness/degree, lattice rational geometry and BOTH actual Green-Tao normalizations are retained, including bounded true corrected P(1), SAME nonnormal original coset samples and every original nonconstant horizontal scalar coefficient modulo integers. Arbitrary finite rational native Lie-filtered relative GEOMETRY is retained and actually applies to original reduced IMAGE layers. NOW arbitrary actual terminal quotient NativeData/chart/model/image lattice/metric/smooth projection/identity differential/native Exp/Log and actual projected rational Lie/group filtration of bound ell-1 are CONSTRUCTED. Original model projection is surjective with kernel EXACT F(ell), and all source/image lattice logarithms/Q-spans agree exactly. EVERY actual relative-then-terminal quotient geometric recursion stage exists with bound ell-n; at ell stages the actual group is SUBSINGLETON. Geometric recursion is APPLIED to BOTH original stretched and retained original reduced IMAGE data, with SAME actual projected layers. ACTUAL weighted native terminal polynomial projection has genuine real filteredness, zero-trim degree (ell-1)-k, complete scalar coefficients/native exponentials/exact integer factor samples, and is APPLIED to ACTUAL twice-normalized ORIGINAL univariate source at SAME stretch d without inflating to ordinary s*d. NOW arbitrary WEIGHTED normalized RELATIVE coefficient-polynomial reconstruction is CONSTRUCTED with actual integer pair samples, all aggregate coefficient membership, SAME relative weights, real/integer filteredness, COMPLETE scalar pullbacks and zero-trim degree ell. Actual relative-then-terminal polynomial reduction has degree ell-1 and is APPLIED to ACTUAL twice-normalized ORIGINAL source at SAME stretch d. Generic true basepoint/lattice-linear normalizations preserve ALL actual image filtration weights and PROVE normalized logarithmic zero and degree ell. NOW actual iterated WEIGHTED POLYNOMIAL recursion is CONSTRUCTED at bound ell-n, with genuine compact representative/lattice normalization choices, all original pair coordinate/observable samples, complete scalar and aggregate coefficient preservation, true image weights/degree and exact EVERY-stage integer quotient factor samples. ALL actual stage group/model/lattice/chart/metric/filtration GEOMETRY is PROVED fixed before original coefficients and ALL shifts, equal to geometry-only recursion. At ell stages actual group/orbit is trivial and actual specified-metric canonical native Haar discrepancy is ZERO for every NONEMPTY finite sample. The FULL polynomial recursion is APPLIED to ORIGINAL degree <=d input at SAME stretch d, degree s*d-n and termination at s*d. NOW the TRUE degree-ONE rational-filtration quantitative inverse BASE CASE is PROVED on the ORIGINAL group/model/lattice/metric/canonical Haar. Original group commutativity and proven step<=1 are discharged; literal reclassification preserves original Haar/fundamental-domain/probability/samples/discrepancy. An ACTUALLY NONZERO original horizontal character is PRODUCED with fixed original finite grid, true operator norm and BOTH original monomial/paper-binomial bounds, for RAW UNBOUNDED weighted coefficients and ANY finite variable type including Unit. Exact variable equivalence preserves original cube samples, canonical discrepancy and COMPLETE monomial/binomial coefficients. This inverse is APPLIED to actual recursive degree-one polynomial state; actual node at j=ell-1 exists for ell>0 and retains SAME coefficient/shift-independent actual stage geometry. NOW ANY original finite rational Lie filtration has ACTUAL ORIGINAL terminal torus/action/canonical-Haar invariance, continuous Fourier projections/GROUP eigenlaws/NONZERO frequency mean zero, fixed finite uniform reconstruction/frequency selection/l1 bound, and genuine ZERO-mode OR NONZERO original-terminal-frequency alternative. ACTUAL terminal image-lattice native factor is surjective/equivariant with exact fibers and open quotient in BOTH specified metrics. ZERO mode descends to ACTUAL native terminal quotient; original pushforward equals TRUE quotient canonical Haar by PROVED probability/invariance/uniqueness and explicit metric/Borel transport. Original/descended ZERO integrals and canonical discrepancies agree on EXACT original samples. Compact FUNCTION-space zero family yields fixed finite actual SPATIAL Lipschitz/unit child family and positive detection threshold before ALL source inputs. Actual ZERO-mode weighted-polynomial reduction produces SAME actual image weights, ordinary degree ell-1, complete original scalar pullback and large TRUE quotient native canonical discrepancy in a fixed UNIT child observation. NEXT: actual NONZERO-frequency relative-pair observables/factor/quotient canonical Haar/finite-unit detection and original normalization samples for ANY original rational filtration; NOW ACTUAL arbitrary terminal quotient character pullback PROVES ORIGINAL nonzero/horizontal/lattice-integral character, true fixed operator budget and ORIGINAL finite grid. COMPLETE original scalar/monomial coefficients and true scalar degree ell-1 survive, and actual binomial degree extension PROVES child ell-1 table equals ORIGINAL parent ell table. FULL desired NativeRationalWeightedInverseStatement is named ONLY as a proposition; degrees zero/one are PROVED, higher universal inverse UNPROVED. Genuine arbitrary-degree ZERO-MODE induction step is PROVED CONDITIONALLY on FULL LOWER-DEGREE child inverse, with ALL actual original geometry/measure/unit/weights and character/grid/operator/BOTH coefficient inputs discharged. Fixed NATURAL budget and actual bounded Fourier alternative combine the zero character result with the remaining nonzero-mode signal. Degree-TWO ZERO-MODE inverse is NOW FULLY PROVED with NO child inverse hypothesis; degree-TWO original full-discrepancy horizontal-character OR bounded nonzero-frequency alternative is PROVED. Neither the unresolved degree-two nonzero branch nor higher-degree universal inverse is declared solved. NEXT: genuine NONZERO relative character reconstruction/ORIGINAL character pullback under HIGHER-DEGREE quantitative induction beyond proved degree-zero/one and closed degree-two-zero bases; genuine ORIGINAL NONZERO quantitative Leibman horizontal-character reconstruction/pullback with actual finite-list/operator/binomial bounds. GEOMETRIC termination alone does not establish orbit inverse or nonzero character reconstruction. SAME native step bound s unchanged; actual image filtration never re-stretched. Corrected equal-side multivariate inverse or justified reduction remains open. Fixed-data existence bounds only; no unsupported power laws or bounded original coefficients. Keep corrected Green-Tao equal-side/erratum scope, actual large-N thresholds, equal-cube tiling/boundary discard/translation/integer bounded-location consequences and retained unrestricted-short-box O(eps) counterexample, which does not obstruct corrected full goal. Separate HasNativePeriodicIntervalInverse interval Gowers-to-finite-list nilsequence CORRELATION inverse remains UNPROVED, distinct from orbit quantitative Leibman. Actual rough progression density/obstruction/descent, step/dimension/length/cofinal-scale comparison, conditional face laws/cube invariance, buffered bins, prior-event positivity, extra-conditioning posterior control, positive-probability Alignment, HasAlignmentMonomialRecurrence and final FS/FP extraction remain UNPROVED. All earlier retained results and standard-axiom reports preserved. Author source/build/axiom checking is not independent kernel replay or external peer review. No public repository, PR or prize submission yet; execute authorized publication/application at actual full completion or genuine unavoidable obstruction with honest scope.

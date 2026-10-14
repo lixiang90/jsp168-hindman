@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-13",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2663,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6690,
+    "selected_axiom_reports": 10455,
+    "new_declarations": 14,
+    "new_theorems": 11,
+    "new_definitions": 3,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/ResidualRealBoxGeometry.lean",
+    "Hindman168/NativeRealResidualLargeEvent.lean",
+    "Hindman168/NativeRealResidualRoughProportion.lean",
+    "Hindman168/NativeRealOriginalRoughProportion.lean"
+  ],
+  "proved_components": [
+    "Arbitrary original REAL-box endpoints now have EXACT residual integer endpoints ceil((x-a)/q). Actual positive-q affine order/congruence and ceil identities prove this without numerical approximation or a coprimality premise. Original/normalized boxes retain the exact same samples.",
+    "The source real-power growth now proves ONE uniform real-box sampling threshold. EVERY permitted original coarse q-class and compatible fine q*t-class is genuinely NONEMPTY at every actual dyadic step thereafter. This holds simultaneously over arbitrary endpoints and finer residues; no nonempty assumption is put into the original real-box event.",
+    "UNCONDITIONAL original and residual rough exceptional fractions now tend to zero for arbitrary REAL spatial boxes, non-strict complex discrepancy and varying actual finite native-family members/raw sources/retained factors. Only fixed harmless geometry constants change under ceil rounding; eta, actual sampling laws and original varying-witness quantifiers are retained. Retained q/a remain independent of the removed t."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original/residual complex non-strict rough exceptional-proportion convergence is proved for arbitrary REAL boxes, with actual simultaneous nonempty sample proofs, literal source/event composition and common finite-native-family budgets WITHOUT coprimality. Remaining: cofinal w-index bridge and actual master/source/conditional-probability application (including uniform bounded normalized-scale variation), separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-real-rough-proportion-mathematical-review.txt",
+  "mathematical_review_sha256": "097e9521676eee011516faac51221cdc5b83308f64559127914fab6099f939fe",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

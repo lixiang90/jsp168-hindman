@@ -1,0 +1,1260 @@
+{
+  "classification": "AUTHOR-CHECKED MINIMAL FINITE SZEMEREDI CLOSURE",
+  "source_repository": "https://github.com/openai/math",
+  "source_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "original_toolchain": "leanprover/lean4:v4.34.1",
+  "verified_toolchain": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "original_authorship": "OpenAI math contributors; Apache-2.0",
+  "scope": "Fixed-density arbitrary-length finite integer AP only; not the quantitative reciprocal-sum theorem.",
+  "files": [
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.AdaptiveCoarseTargetRegularity",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean",
+      "original_sha256": "01369865d81b498add176edb3e56e9a337839d63e94049d29b20cd5637af0c98",
+      "verified_sha256": "06730640d0867c395b751a895024a796a30d04718183cdf8a53ef134c049b570",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 14.952999999979511,
+        "source_sha256": "06730640d0867c395b751a895024a796a30d04718183cdf8a53ef134c049b570",
+        "transitive_source_fingerprint": "e8a74a8d0bc149c25345c4a17b5e85b64a6a3ff4063775c7518ac257fda076da",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.CoarseTargetRegularity": "f4ee64a0a93445229b6a9d651fc6b20e889eaa64cef4505184c1125c9d436712"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.AdaptiveCoarseTargetRegularity.txt",
+        "log_sha256": "3366920e203a40b3eac3e4112ddfe24d8170102a3b0c84103395b3c99ed59d27",
+        "warnings": true
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.BooleanCutReduction",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/BooleanCutReduction.lean",
+      "original_sha256": "80bc3801f021346a8d0a8cfe16583ab7b9c24ef5a92eeeb0c734724bcf3bccc7",
+      "verified_sha256": "ccb62798c54c178e70bb1c48ee97cdda5a9cb27424d40dcd131e773c4d021c17",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/BooleanCutReduction.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/BooleanCutReduction.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.297000000020489,
+        "source_sha256": "ccb62798c54c178e70bb1c48ee97cdda5a9cb27424d40dcd131e773c4d021c17",
+        "transitive_source_fingerprint": "c0801ea3f1ced05107999b25e1e366e39f2e386be0c9bf5746144fbeca507eeb",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.PolynomialApproximation": "6c7ac799befc04673e67dfabe881293e21fbf16b4afc1061300063a7c7b8c42b",
+          "OAI.Combinatorics.Progressions.FixedDensity.SimplexTelescoping": "4d2a7721aebb5496bff676271936dc25923e35dc75dd290a3505e358d61f01e6"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.BooleanCutReduction.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.BoundaryBernoulli",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/BoundaryBernoulli.lean",
+      "original_sha256": "a6835a2364b5db006c7985817fd559b6e476fd3e1a896a4f319b3090cd0c0f51",
+      "verified_sha256": "b0498480ae388a01ad803bff4ab236c44ef5eaa883bc67e3e89049bec1321cce",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/BoundaryBernoulli.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/BoundaryBernoulli.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 16.391000000061467,
+        "source_sha256": "b0498480ae388a01ad803bff4ab236c44ef5eaa883bc67e3e89049bec1321cce",
+        "transitive_source_fingerprint": "644e470459bd81d7a5a696dae473283bb7a9893aae82f92315e34ab8ee3fe870",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedAtomEnergy": "d657d4603fd537b0eaeefff270f0afb09cbe15a90fb5928a23cb90913a5c6943"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.BoundaryBernoulli.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.BundleCountingRecurrence",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/BundleCountingRecurrence.lean",
+      "original_sha256": "0ee5d35ae2bc3e594f7d61f0a74ed48f958103e58ba0fa5fcda866234deae6b2",
+      "verified_sha256": "10eb7d4551428663c25d779577295105979a9dd030c4ec1127e7f683e40b1815",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/BundleCountingRecurrence.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/BundleCountingRecurrence.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.156999999890104,
+        "source_sha256": "10eb7d4551428663c25d779577295105979a9dd030c4ec1127e7f683e40b1815",
+        "transitive_source_fingerprint": "24df71200a7bb42a58da86acd837557413fa07c07df94b36522d14dd1c15370c",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.Energy": "6c7554cb7ef2c7e85655334011d405406b33a9a3e51a9f3f3e8ba661c317c9bd"
+        },
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.BundleCountingRecurrence.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.CoarseAtomBridge",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/CoarseAtomBridge.lean",
+      "original_sha256": "640181a72dde4a5205c56683707e45da3a7a05b74907c0dc58da5904e786411f",
+      "verified_sha256": "6dfb73a70e708632e2d14630479c65072c13e03c4c26b9fa826c0ab33ea8d375",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/CoarseAtomBridge.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/CoarseAtomBridge.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.235000000102445,
+        "source_sha256": "6dfb73a70e708632e2d14630479c65072c13e03c4c26b9fa826c0ab33ea8d375",
+        "transitive_source_fingerprint": "8778239f93c015e0244821395917152c5c9598d327a809366e08372aab0ece42",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedPatternPartition": "1c76b59a29fb5feb12c9d236a912c4879bf149027b459dcce6a293f5e445ebab"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.CoarseAtomBridge.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.CoarseOrderedRemoval",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/CoarseOrderedRemoval.lean",
+      "original_sha256": "4a4997636cdf09da4a61fb72e277f72ddfd79b48a4e383b1d5adcacc73f36283",
+      "verified_sha256": "30df47f67efb10cfa2f1f4963aa74889f48cb7b5c1e9af44e26fb861a270fbd6",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/CoarseOrderedRemoval.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/CoarseOrderedRemoval.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 14.905999999959022,
+        "source_sha256": "30df47f67efb10cfa2f1f4963aa74889f48cb7b5c1e9af44e26fb861a270fbd6",
+        "transitive_source_fingerprint": "5dd89351baace89edcb59619d5b1b5c555d2ecb5b1694421bdd5a1dfe96b111f",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.BundleCountingRecurrence": "10eb7d4551428663c25d779577295105979a9dd030c4ec1127e7f683e40b1815",
+          "OAI.Combinatorics.Progressions.FixedDensity.CoarseAtomBridge": "6dfb73a70e708632e2d14630479c65072c13e03c4c26b9fa826c0ab33ea8d375"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.CoarseOrderedRemoval.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.CoarseTargetRegularity",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean",
+      "original_sha256": "a563bfbe493213bea7782979f7ad8ddc4e883db9de7c70ba627018f142313187",
+      "verified_sha256": "f4ee64a0a93445229b6a9d651fc6b20e889eaa64cef4505184c1125c9d436712",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 14.719000000040978,
+        "source_sha256": "f4ee64a0a93445229b6a9d651fc6b20e889eaa64cef4505184c1125c9d436712",
+        "transitive_source_fingerprint": "5585ec4b46cd05914490fa6474f0a5b1e8dab0a1ac43044278d336431f94855f",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.StrongOrderedComplexRegularity": "12f495e8eab11c19cc5c146de4bf8b748da4fe8895dc5c35b25fde7b9d204d4c"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.CoarseTargetRegularity.txt",
+        "log_sha256": "8e4a254ad4dab78c359368bed098e686d312f040c05f88533ffb58bc338effb7",
+        "warnings": true
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.Conclusions",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/Conclusions.lean",
+      "original_sha256": "b37353c5720ae0ffaa1d6562492f5a57870229b9151d87532a85fe937b8f1b0a",
+      "verified_sha256": "b86fdbc8b98adbd6f36c5faeb1525c509ab823dec56648572c2b24a88f415c7c",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/Conclusions.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/Conclusions.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 16.45299999997951,
+        "source_sha256": "b86fdbc8b98adbd6f36c5faeb1525c509ab823dec56648572c2b24a88f415c7c",
+        "transitive_source_fingerprint": "7cf88b1da1dca5fecb42a1fa070f795ea3287b0ab885f7f12f7caead44d599a3",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleSourceGoodnessBridge": "e92e609812ce4fb1544c43ec97b85cdd5aa867563c98e710e69a73feb1b21a61",
+          "OAI.Combinatorics.Progressions.FixedDensity.SourceFullBundleRemovalParameters": "dd2503c2386f9757aaa1b66932005ccc6ca4808e2d35c9cf937e9e81cf9b1bf2"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.Conclusions.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.ConfigurationWeightedDefect",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/ConfigurationWeightedDefect.lean",
+      "original_sha256": "8a87d14ab9757908273ed3af6b0e16ac0bfc30bad7bd161d80b5eaa0812ed150",
+      "verified_sha256": "3cbe45abfd0138e8fe45669257771e7cd25c5f16082c52a23468e1a517a8230b",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/ConfigurationWeightedDefect.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/ConfigurationWeightedDefect.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 14.875,
+        "source_sha256": "3cbe45abfd0138e8fe45669257771e7cd25c5f16082c52a23468e1a517a8230b",
+        "transitive_source_fingerprint": "1284bd65acb60d0bca0fff7547f1383bdf1a92a50997da587773ec4b17d732e7",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedConfigurationCounting": "1fc26d0e4cfeb399f0aa2c3bb076aa1cf3dfb4b017af481a093d820978849d3b"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.ConfigurationWeightedDefect.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.CountExtraction",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/CountExtraction.lean",
+      "original_sha256": "f5c036ff550593d3f2a583e97b40c50f7633a878f66f9bf93b5c5d123f5bb4bf",
+      "verified_sha256": "113fce116edb7ab80d9fb2541ded309709e179b72607bff1c01dba818b8895da",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/CountExtraction.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/CountExtraction.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 10.547000000020489,
+        "source_sha256": "113fce116edb7ab80d9fb2541ded309709e179b72607bff1c01dba818b8895da",
+        "transitive_source_fingerprint": "3695842766b3806e2c9769156d948f3a3df21d048c94f50555255569cb8b2887",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.Energy": "6c7554cb7ef2c7e85655334011d405406b33a9a3e51a9f3f3e8ba661c317c9bd"
+        },
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.CountExtraction.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.Energy",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/Energy.lean",
+      "original_sha256": "57136b48f4a0dd25ff3bc6853000d03a1a682f1f374d365e5c5428cb85acdd5c",
+      "verified_sha256": "6c7554cb7ef2c7e85655334011d405406b33a9a3e51a9f3f3e8ba661c317c9bd",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/Energy.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/Energy.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 10.718000000109896,
+        "source_sha256": "6c7554cb7ef2c7e85655334011d405406b33a9a3e51a9f3f3e8ba661c317c9bd",
+        "transitive_source_fingerprint": "9944f97d33cfe1b1c0e2f83aeedbc0aff3bb5a7d064ce274830b98e11160b234",
+        "dependency_source_hashes": {},
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.Energy.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.GeneratorCells",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/GeneratorCells.lean",
+      "original_sha256": "6ec47e75aa30b26b0ff1d3cc6aa8aa2e183da7075139081c57c3b330274494b6",
+      "verified_sha256": "550a3b5dee43285fac2181dfbe757b20e8b39e6f1ddcd278a6758893d1ab473a",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/GeneratorCells.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/GeneratorCells.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 12.108999999938533,
+        "source_sha256": "550a3b5dee43285fac2181dfbe757b20e8b39e6f1ddcd278a6758893d1ab473a",
+        "transitive_source_fingerprint": "37d82d23fbac5b0e613e9ab631cd0c7b1361ab35ba88d1cbe3cd1d463424dd77",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.BooleanCutReduction": "ccb62798c54c178e70bb1c48ee97cdda5a9cb27424d40dcd131e773c4d021c17"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.GeneratorCells.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleEnvelopeSelection",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleEnvelopeSelection.lean",
+      "original_sha256": "5870c4f47b5be5f081b293a95a310ae54a7f507535e294f8e82c36cacb2cf6cd",
+      "verified_sha256": "4b0524a75e702d64739dcce85cdb6e21af27a532d2416ebfb540f50b9c592c94",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleEnvelopeSelection.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleEnvelopeSelection.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.641000000061467,
+        "source_sha256": "4b0524a75e702d64739dcce85cdb6e21af27a532d2416ebfb540f50b9c592c94",
+        "transitive_source_fingerprint": "49d6a6f61f24095898e092e59b95fad2f4505a6c3ac189138b82ff784a9a2eac",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleFiltration": "1cb460a7cc20f72754675f98297520d6dae8349c9afb1d8f3db57191095de5de"
+        },
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleEnvelopeSelection.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleFiltration",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleFiltration.lean",
+      "original_sha256": "2f30c09ca3141804ec4353c23deb75606a7161ceac606a3af6f19aef4f1d84d6",
+      "verified_sha256": "1cb460a7cc20f72754675f98297520d6dae8349c9afb1d8f3db57191095de5de",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleFiltration.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleFiltration.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.015999999828637,
+        "source_sha256": "1cb460a7cc20f72754675f98297520d6dae8349c9afb1d8f3db57191095de5de",
+        "transitive_source_fingerprint": "13a69fc0586e4b0e5b78b05893e03f613bc4b0ec3b547b2b3e79e4cbeab16acc",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.BundleCountingRecurrence": "10eb7d4551428663c25d779577295105979a9dd030c4ec1127e7f683e40b1815"
+        },
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleFiltration.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleFrozenUniformity",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleFrozenUniformity.lean",
+      "original_sha256": "de4378f944d3dcb3fd7460d3ed2ab9fe69aae41b9b4cc97abe53ec0f1745e199",
+      "verified_sha256": "e90b34c427cd859585529a5fbe41f5d6d48bb83cf8548991643343c777079e2b",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleFrozenUniformity.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleFrozenUniformity.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 14.890000000130385,
+        "source_sha256": "e90b34c427cd859585529a5fbe41f5d6d48bb83cf8548991643343c777079e2b",
+        "transitive_source_fingerprint": "ec61290de646c16b4e23e9b4200fbb0906a409b74bdb8a4e818a81f417de76b9",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.ConfigurationWeightedDefect": "3cbe45abfd0138e8fe45669257771e7cd25c5f16082c52a23468e1a517a8230b",
+          "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleRelativeCounting": "5e31e560f19f770568b5268fe14496586cdc26db5228b8b0af490c9315903235"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleFrozenUniformity.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleRelativeCounting",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleRelativeCounting.lean",
+      "original_sha256": "62ed26d607cb636618e9057d6b24278c0c0886c7ddd692e29d6db90731833b14",
+      "verified_sha256": "5e31e560f19f770568b5268fe14496586cdc26db5228b8b0af490c9315903235",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleRelativeCounting.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleRelativeCounting.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.937000000150874,
+        "source_sha256": "5e31e560f19f770568b5268fe14496586cdc26db5228b8b0af490c9315903235",
+        "transitive_source_fingerprint": "0f2dca2d72d31c3848339701332bdcee4c7710841b1f10f94af324685b8452aa",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleEnvelopeSelection": "4b0524a75e702d64739dcce85cdb6e21af27a532d2416ebfb540f50b9c592c94"
+        },
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleRelativeCounting.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleSourceGoodnessBridge",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleSourceGoodnessBridge.lean",
+      "original_sha256": "3b600533bb352d3547101d6ad1dd53c69154632887f437b4d5b1f4c3a8d524a0",
+      "verified_sha256": "e92e609812ce4fb1544c43ec97b85cdd5aa867563c98e710e69a73feb1b21a61",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleSourceGoodnessBridge.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/HypergraphBundleSourceGoodnessBridge.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.452999999979511,
+        "source_sha256": "e92e609812ce4fb1544c43ec97b85cdd5aa867563c98e710e69a73feb1b21a61",
+        "transitive_source_fingerprint": "71c4a5af6cfecfd973cd4e441cc2f7b44a1a83b6f0f3769b1de905809baacad9",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleFrozenUniformity": "e90b34c427cd859585529a5fbe41f5d6d48bb83cf8548991643343c777079e2b",
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedFullBoundary": "26aada937632759aaff2544c35ce541fc8c23f57befa32f62613f3de6dc7bdbb"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleSourceGoodnessBridge.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedAtomEnergy",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedAtomEnergy.lean",
+      "original_sha256": "ece906a79b44f17b1a13bad058ca979d02ea8be4c4b1e27b096d13d1ff4fd14c",
+      "verified_sha256": "d657d4603fd537b0eaeefff270f0afb09cbe15a90fb5928a23cb90913a5c6943",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedAtomEnergy.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedAtomEnergy.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.359000000171363,
+        "source_sha256": "d657d4603fd537b0eaeefff270f0afb09cbe15a90fb5928a23cb90913a5c6943",
+        "transitive_source_fingerprint": "474d44572013ee2136c22ea5b7ae3b2de1e057f124d6866e61857577fe3c8a55",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedBoundaryPartition": "fd39b565104602a40a2d912035864b9d751bcc8f506de4344400bb4df053f230"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedAtomEnergy.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedBoundaryPartition",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedBoundaryPartition.lean",
+      "original_sha256": "8757607ead493b153e4944d7391735c617ffe19f00c5899873a3e0edcb2891e5",
+      "verified_sha256": "fd39b565104602a40a2d912035864b9d751bcc8f506de4344400bb4df053f230",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedBoundaryPartition.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedBoundaryPartition.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 14.530999999959022,
+        "source_sha256": "fd39b565104602a40a2d912035864b9d751bcc8f506de4344400bb4df053f230",
+        "transitive_source_fingerprint": "f00703cca6b2e0a598980bd1047c5b61ee9a4abfec0454945b81c2502d5884e2",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedRegularizedCells": "3e7a8d2dc9bbc082b04ecfbf9844422811c0c19c0ec6d3fc93c2edaf7c105a26",
+          "OAI.Combinatorics.Progressions.FixedDensity.StructuredCleaning": "8b3e1b0584f0ad26520f294e239d3100b2465788b5550b9f3ee2d7a0b2f333b4"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedBoundaryPartition.txt",
+        "log_sha256": "0c9ebbc469fd9ebd4d49bff86f3c648b1f5845bc76f3fa8ad403d745183c980c",
+        "warnings": true
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedConfigurationCounting",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedConfigurationCounting.lean",
+      "original_sha256": "266d632db7e84399e1fa902ea9d7c96651a781c30b916ed1a165cd36c574b3ff",
+      "verified_sha256": "1fc26d0e4cfeb399f0aa2c3bb076aa1cf3dfb4b017af481a093d820978849d3b",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedConfigurationCounting.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedConfigurationCounting.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.640000000130385,
+        "source_sha256": "1fc26d0e4cfeb399f0aa2c3bb076aa1cf3dfb4b017af481a093d820978849d3b",
+        "transitive_source_fingerprint": "8b426d6eeecf39a46be7a8f09a9a7ed14537e7ac3b0ef609740b3df0ef7eabef",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.CoarseOrderedRemoval": "30df47f67efb10cfa2f1f4963aa74889f48cb7b5c1e9af44e26fb861a270fbd6"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedConfigurationCounting.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedCounting",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedCounting.lean",
+      "original_sha256": "9e09c578f409ba3f31aa1675481d4116fc3034ec02cfb87c07acaedbf4943b00",
+      "verified_sha256": "165127601f69bb92a4511e9906431b49c6836d81947b0bc2c67f6e1a8f525eff",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedCounting.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedCounting.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.063000000081956,
+        "source_sha256": "165127601f69bb92a4511e9906431b49c6836d81947b0bc2c67f6e1a8f525eff",
+        "transitive_source_fingerprint": "f9bd9e3bb6491b07d27ab497a9759177c30d33ced93d481f8e1cc6775b9b1521",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.GeneratorCells": "550a3b5dee43285fac2181dfbe757b20e8b39e6f1ddcd278a6758893d1ab473a",
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedPattern": "ff4e0881f403ae30224956e226a0b43fb25b71be0898e040557d69814c6f90ff"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedCounting.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedFullBoundary",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedFullBoundary.lean",
+      "original_sha256": "fa6249a1955efe96fdd5e411e90d699e80fde4cae55787aefbceb061bdcded42",
+      "verified_sha256": "26aada937632759aaff2544c35ce541fc8c23f57befa32f62613f3de6dc7bdbb",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedFullBoundary.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedFullBoundary.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 21.516000000061467,
+        "source_sha256": "26aada937632759aaff2544c35ce541fc8c23f57befa32f62613f3de6dc7bdbb",
+        "transitive_source_fingerprint": "6a46b0c2bbacc535e95a2d8916bdcb5e2fcb95e87b70948134eed14c5f8da8ca",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.ConfigurationWeightedDefect": "3cbe45abfd0138e8fe45669257771e7cd25c5f16082c52a23468e1a517a8230b"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedFullBoundary.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedGoodAtoms",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedGoodAtoms.lean",
+      "original_sha256": "3d7e534854ec380f1a9b0c5c2697300e7e513713442dd328b59c84cf910552d3",
+      "verified_sha256": "754fc9924020179472526f7f3f850e504c458a135a92a676cf7851be2d47b5aa",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedGoodAtoms.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedGoodAtoms.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.905999999959022,
+        "source_sha256": "754fc9924020179472526f7f3f850e504c458a135a92a676cf7851be2d47b5aa",
+        "transitive_source_fingerprint": "bd3781af397ff63ea93d9b3328bf18d3ccf50cf86e7de23ca11a3aa67e2ce382",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedAtomEnergy": "d657d4603fd537b0eaeefff270f0afb09cbe15a90fb5928a23cb90913a5c6943"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedGoodAtoms.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedPattern",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedPattern.lean",
+      "original_sha256": "94759cdaf1d5b3786ed5d47bf42c50673bc3a811364a1232bcd9897be3d32b40",
+      "verified_sha256": "ff4e0881f403ae30224956e226a0b43fb25b71be0898e040557d69814c6f90ff",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedPattern.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedPattern.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 10.75,
+        "source_sha256": "ff4e0881f403ae30224956e226a0b43fb25b71be0898e040557d69814c6f90ff",
+        "transitive_source_fingerprint": "f977ab42cadb277a562735d555691d0835d2c2e6d2b573d5a38379b7b17fcddf",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.Energy": "6c7554cb7ef2c7e85655334011d405406b33a9a3e51a9f3f3e8ba661c317c9bd"
+        },
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedPattern.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedPatternPartition",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedPatternPartition.lean",
+      "original_sha256": "0115c45b2374d7a47902596e44373f2c2412f2bff9dce53249b9cf0ce82aef94",
+      "verified_sha256": "1c76b59a29fb5feb12c9d236a912c4879bf149027b459dcce6a293f5e445ebab",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedPatternPartition.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedPatternPartition.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 14.75,
+        "source_sha256": "1c76b59a29fb5feb12c9d236a912c4879bf149027b459dcce6a293f5e445ebab",
+        "transitive_source_fingerprint": "8fe220f60dadd07c4b06413a97d0c04facecaf7d4eb1b6152066014556cb8dce",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.BoundaryBernoulli": "b0498480ae388a01ad803bff4ab236c44ef5eaa883bc67e3e89049bec1321cce",
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedGoodAtoms": "754fc9924020179472526f7f3f850e504c458a135a92a676cf7851be2d47b5aa"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedPatternPartition.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedRegularizedCells",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedRegularizedCells.lean",
+      "original_sha256": "02d3133fee98a8178a06c8f08a3b7872c9f43d1346f0ea6651b116935a2d19f8",
+      "verified_sha256": "3e7a8d2dc9bbc082b04ecfbf9844422811c0c19c0ec6d3fc93c2edaf7c105a26",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedRegularizedCells.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedRegularizedCells.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 12.233999999938533,
+        "source_sha256": "3e7a8d2dc9bbc082b04ecfbf9844422811c0c19c0ec6d3fc93c2edaf7c105a26",
+        "transitive_source_fingerprint": "54fd3c7408fc69c0d6388332bc4f2f326601d821ff9b7f4770b3db7d9b849d1f",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedCounting": "165127601f69bb92a4511e9906431b49c6836d81947b0bc2c67f6e1a8f525eff"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedRegularizedCells.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedRemoval",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedRemoval.lean",
+      "original_sha256": "aa43993b067a2d35ff8fe96c93911de7d285c650b54e5debe72b1363fc0d1c5f",
+      "verified_sha256": "5c990f13df7d4bdbfc64be5dda7ea801e76582ddc2f951d1412922c1ad05b735",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedRemoval.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedRemoval.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 12.640000000130385,
+        "source_sha256": "5c990f13df7d4bdbfc64be5dda7ea801e76582ddc2f951d1412922c1ad05b735",
+        "transitive_source_fingerprint": "902e1cdd5c8bde442a716d088bfa039c9aa1ea718900b2b38b378823d1039e54",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.BooleanCutReduction": "ccb62798c54c178e70bb1c48ee97cdda5a9cb27424d40dcd131e773c4d021c17",
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedPattern": "ff4e0881f403ae30224956e226a0b43fb25b71be0898e040557d69814c6f90ff"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedRemoval.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.OrderedRemovalAssembly",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/OrderedRemovalAssembly.lean",
+      "original_sha256": "34d968318ef2460df9aa477f66f383351c7141db03db2e0086c10874b240e6f7",
+      "verified_sha256": "b3922de47dc772baeda00b580248cecf6d736345c042cac7be3e4580a908b67c",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/OrderedRemovalAssembly.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/OrderedRemovalAssembly.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.844000000040978,
+        "source_sha256": "b3922de47dc772baeda00b580248cecf6d736345c042cac7be3e4580a908b67c",
+        "transitive_source_fingerprint": "fb311fc6364cfa2960a332bc9c249fd8299f71ee4506be4993421fe05ed69c23",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.SourceFullOrderedRemoval": "da58e66715084b0c2071ecfac44fadc0061d5002681e2d118864f3c7c2b3639d",
+          "OAI.Combinatorics.Progressions.FixedDensity.StrongOrderedComplexRegularity": "12f495e8eab11c19cc5c146de4bf8b748da4fe8895dc5c35b25fde7b9d204d4c"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.OrderedRemovalAssembly.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.PolynomialApproximation",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/PolynomialApproximation.lean",
+      "original_sha256": "8ef194515c76af018633e66c1037297bd7943d96e623ebdd687b2730a073ab52",
+      "verified_sha256": "6c7ac799befc04673e67dfabe881293e21fbf16b4afc1061300063a7c7b8c42b",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/PolynomialApproximation.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/PolynomialApproximation.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.047000000020489,
+        "source_sha256": "6c7ac799befc04673e67dfabe881293e21fbf16b4afc1061300063a7c7b8c42b",
+        "transitive_source_fingerprint": "5c657a1fad7bd8bc2b1777cf888a45f3b0d668d19008bc9f39b8b7304c2f3890",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.Energy": "6c7554cb7ef2c7e85655334011d405406b33a9a3e51a9f3f3e8ba661c317c9bd"
+        },
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.PolynomialApproximation.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.RankwiseBundleEnvelopeSelection",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/RankwiseBundleEnvelopeSelection.lean",
+      "original_sha256": "82ec9af8abac3f22620fcdbdd6f503bf0b21127c1598ede8843b41baddc5a91f",
+      "verified_sha256": "5c1d094fc4f170bd166e289c930088f937fe73f39b4a02a9edc234ae6cee6909",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/RankwiseBundleEnvelopeSelection.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/RankwiseBundleEnvelopeSelection.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.046999999787658,
+        "source_sha256": "5c1d094fc4f170bd166e289c930088f937fe73f39b4a02a9edc234ae6cee6909",
+        "transitive_source_fingerprint": "f95bb01787a0578d3f2a211ac99b48a4027d23cc51aad819f2c593ae9edc4881",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.HypergraphBundleEnvelopeSelection": "4b0524a75e702d64739dcce85cdb6e21af27a532d2416ebfb540f50b9c592c94"
+        },
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.RankwiseBundleEnvelopeSelection.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.ShortInterval",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/ShortInterval.lean",
+      "original_sha256": "0b860ae9c976710aee797788839a8bab676b52d2c817b53da935b7277c11fb35",
+      "verified_sha256": "b3c0a11a13d52b72d7881d5aba80d5b6ca9200507e2510e1035388bcc5187ba9",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/ShortInterval.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/ShortInterval.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 10.672000000020489,
+        "source_sha256": "b3c0a11a13d52b72d7881d5aba80d5b6ca9200507e2510e1035388bcc5187ba9",
+        "transitive_source_fingerprint": "83ef9ac97fc16bf1bdc9fe0ce61d968cef497c8ab41150bafeab4b4e92df80cf",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.Energy": "6c7554cb7ef2c7e85655334011d405406b33a9a3e51a9f3f3e8ba661c317c9bd"
+        },
+        "log": "openai-dense-progression-bounded-logs/OAI.Combinatorics.Progressions.FixedDensity.ShortInterval.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.SimplexTelescoping",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/SimplexTelescoping.lean",
+      "original_sha256": "9ab0983f97c7ff7c8bb062914cb364a1720558b55b090ec86f09a7662cb80ad7",
+      "verified_sha256": "4d2a7721aebb5496bff676271936dc25923e35dc75dd290a3505e358d61f01e6",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/SimplexTelescoping.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/SimplexTelescoping.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 10.937000000150874,
+        "source_sha256": "4d2a7721aebb5496bff676271936dc25923e35dc75dd290a3505e358d61f01e6",
+        "transitive_source_fingerprint": "42b190be3ad0dc9bb14f9c39e4a64052411da9f6cb639b0b5d2c1ad91768524e",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.Results.LinearFormsBasic": "da05b63575de2ab0b7f3bd9a5ce9bd100046b82d322b836875da3b81f92d6dca"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.SimplexTelescoping.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.SourceFullBundleRemovalParameters",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/SourceFullBundleRemovalParameters.lean",
+      "original_sha256": "4314c93bc321f04870d802dcae2195ad64c4446b3c0ba54db09cb58cacaa4ca8",
+      "verified_sha256": "dd2503c2386f9757aaa1b66932005ccc6ca4808e2d35c9cf937e9e81cf9b1bf2",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/SourceFullBundleRemovalParameters.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/SourceFullBundleRemovalParameters.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.483999999938533,
+        "source_sha256": "dd2503c2386f9757aaa1b66932005ccc6ca4808e2d35c9cf937e9e81cf9b1bf2",
+        "transitive_source_fingerprint": "0a6c8acb303434f1585569eda77083a5d507639c2c94ced77e282ef7b88b2fb7",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.RankwiseBundleEnvelopeSelection": "5c1d094fc4f170bd166e289c930088f937fe73f39b4a02a9edc234ae6cee6909",
+          "OAI.Combinatorics.Progressions.FixedDensity.SourceFullCoarseTargetRegularity": "4d95e23c9b893f20dd5a6d05424ddbd5e4cccc073a198168079017eff9884ec9"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.SourceFullBundleRemovalParameters.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.SourceFullCoarseTargetRegularity",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/SourceFullCoarseTargetRegularity.lean",
+      "original_sha256": "86f9d23a4d0d2dc1e0a6d92ace6bcd99c8d2a689b43c0c21f517c3328c18c756",
+      "verified_sha256": "4d95e23c9b893f20dd5a6d05424ddbd5e4cccc073a198168079017eff9884ec9",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/SourceFullCoarseTargetRegularity.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/SourceFullCoarseTargetRegularity.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 40.375,
+        "source_sha256": "4d95e23c9b893f20dd5a6d05424ddbd5e4cccc073a198168079017eff9884ec9",
+        "transitive_source_fingerprint": "19ef22349b824d38bba93481b5f51bb74b8004f925b9e253aeedc264d9717bd8",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.AdaptiveCoarseTargetRegularity": "06730640d0867c395b751a895024a796a30d04718183cdf8a53ef134c049b570",
+          "OAI.Combinatorics.Progressions.FixedDensity.TowerDominatingGrowth": "f7d17def9c802244ea46000a065e6010c93df5fae99345e9d49ee012213d8c53"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.SourceFullCoarseTargetRegularity.txt",
+        "log_sha256": "850ed9391440ed3a7c4a154cae2131b7fd2890d689ceaca3699e1326e7989f35",
+        "warnings": true
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.SourceFullOrderedRemoval",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/SourceFullOrderedRemoval.lean",
+      "original_sha256": "e5d484880eb039c7b58389ad4c5da392258fde2098cfddf270c19d5a8153e449",
+      "verified_sha256": "da58e66715084b0c2071ecfac44fadc0061d5002681e2d118864f3c7c2b3639d",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/SourceFullOrderedRemoval.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/SourceFullOrderedRemoval.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.687000000150874,
+        "source_sha256": "da58e66715084b0c2071ecfac44fadc0061d5002681e2d118864f3c7c2b3639d",
+        "transitive_source_fingerprint": "051ff37ef3a6b288a278fe3d584d49c7633e05c1c5b91c02245dda260902e5e1",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedFullBoundary": "26aada937632759aaff2544c35ce541fc8c23f57befa32f62613f3de6dc7bdbb"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.SourceFullOrderedRemoval.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.StrongFullOrderedRegularity",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/StrongFullOrderedRegularity.lean",
+      "original_sha256": "626bc99b6129c68169943d31891af81754e34fe4aa837994f8dbc0c1b83391a5",
+      "verified_sha256": "9d98a29f37321c9262f4f28351da4095a98ca399a3841d91f87103efc1e32635",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/StrongFullOrderedRegularity.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/StrongFullOrderedRegularity.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.453000000212342,
+        "source_sha256": "9d98a29f37321c9262f4f28351da4095a98ca399a3841d91f87103efc1e32635",
+        "transitive_source_fingerprint": "6b24e3f43f0aaa836c5b1094dd03ad25bfe102512af055540ce730e334826fb9",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedPatternPartition": "1c76b59a29fb5feb12c9d236a912c4879bf149027b459dcce6a293f5e445ebab"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.StrongFullOrderedRegularity.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.StrongOrderedComplexRegularity",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean",
+      "original_sha256": "14bf10f3ac814bce83046a262983963b376632f1974062d7644c2d3656133b30",
+      "verified_sha256": "12f495e8eab11c19cc5c146de4bf8b748da4fe8895dc5c35b25fde7b9d204d4c",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 16.437000000150874,
+        "source_sha256": "12f495e8eab11c19cc5c146de4bf8b748da4fe8895dc5c35b25fde7b9d204d4c",
+        "transitive_source_fingerprint": "311fd867e0409068c88f2bdbcee492a9c01c98d24ff3661bcc15922256234f5c",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.CoarseOrderedRemoval": "30df47f67efb10cfa2f1f4963aa74889f48cb7b5c1e9af44e26fb861a270fbd6",
+          "OAI.Combinatorics.Progressions.FixedDensity.StrongFullOrderedRegularity": "9d98a29f37321c9262f4f28351da4095a98ca399a3841d91f87103efc1e32635"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.StrongOrderedComplexRegularity.txt",
+        "log_sha256": "4a340e4d270ced3f989b9d58a57df341c9ab3fe1d9b63aac00ad8f6915904053",
+        "warnings": true
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.StructuredCleaning",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/StructuredCleaning.lean",
+      "original_sha256": "a92bce6272326b4d8a9ef28e77ddd3863ba6c99ae04741142eac8a93670b4eb3",
+      "verified_sha256": "8b3e1b0584f0ad26520f294e239d3100b2465788b5550b9f3ee2d7a0b2f333b4",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/StructuredCleaning.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/StructuredCleaning.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 11.515000000130385,
+        "source_sha256": "8b3e1b0584f0ad26520f294e239d3100b2465788b5550b9f3ee2d7a0b2f333b4",
+        "transitive_source_fingerprint": "c5fbfef67c360e18d4c246c1bab0572c282a92b3a2e74c69af01a94380f5b808",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedCounting": "165127601f69bb92a4511e9906431b49c6836d81947b0bc2c67f6e1a8f525eff",
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedRemoval": "5c990f13df7d4bdbfc64be5dda7ea801e76582ddc2f951d1412922c1ad05b735"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.StructuredCleaning.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.FixedDensity.TowerDominatingGrowth",
+      "path": "OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean",
+      "original_sha256": "3001f10cb5e401a1fe5a98313e7bdd022b4b468fba177f6aaaef172cbfa238a6",
+      "verified_sha256": "f7d17def9c802244ea46000a065e6010c93df5fae99345e9d49ee012213d8c53",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 14.5,
+        "source_sha256": "f7d17def9c802244ea46000a065e6010c93df5fae99345e9d49ee012213d8c53",
+        "transitive_source_fingerprint": "fab8cd1775e998c83655ac457b24ef23f51f490defd6cf18565ce63e12a9b79d",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.OrderedRemovalAssembly": "b3922de47dc772baeda00b580248cecf6d736345c042cac7be3e4580a908b67c"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.FixedDensity.TowerDominatingGrowth.txt",
+        "log_sha256": "c0608f4ebd7fbf02e60a74c46729e81057e864b02162cdd0c69033559823a29b",
+        "warnings": true
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Model",
+      "path": "OAI/Combinatorics/Progressions/Model.lean",
+      "original_sha256": "9296d83a1e2ace7cd043affb9ac618ecb21760ebc88071f0e227868b702f4390",
+      "verified_sha256": "52763fa12d214b32fef61e7b1a7ec179e5756cba9e82e27e6d53e19d926289eb",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/Model.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/Model.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 10.765000000130385,
+        "source_sha256": "52763fa12d214b32fef61e7b1a7ec179e5756cba9e82e27e6d53e19d926289eb",
+        "transitive_source_fingerprint": "1eab746baa58d5b92c565d1aa3f1234dedc2796310c72adf02d34ec02026d63a",
+        "dependency_source_hashes": {},
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.Model.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Results.LinearFormsBasic",
+      "path": "OAI/Combinatorics/Progressions/Results/LinearFormsBasic.lean",
+      "original_sha256": "3d083c42e4008bdccb7d0caea91d131e53aaf5c4f0b3860a57d092ac87c4f263",
+      "verified_sha256": "da05b63575de2ab0b7f3bd9a5ce9bd100046b82d322b836875da3b81f92d6dca",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Combinatorics/Progressions/Results/LinearFormsBasic.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Combinatorics/Progressions/Results/LinearFormsBasic.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 10.297000000020489,
+        "source_sha256": "da05b63575de2ab0b7f3bd9a5ce9bd100046b82d322b836875da3b81f92d6dca",
+        "transitive_source_fingerprint": "f8a670620f40f3fedfab5cba27971fadb59434528ce972da4ac1fa6bbe0d4b20",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.Energy": "6c7554cb7ef2c7e85655334011d405406b33a9a3e51a9f3f3e8ba661c317c9bd"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Combinatorics.Progressions.Results.LinearFormsBasic.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    },
+    {
+      "module": "OAI.Compatibility.FiniteIntegerAP",
+      "path": "OAI/Compatibility/FiniteIntegerAP.lean",
+      "original_sha256": "924d7f004fc4948a55d88f68652037efa765829f3d9df03ed59672161119355d",
+      "immutable_original_path": "E:/codex-build/sun_prize/jsp168-hindman/openai-finite-integer-ap-original.lean",
+      "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "upstream_repository": "https://github.com/openai/math",
+      "upstream_path": "OAI/Combinatorics/Progressions/Probability/RelativeSourceDensityParameter.lean",
+      "upstream_full_sha256": "965b4974a8b52f435053efdabfc7a582d291e5061ec1e9ec94dee8977cf20a3f",
+      "excerpt_body_sha256": "6871332bc5758eb0b75339969a8fea23e2a9ca835c702b7fc7553c50ceab6f7b",
+      "original_start_line": 203,
+      "original_end_line": 351,
+      "classification": "ATTRIBUTED SOURCE EXCERPT; not yet a certified dependency",
+      "license": "Apache-2.0",
+      "verified_sha256": "924d7f004fc4948a55d88f68652037efa765829f3d9df03ed59672161119355d",
+      "build_record": {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "-DautoImplicit=false",
+          "OAI/Compatibility/FiniteIntegerAP.lean",
+          "-o",
+          ".lake/build/lib/lean/OAI/Compatibility/FiniteIntegerAP.olean"
+        ],
+        "terminal": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.766000000061467,
+        "source_sha256": "924d7f004fc4948a55d88f68652037efa765829f3d9df03ed59672161119355d",
+        "transitive_source_fingerprint": "40f1af1b05827d14741481468cdcfa1636ce9aa14050c659e4ebdb942e2d87c8",
+        "dependency_source_hashes": {
+          "OAI.Combinatorics.Progressions.FixedDensity.Conclusions": "b86fdbc8b98adbd6f36c5faeb1525c509ab823dec56648572c2b24a88f415c7c",
+          "OAI.Combinatorics.Progressions.FixedDensity.CountExtraction": "113fce116edb7ab80d9fb2541ded309709e179b72607bff1c01dba818b8895da",
+          "OAI.Combinatorics.Progressions.FixedDensity.ShortInterval": "b3c0a11a13d52b72d7881d5aba80d5b6ca9200507e2510e1035388bcc5187ba9",
+          "OAI.Combinatorics.Progressions.Model": "52763fa12d214b32fef61e7b1a7ec179e5756cba9e82e27e6d53e19d926289eb"
+        },
+        "log": "openai-finite-szemeredi-logs/OAI.Compatibility.FiniteIntegerAP.txt",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "warnings": false
+      }
+    }
+  ],
+  "axiom_audit": {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "FiniteSzemerediAudit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.29700000002049,
+    "log": "openai-finite-szemeredi-axioms.txt",
+    "log_sha256": "5c592742fcdd6cdd20e22c579e6915b09e1825ef5868f5ded8c7aa54379206b4",
+    "reports": {
+      "OAI.Erdos3.FixedDensity.szemeredi": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "OAI.Erdos3.FixedDensity.cyclicAPVal_isIntegerAP": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "OAI.Erdos3.fixed_density_hasAP": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "JSP168DependencyAudit.actual_finite_dense_progression": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "audit_source_sha256": "1cc96fcbdabbdf989769da0150053b4ea62cd99d0e5e7b096b2eeff409ba2e51"
+  },
+  "permitted_build_warnings": "Only the recorded unnecessarySeqFocus tactic-style linter; no options suppressed.",
+  "semantic_review": [
+    "HasAP expands to an actual natural start, strictly positive natural difference and all indices below arbitrary k.",
+    "Density theorem quantifies over every positive real density, all sufficiently large N and every subset of range N.",
+    "Uniform cyclic count uses all positive cyclic moduli; diagonal mass is removed before extracting a nonzero difference.",
+    "The four-times-longer modulus and short-interval reconstruction produce an integer AP; negative integer differences are reversed.",
+    "Independent author bridge explicitly gives positive b<K and actual Finset membership, including H=0 and H=1.",
+    "API edits close reflexive conversion goals and replace names/imports without changing original statements or assumptions."
+  ],
+  "independent_kernel_replay": false,
+  "external_peer_review": false,
+  "full_hindman_target_proved": false
+}

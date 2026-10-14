@@ -1,0 +1,82 @@
+{
+  "baseline_hash_count": 682,
+  "new_modules": [
+    "Hindman168/MatrixSmoothOperations.lean",
+    "Hindman168/UnitriangularLieGroup.lean",
+    "Hindman168/StrictMatrixSmoothProjection.lean",
+    "Hindman168/UnitriangularExponentialSmooth.lean"
+  ],
+  "new_theorems": [
+    "Hindman168.contDiff_matrix_mul",
+    "Hindman168.contDiff_matrix_pow",
+    "Hindman168.contDiff_matrix_det",
+    "Hindman168.contDiff_matrix_adjugate",
+    "Hindman168.unitriangularCoordinateMatrix_contDiff",
+    "Hindman168.unitriangularCoordinateMul_contDiff",
+    "Hindman168.unitriangularCoordinateInv_contDiff",
+    "Hindman168.unitriangularCoordinates_contMDiff",
+    "Hindman168.unitriangularCoordinates_inverse_contMDiff",
+    "Hindman168.unitriangular_mul_contMDiff",
+    "Hindman168.unitriangular_inv_contMDiff",
+    "Hindman168.strictUpperTriangularProjection_coe",
+    "Hindman168.strictUpperTriangularProjection_contDiff",
+    "Hindman168.strictMatrixModelTopology_eq_original",
+    "Hindman168.matrixFiniteExp_contDiff",
+    "Hindman168.unitriangularLogIteration_coordinates_contDiff",
+    "Hindman168.unitriangularLogarithm_coordinates_contDiff",
+    "Hindman168.unitriangularExponential_contMDiff",
+    "Hindman168.unitriangularLogarithm_contMDiff",
+    "Hindman168.unitriangularOneParameter_contMDiff"
+  ],
+  "new_selected_declarations": [
+    "Hindman168.contDiff_matrix_mul",
+    "Hindman168.contDiff_matrix_pow",
+    "Hindman168.contDiff_matrix_det",
+    "Hindman168.contDiff_matrix_adjugate",
+    "Hindman168.unitriangularCoordinateMatrix_contDiff",
+    "Hindman168.unitriangularCoordinateMul_contDiff",
+    "Hindman168.unitriangularCoordinateInv_contDiff",
+    "Hindman168.unitriangularChartedSpace",
+    "Hindman168.unitriangularIsManifold",
+    "Hindman168.unitriangularCoordinates_contMDiff",
+    "Hindman168.unitriangularCoordinates_inverse_contMDiff",
+    "Hindman168.unitriangularCoordinatesDiffeomorph",
+    "Hindman168.unitriangular_mul_contMDiff",
+    "Hindman168.unitriangular_inv_contMDiff",
+    "Hindman168.unitriangularLieGroup",
+    "Hindman168.strictUpperTriangularProjectionLinear",
+    "Hindman168.strictUpperTriangularProjection",
+    "Hindman168.strictUpperTriangularProjection_coe",
+    "Hindman168.strictUpperTriangularProjection_contDiff",
+    "Hindman168.strictMatrixModelTopology_eq_original",
+    "Hindman168.matrixFiniteExp_contDiff",
+    "Hindman168.unitriangularLogIteration_coordinates_contDiff",
+    "Hindman168.unitriangularLogarithm_coordinates_contDiff",
+    "Hindman168.unitriangularExponential_contMDiff",
+    "Hindman168.unitriangularLogarithm_contMDiff",
+    "Hindman168.unitriangularExponentialDiffeomorph",
+    "Hindman168.unitriangularOneParameter_contMDiff"
+  ],
+  "module_report_counts": {
+    "MatrixSmoothOperations": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "UnitriangularLieGroup": {
+      "theorems": 7,
+      "selected_declarations": 11
+    },
+    "StrictMatrixSmoothProjection": {
+      "theorems": 2,
+      "selected_declarations": 4
+    },
+    "UnitriangularExponentialSmooth": {
+      "theorems": 7,
+      "selected_declarations": 8
+    }
+  },
+  "new_theorem_count": 20,
+  "new_selected_report_count": 27,
+  "total_selected_report_count": 3366,
+  "root_imports_exact": true
+}

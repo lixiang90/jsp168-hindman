@@ -1,0 +1,226 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughGroupBasepointNormalization.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.202999999979511,
+    "log": "round-native-basepoint-normalization-RoughGroupBasepointNormalization-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughGroupBasepointNormalization.lean",
+    "source_sha256": "a79d08dfa60c85b55f8dac573362a2408ad8e306b94e50e877c9b4b3c0cdaf51"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeProductWeighted.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.860000000102445,
+    "log": "round-native-basepoint-normalization-RoughNativeProductWeighted-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeProductWeighted.lean",
+    "source_sha256": "3fe07895d2f3b69c11bd813c7500906f9fab594fe354d3abd38f150b990f4c21"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughVectorMvConstant.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.389999999897555,
+    "log": "round-native-basepoint-normalization-RoughVectorMvConstant-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughVectorMvConstant.lean",
+    "source_sha256": "435d5f2c8bd3789be37e79e04a359a55736a57d1f56c32df4c7701537b80deaa"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.860000000102445,
+    "log": "round-native-basepoint-normalization-NativeBasepointPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointPolynomial.lean",
+    "source_sha256": "891be0059161fc12765fc1737d5cac57540a66473a3f4f42a00bdef5a80f837c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughNativeWeightedFilteredPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.030999999959022,
+    "log": "round-native-basepoint-normalization-RoughNativeWeightedFilteredPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughNativeWeightedFilteredPolynomial.lean",
+    "source_sha256": "449b0030d8f47eb393a9a8ffa2229c795b6c2d6b6f9c8bf1e27e80fcfaa4c605"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointTrimmedPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 17.70299999997951,
+    "log": "round-native-basepoint-normalization-NativeBasepointTrimmedPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointTrimmedPolynomial.lean",
+    "source_sha256": "39651634166f75a583832dc3fc442d65e1ea627d138e6c5f7f357e08065a9381"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointCharacter.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.952999999979511,
+    "log": "round-native-basepoint-normalization-NativeBasepointCharacter-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointCharacter.lean",
+    "source_sha256": "425a72fa92b3104ce36cd4241860ecb7976e0d45a3bde18fd4c02e3d8fb55bee"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointHorizontalPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.344000000040978,
+    "log": "round-native-basepoint-normalization-NativeBasepointHorizontalPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointHorizontalPolynomial.lean",
+    "source_sha256": "7ce60d47d58bc456a09fd3640025d22c8109be5ab065d646e77afc1c40f50c26"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointObservable.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.265000000130385,
+    "log": "round-native-basepoint-normalization-NativeBasepointObservable-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointObservable.lean",
+    "source_sha256": "a816ae3642c2a9170170340e85297f8621220e37955129ccc701a0540f770504"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointPolynomialSamples.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.125,
+    "log": "round-native-basepoint-normalization-NativeBasepointPolynomialSamples-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointPolynomialSamples.lean",
+    "source_sha256": "3801a8e456fd5ab83b264e6a38c25543686fa4b840e6d8958f885664fad981ca"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointRelativeIntegerPair.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.843999999808148,
+    "log": "round-native-basepoint-normalization-NativeBasepointRelativeIntegerPair-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointRelativeIntegerPair.lean",
+    "source_sha256": "b468b40d4b5f231b100b23fbe12df482b9cff3fbcc415b65ff3249d4f0a2b5a5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointTerminalPairSamples.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.110000000102445,
+    "log": "round-native-basepoint-normalization-NativeBasepointTerminalPairSamples-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointTerminalPairSamples.lean",
+    "source_sha256": "c389e7b6efee7703e6bad8b0e4a37101a3bdbd9b28f50ff961acbc0635ee0703"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointReducedPairRegularity.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.671000000089407,
+    "log": "round-native-basepoint-normalization-NativeBasepointReducedPairRegularity-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointReducedPairRegularity.lean",
+    "source_sha256": "3fce65c54f549f44b38afb422a156f28b0e38fc70428ede065b957a4335bdaaa"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeBasepointTerminalPairDetection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.843999999808148,
+    "log": "round-native-basepoint-normalization-NativeBasepointTerminalPairDetection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeBasepointTerminalPairDetection.lean",
+    "source_sha256": "a3810de25e01b87e257a828e7904d219a3be2acc7ff59a79e0fff15121aa18a6"
+  }
+]

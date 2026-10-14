@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 16.391000000061467,
+  "log": "round-rough-character-grid-uniform-degree-axioms.txt",
+  "log_sha256": "fa802e8112edffaa0ff3acf2d0c43a5823fbdb18c9df44112fe41c943b6e10f1"
+}

@@ -1,0 +1,60 @@
+{
+  "modules": [
+    "Hindman168/AlignmentShortExposureDistance.lean",
+    "Hindman168/AlignmentExposureIntervalStability.lean",
+    "Hindman168/AlignmentExposureStabilityProbability.lean",
+    "Hindman168/AlignmentExposureArrayGoodEvent.lean"
+  ],
+  "names": [
+    "Hindman168.alignment_same_nat_bin_distance",
+    "Hindman168.alignmentShortExposureKey_product_distance",
+    "Hindman168.alignment_exposure_uniform_interval_stable",
+    "Hindman168.alignment_raw_block_boundary_multiple_tendsto",
+    "Hindman168.alignmentExposureArrayStable",
+    "Hindman168.alignmentGlobalRawMass_support_positive",
+    "Hindman168.alignment_exposure_array_failure_tendsto",
+    "Hindman168.alignment_exposure_array_success_tendsto"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentShortExposureDistance.lean": [
+      [
+        "theorem",
+        "alignment_same_nat_bin_distance"
+      ],
+      [
+        "theorem",
+        "alignmentShortExposureKey_product_distance"
+      ]
+    ],
+    "Hindman168/AlignmentExposureIntervalStability.lean": [
+      [
+        "theorem",
+        "alignment_exposure_uniform_interval_stable"
+      ]
+    ],
+    "Hindman168/AlignmentExposureStabilityProbability.lean": [
+      [
+        "theorem",
+        "alignment_raw_block_boundary_multiple_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentExposureArrayGoodEvent.lean": [
+      [
+        "def",
+        "alignmentExposureArrayStable"
+      ],
+      [
+        "theorem",
+        "alignmentGlobalRawMass_support_positive"
+      ],
+      [
+        "theorem",
+        "alignment_exposure_array_failure_tendsto"
+      ],
+      [
+        "theorem",
+        "alignment_exposure_array_success_tendsto"
+      ]
+    ]
+  }
+}

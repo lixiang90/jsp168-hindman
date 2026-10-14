@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 41.45300000021234,
+  "log": "round-ordered-central-flag-build.txt",
+  "log_sha256": "f2834db4156e7b3a6d2bf044d952c7582394e9c8b445798577743a10c4b622b0"
+}

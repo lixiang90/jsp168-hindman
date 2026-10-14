@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.436999999918044,
+  "log": "round-native-probability-uniqueness-build.txt",
+  "log_sha256": "bef783b49277b2809c9672da57be8248732d39b42acfc0b33313934e45e23f9f"
+}

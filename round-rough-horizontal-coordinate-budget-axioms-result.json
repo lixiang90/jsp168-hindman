@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.890000000130385,
+  "log": "round-rough-horizontal-coordinate-budget-axioms.txt",
+  "log_sha256": "3a8635c7356334f0dfa344aa85e21c654881c6b614361d94e84090497591e2cf"
+}

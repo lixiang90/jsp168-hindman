@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 1019 baseline hashes verified at registration. Prior proof sources, original target, laws and pins remain intact.",
+    "The tuple expectation identity is proved by induction on the original coordinate count using exact Fin.cons Haar decomposition and the one-coordinate uniform image expectation. The empty tuple case uses the unique function from Fin 0.",
+    "The two-tuple identity applies the tuple pushforward twice and retains the same coordinatewise maps and their original uniform source laws.",
+    "The direct short-cube theorem preserves v-u ordering and every original cell probability. It has no auxiliary density variables in its final expression; its source interval length is floor(card(Q)/J).",
+    "The cyclic embedding takes values in the original multipleAddSubgroup and carries its explicit range witness. Injectivity uses q*u<q*n and actual ZMod residue values, followed by cancellation of positive q.",
+    "Surjectivity uses the representative z.val modulo n, the Euclidean remainder identity and the vanishing of q*n in ZMod(q*n). Both q and n are positive before using the positive-modulus cast identity.",
+    "The subgroup cardinality is obtained from this actual bijection, and the short-interval restriction is injective by composing with Fin.castLE.",
+    "Seven theorems and one definition are individually kernel audited. Master-scale parameter instantiation, harmonic periodization errors, Bessel and inverse inputs, and the final target remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/UniformTupleExpectation.lean",
+    "Hindman168/UniformShortCubeBound.lean",
+    "Hindman168/MultipleCyclicIntervalEmbedding.lean"
+  ],
+  "verified": {
+    "project_modules": 1004,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1013,
+    "source_config_hashes": 1022,
+    "build_jobs": 4958,
+    "axiom_reports": 4846,
+    "new_theorems": 7,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 8,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Uniform source tuple and pair expectations are now exactly linked to the density expressions, giving a direct weighted uniform-short-cube bound. The explicit q-multiple cyclic subgroup embedding and cardinality are proved. Instantiation with the master-scale quotient parameters, the harmonic-to-periodized Haar comparison, Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

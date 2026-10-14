@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "RoughNativeCharacterNormalization derives rational values on the actual rational logarithm span from rational or integral lattice values of the GIVEN character. From an actual nonzero lattice pivot for that same character it constructs V in both the original Lie subalgebra and rational logarithm span with F(V)=1, and a fixed positive integer K with exp(KV) in the original lattice.",
+    "RoughNativeFixedKernel proves that the kernel of the SAME specified bracket-annihilating rational character is rational and has strictly smaller real dimension. It proves compactness of the actual kernel quotient by its intersection with the original discrete cocompact lattice.",
+    "RoughNativeKernelFactorization defines the actual ordered product Q=exp(-aV)*g*exp(-mV), proves Q belongs to the specified character kernel when character(g)=a+m and F(V)=1, and proves the exact original-group identity g=exp(aV)*Q*exp(mV).",
+    "RoughNativeResidueCosets proves integer-period, residue, congruence and finite-representative statements for exp(nV) in the original right-coset space, using exp(KV) in Gamma and integer powers. It does not require Gamma to be normal.",
+    "RoughNativePolynomialCosets proves congruence preservation by actual integer multivariate polynomial evaluation and obtains equality of original exponential cosets whenever all integer spatial coordinates agree modulo the fixed K.",
+    "Compared with Section 06: the character F is an input throughout, with rationality derived from its original lattice values. The proof does not replace the obstruction character by another character whose kernel might differ.",
+    "The normalization uses an actual gamma in Gamma intersect Exp(S) with F(log gamma) nonzero. Writing that value as a nonzero rational r gives V=r^(-1)log gamma, and K is the positive denominator of r^(-1). Thus the period is fixed before subsequent integer polynomial values or spatial residues.",
+    "Kernel rationality requires rational values of the specified real linear character on the original rational logarithm span; the bracket-annihilation hypothesis identifies its genuine Lie subalgebra kernel. Strict dimension decrease uses explicit nonvanishing inside S.",
+    "The compact quotient theorem concerns only the original lattice intersection. No result for sigma_j Gamma sigma_j^(-1) is inferred without proving the needed conjugation and rationality properties.",
+    "The exact factorization preserves noncommutative order. Its identity itself does not need nilpotence, connectedness, finite dimension or rational scalar structure; those unused assumptions were omitted. Kernel membership uses actual character additivity on Exp(S).",
+    "Coset periodicity uses the genuine equivalence g^(-1)h in Gamma and integer powers of exp(KV). No normality assumption is introduced. The finite range 0<=j<K requires K>0; the general residue and congruence formulas also cover K=0 without claiming finite range.",
+    "The polynomial congruence theorem concerns actual MvPolynomial over integers and is proved by constant, addition and multiplication-by-variable induction. Constructing the spatial integer polynomial from the earlier rational model evaluations remains an assembly obligation.",
+    "No joint logarithmic polynomiality, quantitative degree bound, analytic variation/Lipschitz estimate or sampling comparison is assumed to have been proved by these group identities.",
+    "All retained proof sources and axiom sets are unchanged; these are author-side checks, not independent kernel replay.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. Fixed-character rational normalization, strict kernel dimension descent, original kernel quotient compactness, exact ordered native group factorization, and integer-polynomial residue cosets are now proved. These use the same supplied obstruction character, not a newly chosen one. Joint bounded-degree logarithmic polynomiality of the kernel factor, rational conjugated lattices and their kernel quotients, uniformly Lipschitz induced observables, slow-factor freezing and sampling estimates remain open. The quantitative Leibman obstruction, affine substituted-polynomial coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1591,
+    "pntplus_modules": 9,
+    "build_jobs": 5557,
+    "selected_axiom_reports": 7004,
+    "new_declarations": 14,
+    "new_theorems": 13,
+    "new_definitions": 1,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughNativeCharacterNormalization.lean",
+    "Hindman168/RoughNativeFixedKernel.lean",
+    "Hindman168/RoughNativeKernelFactorization.lean",
+    "Hindman168/RoughNativeResidueCosets.lean",
+    "Hindman168/RoughNativePolynomialCosets.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. Fixed-character rational normalization, strict kernel dimension descent, original kernel quotient compactness, exact ordered native group factorization, and integer-polynomial residue cosets are now proved. These use the same supplied obstruction character, not a newly chosen one. Joint bounded-degree logarithmic polynomiality of the kernel factor, rational conjugated lattices and their kernel quotients, uniformly Lipschitz induced observables, slow-factor freezing and sampling estimates remain open. The quantitative Leibman obstruction, affine substituted-polynomial coefficient identity, corrected box comparison, stretched-filtration prerequisites, finite density extraction, dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions fixed rational character, kernel factorization and integer spatial residue decomposition"
+}

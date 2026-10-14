@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.45299999997951,
+  "log": "round-native-rational-fractional-bracket-input-axioms.txt",
+  "log_sha256": "21fdf2b670cb939d95c3cfd945c59cd354f600bfd6ff48eb84256b0aa781821f"
+}

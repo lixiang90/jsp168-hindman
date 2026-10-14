@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous round baseline proof hashes are preserved.",
+    "Direction reflection is an explicit involutive equivalence, valid in every additive commutative group.",
+    "The vertex identity is proved coordinatewise, including overlapping and empty vertex sets, using symmetric difference.",
+    "Joint mean invariance follows from root translation, Fubini, and the direction equivalence. No probabilistic independence assumption is added.",
+    "The mixed product result allows distinct functions at all vertices and proves the exact change of variables without division or nonvanishing assumptions.",
+    "One definition and three theorems are individually audited. Higher-order concatenation, Bessel and inverse existence remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/SubgroupCubeReflection.lean"
+  ],
+  "verified": {
+    "project_modules": 1057,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1066,
+    "source_config_hashes": 1075,
+    "build_jobs": 5011,
+    "axiom_reports": 5002,
+    "new_theorems": 3,
+    "new_definitions": 1,
+    "new_instances": 0,
+    "new_axiom_reports": 4,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The common-system master estimates, first-order Bessel, dual energy reduction, recursion and stability are proved. Actual dual functions now have a common finite empirical approximation preserving arbitrary cell probabilities, unit bounds and uniform bounded-test correlations. Exact arbitrary-vertex reflection of the actual subgroup cube law and mixed products is now proved. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

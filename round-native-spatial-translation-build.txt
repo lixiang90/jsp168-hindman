@@ -1,0 +1,2 @@
+✔ [5337/5337] Built Hindman168.AlignmentIntegerSpatialTranslation (8.6s)
+Build completed successfully (5337 jobs).

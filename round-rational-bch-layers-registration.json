@@ -1,0 +1,74 @@
+{
+  "baseline_hashes_verified_before_registration": 883,
+  "new_modules": [
+    "Hindman168/FiniteVectorPolynomialMixedSubspaces.lean",
+    "Hindman168/NativeLieRationalAffineLayer.lean",
+    "Hindman168/NativeLieRationalInternalBCH.lean",
+    "Hindman168/NativeLieRationalInternalLayers.lean",
+    "Hindman168/NativeLieRationalMixedDefect.lean",
+    "Hindman168/NativeSubgroupRationalNormalizedSpan.lean"
+  ],
+  "names": [
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_mono",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_bilinear_mixed",
+    "Hindman168.finiteVectorPolynomialCoefficientsMem_adPower_positive_mixed",
+    "Hindman168.finiteVectorPolynomialSum_zero_split",
+    "Hindman168.finiteVectorPolynomialPrimitive_append",
+    "Hindman168.finiteVectorPolynomialEval_primitive_constant",
+    "Hindman168.nativeLiePicard_rational_sub_affine_mem",
+    "Hindman168.nativeLie_model_zero_of_nilpotencyClass_zero",
+    "Hindman168.nativeLieLogarithmLift_rational_sub_affine_mem",
+    "Hindman168.nativeLieGlobalLogarithm_product_rational_layer",
+    "Hindman168.nativeLieLogarithmLift_rational_internal_layer",
+    "Hindman168.nativeLieGlobalLogarithm_product_internal_layer",
+    "Hindman168.nativeLieGlobalLogarithm_product_internal_last_exact",
+    "Hindman168.nativeSubgroupRationalInternalLayer",
+    "Hindman168.nativeSubgroupRationalInternalLayer_zero",
+    "Hindman168.nativeSubgroupRationalInternalLayer_nilpotencyClass_bot",
+    "Hindman168.nativeSubgroupRationalGlobalLogarithm_product_internal_layer",
+    "Hindman168.nativeSubgroupRationalGlobalLogarithm_mul_error_internal_first",
+    "Hindman168.nativeLieRationalInternalLayer",
+    "Hindman168.nativeLieRationalInternalLayer_mem_iff",
+    "Hindman168.nativeLieRationalInternalLayer_zero",
+    "Hindman168.nativeLieRationalInternalLayer_antitone",
+    "Hindman168.nativeLieRationalInternalLayer_le",
+    "Hindman168.nativeLieRationalInternalLayer_differential_next",
+    "Hindman168.nativeLieRationalInternalLayer_le_ambient",
+    "Hindman168.nativeLieRationalInternalLayer_nilpotencyClass_bot",
+    "Hindman168.nativeLieRationalDefectPolynomial_coefficients_mem_mixed",
+    "Hindman168.nativeLieRationalDefectPowerPolynomial_positive_coefficients_mem_mixed",
+    "Hindman168.nativeLieRationalFieldPolynomial_split_zero",
+    "Hindman168.nativeLieRationalFieldPolynomial_positive_tail_coefficients_mem",
+    "Hindman168.nativeSubgroupRationalLogSpan_mono",
+    "Hindman168.nativeSubgroupRationalLogSpan_adjoint_mem_of_conjugation",
+    "Hindman168.nativeLieAdjointGenerator_logarithms_mem_normalized_span",
+    "Hindman168.nativeSubgroupRationalLogSpan_differential_mem_of_normalized",
+    "Hindman168.nativeSubgroupRationalLogSpan_bracket_mem_of_normalized"
+  ],
+  "module_report_counts": {
+    "FiniteVectorPolynomialMixedSubspaces": {
+      "theorems": 6,
+      "selected_declarations": 6
+    },
+    "NativeLieRationalAffineLayer": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeLieRationalInternalBCH": {
+      "theorems": 7,
+      "selected_declarations": 8
+    },
+    "NativeLieRationalInternalLayers": {
+      "theorems": 7,
+      "selected_declarations": 8
+    },
+    "NativeLieRationalMixedDefect": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeSubgroupRationalNormalizedSpan": {
+      "theorems": 5,
+      "selected_declarations": 5
+    }
+  }
+}

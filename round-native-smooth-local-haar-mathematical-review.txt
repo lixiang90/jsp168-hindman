@@ -1,0 +1,51 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI 07_cube_limits.tex, q=0 part of simultaneous local cube law,
+particularly inserting the smooth factor after subgroup equidistribution.
+This is NOT the full simultaneous local cube law or final Hindman theorem.
+
+Compact test-family detection is applied to the actual subgroup quotient
+with its actual conjugated lattice, source and probability. It upgrades the
+already proved unit-test law; it does not assume the desired Haar limit.
+All detector thresholds precede every origin and window, so sample-dependent
+tests within one fixed compact family are genuinely allowed.
+
+The original orbit map h*x*rho Gamma is jointly continuous. Equality of
+natural and compatible-metric topologies is explicitly transported at BOTH
+quotients. Continuous currying on the compact subgroup quotient gives the
+actual compact pullback family. Integral transport is the actual measurable
+pushforward formula with verified Borel structures. The lattice is never
+assumed normal.
+
+Arbitrary compatible metrics need not make left actions globally Lipschitz.
+The freezing proof instead uses joint continuity, compactness of the original
+quotient, and convergence of actual finite-dimensional smooth parameters.
+The generic parameter lemma states its uniform-space and weak local
+compactness requirements explicitly; these hold for the native parameter
+space, rather than becoming additional assumptions of the native theorem.
+The limiting curve is constructed from the genuine smooth binomial family
+and exponential. It is chosen ONCE for all beta, errors, rational right
+factors, steps and windows. Review strengthened the theorem so that right
+factors are quantified AFTER this curve and locality radius; different
+residue classes therefore cannot silently choose different curves.
+
+The local theorem uses epsilon/3 for freezing and epsilon/3 for frozen Haar.
+The finite-mean error bound is valid even for an empty set; the actual
+window lower bound and eventual L>0 make windows nonempty in applications.
+Normalization L*((b+d*x)/L)=b+d*x uses eventual strict positivity derived
+from original cofinality. Every sampled normalized input must lie within
+the selected radius. No false unbounded-window smooth approximation is used.
+
+Quantifiers: h, then beta and epsilon, then positive radius, then arbitrary
+FIXED rational right factor, rational nonzero step and positive fraction
+tau<=1, then eventual
+length threshold, then all origins/windows/unit tests. This supplies the
+epsilon criterion needed for taking the length limit FIRST for each fixed
+small locality. It does not assert uniformity as tau tends to zero before
+the length limit. No linear O(alpha) rate in an arbitrary metric is claimed.
+
+Still missing: exact original residue assembly and explicit progression
+endpoints/cardinalities, global Riemann point mixture, genuine positive-
+dimensional native cube geometry and source, all later symmetry/alignment,
+the separate arbitrary-input GTZ inverse, and final all-FS/all-FP theorem.
+No unavoidable obstruction established. No independent kernel replay or
+external peer review is claimed. No public/prize completion claim is made.

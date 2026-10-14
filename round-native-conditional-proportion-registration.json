@@ -1,0 +1,87 @@
+{
+  "modules": [
+    "Hindman168/ResidualScaleVariation.lean",
+    "Hindman168/ConditionalProductFiberComparison.lean",
+    "Hindman168/AlignmentPosteriorFiberComparison.lean"
+  ],
+  "names": [
+    "Hindman168.rough_real_residual_event_scale_compare",
+    "Hindman168.native_real_residual_bound_variable_scale",
+    "Hindman168.rough_dyadic_retained_product_scale_range",
+    "Hindman168.native_finite_real_residual_variable_scale_uniform",
+    "Hindman168.rough_uniform_finset_event_eq_fraction",
+    "Hindman168.rough_uniform_finset_count_bound_event_lt",
+    "Hindman168.rough_pi_mass_pivot_fiber_le",
+    "Hindman168.rough_pi_mass_coordinate_union_le",
+    "Hindman168.rough_dominated_pi_mass_coordinate_union_le",
+    "Hindman168.rough_condition_mass_event_lower_domination",
+    "Hindman168.rough_conditioned_pi_mass_coordinate_union_le",
+    "Hindman168.rough_dominated_pi_mass_fiber_union_tendsto",
+    "Hindman168.rough_conditioned_pi_mass_fiber_union_tendsto",
+    "Hindman168.alignment_typical_short_posterior_fiber_union_eventually"
+  ],
+  "declarations": {
+    "Hindman168/ResidualScaleVariation.lean": [
+      [
+        "theorem",
+        "rough_real_residual_event_scale_compare"
+      ],
+      [
+        "theorem",
+        "native_real_residual_bound_variable_scale"
+      ],
+      [
+        "theorem",
+        "rough_dyadic_retained_product_scale_range"
+      ],
+      [
+        "theorem",
+        "native_finite_real_residual_variable_scale_uniform"
+      ]
+    ],
+    "Hindman168/ConditionalProductFiberComparison.lean": [
+      [
+        "theorem",
+        "rough_uniform_finset_event_eq_fraction"
+      ],
+      [
+        "theorem",
+        "rough_uniform_finset_count_bound_event_lt"
+      ],
+      [
+        "theorem",
+        "rough_pi_mass_pivot_fiber_le"
+      ],
+      [
+        "theorem",
+        "rough_pi_mass_coordinate_union_le"
+      ],
+      [
+        "theorem",
+        "rough_dominated_pi_mass_coordinate_union_le"
+      ],
+      [
+        "theorem",
+        "rough_condition_mass_event_lower_domination"
+      ],
+      [
+        "theorem",
+        "rough_conditioned_pi_mass_coordinate_union_le"
+      ],
+      [
+        "theorem",
+        "rough_dominated_pi_mass_fiber_union_tendsto"
+      ],
+      [
+        "theorem",
+        "rough_conditioned_pi_mass_fiber_union_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentPosteriorFiberComparison.lean": [
+      [
+        "theorem",
+        "alignment_typical_short_posterior_fiber_union_eventually"
+      ]
+    ]
+  }
+}

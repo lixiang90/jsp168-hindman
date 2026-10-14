@@ -1,0 +1,11 @@
+[
+  "PrimeNumberTheoremAnd.Consequences",
+  "PrimeNumberTheoremAnd.Defs",
+  "PrimeNumberTheoremAnd.Fourier",
+  "PrimeNumberTheoremAnd.Mathlib.Algebra.Notation.Support",
+  "PrimeNumberTheoremAnd.Mathlib.Analysis.Asymptotics.Asymptotics",
+  "PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Log.Basic",
+  "PrimeNumberTheoremAnd.SmoothExistence",
+  "PrimeNumberTheoremAnd.Sobolev",
+  "PrimeNumberTheoremAnd.Wiener"
+]

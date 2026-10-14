@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.32800000021234,
+  "log": "round-rough-cube-selection-start-axioms.txt",
+  "log_sha256": "af0c06899f2905230a065b07a31e7243a4b8cb6266f3fe262030b7d920246887"
+}

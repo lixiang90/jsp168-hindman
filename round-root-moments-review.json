@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 403,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskRootCopiedMeanOne.lean",
+    "Hindman168/MaskRootCopiedMajorant.lean",
+    "Hindman168/MaskRootCopiedNormalized.lean",
+    "Hindman168/MaskRootOriginalSampling.lean",
+    "Hindman168/MaskRootOriginalMajorants.lean",
+    "Hindman168/RootSmoothedSamplingLaw.lean",
+    "Hindman168/AdditiveCopyExactCounts.lean",
+    "Hindman168/MaskRootOriginalLaw.lean",
+    "Hindman168/RootSmoothedMomentIndices.lean",
+    "Hindman168/MaskRootOriginalMoments.lean",
+    "Hindman168/MaskRootMomentProfileLaw.lean",
+    "Hindman168/MaskRootTargetMoment.lean"
+  ],
+  "new_selected_report_count": 48,
+  "module_report_counts": {
+    "MaskRootCopiedMeanOne": 1,
+    "MaskRootCopiedMajorant": 4,
+    "MaskRootCopiedNormalized": 3,
+    "MaskRootOriginalSampling": 4,
+    "MaskRootOriginalMajorants": 4,
+    "RootSmoothedSamplingLaw": 3,
+    "AdditiveCopyExactCounts": 4,
+    "MaskRootOriginalLaw": 3,
+    "RootSmoothedMomentIndices": 12,
+    "MaskRootOriginalMoments": 4,
+    "MaskRootMomentProfileLaw": 3,
+    "MaskRootTargetMoment": 3
+  },
+  "application_review": [
+    "All 403 prior source/config hashes were revalidated before registration. Only Hindman168.lean imports and Verification.lean reports changed. All retained proof files, the full target statement, nine attributed PNT+ files and dependency/runtime pins remain unchanged. Previous and current rounds are PROGRESS.",
+    "MaskRootCopiedSampling records only source scale, budget and interval data. Mean-one for each injective enlarged subset is derived from the actual generated integer coefficients, earlier primitive/pair-independent certificates and the unchanged original finite nonzero polynomial catalogue. The desired arithmetic certificates and mixed means are not new source premises.",
+    "Expanding the product of one plus the actual divisor mask gives the power-of-two majorant mean. Normalization uses the same original good-prime event whose probability already tends to one. Every enlarged subset therefore has its normalized mean 2^card(U), rather than an assumed independent probability model.",
+    "The concrete enlarged sampler keeps all original pivot harmonic coordinates, all quotient branch intervals [0,floor(R/(J M(x)))), and adds two independent root intervals [0,R). Harmonic budget ordering and uniform length domination are derived from the existing original master growth and gap-before-pivots order. The quotient lower bound also bounds both root interval lengths.",
+    "Finite bijective reindexing identifies enlarged sum-type and Fin-indexed coordinate laws with the original harmonic base, original quotient direction pairs and two independent actual root samples. Generated integer coefficients evaluate exactly to the original chosen additive translated forms at z+u_root*v0 on the same original good tuples.",
+    "The non-target canonical copy fibre is explicitly bijective with a branch index k and Boolean choices on its complement. Its exact cardinality is d*2^(d-1), including d=0. Target copies occur once, and opposite root branches of non-target copies are disjoint. The target, first and second subsystems have exactly 2^d, 2^d+t and 2^d+2t factors, where t=d*2^(d-1).",
+    "For arbitrary row labels under tail-before-gap ordering, the actual enlarged-array target, first and second moments converge to 2^(2^d), 2^(2^d+t) and 2^(2^d+2t). Their centered linear combination tends to zero by finite limit algebra and the proved exact factor counts. This array cancellation has not yet been identified with the paper weighted variance.",
+    "Every enlarged subset product and its normalized average are identified with profileProduct and profileAverage under the original conditional prime law, original harmonic base, original quotient pairs and two root samples. No sampling law, coefficient or normalization is replaced. Limit transfer follows these proved eventual equalities.",
+    "The target subsystem profile product is exactly the native paper targetMajorantCube B on original good tuples. The generated target response is the original translation modulus, and the actual root response vanishes. The two unused root variables integrate to one using their actual probability laws. Consequently the original targetMajorantAverage satisfies E B -> 2^(2^d).",
+    "The raw label type avoids repeatedly unfolding the entire sampling structure. A reversed eventual equality in an intermediate limit-transfer proof caused elaboration timeouts; the final proof uses the correct fullMajorant=profileAverage and profileAverage=targetAverage orientations, keeps the original finite 2000000 heartbeat budget, compiles cleanly and passes the kernel audit. No proof placeholder or extra axiom is retained.",
+    "Native BH and BH^2 still require exact retained-product regrouping and finite Fubini. Their array limits do not alone prove E B(H-2^t)^2=o(1), and H has not been removed from the actual smoothed recurrence. Weighted Cauchy--Schwarz replacement and the full additive elimination remain pending.",
+    "The source inputs remain positive rational scales, bounded chain blocks, tail-before-gap and gap-before-pivots ordering, positive fixed J, centered root source tests and majorant-dominated off-target functions. Global concrete selection, mask removal, multiplicative recurrence, correlation/root pushforward, inverse/nilsequence/cube-law work and witness extraction remain incomplete.",
+    "No official update, upstream fetch or award response was checked, following the user instruction. The full StrongConjecture and prize target remain unproved. Repository publication, award PR and application await complete formalization and audit. No unavoidable blocker has been established."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:544-568 (actual enlarged mixed law, all-subset normalized means, exact subsystem counts and native E B limit proved; native BH/BH^2 and weighted variance still pending)",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4262,
+    "project_modules": 397,
+    "pntplus_modules": 9,
+    "source_scan_modules": 406,
+    "axiom_reports": 2060,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 415,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The actual enlarged original sampler, original joint sampling law, generated coefficient evaluation, exact canonical subsystem counts, and normalized array means are now proved. The target subsystem is identified with the native paper B and its original mean E B tends to 2^(2^d). For t=d*2^(d-1), the first and second array means tend to 2^(2^d+t) and 2^(2^d+2t), and their centered combination tends to zero. Next identify those two actual profile averages with the native original joint moments E BH and E BH^2 for H=E_root Psi, using exact retained-product regrouping and finite Fubini under the unchanged original law. Then prove E B(H-2^t)^2=o(1) and weighted Cauchy--Schwarz replacement of H by 2^t in the actual smoothed terminal recurrence. Array cancellation or an ordinary mean alone does not remove retained weights. Connect the resulting full actual additive elimination to the weighted mask-removal integrands, multiplicative Cauchy--Schwarz recurrence and exception/error bounds. Complete the retained-weight correlation test, root pushforward, full preprint Prediction/Alignment propositions, inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and final witness extraction and separation. Real-exponent clipping remains unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

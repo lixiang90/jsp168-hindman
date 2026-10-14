@@ -1,0 +1,104 @@
+{
+  "modules": [
+    "Hindman168/NativeAbelianBinomialObstruction.lean",
+    "Hindman168/BoundedComplexObservableNormalization.lean",
+    "Hindman168/NativeAbelianBoundedCubeObstruction.lean",
+    "Hindman168/RoughVectorSpatialAffineProjection.lean",
+    "Hindman168/ScalarMvNaturalCubeTransport.lean",
+    "Hindman168/NativeAbelianAffineCubeInput.lean",
+    "Hindman168/NativeAbelianRealBoxObstruction.lean"
+  ],
+  "names": [
+    "Hindman168.native_original_character_binomial_expansion",
+    "Hindman168.native_abelian_binomial_observable_obstruction",
+    "Hindman168.bounded_complex_observable_normalization",
+    "Hindman168.finite_complex_set_mean_real_smul",
+    "Hindman168.finite_haar_discrepancy_real_smul",
+    "Hindman168.native_abelian_bounded_cube_obstruction",
+    "Hindman168.rough_mv_parameter_specialize_option_right",
+    "Hindman168.rough_vector_projection_parameter_specialize",
+    "Hindman168.rough_vector_projection_affine_substitution",
+    "Hindman168.rough_vector_spatial_affine_projection",
+    "Hindman168.scalar_mv_nat_cast_injective",
+    "Hindman168.scalar_mv_integer_cube_nat_cast_image",
+    "Hindman168.scalar_mv_integer_cube_natural_mean",
+    "Hindman168.native_abelian_affine_cube_binomial_input",
+    "Hindman168.native_abelian_real_box_finite_obstruction"
+  ],
+  "declarations": {
+    "Hindman168/NativeAbelianBinomialObstruction.lean": [
+      [
+        "theorem",
+        "native_original_character_binomial_expansion"
+      ],
+      [
+        "theorem",
+        "native_abelian_binomial_observable_obstruction"
+      ]
+    ],
+    "Hindman168/BoundedComplexObservableNormalization.lean": [
+      [
+        "theorem",
+        "bounded_complex_observable_normalization"
+      ],
+      [
+        "theorem",
+        "finite_complex_set_mean_real_smul"
+      ],
+      [
+        "theorem",
+        "finite_haar_discrepancy_real_smul"
+      ]
+    ],
+    "Hindman168/NativeAbelianBoundedCubeObstruction.lean": [
+      [
+        "theorem",
+        "native_abelian_bounded_cube_obstruction"
+      ]
+    ],
+    "Hindman168/RoughVectorSpatialAffineProjection.lean": [
+      [
+        "theorem",
+        "rough_mv_parameter_specialize_option_right"
+      ],
+      [
+        "theorem",
+        "rough_vector_projection_parameter_specialize"
+      ],
+      [
+        "theorem",
+        "rough_vector_projection_affine_substitution"
+      ],
+      [
+        "theorem",
+        "rough_vector_spatial_affine_projection"
+      ]
+    ],
+    "Hindman168/ScalarMvNaturalCubeTransport.lean": [
+      [
+        "theorem",
+        "scalar_mv_nat_cast_injective"
+      ],
+      [
+        "theorem",
+        "scalar_mv_integer_cube_nat_cast_image"
+      ],
+      [
+        "theorem",
+        "scalar_mv_integer_cube_natural_mean"
+      ]
+    ],
+    "Hindman168/NativeAbelianAffineCubeInput.lean": [
+      [
+        "theorem",
+        "native_abelian_affine_cube_binomial_input"
+      ]
+    ],
+    "Hindman168/NativeAbelianRealBoxObstruction.lean": [
+      [
+        "theorem",
+        "native_abelian_real_box_finite_obstruction"
+      ]
+    ]
+  }
+}

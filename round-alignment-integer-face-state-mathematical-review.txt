@@ -1,0 +1,69 @@
+JSP-000168 / Erdos #172 -- author mathematical review, 2026-10-14
+PROGRESS ONLY. StrongConjecture remains unproved and no unavoidable obstruction
+has been established. No independent kernel replay or external peer review.
+
+Primary route: exact pinned OpenAI paper section 8, original model-array exponent
+and conditional face-invariance proof, especially lines 560-575. Section 6's
+q/q*t route and original posterior domination remain unchanged. Publication
+milestone still follows full formalization or a genuinely unavoidable obstacle.
+
+1. Integer-state review. The real polynomial base at actual y has spatial vertex
+z_none + sum weight_j*z_some_j and original start/M plus the original residue
+correction (r0+tau*s-r_s)/M. The EXACT original modulo identity makes M divide
+this correction, even at arbitrary integer spatial z. M is the positive master
+modulus, no coprimality of retained and removed parameters is imposed. Base
+freezing uses actual rough units, earlier tail and exposed key. The increment
+is actual Delta_e when e.targetTail=T and zero otherwise. Original scalar model
+log, genuine coefficient-log identification, basis reconstruction and native
+product sample injection prove state equality. Polynomiality alone would not
+justify this; integrality has now been separately discharged. Empty tails are
+included and positivity of source coefficients is not assumed.
+
+2. Translation review. A shift z_some_j by Delta_e increases the original base
+by weight_j*Delta_e. Array input shift Pi.single e weight_j increases precisely
+the same base iff e.targetTail=T. This condition remains explicit throughout.
+The original array translation preserves the actual pointwise lattice at ALL
+integer slots; the finite product preserves its exact product lattice. Its
+native quotient action has the original reading identity and continuity by
+PROVED metric-topology compatibility. For zero/one original vertex weights
+this is respectively the lower-face identity and upper-face unit slot shift.
+The joint equality is simultaneous at every original component and every slot.
+No claim is made about component targets outside this marginal.
+
+3. Test/mean review. Original observer functions are composed with the fixed
+actual quotient slot automorphism. Exact original slot readings identify this
+with translated original slots. Therefore compact bounded/Lipschitz observer
+input families give a fixed finite approximant list by existing compact-family
+approximation. No numerical Lipschitz bound on the slot action or projection is
+inferred from continuity. This directly supplies the fixed face-composed tests
+needed by the paper's second removal comparison. Denominator mean equality is
+pointwise before averaging, retaining the whole d-grid, original choices, same
+box endpoints, normalization and exposed anchor. There is no replacement law,
+fake empty-grid mass or origin union.
+
+4. Actual uniform bound review. Terminal product face discrepancy follows from
+the PROVED original boundary-count spatial estimate and the new exact integer
+slot-action/mean identities. Both x and y are original raw supports, actual key
+equality and all original rough units are discharged. The own-pair condition
+and original master growth/d|Delta remain essential. ONE cutoff precedes all
+original source/box/residue/test data. This is only TERMINAL d-law invariance;
+original full cube-law invariance still needs BOTH full-to-terminal removal
+errors, triangle inequality, actual support domination and finite unions. The
+fine cube law need not itself be invariant under a Delta spatial shift.
+
+5. Scope review. Generic integer weights strengthen the exact state identity;
+actual zero/one vertex specialization retains original upper-face semantics.
+Full arbitrary coloring/witness length, one common color for ALL nonempty sums
+AND products, positivity/distinctness/rapid separation remain unproved. Missing
+GTZ arbitrary-input bounded periodic interval Gowers LINEAR nilsequence inverse
+is independent of equidistribution inverse; choose sufficient step for actual
+finite degree list rather than claim incompatible universal step/degree theorem.
+No weakened final statement or custom proof oracle is added.
+
+Genuine integer residue-correction integrality identifies the exposed joint base exponent on EVERY integer spatial point; own-pair increment exponents are actual original Deltas. The native coefficient logarithm and original basis then identify EACH literal model array. Heterogeneous native finite-product sampling and full-source tail congruence prove the literal joint state on all integer denominator grids, including empty tails, rather than only original fine cube samples.
+The original slot automorphism is typed on the actual native array and native heterogeneous product. Its original POINTWISE product lattice is preserved, its quotient action is continuous in the PROVED supplied native metric topology, and every original slot reading is shifted exactly. Integer spatial coordinate Delta translates are proved EQUAL to the own-pair product slot automorphism with the original vertex weights. Weights zero and one select the lower and upper face, simultaneously at all component slots.
+Face-composed original metric product tests equal original observations read at fixed translated slots. Their compact input families admit ONE fixed finite bounded/Lipschitz approximant list before sources, numerical endpoints, denominator choices and posterior samples. No numerical Lipschitz constant of a projection/slot automorphism is assumed. The exact same terminal d-grid mean is identified with the unshifted law under the original face-composed test.
+The ACTUAL terminal d-law marginal original product face discrepancy now tends uniformly to zero on supported raw tuples sharing the genuine exposed key. Actual arithmetic/growth/geometry supplies the existing spatial boundary estimate and the new literal array/coset identities identify its original face action. The cutoff precedes supported anchors/tuples, original boxes/choices, EVERY own pair/coordinate, arbitrary source coefficients, vertex weights and original bounded/Lipschitz observations. Original full cube law face invariance still requires comparison on BOTH sides and a finite conditional-probability union.
+
+Remaining proof work:
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Literal joint integer spatial array/model correspondence, genuine own-pair upper-face slot action, fixed face-composed test compact approximation and actual terminal d-law uniform original product face discrepancy are now PROVED. Remaining: combine BOTH original-product factor-removal posterior failures with terminal face discrepancy (same exposed origin/key and endpoints) by the triangle inequality and finite own-pair/coordinate unions to establish full original MARGINAL face invariance; then cube limits/Alignment/countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. No invariance of other components is asserted. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

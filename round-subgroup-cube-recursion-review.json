@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before editing. All 989 baseline hashes checked at registration, preserving previous proof sources, original target, laws and pins.",
+    "Vertex splitting is proved for an actual powerset of an inserted finite coordinate set. The sum_insert side condition follows from subset membership in the old powerset. The two resulting face products have the original root and translated root.",
+    "An injective coordinate map preserves the powerset product and vertex sums. Fin(d+1) is proved to be zero inserted into the successor image, so the dimension-splitting theorem is for the existing subgroupCubeProduct definition.",
+    "Direction functions are reindexed by the true Fin.cons equivalence and exact finite Haar product formula. Denominators and cardinalities are preserved. Reordering nested finite means does not invoke an unproved measure or limit interchange.",
+    "For each fixed d-dimensional direction vector, its face product is an arbitrary real function of the root. The already proved first-order subgroup correlation square identity applies to this function, giving a mean-square formula in dimension d+1.",
+    "This proves all positive dimensions directly, without a sign bound on the original function. Dimension zero is deliberately excluded. Nonnegative cell-weighted sums inherit positivity without requiring cell probabilities to sum to one.",
+    "Nine new theorems are individually kernel audited. Gowers roots, seminorm inequalities, Bessel/GTZ inverse inputs and the main arithmetic conclusion remain unproved."
+  ],
+  "new_modules": [
+    "Hindman168/CubeProductSplitting.lean",
+    "Hindman168/FiniteHaarDirections.lean",
+    "Hindman168/SubgroupCubePositive.lean"
+  ],
+  "verified": {
+    "project_modules": 974,
+    "pntplus_modules": 9,
+    "source_scan_modules": 983,
+    "source_config_hashes": 992,
+    "build_jobs": 4928,
+    "axiom_reports": 4743,
+    "new_theorems": 9,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 9,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "All positive-dimensional actual subgroup cube means now have an exact mean-square representation and proved nonnegativity, including weighted cells. Next define their positive Gowers roots and prove required norm estimates, short-increment Cauchy-Schwarz reduction, Bessel inverse input, cyclic-to-interval transfer and inverse correlators. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

@@ -1,0 +1,21 @@
+{
+  "modules": [
+    "Hindman168/NativeFiniteRoughProportion.lean"
+  ],
+  "names": [
+    "Hindman168.native_original_rough_proportion_bound_mono",
+    "Hindman168.native_finite_original_rough_proportion_uniform"
+  ],
+  "declarations": {
+    "Hindman168/NativeFiniteRoughProportion.lean": [
+      [
+        "theorem",
+        "native_original_rough_proportion_bound_mono"
+      ],
+      [
+        "theorem",
+        "native_finite_original_rough_proportion_uniform"
+      ]
+    ]
+  }
+}

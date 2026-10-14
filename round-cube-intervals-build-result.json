@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 13.280999999959022,
+  "log": "round-cube-intervals-build.txt",
+  "log_sha256": "f441b2a3bd7d37e76e7ac11b3e4a391ef9110e4d76d8023de6ecb8901e1e2fc8"
+}

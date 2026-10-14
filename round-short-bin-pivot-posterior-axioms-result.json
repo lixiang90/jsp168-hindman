@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.79700000002049,
+  "log": "round-short-bin-pivot-posterior-axioms.txt",
+  "log_sha256": "3880469806fae376f6edcb0272bcc712342a3c987c796f00a20dfc097a16bd2f"
+}

@@ -1,0 +1,33 @@
+{
+  "baseline_hash_count": 1074,
+  "modules": [
+    "Hindman168/SubgroupCubeReflection.lean"
+  ],
+  "names": [
+    "Hindman168.cubeDirectionReflection",
+    "Hindman168.cube_reflection_vertex",
+    "Hindman168.subgroupCube_reflection_mean",
+    "Hindman168.subgroupCube_mixed_vertex_reflection"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/SubgroupCubeReflection.lean": [
+      [
+        "def",
+        "cubeDirectionReflection"
+      ],
+      [
+        "theorem",
+        "cube_reflection_vertex"
+      ],
+      [
+        "theorem",
+        "subgroupCube_reflection_mean"
+      ],
+      [
+        "theorem",
+        "subgroupCube_mixed_vertex_reflection"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.20299999997951,
+  "log": "round-rough-interpolation-assembled-axioms.txt",
+  "log_sha256": "e8401119e61e9d15a0d9b98605aa0cec7c3635fed8ae6bcc2b591bb23d9e9cdc"
+}

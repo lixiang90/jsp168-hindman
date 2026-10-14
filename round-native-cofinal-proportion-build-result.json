@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.891000000061467,
+  "log": "round-native-cofinal-proportion-build.txt",
+  "log_sha256": "d8a65435582187641fee4c3691631aaf194e5aef798763db1c69b04a3cf2596d"
+}

@@ -1,0 +1,116 @@
+{
+  "modules": [
+    "Hindman168/RoughFilteredIntegerLinearPart.lean",
+    "Hindman168/RoughNormalizedIntegerPair.lean",
+    "Hindman168/NativeNormalizedIntegerPair.lean",
+    "Hindman168/NativeCompactCosetRepresentatives.lean",
+    "Hindman168/NativeNormalizedTerminalPairSampling.lean",
+    "Hindman168/NativeNormalizedTerminalPairDetection.lean"
+  ],
+  "names": [
+    "Hindman168.integer_sequence_eq_zpow_of_second_difference",
+    "Hindman168.rough_iterated_group_difference_hom",
+    "Hindman168.rough_filtered_integer_nonlinear_part_mem",
+    "Hindman168.roughNormalizedIntegerPair",
+    "Hindman168.rough_normalized_integer_pair_second",
+    "Hindman168.rough_normalized_integer_pair_translated_first",
+    "Hindman168.rough_normalized_integer_pair_original_coset",
+    "Hindman168.rough_normalized_integer_pair_mem",
+    "Hindman168.nativeIntegerLogPolynomialSequence",
+    "Hindman168.native_integer_log_polynomial_sequence_filtered",
+    "Hindman168.native_integer_log_polynomial_sequence_zero",
+    "Hindman168.native_normalized_integer_polynomial_pair_mem",
+    "Hindman168.nativeNormalizedIntegerPolynomialPair",
+    "Hindman168.native_normalized_integer_polynomial_pair_inclusion",
+    "Hindman168.native_exists_compact_coset_representatives",
+    "Hindman168.native_normalized_terminal_pair_original_sample",
+    "Hindman168.native_normalized_terminal_pair_original_mean",
+    "Hindman168.native_normalized_terminal_pair_uniform_detection"
+  ],
+  "declarations": {
+    "Hindman168/RoughFilteredIntegerLinearPart.lean": [
+      [
+        "theorem",
+        "integer_sequence_eq_zpow_of_second_difference"
+      ],
+      [
+        "theorem",
+        "rough_iterated_group_difference_hom"
+      ],
+      [
+        "theorem",
+        "rough_filtered_integer_nonlinear_part_mem"
+      ]
+    ],
+    "Hindman168/RoughNormalizedIntegerPair.lean": [
+      [
+        "def",
+        "roughNormalizedIntegerPair"
+      ],
+      [
+        "theorem",
+        "rough_normalized_integer_pair_second"
+      ],
+      [
+        "theorem",
+        "rough_normalized_integer_pair_translated_first"
+      ],
+      [
+        "theorem",
+        "rough_normalized_integer_pair_original_coset"
+      ],
+      [
+        "theorem",
+        "rough_normalized_integer_pair_mem"
+      ]
+    ],
+    "Hindman168/NativeNormalizedIntegerPair.lean": [
+      [
+        "def",
+        "nativeIntegerLogPolynomialSequence"
+      ],
+      [
+        "theorem",
+        "native_integer_log_polynomial_sequence_filtered"
+      ],
+      [
+        "theorem",
+        "native_integer_log_polynomial_sequence_zero"
+      ],
+      [
+        "theorem",
+        "native_normalized_integer_polynomial_pair_mem"
+      ],
+      [
+        "def",
+        "nativeNormalizedIntegerPolynomialPair"
+      ],
+      [
+        "theorem",
+        "native_normalized_integer_polynomial_pair_inclusion"
+      ]
+    ],
+    "Hindman168/NativeCompactCosetRepresentatives.lean": [
+      [
+        "theorem",
+        "native_exists_compact_coset_representatives"
+      ]
+    ],
+    "Hindman168/NativeNormalizedTerminalPairSampling.lean": [
+      [
+        "theorem",
+        "native_normalized_terminal_pair_original_sample"
+      ],
+      [
+        "theorem",
+        "native_normalized_terminal_pair_original_mean"
+      ]
+    ],
+    "Hindman168/NativeNormalizedTerminalPairDetection.lean": [
+      [
+        "theorem",
+        "native_normalized_terminal_pair_uniform_detection"
+      ]
+    ]
+  }
+}

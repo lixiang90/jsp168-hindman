@@ -1,0 +1,101 @@
+{
+  "baseline_hash_count": 1206,
+  "modules": [
+    "Hindman168/UniformIntervalPairHaar.lean",
+    "Hindman168/IntegerShortCubeSamplingIdentity.lean",
+    "Hindman168/MaskEndpointShortCubeIdentity.lean",
+    "Hindman168/FiniteConditionedSubsetBound.lean",
+    "Hindman168/MaskEndpointShortCubeConditioning.lean"
+  ],
+  "names": [
+    "Hindman168.uniformFinite_expectation_haar",
+    "Hindman168.uniformFinite_pi_law",
+    "Hindman168.uniformFinite_tensor_law",
+    "Hindman168.uniformFin_cast_interval_law",
+    "Hindman168.uniformInterval_pair_expectation_haar",
+    "Hindman168.booleanCube_product_finset",
+    "Hindman168.integerPredictionShortCubeStatistic_pair_law",
+    "Hindman168.maskEndpointTargetCube_eq_integer_shortCube",
+    "Hindman168.maskEndpointTargetCube_eq_local_conditioned_shortCube",
+    "Hindman168.maskEndpointTargetCube_abs_le_integer_shortCube",
+    "Hindman168.FiniteMass.conditioned_subset_expectation_bound",
+    "Hindman168.FiniteMass.conditioned_subset_expectation_le_twice",
+    "Hindman168.maskLocalPrimeGood_event_tendsto_one",
+    "Hindman168.maskEndpointTargetCube_abs_le_twice_primeGood_shortCube",
+    "Hindman168.maskOriginalSubset_shortCube_detection_threshold"
+  ],
+  "theorem_count": 15,
+  "selected_report_count": 15,
+  "declarations": {
+    "Hindman168/UniformIntervalPairHaar.lean": [
+      [
+        "theorem",
+        "uniformFinite_expectation_haar"
+      ],
+      [
+        "theorem",
+        "uniformFinite_pi_law"
+      ],
+      [
+        "theorem",
+        "uniformFinite_tensor_law"
+      ],
+      [
+        "theorem",
+        "uniformFin_cast_interval_law"
+      ],
+      [
+        "theorem",
+        "uniformInterval_pair_expectation_haar"
+      ]
+    ],
+    "Hindman168/IntegerShortCubeSamplingIdentity.lean": [
+      [
+        "theorem",
+        "booleanCube_product_finset"
+      ],
+      [
+        "theorem",
+        "integerPredictionShortCubeStatistic_pair_law"
+      ]
+    ],
+    "Hindman168/MaskEndpointShortCubeIdentity.lean": [
+      [
+        "theorem",
+        "maskEndpointTargetCube_eq_integer_shortCube"
+      ],
+      [
+        "theorem",
+        "maskEndpointTargetCube_eq_local_conditioned_shortCube"
+      ],
+      [
+        "theorem",
+        "maskEndpointTargetCube_abs_le_integer_shortCube"
+      ]
+    ],
+    "Hindman168/FiniteConditionedSubsetBound.lean": [
+      [
+        "theorem",
+        "conditioned_subset_expectation_bound"
+      ],
+      [
+        "theorem",
+        "conditioned_subset_expectation_le_twice"
+      ]
+    ],
+    "Hindman168/MaskEndpointShortCubeConditioning.lean": [
+      [
+        "theorem",
+        "maskLocalPrimeGood_event_tendsto_one"
+      ],
+      [
+        "theorem",
+        "maskEndpointTargetCube_abs_le_twice_primeGood_shortCube"
+      ],
+      [
+        "theorem",
+        "maskOriginalSubset_shortCube_detection_threshold"
+      ]
+    ]
+  }
+}

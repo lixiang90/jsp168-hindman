@@ -1,0 +1,188 @@
+✖ [4242/4242] Building Hindman168.MaskRootOriginalLaw (8.8s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\MaskRootOriginalLaw.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MaskRootOriginalLaw.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MaskRootOriginalLaw.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MaskRootOriginalLaw.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MaskRootOriginalLaw.setup.json --json
+error: Hindman168/MaskRootOriginalLaw.lean:44:14: unsolved goals
+case inl.inl
+m N : ℕ
+gap : ℕ → Fin N
+a : Fin (m + 1) → ℚ
+ha : ∀ (col : Fin (m + 1)), 0 < a col
+C : ℕ → Chain (m + 1)
+hC : ∀ (w : ℕ) (col : Fin (m + 1)), (C w).block col ⊆ Finset.range N
+t : Fin (Fintype.card (LargeColumnSubset m))
+J : ℕ
+hJ : 0 < J
+hgap : ∀ᶠ (w : ℕ) in atTop, ∀ (col : Fin (m + 1)), ↑(gap w) ≤ (C w).pivot col
+w : ℕ
+x : Fin (maskGeneratedRowDataFamily m gap t).arity → ℕ
+j : Fin (Fintype.card (PolynomialRowFamily.RootSmoothedColumn (maskGeneratedRowDataFamily m S.gap S.template).target m))
+col : Fin (m + 1)
+hd : maskRootColumnDecode m gap t j = Sum.inl (Sum.inl col)
+⊢ (if
+        j ∈
+          {j |
+            match maskRootColumnDecode m gap t j with
+            | Sum.inl (Sum.inl val) => True
+            | x => False} then
+      integerMass ((maskGeneratedMaster m gap).cutoff w ((C w).pivot col)) (primorial w)
+    else uniformIntervalMass 0 (maskRootLength m gap t J w x j)) =
+    integerMass ((maskGeneratedMaster m gap).cutoff w ((C w).pivot col)) (primorial w)
+error: Hindman168/MaskRootOriginalLaw.lean:47:13: unsolved goals
+case inl.inr
+m N : ℕ
+gap : ℕ → Fin N
+a : Fin (m + 1) → ℚ
+ha : ∀ (col : Fin (m + 1)), 0 < a col
+C : ℕ → Chain (m + 1)
+hC : ∀ (w : ℕ) (col : Fin (m + 1)), (C w).block col ⊆ Finset.range N
+t : Fin (Fintype.card (LargeColumnSubset m))
+J : ℕ
+hJ : 0 < J
+hgap : ∀ᶠ (w : ℕ) in atTop, ∀ (col : Fin (m + 1)), ↑(gap w) ≤ (C w).pivot col
+w : ℕ
+x : Fin (maskGeneratedRowDataFamily m gap t).arity → ℕ
+j : Fin (Fintype.card (PolynomialRowFamily.RootSmoothedColumn (maskGeneratedRowDataFamily m S.gap S.template).target m))
+kb : Fin (Fintype.card (PolynomialRowFamily.OffTargetRow (maskGeneratedRowDataFamily m gap t).target)) × Bool
+hd : maskRootColumnDecode m gap t j = Sum.inl (Sum.inr kb)
+⊢ (if
+        j ∈
+          {j |
+            match maskRootColumnDecode m gap t j with
+            | Sum.inl (Sum.inl val) => True
+            | x => False} then
+      integerMass ((maskGeneratedMaster m gap).cutoff w ↑(maskRootIndex m gap C hC t w j)) (primorial w)
+    else uniformIntervalMass 0 (maskGeneratedShiftLength m gap t J w x)) =
+    uniformIntervalMass 0 (maskGeneratedShiftLength m gap t J w x)
+error: Hindman168/MaskRootOriginalLaw.lean:50:12: unsolved goals
+case inr
+m N : ℕ
+gap : ℕ → Fin N
+a : Fin (m + 1) → ℚ
+ha : ∀ (col : Fin (m + 1)), 0 < a col
+C : ℕ → Chain (m + 1)
+hC : ∀ (w : ℕ) (col : Fin (m + 1)), (C w).block col ⊆ Finset.range N
+t : Fin (Fintype.card (LargeColumnSubset m))
+J : ℕ
+hJ : 0 < J
+hgap : ∀ᶠ (w : ℕ) in atTop, ∀ (col : Fin (m + 1)), ↑(gap w) ≤ (C w).pivot col
+w : ℕ
+x : Fin (maskGeneratedRowDataFamily m gap t).arity → ℕ
+j : Fin (Fintype.card (PolynomialRowFamily.RootSmoothedColumn (maskGeneratedRowDataFamily m S.gap S.template).target m))
+bit : Bool
+hd : maskRootColumnDecode m gap t j = Sum.inr bit
+⊢ (if
+        j ∈
+          {j |
+            match maskRootColumnDecode m gap t j with
+            | Sum.inl (Sum.inl val) => True
+            | x => False} then
+      integerMass ((maskGeneratedMaster m gap).cutoff w ↑(maskRootIndex m gap C hC t w j)) (primorial w)
+    else uniformIntervalMass 0 ((maskGeneratedMaster m gap).gap w ↑(gap w))) =
+    uniformIntervalMass 0 ((maskGeneratedMaster m gap).gap w ↑(gap w))
+warning: Hindman168/MaskRootOriginalLaw.lean:45:35: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, F̵i̵n̵s̵e̵t̵.̵m̵e̵m̵_̵f̵i̵l̵t̵e̵r̵,̵ ̵Finset.mem_univ, hd, true_and, if_true, maskRootIndex,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, additiveComponentMass, Sum.elim_inl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:45:54: This simp argument is unused:
+  Finset.mem_univ
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, Finset.mem_filter, F̵i̵n̵s̵e̵t̵.̵m̵e̵m̵_̵u̵n̵i̵v̵,̵ ̵hd, true_and, if_true, maskRootIndex,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, additiveComponentMass, Sum.elim_inl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:45:75: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, Finset.mem_filter, Finset.mem_univ, hd, t̵r̵u̵e̵_̵a̵n̵d̵,̵ ̵if_true,
+  ̵  ̵ ̵ ̵ ̵ ̵ ̵ ̵maskRootIndex,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, additiveComponentMass, Sum.elim_inl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:45:85: This simp argument is unused:
+  if_true
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, Finset.mem_filter, Finset.mem_univ, hd, true_and, i̵f̵_̵t̵r̵u̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵maskRootIndex,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, additiveComponentMass, Sum.elim_inl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:48:35: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, F̵i̵n̵s̵e̵t̵.̵m̵e̵m̵_̵f̵i̵l̵t̵e̵r̵,̵ ̵Finset.mem_univ, hd, true_and, if_false, maskRootLength,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, additiveComponentMass, Sum.elim_inl, Sum.elim_inr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:48:54: This simp argument is unused:
+  Finset.mem_univ
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, Finset.mem_filter, F̵i̵n̵s̵e̵t̵.̵m̵e̵m̵_̵u̵n̵i̵v̵,̵ ̵hd, true_and, if_false, maskRootLength,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, additiveComponentMass, Sum.elim_inl, Sum.elim_inr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:48:75: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, Finset.mem_filter, Finset.mem_univ, hd, t̵r̵u̵e̵_̵a̵n̵d̵,̵ ̵if_false,
+  ̵  ̵ ̵ ̵ ̵ ̵ ̵ ̵maskRootLength,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, additiveComponentMass, Sum.elim_inl, Sum.elim_inr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:48:85: This simp argument is unused:
+  if_false
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, Finset.mem_filter, Finset.mem_univ, hd, true_and, i̵f̵_̵f̵a̵l̵s̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵maskRootLength,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, additiveComponentMass, Sum.elim_inl, Sum.elim_inr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:51:33: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, F̵i̵n̵s̵e̵t̵.̵m̵e̵m̵_̵f̵i̵l̵t̵e̵r̵,̵ ̵Finset.mem_univ, hd, true_and, if_false, maskRootLength,
+  ̲  ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, Sum.elim_inr, MaskOriginalSampling.rootMass]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:51:52: This simp argument is unused:
+  Finset.mem_univ
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, Finset.mem_filter, F̵i̵n̵s̵e̵t̵.̵m̵e̵m̵_̵u̵n̵i̵v̵,̵ ̵hd, true_and, if_false, maskRootLength,
+  ̲  ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, Sum.elim_inr, MaskOriginalSampling.rootMass]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:51:73: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, Finset.mem_filter, Finset.mem_univ, hd, t̵r̵u̵e̵_̵a̵n̵d̵,̵ ̵if_false,
+  ̵  ̵ ̵ ̵ ̵ ̵maskRootLength,
+  ̲  ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, Sum.elim_inr, MaskOriginalSampling.rootMass]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Hindman168/MaskRootOriginalLaw.lean:51:83: This simp argument is unused:
+  if_false
+
+Hint: Omit it from the simp argument list.
+  simp only [maskRootHarmonic, Finset.mem_filter, Finset.mem_univ, hd, true_and, i̵f̵_̵f̵a̵l̵s̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵maskRootLength,
+  ̲  ̲ ̲ ̲ ̲ ̲rootSmoothedComponentMass, Sum.elim_inr, MaskOriginalSampling.rootMass]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Hindman168/MaskRootOriginalLaw.lean:73:81: Unknown identifier `ha`
+error: Hindman168/MaskRootOriginalLaw.lean:73:86: Unknown identifier `hC`
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.MaskRootOriginalLaw
+error: build failed

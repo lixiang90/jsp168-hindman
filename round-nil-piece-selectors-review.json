@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 583,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/NilPieceRecipeSelectors.lean",
+    "Hindman168/NilPieceZeroPrimeDual.lean",
+    "Hindman168/NilPieceCubeGeometry.lean",
+    "Hindman168/NilPieceLinearOrbits.lean",
+    "Hindman168/NilPieceDualApproximation.lean",
+    "Hindman168/NilPieceDualPairing.lean",
+    "Hindman168/NilPeriodicBoundaryCells.lean"
+  ],
+  "new_selected_report_count": 35,
+  "module_report_counts": {
+    "NilPieceRecipeSelectors": 5,
+    "NilPieceZeroPrimeDual": 5,
+    "NilPieceCubeGeometry": 5,
+    "NilPieceLinearOrbits": 4,
+    "NilPieceDualApproximation": 6,
+    "NilPieceDualPairing": 4,
+    "NilPeriodicBoundaryCells": 6
+  },
+  "application_review": [
+    "Each recipe factor is multiplied by the indicator that its input point's piece selected the corresponding recipe. The resulting scalar input remains bounded by one.",
+    "On any cube whose nonroot vertices have one common piece label, exactly the selected recipe survives the sum over recipe identifiers. Positive cube dimension supplies the nonempty nonroot index needed to annihilate unselected recipes.",
+    "The selected cube-recipe sum is globally bounded by the finite sum of all recipe coefficient masses, including cubes crossing pieces.",
+    "Every selected factor is an actual admissible OriginalSingleDualInput with epsilon one. Under the retained nonnegative block majorant, its vertex bounds fit the original admissibility condition.",
+    "The coefficient-weighted finite sum of actual original zero-prime duals equals exactly the original uniform-shift expectation of the selected cube-recipe sum, with the master modulus M unchanged.",
+    "Nonzero support of the actual independent shift mass gives the original slot bounds. All cube displacements are bounded by H=d*M*floor(R/(J*M)), and J*H <= d*R.",
+    "An interior root and every sampled nonroot vertex lie in the same R-interval and same residue class modulo M. The proof allows all integer roots, including negative ones.",
+    "Existing finite uniform root recipes are concretely indexed and selected for arbitrarily many pieces of each fixed nilmanifold. Piecewise linear orbits at (y+M*v)/M have the exact integer exponent y/M+v and inherit the root recipe estimate.",
+    "The actual selected original dual average approximates the piecewise linear nilorbit test on interior roots. Positive shift-window size is retained explicitly so the averaging mass is one.",
+    "Weighted good-root deletion bounds the original error pairing by delta times the original weighted total plus the coefficient bound times the original boundary weighted mass; no exceptional event or divisor mass is normalized.",
+    "Exact finite pairing linearity bounds the selected original dual pairing by total recipe coefficient mass times the individual dual error. Its pairing tends to zero under full original uniform admissible-input control, allowing the piece assignment and nilorbit parameters to vary with the stage.",
+    "Periodic complete-cell counts equal actual disjoint residue-window cardinalities. End strips and the actual discarded interior-complement roots satisfy the exact complete-cell bound (2H/R)*N_cell+|U|*(2+2H/R), with the original period q retained in the count discrepancy.",
+    "All 583 baseline source/config hashes were verified before edits and registration. Only Hindman168.lean and Verification.lean changed among retained files. StrongStatement, all retained proof sources, nine PNT+ files and fixed dependency pins remain byte-identical.",
+    "The local paper sections 04, 05 and 07 match their exact pinned adc7f1241b42e322a6451854ab7e4b4c146bf78a Git objects after newline normalization. No remote or official updates were checked.",
+    "The selector is installed at every nonroot input, exactly as in Prediction lines 316-323. Same-piece agreement identifies all indicators; at least one nonroot coordinate is necessary to kill an unselected recipe. The positive dimension premise is explicit.",
+    "No recipe coefficient or selected piece is folded into an undocumented dual normalization. Epsilon is exactly one; coefficients remain outside their actual original dual tests and are controlled by their original absolute coefficient sum.",
+    "The zero-prime template retains its original modulus F.modulus w, gap and fixed quotient-scale choice. Its exponent positivity is explicit in the exact dual formula. The actual sampling window is [0,floor(R/(J*M))), with no replacement law.",
+    "Geometric containment is proved only on the actual nonzero support. Integer margins cover every signed difference of sampled slots and every subset sum. Euclidean quotients and residues make the proof valid for negative as well as positive integer roots.",
+    "The scalar finite recipe indexing uses the existing proved uniform root recipe theorem. It does not postulate a new root approximation. The selected recipe may vary over arbitrarily many pieces, while the finite family and coefficient bounds are fixed.",
+    "The residue-class nilorbit uses exponent y/M. Adding M times an integer shift gives precisely y/M+shift because the actual modulus is positive. Arbitrary translating elements and base representatives remain unrestricted.",
+    "Positive shift-window size is a substantive explicit averaging premise. If that window is empty its mass is zero, and no false root-reconstruction average is claimed. Eventual positivity must be supplied by the original master gap/scaling inputs when this interface is instantiated.",
+    "The pairing-decay theorem uses the original full uniform bound over admissible inputs. This uniformity covers selectors and point maps changing with w without a diagonal selection over all pieces. Nonnegative block majorant remains explicit and is already retained in the prior model interfaces.",
+    "The weighted error theorem retains an arbitrary original nonnegative finite mass, its actual weighted total and actual boundary weighted mass. Applying weight=1+nu gives the exact form required by Prediction; this does not assert the remaining weighted boundary bound.",
+    "The periodic count bound is an actual complete-cell counting theorem for discarded roots and arbitrary finite allowed residues. It is not the full harmonic or divisor-averaged estimate. Uniform divisor-period growth, harmonic variation and partial cutoff cells remain necessary.",
+    "Root recipes apply here to each fixed nilmanifold. Concrete rational nilpotent/lower-central filtration and compact restricted-lattice quotient instantiation remain pending; the existing algebraic/topological hypotheses are not silently promoted to completed Lie theory.",
+    "Full build completed 4439 jobs without warnings/errors. The exact-name kernel audit covers 2823 unique names including all 35 new theorems, with only standard axioms or none. Executable source scan covers 572 own and 9 attributed PNT+ modules; all own modules occur exactly once in root imports.",
+    "Both consecutive goal proof rounds are PROGRESS. No full Prediction nilsequence-testing theorem, StrongConjecture, prize eligibility, public submission or unavoidable blocker is asserted."
+  ],
+  "source_preprint_sections": {
+    "05_prediction.tex": "275-323: indexed uniform recipes, actual piece/residue selectors and original zero-prime dual realization; 325-342: complete-cell periodic counting proved, full harmonic/divisor averaging and cutoff cells pending; 344-352: exact coefficient-weighted pairing decay and weighted error split proved, final accuracy/scale limit pending",
+    "07_cube_limits.tex": "117-168: retained actual compact missing-root and uniform root recipe theorem used to derive the indexed piecewise recipe family"
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4439,
+    "project_modules": 572,
+    "pntplus_modules": 9,
+    "source_scan_modules": 581,
+    "axiom_reports": 2823,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 590,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original-law detection, constructed dense block models, full dual estimates, model-error cube cancellation, nonsingleton count replacement, actual ordered cube coordinates, reflections, cube compactness from layer quotients and finite uniform root recipes remain proved. Actual interval/residue selectors now turn each finite recipe into bounded admissible inputs of the original zero-prime dual with master modulus M. Their finite coefficient-weighted sum is exactly the original shift expectation. Actual support geometry preserves the interval and residue at all interior roots, with integer margin H satisfying J*H <= d*R. Finite recipe families can be indexed and selected for arbitrarily many pieces of each fixed nilmanifold, uniformly for unrestricted translating elements and base points. The original selected-dual pairing tends to zero under the retained full uniform admissible-input control, even when pieces and orbits vary with the stage. Actual nilorbit root approximation after averaging and the original weighted good-root/boundary error split are proved. Complete-cell periodic end-strip counts and the actual interior-complement count satisfy the proved relative strip term with original period q retained in the count discrepancy. Next prove the full harmonic/divisor-weighted boundary estimate uniformly in divisor draws, including harmonic variation within cells and the two partial cutoff cells; the full original O_s(1/J)+o(1) bound is not yet established. Instantiate the concrete nilpotent/lower-central group filtration, closed rational layers and compact restricted-lattice quotients for the paper's nilmanifolds. Quotient metric compatibility remains explicit. Recipe factors are continuous and bounded by one; this suffices for the unrestricted bounded original dual inputs used here, and Lipschitz refinement of the factors is not asserted. Complete the final accuracy/scale limit argument for Prediction nilsequence testing, nested coarse-model projections, calibration and Alignment; instantiate concrete natural-number coloring weights, arithmetic chain/block/gap data and all companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

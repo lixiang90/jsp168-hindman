@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FinitePositiveConditioningLimit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.031000000191852,
+    "log": "round-positive-short-exposure-FinitePositiveConditioningLimit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FinitePositiveConditioningLimit.lean",
+    "source_sha256": "fdff142f7c29c87d218b4cceb7125094ff7658cf3625e4717227e750cb9cf0b6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteExposureEventDisintegration.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.093999999808148,
+    "log": "round-positive-short-exposure-FiniteExposureEventDisintegration-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteExposureEventDisintegration.lean",
+    "source_sha256": "7b79d5285de68635277f37b2fbcd8a5ac2b5cb5b1304e9c9564eb833c43134bd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentShortExposureKey.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.688000000081956,
+    "log": "round-positive-short-exposure-AlignmentShortExposureKey-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentShortExposureKey.lean",
+    "source_sha256": "3d95c832e22e99437cd0a77d71b0fb7d9654aa6960c4c782f88e900fdc54bb74"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentConditionedExposureStability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.702999999979511,
+    "log": "round-positive-short-exposure-AlignmentConditionedExposureStability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentConditionedExposureStability.lean",
+    "source_sha256": "415c0751e97f5b4d179f7a6469708c88519c4ef47cced32e0fcb1db8d204813d"
+  }
+]

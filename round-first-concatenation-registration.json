@@ -1,0 +1,53 @@
+{
+  "baseline_hash_count": 1103,
+  "modules": [
+    "Hindman168/FirstOrderDualConcatenation.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedDualFunction_one",
+    "Hindman168.subgroupMixedDualHull_one_invariant",
+    "Hindman168.subgroupMixedDualHull_one_of_unit_invariant",
+    "Hindman168.mixedDualHilbert_first_projection",
+    "Hindman168.mixedDualHilbert_first_projection_representative",
+    "Hindman168.mixedDualHilbert_first_subgroup_antitone",
+    "Hindman168.mixedDualHilbert_first_concatenation",
+    "Hindman168.mixedDualHilbert_first_intersection_eq_sum"
+  ],
+  "theorem_count": 8,
+  "declarations": {
+    "Hindman168/FirstOrderDualConcatenation.lean": [
+      [
+        "theorem",
+        "subgroupMixedDualFunction_one"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_one_invariant"
+      ],
+      [
+        "theorem",
+        "subgroupMixedDualHull_one_of_unit_invariant"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_first_projection"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_first_projection_representative"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_first_subgroup_antitone"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_first_concatenation"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_first_intersection_eq_sum"
+      ]
+    ]
+  }
+}

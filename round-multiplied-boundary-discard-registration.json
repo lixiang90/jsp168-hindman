@@ -1,0 +1,111 @@
+{
+  "modules": [
+    "Hindman168/MultipliedBoundaryResidues.lean",
+    "Hindman168/MultipliedBoundaryProbability.lean",
+    "Hindman168/AveragedMultipliedBoundary.lean",
+    "Hindman168/AlignedSqrtBoundaryRates.lean",
+    "Hindman168/MasterMultipliedBoundaryLimit.lean",
+    "Hindman168/AlignmentArrayIntervalStability.lean"
+  ],
+  "names": [
+    "Hindman168.multipliedBoundaryResidues",
+    "Hindman168.multipliedBoundaryResidues_subset",
+    "Hindman168.multipliedBoundaryResidues_mem_mod",
+    "Hindman168.multipliedBoundaryResidues_card_le_joint",
+    "Hindman168.multipliedBoundaryResidues_card_bound",
+    "Hindman168.multipliedBoundaryResidues_card_total",
+    "Hindman168.rawMass_multipliedBoundary_formula",
+    "Hindman168.rawMass_multipliedBoundary_bound",
+    "Hindman168.rawMass_multipliedBoundary_uniform_bound",
+    "Hindman168.joint_multipliedBoundary_bound",
+    "Hindman168.joint_multipliedBoundary_tendsto",
+    "Hindman168.nat_sqrt_margin_ratio_sq_le",
+    "Hindman168.nat_sqrt_margin_ratio_tendsto",
+    "Hindman168.master_alignedSqrt_product_margin_tendsto",
+    "Hindman168.master_multipliedBoundary_alignedSqrt_tendsto",
+    "Hindman168.alignmentIntegerArrayArgument_difference",
+    "Hindman168.alignmentIntegerArrayArgument_interval_stable"
+  ],
+  "declarations": {
+    "Hindman168/MultipliedBoundaryResidues.lean": [
+      [
+        "def",
+        "multipliedBoundaryResidues"
+      ],
+      [
+        "theorem",
+        "multipliedBoundaryResidues_subset"
+      ],
+      [
+        "theorem",
+        "multipliedBoundaryResidues_mem_mod"
+      ],
+      [
+        "theorem",
+        "multipliedBoundaryResidues_card_le_joint"
+      ],
+      [
+        "theorem",
+        "multipliedBoundaryResidues_card_bound"
+      ],
+      [
+        "theorem",
+        "multipliedBoundaryResidues_card_total"
+      ]
+    ],
+    "Hindman168/MultipliedBoundaryProbability.lean": [
+      [
+        "theorem",
+        "rawMass_multipliedBoundary_formula"
+      ],
+      [
+        "theorem",
+        "rawMass_multipliedBoundary_bound"
+      ]
+    ],
+    "Hindman168/AveragedMultipliedBoundary.lean": [
+      [
+        "theorem",
+        "rawMass_multipliedBoundary_uniform_bound"
+      ],
+      [
+        "theorem",
+        "joint_multipliedBoundary_bound"
+      ],
+      [
+        "theorem",
+        "joint_multipliedBoundary_tendsto"
+      ]
+    ],
+    "Hindman168/AlignedSqrtBoundaryRates.lean": [
+      [
+        "theorem",
+        "nat_sqrt_margin_ratio_sq_le"
+      ],
+      [
+        "theorem",
+        "nat_sqrt_margin_ratio_tendsto"
+      ],
+      [
+        "theorem",
+        "master_alignedSqrt_product_margin_tendsto"
+      ]
+    ],
+    "Hindman168/MasterMultipliedBoundaryLimit.lean": [
+      [
+        "theorem",
+        "master_multipliedBoundary_alignedSqrt_tendsto"
+      ]
+    ],
+    "Hindman168/AlignmentArrayIntervalStability.lean": [
+      [
+        "theorem",
+        "alignmentIntegerArrayArgument_difference"
+      ],
+      [
+        "theorem",
+        "alignmentIntegerArrayArgument_interval_stable"
+      ]
+    ]
+  }
+}

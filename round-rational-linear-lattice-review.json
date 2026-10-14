@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 612,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/RationalLinearDenominators.lean",
+    "Hindman168/RationalLinearLattice.lean",
+    "Hindman168/RationalLinearQuotient.lean",
+    "Hindman168/RationalLinearOperations.lean",
+    "Hindman168/RationalLieLowerCentral.lean"
+  ],
+  "new_selected_report_count": 23,
+  "module_report_counts": {
+    "RationalLinearDenominators": 1,
+    "RationalLinearLattice": 5,
+    "RationalLinearQuotient": 8,
+    "RationalLinearOperations": 4,
+    "RationalLieLowerCentral": 5
+  },
+  "application_review": [
+    "All 612 baseline source/config hashes were independently checked before edits; the previously completed natural-quotient round now also has a saved fresh final recheck. Only root imports and the exact-name verification registry changed among retained files. StrongStatement, all retained proofs, runtime/dependency pins and attributed PNT+ sources are byte-identical.",
+    "RationalLinearSubspace is defined by real spanning of vectors of the layer belonging to the rational span of the specified integer submodule. Neither compactness nor layer cocompactness is part of this definition.",
+    "Every vector in the rational span has an explicitly proved nonzero integer multiple in the original submodule. The span induction handles rational scalars using their actual nonzero denominators; addition uses the product of the two nonzero integer multipliers. No finite-generation or topology hypothesis is needed.",
+    "Clearing denominators preserves membership in the original real layer. Inverting the nonzero real integer scalar proves that the original integer intersection spans the layer. The converse is proved, and an actual image/preimage argument proves spanning inside the layer subtype rather than merely in the ambient space.",
+    "The actual restricted lattice is the comap of the original integer submodule along the layer inclusion. Its discreteness follows from the continuous injective inclusion. Full IsZLattice follows from the newly proved spanning conclusion, not from an assumed compact quotient.",
+    "A full discrete integer lattice has compact natural additive quotient by applying the retained integer-lattice compact periodic-range theorem to its actual quotient projection. Rational layer quotient compactness is thus a proved conclusion. Finite-dimensional real layer closedness follows separately from completeness of the real field.",
+    "The inclusion-induced quotient map is constructed as an actual quotient lift, with its representative formula, natural-topology continuity and injectivity proved. Compactness of the domain plus Hausdorffness of the ambient quotient, derived from discreteness of the original integer subgroup, proves a closed embedding. The actual projected layer image is also proved compact directly. Ambient lattice quotient compactness is unnecessary for this embedded layer conclusion.",
+    "Real spans of rational generators are rational. Real bilinear maps preserving the rational structure preserve rational layers, by expansion into actual rational generators and the exact bilinear image span formula. Real linear images preserve rationality relative to the image integer submodule using the proved integer-intersection characterization.",
+    "The actual Lie-ideal bracket is identified with the genuine bilinear image of the adjoint representation. Induction on the actual LieModule.lowerCentralSeries proves every layer rational under the ambient spanning and bracket-closed rational structure inputs. Integer intersections therefore span every actual Lie-algebra lower-central layer.",
+    "The Lie-ring and normed-space data originally produced incompatible duplicated additive and scalar structures. The repaired proof proves its algebraic assertions with the actual LieRing/LieAlgebra data, and handles topology through an explicitly supplied genuine real linear coordinate equivalence into one normed real space. No linter is disabled. The adjoint endomorphism Lie-ring instance is the retained associative commutator construction, local to the exact endomorphism type.",
+    "For a supplied real linear coordinate equivalence whose image integer module is discrete, the actual image of each Lie-algebra lower-central layer has compact additive quotient and a closed embedding into the ambient additive lattice quotient. No topology on the original group, exponential diffeomorphism, group nilpotency-class comparison, or equality of its group lattice with an additive logarithmic lattice is asserted.",
+    "The fixed paper Section 07 lines 13-22 supplies the rational nilmanifold facts used later. This round proves the substantive additive rational-layer and Lie-algebra lower-central pieces of that route. The noncommutative exponential/BCH/Malcev comparison and actual group-layer lattice cocompactness remain unproved; none is replaced by an abstract compactness axiom.",
+    "Full default build completed 4495 jobs with exit zero and no warnings/errors. All 2941 unique exact-name reports were returned by the Lean kernel, including all 23 new theorems, with only Classical.choice, Quot.sound and propext or no axioms. The executable scan covers all 599 own modules, 9 attributed PNT+ modules, root and registry. No new option override is used; root imports each own module exactly once.",
+    "Local paper sections 04, 05 and 07 still match exact pinned local Git objects after newline normalization. No remote updates were checked. The previous completed proof goal round and this round are PROGRESS. StrongConjecture, complete nilmanifold instantiation, prize eligibility, public submission and an unavoidable blocker are not asserted."
+  ],
+  "source_preprint_sections": {
+    "07_cube_limits.tex": "13-22: rational layer/lattice facts; substantive additive and Lie-algebra pieces proved, noncommutative exponential and group lattice comparison still pending; 23-32: actual lower-central Lie layers proved rational for bracket-closed rational structures"
+  },
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4495,
+    "project_modules": 599,
+    "pntplus_modules": 9,
+    "source_scan_modules": 608,
+    "axiom_reports": 2941,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant",
+      "Hindman168.maskDescendant_encoding_injective"
+    ],
+    "source_config_hash_count": 617,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original-law detection, actual constructed dense block models, full uniform dual estimates, model-error cube cancellation, nonsingleton count replacement, ordered cube coordinates, reflections, compactness from layer quotients, finite uniform root recipes and original interval/residue selectors remain proved. Original harmonic/divisor-weighted boundary deletion, actual positive shift windows and the weighted total bound remain proved. The same finite counting models retain every original replacement, cube, companion slow-stage and dual-prefix property. The actual lower central series has its strong commutator law, normal layers, shifted filtration G_0=G_1=G and terminal degree from the algebraic nilpotency-class bound. Its closed expansion is an actual closed normal filtration and agrees with the original series when the original layers are closed; no unconditional equality is asserted. Natural compact coset spaces of closed subgroups in second-countable topological groups now have a constructed compatible metric, proved to induce exactly the natural quotient topology with a continuous quotient map and unchanged compactness. A discrete lattice is proved closed in a Hausdorff topological group; it need not be normal. Original-law testing is now proved directly in the natural compact quotient topology for every fixed compact continuous observable family, with unrestricted stage/piece orbit data and uniformity over all bounded admissible tests. Compatible supplied metrics retain their original numerical distances and Lipschitz constants when their bounded Lipschitz families are placed in compact hulls; bounded topologically equicontinuous families also admit compact hulls. No transfer of a Lipschitz constant to an arbitrary new compatible metric is claimed. Canonical natural-quotient lower-central and mask-model testing now needs no separately assumed quotient metric or continuous projection, but still requires compact restricted-lattice quotients for the finitely many layers i<=s. Clearing rational denominators now proves that the original integer intersections span every rational real linear layer relative to a specified integer submodule. For finite-dimensional normed realizations, discreteness then derives full restricted integer lattices, compact natural additive quotients and closed embedded compact layer orbits. Rationality is preserved by real linear images and rational-structure-preserving bilinear operations. The actual Lie-algebra lower central series is proved rational when its specified rational structure spans the ambient space and is closed under the actual Lie bracket; its realized coordinate additive layer quotients are proved compact for a discrete coordinate integer lattice. These are additive Lie-algebra results and do not establish noncommutative group-lattice cocompactness. Next build the concrete nilpotent exponential/BCH or Malcev-coordinate comparison that proves closedness of the required group lower-central layers and cocompactness of their actual lattice intersections. Logarithms of an arbitrary group lattice are not declared to form an additive lattice, and equality between group and Lie lower-central layers is not assumed. The concrete Lie/nilmanifold data must supply the algebraic Group.IsNilpotent class bound, weak local compactness, discrete lattice and ambient compact quotient used by these instantiated theorems; second countability is needed for the separately constructed compatible metric. Identifying any prescribed Riemannian metric with the natural topology is not asserted without its compatibility evidence. Rational layer cocompactness does not follow merely from ambient quotient compactness or taking layer closures. Recipe factors remain continuous and bounded by one, sufficient for the unrestricted original dual inputs; no Lipschitz refinement of those factors is asserted. Complete nested coarse-model projections, calibration and Alignment; instantiate natural-number coloring weights, arithmetic chain/block/gap data and companion diagonal sequences, and extract ordered positive rapidly separated monochromatic witnesses. No arbitrary fast-growing scale/order rate is asserted. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

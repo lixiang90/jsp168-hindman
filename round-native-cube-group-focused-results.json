@@ -1,0 +1,146 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCubeSubgroup.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.42199999978766,
+    "log": "round-native-cube-group-NativeRationalCubeSubgroup-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCubeSubgroup.lean",
+    "source_sha256": "8a7813e0f4e4f3c8b0c36096726332b640d641ace8f3f41452ada48bdc01cba4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCubeLatticeGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.25,
+    "log": "round-native-cube-group-NativeRationalCubeLatticeGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCubeLatticeGeometry.lean",
+    "source_sha256": "f2cc55675d8ba0963c35dfbb1d8c769731c514ec27a0e2eedc46c89dde361ee3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCubeMetric.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 32.17200000002049,
+    "log": "round-native-cube-group-NativeRationalCubeMetric-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCubeMetric.lean",
+    "source_sha256": "1d980c3a58eb80635836af722920e5edaa1ae4ac415cac7d7997a1d9869bc6e3"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCubeData.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 32.04700000002049,
+    "log": "round-native-cube-group-NativeRationalCubeData-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCubeData.lean",
+    "source_sha256": "8c357f823672db44cb90733df059ca5bb1acb4f3edeaf567d758cac836f04b0e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeFiniteProductCoordinateHom.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.171000000089407,
+    "log": "round-native-cube-group-NativeFiniteProductCoordinateHom-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeFiniteProductCoordinateHom.lean",
+    "source_sha256": "1134c65507b3fc1aa1c4ab7e1f4dbf26a4c51e9d7be51af315327698100c7490"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCubeFaceInclusion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 27.453999999910593,
+    "log": "round-native-cube-group-NativeRationalCubeFaceInclusion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCubeFaceInclusion.lean",
+    "source_sha256": "a79ef590208ddad9298681660408d52e9103c15fd45ca85a2d03d5c6aef4fa6d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UpperFaceLieVertexDetection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 22.375,
+    "log": "round-native-cube-group-UpperFaceLieVertexDetection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UpperFaceLieVertexDetection.lean",
+    "source_sha256": "2058dd6fa8ff7eeaae46c28746da441361ade674c9aca0e901c964d52951710f"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/UpperFaceGroupVertexElimination.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.094000000040978,
+    "log": "round-native-cube-group-UpperFaceGroupVertexElimination-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/UpperFaceGroupVertexElimination.lean",
+    "source_sha256": "b79275cb0e92b9cb22d62ee8ab3cef32a9c3b6c23ec5994182c489f1c4ea2172"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCubeGroupIdentification.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 26.375,
+    "log": "round-native-cube-group-NativeRationalCubeGroupIdentification-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCubeGroupIdentification.lean",
+    "source_sha256": "fc0cb922cb79366c6b8eaebbaaf3654f3aeaa4036ecfbb1a635e9210266620ab"
+  }
+]

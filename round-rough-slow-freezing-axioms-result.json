@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.70299999997951,
+  "log": "round-rough-slow-freezing-axioms.txt",
+  "log_sha256": "edaaa66b7b0fcc28aa2f8cf19230aae854c081c486d484126b74d0203e873120"
+}

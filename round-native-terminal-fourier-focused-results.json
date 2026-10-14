@@ -1,0 +1,274 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReductionProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.483999999938533,
+    "log": "round-native-terminal-fourier-NativeRelativeReductionProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReductionProjection.lean",
+    "source_sha256": "10843dd5107cc0e4c78a7821750db32bdb5d06e49b2bbf2c54dd456ca173f8d6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReductionExponentialLogarithm.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.625,
+    "log": "round-native-terminal-fourier-NativeRelativeReductionExponentialLogarithm-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReductionExponentialLogarithm.lean",
+    "source_sha256": "15a98761901bb55b5bc89abcfe7faf107649604bf7e20b79b7e2d3a9e5a77b9a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReductionPolynomial.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.516000000061467,
+    "log": "round-native-terminal-fourier-NativeRelativeReductionPolynomial-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReductionPolynomial.lean",
+    "source_sha256": "b74900ace80ff4c04f3852dab214b80ccf1ab8ae12fa83404cf5250f0cefb973"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReductionProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.0,
+    "log": "round-native-terminal-fourier-NativeRelativeReductionProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReductionProbability.lean",
+    "source_sha256": "ad5c638b014f4cd8b2b6ce5b100d546336e61bb81db88b5551aaa3503fd2e254"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRelativeReductionCanonicalProbability.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.436999999918044,
+    "log": "round-native-terminal-fourier-NativeRelativeReductionCanonicalProbability-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRelativeReductionCanonicalProbability.lean",
+    "source_sha256": "744c74c8b8da6f18e4244349d8eb467bc47c7f65dc39138bbc27ef0d11f6a0e8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceTorusProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.827999999979511,
+    "log": "round-native-terminal-fourier-NativeCentralSubspaceTorusProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceTorusProjection.lean",
+    "source_sha256": "e9b5deaf997ba4a023aec5cdb0c446005330b7ca9a1920fdce0a14dc8174649c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CentralSubgroupCosetAction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.641000000061467,
+    "log": "round-native-terminal-fourier-CentralSubgroupCosetAction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CentralSubgroupCosetAction.lean",
+    "source_sha256": "aa18458605d9539f5121ebe4d739db7c4d00a9e8cd520226b69595d740e47a0e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeCentralSubspaceTorusEquivalence.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.405999999959022,
+    "log": "round-native-terminal-fourier-NativeCentralSubspaceTorusEquivalence-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeCentralSubspaceTorusEquivalence.lean",
+    "source_sha256": "09c78c8dc2ecf5b2f5f5f6cd96b693b5e3f48da167516ee5938d71bdf2c185cd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTerminalModel.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.672000000020489,
+    "log": "round-native-terminal-fourier-NativeOriginalTerminalModel-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTerminalModel.lean",
+    "source_sha256": "42a79efda0ddf082371473fc3c5ba978da0f0a9994ba8698dbc5967eaebb1ae6"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeNilmanifoldSubspaceAction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.719000000040978,
+    "log": "round-native-terminal-fourier-NativeNilmanifoldSubspaceAction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeNilmanifoldSubspaceAction.lean",
+    "source_sha256": "602dbbfcab7bcbcc2f5e4428632eea628ab78ace196376da1e302c17a359b178"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTerminalAction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 15.983999999938533,
+    "log": "round-native-terminal-fourier-NativeOriginalTerminalAction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTerminalAction.lean",
+    "source_sha256": "69eba0110aaede44b62f1ddd823858b3b0d09e6248c3d8a73595153bf3ed8fc8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTerminalOrbitObservables.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.438000000081956,
+    "log": "round-native-terminal-fourier-NativeOriginalTerminalOrbitObservables-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTerminalOrbitObservables.lean",
+    "source_sha256": "d777f008fa73bd61559a58aa619636d54b6c9f517eb5c95cff3496da2b66fbab"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTerminalFourierProjection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.421000000089407,
+    "log": "round-native-terminal-fourier-NativeOriginalTerminalFourierProjection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTerminalFourierProjection.lean",
+    "source_sha256": "58d25090716a232605e1e75bad85fff3641e92bee20a072abfe60d0f2d8d7fb7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTerminalFourierReconstruction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.953999999910593,
+    "log": "round-native-terminal-fourier-NativeOriginalTerminalFourierReconstruction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTerminalFourierReconstruction.lean",
+    "source_sha256": "e42f39a13518a1217cb221d7f4bc3169b4b0b6847a9a09ef45f63046dbb71799"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTerminalDiscrepancy.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.20299999997951,
+    "log": "round-native-terminal-fourier-NativeOriginalTerminalDiscrepancy-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTerminalDiscrepancy.lean",
+    "source_sha256": "219437fbf4c8db01eb2701e3fc382b3389de6c43743f28a7633bfe530a85ee4e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTerminalFourierSelection.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.030999999959022,
+    "log": "round-native-terminal-fourier-NativeOriginalTerminalFourierSelection-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTerminalFourierSelection.lean",
+    "source_sha256": "1d31c4593a7e5832c18af339dc331a174a12458e0ea975ac932fb46cd698ab7d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalTerminalFourierGroupAction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.0,
+    "log": "round-native-terminal-fourier-NativeOriginalTerminalFourierGroupAction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalTerminalFourierGroupAction.lean",
+    "source_sha256": "bfc45545c59f09515c188a528f747e2345b459efd89cf0917922cb8b351f0020"
+  }
+]

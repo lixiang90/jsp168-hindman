@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2852,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6879,
+    "selected_axiom_reports": 11113,
+    "new_declarations": 22,
+    "new_theorems": 20,
+    "new_definitions": 2,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeSubgroupHorizontalLevelBridge.lean",
+    "Hindman168/NativeRationalLayerLogPolynomial.lean",
+    "Hindman168/NativeRationalLayerPolynomialInverse.lean",
+    "Hindman168/NativeSubgroupHorizontalTaylor.lean",
+    "Hindman168/NativeSubgroupTaylorTopCoefficient.lean",
+    "Hindman168/NativeSubgroupHorizontalEscape.lean",
+    "Hindman168/NativeRationalLayerPointHaar.lean"
+  ],
+  "proved_components": [
+    "The ACTUAL initial rational subgroup horizontal character extends to the ambient model by the existing retraction. Original native differential bracket naturality and actual subgroup logarithm/lattice identities prove internal bracket annihilation, original rationality and a greatest nonzero level character. No horizontal or rational-character production assumption is added.",
+    "Zero vector terms are removed using the proved exact zero-trim identity. The resulting actual restricted native log polynomial has ordinary degree at most the ORIGINAL filtration terminal index. Its COMPLETE scalar projection is exactly the original extended-character polynomial, so all monomial and binomial coefficients are retained.",
+    "The unconditional original native polynomial inverse is now applied to the ACTUAL subgroup/conjugated lattice. One finite character grid and bound precede ALL original adapted sources, positive lengths and unit Lipschitz observables. Genuine discrepancy produces an original rational level character and BOTH complete original coefficient bounds.",
+    "Internal horizontal scalarization commutes with the ACTUAL Taylor removal. A relative kernel ideal, not an ambient ideal assumption, proves log-product additivity. Lower removals preserve higher coefficients; terminal character kernels bound scalar degree; actual initial zeros identify the residual polynomial with its binomial factor.",
+    "The degree-j monomial coefficient is EXACTLY the original order-j Taylor character value divided by j factorial. All-rational-level irrationality applies to that same character scaled by the nonzero rational reciprocal factorial, proving escape of the actual coefficient. No denominator is silently dropped.",
+    "Finite intersections over the ACTUAL inverse character grid and original levels prove uniform q=0 point Haar convergence on the full unshifted integer interval for the ACTUAL irrational adapted source in the ACTUAL subgroup/conjugated-lattice quotient. This is a theorem from the exact irrationality output of the sequential factorization, not a newly supplied Haar assumption. Local boxes, progression restrictions, smooth-factor insertion and cubes are not inferred."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual sequential smooth/irrational/periodic factorization and original subgroup horizontal-to-level transport are proved. The actual top scalar coefficient equals the original Taylor character value divided by its factorial; all-rational irrationality gives uniform q=0 Haar convergence on full unshifted integer intervals in the actual subgroup/conjugated-lattice quotient. Remaining: fixed-modulus progressions and local point boxes at positive scale fractions, smooth-factor Haar image transport; actual SAME-filtration cube subgroup geometry and face-character coefficient isolation, simultaneous local cube-Haar laws through ORIGINAL s+1, sequence limit BEFORE locality alpha->0, projected Haar face invariance/full-support coset symmetry, joint face lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse at sufficient native step; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No Haar/source/character/period/inverse/bound oracle introduced. Author build/hash/axiom/source checks are not independent kernel replay or external peer review. No explicit delta-power law or other-marginal invariance is claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-point-haar-mathematical-review.txt",
+  "mathematical_review_sha256": "2f57c1b7f409502a88988cd95adfdf72a68c585583bc49fc97baf216277b5c71",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

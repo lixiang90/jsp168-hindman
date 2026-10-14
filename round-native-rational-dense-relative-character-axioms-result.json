@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.484000000171363,
+  "log": "round-native-rational-dense-relative-character-axioms.txt",
+  "log_sha256": "770340b36385fdefcb0af2f34cf5e41ea83cafb358460cddee8dcdfe854d586f"
+}

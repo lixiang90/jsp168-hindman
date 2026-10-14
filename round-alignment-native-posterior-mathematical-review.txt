@@ -1,0 +1,74 @@
+JSP-000168 / Erdos #172, 2026-10-14. Partial overall coverage.
+Author checking, not independent kernel replay or external peer review.
+
+Reviewed pinned 08_alignment.tex original conditional domination, joint
+polynomiality and tail-step removal paragraphs, and the unchanged full
+StrongWitness/StrongConjecture. A genuine issue in assembling Fubini was
+identified and resolved: independent supported rest tuples need not obey
+the full posterior exposure key. No such extra hypothesis is inserted.
+The exact product coefficients imply each rest coordinate is in its actual
+dyadic/residue window. Anchor insertion changes exactly one factor; all
+retained products and CRT vectors are therefore fixed before it varies.
+Window membership fixes dyadic logarithms and the original lower product,
+so the actual CubeScale is unchanged without any full-key assumption.
+Positive original window values give genuine retained denominator positivity.
+
+The actual original native model-log polynomial is a scalar projection of
+native orbit log polynomials composed with the original exponents. Its
+evaluation depends only on those exponent evaluations for ALL real inputs.
+Original exposed base/increment polynomials read only tail T. This passes
+through original basis assembly and literal finite native product. The
+one-factor source therefore reads only T minus the removed coordinate.
+Source equality is proved through genuine native exponential/log inversion,
+not by replacing it with a coefficient polynomial or by asserting integer
+nilsequence equality at arbitrary real points. Existing native structures
+are bound locally; no new instance declaration or compiler option is used.
+
+The retained CRT vector has its original base origin congruence and zero
+increment congruences, with each chosen original denominator residue. Its
+bounds and classes are proved from genuine CRT. Original rest windows inherit
+rough units from supported anchors, deriving coprimality of retained product
+with master M and fixed d at large w. NO coprimality between retained product
+and removed factor is introduced. Fine/coarse vectors are nested by the
+literal origin/increment congruences and divisibility, even with shared primes.
+
+The actual joint removal event uses exactly that source, retained q, CRT
+vector and actual normalized scale. The proved source degree/log packet and
+compact original observation family are inherited from the certified earlier
+construction. Supported fiber scale range is discharged by window arithmetic,
+not supplied as a desired analytic estimate. The one original all-anchor
+cutoff precedes every retained subset, supported rest tuple, source parameter,
+box, compatible fine residue and original test. Bad-event monotonicity under
+the SAME original factor law uses actual source/coarse-class invariance.
+
+Actual independent product Fubini then integrates the supported fiber caps.
+Only AFTER this does the original 3*2^T.card short-exposure domination act.
+The conditioned factors are never declared independent. Finite removal
+unions have exact original factor-count cost. Any fixed finite residue-choice
+list adds its finite cardinal cost before the cutoff; its actual data may
+be selected after exposure. Positive epsilon with a +1 denominator retains
+a strict margin, including empty tail/choice-index cases, without fabricated
+factor/choice existence. All actual posterior parameters remain original.
+
+Anchor-filled sources match original joint array and original simultaneous
+complex observations at ALL permitted integer cube samples, with actual
+sampled tuple values outside T unconstrained except original support/key
+conditions required for the original source sample theorem. This is exact
+sample equality, not an off-sample orbit assertion. The remaining actual
+cube-box/ceil/mean normalization and full removal-chain telescope are still
+explicit work; the new posterior vanishing union is not yet full face invariance
+or completed Alignment. No target quantifier or FS/FP requirement is weakened.
+
+The separate arbitrary-input GTZ interval Gowers LINEAR correlation inverse
+remains unproved. Native equidistribution, tail-source constructions and
+posterior rough caps do not discharge it. Choose adequate native step for
+the actual finite required Gowers degree list, without claiming a universal
+inverse for incompatible arbitrary step/degree choices. No unavailability
+of a library result or Lean API is an unavoidable obstruction certificate.
+
+No prior registered proof source, axiom set, dependency pin or compiler option
+changes are permitted. No custom axiom/sorry/native/unsafe/instance/limit
+bypass is used. Author-side transitive axiom reports are not independent
+kernel replay or external peer review.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual joint original-test removed-factor events now have PROVED uniform supported rest-fiber caps and actual posterior finite-direction/residue-choice vanishing unions. Literal retained CRT vectors and fixed normalized scale ranges are instantiated; sources ignore outside-tail values and retain exact original joint cube samples/readings. Remaining: match actual full permitted original cube boxes/ceil geometry and normalized q/q*t means to these events, derive per-removal good-event discrepancies and telescope the complete factor-removal chain, then full face invariance/cube limits/Alignment/countable diagonal synthesis; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for the actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

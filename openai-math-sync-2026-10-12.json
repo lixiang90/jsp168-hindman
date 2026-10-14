@@ -1,0 +1,10 @@
+{
+  "checked_date": "2026-10-12",
+  "repository": "https://github.com/openai/math",
+  "method": "Authenticated GitHub connector fetch_commit with commit_sha=main",
+  "remote_main": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "local_head": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "same_as_previous_remote_check": true,
+  "paper_reference_pin": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "conclusion": "The remote main commit is the same as the previous October 8 source inspection. Six target proof sections are separately hash-compared to the pinned local Git objects by the round audits. This remote metadata check does not compile the upstream Lean release or independently verify its mathematical claims."
+}

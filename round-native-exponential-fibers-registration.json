@@ -1,0 +1,66 @@
+{
+  "baseline_hashes_verified_before_registration": 753,
+  "new_modules": [
+    "Hindman168/VectorPolynomialNatUniqueness.lean",
+    "Hindman168/NilpotentBanachExponentialInjective.lean",
+    "Hindman168/NativeLieExponentialFiberGenerators.lean",
+    "Hindman168/NativeLieExponentialCommutingAdd.lean",
+    "Hindman168/NativeLieExponentialPeriods.lean",
+    "Hindman168/NativeLieExponentialRangeCovering.lean"
+  ],
+  "names": [
+    "Hindman168.vectorPolynomial_coeff_eq_of_nat_values",
+    "Hindman168.nilpotent_real_exp_smul_eq_sum",
+    "Hindman168.nilpotent_banach_exp_injective",
+    "Hindman168.nativeLieAdjointGenerator_eq_of_exponential_eq",
+    "Hindman168.nativeLieAdjointGenerator_sub_eq_zero_of_exponential_eq",
+    "Hindman168.nativeLieBracket_eq_zero_of_exponential_eq",
+    "Hindman168.nativeLieBracket_sub_eq_zero_of_exponential_eq",
+    "Hindman168.nativeLieAdjointCurve_apply_eq_of_generator_apply_eq_zero",
+    "Hindman168.nativeLieCurves_commute_of_generator_apply_eq_zero",
+    "Hindman168.nativeLieOneParameterCurve_add_of_generator_apply_eq_zero",
+    "Hindman168.nativeLieExponential_add_of_generator_apply_eq_zero",
+    "Hindman168.nativeLieExponential_add_of_bracket_eq_zero",
+    "Hindman168.nativeLieExponential_period_add",
+    "Hindman168.nativeLieExponentialPeriods",
+    "Hindman168.mem_nativeLieExponentialPeriods",
+    "Hindman168.nativeLieExponential_eq_iff_sub_mem_periods",
+    "Hindman168.nativeLieExponential_fiber_eq_period_translate",
+    "Hindman168.nativeLieExponentialPeriods_closed",
+    "Hindman168.nativeLieExponentialPeriods_discrete",
+    "Hindman168.nativeLieExponential_period_translates_disjoint_nhds",
+    "Hindman168.nativeLieExponentialToRange",
+    "Hindman168.nativeLieExponentialToRange_surjective",
+    "Hindman168.nativeLieExponentialToRange_continuous",
+    "Hindman168.nativeLieExponentialToRange_isOpenMap",
+    "Hindman168.nativeLieExponentialToRange_isQuotientMap",
+    "Hindman168.nativeLieExponentialToRange_isAddQuotientCoveringMap",
+    "Hindman168.nativeLieExponentialToRange_isCoveringMap"
+  ],
+  "module_report_counts": {
+    "VectorPolynomialNatUniqueness": {
+      "theorems": 1,
+      "selected_declarations": 1
+    },
+    "NilpotentBanachExponentialInjective": {
+      "theorems": 2,
+      "selected_declarations": 2
+    },
+    "NativeLieExponentialFiberGenerators": {
+      "theorems": 4,
+      "selected_declarations": 4
+    },
+    "NativeLieExponentialCommutingAdd": {
+      "theorems": 5,
+      "selected_declarations": 5
+    },
+    "NativeLieExponentialPeriods": {
+      "theorems": 7,
+      "selected_declarations": 8
+    },
+    "NativeLieExponentialRangeCovering": {
+      "theorems": 6,
+      "selected_declarations": 7
+    }
+  }
+}

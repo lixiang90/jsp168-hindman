@@ -1,0 +1,90 @@
+{
+  "modules": [
+    "Hindman168/ResidualRealBoxGeometry.lean",
+    "Hindman168/NativeRealResidualLargeEvent.lean",
+    "Hindman168/NativeRealResidualRoughProportion.lean",
+    "Hindman168/NativeRealOriginalRoughProportion.lean"
+  ],
+  "names": [
+    "Hindman168.rough_residue_real_ceil_endpoint",
+    "Hindman168.rough_residual_real_box_integer_geometry",
+    "Hindman168.rough_residual_real_box_samples_nonempty",
+    "Hindman168.RoughNativeRealResidualComplexLargeIndex",
+    "Hindman168.rough_native_real_residual_event_integer",
+    "Hindman168.rough_real_residual_sampling_thresholds",
+    "Hindman168.NativeRealResidualRoughProportionBound",
+    "Hindman168.native_residual_to_real_residual_bound",
+    "Hindman168.native_finite_real_residual_rough_proportion_uniform",
+    "Hindman168.native_finite_real_residual_rough_fraction_tendsto",
+    "Hindman168.RoughNativeRealComplexLargeIndex",
+    "Hindman168.rough_real_box_unit_class",
+    "Hindman168.rough_native_residual_identity_source",
+    "Hindman168.native_finite_real_original_rough_fraction_tendsto"
+  ],
+  "declarations": {
+    "Hindman168/ResidualRealBoxGeometry.lean": [
+      [
+        "theorem",
+        "rough_residue_real_ceil_endpoint"
+      ],
+      [
+        "theorem",
+        "rough_residual_real_box_integer_geometry"
+      ],
+      [
+        "theorem",
+        "rough_residual_real_box_samples_nonempty"
+      ]
+    ],
+    "Hindman168/NativeRealResidualLargeEvent.lean": [
+      [
+        "def",
+        "RoughNativeRealResidualComplexLargeIndex"
+      ],
+      [
+        "theorem",
+        "rough_native_real_residual_event_integer"
+      ],
+      [
+        "theorem",
+        "rough_real_residual_sampling_thresholds"
+      ]
+    ],
+    "Hindman168/NativeRealResidualRoughProportion.lean": [
+      [
+        "def",
+        "NativeRealResidualRoughProportionBound"
+      ],
+      [
+        "theorem",
+        "native_residual_to_real_residual_bound"
+      ],
+      [
+        "theorem",
+        "native_finite_real_residual_rough_proportion_uniform"
+      ],
+      [
+        "theorem",
+        "native_finite_real_residual_rough_fraction_tendsto"
+      ]
+    ],
+    "Hindman168/NativeRealOriginalRoughProportion.lean": [
+      [
+        "def",
+        "RoughNativeRealComplexLargeIndex"
+      ],
+      [
+        "theorem",
+        "rough_real_box_unit_class"
+      ],
+      [
+        "theorem",
+        "rough_native_residual_identity_source"
+      ],
+      [
+        "theorem",
+        "native_finite_real_original_rough_fraction_tendsto"
+      ]
+    ]
+  }
+}

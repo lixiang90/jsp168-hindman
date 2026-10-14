@@ -1,0 +1,48 @@
+{
+  "baseline_hash_count": 1201,
+  "modules": [
+    "Hindman168/MasterFixedQuotientInverseShortCube.lean",
+    "Hindman168/FiniteOrderModelShortCubeThreshold.lean",
+    "Hindman168/FiniteOrderNativeShortCubeModels.lean",
+    "Hindman168/FiniteOrderNativeChainPrediction.lean"
+  ],
+  "names": [
+    "Hindman168.master_shortCube_fixed_quotient_global_threshold",
+    "Hindman168.master_inverse_shortCube_fixed_quotient_threshold",
+    "Hindman168.finite_order_model_shortCube_threshold",
+    "Hindman168.finite_order_native_shortCube_models",
+    "Hindman168.finite_order_native_chain_prediction"
+  ],
+  "theorem_count": 5,
+  "selected_report_count": 5,
+  "declarations": {
+    "Hindman168/MasterFixedQuotientInverseShortCube.lean": [
+      [
+        "theorem",
+        "master_shortCube_fixed_quotient_global_threshold"
+      ],
+      [
+        "theorem",
+        "master_inverse_shortCube_fixed_quotient_threshold"
+      ]
+    ],
+    "Hindman168/FiniteOrderModelShortCubeThreshold.lean": [
+      [
+        "theorem",
+        "finite_order_model_shortCube_threshold"
+      ]
+    ],
+    "Hindman168/FiniteOrderNativeShortCubeModels.lean": [
+      [
+        "theorem",
+        "finite_order_native_shortCube_models"
+      ]
+    ],
+    "Hindman168/FiniteOrderNativeChainPrediction.lean": [
+      [
+        "theorem",
+        "finite_order_native_chain_prediction"
+      ]
+    ]
+  }
+}

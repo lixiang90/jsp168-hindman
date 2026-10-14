@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.54700000002049,
+  "log": "round-native-rational-zero-character-induction-build.txt",
+  "log_sha256": "c1ac45d65c6c20fea9cc7d52ac69736a9578f793288d8c40289e9c461a8738fc"
+}

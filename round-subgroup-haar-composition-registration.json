@@ -1,0 +1,43 @@
+{
+  "baseline_hash_count": 1067,
+  "modules": [
+    "Hindman168/SubgroupHaarComposition.lean"
+  ],
+  "names": [
+    "Hindman168.finiteHaarMean_surjective_addHom",
+    "Hindman168.subgroupHaarMean_sup",
+    "Hindman168.subgroupHaarMean_commute",
+    "Hindman168.subgroupHaarMean_idempotent",
+    "Hindman168.subgroupHaarMean_self_adjoint",
+    "Hindman168.subgroupHaarMean_pair_energy"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/SubgroupHaarComposition.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_surjective_addHom"
+      ],
+      [
+        "theorem",
+        "subgroupHaarMean_sup"
+      ],
+      [
+        "theorem",
+        "subgroupHaarMean_commute"
+      ],
+      [
+        "theorem",
+        "subgroupHaarMean_idempotent"
+      ],
+      [
+        "theorem",
+        "subgroupHaarMean_self_adjoint"
+      ],
+      [
+        "theorem",
+        "subgroupHaarMean_pair_energy"
+      ]
+    ]
+  }
+}

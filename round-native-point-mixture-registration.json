@@ -1,0 +1,118 @@
+{
+  "modules": [
+    "Hindman168/CompactGaugeUniformMesh.lean",
+    "Hindman168/CompactGaugeFiniteOscillation.lean",
+    "Hindman168/RealMeshResiduePartition.lean",
+    "Hindman168/ComplexTaggedMeshIntegral.lean",
+    "Hindman168/FiniteComplexCellMassError.lean",
+    "Hindman168/RealMeshComplexAverage.lean",
+    "Hindman168/NativeOriginalTaggedPointMesh.lean",
+    "Hindman168/NativeOriginalScaledPointMixture.lean",
+    "Hindman168/ComplexFloorWindowTransfer.lean",
+    "Hindman168/NativeOriginalPointMixture.lean"
+  ],
+  "names": [
+    "Hindman168.compact_gauge_uniform_mesh",
+    "Hindman168.compact_gauge_finite_oscillation",
+    "Hindman168.integer_window_residue_sum",
+    "Hindman168.integer_ordered_cut_sum",
+    "Hindman168.realMeshResidueCell",
+    "Hindman168.real_mesh_residue_sum",
+    "Hindman168.complex_tagged_mesh_integral_error",
+    "Hindman168.finite_complex_cell_mass_error",
+    "Hindman168.real_mesh_residue_mass",
+    "Hindman168.real_mesh_complex_average_error",
+    "Hindman168.native_original_tagged_point_mesh",
+    "Hindman168.native_original_scaled_point_mixture",
+    "Hindman168.complex_floor_window_transfer",
+    "Hindman168.complex_floor_window_limit",
+    "Hindman168.native_original_point_mixture",
+    "Hindman168.native_sequential_original_point_mixture"
+  ],
+  "declarations": {
+    "Hindman168/CompactGaugeUniformMesh.lean": [
+      [
+        "theorem",
+        "compact_gauge_uniform_mesh"
+      ]
+    ],
+    "Hindman168/CompactGaugeFiniteOscillation.lean": [
+      [
+        "theorem",
+        "compact_gauge_finite_oscillation"
+      ]
+    ],
+    "Hindman168/RealMeshResiduePartition.lean": [
+      [
+        "theorem",
+        "integer_window_residue_sum"
+      ],
+      [
+        "theorem",
+        "integer_ordered_cut_sum"
+      ],
+      [
+        "def",
+        "realMeshResidueCell"
+      ],
+      [
+        "theorem",
+        "real_mesh_residue_sum"
+      ]
+    ],
+    "Hindman168/ComplexTaggedMeshIntegral.lean": [
+      [
+        "theorem",
+        "complex_tagged_mesh_integral_error"
+      ]
+    ],
+    "Hindman168/FiniteComplexCellMassError.lean": [
+      [
+        "theorem",
+        "finite_complex_cell_mass_error"
+      ]
+    ],
+    "Hindman168/RealMeshComplexAverage.lean": [
+      [
+        "theorem",
+        "real_mesh_residue_mass"
+      ],
+      [
+        "theorem",
+        "real_mesh_complex_average_error"
+      ]
+    ],
+    "Hindman168/NativeOriginalTaggedPointMesh.lean": [
+      [
+        "theorem",
+        "native_original_tagged_point_mesh"
+      ]
+    ],
+    "Hindman168/NativeOriginalScaledPointMixture.lean": [
+      [
+        "theorem",
+        "native_original_scaled_point_mixture"
+      ]
+    ],
+    "Hindman168/ComplexFloorWindowTransfer.lean": [
+      [
+        "theorem",
+        "complex_floor_window_transfer"
+      ],
+      [
+        "theorem",
+        "complex_floor_window_limit"
+      ]
+    ],
+    "Hindman168/NativeOriginalPointMixture.lean": [
+      [
+        "theorem",
+        "native_original_point_mixture"
+      ],
+      [
+        "theorem",
+        "native_sequential_original_point_mixture"
+      ]
+    ]
+  }
+}

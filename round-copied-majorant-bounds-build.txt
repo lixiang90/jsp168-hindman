@@ -1,0 +1,383 @@
+✔ [4042/4044] Built Hindman168.PredictionCopiedCancellation (7.8s)
+✖ [4043/4044] Building Hindman168.MasterCopiedReplicaCubeMajorant (7.6s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\MasterCopiedReplicaCubeMajorant.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterCopiedReplicaCubeMajorant.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\MasterCopiedReplicaCubeMajorant.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterCopiedReplicaCubeMajorant.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\MasterCopiedReplicaCubeMajorant.setup.json --json
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:184:10: don't know how to synthesize implicit argument `b`
+  @LE.le.trans_eq ℝ (event (masterPrimeSlotsMass F w (?m.191 w)) (?m.192 w))
+    (total (masterPrimeSlotsMass F w (?m.191 w))) 1 Real.instLE
+    (event_le_total (masterPrimeSlotsMass F w (?m.191 w)) (?m.192 w) (prime_slots_nonneg hF w (?m.191 w)))
+    (prime_slots_total hF w (?m.191 w))
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+w : ℕ
+⊢ ℝ
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:184:10: don't know how to synthesize implicit argument `a`
+  @LE.le.trans_eq ℝ (event (masterPrimeSlotsMass F w (?m.191 w)) (?m.192 w))
+    (total (masterPrimeSlotsMass F w (?m.191 w))) 1 Real.instLE
+    (event_le_total (masterPrimeSlotsMass F w (?m.191 w)) (?m.192 w) (prime_slots_nonneg hF w (?m.191 w)))
+    (prime_slots_total hF w (?m.191 w))
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+w : ℕ
+⊢ ℝ
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:184:69: don't know how to synthesize implicit argument `r`
+  @prime_slots_total n N (?m.190 w) A D F hF w (?m.191 w)
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+w : ℕ
+⊢ ℕ
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:184:92: don't know how to synthesize placeholder for argument `gap`
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+w : ℕ
+⊢ Fin (?m.190 w) → ℕ
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:184:11: don't know how to synthesize implicit argument `α`
+  @event_le_total (Fin (?m.190 w) → ℕ) (masterPrimeSlotsMass F w (?m.191 w)) (?m.192 w)
+    (prime_slots_nonneg hF w (?m.191 w))
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+w : ℕ
+⊢ Type
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:184:31: don't know how to synthesize implicit argument `r`
+  @prime_slots_nonneg n N (?m.190 w) A D F hF w (?m.191 w)
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+w : ℕ
+⊢ ℕ
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:184:55: don't know how to synthesize placeholder for argument `gap`
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+w : ℕ
+⊢ Fin (?m.190 w) → ℕ
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:184:28: don't know how to synthesize placeholder for argument `E`
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+w : ℕ
+⊢ (Fin (?m.190 w) → ℕ) → Prop
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:184:26: don't know how to synthesize placeholder for argument `μ`
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+w : ℕ
+⊢ Mass (Fin (?m.190 w) → ℕ)
+error: Hindman168/MasterCopiedReplicaCubeMajorant.lean:181:8: don't know how to synthesize implicit argument `k`
+  @varying_event_mean_eventually_le
+    (fun w =>
+      conditionalFiniteAverage (masterPrimeSlotsMass F w fun j => ↑(gap w j)) (masterMixedBaseMass H F index loc len w)
+        (E w) fun x y => ∏ u ∈ U, (1 + masterCopiedPredictionCubeWeight F C label s f dir row w u x y))
+    (fun w => event (masterPrimeSlotsMass F w (?m.191 w)) (?m.192 w)) (↑(2 ^ U.card)) (Nat.cast_nonneg (2 ^ U.card))
+context:
+n N m q r b d h L : ℕ
+A : Finset ℚ
+D : Finset (MvPolynomial (Fin n) ℤ)
+F : MasterParameterFamily
+hF : MasterParameterConditions N A D F
+C : ℕ → Chain m
+hN : ∀ (w : ℕ) (i : Fin m), (C w).block i ⊆ Finset.range N
+label : ℕ → Fin q → Fin m
+gap : ℕ → Fin r → Fin L
+V : ℕ → ℕ
+hV : ∀ᶠ (w : ℕ) in atTop, 1 ≤ V w
+hdivbudget : ∀ᶠ (w : ℕ) in atTop, ∀ (u : Fin q), F.auxiliary w ((C w).pivot (label w u)) ≤ V w
+hprimebudget : ∀ᶠ (w : ℕ) in atTop, ∀ (j : Fin r), V w ≤ F.auxiliary w ↑(gap w j)
+T : Finset (MvPolynomial (Fin r) ℤ)
+hT : ∀ f ∈ T, f ≠ 0
+s e : ℕ → Fin b → ℕ
+hs : ∀ᶠ (w : ℕ) in atTop, ∀ (v : Fin b), s w v ∣ primorial w ^ e w v
+f : Fin b → MvPolynomial (Fin r) ℤ
+hf : ∀ (v : Fin b), f v ∈ T
+dir : Fin h → Fin b × CubeVertex d
+row : ℕ → Fin q → CopiedReplicaCubeRow dir
+hrow : ∀ᶠ (w : ℕ) in atTop, Function.Injective (row w)
+H : Finset (Fin (Fintype.card (CopiedReplicaCubeColumn b d h)))
+index : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → Fin N
+Tmin : ℕ → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+loc : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℤ
+len : ℕ → (Fin r → ℕ) → Fin (Fintype.card (CopiedReplicaCubeColumn b d h)) → ℕ
+E : ℕ → (Fin r → ℕ) → Prop
+hharmbudget : ∀ᶠ (w : ℕ) in atTop, ∀ j ∈ H, V w ≤ F.auxiliary w ↑(index w j)
+hlengthgrowth : ∀ j ∉ H, PowerDominates atTop (fun w => ↑(Tmin w j)) fun w => ↑(samplingSize 0 (V w) 0 (V w))
+hlen : ∀ᶠ (w : ℕ) in atTop, ∀ (x : Fin r → ℕ), E w x → ∀ j ∉ H, Tmin w j ≤ len w x j
+U : Finset (Fin q)
+⊢ ℕ → ℝ
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.MasterCopiedReplicaCubeMajorant
+error: build failed

@@ -1,0 +1,4 @@
+✔ [4436/4439] Built Hindman168.NilPieceDualPairing (11s)
+✔ [4437/4439] Built Hindman168.NilPeriodicBoundaryCells (12s)
+✔ [4438/4439] Built Hindman168 (10s)
+Build completed successfully (4439 jobs).

@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ResidualRealBoxGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.75,
+    "log": "round-native-real-rough-proportion-ResidualRealBoxGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ResidualRealBoxGeometry.lean",
+    "source_sha256": "92177d0e647397f787929c7282c79a513a529111028d742c134a9c36b24faf20"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRealResidualLargeEvent.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.07799999997951,
+    "log": "round-native-real-rough-proportion-NativeRealResidualLargeEvent-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRealResidualLargeEvent.lean",
+    "source_sha256": "addcd0a0c9ed05614add5a3d26ec27edfd6e52e841b8a1f615ca88119d8f2b83"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRealResidualRoughProportion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.45300000021234,
+    "log": "round-native-real-rough-proportion-NativeRealResidualRoughProportion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRealResidualRoughProportion.lean",
+    "source_sha256": "77e87380933b32e0dfc1a33480b2ee0437efbeb46df3d4f61047994d1fc73e5c"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRealOriginalRoughProportion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.390999999828637,
+    "log": "round-native-real-rough-proportion-NativeRealOriginalRoughProportion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRealOriginalRoughProportion.lean",
+    "source_sha256": "dec834ccfceae088a091fae33cf3fb8b9ba682fe5627a2c1013cc0d8d339e8c9"
+  }
+]

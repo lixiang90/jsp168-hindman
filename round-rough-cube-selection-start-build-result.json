@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.655999999959022,
+  "log": "round-rough-cube-selection-start-build.txt",
+  "log_sha256": "e6116cd4d923f1a897383d97536056670ac745af609a24d0abbd357ec34b8e8c"
+}

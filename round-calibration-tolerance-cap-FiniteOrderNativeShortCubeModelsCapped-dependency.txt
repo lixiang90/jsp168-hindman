@@ -1,0 +1,2 @@
+✔ [4605/4605] Built Hindman168.FiniteOrderNativeShortCubeModelsCapped (15s)
+Build completed successfully (4605 jobs).

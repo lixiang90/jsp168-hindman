@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 457,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskGeneralAdditiveOutput.lean",
+    "Hindman168/MaskGeneralAnchorComparison.lean",
+    "Hindman168/MaskGeneralCorrelationUniform.lean",
+    "Hindman168/MaskGeneralFunctionBounds.lean",
+    "Hindman168/MaskGeneralInsertionLimit.lean",
+    "Hindman168/MaskGeneralInsertionPowers.lean",
+    "Hindman168/MaskGeneralNativeReplacement.lean",
+    "Hindman168/MaskGeneralProgressionTransfer.lean",
+    "Hindman168/MaskGeneralResidueAverage.lean",
+    "Hindman168/MaskGeneralResidueErrorRates.lean",
+    "Hindman168/MaskGeneralRetainedRootSmoothing.lean",
+    "Hindman168/MaskGeneralSmoothedTerminal.lean",
+    "Hindman168/MaskGeneralUniformAnchorError.lean",
+    "Hindman168/MaskGeneralUnrestrictedAdditiveOutput.lean",
+    "Hindman168/MaskGeneralUnrestrictedTransfer.lean",
+    "Hindman168/MaskGeneralWeightedReplacement.lean"
+  ],
+  "new_selected_report_count": 35,
+  "module_report_counts": {
+    "MaskGeneralAdditiveOutput": 1,
+    "MaskGeneralAnchorComparison": 2,
+    "MaskGeneralCorrelationUniform": 4,
+    "MaskGeneralFunctionBounds": 1,
+    "MaskGeneralInsertionLimit": 2,
+    "MaskGeneralInsertionPowers": 3,
+    "MaskGeneralNativeReplacement": 3,
+    "MaskGeneralProgressionTransfer": 3,
+    "MaskGeneralResidueAverage": 1,
+    "MaskGeneralResidueErrorRates": 1,
+    "MaskGeneralRetainedRootSmoothing": 3,
+    "MaskGeneralSmoothedTerminal": 3,
+    "MaskGeneralUniformAnchorError": 1,
+    "MaskGeneralUnrestrictedAdditiveOutput": 1,
+    "MaskGeneralUnrestrictedTransfer": 5,
+    "MaskGeneralWeightedReplacement": 1
+  },
+  "application_review": [
+    "All 457 baseline source/config hashes were revalidated before registration. Only the root import list and exact-name registry changed among retained files. All old proof sources, StrongStatement, nine attributed PNT+ modules and fixed Lean/mathlib/PNT+ pins are unchanged. No official or remote update was checked. The local correlation and prediction sections match the fixed adc7f1241b42e322a6451854ab7e4b4c146bf78a commit after newline normalization.",
+    "The general unshifted source correlation power is bounded by the same m-only maskAdditiveOutputBound times abs(original targetCubeAverage), plus a genuinely composed error tending to zero. The target is any function satisfying the actual source majorant bound.",
+    "The full repeated-target cube has the derived V^(2*2^d) bound from abs(F_root)<=1+nu. Original affine anchor arithmetic and raw-cutoff validity give the actual anchor comparison with the same explicit error, without requiring a literal centered mask.",
+    "Per-stage admissibility requires every original row to obey its actual majorant on original good tuples. Zero inputs are eventually admissible by proved nonnegative majorants. The positive part of the general correlation excess tends to zero for every admissible sequence; the existing bad-input selection theorem makes the inequality uniform over all input functions for each epsilon>0 and fixed J. The V^q-weighted original/unrestricted cube transfer is likewise uniform for every fixed q. This supplies no numerical rate or uniformity over growing J.",
+    "Every original source row now has the derived V^2 bound from its actual rowMajorant. The target hypothesis is only abs(F_root)<=1+nu on the actual good-prime event. It is not the literal centered identity F_root=nu-1.",
+    "The actual original and inserted correlation difference is rapidly small for arbitrary majorant-dominated target functions and allowed other rows. All original conditioned prime, harmonic base and prime-dependent quotient laws are retained; each fixed V^q weighted error tends to zero.",
+    "The original insertion power error is rapidly small under the general target bound. Polynomial source correlation bounds absorb the power loss, giving the original unshifted m-only recurrence with a constructed vanishing error and the complete retained-majorant product.",
+    "Actual support-good conditioning and the target-row majorant bound alone prove abs(nativeG)<=nativeB. Pointwise domination requires neither tail ordering nor a desired variance hypothesis. The previously proved actual majorant mean and native variance limits then give signed weighted and terminal replacement for arbitrary majorant-dominated target functions.",
+    "The supported general anchor error is averaged under the exact original conditioned prime, remaining harmonic coordinate and prime-dependent quotient direction laws. Their proved probability normalization yields the same uniform cap and every fixed V^q weighted limit.",
+    "The actual second supported harmonic coefficient is a proved unit modulo the anchor multiplier. Its original product-law residue average removes the progression restriction for the general target cube with the explicit k*B*residueError factor; k=1 is included.",
+    "Original second-pivot logarithmic growth absorbs the multiplier and general target cube bound into the same 4*Q^3/X_other error cap. The source progression-removal bound is derived from actual arithmetic and sampling, not assumed.",
+    "The complete G*Psi terminal integrand and terminalTest polynomial bounds now follow from general source row bounds. Actual original root smoothing is rapidly small with the same copy-count exponent; no centered target equality is used.",
+    "Exact original root smoothing and generic target-cube root-shift invariance identify the actual smoothed terminal average. Its weighted error tends to zero for general source functions, and the original recurrence retains the same m-only coefficient and a constructed error.",
+    "The actual supported offset cap, multiplier cap and original logarithmic master separation give the common supported anchor error for general majorant-dominated targets. The comparison law remains explicitly unnormalized.",
+    "General arbitrary-target correlation now satisfies abs(I)^(2^d)<=A_m*abs(targetUnrestrictedAverage)+e(w), with A_m depending only on m and a constructed e tending to zero. The actual repeated target cube stays explicitly on the right; arbitrary-target cube decay is not claimed.",
+    "The full original arbitrary-target cube is transferred to the concrete one-variable harmonic average with unchanged conditioned primes and prime-dependent quotient direction pairs. Both explicit error caps are retained, their difference is rapidly small and every fixed V^q weighted limit is proved.",
+    "The unchanged exact native/completed joint-law identities transfer general weighted replacement to the actual smoothed terminal and original targetCubeAverage. No resampling, supplied independence or extra moment limit is introduced.",
+    "The previous goal turn was PROGRESS, and this turn is PROGRESS. The general actual additive correlation inequality and its input-function uniformity are proved. Full multiplicative-mask source composition, Prediction/Alignment and global monochromatic witness extraction remain incomplete. StrongConjecture is not proved and no unavoidable blocker is established."
+  ],
+  "source_preprint_section": "04_correlation.tex:43-56, 390-612 and 614-705 (general-target additive elimination, actual repeated-target cube sampling and qualitative function-uniform error)",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4320,
+    "project_modules": 455,
+    "pntplus_modules": 9,
+    "source_scan_modules": 464,
+    "axiom_reports": 2236,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 473,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original additive-elimination part now handles arbitrary target functions bounded by their actual one-plus-divisor-mask majorant, preserving all actual conditioned prime, harmonic base and prime-dependent quotient interval laws. It gives the same m-only correlation-power bound against the actual unrestricted one-variable repeated-target cube and a genuinely constructed vanishing error; the inequality and every fixed V^q-weighted cube-law transfer are qualitatively uniform over all per-stage admissible inputs for each fixed J. The earlier centered-source cube decay and uniform centered correlation remain proved and unchanged. These results do not yet include the full original correlation with multiplicative masks or prove arbitrary-target cube decay. Next instantiate the general and centered source estimates in the actual weighted mask-removal/multiplicative integrands, including their prime-only exception deletion and error bounds, and compose the full correlation principle. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

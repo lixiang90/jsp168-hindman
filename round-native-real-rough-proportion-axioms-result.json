@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 22.07799999997951,
+  "log": "round-native-real-rough-proportion-axioms.txt",
+  "log_sha256": "bfd2d4eb92f40f538faacf76637aac58684757662ab51b85f37aff9e4c03e33e"
+}

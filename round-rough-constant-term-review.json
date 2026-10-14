@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-11",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "RoughForwardDifferences proves local real forward-difference bounds 2^n*A, positive-order constant cancellation, integer cast and polynomial natural-restriction compatibility, and polynomial difference vanishing above the degree.",
+    "RoughFloorDifferences proves that a polynomial whose fractional parts lie in one interval of width delta with 2^(q+1)*delta<1 has exactly zero (q+1)-differences of its integer floor sequence on every available segment.",
+    "RoughFiniteNewton propagates local vanishing to higher differences on valid segments and proves a truncated finite Gregory-Newton formula at every original index, including intervals shorter than the degree parameter.",
+    "RoughNewtonPolynomial constructs the actual rational sum of normalized descending Pochhammer polynomials with integer forward-difference coefficients. It has degree<=q and matches every floor-sequence value on the finite interval whenever its high differences vanish.",
+    "RoughNewtonDenominators explicitly clears each coefficient by q!, using k! dividing q! in each Newton term, and proves every reduced rational coefficient denominator divides q!.",
+    "RoughConstantTermModel assembles the constant-term rational model from the narrow fractional interval. It equals the actual floor at every index, leaves real error in [0,1), and has q!-dividing denominators; prime support is <=w once q<=w.",
+    "RoughFractionalColor constructs a genuine finite coloring into 2^(q+2) colors by the fractional part. Same color gives a common interval of width 2^(-q-2), with difference error factor exactly 1/2, and thus supplies the constant-term model on any monochromatic finite index interval.",
+    "Compared with Section 06 constant-term splitting after positive-degree descent. The integer smallness argument is applied to the actual forward difference of floors, after exact polynomial and constant-term cancellation, not to an assumed integer approximation.",
+    "The local difference estimate uses only the n+1 values in the relevant segment. Interval endpoints are explicit z+q+1<H. The higher-difference propagation and truncated Newton formula never assume vanishing beyond the original interval.",
+    "The constructed polynomial is the actual normalized falling-factorial Newton sum. Its coefficients are actual integer differences divided by k!. The explicit integer clearing sum proves q!-denominator control for every coefficient, without any length-dependent denominator.",
+    "The model matches floors at every original index and the remaining real error equals the fractional part, hence belongs to [0,1). This includes q=0 and short or empty intervals; no hidden minimum-length assumption is used.",
+    "The coloring uses exactly 2^(q+2) labels, is a Fin-valued function, and its common interval width gives 2^(q+1)*width=1/2<1. This is sufficient for the proof, even though the paper states a strictly smaller permissible width.",
+    "This does not yet prove the existence of an arbitrarily long monochromatic subprogression or preserve earlier positive-degree models under its affine substitution. Finite van der Waerden and reparametrization remain explicit obligations.",
+    "All retained proof sources and axiom sets are unchanged; these are author-side checks, not independent kernel replay.",
+    "StrongConjecture remains unproved; no unavoidable obstruction is established. Section 06 exact interpolation and simultaneous positive-degree coefficient induction are proved conditional on the binomial obstruction. Constant-term floor-polynomial splitting is now proved conditional on a monochromatic interval for an explicit finite coloring, with degree and factorial denominator control. Finite monochromatic progression extraction and preservation under affine reparametrization remain required. Quantitative Leibman obstruction, affine substitution coefficient identity, corrected box comparison, stretched-filtration prerequisites, smooth-progression dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed."
+  ],
+  "verified": {
+    "project_modules": 1576,
+    "pntplus_modules": 9,
+    "build_jobs": 5540,
+    "selected_axiom_reports": 6966,
+    "new_declarations": 22,
+    "new_theorems": 20,
+    "new_definitions": 2,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/RoughForwardDifferences.lean",
+    "Hindman168/RoughFloorDifferences.lean",
+    "Hindman168/RoughFiniteNewton.lean",
+    "Hindman168/RoughNewtonPolynomial.lean",
+    "Hindman168/RoughNewtonDenominators.lean",
+    "Hindman168/RoughConstantTermModel.lean",
+    "Hindman168/RoughFractionalColor.lean"
+  ],
+  "remaining": "StrongConjecture remains unproved; no unavoidable obstruction is established. Section 06 exact interpolation and simultaneous positive-degree coefficient induction are proved conditional on the binomial obstruction. Constant-term floor-polynomial splitting is now proved conditional on a monochromatic interval for an explicit finite coloring, with degree and factorial denominator control. Finite monochromatic progression extraction and preservation under affine reparametrization remain required. Quantitative Leibman obstruction, affine substitution coefficient identity, corrected box comparison, stretched-filtration prerequisites, smooth-progression dimension induction and uniform rough-step comparison remain open. Package finite native readings and connect conditional face laws. Buffered short-bin geometry, prior-event positive probability, extra-conditioning posterior control, quantitative native smooth-observable bounds, conditional face invariance and positive-probability Alignment remain open. HasNativePeriodicIntervalInverse and HasAlignmentMonomialRecurrence remain explicit unproved existence inputs. Complete final ordered positive rapidly separated monochromatic extraction. No independent kernel replay, external review, public contribution or prize submission is claimed.",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "reference_scope": "06_rough_progressions constant-term coloring, vanishing floor differences, Newton interpolation"
+}

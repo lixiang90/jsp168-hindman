@@ -1,0 +1,52 @@
+{
+  "modules": [
+    "Hindman168/AlignmentCanonicalArrayResidues.lean",
+    "Hindman168/AlignmentFrozenPieceReading.lean",
+    "Hindman168/AlignmentRawCanonicalPieces.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentIntegerArrayArgument_residue",
+    "Hindman168.alignment_shortExposure_canonical_residue",
+    "Hindman168.alignment_exposure_canonical_piece",
+    "Hindman168.alignmentIntegerArrayArgument_progression_quotient",
+    "Hindman168.alignment_exposure_frozen_piece_reading",
+    "Hindman168.alignmentGlobalRawMass_support_coprime",
+    "Hindman168.alignment_raw_canonical_piece_eventually"
+  ],
+  "declarations": {
+    "Hindman168/AlignmentCanonicalArrayResidues.lean": [
+      [
+        "theorem",
+        "alignmentIntegerArrayArgument_residue"
+      ],
+      [
+        "theorem",
+        "alignment_shortExposure_canonical_residue"
+      ],
+      [
+        "theorem",
+        "alignment_exposure_canonical_piece"
+      ]
+    ],
+    "Hindman168/AlignmentFrozenPieceReading.lean": [
+      [
+        "theorem",
+        "alignmentIntegerArrayArgument_progression_quotient"
+      ],
+      [
+        "theorem",
+        "alignment_exposure_frozen_piece_reading"
+      ]
+    ],
+    "Hindman168/AlignmentRawCanonicalPieces.lean": [
+      [
+        "theorem",
+        "alignmentGlobalRawMass_support_coprime"
+      ],
+      [
+        "theorem",
+        "alignment_raw_canonical_piece_eventually"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "baseline_hash_count": 1054,
+  "modules": [
+    "Hindman168/IntegerShortCubeGowersBound.lean"
+  ],
+  "names": [
+    "Hindman168.shortCube_product_length",
+    "Hindman168.weighted_integerCell_shortCube_gowers_bound"
+  ],
+  "theorem_count": 2,
+  "declarations": {
+    "Hindman168/IntegerShortCubeGowersBound.lean": [
+      [
+        "theorem",
+        "shortCube_product_length"
+      ],
+      [
+        "theorem",
+        "weighted_integerCell_shortCube_gowers_bound"
+      ]
+    ]
+  }
+}

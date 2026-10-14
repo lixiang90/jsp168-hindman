@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 18.187000000150874,
+  "log": "round-native-no-long-bad-family-axioms.txt",
+  "log_sha256": "81c9da77abb2afa0e4908854777ccfe103f4fa215966cd20532bd8d3efec0b21"
+}

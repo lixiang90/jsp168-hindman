@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-08",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 385,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/MaskOriginalAdditiveData.lean",
+    "Hindman168/MaskOriginalOrderedPrefactors.lean",
+    "Hindman168/MaskOriginalWeightedRecurrence.lean",
+    "Hindman168/MaskOriginalRetainedCorrelation.lean"
+  ],
+  "new_selected_report_count": 18,
+  "module_report_counts": {
+    "MaskOriginalAdditiveData": 5,
+    "MaskOriginalOrderedPrefactors": 5,
+    "MaskOriginalWeightedRecurrence": 3,
+    "MaskOriginalRetainedCorrelation": 5
+  },
+  "application_review": [
+    "All 385 audited baseline hashes were rechecked before registration. Only root imports and the exact-name registry changed. Every previously retained proof source, StrongStatement.lean, dependency/runtime pin and attributed PNT+ source remains unchanged. The previous goal turn and this turn are both PROGRESS.",
+    "The additiveData definition selects the actual generated integer row/direction certificate whenever it exists and supplies zero data otherwise. On every original good tuple eventually, certificate existence and exact agreement are derived from maskGenerated_additive_elimination_data. No desired certificate is assumed in the final original-family application.",
+    "Tests are completed by zero and majorants by one off the original prime event. On conditionMass support these completions equal the original functions and original 1+integerDivisorMask tail majorants. The source off-target function-majorant bound yields the everywhere bound required by the finite weighted recurrence; no analytic conclusion is used as a premise.",
+    "Nonnegativity of every actual row majorant follows from actual master raw-cutoff validity, bounded chain blocks, the derived ValidCutoffs tail certificate and actual tailMass nonnegativity. The completed majorants are nonnegative eventually on every outside point.",
+    "Each computed AdditiveRowData.orderedPrefactor under the original normalized outside mass and conditional pair law is exactly the corresponding normalizedStagePrefactor of the actual copied family. Its stage prefix and assigned base row are the original finite ordering, with no replacement by a differently sampled integral.",
+    "The original outside law is eventually a nonnegative probability and all completed conditional direction laws are eventually probabilities. These derived properties and actual majorant nonnegativity prove positivity of every computed ordered prefactor.",
+    "The original tail-before-gap ordering gives the already proved common copied-majorant bound C_m for every computed prefactor. The computed orderedPrefactorCap, defined as one plus the sum of absolute prefactors, is eventually at most A_m=1+B_m*C_m, where B_m=maskRowCountBound m. This is a bound on the actual cap, not a supplied cap hypothesis.",
+    "The actual finite ordered weighted Cauchy-Schwarz theorem now gives |Avg_0|^(2^d) <= D_m*|Avg_d|, with d the actual off-target row count and D_m=A_m^(2^B_m-1). The proofs d<=B_m, cap>=0 and A_m>=1 justify both power comparisons. D_m depends only on m, independently of fixed J, sampled primes, scale, function data and row labels; eventual thresholds may depend on the fixed source inputs.",
+    "The first-coordinate marginal of the completed independent pair law identifies Avg_0 with the independent single-shift average. Actual certificate form_eq and direction_eq identify it exactly with insertedCorrelation evaluated on the original normalized integer linear forms and actual generated integer translations. This is the inserted correlation, not the original unshifted correlation.",
+    "The terminal integrand is exactly the target Bool cube at the original normalized target row plus the actual common translation modulus times the selected pair sum, multiplied by the full retainedMajorant product over all off-target rows. The full direction prefix gives the actual terminalAverage=E G*Psi under the original normalized outside and independent pair laws.",
+    "The full retained product Psi is eventually nonnegative. Its factors are the actual original tail majorants on all canonical stage copies, including every nonroot factor retained by elimination. No retained factor is removed, averaged or set to one.",
+    "Combining the actual initial and terminal identities gives |insertedCorrelation|^(2^d)<=D_m*|terminalAverage| eventually under the original source function bounds and chain/gap ordering. Thus the m-only recurrence is now an actual generated-family statement rather than a generic finite interface.",
+    "The initial unshifted-to-inserted comparison still requires the actual W-lattice translation and polynomially weighted harmonic total-variation o(1) error. The extra root translation, enlarged copied-row certificate and B/BH/BH^2 second moments are not proved here. Existing ordinary majorant mean limits do not justify removing Psi.",
+    "The global block/gap/scale/color/rho and companion choices, full weighted mask-removal and analytic inverse/nilsequence/cube-law applications, final witness extraction and separation remain incomplete. StrongConjecture is still only a defined proposition with conditional bridges, and the full prize target is unproved.",
+    "No official upstream update was checked, following the user instruction. No prize eligibility, full analytic additive-elimination lemma or unavoidable blocker is claimed. Public repository creation, award PR and prize application await full formalization and audit."
+  ],
+  "source_preprint_section": "build/sections/04_correlation.tex:418-440 (initial translation error pending);443-529 (actual weighted recurrence and retained integrands now instantiated);530-568 (extra-root smoothing and second moments pending)",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4236,
+    "project_modules": 371,
+    "pntplus_modules": 9,
+    "source_scan_modules": 380,
+    "axiom_reports": 1940,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 389,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The actual computed ordered prefactors now equal the normalized copied-stage integrals. Their positivity and simultaneous C_m bounds give the actual ordered cap A_m=1+B_m*C_m and the m-only finite recurrence constant D_m=A_m^(2^B_m-1). The exact single-shift initial identity and terminal target cube times the full retained Psi identify the actual inserted-correlation power bound under the original normalized good-prime/base and conditional pair laws. Still prove the initial unshifted-to-inserted harmonic comparison: actual W-lattice translations, their uniform polynomial size bounds relative to pivot cutoffs, and polynomially weighted total-variation o(1) errors for the source functions. Extend the copied coefficients to the extra root translation and retained-weight second-moment family; prove E B, E BH and E BH^2 and E B(H-2^t)^2=o(1). A mean estimate alone does not remove retained weights. Connect the actual weighted mask-removal integrands, full multiplicative Cauchy--Schwarz recurrence and exception/error bounds. Complete the retained-weight correlation test, root pushforward, full preprint Prediction/Alignment propositions, inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, and final witness extraction and separation. Real-exponent clipping remains unproved if required by the exact statement. StrongConjecture and the full prize target remain unproved; repository publication, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

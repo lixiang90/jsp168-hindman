@@ -1,0 +1,4 @@
+✔ [5113/5116] Built Hindman168.NativeGoodCellProjectionLower (9.0s)
+✔ [5114/5116] Built Hindman168.NativeHarmonicCellCorrelation (9.2s)
+✔ [5115/5116] Built Hindman168 (8.5s)
+Build completed successfully (5116 jobs).

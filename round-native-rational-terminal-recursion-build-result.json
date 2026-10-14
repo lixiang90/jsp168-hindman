@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.42199999978766,
+  "log": "round-native-rational-terminal-recursion-build.txt",
+  "log_sha256": "c79615605a080c62f7703f4c8a317b21690770cd2cd0a23be4333010651a9c01"
+}

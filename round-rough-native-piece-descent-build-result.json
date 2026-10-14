@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.843999999808148,
+  "log": "round-rough-native-piece-descent-build.txt",
+  "log_sha256": "1ff825ffd3352d065e5bf7f6931cbd4533aa4389e2e02c48856235103201a058"
+}

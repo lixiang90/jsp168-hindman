@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.171000000089407,
+  "log": "round-rough-uniform-interpolation-build.txt",
+  "log_sha256": "f390c3c8b5e2ae8f7df9a249a736a0594c25899e4b05f58d6311490495138342"
+}

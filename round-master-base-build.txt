@@ -1,0 +1,3 @@
+✔ [4021/4022] Built Hindman168.PolynomialSamplingBudgets (7.9s)
+✔ [4022/4022] Built Hindman168.MasterBaseSampling (7.4s)
+Build completed successfully (4022 jobs).

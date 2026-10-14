@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 19.015999999828637,
+  "log": "round-native-lattice-ordered-basis-axioms.txt",
+  "log_sha256": "dc7b331d6eb204450ce1b90689c8186de0f035047aa396f80c2d1b202f3211e5"
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.671000000089407,
+  "log": "round-scalar-binomial-translation-build.txt",
+  "log_sha256": "b9407b464981b2da74c3bdc79e2d479fc5c5c5f6a98c774f76cc91bab7352786"
+}

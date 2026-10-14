@@ -1,0 +1,41 @@
+{
+  "baseline_hash_count": 1100,
+  "modules": [
+    "Hindman168/WeightedHaarInternalAverage.lean",
+    "Hindman168/MixedDualInternalLocalization.lean"
+  ],
+  "names": [
+    "Hindman168.weightedHaarHilbert_internal_average_closed",
+    "Hindman168.mixedDualHilbert_unit_finset_product",
+    "Hindman168.mixedDualHilbert_internal_dual_closed",
+    "Hindman168.mixedDualHilbert_gowers_zero_of_intersection_orthogonal",
+    "Hindman168.mixedDualHilbert_relative_orthogonal"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/WeightedHaarInternalAverage.lean": [
+      [
+        "theorem",
+        "weightedHaarHilbert_internal_average_closed"
+      ]
+    ],
+    "Hindman168/MixedDualInternalLocalization.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_unit_finset_product"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_internal_dual_closed"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_gowers_zero_of_intersection_orthogonal"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_relative_orthogonal"
+      ]
+    ]
+  }
+}

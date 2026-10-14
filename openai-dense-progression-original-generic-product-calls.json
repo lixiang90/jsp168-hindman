@@ -1,0 +1,137 @@
+[
+  {
+    "module": "OAI.Combinatorics.Progressions.Fourier.CharacterCoordinateScale",
+    "line": 98,
+    "code": [
+      "Finset.prod_le_prod (fun coordinate hcoordinate => hi coordinate hcoordinate)",
+      "    _ = _ := by simp",
+      ""
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Estimates.RationalHeight",
+    "line": 60,
+    "code": [
+      "Finset.prod_le_prod fun i _ => hq i).trans_eq (by simp)",
+      "",
+      "theorem arrayDenominator_eq (q : \u03b9 \u2192 \u211a) (i : \u03b9) :"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Estimates.RationalHeight",
+    "line": 81,
+    "code": [
+      "Finset.prod_le_prod fun j _ => (hq j).2).trans_eq (by simp)",
+      "  have hcard : (Finset.univ.erase i).card + 1 = Fintype.card \u03b9 := by",
+      "    simpa using Finset.card_erase_add_one (Finset.m"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Lattices.LargestBadPrimeProduct",
+    "line": 129,
+    "code": [
+      "Finset.prod_le_prod hlocal",
+      "    _ = (\u220f p \u2208 S, g p) * \u220f p \u2208 S, (if Qs \u2264 p ^ b p then p ^ b p else 1) :=",
+      "      Finset.prod_mul_distrib"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Linear.ComparisonBasisBudget",
+    "line": 16,
+    "code": [
+      "Finset.prod_le_prod (fun i _ => Nat.factorial_le (h i))",
+      "",
+      "theorem multidegreeFactorial_le_total (a : \u03c3 \u2192 \u2115) :"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Lattices.StrideSelectedResidueBadProduct",
+    "line": 628,
+    "code": [
+      "Finset.prod_le_prod",
+      "  intro p hp",
+      "  rw [\u2190 pow_add]"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Estimates.CoefficientRowEvaluation",
+    "line": 25,
+    "code": [
+      "Finset.prod_le_prod (fun k _ => Nat.pow_le_pow_left (hsite s k) _)",
+      "    _ = L ^ d.val.degree := by rw [Finset.prod_pow_eq_pow_sum]; rfl",
+      "    _ \u2264 L ^ h := Nat.pow_le_pow_right hL d.pr"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Lattices.AffineModeratePlateauModel",
+    "line": 60,
+    "code": [
+      "Finset.prod_le_prod (fun a _ => Nat.pow_le_pow_left (hQ a) _)",
+      "    _ = Q ^ (Fintype.card A * Fintype.card J) := by",
+      "      simp only [Finset.prod_const, Finset.card_univ, \u2190 pow_mul, N"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Polynomial.RealPositivePolynomialEvaluation",
+    "line": 253,
+    "code": [
+      "Finset.prod_le_prod (fun i _ => Nat.succ_le_of_lt (Nat.lt_two_pow_self))",
+      "      _ = _ := by rw [Finset.prod_pow_eq_pow_sum]",
+      "  exact F.positivePolynomial_finrank_le.trans (Nat.mul_le"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Sampling.AllocatedOriginalSampleForecastAtom",
+    "line": 368,
+    "code": [
+      "Finset.prod_le_prod (fun _ _ => le_add_of_nonneg_right zero_le_one)",
+      "    _ \u2264 _ := allocatedFixedPathLift_prod_add_one_le_allAxis B P h\u03b4",
+      ""
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Estimates.VectorSubspaceCorrectionRepresentatives",
+    "line": 189,
+    "code": [
+      "Finset.prod_le_prod (fun i _ => hn i)",
+      "      _ = _ := by simp",
+      "  \u00b7 intro a ha"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Lattices.PrimeCoordinateCells",
+    "line": 43,
+    "code": [
+      "Finset.prod_le_prod fun p hp => (Nat.mem_primeFactors.mp hp).1.two_le",
+      "    _ \u2264 M := Nat.le_of_dvd hM (Nat.prod_primeFactors_dvd M)",
+      ""
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Lattices.ActualFixedSpatialGoodPrimeDeletion",
+    "line": 42,
+    "code": [
+      "Finset.prod_le_prod hpoint",
+      "    _ \u2264 \u220f l, w l := Finset.prod_le_prod_of_subset_of_one_le",
+      "      (Finset.subset_univ _) (fun l _ _ => hw l)"
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Lattices.ActualFixedSpatialGoodPrimeDeletion",
+    "line": 55,
+    "code": [
+      "Finset.prod_le_prod (fun l hl => pow_le_pow_right' (hp l) (hA l hl))",
+      "    _ = (\u220f l \u2208 retained, p l) ^ depth := Finset.prod_pow _ _ _",
+      ""
+    ]
+  },
+  {
+    "module": "OAI.Combinatorics.Progressions.Estimates.FiniteGradedBranchPrefixLog",
+    "line": 22,
+    "code": [
+      "Finset.prod_le_prod (fun j hj => hK j (Finset.mem_range.mp hj))",
+      "    _ = K0 ^ n := by simp",
+      ""
+    ]
+  }
+]

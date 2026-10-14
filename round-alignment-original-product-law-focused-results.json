@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointFullSpatialReadings.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.171999999787658,
+    "log": "round-alignment-original-product-law-AlignmentJointFullSpatialReadings-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointFullSpatialReadings.lean",
+    "source_sha256": "ab07fd933df3cb1728130a837b66e9499a1c46016baf4caa9c04615f35cb7b5a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalDenominatorChoices.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.266000000061467,
+    "log": "round-alignment-original-product-law-AlignmentOriginalDenominatorChoices-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalDenominatorChoices.lean",
+    "source_sha256": "33b1ea07b1765e509b62e011979d47d2d94ff41cd67462010b8f6f5a8cb69298"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointOriginalProductCubeMean.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.25,
+    "log": "round-alignment-original-product-law-AlignmentJointOriginalProductCubeMean-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointOriginalProductCubeMean.lean",
+    "source_sha256": "6d723c7fe3c5b6764e46ca377a9bd53ba3285851d54ef0803d7f83c9c1c75c55"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointMetricProductBounds.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.422000000020489,
+    "log": "round-alignment-original-product-law-AlignmentJointMetricProductBounds-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointMetricProductBounds.lean",
+    "source_sha256": "06f59eba88fd216b97ac7cde925e846efc00e313d321b02a5274bfb41369b921"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointTerminalGridMeans.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.25,
+    "log": "round-alignment-original-product-law-AlignmentJointTerminalGridMeans-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointTerminalGridMeans.lean",
+    "source_sha256": "b7f5b5f5f54a6270bcae030533476dfd71aaaae8dda01fd2d1cafecad3b7856b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentJointActualTerminalTranslation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.797000000020489,
+    "log": "round-alignment-original-product-law-AlignmentJointActualTerminalTranslation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentJointActualTerminalTranslation.lean",
+    "source_sha256": "a881038ea0bbccb34e9cc6eb1e2c42e97acf0e8236ae3f081071bccfcfcac6ce"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalProductRemovalFailure.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.077999999979511,
+    "log": "round-alignment-original-product-law-AlignmentOriginalProductRemovalFailure-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalProductRemovalFailure.lean",
+    "source_sha256": "f966222a93d65b6bd23abb6b1c4998db930a6e28153b40f197b4032b874a1fcf"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentOriginalProductRemovalPosterior.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.108999999938533,
+    "log": "round-alignment-original-product-law-AlignmentOriginalProductRemovalPosterior-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentOriginalProductRemovalPosterior.lean",
+    "source_sha256": "b5290f54604ae633019d5e41825cb6ed50cfe52fc1d189d506ba9e1129739be0"
+  }
+]

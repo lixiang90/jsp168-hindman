@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Prior audit rechecked before edits. All 939 baseline source/config hashes checked before registration; only root imports and registry change. Original statements, retained proofs, source pins, groups, lattices and sampling laws remain unchanged.",
+    "The source route is 05_prediction.tex nested-spaces and the clipping argument in energy-selection. The implementation uses the RETAINED actual piecewiseLinearNilsequence, not a newly substituted simplified orbit definition.",
+    "The explicit parent map is (intervalIndex / (coarseLength/fineLength), residue). The proof uses exact natural divisibility and integer Euclidean division with nonnegative divisor, so it covers negative roots as well. The original orbit is globally anchored at y/M, so reindexing suffices without a fictitious basepoint shift. Ordered master gaps provide actual divisibility.",
+    "IsBoundedPieceNilsequence retains one B and one Lip valid at every w, every piece and every quotient point. Translations and basepoints may vary freely, as in the retained tests. Refinement copies these constants exactly. The fixed quotient is arbitrary in this general lemma; no nilpotence, compactness or step bound is falsely inferred from the name.",
+    "Hilbert generators are actual canonical images of L2-bounded original-law families satisfying this representation predicate. Probability laws and the global observable bound prove every representing family has such an image. Closed spans use actual Submodule.span and topologicalClosure. Generator inclusion proves closed-span inclusion; completeness supplies the genuine orthogonal projections.",
+    "Real Lipschitz composition is built by actual continuous-observable composition with the same g, x and quotient. The global bound is K*B+abs(psi(0)), and the new Lipschitz constant is K*Lip. UnitIntervalClip is explicitly max 0 (min 1 t), is 1-Lipschitz, and fixes every [0,1] target.",
+    "Clipping contraction is proved in the original coordinate L2 seminorm using nonnegative original weights and the actual support; zero weights are untouched. The ultrafilter comparison of squared-distance limits passes this inequality to the SAME completed Hilbert space. The target need only be [0,1]-valued on the original supports.",
+    "Clipped genuine representatives are proved to belong to the actual generator set and hence the actual closed span. The retained Pythagorean comparison proves contraction relative to the genuine orthogonal projection. This does not claim that finite linear combinations of arbitrary recipes are already represented: product-quotient closure and finite common complexity are still required.",
+    "All retained empty-axiom reports are preserved. The new pure integer parent-map definition is expected to have an empty axiom report; its exact name is checked. Every other report remains restricted to the standard foundational axioms. No full-target or publication claim is made; no unavoidable blocker is established."
+  ],
+  "new_modules": [
+    "Hindman168/NilPieceRefinement.lean",
+    "Hindman168/BoundedPieceNilFamilies.lean",
+    "Hindman168/PieceNilHilbertSubspace.lean",
+    "Hindman168/PieceNilLipschitzComposition.lean",
+    "Hindman168/FiniteMassHilbertClipping.lean",
+    "Hindman168/PieceNilHilbertClipping.lean"
+  ],
+  "verified": {
+    "project_modules": 927,
+    "pntplus_modules": 9,
+    "source_scan_modules": 936,
+    "source_config_hashes": 945,
+    "build_jobs": 4881,
+    "axiom_reports": 4545,
+    "new_theorems": 20,
+    "new_definitions": 7,
+    "new_instances": 1,
+    "new_axiom_reports": 28,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Original native geometry and original-law ambient ultrafilter Hilbert space remain proved. The exact piecewise orbit definition now has proved interval refinement, uniform-bound/Lipschitz preservation, actual Hilbert realization and closed-span nesting with genuine projection energy identity on each fixed quotient. Lipschitz real composition and unit-interval clipping of genuine representatives are proved, including original weighted L2 and projected-distance contraction. These general fixed-quotient lemmas do NOT yet construct the entire space of all step-at-most-s nilmanifold recipes. Next prove product-quotient representation and finite linear-combination/common-complexity closure, assemble the full admissible nilsequence closed spans, then instantiate clipped dense approximation and Ramsey selection with the paper's padding/principal tuple indexing. Calibration/Alignment, subgroup inverse inputs, actual coloring/arithmetic data and ordered positive rapidly separated monochromatic witnesses, plus quantitative bounds where required, remain. The original models, groups, Gamma, sampling laws and StrongConjecture statement are unchanged. StrongConjecture and the prize target are unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

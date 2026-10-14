@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes retained.",
+    "The combinatorial splitting partitions the nonempty subsets according to whether the new coordinate is present. Injectivity and disjointness are proved explicitly.",
+    "Reindexing under an injective coordinate map preserves the erased empty vertex and all remaining products.",
+    "The actual nonroot cube derivative identity is proved without cancelling or dividing by f(x), so zero values of the root cause no exception.",
+    "The dual recursion uses the exact normalized finite means and the original multiplicative difference. The zero-order value and translation covariance are separately proved.",
+    "Six new theorems are individually audited, with no new definitions or hypotheses asserting a high-order structure theorem. These are tools for the missing concatenation induction, not its conclusion."
+  ],
+  "new_modules": [
+    "Hindman168/SubgroupDualRecursion.lean"
+  ],
+  "verified": {
+    "project_modules": 1053,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1062,
+    "source_config_hashes": 1071,
+    "build_jobs": 5007,
+    "axiom_reports": 4982,
+    "new_theorems": 6,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 6,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The signed master short-cube and actual subgroup-combination estimates share the common probability system. First-order Bessel is proved. Arbitrary-order actual dual functions, weighted energy reduction and exact dimension recursion are proved. Higher-order concatenation controlling dual correlations and the full qualitative Bessel theorem remain missing, as do remaining replica integration, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

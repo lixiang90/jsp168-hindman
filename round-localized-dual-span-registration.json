@@ -1,0 +1,109 @@
+{
+  "baseline_hash_count": 1110,
+  "modules": [
+    "Hindman168/LocalizedMixedDualSpan.lean",
+    "Hindman168/WeightedHaarGeneratedAlgebra.lean",
+    "Hindman168/LocalizedMixedDualProducts.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedDualFunction_congr_nonroot",
+    "Hindman168.localizedMixedDualFamilies",
+    "Hindman168.localizedMixedDualHilbertGenerators",
+    "Hindman168.localizedMixedDualHilbertSubspace",
+    "Hindman168.localizedMixedDualHilbertSubspace_hasProjection",
+    "Hindman168.localizedMixedDualFamily_mem",
+    "Hindman168.localizedMixedDualFamily_unit",
+    "Hindman168.localizedMixedDualHilbertSubspace_le_intersection",
+    "Hindman168.localizedMixedDualHilbert_one_mem",
+    "Hindman168.weightedHaarHilbert_unit_span_representative",
+    "Hindman168.weightedHaarHilbert_generated_closed_approximation",
+    "Hindman168.weightedHaarHilbert_generated_multiplier_closed",
+    "Hindman168.weightedHaarHilbert_generated_unit_product_closed",
+    "Hindman168.localizedMixedDualHilbert_finite_dual_product",
+    "Hindman168.localizedMixedDualHilbert_generator_product",
+    "Hindman168.localizedMixedDualHilbert_gowers_zero_of_orthogonal",
+    "Hindman168.localizedMixedDualHilbert_relative_orthogonal",
+    "Hindman168.localizedMixedDualHilbert_unit_product_closed"
+  ],
+  "theorem_count": 14,
+  "declarations": {
+    "Hindman168/LocalizedMixedDualSpan.lean": [
+      [
+        "theorem",
+        "subgroupMixedDualFunction_congr_nonroot"
+      ],
+      [
+        "def",
+        "localizedMixedDualFamilies"
+      ],
+      [
+        "def",
+        "localizedMixedDualHilbertGenerators"
+      ],
+      [
+        "def",
+        "localizedMixedDualHilbertSubspace"
+      ],
+      [
+        "instance",
+        "localizedMixedDualHilbertSubspace_hasProjection"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualFamily_mem"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualFamily_unit"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbertSubspace_le_intersection"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbert_one_mem"
+      ]
+    ],
+    "Hindman168/WeightedHaarGeneratedAlgebra.lean": [
+      [
+        "theorem",
+        "weightedHaarHilbert_unit_span_representative"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_generated_closed_approximation"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_generated_multiplier_closed"
+      ],
+      [
+        "theorem",
+        "weightedHaarHilbert_generated_unit_product_closed"
+      ]
+    ],
+    "Hindman168/LocalizedMixedDualProducts.lean": [
+      [
+        "theorem",
+        "localizedMixedDualHilbert_finite_dual_product"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbert_generator_product"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbert_gowers_zero_of_orthogonal"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbert_relative_orthogonal"
+      ],
+      [
+        "theorem",
+        "localizedMixedDualHilbert_unit_product_closed"
+      ]
+    ]
+  }
+}

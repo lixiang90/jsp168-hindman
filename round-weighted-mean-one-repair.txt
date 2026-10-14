@@ -1,0 +1,2 @@
+✔ [3964/3964] Built Hindman168.WeightedLinearFormsMeanOne (7.6s)
+Build completed successfully (3964 jobs).

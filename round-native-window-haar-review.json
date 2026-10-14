@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2856,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6883,
+    "selected_axiom_reports": 11119,
+    "new_declarations": 6,
+    "new_theorems": 6,
+    "new_definitions": 0,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeSubgroupAffineTopCoefficient.lean",
+    "Hindman168/NativeRationalLayerWindowHaar.lean",
+    "Hindman168/NativeSubgroupIrrationalScale.lean",
+    "Hindman168/NativeRationalLayerRealWindowHaar.lean"
+  ],
+  "proved_components": [
+    "The actual scalar projection has totalDegree at most the highest surviving level, proved directly from ORIGINAL aggregate vector coefficients and the next-layer kernel. Arbitrary affine origins leave that top coefficient unchanged, and a fixed dilation d multiplies it by d^j. The exact value is d^j times the ORIGINAL Taylor character value divided by j factorial.",
+    "Uniform q=0 subgroup Haar convergence now covers EVERY real origin and EVERY natural window length at least tau times the original cofinal natural scale, for ANY fixed nonzero rational step and fixed 0<tau<=1. The original character grid, bound and eventual threshold precede ALL origins, window lengths and unit Lipschitz tests. Fixed signed integer progressions are included.",
+    "The rational multiplier d^j/j! is applied INSIDE the circle character using the proved all-rational-level irrationality. Window-length comparison occurs only OUTSIDE the norm via the genuine power comparison. No division of circle norm by d, bounded-origin assumption or additional source irrationality is used.",
+    "Actual character escape is retained under any eventually positive fixed lower comparison of REAL scales. Natural floor of a cofinal real scale satisfies the required half-scale comparison. This proves the same uniform translated progression-window q=0 Haar law directly from the ORIGINAL REAL-scale sequential factorization irrationality."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual smooth/irrational/periodic sequential factorization, original subgroup horizontal/level transport and exact original Taylor top coefficients are proved. Uniform q=0 Haar laws now cover ALL real origins, fixed nonzero rational steps (hence signed integer progression restrictions), and ALL windows whose length is at least a fixed positive fraction of the ORIGINAL cofinal REAL scale. Remaining: actual smooth-factor/Haar-image transport, continuous and compact observable families and point-law assembly; actual SAME-filtration cube subgroup geometry and face-character coefficient isolation, simultaneous local cube-Haar laws through ORIGINAL s+1, sequence limit BEFORE locality alpha->0, projected Haar face invariance/full-support coset symmetry, joint face lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse at sufficient native step; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No Haar/source/character/period/inverse/bound oracle introduced. Author build/hash/axiom/source checks are not independent kernel replay or external peer review. No explicit delta-power law or other-marginal invariance is claimed. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-window-haar-mathematical-review.txt",
+  "mathematical_review_sha256": "2d13945392322e363e3bce4fd8280ec5ae1a9c8d2bdeb960b3ba1d04ae493c08",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

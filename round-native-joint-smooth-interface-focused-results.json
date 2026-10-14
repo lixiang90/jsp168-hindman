@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FinitePiGroupCharted.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.639999999897555,
+    "log": "round-native-joint-smooth-interface-FinitePiGroupCharted-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FinitePiGroupCharted.lean",
+    "source_sha256": "1f6644a2b5ab26fc131c850b89395e02d30e8852dc4c577eca644105f6609025"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FinitePiGroupLie.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 9.656000000191852,
+    "log": "round-native-joint-smooth-interface-FinitePiGroupLie-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FinitePiGroupLie.lean",
+    "source_sha256": "98a78af6a63385ad8918fda7d6b674171d321e1733fe4555426eb0a92d12146b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeJointLieGroup.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.859999999869615,
+    "log": "round-native-joint-smooth-interface-AlignmentNativeJointLieGroup-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeJointLieGroup.lean",
+    "source_sha256": "2393e84ea6eaf4ddf879c5e34bfada5fdf39aa5a19a86d0a657dffc49808d2af"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeJointNilmanifold.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.390000000130385,
+    "log": "round-native-joint-smooth-interface-AlignmentNativeJointNilmanifold-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeJointNilmanifold.lean",
+    "source_sha256": "8a1208ef721348402b57200a051fd09a1239f4ca1f95be8bd0ce8eae17bcc664"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentNativeJointCosetSmooth.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.906999999890104,
+    "log": "round-native-joint-smooth-interface-AlignmentNativeJointCosetSmooth-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/AlignmentNativeJointCosetSmooth.lean",
+    "source_sha256": "eeea21470d7b27e40fed0d72b145036c3733c89c6768ce4b16e1f904a7e744ec"
+  }
+]

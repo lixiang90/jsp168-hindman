@@ -1,0 +1,87 @@
+import Hindman168.NativeRationalBracketFullAlternative
+
+/-! GENUINE FULL fixed-data Claim 7.7 alternative from SAME original Fourier
+signal, preserving relative character, common natural M, BOTH higher P/Q
+tables and geometry-only budgets before all raw sources. Original inverse
+case-(i) character/reducible-filtration reconstruction remains open. -/
+namespace Hindman168
+open MeasureTheory Polynomial
+open scoped Manifold ContDiff BigOperators
+universe u
+
+theorem native_rational_dense_bracket_full_alternative {s ℓ : ℕ}
+    (D : NativeNilmanifoldData.{u} s) (L : NativeRationalLieFiltration D ℓ) (hdeg : 2 ≤ ℓ)
+    (hInverse : NativeRationalWeightedInverseStatement (nativeRationalDegreeReducedData D L)
+      (nativeDegreeReducedRationalLieFiltration D L) Unit)
+    (k : nativeRationalTerminalIndex D L → ℤ) (hk : k ≠ 0)
+    (δ : ℝ) (hδ : 0 < δ) (hδ1 : δ ≤ 1) :
+    letI : MeasurableSpace (nativeRationalRelativeData D L 1).E := borel (nativeRationalRelativeData D L 1).E
+    letI : MeasurableSpace (nativeRationalRelativeData D L 1).G := borel (nativeRationalRelativeData D L 1).G
+    letI : MeasurableSpace (nativeRationalDegreeReducedData D L).E := borel (nativeRationalDegreeReducedData D L).E
+    letI : MeasurableSpace (nativeRationalDegreeReducedData D L).G := borel (nativeRationalDegreeReducedData D L).G
+    letI := D.metric
+    letI : TopologicalSpace (D.G ⧸ D.Γ) := D.metric.toUniformSpace.toTopologicalSpace
+    ∃ A S T : ℕ, 0 < A ∧ 0 < S ∧ 0 < T ∧
+      ∃ C : Finset ((nativeRationalRelativeData D L 1).E →L[ℝ] ℝ),
+      ∀ (p : RoughVectorMvPolynomial Unit D.E) (hp : RoughVectorMvWeightedDegree L.layer p 0)
+        (N : ℕ), T ≤ N → ∀ F ∈ unitLipschitzObservables (D.G ⧸ D.Γ),
+        4 ≤ δ^2*(N : ℝ) →
+        δ ≤ ‖finiteComplexSetMean (Finset.Ico 0 (N : ℤ)) (fun n =>
+          nativeRationalTerminalFourierProjection D L k F (nativeMvPolynomialOrbit D p (fun _ => n)))‖ →
+        ∃ χ ∈ C,
+          RoughNativeHorizontalFunctional (I := (nativeRationalRelativeData D L 1).I)
+            (nativeRationalRelativeData D L 1).Γ χ.toLinearMap ∧ ‖χ‖ ≤ (A : ℝ) ∧
+          ∃ M : ℕ, 0 < M ∧ M ≤ S ∧
+            (∀ j : ℕ, 3 ≤ j → j ≤ ℓ → (N : ℝ)^j*
+              ‖(((M : ℝ)*(nativeRationalCompactNonlinearScalar D L p hp χ).coeff j : ℝ) : UnitAddCircle)‖ ≤ (A : ℝ)) ∧
+            (∀ j : ℕ, 3 ≤ j → j ≤ ℓ → (N : ℝ)^j*
+              ‖(((M : ℝ)*scalarPolynomialBinomialCoefficient
+                (nativeRationalCompactNonlinearScalar D L p hp χ) ℓ j : ℝ) : UnitAddCircle)‖ ≤ (A : ℝ)) ∧
+            (∀ j : ℕ, 2 ≤ j → j ≤ ℓ → (N : ℝ)^j*
+              ‖(((M : ℝ)*(nativeRationalCompactDiagonalScalar D L p χ).coeff j : ℝ) : UnitAddCircle)‖ ≤ (A : ℝ)) ∧
+            (∀ j : ℕ, 2 ≤ j → j ≤ ℓ → (N : ℝ)^j*
+              ‖(((M : ℝ)*scalarPolynomialBinomialCoefficient
+                (nativeRationalCompactDiagonalScalar D L p χ) ℓ j : ℝ) : UnitAddCircle)‖ ≤ (A : ℝ)) ∧
+            ∃ b : NativeRationalFirstLayerIndex D L → ℤ,
+              (∀ i, |(b i : ℝ)| ≤ (A : ℝ)) ∧
+              ((∃ r : ℕ, 0 < r ∧ r ≤ A ∧ ∀ i,
+                (N : ℝ)*‖(((r : ℝ)*nativeRationalCompactBracketCoefficient D L p χ M i : ℝ) : UnitAddCircle)‖ ≤ (A : ℝ)) ∨
+                ∃ v : NativeRationalFirstLayerIndex D L → ℤ, v ≠ 0 ∧ (∑ i, (v i).natAbs) ≤ A ∧
+                  (N : ℝ)*‖((∑ i, (v i : ℝ)*nativeRationalCompactBracketFrequency D L p i : ℝ) : UnitAddCircle)‖ ≤ (A : ℝ)) := by
+  letI : MeasurableSpace (nativeRationalRelativeData D L 1).E := borel (nativeRationalRelativeData D L 1).E
+  letI : MeasurableSpace (nativeRationalRelativeData D L 1).G := borel (nativeRationalRelativeData D L 1).G
+  letI : MeasurableSpace (nativeRationalDegreeReducedData D L).E := borel (nativeRationalDegreeReducedData D L).E
+  letI : MeasurableSpace (nativeRationalDegreeReducedData D L).G := borel (nativeRationalDegreeReducedData D L).G
+  letI := D.metric
+  letI : TopologicalSpace (D.G ⧸ D.Γ) := D.metric.toUniformSpace.toTopologicalSpace
+  obtain ⟨A0,B0,ρ,_,Z,S,T,hA0,hB0,hρ,_,hZ,hS,hT,K,C,hData⟩ :=
+    native_rational_dense_fractional_paper_separation D L hdeg hInverse k hk δ hδ hδ1
+  obtain ⟨Q,_,hfirst⟩ := native_rational_bracket_full_alternative D L Z (min ρ 1) B0 hZ
+    (lt_min hρ zero_lt_one) (min_le_right _ _) hB0.le
+  let A := Q+K+⌈A0⌉₊+⌈B0⌉₊+1
+  have hQA : Q ≤ A := by dsimp only [A]; omega
+  have hKA : K ≤ A := by dsimp only [A]; omega
+  have hAA : A0 ≤ (A : ℝ) := (Nat.le_ceil _).trans
+    (by exact_mod_cast (show ⌈A0⌉₊ ≤ A by dsimp only [A]; omega))
+  have hBA : B0 ≤ (A : ℝ) := (Nat.le_ceil _).trans
+    (by exact_mod_cast (show ⌈B0⌉₊ ≤ A by dsimp only [A]; omega))
+  refine ⟨A,S,T,by dsimp only [A]; omega,hS,hT,C,?_⟩
+  intro p hp N hTN F hF hlarge hmean
+  have hN : 0 < N := hT.trans_le hTN
+  obtain ⟨χ,hχ,hHor,hNorm,M,hM,hMS,hQM,hQB,hPM,hPB,b,hb,_,hζ,V,_,hsize,hUseful⟩ :=
+    hData p hp N hTN F hF hlarge hmean
+  have hsize' : min ρ 1*(N : ℝ) ≤ V.card :=
+    (mul_le_mul_of_nonneg_right (min_le_left _ _) (Nat.cast_nonneg N)).trans hsize
+  have halt := hfirst p hp χ M b hζ N hN V hsize'
+    (fun h hh => ⟨(hUseful h hh).2.1,(hUseful h hh).2.2.2⟩)
+  refine ⟨χ,hχ,hHor,hNorm.trans hAA,M,hM,hMS,
+    fun j hj hjL => (hQM j hj hjL).trans hBA,fun j hj hjL => (hQB j hj hjL).trans hBA,
+    fun j hj hjL => (hPM j hj hjL).trans hBA,fun j hj hjL => (hPB j hj hjL).trans hBA,
+    b,fun i => (hb i).trans (by exact_mod_cast hKA),?_⟩
+  rcases halt with hcoeff | hdot
+  · obtain ⟨r,hr,hrQ,hBounds⟩ := hcoeff
+    exact Or.inl ⟨r,hr,hrQ.trans hQA,fun i => (hBounds i).trans (by exact_mod_cast hQA)⟩
+  · obtain ⟨v,hne,hsize,hbound⟩ := hdot
+    exact Or.inr ⟨v,hne,hsize.trans hQA,hbound.trans (by exact_mod_cast hQA)⟩
+
+end Hindman168

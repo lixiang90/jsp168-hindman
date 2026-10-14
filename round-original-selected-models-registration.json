@@ -1,0 +1,82 @@
+{
+  "baseline_hash_count": 970,
+  "modules": [
+    "Hindman168/NativeSubprobApproximation.lean",
+    "Hindman168/NativeSubprobSelectedModels.lean",
+    "Hindman168/OriginalMasterSelectedModels.lean",
+    "Hindman168/MasterGapIndex.lean"
+  ],
+  "names": [
+    "Hindman168.nativeSubprobRepresentation_clip",
+    "Hindman168.nativeSubprob_projection_clip_distance_le",
+    "Hindman168.nativeSubprob_clipped_approximation",
+    "Hindman168.nativeSubprob_clipped_fine_error",
+    "Hindman168.subprobHilbert_unit_norm",
+    "Hindman168.native_subprob_selected_models",
+    "Hindman168.originalPivotMass",
+    "Hindman168.original_master_selected_models",
+    "Hindman168.masterGapIndex",
+    "Hindman168.masterGapIndex_val",
+    "Hindman168.masterGapIndex_mono",
+    "Hindman168.MasterParameterConditions.masterGapIndex_dvd"
+  ],
+  "theorem_count": 10,
+  "declarations": {
+    "Hindman168/NativeSubprobApproximation.lean": [
+      [
+        "theorem",
+        "nativeSubprobRepresentation_clip"
+      ],
+      [
+        "theorem",
+        "nativeSubprob_projection_clip_distance_le"
+      ],
+      [
+        "theorem",
+        "nativeSubprob_clipped_approximation"
+      ],
+      [
+        "theorem",
+        "nativeSubprob_clipped_fine_error"
+      ]
+    ],
+    "Hindman168/NativeSubprobSelectedModels.lean": [
+      [
+        "theorem",
+        "subprobHilbert_unit_norm"
+      ],
+      [
+        "theorem",
+        "native_subprob_selected_models"
+      ]
+    ],
+    "Hindman168/OriginalMasterSelectedModels.lean": [
+      [
+        "abbrev",
+        "originalPivotMass"
+      ],
+      [
+        "theorem",
+        "original_master_selected_models"
+      ]
+    ],
+    "Hindman168/MasterGapIndex.lean": [
+      [
+        "def",
+        "masterGapIndex"
+      ],
+      [
+        "theorem",
+        "masterGapIndex_val"
+      ],
+      [
+        "theorem",
+        "masterGapIndex_mono"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.masterGapIndex_dvd"
+      ]
+    ]
+  }
+}

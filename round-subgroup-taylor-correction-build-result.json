@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 21.219000000040978,
+  "log": "round-subgroup-taylor-correction-build.txt",
+  "log_sha256": "33e7ee0645caa8abed387aac0301a729ea0c9265f12064aafd8feb576699554d"
+}

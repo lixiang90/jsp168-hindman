@@ -1,0 +1,113 @@
+{
+  "modules": [
+    "Hindman168/RoughDescentModels.lean",
+    "Hindman168/RoughDescentSystem.lean",
+    "Hindman168/RoughSimultaneousDescent.lean",
+    "Hindman168/RoughTriangularBinomial.lean",
+    "Hindman168/RoughSpatialCoefficientModels.lean"
+  ],
+  "names": [
+    "Hindman168.RoughCoefficientModel",
+    "Hindman168.rough_coefficient_model_mono",
+    "Hindman168.rough_models_integer_data",
+    "Hindman168.roughDescentConstant",
+    "Hindman168.roughDescentConstant_pos",
+    "Hindman168.roughDescentConstant_le_succ",
+    "Hindman168.rough_descent_step_constant_bound",
+    "Hindman168.RoughHorizontalSystem",
+    "Hindman168.rough_descent_system_step",
+    "Hindman168.rough_simultaneous_descent_partial",
+    "Hindman168.rough_simultaneous_descent",
+    "Hindman168.roughBinomialWeight",
+    "Hindman168.roughBinomialWeight_self",
+    "Hindman168.roughBinomialWeight_eq_zero",
+    "Hindman168.roughBinomialWeight_bound",
+    "Hindman168.rough_binomial_sum_triangular",
+    "Hindman168.rough_spatial_coefficient_models",
+    "Hindman168.rough_spatial_coefficient_models_paper"
+  ],
+  "declarations": {
+    "Hindman168/RoughDescentModels.lean": [
+      [
+        "def",
+        "RoughCoefficientModel"
+      ],
+      [
+        "theorem",
+        "rough_coefficient_model_mono"
+      ],
+      [
+        "theorem",
+        "rough_models_integer_data"
+      ],
+      [
+        "def",
+        "roughDescentConstant"
+      ],
+      [
+        "theorem",
+        "roughDescentConstant_pos"
+      ],
+      [
+        "theorem",
+        "roughDescentConstant_le_succ"
+      ],
+      [
+        "theorem",
+        "rough_descent_step_constant_bound"
+      ]
+    ],
+    "Hindman168/RoughDescentSystem.lean": [
+      [
+        "def",
+        "RoughHorizontalSystem"
+      ],
+      [
+        "theorem",
+        "rough_descent_system_step"
+      ]
+    ],
+    "Hindman168/RoughSimultaneousDescent.lean": [
+      [
+        "theorem",
+        "rough_simultaneous_descent_partial"
+      ],
+      [
+        "theorem",
+        "rough_simultaneous_descent"
+      ]
+    ],
+    "Hindman168/RoughTriangularBinomial.lean": [
+      [
+        "def",
+        "roughBinomialWeight"
+      ],
+      [
+        "theorem",
+        "roughBinomialWeight_self"
+      ],
+      [
+        "theorem",
+        "roughBinomialWeight_eq_zero"
+      ],
+      [
+        "theorem",
+        "roughBinomialWeight_bound"
+      ],
+      [
+        "theorem",
+        "rough_binomial_sum_triangular"
+      ]
+    ],
+    "Hindman168/RoughSpatialCoefficientModels.lean": [
+      [
+        "theorem",
+        "rough_spatial_coefficient_models"
+      ],
+      [
+        "theorem",
+        "rough_spatial_coefficient_models_paper"
+      ]
+    ]
+  }
+}

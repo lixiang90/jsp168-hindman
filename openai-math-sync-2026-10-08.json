@@ -1,0 +1,48 @@
+{
+  "checked_date": "2026-10-08",
+  "repository": "https://github.com/openai/math",
+  "local_checkout": "E:/codex-build/math",
+  "sync_command": "git pull --ff-only origin main",
+  "sync_exit_code": 0,
+  "sync_result": "Already up to date.",
+  "before_head": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "after_head": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "remote_main": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "latest_commit_date": "2026-10-07",
+  "latest_commit_title": "Merge pull request #1 from openai/codex/update-10-7",
+  "target": "JSP-000168 / Erdos #172 / finite simultaneous sums and products",
+  "published_full_target_formalization_found": false,
+  "published_partial_alignment_lean_modules": 259,
+  "target_preprint_and_sum_product_changes_since_initial_pin": [],
+  "source_checks": {
+    "formalization_index_has_target_entry": false,
+    "alignment_main_is_import_only": true,
+    "raw_menu_proves_alignment_support_result": true,
+    "docs_172_is_unrelated_euclidean_ramsey_scope_note": true,
+    "upstream_lean_toolchain": "leanprover/lean4:v4.34.1",
+    "upstream_lean_sources_built_in_this_check": false
+  },
+  "conclusion": "No published full finite-sums-and-products theorem or comparator entry was found at this remote main. Existing Alignment support sources are unchanged since the pinned initial commit. This source/index inspection does not independently certify all 259 modules or assert a globally exclusive absence of any other external formalization. The target preprint is unchanged, so the project retains its audited initial-source pin.",
+  "evidence_files": [
+    {
+      "path": "lean/formalization.yaml",
+      "sha256": "45319c4161637e6a9e5a627e2c6e865fe36c40aa3c69bf9d1b83d9c07660542a"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/SumProduct/Alignment/Main.lean",
+      "sha256": "f8551af11ef9d9f9ae68e96563c3b3e5eb314f36099e5d68260affb3eb943726"
+    },
+    {
+      "path": "lean/OAI/Combinatorics/SumProduct/Alignment/RawMenu.lean",
+      "sha256": "8088f3ada71d8eac8b2c4169b89b0b45c8dad4ae30f4ed1d2774922643c8e98e"
+    },
+    {
+      "path": "lean/docs/172.md",
+      "sha256": "2268f4bddf52a0ef18d990be6c4d06e5ec8f1f62f5d5a5ed5d67eff4066399b3"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "sha256": "8152090414016dd5dc871752f8ce4ecdbd604d9845758e9b9047cb80101280b5"
+    }
+  ]
+}

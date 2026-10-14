@@ -1,0 +1,131 @@
+{
+  "modules": [
+    "Hindman168/UnitCirclePolynomialDiscrepancy.lean",
+    "Hindman168/UnitCirclePolynomialFourierSelection.lean",
+    "Hindman168/UnitCirclePolynomialInverse.lean",
+    "Hindman168/UnitCirclePolynomialSmallValuesCoarse.lean",
+    "Hindman168/PolynomialSmallValueNaturalMultiples.lean",
+    "Hindman168/PolynomialSmallValueRescale.lean",
+    "Hindman168/PolynomialSmallValueConstantRecovery.lean",
+    "Hindman168/PolynomialSmallValuesPositiveNonconstant.lean",
+    "Hindman168/PolynomialSmallValuesPositive.lean",
+    "Hindman168/FiniteUniformErrorZero.lean",
+    "Hindman168/PolynomialSmallValuesInverse.lean"
+  ],
+  "names": [
+    "Hindman168.unitCirclePolynomialDiscrepancy",
+    "Hindman168.unit_circle_polynomial_discrepancy_apply",
+    "Hindman168.unit_circle_polynomial_discrepancy_norm_bound",
+    "Hindman168.unit_circle_polynomial_fourier_value",
+    "Hindman168.unit_circle_polynomial_nonzero_fourier_discrepancy",
+    "Hindman168.unit_circle_polynomial_zero_fourier_discrepancy",
+    "Hindman168.unit_circle_polynomial_fourier_large_frequency",
+    "Hindman168.unit_circle_polynomial_inverse",
+    "Hindman168.unit_circle_polynomial_small_values_discrepancy",
+    "Hindman168.unit_circle_polynomial_small_values_coarse_inverse",
+    "Hindman168.scalar_polynomial_natural_multiple_degree",
+    "Hindman168.scalar_polynomial_natural_multiple_small_value_density",
+    "Hindman168.polynomial_small_value_recurrence_rescale",
+    "Hindman168.polynomial_small_value_constant_recovery",
+    "Hindman168.polynomial_small_values_positive_nonconstant",
+    "Hindman168.polynomial_small_values_positive",
+    "Hindman168.finite_uniform_error_zero",
+    "Hindman168.polynomial_small_values_inverse"
+  ],
+  "declarations": {
+    "Hindman168/UnitCirclePolynomialDiscrepancy.lean": [
+      [
+        "def",
+        "unitCirclePolynomialDiscrepancy"
+      ],
+      [
+        "theorem",
+        "unit_circle_polynomial_discrepancy_apply"
+      ],
+      [
+        "theorem",
+        "unit_circle_polynomial_discrepancy_norm_bound"
+      ],
+      [
+        "theorem",
+        "unit_circle_polynomial_fourier_value"
+      ],
+      [
+        "theorem",
+        "unit_circle_polynomial_nonzero_fourier_discrepancy"
+      ],
+      [
+        "theorem",
+        "unit_circle_polynomial_zero_fourier_discrepancy"
+      ]
+    ],
+    "Hindman168/UnitCirclePolynomialFourierSelection.lean": [
+      [
+        "theorem",
+        "unit_circle_polynomial_fourier_large_frequency"
+      ]
+    ],
+    "Hindman168/UnitCirclePolynomialInverse.lean": [
+      [
+        "theorem",
+        "unit_circle_polynomial_inverse"
+      ]
+    ],
+    "Hindman168/UnitCirclePolynomialSmallValuesCoarse.lean": [
+      [
+        "theorem",
+        "unit_circle_polynomial_small_values_discrepancy"
+      ],
+      [
+        "theorem",
+        "unit_circle_polynomial_small_values_coarse_inverse"
+      ]
+    ],
+    "Hindman168/PolynomialSmallValueNaturalMultiples.lean": [
+      [
+        "theorem",
+        "scalar_polynomial_natural_multiple_degree"
+      ],
+      [
+        "theorem",
+        "scalar_polynomial_natural_multiple_small_value_density"
+      ]
+    ],
+    "Hindman168/PolynomialSmallValueRescale.lean": [
+      [
+        "theorem",
+        "polynomial_small_value_recurrence_rescale"
+      ]
+    ],
+    "Hindman168/PolynomialSmallValueConstantRecovery.lean": [
+      [
+        "theorem",
+        "polynomial_small_value_constant_recovery"
+      ]
+    ],
+    "Hindman168/PolynomialSmallValuesPositiveNonconstant.lean": [
+      [
+        "theorem",
+        "polynomial_small_values_positive_nonconstant"
+      ]
+    ],
+    "Hindman168/PolynomialSmallValuesPositive.lean": [
+      [
+        "theorem",
+        "polynomial_small_values_positive"
+      ]
+    ],
+    "Hindman168/FiniteUniformErrorZero.lean": [
+      [
+        "theorem",
+        "finite_uniform_error_zero"
+      ]
+    ],
+    "Hindman168/PolynomialSmallValuesInverse.lean": [
+      [
+        "theorem",
+        "polynomial_small_values_inverse"
+      ]
+    ]
+  }
+}

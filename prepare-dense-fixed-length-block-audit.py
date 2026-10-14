@@ -1,0 +1,77 @@
+from pathlib import Path
+import ast
+
+PREFIX='round-dense-fixed-length-block'
+OLD='round-native-no-long-bad-family'
+MODULES=['Hindman168/DenseFixedLengthIntervalBlock.lean']
+COMPONENTS=[
+ 'ACTUAL fixed-length full-block selection from dense ORIGINAL integer range hits is now proved. Given fixed positive block length K, genuine positive block count floor(N/K) and exact tail tolerance 2*K<=delta*N, ONE complete original block has density at least delta/2. Its actual endpoint lies within the original range, and no tail is assumed dense. This is the fixed-K partition required by the source finite Szemeredi extraction route, not the older variable-length partition.',
+ 'The entire final remainder is an ACTUAL subset of the original interval after floor(N/K)*K and has cardinality at most K by exact natural quotient/remainder arithmetic. Original retained-prefix density, genuine finite witness selection, injective remainder map and true complete-block endpoint bounds prove the output. No dense-AP/Szemeredi/inverse premise is used in this elementary selection lemma. Full arbitrary-length dense AP and original exceptional-proportion comparison remain open.',
+]
+REMAINING=(
+ 'StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Unconditional '
+ 'native no-long-original-bad-family comparison by actual finrank induction is proved. Exact fixed-length '
+ 'full-block density selection with genuine tail control is now supplied for the original proportion '
+ 'route. Remaining: verified arbitrary-length dense finite AP input and actual residue-index/source/smooth '
+ 'transport to original exceptional-proportion rough-step convergence, separate GTZ interval Gowers '
+ 'correlation inverse, cube/Alignment and final positive distinct rapidly separated monochromatic FS/FP. '
+ 'OpenAI quantitative dense-progression source is an ISOLATED UNVERIFIED dependency/port candidate only; '
+ 'its source scan/partial build is NOT a proof input. Main pins/registered proof sources retained. '
+ 'Fixed-data constants do not certify delta-power laws; author checking is not independent replay/peer '
+ 'review. Repaired source slab estimate not unavoidable obstruction. Public repository/PR/prize not reached.'
+)
+source=Path(OLD+'-audit.py').read_text(encoding='utf-8')
+lines=source.splitlines(keepends=True)
+replacements=dict(PREFIX=PREFIX,OLD=OLD,MODULES=MODULES,COMPONENTS=COMPONENTS,REMAINING=REMAINING)
+for node in reversed(ast.parse(source).body):
+ if isinstance(node,ast.Assign) and len(node.targets)==1 and isinstance(node.targets[0],ast.Name):
+  name=node.targets[0].id
+  if name in replacements:
+   lines[node.lineno-1:node.end_lineno]=[name+' = '+repr(replacements[name])+'\n']
+source=''.join(lines).replace(
+ 'unconditional strengthened original native no-long-bad-family comparison by genuine natural finrank induction; exceptional-proportion rough-step conclusion, GTZ correlation inverse and final target remain open',
+ 'exact ORIGINAL fixed-length full-block density selection and tail control; isolated dense-proof candidate not certified, full exceptional-proportion comparison and final target remain open')
+Path(PREFIX+'-audit.py').write_text(source,encoding='utf-8')
+Path(PREFIX+'-mathematical-review.txt').write_text('''JSP-000168 author mathematical/application review, 2026-10-13
+
+Classification: PROGRESS. Exact fixed-length full-block selection proved.
+The native no-long-bad-family theorem remains unconditional. Original uniform
+exceptional-proportion comparison and StrongConjecture remain UNPROVED.
+
+1. Correct source partition. The source finite Szemeredi argument fixes K
+before the asymptotic original length N. This new lemma uses J=floor(N/K)
+complete blocks EACH of EXACT length K, unlike the older helper that fixed
+the number of blocks and let their length vary. Genuine J>0 is supplied, not
+inferred for every small N. The eventual application can prove it from N->infinity.
+
+2. Exact original tail and density. The retained actual T consists of U hits
+below J*K; the remainder R is in the genuine integer interval [J*K,N).
+Exact N%K=N-floor(N/K)*K bounds card R by K. Cardinal partition T+R=U and
+2*K<=delta*N imply retained-prefix cardinal density at least delta*N/2.
+No arbitrary or final partial block is assumed dense. No analytic oracle.
+
+3. Actual complete block. True finite label selection n/K fixes j<J and
+an original subset V on that block, with card T<=J*card V. The ACTUAL map
+n->n%K is injective on V because EVERY label n/K equals j. Its image lies
+in the original full block hit filter. Therefore one full block has card
+at least (delta/2)*K. Its endpoint (j+1)*K<=J*K<=N is proved. Empty U or
+impossible high density is handled by the genuine input nonempty proof,
+not a fictitious witness. Every raw original U is allowed after K,N,delta.
+
+4. Review boundary. This elementary lemma supplies only the exact block/tail
+interface. It does NOT prove arbitrary-length dense AP/Szemeredi. Candidate
+OpenAI dense-progression solution closure has been copied to a separate
+dependencies directory, with source commit/hashes, Apache license and
+compatibility edits recorded. Its full kernel build/axiom/semantic review
+is incomplete; it is NOT imported by any registered Hindman168 proof.
+Candidate source scans or partial builds cannot discharge the dense input.
+
+5. Existing invariants. Every old registered proof hash/axiom set retained;
+current Lean/mathlib/PNT+ pins, all six actual pinned OpenAI proof sections
+and exact rational slab certificate rechecked. Standard axioms only. Author
+checking is not independent replay or external mathematical peer review.
+Repaired source slab estimate is not terminal obstruction. Full original
+exceptional-proportion comparison, GTZ correlation inverse, cube/Alignment,
+final FS/FP and public repo/PR/prize user milestone remain open; goal ACTIVE.
+''',encoding='utf-8')
+print(PREFIX)

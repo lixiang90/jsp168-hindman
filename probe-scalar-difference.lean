@@ -1,0 +1,15 @@
+import Hindman168.UnitCirclePhaseDistance
+import Mathlib.Algebra.Polynomial.Taylor
+import Mathlib.Algebra.Polynomial.Degree.SmallDegree
+import Mathlib.Tactic
+#check Polynomial.natDegree_le_iff_coeff_eq_zero
+#check Polynomial.taylor_apply
+#check Polynomial.taylor_coeff
+#check Polynomial.hasseDeriv_coeff
+#check Polynomial.eq_X_add_C_of_natDegree_le_one
+#check Nat.choose_succ_self_right
+#check Nat.choose_succ_self
+#check Circle.coe_mul
+#check Circle.norm_coe
+#check Circle.coe_inv_eq_conj
+#check Complex.star_def

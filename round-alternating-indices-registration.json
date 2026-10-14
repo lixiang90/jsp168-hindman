@@ -1,0 +1,76 @@
+{
+  "baseline_hash_count": 963,
+  "modules": [
+    "Hindman168/AlternatingEnergyIndices.lean",
+    "Hindman168/AlternatingEnergySelection.lean"
+  ],
+  "names": [
+    "Hindman168.energyPadding",
+    "Hindman168.energyPrincipal",
+    "Hindman168.energyPrincipalSet",
+    "Hindman168.energyPadding_lt_principal",
+    "Hindman168.energyPrincipal_lt_padding",
+    "Hindman168.energyPadding_mono",
+    "Hindman168.energyPrincipal_strictMono",
+    "Hindman168.energyPrincipalSet_card",
+    "Hindman168.energyTail_before_padding",
+    "Hindman168.energyTail_card_lt",
+    "Hindman168.alternating_energy_selection",
+    "Hindman168.alternating_projection_selection"
+  ],
+  "theorem_count": 9,
+  "declarations": {
+    "Hindman168/AlternatingEnergyIndices.lean": [
+      [
+        "def",
+        "energyPadding"
+      ],
+      [
+        "def",
+        "energyPrincipal"
+      ],
+      [
+        "def",
+        "energyPrincipalSet"
+      ],
+      [
+        "theorem",
+        "energyPadding_lt_principal"
+      ],
+      [
+        "theorem",
+        "energyPrincipal_lt_padding"
+      ],
+      [
+        "theorem",
+        "energyPadding_mono"
+      ],
+      [
+        "theorem",
+        "energyPrincipal_strictMono"
+      ],
+      [
+        "theorem",
+        "energyPrincipalSet_card"
+      ],
+      [
+        "theorem",
+        "energyTail_before_padding"
+      ],
+      [
+        "theorem",
+        "energyTail_card_lt"
+      ]
+    ],
+    "Hindman168/AlternatingEnergySelection.lean": [
+      [
+        "theorem",
+        "alternating_energy_selection"
+      ],
+      [
+        "theorem",
+        "alternating_projection_selection"
+      ]
+    ]
+  }
+}

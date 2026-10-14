@@ -1,0 +1,89 @@
+✖ [4072/4073] Building Hindman168.QuotientIntervalGrowth (8.5s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\QuotientIntervalGrowth.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\QuotientIntervalGrowth.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\QuotientIntervalGrowth.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\QuotientIntervalGrowth.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\QuotientIntervalGrowth.setup.json --json
+error: Hindman168/QuotientIntervalGrowth.lean:41:67: mod_cast has type
+  R w < D w * (R w / D w + 1)
+but is expected to have type
+  ↑(R w) < ↑(D w) * (↑(R w) / ↑(D w) + 1)
+error: Hindman168/QuotientIntervalGrowth.lean:44:4: linarith failed to find a contradiction
+α : Type u_1
+l : Filter α
+R D : α → ℕ
+Q : α → ℝ
+hD : PowerDominates l (fun w => ↑(R w)) Q
+p : ℕ
+hQ : ∀ᶠ (w : α) in l, 2 ≤ Q w
+hden : ∀ᶠ (w : α) in l, 0 < D w ∧ ↑(D w) ≤ Q w ^ p
+ht : ∀ᶠ (w : α) in l, 0 < R w / D w
+n : ℕ
+c : ℝ
+hc : 0 < c
+w : α
+hQw : 2 ≤ Q w
+hdw : 0 < D w ∧ ↑(D w) ≤ Q w ^ p
+htw : 0 < R w / D w
+hQpos : 0 < Q w
+hQpn : 0 ≤ Q w ^ (p + n)
+hw : Q w ^ (p + n) ≤ c / 2 * ↑(R w)
+hu : R w < D w * (R w / D w + 1)
+hu' : ↑(R w) < ↑(D w) * (↑(R w) / ↑(D w) + 1)
+ht' : 1 ≤ ↑(R w / D w)
+hd' : 0 ≤ ↑(D w)
+a✝ : 2 * ↑(D w) * (↑(R w) / ↑(D w)) < ↑(R w)
+⊢ False
+failed
+error: Hindman168/QuotientIntervalGrowth.lean:47:54: Application type mismatch: The argument
+  Nat.cast_nonneg ?m.419
+has type
+  0 ≤ ↑?m.419
+but is expected to have type
+  0 ≤ ↑(R w) / ↑(D w)
+in the application
+  mul_le_mul_of_nonneg_right
+    (mul_le_mul_of_nonneg_left hdw.right
+      (Mathlib.Meta.NormNum.isNat_le_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)
+        (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)) (Eq.refl true)))
+    (Nat.cast_nonneg ?m.419)
+error: Hindman168/QuotientIntervalGrowth.lean:57:44: Invalid field `mp`: The environment does not contain `Function.mp`, so it is not possible to project the field `mp` from an expression
+  mul_le_mul_left ?m.550
+of type
+  ∀ (a : ?m.538), ?m.542 * a ≤ ?m.543 * a
+error: Hindman168/QuotientIntervalGrowth.lean:57:25: Application type mismatch: The argument
+  pow_pos hQpos p
+has type
+  0 < Q w ^ p
+but is expected to have type
+  ?m.542 ≤ ?m.543
+in the application
+  mul_le_mul_left (pow_pos hQpos p)
+warning: Hindman168/QuotientIntervalGrowth.lean:56:4: This simp argument is unused:
+  abs_of_nonneg (Nat.cast_nonneg (R w / D w) : (0 : ℝ) ≤ (R w / D w : ℕ))
+
+Hint: Omit it from the simp argument list.
+  simp only [Real.norm_eq_abs, abs_of_nonneg (pow_nonneg hQpos.le n),̵
+  ̵ ̵ ̵ ̵ ̵a̵b̵s̵_̵o̵f̵_̵n̵o̵n̵n̵e̵g̵ ̵(̵N̵a̵t̵.̵c̵a̵s̵t̵_̵n̵o̵n̵n̵e̵g̵ ̵(̵R̵ ̵w̵ ̵/̵ ̵D̵ ̵w̵)̵ ̵:̵ ̵(̵0̵ ̵:̵ ̵ℝ̵)̵ ̵≤̵ ̵(̵R̵ ̵w̵ ̵/̵ ̵D̵ ̵w̵ ̵:̵ ̵ℕ̵)̵)̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Hindman168/QuotientIntervalGrowth.lean:65:2: Application type mismatch: The argument
+  PowerDominates.nat_div hD p hQ hden
+has type
+  PowerDominates l (fun w => ↑(R w) / ↑(D w)) Q
+but is expected to have type
+  PowerDominates l (fun w => ↑(R w / D w)) Q
+in the application
+  PowerDominates.nat_sqrt (PowerDominates.nat_div hD p hQ hden)
+error: Lean exited with code 1
+✖ [4073/4073] Building Hindman168.PredictionTranslationLaw (13s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\PredictionTranslationLaw.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionTranslationLaw.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PredictionTranslationLaw.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionTranslationLaw.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PredictionTranslationLaw.setup.json --json
+error: Hindman168/PredictionTranslationLaw.lean:85:6: 'change' tactic failed, pattern
+  distance (Finsupp.mapDomain id (uniformIntervalMass (A (q, j, false)) (T q)))
+      (uniformIntervalMass (A (q, j, false)) (T q)) =
+    0
+is not definitionally equal to target
+  distance (Finsupp.mapDomain (fun z => z + 0) (uniformIntervalMass (A (q, j, false)) (T q)))
+      (uniformIntervalMass (A (q, j, false)) (T q)) =
+    0
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.QuotientIntervalGrowth
+- Hindman168.PredictionTranslationLaw
+error: build failed

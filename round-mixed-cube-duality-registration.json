@@ -1,0 +1,48 @@
+{
+  "baseline_hash_count": 1075,
+  "modules": [
+    "Hindman168/SubgroupMixedCubeDuality.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupMixedCubeAverage",
+    "Hindman168.subgroupVertexDual",
+    "Hindman168.subgroupMixedCubeAverage_vertex_correlation",
+    "Hindman168.subgroupVertexDual_abs_le_one",
+    "Hindman168.subgroupVertexDual_congr_off_vertex",
+    "Hindman168.subgroupMixedCubeAverage_replace_vertex",
+    "Hindman168.weighted_subgroupMixedCubeAverage_replace_vertex"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/SubgroupMixedCubeDuality.lean": [
+      [
+        "def",
+        "subgroupMixedCubeAverage"
+      ],
+      [
+        "def",
+        "subgroupVertexDual"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_vertex_correlation"
+      ],
+      [
+        "theorem",
+        "subgroupVertexDual_abs_le_one"
+      ],
+      [
+        "theorem",
+        "subgroupVertexDual_congr_off_vertex"
+      ],
+      [
+        "theorem",
+        "subgroupMixedCubeAverage_replace_vertex"
+      ],
+      [
+        "theorem",
+        "weighted_subgroupMixedCubeAverage_replace_vertex"
+      ]
+    ]
+  }
+}

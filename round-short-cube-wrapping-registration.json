@@ -1,0 +1,28 @@
+{
+  "baseline_hash_count": 1051,
+  "modules": [
+    "Hindman168/ShortCubeWrapBound.lean"
+  ],
+  "names": [
+    "Hindman168.shortCube_vertex_shift_bound",
+    "Hindman168.shortCube_wrap_margin_ratio",
+    "Hindman168.cyclicCell_shortCube_wrap_error"
+  ],
+  "theorem_count": 3,
+  "declarations": {
+    "Hindman168/ShortCubeWrapBound.lean": [
+      [
+        "theorem",
+        "shortCube_vertex_shift_bound"
+      ],
+      [
+        "theorem",
+        "shortCube_wrap_margin_ratio"
+      ],
+      [
+        "theorem",
+        "cyclicCell_shortCube_wrap_error"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+✔ [5900/5908] Built Hindman168.CompactUnitLipschitzObservables (6.0s)
+✔ [5901/5908] Built Hindman168.UnitCirclePhaseDistance (7.1s)
+✔ [5902/5908] Built Hindman168.PolynomialSmallValueShortBoxCounterexample (9.3s)
+✔ [5903/5908] Built Hindman168.UnitCircleUniformFourierApproximation (7.7s)
+✔ [5904/5908] Built Hindman168.UnitCircleGeometricMean (6.8s)
+✔ [5905/5908] Built Hindman168.UnitCircleOrbitDiscrepancy (7.2s)
+✔ [5906/5908] Built Hindman168.UnitCircleLinearInverse (7.9s)
+✔ [5907/5908] Built Hindman168 (8.5s)
+Build completed successfully (5908 jobs).

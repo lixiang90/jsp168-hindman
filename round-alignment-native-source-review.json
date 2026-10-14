@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2683,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6710,
+    "selected_axiom_reports": 10534,
+    "new_declarations": 40,
+    "new_theorems": 29,
+    "new_definitions": 11,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/SingletonChartNativeExponential.lean",
+    "Hindman168/AlignmentArrayNativeCoordinates.lean",
+    "Hindman168/NativeVectorPolynomialSource.lean",
+    "Hindman168/AlignmentExposedNativeVectorPolynomial.lean",
+    "Hindman168/RoughVectorMvSubstitution.lean",
+    "Hindman168/RoughRemovedFactorPolynomial.lean",
+    "Hindman168/AlignmentExposedNativeSource.lean",
+    "Hindman168/AlignmentRemovedFactorNativeSource.lean"
+  ],
+  "proved_components": [
+    "The genuine array coefficient logarithm is now identified with the native global logarithm by the actual singleton-chart differential, original exponential ray subgroup law and ODE uniqueness. The actual array nilmanifold retains original group, lattice, step and constructed compatible metric, with arbitrary original-model universes and actual small finite array indices.",
+    "Actual exposed scalar joint-log polynomials now assemble in a fixed basis into a vector polynomial of the same original uniform degree. Exposure-key freezing is proved. Its native all-real exponential source has a PROVED joint-log identity and exact equality to ORIGINAL actual cube arrays at every permitted sampling point; unsampled extension values cannot substitute for sampled source identity.",
+    "A genuine linear change of polynomial variables isolates ONE removed factor and literally freezes all others, preserving total degree and every spatial variable. The source ignores changes to the deleted factor dummy frozen value. The actual source sample identity and its normalized spatial-residue polynomial degree/all-real native logarithm packet are proved outright, without supplied polynomial/log or rough-comparison oracles."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual single-model exposed/removed-factor native sources, uniform degree bounds, normalized residual log packets and original sampled-array identities are proved, together with earlier unconditional native rough proportions, all-anchor master-window caps and actual posterior Fubini domination. Remaining: assemble finite JOINT native source/observable families and exact spatial coordinate reindexing; derive actual retained coarse residue, bounded scale-range and bad-event inclusion; instantiate conditional fiber caps and synthesize Alignment; separately prove arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse; full cube synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-alignment-native-source-mathematical-review.txt",
+  "mathematical_review_sha256": "7f93d89069614b3c557abd314d1ddb1867c7843dd08200f1cccf33354bc54526",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

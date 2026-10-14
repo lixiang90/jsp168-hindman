@@ -1,0 +1,122 @@
+{
+  "modules": [
+    "Hindman168/RoughAffineCommonMultiplier.lean",
+    "Hindman168/RoughAffineCoefficientRecovery.lean",
+    "Hindman168/ScalarRightFactorCoefficientTransport.lean",
+    "Hindman168/MvCompleteBinomialTransfer.lean",
+    "Hindman168/NativeHorizontalNaturalMultiplier.lean",
+    "Hindman168/NativeRationalOriginalCoefficientTransport.lean",
+    "Hindman168/NativeRationalUniformOriginalTransport.lean",
+    "Hindman168/NativeRationalConstructedChildInverseTransport.lean"
+  ],
+  "names": [
+    "Hindman168.rough_affine_substitution_comp",
+    "Hindman168.rough_affine_zero_power_coefficient",
+    "Hindman168.rough_affine_zero_coefficient",
+    "Hindman168.rough_affine_uniform_coefficient",
+    "Hindman168.rough_affine_common_multiplier_coefficient",
+    "Hindman168.rough_affine_coefficient_recovery",
+    "Hindman168.scalar_nonlinear_error_all_positive_coefficients",
+    "Hindman168.scalar_right_factor_coefficient_transport",
+    "Hindman168.mv_complete_binomial_transfer",
+    "Hindman168.native_horizontal_positive_natural_multiple",
+    "Hindman168.native_horizontal_natural_multiple_norm",
+    "Hindman168.native_horizontal_natural_multiple_original_grid",
+    "Hindman168.nativeRationalOriginalTransportBudget",
+    "Hindman168.native_rational_original_coefficient_transport",
+    "Hindman168.nativeRationalUniformOriginalTransportBound",
+    "Hindman168.native_rational_original_transport_budget_uniform",
+    "Hindman168.native_rational_uniform_original_transport_character",
+    "Hindman168.native_rational_constructed_child_inverse_transport"
+  ],
+  "declarations": {
+    "Hindman168/RoughAffineCommonMultiplier.lean": [
+      [
+        "theorem",
+        "rough_affine_substitution_comp"
+      ],
+      [
+        "theorem",
+        "rough_affine_zero_power_coefficient"
+      ],
+      [
+        "theorem",
+        "rough_affine_zero_coefficient"
+      ],
+      [
+        "theorem",
+        "rough_affine_uniform_coefficient"
+      ],
+      [
+        "theorem",
+        "rough_affine_common_multiplier_coefficient"
+      ]
+    ],
+    "Hindman168/RoughAffineCoefficientRecovery.lean": [
+      [
+        "theorem",
+        "rough_affine_coefficient_recovery"
+      ]
+    ],
+    "Hindman168/ScalarRightFactorCoefficientTransport.lean": [
+      [
+        "theorem",
+        "scalar_nonlinear_error_all_positive_coefficients"
+      ],
+      [
+        "theorem",
+        "scalar_right_factor_coefficient_transport"
+      ]
+    ],
+    "Hindman168/MvCompleteBinomialTransfer.lean": [
+      [
+        "theorem",
+        "mv_complete_binomial_transfer"
+      ]
+    ],
+    "Hindman168/NativeHorizontalNaturalMultiplier.lean": [
+      [
+        "theorem",
+        "native_horizontal_positive_natural_multiple"
+      ],
+      [
+        "theorem",
+        "native_horizontal_natural_multiple_norm"
+      ],
+      [
+        "theorem",
+        "native_horizontal_natural_multiple_original_grid"
+      ]
+    ],
+    "Hindman168/NativeRationalOriginalCoefficientTransport.lean": [
+      [
+        "def",
+        "nativeRationalOriginalTransportBudget"
+      ],
+      [
+        "theorem",
+        "native_rational_original_coefficient_transport"
+      ]
+    ],
+    "Hindman168/NativeRationalUniformOriginalTransport.lean": [
+      [
+        "def",
+        "nativeRationalUniformOriginalTransportBound"
+      ],
+      [
+        "theorem",
+        "native_rational_original_transport_budget_uniform"
+      ],
+      [
+        "theorem",
+        "native_rational_uniform_original_transport_character"
+      ]
+    ],
+    "Hindman168/NativeRationalConstructedChildInverseTransport.lean": [
+      [
+        "theorem",
+        "native_rational_constructed_child_inverse_transport"
+      ]
+    ]
+  }
+}

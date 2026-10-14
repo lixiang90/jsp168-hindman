@@ -1,0 +1,83 @@
+JSP-000168: actual rational layer geometry and two normalizations
+Author review, 2026-10-12; not independent kernel replay or peer review.
+
+Source scope
+OpenAI math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+06_rough_progressions.tex: fixed rational filtration and unbounded original
+logarithmic coefficients. Green--Tao section 7:
+https://arxiv.org/html/0709.3562v4
+the two reductions preceding (7.3), Proposition 7.2 and (7.16).
+Corrected multiparameter scope stays that of arXiv:1311.6170v3.
+
+Rational geometry review
+1. The actual smooth relative inclusion has the proved original Exp
+   compatibility. Positive integer power membership in the actual
+   restricted lattice is equivalent to positive power membership in the
+   original product lattice. Thus it preserves AND reflects rational
+   directions. The proof never treats nonabelian Log Gamma as an additive
+   integer lattice and never assumes rational membership from closedness.
+2. Real span transport through an injective real linear map requires the
+   entire ambient layer to lie in its range. For every positive relative
+   index this is discharged by antitone ambient layers and the ACTUAL
+   native relative model subtype inclusion. Rational generators are lifted
+   to the original relative model, and injectivity proves full real-span
+   equality. Index zero is handled separately using its actual top layer
+   and the compact specified-lattice quotient's rational real spanning.
+3. The actual terminal quotient's Log/Exp compatibility gives exact images
+   of original lattice logarithms. Their Q-linear spans map EXACTLY onto
+   the actual image lattice rational span. Positive powers also give a
+   direct membership proof. Real-spanning source layer intersections map
+   onto every actual projected Lie layer; surplus rational vectors in the
+   image cannot weaken the whole-layer spanning conclusion.
+4. Bracket weights and antitone layers make actual native Lie subalgebras.
+   Exact Log membership identifies their Exp subgroups literally with
+   the original internal relative layers and the actual reduced layers.
+   Original specified lattice intersections are discrete, their actual
+   layer quotients compact, and their natural inclusions closed embeddings;
+   their original quotient orbits are compact. These facts use proved
+   rationality and original native rational-subgroup compactness.
+5. Actual reduced Lie layers zero and one are top, via genuine group
+   initial-layer equality and native Exp/Log inverses. Terminal degree and
+   original s step bound from the previous round remain unchanged.
+
+Second normalization review
+6. The constructed polynomial is ZERO-TRIMMED native product of p and
+   [(X(),-Log gamma)]. It has EXACT real logarithmic product evaluation
+   and integer exponential P(n)*gamma^(-n), including negative integers.
+   True original Lie weights are retained through product Picard transport;
+   zero trimming yields ordinary degree at most s*d. Its real/integer
+   filteredness uses SAME stretch d, including basepoint polynomials whose
+   ordinary degree may already be s*d. It does not re-stretch at s*d.
+7. For actual gamma in the ORIGINAL lattice, right multiplication keeps
+   every actual nonnormal coset sample. No normality of Gamma is assumed.
+   The zero value is retained, and P(1)=a*gamma gives corrected P(1)=a.
+8. A SINGLE original compact representative set and a SINGLE nonnegative
+   bound on norm(Log a) are chosen before ALL original polynomials and all
+   horizontal characters. Both normalizations choose r,a inside that set.
+   Original degree boundedness discharges every weight/degree/filteredness
+   input. The normalized zero is identity and all original coset samples
+   are recovered by the original left basepoint translation.
+9. For any original real linear functional annihilating the actual
+   commutator Lie layer, the COMPLETE scalar polynomial changes by
+   -f(Log gamma)*X(). All coefficients except the linear coefficient,
+   including the constant, are literally unchanged by the second step.
+   If that ACTUAL functional is integral on the ACTUAL original lattice,
+   every coefficient changes by an integer. Combining with the proved
+   basepoint normalization retains EVERY ORIGINAL nonconstant coefficient
+   modulo integers. The compact choices do not depend on the functional.
+
+Still open
+The actual first relative/reduced layer rational geometry and both original
+normalizations are now proved. Recursive native rational-filtered degree
+induction remains open: after reduction the filtration is its actual image
+filtration, and may not be a stretched lower central series. Reconstruct
+relative polynomial coefficients from weighted native inputs (in particular
+the actual twice-normalized original polynomial), without imposing an
+inflated ordinary degree or assuming the missing next-stage compatibility.
+Prove the arbitrary rational Lie-filtered recursive square/terminal quotient
+geometry, and ORIGINAL nonzero horizontal-character reconstruction with
+actual finite-list/operator/binomial coefficient bounds. This round does
+not prove a quantitative inverse, the multivariate branch, interval Gowers
+correlation inverse, rough progression descent, Alignment positivity or
+the full original separated monochromatic finite sums/products statement.
+No unavoidable obstruction or prize eligibility is established.

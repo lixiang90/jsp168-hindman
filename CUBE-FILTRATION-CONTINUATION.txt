@@ -1,0 +1,66 @@
+JSP-000168 / Erdos #172. Goal ACTIVE. StrongConjecture UNPROVED.
+No unavoidable obstruction established; public repository/PR/prize pending.
+Use verification-manifest.json and CURRENT-STATUS.txt for TERMINAL status.
+
+round-native-cube-filtration adds eight modules to round-native-cube-group.
+NativeRationalCubeInclusion: actual subgroup/model inclusion; smoothness,
+exact differential, internal exponential mapping to ambient exponential,
+actual adjoint differential intertwining. nativeFiniteProductModelTopology
+is a reducible LOCAL norm-model topology to resolve generic product-topology
+instance overlap. Use its local attribute in downstream differential files.
+
+NativeCubeAmbientLayers: nativeCubeArrayEmbedding is the unrestricted FULL
+array Lie map via original vertex evaluations. Its restriction equals the
+previous nativeRationalCubeLieEmbedding. nativeCubeAmbientLayer i is map of
+upperFaceLieLayer F.layer d i. Antitone, initial equality, zero equals the
+actual cube Lie model, terminal ell+1=bot, actual adjoint bracket i+j.
+NativeCubeAmbientRationality: every ambient layer is rational relative to
+the ACTUAL product lattice, using the previous coordinatewise rational span
+and actual product-lattice rational-log-span membership theorem.
+
+NativeCubeInclusionRationality: native_cube_inclusion_rational_iff proves
+internal rational membership iff actual included vector is product-lattice
+rational. Uses positive-power iff, exponential compatibility and map_pow;
+the internal lattice really is the comap, with no normality requirement.
+NativeCubeInternalFiltration: nativeCubeInternalLayer is comap of each
+ambient layer through model inclusion. Both initial layers top; actual
+bracket closure, antitonicity and terminal bound. Rationality follows by
+rational_real_span_comap, ambient rationality and the preceding exact iff.
+nativeCubeRationalLieFiltration is full NativeRationalLieFiltration on
+nativeRationalCubeData, retaining original step s and degree ell.
+
+NativeConjugateSubgroupFiltration: nativeConjugateSubgroupFiltration D F
+rho hRat on nativeConjugateNilmanifoldData D rho preserves all F.layer
+and nativeRationalSubgroupLayer exactly. hRat only requires ambient Gamma
+rationality; rho need not be in H. rough_native_conjugate_log_span plus
+exp(log rho)=rho discharges every transported rational layer.
+NativeFiniteProductDiagonalLattice: actual recursively constant diagonal
+rho in nonempty product. Coordinates exactly rho; coordinate inverse.
+native_finite_product_diagonal_lattice equates product of rho Gamma rho^-1
+with diagonal conjugation of product Gamma, by coordinate membership.
+
+NativeResidueCubeData: nativeResidueCubeData D F rho hRat d n e applies
+the actual cube construction to the conjugated ORIGINAL data and SAME F.
+Group equals original cube subgroup by rfl. Actual lattice equals the
+comap of diagonal-conjugated product Gamma along ORIGINAL cube subtype.
+nativeResidueCubeFiltration is a FULL rational Lie filtration on these
+data; every internal layer equals original nativeCubeInternalLayer by rfl.
+native_residue_cube_paper_group retains EXACT original upperFaceCubeGroup.
+
+Next prepared drafts: NativeFiniteProductCoordinateTopology.lean.pending
+and NativeResidueCubeOrbit.lean.pending in project root. These are NOT
+compiled or registered declarations. After terminal record of this round,
+move them to Hindman168/*.lean and develop/compile. They construct an actual
+map to Finset(Fin d) -> original G/Gamma, by x -> (h x_V rho Gamma)_V.
+Need verify well-definedness, injectivity, continuity and compact range,
+then normalized invariant Haar pushforward on those ORIGINAL vertex cosets.
+
+Further substantive work remains: actual original cube polynomial adaptation;
+horizontal face restrictions, largest surviving j, actual rational level
+character and isolated Taylor coefficient xi(a_j)/(j-cardD)! without
+cancellation; simultaneous local laws through ORIGINAL s+1 with length
+before locality and no q-dependent refactorization; projected face
+invariance/full support, joint lifts/full Alignment; arbitrary-input GTZ
+interval Gowers LINEAR nilsequence inverse; final same-color positive,
+distinct, rapidly separated ALL nonempty FS AND FP. No target proved yet.
+Author checks are not independent kernel replay or external peer review.

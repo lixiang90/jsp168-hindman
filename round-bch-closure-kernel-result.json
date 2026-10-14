@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\A\\.elan\\bin\\lake.EXE",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 14.157,
+  "log": "round-bch-closure-axioms.txt",
+  "log_sha256": "c0cd1e0a3167197b6e3e8368c340fd270c476407ff8631d16244d26e03731f45",
+  "process_terminal": true
+}

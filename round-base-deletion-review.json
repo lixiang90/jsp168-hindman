@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "classification": "PROGRESS",
+  "previous_goal_turn_classification": "PROGRESS",
+  "full_target_proved": false,
+  "baseline_hash_count": 473,
+  "retained_changed": [
+    "Hindman168.lean",
+    "Verification.lean"
+  ],
+  "new_modules": [
+    "Hindman168/FiniteRestrictedDomination.lean",
+    "Hindman168/MaskBaseExceptionalDeletion.lean",
+    "Hindman168/MaskBaseResidueCertificates.lean",
+    "Hindman168/MaskBaseRestrictedMajorant.lean",
+    "Hindman168/MaskBaseRestrictedMean.lean",
+    "Hindman168/MaskOriginalExceptionalMajorant.lean",
+    "Hindman168/MaskRawCenteredCorrelation.lean",
+    "Hindman168/MaskRawCorrelationTransfer.lean",
+    "Hindman168/PolynomialNormalizedResidueMinors.lean"
+  ],
+  "new_selected_report_count": 34,
+  "module_report_counts": {
+    "FiniteRestrictedDomination": 3,
+    "MaskBaseExceptionalDeletion": 4,
+    "MaskBaseResidueCertificates": 2,
+    "MaskBaseRestrictedMajorant": 5,
+    "MaskBaseRestrictedMean": 1,
+    "MaskOriginalExceptionalMajorant": 7,
+    "MaskRawCenteredCorrelation": 3,
+    "MaskRawCorrelationTransfer": 5,
+    "PolynomialNormalizedResidueMinors": 4
+  },
+  "application_review": [
+    "All 473 baseline source/config hashes were revalidated before registering nine new modules. Only the root import list and exact-name registry changed among retained files. All previous proof modules, StrongStatement, nine attributed PNT+ sources and fixed Lean/mathlib/PNT+ pins are unchanged. No official or remote update was checked. Both local preprint sections match the pinned adc7f1241b42e322a6451854ab7e4b4c146bf78a commit after newline normalization.",
+    "This round formalizes the weighted prime-only deletion justification at 04_correlation.tex:375-388. Probability o(1) by itself is insufficient for growing majorants, so the actual restricted-domain divisor-weight mean theorem is proved before the full bad event is deleted.",
+    "The new base-row primitivity and pair-independence certificates do not assume the original good-prime event. Primitivity uses the actual chain-normalized integer anchor units on the entire prime support; independence uses nonzero raw polynomial minors, integer cross multiplication and actual column units modulo rough primes.",
+    "The restricted-domain mean application retains all actual unconditioned prime and harmonic pivot laws. It intersects an arbitrary prime-only event with the actual prime support solely for the generic theorem premises; event_restrict_support removes that intersection without changing any average.",
+    "The mixed weighted mean theorem is instantiated with all base coordinates harmonic and no auxiliary interval coordinates. Actual tail budgets and pivot-gap separation supply the required growth and row bounds. No independence or mean-limit premise is supplied by the source caller.",
+    "Every subset of distinct actual rows is reindexed by its finite equivalence and remains injective. Expansion of (1+nu) products consequently yields the exact 2^|U| event-probability main term and a derived vanishing error. The main term is not incorrectly taken as 1 on a restricted event.",
+    "Uniformity over all varying prime-only event predicates follows from the proved limit for every sequence of such events via the established admissible-sequence selection argument. It is qualitative for the fixed family and row/label data; no numerical rate or uniformity over changing family sizes is claimed.",
+    "The actual whole good-event complement includes zero polynomial values, repeated sampled primes and the small-prime denominator failures. Its probability zero limit is derived from total raw prime mass 1 and the old actual good-event limit; the actual majorant zero limit is then derived from the restricted mean theorem.",
+    "The original source majorant uses exactly the original additiveIndexEquiv and normalized integer linear forms. Fintype.prod_equiv identifies it with the distinct base-row enumeration; it is not replaced by independent row values or a pointwise polynomial sup bound.",
+    "Absolute domination is proved only on the actual prime and harmonic supports, sufficient for both nested finite averages. The bad-event contribution is bounded by the entire original bad-majorant mass, so uniform deletion does not need a new chosen input sequence or input-dependent rate.",
+    "The original raw correlation is explicitly defined using the unchanged unconditioned prime and harmonic pivot laws. The conditioned correlation equals the retained restricted average divided by the actual good-event probability for every stage; eventual positivity derived from the probability limit gives the decomposition with that factor restored.",
+    "The centered raw-source zero limit is an actual application of the previously proved centered conditioned-source theorem and the new bad-term zero limit. All-row majorization is required on the whole original prime support; the centered-root identity is required only on original good tuples. Good tuples already include the support condition, so the old off-row bounds follow from the global source bound.",
+    "The raw centered admissible default is the actual centered root with zero other rows. Its admissibility is derived from actual nonnegative divisor masks, not an assumed absolute bound. The general admissible-sequence argument proves uniform raw centered vanishing for fixed source parameters and fixed J.",
+    "Neither the full original analytic multiplicative-mask removal nor StrongConjecture is proved. The generic limit transfer theorem has a conditioned-limit premise, while the centered application actually proves and supplies that premise. Arbitrary-target raw correlation-power transfer, full correlation principle, Prediction/Alignment and global monochromatic extraction remain unfinished."
+  ],
+  "source_preprint_section": "04_correlation.tex:375-388 (actual weighted whole-prime-exception deletion); 390-705 (transfer of the already proved centered additive source to raw prime/harmonic sampling). The analytic multiplicative-mask removal at 135-277 remains to be composed.",
+  "fixed_preprint_section_sha256": "b1c1e08bb4465bd6c69300df7760b5f3165781f49d9bb9a2cd9153515478cc62",
+  "fixed_prediction_section_sha256": "bb74c0d64b7fdf4f4e19dd974c44d6e1cb8ebc48d2902c61722d82a37b4b343e",
+  "verified": {
+    "build_exit_code": 0,
+    "kernel_exit_code": 0,
+    "build_jobs": 4329,
+    "project_modules": 464,
+    "pntplus_modules": 9,
+    "source_scan_modules": 473,
+    "axiom_reports": 2270,
+    "axiom_free_reports": [
+      "Hindman168.maskDescendant_encoding_injective",
+      "Hindman168.maskDescendant_none_iff",
+      "Hindman168.maskDescendant_some_of_noninvariant"
+    ],
+    "source_config_hash_count": 482,
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "full_target_proved": false
+  },
+  "remaining": "The original additive source estimates now have a proved whole-prime-exception weighted deletion: restricted distinct-base-row means, actual full bad-domain majorant mass and uniformly dominated bad input contributions are established under the original unconditioned prime/harmonic laws. The centered source correlation consequently vanishes under those raw laws, uniformly over globally majorized per-stage inputs for each fixed positive J. The earlier general arbitrary-target conditioned additive bound and weighted unrestricted-cube transfers remain proved and unchanged; the corresponding general raw correlation-power inequality still needs composition. The full original multiplicative-mask correlation is not yet reduced analytically to these base-row source inputs: instantiate the actual weighted mask-removal substitutions, conditional weighted squares, row iteration, m-only prefactor and vanishing errors, then compose the full correlation principle. Complete full preprint Prediction/Alignment, required inverse/nilsequence/cube-law inputs, concrete block/gap/scale/color/rho and companion diagonal choices, ordered positive monochromatic witness extraction and separation. Real-exponent clipping remains unproved if required. StrongConjecture and the full prize target remain unproved; public repository creation, award PR and prize application await complete formalization and audit. No unavoidable blocker is established."
+}

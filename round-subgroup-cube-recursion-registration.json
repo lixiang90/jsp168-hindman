@@ -1,0 +1,64 @@
+{
+  "baseline_hash_count": 989,
+  "modules": [
+    "Hindman168/CubeProductSplitting.lean",
+    "Hindman168/FiniteHaarDirections.lean",
+    "Hindman168/SubgroupCubePositive.lean"
+  ],
+  "names": [
+    "Hindman168.cubeProduct_insert",
+    "Hindman168.cubeProduct_image",
+    "Hindman168.subgroupCubeProduct_succ",
+    "Hindman168.finiteHaarMean_prod",
+    "Hindman168.finiteHaarMean_fin_succ",
+    "Hindman168.finiteHaarMean_rotate",
+    "Hindman168.subgroupCubeAverage_succ_square",
+    "Hindman168.subgroupCubeAverage_nonneg",
+    "Hindman168.weightedSubgroupCubeAverage_nonneg"
+  ],
+  "theorem_count": 9,
+  "declarations": {
+    "Hindman168/CubeProductSplitting.lean": [
+      [
+        "theorem",
+        "cubeProduct_insert"
+      ],
+      [
+        "theorem",
+        "cubeProduct_image"
+      ],
+      [
+        "theorem",
+        "subgroupCubeProduct_succ"
+      ]
+    ],
+    "Hindman168/FiniteHaarDirections.lean": [
+      [
+        "theorem",
+        "finiteHaarMean_prod"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_fin_succ"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_rotate"
+      ]
+    ],
+    "Hindman168/SubgroupCubePositive.lean": [
+      [
+        "theorem",
+        "subgroupCubeAverage_succ_square"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_nonneg"
+      ],
+      [
+        "theorem",
+        "weightedSubgroupCubeAverage_nonneg"
+      ]
+    ]
+  }
+}

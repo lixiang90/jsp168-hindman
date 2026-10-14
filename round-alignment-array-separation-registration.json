@@ -1,0 +1,114 @@
+{
+  "baseline_hash_count": 1344,
+  "modules": [
+    "Hindman168/AlignmentLieTensorLayers.lean",
+    "Hindman168/AlignmentLieArrayNilpotence.lean",
+    "Hindman168/AlignmentLieArrayIntegerSeparation.lean",
+    "Hindman168/AlignmentFiniteEvaluationSelection.lean",
+    "Hindman168/AlignmentLieArrayFiniteEmbedding.lean",
+    "Hindman168/AlignmentNativeLieArrayFiniteEvaluations.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentLieTensorLayer",
+    "Hindman168.alignmentLieTensorLayer_bracket_next",
+    "Hindman168.alignmentLieTensorLayer_lowerCentral_le",
+    "Hindman168.alignmentLieTensorLayer_eq_bot",
+    "Hindman168.alignmentLieTensor_lowerCentral_bot",
+    "Hindman168.alignmentLiePolynomialArrays_lowerCentral_bot",
+    "Hindman168.alignmentLiePolynomialArrays_isNilpotent",
+    "Hindman168.alignmentNativeLieArrayCoefficients_lowerCentral_bot",
+    "Hindman168.alignmentLieArrayEvaluation_basis_coefficient",
+    "Hindman168.alignmentLieArray_zero_of_integer_evaluations",
+    "Hindman168.alignmentLieArray_integer_evaluations_injective",
+    "Hindman168.alignment_finite_linear_kernel_selection",
+    "Hindman168.alignmentLiePolynomialArrays_finite_integer_evaluations",
+    "Hindman168.alignmentLieArrayFiniteEvaluation",
+    "Hindman168.alignmentLieArrayFiniteEvaluation_bracket",
+    "Hindman168.alignmentLieArrayFiniteEvaluation_exists_injective",
+    "Hindman168.alignmentNativeLieArray_finite_integer_embedding"
+  ],
+  "theorem_count": 15,
+  "selected_report_count": 17,
+  "declarations": {
+    "Hindman168/AlignmentLieTensorLayers.lean": [
+      [
+        "def",
+        "alignmentLieTensorLayer"
+      ],
+      [
+        "theorem",
+        "alignmentLieTensorLayer_bracket_next"
+      ],
+      [
+        "theorem",
+        "alignmentLieTensorLayer_lowerCentral_le"
+      ],
+      [
+        "theorem",
+        "alignmentLieTensorLayer_eq_bot"
+      ],
+      [
+        "theorem",
+        "alignmentLieTensor_lowerCentral_bot"
+      ]
+    ],
+    "Hindman168/AlignmentLieArrayNilpotence.lean": [
+      [
+        "theorem",
+        "alignmentLiePolynomialArrays_lowerCentral_bot"
+      ],
+      [
+        "theorem",
+        "alignmentLiePolynomialArrays_isNilpotent"
+      ],
+      [
+        "theorem",
+        "alignmentNativeLieArrayCoefficients_lowerCentral_bot"
+      ]
+    ],
+    "Hindman168/AlignmentLieArrayIntegerSeparation.lean": [
+      [
+        "theorem",
+        "alignmentLieArrayEvaluation_basis_coefficient"
+      ],
+      [
+        "theorem",
+        "alignmentLieArray_zero_of_integer_evaluations"
+      ],
+      [
+        "theorem",
+        "alignmentLieArray_integer_evaluations_injective"
+      ]
+    ],
+    "Hindman168/AlignmentFiniteEvaluationSelection.lean": [
+      [
+        "theorem",
+        "alignment_finite_linear_kernel_selection"
+      ],
+      [
+        "theorem",
+        "alignmentLiePolynomialArrays_finite_integer_evaluations"
+      ]
+    ],
+    "Hindman168/AlignmentLieArrayFiniteEmbedding.lean": [
+      [
+        "def",
+        "alignmentLieArrayFiniteEvaluation"
+      ],
+      [
+        "theorem",
+        "alignmentLieArrayFiniteEvaluation_bracket"
+      ],
+      [
+        "theorem",
+        "alignmentLieArrayFiniteEvaluation_exists_injective"
+      ]
+    ],
+    "Hindman168/AlignmentNativeLieArrayFiniteEvaluations.lean": [
+      [
+        "theorem",
+        "alignmentNativeLieArray_finite_integer_embedding"
+      ]
+    ]
+  }
+}

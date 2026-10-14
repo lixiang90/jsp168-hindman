@@ -1,0 +1,108 @@
+{
+  "baseline_hash_count": 1303,
+  "modules": [
+    "Hindman168/AlignmentPivotRequests.lean",
+    "Hindman168/AlignmentBackwardPlan.lean",
+    "Hindman168/AlignmentPivotExecution.lean",
+    "Hindman168/AlignmentUniformPivotPlan.lean"
+  ],
+  "names": [
+    "Hindman168.alignmentPivotRequestHolds",
+    "Hindman168.alignmentPivotPredecessor",
+    "Hindman168.AlignmentPivotStageWorks",
+    "Hindman168.alignment_pivot_stage_exists",
+    "Hindman168.alignment_pivot_predecessor_preserves",
+    "Hindman168.alignment_pivot_predecessor_positive",
+    "Hindman168.alignmentBackwardPlanFits",
+    "Hindman168.alignmentPivotStageOptions",
+    "Hindman168.alignmentForwardOptions",
+    "Hindman168.alignmentForwardOptions_cons",
+    "Hindman168.alignmentBackwardPlanFits_length",
+    "Hindman168.alignment_backward_plan_exists",
+    "Hindman168.alignmentPivotReachable",
+    "Hindman168.alignmentPivotPlanLetters",
+    "Hindman168.alignment_pivot_plan_denominators",
+    "Hindman168.alignment_pivot_plan_execute",
+    "Hindman168.alignment_uniform_pivot_plan"
+  ],
+  "theorem_count": 9,
+  "selected_report_count": 17,
+  "declarations": {
+    "Hindman168/AlignmentPivotRequests.lean": [
+      [
+        "def",
+        "alignmentPivotRequestHolds"
+      ],
+      [
+        "def",
+        "alignmentPivotPredecessor"
+      ],
+      [
+        "def",
+        "AlignmentPivotStageWorks"
+      ],
+      [
+        "theorem",
+        "alignment_pivot_stage_exists"
+      ],
+      [
+        "theorem",
+        "alignment_pivot_predecessor_preserves"
+      ],
+      [
+        "theorem",
+        "alignment_pivot_predecessor_positive"
+      ]
+    ],
+    "Hindman168/AlignmentBackwardPlan.lean": [
+      [
+        "def",
+        "alignmentBackwardPlanFits"
+      ],
+      [
+        "def",
+        "alignmentPivotStageOptions"
+      ],
+      [
+        "def",
+        "alignmentForwardOptions"
+      ],
+      [
+        "theorem",
+        "alignmentForwardOptions_cons"
+      ],
+      [
+        "theorem",
+        "alignmentBackwardPlanFits_length"
+      ],
+      [
+        "theorem",
+        "alignment_backward_plan_exists"
+      ]
+    ],
+    "Hindman168/AlignmentPivotExecution.lean": [
+      [
+        "def",
+        "alignmentPivotReachable"
+      ],
+      [
+        "def",
+        "alignmentPivotPlanLetters"
+      ],
+      [
+        "theorem",
+        "alignment_pivot_plan_denominators"
+      ],
+      [
+        "theorem",
+        "alignment_pivot_plan_execute"
+      ]
+    ],
+    "Hindman168/AlignmentUniformPivotPlan.lean": [
+      [
+        "theorem",
+        "alignment_uniform_pivot_plan"
+      ]
+    ]
+  }
+}

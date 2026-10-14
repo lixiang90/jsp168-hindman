@@ -1,0 +1,67 @@
+JSP-000168 / Erdos #172. Author mathematical review, 2026-10-14.
+Verdict: Partial overall coverage; actual rational-layer Haar progress.
+StrongConjecture remains UNPROVED; no unavoidable obstruction established.
+
+Primary reference: fixed OpenAI math adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+07_cube_limits.tex, subsection The joint local point and cube laws.
+This round closes actual geometric prerequisites, not the local law.
+
+1. The previous round's final filtration need not have initial layer equal
+to the original ambient group. Thus an inverse theorem on the original
+ambient nilmanifold alone cannot establish the required subgroup Haar law.
+nativeRationalLayerOrbitData uses the ACTUAL Lie subalgebra of F.layer i,
+its native exponential subgroup, and the ACTUAL intersection with
+rho*Gamma*rho^-1. rho belongs to the ORIGINAL Gamma rational hull.
+The existing conjugated-lattice compactness proof, native subgroup manifold
+construction and induced orbit metric discharge every geometry field.
+The step bound remains the original s. No nilmanifold replacement, geometry
+oracle or globally Lipschitz group action is assumed.
+
+2. Exact lattice identity is proved using Exp(Log rho)=rho. The original
+adapted source is evaluated by its ORIGINAL exponential and bundled into
+the actual initial subgroup by weighted coefficient membership and
+filtration antitonicity. The logarithmic identity uses the original global
+inverse. It is valid for every real input and every finite variable type,
+not just on the integer sampling set.
+
+3. Haar image construction is the canonical normalized invariant
+probability on the actual subgroup/lattice quotient, mapped by
+x -> h*x*rho*Gamma. The map is well defined on the actual nonnormal lattice
+quotient, continuous and injective. Its range is compact and the mapped
+measure is a probability concentrated on that range. Invariance under
+h -> h*y for y in that SAME subgroup follows by the actual subgroup action
+and the canonical quotient probability's invariance.
+These properties neither assert an empirical sequence Haar law nor imply
+an unrelated marginal's face invariance. Full support is not claimed here.
+
+4. A nonzero ambient extension phi on F.layer 0, killing brackets internal
+to that layer and rational on its ORIGINAL rational form, has a greatest
+nonzero level j in the finite set [1,ell]. The initial equality ensures
+nonzeroness at level 1; the terminal equality excludes ell=0 in this case.
+Maximality kills every layer above j, including j+1. Internal bracket
+annihilation applies to the smaller positive layers by antitonicity. This
+proves the EXACT NativeSubgroupRationalLevelCharacter predicate. These are
+explicit geometric assumptions on a functional, not an assumed existence
+of a desired character or an empirical equidistribution premise.
+
+5. Integral values on the ACTUAL conjugated-lattice intersection imply
+rational values on F.layer i intersect W_Gamma. The proved positive-root
+identity identifies the rational log span of Gamma_rho intersect H_i with
+W_Gamma_rho intersect F.layer i, and rational rho gives W_Gamma_rho=W_Gamma.
+Linearity then transports integral lattice values to rational span values.
+No additivity or discreteness of Log Gamma is assumed.
+
+Next required bridge: actual bounded horizontal characters output by the
+inverse on these subgroup/cube nilmanifolds must be extended to original
+coordinates; their genuine internal bracket kernels and lattice-integral
+values must be transported into the implications above. Then identify the
+greatest-level actual Taylor coefficient with the inverse obstruction,
+using the genuine ordered Taylor representation. Cubes additionally need
+their native rational Lie subalgebra, filtration, face characters and
+isolated highest-degree coefficient. ONE final filtration must cover ALL
+fixed dimensions through ORIGINAL s+1, including q=0, and sequence limits
+must precede locality limits. Empirical Haar laws, projected Haar face
+symmetry, full support and actual joint lifts/full Alignment are not proved
+by this round. Arbitrary-input GTZ interval inverse and the final simultaneous
+sum/product target also remain open. Author checks are not independent
+kernel replay or external review; the project is not a complete prize proof.

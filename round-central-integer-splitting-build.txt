@@ -1,0 +1,5 @@
+✔ [5801/5805] Built Hindman168.IntegerSubspaceQuotient (5.6s)
+✔ [5802/5805] Built Hindman168.IntegerSubspaceSplit (5.6s)
+✔ [5803/5805] Built Hindman168.NativeCenterLayerIntegerSplit (7.4s)
+✔ [5804/5805] Built Hindman168 (8.5s)
+Build completed successfully (5805 jobs).

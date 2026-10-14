@@ -1,0 +1,54 @@
+{
+  "baseline_hash_count": 1128,
+  "modules": [
+    "Hindman168/NestedMixedDualConcatenationStep.lean",
+    "Hindman168/MixedDualConcatenation.lean",
+    "Hindman168/MixedDualProjectionPairOrthogonality.lean"
+  ],
+  "names": [
+    "Hindman168.nestedMixedDualFamily_inner_zero",
+    "Hindman168.nestedMixedDualFamily_mem_sum",
+    "Hindman168.mixedDualHilbert_concatenation_step",
+    "Hindman168.mixedDualHilbert_concatenation_succ",
+    "Hindman168.mixedDualHilbert_concatenation",
+    "Hindman168.mixedDualHilbert_pair_projections_orthogonal",
+    "Hindman168.mixedDualHilbert_pair_projections_correlation_tendsto_zero"
+  ],
+  "theorem_count": 7,
+  "declarations": {
+    "Hindman168/NestedMixedDualConcatenationStep.lean": [
+      [
+        "theorem",
+        "nestedMixedDualFamily_inner_zero"
+      ],
+      [
+        "theorem",
+        "nestedMixedDualFamily_mem_sum"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_concatenation_step"
+      ]
+    ],
+    "Hindman168/MixedDualConcatenation.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_concatenation_succ"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_concatenation"
+      ]
+    ],
+    "Hindman168/MixedDualProjectionPairOrthogonality.lean": [
+      [
+        "theorem",
+        "mixedDualHilbert_pair_projections_orthogonal"
+      ],
+      [
+        "theorem",
+        "mixedDualHilbert_pair_projections_correlation_tendsto_zero"
+      ]
+    ]
+  }
+}

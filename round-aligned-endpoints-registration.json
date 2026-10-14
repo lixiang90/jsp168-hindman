@@ -1,0 +1,46 @@
+{
+  "baseline_hash_count": 1039,
+  "modules": [
+    "Hindman168/AlignedInteriorEndpoints.lean",
+    "Hindman168/AlignedInteriorMassBound.lean"
+  ],
+  "names": [
+    "Hindman168.alignedInterior_endpoint_bounds",
+    "Hindman168.alignedInterior_ordered",
+    "Hindman168.alignedInterior_deleted_subset",
+    "Hindman168.alignedInterior_deleted_card",
+    "Hindman168.integerMass_le_reciprocal_lower",
+    "Hindman168.alignedInterior_deleted_integerMass_le"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/AlignedInteriorEndpoints.lean": [
+      [
+        "theorem",
+        "alignedInterior_endpoint_bounds"
+      ],
+      [
+        "theorem",
+        "alignedInterior_ordered"
+      ],
+      [
+        "theorem",
+        "alignedInterior_deleted_subset"
+      ],
+      [
+        "theorem",
+        "alignedInterior_deleted_card"
+      ]
+    ],
+    "Hindman168/AlignedInteriorMassBound.lean": [
+      [
+        "theorem",
+        "integerMass_le_reciprocal_lower"
+      ],
+      [
+        "theorem",
+        "alignedInterior_deleted_integerMass_le"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 20.468999999808148,
+  "log": "round-native-relative-layer-rational-axioms.txt",
+  "log_sha256": "1f848f4d23ce693ac3e72e728a33d8936734cd2d49e95e85bd9c5d31505a6058"
+}

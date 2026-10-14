@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked before edits. All 945 retained baseline hashes are checked at registration. Only root imports and registry change; prior proof sources, original statements, original models/lattices/laws, pins and attribution remain intact.",
+    "The source route is 05_prediction.tex: products and Lipschitz real combinations of finitely many representing families are represented using product nilmanifolds. This increment proves the exact binary algebraic/metric construction and basic lattice/step preservation; it does not claim the entire finite native recipe package.",
+    "ProductCosetMap is constructed on genuine left-coset quotients by Quotient.lift. Well-definedness and injectivity use the exact relation a^{-1}b in Gamma x Lambda coordinatewise; surjectivity uses representatives of each factor. No normality hypothesis or quotient-group multiplication is used.",
+    "The topological equivalence uses actual open quotient maps of topological groups. The inverse continuity is checked after composition with the product of the original quotient maps, rather than inferred from an arbitrary set bijection.",
+    "ProductCosetMetric uses the natural bijection to transport the product metric. The factor metric topologies and the product metric topology are explicit in the compatibility theorem, preventing accidental synthesis of an unrelated quotient topology. The actual induced metric topology is proved equal to the original coinduced quotient topology when the factor metrics have their original quotient maps.",
+    "The sum observable is constructed as an actual continuous map on the product quotient. Projection maps are 1-Lipschitz, so the Lipschitz constants add. Exact product-group integer powers prove the original piecewise sequence identity; translations and basepoints are paired without changing intervals, modulus or original laws.",
+    "The multiplication estimate expands f(x)g(x)-f(y)g(y), uses global observable bounds and factor Lipschitz estimates, and obtains Bf*Lg+Bg*Lf. This avoids an invalid claim that multiplication is globally Lipschitz on all of R x R. The resulting bound is independent of w and the number of pieces.",
+    "The same specified Gamma and Lambda are used throughout. Product lattice discreteness is transported by the natural subtype-product homeomorphism. Original quotient compactness uses the natural coset homeomorphism. The common step bound follows from the exact max of the two nilpotence classes.",
+    "Arbitrary finite sums/products, full native product manifold packaging, admissible recipe selection and uniform common complexity still need assembly. No broad closed-span density, full Calibration/Alignment, StrongConjecture, publication or prize-submission claim is made. No unavoidable blocker is established."
+  ],
+  "new_modules": [
+    "Hindman168/ProductCosetQuotient.lean",
+    "Hindman168/ProductCosetMetric.lean",
+    "Hindman168/ProductPieceNilRepresentation.lean",
+    "Hindman168/BoundedRealProductLipschitz.lean",
+    "Hindman168/ProductPieceNilMultiplication.lean",
+    "Hindman168/ProductLatticeGeometry.lean"
+  ],
+  "verified": {
+    "project_modules": 933,
+    "pntplus_modules": 9,
+    "source_scan_modules": 942,
+    "source_config_hashes": 951,
+    "build_jobs": 4887,
+    "axiom_reports": 4570,
+    "new_theorems": 18,
+    "new_definitions": 7,
+    "new_instances": 0,
+    "new_axiom_reports": 25,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Original native geometry, original-law Hilbert construction, actual piece refinement, closed-span nesting and clipping contraction remain proved. Binary product-quotient representation is NOW PROVED for addition and multiplication, with exact original powers, product lattices, explicit uniform observable/Lipschitz bounds and preservation of compactness, lattice discreteness and nilpotence-step bounds. The induced product metric is proved compatible with the original quotient topology under the explicit factor metric quotient-map compatibility conditions. Scalar multiplication on the same quotient is also proved. Next assemble the finite recipe/product closure with complete native manifold data and uniform common complexity, construct the full admissible step-at-most-s nilsequence closed span, and instantiate clipped dense approximation and Ramsey selection with the paper's padding/principal tuple indexing. Calibration/Alignment, subgroup inverse inputs, actual coloring/arithmetic data, ordered positive rapidly separated monochromatic witnesses and quantitative bounds where required remain. Original models, groups, Gamma, laws and StrongConjecture are unchanged. The full target remains unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

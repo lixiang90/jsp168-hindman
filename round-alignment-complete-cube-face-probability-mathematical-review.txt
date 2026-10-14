@@ -1,0 +1,72 @@
+JSP-000168 / Erdos #172 -- author mathematical review, 2026-10-14
+Previous goal turn: PROGRESS, complete finite-reading test approximation and
+literal mean identities registered terminally. This round: PROGRESS.
+StrongConjecture UNPROVED; goal ACTIVE; no unavoidable obstruction established.
+Author audit is not independent kernel replay or external peer review.
+
+Primary source: pinned original OpenAI section 8 conditional marginal face
+invariance, especially the both-sided comparison and countable diagonal/period
+paragraph. Exact primary-source sections are compared to pinned Git objects.
+
+1. Genuine budgets. Finite span approximants are selected BEFORE original
+source/sampling data. Each has an actual retained coefficient/coordinate
+observer list. The finite coordinate pool contains EVERY observer from EVERY
+approximant list, in the original coordinate metrics. Norms and genuine existing
+Lipschitz witnesses give common positive bounds; no metric bound on a slot
+projection or automorphism is assumed. R=1+the finite sum of coefficient absolute
+values bounds every retained list strictly. Unsupported functions outside the
+fixed approximant list use empty lists but are never assigned approximation
+truth. Zero coefficients and duplicates are preserved. Empty lists are genuine.
+
+2. Strict norm transfer. Full complete-test eta face failure transfers to eta/2
+approximant face discrepancy through eta/4 sup-error on BOTH original means.
+Literal mean linearity identifies this with sum coefficient*(translated original
+product mean-original product mean). Non-strict original product failure absent
+at eta/(2R) gives strict term errors; weak bounds suffice for weighted triangle,
+then actual coefficient-sum <R and positive tolerance yield STRICT eta/2 overall
+error. Contradiction proves pointwise event inclusion, without changing original
+endpoints/residue classes, source formula, slots, vertex profiles or mass. No
+independence and no fake positive mean on an empty cube grid.
+
+3. Actual probability. Native complete-test budget is DERIVED by compact finite
+approximation and proved observer/coefficient bounds. It is not a requested
+analytic cap. Instantiating old all-product-face posterior cap at the resulting
+fixed coordinate bounds and eta/(2R) proves actual complete-test conditional
+failure vanishing. Actual posterior nonnegativity supplies event monotonicity.
+Original key disintegration and bad-key zero mass integrate this to the original
+raw law, before arbitrary source choices depending on the genuine exposure key.
+Width/key-varying formulae are allowed; choices depending on unexposed tail
+factors are never claimed. Extra probability-bounded-below conditioning retains
+zero failure and yields actual supported samples in that prescribed set.
+
+4. Full-domain audit. Complete tests here are C(product_nu ORIGINAL G_nu/Gamma_nu,
+Complex) in the genuine product metric, with every cube vertex/finite slot/model
+reading retained as an index as needed. They are not restricted to products.
+This does NOT automatically identify that finite product with the ACTUAL native
+array/cube quotient used by local Haar law. When passing to that space, verify
+finite reading quotient embedding or prove all integer-slot cylinder readings
+separate quotient points by the actual pointwise lattice. Compact star-algebra
+density then supplies native tests. A fixed Lie-algebra determining evaluation
+list must not be assumed sufficient to determine lattice quotient equality.
+Full local cube/coset Haar face invariance remains work.
+
+5. Countable route. Original paper chooses all fixed positive moduli, dimensions
+through s+1, endpoint/side/test bounds and tolerances BEFORE the later local-law
+period is selected. Finite-prefix caps and supported selection inside prescribed
+positive events must be assembled with a genuine slow diagonal. Preserve this
+order and original master/source choices; initial invalid widths get no analytic
+truth. The new fixed-condition selection does not prove countable simultaneity.
+Then native local cube law, sequence-selected period, limit-before-relative-box
+size limit and face lift/full Alignment remain. Separate actual finite-degree
+GTZ interval Gowers LINEAR nilsequence inverse remains unproved. Native
+equidistribution is not that inverse. Full arbitrary coloring/witness length,
+positive distinct rapid witnesses and SAME color for ALL nonempty sums AND
+products remain unchanged/unproved. Publication milestone has not occurred.
+
+COMMON actual coordinate-observer bounds and a retained finite coefficient budget are DERIVED from the fixed complete-test approximant list. Every retained coordinate observer belongs to its genuine original bounded/Lipschitz numerical class; the coefficient absolute-value sum is strictly below a common positive R. Exact finite-list linear-difference and weighted complex error bounds preserve zero coefficients and empty lists. These choices precede every original source formula, endpoint, residue and sampled tuple.
+The LITERAL complete finite-reading cube test all-face failure retains ALL original numerical bounded/Lipschitz tests on the FULL product of original quotient reading spaces, ALL original permitted boxes/residues, ALL own pairs/coordinates and ALL zero/one vertex profiles AFTER sampling. eta/4 approximation and exact original linear mean identities force an eta/2 approximant discrepancy. Absence of original product failure at eta/(2R) controls every term, with coefficient-sum budget yielding a STRICT eta/2 bound. Thus COMPLETE test failure is contained in the ORIGINAL all-product-face failure with UNCHANGED source, slots, vertex weights, geometry and normalization.
+Actual derived common budgets and the PROVED original product posterior cap establish COMPLETE finite-reading test all-face probability vanishing under the ACTUAL short posterior. Exact original key disintegration and actual bad-key vanishing promote it to ONE uniform original raw-law cutoff before arbitrary exposed-key-selected source formulae. For arbitrary width-varying key selections the complete-test all-face failure tends to zero; ANY positive-probability extra conditioning preserves this zero limit and supplies supported original good samples in its prescribed set.
+The complete test domain is explicitly the FULL finite product of ORIGINAL quotient reading spaces in their actual product metric. This is stronger than product-only observers but is not yet the native array/cube quotient local Haar law. Actual reading separation/density or native law interface must be verified when passing to that quotient. Countable numerical/modulus/dimension/target simultaneity, sequence-selected period, original local cube laws and full Alignment remain unproved.
+
+Remaining proof work:
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. COMPLETE bounded/Lipschitz tests on every fixed finite original reading tuple now have genuine all-face posterior/global failure vanishing, common budgets DERIVED before sources/samples, and supported good samples in any probability-bounded-below prescribed set. Remaining: verify/promote original finite integer-slot readings to complete tests of the ACTUAL native marginal array/cube quotient where needed (pointwise product lattice gives separating slot witnesses; do not assume a fixed evaluation list already embeds that quotient), construct one original countable numerical-condition/modulus/dimension/target diagonal sequence compatible with master/source selections and the later sequence-selected period, then local cube-law limits/coset face symmetry and full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse with sufficient native step for actual finite degree list; final positive distinct rapidly separated monochromatic FS/FP. No independent kernel replay, other-component invariance, unexposed-factor-dependent formula uniformity or explicit delta-power law claimed. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

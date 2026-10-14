@@ -1,0 +1,37 @@
+JSP-000168 / Erdos #172 -- 2026-10-14
+
+Verdict: Partial overall coverage; PROGRESS.
+Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction established.
+Latest terminal author audit: round-native-cube-character
+
+Proved actual finite-face splitting and bracket annihilation for a cube functional, including empty faces. Proved a nonzero cube functional is detected by a spanning face and selected the greatest surviving level across ALL faces of the SAME filtration.
+
+Constructed the actual cube Lie-model surjection and a full-array extension of any native cube functional using a proved finite-dimensional retraction. Proved exact restriction agreement, nontriviality and compatibility with the actual native adjoint bracket.
+
+Derived bracket annihilation and rationality of the array functional from a genuine horizontal functional on the ACTUAL cube nilmanifold. Rationality uses actual internal/product lattice rational-log-span compatibility and lattice integrality, not a rationality oracle.
+
+Proved every genuine horizontal cube obstruction yields a nonzero ORIGINAL rational level character at some greatest j between 1 and the original degree, on a face of cardinality at most j. All higher face restrictions vanish; both next-layer and mixed-bracket annihilation are proved.
+
+Transported the result from rationally conjugated original data to the ACTUAL residue cube and ORIGINAL rational form. The residue is only ambient-rational; no membership in H or the cube is required.
+
+Connected the selected residue cube face character to SAME-original-source sequential irrationality. Its Taylor face value divided by (j-card(face))! escapes every fixed nonzero rational multiple at scale L^j. This proves scalar escape, not yet polynomial coefficient identification.
+
+{
+  "project_modules": 2926,
+  "pntplus_modules": 9,
+  "attributed_szemeredi_modules": 42,
+  "build_jobs": 6967,
+  "selected_axiom_reports": 11316,
+  "new_declarations": 19,
+  "new_theorems": 15,
+  "new_definitions": 4,
+  "new_external_targets": 0,
+  "retained_proof_sources_unchanged": true,
+  "retained_axiom_sets_unchanged": true,
+  "standard_axioms_only": true,
+  "main_pins_unchanged": true,
+  "full_target_proved": false,
+  "independent_kernel_replay": false
+}
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 weak probability limit, SAME-filtration actual cube group, full rational filtration, rational-residue orbit/Haar probability with exact full support and cube invariance, and ACTUAL horizontal cube obstruction to ORIGINAL maximal rational face-level character with Taylor scalar escape are proved. Remaining: identify the isolated actual cube polynomial coefficient without cancellation and prove original source cube adaptation; simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Public repository/PR/prize milestone not reached.

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous round rechecked before edits. All 963 retained source/config hashes checked at registration. Prior proofs, original target, source pin and dependency versions remain intact.",
+    "The paper labels a homogeneous set of size 2n alternately by padding and principal indices. We use its actual increasing order embedding from Fin (2*n), rather than assuming an ordered selection exists. Membership in the selected finite master interval is proved for every selected position.",
+    "Padding and principal coordinates are respectively 2*u and 2*u+1. Fin bounds, strict ordering between successive pairs and monotonicity are kernel checked, including n=0 where the index type is empty.",
+    "A tail contained in the principal image cannot lie between the padding and principal of its first pivot. Strict monotonicity recovers an earlier position and proves its principal value is below that padding. Missing the first pivot makes the tail a strict subset of the n-element principal set.",
+    "Tuple size is thus at most n+1 without a new cardinality assumption. Comparisons are simultaneous for all principal tails and v<=u; equality v=u and empty tails are handled by the same statement.",
+    "The master bound is fixed before the energy function. Both compared projection energies use x(T,j_u,a) in E(j_u); different pivot Hilbert spaces are allowed. Actual native subspace instantiation and simultaneous representatives remain subsequent work.",
+    "Three definitions and nine theorems receive individual kernel axiom reports. No extra axiom, target weakening, completed main result or unavoidable blocker is claimed."
+  ],
+  "new_modules": [
+    "Hindman168/AlternatingEnergyIndices.lean",
+    "Hindman168/AlternatingEnergySelection.lean"
+  ],
+  "verified": {
+    "project_modules": 947,
+    "pntplus_modules": 9,
+    "source_scan_modules": 956,
+    "source_config_hashes": 965,
+    "build_jobs": 4901,
+    "axiom_reports": 4657,
+    "new_theorems": 9,
+    "new_definitions": 3,
+    "new_instances": 0,
+    "new_axiom_reports": 12,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Native geometry, original-law Hilbert realization, native representation closure and clipped approximation remain proved. Alternating padding/principal selection is now proved with exact ordering, automatic tail-cardinality bounds and uniform simultaneous energy comparison, including empty tails and v=u. Next instantiate this selection with actual native original-law spaces, choose simultaneous clipped models and assemble their common finite native representation bounds. Calibration/Alignment, subgroup inverse inputs, actual coloring/arithmetic extraction, ordered positive rapidly separated monochromatic witnesses and required quantitative bounds remain. Original StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

@@ -1,0 +1,114 @@
+JSP-000168 / Erdos #172: complete Q tables and genuine small/rational factors
+Author mathematical review, 2026-10-13. Verdict: Partial coverage.
+Previous retained registered goal round: PROGRESS.
+NOT independent kernel replay or external peer review.
+Full original positive distinct monochromatic FS/FP remains OPEN.
+Pinned OpenAI six-section source:
+https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a
+06_rough_progressions.tex, quantitative Leibman route.
+Auxiliary primary source: https://arxiv.org/html/0709.3562v4
+Corrected multivariate scope: https://arxiv.org/html/1311.6170v3
+
+1. Missing second coefficient is genuinely recovered
+Zero actual original commutator pairing sets ALL bracket zeta_i to zero,
+so retained native bracket is exactly beta+alpha*h, beta=M*P(1),
+alpha=M*Q_bin2. Actual V subset range N and density min(rho,1) transport
+into the proved affine inverse with epsilon=B/N. Threshold includes true
+ceil(10*B/density). Positive bounded r therefore controls N^2*norm(r*alpha)
+and N*norm(r*beta) at original N. These constants precede all raw sources.
+Multiply every retained higher table by r, then use actual quadratic
+remainder Q_bin2-2*Q_mono2. Triangle inequality controls 2*r*M*Q_mono2;
+absorb genuine positive factor two into the SAME multiplier M_new. Higher
+Q monomial bounds and actual monomial/binomial conversion complete BOTH
+Q tables for EVERY degree >=2. BOTH higher P tables and P(1) survive.
+No cancellation from independently selected multipliers is assumed.
+P first coefficient/full diagonal alternative remains a separate task.
+
+2. Exact native Q versus raw removed nonlinear part
+Real restriction F|F_2=psi and actual submodule scalar projection identify
+the nonlinear F_2 polynomial scalar. Native linear step subtracts exactly
+x times F(a). Actual compact normalizations add/subtract only affine
+terms under true original horizontal logarithmic character. Hence ALL
+monomial coefficients >=2 of compact Q equal raw F(p), exactly. Q_F
+removes the actual raw constant/linear coefficients, so the same high
+coefficients agree. Higher binomial coefficients depend only on monomial
+coefficients >=their index, giving exact agreement from degree two.
+Full Q=Q_F is NOT claimed: native Q(1)=0 and raw affine removal differ.
+
+3. True real error and integer numerator
+Set z_i=round(M*Q_F.coeff i) and define R=sum_{i=2..j}(z_i/M)*X^i.
+Prove its actual coefficients, degree bound and identity as M^-1 times
+the mapped integer polynomial numerator. E=Q_F-R has degree <=j and
+coefficients zero at 0,1. Exact norm identity for nearest integers gives
+M*abs(E.coeff i)=norm(M*Q_F.coeff i mod one), so every original N^i bound
+becomes a REAL coefficient bound. Positivity M is used for true division;
+there is no assumed real-small coefficient from circle norm alone.
+Numerators may be arbitrarily large and are never declared bounded.
+
+4. Actual periods and finite original lattice residues
+Integer-polynomial evaluation satisfies a-b divides Z(a)-Z(b). Since
+M*q divides the true progression step M*q*t, integer divisibility and
+division by positive M prove R(a+M*q*t)-R(a)=q*k. Genuine Euclidean
+division of Z(n) modulo positive M*q yields m<M*q and R(n)=m/M+q*k.
+True Exp(c*y) one-parameter multiplication/int-power identities plus
+Exp(y)^q in ORIGINAL Gamma prove EXACT original right-coset equalities.
+Exp(y) itself is NOT asserted in Gamma. Family has M*q representatives;
+q is actual geometry, not an additional assumed universal complexity.
+Uniform finite geometry/period-budget selection remains to be coupled
+to the analytic induction before claiming fully bounded child complexity.
+
+5. Variation and correct product order
+The actual normalized power variation bound and finite coefficient sum
+prove M*abs(E(x)-E(t)) <= (j+1)^2*B*(H/N) for abs(x),abs(t)<=N,
+abs(x-t)<=H. Since E(0)=0 and M>=1, actual value is <=(j+1)^2*B.
+This is not uniformly tiny: short intervals are still needed to freeze it.
+True Exp addition along SAME y splits actual raw samples as
+ g_p(t)=Exp(E(t)*y)*Exp(R(t)*y)*gK(t)
+for ALL real t, with actual weighted K source pK of degree ell.
+The genuine group order is epsilon*gamma*gK. Right-coset periodicity of
+gamma ALONE cannot replace gamma by a finite representative to the LEFT
+of variable gK. This is not treated as child nonuniformity.
+
+6. Same original signal composition
+Before p/N choose complete-table budgets using old fixed A,S,rho. Enlarge
+threshold and coefficient bound once. Apply original Fourier packet;
+FULL original horizontal/grid/nonzero/coefficient branch is unchanged.
+Remaining branch keeps actual chi in same finite C, same offset b,
+same original V, all positive/range/density data and relative tables.
+New bounded positive common M provides complete Q tables and P(1).
+Actual affine completion N*norm(beta+alpha*h)<=2*A from N*norm(beta)<=A,
+N^2*norm(alpha)<=A for h<=N restores the SAME native bracket at NEW M.
+Actual canonical K, strict F_2 dimension/nonlinearity drops, highest rational
+y with F(y)=1, killed next layer and positive original lattice power are
+retained. Actual small/rational factors, real error bounds, original finite
+residues/periods and universal exact source factorization are composed.
+General ell retains ONLY full lower-degree inverse premise. Degree two
+uses proved degree-one base, with NO child inverse premise. Neither is
+the full original inverse or a proof of the final prize statement.
+
+7. Remaining mathematical obligations
+Construct actual rational conjugate gK'=gamma*gK*gamma^-1, keeping old
+weights via actual native products/highest-layer direction. Actual F
+conjugation invariance leaves affine projection; true aggregate collection
+and zero trimming must then certify actual K weights and original degree.
+Rewrite g=epsilon*gK'*gamma before using finite gamma right cosets.
+Use Gamma_rho=rho*Gamma*rho^-1 and the ACTUAL homeomorphism
+G/Gamma_rho -> G/Gamma, x -> x*rho. Arbitrary right translation on the
+original quotient is NOT available. Prove actual native data, topology,
+metric/Haar/unit-observable transports, including zero mean of the actual
+nonzero terminal Fourier signal. Select actual short residue progressions
+with large child correlation and length >=tau*N; account for actual error
+freezing and original-scale source coefficient conversion.
+Then prove true well-founded degree+nonlinearity induction and BOTH full
+raw original coefficient tables. Full original inverse small-N branches,
+corrected multivariate inverse, separate interval Gowers correlation inverse,
+rough progressions, cube/Alignment and StrongConjecture remain OPEN.
+No unavoidable obstruction found; public repository/PR/prize not triggered.
+Fixed-data existence does not certify source explicit delta-power laws.
+
+All retained registered Lean hashes and selected axiom sets must remain
+unchanged. Every new source requires explicit autoImplicit=false EMPTY
+logs, terminal full build and expanded standard-only axiom audit. No new
+axiom/sorry/admit/oracle/custom structure, unsafe/native_decide or option
+bypass. Re-execute the exact rational slab certificate and pin/hash the
+six original OpenAI sections and Lean/mathlib/PNT+ revisions.

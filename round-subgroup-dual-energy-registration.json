@@ -1,0 +1,48 @@
+{
+  "baseline_hash_count": 1069,
+  "modules": [
+    "Hindman168/SubgroupDualEnergy.lean"
+  ],
+  "names": [
+    "Hindman168.subgroupDualFunction",
+    "Hindman168.subgroupDualFunction_abs_le_one",
+    "Hindman168.subgroupCubeAverage_dual_correlation",
+    "Hindman168.subgroupDualFunction_one",
+    "Hindman168.finiteHaarMean_weighted_square",
+    "Hindman168.subgroup_dual_bessel_energy",
+    "Hindman168.weighted_subgroup_dual_bessel_energy"
+  ],
+  "theorem_count": 6,
+  "declarations": {
+    "Hindman168/SubgroupDualEnergy.lean": [
+      [
+        "def",
+        "subgroupDualFunction"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_abs_le_one"
+      ],
+      [
+        "theorem",
+        "subgroupCubeAverage_dual_correlation"
+      ],
+      [
+        "theorem",
+        "subgroupDualFunction_one"
+      ],
+      [
+        "theorem",
+        "finiteHaarMean_weighted_square"
+      ],
+      [
+        "theorem",
+        "subgroup_dual_bessel_energy"
+      ],
+      [
+        "theorem",
+        "weighted_subgroup_dual_bessel_energy"
+      ]
+    ]
+  }
+}

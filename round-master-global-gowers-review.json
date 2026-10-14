@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Baseline proof hashes are preserved.",
+    "The theorem instantiates actual prediction modulus P, quotient factors P/M and R/P, original interval width R, and original harmonic integerMass.",
+    "Positive quotient factors and nonempty short direction sets are derived from the original master conditions. Existential positivity witnesses are proved conclusions, not new assumptions.",
+    "The retained-cell index contains exactly aligned cells with admissible residues. Its weights are their actual harmonic masses divided by actual retained mass.",
+    "The finite full-window bound and the vanishing original remainder give a single eventual threshold uniform in same-pool x and all unit-bounded real tests.",
+    "The actual integer shift is P times the signed short difference sum. P is the positive absolute prediction modulus; equivalence with a signed-modulus formulation is not claimed here.",
+    "One new theorem is individually kernel audited. This theorem supplies a quantitative Gowers bound, not the missing Bessel or inverse theorem and not StrongConjecture."
+  ],
+  "new_modules": [
+    "Hindman168/MasterOriginalShortCubeGowers.lean"
+  ],
+  "verified": {
+    "project_modules": 1045,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1054,
+    "source_config_hashes": 1063,
+    "build_jobs": 4999,
+    "axiom_reports": 4946,
+    "new_theorems": 1,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 1,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "The original same-pool master full-window short-cube Gowers specialization is proved. Comparison with signed-modulus and replica formulations, integration of rough-coprimality estimates, the deep Bessel input, cyclic-to-interval transfer and inverse correlator existence remain. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

@@ -1,0 +1,12 @@
+.lake/
+*.olean
+*.olean.private
+*.olean.server
+*.ilean
+*.c
+*.o
+__pycache__/
+*.pyc
+.env
+.env.*
+verification-local/

@@ -1,0 +1,3 @@
+✔ [5179/5181] Built Hindman168.SelectedColorCalibratedModels (18s)
+✔ [5180/5181] Built Hindman168 (12s)
+Build completed successfully (5181 jobs).

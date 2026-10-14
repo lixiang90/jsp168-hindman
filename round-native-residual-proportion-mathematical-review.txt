@@ -1,0 +1,42 @@
+JSP-000168 / Erdos #172, 2026-10-13. Partial overall coverage.
+Author-side checking, not independent replay or external peer review.
+
+Primary route: pinned Section 6 residual-step corollary. q/a are fixed while t
+varies. The literal Option-parameter-preserving spatial substitution is built
+term by term, preserving the original ordinary total degree. Its vector
+evaluation proves the logarithmic source identity at EVERY real t,y.
+Source equality is not inferred from finite samples or coset equality.
+
+The residual bad event uses ORIGINAL box endpoints, the original coarse
+q-class and arbitrary compatible finer residue modulo q*t. Normalized
+endpoint geometry is the precise assumption in the source corollary.
+An actual integer compatible representative is chosen; exact nested class
+images and injectivity transfer the two actual sample cardinalities.
+The EXACT complex discrepancy law retains the original observable, metric,
+Lipschitz/sup bounds and eta >= norm event. The two samples remain genuinely
+nonempty. There is NO coprimality/modular-inverse/fixed-box assumption.
+
+The full uniform bound takes the literal normalized source logarithm identity
+as in the manuscript. It does NOT require an extra raw-polynomial premise.
+When a true raw joint polynomial is available, the raw-source wrapper actually
+constructs the normalized polynomial and its all-real identity.
+The normalized native source is literally Q(t,a+q*y), not an independently
+supplied model/production oracle. The complete analytic comparison is the
+already proved unconditional original rough-proportion theorem.
+
+Finite filter inclusion transfers the event count with the SAME exact original
+dyadic step denominator. One uniform ratio/eventual threshold precedes all
+retained q/a, raw source coefficients and varying bad-event witnesses, and
+works across every actual member of the fixed finite native family.
+The actual member may vary with w in the convergence theorem, using dependent
+original source/polynomial types. The strict positive count bound proves the
+denominator positive before division. Empty native families assert no models.
+
+The normalized common scale Z must satisfy the original real-power growth;
+instantiate Z=Z0/q for the source corollary. Further uniformity over conditioned
+parameters with varying normalized scales requires the actual master bounds
+or a proved selection argument and is NOT inferred from a fixed-scale theorem.
+Arbitrary real spatial box conversion, nonempty sampling and cofinal w-index
+interfaces remain explicit source application obligations.
+
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original and residual native complex non-strict rough exceptional-proportion convergence, literal residual source/event composition, common fixed-finite-family budgets and exact original sampling laws WITHOUT coprimality are proved. Remaining: actual master/source/conditional-probability application and source-interface/cofinal-index/real-box/nonempty-sample bridges, separate arbitrary-input GTZ interval Gowers LINEAR nilsequence correlation inverse, full cube/Alignment synthesis and final positive distinct rapidly separated monochromatic FS/FP. Fixed-data constants do not certify explicit delta-power laws. Author checking is not independent kernel replay/external peer review. Repaired source slab estimate is not unavoidable obstruction. Public repository/PR/prize milestone not reached.

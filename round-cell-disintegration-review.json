@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-10",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "application_review": [
+    "PROGRESS. Previous audit rechecked and all baseline proof hashes preserved.",
+    "Global aligned interval containment implies both endpoints of each indexed cell lie in the original harmonic window. Positive X implies the positive cell left endpoint needed by the previous mass theorem.",
+    "The disintegration formula uses actual integerMass, exact admissible residues and the actual retained interval denominator, with an arbitrary real test function.",
+    "Each cell denominator is cancelled only after its strict positivity has been proved. The total denominator is not cancelled, so the identity also covers empty retained intervals; treating the weights as probabilities still requires the previously proved positive retained mass.",
+    "The final equality is the exact admissible-cell sum identity divided by the unchanged total denominator. Two new theorems are individually kernel audited; the global Gowers specialization and inverse inputs remain open."
+  ],
+  "new_modules": [
+    "Hindman168/AlignedCellDisintegration.lean"
+  ],
+  "verified": {
+    "project_modules": 1040,
+    "pntplus_modules": 9,
+    "source_scan_modules": 1049,
+    "source_config_hashes": 1058,
+    "build_jobs": 4994,
+    "axiom_reports": 4938,
+    "new_theorems": 2,
+    "new_definitions": 0,
+    "new_instances": 0,
+    "new_axiom_reports": 2,
+    "standard_axioms_only": true,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "root_imports_exact": true,
+    "registered_kernel_names_exact": true,
+    "full_target_proved": false
+  },
+  "remaining": "Exact disintegration now identifies the actual probability-weighted conditional cell tests with the normalized retained-interval test. Instantiating the finite cell index in the harmonic Gowers bound and applying master rate limits remains, followed by Bessel input, cyclic-to-interval transfer and inverse correlator existence. Coloring-derived targets, Calibration/Alignment and final ordered positive rapidly separated monochromatic extraction remain. StrongConjecture is unchanged and unproved. No unavoidable blocker is established; publication, PR and prize application remain pending."
+}

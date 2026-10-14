@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 50.95299999997951,
+  "log": "round-native-original-local-point-axioms.txt",
+  "log_sha256": "6d5dab3bab3a712ed4b3c3ee5c4e7c3c996dd3f856a080964bb0d4912fbbc0c1"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "module": "Hindman168/AlignmentResidueRepresentative.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentResidueRepresentative.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.890999999828637,
+    "source_sha256": "b821599c1f2a4523258cade00ec9b12cb0248ef2006cdcb3e41fa720e51ccb0d",
+    "log": "round-alignment-residue-exposure-focused-AlignmentResidueRepresentative.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentRawExposure.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentRawExposure.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.859000000171363,
+    "source_sha256": "005fbcc72797a3b121f9a1b51b5a8093e8d257a1fcd20ecdcf67f835b59ac997",
+    "log": "round-alignment-residue-exposure-focused-AlignmentRawExposure.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentExposedResidues.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentExposedResidues.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.906999999890104,
+    "source_sha256": "5963b7673733d73b6d53149d677b607f4e1b829e54cb2151eb188ade7f76874c",
+    "log": "round-alignment-residue-exposure-focused-AlignmentExposedResidues.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "module": "Hindman168/AlignmentExposedArrayOffsets.lean",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/AlignmentExposedArrayOffsets.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.108999999938533,
+    "source_sha256": "ec22d1940497c434a71fc2db1610cf03ab6264dfa7ecd604e246516fd76fed90",
+    "log": "round-alignment-residue-exposure-focused-AlignmentExposedArrayOffsets.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

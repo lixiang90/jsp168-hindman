@@ -1,0 +1,47 @@
+{
+  "exact_report_count": 2854,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_free_reports": [
+    "Hindman168.maskDescendant_none_iff",
+    "Hindman168.maskDescendant_some_of_noninvariant",
+    "Hindman168.maskDescendant_encoding_injective"
+  ],
+  "new_reports": [
+    "Hindman168.jointBoundaryResidues_subset",
+    "Hindman168.jointBoundaryResidues_image",
+    "Hindman168.periodicCell_boundary_count_dimension_bound",
+    "Hindman168.jointBoundaryResidues_card_bound",
+    "Hindman168.jointBoundaryResidues_card_total_bound",
+    "Hindman168.jointBoundaryResidues_mem_mod",
+    "Hindman168.periodicResidueWindow_partition",
+    "Hindman168.periodicResidueHarmonic_partition",
+    "Hindman168.periodicResidueHarmonic_error",
+    "Hindman168.rawMass_periodic_test",
+    "Hindman168.integerMass_periodic_test",
+    "Hindman168.unitResidues_mem_mod",
+    "Hindman168.integerMass_divisorBoundary_formula",
+    "Hindman168.harmonicNormalizer_boundary_lower",
+    "Hindman168.integerMass_divisorBoundary_bound",
+    "Hindman168.integerMass_divisorBoundary_uniform_bound",
+    "Hindman168.divisorMask_boundary_fubini",
+    "Hindman168.integerMass_divisorMask_boundary_bound",
+    "Hindman168.integerMass_onePlusDivisor_boundary_bound",
+    "Hindman168.harmonicDivisorMass_onePlus_boundary_bound",
+    "Hindman168.tailMass_onePlus_boundary_bound",
+    "Hindman168.powerDominates_ratio_of_polynomial_bound",
+    "Hindman168.MasterParameterConditions.nil_boundary_period_ratio_tendsto",
+    "Hindman168.MasterParameterConditions.nil_boundary_endpoint_ratio_tendsto",
+    "Hindman168.MasterParameterConditions.nil_boundary_raw_geometry",
+    "Hindman168.MasterParameterConditions.nil_boundary_error_tendsto",
+    "Hindman168.MasterParameterConditions.nil_boundary_uniform_divisor_eventually",
+    "Hindman168.MasterParameterConditions.nil_boundary_onePlus_eventually",
+    "Hindman168.MasterParameterConditions.nil_boundary_chain_eventually",
+    "Hindman168.nil_boundary_choose_scale",
+    "Hindman168.MasterParameterConditions.nil_boundary_chain_small"
+  ],
+  "all_registered_names_reported_exactly_once": true
+}

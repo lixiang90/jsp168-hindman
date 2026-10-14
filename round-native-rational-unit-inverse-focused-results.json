@@ -1,0 +1,194 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalFiniteInverseBudget.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.187000000150874,
+    "log": "round-native-rational-unit-inverse-NativeRationalFiniteInverseBudget-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalFiniteInverseBudget.lean",
+    "source_sha256": "1622963acb3d3daa7e54e5b56fd32131d5eead7afa5797298de038408807000a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalResidueInverseBudget.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.218999999808148,
+    "log": "round-native-rational-unit-inverse-NativeRationalResidueInverseBudget-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalResidueInverseBudget.lean",
+    "source_sha256": "247fa359d5d5347ff36d59e7cfc50af67f87ec23b650f171b3fe9ef8990c8658"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalCharacterInverseInduction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.563000000081956,
+    "log": "round-native-rational-unit-inverse-NativeRationalCharacterInverseInduction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalCharacterInverseInduction.lean",
+    "source_sha256": "e26605051cd91d68848e6021bfa3ebdcd83dec9a14c7b172f1e4dedfab12166e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalFiniteCharacterInverseInduction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.327999999979511,
+    "log": "round-native-rational-unit-inverse-NativeRationalFiniteCharacterInverseInduction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalFiniteCharacterInverseInduction.lean",
+    "source_sha256": "dceb65575f6e28f485ba97247fbab674537644cead007c47652952fb5c08ec4b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalNonzeroFourierInverseInduction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 13.452999999979511,
+    "log": "round-native-rational-unit-inverse-NativeRationalNonzeroFourierInverseInduction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalNonzeroFourierInverseInduction.lean",
+    "source_sha256": "c9522523f3a326aa933edd1759d49556a25f477e5e9ea2e2ca32c3168d99894d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalLargeInverseInduction.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.75,
+    "log": "round-native-rational-unit-inverse-NativeRationalLargeInverseInduction-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalLargeInverseInduction.lean",
+    "source_sha256": "0bdbcc7d4ef11316d80ffe9ae618d71e477faeade0b542b1b5e17d7ae63e399a"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/FiniteComplexDiscrepancyAnchor.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 8.358999999938533,
+    "log": "round-native-rational-unit-inverse-FiniteComplexDiscrepancyAnchor-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/FiniteComplexDiscrepancyAnchor.lean",
+    "source_sha256": "895a0b49a424a72bb9b3f5a52c5dbbc26f240a8e61d7ef21a9d00474ff29c2e1"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalConstantDiscrepancyAnchor.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.0,
+    "log": "round-native-rational-unit-inverse-NativeRationalConstantDiscrepancyAnchor-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalConstantDiscrepancyAnchor.lean",
+    "source_sha256": "8fbd25d801f078b0f82810f1de55c7b376eafefe7fa8b405111abca70164e225"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/MvBoundedLengthCoefficient.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.531000000191852,
+    "log": "round-native-rational-unit-inverse-MvBoundedLengthCoefficient-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/MvBoundedLengthCoefficient.lean",
+    "source_sha256": "69942ca72d1ec6264344d404b209e9957f668c8703e700958309cc166bd059b8"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalLargeToAllLengths.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.234999999869615,
+    "log": "round-native-rational-unit-inverse-NativeRationalLargeToAllLengths-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalLargeToAllLengths.lean",
+    "source_sha256": "fe20c70b1fdd8f60056e6b2d67c73a2fedc589d4aaddf01765d333f2b8665404"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalFullInverseInductionStep.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.312000000150874,
+    "log": "round-native-rational-unit-inverse-NativeRationalFullInverseInductionStep-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalFullInverseInductionStep.lean",
+    "source_sha256": "7796a0ec5847574af069afb2502d16a0d771db04317245d49184234ea2b1e569"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeRationalUnitInverse.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 12.265999999828637,
+    "log": "round-native-rational-unit-inverse-NativeRationalUnitInverse-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeRationalUnitInverse.lean",
+    "source_sha256": "bf49f441a94658fd52f1c836e15db0743ba3e878288ed515ce985ade6e9cc644"
+  }
+]

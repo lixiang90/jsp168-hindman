@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughHorizontalError.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.406999999890104,
+    "log": "round-rough-horizontal-step-RoughHorizontalError-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughHorizontalError.lean",
+    "source_sha256": "7d5e508443622300f9bf324305460fbedf30d58b787763eac0d957bcdaddb4cd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughHorizontalInterpolation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.70299999997951,
+    "log": "round-rough-horizontal-step-RoughHorizontalInterpolation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughHorizontalInterpolation.lean",
+    "source_sha256": "4479b387d83cce532bcb283c0e63340ce77b32a810d105d6e445fad4161641e5"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/RoughBinomialWeights.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 16.04700000002049,
+    "log": "round-rough-horizontal-step-RoughBinomialWeights-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/RoughBinomialWeights.lean",
+    "source_sha256": "63edc927b1b6bedc1304682d1b983de6d4d7c1195242b29a398415ab51862796"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "baseline_hash_count": 1055,
+  "modules": [
+    "Hindman168/WeightedHarmonicCyclicCells.lean",
+    "Hindman168/HarmonicShortCubeGowersBound.lean"
+  ],
+  "names": [
+    "Hindman168.weighted_completeCell_harmonic_cyclic_error",
+    "Hindman168.weighted_harmonicCell_shortCube_gowers_bound"
+  ],
+  "theorem_count": 2,
+  "declarations": {
+    "Hindman168/WeightedHarmonicCyclicCells.lean": [
+      [
+        "theorem",
+        "weighted_completeCell_harmonic_cyclic_error"
+      ]
+    ],
+    "Hindman168/HarmonicShortCubeGowersBound.lean": [
+      [
+        "theorem",
+        "weighted_harmonicCell_shortCube_gowers_bound"
+      ]
+    ]
+  }
+}

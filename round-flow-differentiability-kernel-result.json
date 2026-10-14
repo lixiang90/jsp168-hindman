@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 14.297,
+  "log": "round-flow-differentiability-axioms.txt",
+  "log_sha256": "7a22500da23ec91b27f3e6a54ca06e7317ef7303eb72edaba103add5e431dc68",
+  "terminal": true
+}

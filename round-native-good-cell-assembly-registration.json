@@ -1,0 +1,94 @@
+{
+  "baseline_hash_count": 1178,
+  "modules": [
+    "Hindman168/NativePieceFiniteSelection.lean",
+    "Hindman168/InjectiveOptionSelection.lean",
+    "Hindman168/NativeGoodCellAssembly.lean",
+    "Hindman168/NativeFiniteCellProjection.lean",
+    "Hindman168/MasterCompleteCellProjectionGeometry.lean",
+    "Hindman168/MasterFiniteCellRecipeProjection.lean"
+  ],
+  "names": [
+    "Hindman168.nativePieceOn_piece_select",
+    "Hindman168.nativePieceRepresented_piece_select",
+    "Hindman168.piece_selected_family_unit",
+    "Hindman168.injective_admissible_option_selection",
+    "Hindman168.admissible_option_selection_none",
+    "Hindman168.complete_cell_piece_label_injective",
+    "Hindman168.native_good_cell_family_assembly",
+    "Hindman168.native_projection_lower_from_finite_cell_recipes",
+    "Hindman168.masterCompleteCells",
+    "Hindman168.MasterParameterConditions.complete_cell_projection_geometry",
+    "Hindman168.MasterParameterConditions.complete_cell_mass_tendsto",
+    "Hindman168.MasterParameterConditions.complete_cell_scale_ratio_tendsto",
+    "Hindman168.MasterParameterConditions.finite_cell_recipe_projection_lower"
+  ],
+  "theorem_count": 12,
+  "selected_report_count": 13,
+  "declarations": {
+    "Hindman168/NativePieceFiniteSelection.lean": [
+      [
+        "theorem",
+        "nativePieceOn_piece_select"
+      ],
+      [
+        "theorem",
+        "nativePieceRepresented_piece_select"
+      ],
+      [
+        "theorem",
+        "piece_selected_family_unit"
+      ]
+    ],
+    "Hindman168/InjectiveOptionSelection.lean": [
+      [
+        "theorem",
+        "injective_admissible_option_selection"
+      ],
+      [
+        "theorem",
+        "admissible_option_selection_none"
+      ]
+    ],
+    "Hindman168/NativeGoodCellAssembly.lean": [
+      [
+        "theorem",
+        "complete_cell_piece_label_injective"
+      ],
+      [
+        "theorem",
+        "native_good_cell_family_assembly"
+      ]
+    ],
+    "Hindman168/NativeFiniteCellProjection.lean": [
+      [
+        "theorem",
+        "native_projection_lower_from_finite_cell_recipes"
+      ]
+    ],
+    "Hindman168/MasterCompleteCellProjectionGeometry.lean": [
+      [
+        "def",
+        "masterCompleteCells"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.complete_cell_projection_geometry"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.complete_cell_mass_tendsto"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.complete_cell_scale_ratio_tendsto"
+      ]
+    ],
+    "Hindman168/MasterFiniteCellRecipeProjection.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.finite_cell_recipe_projection_lower"
+      ]
+    ]
+  }
+}

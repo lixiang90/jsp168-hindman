@@ -1,0 +1,66 @@
+✖ [3955/3956] Building Hindman168.PrimePowerCRTExcessTransfer (7.5s)
+trace: .> LEAN_PATH=E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Cli\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\batteries\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\Qq\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\aesop\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\proofwidgets\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\importGraph\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\LeanSearchClient\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\plausible\.lake\build\lib\lean;E:\codex-build\sun_prize\erdos953-lower\.lake\packages\mathlib\.lake\build\lib\lean;E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean c:\Users\A\.elan\toolchains\leanprover--lean4---v4.32.2\bin\lean.exe E:\codex-build\sun_prize\jsp168-hindman\Hindman168\PrimePowerCRTExcessTransfer.lean -o E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PrimePowerCRTExcessTransfer.olean -i E:\codex-build\sun_prize\jsp168-hindman\.lake\build\lib\lean\Hindman168\PrimePowerCRTExcessTransfer.ilean -c E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PrimePowerCRTExcessTransfer.c --setup E:\codex-build\sun_prize\jsp168-hindman\.lake\build\ir\Hindman168\PrimePowerCRTExcessTransfer.setup.json --json
+error: Hindman168/PrimePowerCRTExcessTransfer.lean:32:29: Unknown identifier `localExcessBetaProduct`
+
+Note: It is not possible to treat `localExcessBetaProduct` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: Hindman168/PrimePowerCRTExcessTransfer.lean:37:12: Unknown identifier `localExcessBetaProduct_expectation_transfer`
+error: Hindman168/PrimePowerCRTExcessTransfer.lean:36:76: unsolved goals
+ι : Type u_1
+α : Type u_2
+inst✝² : Fintype ι
+q n : ℕ
+p : ι → ℕ
+inst✝¹ : ∀ (i : ι), NeZero (p i)
+hp : ∀ (i : ι), Nat.Prime (p i)
+hinj : Function.Injective p
+e : ι → ℕ
+inst✝ : NeZero (∏ i, p i ^ e i)
+a : ι → Fin q → ℕ
+D : Finset (MvPolynomial (Fin n) ℤ)
+V : ℕ
+hV : ∀ (u : Fin q), ∏ i, p i ^ a i u ≤ V
+μ : Mass α
+stat : α → Fin n → ZMod (∏ i, p i ^ e i)
+⊢ |(expectation μ fun x => sorry) - primePowerCRTExcessIntegrand p hp hinj e a D| ≤
+    ↑(V ^ q) * distance (Finsupp.mapDomain stat μ) (piMass fun x => zmodUnitUniformMass (∏ i, p i ^ e i))
+error: Hindman168/PrimePowerCRTExcessTransfer.lean:66:20: Unknown identifier `localExcessBetaProduct`
+error: Hindman168/PrimePowerCRTExcessTransfer.lean:62:104: unsolved goals
+ι : Type u_1
+α : Type u_2
+inst✝² : Fintype ι
+q d n : ℕ
+p : ι → ℕ
+inst✝¹ : ∀ (i : ι), NeZero (p i)
+hp : ∀ (i : ι), Nat.Prime (p i)
+hinj : Function.Injective p
+e : ι → ℕ
+inst✝ : NeZero (∏ i, p i ^ e i)
+a : ι → Fin q → ℕ
+D : Finset (MvPolynomial (Fin n) ℤ)
+μ : Mass α
+hμ : ∀ (x : α), 0 ≤ μ x
+stat : α → Fin n → ZMod (∏ i, p i ^ e i)
+c : α → Fin q → Fin d → ℤ
+E : α → Prop
+hprimitive : ∀ (x : α), E x → ∀ (i : ι) (u : Fin q), ∃ j, ↑(c x u j) ≠ 0
+hindependent :
+  ∀ (x : α),
+    E x →
+      ∀ (i : ι),
+        ¬primePowerCRTBadEvent p hp hinj e D (stat x) i →
+          ∀ (u v : Fin q), u ≠ v → LinearIndependent (ZMod (p i)) ![fun j => ↑(c x u j), fun j => ↑(c x v j)]
+V : ℕ
+hV : ∀ (u : Fin q), ∏ i, p i ^ a i u ≤ V
+f : α → ℝ := fun x => if E x then ∏ i, primePowerLocalAlpha (p i) q d (rowMaxValuation (a i)) (a i) ⋯ (c x) - 1 else 0
+⊢ (0 ≤
+      expectation μ fun x =>
+        if E x then ∏ i, primePowerLocalAlpha (p i) q d (rowMaxValuation (a i)) (a i) ⋯ (c x) - 1 else 0) ∧
+    (expectation μ fun x =>
+        if E x then ∏ i, primePowerLocalAlpha (p i) q d (rowMaxValuation (a i)) (a i) ⋯ (c x) - 1 else 0) ≤
+      primePowerCRTExcessIntegrand p hp hinj e a D +
+        ↑(V ^ q) * distance (Finsupp.mapDomain stat μ) (piMass fun x => zmodUnitUniformMass (∏ i, p i ^ e i))
+error: Lean exited with code 1
+✔ [3956/3956] Built Hindman168.WeightedMasksBaseTransfer (7.7s)
+Some required targets logged failures:
+- Hindman168.PrimePowerCRTExcessTransfer
+error: build failed

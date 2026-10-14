@@ -1,0 +1,41 @@
+{
+  "baseline_hash_count": 1043,
+  "modules": [
+    "Hindman168/AlignedInteriorMassSplit.lean",
+    "Hindman168/MasterAlignedInteriorMass.lean"
+  ],
+  "names": [
+    "Hindman168.integerMass_support_in_window",
+    "Hindman168.integerMass_window_sum",
+    "Hindman168.alignedInterior_mass_split",
+    "Hindman168.MasterParameterConditions.aligned_interior_mass_tendsto",
+    "Hindman168.MasterParameterConditions.aligned_interior_mass_eventually_positive"
+  ],
+  "theorem_count": 5,
+  "declarations": {
+    "Hindman168/AlignedInteriorMassSplit.lean": [
+      [
+        "theorem",
+        "integerMass_support_in_window"
+      ],
+      [
+        "theorem",
+        "integerMass_window_sum"
+      ],
+      [
+        "theorem",
+        "alignedInterior_mass_split"
+      ]
+    ],
+    "Hindman168/MasterAlignedInteriorMass.lean": [
+      [
+        "theorem",
+        "MasterParameterConditions.aligned_interior_mass_tendsto"
+      ],
+      [
+        "theorem",
+        "MasterParameterConditions.aligned_interior_mass_eventually_positive"
+      ]
+    ]
+  }
+}
