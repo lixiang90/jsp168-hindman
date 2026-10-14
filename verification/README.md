@@ -97,17 +97,19 @@ hypothesis remains in this local endpoint. The padding-gap/principal-cutoff
 geometry and exact uniform-to-harmonic transfer are audited in
 [selected gap geometry](selected-gap-geometry/README.md).
 
-The remaining uniform-principle assembly is:
+The actual harmonic and outside-conditioning assembly is now also proved:
+[selected pivot extension](pivot-extension/README.md) gives, uniformly over
+EVERY earlier raw event, an original-sample secured-route extension with
+multiplier `1/(3 Q^2)` and an error tending to zero. Exact disintegration,
+fine exceptions, harmonic likelihood, Markov, signed shift removal and the
+finite-scale observation identity are all supplied internally.
 
-- Apply the proved harmonic-cell transfer and fine-to-outside conditioning
-  to the actual local route events; remove the finite route-shift boundary.
-- Supply secured thresholds along the actual future-protected path
-  partition and apply the existing event identification and finite-pivot
-  mass product.
-- Construct one compatible finite prediction-scale schedule and common
-  clearing integer, with positive lower bound fixed before models, padding,
-  complexity and threshold. The local recurrence now handles zero native
-  step by choosing recurrence step `s+1` before models.
+Remaining uniform-principle work is the actual model-independent finite
+schedule and common clearing integer, first-success future-protected path
+partition, and product of these pivot multipliers. These must imply the
+existing final alignment event with a positive bound fixed before models,
+padding, complexity and threshold. The local recurrence handles zero native
+step by choosing recurrence step `s+1` before models.
 
 The exact `HasAlignmentMonomialRecurrence s` input is already proved for
 all `s` by the original OpenAI PET proof. The canonical finite-word plan
