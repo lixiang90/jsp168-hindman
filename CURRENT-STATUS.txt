@@ -2,28 +2,26 @@ JSP-000168 / Erdos #172 -- 2026-10-14
 
 Verdict: Partial overall coverage; PROGRESS.
 Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction established.
-Latest terminal author audit: round-native-common-point-cube
+Latest terminal author audit: round-native-empirical-cube-invariance
 
-Defined the genuine NativeSmoothActionLimit of the actual sequential smooth factors and proved existence of ONE smooth witness from their actual convergence. It contains only the original uniform action-freezing estimate, not a point/cube/source/Haar oracle.
+Proved a uniform norm bound for the discrepancy between an actual finite complex mean and an actual probability integral, including empty algebraic samples without claiming they are probability measures.
 
-Proved point and cube smooth-insertion laws for a GIVEN common smooth-action witness. Both use the same h and actual factors; each discharges the original local estimates from the genuine freezing property and existing frozen Haar laws.
+Extended the ORIGINAL bounded cube alpha law to EVERY fixed continuous test on the actual compact cube quotient. A fixed Lipschitz approximation and the genuine Haar probability bound preserve endpoint, residue and fixed-modulus uniformity. Derived the actual standard alpha-window local law for continuous tests.
 
-Proved the ORIGINAL point and cube residue laws while RETAINING that given h. Exact original factorization and periodic right-coset identities are used, with no identification of independently chosen existential witnesses.
+Proved that length-first local approximation and actual empirical comparison at each FIXED alpha force equality of the limiting integrals. No diagonal alpha(m), illicit exchange of limits, or uniform Lipschitz assumption on projection/face maps is used.
 
-Proved native_sequential_common_point_cube_limits by invoking the original periodic factorization ONCE and the actual common smooth-curve theorem ONCE. The SAME subsequence, filtration, period, rational representatives and h supply point residue/real laws, cube radius/bounded-alpha laws, continuous point-Haar integrals, actual global point-mixture weak probability convergence and the mixture formula for EVERY continuous complex observable.
+Proved actual empirical comparison for all fixed Lipschitz tests extends to all continuous tests on a compact metric space. Combined this with the local-limit comparison and measure extensionality to obtain actual projected measure invariance for a continuous map.
 
-Proved that a continuous measure-preserving map sends a closed full-support set into itself, and a measure-preserving homeomorphism preserves it SETWISE. Invariance of the inverse map is derived from the actual pushforward equality, not separately assumed.
-
-Proved the ACTUAL projected cube Haar image is positive on exactly the opens meeting the projected compact cube orbit. Consequently a proved homeomorphic symmetry of that projected measure preserves the projected cube coset setwise. This supplies the measure-to-set bridge required by the marginal face-lift argument; the actual face measure-invariance premise remains to be discharged.
+Applied the transfer to the genuine nativeResidueCubeHaarImage and the ORIGINAL polynomial cube orbit with exact standard windows and period residues. The actual projected empirical-comparison premise is explicitly retained; supplying it from selected alignment arrays remains unfinished. This theorem alone is NOT a proof of marginal face invariance.
 
 {
-  "project_modules": 2969,
+  "project_modules": 2976,
   "pntplus_modules": 9,
   "attributed_szemeredi_modules": 42,
-  "build_jobs": 7011,
-  "selected_axiom_reports": 11445,
-  "new_declarations": 11,
-  "new_theorems": 10,
+  "build_jobs": 7018,
+  "selected_axiom_reports": 11453,
+  "new_declarations": 8,
+  "new_theorems": 7,
   "new_definitions": 1,
   "new_external_targets": 0,
   "retained_proof_sources_unchanged": true,
@@ -34,4 +32,4 @@ Proved the ACTUAL projected cube Haar image is positive on exactly the opens mee
   "independent_kernel_replay": false
 }
 
-StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Point and cube local laws, bounded alpha laws, continuous Haar families and the actual global point-mixture weak limit now share ONE original subsequence and ONE factorization/smooth curve. Projected cube Haar full support and the measure-symmetry-to-setwise-coset bridge are proved. Remaining: transfer the actual countably selected marginal face comparison estimates through length-first local limits to PROVE projected face measure invariance, then use the support bridge; genuine marginal-to-joint lifts and weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Common-witness original point/cube local laws, continuous cube alpha-window tests, actual global point-mixture weak limits, projected Haar full support and measure-to-setwise support transfer are proved. The genuine original-cube empirical-comparison-to-projected-Haar-invariance implication is now proved, conditional on the ACTUAL empirical comparison. Remaining: exact identification of countably selected native alignment array evaluations with the required projected original full-cube orbit and derivation of their fixed-alpha comparison limits, then projected face measure/set invariance; genuine marginal-to-joint lifts and weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached.

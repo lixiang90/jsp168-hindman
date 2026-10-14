@@ -19349,3 +19349,19 @@ import Hindman168
 #print axioms Hindman168.native_projected_cube_haar_open_pos_iff
 
 #print axioms Hindman168.native_projected_cube_symmetry_preserves_coset
+
+#print axioms Hindman168.finiteProbabilityDiscrepancy
+
+#print axioms Hindman168.finite_probability_discrepancy_norm
+
+#print axioms Hindman168.iterated_empirical_limits_equal
+
+#print axioms Hindman168.native_cube_continuous_alpha_test
+
+#print axioms Hindman168.native_original_continuous_cube_window
+
+#print axioms Hindman168.continuous_empirical_comparison_of_lipschitz
+
+#print axioms Hindman168.local_empirical_projected_measure_invariant
+
+#print axioms Hindman168.native_projected_cube_empirical_invariance

@@ -1,0 +1,55 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI sections 7 (original cube local limits) and 8 (face invariance).
+
+The finite discrepancy operator is explicitly the finite normalized sum minus
+an ACTUAL integral against a probability measure. Its norm bound is 2 times the
+continuous-test sup norm. An empty finite sample has algebraic mean zero; it
+is never called an empirical probability measure. Linearity uses integrability
+of continuous functions on the compact probability space.
+
+For each continuous cube test f, choose ONE Lipschitz g within epsilon/6.
+Apply the proved ORIGINAL bounded alpha law to g with its actual finite sup
+norm and Lipschitz constant and tolerance epsilon/3. The discrepancy operator
+bounds the replacement error by 2*epsilon/6. The resulting scale is uniform
+over the original allowed endpoints/residues/moduli, for this fixed test.
+It is not a claim of uniform approximation over ALL continuous tests. Actual
+Haar probability and metric-compatible quotient Borel structures are used.
+The standard-window corollary instantiates the existing exact geometry with
+c=C=1, base residue b and zero increment residues. L tends to infinity so
+positive real lengths hold eventually. No source replacement takes place.
+
+The numerical comparison lemma fixes epsilon and chooses a SINGLE positive
+alpha below both local radii. Only then is the sequence index sent large
+enough for the two local estimates and their actual empirical difference.
+The triangle inequality forces equality of the limiting integrals. This is
+length-first and never assumes convergence for a diagonal alpha(m).
+
+To extend an empirical comparison to continuous tests, approximate a fixed
+continuous test once by a Lipschitz test, bound the error of each finite mean
+by epsilon/4, and use the eventual epsilon/4 comparison for that same fixed
+Lipschitz test. Empty sets cause no issue for the algebraic bound.
+
+For projected measure invariance, pi and T are only continuous. Do not claim
+either is globally Lipschitz. The preceding extension first supplies comparison
+for EVERY continuous target test. Pullbacks F o T o pi and F o pi are continuous
+on the source; its actual local law and the ordered-limit lemma equate their
+integrals. Real bounded continuous tests are embedded into complex tests, and
+actual pushforward integral identities plus finite-measure extensionality give
+T_*(pi_*mu)=pi_*mu. All probability/finite-measure hypotheses are discharged.
+
+The final native theorem supplies this local law from the genuine ORIGINAL
+standard-window theorem and sets mu to nativeResidueCubeHaarImage with the
+literal same filtration, period, rational residue and smooth curve. It retains
+the exact empirical comparison as a premise. The common original-source
+factorization theorem from the preceding round supplies the bounded local law;
+no independent curve or source is selected here.
+
+LIMIT: the actual selected native-array states are not yet identified with
+this projected original full-cube orbit. That equality and the resulting
+fixed-alpha comparison limits must be proved; they must NOT be replaced by an
+unproved source oracle or assumed global Lipschitzness. Thus actual marginal
+face invariance remains unproved. The prior full-support bridge is available
+only AFTER the genuine measure-invariance premise has been discharged.
+Joint lifts, recurrence/full Alignment, arbitrary-input GTZ inverse and the
+final same-color FS/FP theorem remain unfinished. No full-target claim.
+Author audit is not independent kernel replay or peer review. Keep PRIVATE.

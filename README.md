@@ -47,7 +47,8 @@ run verifies this checkpoint; it does not prove the unfinished main theorem.
 
 - `CURRENT-STATUS.txt`: authoritative latest terminal audit and remaining work.
 - `verification-manifest.json`: audited files, SHA-256 hashes and pinned sources.
-- `COMMON-POINT-CUBE-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `EMPIRICAL-CUBE-INVARIANCE-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `COMMON-POINT-CUBE-CONTINUATION.txt`: preceding common-witness point/cube checkpoint.
 - `CUBE-ALPHA-LIMIT-CONTINUATION.txt`: preceding explicit ordered-limit checkpoint.
 - `ORIGINAL-CUBE-LOCAL-CONTINUATION.txt`: preceding original cube radius law.
 - `CUBE-BOX-HAAR-CONTINUATION.txt`: preceding internal cube Haar checkpoint.
@@ -65,8 +66,10 @@ laws, bounded alpha-box laws, continuous point-Haar integrals, and the actual
 global point-mixture weak limit on the SAME subsequence and data. Projected
 cube Haar full support and its measure-to-setwise-symmetry implication are proved.
 
-The next task proves the actual projected face measure invariance from the
-countably selected face comparison estimates and length-first local limits.
+The original cube local law now applies to every continuous test, and actual
+fixed-alpha empirical comparison is proved to imply projected Haar invariance.
+The next task supplies that comparison by identifying the countably selected
+alignment array states with the required projected original cube orbit.
 The support implication still requires that premise; it is not a completed
 face-invariance proof. Joint lifts, Alignment, the remaining GTZ inverse work
 and the final same-color FS/FP argument are still outstanding.

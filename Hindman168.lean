@@ -5241,3 +5241,17 @@ import Hindman168.NativeSequentialCommonPointCubeLimits
 import Hindman168.ClosedSupportMeasureSymmetry
 
 import Hindman168.NativeProjectedCubeSupport
+
+import Hindman168.FiniteProbabilityDiscrepancy
+
+import Hindman168.IteratedEmpiricalEquality
+
+import Hindman168.NativeOriginalCubeContinuousAlpha
+
+import Hindman168.NativeOriginalContinuousCubeWindows
+
+import Hindman168.ContinuousEmpiricalComparison
+
+import Hindman168.LocalEmpiricalMeasureInvariance
+
+import Hindman168.NativeProjectedCubeEmpiricalInvariance

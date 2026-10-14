@@ -1,0 +1,67 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+PRIVATE repository: https://github.com/lixiang90/jsp168-hindman . Keep PRIVATE.
+Round: round-native-empirical-cube-invariance. Consult CURRENT-STATUS.txt and
+verification-manifest.json for terminal audit. Author audit is not peer review.
+
+Seven modules add the analytic transfer required by paper section 8, while
+retaining the exact empirical comparison that still needs to be discharged.
+
+FiniteProbabilityDiscrepancy: finiteProbabilityDiscrepancy is the actual finite
+complex mean minus the genuine probability integral, as a complex linear map
+on continuous tests. finite_probability_discrepancy_norm bounds it by 2*norm F.
+Empty finite samples are algebraic means zero, not probability measures.
+
+NativeOriginalCubeContinuousAlpha: native_cube_continuous_alpha_test extends
+NativeCubeBoundedAlphaHaarLaw to each arbitrary continuous cube test. Fixed
+Lipschitz approximation and the actual Haar probability bound preserve all
+allowed endpoints/residues and modulus multiples, for that fixed test.
+
+NativeOriginalContinuousCubeWindows: native_original_continuous_cube_window
+supplies the exact actual standard-box local law for continuous tests. The
+samples are alignmentBoxClass of ceil(cubeAlphaLower/Upper), with base residue
+b and zero increment residues. The source is P_m(x0+sum selected increments)
+in the ORIGINAL quotient. The limit is the genuine nativeResidueCubeHaarImage
+at sigma(signedPeriodResidue M hM b) and h(beta). First choose alpha, then m.
+
+IteratedEmpiricalEquality: iterated_empirical_limits_equal equates limiting
+readings using their local approximation laws and actual mean differences
+converging to zero for EACH fixed positive alpha. No diagonal scale is used.
+
+ContinuousEmpiricalComparison: continuous_empirical_comparison_of_lipschitz
+extends comparison for every fixed Lipschitz target test to each continuous
+target test. It retains the SAME finite sample sets and points.
+
+LocalEmpiricalMeasureInvariance: local_empirical_projected_measure_invariant
+combines those results for a compact metric probability source mu, continuous
+pi and continuous T. The actual source local law and projected empirical
+comparison imply T_*(pi_*mu)=pi_*mu. pi and T need NOT be Lipschitz. Continuous
+pullbacks, actual integral_map and finite-measure extensionality are used.
+
+NativeProjectedCubeEmpiricalInvariance: native_projected_cube_empirical_invariance
+instantiates the transfer with the ORIGINAL cube orbit and genuine Haar image,
+using the continuous standard-window theorem to DISCHARGE the local-limit
+premise. The ACTUAL projected comparison premise is explicitly still present.
+This theorem is not by itself a proof of the required marginal face invariance.
+Use native_sequential_common_point_cube_limits for one common source, filtration,
+period and smooth curve; do not combine independently selected witnesses.
+
+NEXT: discharge that actual comparison from the countably selected alignment
+samples in AlignmentNativeCompleteCubeCountableSelection and
+AlignmentAllTargetsNativeCountableSelection. The failure predicate is in
+AlignmentNativeCompleteCubeFailure; original means and readings are in
+AlignmentOriginalNativeCubeMeans and AlignmentOriginalNativeCubeState.
+Its native arrays depend on zero-one weights, a slot and selected periods.
+Prove exact evaluation/projection identities relating those array states to
+the required projected full ORIGINAL cube orbit. Do not merely assume that
+identification. Enumerate fixed modulus and bounded geometry/test/accuracy
+conditions BEFORE the sequence-selected period, then derive comparison at each
+fixed alpha and apply the new transfer. Only after measure invariance is proved
+apply NativeProjectedCubeSupport to get setwise coset invariance. That prior
+support theorem uses the quotient topology; transport metric statements via
+nativeNilmanifold_metric_topology when necessary.
+
+Other unresolved main work: genuine marginal-to-joint lifts, weighted-shear
+recurrence/full Alignment, arbitrary-input GTZ interval Gowers LINEAR nilsequence
+inverse, and final positive distinct rapidly separated SAME-color ALL nonempty
+FS AND FP. No completion percentage or timetable is justified by module counts.
+No unavoidable obstruction established. No PR/prize submission yet. Keep PRIVATE.

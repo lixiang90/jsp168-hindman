@@ -1,0 +1,69 @@
+{
+  "modules": [
+    "Hindman168/FiniteProbabilityDiscrepancy.lean",
+    "Hindman168/IteratedEmpiricalEquality.lean",
+    "Hindman168/NativeOriginalCubeContinuousAlpha.lean",
+    "Hindman168/NativeOriginalContinuousCubeWindows.lean",
+    "Hindman168/ContinuousEmpiricalComparison.lean",
+    "Hindman168/LocalEmpiricalMeasureInvariance.lean",
+    "Hindman168/NativeProjectedCubeEmpiricalInvariance.lean"
+  ],
+  "names": [
+    "Hindman168.finiteProbabilityDiscrepancy",
+    "Hindman168.finite_probability_discrepancy_norm",
+    "Hindman168.iterated_empirical_limits_equal",
+    "Hindman168.native_cube_continuous_alpha_test",
+    "Hindman168.native_original_continuous_cube_window",
+    "Hindman168.continuous_empirical_comparison_of_lipschitz",
+    "Hindman168.local_empirical_projected_measure_invariant",
+    "Hindman168.native_projected_cube_empirical_invariance"
+  ],
+  "declarations": {
+    "Hindman168/FiniteProbabilityDiscrepancy.lean": [
+      [
+        "def",
+        "finiteProbabilityDiscrepancy"
+      ],
+      [
+        "theorem",
+        "finite_probability_discrepancy_norm"
+      ]
+    ],
+    "Hindman168/IteratedEmpiricalEquality.lean": [
+      [
+        "theorem",
+        "iterated_empirical_limits_equal"
+      ]
+    ],
+    "Hindman168/NativeOriginalCubeContinuousAlpha.lean": [
+      [
+        "theorem",
+        "native_cube_continuous_alpha_test"
+      ]
+    ],
+    "Hindman168/NativeOriginalContinuousCubeWindows.lean": [
+      [
+        "theorem",
+        "native_original_continuous_cube_window"
+      ]
+    ],
+    "Hindman168/ContinuousEmpiricalComparison.lean": [
+      [
+        "theorem",
+        "continuous_empirical_comparison_of_lipschitz"
+      ]
+    ],
+    "Hindman168/LocalEmpiricalMeasureInvariance.lean": [
+      [
+        "theorem",
+        "local_empirical_projected_measure_invariant"
+      ]
+    ],
+    "Hindman168/NativeProjectedCubeEmpiricalInvariance.lean": [
+      [
+        "theorem",
+        "native_projected_cube_empirical_invariance"
+      ]
+    ]
+  }
+}

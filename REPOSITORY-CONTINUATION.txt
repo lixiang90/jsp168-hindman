@@ -12,13 +12,13 @@ repository and requested PR/prize application at the later milestone.
 The full mathematical objective remains unchanged and ACTIVE.
 StrongConjecture is UNPROVED; no unavoidable obstruction established.
 
-Latest mathematical round: round-native-common-point-cube. Eight new modules
-join point and cube laws and the global point-mixture weak limit on ONE original
-subsequence and ONE chosen smooth curve. They also prove actual projected cube
-Haar full support and the measure-invariance-to-setwise-coset implication.
-Actual projected face measure invariance and joint lifts remain unfinished.
+Latest mathematical round: round-native-empirical-cube-invariance. Seven new
+modules extend original local cube limits to continuous tests and transfer
+actual fixed-alpha projected empirical comparison to projected Haar invariance.
+The required empirical comparison premise remains to be supplied from the
+selected alignment arrays; actual marginal face invariance is NOT yet proved.
 Consult CURRENT-STATUS.txt and verification-manifest.json for terminal audit
-status, and COMMON-POINT-CUBE-CONTINUATION.txt for exact next proof work.
+status, and EMPIRICAL-CUBE-INVARIANCE-CONTINUATION.txt for exact next proof work.
 
 README.md contains portable setup and continuation instructions.
 scripts/verify_snapshot.py verifies exact canonical source hashes and,

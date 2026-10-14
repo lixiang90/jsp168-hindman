@@ -9,11 +9,11 @@
   "files": [
     {
       "path": "Hindman168.lean",
-      "sha256": "c033bcb346b02404fff40f64123a6558c8c9fe486291fadc681146c42c293431"
+      "sha256": "b18999e55079a00aedfb817321bf3f323f1438955b4a40f172e82af8743a7884"
     },
     {
       "path": "Verification.lean",
-      "sha256": "8adedb40cdbd0dfa38e1fc49efff622a062aa7bb51e9055540e35374bb9aa41e"
+      "sha256": "1cbbc32151d3b89d13542a43bcdb1ec49d6b86a783f8b0ce994683f9265518ad"
     },
     {
       "path": "lean-toolchain",
@@ -12146,6 +12146,34 @@
     {
       "path": "Hindman168/NativeProjectedCubeSupport.lean",
       "sha256": "036b3eeefb7d6a9c96f34dd55d5d873765f859e69d3436458a90f1a33bc4a69c"
+    },
+    {
+      "path": "Hindman168/FiniteProbabilityDiscrepancy.lean",
+      "sha256": "daf0845c124cbd6bdfc5d1e88c9479f788fc6601ad8d6d05adc8d5cc94b378b0"
+    },
+    {
+      "path": "Hindman168/IteratedEmpiricalEquality.lean",
+      "sha256": "66c09badf2ba603b89424c23c3ea1d85672b3f09a5eb1aca4cef03a6a1d55aba"
+    },
+    {
+      "path": "Hindman168/NativeOriginalCubeContinuousAlpha.lean",
+      "sha256": "7a0171d135fcac868350553747a9ace8d625eb6d312a6d994cd6b798647bec30"
+    },
+    {
+      "path": "Hindman168/NativeOriginalContinuousCubeWindows.lean",
+      "sha256": "0e3d347486ba783b9c1f1a492d4a4bfbafb375c8a6ce8d8dc85df02b84b9417a"
+    },
+    {
+      "path": "Hindman168/ContinuousEmpiricalComparison.lean",
+      "sha256": "654522018c42c1eef2fc3c4fc38efaae2ce1b48c51932942d7a5980fb9a75324"
+    },
+    {
+      "path": "Hindman168/LocalEmpiricalMeasureInvariance.lean",
+      "sha256": "a67f10f55895ab1b77872ff044c837adf43ef7dd8aec35429d008b04c57a3756"
+    },
+    {
+      "path": "Hindman168/NativeProjectedCubeEmpiricalInvariance.lean",
+      "sha256": "b605d97839a1b9150a7cd32a97a347b4820e67ce5090249e8cdbd2652047339b"
     }
   ],
   "proved_components": [
@@ -14753,25 +14781,30 @@
     "Proved the ORIGINAL point and cube residue laws while RETAINING that given h. Exact original factorization and periodic right-coset identities are used, with no identification of independently chosen existential witnesses.",
     "Proved native_sequential_common_point_cube_limits by invoking the original periodic factorization ONCE and the actual common smooth-curve theorem ONCE. The SAME subsequence, filtration, period, rational representatives and h supply point residue/real laws, cube radius/bounded-alpha laws, continuous point-Haar integrals, actual global point-mixture weak probability convergence and the mixture formula for EVERY continuous complex observable.",
     "Proved that a continuous measure-preserving map sends a closed full-support set into itself, and a measure-preserving homeomorphism preserves it SETWISE. Invariance of the inverse map is derived from the actual pushforward equality, not separately assumed.",
-    "Proved the ACTUAL projected cube Haar image is positive on exactly the opens meeting the projected compact cube orbit. Consequently a proved homeomorphic symmetry of that projected measure preserves the projected cube coset setwise. This supplies the measure-to-set bridge required by the marginal face-lift argument; the actual face measure-invariance premise remains to be discharged."
+    "Proved the ACTUAL projected cube Haar image is positive on exactly the opens meeting the projected compact cube orbit. Consequently a proved homeomorphic symmetry of that projected measure preserves the projected cube coset setwise. This supplies the measure-to-set bridge required by the marginal face-lift argument; the actual face measure-invariance premise remains to be discharged.",
+    "Proved a uniform norm bound for the discrepancy between an actual finite complex mean and an actual probability integral, including empty algebraic samples without claiming they are probability measures.",
+    "Extended the ORIGINAL bounded cube alpha law to EVERY fixed continuous test on the actual compact cube quotient. A fixed Lipschitz approximation and the genuine Haar probability bound preserve endpoint, residue and fixed-modulus uniformity. Derived the actual standard alpha-window local law for continuous tests.",
+    "Proved that length-first local approximation and actual empirical comparison at each FIXED alpha force equality of the limiting integrals. No diagonal alpha(m), illicit exchange of limits, or uniform Lipschitz assumption on projection/face maps is used.",
+    "Proved actual empirical comparison for all fixed Lipschitz tests extends to all continuous tests on a compact metric space. Combined this with the local-limit comparison and measure extensionality to obtain actual projected measure invariance for a continuous map.",
+    "Applied the transfer to the genuine nativeResidueCubeHaarImage and the ORIGINAL polynomial cube orbit with exact standard windows and period residues. The actual projected empirical-comparison premise is explicitly retained; supplying it from selected alignment arrays remains unfinished. This theorem alone is NOT a proof of marginal face invariance."
   ],
-  "hindman_module_count": 2969,
+  "hindman_module_count": 2976,
   "pntplus_module_count": 9,
-  "selected_axiom_report_count": 11445,
+  "selected_axiom_report_count": 11453,
   "pntplus_commit": "747e480362ef6a0a7341055a84372333d72fa62a",
-  "build_log": "round-native-common-point-cube-build.txt",
-  "axiom_log": "round-native-common-point-cube-axioms.txt",
-  "source_scan_module_count": 3020,
-  "build_job_count": 7011,
+  "build_log": "round-native-empirical-cube-invariance-build.txt",
+  "axiom_log": "round-native-empirical-cube-invariance-axioms.txt",
+  "source_scan_module_count": 3027,
+  "build_job_count": 7018,
   "last_round": {
     "classification": "PROGRESS",
-    "new_module_count": 8,
-    "new_theorem_count": 10,
-    "new_selected_report_count": 11,
+    "new_module_count": 7,
+    "new_theorem_count": 7,
+    "new_selected_report_count": 8,
     "retained_proof_sources_changed": false,
     "root_and_registry_changed": true,
-    "review_file": "round-native-common-point-cube-review.json",
-    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Point and cube local laws, bounded alpha laws, continuous Haar families and the actual global point-mixture weak limit now share ONE original subsequence and ONE factorization/smooth curve. Projected cube Haar full support and the measure-symmetry-to-setwise-coset bridge are proved. Remaining: transfer the actual countably selected marginal face comparison estimates through length-first local limits to PROVE projected face measure invariance, then use the support bridge; genuine marginal-to-joint lifts and weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
+    "review_file": "round-native-empirical-cube-invariance-review.json",
+    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Common-witness original point/cube local laws, continuous cube alpha-window tests, actual global point-mixture weak limits, projected Haar full support and measure-to-setwise support transfer are proved. The genuine original-cube empirical-comparison-to-projected-Haar-invariance implication is now proved, conditional on the ACTUAL empirical comparison. Remaining: exact identification of countably selected native alignment array evaluations with the required projected original full-cube orbit and derivation of their fixed-alpha comparison limits, then projected face measure/set invariance; genuine marginal-to-joint lifts and weighted-shear recurrence/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
   },
   "attributed_szemeredi_module_count": 42
 }
