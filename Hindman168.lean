@@ -5165,3 +5165,19 @@ import Hindman168.CubeBooleanExpansion
 import Hindman168.CubeTaylorNoCancellation
 
 import Hindman168.NativeResidueCubeScalarCoefficient
+
+import Hindman168.NativeFiniteProductCoordinateLinear
+
+import Hindman168.NativeCubeTaylorFaceVector
+
+import Hindman168.NativeCubeTaylorFactorPolynomial
+
+import Hindman168.NativeCubeSourcePolynomial
+
+import Hindman168.NativeCubeSourceProjection
+
+import Hindman168.NativeResidueCubeSourcePolynomial
+
+import Hindman168.NativeResidueCubeActualCoefficient
+
+import Hindman168.NativeResidueCubeBoundedPolynomial

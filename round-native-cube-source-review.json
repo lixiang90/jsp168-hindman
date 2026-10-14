@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2939,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6981,
+    "selected_axiom_reports": 11380,
+    "new_declarations": 34,
+    "new_theorems": 27,
+    "new_definitions": 7,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/NativeFiniteProductCoordinateLinear.lean",
+    "Hindman168/NativeCubeTaylorFaceVector.lean",
+    "Hindman168/NativeCubeTaylorFactorPolynomial.lean",
+    "Hindman168/NativeCubeSourcePolynomial.lean",
+    "Hindman168/NativeCubeSourceProjection.lean",
+    "Hindman168/NativeResidueCubeSourcePolynomial.lean",
+    "Hindman168/NativeResidueCubeActualCoefficient.lean",
+    "Hindman168/NativeResidueCubeBoundedPolynomial.lean"
+  ],
+  "proved_components": [
+    "Constructed actual internal cube Taylor face vectors and proved their ORIGINAL max-level membership, exact vertex coordinates and agreement with actual cube face functionals. Inadmissible faces are zero.",
+    "Constructed each internal Taylor factor from the actual Boolean face polynomials. Proved weighted adaptation, exact original vertex exponentials and full scalar projection; oversized faces vanish by the proved binomial degree bound.",
+    "Constructed the full ordered cube polynomial with actual BCH multiplication, preserving original weighted adaptation at every stage. Proved every vertex equals the original Taylor product, and at ell+1 equals the SAME original source for every real cube input.",
+    "Proved horizontal projection of actual weighted polynomial products is additive, using actual commutator annihilation. The actual ordered cube polynomial therefore projects to exactly the explicit scalar face/Taylor sum.",
+    "Transported the source construction to the ACTUAL rational-residue cube with unchanged original group and filtration. Proved filtered-polynomial adaptation, exact original vertices and projection identity, including semantic Taylor-residual invariance under changing the rational conjugated lattice.",
+    "Proved one maximal original face/level simultaneously bounds the ENTIRE actual horizontal projection degree by j, identifies its isolated coefficient with the ORIGINAL Taylor value divided by (j-card(A))!, and forces escape for every nonzero rational multiple.",
+    "Removed only zero vector terms to obtain an actual cube log-polynomial representation of degree at most ORIGINAL ell, without changing values or any horizontal projection. This supplies the degree-bounded input needed for quantitative box obstruction theorems."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original point laws, actual cube geometry and Haar measures, Boolean binomial coefficient isolation, and the SAME-source ACTUAL rational-residue cube polynomial are proved. Its original vertices, filtered adaptation, horizontal projection identity, maximal projection degree and isolated coefficient escape are now proved; a zero-trimmed degree-ell representation preserves all values and projections. Remaining: connect all cube variables to the spatial box-obstruction interface and prove fixed progression/translation top-coefficient transport, then derive simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-native-cube-source-mathematical-review.txt",
+  "mathematical_review_sha256": "edf5a3768deeff8b282cbd69d562ec98b207446f10902468a24cd30bc46d208f",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

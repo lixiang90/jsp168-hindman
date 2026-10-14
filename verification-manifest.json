@@ -9,11 +9,11 @@
   "files": [
     {
       "path": "Hindman168.lean",
-      "sha256": "63fb819da9add61a93b18a471975126940c75289c65ccedd88209c35447e9899"
+      "sha256": "4ca4383da3d4bb3c2f250b207593379be027029dbb7cee73c3c6a11e5de4b6e6"
     },
     {
       "path": "Verification.lean",
-      "sha256": "7a4fc4d9db1c5812be87362da3924b6d5da64f9d5d6d8b7ab8a76a42dd1f9caf"
+      "sha256": "a99a7d0bdea2f5ca55717cce2139b204eeca3f2c57541ba02e20c6729b872839"
     },
     {
       "path": "lean-toolchain",
@@ -11994,6 +11994,38 @@
     {
       "path": "Hindman168/NativeResidueCubeScalarCoefficient.lean",
       "sha256": "04506bbd1cab4e9176cbbd2824b4a2d593ac8a4db8bc82b9f0f15e549049865b"
+    },
+    {
+      "path": "Hindman168/NativeFiniteProductCoordinateLinear.lean",
+      "sha256": "60d426785021a05d17c2e2a7b775359b17d9af6e268c2d62d0e2ab0340a6a9fd"
+    },
+    {
+      "path": "Hindman168/NativeCubeTaylorFaceVector.lean",
+      "sha256": "10e4ddab34320693b9fb5960a072f0572f43130aae732bee01022c1f9bd98203"
+    },
+    {
+      "path": "Hindman168/NativeCubeTaylorFactorPolynomial.lean",
+      "sha256": "6e65dabdfc42cd31a9ab34a28fc6dda8ceb16f03bb4e458e44793b720209fbde"
+    },
+    {
+      "path": "Hindman168/NativeCubeSourcePolynomial.lean",
+      "sha256": "91f3d2f3da9996b73b2449c9a5a5e0f7821d8bc7f86e6684a241245e0d97792a"
+    },
+    {
+      "path": "Hindman168/NativeCubeSourceProjection.lean",
+      "sha256": "c3845e5990bbc147e8d6d5b83376aef15761014327fbb23a942847c7d7e0e678"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeSourcePolynomial.lean",
+      "sha256": "360f76ea03baabde311164c719cfc89296c29af8808df25777ed1d34cd34eb97"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeActualCoefficient.lean",
+      "sha256": "5f94740dd0fb68c1e54f4d78cdf617e7f8e7a9de5837e080a776e40f9deadf10"
+    },
+    {
+      "path": "Hindman168/NativeResidueCubeBoundedPolynomial.lean",
+      "sha256": "721783c81ae9bc11429546e7f40f6f63eef0ad259402b317b45afb54b8479e51"
     }
   ],
   "proved_components": [
@@ -14567,25 +14599,32 @@
     "Proved the coefficient formula for a univariate polynomial evaluated at the sum of base/increment variables. Constructed actual binomial face polynomials and the isolated monomial, with exact support, total degree and factorial/multinomial identity.",
     "Proved the Boolean binomial expansion by evaluating actual vertex restrictions: killing absent increment variables keeps exactly those face parts contained in the vertex. This is an equality for all real variables, not an expansion assumption.",
     "Proved the isolated coefficient of the explicit scalar Taylor/face sum is c(j,A)/(j-card(A))!. Other faces cannot contribute because increment supports differ; lower orders have insufficient total degree; higher orders vanish under the derived maximal-face tail.",
-    "Instantiated that explicit scalar polynomial with the SAME-source actual Taylor coefficients and ACTUAL rational-residue cube horizontal functional. Derived its exact isolated coefficient and escape for every fixed nonzero rational multiple. Equality with the horizontal projection of the actual group-valued cube and cube adaptation remain unproved."
+    "Instantiated that explicit scalar polynomial with the SAME-source actual Taylor coefficients and ACTUAL rational-residue cube horizontal functional. Derived its exact isolated coefficient and escape for every fixed nonzero rational multiple. Equality with the horizontal projection of the actual group-valued cube and cube adaptation remain unproved.",
+    "Constructed actual internal cube Taylor face vectors and proved their ORIGINAL max-level membership, exact vertex coordinates and agreement with actual cube face functionals. Inadmissible faces are zero.",
+    "Constructed each internal Taylor factor from the actual Boolean face polynomials. Proved weighted adaptation, exact original vertex exponentials and full scalar projection; oversized faces vanish by the proved binomial degree bound.",
+    "Constructed the full ordered cube polynomial with actual BCH multiplication, preserving original weighted adaptation at every stage. Proved every vertex equals the original Taylor product, and at ell+1 equals the SAME original source for every real cube input.",
+    "Proved horizontal projection of actual weighted polynomial products is additive, using actual commutator annihilation. The actual ordered cube polynomial therefore projects to exactly the explicit scalar face/Taylor sum.",
+    "Transported the source construction to the ACTUAL rational-residue cube with unchanged original group and filtration. Proved filtered-polynomial adaptation, exact original vertices and projection identity, including semantic Taylor-residual invariance under changing the rational conjugated lattice.",
+    "Proved one maximal original face/level simultaneously bounds the ENTIRE actual horizontal projection degree by j, identifies its isolated coefficient with the ORIGINAL Taylor value divided by (j-card(A))!, and forces escape for every nonzero rational multiple.",
+    "Removed only zero vector terms to obtain an actual cube log-polynomial representation of degree at most ORIGINAL ell, without changing values or any horizontal projection. This supplies the degree-bounded input needed for quantitative box obstruction theorems."
   ],
-  "hindman_module_count": 2931,
+  "hindman_module_count": 2939,
   "pntplus_module_count": 9,
-  "selected_axiom_report_count": 11346,
+  "selected_axiom_report_count": 11380,
   "pntplus_commit": "747e480362ef6a0a7341055a84372333d72fa62a",
-  "build_log": "round-cube-binomial-coefficient-build.txt",
-  "axiom_log": "round-cube-binomial-coefficient-axioms.txt",
-  "source_scan_module_count": 2982,
-  "build_job_count": 6973,
+  "build_log": "round-native-cube-source-build.txt",
+  "axiom_log": "round-native-cube-source-axioms.txt",
+  "source_scan_module_count": 2990,
+  "build_job_count": 6981,
   "last_round": {
     "classification": "PROGRESS",
-    "new_module_count": 5,
-    "new_theorem_count": 22,
-    "new_selected_report_count": 30,
+    "new_module_count": 8,
+    "new_theorem_count": 27,
+    "new_selected_report_count": 34,
     "retained_proof_sources_changed": false,
     "root_and_registry_changed": true,
-    "review_file": "round-cube-binomial-coefficient-review.json",
-    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 weak probability limit, SAME-filtration actual cube group, rational filtration, rational-residue orbit/Haar probability with full support and cube invariance, and actual horizontal cube obstruction to original maximal rational face-level character are proved. The actual Boolean binomial expansion and no-cancellation coefficient identity for the explicit scalar Taylor/face sum are now proved; its coefficient escapes by SAME-source irrationality. Remaining: identify that explicit scalar sum with the horizontal projection of the ACTUAL group-valued cube and prove original source cube adaptation; simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Private checkpoint repository created at user request; keep PRIVATE. Public repository/PR/prize milestone not reached."
+    "review_file": "round-native-cube-source-review.json",
+    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original point laws, actual cube geometry and Haar measures, Boolean binomial coefficient isolation, and the SAME-source ACTUAL rational-residue cube polynomial are proved. Its original vertices, filtered adaptation, horizontal projection identity, maximal projection degree and isolated coefficient escape are now proved; a zero-trimmed degree-ell representation preserves all values and projections. Remaining: connect all cube variables to the spatial box-obstruction interface and prove fixed progression/translation top-coefficient transport, then derive simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
   },
   "attributed_szemeredi_module_count": 42
 }

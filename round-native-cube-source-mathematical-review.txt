@@ -1,0 +1,68 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI section 7: actual cube polynomial, adaptation, scalarization.
+
+The linear coordinate maps are on the ACTUAL iterated product model. Their
+application theorem identifies them with the existing native coordinates,
+so later linear sums/smul calculations do not assume a coordinate oracle.
+For v in ORIGINAL F_k, a face vector for A with card(A)<=k is the explicit
+upper-face Lie array embedded into the ACTUAL internal cube model. It belongs
+to internal layer k because max(k,card(A))=k. For inadmissible faces it is zero.
+All coordinates and evaluations by arbitrary cube functionals are proved.
+
+A single Taylor factor is a finite vector polynomial with the proved
+cubeBinomialFacePolynomial k A as scalar entries. Each has degree <=k,
+and the face vector lies in layer k, so antitonicity gives weighted adaptation.
+At a vertex, the sum equals binomial(b0+sum present increments,k) times v,
+by the actual Boolean identity. Inadmissible faces contribute zero because
+their scalar polynomial is zero; no illegal face generator is used.
+Internal exponential/inclusion/coordinate identities therefore identify
+the factor with the ORIGINAL Taylor factor at every real input.
+
+The full source polynomial uses actual roughNativeProductMvPolynomial
+recursively, in the same order as adaptedTaylorOrderedProduct, including
+order zero. Its weighted adaptation follows from the proved internal cube
+filtration product theorem. Its exponential has EXACT original Taylor product
+at each vertex. At ell+1 the original residual terminal theorem gives the
+SAME source, without replacing or refactorizing it. Step s and filtration
+length ell retain the original values, independently of cube dimension.
+
+Horizontal projection of an actual BCH polynomial product is additive:
+weighted evaluations lie in initial layer zero, and actual horizontal
+commutator annihilation makes the BCH commutator correction vanish. This is
+proved via the genuine original logarithm-product theorem, not assumed as
+an interface. Induction then gives the full explicit scalar Taylor/face sum.
+
+Rational-residue cube data changes the lattice but retains the original
+model/group and every original filtration layer. The actual source is built
+on this conjugated data. The original vertex and filtered-polynomial identities
+are proved. Crucially, Taylor residual code is NOT simply assumed to be
+syntactically identical after this change: native_conjugate_taylor_residual_eval
+proves semantic equality for every index and real argument via the actual
+removal evaluation recurrence. The projection identity therefore uses the
+ORIGINAL Taylor coefficients controlled by source irrationality.
+
+Maximality gives vanishing on all faces of every higher Taylor level. Thus
+all higher-order terms of the scalar sum vanish; surviving terms have degree
+at most j. This degree bound holds for the ENTIRE horizontal projection,
+not just one coefficient, and is essential for later translation invariance.
+The same selected j,A gives the isolated coefficient identity and escape
+for every fixed nonzero rational multiple. Empty faces and dimension zero
+are retained, and factorial denominators remain explicit.
+
+Weighted cube adaptation does not by itself assert the raw list has bounded
+ordinary degree, because high-degree entries may have zero vectors. The
+bounded representation removes ONLY those zero entries. Terminal layer ell+1
+then proves degree <=ORIGINAL ell; all real evaluations and every scalar
+projection are unchanged. The logarithm identity is with the actual source.
+
+REMAINING LIMIT: no local cube equidistribution theorem is claimed yet.
+All b0 and increment variables must be made spatial in the existing box
+obstruction API (its Option none is a separate fixed parameter). Fixed
+progression and translation transport of the TOP coefficient is still needed.
+Then finite-character obstruction/irrationality contradiction, simultaneous
+cube laws through original s+1, smooth-factor transport, projected faces,
+joint lifts/Alignment, GTZ arbitrary-input inverse and final FS/FP remain.
+StrongConjecture UNPROVED; goal ACTIVE; no unavoidable obstruction established.
+No additional axioms or source/Haar/character/inverse oracles introduced.
+Author audit is not independent kernel replay or external peer review.
+The user requested a PRIVATE repository for travel; keep it PRIVATE.

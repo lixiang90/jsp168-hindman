@@ -1,0 +1,113 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+PRIVATE repository: https://github.com/lixiang90/jsp168-hindman . Keep PRIVATE.
+Latest round: round-native-cube-source. Consult CURRENT-STATUS.txt and the
+verification manifest for terminal evidence; author audit is not external review.
+
+This round closes the actual-group/explicit-scalar connection from the preceding
+CUBE-BINOMIAL-CONTINUATION.txt. Eight new modules:
+
+NativeFiniteProductCoordinateLinear: nativeFiniteProductCoordinateLinear n i
+is a genuine linear map on the actual iterated product. Its apply theorem equals
+the existing nativeFiniteProductCoordinate. Use it to transport sums/scalars.
+
+NativeCubeTaylorFaceVector: nativeCubeTaylorFaceVector D F d n e k A v hv
+for v in F_k is the explicit internal mapped face vector when card(A)<=k,
+and zero otherwise. It lies in nativeCubeInternalLayer k. Exact coordinate
+and face-functional formulas are proved, with all original layers retained.
+
+NativeCubeTaylorFactorPolynomial: actual vector list over ALL faces A, pairing
+cubeBinomialFacePolynomial k A with the preceding vector. Weighted adaptation,
+evaluation sum, original coordinate formula, scalar projection and exponential
+coordinate formula are proved. Oversized faces contribute zero scalar polynomials.
+
+NativeCubeSourcePolynomial: nativeCubeSourceTaylorFactorPolynomial uses actual
+Taylor residual value at k and its proved F_k membership. nativeCubeSourcePolynomial
+recurses from [] by actual roughNativeProductMvPolynomial in increasing Taylor
+order. Weighted adaptation holds at every N. Its exponential coordinates equal
+adaptedTaylorOrderedProduct D p t N with t=b0+sum present increments. At N=ell+1,
+native_cube_source_polynomial_original_vertices identifies every vertex with
+the original source exponential, for every REAL input b, not only integers.
+
+NativeCubeSourceProjection: native_subgroup_horizontal_polynomial_product proves
+projection additive under actual weighted BCH products via horizontal bracket
+annihilation. native_cube_source_polynomial_projection identifies the FULL
+actual source projection with cubeTaylorFaceScalarPolynomial N of actual face
+functionals applied to original Taylor values.
+
+NativeResidueCubeSourcePolynomial: nativeResidueCubeSourcePolynomial D F rho hRho
+d n e p hp is the full N=ell+1 construction on the actual conjugated-lattice cube.
+native_residue_cube_source_weighted and native_residue_cube_source_filtered
+prove adaptation to nativeResidueCubeFiltration. Exact original vertices remain.
+native_residue_cube_source_projection identifies its horizontal projection with
+nativeResidueCubeTaylorScalarPolynomial from the previous round.
+IMPORTANT: native_conjugate_taylor_residual_eval proves equality of actual Taylor
+residual evaluations under the lattice change for all k and real x. Do not assume
+literal code equality. It uses both actual removal recurrence equalities and
+then original-space equality chains, avoiding transparency-dependent rewrites.
+
+NativeResidueCubeActualCoefficient:
+- cube_taylor_face_scalar_degree: maximal all-face tail => ENTIRE scalar degree<=j.
+- native_residue_cube_source_projection_degree: derived original Taylor layer
+  membership supplies that tail for the actual cube projection.
+- native_residue_cube_actual_coefficient_escape: for genuine actual residue-cube
+  horizontal chi, SAME-source adaptation hp and sequential irrationality hIrr,
+  selects 1<=j<=ell, face A.card<=j and genuine ORIGINAL level character. It gives,
+  IN ORDER: character, projection degree<=j for every m, exact coefficient at
+  cubeIsolatedMonomial j A for every m, then escape for every nonzero rational q.
+  The coefficient is ORIGINAL Taylor face value divided by (j-card(A))!.
+  The degree bound is essential for translations: higher total degrees cannot
+  feed the selected coefficient. Do not ignore this component of the result.
+
+NativeResidueCubeBoundedPolynomial: nativeResidueCubeBoundedPolynomial trims only
+zero vector entries. native_residue_cube_bounded_degree proves ordinary vector
+polynomial degree<=ORIGINAL ell. native_residue_cube_bounded_eval and projection
+preserve every value and scalar projection; native_residue_cube_bounded_original_log
+identifies it with log of the ACTUAL untrimmed cube source exponential.
+
+Lean engineering: GroupLieAlgebra alias changes can prevent rw/simp matching
+while explicit equality composition works. For exponential coordinates compose
+native_rational_cube_data_exponential, nativeFiniteProductExponential_coordinate,
+then congrArg original exponential of the coordinate identity. Use explicit E
+arguments for roughVectorMvEval and nativeLieExponential inside native cube data.
+When rewriting product projections pass BOTH polynomial operands explicitly;
+underscores inferred from a factor-weighted proof can infer an unfolded operand
+which rw will not match. Do not change options or add global instances.
+
+NEXT: quantitatively exclude actual cube Haar discrepancy on residue boxes.
+Existing native_original_residue_box_obstruction / native_original_real_box_finite_obstruction
+are PROVED production theorems, returning finite genuine horizontal lists and
+all coefficient bounds. NativeOriginalFiniteRealBoxObstruction synchronizes a
+finite family. Inputs require ordinary RoughVectorMvDegreeLE and an actual log
+identity; the newly trimmed representation supplies them.
+
+CRITICAL VARIABLE ISSUE: those APIs accept Option(Fin n), where none is a FIXED
+external parameter and only Fin n variables vary in the box. The cube source
+uses Option(Fin d), where none is b0 and MUST vary together with all increments.
+Reindex Option(Fin d) to Fin(d+1), then inject ALL of them as some variables into
+Option(Fin(d+1)), leaving the API's none unused. Existing RoughVectorVariableRenaming
+provides roughVectorMvRename, eval/degree/weighted/projection identities. Prove
+coefficient and spatial specialization transport exactly; do not fix b0 silently.
+
+Fixed progression/translation coefficient transport can reuse EXISTING
+rough_affine_uniform_coefficient (RoughAffineCommonMultiplier) and
+rough_translation_top_coefficient, as NativeSubgroupAffineTopCoefficient does
+in one variable. Apply to the selected monomial, using its total degree j and
+the newly proved ENTIRE projection degree<=j. The result is fixed dilation^j
+multiplying the same coefficient; arbitrary translations do not change it.
+Then use rational-multiple escape to rule out bounds for each character in the
+finite obstruction list. Quantifiers: finite dimensions/residues/geometry/test
+bounds first, then one length threshold, then all boxes/parameters/tests.
+
+After cube Haar convergence: smooth-factor insertion, true orbit/Haar image,
+local cube laws simultaneously through ORIGINAL s+1, projected face invariance
+and full support, joint lifts/Alignment, separate arbitrary-input GTZ interval
+Gowers LINEAR nilsequence inverse, and final same-color ALL FS and FP remain.
+No unavoidable obstruction established. No public PR or prize submission yet.
+
+Additional existing adapters for next round: rough_spatial_rename_option_right
+(RoughJointScalarExpansion) identifies optionEquivRight(rename some P) with
+map Polynomial.C P. rough_mv_parameter_specialize_option_right
+(RoughVectorSpatialAffineProjection) then recovers P independently of the new
+unused parameter. rough_translation_top_coefficient lives in
+RoughTranslationTopCoefficients and already accepts arbitrary finite variables
+and arbitrary shifts whenever totalDegree P <= the selected monomial degree.

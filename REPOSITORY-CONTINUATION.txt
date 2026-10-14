@@ -12,13 +12,12 @@ repository and requested PR/prize application at the later milestone.
 The full mathematical objective remains unchanged and ACTIVE.
 StrongConjecture is UNPROVED; no unavoidable obstruction established.
 
-Latest mathematical round: round-cube-binomial-coefficient. Five new modules
-prove Boolean binomial expansion, isolated factorial coefficients and
-no-cancellation in the explicit scalar Taylor/face sum; actual source
-irrationality gives coefficient escape. The group-valued cube projection
-identity and cube adaptation are still outstanding. Consult CURRENT-STATUS.txt
-and verification-manifest.json for terminal audit status, and
-CUBE-BINOMIAL-CONTINUATION.txt for exact next proof work.
+Latest mathematical round: round-native-cube-source. Eight new modules construct
+the ACTUAL adapted cube source with original vertices, prove its exact horizontal
+projection identity, maximal projection degree and isolated coefficient escape,
+and give a degree-bounded representation preserving all values and projections.
+Consult CURRENT-STATUS.txt and verification-manifest.json for terminal audit
+status, and CUBE-SOURCE-CONTINUATION.txt for exact next proof work.
 
 README.md contains portable setup and continuation instructions.
 scripts/verify_snapshot.py verifies exact canonical source hashes and,

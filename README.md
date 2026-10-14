@@ -47,23 +47,24 @@ run verifies this checkpoint; it does not prove the unfinished main theorem.
 
 - `CURRENT-STATUS.txt`: authoritative latest terminal audit and remaining work.
 - `verification-manifest.json`: audited files, SHA-256 hashes and pinned sources.
-- `CUBE-BINOMIAL-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `CUBE-SOURCE-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `CUBE-BINOMIAL-CONTINUATION.txt`: preceding coefficient construction checkpoint.
 - `CUBE-CHARACTER-CONTINUATION.txt`: preceding character construction checkpoint.
 - `AUDIT.txt` and `round-*-review.json`: accumulated mathematical reviews.
 - `Hindman168.lean`: canonical project imports.
 - `Verification.lean`: registered axiom checks.
 
-The latest mathematical round is `round-cube-binomial-coefficient`; consult
-`CURRENT-STATUS.txt` and the manifest for its terminal audit result. It proves
-the actual Boolean binomial expansion, the isolated coefficient with its
-factorial denominator, and no cancellation in the explicit scalar Taylor/face
-sum. Instantiating that sum with the original Taylor coefficients and actual
-residue-cube horizontal functional gives coefficient escape.
+The latest mathematical round is `round-native-cube-source`; consult
+`CURRENT-STATUS.txt` and the manifest for its terminal audit result. It constructs
+the actual cube polynomial with the original source at every vertex and proves
+its filtered adaptation. Its genuine horizontal projection equals the explicit
+Taylor/face sum, with maximal degree and an isolated escaping coefficient.
+A representation of degree at most the original filtration length is also proved.
 
-The next task is to identify that explicit scalar sum with the horizontal
-projection of the actual group-valued cube, and prove original cube-polynomial
-adaptation. Simultaneous local cube laws, Alignment, the remaining GTZ inverse
-work and the final same-color FS/FP argument are still outstanding.
+The next task connects all cube variables to the quantitative box-obstruction
+interface and transports the top coefficient through fixed progressions, then
+derives simultaneous local cube laws. Alignment, the remaining GTZ inverse work
+and the final same-color FS/FP argument are still outstanding.
 
 Continue from the same original source, final subgroup filtration and
 original nilpotency bound. Do not replace the target with a weaker result,

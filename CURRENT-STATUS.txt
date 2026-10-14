@@ -2,27 +2,31 @@ JSP-000168 / Erdos #172 -- 2026-10-14
 
 Verdict: Partial overall coverage; PROGRESS.
 Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction established.
-Latest terminal author audit: round-cube-binomial-coefficient
+Latest terminal author audit: round-native-cube-source
 
-Constructed exact increment-support face parts of arbitrary real multivariate polynomials, proved their coefficients, support, sum recovery and degree bound, and vanishing for faces larger than the polynomial degree. Empty faces and dimension zero are included.
+Constructed actual internal cube Taylor face vectors and proved their ORIGINAL max-level membership, exact vertex coordinates and agreement with actual cube face functionals. Inadmissible faces are zero.
 
-Proved the coefficient formula for a univariate polynomial evaluated at the sum of base/increment variables. Constructed actual binomial face polynomials and the isolated monomial, with exact support, total degree and factorial/multinomial identity.
+Constructed each internal Taylor factor from the actual Boolean face polynomials. Proved weighted adaptation, exact original vertex exponentials and full scalar projection; oversized faces vanish by the proved binomial degree bound.
 
-Proved the Boolean binomial expansion by evaluating actual vertex restrictions: killing absent increment variables keeps exactly those face parts contained in the vertex. This is an equality for all real variables, not an expansion assumption.
+Constructed the full ordered cube polynomial with actual BCH multiplication, preserving original weighted adaptation at every stage. Proved every vertex equals the original Taylor product, and at ell+1 equals the SAME original source for every real cube input.
 
-Proved the isolated coefficient of the explicit scalar Taylor/face sum is c(j,A)/(j-card(A))!. Other faces cannot contribute because increment supports differ; lower orders have insufficient total degree; higher orders vanish under the derived maximal-face tail.
+Proved horizontal projection of actual weighted polynomial products is additive, using actual commutator annihilation. The actual ordered cube polynomial therefore projects to exactly the explicit scalar face/Taylor sum.
 
-Instantiated that explicit scalar polynomial with the SAME-source actual Taylor coefficients and ACTUAL rational-residue cube horizontal functional. Derived its exact isolated coefficient and escape for every fixed nonzero rational multiple. Equality with the horizontal projection of the actual group-valued cube and cube adaptation remain unproved.
+Transported the source construction to the ACTUAL rational-residue cube with unchanged original group and filtration. Proved filtered-polynomial adaptation, exact original vertices and projection identity, including semantic Taylor-residual invariance under changing the rational conjugated lattice.
+
+Proved one maximal original face/level simultaneously bounds the ENTIRE actual horizontal projection degree by j, identifies its isolated coefficient with the ORIGINAL Taylor value divided by (j-card(A))!, and forces escape for every nonzero rational multiple.
+
+Removed only zero vector terms to obtain an actual cube log-polynomial representation of degree at most ORIGINAL ell, without changing values or any horizontal projection. This supplies the degree-bounded input needed for quantitative box obstruction theorems.
 
 {
-  "project_modules": 2931,
+  "project_modules": 2939,
   "pntplus_modules": 9,
   "attributed_szemeredi_modules": 42,
-  "build_jobs": 6973,
-  "selected_axiom_reports": 11346,
-  "new_declarations": 30,
-  "new_theorems": 22,
-  "new_definitions": 8,
+  "build_jobs": 6981,
+  "selected_axiom_reports": 11380,
+  "new_declarations": 34,
+  "new_theorems": 27,
+  "new_definitions": 7,
   "new_external_targets": 0,
   "retained_proof_sources_unchanged": true,
   "retained_axiom_sets_unchanged": true,
@@ -32,4 +36,4 @@ Instantiated that explicit scalar polynomial with the SAME-source actual Taylor 
   "independent_kernel_replay": false
 }
 
-StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 weak probability limit, SAME-filtration actual cube group, rational filtration, rational-residue orbit/Haar probability with full support and cube invariance, and actual horizontal cube obstruction to original maximal rational face-level character are proved. The actual Boolean binomial expansion and no-cancellation coefficient identity for the explicit scalar Taylor/face sum are now proved; its coefficient escapes by SAME-source irrationality. Remaining: identify that explicit scalar sum with the horizontal projection of the ACTUAL group-valued cube and prove original source cube adaptation; simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Private checkpoint repository created at user request; keep PRIVATE. Public repository/PR/prize milestone not reached.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original point laws, actual cube geometry and Haar measures, Boolean binomial coefficient isolation, and the SAME-source ACTUAL rational-residue cube polynomial are proved. Its original vertices, filtered adaptation, horizontal projection identity, maximal projection degree and isolated coefficient escape are now proved; a zero-trimmed degree-ell representation preserves all values and projections. Remaining: connect all cube variables to the spatial box-obstruction interface and prove fixed progression/translation top-coefficient transport, then derive simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached.

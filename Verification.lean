@@ -19151,3 +19151,71 @@ import Hindman168
 #print axioms Hindman168.nativeResidueCubeTaylorScalarPolynomial
 
 #print axioms Hindman168.native_residue_cube_scalar_coefficient_escape
+
+#print axioms Hindman168.nativeFiniteProductCoordinateLinear
+
+#print axioms Hindman168.native_finite_product_coordinate_linear_apply
+
+#print axioms Hindman168.nativeCubeTaylorFaceVector
+
+#print axioms Hindman168.native_cube_taylor_face_vector_layer
+
+#print axioms Hindman168.native_cube_taylor_face_vector_coordinate
+
+#print axioms Hindman168.native_cube_taylor_face_vector_functional
+
+#print axioms Hindman168.nativeCubeTaylorFactorPolynomial
+
+#print axioms Hindman168.native_cube_taylor_factor_weighted
+
+#print axioms Hindman168.native_cube_taylor_factor_eval
+
+#print axioms Hindman168.native_cube_taylor_factor_coordinate
+
+#print axioms Hindman168.native_cube_taylor_factor_projection
+
+#print axioms Hindman168.native_cube_taylor_factor_exponential_coordinate
+
+#print axioms Hindman168.nativeCubeSourceTaylorFactorPolynomial
+
+#print axioms Hindman168.nativeCubeSourcePolynomial
+
+#print axioms Hindman168.native_cube_source_polynomial_weighted
+
+#print axioms Hindman168.native_cube_source_taylor_factor_coordinate
+
+#print axioms Hindman168.native_cube_source_polynomial_coordinate
+
+#print axioms Hindman168.native_cube_source_polynomial_original_vertices
+
+#print axioms Hindman168.native_subgroup_horizontal_polynomial_product
+
+#print axioms Hindman168.native_cube_source_polynomial_projection
+
+#print axioms Hindman168.native_conjugate_taylor_residual_eval
+
+#print axioms Hindman168.nativeResidueCubeSourcePolynomial
+
+#print axioms Hindman168.native_residue_cube_source_weighted
+
+#print axioms Hindman168.native_residue_cube_source_filtered
+
+#print axioms Hindman168.native_residue_cube_source_original_vertices
+
+#print axioms Hindman168.native_residue_cube_source_projection
+
+#print axioms Hindman168.cube_taylor_face_scalar_degree
+
+#print axioms Hindman168.native_residue_cube_source_projection_degree
+
+#print axioms Hindman168.native_residue_cube_actual_coefficient_escape
+
+#print axioms Hindman168.nativeResidueCubeBoundedPolynomial
+
+#print axioms Hindman168.native_residue_cube_bounded_degree
+
+#print axioms Hindman168.native_residue_cube_bounded_eval
+
+#print axioms Hindman168.native_residue_cube_bounded_projection
+
+#print axioms Hindman168.native_residue_cube_bounded_original_log
