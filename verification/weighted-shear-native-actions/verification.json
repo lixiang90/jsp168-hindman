@@ -1,0 +1,13 @@
+{
+  "new_module_count": 5,
+  "total_module_count": 12,
+  "audited_declaration_count": 129,
+  "source_reelaboration_exit_code": 0,
+  "axiom_check_exit_code": 0,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "full_target_proved": false
+}
