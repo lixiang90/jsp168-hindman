@@ -9,11 +9,11 @@
   "files": [
     {
       "path": "Hindman168.lean",
-      "sha256": "f34b19a7b808946cb01e6a480ade452929098e92ef50613183bc8035edbd981f"
+      "sha256": "3b5fa59dea7fb30a9955f0e3f8c9fec92ac1bcf009e2b8cca82117c9753012f7"
     },
     {
       "path": "Verification.lean",
-      "sha256": "9fe46ed7881cf42ee876f9cc3ee7efffa8edb7ea6b1bd0c2b0e7404e318b142f"
+      "sha256": "0711889f094cbea4fbfc66a78e59ea5c78eb2b2525f453d1401371778f2caea4"
     },
     {
       "path": "lean-toolchain",
@@ -12082,6 +12082,38 @@
     {
       "path": "Hindman168/NativeSequentialOriginalLocalCubeLaw.lean",
       "sha256": "77bdd2c14f85af32ba1d3f1f00043c4a2c8282569135b56d3a2ebbcd8c8f3d81"
+    },
+    {
+      "path": "Hindman168/CubeLocalBoxGeometry.lean",
+      "sha256": "23964f4229c8c1f70900dcc0d7877dace587e870bfa561ad659c4ff9ee1e26e2"
+    },
+    {
+      "path": "Hindman168/NativeOriginalCubeAlphaBoxes.lean",
+      "sha256": "c3d2e288784d8a6d032a89d9956de34cb635313fc80741a59bca37847389bd2e"
+    },
+    {
+      "path": "Hindman168/ComplexMeanIntegralScaling.lean",
+      "sha256": "4a78b16a051f6f1ee226cae64395c44bd6c1291233a4fa242e14e2bf50058779"
+    },
+    {
+      "path": "Hindman168/NativeOriginalCubeBoundedAlpha.lean",
+      "sha256": "17d0afc97ac31de034e3166bdfd2d376ee4a2e796542050b453337d2089759a4"
+    },
+    {
+      "path": "Hindman168/IteratedLocalLimsup.lean",
+      "sha256": "3b810a310ef27a60918521c4c071f2b93a170e7c02243d1efb3c4e47546dfe6d"
+    },
+    {
+      "path": "Hindman168/CubeStandardAlphaBox.lean",
+      "sha256": "2b3ff91b216b38f8fbdf417186de59c73314cf1872e6cb0d63b57f0be2997734"
+    },
+    {
+      "path": "Hindman168/NativeOriginalCubeIteratedLimit.lean",
+      "sha256": "c09307aa19811ec4f53d11ea283f822e33111b0b92f06fd08c7d3f2059f40d7d"
+    },
+    {
+      "path": "Hindman168/NativeSequentialOriginalAlphaCubeLaw.lean",
+      "sha256": "a3d6539dd3d9e522b2c2dac9543556e837d7cefb52d3fbedfa9bc5468ccc2ed9"
     }
   ],
   "proved_components": [
@@ -14676,25 +14708,32 @@
     "Inserted the ACTUAL sequential smooth factors at every original vertex. A single smooth limiting curve and locality radius work in every dimension; positive side scale, modulus and geometry are fixed before the eventual length threshold. Uniformity over unit-Lipschitz tests is retained.",
     "Proved exact signed cube residue arithmetic: when the fixed progression modulus is divisible by the original period and increment residues vanish modulo that period, every vertex has precisely the base residue, including negative integer coordinates.",
     "Proved NativeCubeLocalHaarLaw for the ORIGINAL factored source, using its exact right-coset pattern and lattice identity. One threshold works simultaneously for ALL dimensions through ORIGINAL s+1, all base residues, admissible boxes and unit-Lipschitz tests, with one common smooth curve and positive locality radius.",
-    "Applied the original sequential adapted periodic factorization ONCE to obtain the local cube law for an arbitrary original adapted polynomial sequence on ONE subsequence, with one retained subgroup filtration, original period, rational residues and smooth curve. No dimension-dependent refactorization or Haar oracle is supplied."
+    "Applied the original sequential adapted periodic factorization ONCE to obtain the local cube law for an arbitrary original adapted polynomial sequence on ONE subsequence, with one retained subgroup filtration, original period, rational residues and smooth curve. No dimension-dependent refactorization or Haar oracle is supplied.",
+    "Proved explicit real cube endpoint geometry: all original vertex deviations are bounded by (dimension+1) times the coordinate locality scale. Ceil-rounded endpoints and side lengths satisfy exact bounds, and actual sampled vertices satisfy the original local-radius condition.",
+    "Derived NativeCubeAlphaHaarLaw from the proved ORIGINAL-source local law. Geometry constants precede epsilon and locality; each fixed positive alpha and progression modulus precedes the eventual length threshold, which is uniform over ALL dimensions through ORIGINAL s+1, residues, real endpoint boxes and unit tests.",
+    "Proved exact scaling of finite means minus genuine measure integrals, then normalized arbitrary fixed norm/Lipschitz budgets to derive NativeCubeBoundedAlphaHaarLaw with the SAME original Haar image and complete box/test uniformity.",
+    "Proved the actual iterated limsup implication from nonnegative epsilon/eventual local control. Eventual boundedness and lower coboundedness are discharged explicitly, and the result is Tendsto of the LENGTH limsup as alpha tends to zero FROM ABOVE, not a diagonal substitute.",
+    "Constructed the exact standard alpha base/increment boxes, proved their geometry and eventual NONEMPTINESS at every fixed positive alpha and modulus, and proved exact membership equivalence with the paper normalized half-open windows and residue conditions.",
+    "Proved native_original_cube_iterated_limit: the actual original-source empirical cube discrepancy against its ACTUAL Haar image has length limsup tending to zero as alpha decreases to zero, for each fixed bounded-Lipschitz test, dimension through ORIGINAL s+1 and permitted fixed progression.",
+    "Combined the radius and bounded-test alpha laws for the ORIGINAL adapted sequence on the SAME subsequence, subgroup filtration, period, rational residues and smooth curve. This directly supplies the hypotheses of the proved iterated-limit theorem without any source or Haar oracle."
   ],
-  "hindman_module_count": 2953,
+  "hindman_module_count": 2961,
   "pntplus_module_count": 9,
-  "selected_axiom_report_count": 11415,
+  "selected_axiom_report_count": 11434,
   "pntplus_commit": "747e480362ef6a0a7341055a84372333d72fa62a",
-  "build_log": "round-native-original-cube-local-build.txt",
-  "axiom_log": "round-native-original-cube-local-axioms.txt",
-  "source_scan_module_count": 3004,
-  "build_job_count": 6995,
+  "build_log": "round-native-cube-alpha-limit-build.txt",
+  "axiom_log": "round-native-cube-alpha-limit-axioms.txt",
+  "source_scan_module_count": 3012,
+  "build_job_count": 7003,
   "last_round": {
     "classification": "PROGRESS",
-    "new_module_count": 7,
-    "new_theorem_count": 10,
-    "new_selected_report_count": 12,
+    "new_module_count": 8,
+    "new_theorem_count": 14,
+    "new_selected_report_count": 19,
     "retained_proof_sources_changed": false,
     "root_and_registry_changed": true,
-    "review_file": "round-native-original-cube-local-review.json",
-    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Actual cube Haar laws are now transported to original ambient Haar images, with actual smooth factors and exact periodic cosets inserted. NativeCubeLocalHaarLaw holds for the ORIGINAL source on ONE subsequence simultaneously through ORIGINAL s+1, in the all-vertices-within-radius formulation. Remaining: derive the explicit alpha-down-to-zero iterated box limits from this locality-radius law, including rounded boxes and bounded-test uniform versions, and join the point/cube laws on the same factorization data; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
+    "review_file": "round-native-cube-alpha-limit-review.json",
+    "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. The ORIGINAL-source cube law now includes explicit rounded alpha-scale boxes, uniform fixed bounded-Lipschitz test budgets, exact standard-window membership and eventual nonemptiness, and the actual alpha-down-to-zero limit of the LENGTH limsup. All cube dimensions through ORIGINAL s+1 share one subsequence and factorization data. Remaining: join the existing point and cube laws on the SAME factorization and smooth curve, then the joint point-mixture law; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Keep the user-requested GitHub repository PRIVATE. Public repository/PR/prize milestone not reached."
   },
   "attributed_szemeredi_module_count": 42
 }

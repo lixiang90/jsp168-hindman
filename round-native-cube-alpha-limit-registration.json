@@ -1,0 +1,127 @@
+{
+  "modules": [
+    "Hindman168/CubeLocalBoxGeometry.lean",
+    "Hindman168/NativeOriginalCubeAlphaBoxes.lean",
+    "Hindman168/ComplexMeanIntegralScaling.lean",
+    "Hindman168/NativeOriginalCubeBoundedAlpha.lean",
+    "Hindman168/IteratedLocalLimsup.lean",
+    "Hindman168/CubeStandardAlphaBox.lean",
+    "Hindman168/NativeOriginalCubeIteratedLimit.lean",
+    "Hindman168/NativeSequentialOriginalAlphaCubeLaw.lean"
+  ],
+  "names": [
+    "Hindman168.cube_scaled_vertex_bound",
+    "Hindman168.cube_local_ceil_endpoint_bound",
+    "Hindman168.cube_local_ceil_vertex_bound",
+    "Hindman168.cube_local_ceil_side_bounds",
+    "Hindman168.NativeCubeAlphaHaarLaw",
+    "Hindman168.native_cube_local_to_alpha_haar",
+    "Hindman168.complex_mean_integral_scale",
+    "Hindman168.complex_mean_integral_normalization_norm",
+    "Hindman168.NativeCubeBoundedAlphaHaarLaw",
+    "Hindman168.native_cube_alpha_bounded_tests",
+    "Hindman168.nonnegative_iterated_local_limsup",
+    "Hindman168.cubeAlphaLower",
+    "Hindman168.cubeAlphaUpper",
+    "Hindman168.cubeAlphaResidue",
+    "Hindman168.cube_standard_alpha_geometry",
+    "Hindman168.cube_standard_alpha_box_nonempty",
+    "Hindman168.cube_standard_alpha_box_mem",
+    "Hindman168.native_original_cube_iterated_limit",
+    "Hindman168.native_sequential_original_alpha_cube_law"
+  ],
+  "declarations": {
+    "Hindman168/CubeLocalBoxGeometry.lean": [
+      [
+        "theorem",
+        "cube_scaled_vertex_bound"
+      ],
+      [
+        "theorem",
+        "cube_local_ceil_endpoint_bound"
+      ],
+      [
+        "theorem",
+        "cube_local_ceil_vertex_bound"
+      ],
+      [
+        "theorem",
+        "cube_local_ceil_side_bounds"
+      ]
+    ],
+    "Hindman168/NativeOriginalCubeAlphaBoxes.lean": [
+      [
+        "def",
+        "NativeCubeAlphaHaarLaw"
+      ],
+      [
+        "theorem",
+        "native_cube_local_to_alpha_haar"
+      ]
+    ],
+    "Hindman168/ComplexMeanIntegralScaling.lean": [
+      [
+        "theorem",
+        "complex_mean_integral_scale"
+      ],
+      [
+        "theorem",
+        "complex_mean_integral_normalization_norm"
+      ]
+    ],
+    "Hindman168/NativeOriginalCubeBoundedAlpha.lean": [
+      [
+        "def",
+        "NativeCubeBoundedAlphaHaarLaw"
+      ],
+      [
+        "theorem",
+        "native_cube_alpha_bounded_tests"
+      ]
+    ],
+    "Hindman168/IteratedLocalLimsup.lean": [
+      [
+        "theorem",
+        "nonnegative_iterated_local_limsup"
+      ]
+    ],
+    "Hindman168/CubeStandardAlphaBox.lean": [
+      [
+        "def",
+        "cubeAlphaLower"
+      ],
+      [
+        "def",
+        "cubeAlphaUpper"
+      ],
+      [
+        "def",
+        "cubeAlphaResidue"
+      ],
+      [
+        "theorem",
+        "cube_standard_alpha_geometry"
+      ],
+      [
+        "theorem",
+        "cube_standard_alpha_box_nonempty"
+      ],
+      [
+        "theorem",
+        "cube_standard_alpha_box_mem"
+      ]
+    ],
+    "Hindman168/NativeOriginalCubeIteratedLimit.lean": [
+      [
+        "theorem",
+        "native_original_cube_iterated_limit"
+      ]
+    ],
+    "Hindman168/NativeSequentialOriginalAlphaCubeLaw.lean": [
+      [
+        "theorem",
+        "native_sequential_original_alpha_cube_law"
+      ]
+    ]
+  }
+}

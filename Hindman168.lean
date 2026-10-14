@@ -5209,3 +5209,19 @@ import Hindman168.CubeSignedPeriodResidue
 import Hindman168.NativeOriginalCubeLocalHaar
 
 import Hindman168.NativeSequentialOriginalLocalCubeLaw
+
+import Hindman168.CubeLocalBoxGeometry
+
+import Hindman168.NativeOriginalCubeAlphaBoxes
+
+import Hindman168.ComplexMeanIntegralScaling
+
+import Hindman168.NativeOriginalCubeBoundedAlpha
+
+import Hindman168.IteratedLocalLimsup
+
+import Hindman168.CubeStandardAlphaBox
+
+import Hindman168.NativeOriginalCubeIteratedLimit
+
+import Hindman168.NativeSequentialOriginalAlphaCubeLaw

@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CubeLocalBoxGeometry.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 19.20299999997951,
+    "log": "round-native-cube-alpha-limit-CubeLocalBoxGeometry-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CubeLocalBoxGeometry.lean",
+    "source_sha256": "23964f4229c8c1f70900dcc0d7877dace587e870bfa561ad659c4ff9ee1e26e2"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalCubeAlphaBoxes.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 21.82799999997951,
+    "log": "round-native-cube-alpha-limit-NativeOriginalCubeAlphaBoxes-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalCubeAlphaBoxes.lean",
+    "source_sha256": "c3d2e288784d8a6d032a89d9956de34cb635313fc80741a59bca37847389bd2e"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/ComplexMeanIntegralScaling.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.672000000020489,
+    "log": "round-native-cube-alpha-limit-ComplexMeanIntegralScaling-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/ComplexMeanIntegralScaling.lean",
+    "source_sha256": "4a78b16a051f6f1ee226cae64395c44bd6c1291233a4fa242e14e2bf50058779"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalCubeBoundedAlpha.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.625,
+    "log": "round-native-cube-alpha-limit-NativeOriginalCubeBoundedAlpha-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalCubeBoundedAlpha.lean",
+    "source_sha256": "17d0afc97ac31de034e3166bdfd2d376ee4a2e796542050b453337d2089759a4"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/IteratedLocalLimsup.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 14.422000000020489,
+    "log": "round-native-cube-alpha-limit-IteratedLocalLimsup-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/IteratedLocalLimsup.lean",
+    "source_sha256": "3b810a310ef27a60918521c4c071f2b93a170e7c02243d1efb3c4e47546dfe6d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CubeStandardAlphaBox.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 18.530999999959022,
+    "log": "round-native-cube-alpha-limit-CubeStandardAlphaBox-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CubeStandardAlphaBox.lean",
+    "source_sha256": "2b3ff91b216b38f8fbdf417186de59c73314cf1872e6cb0d63b57f0be2997734"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeOriginalCubeIteratedLimit.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.719000000040978,
+    "log": "round-native-cube-alpha-limit-NativeOriginalCubeIteratedLimit-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeOriginalCubeIteratedLimit.lean",
+    "source_sha256": "c09307aa19811ec4f53d11ea283f822e33111b0b92f06fd08c7d3f2059f40d7d"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeSequentialOriginalAlphaCubeLaw.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 20.218000000109896,
+    "log": "round-native-cube-alpha-limit-NativeSequentialOriginalAlphaCubeLaw-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeSequentialOriginalAlphaCubeLaw.lean",
+    "source_sha256": "a3d6539dd3d9e522b2c2dac9543556e837d7cefb52d3fbedfa9bc5468ccc2ed9"
+  }
+]

@@ -47,7 +47,8 @@ run verifies this checkpoint; it does not prove the unfinished main theorem.
 
 - `CURRENT-STATUS.txt`: authoritative latest terminal audit and remaining work.
 - `verification-manifest.json`: audited files, SHA-256 hashes and pinned sources.
-- `ORIGINAL-CUBE-LOCAL-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `CUBE-ALPHA-LIMIT-CONTINUATION.txt`: detailed latest interfaces and next proof step.
+- `ORIGINAL-CUBE-LOCAL-CONTINUATION.txt`: preceding original cube radius law.
 - `CUBE-BOX-HAAR-CONTINUATION.txt`: preceding internal cube Haar checkpoint.
 - `CUBE-SOURCE-CONTINUATION.txt`: preceding actual cube source checkpoint.
 - `CUBE-BINOMIAL-CONTINUATION.txt`: preceding coefficient construction checkpoint.
@@ -56,18 +57,19 @@ run verifies this checkpoint; it does not prove the unfinished main theorem.
 - `Hindman168.lean`: canonical project imports.
 - `Verification.lean`: registered axiom checks.
 
-The latest mathematical round is `round-native-original-cube-local`; consult
-`CURRENT-STATUS.txt` and the manifest for its terminal audit result. It transports
-the internal cube Haar laws to the original ambient quotient, inserts the ACTUAL
-smooth factors and exact periodic cosets, and proves an original-source local
-cube law on ONE subsequence, simultaneously through the ORIGINAL step bound s+1.
-The period, subgroup filtration and smooth curve are shared by all dimensions.
+The latest mathematical round is `round-native-cube-alpha-limit`; consult
+`CURRENT-STATUS.txt` and the manifest for its terminal audit result. The ORIGINAL
+source now satisfies the explicit rounded alpha-box law, uniform over fixed
+bounded-Lipschitz test budgets and all dimensions through the ORIGINAL step s+1.
+The actual length limsup tends to zero as alpha decreases to zero. Standard
+window membership and eventual nonemptiness are proved. All cube laws retain
+the same subsequence, period, subgroup filtration and smooth curve.
 
-The current local law uses an all-vertices-within-radius hypothesis. The next
-task derives the paper's explicit alpha-box iterated limits and joins point and
-cube laws on the same factorization data. Preserve the length limit BEFORE the
-locality limit. Alignment, the remaining GTZ inverse work and the final same-color
-FS/FP argument are still outstanding.
+The next task joins the existing point and cube laws on the SAME factorization
+and smooth curve, before deriving the joint point-mixture law. Their separately
+stated existential witnesses cannot simply be identified. Projected face laws,
+Alignment, the remaining GTZ inverse work and the final same-color FS/FP argument
+are still outstanding.
 
 Continue from the same original source, final subgroup filtration and
 original nilpotency bound. Do not replace the target with a weaker result,

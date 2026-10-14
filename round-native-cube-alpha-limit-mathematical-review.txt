@@ -1,0 +1,59 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI section 7, equation local-cube-limit-order and its uniform box version.
+
+The original-source radius law is retained unchanged. This round supplies actual
+geometry rather than assuming that sampled vertices are local. For every subset
+of increments, the sum of their absolute deviations is bounded using card(V)<=d.
+Thus scaled vertex deviation is at most (d+1)*delta. Real half-open endpoints
+are represented by integer [ceil(lo),ceil(hi)); existing exact membership is used,
+so there is no extra rounding error at sampled points. The rounded side error
+is <1 at each end; the proved lower side bound is a*L/2 once a*L>=2. Rounded
+endpoint absolute values are bounded using L>=1. No positivity of integer
+coordinates or informal rounding convention is assumed.
+
+For beta,c,C,epsilon, obtain the actual radius. Set K=(s+2)*(C+1), and choose
+alpha0=min(1,radius/K). For each FIXED 0<alpha<alpha0 and each fixed positive
+modulus divisible by the original period, use the radius law with side constant
+c*alpha/2 and global endpoint constant abs(beta)+C+2. Eventual L>=1 and
+L>=2/(c*alpha) handle all rounding. Every q:Fin(s+2) has q+1<=s+2, so the SAME
+alpha0 controls every vertex. The length threshold follows alpha and modulus,
+and precedes every dimension, real box endpoint, residue vector and test.
+This is the required limit order. No alpha depending on length is substituted.
+
+The bounded-test extension scales by R=1+B+T, a strictly positive constant fixed
+before locality and length. The finite mean and actual Haar-image integral scale
+EXACTLY, including algebraic zero means for empty finite sets. A direct norm
+identity converts epsilon/R for the normalized unit test back to epsilon for
+every original test with budgets B,T. No probability assumption about an empty
+sample is made, nor any change to its true limiting Haar measure.
+
+The general limsup lemma uses nonnegativity and the eventual epsilon/2 bound.
+These explicitly provide lower coboundedness and upper eventual boundedness for
+the REAL limsup; it does not use an undefined or infinite limit as a real number.
+It proves Tendsto (alpha -> limsup_m a(alpha,m)) along nhdsWithin 0 (Ioi 0).
+The concrete discrepancy is nonnegative by being a norm, and the alpha law
+provides the eventual bound on each fixed alpha before taking the limsup.
+
+The standard box lower endpoints are beta*L at the base and 0 at increments;
+upper endpoints add alpha*L. Base residue is b and increment residues are zero.
+The exact membership theorem identifies base/L in [beta,beta+alpha), every
+increment/L in [0,alpha), and the actual integer residue restrictions. For fixed
+alpha>0 and t>0, L>=4*t/alpha and L>=1 imply every rounded side has length>=2*t,
+so the original progression box is eventually nonempty. Therefore the displayed
+means are genuine independent progression averages in the limit. Early empty
+means are harmless finite initial behavior and are not claimed as probabilities.
+
+The actual iterated theorem uses the ACTUAL original quotient source and
+nativeResidueCubeHaarImage, not a replacement measure. Compactness supplies the
+fixed continuous test norm bound; its Lipschitz constant is fixed. The final
+sequential theorem takes the existing original sequence construction and adds
+the new alpha law to precisely the SAME data, without new extraction or descent.
+
+LIMIT: the existing independently stated point-law and cube-law existentials
+still need to be joined at the SAME factorization/smooth curve. Do not silently
+identify their witnesses. The finite dimension range is 0,...,ORIGINAL s+1;
+no claim of one threshold for infinitely many dimensions is made. Projected
+face invariance, joint lifts/Alignment, separate arbitrary-input inverse and
+final same-color FS/FP remain. Full target UNPROVED; goal ACTIVE. No unavoidable
+obstruction established. Author audit is not external review or independent
+kernel replay. Keep the user's repository PRIVATE.

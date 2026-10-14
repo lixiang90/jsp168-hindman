@@ -19289,3 +19289,41 @@ import Hindman168
 #print axioms Hindman168.native_original_cube_local_haar
 
 #print axioms Hindman168.native_sequential_original_local_cube_law
+
+#print axioms Hindman168.cube_scaled_vertex_bound
+
+#print axioms Hindman168.cube_local_ceil_endpoint_bound
+
+#print axioms Hindman168.cube_local_ceil_vertex_bound
+
+#print axioms Hindman168.cube_local_ceil_side_bounds
+
+#print axioms Hindman168.NativeCubeAlphaHaarLaw
+
+#print axioms Hindman168.native_cube_local_to_alpha_haar
+
+#print axioms Hindman168.complex_mean_integral_scale
+
+#print axioms Hindman168.complex_mean_integral_normalization_norm
+
+#print axioms Hindman168.NativeCubeBoundedAlphaHaarLaw
+
+#print axioms Hindman168.native_cube_alpha_bounded_tests
+
+#print axioms Hindman168.nonnegative_iterated_local_limsup
+
+#print axioms Hindman168.cubeAlphaLower
+
+#print axioms Hindman168.cubeAlphaUpper
+
+#print axioms Hindman168.cubeAlphaResidue
+
+#print axioms Hindman168.cube_standard_alpha_geometry
+
+#print axioms Hindman168.cube_standard_alpha_box_nonempty
+
+#print axioms Hindman168.cube_standard_alpha_box_mem
+
+#print axioms Hindman168.native_original_cube_iterated_limit
+
+#print axioms Hindman168.native_sequential_original_alpha_cube_law

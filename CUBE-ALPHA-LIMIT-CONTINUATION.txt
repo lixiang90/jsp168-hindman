@@ -1,0 +1,88 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+PRIVATE repository: https://github.com/lixiang90/jsp168-hindman . Keep PRIVATE.
+Latest round: round-native-cube-alpha-limit. Consult CURRENT-STATUS.txt and
+verification-manifest.json for terminal evidence. Author audit is not peer review.
+
+Eight new modules extend ORIGINAL-CUBE-LOCAL-CONTINUATION.txt.
+
+CubeLocalBoxGeometry:
+- cube_scaled_vertex_bound: coordinate deviations <=delta*L imply every vertex
+  deviation after dividing by L is <=(d+1)*delta, using card(V)<=d.
+- cube_local_ceil_endpoint_bound: actual integer ceil endpoints bounded by
+  (abs(beta)+delta+1)*L once L>=1.
+- cube_local_ceil_vertex_bound: the vertex bound for ACTUAL samples in the rounded
+  real box, via exact alignment_ceil_box_mem; sample positions have no rounding loss.
+- cube_local_ceil_side_bounds: side >=a*L/2 once a*L>=2, and <=(b+1)*L once L>=1.
+
+NativeOriginalCubeAlphaBoxes: NativeCubeAlphaHaarLaw D H L P M hM sigma hRat h
+specifies beta,c,C fixed, then epsilon>0, then alpha0>0, then each FIXED positive
+alpha<alpha0 and fixed positive modulus t divisible by M, then eventually m,
+then ALL dimensions q:Fin(s+2), real endpoints, integer residue vectors and unit
+tests. Side lengths lie between c*alpha*L_m and C*alpha*L_m; base endpoints are
+within C*alpha*L_m of beta*L_m; increment endpoints have absolute value at most
+C*alpha*L_m. The actual average uses the rounded progression box and ORIGINAL P.
+native_cube_local_to_alpha_haar derives this from the proved radius law and hL.
+Choose alpha0=min(1,radius/((s+2)*(C+1))). Use c*alpha/2 and abs(beta)+C+2 in the
+radius theorem. Length threshold depends on fixed alpha and t, never conversely.
+
+ComplexMeanIntegralScaling: exact finite mean-minus-integral scaling for ANY
+measure and function. complex_mean_integral_normalization_norm gives R^-1 times
+the original discrepancy norm for positive R. No integrability/probability oracle
+or nonemptiness assumption is needed for these algebraic identities.
+
+NativeOriginalCubeBoundedAlpha: NativeCubeBoundedAlphaHaarLaw adds arbitrary
+fixed B>=0 and NNReal T budgets before epsilon. native_cube_alpha_bounded_tests
+uses R=1+B+T and the proved exact discrepancy normalization to get all tests with
+norm<=B and LipschitzWith T, preserving EVERY box and dimension quantifier.
+
+IteratedLocalLimsup: nonnegative_iterated_local_limsup turns
+  forall epsilon>0, exists alpha0>0, forall 0<alpha<alpha0,
+    eventually m, a(alpha,m)<epsilon
+into Tendsto (alpha -> limsup_m a(alpha,m)) (nhdsWithin 0 (Ioi 0)) (nhds 0).
+Upper eventual boundedness comes from epsilon/2; lower coboundedness comes from
+nonnegativity. No diagonal alpha(m) is used and no missing real-limsup boundedness
+side condition is assumed.
+
+CubeStandardAlphaBox: cubeAlphaLower d beta L, cubeAlphaUpper d beta L alpha and
+cubeAlphaResidue d b define the exact standard windows: base [beta L,(beta+alpha)L),
+increments [0,alpha L), base residue b and increment residues zero.
+cube_standard_alpha_geometry proves the input bounds with c=C=1.
+cube_standard_alpha_box_nonempty proves eventual nonemptiness at fixed alpha>0
+and t>0: L>=max(1,4*t/alpha) makes every rounded side >=2*t.
+cube_standard_alpha_box_mem proves EXACT normalized half-open membership and
+residue conditions for L>0, including negative base positions. The underlying
+alignmentBoxClass is the piFinset of coordinate progressions, so these really
+are independent uniform inputs once nonempty.
+
+NativeOriginalCubeIteratedLimit: native_original_cube_iterated_limit takes the
+actual bounded alpha law, q:Fin(s+2), beta, fixed t>0 divisible by M, base residue
+b:Z and a continuous Lipschitz test f. It proves the actual displayed LENGTH
+limsup of the ORIGINAL empirical cube discrepancy tends to zero as alpha->0+.
+The target is nativeResidueCubeHaarImage at sigma(signedPeriodResidue M hM b)
+and h(beta), with canonical cube enumeration. Compactness supplies norm bound
+norm(f). This is the paper's standard-window iterated limit, not just a radius
+surrogate or an arbitrary candidate measure.
+
+NativeSequentialOriginalAlphaCubeLaw: native_sequential_original_alpha_cube_law
+starts from the arbitrary ORIGINAL adapted source. It returns BOTH radius and
+bounded alpha laws on precisely the SAME f,H,M,sigma,h obtained by the previous
+construction. The iterated-limit theorem applies directly to this bounded law.
+No new factorization, descent or subsequence extraction is performed.
+
+NEXT: JOIN point and cube laws at the SAME factorization and SAME smooth curve.
+The existing native_sequential_original_local_point_law and the cube theorem
+each have existential witnesses. Their h or subsequence must not be silently
+identified. A direct route is to expose the smooth-action-freezing witness once
+and prove both point and cube insertion lemmas for THAT witness, then run the
+original factorization once. Existing actual point frozen Haar and cube frozen
+Haar theorems supply both inner limits. Alternatively prove the q=0 cube Haar
+image agrees with the actual point Haar image and derive the needed point laws,
+including their full progression/geometry scope; do not just assume equality.
+NativeSmoothActionFreezing, NativeRationalLayerSmoothLocalHaar and
+NativeResidueCubeSmoothLocalHaar contain the relevant original proofs.
+
+After a shared witness: original point-mixture law and continuous Haar family,
+projected face invariance/full support, joint lifts/full Alignment, separate
+arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse, final positive
+distinct rapidly separated SAME-color ALL nonempty FS AND FP.
+No unavoidable obstruction established. No public PR or prize application yet.
