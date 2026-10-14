@@ -75,6 +75,10 @@ readings, original-master harmonic shift removal and abstract conditional
 pivot product are now verified in
 [principal native mass](principal-native-mass/README.md).
 
+The common uniform observable limits now preserve the same joint laws, and
+actual future-scale threshold paths imply the exact final alignment event;
+see [future thresholds and observables](future-threshold-and-observables/README.md).
+
 The remaining realization chain is:
 
 - Feed the concrete Alignment slot transformations and the proved target
@@ -83,9 +87,9 @@ The remaining realization chain is:
   joint space.
 - Instantiate the proved closed/open threshold and Portmanteau argument
   to obtain good-conditioning shifted success with vanishing bad mass.
-  Prove future-scale/path preservation and identify the final path event
-  with `PrincipalSumAlignmentEvent`, then apply the proved harmonic
-  extension and finite-pivot mass product. Stronger prelimit Boolean-palette
+  Supply the secured local thresholds along the actual future-protected
+  paths, then apply the proved event identification, harmonic extension
+  and finite-pivot mass product. Stronger prelimit Boolean-palette
   equality is not a necessary input.
 - Assemble the uniform principle with finite scales and a positive lower
   bound chosen before models, padding, complexity and threshold.
