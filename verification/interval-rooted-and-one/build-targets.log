@@ -1,0 +1,4 @@
+✔ [6465/6482] Built Hindman168.IntegerIntervalGowersZeroExtension (3.2s)
+✔ [6469/6482] Built Hindman168.IntegerIntervalGowersDimensionOne (3.0s)
+✔ [6472/6482] Built Hindman168.NativePeriodicIntervalInverseOne (2.7s)
+These individual targets succeeded in the unified targeted run. The overall run also contained unrelated new draft targets that failed; no full-project success is asserted.

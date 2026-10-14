@@ -1,0 +1,8 @@
+{
+  "formal_lake_individual_targets_succeeded": true,
+  "all_declarations_including_generated": 28,
+  "axiom_audit_exit_code": 0,
+  "empty_interval_example_checked": true,
+  "higher_order_inverse_proved": false,
+  "full_target_proved": false
+}
