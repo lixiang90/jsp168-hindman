@@ -1,0 +1,3 @@
+$ lake env lean Hindman168/PositiveColorCountExtraction.lean
+$ lake env lean Hindman168/PrincipalPositiveCountExtraction.lean
+$ lake env lean Hindman168/PrincipalCountWitness.lean

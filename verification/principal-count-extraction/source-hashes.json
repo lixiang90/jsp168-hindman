@@ -1,0 +1,34 @@
+{
+  "baseline_commit": "89f2f6d05599f7422bc48c5982fb96b20db625c9",
+  "scope": "Actual principal positive-count extraction; positive-count hypothesis remains unproved",
+  "lean": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_command": "lake build Hindman168.PrincipalCountWitness",
+  "axiom_command": "lake env lean verification/principal-count-extraction/Axioms.lean",
+  "build_exit_code": 0,
+  "axiom_exit_code": 0,
+  "checked_theorem_count": 11,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "files": [
+    {
+      "path": "Hindman168/PositiveColorCountExtraction.lean",
+      "sha256": "a61a6682a4d33b6522c581d3b952a123dc574ab0c78821944d326e317564e989"
+    },
+    {
+      "path": "Hindman168/PrincipalPositiveCountExtraction.lean",
+      "sha256": "1b6bd055c4f299c2fd4193a682907fc45c1722bef31cb359fbb62dafecfd5c1e"
+    },
+    {
+      "path": "Hindman168/PrincipalCountWitness.lean",
+      "sha256": "47bce490e704f3e700a65c8f1028ab3aeedef1d7c4b59eac9641d15bcc8e4548"
+    },
+    {
+      "path": "verification/principal-count-extraction/Axioms.lean",
+      "sha256": "ffacda26b4df3e8bb0bde01afd73c8190a2c217a41038cf8a7574ea87ec0c041"
+    }
+  ]
+}
