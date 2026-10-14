@@ -1,0 +1,11 @@
+{
+  "command": [
+    "lake",
+    "build"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 144.34399999980815,
+  "log": "round-cube-binomial-coefficient-build.txt",
+  "log_sha256": "be9cf97f5d417e2ae4843f44898f61a8c6b2f5a8285345ddb075354a87fc7c94"
+}

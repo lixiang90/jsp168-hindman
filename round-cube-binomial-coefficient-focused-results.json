@@ -1,0 +1,82 @@
+[
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CubePolynomialFacePart.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 78.40599999995902,
+    "log": "round-cube-binomial-coefficient-CubePolynomialFacePart-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CubePolynomialFacePart.lean",
+    "source_sha256": "fe32565ced284cc23cf9f935b5628607741802ed52bba7a0e9cb6562a4b846ea"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CubeBinomialCoefficient.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 168.96900000004098,
+    "log": "round-cube-binomial-coefficient-CubeBinomialCoefficient-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CubeBinomialCoefficient.lean",
+    "source_sha256": "d9310208c147486f0f9e2fb825288af0d372182ddc5131d164e1cdb970e1bd4b"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CubeBooleanExpansion.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 29.70299999997951,
+    "log": "round-cube-binomial-coefficient-CubeBooleanExpansion-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CubeBooleanExpansion.lean",
+    "source_sha256": "0aedcff9a7ac7377af40643d281c6e5829b4a01fddc9be41df017846de9953d7"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/CubeTaylorNoCancellation.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 29.468000000109896,
+    "log": "round-cube-binomial-coefficient-CubeTaylorNoCancellation-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/CubeTaylorNoCancellation.lean",
+    "source_sha256": "cb0ec4b8657c5ae82986ed2e968147908e1753202fd85d2948f94981ab203ddd"
+  },
+  {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-DautoImplicit=false",
+      "Hindman168/NativeResidueCubeScalarCoefficient.lean"
+    ],
+    "terminal": true,
+    "exit_code": 0,
+    "elapsed_seconds": 31.156999999890104,
+    "log": "round-cube-binomial-coefficient-NativeResidueCubeScalarCoefficient-focused.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "module": "Hindman168/NativeResidueCubeScalarCoefficient.lean",
+    "source_sha256": "04506bbd1cab4e9176cbbd2824b4a2d593ac8a4db8bc82b9f0f15e549049865b"
+  }
+]

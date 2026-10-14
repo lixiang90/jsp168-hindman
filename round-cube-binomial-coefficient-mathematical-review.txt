@@ -1,0 +1,51 @@
+Author mathematical review, 2026-10-14.
+Pinned OpenAI section 7: Boolean binomial expansion and isolated coefficient.
+
+The variables are Option(Fin d), with none the base variable and some k the
+kth increment. cubeIncrementSupport records exactly the increments with
+positive exponent. cubePolynomialFacePart filters the actual coefficient
+finsupp by this exact support. Hence coefficients and support are literal
+identities, and summing over ALL faces recovers the original polynomial.
+Cardinality of increment support is bounded by total monomial degree.
+Filtering never raises total degree, so faces of size above the degree vanish.
+These arguments include empty faces, degree zero and cube dimension zero.
+
+For arbitrary univariate P, evaluating at the sum of variables has coefficient
+P.coeff(total monomial degree) times the monomial's multinomial coefficient.
+This follows from the actual power-of-sum coefficient formula and a finite
+sum over P.support, including the case of an absent coefficient. Applying
+it to the existing scalarBinomialPolynomial proves degree <= j. The selected
+exponent is j-card(A) on the base and one on precisely A. Under card(A)<=j
+its degree is j; a factorial multiplication identity proves its coefficient
+is 1/(j-card(A))!, with nonzero denominators justified by factorial positivity.
+
+Vertex restriction replaces absent increment variables by zero, preserving
+the base variable. A monomial survives iff its increment support is contained
+in the vertex. This proves the actual polynomial evaluation identity and
+then the Boolean expansion of binomial(b0+sum increments,j), for ALL real b.
+No equality about group multiplication is assumed or inferred here.
+
+cubeTaylorFaceScalarPolynomial is explicitly a finite scalar sum. At the
+selected monomial only face A contributes. Taylor orders below j vanish by
+their proved total-degree bound. Orders above j vanish by the supplied
+maximal-level tail on faces of cardinality <= k; card(A)<=j<k ensures the
+condition. The coefficient of order j is exactly c(j,A)/(j-card(A))!.
+The theorem requires j<N, so its selected order is really in the sum.
+
+The native instantiation uses the existing ACTUAL residue cube functional
+and SAME original polynomial Taylor residuals, with N=ell+1. Source adaptation
+proves each Taylor vector belongs to F_k; the previously derived all-face
+maximal-level kernel therefore supplies the tail, not a new oracle. The
+existing irrationality escape theorem transfers along the exact coefficient
+identity for every nonzero rational multiple. No extension of irrationality
+to an unrelated source or enlargement of original degree/step occurs.
+
+IMPORTANT LIMIT: This is an escaping coefficient of the explicitly defined
+scalar face/Taylor sum. Equality of this sum with the horizontal projection
+of the actual group-valued cube has NOT yet been proved. Actual original
+cube polynomial adaptation is also outstanding. Thus quantitative Leibman
+cannot yet be applied to obtain the requested simultaneous cube laws.
+Alignment, the separate arbitrary-input GTZ inverse and final same-color
+FS/FP theorem remain outstanding. StrongConjecture UNPROVED, goal ACTIVE.
+No unavoidable obstruction established. Author audit is not independent
+kernel replay or external peer review. Keep user-requested repository PRIVATE.

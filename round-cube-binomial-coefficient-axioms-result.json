@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "Verification.lean"
+  ],
+  "terminal": true,
+  "exit_code": 0,
+  "elapsed_seconds": 47.95299999997951,
+  "log": "round-cube-binomial-coefficient-axioms.txt",
+  "log_sha256": "b4885ed0cc1f5f64faae20d1714ec84deb0dd5b7ae467571688c126279e2f073"
+}

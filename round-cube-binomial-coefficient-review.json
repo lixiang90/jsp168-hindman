@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-14",
+  "classification": "PROGRESS",
+  "full_target_proved": false,
+  "verified": {
+    "project_modules": 2931,
+    "pntplus_modules": 9,
+    "attributed_szemeredi_modules": 42,
+    "build_jobs": 6973,
+    "selected_axiom_reports": 11346,
+    "new_declarations": 30,
+    "new_theorems": 22,
+    "new_definitions": 8,
+    "new_external_targets": 0,
+    "retained_proof_sources_unchanged": true,
+    "retained_axiom_sets_unchanged": true,
+    "standard_axioms_only": true,
+    "main_pins_unchanged": true,
+    "full_target_proved": false,
+    "independent_kernel_replay": false
+  },
+  "new_modules": [
+    "Hindman168/CubePolynomialFacePart.lean",
+    "Hindman168/CubeBinomialCoefficient.lean",
+    "Hindman168/CubeBooleanExpansion.lean",
+    "Hindman168/CubeTaylorNoCancellation.lean",
+    "Hindman168/NativeResidueCubeScalarCoefficient.lean"
+  ],
+  "proved_components": [
+    "Constructed exact increment-support face parts of arbitrary real multivariate polynomials, proved their coefficients, support, sum recovery and degree bound, and vanishing for faces larger than the polynomial degree. Empty faces and dimension zero are included.",
+    "Proved the coefficient formula for a univariate polynomial evaluated at the sum of base/increment variables. Constructed actual binomial face polynomials and the isolated monomial, with exact support, total degree and factorial/multinomial identity.",
+    "Proved the Boolean binomial expansion by evaluating actual vertex restrictions: killing absent increment variables keeps exactly those face parts contained in the vertex. This is an equality for all real variables, not an expansion assumption.",
+    "Proved the isolated coefficient of the explicit scalar Taylor/face sum is c(j,A)/(j-card(A))!. Other faces cannot contribute because increment supports differ; lower orders have insufficient total degree; higher orders vanish under the derived maximal-face tail.",
+    "Instantiated that explicit scalar polynomial with the SAME-source actual Taylor coefficients and ACTUAL rational-residue cube horizontal functional. Derived its exact isolated coefficient and escape for every fixed nonzero rational multiple. Equality with the horizontal projection of the actual group-valued cube and cube adaptation remain unproved."
+  ],
+  "remaining": "StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 weak probability limit, SAME-filtration actual cube group, rational filtration, rational-residue orbit/Haar probability with full support and cube invariance, and actual horizontal cube obstruction to original maximal rational face-level character are proved. The actual Boolean binomial expansion and no-cancellation coefficient identity for the explicit scalar Taylor/face sum are now proved; its coefficient escapes by SAME-source irrationality. Remaining: identify that explicit scalar sum with the horizontal projection of the ACTUAL group-valued cube and prove original source cube adaptation; simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Private checkpoint repository created at user request; keep PRIVATE. Public repository/PR/prize milestone not reached.",
+  "mathematical_review_file": "round-cube-binomial-coefficient-mathematical-review.txt",
+  "mathematical_review_sha256": "f45a60d20d3d70faea9f0b9fc353ef716317d77dd9ec2c66405cb9d050727606",
+  "primary_reference": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "dependency_certification": "openai-finite-szemeredi-certification.json",
+  "dependency_certification_sha256": "5792a81b1c4a2261e78fa62903ab298b2855e5c5f639275ab16bbe6e4ce5307d"
+}

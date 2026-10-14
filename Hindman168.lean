@@ -5155,3 +5155,13 @@ import Hindman168.NativeCubeFaceLevelCharacter
 import Hindman168.NativeResidueCubeLevelCharacter
 
 import Hindman168.NativeResidueCubeFaceEscape
+
+import Hindman168.CubePolynomialFacePart
+
+import Hindman168.CubeBinomialCoefficient
+
+import Hindman168.CubeBooleanExpansion
+
+import Hindman168.CubeTaylorNoCancellation
+
+import Hindman168.NativeResidueCubeScalarCoefficient

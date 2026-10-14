@@ -1,0 +1,88 @@
+JSP-000168 / Erdos #172. Goal ACTIVE; StrongConjecture UNPROVED.
+User requested PRIVATE GitHub backup; keep lixiang90/jsp168-hindman PRIVATE.
+See CURRENT-STATUS.txt and verification-manifest.json for terminal audit status.
+
+round-cube-binomial-coefficient adds five modules after round-native-cube-character.
+CubePolynomialFacePart: cubeIncrementSupport m is the exact support among
+increment variables some k, excluding base none. cubePolynomialFacePart A p
+filters actual polynomial coefficients, with literal coefficient/support
+formulas, sum over all faces = p, degree <= p.degree and zero if card(A)>degree.
+
+CubeBinomialCoefficient: cube_polynomial_sum_coefficient P m equals
+P.coeff(totalDegree m)*m.multinomial. cubeBinomialPolynomial d j is actual
+scalarBinomialPolynomial j evaluated at sum of ALL Option(Fin d) variables.
+cubeBinomialFacePolynomial j A is its exact increment-support part.
+Both degrees <=j and the face polynomial vanishes for card(A)>j.
+cubeIsolatedMonomial j A has exponent j-card(A) on none, one on some k in A,
+and zero on other increments. Under card(A)<=j it has degree j and support A.
+The factorial/multinomial multiplication identity proves its coefficient is
+1/(j-card(A))!, without dubious division in Nat or dropping denominators.
+
+CubeBooleanExpansion: cubeVertexVariables V b keeps the base, keeps increments
+in V and sets the others to zero. A monomial survives exactly when its increment
+support is contained in V. cube_boolean_polynomial_expansion proves the vertex
+restriction equals the sum of all included face parts. The binomial instance is
+cube_boolean_binomial_expansion, an identity for every REAL b and every j,d,V.
+
+CubeTaylorNoCancellation: cubeTaylorFaceScalarPolynomial N c is explicitly
+sum over k<N and ALL faces B of C(c k B)*cubeBinomialFacePolynomial k B.
+For card(A)<=j<N and tail c(k,B)=0 when j<k<N and card(B)<=k, its coefficient
+at cubeIsolatedMonomial j A is c(j,A)/(j-card(A))!. Different faces are excluded
+by exact increment support; lower orders by total degree; higher by tail.
+The empty face and j=0 cases are included in this algebraic theorem.
+
+NativeResidueCubeScalarCoefficient: nativeResidueCubeTaylorScalarPolynomial
+instantiates N=ell+1 and c(k,A)=actual residue face functional applied to
+roughVectorMvEval (adaptedTaylorResidual D p k) at k. For SAME-source adaptation
+hp and sequential irrationality hIrr, and ACTUAL residue cube horizontal chi,
+native_residue_cube_scalar_coefficient_escape selects 1<=j<=ell and A.card<=j,
+a genuine ORIGINAL level character, the exact coefficient identity for every
+source index m, and coefficient escape at scale L^j for every nonzero rational q.
+Tail follows from original Taylor layer membership and maximal all-face kernel.
+
+CRITICAL NEXT STEP: Do not call this the actual horizontal cube polynomial yet.
+The explicit scalar sum has not been identified with the horizontal projection
+of the actual ordered group-valued cube. Build the actual internal cube-valued
+vector polynomial with the SAME original source/filtration/step:
+- At Taylor order k and face A with card(A)<=k, map the actual Taylor vector in
+  F_k into the cube model via upperFaceLieArray and nativeCubeLieModelMap.
+- Prove it belongs to internal cube layer k using nativeCubeInternalLayer as
+  comap of nativeCubeAmbientLayer. Face generator membership is at max(k,cardA).
+- Pair that vector with cubeBinomialFacePolynomial k A (degree <=k). Zero face
+  polynomials for card(A)>k permit restriction to admissible faces.
+- Combine all faces for the same Taylor order as a vector sum: all vertex
+  components are real multiples of the SAME Taylor vector, so exponentiating
+  gives the original kth Taylor factor at every vertex by Boolean expansion.
+- Combine Taylor orders via roughNativeProductMvPolynomial, preserving weighted
+  adaptation by the existing native rational filtration product theorem.
+- The actual subgroup inclusion/exponential/vertex compatibility and original
+  native_rational_subgroup_taylor_ordered_representation prove the result is
+  exactly the vertex cube of the original source.
+- Horizontal bracket annihilation makes projection of the product equal the
+  sum of projections. native_cube_array_functional_agrees and the face functional
+  definition identify that projection with nativeResidueCubeTaylorScalarPolynomial.
+Then the already proved scalar coefficient escape applies to the ACTUAL cube.
+
+Useful existing files: NativeCubeInternalFiltration, NativeCubeArrayFunctional,
+NativeCubeHorizontalArray, NativeResidueCubeData, NativeRationalSubgroupTaylorCoordinates,
+NativeSubgroupHorizontalTaylor, RoughVectorMvPolynomial, NativeRationalSubgroupFiltration.
+Lean note: AddMonoidAlgebra is a structure; its coeff field is a Finsupp. The
+face part constructor uses that field directly. Explicitly rewrite support in
+membership hypotheses before extracting Finset.mem_filter, to avoid wrong
+implicit monomial inference. Finsupp.sum_fintype is easy via rw at a named fact.
+
+Further remaining: simultaneous local cube laws through original s+1 with
+length BEFORE locality; projected face invariance/full support and joint lifts/
+Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence
+inverse; final positive distinct rapidly separated same-color ALL FS and FP.
+No unavoidable obstruction established. Author audit is not independent kernel
+replay or external peer review. Public repository/PR/prize milestone not reached.
+
+Concrete helper for the next construction: nativeRationalSubgroupFiltrationOfFull
+converts the actual nativeResidueCubeFiltration to the subgroup interface while
+retaining its layers. This permits native_rational_subgroup_product_weighted and
+native_subgroup_horizontal_product on the ACTUAL internal cube data. The theorem
+native_rational_cube_data_exponential gives exact compatibility of inclusion
+with the internal exponential; native_rational_cube_embedding_exponential then
+identifies each original vertex exponential. Existing native_cube_lie_model_map
+surjectivity is not needed for every face: use the explicit mapped face array.

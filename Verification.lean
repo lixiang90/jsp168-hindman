@@ -19091,3 +19091,63 @@ import Hindman168
 #print axioms Hindman168.native_residue_cube_horizontal_maximal_level
 
 #print axioms Hindman168.native_residue_cube_face_taylor_escape
+
+#print axioms Hindman168.cubeIncrementSupport
+
+#print axioms Hindman168.cubePolynomialFacePart
+
+#print axioms Hindman168.cube_polynomial_face_part_coefficient
+
+#print axioms Hindman168.cube_polynomial_face_part_support
+
+#print axioms Hindman168.cube_polynomial_face_parts_sum
+
+#print axioms Hindman168.cube_polynomial_face_part_degree
+
+#print axioms Hindman168.cube_increment_support_card_le
+
+#print axioms Hindman168.cube_polynomial_face_part_eq_zero_of_degree
+
+#print axioms Hindman168.cube_polynomial_sum_coefficient
+
+#print axioms Hindman168.cubeBinomialPolynomial
+
+#print axioms Hindman168.cubeBinomialFacePolynomial
+
+#print axioms Hindman168.cube_binomial_polynomial_degree
+
+#print axioms Hindman168.cube_binomial_face_degree
+
+#print axioms Hindman168.cube_binomial_face_eq_zero
+
+#print axioms Hindman168.cubeIsolatedMonomial
+
+#print axioms Hindman168.cube_isolated_monomial_support
+
+#print axioms Hindman168.cube_isolated_monomial_degree
+
+#print axioms Hindman168.cube_isolated_monomial_factorial
+
+#print axioms Hindman168.cube_binomial_isolated_coefficient
+
+#print axioms Hindman168.cubeVertexVariables
+
+#print axioms Hindman168.cube_vertex_monomial_eval
+
+#print axioms Hindman168.cube_vertex_face_part_eval
+
+#print axioms Hindman168.cube_boolean_polynomial_expansion
+
+#print axioms Hindman168.cube_boolean_binomial_expansion
+
+#print axioms Hindman168.cube_binomial_face_isolated_coefficient
+
+#print axioms Hindman168.cube_binomial_lower_order_coefficient
+
+#print axioms Hindman168.cubeTaylorFaceScalarPolynomial
+
+#print axioms Hindman168.cube_taylor_face_scalar_isolated_coefficient
+
+#print axioms Hindman168.nativeResidueCubeTaylorScalarPolynomial
+
+#print axioms Hindman168.native_residue_cube_scalar_coefficient_escape

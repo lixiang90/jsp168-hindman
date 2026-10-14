@@ -2,29 +2,27 @@ JSP-000168 / Erdos #172 -- 2026-10-14
 
 Verdict: Partial overall coverage; PROGRESS.
 Goal ACTIVE; StrongConjecture UNPROVED; no unavoidable obstruction established.
-Latest terminal author audit: round-native-cube-character
+Latest terminal author audit: round-cube-binomial-coefficient
 
-Proved actual finite-face splitting and bracket annihilation for a cube functional, including empty faces. Proved a nonzero cube functional is detected by a spanning face and selected the greatest surviving level across ALL faces of the SAME filtration.
+Constructed exact increment-support face parts of arbitrary real multivariate polynomials, proved their coefficients, support, sum recovery and degree bound, and vanishing for faces larger than the polynomial degree. Empty faces and dimension zero are included.
 
-Constructed the actual cube Lie-model surjection and a full-array extension of any native cube functional using a proved finite-dimensional retraction. Proved exact restriction agreement, nontriviality and compatibility with the actual native adjoint bracket.
+Proved the coefficient formula for a univariate polynomial evaluated at the sum of base/increment variables. Constructed actual binomial face polynomials and the isolated monomial, with exact support, total degree and factorial/multinomial identity.
 
-Derived bracket annihilation and rationality of the array functional from a genuine horizontal functional on the ACTUAL cube nilmanifold. Rationality uses actual internal/product lattice rational-log-span compatibility and lattice integrality, not a rationality oracle.
+Proved the Boolean binomial expansion by evaluating actual vertex restrictions: killing absent increment variables keeps exactly those face parts contained in the vertex. This is an equality for all real variables, not an expansion assumption.
 
-Proved every genuine horizontal cube obstruction yields a nonzero ORIGINAL rational level character at some greatest j between 1 and the original degree, on a face of cardinality at most j. All higher face restrictions vanish; both next-layer and mixed-bracket annihilation are proved.
+Proved the isolated coefficient of the explicit scalar Taylor/face sum is c(j,A)/(j-card(A))!. Other faces cannot contribute because increment supports differ; lower orders have insufficient total degree; higher orders vanish under the derived maximal-face tail.
 
-Transported the result from rationally conjugated original data to the ACTUAL residue cube and ORIGINAL rational form. The residue is only ambient-rational; no membership in H or the cube is required.
-
-Connected the selected residue cube face character to SAME-original-source sequential irrationality. Its Taylor face value divided by (j-card(face))! escapes every fixed nonzero rational multiple at scale L^j. This proves scalar escape, not yet polynomial coefficient identification.
+Instantiated that explicit scalar polynomial with the SAME-source actual Taylor coefficients and ACTUAL rational-residue cube horizontal functional. Derived its exact isolated coefficient and escape for every fixed nonzero rational multiple. Equality with the horizontal projection of the actual group-valued cube and cube adaptation remain unproved.
 
 {
-  "project_modules": 2926,
+  "project_modules": 2931,
   "pntplus_modules": 9,
   "attributed_szemeredi_modules": 42,
-  "build_jobs": 6967,
-  "selected_axiom_reports": 11316,
-  "new_declarations": 19,
-  "new_theorems": 15,
-  "new_definitions": 4,
+  "build_jobs": 6973,
+  "selected_axiom_reports": 11346,
+  "new_declarations": 30,
+  "new_theorems": 22,
+  "new_definitions": 8,
   "new_external_targets": 0,
   "retained_proof_sources_unchanged": true,
   "retained_axiom_sets_unchanged": true,
@@ -34,4 +32,4 @@ Connected the selected residue cube face character to SAME-original-source seque
   "independent_kernel_replay": false
 }
 
-StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 weak probability limit, SAME-filtration actual cube group, full rational filtration, rational-residue orbit/Haar probability with exact full support and cube invariance, and ACTUAL horizontal cube obstruction to ORIGINAL maximal rational face-level character with Taylor scalar escape are proved. Remaining: identify the isolated actual cube polynomial coefficient without cancellation and prove original source cube adaptation; simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Public repository/PR/prize milestone not reached.
+StrongConjecture remains UNPROVED; goal ACTIVE; no unavoidable obstruction established. Original q=0 weak probability limit, SAME-filtration actual cube group, rational filtration, rational-residue orbit/Haar probability with full support and cube invariance, and actual horizontal cube obstruction to original maximal rational face-level character are proved. The actual Boolean binomial expansion and no-cancellation coefficient identity for the explicit scalar Taylor/face sum are now proved; its coefficient escapes by SAME-source irrationality. Remaining: identify that explicit scalar sum with the horizontal projection of the ACTUAL group-valued cube and prove original source cube adaptation; simultaneous local cube laws through ORIGINAL s+1 with length before locality; projected face invariance/full support, joint lifts/full Alignment; separate arbitrary-input GTZ interval Gowers LINEAR nilsequence inverse; final positive distinct rapidly separated SAME-color ALL nonempty FS AND FP. No source/Haar/character/inverse oracle or new axiom introduced. Author checks are not independent kernel replay or external peer review. Private checkpoint repository created at user request; keep PRIVATE. Public repository/PR/prize milestone not reached.

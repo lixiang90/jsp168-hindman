@@ -12,10 +12,13 @@ repository and requested PR/prize application at the later milestone.
 The full mathematical objective remains unchanged and ACTIVE.
 StrongConjecture is UNPROVED; no unavoidable obstruction established.
 
-Latest mathematical audit: round-native-cube-character. Seven new modules,
-15 theorems, four definitions. Full author build and registered axiom audit
-passed. See CURRENT-STATUS.txt, verification-manifest.json and
-CUBE-CHARACTER-CONTINUATION.txt for authoritative proof progress and next work.
+Latest mathematical round: round-cube-binomial-coefficient. Five new modules
+prove Boolean binomial expansion, isolated factorial coefficients and
+no-cancellation in the explicit scalar Taylor/face sum; actual source
+irrationality gives coefficient escape. The group-valued cube projection
+identity and cube adaptation are still outstanding. Consult CURRENT-STATUS.txt
+and verification-manifest.json for terminal audit status, and
+CUBE-BINOMIAL-CONTINUATION.txt for exact next proof work.
 
 README.md contains portable setup and continuation instructions.
 scripts/verify_snapshot.py verifies exact canonical source hashes and,
