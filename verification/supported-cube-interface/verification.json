@@ -1,0 +1,18 @@
+{
+  "upstream_modules_compiled_against_existing_Model": 23,
+  "new_upstream_modules": 22,
+  "unchanged_existing_Model_reused": true,
+  "adapter_source_recheck_exit_code": 0,
+  "all_environment_declarations_audited": 853,
+  "axiom_audit_exit_code": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "formal_lake_target": "Hindman168.OriginalSupportedCubeInterval",
+  "full_inverse_theorem_included": false,
+  "full_target_proved": false,
+  "non_overlay_axiom_audit_exit_code": 0,
+  "fresh_dependency_rebuild_count": 23
+}

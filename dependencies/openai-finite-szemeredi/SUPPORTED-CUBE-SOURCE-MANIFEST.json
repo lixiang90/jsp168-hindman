@@ -1,0 +1,411 @@
+{
+  "upstream": "https://github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "license": "Apache-2.0",
+  "scope": "22 added OpenAI modules plus existing Model reused unchanged; supported-cube norm API only; no inverse theorem",
+  "lean": "4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "compatibility_rules": {
+    "dite_eq_left": "dif_pos",
+    "dite_eq_right": "dif_neg",
+    "ite_eq_left": "if_pos",
+    "ite_eq_right": "if_neg",
+    "Finset.prod_le_prod\u2080": "Finset.prod_le_prod",
+    "Finset.prod_le_one\u2080": "Finset.prod_le_one",
+    "Finset.one_le_prod\u2080": "Finset.one_le_prod"
+  },
+  "files": [
+    {
+      "module": "OAI.Combinatorics.Progressions.Model",
+      "path": "OAI/Combinatorics/Progressions/Model.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "35a9de981b6ca7c218f86848167e3c369d37474653f966a2c716bf822ff2101e",
+      "ported_sha256": "8a47a51fff099d302209730b979a5078defa9f6ff522d658f4b1a984527ba8a2",
+      "replacements": {},
+      "additional_compatibility_edits": [
+        {
+          "kind": "import narrowing",
+          "provenance": "Reuse project-author-verified finite-Szemeredi Model imports; theorem/definition bodies unchanged.",
+          "old": "import Mathlib",
+          "new": "import Mathlib.Analysis.SpecialFunctions.Pow.Real\nimport Mathlib.Data.Finset.Powerset\nimport Mathlib.Topology.Algebra.InfiniteSum.Real"
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "reused existing source unchanged",
+      "installed_sha256": "52763fa12d214b32fef61e7b1a7ec179e5756cba9e82e27e6d53e19d926289eb",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Model.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Results.Basic",
+      "path": "OAI/Combinatorics/Progressions/Results/Basic.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "adcc0fdbfb9b3dd1c9f34f2f5edcab9f0b541b0153796329456d72fd89bcd4ba",
+      "ported_sha256": "14b2f7af8683b75599a67701f9a4ce4db95b3e58e22e91d28fa0d43293c325f7",
+      "replacements": {},
+      "additional_compatibility_edits": [
+        {
+          "kind": "import narrowing",
+          "old": "import Mathlib",
+          "new": "import Mathlib.Combinatorics.Pigeonhole\nimport Mathlib.Tactic",
+          "mathematical_body_changed": false
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "96308c84423c4dc5ed7343397cc5c14a3d993afe22d3afc4d6a7a8365c903ecc",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Results/Basic.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.ComplexFiniteMeans",
+      "path": "OAI/Combinatorics/Progressions/Estimates/ComplexFiniteMeans.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "70fae26b4a7f85c8f547bdb58577ae331e8d4c58538523437e75adcca5fe47a7",
+      "ported_sha256": "ba08ef8d7c466bb1c85d3137f92234917acb0306e0e01172e98b41128451e8ad",
+      "replacements": {
+        "Finset.prod_le_prod\u2080": 3
+      },
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "a01ccbf325a9d6637d5236a6a59a3aea324b2db73fa14afaae1f8c70f18ce632",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ComplexFiniteMeans.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.WeightedSummandCorrelation",
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedSummandCorrelation.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "4660ea7f62c460b466c81ca8c77bf8aa580bed3965b6c6d1957800283a877834",
+      "ported_sha256": "c896485199a1815092f3753f2bd9bc051161a890d52fd39115dde8147bb78a6f",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "29cade21591b317d63f8a4edef495eb4bd33e0ec6b4865d80e2f6f5fa62de4dd",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/WeightedSummandCorrelation.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.BufferedSiteExpansion",
+      "path": "OAI/Combinatorics/Progressions/Estimates/BufferedSiteExpansion.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "e077c205c57e5587d9d312994680c8c0117e3eab5a707d6da7f89dad69488ed1",
+      "ported_sha256": "b2c0ed665bfb73b57946710101f1ef4cb81e6fe626478bc3227accf63f67f03b",
+      "replacements": {
+        "Finset.prod_le_prod\u2080": 1,
+        "Finset.prod_le_one\u2080": 1
+      },
+      "additional_compatibility_edits": [
+        {
+          "kind": "API compatibility",
+          "old": "dist_star_star",
+          "new": "Complex.star_def, Complex.dist_conj_conj",
+          "before_sha256": "e0f30d86489702850e18c61aced4800408e163603c5051aa107282a44faeb809",
+          "after_sha256": "c16ae3735ada3157c6c15beb90c3eb9c4841124e5b87d957f721c76b694f58ad"
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "b67435ffad284c3b94c31d81e920a32559e73f55e7a70ce22e502dfa6aa12b00",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/BufferedSiteExpansion.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Lattices.RectangularLatticeCells",
+      "path": "OAI/Combinatorics/Progressions/Lattices/RectangularLatticeCells.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "9312eab2a48b4665442e138f12c3f68a67bc9cc5c008486acb21edb5cd814ae9",
+      "ported_sha256": "cf06a73b98ed3ffefb8a3554c6b49e0a2fe07385da72324b5432fd23f71c31fd",
+      "replacements": {},
+      "additional_compatibility_edits": [
+        {
+          "kind": "API compatibility",
+          "old": "Measurable.of_eval",
+          "new": "measurable_pi_iff.mpr",
+          "before_sha256": "9312eab2a48b4665442e138f12c3f68a67bc9cc5c008486acb21edb5cd814ae9",
+          "after_sha256": "9fc674a6d8acae2a5def7c81e94c298cc8f17bde8a93b563a150ea9ccdb19945"
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "6f72716f5b9e88345af36300b518ea0a5e61d68c3663673f22abab5001f1367f",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/RectangularLatticeCells.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Geometry.CompactBoxIntegral",
+      "path": "OAI/Combinatorics/Progressions/Geometry/CompactBoxIntegral.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "a3a9a615cb4c4cc6533fcfa08fb118417352b8a420652380a40fe1a274968813",
+      "ported_sha256": "19251b505e3e8a3e9d37cbd5a5f9851f22588ddca5eea11cf4cb3654115059da",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "defdbac89475b564787ba3ddddd409b6c653994c9db8ae6dee7f9714e83f45cb",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CompactBoxIntegral.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Probability.FiniteProbabilityLipschitz",
+      "path": "OAI/Combinatorics/Progressions/Probability/FiniteProbabilityLipschitz.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "a75a13a4a8867d51e47c45cacce24edd1fa2f29ce30b68ef80bd6b77b6dc03e5",
+      "ported_sha256": "12e47fce7b5040c27840bc654578d824725d1b6bfcbb9bd356db4c7ef4373916",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "bf23b37bd653d84121c886f8a8d69cc9943827e5b4e55a67e7c24f792e1aef8a",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/FiniteProbabilityLipschitz.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Sampling.ModelScoreComparison",
+      "path": "OAI/Combinatorics/Progressions/Sampling/ModelScoreComparison.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "853efcebfdc548272c50f34143f0542a9991a4404327c9980e8c8abac37e5b68",
+      "ported_sha256": "9dda2c93112e96ba537119db2cdad3afdf86bc232f5cf347b6a849ad51f8bd44",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "2a8362499f56546220352270cf0687902b0750af983ef29c4238a0173cc41b1d",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Sampling/ModelScoreComparison.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.CorrelationDerivative",
+      "path": "OAI/Combinatorics/Progressions/Estimates/CorrelationDerivative.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "9a11e4d9be6eed3193a839f2c4404afb40522077dfd286fa3af171a77641fdb8",
+      "ported_sha256": "f360df339b6c196ce882294e2cfff6a561ddfe61fc06fc822d63e8cb18e9f1ec",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "85d9a011048e07fbede57add8deca5ab3e32af2365067d2e38b022312bde96ca",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CorrelationDerivative.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.CyclicShortShiftSet",
+      "path": "OAI/Combinatorics/Progressions/Estimates/CyclicShortShiftSet.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "171d12008ab404e7c26338686053380546e5965cb859b4449e9de4bce98684f5",
+      "ported_sha256": "a971e18ceb9eaf05a21c38dbf37eaa6d7f4e9249d0b0e08b45047b7c3ed1a3e7",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "f171e121f9856e965277a597f1fc5ff2576a401e2cc18baa7224757db2299249",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CyclicShortShiftSet.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.UnitExpansionCorrelation",
+      "path": "OAI/Combinatorics/Progressions/Estimates/UnitExpansionCorrelation.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "a14a32dcd78c2011249ac3b2245fdb92fbf634b40a4ac4f029671a834d36c677",
+      "ported_sha256": "6845b73901909833e9e15fdde1cfc37c2145fd5a43297a122feb6e42c1eb62bb",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "77f89ffe81f7492f7f78e71a6afa8d01296e3e07423ff615a0f07762422a46ff",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/UnitExpansionCorrelation.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Polynomial.PolynomialDensityBudget",
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialDensityBudget.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "1f0b3487f0c1905f8c6858c89b6c16add1dd591261981f22874266cbc5a21b2b",
+      "ported_sha256": "0b2c97f3f7d5323fef53fa2a52832777fdafc4070ad6dd83abbae8e956a71d12",
+      "replacements": {},
+      "additional_compatibility_edits": [
+        {
+          "kind": "import narrowing",
+          "old": "import Mathlib",
+          "new": "import Mathlib.Algebra.Polynomial.Eval.Defs\nimport Mathlib.Algebra.Polynomial.Degree.Operations\nimport Mathlib.Analysis.SpecialFunctions.Exp\nimport Mathlib.Tactic",
+          "mathematical_body_changed": false
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "da6d117410f6fea8bd7a6e8e769c6f7966e0a9e9995c4f6d5064b6fbc1fb4be8",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/PolynomialDensityBudget.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Geometry.BoxDetectionExponents",
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxDetectionExponents.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "4eb83f08dcc6526c398ee24a60339d81e1a5565fbc3f8588316c95b85fd132a1",
+      "ported_sha256": "46c411eb2a161049c46fb351e13adbab86f54912e2237735a8d9f6491d64e132",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "688719f10c9ec0fb75ce8e49941deab58efc3229a4cbc516c3b74d84f805597e",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/BoxDetectionExponents.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.FixedPartnerPower",
+      "path": "OAI/Combinatorics/Progressions/Estimates/FixedPartnerPower.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "890074ec4580303497a18cf5396c048c28d7795dbf8c9b24be47ca1448277dab",
+      "ported_sha256": "5d28072354f208278380e90e95f6529158b0f89171b4824f394403fb0b193113",
+      "replacements": {
+        "Finset.prod_le_prod\u2080": 1
+      },
+      "additional_compatibility_edits": [
+        {
+          "kind": "API compatibility",
+          "old": "import OAI.Combinatorics.Progressions.Estimates.CyclicShortShiftSet",
+          "new": "import Mathlib.Data.Finset.CastCard\nimport OAI.Combinatorics.Progressions.Estimates.CyclicShortShiftSet",
+          "before_sha256": "7a179739eaa2d753d8946940b92510f9b0f2c657ffa5c596f04b591a8b591a2e",
+          "after_sha256": "20fec67c4158dc2ce06e028602f570854d9977624b7a21028ff41a9327ed2d33"
+        },
+        {
+          "kind": "API compatibility",
+          "old": "      simp [shiftTestingSeminorm, shiftTestSeminormAt, Seminorm.sSup_empty]\n      rfl",
+          "new": "      change (\ud835\udd3c h, shiftTestSeminormAt B T h v) = 0\n      simp [shiftTestSeminormAt, iSup_of_empty', Seminorm.sSup_empty]",
+          "before_sha256": "20fec67c4158dc2ce06e028602f570854d9977624b7a21028ff41a9327ed2d33",
+          "after_sha256": "b7038299053a03c16eddacaf339574e296119c621fe63f794365451e76ee5fee"
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "3a7667cc295327549d3b56b38a41e52fa9c5de2fdaf15f4bbf403b003cd62e42",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/FixedPartnerPower.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Linear.BalancedDualBounds",
+      "path": "OAI/Combinatorics/Progressions/Linear/BalancedDualBounds.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "c72ec9b7860b26cd4efe6dda32e4af646da0fcca29968233f7d61bdbb09b31fe",
+      "ported_sha256": "b9730442075857ecaa91fb84c92ffa92fddb380d9e9b6ba4be331337e888bf36",
+      "replacements": {},
+      "additional_compatibility_edits": [
+        {
+          "kind": "import narrowing",
+          "old": "import Mathlib",
+          "new": "import Mathlib.Analysis.Complex.Basic\nimport Mathlib.Analysis.Seminorm\nimport Mathlib.Analysis.LocallyConvex.Basic\nimport Mathlib.Tactic",
+          "mathematical_body_changed": false
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "d7b7a241939b19a4abc9f9b2526ae66de1854f04a75f5621a48de19ad4e85dbb",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/BalancedDualBounds.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.ShiftTestingGowers",
+      "path": "OAI/Combinatorics/Progressions/Estimates/ShiftTestingGowers.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "06114cc8ebd5add756fe59614158f30f6994d544e18ea27a9f5511a0b0dda0e7",
+      "ported_sha256": "68e20c1d9d2e847e22f2210a789c563c1f8d478560f262345694834265f2e874",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "415f7ac6f28307d36b63bff525824af6a02f5798782902b316f6dae0d8e07856",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ShiftTestingGowers.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.FiniteFiberTest",
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteFiberTest.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "f723957bd6eb4b362989df0794240118f09474414bf02379531a53beb7002b92",
+      "ported_sha256": "f2e96347f75c640bf4964b48aa4b914d6d54d8ac8af4cb27709f5fed02b4bec5",
+      "replacements": {
+        "dite_eq_left": 2,
+        "dite_eq_right": 2
+      },
+      "additional_compatibility_edits": [
+        {
+          "kind": "API compatibility",
+          "old": "(fun i hi => by rw [dif_pos (show P i from hi)])",
+          "new": "(fun i hi => by rw [dif_pos (show P i from hi)]; rfl)",
+          "before_sha256": "4908a5e1bf161cd24ae7f10e8b75278ec1e945c035408b5ed92c61a8f5c1dc5d",
+          "after_sha256": "f7600a59d7e993e650c19aa4cd10120a9a247e046f52ba17eb3284042accc576"
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "b8ebbd7c677e26f0b8fb114e4cf74c41da640ed27af3919ceba834be8ee19036",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/FiniteFiberTest.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Probability.FiniteConditionedMass",
+      "path": "OAI/Combinatorics/Progressions/Probability/FiniteConditionedMass.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "aeaa1c1def9d9b739c5f23f707d634d3dd741d41be7239a480c63154a5ac4ddf",
+      "ported_sha256": "ac4408f0b881091a5772730e60b56d6a972a142d90d89c82fbebc6e58d5bc62a",
+      "replacements": {
+        "ite_eq_right": 3,
+        "ite_eq_left": 2
+      },
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "d396ad62a6bf5411e374b57ab0bdfe7e490f06f1bdf539f976c6cea8e4a00bb6",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/FiniteConditionedMass.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.DenseCorrelationPairs",
+      "path": "OAI/Combinatorics/Progressions/Estimates/DenseCorrelationPairs.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "ffaef03d146506eeae3fa19a3c92342cb8b9b775129ab207cc93178c8b88e4d3",
+      "ported_sha256": "33ec693ff0899b714a57213b4389acb51003487201a21f514be4d6f5709eac93",
+      "replacements": {
+        "Finset.prod_le_one\u2080": 1,
+        "Finset.prod_le_prod\u2080": 1
+      },
+      "additional_compatibility_edits": [
+        {
+          "kind": "API compatibility",
+          "old": "Finset.prod_le_prod_of_subset_of_le_one\u2080",
+          "new": "Finset.prod_le_prod_of_subset_of_le_one",
+          "before_sha256": "f8433abd7b558123197756922f4221d444e3b49fb3f68ab4495391369495544a",
+          "after_sha256": "418ba05414ae0cc472d061479cee57405594bca28dc6aa569e8d32a91ad836ea"
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "bb3dea77a001aef4eb1c8cab185801f1c4310d94512ad68ae5ffa3854b4acceb",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/DenseCorrelationPairs.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.BooleanCubeProduct",
+      "path": "OAI/Combinatorics/Progressions/Estimates/BooleanCubeProduct.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "f2a92aa6ad4e70cc9150ac1aa71d63c4b50c47c1df6c3443bb1864ba9976f0c6",
+      "ported_sha256": "400844937e073865c4b5efeaffe0be120c20497e38fa7d333a5c9dc196063ac0",
+      "replacements": {
+        "Finset.prod_le_prod\u2080": 1,
+        "ite_eq_right": 2
+      },
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "104859345e1f5d536663b172e108933501074ff87cffd193da6ae1f02fd19f27",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/BooleanCubeProduct.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.GowersWeightedDerivative",
+      "path": "OAI/Combinatorics/Progressions/Estimates/GowersWeightedDerivative.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "a2dd0d96ab7db41a1be8e6ac6983a8936bc8faf13014a5d91da367831a9faf30",
+      "ported_sha256": "b0c3a64e1a64843dba4debe15c93ea8c8874becbbb2d7e8e5a7f488853e2f152",
+      "replacements": {},
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "78c07d09d52e5fbcf49f1968ad1c0ccea0efcd43347387927097c85e1c291c2b",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/GowersWeightedDerivative.lean"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Geometry.SupportedCubeEquivTransport",
+      "path": "OAI/Combinatorics/Progressions/Geometry/SupportedCubeEquivTransport.lean",
+      "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "original_sha256": "701b79393bdd49b95dbffbdd793f5c902aa98b1e7a19dfe69ce2fcc1948bfe59",
+      "ported_sha256": "4e50aa59aafcb31ea90549e68fe6f8d0b3db9ad9c5e4d037deaaedca0c980296",
+      "replacements": {
+        "ite_eq_left": 3,
+        "ite_eq_right": 5
+      },
+      "additional_compatibility_edits": [
+        {
+          "kind": "API compatibility",
+          "old": "Set.mem_ofPred_eq",
+          "new": "Set.mem_setOf_eq",
+          "before_sha256": "249d99a18e67dbd798e690b12fc5827dcf0c0930c002c2b942fc6d7e0b35113b",
+          "after_sha256": "b0055bdcbc2abb1085cd8beb068e04740c8340ac8e6b1aa9da7594e6021bf2b0"
+        }
+      ],
+      "modification_notice_added": true,
+      "installation": "new module; notice paths adjusted only",
+      "installed_sha256": "cf0ba8d0350304a8c9c957762cd50e4c404efa5ece1310a3aa483e12d5b11fa3",
+      "repository_path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/SupportedCubeEquivTransport.lean"
+    }
+  ],
+  "source_manifest_scope": "Independent additive manifest. Original SOURCE-MANIFEST.json and original 42 sources are unchanged."
+}

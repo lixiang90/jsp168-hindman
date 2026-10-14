@@ -39,12 +39,14 @@ length, and arbitrary bounded input are chosen, with a LINEAR orbit.
 
 Proved prerequisites include exact interval/cyclic cube normalization,
 finite bounded rational signatures, and exact observable transport on
-actual coset covers. See [zero extension](interval-zero-extension/README.md),
+actual coset covers. The exact original OpenAI supported-cube norm interface
+is now integrated and audited in [supported cubes](supported-cube-interface/README.md);
+the genuine first-order native inverse is proved in
+[rooted normalization and U1](interval-rooted-and-one/README.md). See [zero extension](interval-zero-extension/README.md),
 [model signatures](bounded-model-codes/README.md), and
 [cover transport](coset-cover-transport/README.md).
 
-Still needed: complete checked integration of the exact normalized
-interval-to-upstream Gowers adapter and compatible upstream GTZ dependency
+Still needed: compatible integration of the upstream GTZ theorem dependency
 closure, realization of the
 finite signatures as a uniform finite native model family with actual
 lattice/metric bounds, and polynomial-to-linear orbit conversion preserving
@@ -76,9 +78,11 @@ The remaining geometric and realization chain is:
   exact `HasAlignmentMonomialRecurrence s` input is now proved for every `s`
   by the original OpenAI PET proof, and the canonical finite-word plan has
   a theorem without that input hypothesis; see [recurrence](nilpotent-recurrence/README.md).
-- Prove the actual native-model event adapter to the new concrete
-  `PrincipalSumAlignmentEvent` used by the final deduction. Its late-stage
-  ratio identity is proved, but this native-event implication is still open.
+- Derive the concrete `PrincipalSumAlignmentEvent` mass from the actual
+  joint native observables, using the paper's closed/open threshold
+  comparisons and Portmanteau transfer. Stronger prelimit Boolean-palette
+  equality is not a necessary input; threshold/model quantifier order must
+  be retained.
 
 The actual weighted polynomial shear group, dimension-independent
 nilpotence bound, measure preservation, and weighted-box total-variation

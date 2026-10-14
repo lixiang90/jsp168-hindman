@@ -1,0 +1,9 @@
+# OpenAI supported-cube interval interface
+
+This additive integration reuses the existing `OAI.Combinatorics.Progressions.Model` source without edits and adds the other 22 modules from the pinned OpenAI source closure. Original source hashes, port compatibility edits, installed hashes, and reuse are recorded in `dependencies/openai-finite-szemeredi/SUPPORTED-CUBE-SOURCE-MANIFEST.json`. The original 42-module provenance manifest, all original source files, Lean/mathlib pins, canonical imports, and original verification manifest remain unchanged. OpenAI source is Apache-2.0; its license is the existing dependency `LICENSE`. Added source notices identify compatibility modifications.
+
+`OriginalSupportedCubeInterval` constructs the actual signed integer interval cube equivalence with OpenAI's `SupportedCube`, proves exact cube product/sum/cardinality and normalized Gowers-value identities for all dimensions and interval lengths (including zero), and proves pair-sum reflection under `2 * (L - 1) < M`. This is an interface theorem, not the higher-order inverse theorem. Finite native model families, native geometry/metric transport, and same-step polynomial-to-linear orbit conversion are not proved by this batch.
+
+Validation is performed against the unchanged repository Model and original Hindman modules, with a fresh output directory and a generated full-environment axiom audit. The audit rejects every axiom other than `propext`, `Classical.choice`, and `Quot.sound`.
+
+The installed repository target passed its focused Lake build. A non-overlay audit of all 853 declarations across the 23 upstream modules and the interval adapter passed, including generated auxiliaries. `reproduce.sh` gives the focused checks; the original 3,059-file manifest is independently rechecked. The old dependency manifest is not modified.
