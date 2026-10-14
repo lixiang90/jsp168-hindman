@@ -1,0 +1,16 @@
+{
+  "lean": "4.32.2",
+  "modules": 41,
+  "audited_declarations_including_generated": 230,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "focused_lake_build_jobs": 6722,
+  "build_exit_code": 0,
+  "axiom_audit_exit_code": 0,
+  "source_hash_mismatches": [],
+  "original_manifest_files_verified": 3059,
+  "full_target_proved": false
+}

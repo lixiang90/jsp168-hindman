@@ -60,36 +60,39 @@ those parameters. For every admissible family, actual step-at-most-`s`
 model system, and positive threshold, prove the alignment-event liminf is
 at least `delta`, independent of threshold and model complexity.
 
-The remaining geometric and realization chain is:
+Verified geometric prerequisites now include one full heterogeneous joint
+source extraction with all target measure/setwise symmetries on the SAME
+sample, subsequence, filtration, period, rational representatives and smooth
+curve; actual image-filtration cube identification; native covering/lifting,
+graded identities, adapted bases and right inverses; common-coordinate
+weighted affine lifts; and the actual joint `h H rho` Haar-image weak limit
+for every fixed shear/word. The actual integer point-orbit empirical
+probabilities also have their retained mixture weak limit. See
+[native joint geometry](native-joint-geometry/README.md).
 
-- Complete and verify one full heterogeneous joint source extraction with
-  all target marginal symmetries on the SAME sample/subsequence,
-  filtration, period, rational representatives, and smooth curve.
-- Identify the actual projected cube orbits with the necessary image
-  filtration and quotient geometry, keeping complete marginal cubes and
-  binary vertex projections distinct; do not substitute independently
-  selected target Haar laws.
-- Finish the native Proposition 7.5 covering/lifting and derive the actual
-  image-filtration graded identities and adapted coordinates. Given these
-  geometric inputs, actual BCH affine maps and filtered lifts are now proved
-  to be strict weighted shears.
-- Connect those transformations to the common Haar weak limit and finish
-  the finite integer realization needed for the uniform mass bound. The
-  exact `HasAlignmentMonomialRecurrence s` input is now proved for every `s`
-  by the original OpenAI PET proof, and the canonical finite-word plan has
-  a theorem without that input hypothesis; see [recurrence](nilpotent-recurrence/README.md).
-- Derive the concrete `PrincipalSumAlignmentEvent` mass from the actual
-  joint native observables, using the paper's closed/open threshold
-  comparisons and Portmanteau transfer. Stronger prelimit Boolean-palette
-  equality is not a necessary input; threshold/model quantifier order must
-  be retained.
+The remaining realization chain is:
 
-The actual weighted polynomial shear group, dimension-independent
-nilpotence bound, measure preservation, and weighted-box total-variation
-limit are verified in [weighted-shear-box-laws](weighted-shear-box-laws/README.md).
-The actual native BCH weighted realization under explicit geometric inputs
-is verified in [native weighted shears](weighted-shear-native-actions/README.md).
-The common Haar weak-limit identification and full Alignment theorem remain open.
+- Feed the concrete Alignment slot transformations and the proved target
+  symmetries into those common-coordinate lift theorems, then interpret the
+  finite recurrence routes and actual frozen-piece readings on that same
+  joint space.
+- Derive the concrete `PrincipalSumAlignmentEvent` mass using the paper's
+  closed/open threshold comparisons and Portmanteau transfer, then complete
+  the conditional pivot iteration and integer harmonic shift removal.
+  Stronger prelimit Boolean-palette equality is not a necessary input.
+- Assemble the uniform principle with finite scales and a positive lower
+  bound chosen before models, padding, complexity and threshold.
+
+The exact `HasAlignmentMonomialRecurrence s` input is already proved for
+all `s` by the original OpenAI PET proof. The canonical finite-word plan
+has a theorem without that input hypothesis; see
+[recurrence](nilpotent-recurrence/README.md). The actual weighted polynomial
+shear group, dimension-independent nilpotence bound, measure preservation
+and box total-variation estimate are in
+[weighted shear laws](weighted-shear-box-laws/README.md); the genuine BCH
+weighted realization is in
+[native weighted actions](weighted-shear-native-actions/README.md).
+The full uniform Alignment theorem remains open.
 
 ## Verification boundary
 
