@@ -1,0 +1,189 @@
+AUDIT Hindman168.selected_alignment_schedule_future_nonempty: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_length: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_aux_exact: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact._sunfold: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleIncoming._sunfold: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_requests_own: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_prefix_incoming: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact.routes_nonempty: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleAux._f: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact.positive: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_incoming_positive: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedule: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact.plan: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_incoming_nonempty: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact.works: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact.suffix: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleAux._proof_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleAux: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact.fits: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleRequests: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_suffix_states: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact._f: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleIncoming._f: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact.match_1: [propext, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleIncoming.match_1: [propext, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_final_nonempty: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleAux._sunfold: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_cover: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleExact: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleIncoming: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleAux.match_1: []
+AUDIT Hindman168.selected_alignment_schedule_exact: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_planned_multipliers_nonempty: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_requests_positive: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_aux_pivots: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_route_scale_mem: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_local_scalar_mem: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_final_denominators: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleLocalScalars._sunfold: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePaletteIndices._f: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_palette_mem: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.SelectedAlignmentScheduleBudgets.0.Hindman168.selectedAlignmentScheduleLocalScalars.match_1.eq_1: [propext,
+ Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleLocalScalars.match_1: [propext, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_scale_mem: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePaletteIndices: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleFinalScalars: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleStates: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePaletteIndices.eq_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_catalogue_scale_mem: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePaletteIndices.eq_2: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_states_positive: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_scales_positive: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleFinal: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleLocalScalars: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePaletteIndices._sunfold: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleScales: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_stage_scale_mem: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.SelectedAlignmentScheduleBudgets.0.Hindman168.selectedAlignmentScheduleLocalScalars.match_1.eq_2: [propext,
+ Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_clearing_pos: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePaletteIndices.eq_def: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleScalarBudget: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_denominators: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.SelectedAlignmentScheduleBudgets.0.Hindman168.selectedAlignmentScheduleLocalScalars.match_1.splitter: [propext,
+ Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_final_positive: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_scales_closed: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_local_clearing: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleClearing._proof_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleClearing: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_clearing_scalar: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleLocalScalars._f: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_palette_positive: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleEntry.eq_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_entry_pivot: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_decompose: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_entry_plan: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleRouteCountNat.eq_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleEntry._proof_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleBefore: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_route_count_pos: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_entry_mem: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_input_nonempty: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleEntry: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleRouteCount: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_input_positive: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleAfter: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleDelta: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_delta_formula: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleRouteCountNat: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_input_subset: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_delta_pos: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleInput: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePrefixState._f: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_advance_scale_mem: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_prefix_mem: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_prefix_threshold_path: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.SelectedAlignmentScheduleSuccess: [propext, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleAdvance: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_first_route_spec: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.SelectedAlignmentSchedulePaths.0.Hindman168.selectedAlignmentScheduleAdvance.match_1.eq_1: [propext,
+ Quot.sound]
+AUDIT _private.Hindman168.SelectedAlignmentSchedulePaths.0.Hindman168.selectedAlignmentSchedulePrefixState.match_1.eq_2: []
+AUDIT Hindman168.selectedAlignmentScheduleAdvance.eq_2: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.SelectedAlignmentSchedulePaths.0.Hindman168.selectedAlignmentSchedulePrefixState.match_1.splitter: []
+AUDIT _private.Hindman168.SelectedAlignmentSchedulePaths.0.Hindman168.selectedAlignmentSchedulePrefixState.match_1.eq_1: []
+AUDIT Hindman168.selectedAlignmentScheduleAdvance.eq_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_prefix_cons: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.SelectedAlignmentSchedulePaths.0.Hindman168.selectedAlignmentScheduleAdvance.match_1.splitter: [propext,
+ Quot.sound]
+AUDIT Hindman168.selected_alignment_first_route_exists: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePrefixState.match_1: []
+AUDIT Hindman168.selectedAlignmentFirstRoute: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePrefixState: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_advance_congr: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePrefixState.eq_def: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePrefixState._sunfold: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleAdvance.match_1: [propext, Quot.sound]
+AUDIT _private.Hindman168.SelectedAlignmentSchedulePaths.0.Hindman168.selectedAlignmentScheduleAdvance.match_1.eq_2: [propext,
+ Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_advance_exists: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePrefixState.eq_2: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_advance_spec: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePrefixState.eq_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_position: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_prefix_congr: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_native_success_congr: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_native_request_congr: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleNativeSuccess: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_native_prefix_congr: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_position._proof_1_1: [propext, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleExtensionEvent: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_path_next: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_path_disjoint: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_drop: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentSchedulePathEvent: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_prefix_global_mem: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_extension_iff: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_path_mass_liminf: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_path_next._proof_1_1: [propext, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_local_extension: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleNativeSuccess.eq_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_native_path_liminf: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_state_extension._simp_1_1: [propext]
+AUDIT Hindman168.selectedAlignmentScheduleNativeSuccess.congr_simp: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selectedAlignmentScheduleRouteCount.eq_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_state_extension: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_prefix_at: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_finite_data_mass: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_native_liminf: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_path_native_event: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.selected_alignment_schedule_alignment_liminf: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.hasUniformSelectedPrincipalAlignment: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.finiteConjecture_of_native_inverse: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.strongConjecture_of_native_inverse: [propext, Classical.choice, Quot.sound]
+AUDIT COMPLETE: 150 declarations; only standard axioms
+def Hindman168.HasUniformSelectedPrincipalAlignment.{u} : Prop :=
+∀ (n r s : ℕ),
+  ∃ B A,
+    ∃ (hclosed : Hindman168.FiniteScaleClosure B A),
+      B.Nonempty ∧
+        (∀ b ∈ B, ∀ (i : Fin n), 0 < b i) ∧
+          (∀ a ∈ A, 0 < a) ∧
+            ∃ δ,
+              0 < δ ∧
+                ∀ (d M : ℕ) (hM : 0 < M) (P : Finset (MvPolynomial (Fin d) ℤ)) (F : Hindman168.MasterParameterFamily),
+                  Hindman168.MasterParameterConditions M A P F →
+                    ∀ (e : Fin (2 * n) ↪o ℕ),
+                      (∀ (j : Fin (2 * n)), e j < M) →
+                        ∀ (S : Finset (Fin n) → Fin n → Hindman168.ScaleColorIndex A r → ℕ → ℤ → ℝ),
+                          (∀ (T : Finset (Fin n)) (i : Fin n) (γ : Hindman168.ScaleColorIndex A r),
+                              Hindman168.NativePieceRepresented s F
+                                (Hindman168.masterGapIndex M hM (Hindman168.energyPadding e i)) (S T i γ)) →
+                            (∀ (T : Finset (Fin n)) (i : Fin n) (γ : Hindman168.ScaleColorIndex A r) (w : ℕ) (y : ℤ),
+                                S T i γ w y ∈ Set.Icc 0 1) →
+                              ∀ (θ : ℝ),
+                                0 < θ →
+                                  δ ≤
+                                    Filter.liminf
+                                      (fun w =>
+                                        Hindman168.FiniteMass.event (Hindman168.selectedPrincipalRawMass e F w)
+                                          (Hindman168.PrincipalSumAlignmentEvent M e B A hclosed S θ w))
+                                      Filter.atTop
+Hindman168.hasUniformSelectedPrincipalAlignment.{u} : Hindman168.HasUniformSelectedPrincipalAlignment
+Hindman168.strongConjecture_of_native_inverse.{u}
+  (hinverse : ∀ (t : ℕ), 2 ≤ t → Hindman168.HasNativePeriodicIntervalInverse (t - 1) t) : Hindman168.StrongConjecture
+'Hindman168.hasUniformSelectedPrincipalAlignment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.strongConjecture_of_native_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]

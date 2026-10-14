@@ -1,0 +1,13 @@
+{
+  "lean": "4.32.2",
+  "modules": 10,
+  "all_declarations_audited": 150,
+  "focused_build_jobs": 6929,
+  "build_exit_code": 0,
+  "audit_exit_code": 0,
+  "source_hash_mismatches": [],
+  "original_snapshot_hashes_verified": 3059,
+  "uniform_selected_alignment_proved": true,
+  "remaining_main_input": "forall t >= 2, HasNativePeriodicIntervalInverse (t-1) t",
+  "full_target_proved": false
+}

@@ -1,0 +1,156 @@
+⚠ [5145/5147] Replayed Hindman168.AlignmentJointShearWords
+warning: Hindman168/AlignmentJointShearWords.lean:45:11: Variable name `x` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [5163/5649] Replayed Hindman168.AlignmentJointRouteReadingsCover
+warning: Hindman168/AlignmentJointRouteReadingsCover.lean:118:47: Variable name `hw` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [5826/6024] Replayed OAI.Combinatorics.Progressions.FixedDensity.OrderedBoundaryPartition
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/OrderedBoundaryPartition.lean:166:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5843/6024] Replayed OAI.Combinatorics.Progressions.FixedDensity.StrongOrderedComplexRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:807:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:882:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/StrongOrderedComplexRegularity.lean:932:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5844/6024] Replayed OAI.Combinatorics.Progressions.FixedDensity.CoarseTargetRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:365:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:446:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/CoarseTargetRegularity.lean:484:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5845/6024] Replayed OAI.Combinatorics.Progressions.FixedDensity.AdaptiveCoarseTargetRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:537:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:644:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:669:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/AdaptiveCoarseTargetRegularity.lean:700:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5848/6024] Replayed OAI.Combinatorics.Progressions.FixedDensity.TowerDominatingGrowth
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean:278:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/TowerDominatingGrowth.lean:285:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [5849/6024] Replayed OAI.Combinatorics.Progressions.FixedDensity.SourceFullCoarseTargetRegularity
+warning: dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/FixedDensity/SourceFullCoarseTargetRegularity.lean:505:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6687/6929] Replayed Hindman168.AlignmentAllTargetsCubeConditionsSelection
+warning: Hindman168/AlignmentAllTargetsCubeConditionsSelection.lean:33:17: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Hindman168/AlignmentAllTargetsCubeConditionsSelection.lean:36:15: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Hindman168/AlignmentAllTargetsCubeConditionsSelection.lean:92:17: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Hindman168/AlignmentAllTargetsCubeConditionsSelection.lean:95:15: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6700/6929] Replayed Hindman168.AffineShearCoverLifting
+warning: Hindman168/AffineShearCoverLifting.lean:102:6: 'change f a₀ v = i (F a₀) v' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [6747/6929] Replayed Hindman168.AffineShearAlignmentSlotLifts
+warning: Hindman168/AffineShearAlignmentSlotLifts.lean:21:1: automatically included section variable(s) unused in theorem `Hindman168.affineShear_alignment_slot_smooth`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [6836/6929] Replayed Hindman168.SelectedAlignmentCubeConditionsSelection
+warning: Hindman168/SelectedAlignmentCubeConditionsSelection.lean:33:17: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Hindman168/SelectedAlignmentCubeConditionsSelection.lean:36:15: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Hindman168/SelectedAlignmentCubeConditionsSelection.lean:92:17: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Hindman168/SelectedAlignmentCubeConditionsSelection.lean:95:15: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6859/6929] Replayed Hindman168.AlignmentJointObservableCompactnessNative
+warning: Hindman168/AlignmentJointObservableCompactnessNative.lean:48:48: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6860/6929] Replayed Hindman168.AlignmentJointObservableCompactnessSource
+warning: Hindman168/AlignmentJointObservableCompactnessSource.lean:38:39: Variable name `ν` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6861/6929] Replayed Hindman168.SelectedAlignmentKeySourceCompactness
+warning: Hindman168/SelectedAlignmentKeySourceCompactness.lean:40:49: Variable name `ν` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6865/6929] Replayed Hindman168.SelectedAlignmentCosetMassMixture
+warning: Hindman168/SelectedAlignmentCosetMassMixture.lean:46:29: Variable name `hE` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Hindman168/SelectedAlignmentCosetMassMixture.lean:101:13: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
+warning: Hindman168/SelectedAlignmentCosetMassMixture.lean:90:29: Variable name `hE` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6875/6929] Replayed Hindman168.SelectedAlignmentRecipeRouteFailure
+warning: Hindman168/SelectedAlignmentRecipeRouteFailure.lean:39:7: Variable name `basis` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [6877/6929] Replayed Hindman168.SelectedAlignmentRecipeArrayModels
+warning: Hindman168/SelectedAlignmentRecipeArrayModels.lean:23:7: Variable name `basis` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (6929 jobs).

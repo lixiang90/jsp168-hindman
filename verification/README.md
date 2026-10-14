@@ -21,12 +21,12 @@ analytic inputs; it does not replace or broaden the original snapshot audit.
    statement. `finite_iff_strong` is proved, but neither side is yet proved
    unconditionally. See [finite-to-strong](finite-to-strong/README.md).
 
-The conditional `FinalStrongFromPrinciples` endpoint now eliminates all
-Ramsey, master-parameter, first-order inverse and count-extraction inputs.
-It assumes exactly the higher-order native inverse family and
-`HasUniformSelectedPrincipalAlignment`; see
-[local coverage and the final conditional endpoint](local-route-coverage/README.md).
-Both analytic principles still need unconditional completion.
+The final conditional endpoint has now been strengthened to
+`strongConjecture_of_native_inverse`: it assumes ONLY the higher-order
+native interval inverse family. Uniform selected Alignment is proved
+unconditionally, along with Ramsey selection, master construction,
+first-order inverse, positive-count extraction and rapid separation.
+See [the uniform Alignment verification](uniform-alignment/README.md).
 
 ## Exact remaining analytic nodes
 
@@ -55,72 +55,37 @@ lattice/metric bounds, and polynomial-to-linear orbit conversion preserving
 the required step. Signatures alone are not geometric models; a polynomial
 nilsequence inverse alone is not this linear finite-list interface.
 
-### B. Uniform Alignment / Principle 2.4
+### B. Uniform Alignment / Principle 2.4: proved
 
-For fixed `n,r,s`, construct finite `B,A` and `delta > 0` depending only on
-those parameters. For every admissible family, actual step-at-most-`s`
-model system, and positive threshold, prove the alignment-event liminf is
-at least `delta`, independent of threshold and model complexity.
+`hasUniformSelectedPrincipalAlignment` proves the exact original interface,
+in its declared arbitrary native-model universe, with no hypotheses.
+Finite `B,A`, one common clearing integer, and `delta > 0` depend only on
+`n,r,s` and are selected before master parameters, selected indices, models,
+complexity and threshold. The conclusion uses the literal selected raw law
+and `PrincipalSumAlignmentEvent`, with an ordinary-filter liminf.
 
-Verified geometric prerequisites now include one full heterogeneous joint
-source extraction with all target measure/setwise symmetries on the SAME
-sample, subsequence, filtration, period, rational representatives and smooth
-curve; actual image-filtration cube identification; native covering/lifting,
-graded identities, adapted bases and right inverses; common-coordinate
-weighted affine lifts; and the actual joint `h H rho` Haar-image weak limit
-for every fixed shear/word. The actual integer point-orbit empirical
-probabilities also have their retained mixture weak limit. See
-[native joint geometry](native-joint-geometry/README.md).
+The proof uses one actual full heterogeneous joint source and all-target
+symmetries, proper image filtrations, common weighted shear lifts, the
+actual joint Haar image and interval/residue mixture, common observer
+limits and extraction from every cofinal positive failure event. Exact
+uniform-to-harmonic transfer, fine-to-outside conditioning, signed shift
+removal and original full-raw pivot extension supply each local factor.
+One deterministic first-success finite-state partition gives a genuine
+future-protected threshold path and a positive product lower bound. Actual
+scale membership and denominator identities identify the final event.
 
-The finite-route closed/open mass deduction, exact same-joint frozen-piece
-readings, original-master harmonic shift removal and abstract conditional
-pivot product are now verified in
-[principal native mass](principal-native-mass/README.md).
-
-The common uniform observable limits now preserve the same joint laws, and
-actual future-scale threshold paths imply the exact final alignment event;
-see [future thresholds and observables](future-threshold-and-observables/README.md).
-
-Concrete duplicated-target specialization, actual common letter lifts,
-integer-slot word readings, and a recurrence-produced closed cover are now
-proved; exact fine-to-outside harmonic conditioning is also verified. See
-[concrete route interfaces](concrete-joint-route-interfaces/README.md).
-
-The actual local geometric failure-mass step is now proved in
-[local route coverage](local-route-coverage/README.md): from the original
-represented functions, extraction from EVERY cofinal positive failure event
-and the same joint mixture imply that uniform microcell route coverage is
-at least `3/(4 Q)` outside a set of original full raw mass tending to zero.
-The literal prelimit native/raw events agree at every microcell point. All
-models, arrays, recipes and bases are constructed; no Haar or coverage
-hypothesis remains in this local endpoint. The padding-gap/principal-cutoff
-geometry and exact uniform-to-harmonic transfer are audited in
-[selected gap geometry](selected-gap-geometry/README.md).
-
-The actual harmonic and outside-conditioning assembly is now also proved:
-[selected pivot extension](pivot-extension/README.md) gives, uniformly over
-EVERY earlier raw event, an original-sample secured-route extension with
-multiplier `1/(3 Q^2)` and an error tending to zero. Exact disintegration,
-fine exceptions, harmonic likelihood, Markov, signed shift removal and the
-finite-scale observation identity are all supplied internally.
-
-Remaining uniform-principle work is the actual model-independent finite
-schedule and common clearing integer, first-success future-protected path
-partition, and product of these pivot multipliers. These must imply the
-existing final alignment event with a positive bound fixed before models,
-padding, complexity and threshold. The local recurrence handles zero native
-step by choosing recurrence step `s+1` before models.
-
-The exact `HasAlignmentMonomialRecurrence s` input is already proved for
-all `s` by the original OpenAI PET proof. The canonical finite-word plan
-has a theorem without that input hypothesis; see
-[recurrence](nilpotent-recurrence/README.md). The actual weighted polynomial
-shear group, dimension-independent nilpotence bound, measure preservation
-and box total-variation estimate are in
-[weighted shear laws](weighted-shear-box-laws/README.md); the genuine BCH
-weighted realization is in
+The final schedule, path and unconditional interface proof are audited in
+[uniform Alignment](uniform-alignment/README.md). Its major checked pieces
+are [local route coverage](local-route-coverage/README.md),
+[pivot extension](pivot-extension/README.md),
+[selected gap geometry](selected-gap-geometry/README.md),
+[native joint geometry](native-joint-geometry/README.md),
+[future thresholds and observables](future-threshold-and-observables/README.md),
+[concrete route interfaces](concrete-joint-route-interfaces/README.md),
+[principal native mass](principal-native-mass/README.md),
+[original recurrence](nilpotent-recurrence/README.md),
+[weighted shear laws](weighted-shear-box-laws/README.md), and
 [native weighted actions](weighted-shear-native-actions/README.md).
-The full uniform Alignment theorem remains open.
 
 ## Verification boundary
 
