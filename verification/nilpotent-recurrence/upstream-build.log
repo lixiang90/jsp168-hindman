@@ -1,0 +1,28 @@
+✖ [3002/3002] Building Hindman168.UpstreamNilpotentRecurrence (9.0s)
+trace: .> LEAN_PATH=/workspace/shared/jsp168-hindman/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/jsp168-hindman/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/jsp168-hindman/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/jsp168-hindman/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/jsp168-hindman/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/jsp168-hindman/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/jsp168-hindman/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/jsp168-hindman/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/jsp168-hindman/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/jsp168-hindman/.lake/build/lib/lean /workspace/shared/hindman-tools/elan/toolchains/leanprover--lean4---v4.32.2/bin/lean /workspace/shared/jsp168-hindman/Hindman168/UpstreamNilpotentRecurrence.lean -o /workspace/shared/jsp168-hindman/.lake/build/lib/lean/Hindman168/UpstreamNilpotentRecurrence.olean -i /workspace/shared/jsp168-hindman/.lake/build/lib/lean/Hindman168/UpstreamNilpotentRecurrence.ilean -c /workspace/shared/jsp168-hindman/.lake/build/ir/Hindman168/UpstreamNilpotentRecurrence.c --setup /workspace/shared/jsp168-hindman/.lake/build/ir/Hindman168/UpstreamNilpotentRecurrence.setup.json --json
+error: Hindman168/UpstreamNilpotentRecurrence.lean:458:41: Unknown identifier `ite_eq_left`
+error: Hindman168/UpstreamNilpotentRecurrence.lean:467:18: Unknown identifier `ite_eq_right`
+error: Hindman168/UpstreamNilpotentRecurrence.lean:520:10: Unknown identifier `degree_sub_lt_right`
+error: Hindman168/UpstreamNilpotentRecurrence.lean:749:56: Unknown identifier `ite_eq_right`
+error: Hindman168/UpstreamNilpotentRecurrence.lean:745:2: unsolved goals
+case inl
+G : Type u_1
+inst✝ : Group G
+F : Filtration G
+q p a : G
+hmin : F.degree a ≤ F.degree p
+hd : q * a * p⁻¹ ∈ F.level (F.degree p - 1)
+hq : F.degree a ≤ F.degree q
+hs : F.signature (q * a) = F.signature p
+hdeg : F.degree (q * a) = F.degree p
+hlt : F.degree a < F.degree p
+hh : F.signature q = F.signature p
+⊢ ⟨F.degree p, (QuotientGroup.mk' (F.level (F.degree p - 1))) p⟩ =
+    ⟨F.degree p,
+      if F.degree p = F.degree a then
+        (QuotientGroup.mk' (F.level (F.degree p - 1))) p * ((QuotientGroup.mk' (F.level (F.degree p - 1))) a)⁻¹
+      else (QuotientGroup.mk' (F.level (F.degree p - 1))) p⟩
+error: Lean exited with code 1
+Some required targets logged failures:
+- Hindman168.UpstreamNilpotentRecurrence
+error: build failed

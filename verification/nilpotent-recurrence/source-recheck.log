@@ -1,0 +1,3 @@
+CHECK:UpstreamNilpotentRecurrence
+CHECK:AlignmentNilpotentRecurrence
+CHECK:AlignmentCanonicalRecurrencePlan

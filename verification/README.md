@@ -67,12 +67,15 @@ The remaining geometric and realization chain is:
   filtration and quotient geometry, keeping complete marginal cubes and
   binary vertex projections distinct; do not substitute independently
   selected target Haar laws.
-- Finish the native Proposition 7.5 covering/lifting and graded identities,
-  then prove the actual BCH transformations are strict weighted shears.
-- Connect those transformations to the common Haar weak limit, prove the
-  explicit `HasAlignmentMonomialRecurrence s` input, and finish the finite
-  integer realization needed for the uniform mass bound. This recurrence
-  input is separate from the already proved finite product-chain selector.
+- Finish the native Proposition 7.5 covering/lifting and derive the actual
+  image-filtration graded identities and adapted coordinates. Given these
+  geometric inputs, actual BCH affine maps and filtered lifts are now proved
+  to be strict weighted shears.
+- Connect those transformations to the common Haar weak limit and finish
+  the finite integer realization needed for the uniform mass bound. The
+  exact `HasAlignmentMonomialRecurrence s` input is now proved for every `s`
+  by the original OpenAI PET proof, and the canonical finite-word plan has
+  a theorem without that input hypothesis; see [recurrence](nilpotent-recurrence/README.md).
 - Prove the actual native-model event adapter to the new concrete
   `PrincipalSumAlignmentEvent` used by the final deduction. Its late-stage
   ratio identity is proved, but this native-event implication is still open.
@@ -80,8 +83,9 @@ The remaining geometric and realization chain is:
 The actual weighted polynomial shear group, dimension-independent
 nilpotence bound, measure preservation, and weighted-box total-variation
 limit are verified in [weighted-shear-box-laws](weighted-shear-box-laws/README.md).
-They are the algebraic and box-law parts of Lemma 7.7, not its native BCH
-realization, Haar limit, or the full Alignment theorem.
+The actual native BCH weighted realization under explicit geometric inputs
+is verified in [native weighted shears](weighted-shear-native-actions/README.md).
+The common Haar weak-limit identification and full Alignment theorem remain open.
 
 ## Verification boundary
 

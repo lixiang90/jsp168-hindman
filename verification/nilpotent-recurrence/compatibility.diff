@@ -1,0 +1,58 @@
+--- WordPlan01.lean:90-1680
++++ UpstreamNilpotentRecurrence.lean:sliced_body
+@@ -436,7 +436,7 @@
+           change f (n + ∑ i ∈ v ∩ insert a I, h i) =
+             f (n + ∑ i ∈ v ∩ I, h i) * (if a ∈ v then
+               (f (n + ∑ i ∈ v ∩ I, h i))⁻¹ * f ((n + ∑ i ∈ v ∩ I, h i) + h a) else 1)
+-          rw [hv, Finset.sum_insert haV, ite_eq_left hav, mul_inv_cancel_left]
++          rw [hv, Finset.sum_insert haV, if_pos hav, mul_inv_cancel_left]
+           congr 1
+           ring
+         · have hv : v ∩ insert a I = v ∩ I := by
+@@ -445,7 +445,7 @@
+             aesop
+           change f (n + ∑ i ∈ v ∩ insert a I, h i) =
+             f (n + ∑ i ∈ v ∩ I, h i) * (if a ∈ v then u v else 1)
+-          rw [hv, ite_eq_right hav, mul_one]
++          rw [hv, if_neg hav, mul_one]
+       rw [he]
+       exact (cube H (insert a I) k).mul_mem
+         (cube_mono H (Finset.subset_insert a I) k hl) (upper_cube_mem H ha k hu)
+@@ -475,7 +475,7 @@
+     have hh := hconj ((polynomials H 0).inv_mem hf) hg
+     simpa [mul_assoc] using hh
+ 
+-open _root_.Polynomial _root_.OAI.Polynomial in
++open _root_.Polynomial in
+ lemma power_polynomial_mem {H : Filtration G} (e k : ℕ) (a : G)
+     (ha : a ∈ H.level (e+k)) (p : ℤ[X]) (hp : p.natDegree ≤ e) :
+     (fun n : ℤ => a ^ p.eval n) ∈ polynomials H k := by
+@@ -498,7 +498,9 @@
+         by_cases hq0 : q = 0
+         · simp [hq0]
+         have hd : q.degree < p.degree :=
+-          degree_sub_lt_right (degree_taylor p t) hp0 (leadingCoeff_taylor t p)
++          by
++            simpa only [degree_taylor] using
++              degree_sub_lt (degree_taylor p t) (by simpa using hp0) (leadingCoeff_taylor t p)
+         have hd' : q.natDegree < p.natDegree := (natDegree_lt_natDegree_iff hq0).mpr hd
+         omega
+       have ha' : a ∈ H.level (e+(k+1)) := by simpa only [Nat.add_assoc, Nat.add_comm,
+@@ -727,7 +729,7 @@
+       F.signature_mul_high (by omega)
+     rw [show (q*a)*a⁻¹ = q by group, hs] at hh
+     rw [hh]
+-    simp only [leaderShift, signature, Equiv.coe_fn_mk, ite_eq_right (Nat.ne_of_gt hlt)]
++    simp only [leaderShift, signature, Equiv.coe_fn_mk, if_neg (Nat.ne_of_gt hlt)]
+   · have hh := F.signature_mul_equal (g := q*a) (a := a) (hdeg.trans heq.symm)
+       (by simpa only [mul_inv_cancel_right] using hq)
+     simpa only [mul_inv_cancel_right, hs] using hh
+@@ -1512,7 +1514,7 @@
+ end StretchedFiltration
+ 
+ namespace NilpotentPolynomialRecurrence
+-open _root_.Polynomial _root_.OAI.Polynomial
++open _root_.Polynomial
+ noncomputable section
+ variable {G : Type*} [Group G]
+ 

@@ -1,0 +1,14 @@
+{
+  "modules": 3,
+  "all_declarations_including_generated": 287,
+  "all_sources_reelaborated": true,
+  "original_source_and_exact_slice_hashes_verified": true,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "proves_HasAlignmentMonomialRecurrence": true,
+  "full_alignment_principle_proved": false,
+  "full_target_proved": false
+}

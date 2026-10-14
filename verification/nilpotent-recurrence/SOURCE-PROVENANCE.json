@@ -1,0 +1,22 @@
+{
+  "source_repository": "https://github.com/openai/math",
+  "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "source_path": "lean/OAI/Combinatorics/SumProduct/Alignment/WordPlan01.lean",
+  "source_lines": [
+    90,
+    1680
+  ],
+  "source_sha256": "65cb1888f2a96645d2aab7b7f2eb6a5cb2b942cf39ab8c09d26538dc46e7f7e0",
+  "slice_original_sha256": "b9c01e26902c523d7f96bd97214eae953b7fdf266ee3ec89aa674798be42775e",
+  "ported_path": "Hindman168/UpstreamNilpotentRecurrence.lean",
+  "ported_sha256": "5ec33687879c0090b736d7cea3c88a71bbf64fddd0f317527605eb308d786772",
+  "license": "Apache-2.0",
+  "api_edits": [
+    "Replace broad imports by explicit Mathlib imports; retain complete self-contained recurrence dependency section.",
+    "Remove obsolete open OAI.Polynomial (all polynomial primitives are now Mathlib.Polynomial).",
+    "ite_eq_left/ite_eq_right renamed to if_pos/if_neg, at three locations.",
+    "degree_sub_lt_right replaced by degree_sub_lt with native degree_taylor simplification."
+  ],
+  "no_competitor_code": true,
+  "semantic_statement_changes": []
+}

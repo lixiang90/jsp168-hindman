@@ -1,0 +1,535 @@
+'Hindman168.alignmentMonomialWord_polynomial_encoding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_nilpotent_monomial_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.hasAlignmentMonomialRecurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration._sizeOf_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:6:14: warning: `OAI.ConstructedWordPlan.CubeFaces.Filtration._sizeOf_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.Filtration._sizeOf_inst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.casesOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.commutator_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.ctorIdx' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.level' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.mk._flat_ctor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.mk.noConfusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.noConfusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.noConfusionType' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.rec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.Filtration.recOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.commModulo' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.commModulo._proof_1' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:24:14: warning: `OAI.ConstructedWordPlan.CubeFaces.commModulo._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.commModulo._proof_2' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:25:14: warning: `OAI.ConstructedWordPlan.CubeFaces.commModulo._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.commModulo._proof_3' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:26:14: warning: `OAI.ConstructedWordPlan.CubeFaces.commModulo._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_commutator_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_decompose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_eval_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_insert_irrelevant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_insert_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_insert_le._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_le_normalizer_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_normalizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_normalizes._proof_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_restrict._simp_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.cube_shift_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.evaluation' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.evaluation._proof_1' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:43:14: warning: `OAI.ConstructedWordPlan.CubeFaces.evaluation._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.evaluation._proof_2' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:44:14: warning: `OAI.ConstructedWordPlan.CubeFaces.evaluation._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.face' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.face._proof_1' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:46:14: warning: `OAI.ConstructedWordPlan.CubeFaces.face._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.face._proof_2' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:47:14: warning: `OAI.ConstructedWordPlan.CubeFaces.face._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.face.eq_1' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.face_apply' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.face_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.face_commutator._simp_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.face_cube_commutator_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.face_cube_commutator_mem._proof_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.face_mem_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.face_upper_commutator_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.face_upper_commutator_mem._proof_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.map_upper_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.upper' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.upper._proof_1' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:59:14: warning: `OAI.ConstructedWordPlan.CubeFaces.upper._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.upper._proof_2' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:60:14: warning: `OAI.ConstructedWordPlan.CubeFaces.upper._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubeFaces.upper.eq_1' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.upper_cube_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.upper_face' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.upper_face._simp_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubeFaces.upper_face_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.commutator_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.conjugateSequence' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.CubePolynomials.conjugateSequence.eq_1' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.CubePolynomials.conjugateSequence_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.conjugateSequence_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.const_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.derivative_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.derivative_mem._proof_1_1' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.derivative_mem._simp_1_2' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.eval_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.evaluation' depends on axioms: [Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.evaluation._proof_1' depends on axioms: [Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:77:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.evaluation._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.evaluation._proof_2' depends on axioms: [Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:78:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.evaluation._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.mem_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.mem_of_derivatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.mem_of_derivatives._simp_1_3' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.mem_of_derivatives._simp_1_4' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.mem_polynomials' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift.eq_1' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift_lower._simp_1_1' does not depend on any axioms
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift_lower._simp_1_2' does not depend on any axioms
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift_lower._simp_1_3' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift_lower._simp_1_4' does not depend on any axioms
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift_lower._simp_1_5' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift_lower._simp_1_6' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift_lower._simp_1_7' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.CubePolynomials.normalizeShift_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.normalized_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.normalized_normalizes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.normalizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.pattern' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.pattern._proof_1' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:100:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.pattern._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.pattern._proof_2' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:101:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.pattern._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.pattern.eq_1' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.polynomials' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.polynomials.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.polynomials_antitone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.polynomials_eq_bot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.power_polynomial_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.power_polynomial_mem._proof_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.reversedFiltration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.reversedFiltration._proof_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:110:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.reversedFiltration._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.reversedFiltration._proof_2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:111:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.reversedFiltration._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.reversedFiltration._proof_3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:112:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.reversedFiltration._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.reversedFiltration._proof_4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:113:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.reversedFiltration._proof_4` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.shift' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.shift._proof_1' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:115:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.shift._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.shift._proof_2' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:116:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.shift._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.shift._proof_3' does not depend on any axioms
+verification/nilpotent-recurrence/CheckAxioms.lean:117:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.shift._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.shift_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.CubePolynomials.system._proof_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:120:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.system._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.system._proof_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:121:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.system._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.system._proof_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:122:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.system._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.system._proof_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:123:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.system._proof_4` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.system._proof_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:124:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.system._proof_5` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.system._proof_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:125:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.system._proof_6` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.system._proof_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:126:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.system._proof_7` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.CubePolynomials.system._proof_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:127:14: warning: `OAI.ConstructedWordPlan.CubePolynomials.system._proof_8` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.FilteredPET.Filtration' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.Signature' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration._sizeOf_1' depends on axioms: [propext, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:130:14: warning: `OAI.ConstructedWordPlan.FilteredPET.Filtration._sizeOf_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.FilteredPET.Filtration._sizeOf_inst' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.casesOn' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.ctorIdx' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_eq_of_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_eq_of_lower._proof_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_eq_of_lower._proof_1_2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_eq_zero._simp_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:139:14: warning: `OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_eq_zero._simp_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_le_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_mul_eq_left' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_mul_eq_left._proof_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_mul_eq_left._proof_1_2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_mul_eq_left._proof_1_3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_mul_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.degree_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.exhaustive' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:152:14: warning: `OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:153:14: warning: `OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_2` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:154:14: warning: `OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_3` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:155:14: warning: `OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_4` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_5' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:156:14: warning: `OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift._proof_5` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift.eq_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaderShift_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaders' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.leaders.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.level' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.level_normal' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.mk' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.mk._flat_ctor' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.mk.inj' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.mk.injEq' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.mk.noConfusion' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.mk.sizeOf_spec' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.monotone' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.noConfusion' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.noConfusionType' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.normal' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.quotient_eq_one_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.rec' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.recOn' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_same' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_same._proof_1_8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_same._simp_1_1' does not depend on any axioms
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_same._simp_1_2' does not depend on any axioms
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_same._simp_1_3' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_same._simp_1_4' does not depend on any axioms
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_same._simp_1_5' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_same._simp_1_6' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_same._simp_1_7' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_signature' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_signature._proof_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_signature._simp_1_2' does not depend on any axioms
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_signature._simp_1_3' does not depend on any axioms
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_signature._simp_1_4' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_signature._simp_1_5' does not depend on any axioms
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_signature._simp_1_6' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_signature._simp_1_7' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.reduction_signature._simp_1_8' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature._proof_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:195:14: warning: `OAI.ConstructedWordPlan.FilteredPET.Filtration.signature._proof_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature.eq_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature_eq_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature_eq_of_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature_eq_of_lower._simp_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature_mul_equal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature_mul_high' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.signature_mul_high._proof_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.weight.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.weight_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.weight_lt._proof_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.Filtration.zero' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.FilteredPET.decrease_of_high_embedding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System._sizeOf_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+verification/nilpotent-recurrence/CheckAxioms.lean:211:14: warning: `OAI.ConstructedWordPlan.GroupPET.System._sizeOf_1` refers to an auto-generated auxiliary declaration. These are not stable across refactors; consider using a different approach.
+
+Note: This linter can be disabled with `set_option linter.auxLemma false`
+'OAI.ConstructedWordPlan.GroupPET.System._sizeOf_inst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.casesOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.conjugateFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.conjugateFamily_leaders' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.conjugateFamily_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.conjugate_eq_one_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.conjugate_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.conjugate_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.conjugate_signature' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.ctorIdx' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.eval_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.filtration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.mk._flat_ctor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.mk.inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.mk.injEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.mk.noConfusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.mk.sizeOf_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.noConfusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.noConfusionType' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.rec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.recOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.reduce' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.reduce.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.reduce_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.reducedFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.reducedFamily_weight_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.shift_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPET.System.shift_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.ClopenRecurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.Focused' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.Focused.monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.clopen_polynomial_recurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.coloring_polynomial_recurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.continuous_polynomial_recurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_arbitrary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_extend' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_extend._proof_1_1' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_extend._simp_1_2' does not depend on any axioms
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_extend._simp_1_3' does not depend on any axioms
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_extend._simp_1_4' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_extend._simp_1_5' does not depend on any axioms
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_extend._simp_1_6' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_extend._simp_1_7' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_extend._simp_1_8' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.focused_singleton' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.monochromatic_of_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.monochromatic_of_lower._proof_1_1' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.GroupPETRecurrence.monochromatic_of_lower._proof_1_2' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.MinimalSubsystem.exists_closed_minimal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.MinimalSubsystem.exists_closed_minimal_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.MinimalSubsystem.exists_minimal_subaction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.MinimalSubsystem.exists_minimal_subaddaction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.NilpotentPolynomialRecurrence.coloring_recurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.NilpotentPolynomialRecurrence.coloring_recurrence._simp_1_1' depends on axioms: [propext]
+'OAI.ConstructedWordPlan.NilpotentPolynomialRecurrence.word' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.NilpotentPolynomialRecurrence.word.eq_1' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.NilpotentPolynomialRecurrence.word_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.lower_bracket' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.lower_bracket._simp_1_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.rotate_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_antitone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_bracket' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_bracket._proof_1_1' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_bracket._proof_1_2' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_bracket._proof_1_3' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_eq_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_eq_top._proof_1_1' depends on axioms: [propext, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.ConstructedWordPlan.StretchedFiltration.stretch_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.alignment_canonical_finite_word_plan_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
