@@ -1,0 +1,22 @@
+import Hindman168.IntegerIntervalCubeZeroExtension
+#print axioms Hindman168.cyclicIntervalCubeVertex
+#print axioms Hindman168.integerIntervalCubeReduction
+#print axioms Hindman168.cyclicIntervalCubeLift
+#print axioms Hindman168.cyclicIntervalCubeVertex_reduction
+#print axioms Hindman168.cyclicIntervalCubeVertex_val_insert
+#print axioms Hindman168.integerCubeVertex_cyclicIntervalCubeLift
+#print axioms Hindman168.cyclicIntervalCubeLift_mem
+#print axioms Hindman168.integerIntervalCubeReduction_lift
+#print axioms Hindman168.integerIntervalCube_vertex_val
+#print axioms Hindman168.cyclicIntervalCubeLift_reduction
+#print axioms Hindman168.cyclicIntervalCubeDomain
+#print axioms Hindman168.mem_cyclicIntervalCubeDomain
+#print axioms Hindman168.integerCyclicIntervalCubeEquiv
+#print axioms Hindman168.intervalPeriodicZeroExtension
+#print axioms Hindman168.intervalPeriodicZeroExtension_cube_on_domain
+#print axioms Hindman168.intervalPeriodicZeroExtension_cube_outside
+#print axioms Hindman168.intervalPeriodicZeroExtension_cube_sum
+#print axioms Hindman168.intervalPeriodicZeroExtension_cube_average
+#print axioms Hindman168.integerIntervalPeriodicCubeMean_eq_zeroExtension_ratio
+#print axioms Hindman168.intervalPeriodicZeroExtension_indicator_cube_pos
+#print axioms Hindman168.integerIntervalPeriodicCubeMean_nonneg_of_pos

@@ -1,0 +1,26 @@
+{
+  "baseline_commit": "f2c4c4f081601855bf90f850af1825010b1dafbc",
+  "scope": "Exact interval/cyclic cube zero-extension normalization and interval cube positivity; no inverse theorem proved",
+  "lean": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_command": "lake build Hindman168.IntegerIntervalCubeZeroExtension",
+  "axiom_command": "lake env lean verification/interval-zero-extension/Axioms.lean",
+  "build_exit_code": 0,
+  "axiom_exit_code": 0,
+  "checked_declaration_count": 21,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "files": [
+    {
+      "path": "Hindman168/IntegerIntervalCubeZeroExtension.lean",
+      "sha256": "396a2159a049c3667d2c1730b9639e8830e1dc6124c8d94c6866c14f4a9c3efb"
+    },
+    {
+      "path": "verification/interval-zero-extension/Axioms.lean",
+      "sha256": "7f0c3cfb7c1e826d922cd1c0a2512451661a34995b5af07a9b3a515ef1117a3a"
+    }
+  ]
+}
