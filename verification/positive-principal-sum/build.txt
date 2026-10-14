@@ -1,0 +1,8 @@
+✔ [5108/5114] Built Hindman168.PositivePrincipalSumAlignment (3.2s)
+✔ [5109/5114] Built Hindman168.PositivePrincipalSumLimits (3.6s)
+✔ [5110/5114] Built Hindman168.PositivePrincipalSumTolerances (5.1s)
+✔ [5111/5114] Built Hindman168.PositivePrincipalSumEvents (3.3s)
+✔ [5112/5114] Built Hindman168.PositivePrincipalSumRatios (4.0s)
+✔ [5113/5114] Built Hindman168.PositivePrincipalSumConclusion (3.3s)
+✔ [5114/5114] Built Hindman168.PositivePrincipalSumFinalDeduction (3.2s)
+Build completed successfully (5114 jobs).

@@ -1,0 +1,80 @@
+{
+  "baseline_commit": "9d9cc01fbfc8267fe9844b4778dc842767a50936",
+  "scope": "Tolerance-first final deduction from original prediction data and explicit simultaneous adding-pair event liminf; neither analytic principle completed",
+  "lean": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_command": "lake build Hindman168.PositivePrincipalSumFinalDeduction",
+  "source_commands": [
+    "lake env lean Hindman168/PositivePrincipalSumAlignment.lean",
+    "lake env lean Hindman168/PositivePrincipalSumBounds.lean",
+    "lake env lean Hindman168/PositivePrincipalSumConclusion.lean",
+    "lake env lean Hindman168/PositivePrincipalSumEvents.lean",
+    "lake env lean Hindman168/PositivePrincipalSumFinalDeduction.lean",
+    "lake env lean Hindman168/PositivePrincipalSumLimits.lean",
+    "lake env lean Hindman168/PositivePrincipalSumPointwise.lean",
+    "lake env lean Hindman168/PositivePrincipalSumRatios.lean",
+    "lake env lean Hindman168/PositivePrincipalSumScales.lean",
+    "lake env lean Hindman168/PositivePrincipalSumSelection.lean",
+    "lake env lean Hindman168/PositivePrincipalSumTolerances.lean"
+  ],
+  "axiom_command": "lake env lean verification/positive-principal-sum/Axioms.lean",
+  "build_exit_code": 0,
+  "source_exit_code": 0,
+  "axiom_exit_code": 0,
+  "checked_theorem_count": 22,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "files": [
+    {
+      "path": "Hindman168/PositivePrincipalSumAlignment.lean",
+      "sha256": "d5fdf070fa70e342204184224d59f1d908951e9038296660124192d5712b66b7"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumBounds.lean",
+      "sha256": "0004254dd3dd7ed62c341f053e18df5d5b202e4ffea8e60409e81daf2a3f3168"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumConclusion.lean",
+      "sha256": "12b284f116f600f89124c843cd5b5388e7d9ccaa3bdc218819ee1df88b175fdb"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumEvents.lean",
+      "sha256": "b5eb476ea55898fb9cca9ec5c8eaaace122b4cbc6da63ec7e617f8999107e1d3"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumFinalDeduction.lean",
+      "sha256": "a492d9536dde3a67ecb1ffa5ee27ebdf795651de3e981978f89e6586c54a3f29"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumLimits.lean",
+      "sha256": "6214d7b65d5aa6b686adc70246f37fe2b26bbe15c9565c447185c0ca99b4b1a5"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumPointwise.lean",
+      "sha256": "a96ec2d3dd3f4e191c6c26fdecf56688d51028f96dc0b5d708cf7595527ce53f"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumRatios.lean",
+      "sha256": "fbf784e9e57c929aad6be74aa243ac0f0376d123d5d5602cfb8578a1916abb43"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumScales.lean",
+      "sha256": "60df837d2d1d7bd4f3f6a84d4995816ebf1a00cd39a0837c21ae57f4c9925916"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumSelection.lean",
+      "sha256": "707e3d97eec2442d6aa0233b913dd5582f0f341c5621bece935bbc1b4dc45c26"
+    },
+    {
+      "path": "Hindman168/PositivePrincipalSumTolerances.lean",
+      "sha256": "f938b7df03a41a26ba049f98bd972dce6a642ff11799093ded4db8819a9a46ca"
+    },
+    {
+      "path": "verification/positive-principal-sum/Axioms.lean",
+      "sha256": "cc8e3de7660217baf309a949ad411912705a79adaa8501551de026315a59bbeb"
+    }
+  ]
+}

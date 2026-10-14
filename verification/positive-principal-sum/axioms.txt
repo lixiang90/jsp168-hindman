@@ -1,0 +1,32 @@
+'Hindman168.principal_adding_alignment_chain_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.positivePrincipalSum_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.positivePrincipalSum_good_event' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.positivePrincipalSum_model_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.positivePrincipalSum_error_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.positivePrincipalSum_actual_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.principal_prediction_alignment_positive_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.principal_prediction_alignment_finite_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.MasterParameterConditions.principal_raw_support_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Hindman168.principal_alignment_good_sample_selects_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.principal_final_deduction_tolerances' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.principal_prediction_positive_sum_of_alignment_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Hindman168.principal_model_integrand_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.principal_model_integrand_lower_bound_of_alignment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Hindman168.MasterParameterConditions.principal_adding_ratios_exact_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Hindman168.MasterParameterConditions.principal_individual_coefficients_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Hindman168.principal_block_coefficient_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.principal_scaled_product_chain_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.principalChainOfRange_block_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.principal_product_chain_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.positivePrincipalSum_choose_tolerances' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Hindman168.positivePrincipalSum_alignment_liminf' depends on axioms: [propext, Classical.choice, Quot.sound]
