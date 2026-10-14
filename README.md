@@ -87,12 +87,29 @@ proving that identity.
 
 ## Audit records and provenance
 
-Existing round scripts and logs preserve the original workstation evidence.
-Some historical scripts refer to Windows paths, the local pinned OpenAI
-paper checkout, and a local PNTPlus checkout. They are archival author-audit
-tools, not portable installation scripts. Use `scripts/verify_snapshot.py`
-for the portable checkpoint check; consult the round review before adapting
-an old audit script on a new machine.
+The current author-side evidence remains in `BUILD-EVIDENCE.txt`,
+`round-native-standard-face-haar-axioms.txt`, and the latest round's review
+and result records. The immediately preceding
+`round-native-selected-cube-projection-axioms.txt` is retained because the
+current round audit compares against it.
+
+467 superseded `round-*-axioms.txt` output logs (300,418,280 bytes) have been
+removed from the working tree. They contain repeated registered axiom reports,
+not proof source or mathematical reviews. All mathematical reviews, source
+provenance, dependency certificates, and verification-manifest entries remain.
+
+Historical round scripts and review records describe their original checkpoints;
+their old log paths and hashes refer to the
+[pre-cleanup snapshot](https://github.com/lixiang90/jsp168-hindman/tree/e5e45b1e1227a8df34ee95eadd4b8d87b4811c74).
+To inspect or recover an old report, open that snapshot or use
+`git show e5e45b1e1227a8df34ee95eadd4b8d87b4811c74:REPORT-PATH`.
+For historical audit replay, use a separate worktree with the matching source
+checkpoint and its original logs. Old scripts may require removed predecessor
+reports; do not run them against the current working tree as a current audit.
+Some also require original Windows paths and local pinned paper/PNTPlus checkouts.
+
+Use `scripts/verify_snapshot.py` for the portable current checkpoint check.
+Its rules and all audited sources are unchanged by this documentation cleanup.
 
 `work-in-progress/` and root-level scratch files are retained for continuity;
 they are not automatically part of the canonical build or a claim of proof.
