@@ -1,0 +1,60 @@
+{
+  "baseline_commit": "8ac273be7fbe47f4cfe6551c10124098279e6ef3",
+  "scope": "Actual weighted polynomial shear group and weighted-box TV laws; no native BCH realization or Haar weak limit",
+  "lean": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_command": "lake build Hindman168.WeightedShearBoxLaw",
+  "source_commands": [
+    "lake env lean Hindman168/WeightedShearAction.lean",
+    "lake env lean Hindman168/WeightedShearBoxBounds.lean",
+    "lake env lean Hindman168/WeightedShearBoxLaw.lean",
+    "lake env lean Hindman168/WeightedShearBoxVariation.lean",
+    "lake env lean Hindman168/WeightedShearGroup.lean",
+    "lake env lean Hindman168/WeightedShearMeasure.lean",
+    "lake env lean Hindman168/WeightedShearPolynomial.lean"
+  ],
+  "axiom_command": "lake env lean verification/weighted-shear-box-laws/Axioms.lean",
+  "build_exit_code": 0,
+  "source_exit_code": 0,
+  "axiom_exit_code": 0,
+  "checked_declaration_count": 73,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "files": [
+    {
+      "path": "Hindman168/WeightedShearAction.lean",
+      "sha256": "eb86335e9afc54399b10cfd7cdf49c48264d625c74ce5190187bce64d8134a37"
+    },
+    {
+      "path": "Hindman168/WeightedShearBoxBounds.lean",
+      "sha256": "70b0dd5987f67d1e327f788608ce99937c881f74bea12c22488ff3b332eb5131"
+    },
+    {
+      "path": "Hindman168/WeightedShearBoxLaw.lean",
+      "sha256": "487c8bdb25873f0196e06ef6763813c0ee32583d75e5c17989c8b23c6d6a08c5"
+    },
+    {
+      "path": "Hindman168/WeightedShearBoxVariation.lean",
+      "sha256": "a65b8fa19232d15e8f12a6e702950757028df2f900dedb86fe1bbc730ee4ec23"
+    },
+    {
+      "path": "Hindman168/WeightedShearGroup.lean",
+      "sha256": "e9ae74e3b1a361e42a9e83ca9a55855d236fa43026d7a7d13e45fb0da6d08256"
+    },
+    {
+      "path": "Hindman168/WeightedShearMeasure.lean",
+      "sha256": "6a8bee7225ca3b8bf4f1bd0b43ed13b7d963b9484335096ee8723a9c2c56effe"
+    },
+    {
+      "path": "Hindman168/WeightedShearPolynomial.lean",
+      "sha256": "c181866e7e8a0356b06e8b66d8e92f239792b90f1b1330f87f23e61ad8e5dd1c"
+    },
+    {
+      "path": "verification/weighted-shear-box-laws/Axioms.lean",
+      "sha256": "819a5d43b45e0921646ee39ec03551933ed0113e194eea22b4cd98de0271b203"
+    }
+  ]
+}

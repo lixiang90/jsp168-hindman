@@ -1,0 +1,7 @@
+lake env lean Hindman168/WeightedShearPolynomial.lean
+lake env lean Hindman168/WeightedShearGroup.lean
+lake env lean Hindman168/WeightedShearAction.lean
+lake env lean Hindman168/WeightedShearBoxBounds.lean
+lake env lean Hindman168/WeightedShearMeasure.lean
+lake env lean Hindman168/WeightedShearBoxVariation.lean
+lake env lean Hindman168/WeightedShearBoxLaw.lean
