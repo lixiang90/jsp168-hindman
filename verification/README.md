@@ -96,7 +96,11 @@ inputs. Its 17 local modules and 312-module official import closure have focused
 source and axiom checks. Compact lattice realizations and uniform quotient
 metric/Lipschitz bounds are still needed for the final finite native family.
 
-Other checked components are [inverse normalization](original-inverse-normalization/README.md),
+The [inverse normalization layer](original-inverse-normalization/README.md) now
+includes exact supported-cube/periodic Gowers transport and positive-norm
+exclusion of empty intervals; all four modules and 54 declarations are checked.
+
+Other checked components are
 [algebraic and extension building blocks](original-inverse-building-blocks/README.md),
 [compact metric control](original-fiber-compact/README.md), and
 [the BCH fiber metric bridge](original-fiber-bch/README.md).

@@ -2,21 +2,44 @@
   "base_commit": "cec91d6971eea09f5ec9d4c66a80c7cbbb355069",
   "lean": "4.32.2",
   "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
-  "scope": "Numerical choices and exact mean normalization; StrongConjecture still incomplete",
+  "scope": "Fixed numerical choices; exact interval and periodic means; empty-interval exclusion; actual supported-cube Gowers norm and cyclic encoding transport. Four target modules only; StrongConjecture still incomplete.",
   "sources": {
     "Hindman168/OriginalInverseNormalizationNumerics.lean": "56cc60a9bd13142e6378d045ec07eac7e2ba3e6c97d6b6e0e9a12c162816693a",
-    "Hindman168/OriginalInverseNormalizationMean.lean": "e98485417356c2edb3c887c8e13cb104577f0d18338b8b5bf9d1a98bb7a0b5fc"
+    "Hindman168/OriginalInverseNormalizationMean.lean": "e98485417356c2edb3c887c8e13cb104577f0d18338b8b5bf9d1a98bb7a0b5fc",
+    "Hindman168/OriginalInverseNormalizationEmpty.lean": "962e4838304a83cc0b1bc7d345c465dac5e3e51c5db6096fa99b3e8f635e3225",
+    "Hindman168/OriginalInverseNormalizationTransport.lean": "d2065f02776e8b778765be3a22a3c1b4d2024ffbd907216bfe53211ce7fb466f"
   },
   "verification": {
     "source_compilation_exit_code": 0,
     "axiom_audit_exit_code": 0,
-    "audited_declarations": 33,
+    "audited_declarations": 54,
     "trust_level": 0,
     "autoImplicit": false,
     "allowed_axioms": [
       "propext",
       "Classical.choice",
       "Quot.sound"
-    ]
+    ],
+    "audited_target_modules": 4,
+    "main_repository_imports_first": true,
+    "scratch_imports": false,
+    "source_compilation_options": {
+      "autoImplicit": false
+    },
+    "audit_command": "lake env lean -j1 --trust=0 -DautoImplicit=false verification/original-inverse-normalization/CheckAllAxioms.lean",
+    "build_command": "lake build Hindman168.OriginalInverseNormalizationNumerics Hindman168.OriginalInverseNormalizationMean Hindman168.OriginalInverseNormalizationEmpty Hindman168.OriginalInverseNormalizationTransport",
+    "audit_source_sha256": "401f5371d31e0b70db190b6b1f9bc09220f4f2691a59ab63a00c81902a579221",
+    "audit_log_sha256": "5e63a85ef34a5892b2960bcc40e034643f0b3eaa52f7584c93286fbae78ab836",
+    "counts_include_generated_auxiliary_declarations": true,
+    "count_is_recursive_import_closure": false
+  },
+  "extends_checkpoint": "1487aabb3ca4267aa69e8265e2fa66842610e183",
+  "lean_commit": "f3b06c705e6c85f5314019d5d3baab0fec5b580c",
+  "verified_utc": "2026-10-15T13:08:35Z",
+  "olean_sha256": {
+    ".lake/build/lib/lean/Hindman168/OriginalInverseNormalizationNumerics.olean": "eb6e766cf59efa189cd1e91e5956e249088cac7a6daaf62f181662221cc29e10",
+    ".lake/build/lib/lean/Hindman168/OriginalInverseNormalizationMean.olean": "ba016967a47ebc48182f05906300134c8eff2669b9a0953643101de6558a0855",
+    ".lake/build/lib/lean/Hindman168/OriginalInverseNormalizationEmpty.olean": "ded2d27cd47dfea35e54e35259a52cef37c4836e0dbc72acd8b5abc7db858c6b",
+    ".lake/build/lib/lean/Hindman168/OriginalInverseNormalizationTransport.olean": "c77f250cc0d60f6da953459a6585c17d39070dc1bed585374c5c9fca5a5a5fd6"
   }
 }

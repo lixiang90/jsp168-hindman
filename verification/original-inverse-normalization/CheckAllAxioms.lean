@@ -1,12 +1,14 @@
 import Hindman168.OriginalInverseNormalizationNumerics
 import Hindman168.OriginalInverseNormalizationMean
+import Hindman168.OriginalInverseNormalizationEmpty
+import Hindman168.OriginalInverseNormalizationTransport
 import Lean
 open Lean Elab Command
 set_option maxRecDepth 10000
 set_option maxHeartbeats 0
 run_cmd do
   let env ← getEnv
-  let targets : List Name := [`Hindman168.OriginalInverseNormalizationNumerics, `Hindman168.OriginalInverseNormalizationMean]
+  let targets : List Name := [`Hindman168.OriginalInverseNormalizationNumerics, `Hindman168.OriginalInverseNormalizationMean, `Hindman168.OriginalInverseNormalizationEmpty, `Hindman168.OriginalInverseNormalizationTransport]
   let mut count : Nat := 0
   for i in [:env.header.moduleNames.size] do
     if targets.contains env.header.moduleNames[i]! then
