@@ -1,3 +1,0 @@
-✔ [5334/5335] Built Hindman168.AlignmentExposedNativeVectorPolynomial (13s)
-✔ [5335/5335] Built Hindman168.AlignmentExposedNativeSource (12s)
-Build completed successfully (5335 jobs).

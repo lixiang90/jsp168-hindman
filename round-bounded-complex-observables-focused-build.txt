@@ -1,2 +1,0 @@
-✔ [1870/1870] Built Hindman168.BoundedComplexLipschitzObservables (7.8s)
-Build completed successfully (1870 jobs).

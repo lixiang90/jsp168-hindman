@@ -1,3 +1,0 @@
-✔ [5303/5305] Built Hindman168.AlignmentNativeFiniteImageSubgroup (11s)
-✔ [5304/5305] Built Hindman168 (9.2s)
-Build completed successfully (5305 jobs).

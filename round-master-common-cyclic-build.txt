@@ -1,3 +1,0 @@
-✔ [4999/5001] Built Hindman168.MasterCommonCyclicShortCube (12s)
-✔ [5000/5001] Built Hindman168 (9.6s)
-Build completed successfully (5001 jobs).

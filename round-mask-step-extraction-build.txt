@@ -1,2 +1,0 @@
-✔ [4315/4315] Built Hindman168.MaskCurrentNormalizedExtraction (10s)
-Build completed successfully (4315 jobs).

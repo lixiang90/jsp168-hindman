@@ -1,3 +1,0 @@
-✔ [5005/5007] Built Hindman168.SubgroupDualRecursion (6.4s)
-✔ [5006/5007] Built Hindman168 (8.3s)
-Build completed successfully (5007 jobs).

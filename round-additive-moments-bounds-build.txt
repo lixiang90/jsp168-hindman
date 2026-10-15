@@ -1,8 +1,0 @@
-⚠ [4209/4209] Built Hindman168.MaskCopiedUniformBounds (11s)
-warning: Hindman168/MaskCopiedUniformBounds.lean:29:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-warning: Hindman168/MaskCopiedUniformBounds.lean:60:11: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-Build completed successfully (4209 jobs).

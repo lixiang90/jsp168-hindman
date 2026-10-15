@@ -1,2 +1,0 @@
-✔ [1870/1870] Built Hindman168.OrderedRemovalTelescope (6.1s)
-Build completed successfully (1870 jobs).

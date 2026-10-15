@@ -1,7 +1,0 @@
-⚠ [4255/4255] Built Hindman168.MaskNativeWeightedReplacement (7.6s)
-warning: Hindman168/MaskNativeWeightedReplacement.lean:97:9: Variable name `w` is not explicitly referenced.
-
-The binding can be removed (if unused) or named `_` (if used implicitly).
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-Build completed successfully (4255 jobs).

@@ -1,2 +1,0 @@
-✔ [4223/4223] Built Hindman168.MaskOriginalTranslationBounds (7.7s)
-Build completed successfully (4223 jobs).

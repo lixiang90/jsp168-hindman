@@ -1,3 +1,0 @@
-✔ [5067/5069] Built Hindman168.MixedDualProjectionPairOrthogonality (11s)
-✔ [5068/5069] Built Hindman168 (11s)
-Build completed successfully (5069 jobs).

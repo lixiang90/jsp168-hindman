@@ -1,2 +1,0 @@
-✔ [5344/5344] Built Hindman168.AlignmentJointExposedNativeSource (13s)
-Build completed successfully (5344 jobs).

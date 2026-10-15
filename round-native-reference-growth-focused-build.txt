@@ -1,2 +1,0 @@
-✔ [5258/5258] Built Hindman168.AlignmentNativeReferenceGrowth (12s)
-Build completed successfully (5258 jobs).

@@ -1,2 +1,0 @@
-✔ [5152/5152] Built Hindman168.NativeFinitePiCosetCoordinates (12s)
-Build completed successfully (5152 jobs).

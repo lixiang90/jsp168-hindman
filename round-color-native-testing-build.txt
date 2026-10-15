@@ -1,3 +1,0 @@
-✔ [5172/5174] Built Hindman168.SelectedColorNativeTestingModels (18s)
-✔ [5173/5174] Built Hindman168 (13s)
-Build completed successfully (5174 jobs).

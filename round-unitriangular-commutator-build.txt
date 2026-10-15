@@ -1,3 +1,0 @@
-✔ [4511/4513] Built Hindman168.UnitriangularMaskModelTesting (12s)
-✔ [4512/4513] Built Hindman168 (12s)
-Build completed successfully (4513 jobs).

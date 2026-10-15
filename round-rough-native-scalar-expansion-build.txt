@@ -1,3 +1,0 @@
-✔ [5685/5687] Built Hindman168.RoughNativeProjectedObstructionBadFamily (13s)
-✔ [5686/5687] Built Hindman168 (13s)
-Build completed successfully (5687 jobs).

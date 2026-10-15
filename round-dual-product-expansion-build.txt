@@ -1,3 +1,0 @@
-✔ [5014/5016] Built Hindman168.DualProductExpansion (8.4s)
-✔ [5015/5016] Built Hindman168 (8.3s)
-Build completed successfully (5016 jobs).

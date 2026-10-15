@@ -1,8 +1,0 @@
-✔ [4419/4426] Built Hindman168.NilUpperFaceCoordinates (5.5s)
-✔ [4420/4426] Built Hindman168.NilUpperFaceMissingCorner (5.6s)
-✔ [4421/4426] Built Hindman168.NilUpperFaceUniqueCoordinates (5.5s)
-✔ [4422/4426] Built Hindman168.NilUpperFaceReflection (5.5s)
-✔ [4423/4426] Built Hindman168.NilUpperFaceRootUniqueness (5.5s)
-✔ [4424/4426] Built Hindman168.NilUpperFaceRootRecipes (7.6s)
-✔ [4425/4426] Built Hindman168 (7.3s)
-Build completed successfully (4426 jobs).

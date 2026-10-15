@@ -1,2 +1,0 @@
-✔ [4138/4138] Built Hindman168.MasterUniformClippedDualProducts (7.5s)
-Build completed successfully (4138 jobs).

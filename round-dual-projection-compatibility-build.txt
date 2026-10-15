@@ -1,3 +1,0 @@
-✔ [5039/5041] Built Hindman168.MixedDualProjectionCompatibility (10s)
-✔ [5040/5041] Built Hindman168 (12s)
-Build completed successfully (5041 jobs).

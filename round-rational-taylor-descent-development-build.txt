@@ -1,2 +1,0 @@
-✔ [4965/4965] Built Hindman168.NativeRationalTaylorCoordinates (21s)
-Build completed successfully (4965 jobs).

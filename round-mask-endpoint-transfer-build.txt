@@ -1,2 +1,0 @@
-✔ [4375/4375] Built Hindman168.MaskEndpointTerminalTransfer (10s)
-Build completed successfully (4375 jobs).

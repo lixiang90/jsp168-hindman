@@ -1,3 +1,0 @@
-✔ [5405/5407] Built Hindman168.MasterBinaryDyadicDiscard (12s)
-✔ [5406/5407] Built Hindman168 (12s)
-Build completed successfully (5407 jobs).

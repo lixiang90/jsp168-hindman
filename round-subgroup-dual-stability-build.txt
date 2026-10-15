@@ -1,3 +1,0 @@
-✔ [5006/5008] Built Hindman168.SubgroupDualStability (12s)
-✔ [5007/5008] Built Hindman168 (12s)
-Build completed successfully (5008 jobs).

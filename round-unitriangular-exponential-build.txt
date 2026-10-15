@@ -1,2 +1,0 @@
-✔ [4537/4538] Built Hindman168 (10s)
-Build completed successfully (4538 jobs).

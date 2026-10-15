@@ -1,4 +1,0 @@
-✔ [4429/4432] Built Hindman168.NilCubeLatticeCocompactness (7.2s)
-✔ [4430/4432] Built Hindman168.NilCompactRootRecipes (10s)
-✔ [4431/4432] Built Hindman168 (10s)
-Build completed successfully (4432 jobs).

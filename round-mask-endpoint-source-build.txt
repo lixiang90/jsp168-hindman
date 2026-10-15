@@ -1,2 +1,0 @@
-✔ [4374/4374] Built Hindman168.MaskEndpointSourceRows (11s)
-Build completed successfully (4374 jobs).

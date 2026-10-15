@@ -1,2 +1,0 @@
-✔ [4117/4117] Built Hindman168.MasterPrimeAverageInsertion (11s)
-Build completed successfully (4117 jobs).

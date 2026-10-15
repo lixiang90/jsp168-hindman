@@ -1,9 +1,0 @@
-{
-  "command": [
-    "lake",
-    "build"
-  ],
-  "exit_code": 0,
-  "elapsed_seconds": 79.29700000002049,
-  "complete_output_saved": true
-}

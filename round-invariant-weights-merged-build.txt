@@ -1,2 +1,0 @@
-✔ [4298/4298] Built Hindman168.MaskMergedInvariantFunctions (11s)
-Build completed successfully (4298 jobs).

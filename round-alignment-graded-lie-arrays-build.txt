@@ -1,3 +1,0 @@
-✔ [5281/5283] Built Hindman168.AlignmentNativeLieArrayCoefficients (7.6s)
-✔ [5282/5283] Built Hindman168 (8.7s)
-Build completed successfully (5283 jobs).

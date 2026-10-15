@@ -1,2 +1,0 @@
-✔ [4056/4056] Built Hindman168.HarmonicAffineRoot (7.5s)
-Build completed successfully (4056 jobs).

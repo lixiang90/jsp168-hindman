@@ -1,3 +1,0 @@
-✔ [5449/5451] Built Hindman168.AlignmentExposedCubeEvaluation (12s)
-✔ [5450/5451] Built Hindman168 (12s)
-Build completed successfully (5451 jobs).

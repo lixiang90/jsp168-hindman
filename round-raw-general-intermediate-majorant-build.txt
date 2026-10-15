@@ -1,2 +1,0 @@
-✔ [4277/4277] Built Hindman168.MaskIntermediateMajorantMeans (10s)
-Build completed successfully (4277 jobs).

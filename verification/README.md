@@ -99,8 +99,6 @@ modules and complete official closure passed a 553-module/14,338-declaration aud
 The analytic inverse closure and final canonical assembly remain open.
 The [current upstream subset](original-upstream-inverse/README.md) has a
 dependency-closed 1042-module/20,689-declaration strict audit.
-The [current upstream subset](original-upstream-inverse/README.md) has a
-dependency-closed 1042-module/20,689-declaration strict audit.
 
 The [inverse normalization layer](original-inverse-normalization/README.md) now
 includes exact supported-cube/periodic Gowers transport and positive-norm

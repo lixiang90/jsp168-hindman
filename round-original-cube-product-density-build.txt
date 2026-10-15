@@ -1,5 +1,0 @@
-⚠ [2116/2116] Built Hindman168.FinitePiLipschitzProductDensity (6.2s)
-warning: Hindman168/FinitePiLipschitzProductDensity.lean:45:2: 'change P x ≠ P y' tactic does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-Build completed successfully (2116 jobs).

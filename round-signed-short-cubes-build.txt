@@ -1,3 +1,0 @@
-✔ [5001/5003] Built Hindman168.SignedShortCubeSymmetry (8.5s)
-✔ [5002/5003] Built Hindman168 (8.3s)
-Build completed successfully (5003 jobs).

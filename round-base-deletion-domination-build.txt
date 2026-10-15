@@ -1,2 +1,0 @@
-✔ [4107/4107] Built Hindman168.FiniteRestrictedDomination (10s)
-Build completed successfully (4107 jobs).

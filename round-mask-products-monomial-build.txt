@@ -1,2 +1,0 @@
-✔ [4308/4308] Built Hindman168.MaskMonomialSubstitutions (10s)
-Build completed successfully (4308 jobs).

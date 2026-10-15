@@ -1,2 +1,0 @@
-✔ [4376/4376] Built Hindman168.MaskEndpointTargetCube (7.5s)
-Build completed successfully (4376 jobs).

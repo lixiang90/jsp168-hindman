@@ -1,2 +1,0 @@
-✔ [4014/4014] Built Hindman168.RationalWeightedMeanOne (7.4s)
-Build completed successfully (4014 jobs).

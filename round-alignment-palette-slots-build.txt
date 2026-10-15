@@ -1,3 +1,0 @@
-✔ [5260/5262] Built Hindman168.AlignmentFiniteWordBudgets (8.6s)
-✔ [5261/5262] Built Hindman168 (8.3s)
-Build completed successfully (5262 jobs).

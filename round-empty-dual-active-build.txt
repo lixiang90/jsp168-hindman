@@ -1,3 +1,0 @@
-✔ [4116/4117] Built Hindman168.FiniteEmptyCoordinateLaw (7.5s)
-✔ [4117/4117] Built Hindman168.MasterEmptyDualProductLimit (7.7s)
-Build completed successfully (4117 jobs).

@@ -1,2 +1,0 @@
-✔ [4032/4032] Built Hindman168.CopiedReplicaCubeEvaluations (7.5s)
-Build completed successfully (4032 jobs).

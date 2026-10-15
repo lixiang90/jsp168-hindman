@@ -1,2 +1,0 @@
-✔ [4044/4044] Built Hindman168.PredictionTerminalCopies (7.6s)
-Build completed successfully (4044 jobs).

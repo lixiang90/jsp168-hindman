@@ -1,3 +1,0 @@
-✔ [4998/5000] Built Hindman168.MasterSubgroupCombination (8.7s)
-✔ [4999/5000] Built Hindman168 (8.3s)
-Build completed successfully (5000 jobs).

@@ -1,2 +1,0 @@
-✔ [4325/4325] Built Hindman168.MaskOrderedInputPath (10s)
-Build completed successfully (4325 jobs).

@@ -1,3 +1,0 @@
-✔ [5040/5042] Built Hindman168.FirstOrderDualConcatenation (12s)
-✔ [5041/5042] Built Hindman168 (11s)
-Build completed successfully (5042 jobs).

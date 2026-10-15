@@ -1,2 +1,0 @@
-✔ [5365/5365] Built Hindman168.AlignmentJointTranslatedTestFamilies (8.7s)
-Build completed successfully (5365 jobs).

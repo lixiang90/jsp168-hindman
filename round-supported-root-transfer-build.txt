@@ -1,3 +1,0 @@
-✔ [4273/4274] Built Hindman168.MaskTargetProgressionLaw (11s)
-✔ [4274/4274] Built Hindman168.MaskTargetProgressionTransfer (10s)
-Build completed successfully (4274 jobs).

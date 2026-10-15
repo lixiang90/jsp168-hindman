@@ -1,5 +1,0 @@
-✔ [5880/5884] Built Hindman168.FiniteComplexDenseMean (6.4s)
-✔ [5881/5884] Built Hindman168.LeibmanCubeLineAveraging (8.1s)
-✔ [5882/5884] Built Hindman168.LeibmanCubeShortLines (8.5s)
-✔ [5883/5884] Built Hindman168 (9.6s)
-Build completed successfully (5884 jobs).

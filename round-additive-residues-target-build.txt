@@ -1,3 +1,0 @@
-✔ [4197/4198] Built Hindman168.AdditiveRowCopiedCoefficients (10s)
-✔ [4198/4198] Built Hindman168.AdditiveRowResidueIndependence (11s)
-Build completed successfully (4198 jobs).

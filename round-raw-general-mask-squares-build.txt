@@ -1,2 +1,0 @@
-✔ [4279/4279] Built Hindman168.MaskRemovalStageWeightedSquares (7.9s)
-Build completed successfully (4279 jobs).

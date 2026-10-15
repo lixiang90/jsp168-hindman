@@ -1,3 +1,0 @@
-✔ [5004/5006] Built Hindman168.SubgroupDualEnergy (6.1s)
-✔ [5005/5006] Built Hindman168 (8.4s)
-Build completed successfully (5006 jobs).

@@ -1,4 +1,0 @@
-✔ [5100/5103] Built Hindman168.CyclicIntervalUniformPeriodError (14s)
-✔ [5101/5103] Built Hindman168.CyclicIntervalPositiveNormTransfer (14s)
-✔ [5102/5103] Built Hindman168 (17s)
-Build completed successfully (5103 jobs).

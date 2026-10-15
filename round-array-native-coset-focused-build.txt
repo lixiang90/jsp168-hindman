@@ -1,2 +1,0 @@
-✔ [5214/5214] Built Hindman168.AlignmentArrayNativeCosetEvaluation (12s)
-Build completed successfully (5214 jobs).

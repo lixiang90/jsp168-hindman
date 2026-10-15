@@ -1,2 +1,0 @@
-✔ [4114/4114] Built Hindman168.PrimeInsertionMoments (11s)
-Build completed successfully (4114 jobs).

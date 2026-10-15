@@ -1,3 +1,0 @@
-✔ [5188/5190] Built Hindman168.SelectedColorGlobalCalibration (18s)
-✔ [5189/5190] Built Hindman168 (12s)
-Build completed successfully (5190 jobs).

@@ -1,2 +1,0 @@
-✔ [4108/4108] Built Hindman168.PrimeWeightedDiagonal (8.3s)
-Build completed successfully (4108 jobs).

@@ -1,3 +1,0 @@
-✔ [4997/4999] Built Hindman168.MasterOriginalShortCubeGowers (11s)
-✔ [4998/4999] Built Hindman168 (8.3s)
-Build completed successfully (4999 jobs).

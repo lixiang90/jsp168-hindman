@@ -1,2 +1,0 @@
-✔ [4003/4003] Built Hindman168.SquarefreeExcessTransfer (7.8s)
-Build completed successfully (4003 jobs).

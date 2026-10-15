@@ -1,8 +1,0 @@
-⚠ [5306/5307] Built Hindman168.OriginalIntegerResidualBoxGeometry (9.1s)
-warning: Hindman168/OriginalIntegerResidualBoxGeometry.lean:9:24: Variable name `hA` is not explicitly referenced.
-
-The binding can be removed (if unused) or named `_` (if used implicitly).
-
-Note: This linter can be disabled with `set_option linter.unusedVariables false`
-✔ [5307/5307] Built Hindman168.AlignmentActualOriginalResidualGeometry (8.7s)
-Build completed successfully (5307 jobs).

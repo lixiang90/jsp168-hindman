@@ -1,7 +1,0 @@
-✔ [6355/6372] Built Hindman168.NativeRationalTerminalProductPairObservable (12s)
-✔ [6356/6372] Built Hindman168.NativeRationalTerminalProductPairTranslation (13s)
-✔ [6357/6372] Built Hindman168.NativeRationalTerminalRelativePairObservable (13s)
-✔ [6359/6372] Built Hindman168.NativeRationalTerminalRelativePairTranslation (12s)
-✔ [6365/6372] Built Hindman168.NativeRationalTerminalRelativePairMean (12s)
-✔ [6371/6372] Built Hindman168 (12s)
-Build completed successfully (6372 jobs).

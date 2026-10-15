@@ -1,2 +1,0 @@
-✔ [4043/4043] Built Hindman168.MasterCopiedReplicaCubeMajorant (7.5s)
-Build completed successfully (4043 jobs).

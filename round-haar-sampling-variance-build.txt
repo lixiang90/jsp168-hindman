@@ -1,3 +1,0 @@
-✔ [5007/5009] Built Hindman168.HaarSamplingVariance (8.0s)
-✔ [5008/5009] Built Hindman168 (8.4s)
-Build completed successfully (5009 jobs).

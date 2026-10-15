@@ -1,2 +1,0 @@
-✔ [4300/4300] Built Hindman168.MaskInvariantAbsorptionDensity (10s)
-Build completed successfully (4300 jobs).

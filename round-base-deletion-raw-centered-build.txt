@@ -1,2 +1,0 @@
-✔ [4301/4301] Built Hindman168.MaskRawCenteredCorrelation (11s)
-Build completed successfully (4301 jobs).

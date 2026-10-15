@@ -1,2 +1,0 @@
-✔ [4275/4275] Built Hindman168.MaskBaseRestrictedMean (10s)
-Build completed successfully (4275 jobs).

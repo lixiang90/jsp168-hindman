@@ -1,3 +1,0 @@
-✔ [5276/5278] Built Hindman168.AlignmentJointArrayNilpotence (8.5s)
-✔ [5277/5278] Built Hindman168 (8.4s)
-Build completed successfully (5278 jobs).

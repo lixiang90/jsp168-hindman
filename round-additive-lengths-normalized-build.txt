@@ -1,2 +1,0 @@
-✔ [4212/4212] Built Hindman168.MaskCopiedNormalizedMoments (7.8s)
-Build completed successfully (4212 jobs).

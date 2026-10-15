@@ -1,4 +1,0 @@
-✔ [4207/4209] Built Hindman168.RootSmoothedAdditiveRows (7.6s)
-✔ [4208/4209] Built Hindman168.RootSmoothedAdditiveResidues (7.5s)
-✔ [4209/4209] Built Hindman168.PolynomialRootSmoothedRows (7.6s)
-Build completed successfully (4209 jobs).

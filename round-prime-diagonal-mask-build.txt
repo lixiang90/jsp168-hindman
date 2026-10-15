@@ -1,9 +1,0 @@
-⚠ [4283/4283] Built Hindman168.MaskRemovalStageDiagonal (7.8s)
-warning: Hindman168/MaskRemovalStageDiagonal.lean:152:41: This simp argument is unused:
-  le_refl
-
-Hint: Omit it from the simp argument list.
-  simp only [mul_zero,̵ ̵l̵e̵_̵r̵e̵f̵l̵]
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-Build completed successfully (4283 jobs).

@@ -1,2 +1,0 @@
-✔ [4318/4318] Built Hindman168.MaskInputSubstitution (10s)
-Build completed successfully (4318 jobs).

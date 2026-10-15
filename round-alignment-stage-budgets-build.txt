@@ -1,4 +1,0 @@
-✔ [5239/5242] Built Hindman168.AlignmentPlanFiniteScales (8.7s)
-✔ [5240/5242] Built Hindman168.AlignmentStageAdvance (8.9s)
-✔ [5241/5242] Built Hindman168 (10s)
-Build completed successfully (5242 jobs).

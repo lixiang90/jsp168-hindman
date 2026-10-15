@@ -43,55 +43,29 @@ then builds and checks the registered declarations' axiom dependencies.
 Fresh logs go in the ignored `verification-local/` directory. A successful
 run verifies this checkpoint; it does not prove the unfinished main theorem.
 
-## Current checkpoint and next step
+## Current status
 
-- `CURRENT-STATUS.txt`: authoritative latest terminal audit and remaining work.
-- `verification-manifest.json`: audited files, SHA-256 hashes and pinned sources.
-- `STANDARD-FACE-HAAR-CONTINUATION.txt`: detailed latest interfaces and next proof step.
-- `SELECTED-CUBE-PROJECTION-CONTINUATION.txt`: preceding exact array/cube projection.
-- `EMPIRICAL-CUBE-INVARIANCE-CONTINUATION.txt`: preceding analytic invariance transfer.
-- `COMMON-POINT-CUBE-CONTINUATION.txt`: preceding common-witness point/cube checkpoint.
-- `CUBE-ALPHA-LIMIT-CONTINUATION.txt`: preceding explicit ordered-limit checkpoint.
-- `ORIGINAL-CUBE-LOCAL-CONTINUATION.txt`: preceding original cube radius law.
-- `CUBE-BOX-HAAR-CONTINUATION.txt`: preceding internal cube Haar checkpoint.
-- `CUBE-SOURCE-CONTINUATION.txt`: preceding actual cube source checkpoint.
-- `CUBE-BINOMIAL-CONTINUATION.txt`: preceding coefficient construction checkpoint.
-- `CUBE-CHARACTER-CONTINUATION.txt`: preceding character construction checkpoint.
-- `AUDIT.txt` and `round-*-review.json`: accumulated mathematical reviews.
-- `Hindman168.lean`: canonical project imports.
-- `Verification.lean`: registered axiom checks.
+The original `StrongConjecture` remains unfinished. Uniform Alignment, the
+finite native model family, and same-step linearization are proved. The full
+upstream Axis inverse closure is being compiled and checked before final assembly.
+See [the current verification overview](verification/README.md) for the single
+current status index and exact validation boundaries.
 
-The latest mathematical round is `round-native-standard-face-haar`; consult
-`CURRENT-STATUS.txt` and the manifest for its terminal audit result. One original
-factorization and one chosen smooth curve now give BOTH point and cube local
-laws, bounded alpha-box laws, continuous point-Haar integrals, and the actual
-global point-mixture weak limit on the SAME subsequence and data. Projected
-cube Haar full support and its measure-to-setwise-symmetry implication are proved.
-
-For a fixed target component family, actual positive-event selection now yields
-projected face Haar invariance on one common original-source subsequence,
-filtration, period and smooth curve. Standard windows and the genuine real
-source are connected exactly; good-condition and local-Haar premises are
-discharged by their actual constructions in the final selected theorem.
-
-The next task assembles all target marginals of ONE full heterogeneous joint
-family, preserving common witnesses, then applies the support bridge and proves
-joint lifts. Full Alignment, the remaining GTZ inverse work and the final
-same-color FS/FP argument are still outstanding.
-
-Continue from the same original source, final subgroup filtration and
-original nilpotency bound. Do not replace the target with a weaker result,
-assume a source/Haar/character/inverse oracle, introduce `sorry` or new
-axioms, or claim the anticipated scalar is a polynomial coefficient before
-proving that identity.
+`Hindman168.lean` and `Verification.lean` are the canonical project and axiom
+entry points. The original snapshot manifest is preserved unchanged.
 
 ## Audit records and provenance
 
-The current author-side evidence remains in `BUILD-EVIDENCE.txt`,
-`round-native-standard-face-haar-axioms.txt`, and the latest round's review
-and result records. The immediately preceding
-`round-native-selected-cube-projection-axioms.txt` is retained because the
-current round audit compares against it.
+Original baseline build/audit records and mathematical reviews are retained.
+The current verification overview above distinguishes those records from the
+new focused source and kernel checks.
+
+3,963 superseded generated build logs, execution results, and manifest copies
+were removed from the working tree. They remain recoverable from
+[the pre-cleanup commit](https://github.com/lixiang90/jsp168-hindman/tree/5dc91a1deaf73720b421f672009565e18f4e6dfa)
+with `git show 5dc91a1deaf73720b421f672009565e18f4e6dfa:PATH`.
+Proof sources, licenses, current verification, and all original 3,059 manifest
+entries are unchanged by this cleanup.
 
 467 superseded `round-*-axioms.txt` output logs (300,418,280 bytes) have been
 removed from the working tree. They contain repeated registered axiom reports,

@@ -1,2 +1,0 @@
-✔ [4115/4115] Built Hindman168.MasterPrimeInsertionVariance (11s)
-Build completed successfully (4115 jobs).

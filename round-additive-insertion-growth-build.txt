@@ -1,2 +1,0 @@
-✔ [4077/4077] Built Hindman168.MasterPolynomialTranslationGrowth (7.7s)
-Build completed successfully (4077 jobs).

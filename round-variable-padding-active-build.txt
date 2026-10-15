@@ -1,3 +1,0 @@
-✔ [4086/4087] Built Hindman168.VariableReplicaCubes (12s)
-✔ [4087/4087] Built Hindman168.VariableCubePadding (12s)
-Build completed successfully (4087 jobs).

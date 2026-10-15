@@ -1,2 +1,0 @@
-✔ [4038/4038] Built Hindman168.PredictionCopiedCancellation (7.6s)
-Build completed successfully (4038 jobs).

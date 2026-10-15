@@ -1,2 +1,0 @@
-✔ [4222/4222] Built Hindman168.MaskRootSmoothedArithmetic (7.5s)
-Build completed successfully (4222 jobs).

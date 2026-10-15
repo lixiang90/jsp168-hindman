@@ -1,2 +1,0 @@
-✔ [4328/4328] Built Hindman168.MaskFiniteElimination (10s)
-Build completed successfully (4328 jobs).

@@ -1,2 +1,0 @@
-✔ [3957/3957] Built Hindman168.VariableHarmonicRows (7.7s)
-Build completed successfully (3957 jobs).

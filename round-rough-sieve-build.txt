@@ -1,5 +1,0 @@
-✔ [3812/3816] Built Hindman168.UnequalDyadicPrimeZeros (10s)
-✔ [3813/3816] Built Hindman168.PrimeResidueAtomBounds (10s)
-✔ [3814/3816] Built Hindman168.PrimePolynomialResidues (9.0s)
-✔ [3815/3816] Built Hindman168 (9.3s)
-Build completed successfully (3816 jobs).

@@ -1,3 +1,0 @@
-✔ [4502/4504] Built Hindman168.UnitriangularDepthLattice (9.3s)
-✔ [4503/4504] Built Hindman168 (63s)
-Build completed successfully (4504 jobs).
