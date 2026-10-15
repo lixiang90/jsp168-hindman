@@ -2,7 +2,7 @@
 
 This directory tracks the current verified portion of the pinned official
 OpenAI inverse proof. It is updated in place as the complete closure advances.
-The current dependency-closed set contains 704 OAI modules and 16,668 declarations.
+The current dependency-closed set contains 1042 OAI modules and 20,689 declarations.
 Strict source checks succeeded with `autoImplicit=false`; a unified kernel/axiom
 check with `--trust=0` accepted only `propext`, `Classical.choice`, and `Quot.sound`.
 The source and compiled-artifact hashes stayed unchanged across that check.
