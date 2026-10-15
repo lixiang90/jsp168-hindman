@@ -1,0 +1,15 @@
+{
+  "base_commit": "af00f04161d04ac4afcaf50a9e1dd9bcb38e95b3",
+  "sources": {
+    "Hindman168/OriginalFiberMetricCompact.lean": "3a3e86d9e0b348841fd7111e66d5c3226a07a855da4660b20d0fdc1a183c9f25"
+  },
+  "source_compilation_exit_code": 0,
+  "axiom_audit_exit_code": 0,
+  "audited_declarations": 2,
+  "trust_level": 0,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

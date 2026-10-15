@@ -1,0 +1,3 @@
+AUDIT Hindman168.OriginalFiberMetric.local_lower_of_open_parameterization: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.exists_antilipschitz_of_compact_local: [propext, Classical.choice, Quot.sound]
+AUDIT COMPLETE: 2 declarations; only standard axioms
