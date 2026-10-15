@@ -1,0 +1,22 @@
+{
+  "base_commit": "cec91d6971eea09f5ec9d4c66a80c7cbbb355069",
+  "lean": "4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "scope": "Numerical choices and exact mean normalization; StrongConjecture still incomplete",
+  "sources": {
+    "Hindman168/OriginalInverseNormalizationNumerics.lean": "56cc60a9bd13142e6378d045ec07eac7e2ba3e6c97d6b6e0e9a12c162816693a",
+    "Hindman168/OriginalInverseNormalizationMean.lean": "e98485417356c2edb3c887c8e13cb104577f0d18338b8b5bf9d1a98bb7a0b5fc"
+  },
+  "verification": {
+    "source_compilation_exit_code": 0,
+    "axiom_audit_exit_code": 0,
+    "audited_declarations": 33,
+    "trust_level": 0,
+    "autoImplicit": false,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}
