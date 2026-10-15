@@ -1,0 +1,24 @@
+{
+  "base_commit": "1487aabb3ca4267aa69e8265e2fa66842610e183",
+  "lean": "4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "scope": "Auxiliary algebraic orbit, Hadamard/Taylor identities, and metric extension. Same-step geometric realization and finite native menu remain incomplete.",
+  "sources": {
+    "Hindman168/OriginalSameStepLinearizationOrbit.lean": "421fa07fb4ae6971a0330fe24c3f4db593dd60704a33d6636aab759199fb4cae",
+    "Hindman168/OriginalSameStepLinearizationConjugation.lean": "3d0da6a6fe6bea348cc1122910bba1462d0ff7b70654626df3bd8886e9f90517",
+    "Hindman168/OriginalSameStepLinearizationTaylor.lean": "e9ec3d1bac9d0e7c2325aad2440d7007b5bc522be3a0fc2b40039fe162c18318",
+    "Hindman168/OriginalFiberMetricExtension.lean": "f90cdf75fa6cefe987e897793c7e24f614331376c385764a665e7d4cd86198e8"
+  },
+  "verification": {
+    "source_compilation": "All four exact source hashes compiled successfully by their proof authors",
+    "axiom_audit_exit_code": 0,
+    "audited_declarations": 128,
+    "trust_level": 0,
+    "autoImplicit": false,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}

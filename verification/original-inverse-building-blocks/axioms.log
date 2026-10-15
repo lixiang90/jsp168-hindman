@@ -1,0 +1,161 @@
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.orbitHom_left: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupLeftStep._proof_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.rightDifference: [propext]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.based_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.orbitHom: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.step_zpow: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.leftDifference.eq_1: [propext]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation._proof_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.realizationMap: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.realizationMap._proof_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation._proof_4: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.leftDifference: [propext]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroup_based_observable_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.orbitHom._proof_2: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupBasepoint: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.step_eq_orbitHom: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translationAction._proof_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translation._proof_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.ShiftExtension: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.step_zpow_right: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.normalize: [propext]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation._proof_6: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslationAction: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.read_zpow_at: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translation_apply: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.realizationMap_left: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation._proof_8: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.abstract_based_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translationAction._proof_2: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.abstract_read_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.orbitHom._proof_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.rightDifference.eq_1: [propext]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroup_observable_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translation.eq_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation.congr_simp: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupStep_zpow_left: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.normalize_zero: [propext]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslationAction_apply: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroup_based_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.realizationMap_right: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.abstract_step_zpow_left: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroup_left_read_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.basepoint: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupLeftStep: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translationAction_apply: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.rightDifference_apply: [propext]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslationAction._proof_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.rightDifference_inv: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.normalize.eq_1: [propext]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupStep: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translation._proof_2: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translation._proof_3: []
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.SubgroupShiftExtension: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation._proof_5: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.rightDifference_normalize: [propext]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.orbitHom_right: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.observable_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroup_left_observable_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.read_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation._proof_2: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation._proof_3: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translation: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.step_zpow_left: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.step: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.translationAction: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation_apply: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslation._proof_7: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroup_read_orbit: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationOrbit.subgroupTranslationAction._proof_2: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.nilpotent_ad: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.ad_pow_mem_layer: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.ad_pow_succ_eq_zero: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.filtered_BCH_conjugation: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.map_ad_pow: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.adjointSum.eq_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.adjointSum_tmul: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.adjointSum: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.adjointSum_zero: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.OriginalSameStepLinearizationConjugation.0.Hindman168.OriginalSameStepLinearizationConjugation.exp_mulRight_apply: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.adjointSum_baseChange: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.OriginalSameStepLinearizationConjugation.0.Hindman168.OriginalSameStepLinearizationConjugation.nilpotent_mulRight: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.ad_pow_step_apply_eq_zero: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.ad_pow_step_apply_eq_zero._simp_1_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.adjointSum_add: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.expConjugationHom._proof_2: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.expConjugationHom._proof_3: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.expConjugationHom: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.exp_ad_eq_adjointSum: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.OriginalSameStepLinearizationConjugation.0.Hindman168.OriginalSameStepLinearizationConjugation.nilpotent_mulLeft: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.nilpotentBCH_conjugation: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.lieBCH_conjugation_eq_adjointSum: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.ad_pow_tmul: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.adjointSum._proof_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.ad_pow_succ_eq_zero._simp_1_1: [propext, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.adjointSum._proof_2: [propext, Classical.choice, Quot.sound]
+AUDIT _private.Hindman168.OriginalSameStepLinearizationConjugation.0.Hindman168.OriginalSameStepLinearizationConjugation.exp_mulLeft_apply: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.conjugation_coord: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.exp_ad_eq_conjugation: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.map_adjointSum: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.expConjugationHom._proof_1: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearizationConjugation.expConjugationHom._proof_4: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.polynomialTranslate_eq_sum_range: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.exists_tensorTaylor._proof_1_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.tensorTaylor_of_nilpotent._simp_1_1: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.scalarDirectionalDerivative_neg_direction: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.tensorTaylor_of_nilpotent: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.positiveTranslationPath_iterate_derivative: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.positiveTranslationPath_derivative: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.rTensor_pow_tmul: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.exists_tensorTaylor: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalSameStepLinearization.positiveTranslationPath_coeff: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.extend_unit_complex: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_dist_le_of_norm_le._simp_1_5: [propext]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_dist_le_of_norm_le._simp_1_3: [propext]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_dist_le_of_norm_le._simp_1_8: [propext]
+AUDIT Hindman168.OriginalFiberMetric.radialClip.eq_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_lipschitz: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_dist_le_of_norm_le: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_dist_le_of_norm_le._simp_1_7: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_dist_le_of_norm_le._simp_1_2: [propext]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_dist_le_of_norm_le._simp_1_6: [propext]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_dist_le_of_norm_le._abel_1_1: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_dist_le_of_norm_le._simp_1_4: [propext]
+AUDIT Hindman168.OriginalFiberMetric.radialClip: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_norm_le: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.extend_observable: [propext, Classical.choice, Quot.sound]
+AUDIT Hindman168.OriginalFiberMetric.radialClip_eq_self: [propext, Classical.choice, Quot.sound]
+AUDIT COMPLETE: 128 declarations; only standard axioms
