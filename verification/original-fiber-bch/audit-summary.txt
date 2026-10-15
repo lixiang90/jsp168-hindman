@@ -1,0 +1,2 @@
+Upstream closure: 296 modules, 7667 declarations; trust=0 audit exit 0, only propext/Classical.choice/Quot.sound.
+New BCH metric bridge: 6 declarations; trust=0 audit exit 0, same allowlist.
