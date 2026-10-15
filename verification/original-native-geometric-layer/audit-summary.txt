@@ -1,0 +1,7 @@
+Strict source compilation: exit 0, autoImplicit=false.
+Main-repository imports only; no scratch modules.
+AUDIT COMPLETE: 553 modules; 14338 declarations; only standard axioms
+Allowed: propext, Classical.choice, Quot.sound.
+Audit exit: 0; --trust=0 -DautoImplicit=false.
+Source SHA-256 checked unchanged before and after audit.
+No full AxisCompression or canonical StrongConjecture replay is claimed.

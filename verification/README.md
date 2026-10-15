@@ -93,8 +93,11 @@ The [same-step algebraic layer](original-same-step-algebra/README.md) now proves
 an actual step-s Lie filtration, finite Taylor translation, BCH time identities,
 and exact based-orbit recovery for all integer times with real polynomial
 inputs. Its 17 local modules and 312-module official import closure have focused
-source and axiom checks. Compact lattice realizations and uniform quotient
-metric/Lipschitz bounds are still needed for the final finite native family.
+source and axiom checks. The [native geometric layer](original-native-geometric-layer/README.md)
+now supplies the genuine finite native family, compact same-step linear
+models, and uniform bounds on their actual quotient metrics. Its twelve new
+modules and complete official closure passed a 553-module/14,338-declaration audit.
+The analytic inverse closure and final canonical assembly remain open.
 
 The [inverse normalization layer](original-inverse-normalization/README.md) now
 includes exact supported-cube/periodic Gowers transport and positive-norm

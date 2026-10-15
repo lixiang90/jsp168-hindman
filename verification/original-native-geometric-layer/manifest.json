@@ -1,0 +1,2429 @@
+{
+  "parent_checkpoint": "fe4645f9f9a5dcb50c87ef5e172ef488a5ebf78a",
+  "lean": "4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "official_source": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean",
+  "scope": "Finite bounded native models and same-step linearization with genuine compact quotient metrics; not the full inverse or StrongConjecture",
+  "new_local_sources": {
+    "Hindman168/OriginalBoundedNativeModels.lean": "dee0a67faf33dd84b9e4fe62069ac3870488fe3c3f2667b34ac04e137bd353d1",
+    "Hindman168/OriginalBoundedNativeModelsMetric.lean": "8896d28f36f252acb6f16dd3bf046a25296ab5a88c362ddda06bbf2560cf55ae",
+    "Hindman168/OriginalBoundedNativeModelsFiltered.lean": "f10a9d375619080e307d7a9e91a082a333fe1923bc891eee3d0c5b46ff3ed149",
+    "Hindman168/OriginalBoundedNativeModelsMenu.lean": "b33955b57a4ca29dcb446281038fdab67290d962a2a41846ae1b067dfee7ab39",
+    "Hindman168/OriginalBoundedNativeModelsNonempty.lean": "64aa3bdfefb7b8b5b9449b49fc85d7c3f7b003daca2a56f13db06116423192be",
+    "Hindman168/OriginalBoundedNativeModelsLinearMenu.lean": "f798a3ea816272e9e7d4f8b1c55102a7fcf70961fbdaf4d1e8bc747debbad88b",
+    "Hindman168/OriginalSameStepLinearizationGeometry.lean": "742624d48cff22cc5cc31474038bf7b87bfcc48b3997e5315dbaf0c3dce56950",
+    "Hindman168/OriginalSameStepLinearizationModelOrbit.lean": "45f79acf35888736a00206344c8b36afd76a690c1f4d4e0261800bd1e61a5de6",
+    "Hindman168/OriginalSameStepLinearizationInput.lean": "7a68746d89ba865650fc3270ebeb75c90ba351fba43604a78d95f0b88dd6bfdc",
+    "Hindman168/OriginalSameStepLinearizationObservable.lean": "9a767939975d474c165e1e60549aafce5b43af85cb854b4c07ce3e3e6fefe7fe",
+    "Hindman168/OriginalSameStepLinearizationNative.lean": "34f1ce0a6e026aff7e6697935c9e942ff304b2edf1d970fc0e466cdfbaf3ff53",
+    "Hindman168/OriginalFiberMetricRational.lean": "a6fecfdb34e47f674cd4bee9f6a9d3c8b5ee98e68cc3cb35635e3b343fd3a75f"
+  },
+  "existing_helper_sources": {
+    "Hindman168/BoundedRationalModelCodes.lean": "255fad6c010b2d5b7526de53cc7de2f991e53dc8ecfe93a161cf58c8e4f3bc23"
+  },
+  "official_import_closure": {
+    "OAI.Combinatorics.Progressions.Compatibility.TensorInduction": {
+      "path": "OAI/Combinatorics/Progressions/Compatibility/TensorInduction.lean",
+      "sha256": "5e75b3d5a3badb6c65be01e1c2d509cca4939a92ab14ff5ae5b92643ec461fa6"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.CandidateFrontSourceLossBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/CandidateFrontSourceLossBudget.lean",
+      "sha256": "7619fa9e6b59139389e544f1f239241b2db3d62c53244a242fa6966ef73f3557"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.ConjugationDenominatorBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/ConjugationDenominatorBudget.lean",
+      "sha256": "aa0f24c43e3388649b14599ad09f171677b403408ffe1f507c66e8038397e96f"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.DenseProductPowerBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/DenseProductPowerBudget.lean",
+      "sha256": "250891f5aa634e1ef4ecc59089ade64b794f106b37856a10323287c4ccd0ed86"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.ModularDecayBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/ModularDecayBudget.lean",
+      "sha256": "f608a4c91eab775599551b7fa90a236178ebb32da9a67c4f8814833ac970b7ca"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.MultiaffineBiasBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/MultiaffineBiasBudget.lean",
+      "sha256": "a557bdb8a8481c976940e5e31a268c881b98bbc9b22399f9130a87aa97782c64"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.NativeHorizontalLiftBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/NativeHorizontalLiftBudget.lean",
+      "sha256": "bf609c8dfce7c5901d466f536eafa53d2d37b70446117648e6327ce171040356"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.PivotDeterminantBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/PivotDeterminantBudget.lean",
+      "sha256": "aead666a656b0dc7cee547828f09256964d2fa4fa46624c66397d1aa33d56958"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.ProductCutoffBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/ProductCutoffBudget.lean",
+      "sha256": "41ded4bfa50bd2e8fc5826916553836187386f20add4c9d428750c8571b1c911"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.RationalHeightBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/RationalHeightBudget.lean",
+      "sha256": "71d4db45c4e287e913df31891374a620883827187c5ed6a33aca12a9845e0d58"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.RationalLieQuotientBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/RationalLieQuotientBudget.lean",
+      "sha256": "14cadc57a3392b88bb1da37da430e26eda98e8e762ae170b73e61ce584701d6a"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.ReconstructionBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/ReconstructionBudget.lean",
+      "sha256": "2850f2423ea4fd3dc467b4a4e808f3afda13684bc963329e830303a06c45c214"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.ScalarCubeBoundaryLogBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/ScalarCubeBoundaryLogBudget.lean",
+      "sha256": "3fce8136eaa2757b6c1e8d2ff0f2b69f389387fd2039ef9a124203fb01735673"
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.SlicedProductBudget": {
+      "path": "OAI/Combinatorics/Progressions/Dynamics/SlicedProductBudget.lean",
+      "sha256": "48ff8b7d4a4f3a04caea408772583fee0a71a5e9d12f2ac619456475391876ac"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.AdaptedTranslation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/AdaptedTranslation.lean",
+      "sha256": "85806f6db9ce2730c8117991d03bf7f12edaf09ece5d2476ce48abd80a52de6c"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.AmbientImageExtension": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/AmbientImageExtension.lean",
+      "sha256": "09627a1047f98c067ff71d3365a0dcc8a3d5ebc3bf888b8c71057aca0f146e61"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.AnnihilatorIntervalBound": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/AnnihilatorIntervalBound.lean",
+      "sha256": "b833ca553a3b55e04ba40af9f9a1600ae9291d4cc010b083c767c37fa8f8ad40"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BlockSubsetCount": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BlockSubsetCount.lean",
+      "sha256": "64dc2085059aac3601f9ae61581394c9cfe5cc833b960a74397071d407f39861"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BooleanCubeModeWitness": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BooleanCubeModeWitness.lean",
+      "sha256": "3afdba297caaad8b3786c5b7651bc8920d827e7552d978cc1e64438f1ad309fe"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BooleanCubeProduct": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BooleanCubeProduct.lean",
+      "sha256": "104859345e1f5d536663b172e108933501074ff87cffd193da6ae1f02fd19f27"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BooleanMinorDimension": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BooleanMinorDimension.lean",
+      "sha256": "6226bc83174d9c4e137fcb2dfa2c7d831a3c8d3d1d3950ec238a3ed1c463075f"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BooleanSelectedDerivativeBound": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BooleanSelectedDerivativeBound.lean",
+      "sha256": "4e3c8e039046ac8524edc15c6fdb5b56c2abf48da0bcffb38f45a4271321e06f"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BoundedFreeWords": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BoundedFreeWords.lean",
+      "sha256": "601c20cf0e25e9898ea75c751060cb8d0bd0c8e33180ac5bd71c5e766f91ee72"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BoundedInequalityGoodCutoff": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BoundedInequalityGoodCutoff.lean",
+      "sha256": "0360fb6ed77c1279c9222b155a82711de08ebe1128852122955a532c7e55698c"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BoundedProductDifference": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BoundedProductDifference.lean",
+      "sha256": "fc60a2d89ba4f2e0be87b82f58499e4a9da82d0fd4e8ca0e06225b9fd62cfa31"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BoundedRightInverseMinor": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BoundedRightInverseMinor.lean",
+      "sha256": "928f63c0aca51e376a44f2b37372fd8c3596c1b8b0d3e51d25eb91e808749fb4"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.BufferedSiteExpansion": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/BufferedSiteExpansion.lean",
+      "sha256": "b67435ffad284c3b94c31d81e920a32559e73f55e7a70ce22e502dfa6aa12b00"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CircleFejerAverage": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CircleFejerAverage.lean",
+      "sha256": "4c7b52b409a4190bb0472ec9ec1c5f69ab8d5eba2f7ad2d4ef4dee98652260ac"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CoefficientNormalization": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CoefficientNormalization.lean",
+      "sha256": "a5067188a5c647b7e2d51083917115066e98c49b3c28e7514e286a36bfc2d9e7"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CoefficientRowReindex": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CoefficientRowReindex.lean",
+      "sha256": "d84f20509c6b6fd266070955e18e5e41aa82937a756614bafc70ce5960eac7ac"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CoefficientTailScaling": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CoefficientTailScaling.lean",
+      "sha256": "0781ce59dfc15c7b6927fb9b85eb1f4d8e709cd76ade4f2a1be631aef0b5549a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CommonDenominatorMultiples": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CommonDenominatorMultiples.lean",
+      "sha256": "094f3f86f86564467c65e0b0099d9588677856e73ea8349e95bd4d3eacc093a9"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CompactIntervalIntegral": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CompactIntervalIntegral.lean",
+      "sha256": "2bb315cb252ad29bf29ce4a87dbbc96be970e75f169818bf0946648c042d40a7"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CompactSmoothApproximation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CompactSmoothApproximation.lean",
+      "sha256": "489807cc0a19ae905beb7e4590a3ef914e71ede5ff7cf371e1fa3843f5c020cb"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ComplexFiniteMeans": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ComplexFiniteMeans.lean",
+      "sha256": "a01ccbf325a9d6637d5236a6a59a3aea324b2db73fa14afaae1f8c70f18ce632"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ContinuousCosetMap": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ContinuousCosetMap.lean",
+      "sha256": "ea838e6b6257ea05db57760566775663ca04cf8537ef5960ba82a4b181155519"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ControlledSurjectiveReconstruction": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ControlledSurjectiveReconstruction.lean",
+      "sha256": "caf8246aea573c0252e23a475338742c1d200b4a96653de845fc7a060a776346"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CorrelationDerivative": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CorrelationDerivative.lean",
+      "sha256": "85d9a011048e07fbede57add8deca5ab3e32af2365067d2e38b022312bde96ca"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CubeTranslation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CubeTranslation.lean",
+      "sha256": "e681dd5606fce8fb32c6768dbfd39f7cb70d8032bdc5cc35bcc45bf22dde84ed"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CutoffImageTest": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CutoffImageTest.lean",
+      "sha256": "0185413cddee08ff364b65fbd156a053772c05821c41c0d93732535deea8c647"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CyclicCutNeighborhood": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CyclicCutNeighborhood.lean",
+      "sha256": "b48994bf7f369c22a203046bbe44257a009910c4a2ecedca6c2189fea40530b4"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.CyclicShortShiftSet": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/CyclicShortShiftSet.lean",
+      "sha256": "f171e121f9856e965277a597f1fc5ff2576a401e2cc18baa7224757db2299249"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.DenseCorrelationPairs": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/DenseCorrelationPairs.lean",
+      "sha256": "bb3dea77a001aef4eb1c8cab185801f1c4310d94512ad68ae5ffa3854b4acceb"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.DenseProductApproximation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/DenseProductApproximation.lean",
+      "sha256": "69d54befad442a6cfae6d7fdb61f6f2a660116cd36984e400b668b4a9b0f3ca8"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.DependentPatchValue": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/DependentPatchValue.lean",
+      "sha256": "7447515c180e1b9dbd64251bea3e1f2914411ebc4a90d0b7064065eb015d3e20"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.DeterminantCutoffScale": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/DeterminantCutoffScale.lean",
+      "sha256": "5aeae5fe1ba1aea03b7788193c7f446cab76dc18849796781b0df39bfccf3dd3"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.DilationPairFiltration": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/DilationPairFiltration.lean",
+      "sha256": "104534da88d106046757cd2dacf8d254d4b559097920673bcaf841643f3c8027"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.DiscreteMinorThreshold": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/DiscreteMinorThreshold.lean",
+      "sha256": "f9d09b0c2133bbbc85de293e444c2e599bb2113f65aab4f392b5700e28c2d6f0"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.DynkinTrees": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/DynkinTrees.lean",
+      "sha256": "27e91ce7a2820cd6a0e17ba680588a5dcd97b28d9598187b94424bd7e415a9c2"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.EmbeddedFiniteConditioning": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/EmbeddedFiniteConditioning.lean",
+      "sha256": "d0fee9fb08394ceb161efe13324a9a701ac65d9ee9466c242ad70067fc77e1d6"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.EuclideanBisectorNull": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/EuclideanBisectorNull.lean",
+      "sha256": "b453f74b31b1e84884e7120ad4eb3300baaac0edac41e053faaba1e3c3b43cb5"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FactoredC2Difference": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FactoredC2Difference.lean",
+      "sha256": "09896a052e00088c39d5c7d4e60dc136d2fde2bbabcd5dae48bdc45e3f01c293"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FilteredLieTree": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FilteredLieTree.lean",
+      "sha256": "adbfc925911fd04d5f2888b9cd88ac4f061e41eb9226c2d3ee5c39b2331993d4"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FiniteConvolution": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteConvolution.lean",
+      "sha256": "bfe5d1dd9c3344872a3b39a75685cca68350614147ed1689408e1239c868978a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FiniteEventUnion": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteEventUnion.lean",
+      "sha256": "b3f337ad5d3e9ce332f19b4424ebe6442b33eaa9224f8dd3aec2e8a8d3c04b34"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FiniteFiberTest": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteFiberTest.lean",
+      "sha256": "b8ebbd7c677e26f0b8fb114e4cf74c41da640ed27af3919ceba834be8ee19036"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FiniteFiberVolumeBound": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteFiberVolumeBound.lean",
+      "sha256": "7de55d55538547ac31d78279ae18898e9b1fb46d6906d5fe7d9c063b7191cf45"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FiniteInversePerturbation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteInversePerturbation.lean",
+      "sha256": "e41bc37321f21af790a52d4ec35a3fdf33d8da8a6804eb3e51650b80ba25d844"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FiniteProductDomination": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteProductDomination.lean",
+      "sha256": "925a396f67e0e16cc927d13a615d42b75ef7fa691a232f73743ee3832830e627"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FiniteProductImageDecay": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteProductImageDecay.lean",
+      "sha256": "123fafc3afbda67912bcad393bf7589d8ad3bf2dd615477c6f3d7c302efa3ae7"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FiniteReciprocalTenthTail": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteReciprocalTenthTail.lean",
+      "sha256": "4c0a3b9df54eaf94392799875d5360de76b17e0c04d2056d94984fd52126e5e9"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FiniteSeriesCoefficientBounds": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FiniteSeriesCoefficientBounds.lean",
+      "sha256": "55fb434e840f40426d415fee2b4f95955f94688b62093e017c96f814b54bc7ee"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FixedPartnerPower": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FixedPartnerPower.lean",
+      "sha256": "3a7667cc295327549d3b56b38a41e52fa9c5de2fdaf15f4bbf403b003cd62e42"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FlatWeightedComparison": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FlatWeightedComparison.lean",
+      "sha256": "b7cf2e66bd0c6d4800d44075a1bdee4d34cb0786deb11dbf20301f3bd2474d78"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FormalExpLog": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FormalExpLog.lean",
+      "sha256": "227c2b2f5bb00f978fd78560cb5a4618970d8a072686ca5ed83b520c044f94df"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FourBalancedRelations": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FourBalancedRelations.lean",
+      "sha256": "7b8445b119e5b3f30deaa2ef4e57137d32afe2c8bc075ae4c9aca9d10be55992"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FourProductSmoothing": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FourProductSmoothing.lean",
+      "sha256": "527c4ba439b2a856503f88035f6cbfad49bf7e10658745f03b2818c8cbc255d4"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FourSlicedProductSmoothing": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FourSlicedProductSmoothing.lean",
+      "sha256": "72bbe00a40b5a2d3955e6b9a14f9a78692a8a2c161d4bd3d50907300aa9f6df1"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FreeLieTreeCoefficientBounds": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FreeLieTreeCoefficientBounds.lean",
+      "sha256": "7dfa6f9b8042e68f9c744d936f2b1222b7e7dc44f707dd225128c0e79e2f92a7"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FreePrimitiveCriterion": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FreePrimitiveCriterion.lean",
+      "sha256": "c68fd8da20b72d71db68de03719664f87ff9b8f3ac1fb75fd3be632ed416c62f"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.FrozenCosetVariation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/FrozenCosetVariation.lean",
+      "sha256": "020cf36c38414e981d451ade0dab37e20c46aa79e1b9a2e036c7fe1a2f71f056"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.GowersWeightedDerivative": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/GowersWeightedDerivative.lean",
+      "sha256": "78c07d09d52e5fbcf49f1968ad1c0ccea0efcd43347387927097c85e1c291c2b"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.GroupReductionFactors": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/GroupReductionFactors.lean",
+      "sha256": "9534c1b20d10c36e9c5f2fda1eed64653d8f3ff5db0491e5ce36b7628ac0b0e3"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ImageCosetReconstruction": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ImageCosetReconstruction.lean",
+      "sha256": "92743dd1bdc0101d550f140d8f605a53ebdadf24e26425ffe286f27cb6bb40ad"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ImageRepresentatives": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ImageRepresentatives.lean",
+      "sha256": "03949393743bbe9c7df04716f7d8b87ac9cec0c947a94ae4d51acd3e02bbd5c9"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.IndependentFiniteConditioning": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/IndependentFiniteConditioning.lean",
+      "sha256": "62e43c341d3a8f4bc85a4003fdc0a9203ebf23cbe3e3ee106fb9768475cb7f29"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.InverseSqrtMoment": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/InverseSqrtMoment.lean",
+      "sha256": "8183253efc845aa7b57e32e2cc849d11f0b417af01e12df807702e4c15a625c0"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.JointBooleanGoodWeight": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/JointBooleanGoodWeight.lean",
+      "sha256": "adc330600f03843044761c34f5c07da9781d827ebfa5021046f270455dcbdaec"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LargeCokernelReciprocalBound": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LargeCokernelReciprocalBound.lean",
+      "sha256": "7d951b7fc9d987dc7bdb78afa730f76c77d4cc700ff12c892fc804ac0a12adb9"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LieFiniteProduct": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LieFiniteProduct.lean",
+      "sha256": "507517d393b4f107fbbbb8073a50c8ca374979e2909ccf781ecc055dfd261790"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LieTreeMultidegree": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LieTreeMultidegree.lean",
+      "sha256": "bdcaf44ce0139200f1df2854170f5b2e5bc97fb91dd051d3c1d11d6ea33046c1"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LinearCoefficientMap": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LinearCoefficientMap.lean",
+      "sha256": "25c4b33fb7748e390165d2a8cff6ad87a7a15bc48bf8f357d025a033c78f55a8"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LipschitzExtensionAlongMap": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LipschitzExtensionAlongMap.lean",
+      "sha256": "62e270289fa875f71391289d1ef83c3f7410b14e40d0dd2cce938a8239805f5a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LipschitzLocalLifts": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LipschitzLocalLifts.lean",
+      "sha256": "7d3a46322c61b27366f7bc13ba129d8afd53b04790302fb8cce774b1e34825fc"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LocalAverageAmplitude": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LocalAverageAmplitude.lean",
+      "sha256": "6e1c407b79098b74c9251c47a9147823a2945b74a545beaab59d23d20ee89d86"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LocalImageComparison": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LocalImageComparison.lean",
+      "sha256": "4527bbaa862b6ad52c166a376deb6fb5b4915e5091b8517cb3c716f338c5071c"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LocalProductContinuity": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LocalProductContinuity.lean",
+      "sha256": "60fc4cb0a157bfb0a2e4c48b959d1974cd08987576bed0457e4e70c9c359395a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.LowerStepSquare": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/LowerStepSquare.lean",
+      "sha256": "53c949d689ebafbc3ecde8b10d114651c7b6582057a04d8216de3e0c2472dad5"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ModularTagGap": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ModularTagGap.lean",
+      "sha256": "694563dc0cb22f843c751a8e0099c1865bdb0b17e908dffe6aaa97d5c88aa6f1"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.MultiaffineBias": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/MultiaffineBias.lean",
+      "sha256": "0d68670e9ceb9f7fb395bd22109be499bda30023ee5031d55f2625cda06b665a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.MultiaffineExpansion": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/MultiaffineExpansion.lean",
+      "sha256": "df1d6259e81d407225db73d2981c7a4d112123711228b44195caabab0644e4ec"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.MultiaffineOptionExpansion": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/MultiaffineOptionExpansion.lean",
+      "sha256": "821a06631fcdea69014f8c8a4676203e7203aa972d89a3e2cc14fbc9a843077a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.MultidegreeDilationPair": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/MultidegreeDilationPair.lean",
+      "sha256": "88d37825a70fbc58b9b7c25dcd24ce2e8618fc5a7353b5a237509d1db4f39401"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.MultilinearFirstOrder": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/MultilinearFirstOrder.lean",
+      "sha256": "e3325c8da60f6cfba54146f45e2858597ae91e40112af72a18f6820356f147f0"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.NativeModelOrbit": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/NativeModelOrbit.lean",
+      "sha256": "4af94eec26f13964b11da72d1396eb34aff9afb3ab7572ee78ea3e2b7c5412d7"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.NormalizedCutoffs": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/NormalizedCutoffs.lean",
+      "sha256": "0ead9bd6666e261a859efc83b03a1e44e5ba38dd72e195453d6b55d3a9d163fc"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.NormalizedImageMask": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/NormalizedImageMask.lean",
+      "sha256": "27b42a420f95b41ac268aec2e4eca701bfce65ea10fc0345d4373f0d6a4f4ff8"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.NormalizedIntervalWindow": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/NormalizedIntervalWindow.lean",
+      "sha256": "c39592f7c63c9e48ad3e5bcf19072bee86a0f2073afe78bbd520bc23ef16fb42"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.NormalizedJetColumns": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/NormalizedJetColumns.lean",
+      "sha256": "3944144747a5e9bc9018ec68c67322a7ae7e02a79f4ad0d11218598393feeefe"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.NormalizedSampledHistogram": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/NormalizedSampledHistogram.lean",
+      "sha256": "d1de9a22b7feb0a86614c95b5b8ab54fa8a0da0c10be0b132af482e027358bbd"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.OrbitBasepointNormalization": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/OrbitBasepointNormalization.lean",
+      "sha256": "9885969b7312b48e09f6a4db32e147bd9f9de22dc5db1eb2ff4e859e3f98d1d9"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PaddedBooleanFeatures": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PaddedBooleanFeatures.lean",
+      "sha256": "ca3fb5e41c18c0d675e474aebbb9e545dd4f1510eeb717e56d24b145e1390f3d"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PartialComplexScaledQuadrature": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PartialComplexScaledQuadrature.lean",
+      "sha256": "7881ed22461f53fb3ec2f61b62267a1cf06d7d91e966c8a43b84689fe01ae44d"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PeelingDecomposition": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PeelingDecomposition.lean",
+      "sha256": "3227d11dd315393e7d937a4d2c962a87a3992859991f79c72ac38b12c3431ad5"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PeriodicIsometricAction": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PeriodicIsometricAction.lean",
+      "sha256": "1840ca8f960e46428caf4bf7703757bee2bbc89be098163779c1a2ef230985f8"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PetalComparisonTree": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PetalComparisonTree.lean",
+      "sha256": "170ba74fec252cfa932590b3e2b7725788a101c9560aae6e6516b1bc15d8285b"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PhysicalSliceCost": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PhysicalSliceCost.lean",
+      "sha256": "98027bbf21fc276b7ef1e7b5de85841d8d3148b35a5e69fc669320ed65f26a3a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PivotJacobianBound": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PivotJacobianBound.lean",
+      "sha256": "005ab919623cf30943d74fed1749c6632a7403da4a7b96753702622777ed07ba"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PivotOutputLipschitz": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PivotOutputLipschitz.lean",
+      "sha256": "98f06201190abf9c33a31923fb56c54712af6b798b0c3b824f872afd732a340b"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PointwiseNormalization": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PointwiseNormalization.lean",
+      "sha256": "80c1bc8fcfa0d48fcc8c01566523a508fd603be24c2645fb273ea80279b3312a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PowerIndexFromOrderedGenerators": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PowerIndexFromOrderedGenerators.lean",
+      "sha256": "0e9d6a6522ec36e5fc199ce4c797624d9e082b69e726ac7907250f6d6a70ee58"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PowerSubgroup": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PowerSubgroup.lean",
+      "sha256": "b54ceb2a82226f5b66c46180c4c8cca78e3cb4e0a2c28b009ff125fc62ca7beb"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PrimitiveExtension": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PrimitiveExtension.lean",
+      "sha256": "6e2c6259e6de4604a4144732bb7e455ab017dc0a9cc5ea7488316e445498103f"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PrincipalBlockExponent": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PrincipalBlockExponent.lean",
+      "sha256": "f2dc7c4cd37d5ff324921fb0b3a86335ab304e0aaefd7a62d1d9fc3aeadd0c03"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PrincipalCoefficientMarginal": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PrincipalCoefficientMarginal.lean",
+      "sha256": "59bbddd5d6e74a117a9433a288f5799b94fd37c6f04a20416dfd163991f7f085"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PrincipalCoefficientSource": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/PrincipalCoefficientSource.lean",
+      "sha256": "6fe3c0c3923438405b28fb651e412f4c2536ed6a16d4472374cabd9fe00218e1"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ProductCutoffLipschitz": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ProductCutoffLipschitz.lean",
+      "sha256": "97ac7a3521711d5c160ea78283889aa9554b22d47836b4bfefd64d144b1a018f"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ProductDifferenceBias": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ProductDifferenceBias.lean",
+      "sha256": "e5ae5d024b83e715a338fa79b269e93e178d27f667f281cab0bf5ce4d74d4184"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ProductPMFMap": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ProductPMFMap.lean",
+      "sha256": "793f386ce912d2856f1fb351457d0f111c94cf1f47a6a572261eedf2fcd23b3c"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ProgressionPartitionComposition": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ProgressionPartitionComposition.lean",
+      "sha256": "7061c5c847e5fe5df1ca07fbe2d9ecdb9402b8a1ba4b74c1e34a1b050130ee88"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ProperSubspaceCount": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ProperSubspaceCount.lean",
+      "sha256": "6942054bc1e1407f11e8f5cb84e2272aeb34706fc33ee40eed6cfb9d35fd9ec4"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.QuotientInducedMark": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/QuotientInducedMark.lean",
+      "sha256": "c9b6c7097f1583bf40778820acc56ea12c6d6a0bc089ecd7398b37b6939c15a0"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RationalHeight": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RationalHeight.lean",
+      "sha256": "80983e874390cf87aed6102cd16d5d4fbe77fdefe3187b3184d080a4afac3fb4"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RationalImageIntersections": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RationalImageIntersections.lean",
+      "sha256": "4b28f648af59a751767f8d13066bc0297719aae537b9188cd6ba846ae53ae09a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RationalLieSubalgebra": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RationalLieSubalgebra.lean",
+      "sha256": "8e182692b5e279fed6f9d75fb2dbf3c64c8b189b904a4be87d17e2234180561d"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RationalRealSubgroup": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RationalRealSubgroup.lean",
+      "sha256": "42d6504fde3c3bb4fdce0f057fe56869041f3ee0626f840db11b68292cc6bbbd"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RationalRowReduction": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RationalRowReduction.lean",
+      "sha256": "cd587f2b1d187a1c03b5d4926fbe0e4f40d0b7ac4746b1683cd2c55d990bb0c6"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RationalSubspaces": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RationalSubspaces.lean",
+      "sha256": "a11c13cb6593f8e1731542d3c17cfc3f0dfbe24de4a078a029598b644a7ec6ec"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RawProductArrayNormalization": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RawProductArrayNormalization.lean",
+      "sha256": "6e61f2937eec43bdc525d03c83cad8f8480646cdbae01a9596458936f18713b3"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RealBooleanInterpolation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RealBooleanInterpolation.lean",
+      "sha256": "d616e6633349bb93a89c30bdfece85c2f321d840556883df369e224eba4c04ba"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RealSubquotientEquiv": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RealSubquotientEquiv.lean",
+      "sha256": "24855564b0683b81bbb96d2d6f5c014cc9fd86c5254ca3871698027403c2f4a6"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RealSymbolRepresentativeSplitting": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RealSymbolRepresentativeSplitting.lean",
+      "sha256": "17163576c38d7937561ab8a452c8e2f8207fb1d42ba978e3dcb8a17a19b17030"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RealWeightPMF": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RealWeightPMF.lean",
+      "sha256": "da993564c5c2f6f558ce313758963f12dd230924c6d5fe6d24040440b6b923db"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RealifiedMultidegree": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RealifiedMultidegree.lean",
+      "sha256": "f4b92dcde5160a40252a89b8c1e36eb87eb3bb289922188e69ba2ba1a3f8804e"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RealifiedReconstruction": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RealifiedReconstruction.lean",
+      "sha256": "f91ab3c2a187d568886bda200381deb379619cf6c4c25133c309d6a0a3e32030"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RealifiedTripleLayers": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RealifiedTripleLayers.lean",
+      "sha256": "30d4a3e2a7d7ad042b7bc7fa4ca478515658b013086e0b59fa9533776b4106be"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RectangularCellGeometry": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RectangularCellGeometry.lean",
+      "sha256": "903ecf8e63654e8db0ed37da9679adc1e4a1fc5f6ff5d7417d6fa63c4651d2ca"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RectangularDetExpansion": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RectangularDetExpansion.lean",
+      "sha256": "b1fff3492c6a6fe72d3a55f5cd8e05b908b60d52c96146395b591f9acd9d3846"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ResidualErrorAllocation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ResidualErrorAllocation.lean",
+      "sha256": "01d847b43b3b1711a64066b0656ce54576f8818d6f5d2d78cca4cdaaecc65465"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RiemannianLipschitz": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RiemannianLipschitz.lean",
+      "sha256": "6ff987a54d011e168c32c85187d458a5f88318a96e9bfc84a99696859da17a8d"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RightCosetEDistance": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RightCosetEDistance.lean",
+      "sha256": "07d918835f6afbcd95bff5168f4db0272f5cbc2c9e161c40aeefe1c854bf688a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RootDifferencePeriod": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RootDifferencePeriod.lean",
+      "sha256": "e7d0a4145815c762fbc1697e27a869682dc991d90f6570b370a81e2499710db1"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.RowShiftTopSymbol": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/RowShiftTopSymbol.lean",
+      "sha256": "03fd3ffea0c3eb5717d74d96da53c2bbbe01c25debb99a56b80fc34f6c6c6c5a"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ScalarCubeBoundaryCost": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ScalarCubeBoundaryCost.lean",
+      "sha256": "4bf78d0bf067d34675b86fd6e73453caae6fbb2731f2e8762c8dd89e97684bbc"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ScalarCubeBoundaryVolume": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ScalarCubeBoundaryVolume.lean",
+      "sha256": "7d42483f835dc18dd401d09c284284ceb720a837b03c801e7b8b8365da527e14"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ScalarCubeCokernelCutoff": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ScalarCubeCokernelCutoff.lean",
+      "sha256": "41a8470eddb548db55f124a80ad7610f48cc62a66fedfea0a5d31d7cef45cb41"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ScalarCubeDomain": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ScalarCubeDomain.lean",
+      "sha256": "7dd0e2c6876cf84da83672b5a055ec1c7383f1e07aadf10ba59da2d68d2c3ba3"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ScalarCubeFaceSlab": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ScalarCubeFaceSlab.lean",
+      "sha256": "61510755894e89b2ad107cec7bc4506b5851abe5e462b05388c3dc8e7cda44fa"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ScalarExtensionSubstitution": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ScalarExtensionSubstitution.lean",
+      "sha256": "d0c4b0cd6fe0f7807c32af7b3993606ced867db31cccfbc0d028aa8a7eaa1508"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ScaledJointFrozenSource": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ScaledJointFrozenSource.lean",
+      "sha256": "3e027979345348b3a83b1c7531ac00d565b39e5b4cbc75851e2100f7952a3035"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SelectedCoefficientEvaluation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SelectedCoefficientEvaluation.lean",
+      "sha256": "5617d39bc486cc65f249a991a6187526af8488b813a3ea232de401c300681721"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SeparatedCosetBalls": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SeparatedCosetBalls.lean",
+      "sha256": "bd2a4afbd834b2fd5f7defb5e95971cf452e2f16614bdeb741bb15b47e7bfd48"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SeparatedInterpolationBound": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SeparatedInterpolationBound.lean",
+      "sha256": "b87d8cdfc7a6c7062fc1b1c8887ad0f5827e082311fa34511f062c5fb377bc58"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SeparatedRealSamples": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SeparatedRealSamples.lean",
+      "sha256": "b3b832a5b884d572ffcb15285d65b946b9b1f012d58425c088132ce0383e4115"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ShiftTestingGowers": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ShiftTestingGowers.lean",
+      "sha256": "415f7ac6f28307d36b63bff525824af6a02f5798782902b316f6dae0d8e07856"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ShiftedAdaptedIdeal": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ShiftedAdaptedIdeal.lean",
+      "sha256": "fea5ab17760b46af20686412b7b6837c14ca0491cdb2684b5ef0c02f2efc4359"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ShiftedSmoothSelectedMarginal": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/ShiftedSmoothSelectedMarginal.lean",
+      "sha256": "7a2c1ed301c21181d90937b60a90d92bc3477c44c8728f35b1e82a9e5dc1042f"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SigmaAxisOperator": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SigmaAxisOperator.lean",
+      "sha256": "9ecb2f0ad5ad11ae291746e0e109f6f907babf37d692dd09a8a85a637d064874"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SlicedPairAmplitude": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SlicedPairAmplitude.lean",
+      "sha256": "eef0ffd20c2e49fa376e32bdeba6da9da5ec22eea756e7560abaeeb6316ab2ac"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SmoothHalfspaceCutoff": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SmoothHalfspaceCutoff.lean",
+      "sha256": "48a9d9cb83a9853a9b26a23a27de66ece121a72a5e84fd0876e256ad43d47073"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SmoothProfileReindexing": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SmoothProfileReindexing.lean",
+      "sha256": "dd8c8c71692e3aad8054075c70c47b7c7a9c62d0e935da68ec2ead2eede29198"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SmoothSublevelCutoff": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SmoothSublevelCutoff.lean",
+      "sha256": "fca81a1e56e70cccfbe922069d665baad5591368d9de19b334eb0313e428ae1f"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SmoothedImageTest": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SmoothedImageTest.lean",
+      "sha256": "013e1951157ffa91bb0553e5c47214bb3cd3cb7ff65f218483b3bc08f6922687"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SplitPivotParameter": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SplitPivotParameter.lean",
+      "sha256": "6568c745c66ec0f59056cd153baae63b3c9038a62faf65251c72b396c8283efa"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SplitSmoothProductProfile": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SplitSmoothProductProfile.lean",
+      "sha256": "f490b959c6294b88788dc827c82bcf05206153b70649776c2ddfbc16e36e8847"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SquareGradedRelative": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SquareGradedRelative.lean",
+      "sha256": "c109e3284a9b35be3a48f6a38a5669dcb49a613e1f1d733166c0a8095e63f6a0"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SquarefreeAdaptedLieAlgebra": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SquarefreeAdaptedLieAlgebra.lean",
+      "sha256": "65edf6cec92fa2d352f438a11260b68ebe382552e4a258c43fb5171a7eba2942"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SquarefreeCoefficients": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SquarefreeCoefficients.lean",
+      "sha256": "7f97c189a86e7673a298ea6d63cd35c588265a9a4ff8cc2bdf41f20c205746b3"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SquarefreeExponents": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SquarefreeExponents.lean",
+      "sha256": "a2ecdbc51c013da9fe81a43f068021cde40ff3ddd95380a51d25b0db86c69216"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SquarefreePermutationFiltration": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SquarefreePermutationFiltration.lean",
+      "sha256": "5ffd2ad461ae5867bb9d9ed7d2011b0886320489d5fcf48dc3cd48a43409b64d"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SquarefreeSplitCount": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SquarefreeSplitCount.lean",
+      "sha256": "53daef5cdcd9cdf3bbe420f3b2f7c4f0664bfd62da961c312b01ab7c779b0fd3"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.StrideProductBounds": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/StrideProductBounds.lean",
+      "sha256": "1c0c458d47acff713af0195c8e016dc608232e9bed44447f59747a55d6c46868"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SublevelThresholdBalance": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SublevelThresholdBalance.lean",
+      "sha256": "3f1495f3a8df13f1450b65111fbde4e4d39648bf5aac1afd858ba78f11c92181"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SymbolAbsorptionBounds": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SymbolAbsorptionBounds.lean",
+      "sha256": "739477e85f31eb3b75ac5c156e5e525a6e673833388445ff060ef9c232ede45d"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SymmetricCubeSublevel": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SymmetricCubeSublevel.lean",
+      "sha256": "442f6b3e71a49be8867035b6c45c24c37f3686ab519407e08f8384dcd3fe53f6"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SymmetricCubeVolume": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SymmetricCubeVolume.lean",
+      "sha256": "ba19276f3c7d53277cf013a948d93feec88b7829facf55044bb704ebc1aa7f57"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SymmetricIntervalDilation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SymmetricIntervalDilation.lean",
+      "sha256": "ad636645eac3b5c6847e7db9ede7dec50526126e5e836f1036853f1f4184ef4c"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.SymmetricScalarSublevel": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/SymmetricScalarSublevel.lean",
+      "sha256": "a86513d1ef66bbd20ef1d94114c6f436e06be2d91194ef05614f8500aade90ae"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.TaggedZModOrderBounds": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/TaggedZModOrderBounds.lean",
+      "sha256": "0ddcf6887094e6107c6ed5b65b3c328f15239a499be5e055c48b38dffd0cebc6"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.TangentModelVector": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/TangentModelVector.lean",
+      "sha256": "09036ca00275466c66eb22dbbfaed6862502406b960765e9ab13da111f44e4b4"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.TensorContraction": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/TensorContraction.lean",
+      "sha256": "5f7c16307998cb274cf859bdc3bdc8e9960c060c56d528d4ca2f1fc61410d06e"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.TruncatedSeries": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/TruncatedSeries.lean",
+      "sha256": "50e5202e87c245098976230af556ee63871aebafddfd68ba1a4fc3c79642e044"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.TruncatedSeriesFiltration": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/TruncatedSeriesFiltration.lean",
+      "sha256": "a15f3990baf402ea29955f0f2fa8129a7deeca6fbbdd89355264d1329a2ea155"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.UniformHomFiberWeights": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/UniformHomFiberWeights.lean",
+      "sha256": "98f869bc1395a9827c5eeca08865cfb29e80a59ba732759fd784072049ff255c"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.UniformProductAccuracy": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/UniformProductAccuracy.lean",
+      "sha256": "e3d50b80ddc15587fef41c4bc2f618d5901444f007b00d98c2a731632632ab4e"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.UnitExpansionCorrelation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/UnitExpansionCorrelation.lean",
+      "sha256": "77f89ffe81f7492f7f78e71a6afa8d01296e3e07423ff615a0f07762422a46ff"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.UnitTestClipping": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/UnitTestClipping.lean",
+      "sha256": "f95670a7cc9ce57024be7b142b30e99e51fc33b63ae9bb8261a65540f23d29a3"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.VectorAlgebraicMajorDecomposition": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/VectorAlgebraicMajorDecomposition.lean",
+      "sha256": "ccb6b500f9d25e84bed8471a90ae3e1eed1ffae78f2ca9681f7d49851cbba377"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.WeightedAxisScaling": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedAxisScaling.lean",
+      "sha256": "aa63fd7c819811694d3005be8879cea3788830bca1555e1fce4bc61b5dbd84b2"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.WeightedDerivationDrop": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedDerivationDrop.lean",
+      "sha256": "25e1611227bf4fce4dc8cad2284c395b8fad27dbd9b2e7bbe60e567e78357ed1"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.WeightedImageDerivative": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedImageDerivative.lean",
+      "sha256": "28d038ecd5a40650847f4e6f01f03c34b56bce2170dd0f75ec6f98216fd6a8da"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.WeightedLoweringAction": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedLoweringAction.lean",
+      "sha256": "bc20f00a545f9789f9d38018defc03bcc8eda703c38974cc3cd65ae353ac6c8e"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.WeightedLoweringGroup": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedLoweringGroup.lean",
+      "sha256": "8354a8b73028458077cc531f4abdd2c6ef6a2517d0c55c40f3648a2391191beb"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.WeightedOrbitNormalization": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedOrbitNormalization.lean",
+      "sha256": "8b38b006fb139af909f65fae9c3863ac3e6b5094ab5b41eba7119e1315429158"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.WeightedOverlapCorrelation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedOverlapCorrelation.lean",
+      "sha256": "e5f946a242d7b4f7bba7086234e3154ed67db2b97f515be8d4bd906b216342c5"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.WeightedSummandCorrelation": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedSummandCorrelation.lean",
+      "sha256": "29cade21591b317d63f8a4edef495eb4bd33e0ec6b4865d80e2f6f5fa62de4dd"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.WeightedTranslationShearExponential": {
+      "path": "OAI/Combinatorics/Progressions/Estimates/WeightedTranslationShearExponential.lean",
+      "sha256": "f5b823164b66f812c780e97ee8f8b7f05e3c0089172918aa68c7c8ead0e97935"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.BoxDifferenceCharacter": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/BoxDifferenceCharacter.lean",
+      "sha256": "6b6335ff5daaeb137102090f5375cd490a10c1467f57952dc0fbb7ba47fc5b30"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.CharacterCoordinateScale": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/CharacterCoordinateScale.lean",
+      "sha256": "ddf441f58e3a461f76a1c84f8032fefac54aba90ecb0cf3d79e13f2da4419830"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.CircleActionFourierMetric": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/CircleActionFourierMetric.lean",
+      "sha256": "5985fcb3a2f65e7de297df0331279aeaeb69ca997c61e1d35b730a4d4576dfae"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.CokernelCharacterWitness": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/CokernelCharacterWitness.lean",
+      "sha256": "f51f5ee072dd4dabed078ec913a28e625dc5fee9db8fe4af6d931182a118e7d8"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.ElementaryCharacterTail": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/ElementaryCharacterTail.lean",
+      "sha256": "2450648e10e7e665aa64f0b293425d520f0a7b506c30262b05346eddecd16621"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.FiniteCharacterOrderTail": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/FiniteCharacterOrderTail.lean",
+      "sha256": "ffbe0564972c7196a5e04f940b66a6c77543e5147ebdae4ad224557ca61e0384"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.FiniteFourierSmoothing": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/FiniteFourierSmoothing.lean",
+      "sha256": "b6cbc17d80315281115400027aea824e392cabd57611f4a2a2f8af9d2dea38d6"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.FiniteSpectrumCutoff": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/FiniteSpectrumCutoff.lean",
+      "sha256": "f1405bb1877830623120cf711c31efb702915602d90ad90d54a2706a32fbdddb"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.GowersFourierMultiplier": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/GowersFourierMultiplier.lean",
+      "sha256": "53982ed929de924226e16dfd85f54748c709e656a8de1191be8595cd4f6016bf"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.IndependentCharacterEvents": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/IndependentCharacterEvents.lean",
+      "sha256": "bb51399345474be4893d250f16b77570f2c872ead651008c2ac32071674eea35"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.IntegerBoxCharacterBound": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/IntegerBoxCharacterBound.lean",
+      "sha256": "1bf9449afd738d77164c85eaefefc452c3f36e07fd28b298a072ac82de75f4a3"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.PolynomialCharacterRowPhase": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/PolynomialCharacterRowPhase.lean",
+      "sha256": "3b98a69825e9a6b25ac9b18c8ab709190aabc122b87423092d5decb90f06a89d"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.PrimePowerCharacterDepth": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/PrimePowerCharacterDepth.lean",
+      "sha256": "d196bce1de1ac2c44567d520e9c6de6a0d411f32ecf39079c5869779d49aba91"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.PrimePowerCharacterScaling": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/PrimePowerCharacterScaling.lean",
+      "sha256": "45426953635d6114c192bea5d7b09076d2d3e3a29111fd39caebdcb5bc31019a"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.PrimePowerTaggedCharacterRows": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/PrimePowerTaggedCharacterRows.lean",
+      "sha256": "3ff0504b415ac3c151723414342e39e7fbf59f6778e34280049224209b14e9ac"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.RationalLiftCharacterTwist": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/RationalLiftCharacterTwist.lean",
+      "sha256": "a7ca05af11748600aa9c225187ecb68887d69b65aaac83a5d1e6a93e3f0b2397"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.RectangularGridCharacter": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/RectangularGridCharacter.lean",
+      "sha256": "1d8b77f4cee99a8143ca52503888e91dc9565ad7f1ecab8d2f60a5694003ea70"
+    },
+    "OAI.Combinatorics.Progressions.Fourier.TorusCircleActions": {
+      "path": "OAI/Combinatorics/Progressions/Fourier/TorusCircleActions.lean",
+      "sha256": "4a0b2127c82f401def076740ecf7f216b9e130089fde080d4da48eabfab6e741"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BlockCubeCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BlockCubeCoordinates.lean",
+      "sha256": "cc4d38589ae9fa4c3d93e245a6551263256818b488a733aedfcac3c75dec137e"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BoxBlockBudget": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxBlockBudget.lean",
+      "sha256": "e499c0688e9aedaa6c7cac409bba7067e27a7c8ffc3641dce857b0ada2f9becd"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BoxChartCutoff": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxChartCutoff.lean",
+      "sha256": "41e85d32b66d2321edecc371582ed8df1e692bf55086edf5287a659f5102d3c8"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BoxCornerMean": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxCornerMean.lean",
+      "sha256": "980ae8031cf271302dc937e59716fe4ac8ccccdd14b89c2be5b515f973b4fd66"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BoxDetectionExponents": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxDetectionExponents.lean",
+      "sha256": "688719f10c9ec0fb75ce8e49941deab58efc3229a4cbc516c3b74d84f805597e"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BoxDifferenceHom": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxDifferenceHom.lean",
+      "sha256": "3f7364a70c6af8b6aa2403c0e1ff584bbba0eab3609819750b75cbda0ba786b3"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BoxDifferenceSubstitution": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxDifferenceSubstitution.lean",
+      "sha256": "a32ae2da5bdf75b01f86e53e7b3aa189a92f6dbc8fc3b522e73b06d3475d906e"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BoxImageComparison": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxImageComparison.lean",
+      "sha256": "be3a64276f365685f58c483c0255c37fdba5c819bf502e547ee3fdab1bf54235"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BoxTestSmoothing": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxTestSmoothing.lean",
+      "sha256": "7f1943ff5eecb56b0424392cb8d6ed70b62d280315401cb46f2c228aa43e4984"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.BoxWindowAveraging": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/BoxWindowAveraging.lean",
+      "sha256": "fa03a94bfdfadf86aaf5ebc7412b3f00480789fb25cd26eaf6184410f150adb3"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.ChartCutoff": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/ChartCutoff.lean",
+      "sha256": "c497774dcf565f89beaa819d1da77a60a5f6a4a8feca79e5304b02bf88c70249"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.CompactBoxIntegral": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/CompactBoxIntegral.lean",
+      "sha256": "defdbac89475b564787ba3ddddd409b6c653994c9db8ae6dee7f9714e83f45cb"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.ConjugationCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/ConjugationCoordinates.lean",
+      "sha256": "d1f06c7e6b3690fe96f881f5a634e3348e657a0d976ac46ffaec8321fab622bf"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateDeterminant": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/CoordinateDeterminant.lean",
+      "sha256": "2fba6b666ab8fb9b5cf2ff3002629387545242685fa73d1d01903bf1ea36c8d5"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateInjection": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/CoordinateInjection.lean",
+      "sha256": "3423b23c43157c647b665985cc2bd3ad2e95236519e3e0868e9a74ceb1c5e509"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateSubstitutionAlgebra": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/CoordinateSubstitutionAlgebra.lean",
+      "sha256": "35023817644465ee061845e08d8cbad5c2ab28f10ebe646a999437066d53b5de"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateSupNorm": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/CoordinateSupNorm.lean",
+      "sha256": "9b749e2b250656464062ccaf812749df3e1e289cb43761a1e29d428923f858d6"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.CutoffBoxImageComparison": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/CutoffBoxImageComparison.lean",
+      "sha256": "01c50b914615857c9113feaf7ab548eabeec2caba31da5c4b1142a942ed6ab22"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.DilationPairCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/DilationPairCoordinates.lean",
+      "sha256": "d9ce6716de1691081edc6ea86611a0880c34897d39aeb128972872a008a4ec66"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.DivergenceSupport": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/DivergenceSupport.lean",
+      "sha256": "a5327397fad35b45bfb32935747b25bc67d07984c17f4d4248959dcfe36aafa8"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.FiniteCoordinateSlice": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/FiniteCoordinateSlice.lean",
+      "sha256": "264d713c4c21cfd38011486cc924707c657c3ca11fe64692b41fdd27924ea08a"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.FiniteSupportTranslation": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/FiniteSupportTranslation.lean",
+      "sha256": "d1f09f1e6ae24cb5194753ee8e030cfb650482bc7fea01bfa568c0764991cbab"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.ImageCoordinateDerivative": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/ImageCoordinateDerivative.lean",
+      "sha256": "7e3a972d69a8e9c90e45dcb2e78cdd83842a93587e02e2b255da73481b20ccf0"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.IndependentProductTransport": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/IndependentProductTransport.lean",
+      "sha256": "b680ca3e4c824b2a99d28a126910706ebbbd0afa8d0dbbf4ceb2d7b80c264bf9"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.IntervalBoxDifference": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/IntervalBoxDifference.lean",
+      "sha256": "fb0ea43e497a47429d3c30839f2fcca5eac6af21b0ec25777302664333dcc435"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.LieCoordinateHeight": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/LieCoordinateHeight.lean",
+      "sha256": "22774c3c901ef0288def08c7e17a84dddc0c4bbe4a8bdda4175478316acccbc1"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.LieCoordinateScalarExtension": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/LieCoordinateScalarExtension.lean",
+      "sha256": "8c1d001f9c26ae1349e6e6610c37ccba8b3391c63638f547a392b095c08b754d"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.LieCoordinateSmooth": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/LieCoordinateSmooth.lean",
+      "sha256": "b5d716db41ed01a540003b92ef0ee90796b67351fe1419e3de8fcebb8a531ea3"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.LieStructureTransport": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/LieStructureTransport.lean",
+      "sha256": "1def0e4148b962ff491489b391e9dd3209890513851b8e9443ecb483ec21ef58"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.LieTreeSupport": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/LieTreeSupport.lean",
+      "sha256": "71d0fb2de2b93ccc44a6f331a56e7c1db6ade4fa35305691661ecdf8b6a89ab5"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.LinearMapCoordinateHeight": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/LinearMapCoordinateHeight.lean",
+      "sha256": "8344c3d469af103d2c1b7a9075999f8b55e1679bef9ca5381ecff239e42967c3"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.LocalCoordinateDivergence": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/LocalCoordinateDivergence.lean",
+      "sha256": "4eae5aedc1672ac90723eca0c5bb42df9b3c56865847254c03b637f0ac4b17b0"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.MultidegreeCoordinateFreezing": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/MultidegreeCoordinateFreezing.lean",
+      "sha256": "5b07289bb19ad61e7db33da6dac35c2661c46cbc3a06615cee8c2e10a925d272"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.NormalizedRestrictionTransport": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/NormalizedRestrictionTransport.lean",
+      "sha256": "8716bc58864d84823e71cc7da53c97fbe8ed856a8df98873c03fcfa3d904f85d"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.NormalizedSpatialReplacement": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/NormalizedSpatialReplacement.lean",
+      "sha256": "71a86b20bb58b05c14f92c126701ecc3a0d627705bed6cbb27eb5e9f24a11438"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.OperatorCoordinateBound": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/OperatorCoordinateBound.lean",
+      "sha256": "6f001d6c6f6b2260d3ec922714b8a60e971e3749621221a7f9fe1301b7d42915"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.PivotCoordinateChange": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/PivotCoordinateChange.lean",
+      "sha256": "442174b8053d1345d5bc743870babb578f5862c8ac88317f0a18cfecf125ee84"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.ProductEuclideanCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/ProductEuclideanCoordinates.lean",
+      "sha256": "c1d515053b2180af23cca69574a4f94803b8f9e1951019c13bbd6c57ddfd81dc"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.ProgressionCoordinateResampling": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/ProgressionCoordinateResampling.lean",
+      "sha256": "6029efba8d9651156486605086ee28ab109667160c35e6bf123465101bb2c812"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.QuantitativeMetricPartition": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/QuantitativeMetricPartition.lean",
+      "sha256": "59c76a7e83c80fb27701edb41a308d5739fc42e4248d1ae8aacae166067a1989"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.QuotientCoordinateRadius": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/QuotientCoordinateRadius.lean",
+      "sha256": "c421086060487157a9b59347c881a2925c442791f1aa251d6f413379cd3e3af5"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.RationalModelCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/RationalModelCoordinates.lean",
+      "sha256": "309ceb24a60dfd228e3420c26c794dc442490298fcac76f60d35419b824a6981"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.RealSquarefreeCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/RealSquarefreeCoordinates.lean",
+      "sha256": "f96f680d02ca1e025cb2464a45d6f9630e5c84b0419a0acd67d3fb5248bb1b48"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.RealifiedTripleCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/RealifiedTripleCoordinates.lean",
+      "sha256": "5e0d62c0a4f2823c664dff34024dc0dd4153eab18644e7e8f9843631dfd759ad"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.RiemannianLocalCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/RiemannianLocalCoordinates.lean",
+      "sha256": "8304eb60cd7b94861a39de866a7a8737df957e67f1680fbc0a535a96fd89db01"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.RightCosetMetricMap": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/RightCosetMetricMap.lean",
+      "sha256": "4596fe64759e28fba4b718e2432dbd259d3e7c97c9d444da708507db0389d0e8"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.ScalarCubeCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/ScalarCubeCoordinates.lean",
+      "sha256": "79f8d96246dd76b16ec433c4db9bc6e51dab1a37c7ec6e0111542598d4309bd8"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.ScalarCubeProductSupport": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/ScalarCubeProductSupport.lean",
+      "sha256": "9ca43f92d7fca6f76d872cc7c4ce208550aa594f4c1661fb9d083dfc4bb0ba34"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.ScalarSpatialScaleBounds": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/ScalarSpatialScaleBounds.lean",
+      "sha256": "35d3bab4987a623aad994b1917ef23b048c4db5dd47e9ef0e553821e58739d86"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.ShiftedBoxSites": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/ShiftedBoxSites.lean",
+      "sha256": "3fe89d421484eb3d168e36e4321abffc2c473044c03ae2d16985fb841eea9b02"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.SigmaAxisCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/SigmaAxisCoordinates.lean",
+      "sha256": "24c8d0eccaf0bf7a08d8e1999749e4fdb5ac206a231396ded0e24548481224b2"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.SpatialPivotNormalization": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/SpatialPivotNormalization.lean",
+      "sha256": "3b78ce62435ea9ad463bfce04116e16af7f3b3e30bd633eec8e9b222e340703f"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.SpatialStarCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/SpatialStarCoordinates.lean",
+      "sha256": "438da92f5b3e4c3428fa4b17efeea58893f2776b26159b5a8120a04325bea771"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.SquarefreeAlgebraCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/SquarefreeAlgebraCoordinates.lean",
+      "sha256": "e1acec996a1b6b91d5eec7ce6403aa076799d5f4ad58f8328a07bbfb84fb8e36"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.SquarefreeSupportPermutation": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/SquarefreeSupportPermutation.lean",
+      "sha256": "e16400a3ecc13cd0e89ab219d1ebb57541ffa952b0648132c0e0f049f8acc7e0"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.SupportedCubeEquivTransport": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/SupportedCubeEquivTransport.lean",
+      "sha256": "cf0ba8d0350304a8c9c957762cd50e4c404efa5ece1310a3aa483e12d5b11fa3"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.TopSupportSubstitution": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/TopSupportSubstitution.lean",
+      "sha256": "c1e45a4901f21be9e6eaf37f8c11c87d5c7bcc406ac8cc97a89a77353b044439"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.TwoBoxSmoothingComplex": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/TwoBoxSmoothingComplex.lean",
+      "sha256": "763e985288a047947821cb7cd0315ba46df034513a38eb7e85bfed9d66d6b5c9"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.UnitBoxAmplitude": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/UnitBoxAmplitude.lean",
+      "sha256": "1db7a5e1ecdcd3223608855bd11fadd63f21732a07ffd7c7335e0c45e89c8c9d"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.UnitBoxInteriorCutoff": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/UnitBoxInteriorCutoff.lean",
+      "sha256": "27c08a294f58d3d4e40db0bf8e264d7be66bc1cafbb2e8fea34f258c8ec04229"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.WeightedSubstitutionSupport": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/WeightedSubstitutionSupport.lean",
+      "sha256": "9a2a3b5f40c9e35be721564f8635a935a4720e23b46eabf471ef55101328c793"
+    },
+    "OAI.Combinatorics.Progressions.Geometry.WeightedSupportDropRename": {
+      "path": "OAI/Combinatorics/Progressions/Geometry/WeightedSupportDropRename.lean",
+      "sha256": "cf04ea4b4455a85ac3b80d4b8351b9f2fba5b1509b414ea4071a440082f28f76"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.AffineBoxTest": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/AffineBoxTest.lean",
+      "sha256": "0e488bcc390c95393f888b25cc99eb60907bb3f2598ad13aa1ef9d8eeccd4db4"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.AffineLowestLayer": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/AffineLowestLayer.lean",
+      "sha256": "5edbd047b7cb68b0b2e331812a6bc6dd40a777a0ce174bda477037614b2e319a"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.AffineSliceC2Difference": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/AffineSliceC2Difference.lean",
+      "sha256": "902ff116ea6324422e3b2e5df89cec1a6cc0320d35b91a4a4790bd45fd5976e7"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.AffineTopCoefficient": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/AffineTopCoefficient.lean",
+      "sha256": "9b50897a1ae5685d2a6edee543d88960a3465781c906ba402efb54f206e1ba9c"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.AnnihilatingCoordinateResidue": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/AnnihilatingCoordinateResidue.lean",
+      "sha256": "fa782b0e4ac0ee142399957e647e082f08799ab1a4b2161daa9eaa803d544f51"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.BooleanAffineInput": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/BooleanAffineInput.lean",
+      "sha256": "49d3385108c9853a38ffd921214c08d0e5e5438d5ca0052fccbb4978aa9b0ace"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.BoxResiduePartition": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/BoxResiduePartition.lean",
+      "sha256": "359aef9c7313fb2d7bcadb302af630ef97a06eac92f814817943b005ecb4c8ca"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.CompactLatticeApproximation": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/CompactLatticeApproximation.lean",
+      "sha256": "53df359923c016f779f67f9db721a5a896fb6b417c22c1a1ae010cfe97d4237a"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.ConjugatedLatticeGrids": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/ConjugatedLatticeGrids.lean",
+      "sha256": "91a0372f3b574cc08c78026ac52730379ea60201e916d338812beeb4da24381d"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.CubeResidueSupport": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/CubeResidueSupport.lean",
+      "sha256": "b3701bead0c4fcd14628e3b193cf84bd7608578fdb72453579a6e2fbaa72b3f6"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.DenseIntegerSpan": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/DenseIntegerSpan.lean",
+      "sha256": "1778331ad519e3cd0fbb24ed7f17dd32d3a90dee086f88ecb0c918750f029d7b"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.EuclideanDerivativeLattice": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/EuclideanDerivativeLattice.lean",
+      "sha256": "6cfd7b43beedc84236cdd3e9adea87393f7fd1e6a06439449ecd747e4fbf11ce"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.FactorialIntegerScalars": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/FactorialIntegerScalars.lean",
+      "sha256": "5c798e62d757ead89a3f5755ed4f934e8a5ba46322ae92bf19484ea6a273fe91"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.FilteredLatticePowerIndex": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/FilteredLatticePowerIndex.lean",
+      "sha256": "9ad31ffa5bda5451f4e557a5e6805bc6856a83d9e2d20f2f6473b80a5b7858f7"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.FiniteAffineClassAverage": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/FiniteAffineClassAverage.lean",
+      "sha256": "0127b7953dd14eb78e7254cf218bb65be355a829a73d8e322ece08a37e87390c"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.ImageLatticeSubgroup": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/ImageLatticeSubgroup.lean",
+      "sha256": "2ed2d77995bbdbcd9946d5e161699398548bb05e92810791059f2c2bdb99ae33"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerAbsInterval": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegerAbsInterval.lean",
+      "sha256": "fa7fe3383a3f04c4f54026dd9bdd675db508fd4b28d960dde1e04b436c1328f7"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerAffineResidues": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegerAffineResidues.lean",
+      "sha256": "c4a9d93b8635f4e815d8aa4b808cb83d0cbb7d94eb38d83a192cea2a6af12467"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerCokernelExponent": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegerCokernelExponent.lean",
+      "sha256": "58b48fbf15401e78f1eb93b4a70747c880851ce028821ac62440de870eff0ff7"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerColumnMinor": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegerColumnMinor.lean",
+      "sha256": "32063d310ea68bdb4ace469542815276ac0ba66c94f7210bf22e48ddcdc22ad7"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerFiberCount": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegerFiberCount.lean",
+      "sha256": "eb0a4bad19ad1f4da7b587971c6f531642176e1e24b7b5dd7719935da4cffc6e"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerFiberUniformBound": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegerFiberUniformBound.lean",
+      "sha256": "244090ae6846cb4cb9af4e72aa51d65c232a50ea984fa4dee224b7dc5a8d6da1"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerImageProbabilityLaw": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegerImageProbabilityLaw.lean",
+      "sha256": "08172b9753f867b6f5670bf99bf4454b65f626e5064cefe90e4740b34fb235e7"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerNormalizedJetColumns": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegerNormalizedJetColumns.lean",
+      "sha256": "c94c25aa18b1b6b0ccd2adc7dab9a27e11dcb1aa2b55255d9badaf1c0ebdff90"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerWeightedLoweringGroup": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegerWeightedLoweringGroup.lean",
+      "sha256": "1c1c545bc5e6d71ac478db41ce9cc566d63659fe1093157eee8e100d1d819b34"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegralAffineModeRemoval": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/IntegralAffineModeRemoval.lean",
+      "sha256": "18d49c10fe54b91366a3a96a74c4e19ede06e95dff23369169b968e9fb56cad6"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.LargestBadPrimeProduct": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/LargestBadPrimeProduct.lean",
+      "sha256": "727b98635040f87bdcf47aa0524a781a535b2a19e5a5d0bef74836bc9e4aa5b5"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.LatticeMetricGapBudget": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/LatticeMetricGapBudget.lean",
+      "sha256": "8c0e51ddbde2416dbe52e9da30db69eacd1618679d30e1871f258d6b3f60ad01"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.LatticeOrderedGenerators": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/LatticeOrderedGenerators.lean",
+      "sha256": "c2d7603698521839ea8597a2bea3b908bf3c27d185ffc85263addba644fc2bf6"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.LatticeVoronoiPacking": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/LatticeVoronoiPacking.lean",
+      "sha256": "57d12c8798cd33f4f46bdef46e7235987dd34e53e2f8f8bbc72f016120802cac"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.MultilinearAffineExpansion": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/MultilinearAffineExpansion.lean",
+      "sha256": "9bd5dd9f3e18677ce1ba49669d27babe48d37ab0ac1d52dc4592f9cceaf62077"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.NearIntegerMultiples": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/NearIntegerMultiples.lean",
+      "sha256": "e73f35fb97969ac75ee4ba3c886919a7e1d2ad47f733a8bf6504e477e9987a85"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.NormalizedIntegerDual": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/NormalizedIntegerDual.lean",
+      "sha256": "3eb4a9cb2a40a0f50db0ee58d48a8fde248110ab70d61ae5bb451756f1435723"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.PhysicalSubboxResidueSlice": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/PhysicalSubboxResidueSlice.lean",
+      "sha256": "fbe478e96b6d1e034992e39d40c711c6611540285ba7703b6acdc83917803a6f"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.RandomAffinePair": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/RandomAffinePair.lean",
+      "sha256": "4d605814373145c9456813f8e90be66d37375350b142c169ee2e20dcd075fa43"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.RealifiedFiltrationLattices": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/RealifiedFiltrationLattices.lean",
+      "sha256": "00c2c8eaeae6b38de09d50372ef0805f73dc6a67cfcb9e89a5d9c0989e7fde5b"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.RealifiedSubgroupLattice": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/RealifiedSubgroupLattice.lean",
+      "sha256": "b1be1090fddcd2efc0ae71f4f4986541454e43f5acfc4d8f5e401584bea17dd3"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.RectangularLatticeCells": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/RectangularLatticeCells.lean",
+      "sha256": "6f72716f5b9e88345af36300b518ea0a5e61d68c3663673f22abab5001f1367f"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.ResidueRefinedPeriod": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/ResidueRefinedPeriod.lean",
+      "sha256": "81cde9c36d30127f6cd1abef5c287268b586c5c163f4fd5c0727b8c41c8f67ee"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.ResidueSliceCountingCost": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/ResidueSliceCountingCost.lean",
+      "sha256": "ea5bf5b5a42665392d36fbbdc87aa327c65c2f3fb4284814f3cf6097b078adb3"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.ResidueSliceNormalizedCell": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/ResidueSliceNormalizedCell.lean",
+      "sha256": "542a9b649d67987f04ee335d709f867e18862195056ba73be32c467440c53bc3"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.ScalarCubeLatticeGeometry": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/ScalarCubeLatticeGeometry.lean",
+      "sha256": "949988e31dc2b8d4ff3f44f6ccbd787e3f3e5cea75902d2a393f9250c696088e"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.ShortIntegerDifference": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/ShortIntegerDifference.lean",
+      "sha256": "120c97e92cbdca3b499e0d666bbb61074180f4ddc74d9227ec1e062d78dd3b89"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.SmoothAffinePairLaw": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/SmoothAffinePairLaw.lean",
+      "sha256": "3b475a7d31512394c10841b6a1d42ae6df17c61a49aac2cd58062f446e20c4ef"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.SmoothIntegerImage": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/SmoothIntegerImage.lean",
+      "sha256": "e34bc949007cfb8ac9b77f9ab0e872908e13f0652e30e34b23499ca1ba385899"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.UniformResidueSmallPeriod": {
+      "path": "OAI/Combinatorics/Progressions/Lattices/UniformResidueSmallPeriod.lean",
+      "sha256": "f336642f01b8e8f4022c5add9f3490eb622299e3f6abe18c094591798b781851"
+    },
+    "OAI.Combinatorics.Progressions.Linear.AllocatedKernelPrimitiveBudget": {
+      "path": "OAI/Combinatorics/Progressions/Linear/AllocatedKernelPrimitiveBudget.lean",
+      "sha256": "b4901578888acdd275c209bd121c7ab9d4d9232d583cf58ba6ba36b11dc8e15f"
+    },
+    "OAI.Combinatorics.Progressions.Linear.BalancedDualBounds": {
+      "path": "OAI/Combinatorics/Progressions/Linear/BalancedDualBounds.lean",
+      "sha256": "d7b7a241939b19a4abc9f9b2526ae66de1854f04a75f5621a48de19ad4e85dbb"
+    },
+    "OAI.Combinatorics.Progressions.Linear.BasisCoordinateBounds": {
+      "path": "OAI/Combinatorics/Progressions/Linear/BasisCoordinateBounds.lean",
+      "sha256": "1e42ad998ab3c726cdbff80ed1a71464e9182113b2d23b5a20a6bbaf7aed5933"
+    },
+    "OAI.Combinatorics.Progressions.Linear.BasisGradedCoordinateBasis": {
+      "path": "OAI/Combinatorics/Progressions/Linear/BasisGradedCoordinateBasis.lean",
+      "sha256": "1af001b01d4ec6aa7c7d9eadeca64050657a2121990749d44dd9f10e2263bb80"
+    },
+    "OAI.Combinatorics.Progressions.Linear.BooleanCubeCoordinateFrame": {
+      "path": "OAI/Combinatorics/Progressions/Linear/BooleanCubeCoordinateFrame.lean",
+      "sha256": "9578df646fb7369a8e90269ef8f158ec6b612ee0f8209dd20f2ebbc3804a6887"
+    },
+    "OAI.Combinatorics.Progressions.Linear.BoundedAdaptedBasis": {
+      "path": "OAI/Combinatorics/Progressions/Linear/BoundedAdaptedBasis.lean",
+      "sha256": "eb764d85dfe93450056475b3f09ac9b0dd98bd30bc56563436798ad18fed9bed"
+    },
+    "OAI.Combinatorics.Progressions.Linear.CentralBasisPowerCover": {
+      "path": "OAI/Combinatorics/Progressions/Linear/CentralBasisPowerCover.lean",
+      "sha256": "9b2dcf3e89811d9547c49e7683356985fc4b980a04823affd134554e2365ff43"
+    },
+    "OAI.Combinatorics.Progressions.Linear.CircleFejerKernel": {
+      "path": "OAI/Combinatorics/Progressions/Linear/CircleFejerKernel.lean",
+      "sha256": "c32846bea8910bf3c6fc1260e5a25ec8af2b7a3f7dea8c567d8a5cec8b004214"
+    },
+    "OAI.Combinatorics.Progressions.Linear.CoordinateProjectionBounds": {
+      "path": "OAI/Combinatorics/Progressions/Linear/CoordinateProjectionBounds.lean",
+      "sha256": "4e7a2ea50c746b53f8d9e9ab1795ae3cda34612275715467fc9c4963a2c07352"
+    },
+    "OAI.Combinatorics.Progressions.Linear.DualAdjointAction": {
+      "path": "OAI/Combinatorics/Progressions/Linear/DualAdjointAction.lean",
+      "sha256": "1dbebf8df2d897198570ab9f68c1e6fb14106d4a19c597f62c9a4621f8cce8e8"
+    },
+    "OAI.Combinatorics.Progressions.Linear.DualAdjointFiltration": {
+      "path": "OAI/Combinatorics/Progressions/Linear/DualAdjointFiltration.lean",
+      "sha256": "676afb47b11889e151b81bb7c8fd29423953e70cf2a43f4e4ac385e7ea383c24"
+    },
+    "OAI.Combinatorics.Progressions.Linear.DualDerivativeRemoval": {
+      "path": "OAI/Combinatorics/Progressions/Linear/DualDerivativeRemoval.lean",
+      "sha256": "825ff0df8549b42cb346f5b42cd250b7732740ec2ae0a70ee04db63e89793806"
+    },
+    "OAI.Combinatorics.Progressions.Linear.DualIdealSteps": {
+      "path": "OAI/Combinatorics/Progressions/Linear/DualIdealSteps.lean",
+      "sha256": "c6a6b29e576bae97e700db26d7a47e6072ebf112854408517f121006d270cc21"
+    },
+    "OAI.Combinatorics.Progressions.Linear.DualLieAlgebra": {
+      "path": "OAI/Combinatorics/Progressions/Linear/DualLieAlgebra.lean",
+      "sha256": "ed6c80a964375d0f3d74caf8f0095b9cfbcf8e56e2494d50cd84a44f8f372bf6"
+    },
+    "OAI.Combinatorics.Progressions.Linear.DynkinProjection": {
+      "path": "OAI/Combinatorics/Progressions/Linear/DynkinProjection.lean",
+      "sha256": "397c9a4675d07a1bfe765b6ec5146f7e4218daac85219a99d70e85b8da13362b"
+    },
+    "OAI.Combinatorics.Progressions.Linear.FiniteSpanRounding": {
+      "path": "OAI/Combinatorics/Progressions/Linear/FiniteSpanRounding.lean",
+      "sha256": "35ba941860dfae7c90d4c22a0f7c9bab1b27fe1a156b223f57b9c9b68ac3f0f6"
+    },
+    "OAI.Combinatorics.Progressions.Linear.FiniteSpanSum": {
+      "path": "OAI/Combinatorics/Progressions/Linear/FiniteSpanSum.lean",
+      "sha256": "af1ad579bad7f99eb72f304cad8c221ea76a8750850522aac6c0a7c3d4b6786f"
+    },
+    "OAI.Combinatorics.Progressions.Linear.FurstenbergWeissProjection": {
+      "path": "OAI/Combinatorics/Progressions/Linear/FurstenbergWeissProjection.lean",
+      "sha256": "d3196e2e249a229b4f45065b4ad81ed0d5ebe83946ce979afa1a0a207b2cd28f"
+    },
+    "OAI.Combinatorics.Progressions.Linear.ImageDefiningMatrix": {
+      "path": "OAI/Combinatorics/Progressions/Linear/ImageDefiningMatrix.lean",
+      "sha256": "5f3c7811f4c7dd728c1cbae08c07b36bff3f5c280741e85d2cc894dacd88d061"
+    },
+    "OAI.Combinatorics.Progressions.Linear.JointKernelCutoffBudget": {
+      "path": "OAI/Combinatorics/Progressions/Linear/JointKernelCutoffBudget.lean",
+      "sha256": "19eb9502514cbcb1d1524600bbc72e631ed5bb73c9d9cea246e6e34f1e95976d"
+    },
+    "OAI.Combinatorics.Progressions.Linear.KernelBudgetEnvelope": {
+      "path": "OAI/Combinatorics/Progressions/Linear/KernelBudgetEnvelope.lean",
+      "sha256": "d8c80e3f223954dbff35b00a01114ae773a893e22c8fbd279d958edc0954a512"
+    },
+    "OAI.Combinatorics.Progressions.Linear.KernelJetAllowances": {
+      "path": "OAI/Combinatorics/Progressions/Linear/KernelJetAllowances.lean",
+      "sha256": "3dc9d35d349add957c91f8ebe001acc207580095e10fa767254184fb30feb4c9"
+    },
+    "OAI.Combinatorics.Progressions.Linear.KernelMixtureControl": {
+      "path": "OAI/Combinatorics/Progressions/Linear/KernelMixtureControl.lean",
+      "sha256": "d2d1d507bada8ee7a431b6ba8babef266d2d2cdbe9b1ad5e2001aecb8d5ddfbc"
+    },
+    "OAI.Combinatorics.Progressions.Linear.KernelScaleIndependence": {
+      "path": "OAI/Combinatorics/Progressions/Linear/KernelScaleIndependence.lean",
+      "sha256": "b91995d4b4144b3976ef7bc4ae925698415a5c167e34b3fff55fc141e2fb9c62"
+    },
+    "OAI.Combinatorics.Progressions.Linear.LieWordProjection": {
+      "path": "OAI/Combinatorics/Progressions/Linear/LieWordProjection.lean",
+      "sha256": "a64cd647770b758952ecae0be62d2b733bce8d390214eb7df8f9ba6fbfcf49c9"
+    },
+    "OAI.Combinatorics.Progressions.Linear.MatrixSupInverse": {
+      "path": "OAI/Combinatorics/Progressions/Linear/MatrixSupInverse.lean",
+      "sha256": "5f0b4aa2a441194b0a938520b15b214e8faf3ee3b05eeaeff4aa31cf74e9e1e0"
+    },
+    "OAI.Combinatorics.Progressions.Linear.OrderedBasisCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Linear/OrderedBasisCoordinates.lean",
+      "sha256": "bf055419d377d68657a7b449f57bd66d328a405b943bc3c3610f9501a63f26bb"
+    },
+    "OAI.Combinatorics.Progressions.Linear.PivotKernelAllowances": {
+      "path": "OAI/Combinatorics/Progressions/Linear/PivotKernelAllowances.lean",
+      "sha256": "e2ee6d1694b8d011aa4a03aa61991d901bac2922e39405be2c2298ab0ff7ac67"
+    },
+    "OAI.Combinatorics.Progressions.Linear.PivotNormalizedMatrix": {
+      "path": "OAI/Combinatorics/Progressions/Linear/PivotNormalizedMatrix.lean",
+      "sha256": "cf27e7e1908832b626ec6030bd9520ed9d5f8e853e02b83c8af81f22e5c64291"
+    },
+    "OAI.Combinatorics.Progressions.Linear.QuotientProjectionCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Linear/QuotientProjectionCoordinates.lean",
+      "sha256": "e31854fb726943f917d04fd1cd8aa6685f707c4cdf3925874744e6deab756e92"
+    },
+    "OAI.Combinatorics.Progressions.Linear.RankHorizontalSymbol": {
+      "path": "OAI/Combinatorics/Progressions/Linear/RankHorizontalSymbol.lean",
+      "sha256": "46280c3f2c8eeb8f0561d024e0e7d3701943995706c12b619c55c5670113206a"
+    },
+    "OAI.Combinatorics.Progressions.Linear.RationalKernelBudget": {
+      "path": "OAI/Combinatorics/Progressions/Linear/RationalKernelBudget.lean",
+      "sha256": "ec3ee1dc9642469d9bc30e4caadf0135fc857ede56bc3f7386dc469af222dbaa"
+    },
+    "OAI.Combinatorics.Progressions.Linear.RationalMatrixSeparation": {
+      "path": "OAI/Combinatorics/Progressions/Linear/RationalMatrixSeparation.lean",
+      "sha256": "2fe235cb535b1d6a2d34e14d3b9d040070215cbb2b31e25bb49b3afcca67cee2"
+    },
+    "OAI.Combinatorics.Progressions.Linear.RationalSpanCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Linear/RationalSpanCoordinates.lean",
+      "sha256": "f145730cd73787c6ec4434f46643f74bcdab3b6af238e11d0f5be21570274e8d"
+    },
+    "OAI.Combinatorics.Progressions.Linear.RealDualRationalBounds": {
+      "path": "OAI/Combinatorics/Progressions/Linear/RealDualRationalBounds.lean",
+      "sha256": "d1365cb60e7d31a93eba800784604269151fd871bb143b75b524e5d41a902f9c"
+    },
+    "OAI.Combinatorics.Progressions.Linear.RealKernelJetInverse": {
+      "path": "OAI/Combinatorics/Progressions/Linear/RealKernelJetInverse.lean",
+      "sha256": "fa12abc244c9cdcc5b1d11cf509bad5e3ac52f6bdf587de757b7ffccbd3b4652"
+    },
+    "OAI.Combinatorics.Progressions.Linear.RealifiedTripleProjections": {
+      "path": "OAI/Combinatorics/Progressions/Linear/RealifiedTripleProjections.lean",
+      "sha256": "da9d3b8c8388f82652010f54c44694feee1cf06baf914f9bda690bab5896a2e1"
+    },
+    "OAI.Combinatorics.Progressions.Linear.RescaledLieBasis": {
+      "path": "OAI/Combinatorics/Progressions/Linear/RescaledLieBasis.lean",
+      "sha256": "a16025d9cf317021a61fbe359e21a152a8187f896787ab541a73446f79d18978"
+    },
+    "OAI.Combinatorics.Progressions.Linear.RootDifferenceMatrix": {
+      "path": "OAI/Combinatorics/Progressions/Linear/RootDifferenceMatrix.lean",
+      "sha256": "14eaff0c847979272ec420354c5f068bfabfe482501f55dda17512235d88ef50"
+    },
+    "OAI.Combinatorics.Progressions.Linear.SelectedCoordinateMatrix": {
+      "path": "OAI/Combinatorics/Progressions/Linear/SelectedCoordinateMatrix.lean",
+      "sha256": "9484245dcd8708761d57d93f188ce3f9c3f2de3bb5a019677d44453f7b9cd0cd"
+    },
+    "OAI.Combinatorics.Progressions.Linear.ShortVectorProjection": {
+      "path": "OAI/Combinatorics/Progressions/Linear/ShortVectorProjection.lean",
+      "sha256": "add0c6a1247613b3a638bb59d83703cbb4ac62512293cf9d3fc88bad992fde17"
+    },
+    "OAI.Combinatorics.Progressions.Linear.SpanKernelGenerators": {
+      "path": "OAI/Combinatorics/Progressions/Linear/SpanKernelGenerators.lean",
+      "sha256": "912238247f789bc730b73fbfed4eb9d4bd1f50f7bc7d785c0421b85980230f82"
+    },
+    "OAI.Combinatorics.Progressions.Linear.SpanSubsetBasis": {
+      "path": "OAI/Combinatorics/Progressions/Linear/SpanSubsetBasis.lean",
+      "sha256": "e767f3c09010b4a0be72c1987c7d3d36a482a79ff3cf2ba35d422e43d89c66af"
+    },
+    "OAI.Combinatorics.Progressions.Linear.SpanningFlagSelection": {
+      "path": "OAI/Combinatorics/Progressions/Linear/SpanningFlagSelection.lean",
+      "sha256": "0b028dac986598c8a07be0c09db6726b8248cdae5f6e1fad2e17d7f13009fbd8"
+    },
+    "OAI.Combinatorics.Progressions.Linear.SquarefreeBasisPermutation": {
+      "path": "OAI/Combinatorics/Progressions/Linear/SquarefreeBasisPermutation.lean",
+      "sha256": "7566a029c03585ebd92f910a516d52e7d1b9276182f276054ee387107bfda56e"
+    },
+    "OAI.Combinatorics.Progressions.Linear.WeightedFlagBasis": {
+      "path": "OAI/Combinatorics/Progressions/Linear/WeightedFlagBasis.lean",
+      "sha256": "5aff37d13fbe9b2b051fa8a0b05c54fd60a7dcf4c18c7d1b36a6550c55523971"
+    },
+    "OAI.Combinatorics.Progressions.Linear.WeightedLinearBaseProjection": {
+      "path": "OAI/Combinatorics/Progressions/Linear/WeightedLinearBaseProjection.lean",
+      "sha256": "0ff33dbc7bd6208819db709f5a2c5fc947bb7fe15641f64e75e8926619de56ff"
+    },
+    "OAI.Combinatorics.Progressions.Linear.WeightedTranslationBasisHeight": {
+      "path": "OAI/Combinatorics/Progressions/Linear/WeightedTranslationBasisHeight.lean",
+      "sha256": "9ec0057cb07d48e639e7c73bbfc23352d27fc9834643a7e1ad557b42c87459fa"
+    },
+    "OAI.Combinatorics.Progressions.Linear.ZSpanRounding": {
+      "path": "OAI/Combinatorics/Progressions/Linear/ZSpanRounding.lean",
+      "sha256": "7c018bd65ab7043a25f0228c3451de916d70f799b23323662ff714bf118e0fd2"
+    },
+    "OAI.Combinatorics.Progressions.Model": {
+      "path": "OAI/Combinatorics/Progressions/Model.lean",
+      "sha256": "52763fa12d214b32fef61e7b1a7ec179e5756cba9e82e27e6d53e19d926289eb"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHChartCutoffSmooth": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHChartCutoffSmooth.lean",
+      "sha256": "a494341af1a39ad40ffac5bc63ecddb7b09219ce5f664a8f4be40314e858f1af"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHConjugationLinear": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHConjugationLinear.lean",
+      "sha256": "b8ed280ee5df38ff5caadf905bf3e49a4372530aeec5fa2c6b3d4561b1020a60"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHDenominatorBudget": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHDenominatorBudget.lean",
+      "sha256": "4aeb204d8be73e646ddbe9cf683d7a0914efc2ef6bb0523bc30626562cc51583"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHLatticeImageGap": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHLatticeImageGap.lean",
+      "sha256": "56939bdcb3c0cf85f77ed496502c56b08dc3437eb1f3d2dd4280f6b973c093ec"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHNonlinearRemainder": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHNonlinearRemainder.lean",
+      "sha256": "2bdcadc991a4be6d304eea2ee7a8da37c7250e453a3af868ec81028c87da9744"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHOrderedReduction": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHOrderedReduction.lean",
+      "sha256": "1818e359fbf2179a62a0e44b48ad3f3e7fa2d17ba12bd12db43c7918fbb58e70"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHOuterGridChangeBasis": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHOuterGridChangeBasis.lean",
+      "sha256": "a04230387aa11b34603128844df7efe2dd44412ffbbf8e70fa4673459599199b"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHQuotientChart": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHQuotientChart.lean",
+      "sha256": "d321f4273a9b5cea3a0b242ce808f347bb0d4ea2455df8629bdc4d3786beba9c"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHQuotientLocalIsometry": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHQuotientLocalIsometry.lean",
+      "sha256": "2d5bbc1eceb968c78a8e37eccc5f2d8913e0855241dca3a1f6f2326bf3ea5777"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHSmoothChartPartition": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHSmoothChartPartition.lean",
+      "sha256": "8de7c7ba0f29a6a904c4517db6b2aca75fcdea7ec36c5e658d42445f8ceeae09"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHSmoothPartitionBudget": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHSmoothPartitionBudget.lean",
+      "sha256": "83e25df30f20929974f9a781fa7bd75fbe8bcf728a47bd9b5c745bbe06dda7bd"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHSubgroupGridExistence": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHSubgroupGridExistence.lean",
+      "sha256": "713ca709ce661ef3299de614b491c240c04929305b672bbed7c0f6561114a66c"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.BCHUniformQuotientCharts": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/BCHUniformQuotientCharts.lean",
+      "sha256": "38a947ecaeab7962459e4ed7d39b089eeb8fbb5bf886d58719b24714def1806e"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.ChosenBCHGrids": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/ChosenBCHGrids.lean",
+      "sha256": "33b7638100408989d0aa6954252991b58c374f41708b4c3bdc67d8ab8d3f9693"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.DegreeRankLieBrackets": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/DegreeRankLieBrackets.lean",
+      "sha256": "530cb1119b529cb358d1b17c1b2e744fb0bf814375dbf66d7eeea9027608632e"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.DualBCHDifferential": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/DualBCHDifferential.lean",
+      "sha256": "196d2c6ec1f128f65d2ab3f65790aa11c67aa066c86d3620496193625840d5f0"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.FactorwiseBCHCovers": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/FactorwiseBCHCovers.lean",
+      "sha256": "277f74a793a810cc0ac78f1479692a2d58f33c827a78451aa40fe71c530aced0"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.FilteredAdjointFirstBracket": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/FilteredAdjointFirstBracket.lean",
+      "sha256": "36d58e2cc1a91c3a360369e4daa13e762c9dfed33dbf5573d4180f1ee09c0f2e"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.LieBCHContinuity": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/LieBCHContinuity.lean",
+      "sha256": "39f710d225f71a9afca0f1ef0f5e9d29895ade17b7ecec37a50d1ef046c66b44"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.LinearBCHAbelian": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/LinearBCHAbelian.lean",
+      "sha256": "9765051638db72555f3c8a2fcf1dc4bed02511b2275a87ca84e29e8e56257c08"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.NilpotentBilinearExponential": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/NilpotentBilinearExponential.lean",
+      "sha256": "618b426624df02df69dfebb5c951da8daf87f6d690031db924b795650b14cebb"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.NiltestBasepointNormalization": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/NiltestBasepointNormalization.lean",
+      "sha256": "3e22fa6f81a8018d5db20756d0230fb4585e016a684fe111100b37ad17318609"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.PolynomialShearBCH": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/PolynomialShearBCH.lean",
+      "sha256": "861fa76b3eee3267935b20e32e056144684453457dd277e37971f6d18eab3232"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.PolynomialShearBCHOver": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/PolynomialShearBCHOver.lean",
+      "sha256": "349695b14fd72a1e16a31d34dae842c0e912b0f0334b76d1a04164e7eae77a6e"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.RationalBCHProducts": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/RationalBCHProducts.lean",
+      "sha256": "ae0a6e262a95512ffa430dce8cdff61184412c927f9ff95b22fed49c5d94f747"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.RealifiedBCHFiniteAtlas": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/RealifiedBCHFiniteAtlas.lean",
+      "sha256": "e451bf82de0ef62bfd195bf85593bcf2eff7cbecc1a95024ac2b4080be109b6a"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.SquarefreeBracketCoefficients": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/SquarefreeBracketCoefficients.lean",
+      "sha256": "5ade0856d6516787bd19ffd260549cb3ae1a0d79adc4a6387e1d3edcbd567909"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.SquarefreeBracketHeight": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/SquarefreeBracketHeight.lean",
+      "sha256": "66705c8197fa116069214249250bf5cd9323d46b3393c533bb753bbf40192300"
+    },
+    "OAI.Combinatorics.Progressions.Nilpotent.SquarefreeSupportBracket": {
+      "path": "OAI/Combinatorics/Progressions/Nilpotent/SquarefreeSupportBracket.lean",
+      "sha256": "37e574e1034d039fba2a370d5b1ab2b3817d02d37b309e42879a9dbd09ca4b5e"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.AdaptedBinomialFactorization": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/AdaptedBinomialFactorization.lean",
+      "sha256": "52594b6a978ac7ccdc87fc81ef26b2bb0afa6d0b5f06a51bee99dea404830b09"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.AdaptedPolynomialSubstitution": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/AdaptedPolynomialSubstitution.lean",
+      "sha256": "a79af72f6c100bf7e4c8c04f25c7fa0564dda50a0dd89402536aeebfef4442f9"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.AffinePhaseBias": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/AffinePhaseBias.lean",
+      "sha256": "530e384cd41a39c4cd9f4820ef48cca58f9102e7d863a218a63419f672db0cf5"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.AffineShiftPolynomial": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/AffineShiftPolynomial.lean",
+      "sha256": "c257e1f6ed9c037c627e2262b1e3aee00bb6bd390da0d8eb5ccd5f92b58d2b82"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.BinomialMomentAmplification": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/BinomialMomentAmplification.lean",
+      "sha256": "141ecbdf6d218ab574e5fa017682c7168a458bbdaed7f03d0c7ada7a14724036"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.BinomialPolynomial": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/BinomialPolynomial.lean",
+      "sha256": "d320885408c0428d38542b971d094bb7aa6a79cace24abb29b5adfce3bdf920b"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.BooleanBlockCoefficientPhase": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/BooleanBlockCoefficientPhase.lean",
+      "sha256": "1f2188f546ca6b2d10bbe1d54e722c1935ea03ce749b21843cea590142953e07"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.BooleanPolynomialBudget": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/BooleanPolynomialBudget.lean",
+      "sha256": "9374a19ba5ad3eddde6013735bbe22c6df3197264206660cd6695ea3d765a4bf"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.BoundedRealPolynomialBasis": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/BoundedRealPolynomialBasis.lean",
+      "sha256": "59f7998920bfdae43894aa5668b06eb9aab498d191da4e83983f3621c694baed"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.CRTPolynomialChargeBound": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/CRTPolynomialChargeBound.lean",
+      "sha256": "2edd7731e33bfde8847e874a96f54d59ed8c2943be62166509386fc98021286b"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.CRTPolynomialImage": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/CRTPolynomialImage.lean",
+      "sha256": "faf3bcc2546a4bfd4f2ffd49c374041b36bfb66c23d7343ee556627578243164"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.DegreeRankLayers": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/DegreeRankLayers.lean",
+      "sha256": "25e6e33ff22af89788e594f81196d95d528b98f2af3c96fbce274b317845cf53"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.DegreeRankSunflower": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/DegreeRankSunflower.lean",
+      "sha256": "25abde9f9fd51d8a111236e49ff56586e36b60c9ba3f8037ba646baafa90dda7"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.EmbeddedMatrixDeterminantPolynomial": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/EmbeddedMatrixDeterminantPolynomial.lean",
+      "sha256": "cb0e947ea0159e9276c6058a18c16b110e78ad7d1165f760110c780dd4c53cc0"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.ExtendedPolynomialValues": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/ExtendedPolynomialValues.lean",
+      "sha256": "c7d6b86dcfd0331f541fa3943b83223fd0fdcf5ba768e37155933a0f6c0845ba"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.IntegerPolynomialCongruence": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/IntegerPolynomialCongruence.lean",
+      "sha256": "16924236f091d8cd2c7620c5d8819dfb797711a98fc9029d2a7e48e56a8fd37e"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.IntegerPolynomialResidues": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/IntegerPolynomialResidues.lean",
+      "sha256": "1dc1df8bde38cb133e7aac8ca75746f213fa69a67ba1577bdabe976a7add2328"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.JointBooleanPolynomialPerturbation": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/JointBooleanPolynomialPerturbation.lean",
+      "sha256": "2760d88a6644c53aafa142663ad266a1d2fd40c6de2430210668da2db53e13b0"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.JointPolynomialDilationGrid": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/JointPolynomialDilationGrid.lean",
+      "sha256": "4b48e6c68b2f0be28c0a0de6243234a85f0689d52f0694ef61a56cc8692474c9"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.LieCoordinatePolynomials": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/LieCoordinatePolynomials.lean",
+      "sha256": "65a666ac8e254647a74b7edf0790939c7ae48f9789471e2d1b9f1e27a58c70be"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.MajorWeightedDegreeTools": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/MajorWeightedDegreeTools.lean",
+      "sha256": "607f983167b5f13df8bf4124ae8c46f37cda36f221507ca976a0cd9e3ad5c96f"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.MixedWeightedPolynomialRename": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/MixedWeightedPolynomialRename.lean",
+      "sha256": "d17bf1f37fc444f2d022bc5be2a4a4650cc878461599616c1b615a3526bc1274"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.MonomialArrayJet": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/MonomialArrayJet.lean",
+      "sha256": "8003fee6d1769f8d4cbe331c9c32d89b9e03610b9ca1ab4daf29320d5e60209f"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.MultiaffinePhaseDifference": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/MultiaffinePhaseDifference.lean",
+      "sha256": "1596b10a9124a64691c6e6ca170e795028d7553e025e5990a66867d7541932fc"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.MultiaffinePolynomialBias": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/MultiaffinePolynomialBias.lean",
+      "sha256": "ac86c7d42ba25658e21b2257466358bca84c95b5cbe3c19f05c8f1c27aa0391a"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.MultilinearSlicePolynomial": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/MultilinearSlicePolynomial.lean",
+      "sha256": "668fcc952f205c9ad2ad1f4d4636e3bb042098252ecfcf202f6fb0853575350e"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.NormalizedFiberPolynomialBound": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/NormalizedFiberPolynomialBound.lean",
+      "sha256": "c99a531718037004acf35e92347d6142c5374cd0cd5da37b7f5c935c5d1bcd8f"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.NormalizedRealPolynomialChart": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/NormalizedRealPolynomialChart.lean",
+      "sha256": "e53520686936164f0eb54774516c4607e74f952ad19455404a69afa67eb27f96"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PhasePreservingCauchySchwarz": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PhasePreservingCauchySchwarz.lean",
+      "sha256": "5b96fa6dc902554ef57a71591f3c1731f840b63f856b340c6f9bbb3cd92d5258"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialAnalyticDerivative": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialAnalyticDerivative.lean",
+      "sha256": "0b5197da8cdd722f3256b9807aa49030ca98468f9fef21c737229c054342cefa"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialCoefficientGridDenominator": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialCoefficientGridDenominator.lean",
+      "sha256": "578f8f4ddd99b7fc1ed7780f14176814ab8bbce4764eb4041c6fa83322cdbd37"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialCoefficientNormalization": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialCoefficientNormalization.lean",
+      "sha256": "4afcaa734bc96a75321667683e3aefaaa9992f63b5919424e0eac012c87dc735"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialColumnSupport": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialColumnSupport.lean",
+      "sha256": "99ad66f278be5250a902705fe73c981c6cba453f05b69f4f0c24a25e8cb16b6d"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialCoordinateSlice": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialCoordinateSlice.lean",
+      "sha256": "925c7013040c8f1791af8a0c0c529f033a9045501515a24d3316de5e2e055663"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialDensityBudget": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialDensityBudget.lean",
+      "sha256": "da6d117410f6fea8bd7a6e8e769c6f7966e0a9e9995c4f6d5064b6fbc1fb4be8"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivativeSeparation": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialDerivativeSeparation.lean",
+      "sha256": "40310bed0b25e9d7260ef0fe485ba1ecd47676d27bfd9a71cd1517125bbdf02b"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialDeterminantDegree": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialDeterminantDegree.lean",
+      "sha256": "e7be2695afe7a426396f81c8a8a015f693b80cfa6dd5a30b1241298430d0af8d"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialDeterminantDerivativeBound": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialDeterminantDerivativeBound.lean",
+      "sha256": "5cb5ab185bfd77aedd6d57b2dd3a3001a13d5ada6c7853d90c46eb69f16f8618"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialDilation": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialDilation.lean",
+      "sha256": "c3a35ff4ea36cd63e026944fca2754df0688bb251da592627fffec13ecd2acf0"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialIntegerInputs": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialIntegerInputs.lean",
+      "sha256": "f4196799c0c416de548e217a0c7f0ede1fc01861e08969e7bb19151f781aedec"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialKernelValues": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialKernelValues.lean",
+      "sha256": "10b3eba6513628c32473b803f80d3fa4cad0cacd6ccdb240d59e76c31b389723"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialParameterContinuity": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialParameterContinuity.lean",
+      "sha256": "bbbcc2752f10d5b0dae494d64f017b88d000da57865f87a2ca5ab37f6254d995"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialPatchProductBudget": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialPatchProductBudget.lean",
+      "sha256": "6086480b3b8a0f612e396bbf2243c13114196484503e886a852365af3ba8d5a3"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialPrimitive": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialPrimitive.lean",
+      "sha256": "6603e8c9bea09522b05cd42930176d0e85060b73a856e0187722465e399a6cfb"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialShearAffineExponential": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialShearAffineExponential.lean",
+      "sha256": "c2d427af33752bc731d4cda931ba6f9497e34707d9d142dc31890a1b43e16c5f"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialShearFactorialIntegrality": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialShearFactorialIntegrality.lean",
+      "sha256": "fa8e5f90ba16eb5a15066eb70d58c25a0f43ff33550b5ed68558bb7ebc83d01c"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialShearRationalFiltration": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialShearRationalFiltration.lean",
+      "sha256": "4ddaac2a63d010ab66e2f132b674ee2435ea6af9268d0268b8b5e28b79e6314c"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialShearRealGroup": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialShearRealGroup.lean",
+      "sha256": "42f33cdfb6fe39704a3c644d616298205e34ac66dfb0abb4653dba20f43fbf3e"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialSmooth": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialSmooth.lean",
+      "sha256": "77dd9f8071d826c26bb252dcc98628940ab505d9255d26344917c7783d35a460"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialSublevelThresholdBudget": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialSublevelThresholdBudget.lean",
+      "sha256": "a48e00709337d830fa53f7cb22b0a38e50de84efdde28ad5024b620e202ba50c"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialSymbolicShearWeightedDegree": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialSymbolicShearWeightedDegree.lean",
+      "sha256": "7d64bf71c64ece8384523729830c79212902eabb19981b373274bc7bacf46668"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialTermCount": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialTermCount.lean",
+      "sha256": "e7e70d6d084e476c095cafb887b67234c2c48c26fbf6e9d4c06caf1ecdaca629"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialTranslationActionCompatibility": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialTranslationActionCompatibility.lean",
+      "sha256": "2f2ff2046ac5ebd40ec1167c4f55d38600ce8d99f3f9f6d59a16796969b310b2"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialTranslationSeries": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialTranslationSeries.lean",
+      "sha256": "433817c731f266543f5c08399460d02eb4f75d73b3aea3dea2c837307c49abfd"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialValueCoefficient": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PolynomialValueCoefficient.lean",
+      "sha256": "6bde2a8ddde97997a3e9fc55480f70fddeb307c7ab4dbb035568d53261df5c20"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PrincipalMonomialScale": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/PrincipalMonomialScale.lean",
+      "sha256": "df08696f474b99230d30be888e5f5c9e97b3f2a16ea9dc0d0899f0e166926902"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.RankPolynomialFactorization": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/RankPolynomialFactorization.lean",
+      "sha256": "b24eb954592fe339eca687a458d5ee4a70b148a04fa7ba4bd1d1aa017b7d6f44"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.RationalPolynomialGrid": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/RationalPolynomialGrid.lean",
+      "sha256": "855a96c54a61de59287e748d134cad559f054c0457ca56444d54b1d336757bf2"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.RawCanonicalNormalizedPolynomial": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/RawCanonicalNormalizedPolynomial.lean",
+      "sha256": "d19402ca8c034e2d15b3663a1fe6c2582cad355cba456055039fe7dd53009928"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.RealAdaptedPolynomialGroup": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/RealAdaptedPolynomialGroup.lean",
+      "sha256": "7e60c449034933d4c1e9b918811978be078fa22e40cdd248f8d0386792babf29"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.RealBlockPolynomialEval": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/RealBlockPolynomialEval.lean",
+      "sha256": "26a1dd7c602939755ea2a0d6a73d6542a03f89f4c7e2ccbad3178ae7eb382a17"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.RealGradedSymbolPolynomial": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/RealGradedSymbolPolynomial.lean",
+      "sha256": "a057232b448aa92cd4bef97fe2e64485493d4998235c6a6149943ea9d9a73b98"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.RealPolynomialChartSubstitution": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/RealPolynomialChartSubstitution.lean",
+      "sha256": "f5d5e4b6e8eaee5c265c603291f478d918c82ac560986c251b22cbf8d5ef923b"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.RealPolynomialEvaluationMass": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/RealPolynomialEvaluationMass.lean",
+      "sha256": "e66503074f4a6fb6d17f0f344167c464befaf4acfd0ac069fbeaff9705bfb352"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.RealPolynomialMassBox": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/RealPolynomialMassBox.lean",
+      "sha256": "83e08c0ad70d0fb2b16f3c1e24805d379121ac17042fbe3f91bee38c53fe8334"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.ScalarCubeMinorPolynomial": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/ScalarCubeMinorPolynomial.lean",
+      "sha256": "cd8e21cfde33cbc1546af579ee3e1f00fb002e2ad62b0ee77d2b90406f314e7f"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.ScaledPolynomialDualBounds": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/ScaledPolynomialDualBounds.lean",
+      "sha256": "547ea9ad8e2178e30e6ad6036bfae921425cd276742febf52502d9298a507b46"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.ShiftedPolynomialBasis": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/ShiftedPolynomialBasis.lean",
+      "sha256": "1b67145266061ccffee65255d1644b0b42fb40a31fa2359047342bfffa225b82"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.ShiftedPolynomialIdeals": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/ShiftedPolynomialIdeals.lean",
+      "sha256": "de11cde347ab291dd4c1a379990b1c5a71f94ca755c85fd35df52a6d1e5a314d"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.SitePhaseCauchySchwarz": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/SitePhaseCauchySchwarz.lean",
+      "sha256": "c43ca38c025baa37a44c5ebdc9934ecde22012f5d9924b3be192b6f5e6d5bdb3"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.SquarefreeBlockDegree": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/SquarefreeBlockDegree.lean",
+      "sha256": "983593134d5542cfeac02b8d092acc4afd3fec4029b37fbc396d76df73cf0e13"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.SquarefreePolynomialPermutation": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/SquarefreePolynomialPermutation.lean",
+      "sha256": "e532ac7d3d1c3850d623442748385f0b08454cfc68898a80f5e49b175f1d0ba7"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.SquarefreePolynomialQuotient": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/SquarefreePolynomialQuotient.lean",
+      "sha256": "ee133ea19ac45ea2cf4b5743e69b550bee331924ceb67b89e829443d7ba33764"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.SquarefreeTotalDegree": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/SquarefreeTotalDegree.lean",
+      "sha256": "ed605ba41ae168482a4b622d602235709f3c920e883d741554318b8ab27d4579"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.TranslationPhaseQuotient": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/TranslationPhaseQuotient.lean",
+      "sha256": "925300024721a2f0cd89c3a5a0d2c612fa45b540d1398fc38ba4e4b0e4bee0ee"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.UnivariatePolynomialSublevel": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/UnivariatePolynomialSublevel.lean",
+      "sha256": "414ffbfed662c53b2428c9c0029cb4536f0604187b34bdcaae50c1d5b3dfafa7"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.VectorPolynomialReconstruction": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/VectorPolynomialReconstruction.lean",
+      "sha256": "0bed327a49bb4e8038e62eca8e3abbcc6e2fb1b567eb4fb5dc46d879f69efd1d"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.WeightedLinearPolynomialRestriction": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/WeightedLinearPolynomialRestriction.lean",
+      "sha256": "45c6b2c17c5231c71ce826bc744a6f125c9f963cbe22f9f12c89254cfbc6089a"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.WeightedPolynomialEndomorphisms": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/WeightedPolynomialEndomorphisms.lean",
+      "sha256": "124310b59759fe0b71cc5e4142ba4770d3c3a601d0cba07610dc9f51317d3ded"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.WeightedPolynomialPotential": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/WeightedPolynomialPotential.lean",
+      "sha256": "cd87a49790fe848cb5f7482dc82441a9613fa666785aa70e43e159b158a31c1e"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.WeightedPolynomialPotentialExtension": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/WeightedPolynomialPotentialExtension.lean",
+      "sha256": "ad96f2b05ebd74d011ac9681be8253e4f8cd2fa1b246c65677e7d4e7c4c162e1"
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.WeightedPolynomialRestriction": {
+      "path": "OAI/Combinatorics/Progressions/Polynomial/WeightedPolynomialRestriction.lean",
+      "sha256": "a354aeb51751bfca6b9ee6073aa908d91a84eb6f735426e8a2e8d027ed15106a"
+    },
+    "OAI.Combinatorics.Progressions.Probability.BinaryDensity": {
+      "path": "OAI/Combinatorics/Progressions/Probability/BinaryDensity.lean",
+      "sha256": "5bf9610f7da7dd4d4b158a38b83c3fb5d8a359fa3ca7f2e8ebe739c2c8548168"
+    },
+    "OAI.Combinatorics.Progressions.Probability.BooleanJetMassBudget": {
+      "path": "OAI/Combinatorics/Progressions/Probability/BooleanJetMassBudget.lean",
+      "sha256": "b06fe02434c6b3c642837ce764f8b6d065d8fd79e7d1055ba9f05a950a046c73"
+    },
+    "OAI.Combinatorics.Progressions.Probability.BoundedSmoothTestDensity": {
+      "path": "OAI/Combinatorics/Progressions/Probability/BoundedSmoothTestDensity.lean",
+      "sha256": "f5be83c4c14fc3e9357858fc4296ee797e27a76c619aa3f896d6d01679fced78"
+    },
+    "OAI.Combinatorics.Progressions.Probability.BoxCokernelProbability": {
+      "path": "OAI/Combinatorics/Progressions/Probability/BoxCokernelProbability.lean",
+      "sha256": "6c3e603e0db67ba19f78967942ba9e560a7189f936673b292059c3323ac0fd72"
+    },
+    "OAI.Combinatorics.Progressions.Probability.ComplexPartitionMixture": {
+      "path": "OAI/Combinatorics/Progressions/Probability/ComplexPartitionMixture.lean",
+      "sha256": "922ee7bd08e081484f38a69a7c6cb1524c434bc52bfe768fe192bcdea9924433"
+    },
+    "OAI.Combinatorics.Progressions.Probability.DenseProductDensity": {
+      "path": "OAI/Combinatorics/Progressions/Probability/DenseProductDensity.lean",
+      "sha256": "0103dc370c1ac6ba6e21afa6c62aabd35a3d1867f2e5547d2404547581f044f3"
+    },
+    "OAI.Combinatorics.Progressions.Probability.DensityMixtureAELaw": {
+      "path": "OAI/Combinatorics/Progressions/Probability/DensityMixtureAELaw.lean",
+      "sha256": "f91047849cd6ea3063d6597891e9fcc3045d1f00af375bbcfe6d8cdb6ed9b794"
+    },
+    "OAI.Combinatorics.Progressions.Probability.DiagonalDensityTransport": {
+      "path": "OAI/Combinatorics/Progressions/Probability/DiagonalDensityTransport.lean",
+      "sha256": "78e2cf499a6aafba5af72e7b8674488308dbf8c8dd0de099618d63f8233a63c2"
+    },
+    "OAI.Combinatorics.Progressions.Probability.DiagonalImageDensity": {
+      "path": "OAI/Combinatorics/Progressions/Probability/DiagonalImageDensity.lean",
+      "sha256": "393c6cf95b781257398c8a1099735c2fa6ffa6f243282967ee6b18df3b618a99"
+    },
+    "OAI.Combinatorics.Progressions.Probability.FiniteArrayMeasure": {
+      "path": "OAI/Combinatorics/Progressions/Probability/FiniteArrayMeasure.lean",
+      "sha256": "7856c41cd5347269ea37b885882e75fb22e1f5c723bba728bc0f43565411f4a9"
+    },
+    "OAI.Combinatorics.Progressions.Probability.FiniteConditionedMass": {
+      "path": "OAI/Combinatorics/Progressions/Probability/FiniteConditionedMass.lean",
+      "sha256": "d396ad62a6bf5411e374b57ab0bdfe7e490f06f1bdf539f976c6cea8e4a00bb6"
+    },
+    "OAI.Combinatorics.Progressions.Probability.FiniteMassErrorSelection": {
+      "path": "OAI/Combinatorics/Progressions/Probability/FiniteMassErrorSelection.lean",
+      "sha256": "beefacbebe887ef27b9b769de5dcec02a460bcb7dc12c7ea68d30738718450dd"
+    },
+    "OAI.Combinatorics.Progressions.Probability.FiniteProbabilityLipschitz": {
+      "path": "OAI/Combinatorics/Progressions/Probability/FiniteProbabilityLipschitz.lean",
+      "sha256": "bf23b37bd653d84121c886f8a8d69cc9943827e5b4e55a67e7c24f792e1aef8a"
+    },
+    "OAI.Combinatorics.Progressions.Probability.LargeCokernelProbability": {
+      "path": "OAI/Combinatorics/Progressions/Probability/LargeCokernelProbability.lean",
+      "sha256": "fdcf27be67a1139a6a7ed1548249e69171fd15143b195bbc56e711b992ca86d2"
+    },
+    "OAI.Combinatorics.Progressions.Probability.NormalizedDensityL1": {
+      "path": "OAI/Combinatorics/Progressions/Probability/NormalizedDensityL1.lean",
+      "sha256": "a81710e7e279d705b8b37d566b9beca9537ffb16000803e04a8990cfab040c00"
+    },
+    "OAI.Combinatorics.Progressions.Probability.NormalizedJetDensitySupport": {
+      "path": "OAI/Combinatorics/Progressions/Probability/NormalizedJetDensitySupport.lean",
+      "sha256": "f1c3f144e9dbffc3d0addfa5dcbb8aa7803588d4383c127e1b2d87109103e3f9"
+    },
+    "OAI.Combinatorics.Progressions.Probability.PairedProductDensity": {
+      "path": "OAI/Combinatorics/Progressions/Probability/PairedProductDensity.lean",
+      "sha256": "5c5eec16d9189a61407565d7f24aa9e503149eef4039edb2e32ef7196979f740"
+    },
+    "OAI.Combinatorics.Progressions.Probability.PairedProductLaw": {
+      "path": "OAI/Combinatorics/Progressions/Probability/PairedProductLaw.lean",
+      "sha256": "a8dce943c700ef42f03e5894e28a98134d2beeb3223d15066d3362b64d5c8916"
+    },
+    "OAI.Combinatorics.Progressions.Probability.PivotDensityCap": {
+      "path": "OAI/Combinatorics/Progressions/Probability/PivotDensityCap.lean",
+      "sha256": "2b30345e38df308acc73bd4f074e35721a09fbe3995a326997bc10c789e32add"
+    },
+    "OAI.Combinatorics.Progressions.Probability.PivotDensitySupport": {
+      "path": "OAI/Combinatorics/Progressions/Probability/PivotDensitySupport.lean",
+      "sha256": "b5f1c249a776b1a219d643a5403e26e289c0f51b8a2253012170e0aad8c57693"
+    },
+    "OAI.Combinatorics.Progressions.Probability.RestrictedComplexChartDensityComparison": {
+      "path": "OAI/Combinatorics/Progressions/Probability/RestrictedComplexChartDensityComparison.lean",
+      "sha256": "ba82a4ea4ab4c018a15bb0e9817a5c23a29b0fab834e55036e8fec99fa34eb5b"
+    },
+    "OAI.Combinatorics.Progressions.Probability.SampledWeightCellLaw": {
+      "path": "OAI/Combinatorics/Progressions/Probability/SampledWeightCellLaw.lean",
+      "sha256": "db8e5528bc35a5f5f3ddb854550c2cab758443cfc7ebdb643936672224cc0eef"
+    },
+    "OAI.Combinatorics.Progressions.Probability.ScalarCubeBoundaryMass": {
+      "path": "OAI/Combinatorics/Progressions/Probability/ScalarCubeBoundaryMass.lean",
+      "sha256": "5fb674bc9d291edc57cf7e525a824d28555f4d597f6821f38910cea1a77b298a"
+    },
+    "OAI.Combinatorics.Progressions.Probability.ScalarCubeDensityBudget": {
+      "path": "OAI/Combinatorics/Progressions/Probability/ScalarCubeDensityBudget.lean",
+      "sha256": "089b1fa83029d53d57ca878b98269c74a7d64072cd3a077f6368be7ad89581a6"
+    },
+    "OAI.Combinatorics.Progressions.Probability.ScalarCubeDomainDensity": {
+      "path": "OAI/Combinatorics/Progressions/Probability/ScalarCubeDomainDensity.lean",
+      "sha256": "319c16c0b75f0cf94f8a7b3ebe4575e2455d87e08934450cff39b973f0d9e7fd"
+    },
+    "OAI.Combinatorics.Progressions.Probability.ScaledCubeProductMeasure": {
+      "path": "OAI/Combinatorics/Progressions/Probability/ScaledCubeProductMeasure.lean",
+      "sha256": "fcd49cf899593b6497fba897c86107bb562734aac581bce5a8a15f4d253758d8"
+    },
+    "OAI.Combinatorics.Progressions.Probability.ScaledInputProbability": {
+      "path": "OAI/Combinatorics/Progressions/Probability/ScaledInputProbability.lean",
+      "sha256": "12d3dddddb6bec3c97ca80b38f4895702c4704ea7a517f234488ffa65d0580f4"
+    },
+    "OAI.Combinatorics.Progressions.Probability.ShiftedProductCoordinateLaw": {
+      "path": "OAI/Combinatorics/Progressions/Probability/ShiftedProductCoordinateLaw.lean",
+      "sha256": "ccb5da4511463a399099546c60a1bfee21fe3c3216433e81303479dfe6871071"
+    },
+    "OAI.Combinatorics.Progressions.Probability.ShiftedSmoothLawBounds": {
+      "path": "OAI/Combinatorics/Progressions/Probability/ShiftedSmoothLawBounds.lean",
+      "sha256": "0a944623b4df3d3cd0e0e2013279c5ba10f98c515f0980395f9e1c76a3d10b48"
+    },
+    "OAI.Combinatorics.Progressions.Probability.ShiftedSmoothProductLaw": {
+      "path": "OAI/Combinatorics/Progressions/Probability/ShiftedSmoothProductLaw.lean",
+      "sha256": "6541af30ce36b76644eb1fcae643f6ca8e2aef1c3cfa98dcb8ceb2af92ea7db6"
+    },
+    "OAI.Combinatorics.Progressions.Probability.SigmaProductMeasure": {
+      "path": "OAI/Combinatorics/Progressions/Probability/SigmaProductMeasure.lean",
+      "sha256": "d1c6896570edc950f1d84ca75c621cd97547b8e4f091787a06a65c739ede4d41"
+    },
+    "OAI.Combinatorics.Progressions.Probability.SlicedPairDensity": {
+      "path": "OAI/Combinatorics/Progressions/Probability/SlicedPairDensity.lean",
+      "sha256": "95ad84861c8cd199271436004b3f676b15d8f36797cf28f6fe91412533a88036"
+    },
+    "OAI.Combinatorics.Progressions.Probability.SlicedRemainderDensityFamily": {
+      "path": "OAI/Combinatorics/Progressions/Probability/SlicedRemainderDensityFamily.lean",
+      "sha256": "fa10c420ae4838471bed2dfa77fbacd5567945649165ef238cfc36d204e7d875"
+    },
+    "OAI.Combinatorics.Progressions.Probability.SmoothProbabilityProfile": {
+      "path": "OAI/Combinatorics/Progressions/Probability/SmoothProbabilityProfile.lean",
+      "sha256": "bcdf060a7ec99981dab4ca5cc29479950844d4bd4b8264b5c1516f548c0921e1"
+    },
+    "OAI.Combinatorics.Progressions.Probability.SpatialProductDensity": {
+      "path": "OAI/Combinatorics/Progressions/Probability/SpatialProductDensity.lean",
+      "sha256": "1e33b0ab664c35751924b68762487f152cb92a63b102b6dcc2a81c139e7a3f19"
+    },
+    "OAI.Combinatorics.Progressions.Probability.SymmetricCubeMeasure": {
+      "path": "OAI/Combinatorics/Progressions/Probability/SymmetricCubeMeasure.lean",
+      "sha256": "1184f0ba5d62c1904c2912f11c9e3d6ac47cd103d533d894a96a35dafbae9d9b"
+    },
+    "OAI.Combinatorics.Progressions.Probability.TranslatedMixtureL1": {
+      "path": "OAI/Combinatorics/Progressions/Probability/TranslatedMixtureL1.lean",
+      "sha256": "1992443a33e7a9b678c091f157b6227a6d9a2b3a26907e313078726666897e2d"
+    },
+    "OAI.Combinatorics.Progressions.Probability.UniformHomExpectation": {
+      "path": "OAI/Combinatorics/Progressions/Probability/UniformHomExpectation.lean",
+      "sha256": "76252f9da16f63ecab193ca69ee002a95f4f9ba681c02531dedf5dd3ed1bcafb"
+    },
+    "OAI.Combinatorics.Progressions.Probability.UniformSelectedCoefficientProductLaw": {
+      "path": "OAI/Combinatorics/Progressions/Probability/UniformSelectedCoefficientProductLaw.lean",
+      "sha256": "de486a2ed50804eb7553764aabe8fbc9fce2dd9f71ac0b9f863f9cb167312d55"
+    },
+    "OAI.Combinatorics.Progressions.Results.Basic": {
+      "path": "OAI/Combinatorics/Progressions/Results/Basic.lean",
+      "sha256": "96308c84423c4dc5ed7343397cc5c14a3d993afe22d3afc4d6a7a8365c903ecc"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.BooleanProductSampler": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/BooleanProductSampler.lean",
+      "sha256": "505f1bc2aa7547af812f520438fc8bcffad7e4ead138dbe9db7cfd9942655345"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.BooleanSamplerMeasurability": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/BooleanSamplerMeasurability.lean",
+      "sha256": "113cc3792ce428d76a3ef45656bb2c2d9e6d82f3e742a911364263812a5a1149"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.CanonicalRawSampler": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/CanonicalRawSampler.lean",
+      "sha256": "b4319b05feb060f470a174b0aca787b57729b6c8b7625ae5a51fb625cf7146f9"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.CanonicalSamplerTuple": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/CanonicalSamplerTuple.lean",
+      "sha256": "1c59a1102ec225a17b40ebd2e1ac63c1a3673801fcc6f4fb9bdfef1be26f95b7"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.ConjugationGridBudget": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/ConjugationGridBudget.lean",
+      "sha256": "e509d708aed91bd2fccd70615228089014b704e63d56ecd25cffeeb369b2bc6f"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.DerivativeGridPoints": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/DerivativeGridPoints.lean",
+      "sha256": "fc0f2559e376fee3b40d6a4d765926446f1112dd4604d849fe841274d64f09b8"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.FrozenPartitionScore": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/FrozenPartitionScore.lean",
+      "sha256": "0627a6a060aa81079b249235bcab83df1991723bb34b51a3316186ff4414429c"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.IntegralGridFunctional": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/IntegralGridFunctional.lean",
+      "sha256": "64f4658389b0a7159583f9038afd21ffd2e66e5af3b24f33917d4f6488ef75b1"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.ModelScoreComparison": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/ModelScoreComparison.lean",
+      "sha256": "2a8362499f56546220352270cf0687902b0750af983ef29c4238a0173cc41b1d"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.NormalizedRealBoxHalfGrid": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/NormalizedRealBoxHalfGrid.lean",
+      "sha256": "ed6a06b1c74c6e998e679d8c40ac27e64f9975af10610760844861d17aeeabc3"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.PivotGridErrorTransfer": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/PivotGridErrorTransfer.lean",
+      "sha256": "8b0f4e39033910163570419aa670f9d03339a0505455867ca11535114255fb90"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.RationalSpanGrid": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/RationalSpanGrid.lean",
+      "sha256": "7ebb5353a90d9cb26fe872b80fc370c1cdddd5d1cf2c286104eb0e50a91d1420"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.RealGridRationalLift": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/RealGridRationalLift.lean",
+      "sha256": "e23cde4bd98ad0538ba04ac2505ef254dfe4ce65d204a72898a196fe3db01202"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.RealGridSeparation": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/RealGridSeparation.lean",
+      "sha256": "5e81a3daec83e22867bdbe2cf58d8a8b3eb7bdefa53195e4021e119fcbadc6b0"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.ScalarCubeGridCoordinates": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/ScalarCubeGridCoordinates.lean",
+      "sha256": "230743ae242d42f27e59767875ec9bd64a22bd5b986446a1e983559c794924d9"
+    },
+    "OAI.Combinatorics.Progressions.Sampling.SmoothSplitSampling": {
+      "path": "OAI/Combinatorics/Progressions/Sampling/SmoothSplitSampling.lean",
+      "sha256": "1260913e389050f4f5572260665749aae0b509b2b765def8e7eb90e0b3291ad5"
+    }
+  },
+  "official_added_paths": [
+    "OAI/Combinatorics/Progressions/Dynamics/ConjugationDenominatorBudget.lean",
+    "OAI/Combinatorics/Progressions/Dynamics/ModularDecayBudget.lean",
+    "OAI/Combinatorics/Progressions/Dynamics/MultiaffineBiasBudget.lean",
+    "OAI/Combinatorics/Progressions/Dynamics/NativeHorizontalLiftBudget.lean",
+    "OAI/Combinatorics/Progressions/Dynamics/RationalLieQuotientBudget.lean",
+    "OAI/Combinatorics/Progressions/Dynamics/ReconstructionBudget.lean",
+    "OAI/Combinatorics/Progressions/Estimates/AnnihilatorIntervalBound.lean",
+    "OAI/Combinatorics/Progressions/Estimates/BlockSubsetCount.lean",
+    "OAI/Combinatorics/Progressions/Estimates/BoundedFreeWords.lean",
+    "OAI/Combinatorics/Progressions/Estimates/BoundedRightInverseMinor.lean",
+    "OAI/Combinatorics/Progressions/Estimates/CircleFejerAverage.lean",
+    "OAI/Combinatorics/Progressions/Estimates/CoefficientRowReindex.lean",
+    "OAI/Combinatorics/Progressions/Estimates/ContinuousCosetMap.lean",
+    "OAI/Combinatorics/Progressions/Estimates/ControlledSurjectiveReconstruction.lean",
+    "OAI/Combinatorics/Progressions/Estimates/DeterminantCutoffScale.lean",
+    "OAI/Combinatorics/Progressions/Estimates/DiscreteMinorThreshold.lean",
+    "OAI/Combinatorics/Progressions/Estimates/FilteredLieTree.lean",
+    "OAI/Combinatorics/Progressions/Estimates/FiniteEventUnion.lean",
+    "OAI/Combinatorics/Progressions/Estimates/FiniteProductDomination.lean",
+    "OAI/Combinatorics/Progressions/Estimates/FiniteProductImageDecay.lean",
+    "OAI/Combinatorics/Progressions/Estimates/FiniteSeriesCoefficientBounds.lean",
+    "OAI/Combinatorics/Progressions/Estimates/FlatWeightedComparison.lean",
+    "OAI/Combinatorics/Progressions/Estimates/FourBalancedRelations.lean",
+    "OAI/Combinatorics/Progressions/Estimates/FrozenCosetVariation.lean",
+    "OAI/Combinatorics/Progressions/Estimates/ImageRepresentatives.lean",
+    "OAI/Combinatorics/Progressions/Estimates/IndependentFiniteConditioning.lean",
+    "OAI/Combinatorics/Progressions/Estimates/LargeCokernelReciprocalBound.lean",
+    "OAI/Combinatorics/Progressions/Estimates/LieTreeMultidegree.lean",
+    "OAI/Combinatorics/Progressions/Estimates/LowerStepSquare.lean",
+    "OAI/Combinatorics/Progressions/Estimates/ModularTagGap.lean",
+    "OAI/Combinatorics/Progressions/Estimates/MultiaffineBias.lean",
+    "OAI/Combinatorics/Progressions/Estimates/MultiaffineExpansion.lean",
+    "OAI/Combinatorics/Progressions/Estimates/MultiaffineOptionExpansion.lean",
+    "OAI/Combinatorics/Progressions/Estimates/MultilinearFirstOrder.lean",
+    "OAI/Combinatorics/Progressions/Estimates/NativeModelOrbit.lean",
+    "OAI/Combinatorics/Progressions/Estimates/NormalizedImageMask.lean",
+    "OAI/Combinatorics/Progressions/Estimates/NormalizedJetColumns.lean",
+    "OAI/Combinatorics/Progressions/Estimates/OrbitBasepointNormalization.lean",
+    "OAI/Combinatorics/Progressions/Estimates/PeelingDecomposition.lean",
+    "OAI/Combinatorics/Progressions/Estimates/PeriodicIsometricAction.lean",
+    "OAI/Combinatorics/Progressions/Estimates/PetalComparisonTree.lean",
+    "OAI/Combinatorics/Progressions/Estimates/PivotOutputLipschitz.lean",
+    "OAI/Combinatorics/Progressions/Estimates/PointwiseNormalization.lean",
+    "OAI/Combinatorics/Progressions/Estimates/PowerIndexFromOrderedGenerators.lean",
+    "OAI/Combinatorics/Progressions/Estimates/PrimitiveExtension.lean",
+    "OAI/Combinatorics/Progressions/Estimates/ProductDifferenceBias.lean",
+    "OAI/Combinatorics/Progressions/Estimates/QuotientInducedMark.lean",
+    "OAI/Combinatorics/Progressions/Estimates/RationalRealSubgroup.lean",
+    "OAI/Combinatorics/Progressions/Estimates/RealSymbolRepresentativeSplitting.lean",
+    "OAI/Combinatorics/Progressions/Estimates/RealifiedReconstruction.lean",
+    "OAI/Combinatorics/Progressions/Estimates/RealifiedTripleLayers.lean",
+    "OAI/Combinatorics/Progressions/Estimates/RectangularDetExpansion.lean",
+    "OAI/Combinatorics/Progressions/Estimates/RootDifferencePeriod.lean",
+    "OAI/Combinatorics/Progressions/Estimates/RowShiftTopSymbol.lean",
+    "OAI/Combinatorics/Progressions/Estimates/ScalarCubeCokernelCutoff.lean",
+    "OAI/Combinatorics/Progressions/Estimates/SelectedCoefficientEvaluation.lean",
+    "OAI/Combinatorics/Progressions/Estimates/ShiftedSmoothSelectedMarginal.lean",
+    "OAI/Combinatorics/Progressions/Estimates/SmoothProfileReindexing.lean",
+    "OAI/Combinatorics/Progressions/Estimates/SplitPivotParameter.lean",
+    "OAI/Combinatorics/Progressions/Estimates/SquareGradedRelative.lean",
+    "OAI/Combinatorics/Progressions/Estimates/SquarefreeAdaptedLieAlgebra.lean",
+    "OAI/Combinatorics/Progressions/Estimates/SquarefreePermutationFiltration.lean",
+    "OAI/Combinatorics/Progressions/Estimates/SquarefreeSplitCount.lean",
+    "OAI/Combinatorics/Progressions/Estimates/StrideProductBounds.lean",
+    "OAI/Combinatorics/Progressions/Estimates/SymbolAbsorptionBounds.lean",
+    "OAI/Combinatorics/Progressions/Estimates/SymmetricIntervalDilation.lean",
+    "OAI/Combinatorics/Progressions/Estimates/TaggedZModOrderBounds.lean",
+    "OAI/Combinatorics/Progressions/Estimates/UniformHomFiberWeights.lean",
+    "OAI/Combinatorics/Progressions/Estimates/VectorAlgebraicMajorDecomposition.lean",
+    "OAI/Combinatorics/Progressions/Estimates/WeightedAxisScaling.lean",
+    "OAI/Combinatorics/Progressions/Estimates/WeightedDerivationDrop.lean",
+    "OAI/Combinatorics/Progressions/Estimates/WeightedLoweringAction.lean",
+    "OAI/Combinatorics/Progressions/Estimates/WeightedLoweringGroup.lean",
+    "OAI/Combinatorics/Progressions/Estimates/WeightedOrbitNormalization.lean",
+    "OAI/Combinatorics/Progressions/Estimates/WeightedTranslationShearExponential.lean",
+    "OAI/Combinatorics/Progressions/Fourier/BoxDifferenceCharacter.lean",
+    "OAI/Combinatorics/Progressions/Fourier/CircleActionFourierMetric.lean",
+    "OAI/Combinatorics/Progressions/Fourier/ElementaryCharacterTail.lean",
+    "OAI/Combinatorics/Progressions/Fourier/FiniteCharacterOrderTail.lean",
+    "OAI/Combinatorics/Progressions/Fourier/IntegerBoxCharacterBound.lean",
+    "OAI/Combinatorics/Progressions/Fourier/PolynomialCharacterRowPhase.lean",
+    "OAI/Combinatorics/Progressions/Fourier/PrimePowerCharacterDepth.lean",
+    "OAI/Combinatorics/Progressions/Fourier/PrimePowerTaggedCharacterRows.lean",
+    "OAI/Combinatorics/Progressions/Fourier/TorusCircleActions.lean",
+    "OAI/Combinatorics/Progressions/Geometry/BoxCornerMean.lean",
+    "OAI/Combinatorics/Progressions/Geometry/BoxDifferenceSubstitution.lean",
+    "OAI/Combinatorics/Progressions/Geometry/ConjugationCoordinates.lean",
+    "OAI/Combinatorics/Progressions/Geometry/CoordinateSubstitutionAlgebra.lean",
+    "OAI/Combinatorics/Progressions/Geometry/FiniteCoordinateSlice.lean",
+    "OAI/Combinatorics/Progressions/Geometry/IntervalBoxDifference.lean",
+    "OAI/Combinatorics/Progressions/Geometry/LieTreeSupport.lean",
+    "OAI/Combinatorics/Progressions/Geometry/MultidegreeCoordinateFreezing.lean",
+    "OAI/Combinatorics/Progressions/Geometry/NormalizedSpatialReplacement.lean",
+    "OAI/Combinatorics/Progressions/Geometry/QuotientCoordinateRadius.lean",
+    "OAI/Combinatorics/Progressions/Geometry/RationalModelCoordinates.lean",
+    "OAI/Combinatorics/Progressions/Geometry/RealSquarefreeCoordinates.lean",
+    "OAI/Combinatorics/Progressions/Geometry/RealifiedTripleCoordinates.lean",
+    "OAI/Combinatorics/Progressions/Geometry/ScalarCubeProductSupport.lean",
+    "OAI/Combinatorics/Progressions/Geometry/ScalarSpatialScaleBounds.lean",
+    "OAI/Combinatorics/Progressions/Geometry/ShiftedBoxSites.lean",
+    "OAI/Combinatorics/Progressions/Geometry/SpatialPivotNormalization.lean",
+    "OAI/Combinatorics/Progressions/Geometry/SpatialStarCoordinates.lean",
+    "OAI/Combinatorics/Progressions/Geometry/SquarefreeAlgebraCoordinates.lean",
+    "OAI/Combinatorics/Progressions/Geometry/SquarefreeSupportPermutation.lean",
+    "OAI/Combinatorics/Progressions/Geometry/TopSupportSubstitution.lean",
+    "OAI/Combinatorics/Progressions/Geometry/WeightedSupportDropRename.lean",
+    "OAI/Combinatorics/Progressions/Lattices/AffineTopCoefficient.lean",
+    "OAI/Combinatorics/Progressions/Lattices/AnnihilatingCoordinateResidue.lean",
+    "OAI/Combinatorics/Progressions/Lattices/ConjugatedLatticeGrids.lean",
+    "OAI/Combinatorics/Progressions/Lattices/CubeResidueSupport.lean",
+    "OAI/Combinatorics/Progressions/Lattices/FactorialIntegerScalars.lean",
+    "OAI/Combinatorics/Progressions/Lattices/FilteredLatticePowerIndex.lean",
+    "OAI/Combinatorics/Progressions/Lattices/FiniteAffineClassAverage.lean",
+    "OAI/Combinatorics/Progressions/Lattices/ImageLatticeSubgroup.lean",
+    "OAI/Combinatorics/Progressions/Lattices/IntegerImageProbabilityLaw.lean",
+    "OAI/Combinatorics/Progressions/Lattices/IntegerNormalizedJetColumns.lean",
+    "OAI/Combinatorics/Progressions/Lattices/IntegerWeightedLoweringGroup.lean",
+    "OAI/Combinatorics/Progressions/Lattices/LargestBadPrimeProduct.lean",
+    "OAI/Combinatorics/Progressions/Lattices/LatticeMetricGapBudget.lean",
+    "OAI/Combinatorics/Progressions/Lattices/LatticeOrderedGenerators.lean",
+    "OAI/Combinatorics/Progressions/Lattices/MultilinearAffineExpansion.lean",
+    "OAI/Combinatorics/Progressions/Lattices/RealifiedFiltrationLattices.lean",
+    "OAI/Combinatorics/Progressions/Lattices/RealifiedSubgroupLattice.lean",
+    "OAI/Combinatorics/Progressions/Lattices/SmoothAffinePairLaw.lean",
+    "OAI/Combinatorics/Progressions/Lattices/SmoothIntegerImage.lean",
+    "OAI/Combinatorics/Progressions/Lattices/UniformResidueSmallPeriod.lean",
+    "OAI/Combinatorics/Progressions/Linear/AllocatedKernelPrimitiveBudget.lean",
+    "OAI/Combinatorics/Progressions/Linear/CentralBasisPowerCover.lean",
+    "OAI/Combinatorics/Progressions/Linear/CircleFejerKernel.lean",
+    "OAI/Combinatorics/Progressions/Linear/CoordinateProjectionBounds.lean",
+    "OAI/Combinatorics/Progressions/Linear/FiniteSpanSum.lean",
+    "OAI/Combinatorics/Progressions/Linear/FurstenbergWeissProjection.lean",
+    "OAI/Combinatorics/Progressions/Linear/ImageDefiningMatrix.lean",
+    "OAI/Combinatorics/Progressions/Linear/JointKernelCutoffBudget.lean",
+    "OAI/Combinatorics/Progressions/Linear/KernelBudgetEnvelope.lean",
+    "OAI/Combinatorics/Progressions/Linear/KernelJetAllowances.lean",
+    "OAI/Combinatorics/Progressions/Linear/KernelScaleIndependence.lean",
+    "OAI/Combinatorics/Progressions/Linear/OrderedBasisCoordinates.lean",
+    "OAI/Combinatorics/Progressions/Linear/PivotKernelAllowances.lean",
+    "OAI/Combinatorics/Progressions/Linear/QuotientProjectionCoordinates.lean",
+    "OAI/Combinatorics/Progressions/Linear/RankHorizontalSymbol.lean",
+    "OAI/Combinatorics/Progressions/Linear/RealDualRationalBounds.lean",
+    "OAI/Combinatorics/Progressions/Linear/RealifiedTripleProjections.lean",
+    "OAI/Combinatorics/Progressions/Linear/RescaledLieBasis.lean",
+    "OAI/Combinatorics/Progressions/Linear/RootDifferenceMatrix.lean",
+    "OAI/Combinatorics/Progressions/Linear/SquarefreeBasisPermutation.lean",
+    "OAI/Combinatorics/Progressions/Linear/WeightedLinearBaseProjection.lean",
+    "OAI/Combinatorics/Progressions/Linear/WeightedTranslationBasisHeight.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/BCHOrderedReduction.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/BCHUniformQuotientCharts.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/ChosenBCHGrids.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/DegreeRankLieBrackets.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/FactorwiseBCHCovers.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/LinearBCHAbelian.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/NiltestBasepointNormalization.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/PolynomialShearBCH.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/PolynomialShearBCHOver.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/RationalBCHProducts.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/RealifiedBCHFiniteAtlas.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/SquarefreeBracketHeight.lean",
+    "OAI/Combinatorics/Progressions/Nilpotent/SquarefreeSupportBracket.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/AdaptedBinomialFactorization.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/AffineShiftPolynomial.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/BinomialMomentAmplification.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/BinomialPolynomial.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/CRTPolynomialChargeBound.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/CRTPolynomialImage.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/DegreeRankLayers.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/DegreeRankSunflower.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/JointPolynomialDilationGrid.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/MajorWeightedDegreeTools.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/MultiaffinePhaseDifference.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/MultiaffinePolynomialBias.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/MultilinearSlicePolynomial.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/NormalizedFiberPolynomialBound.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialCoefficientGridDenominator.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialCoefficientNormalization.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialColumnSupport.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialDerivativeSeparation.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialPrimitive.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialShearAffineExponential.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialShearFactorialIntegrality.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialShearRationalFiltration.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialShearRealGroup.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialSmooth.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialSublevelThresholdBudget.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialSymbolicShearWeightedDegree.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialTranslationActionCompatibility.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/PolynomialTranslationSeries.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/RankPolynomialFactorization.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/RealAdaptedPolynomialGroup.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/RealBlockPolynomialEval.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/RealGradedSymbolPolynomial.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/RealPolynomialMassBox.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/ScalarCubeMinorPolynomial.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/ScaledPolynomialDualBounds.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/ShiftedPolynomialBasis.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/SitePhaseCauchySchwarz.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/SquarefreePolynomialPermutation.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/SquarefreeTotalDegree.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/TranslationPhaseQuotient.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/WeightedLinearPolynomialRestriction.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/WeightedPolynomialEndomorphisms.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/WeightedPolynomialPotential.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/WeightedPolynomialPotentialExtension.lean",
+    "OAI/Combinatorics/Progressions/Polynomial/WeightedPolynomialRestriction.lean",
+    "OAI/Combinatorics/Progressions/Probability/BoxCokernelProbability.lean",
+    "OAI/Combinatorics/Progressions/Probability/DenseProductDensity.lean",
+    "OAI/Combinatorics/Progressions/Probability/NormalizedJetDensitySupport.lean",
+    "OAI/Combinatorics/Progressions/Probability/PivotDensityCap.lean",
+    "OAI/Combinatorics/Progressions/Probability/PivotDensitySupport.lean",
+    "OAI/Combinatorics/Progressions/Probability/ScaledInputProbability.lean",
+    "OAI/Combinatorics/Progressions/Probability/ShiftedProductCoordinateLaw.lean",
+    "OAI/Combinatorics/Progressions/Probability/ShiftedSmoothLawBounds.lean",
+    "OAI/Combinatorics/Progressions/Probability/ShiftedSmoothProductLaw.lean",
+    "OAI/Combinatorics/Progressions/Probability/UniformHomExpectation.lean",
+    "OAI/Combinatorics/Progressions/Probability/UniformSelectedCoefficientProductLaw.lean",
+    "OAI/Combinatorics/Progressions/Sampling/RealGridRationalLift.lean",
+    "OAI/Combinatorics/Progressions/Sampling/ScalarCubeGridCoordinates.lean",
+    "OAI/Combinatorics/Progressions/Sampling/SmoothSplitSampling.lean"
+  ],
+  "verification": {
+    "source_compile_exit": 0,
+    "autoImplicit": false,
+    "trust": 0,
+    "audit_exit": 0,
+    "audited_modules": 553,
+    "audited_declarations": 14338,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "scratch_imports": false,
+    "audit_source_sha256": "2982f1c59a744b6c9d8979de48695c477a2c6e94fa2ae41b29650f42b90de2f0",
+    "audit_log_sha256": "17c2c1cd87796ff8863d25586af4e807df214776b8c97af3975c0b117c4785ad"
+  },
+  "import_pruning": {
+    "NativeModelOrbit": "Exact private copies of fixed-source ProductOrbitCongruence lines12-21 and RefilteredPolynomialProjection lines96-99; unchanged public declarations/definitions. Import AdaptedPolynomialSubstitution instead of broad RefilteredPolynomialProjection.",
+    "RationalModelCoordinates": "Replace RationalPowerHeight import with NiltestBasepointNormalization; all declaration bodies unchanged."
+  },
+  "full_target_proved": false
+}
