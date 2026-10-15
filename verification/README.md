@@ -87,6 +87,23 @@ are [local route coverage](local-route-coverage/README.md),
 [weighted shear laws](weighted-shear-box-laws/README.md), and
 [native weighted actions](weighted-shear-native-actions/README.md).
 
+## Checked original-inverse building blocks
+
+The [same-step algebraic layer](original-same-step-algebra/README.md) now proves
+an actual step-s Lie filtration, finite Taylor translation, BCH time identities,
+and exact based-orbit recovery for all integer times with real polynomial
+inputs. Its 17 local modules and 312-module official import closure have focused
+source and axiom checks. Compact lattice realizations and uniform quotient
+metric/Lipschitz bounds are still needed for the final finite native family.
+
+Other checked components are [inverse normalization](original-inverse-normalization/README.md),
+[algebraic and extension building blocks](original-inverse-building-blocks/README.md),
+[compact metric control](original-fiber-compact/README.md), and
+[the BCH fiber metric bridge](original-fiber-bch/README.md).
+Direct source rechecks explicitly used `-DautoImplicit=false`; axiom audits
+used `--trust=0` and the standard three-axiom allowlist. These focused checks
+do not replace the final canonical endpoint build.
+
 ## Verification boundary
 
 Each linked addition has focused build/source/axiom evidence and hashes.
@@ -96,3 +113,4 @@ are not yet part of the canonical `Hindman168.lean` or `Verification.lean`.
 No full-project replay or independent replay of all imported kernel
 artifacts is claimed. Uncommitted work and successful isolated checks are
 not promoted here to completion of an open node.
+

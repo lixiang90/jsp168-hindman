@@ -1,0 +1,6 @@
+Lean 4.32.2; source elaboration autoImplicit=false.
+Local layer: 17 modules, 467 declarations; strict trust=0 audit exit 0.
+Official/compatibility closure: 312 modules, 8124 declarations; strict trust=0 audit exit 0.
+Only propext, Classical.choice, Quot.sound permitted.
+Source and full audit transcript SHA256 values are recorded in manifest.json.
+StrongConjecture remains conditional; no final full-project replay is claimed.

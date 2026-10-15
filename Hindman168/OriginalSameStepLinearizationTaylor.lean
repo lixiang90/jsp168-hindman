@@ -1,4 +1,5 @@
 import OAI.Combinatorics.Progressions.Polynomial.MixedWeightedPolynomialRename
+import OAI.Combinatorics.Progressions.Polynomial.RealPolynomialChartSubstitution
 
 /-!
 # Finite Taylor expansion for polynomial translation
@@ -123,5 +124,36 @@ theorem tensorTaylor_of_nilpotent (h : σ → ℚ) (p : VectorPolynomial σ ℚ 
     (Nat.le_of_not_gt (by simpa only [Finset.mem_range] using hnN)) hN, smul_zero]
 
 end TensorTaylor
+
+section VectorTaylor
+
+variable {L : Type*} [LieRing L] [LieAlgebra ℚ L]
+
+theorem directionalDerivative_eq_scalar_rTensor {σ : Type*} [Fintype σ]
+    (h : σ → ℚ) :
+    (directionalDerivative h : Module.End ℚ (VectorPolynomial σ ℚ L)) =
+      (scalarDirectionalDerivative h).toLinearMap.rTensor L := by
+  apply TensorProduct.ext
+  apply LinearMap.ext
+  intro p
+  apply LinearMap.ext
+  intro x
+  change directionalDerivative h (p ⊗ₜ[ℚ] x) =
+    (scalarDirectionalDerivative h).toLinearMap.rTensor L (p ⊗ₜ[ℚ] x)
+  rw [directionalDerivative_tmul, LinearMap.rTensor_tmul]
+  change (∑ i, h i • (MvPolynomial.pderiv i p ⊗ₜ[ℚ] x)) =
+    scalarDirectionalDerivative h p ⊗ₜ[ℚ] x
+  rw [scalarDirectionalDerivative_apply, TensorProduct.sum_tmul]
+  simp only [TensorProduct.smul_tmul']
+
+theorem translate_eq_sum_of_nilpotent {σ : Type*} [Fintype σ]
+    (h : σ → ℚ) (p : VectorPolynomial σ ℚ L) (N : ℕ)
+    (hN : ((directionalDerivative h : Module.End ℚ (VectorPolynomial σ ℚ L)) ^ N) p = 0) :
+    translate h p = ∑ n ∈ Finset.range N, (n.factorial : ℚ)⁻¹ •
+      ((directionalDerivative h : Module.End ℚ (VectorPolynomial σ ℚ L)) ^ n) p := by
+  rw [directionalDerivative_eq_scalar_rTensor] at hN ⊢
+  exact tensorTaylor_of_nilpotent h p N hN
+
+end VectorTaylor
 
 end Hindman168.OriginalSameStepLinearization
