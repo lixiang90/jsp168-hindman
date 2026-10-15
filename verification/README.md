@@ -48,12 +48,11 @@ the genuine first-order native inverse is proved in
 [model signatures](bounded-model-codes/README.md), and
 [cover transport](coset-cover-transport/README.md).
 
-Still needed: compatible integration of the upstream GTZ theorem dependency
-closure, realization of the
-finite signatures as a uniform finite native model family with actual
-lattice/metric bounds, and polynomial-to-linear orbit conversion preserving
-the required step. Signatures alone are not geometric models; a polynomial
-nilsequence inverse alone is not this linear finite-list interface.
+The finite native model family, actual quotient-metric bounds, and same-step
+polynomial-to-linear conversion are now proved in the native geometric layer.
+Still needed: the complete upstream analytic inverse closure, its exact interval
+adapter, and canonical original-target replay. The current verified upstream
+subset is tracked in [the current upstream inverse audit](original-upstream-inverse/README.md).
 
 ### B. Uniform Alignment / Principle 2.4: proved
 
@@ -98,6 +97,10 @@ now supplies the genuine finite native family, compact same-step linear
 models, and uniform bounds on their actual quotient metrics. Its twelve new
 modules and complete official closure passed a 553-module/14,338-declaration audit.
 The analytic inverse closure and final canonical assembly remain open.
+The [current upstream subset](original-upstream-inverse/README.md) has a
+dependency-closed 704-module/16,668-declaration strict audit.
+The [current upstream subset](original-upstream-inverse/README.md) has a
+dependency-closed 704-module/16,668-declaration strict audit.
 
 The [inverse normalization layer](original-inverse-normalization/README.md) now
 includes exact supported-cube/periodic Gowers transport and positive-norm

@@ -1,0 +1,7 @@
+Strict source checks: exit 0; autoImplicit=false.
+AUDIT COMPLETE: 704 modules; 16668 declarations; only standard axioms
+Audit exit 0: lean -j1 --trust=0 -DautoImplicit=false CheckAxioms.lean
+Allowed: propext, Classical.choice, Quot.sound.
+Source and olean/ilean SHA-256 unchanged before and after audit.
+This is a dependency-closed partial upstream checkpoint.
+AxisCompression and the original StrongConjecture endpoint remain unproved.
