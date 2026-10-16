@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check committed source hashes, or explicitly replay exactly the current 751 targets.
+"""Check committed source hashes, or explicitly replay exactly the current targets.
 
 Default is read-only: python3 verification/original-upstream-inverse/replay-current.py
 Use --run to build/audit later; requires this repository's pinned Lake/toolchain.
@@ -53,22 +53,23 @@ def check(manifest):
     additions = manifest['new_sources']
     require(not prior.keys() & additions.keys(), 'Increment unexpectedly replaces a historical module')
     combined = {**prior, **additions}
-    require(len(prior) == 1042 and len(additions) == 15 and len(combined) == 1057, 'Wrong source partition')
+    counts = manifest['partition_summary']
+    require(len(prior) == counts['historical_closure']['count'] and len(additions) == counts['cumulative_increment_sources']['count'] and len(combined) == counts['composed_closure']['count'], 'Wrong source partition')
     for module, entry in combined.items():
         expected_path = 'dependencies/openai-finite-szemeredi/' + module.replace('.', '/') + '.lean'
         require(entry['path'] == expected_path, 'Unexpected module path: ' + module)
         require(sha((ROOT / entry['path']).read_bytes()) == entry['sha256'], 'Source changed: ' + module)
         require(set(entry['oai_imports']) <= combined.keys(), 'Unclosed composed imports: ' + module)
     targets = manifest['current_replay_modules']
-    require(targets == sorted(set(targets)) and len(targets) == 751, 'Invalid current replay target list')
+    require(targets == sorted(set(targets)) and len(targets) == counts['current_stage']['count'], 'Invalid current replay target list')
     require(set(targets) <= combined.keys(), 'Unknown replay target')
-    require(len(set(targets) & prior.keys()) == 736, 'Wrong historical overlap')
+    require(len(set(targets) & prior.keys()) == counts['unchanged_stage_vs_history']['count'], 'Wrong historical overlap')
     for module in targets:
         require(set(combined[module]['oai_imports']) <= set(targets), 'Unclosed current imports: ' + module)
     for path, digest in manifest['repository_input_sha256'].items():
         require(sha((ROOT / path).read_bytes()) == digest, 'Pinned input changed: ' + path)
     generated = audit_source(targets)
-    require(sha(generated.encode()) == manifest['current_verification']['audit_source_sha256'], 'Audit source changed')
+    require(sha(generated.encode()) == manifest['replay_audit_source_sha256'], 'Audit source changed')
     return targets, generated
 
 
@@ -89,13 +90,14 @@ def artifact_hashes(targets):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--run', action='store_true', help='explicitly execute the pinned 751-target build and trust=0 audit')
+    p.add_argument('--run', action='store_true', help='explicitly execute the pinned current-target build and trust=0 audit')
     args = p.parse_args()
     manifest = json.loads((HERE / 'current-replay.json').read_bytes())
     targets, generated = check(manifest)
-    print('Source check passed: 1057 composed modules = 1042 historical + 15 additions; current targets: 751.', flush=True)
+    c = manifest['partition_summary']
+    print(f"Source check passed: {c['composed_closure']['count']} composed modules = {c['historical_closure']['count']} historical + {c['cumulative_increment_sources']['count']} cumulative additions; current targets: {len(targets)}.", flush=True)
     if not args.run:
-        print('No Lean or Lake executed. Use --run for a new replay of exactly the 751 current targets.')
+        print('No Lean or Lake executed. Use --run for a new replay of exactly the current targets.')
         return
     env = {**os.environ, 'LEAN_NUM_THREADS': '1'}
     with tempfile.TemporaryDirectory(prefix='hindman-current-replay-') as work:
@@ -107,7 +109,7 @@ def main():
         subprocess.run(['lake', 'env', 'lean', '-j1', '--trust=0', '-DautoImplicit=false', str(audit)], cwd=ROOT, env=env, check=True)
         check(manifest)
         require(artifact_hashes(targets) == before, 'Artifacts changed across the audit')
-    print('New 751-target replay completed; sources/artifacts stable across audit. Historical-only 306 were not audit targets.')
+    print(f"New {len(targets)}-target replay completed; sources/artifacts stable across audit. Historical-only {c['historical_only_not_currently_reaudited']['count']} were not audit targets.")
 
 
 if __name__ == '__main__':
