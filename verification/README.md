@@ -98,7 +98,10 @@ models, and uniform bounds on their actual quotient metrics. Its twelve new
 modules and complete official closure passed a 553-module/14,338-declaration audit.
 The analytic inverse closure and final canonical assembly remain open.
 The [current upstream subset](original-upstream-inverse/README.md) has a
-dependency-closed 1042-module/20,689-declaration strict audit.
+dependency-closed source coverage union of 1,525 modules. Its latest
+1,469-module audit counted 30,068 unique declarations (30,091 records);
+the other 56 modules retain their historical evidence. These overlapping
+audit counts must not be added together.
 
 The [inverse normalization layer](original-inverse-normalization/README.md) now
 includes exact supported-cube/periodic Gowers transport and positive-norm

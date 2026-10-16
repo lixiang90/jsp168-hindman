@@ -1,0 +1,489 @@
+{
+  "upstream_repository": "openai/math",
+  "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "lean": "4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "scope": "23 first-frontier files restored from fixed upstream; not yet compiled; no verified pre-existing sources or manifests changed.",
+  "files": [
+    {
+      "module": "OAI.Combinatorics.Progressions.Dynamics.CyclicProductBudget",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Dynamics/CyclicProductBudget.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Dynamics/CyclicProductBudget.lean",
+      "upstream_blob": "1756426c3c27d394ec3aab4ae487af5902eff52c",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Dynamics/CyclicProductBudget.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "1756426c3c27d394ec3aab4ae487af5902eff52c",
+      "upstream_sha256": "70be0776646362aa74b1c1ab9b5f5db10268c5f9153d5fe62a1c3c320ce3f038",
+      "ported_sha256": "70be0776646362aa74b1c1ab9b5f5db10268c5f9153d5fe62a1c3c320ce3f038",
+      "raw_bytes": 5252,
+      "ported_bytes": 5252,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Nilpotent.CyclicNiltestApproximation"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Dynamics.FastCoefficientGeneratorBudget",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Dynamics/FastCoefficientGeneratorBudget.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Dynamics/FastCoefficientGeneratorBudget.lean",
+      "upstream_blob": "6c009814709eb20eaac565f625af6ac24ed7366f",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Dynamics/FastCoefficientGeneratorBudget.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "6c009814709eb20eaac565f625af6ac24ed7366f",
+      "upstream_sha256": "ac7020c5706c4f6791417cb0bda2cfd4d5d2b6de32168c356949d53c9ba9a836",
+      "ported_sha256": "ac7020c5706c4f6791417cb0bda2cfd4d5d2b6de32168c356949d53c9ba9a836",
+      "raw_bytes": 4298,
+      "ported_bytes": 4298,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.BoundedFastCoefficientGenerators"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.CoefficientTensorApproximation",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/CoefficientTensorApproximation.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CoefficientTensorApproximation.lean",
+      "upstream_blob": "ab69134903a061b16fc2dff8d0d3a19e87b94dda",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/CoefficientTensorApproximation.lean",
+      "changes": [
+        {
+          "from": "Finset.prod_le_prod₀",
+          "to": "Finset.prod_le_prod",
+          "count": 1
+        }
+      ],
+      "upstream_blob_recomputed": "ab69134903a061b16fc2dff8d0d3a19e87b94dda",
+      "upstream_sha256": "84c4f1c0fc466e98c8910f50aaec20666269e6b3db30682fef7aea5b4e3608bf",
+      "ported_sha256": "27180f691af89f76793f96564cacb04bddb9b6f8ddc46ab19f94528ae2917df1",
+      "raw_bytes": 5687,
+      "ported_bytes": 6044,
+      "same_as_fixed_upstream": false,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Fourier.SiteFourierHaarMean",
+        "OAI.Combinatorics.Progressions.Probability.CoefficientProductLaw"
+      ],
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/CoefficientTensorApproximation.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CoefficientTensorApproximation.lean\n@@ -1,3 +1,10 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: Finset.prod_le_prod₀ -> Finset.prod_le_prod (1)\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Fourier.SiteFourierHaarMean\n import OAI.Combinatorics.Progressions.Probability.CoefficientProductLaw\n \n@@ -23,7 +30,7 @@\n     have hprod : ‖∏ j ∈ S, g j‖ ≤ B ^ S.card := by\n       rw [norm_prod]\n       calc\n-        _ ≤ ∏ _j ∈ S, B := Finset.prod_le_prod₀ (fun _ _ => norm_nonneg _)\n+        _ ≤ ∏ _j ∈ S, B := Finset.prod_le_prod (fun _ _ => norm_nonneg _)\n           (fun j hj => hg j (Finset.mem_insert_of_mem hj))\n         _ = _ := by simp\n     rw [Finset.prod_insert hi, Finset.prod_insert hi, Finset.card_insert_of_notMem hi,\n"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.DescendedLinearMapBounds",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/DescendedLinearMapBounds.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/DescendedLinearMapBounds.lean",
+      "upstream_blob": "ed35078b4fe0fb236002c23c103c81df547e52bf",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/DescendedLinearMapBounds.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "ed35078b4fe0fb236002c23c103c81df547e52bf",
+      "upstream_sha256": "7672e99677b260d41158fd768618d69dd47b4aec209d43990f826e9e0cc5eb36",
+      "ported_sha256": "7672e99677b260d41158fd768618d69dd47b4aec209d43990f826e9e0cc5eb36",
+      "raw_bytes": 2196,
+      "ported_bytes": 2196,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Geometry.EmbeddingCoordinateHeight"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.NativeTwoSitePartition",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/NativeTwoSitePartition.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/NativeTwoSitePartition.lean",
+      "upstream_blob": "da9c9ea3acfc249c5f5cb500099184d31fdeccde",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/NativeTwoSitePartition.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "da9c9ea3acfc249c5f5cb500099184d31fdeccde",
+      "upstream_sha256": "d0a4a436db412db54b9c6fb3178798faf37e141d9d30e68e223f3e9c9e3cb9f6",
+      "ported_sha256": "d0a4a436db412db54b9c6fb3178798faf37e141d9d30e68e223f3e9c9e3cb9f6",
+      "raw_bytes": 4536,
+      "ported_bytes": 4536,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Dynamics.CyclicAlternativePathRecovery",
+        "OAI.Combinatorics.Progressions.Lattices.NativeIntervalResiduePartition"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.RealGradedDerivativeBounds",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/RealGradedDerivativeBounds.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/RealGradedDerivativeBounds.lean",
+      "upstream_blob": "c4f309cc3ad5d9213129adcc7c443cd6cb4a2d60",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/RealGradedDerivativeBounds.lean",
+      "changes": [
+        {
+          "from": "dite_eq_left",
+          "to": "dif_pos",
+          "count": 1
+        },
+        {
+          "from": "dite_eq_right",
+          "to": "dif_neg",
+          "count": 1
+        }
+      ],
+      "upstream_blob_recomputed": "c4f309cc3ad5d9213129adcc7c443cd6cb4a2d60",
+      "upstream_sha256": "58f3b2a3ab85308a71ef4d6adb3ebbaf54132b9f41671cd7f4ec2b14816bfd0c",
+      "ported_sha256": "bcd31ef274e1e663a882b7f274551493fe1f50a10ecbdd2ecfd8134960999e9f",
+      "raw_bytes": 4893,
+      "ported_bytes": 5250,
+      "same_as_fixed_upstream": false,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivativeBounds"
+      ],
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/RealGradedDerivativeBounds.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/RealGradedDerivativeBounds.lean\n@@ -1,3 +1,10 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: dite_eq_left -> dif_pos (1); dite_eq_right -> dif_neg (1)\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivativeBounds\n \n namespace OAI\n@@ -38,13 +45,13 @@\n     (l : ℝ) * ((F.associatedGradedBasis b ω hF).baseChange ℝ).repr\n       (coefficients (F.realGradedSymbolPolynomial b ω hF w g.coord) z.1) z.2\n   by_cases h : Finsupp.weight w z.1 = ω z.2\n-  · rw [dite_eq_left h]\n+  · rw [dif_pos h]\n     have hc := F.realGradedSymbolPolynomial_coordinate b ω hF w g.coord ⟨z, h⟩\n     change ((F.associatedGradedBasis b ω hF).baseChange ℝ).repr\n       (coefficients (F.realGradedSymbolPolynomial b ω hF w g.coord) z.1) z.2 = _ at hc\n     rw [hc]\n     exact congrFun ha ⟨z, h⟩\n-  · rw [dite_eq_right h, Int.cast_zero,\n+  · rw [dif_neg h, Int.cast_zero,\n       F.realGradedSymbolPolynomial_coordinate_of_ne b ω hF w g.coord z.1 z.2 h, mul_zero]\n \n theorem realGradedSymbolPolynomial_derivative_bound [Fintype σ] (hw : ∀ i, 0 < w i)\n"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.SelectedImageCorrections",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/SelectedImageCorrections.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/SelectedImageCorrections.lean",
+      "upstream_blob": "50901fbcac516a034ef554d3cad915e43dffec27",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/SelectedImageCorrections.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "50901fbcac516a034ef554d3cad915e43dffec27",
+      "upstream_sha256": "436b0d9f97283bccd7d96864394a7b92e28a152748b99f7cc379da12794436d1",
+      "ported_sha256": "436b0d9f97283bccd7d96864394a7b92e28a152748b99f7cc379da12794436d1",
+      "raw_bytes": 4282,
+      "ported_bytes": 4282,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Linear.RationalTaggedSpanProjection"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.WeightedRudin",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/WeightedRudin.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/WeightedRudin.lean",
+      "upstream_blob": "a3e23a24cb5425dcad8add856ccf48b1aeef43c7",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/WeightedRudin.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "a3e23a24cb5425dcad8add856ccf48b1aeef43c7",
+      "upstream_sha256": "83f1e1f7dc15332c3e49b8ccad91689d941b3f35f9a9805f9373cfee23c2d139",
+      "ported_sha256": "83f1e1f7dc15332c3e49b8ccad91689d941b3f35f9a9805f9373cfee23c2d139",
+      "raw_bytes": 6382,
+      "ported_bytes": 6382,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Fourier.FiniteFourierSmoothing"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Geometry.BoundedDependentCoordinates",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/BoundedDependentCoordinates.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/BoundedDependentCoordinates.lean",
+      "upstream_blob": "10d6cb5697529660d1a933bb27d67546b1e7c683",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Geometry/BoundedDependentCoordinates.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "10d6cb5697529660d1a933bb27d67546b1e7c683",
+      "upstream_sha256": "5d56df49b287b45ee568e056c9b0d84384b670bbe9d618175c27bb8f26312f90",
+      "ported_sha256": "5d56df49b287b45ee568e056c9b0d84384b670bbe9d618175c27bb8f26312f90",
+      "raw_bytes": 3425,
+      "ported_bytes": 3425,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Linear.RankQuotientHeightBudget"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Geometry.SublatticeOrbitMetric",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/SublatticeOrbitMetric.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/SublatticeOrbitMetric.lean",
+      "upstream_blob": "91f62c84ae486f6b4380b77f6bbe4bbf9516064c",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Geometry/SublatticeOrbitMetric.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "91f62c84ae486f6b4380b77f6bbe4bbf9516064c",
+      "upstream_sha256": "05bc471f06c04de09ca660d1c20416903fa1ff875cbf221ce74c13f62a0f4d9a",
+      "ported_sha256": "05bc471f06c04de09ca660d1c20416903fa1ff875cbf221ce74c13f62a0f4d9a",
+      "raw_bytes": 1504,
+      "ported_bytes": 1504,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Linear.SplitCoverProjection"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Lattices.IntegerOrbitTranslation",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/IntegerOrbitTranslation.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/IntegerOrbitTranslation.lean",
+      "upstream_blob": "785a0438d03362faadd9d593b5090637df8658dc",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Lattices/IntegerOrbitTranslation.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "785a0438d03362faadd9d593b5090637df8658dc",
+      "upstream_sha256": "9add7879aeb3b78aecbfc706dc82ca9afe7bfdaf623aef91f628dc122ee8cf98",
+      "ported_sha256": "9add7879aeb3b78aecbfc706dc82ca9afe7bfdaf623aef91f628dc122ee8cf98",
+      "raw_bytes": 659,
+      "ported_bytes": 659,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.ProjectedNativeCoefficient"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Linear.MultidegreeBasisConstruction",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/MultidegreeBasisConstruction.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/MultidegreeBasisConstruction.lean",
+      "upstream_blob": "efdeca03e4658c3372696718bc97795c58a4d668",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Linear/MultidegreeBasisConstruction.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "efdeca03e4658c3372696718bc97795c58a4d668",
+      "upstream_sha256": "24997b85c7a032d2bf13342dd30d53092835777342004dc386fc6b63a57576c2",
+      "ported_sha256": "24997b85c7a032d2bf13342dd30d53092835777342004dc386fc6b63a57576c2",
+      "raw_bytes": 1849,
+      "ported_bytes": 1849,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Linear.RankQuotientHeightBudget"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Linear.RealSparseFourProjection",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/RealSparseFourProjection.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/RealSparseFourProjection.lean",
+      "upstream_blob": "a57f53d0fa7c3f614bbc794d7c53ae786cb027db",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Linear/RealSparseFourProjection.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "a57f53d0fa7c3f614bbc794d7c53ae786cb027db",
+      "upstream_sha256": "dcb401ca793d9dc131b32468975a62f3d6bf54d489ddf540607134a65fb1a80c",
+      "ported_sha256": "dcb401ca793d9dc131b32468975a62f3d6bf54d489ddf540607134a65fb1a80c",
+      "raw_bytes": 3865,
+      "ported_bytes": 3865,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Geometry.HorizontalCoordinateBounds"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Linear.ReindexGradedBasis",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/ReindexGradedBasis.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/ReindexGradedBasis.lean",
+      "upstream_blob": "c1b00bbea0dd736c9d9aadb3a72ac8da94fe6fda",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Linear/ReindexGradedBasis.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "c1b00bbea0dd736c9d9aadb3a72ac8da94fe6fda",
+      "upstream_sha256": "9a7e59f9197fa0ea631a5b4af26a4d133c37f606398443595892c60c27643843",
+      "ported_sha256": "9a7e59f9197fa0ea631a5b4af26a4d133c37f606398443595892c60c27643843",
+      "raw_bytes": 2394,
+      "ported_bytes": 2394,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Fourier.HomogeneousGradedProjectionFrequency"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Linear.StepDropBasisBudget",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/StepDropBasisBudget.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/StepDropBasisBudget.lean",
+      "upstream_blob": "9e857af4b289b1282a33b1f6cbc53cce797ba369",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Linear/StepDropBasisBudget.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "9e857af4b289b1282a33b1f6cbc53cce797ba369",
+      "upstream_sha256": "cd8d74c75211aa5f871a66f62f13993ae895d15a054c0ae06b7ec2ac36af2d30",
+      "ported_sha256": "cd8d74c75211aa5f871a66f62f13993ae895d15a054c0ae06b7ec2ac36af2d30",
+      "raw_bytes": 5092,
+      "ported_bytes": 5092,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Linear.RankQuotientHeightBudget"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Nilpotent.RankBracketFactorizationMonotone",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Nilpotent/RankBracketFactorizationMonotone.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Nilpotent/RankBracketFactorizationMonotone.lean",
+      "upstream_blob": "56fd5a4feb9f3322b2ce8febda9ccc9077d8ca87",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Nilpotent/RankBracketFactorizationMonotone.lean",
+      "changes": [
+        {
+          "change": "Add explicit proved TensorProduct.inductionOn compatibility import.",
+          "count": 1
+        }
+      ],
+      "upstream_blob_recomputed": "56fd5a4feb9f3322b2ce8febda9ccc9077d8ca87",
+      "upstream_sha256": "fad5f0f34db42542efeb2e0db00930986d62a7970a4c05af685e9ba2671d44a7",
+      "ported_sha256": "cc0bd2bbee3a565aaeb8494e3b3205d7cbcd4907dbd766d689868e74ab8df092",
+      "raw_bytes": 11249,
+      "ported_bytes": 11695,
+      "same_as_fixed_upstream": false,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Compatibility.TensorInduction",
+        "OAI.Combinatorics.Progressions.Fourier.JoinedFrequencyQuotientInjectivity",
+        "OAI.Combinatorics.Progressions.Polynomial.RaisedDegreeRank"
+      ],
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Nilpotent/RankBracketFactorizationMonotone.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Nilpotent/RankBracketFactorizationMonotone.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: Add explicit proved TensorProduct.inductionOn compatibility import.\n+No mathematical statements or assumptions changed.\n+-/\n+import OAI.Combinatorics.Progressions.Compatibility.TensorInduction\n import OAI.Combinatorics.Progressions.Fourier.JoinedFrequencyQuotientInjectivity\n import OAI.Combinatorics.Progressions.Polynomial.RaisedDegreeRank\n \n"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Polynomial.FormalPolynomialOperationBounds",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/FormalPolynomialOperationBounds.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/FormalPolynomialOperationBounds.lean",
+      "upstream_blob": "1890346ad3f01808d6225b713da60291df6b6f84",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Polynomial/FormalPolynomialOperationBounds.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "1890346ad3f01808d6225b713da60291df6b6f84",
+      "upstream_sha256": "d33cfa5fbd4b63ebbf261e350bc9e1217eb7ef58489a85dc845a47101a981a52",
+      "ported_sha256": "d33cfa5fbd4b63ebbf261e350bc9e1217eb7ef58489a85dc845a47101a981a52",
+      "raw_bytes": 6178,
+      "ported_bytes": 6178,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.FirstCoefficientDerivativeBounds"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Polynomial.PolynomialLiftArrays",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/PolynomialLiftArrays.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/PolynomialLiftArrays.lean",
+      "upstream_blob": "f79b777e004e566296a06095390cc55d8fbd8ebe",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Polynomial/PolynomialLiftArrays.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "f79b777e004e566296a06095390cc55d8fbd8ebe",
+      "upstream_sha256": "e8e790a7accbbde4ebd40ba958899981271f13ca4b57264b74599f41c72a089e",
+      "ported_sha256": "e8e790a7accbbde4ebd40ba958899981271f13ca4b57264b74599f41c72a089e",
+      "raw_bytes": 2888,
+      "ported_bytes": 2888,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Geometry.HorizontalCoordinateBounds",
+        "OAI.Combinatorics.Progressions.Polynomial.FormalPolynomialCorrectionStep"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Polynomial.PolynomialShiftStructure",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/PolynomialShiftStructure.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/PolynomialShiftStructure.lean",
+      "upstream_blob": "25a5a26a46d8e25682b20c3115490be01e887e32",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Polynomial/PolynomialShiftStructure.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "25a5a26a46d8e25682b20c3115490be01e887e32",
+      "upstream_sha256": "596893c303d3e66ed5d1b5672db553ecdde0b81783a917819b4b2b3d9faea313",
+      "ported_sha256": "596893c303d3e66ed5d1b5672db553ecdde0b81783a917819b4b2b3d9faea313",
+      "raw_bytes": 24151,
+      "ported_bytes": 24151,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Fourier.BohrNiltestBudget"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Polynomial.SlicedPolynomialPerturbation",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/SlicedPolynomialPerturbation.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/SlicedPolynomialPerturbation.lean",
+      "upstream_blob": "370feccc85da107a4fd856bb2e4d05c4356a62af",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Polynomial/SlicedPolynomialPerturbation.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "370feccc85da107a4fd856bb2e4d05c4356a62af",
+      "upstream_sha256": "7a65ba82182d85381dcb258c3dda413247645ad6685eab72840a044dcf463de7",
+      "ported_sha256": "7a65ba82182d85381dcb258c3dda413247645ad6685eab72840a044dcf463de7",
+      "raw_bytes": 10565,
+      "ported_bytes": 10565,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.JointBooleanStability"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Polynomial.TrivialPolynomialData",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/TrivialPolynomialData.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/TrivialPolynomialData.lean",
+      "upstream_blob": "36385ff3876e27f1ccb3c3e26b07b1ef709dc5c4",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Polynomial/TrivialPolynomialData.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "36385ff3876e27f1ccb3c3e26b07b1ef709dc5c4",
+      "upstream_sha256": "995eaeb0f007b0f36ddfa964ec2f30b67ae03c6cf68f061f7ba38e1c82c04db0",
+      "ported_sha256": "995eaeb0f007b0f36ddfa964ec2f30b67ae03c6cf68f061f7ba38e1c82c04db0",
+      "raw_bytes": 2807,
+      "ported_bytes": 2807,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.ProductOrbitCongruence",
+        "OAI.Combinatorics.Progressions.Nilpotent.IdealInvariantNiltestBudget"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Probability.CanonicalCoverLaw",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Probability/CanonicalCoverLaw.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/CanonicalCoverLaw.lean",
+      "upstream_blob": "30e9db111b3648c6317c70590f8d96fd6e64d184",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Probability/CanonicalCoverLaw.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "30e9db111b3648c6317c70590f8d96fd6e64d184",
+      "upstream_sha256": "805cc8204995e40c8f746dfcfdac345aea7ad78bab4514f920c9b4b5d99b55b9",
+      "ported_sha256": "805cc8204995e40c8f746dfcfdac345aea7ad78bab4514f920c9b4b5d99b55b9",
+      "raw_bytes": 17388,
+      "ported_bytes": 17388,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.CanonicalCoefficientCoverLift",
+        "OAI.Combinatorics.Progressions.Estimates.HaarShiftImage",
+        "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientCoverTilt",
+        "OAI.Combinatorics.Progressions.Lattices.AffineCubePositiveComparison",
+        "OAI.Combinatorics.Progressions.Linear.CoefficientCoverKernel"
+      ],
+      "full_diff": ""
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Sampling.ControlledIntegralGrid",
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Sampling/ControlledIntegralGrid.lean",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Sampling/ControlledIntegralGrid.lean",
+      "upstream_blob": "4991c17fb831cef418aa9b53986dcdfc6fc5713a",
+      "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Sampling/ControlledIntegralGrid.lean",
+      "changes": [],
+      "upstream_blob_recomputed": "4991c17fb831cef418aa9b53986dcdfc6fc5713a",
+      "upstream_sha256": "88c52c41d6f2a58080f189e31104abff6ba53c50ceb75499983cd6c586aec14e",
+      "ported_sha256": "88c52c41d6f2a58080f189e31104abff6ba53c50ceb75499983cd6c586aec14e",
+      "raw_bytes": 2766,
+      "ported_bytes": 2766,
+      "same_as_fixed_upstream": true,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.RationalPowerHeight"
+      ],
+      "full_diff": ""
+    }
+  ],
+  "validation": {
+    "fixed_upstream_git_blob_verifications": 23,
+    "source_count": 23,
+    "exact_sources": 20,
+    "compatibility_ports": 3,
+    "compiled": false,
+    "existing_verified_sources_modified": false
+  },
+  "verification_status": "prepared; source identity checked; not Lean compiled or axiom audited",
+  "source_record": "Git blob identity checked against fixed-commit GitHub connector responses. Per-file SHA256 and complete compatibility diffs retained.",
+  "historical_manifests_changed": false
+}
