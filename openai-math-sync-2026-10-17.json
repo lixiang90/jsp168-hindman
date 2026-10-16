@@ -1,0 +1,236 @@
+{
+  "checked_date": "2026-10-17",
+  "recorded_at_utc": "2026-10-16T23:39:35Z",
+  "client_timezone": "Asia/Shanghai",
+  "repository": "https://github.com/openai/math",
+  "method": "Read-only authenticated GitHub connector GET of branch metadata, compare API, small directory contents and exact file metadata; no large recursive tree downloaded.",
+  "target": "JSP-000168 / Erdos #172 / finite simultaneous sums and products",
+  "remote_main": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "remote_main_commit_date_utc": "2026-10-12T21:55:24Z",
+  "previous_record": "openai-math-sync-2026-10-14.json",
+  "previous_remote": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "same_as_previous_remote_check": true,
+  "changed_files_since_previous": [],
+  "paper_reference_pin": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "fixed_reference_changed": false,
+  "comparison_to_fixed_pin": {
+    "status": "ahead",
+    "ahead_by": 4,
+    "behind_by": 0,
+    "total_commits": 4,
+    "whole_repository_changed": true,
+    "commits": [
+      {
+        "sha": "301488868beec11bfd897168433b0a64f5258559",
+        "committer_date_utc": "2026-10-08T05:03:50Z",
+        "message": "Update manuscripts and Lean formalizations"
+      },
+      {
+        "sha": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+        "committer_date_utc": "2026-10-08T05:20:00Z",
+        "message": "Merge pull request #1 from openai/codex/update-10-7\n\nUpdate manuscripts and Lean formalizations"
+      },
+      {
+        "sha": "2710f995ca1a469f236fda466400926d4a80cf4a",
+        "committer_date_utc": "2026-10-12T20:31:21Z",
+        "message": "Lock pull request conversations when opened"
+      },
+      {
+        "sha": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+        "committer_date_utc": "2026-10-12T21:55:24Z",
+        "message": "Merge pull request #2 from openai/codex/lock-prs\n\nAutomatically lock new PR conversations"
+      }
+    ],
+    "compare_api_file_entries_returned": 300,
+    "compare_api_file_list_exhaustive": false,
+    "file_list_limit_note": "The compare API returned its maximum 300 changed-file entries. Relevant-source conclusions use independently compared directory tree and file blob identities, not absence from that truncated list.",
+    "evidence_urls": {
+      "main_branch": "https://api.github.com/repos/openai/math/branches/main",
+      "comparison": "https://github.com/openai/math/compare/adc7f1241b42e322a6451854ab7e4b4c146bf78a...1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "compare_api": "https://api.github.com/repos/openai/math/compare/adc7f1241b42e322a6451854ab7e4b4c146bf78a...1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "history": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/history.md"
+    }
+  },
+  "object_comparisons": [
+    {
+      "path": "preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/README.md",
+      "object_kind": "blob",
+      "fixed_git_object": "1dcf6e45f762e5b3dee4e0fb51fb907884e04b1e",
+      "current_git_object": "1dcf6e45f762e5b3dee4e0fb51fb907884e04b1e",
+      "unchanged": true,
+      "evidence_urls": {
+        "fixed": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/README.md",
+        "current": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/README.md"
+      }
+    },
+    {
+      "path": "preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/build",
+      "object_kind": "tree",
+      "fixed_git_object": "02fdd550a7dffda7d5c5ffadce635dea090dc82a",
+      "current_git_object": "02fdd550a7dffda7d5c5ffadce635dea090dc82a",
+      "unchanged": true,
+      "evidence_urls": {
+        "fixed": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/build",
+        "current": "https://github.com/openai/math/tree/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/build"
+      }
+    },
+    {
+      "path": "preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/paper.pdf",
+      "object_kind": "blob",
+      "fixed_git_object": "93d9a67853e460ae2a72eff8b75c8f89f859e310",
+      "current_git_object": "93d9a67853e460ae2a72eff8b75c8f89f859e310",
+      "unchanged": true,
+      "evidence_urls": {
+        "fixed": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/paper.pdf",
+        "current": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/paper.pdf"
+      }
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Progressions",
+      "object_kind": "tree",
+      "fixed_git_object": "dcf2e25bcbfb1ff00a273c86db21592b80695a5c",
+      "current_git_object": "dcf2e25bcbfb1ff00a273c86db21592b80695a5c",
+      "unchanged": true,
+      "evidence_urls": {
+        "fixed": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions",
+        "current": "https://github.com/openai/math/tree/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Progressions"
+      }
+    },
+    {
+      "path": "lean/OAI/Combinatorics/SumProduct",
+      "object_kind": "tree",
+      "fixed_git_object": "6908b2c4ff9d77b58edf577eee7ab9597ab09b44",
+      "current_git_object": "6908b2c4ff9d77b58edf577eee7ab9597ab09b44",
+      "unchanged": true,
+      "evidence_urls": {
+        "fixed": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/SumProduct",
+        "current": "https://github.com/openai/math/tree/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/SumProduct"
+      }
+    },
+    {
+      "path": "lean/OAI/Combinatorics/Progressions/Estimates/AxisCompression.lean",
+      "object_kind": "blob",
+      "fixed_git_object": "73ed8e0e189ea424c6a271b08ae76e57ccccdb10",
+      "current_git_object": "73ed8e0e189ea424c6a271b08ae76e57ccccdb10",
+      "unchanged": true,
+      "evidence_urls": {
+        "fixed": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/AxisCompression.lean",
+        "current": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Progressions/Estimates/AxisCompression.lean"
+      }
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "object_kind": "blob",
+      "fixed_git_object": "ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5",
+      "current_git_object": "ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5",
+      "unchanged": true,
+      "evidence_urls": {
+        "fixed": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/lean-toolchain",
+        "current": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/lean-toolchain"
+      }
+    },
+    {
+      "path": "lean/lakefile.lean",
+      "object_kind": "blob",
+      "fixed_git_object": "66c3867331c7c607ffc0e60955cc86cccf046e12",
+      "current_git_object": "66c3867331c7c607ffc0e60955cc86cccf046e12",
+      "unchanged": true,
+      "evidence_urls": {
+        "fixed": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/lakefile.lean",
+        "current": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/lakefile.lean"
+      }
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "object_kind": "blob",
+      "fixed_git_object": "67d01d2717d0aaff59fb8814bb53581b961f42b4",
+      "current_git_object": "67d01d2717d0aaff59fb8814bb53581b961f42b4",
+      "unchanged": true,
+      "evidence_urls": {
+        "fixed": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/lake-manifest.json",
+        "current": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/lake-manifest.json"
+      }
+    }
+  ],
+  "directory_comparison_evidence": {
+    "combinatorics_fixed": "https://api.github.com/repos/openai/math/contents/lean/OAI/Combinatorics?ref=adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "combinatorics_current": "https://api.github.com/repos/openai/math/contents/lean/OAI/Combinatorics?ref=1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "paper_fixed": "https://api.github.com/repos/openai/math/contents/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026?ref=adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "paper_current": "https://api.github.com/repos/openai/math/contents/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026?ref=1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "lean_root_fixed": "https://api.github.com/repos/openai/math/contents/lean?ref=adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "lean_root_current": "https://api.github.com/repos/openai/math/contents/lean?ref=1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "paper_directory_entries_equal": true,
+    "paper_directory_note": "All three immediate entries (README.md, build tree and paper.pdf) have equal object IDs; equality of the build tree covers its nested sources."
+  },
+  "axis_closure_scope": {
+    "local_module_list": "verification/original-upstream-inverse/axis-prepared-modules.txt",
+    "module_list_sha256": "455a073b3a3e287ace4f5120ac0418f75207006e0f3ea265a98996b8042aa689",
+    "local_modules": 2102,
+    "all_local_modules_under_progressions": true,
+    "official_upstream_modules": 2100,
+    "local_compatibility_modules": [
+      "OAI.Combinatorics.Progressions.Compatibility.TensorInduction",
+      "OAI.Combinatorics.Progressions.Compatibility.ExteriorPowerInnerProduct"
+    ],
+    "interpretation": "The unchanged complete upstream Progressions tree covers AxisCompression and all 2100 upstream members of the local 2102-module closure. The two local compatibility additions are not claimed to be upstream files, and this remote comparison does not revalidate their ports."
+  },
+  "other_problem_changes": {
+    "present": true,
+    "summary": "The October 8 update contains other families' manuscript repairs, withdrawals and new formalizations; October 12 adds the PR-locking workflow. The unchanged relevant subtrees do not imply an unchanged whole repository.",
+    "history_categories": [
+      "Withdrawals concerning Weil classes on split abelian eightfolds, Kuga-Satake correspondences and products of K3 surfaces",
+      "Repairs concerning Lipschitz heights/Ashkin-Teller currents, Kahler minimal model programs/abundance, taming/hypersymplectic deformation, incompressible box transport, and a BSD introductory citation",
+      "Additional formalizations and supporting results"
+    ],
+    "evidence_url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/history.md"
+  },
+  "awards_snapshot": {
+    "repository": "https://github.com/TheJustinSunPrize/awards",
+    "remote_main": "fd8fa66abb4e21df828fdebc25298e9ad75521bd",
+    "remote_main_commit_date_utc": "2026-10-14T03:52:20Z",
+    "branch_evidence_url": "https://api.github.com/repos/TheJustinSunPrize/awards/branches/main",
+    "catalog": {
+      "path": "problems/catalog-0101-0200.md",
+      "git_blob": "31dcdc2d18c282e0953234824dc84f1f81258fa1",
+      "problem_id": "JSP-000168",
+      "current_status": "Solved; OpenAI published complete-solution claim; independent mathematical review pending",
+      "lean_proof": "No",
+      "eligible_to_claim": "No",
+      "evidence_url": "https://github.com/TheJustinSunPrize/awards/blob/fd8fa66abb4e21df828fdebc25298e9ad75521bd/problems/catalog-0101-0200.md#JSP-000168"
+    },
+    "related_pr": {
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4966",
+      "number": 4966,
+      "title": "JSP-000168: complete Lean formalization of Hindman's finite sums and products theorem",
+      "submitter": "cadamcat",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "created_at_utc": "2026-10-10T09:50:17Z",
+      "updated_at_utc": "2026-10-14T08:59:37Z",
+      "closed_at_utc": null,
+      "merged_at_utc": null,
+      "head_sha": "a0f1ca8454b23b0074af18d31a371cc73f2a98c9",
+      "base_sha_as_returned": "16877004910734cecca83cc5af0fec2f5a4125b3",
+      "discussion_entries_returned": 0,
+      "independent_correctness_or_acceptance_established_by_this_check": false,
+      "evidence_urls": {
+        "pull_request": "https://github.com/TheJustinSunPrize/awards/pull/4966",
+        "api": "https://api.github.com/repos/TheJustinSunPrize/awards/pulls/4966"
+      }
+    },
+    "prize_submission_performed_by_this_check": false,
+    "award_claim_performed_by_this_check": false,
+    "award_or_priority_guaranteed": false
+  },
+  "actions": {
+    "proof_sources_modified": false,
+    "dependency_pins_changed": false,
+    "repository_visibility_changed": false,
+    "prize_pull_request_submitted": false,
+    "award_claim_submitted": false,
+    "upstream_lean_sources_built_in_this_check": false,
+    "kernel_replay_performed": false
+  },
+  "conclusion": "At the fetched main commit, the Hindman paper, Progressions inverse closure, SumProduct support and the three upstream Lean configuration files retain exactly their fixed-pin Git object identities. The existing source pin is retained. Other problem families did change. Awards PR #4966 remains open and unmerged; the catalog still records Lean No and eligibility No with independent mathematical review pending. This read-only synchronization record neither submits a claim nor certifies mathematical correctness, a completed local proof, priority, acceptance or payment."
+}
