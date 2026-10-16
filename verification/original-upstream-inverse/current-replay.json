@@ -1,8 +1,8 @@
 {
   "schema": "hindman.incremental-current-replay.v2",
-  "created_utc": "2026-10-16T14:22:53.112863+00:00",
+  "created_utc": "2026-10-16T15:55:53.917922+00:00",
   "status": "current-selected-audit-completed",
-  "scope": "Current 1281-module checkpoint with strict local source-build records and successful trust-zero unique-declaration audit. The dependency-closed source coverage union is 1374: historical 1042 plus 332 cumulative additions (268 previously committed + 64 new). The historical-only 93 retain earlier evidence; this is not a new whole-union replay.",
+  "scope": "Current 1365-module checkpoint with strict local source-build records and successful trust-zero unique-declaration audit. The dependency-closed source coverage union is 1432: historical 1042 plus 390 cumulative additions (332 previously committed + 58 new). The historical-only 67 retain earlier evidence; this is not a new whole-union replay. One new compatibility source has separately pinned official mathlib d13 provenance.",
   "fixed_upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
   "lean": "4.32.2",
   "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
@@ -17,82 +17,82 @@
     "trust_as_recorded": 0
   },
   "previous_checkpoint": {
-    "repository_commit": "58f8f258f21acf53501c95613b796e334d345b7e",
-    "repository_tree": "66559abec682908c7da45f76f4d4d2486e76c5e0",
+    "repository_commit": "452bfd37ed2e75ffee20bf3a1b27f893cb29aa02",
+    "repository_tree": "4d7b7024035859b3bcf44f93868625b5972dce97",
     "path": "verification/original-upstream-inverse/current-replay.json",
-    "sha256": "25883c85338f63c1ad586958de8fdab18f3baae685f41ef40c788b8accb401f2",
-    "composed_coverage_modules": 1310,
-    "current_audit_modules": 1217,
+    "sha256": "22f4784944e4aa6e2ef3f006e004f9a12b8994dca336fec7e7eceda44752d34e",
+    "composed_coverage_modules": 1374,
+    "current_audit_modules": 1281,
     "audit_exit": 0,
-    "unique_declarations": 26033,
-    "declaration_records": 26047,
+    "unique_declarations": 27509,
+    "declaration_records": 27524,
     "all_previous_current_modules_in_new_selection": true
   },
   "partition_summary": {
     "new_sources": {
-      "count": 64,
-      "sorted_module_names_sha256": "bb41e76c64696889287d8950d48a0041a928123ba0822e0d6a8d904c67c9f6aa"
+      "count": 58,
+      "sorted_module_names_sha256": "6c9148444f294175ea42af3911553340b1bb278f464078c65c0e304040f3b047"
     },
     "cumulative_increment_sources": {
+      "count": 390,
+      "sorted_module_names_sha256": "6624fb384a8485e7f6a5fad1be503425d5db6cc8c5ed37507ed1dd3b2b6d4ca8"
+    },
+    "previous_increment_sources": {
       "count": 332,
       "sorted_module_names_sha256": "8fcfb2ac43641b79dabf99355611aa6eacabe513a41b6ab87a8a18f50c1c95dc"
     },
-    "previous_increment_sources": {
-      "count": 268,
-      "sorted_module_names_sha256": "47b2b0a2526aef80f24e75aec29f9355991c7cf9f6be80d7275c4912a3808710"
-    },
     "unchanged_stage_vs_history": {
-      "count": 949,
-      "sorted_module_names_sha256": "472d2141da2e9e735cdece5e43c8124456f6f9d493726797109c204bcf84a8be"
+      "count": 975,
+      "sorted_module_names_sha256": "70c5509217b70467e353bdcfd1f9c4f2a6dd4280b1f8e75ebda71eab648504e0"
     },
     "changed_stage_vs_history": {
       "count": 0,
       "sorted_module_names_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     "unchanged_stage_vs_main": {
-      "count": 1217,
-      "sorted_module_names_sha256": "e481b8a524dd9b45ecca7306f2d852451fabd3eb3ee3b80c89b541fac4e57bd1"
+      "count": 1307,
+      "sorted_module_names_sha256": "a56234674371da9c537594bf2a64c0b397436dda184525fe73dc239823c373bd"
     },
     "changed_stage_vs_main": {
       "count": 0,
       "sorted_module_names_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     "historical_only_not_currently_reaudited": {
-      "count": 93,
-      "sorted_module_names_sha256": "0d140c2a1f567a89b16f780021733894e72e10c63cfabe82ce2fd5b7f919e0bb"
+      "count": 67,
+      "sorted_module_names_sha256": "910fb8e3a48042172f7b0848bcdbe0885c03eac42fe3de3353c5d3f8f0617778"
     },
     "main_only_outside_composed_closure": {
       "count": 41,
       "sorted_module_names_sha256": "5bae20a5225d4ae81e1250addb04684ac5d113013cb16597b3bb6a3f657ba30c"
     },
     "current_stage": {
-      "count": 1281,
-      "sorted_module_names_sha256": "22e583211bb77e649d21a74e366da028b09974abcea23c2a5dca055cb2f04c81"
+      "count": 1365,
+      "sorted_module_names_sha256": "4e1fbd2abc4df7424620804f8dd8252ae271e92c85bb945feb1022f63af0aaf4"
     },
     "historical_closure": {
       "count": 1042,
       "sorted_module_names_sha256": "7aa437c3332981613208e8af89b988ac9e3a3009622c0f94d8d517be4ab0fb10"
     },
     "composed_closure": {
-      "count": 1374,
-      "sorted_module_names_sha256": "1f763f8d52307d9c75ff9b92a01a12ae37aa881ee6818fba268ce572f1e36a54"
+      "count": 1432,
+      "sorted_module_names_sha256": "375b37c7a95f98d7967f2505a32553ff70b70cc06db4483c35f10926ea1a16c6"
     },
     "committed_main": {
-      "count": 1351,
-      "sorted_module_names_sha256": "faec9a9eadaf009ef1ba3556d425d90247faf3232b250a87bb447fe8d9e01168"
-    },
-    "main_plus_increment": {
       "count": 1415,
       "sorted_module_names_sha256": "279682daf8aa852fc17f9dd021fc508d9394dfd2d9d681c3f78c352b58f94a11"
+    },
+    "main_plus_increment": {
+      "count": 1473,
+      "sorted_module_names_sha256": "31ec7ec60c6e1ac86efae256014097332990a26fa8623d049cb3236fae139453"
     }
   },
   "dependency_closure": {
     "current_stage": {
-      "module_count": 1281,
-      "direct_oai_edge_count": 1910,
+      "module_count": 1365,
+      "direct_oai_edge_count": 2041,
       "missing_oai_imports": [],
       "acyclic": true,
-      "graph_sha256": "e5a23b727add00b432cc0fde4c49af73b094de710775f8f61ba758a488dba2a2"
+      "graph_sha256": "06c2caaf58b628dd4959651f94959440ed7a811eef43fdddbb04b0b51b301c8d"
     },
     "historical_closure": {
       "module_count": 1042,
@@ -102,27 +102,28 @@
       "graph_sha256": "9696fbb60efe72f3314fc44fbb18068ab9f115570724baf5142353c6db9ce355"
     },
     "composed_closure": {
-      "module_count": 1374,
-      "direct_oai_edge_count": 1995,
+      "module_count": 1432,
+      "direct_oai_edge_count": 2103,
       "missing_oai_imports": [],
       "acyclic": true,
-      "graph_sha256": "0f3c903d4b272506c2f9157399023f1ee45467bcf00a85a600e35952ac4f63a7"
+      "graph_sha256": "bf50cb5bffe40f7b29e23ffb724b33aa64108d5a0197b7eb960a1153647184b9"
     },
     "main_plus_increment": {
-      "module_count": 1415,
-      "direct_oai_edge_count": 2052,
+      "module_count": 1473,
+      "direct_oai_edge_count": 2160,
       "missing_oai_imports": [],
       "acyclic": true,
-      "graph_sha256": "6884f02aed9e3018b85625809d5e3175d416b501f08dee773e81e8804d779d53"
+      "graph_sha256": "a723ec40fe20eff1489c69c763665bbfe6efa87491c4cfce827eac876346e6b6"
     }
   },
   "source_inventory_sha256": {
-    "committed_main": "ec1ce9383cf1aad2cf36cecae1acb4a16e2acdb90b8db5ed7ce6c7e2ae792534",
-    "current_stage": "18bceef9b2ed1dcb8f26aeda66a46ff34202a7d48e0d10e5b61be06dfac1a067",
-    "composed_closure": "d34529495fc2153b0a316cfbd8a792356e25ea7f90a9825f8afb12f70842b7f3",
-    "main_plus_increment": "1d0d2f15ea60e95ec3500b4f57f812c102c83100ca15867ce6b11f2d566b7046"
+    "committed_main": "1d0d2f15ea60e95ec3500b4f57f812c102c83100ca15867ce6b11f2d566b7046",
+    "current_stage": "25d2620cd86f40412c4154ef2f4894517c0ab85f9fa4574aff0390a90457905d",
+    "composed_closure": "a3d387342be8cb56b2c694a17a696cc4097e5aa3ffb64929c63e4c0be7938648",
+    "main_plus_increment": "ed8de28995614f6bb17bd0c02ab982de37225ba448cee82fdc30d20b39a3da03"
   },
   "current_replay_modules": [
+    "OAI.Combinatorics.Progressions.Compatibility.ExteriorPowerInnerProduct",
     "OAI.Combinatorics.Progressions.Compatibility.TensorInduction",
     "OAI.Combinatorics.Progressions.Dynamics.AdaptedMapGeometryBudget",
     "OAI.Combinatorics.Progressions.Dynamics.BooleanCanonicalLogBudget",
@@ -144,6 +145,7 @@
     "OAI.Combinatorics.Progressions.Dynamics.JointBooleanWeightBudget",
     "OAI.Combinatorics.Progressions.Dynamics.JointPivotProfileBudget",
     "OAI.Combinatorics.Progressions.Dynamics.LayerRemovalBudgets",
+    "OAI.Combinatorics.Progressions.Dynamics.LieSubalgebraRepresentativeBudget",
     "OAI.Combinatorics.Progressions.Dynamics.LocalizedAverageScaleBudget",
     "OAI.Combinatorics.Progressions.Dynamics.ModeAmplitudeErrorBudget",
     "OAI.Combinatorics.Progressions.Dynamics.ModeThresholdLogBudget",
@@ -151,6 +153,7 @@
     "OAI.Combinatorics.Progressions.Dynamics.MultiaffineBiasBudget",
     "OAI.Combinatorics.Progressions.Dynamics.NativeHorizontalLiftBudget",
     "OAI.Combinatorics.Progressions.Dynamics.NativeLocalPivotVerticalBudget",
+    "OAI.Combinatorics.Progressions.Dynamics.NativeOptionProductBudget",
     "OAI.Combinatorics.Progressions.Dynamics.NativeParameterCoverBudget",
     "OAI.Combinatorics.Progressions.Dynamics.PartitionFixedListLogBudget",
     "OAI.Combinatorics.Progressions.Dynamics.PivotDeterminantBudget",
@@ -159,11 +162,13 @@
     "OAI.Combinatorics.Progressions.Dynamics.ProductCutoffBudget",
     "OAI.Combinatorics.Progressions.Dynamics.ProductCutoffExponentialBudget",
     "OAI.Combinatorics.Progressions.Dynamics.ProjectedAxisBudgets",
+    "OAI.Combinatorics.Progressions.Dynamics.QuotientDetectorHeightBudget",
     "OAI.Combinatorics.Progressions.Dynamics.RationalConstraintCountBudget",
     "OAI.Combinatorics.Progressions.Dynamics.RationalHeightBudget",
     "OAI.Combinatorics.Progressions.Dynamics.RationalLieQuotientBudget",
     "OAI.Combinatorics.Progressions.Dynamics.ReconstructionBudget",
     "OAI.Combinatorics.Progressions.Dynamics.ReconstructionConstantBudget",
+    "OAI.Combinatorics.Progressions.Dynamics.ReducedRelativeBudget",
     "OAI.Combinatorics.Progressions.Dynamics.ResetFromCommonQuotient",
     "OAI.Combinatorics.Progressions.Dynamics.RestrictedGradePathMembership",
     "OAI.Combinatorics.Progressions.Dynamics.ScalarCubeBoundaryLogBudget",
@@ -173,6 +178,7 @@
     "OAI.Combinatorics.Progressions.Dynamics.SparseGeneratorBudget",
     "OAI.Combinatorics.Progressions.Dynamics.SquarefreeModelBudget",
     "OAI.Combinatorics.Progressions.Dynamics.SymmetricUnitBudget",
+    "OAI.Combinatorics.Progressions.Dynamics.SynchronizedCorrectionBudget",
     "OAI.Combinatorics.Progressions.Dynamics.TopInvariantReconstructionBudget",
     "OAI.Combinatorics.Progressions.Dynamics.UniformExternalNetScalarBudget",
     "OAI.Combinatorics.Progressions.Dynamics.VerticalDecompositionBudget",
@@ -182,6 +188,8 @@
     "OAI.Combinatorics.Progressions.Estimates.AlgebraicMajorUniformExponent",
     "OAI.Combinatorics.Progressions.Estimates.AmbientImageExtension",
     "OAI.Combinatorics.Progressions.Estimates.AmplificationFinalCostGrowth",
+    "OAI.Combinatorics.Progressions.Estimates.AnchoredCoefficientCongruenceRemoval",
+    "OAI.Combinatorics.Progressions.Estimates.AnchoredCubeCongruenceRemoval",
     "OAI.Combinatorics.Progressions.Estimates.AnnihilatorIntervalBound",
     "OAI.Combinatorics.Progressions.Estimates.ArrayFunctionalSection",
     "OAI.Combinatorics.Progressions.Estimates.AuxiliaryIntervalCells",
@@ -210,6 +218,7 @@
     "OAI.Combinatorics.Progressions.Estimates.BufferedTranslationIncrement",
     "OAI.Combinatorics.Progressions.Estimates.CanonicalCubeMinorThreshold",
     "OAI.Combinatorics.Progressions.Estimates.CanonicalScalarSourceEnvelope",
+    "OAI.Combinatorics.Progressions.Estimates.CappedDistanceReconstruction",
     "OAI.Combinatorics.Progressions.Estimates.CircleFejerAverage",
     "OAI.Combinatorics.Progressions.Estimates.CoarseLocalizationError",
     "OAI.Combinatorics.Progressions.Estimates.CocycleHorizontalNormalization",
@@ -224,6 +233,7 @@
     "OAI.Combinatorics.Progressions.Estimates.CoefficientSliceEmbedding",
     "OAI.Combinatorics.Progressions.Estimates.CoefficientTailScaling",
     "OAI.Combinatorics.Progressions.Estimates.CommonDenominatorMultiples",
+    "OAI.Combinatorics.Progressions.Estimates.CommonPositivePartitionRefinement",
     "OAI.Combinatorics.Progressions.Estimates.CommonStrideGowersTransfer",
     "OAI.Combinatorics.Progressions.Estimates.CommonSubspaceFamily",
     "OAI.Combinatorics.Progressions.Estimates.CompactIntervalIntegral",
@@ -231,6 +241,7 @@
     "OAI.Combinatorics.Progressions.Estimates.ComplexExchangeTransfer",
     "OAI.Combinatorics.Progressions.Estimates.ComplexFiniteMeans",
     "OAI.Combinatorics.Progressions.Estimates.ComplexNormalizationError",
+    "OAI.Combinatorics.Progressions.Estimates.ComplexPolarization",
     "OAI.Combinatorics.Progressions.Estimates.ComplexUnitLocalLipschitz",
     "OAI.Combinatorics.Progressions.Estimates.ContinuousCosetMap",
     "OAI.Combinatorics.Progressions.Estimates.ContinuousImageFactor",
@@ -240,6 +251,7 @@
     "OAI.Combinatorics.Progressions.Estimates.ConvexEmpiricalApproximation",
     "OAI.Combinatorics.Progressions.Estimates.CorrelationDerivative",
     "OAI.Combinatorics.Progressions.Estimates.CosetPairInjective",
+    "OAI.Combinatorics.Progressions.Estimates.CovolumeFactorBounds",
     "OAI.Combinatorics.Progressions.Estimates.CubeTranslation",
     "OAI.Combinatorics.Progressions.Estimates.CurrentLayerPreservation",
     "OAI.Combinatorics.Progressions.Estimates.CurrentLayerSplitting",
@@ -254,13 +266,18 @@
     "OAI.Combinatorics.Progressions.Estimates.DenseProgressionInnerFamily",
     "OAI.Combinatorics.Progressions.Estimates.DenseTranslate",
     "OAI.Combinatorics.Progressions.Estimates.DependentPatchValue",
+    "OAI.Combinatorics.Progressions.Estimates.DerivativeIndexBounds",
     "OAI.Combinatorics.Progressions.Estimates.DeterminantCutoffScale",
     "OAI.Combinatorics.Progressions.Estimates.DilationPairFiltration",
     "OAI.Combinatorics.Progressions.Estimates.DiscreteMinorThreshold",
     "OAI.Combinatorics.Progressions.Estimates.DynkinTrees",
     "OAI.Combinatorics.Progressions.Estimates.EmbeddedFiniteConditioning",
     "OAI.Combinatorics.Progressions.Estimates.EmptyLayerDetectionGeometry",
+    "OAI.Combinatorics.Progressions.Estimates.EuclideanBallVolumeBound",
     "OAI.Combinatorics.Progressions.Estimates.EuclideanBisectorNull",
+    "OAI.Combinatorics.Progressions.Estimates.EuclideanDerivativeCovolume",
+    "OAI.Combinatorics.Progressions.Estimates.EuclideanGraphNorm",
+    "OAI.Combinatorics.Progressions.Estimates.EuclideanGraphResidual",
     "OAI.Combinatorics.Progressions.Estimates.ExternalPivotMaskSelection",
     "OAI.Combinatorics.Progressions.Estimates.FactoredC2Difference",
     "OAI.Combinatorics.Progressions.Estimates.FastCoefficientBlocks",
@@ -268,10 +285,12 @@
     "OAI.Combinatorics.Progressions.Estimates.FilteredLieTree",
     "OAI.Combinatorics.Progressions.Estimates.FiniteApproximationComparison",
     "OAI.Combinatorics.Progressions.Estimates.FiniteBiasedSlice",
+    "OAI.Combinatorics.Progressions.Estimates.FiniteBoundedListEnumeration",
     "OAI.Combinatorics.Progressions.Estimates.FiniteCommonStrideFamily",
     "OAI.Combinatorics.Progressions.Estimates.FiniteConvolution",
     "OAI.Combinatorics.Progressions.Estimates.FiniteCubeBlockBounds",
     "OAI.Combinatorics.Progressions.Estimates.FiniteDependentPMFBind",
+    "OAI.Combinatorics.Progressions.Estimates.FiniteEnumerationFilter",
     "OAI.Combinatorics.Progressions.Estimates.FiniteEventUnion",
     "OAI.Combinatorics.Progressions.Estimates.FiniteFiberTest",
     "OAI.Combinatorics.Progressions.Estimates.FiniteFiberVolumeBound",
@@ -316,11 +335,13 @@
     "OAI.Combinatorics.Progressions.Estimates.HomogeneousScaledSubstitution",
     "OAI.Combinatorics.Progressions.Estimates.HomogenizedModeFactorization",
     "OAI.Combinatorics.Progressions.Estimates.HorizontalAmbientQuotient",
+    "OAI.Combinatorics.Progressions.Estimates.HorizontalPivotExclusion",
     "OAI.Combinatorics.Progressions.Estimates.ImageCosetReconstruction",
     "OAI.Combinatorics.Progressions.Estimates.ImageExtensionInverseBounds",
     "OAI.Combinatorics.Progressions.Estimates.ImageRepresentatives",
     "OAI.Combinatorics.Progressions.Estimates.InactiveAxisScale",
     "OAI.Combinatorics.Progressions.Estimates.InactiveShortLogBounds",
+    "OAI.Combinatorics.Progressions.Estimates.IndependentColumnsMinor",
     "OAI.Combinatorics.Progressions.Estimates.IndependentFiniteConditioning",
     "OAI.Combinatorics.Progressions.Estimates.IntegralHyperplaneCorrection",
     "OAI.Combinatorics.Progressions.Estimates.IntegralOrthogonalSection",
@@ -331,6 +352,8 @@
     "OAI.Combinatorics.Progressions.Estimates.IteratedCircleAverageIntegral",
     "OAI.Combinatorics.Progressions.Estimates.JoinedCoefficientProfile",
     "OAI.Combinatorics.Progressions.Estimates.JointBooleanGoodWeight",
+    "OAI.Combinatorics.Progressions.Estimates.JointBooleanRegularization",
+    "OAI.Combinatorics.Progressions.Estimates.JointBooleanRegularizationChoice",
     "OAI.Combinatorics.Progressions.Estimates.JointCoefficientRetainedTest",
     "OAI.Combinatorics.Progressions.Estimates.JointRationalSpaceGenerators",
     "OAI.Combinatorics.Progressions.Estimates.LargeCokernelReciprocalBound",
@@ -358,6 +381,7 @@
     "OAI.Combinatorics.Progressions.Estimates.McShaneEnvelope",
     "OAI.Combinatorics.Progressions.Estimates.MinkowskiSecondInduction",
     "OAI.Combinatorics.Progressions.Estimates.MixedArrayReference",
+    "OAI.Combinatorics.Progressions.Estimates.MixedBooleanSiteValues",
     "OAI.Combinatorics.Progressions.Estimates.MixedCoefficientCounting",
     "OAI.Combinatorics.Progressions.Estimates.MixedRealPoint",
     "OAI.Combinatorics.Progressions.Estimates.ModeRemovalThresholds",
@@ -373,10 +397,13 @@
     "OAI.Combinatorics.Progressions.Estimates.MultidegreePredecessor",
     "OAI.Combinatorics.Progressions.Estimates.MultilinearFirstOrder",
     "OAI.Combinatorics.Progressions.Estimates.NativeCentralSeed",
+    "OAI.Combinatorics.Progressions.Estimates.NativeEqualDimension",
     "OAI.Combinatorics.Progressions.Estimates.NativeEquivalenceTransitivity",
     "OAI.Combinatorics.Progressions.Estimates.NativeFixedVerticalPower",
     "OAI.Combinatorics.Progressions.Estimates.NativeMeanRowCorrelation",
+    "OAI.Combinatorics.Progressions.Estimates.NativeModelOrbit",
     "OAI.Combinatorics.Progressions.Estimates.NativePositiveCoefficientBases",
+    "OAI.Combinatorics.Progressions.Estimates.NativeProductPartition",
     "OAI.Combinatorics.Progressions.Estimates.NativeRationalRepresentatives",
     "OAI.Combinatorics.Progressions.Estimates.NativeSlowConstantProduct",
     "OAI.Combinatorics.Progressions.Estimates.NativeSpaceMap",
@@ -390,6 +417,7 @@
     "OAI.Combinatorics.Progressions.Estimates.NormalizedJetColumns",
     "OAI.Combinatorics.Progressions.Estimates.NormalizedJetL1Parameter",
     "OAI.Combinatorics.Progressions.Estimates.NormalizedJetMeasurability",
+    "OAI.Combinatorics.Progressions.Estimates.NormalizedMinorBounds",
     "OAI.Combinatorics.Progressions.Estimates.NormalizedSampledHistogram",
     "OAI.Combinatorics.Progressions.Estimates.NormalizedSmallLiftHaar",
     "OAI.Combinatorics.Progressions.Estimates.NormalizedTwistParameterPartition",
@@ -403,6 +431,7 @@
     "OAI.Combinatorics.Progressions.Estimates.PaddedBooleanFeatures",
     "OAI.Combinatorics.Progressions.Estimates.PairedDiagonalApproximation",
     "OAI.Combinatorics.Progressions.Estimates.PartialComplexScaledQuadrature",
+    "OAI.Combinatorics.Progressions.Estimates.PartiallyBoundedNormalization",
     "OAI.Combinatorics.Progressions.Estimates.PeelingDecomposition",
     "OAI.Combinatorics.Progressions.Estimates.PeriodicIsometricAction",
     "OAI.Combinatorics.Progressions.Estimates.PetalComparisonTree",
@@ -472,9 +501,13 @@
     "OAI.Combinatorics.Progressions.Estimates.RealifiedTripleLayers",
     "OAI.Combinatorics.Progressions.Estimates.RectangularCellGeometry",
     "OAI.Combinatorics.Progressions.Estimates.RectangularDetExpansion",
+    "OAI.Combinatorics.Progressions.Estimates.ReducedDiagonalBounds",
+    "OAI.Combinatorics.Progressions.Estimates.ReducedNativeFactorization",
     "OAI.Combinatorics.Progressions.Estimates.ReducedSquareSymbol",
+    "OAI.Combinatorics.Progressions.Estimates.ReducedSymbolDimensions",
     "OAI.Combinatorics.Progressions.Estimates.RefilteredPointwiseSplitting",
     "OAI.Combinatorics.Progressions.Estimates.ReindexedCubeDomain",
+    "OAI.Combinatorics.Progressions.Estimates.ReindexedDerivativePoints",
     "OAI.Combinatorics.Progressions.Estimates.RelativeFiberSlicePatch",
     "OAI.Combinatorics.Progressions.Estimates.RelativePatchAmplification",
     "OAI.Combinatorics.Progressions.Estimates.ReplicatedLieAction",
@@ -580,6 +613,7 @@
     "OAI.Combinatorics.Progressions.Estimates.WeightedCubePlateau",
     "OAI.Combinatorics.Progressions.Estimates.WeightedDerivationDrop",
     "OAI.Combinatorics.Progressions.Estimates.WeightedImageDerivative",
+    "OAI.Combinatorics.Progressions.Estimates.WeightedLinearBounds",
     "OAI.Combinatorics.Progressions.Estimates.WeightedLoweringAction",
     "OAI.Combinatorics.Progressions.Estimates.WeightedLoweringGroup",
     "OAI.Combinatorics.Progressions.Estimates.WeightedLoweringTriangular",
@@ -599,6 +633,7 @@
     "OAI.Combinatorics.Progressions.Fourier.AffineTorusDensityIncrement",
     "OAI.Combinatorics.Progressions.Fourier.AffineTorusGeometry",
     "OAI.Combinatorics.Progressions.Fourier.AffineUniformSpectrum",
+    "OAI.Combinatorics.Progressions.Fourier.AnchoredCoefficientFourierNormalization",
     "OAI.Combinatorics.Progressions.Fourier.BohrNiltestBudget",
     "OAI.Combinatorics.Progressions.Fourier.BohrTorusApproximation",
     "OAI.Combinatorics.Progressions.Fourier.BoxDifferenceCharacter",
@@ -612,7 +647,9 @@
     "OAI.Combinatorics.Progressions.Fourier.CyclicTorusCoordinates",
     "OAI.Combinatorics.Progressions.Fourier.DivisibleCharacterExtension",
     "OAI.Combinatorics.Progressions.Fourier.ElementaryCharacterTail",
+    "OAI.Combinatorics.Progressions.Fourier.EuclideanCoefficientTorus",
     "OAI.Combinatorics.Progressions.Fourier.EuclideanJetTorus",
+    "OAI.Combinatorics.Progressions.Fourier.ExpandingGramSpectrum",
     "OAI.Combinatorics.Progressions.Fourier.ExponentialBohrVolume",
     "OAI.Combinatorics.Progressions.Fourier.FactoredPolynomialCharacter",
     "OAI.Combinatorics.Progressions.Fourier.FiniteCharacterOrderTail",
@@ -675,6 +712,9 @@
     "OAI.Combinatorics.Progressions.Geometry.ChartCutoff",
     "OAI.Combinatorics.Progressions.Geometry.ChordBoxCutoff",
     "OAI.Combinatorics.Progressions.Geometry.CoefficientCoordinateEquiv",
+    "OAI.Combinatorics.Progressions.Geometry.CoefficientDeckCoordinates",
+    "OAI.Combinatorics.Progressions.Geometry.CoefficientJetCoordinates",
+    "OAI.Combinatorics.Progressions.Geometry.CommonRationalModelCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.CommonStrideCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.CommonSupportRadius",
     "OAI.Combinatorics.Progressions.Geometry.CompactBoxIntegral",
@@ -684,9 +724,11 @@
     "OAI.Combinatorics.Progressions.Geometry.ControlledIntegralCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.ControlledSumCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.CoordinateConstantDecomposition",
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateDerivativeBounds",
     "OAI.Combinatorics.Progressions.Geometry.CoordinateDeterminant",
     "OAI.Combinatorics.Progressions.Geometry.CoordinateFiberPatch",
     "OAI.Combinatorics.Progressions.Geometry.CoordinateInjection",
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateMinorCovolume",
     "OAI.Combinatorics.Progressions.Geometry.CoordinateProductCap",
     "OAI.Combinatorics.Progressions.Geometry.CoordinateQuotientModel",
     "OAI.Combinatorics.Progressions.Geometry.CoordinateSubstitutionAlgebra",
@@ -695,6 +737,7 @@
     "OAI.Combinatorics.Progressions.Geometry.CutoffBoxImageComparison",
     "OAI.Combinatorics.Progressions.Geometry.CyclicProgressionCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.DenseRealBoxCell",
+    "OAI.Combinatorics.Progressions.Geometry.DerivativeVerticalCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.DilationPairCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.DivergenceSupport",
     "OAI.Combinatorics.Progressions.Geometry.EmbeddingCoordinateHeight",
@@ -736,6 +779,7 @@
     "OAI.Combinatorics.Progressions.Geometry.NativeIntervalCoordinate",
     "OAI.Combinatorics.Progressions.Geometry.NativeProductOrbitMetric",
     "OAI.Combinatorics.Progressions.Geometry.NestedBoxReindex",
+    "OAI.Combinatorics.Progressions.Geometry.NormalizedMinorCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.NormalizedRestrictionTransport",
     "OAI.Combinatorics.Progressions.Geometry.NormalizedSpatialAmplitudeShift",
     "OAI.Combinatorics.Progressions.Geometry.NormalizedSpatialReplacement",
@@ -745,6 +789,7 @@
     "OAI.Combinatorics.Progressions.Geometry.PMFSupportedMean",
     "OAI.Combinatorics.Progressions.Geometry.PhysicalBoxPartition",
     "OAI.Combinatorics.Progressions.Geometry.PivotCoordinateChange",
+    "OAI.Combinatorics.Progressions.Geometry.PositiveCyclicCoordinateProduct",
     "OAI.Combinatorics.Progressions.Geometry.ProductChartReference",
     "OAI.Combinatorics.Progressions.Geometry.ProductComponentCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.ProductEuclideanCoordinates",
@@ -754,6 +799,7 @@
     "OAI.Combinatorics.Progressions.Geometry.QuantitativeProjectedChart",
     "OAI.Combinatorics.Progressions.Geometry.QuotientCoordinateRadius",
     "OAI.Combinatorics.Progressions.Geometry.QuotientSubgroupCoordinates",
+    "OAI.Combinatorics.Progressions.Geometry.RationalModelCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.RealCoordinateFunctionals",
     "OAI.Combinatorics.Progressions.Geometry.RealOrderedChartPatch",
     "OAI.Combinatorics.Progressions.Geometry.RealSquarefreeCoordinates",
@@ -761,6 +807,7 @@
     "OAI.Combinatorics.Progressions.Geometry.RealSupportedQuotientCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.RealifiedPairCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.RealifiedSquareCoordinates",
+    "OAI.Combinatorics.Progressions.Geometry.RealifiedSquareMetric",
     "OAI.Combinatorics.Progressions.Geometry.RealifiedTripleCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.ReducedSquareCoefficientCoordinates",
     "OAI.Combinatorics.Progressions.Geometry.RiemannianLocalCoordinates",
@@ -789,6 +836,8 @@
     "OAI.Combinatorics.Progressions.Geometry.SupportedFiniteComparison",
     "OAI.Combinatorics.Progressions.Geometry.SupportedLieQuotient",
     "OAI.Combinatorics.Progressions.Geometry.SupportedQuotientFamilyFaithful",
+    "OAI.Combinatorics.Progressions.Geometry.SupportedQuotientSection",
+    "OAI.Combinatorics.Progressions.Geometry.SupportedSubquotient",
     "OAI.Combinatorics.Progressions.Geometry.SymbolFactorizationTransport",
     "OAI.Combinatorics.Progressions.Geometry.SymbolRepresentativeTransport",
     "OAI.Combinatorics.Progressions.Geometry.SymmetricEvaluationMetric",
@@ -804,6 +853,9 @@
     "OAI.Combinatorics.Progressions.Geometry.WeightedTranslationIntegralCoordinates",
     "OAI.Combinatorics.Progressions.Lattices.AffineBlockScale",
     "OAI.Combinatorics.Progressions.Lattices.AffineBoxTest",
+    "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientAmplitudeCongruenceRemoval",
+    "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientCongruenceRemoval",
+    "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientCoverTilt",
     "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientLaw",
     "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientResidueWidths",
     "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientSubspace",
@@ -816,6 +868,8 @@
     "OAI.Combinatorics.Progressions.Lattices.AffineTopCoefficient",
     "OAI.Combinatorics.Progressions.Lattices.AffineWindowGoodKernelBound",
     "OAI.Combinatorics.Progressions.Lattices.AlgebraicMajorWeightedAffineTopPullback",
+    "OAI.Combinatorics.Progressions.Lattices.AnchoredCoefficientResidueAmbient",
+    "OAI.Combinatorics.Progressions.Lattices.AnchoredCubeResidueAmbient",
     "OAI.Combinatorics.Progressions.Lattices.AnchoredCubeResidueWidths",
     "OAI.Combinatorics.Progressions.Lattices.AnnihilatingCoordinateResidue",
     "OAI.Combinatorics.Progressions.Lattices.AuxiliaryResidueLocalization",
@@ -835,13 +889,16 @@
     "OAI.Combinatorics.Progressions.Lattices.CoverBasisResidues",
     "OAI.Combinatorics.Progressions.Lattices.CubeResidueSupport",
     "OAI.Combinatorics.Progressions.Lattices.DenseIntegerSpan",
+    "OAI.Combinatorics.Progressions.Lattices.DerivativeLatticeDivision",
     "OAI.Combinatorics.Progressions.Lattices.EuclideanDerivativeLattice",
+    "OAI.Combinatorics.Progressions.Lattices.EuclideanLatticeGraph",
     "OAI.Combinatorics.Progressions.Lattices.EuclideanShortLatticeBasis",
     "OAI.Combinatorics.Progressions.Lattices.FactorialIntegerScalars",
     "OAI.Combinatorics.Progressions.Lattices.FilteredLatticePowerIndex",
     "OAI.Combinatorics.Progressions.Lattices.FiniteAffineClassAverage",
     "OAI.Combinatorics.Progressions.Lattices.FiniteLatticeBasis",
     "OAI.Combinatorics.Progressions.Lattices.FiniteUnchargedPrimeDensity",
+    "OAI.Combinatorics.Progressions.Lattices.FirstCoefficientLatticeCoordinates",
     "OAI.Combinatorics.Progressions.Lattices.FullAffineCoefficientBound",
     "OAI.Combinatorics.Progressions.Lattices.ImageLatticeSubgroup",
     "OAI.Combinatorics.Progressions.Lattices.IndependentIntegerSiteDirections",
@@ -861,6 +918,7 @@
     "OAI.Combinatorics.Progressions.Lattices.IntegerKernelCoordinates",
     "OAI.Combinatorics.Progressions.Lattices.IntegerLiftOffset",
     "OAI.Combinatorics.Progressions.Lattices.IntegerMatrixRealDensity",
+    "OAI.Combinatorics.Progressions.Lattices.IntegerMinorNormalization",
     "OAI.Combinatorics.Progressions.Lattices.IntegerNormalizedJetColumns",
     "OAI.Combinatorics.Progressions.Lattices.IntegerPMFNormalizedSource",
     "OAI.Combinatorics.Progressions.Lattices.IntegerRowInterpolationMixture",
@@ -875,13 +933,16 @@
     "OAI.Combinatorics.Progressions.Lattices.LatticeGaussianTemperature",
     "OAI.Combinatorics.Progressions.Lattices.LatticeHyperplaneBasis",
     "OAI.Combinatorics.Progressions.Lattices.LatticeMetricGapBudget",
+    "OAI.Combinatorics.Progressions.Lattices.LatticeMinorNormBound",
     "OAI.Combinatorics.Progressions.Lattices.LatticeOrderedGenerators",
     "OAI.Combinatorics.Progressions.Lattices.LatticeSheetHaar",
     "OAI.Combinatorics.Progressions.Lattices.LatticeVoronoiPacking",
     "OAI.Combinatorics.Progressions.Lattices.LayerSamplingRankAffine",
+    "OAI.Combinatorics.Progressions.Lattices.LieSubalgebraLatticeInnerGrid",
     "OAI.Combinatorics.Progressions.Lattices.MixedArrayIntegerImage",
     "OAI.Combinatorics.Progressions.Lattices.MultilinearAffineExpansion",
     "OAI.Combinatorics.Progressions.Lattices.NativeIntegerAffinePullbackHom",
+    "OAI.Combinatorics.Progressions.Lattices.NativeIntervalResiduePartition",
     "OAI.Combinatorics.Progressions.Lattices.NativeSquarefreeLattice",
     "OAI.Combinatorics.Progressions.Lattices.NaturalScaleIntegerWindow",
     "OAI.Combinatorics.Progressions.Lattices.NearIntegerMultiples",
@@ -906,6 +967,7 @@
     "OAI.Combinatorics.Progressions.Lattices.ResidueSliceCountingCost",
     "OAI.Combinatorics.Progressions.Lattices.ResidueSliceNormalizedCell",
     "OAI.Combinatorics.Progressions.Lattices.ResidueStrideRebase",
+    "OAI.Combinatorics.Progressions.Lattices.RetainedAffineCommonCover",
     "OAI.Combinatorics.Progressions.Lattices.ScalarCubeLatticeGeometry",
     "OAI.Combinatorics.Progressions.Lattices.ScalarResidueInteriorCell",
     "OAI.Combinatorics.Progressions.Lattices.ScaledLatticeCovolume",
@@ -935,6 +997,7 @@
     "OAI.Combinatorics.Progressions.Linear.AssociatedGradedBasisIndependence",
     "OAI.Combinatorics.Progressions.Linear.AugmentedMatrixSection",
     "OAI.Combinatorics.Progressions.Linear.BalancedDualBounds",
+    "OAI.Combinatorics.Progressions.Linear.BaseChangeCoordinateProjection",
     "OAI.Combinatorics.Progressions.Linear.BasisAxisNormalization",
     "OAI.Combinatorics.Progressions.Linear.BasisCoordinateBounds",
     "OAI.Combinatorics.Progressions.Linear.BasisGradedCoordinateBasis",
@@ -954,6 +1017,7 @@
     "OAI.Combinatorics.Progressions.Linear.ComparisonBasisBudget",
     "OAI.Combinatorics.Progressions.Linear.ComparisonChosenLayerBasis",
     "OAI.Combinatorics.Progressions.Linear.CoordinateProjectionBounds",
+    "OAI.Combinatorics.Progressions.Linear.DerivativeVerticalBasis",
     "OAI.Combinatorics.Progressions.Linear.DualAdjointAction",
     "OAI.Combinatorics.Progressions.Linear.DualAdjointFiltration",
     "OAI.Combinatorics.Progressions.Linear.DualDerivativeRemoval",
@@ -961,6 +1025,9 @@
     "OAI.Combinatorics.Progressions.Linear.DualLieAlgebra",
     "OAI.Combinatorics.Progressions.Linear.DualLogarithmicDifferential",
     "OAI.Combinatorics.Progressions.Linear.DynkinProjection",
+    "OAI.Combinatorics.Progressions.Linear.EuclideanDerivativeProjection",
+    "OAI.Combinatorics.Progressions.Linear.EuclideanHorizontalProjection",
+    "OAI.Combinatorics.Progressions.Linear.EuclideanVerticalProjection",
     "OAI.Combinatorics.Progressions.Linear.ExternalFamilyCircleProjection",
     "OAI.Combinatorics.Progressions.Linear.FiniteCenteredKernel",
     "OAI.Combinatorics.Progressions.Linear.FiniteIndependentKernels",
@@ -968,6 +1035,7 @@
     "OAI.Combinatorics.Progressions.Linear.FiniteNormalizedFrame",
     "OAI.Combinatorics.Progressions.Linear.FiniteSpanRounding",
     "OAI.Combinatorics.Progressions.Linear.FiniteSpanSum",
+    "OAI.Combinatorics.Progressions.Linear.FixedKernelSiteImage",
     "OAI.Combinatorics.Progressions.Linear.FreeLieTruncationKernel",
     "OAI.Combinatorics.Progressions.Linear.FreeWeightedRankGenerators",
     "OAI.Combinatorics.Progressions.Linear.FurstenbergWeissProjection",
@@ -1007,6 +1075,7 @@
     "OAI.Combinatorics.Progressions.Linear.QuotientProjectionCoordinates",
     "OAI.Combinatorics.Progressions.Linear.RankHorizontalSymbol",
     "OAI.Combinatorics.Progressions.Linear.RankQuotientHeightBudget",
+    "OAI.Combinatorics.Progressions.Linear.RationalClearedMatrixReal",
     "OAI.Combinatorics.Progressions.Linear.RationalKernelBudget",
     "OAI.Combinatorics.Progressions.Linear.RationalKernelInvariance",
     "OAI.Combinatorics.Progressions.Linear.RationalMatrixSeparation",
@@ -1018,8 +1087,11 @@
     "OAI.Combinatorics.Progressions.Linear.RealOrderedBasisProduct",
     "OAI.Combinatorics.Progressions.Linear.RealRankHorizontalSymbol",
     "OAI.Combinatorics.Progressions.Linear.RealRationalMatrixPiNaturality",
+    "OAI.Combinatorics.Progressions.Linear.RealReducedFastKernel",
     "OAI.Combinatorics.Progressions.Linear.RealifiedCentralBasisAction",
     "OAI.Combinatorics.Progressions.Linear.RealifiedTripleProjections",
+    "OAI.Combinatorics.Progressions.Linear.ReducedProjectionBounds",
+    "OAI.Combinatorics.Progressions.Linear.ReducedSquareFastKernel",
     "OAI.Combinatorics.Progressions.Linear.RescaledLieBasis",
     "OAI.Combinatorics.Progressions.Linear.RootDifferenceMatrix",
     "OAI.Combinatorics.Progressions.Linear.ScaledPairBasisHeight",
@@ -1032,8 +1104,11 @@
     "OAI.Combinatorics.Progressions.Linear.SpanningFlagSelection",
     "OAI.Combinatorics.Progressions.Linear.SplitSurjectionBasis",
     "OAI.Combinatorics.Progressions.Linear.SquareBasisGeometry",
+    "OAI.Combinatorics.Progressions.Linear.SquareFastKernel",
     "OAI.Combinatorics.Progressions.Linear.SquareSymbolProjection",
     "OAI.Combinatorics.Progressions.Linear.SquarefreeBasisPermutation",
+    "OAI.Combinatorics.Progressions.Linear.SynchronizeSplittingProjection",
+    "OAI.Combinatorics.Progressions.Linear.TaggedSubmoduleBasis",
     "OAI.Combinatorics.Progressions.Linear.TopSubspaceAdaptedBasis",
     "OAI.Combinatorics.Progressions.Linear.TripleProductBasisBounds",
     "OAI.Combinatorics.Progressions.Linear.TruncatedProjectionError",
@@ -1104,6 +1179,7 @@
     "OAI.Combinatorics.Progressions.Nilpotent.SquarefreeBracketCoefficients",
     "OAI.Combinatorics.Progressions.Nilpotent.SquarefreeBracketHeight",
     "OAI.Combinatorics.Progressions.Nilpotent.SquarefreeSupportBracket",
+    "OAI.Combinatorics.Progressions.Nilpotent.SumNilmanifoldFactors",
     "OAI.Combinatorics.Progressions.Nilpotent.VectorPolynomialSupportBracket",
     "OAI.Combinatorics.Progressions.Nilpotent.WeightedTranslationNilmanifold",
     "OAI.Combinatorics.Progressions.Nilpotent.WeightedTranslationRealBCHCoordinates",
@@ -1138,6 +1214,7 @@
     "OAI.Combinatorics.Progressions.Polynomial.ExtendedPolynomialValues",
     "OAI.Combinatorics.Progressions.Polynomial.FiniteMomentPolynomial",
     "OAI.Combinatorics.Progressions.Polynomial.FinitePhaseCancellation",
+    "OAI.Combinatorics.Progressions.Polynomial.FixedKernelPolynomialCover",
     "OAI.Combinatorics.Progressions.Polynomial.FormalPolynomialCorrectionStep",
     "OAI.Combinatorics.Progressions.Polynomial.FreeDegreeRankAdaptedBounds",
     "OAI.Combinatorics.Progressions.Polynomial.HomogenizingMonomial",
@@ -1164,6 +1241,7 @@
     "OAI.Combinatorics.Progressions.Polynomial.MultiaffineTriplePolynomial",
     "OAI.Combinatorics.Progressions.Polynomial.MultidegreeDilationDegree",
     "OAI.Combinatorics.Progressions.Polynomial.MultilinearSlicePolynomial",
+    "OAI.Combinatorics.Progressions.Polynomial.NativePolynomialOrbit",
     "OAI.Combinatorics.Progressions.Polynomial.NativeTotalDegreeMultifiltration",
     "OAI.Combinatorics.Progressions.Polynomial.NormalizedFiberPolynomialBound",
     "OAI.Combinatorics.Progressions.Polynomial.NormalizedRealPolynomialChart",
@@ -1171,6 +1249,7 @@
     "OAI.Combinatorics.Progressions.Polynomial.PhasePreservingCauchySchwarz",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialAnalyticDerivative",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialBasisTransport",
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialCoefficientDensityMass",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialCoefficientGridDenominator",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialCoefficientNormalization",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialColumnSupport",
@@ -1179,6 +1258,7 @@
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialDensityRiemann",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivationIntertwine",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivativeBounds",
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivativeDifferences",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivativeInvariant",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivativeSeparation",
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialDeterminantDegree",
@@ -1284,6 +1364,7 @@
     "OAI.Combinatorics.Progressions.Probability.BoxCokernelProbability",
     "OAI.Combinatorics.Progressions.Probability.CanonicalConstantDensityBound",
     "OAI.Combinatorics.Progressions.Probability.CoefficientDensitySplit",
+    "OAI.Combinatorics.Progressions.Probability.CoefficientProductLaw",
     "OAI.Combinatorics.Progressions.Probability.ComplexPartitionMixture",
     "OAI.Combinatorics.Progressions.Probability.CubeMinorProbability",
     "OAI.Combinatorics.Progressions.Probability.DenseProductDensity",
@@ -1292,6 +1373,7 @@
     "OAI.Combinatorics.Progressions.Probability.DensityTestParameter",
     "OAI.Combinatorics.Progressions.Probability.DiagonalDensityTransport",
     "OAI.Combinatorics.Progressions.Probability.DiagonalImageDensity",
+    "OAI.Combinatorics.Progressions.Probability.EuclideanDerivativeDensityCovolume",
     "OAI.Combinatorics.Progressions.Probability.FiniteArrayMeasure",
     "OAI.Combinatorics.Progressions.Probability.FiniteConditionedMass",
     "OAI.Combinatorics.Progressions.Probability.FiniteCountDensityError",
@@ -1375,9 +1457,11 @@
     "OAI.Combinatorics.Progressions.Sampling.ExternalNetMaskedScores",
     "OAI.Combinatorics.Progressions.Sampling.FiniteObservationRetraction",
     "OAI.Combinatorics.Progressions.Sampling.FiniteWeightedScorePerturbation",
+    "OAI.Combinatorics.Progressions.Sampling.FixedObservationRefinement",
     "OAI.Combinatorics.Progressions.Sampling.FixedPathSlicedGridMeshBudget",
     "OAI.Combinatorics.Progressions.Sampling.ForecastModularCutoff",
     "OAI.Combinatorics.Progressions.Sampling.FrozenPartitionScore",
+    "OAI.Combinatorics.Progressions.Sampling.GridNormalizationDenominator",
     "OAI.Combinatorics.Progressions.Sampling.IntegralGridBudget",
     "OAI.Combinatorics.Progressions.Sampling.IntegralGridFunctional",
     "OAI.Combinatorics.Progressions.Sampling.JointGridAccuracy",
@@ -1406,72 +1490,110 @@
     "OAI.Combinatorics.Progressions.Sampling.WeightedUniformGridDensity"
   ],
   "new_source_modules_this_checkpoint": [
-    "OAI.Combinatorics.Progressions.Dynamics.BooleanCanonicalLogBudget",
-    "OAI.Combinatorics.Progressions.Dynamics.EarlyFiberCapBudget",
-    "OAI.Combinatorics.Progressions.Dynamics.ScalarCubePrimitiveBudget",
-    "OAI.Combinatorics.Progressions.Dynamics.ScalarCubeProductRiemannBudget",
-    "OAI.Combinatorics.Progressions.Estimates.CanonicalCubeMinorThreshold",
-    "OAI.Combinatorics.Progressions.Estimates.CanonicalScalarSourceEnvelope",
-    "OAI.Combinatorics.Progressions.Estimates.CoefficientFamilyLocalization",
-    "OAI.Combinatorics.Progressions.Estimates.CoefficientLengthProduct",
-    "OAI.Combinatorics.Progressions.Estimates.CoefficientProductHaar",
-    "OAI.Combinatorics.Progressions.Estimates.CoefficientSliceEmbedding",
-    "OAI.Combinatorics.Progressions.Estimates.EmptyLayerDetectionGeometry",
-    "OAI.Combinatorics.Progressions.Estimates.FiniteCubeBlockBounds",
-    "OAI.Combinatorics.Progressions.Estimates.FiniteWeightedExpansion",
-    "OAI.Combinatorics.Progressions.Estimates.JointCoefficientRetainedTest",
-    "OAI.Combinatorics.Progressions.Estimates.ModerateSliceTensorApproximation",
-    "OAI.Combinatorics.Progressions.Estimates.ProgressionCubeEmbedding",
-    "OAI.Combinatorics.Progressions.Estimates.SmoothCoefficientSlice",
-    "OAI.Combinatorics.Progressions.Estimates.WeightedApproximationCaps",
-    "OAI.Combinatorics.Progressions.Estimates.WeightedCubePlateau",
-    "OAI.Combinatorics.Progressions.Fourier.AffineShortCoefficientMajorArc",
-    "OAI.Combinatorics.Progressions.Fourier.AffineTorusGeometry",
-    "OAI.Combinatorics.Progressions.Fourier.AffineUniformSpectrum",
-    "OAI.Combinatorics.Progressions.Fourier.FourierLawTransport",
-    "OAI.Combinatorics.Progressions.Fourier.IntegerSupportTorus",
-    "OAI.Combinatorics.Progressions.Fourier.PolynomialWeightedCubeMajorArc",
-    "OAI.Combinatorics.Progressions.Fourier.UniformSpectrumAbsoluteCap",
-    "OAI.Combinatorics.Progressions.Fourier.WeightedBlockTorus",
-    "OAI.Combinatorics.Progressions.Fourier.WeightedModerateProductFourierTail",
-    "OAI.Combinatorics.Progressions.Fourier.WeightedUniformSpectrumTail",
-    "OAI.Combinatorics.Progressions.Geometry.CommonSupportRadius",
-    "OAI.Combinatorics.Progressions.Geometry.CoordinateConstantDecomposition",
-    "OAI.Combinatorics.Progressions.Geometry.MixedArraySourceSupport",
-    "OAI.Combinatorics.Progressions.Geometry.ModerateSliceGeometricApproximation",
-    "OAI.Combinatorics.Progressions.Geometry.NativeProductOrbitMetric",
-    "OAI.Combinatorics.Progressions.Geometry.WeightedBlockSupportScale",
-    "OAI.Combinatorics.Progressions.Lattices.AffineBlockScale",
-    "OAI.Combinatorics.Progressions.Lattices.AffineCubeCoordinates",
-    "OAI.Combinatorics.Progressions.Lattices.AffineModerateGeometricApproximation",
-    "OAI.Combinatorics.Progressions.Lattices.IntegerGridPlateauTransfer",
-    "OAI.Combinatorics.Progressions.Lattices.IntegerPMFNormalizedSource",
-    "OAI.Combinatorics.Progressions.Lattices.MixedArrayIntegerImage",
-    "OAI.Combinatorics.Progressions.Lattices.ResidueCutoffLengthBudget",
-    "OAI.Combinatorics.Progressions.Lattices.ShortIntegerCubeBudget",
-    "OAI.Combinatorics.Progressions.Lattices.WeightedCubeIntegerSupport",
-    "OAI.Combinatorics.Progressions.Lattices.WeightedModerateIntegerSupport",
-    "OAI.Combinatorics.Progressions.Lattices.WeightedSliceIntegerImage",
-    "OAI.Combinatorics.Progressions.Polynomial.MajorTranslationDegreeSymbol",
-    "OAI.Combinatorics.Progressions.Polynomial.PolynomialDensityRiemann",
-    "OAI.Combinatorics.Progressions.Polynomial.PolynomialScalarCubeLength",
-    "OAI.Combinatorics.Progressions.Polynomial.UniformSlicePhaseLaw",
-    "OAI.Combinatorics.Progressions.Probability.CanonicalConstantDensityBound",
-    "OAI.Combinatorics.Progressions.Probability.CubeMinorProbability",
-    "OAI.Combinatorics.Progressions.Probability.FiniteCubeBlockLaw",
-    "OAI.Combinatorics.Progressions.Probability.RegularizedSigmaDensity",
-    "OAI.Combinatorics.Progressions.Probability.ScaledArrayLaw",
-    "OAI.Combinatorics.Progressions.Probability.SmoothModerateBlockLaw",
-    "OAI.Combinatorics.Progressions.Probability.TranslatedWeightedCubeLaw",
-    "OAI.Combinatorics.Progressions.Probability.WeightedModeratePointMass",
-    "OAI.Combinatorics.Progressions.Probability.WeightedPlateauMixture",
-    "OAI.Combinatorics.Progressions.Probability.WeightedSliceFamilyLaw",
-    "OAI.Combinatorics.Progressions.Sampling.CubeSamplerGoodRegion",
-    "OAI.Combinatorics.Progressions.Sampling.JointGridAccuracy",
-    "OAI.Combinatorics.Progressions.Sampling.WeightedCubeGridDensity",
-    "OAI.Combinatorics.Progressions.Sampling.WeightedUniformGridDensity"
+    "OAI.Combinatorics.Progressions.Compatibility.ExteriorPowerInnerProduct",
+    "OAI.Combinatorics.Progressions.Dynamics.LieSubalgebraRepresentativeBudget",
+    "OAI.Combinatorics.Progressions.Dynamics.NativeOptionProductBudget",
+    "OAI.Combinatorics.Progressions.Dynamics.QuotientDetectorHeightBudget",
+    "OAI.Combinatorics.Progressions.Estimates.AnchoredCoefficientCongruenceRemoval",
+    "OAI.Combinatorics.Progressions.Estimates.AnchoredCubeCongruenceRemoval",
+    "OAI.Combinatorics.Progressions.Estimates.CommonPositivePartitionRefinement",
+    "OAI.Combinatorics.Progressions.Estimates.DerivativeIndexBounds",
+    "OAI.Combinatorics.Progressions.Estimates.EuclideanGraphNorm",
+    "OAI.Combinatorics.Progressions.Estimates.EuclideanGraphResidual",
+    "OAI.Combinatorics.Progressions.Estimates.JointBooleanRegularization",
+    "OAI.Combinatorics.Progressions.Estimates.JointBooleanRegularizationChoice",
+    "OAI.Combinatorics.Progressions.Estimates.MixedBooleanSiteValues",
+    "OAI.Combinatorics.Progressions.Estimates.NativeEqualDimension",
+    "OAI.Combinatorics.Progressions.Estimates.NativeProductPartition",
+    "OAI.Combinatorics.Progressions.Estimates.NormalizedMinorBounds",
+    "OAI.Combinatorics.Progressions.Estimates.PartiallyBoundedNormalization",
+    "OAI.Combinatorics.Progressions.Estimates.ReducedDiagonalBounds",
+    "OAI.Combinatorics.Progressions.Estimates.ReducedNativeFactorization",
+    "OAI.Combinatorics.Progressions.Estimates.ReducedSymbolDimensions",
+    "OAI.Combinatorics.Progressions.Fourier.AnchoredCoefficientFourierNormalization",
+    "OAI.Combinatorics.Progressions.Fourier.EuclideanCoefficientTorus",
+    "OAI.Combinatorics.Progressions.Fourier.ExpandingGramSpectrum",
+    "OAI.Combinatorics.Progressions.Geometry.CoefficientDeckCoordinates",
+    "OAI.Combinatorics.Progressions.Geometry.CoefficientJetCoordinates",
+    "OAI.Combinatorics.Progressions.Geometry.CommonRationalModelCoordinates",
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateDerivativeBounds",
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateMinorCovolume",
+    "OAI.Combinatorics.Progressions.Geometry.DerivativeVerticalCoordinates",
+    "OAI.Combinatorics.Progressions.Geometry.NormalizedMinorCoordinates",
+    "OAI.Combinatorics.Progressions.Geometry.PositiveCyclicCoordinateProduct",
+    "OAI.Combinatorics.Progressions.Geometry.RealifiedSquareMetric",
+    "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientAmplitudeCongruenceRemoval",
+    "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientCongruenceRemoval",
+    "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientCoverTilt",
+    "OAI.Combinatorics.Progressions.Lattices.AnchoredCoefficientResidueAmbient",
+    "OAI.Combinatorics.Progressions.Lattices.AnchoredCubeResidueAmbient",
+    "OAI.Combinatorics.Progressions.Lattices.DerivativeLatticeDivision",
+    "OAI.Combinatorics.Progressions.Lattices.EuclideanLatticeGraph",
+    "OAI.Combinatorics.Progressions.Lattices.FirstCoefficientLatticeCoordinates",
+    "OAI.Combinatorics.Progressions.Lattices.IntegerMinorNormalization",
+    "OAI.Combinatorics.Progressions.Lattices.LatticeMinorNormBound",
+    "OAI.Combinatorics.Progressions.Lattices.NativeIntervalResiduePartition",
+    "OAI.Combinatorics.Progressions.Lattices.RetainedAffineCommonCover",
+    "OAI.Combinatorics.Progressions.Linear.DerivativeVerticalBasis",
+    "OAI.Combinatorics.Progressions.Linear.FixedKernelSiteImage",
+    "OAI.Combinatorics.Progressions.Linear.RealReducedFastKernel",
+    "OAI.Combinatorics.Progressions.Linear.ReducedProjectionBounds",
+    "OAI.Combinatorics.Progressions.Linear.ReducedSquareFastKernel",
+    "OAI.Combinatorics.Progressions.Linear.SquareFastKernel",
+    "OAI.Combinatorics.Progressions.Nilpotent.SumNilmanifoldFactors",
+    "OAI.Combinatorics.Progressions.Polynomial.FixedKernelPolynomialCover",
+    "OAI.Combinatorics.Progressions.Polynomial.NativePolynomialOrbit",
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialCoefficientDensityMass",
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivativeDifferences",
+    "OAI.Combinatorics.Progressions.Probability.CoefficientProductLaw",
+    "OAI.Combinatorics.Progressions.Sampling.FixedObservationRefinement",
+    "OAI.Combinatorics.Progressions.Sampling.GridNormalizationDenominator"
   ],
   "new_sources": {
+    "OAI.Combinatorics.Progressions.Compatibility.ExteriorPowerInnerProduct": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Compatibility/ExteriorPowerInnerProduct.lean",
+      "sha256": "e32e9ed9c05116d9cb73d01c2eed16917cfe50f7715a69ae54b5d7148afd5e17",
+      "bytes": 8308,
+      "encoding": "UTF-8",
+      "oai_imports": [],
+      "upstream_repository": "leanprover-community/mathlib4",
+      "upstream_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "upstream_path": "Mathlib/Analysis/InnerProductSpace/ExteriorPower.lean",
+      "upstream_git_blob": "d7b8acfca3889734d65056e9a88f0e6fe8c461f4",
+      "upstream_sha256": "5b908fd9b2e9f429431b7f38171d6e532bdb1b64f298fb51031c83344a50774a",
+      "same_as_fixed_upstream": false,
+      "provenance_kind": "complete-official-mathlib-file-with-notice-and-exact-Gram-lemma-addition; not an OpenAI-adc7 source",
+      "additional_upstream_sources": [
+        {
+          "path": "Mathlib/Analysis/InnerProductSpace/GramMatrix.lean",
+          "git_blob": "7bc693a2ddb34c8e1235ee26037d5d25b457216d",
+          "sha256": "826ba2ae90ed32f889a027a40adfeb80f615c5ef55d9cb795ff5ebf8a1fd223a",
+          "included_lines": [
+            137,
+            140
+          ],
+          "included_bytes": 205,
+          "included_sha256": "5955c27b2ce88aa94746d36cb8d16acd17f77dcbf29560c1d65f49d3d7acd9e0",
+          "copyright": "Copyright (c) 2025 Peter Pfaffelhuber",
+          "author": "Peter Pfaffelhuber"
+        }
+      ],
+      "copyright": "Copyright (c) 2026 Justus Springer. All rights reserved.",
+      "author": "Justus Springer",
+      "license": "Apache-2.0",
+      "license_reference": "license_review.mathlib_backport.license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-insertion-only-backport-checked",
+        "changes": [
+          "retain full 157-line ExteriorPower source and all visibility/private declarations",
+          "insert source/license/author notice",
+          "insert byte-identical GramMatrix lines137-140 inside original typeclass context"
+        ],
+        "notice_sha256": "df77ac2c8507437f196cd9a8259f47d39310703eb6eb6ecb44c9a30dc427d5fb",
+        "gram_context_sha256": "f7af4374c139bc96b06cf0f4cf9fd8288b466f8075502b8942b785fce1f811a6"
+      },
+      "diff_sha256": "4d1e384a73953b0f0c941de88fe4076b317b6740db9ce65795db37d823836417"
+    },
     "OAI.Combinatorics.Progressions.Dynamics.AdaptedMapGeometryBudget": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Dynamics/AdaptedMapGeometryBudget.lean",
       "sha256": "fc30acad1c462b7029dc2e8532514e1d0094b09176a8436f200b33a116cc1913",
@@ -1611,6 +1733,43 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Dynamics.LieSubalgebraRepresentativeBudget": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Dynamics/LieSubalgebraRepresentativeBudget.lean",
+      "sha256": "f2707d12af12a7cc7580ebddb080cf05043efe5d3c228b930bab57e018866f07",
+      "bytes": 10621,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Linear.RationalClearedMatrixReal",
+        "OAI.Combinatorics.Progressions.Linear.RationalTaggedSpanProjection"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Dynamics/LieSubalgebraRepresentativeBudget.lean",
+      "upstream_git_blob": "76e0628af159d152e99ccf298c160a0c54616948",
+      "upstream_sha256": "f2707d12af12a7cc7580ebddb080cf05043efe5d3c228b930bab57e018866f07",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.NativeOptionProductBudget": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Dynamics/NativeOptionProductBudget.lean",
+      "sha256": "7c6974f18866f8afaf9930ab57c86e10d7a0dca6a6f2b3df301bb11cccc5f405",
+      "bytes": 1478,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Geometry.NativeProductOrbitMetric"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Dynamics/NativeOptionProductBudget.lean",
+      "upstream_git_blob": "a74aa55d2b720d06a6b3c7d620f63973179c23f5",
+      "upstream_sha256": "7c6974f18866f8afaf9930ab57c86e10d7a0dca6a6f2b3df301bb11cccc5f405",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Dynamics.PartitionFixedListLogBudget": {
       "sha256": "cd912230bcec3813fe5715591481d52f092b20ef249f8114fe4a224f59e1293c",
       "bytes": 1690,
@@ -1640,6 +1799,24 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Dynamics/ProjectedAxisBudgets.lean",
       "upstream_git_blob": "525ca4c668e04d5aa50bb938553180e7e4cfde8e",
       "upstream_sha256": "a6847766219eaa2936ffee119e7dadf0926359a5500c31444edb8328ac0f4276",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Dynamics.QuotientDetectorHeightBudget": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Dynamics/QuotientDetectorHeightBudget.lean",
+      "sha256": "0135c463f3d95b1398642ff97a2d90817c7113381a3fd6f9a4a76e0156120745",
+      "bytes": 1079,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.RationalPowerHeight"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Dynamics/QuotientDetectorHeightBudget.lean",
+      "upstream_git_blob": "6e295cb69f1b348ff6c4c243a67ef93534171e50",
+      "upstream_sha256": "0135c463f3d95b1398642ff97a2d90817c7113381a3fd6f9a4a76e0156120745",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -1789,6 +1966,42 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/AdaptedMarkedMapHeight.lean",
       "upstream_git_blob": "4f5cae73726489f00212c355a19ee64ae1b4fdf0",
       "upstream_sha256": "03d1802e3aa4d4725b4e0108c897795692d860b7c234ae666877ba9d6da0b8ac",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Estimates.AnchoredCoefficientCongruenceRemoval": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/AnchoredCoefficientCongruenceRemoval.lean",
+      "sha256": "fa52f86430a13432df5029335f29f2f54f8c7b7fd4a3ee2770d3a7483439dc09",
+      "bytes": 2768,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.AnchoredCoefficientResidueAmbient"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/AnchoredCoefficientCongruenceRemoval.lean",
+      "upstream_git_blob": "66d5deea2e56a9f84aa8ded22c3a821613472d87",
+      "upstream_sha256": "fa52f86430a13432df5029335f29f2f54f8c7b7fd4a3ee2770d3a7483439dc09",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Estimates.AnchoredCubeCongruenceRemoval": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/AnchoredCubeCongruenceRemoval.lean",
+      "sha256": "f3c2bf507d2ea73c6a8572071d929e2ecdb2126f139d6173f709de14fdf5c093",
+      "bytes": 3553,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.AnchoredCubeResidueAmbient"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/AnchoredCubeCongruenceRemoval.lean",
+      "upstream_git_blob": "58b639f9e3c78e5c8ccb234b0719f0fb485c923a",
+      "upstream_sha256": "f3c2bf507d2ea73c6a8572071d929e2ecdb2126f139d6173f709de14fdf5c093",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -2142,6 +2355,43 @@
       },
       "diff_sha256": "a356592211be6bfa42996c37c364b5255ef3f7c1eeae7a0c361f7ea3ffe6c549"
     },
+    "OAI.Combinatorics.Progressions.Estimates.CommonPositivePartitionRefinement": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CommonPositivePartitionRefinement.lean",
+      "sha256": "4abb2d0bc888107e537cf6b2670076475c9c77958a42a70660ac1286fb0c6b86",
+      "bytes": 15995,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.NativeIntervalResiduePartition"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/CommonPositivePartitionRefinement.lean",
+      "upstream_git_blob": "93c840a12e1c61e34aa4bdff28e3536c83451a76",
+      "upstream_sha256": "d6e87b9b2f1ecaca1f4b2592750f28114d39965446423bb3a33208ed137b7f18",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "from": "ite_eq_left",
+            "to": "if_pos",
+            "count": 1
+          },
+          {
+            "from": "Finset.prod_le_prod₀",
+            "to": "Finset.prod_le_prod",
+            "count": 1
+          },
+          {
+            "from": "IsModuleTopology.isTopologicalAddGroup",
+            "to": "IsModuleTopology.topologicalAddGroup",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "98097f8cfd06a4c3693173c3be949a5b2b97624ce58fb25c2818eaa9ad3cb8e6"
+      },
+      "diff_sha256": "adfaff7e55526246a52605a60ae313d816bb2d4b6b0bc78ea8d7f9da68fddc8d"
+    },
     "OAI.Combinatorics.Progressions.Estimates.CommonSubspaceFamily": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CommonSubspaceFamily.lean",
       "sha256": "6ddc47089896f64f2708ad7106bef8061f62eea24c71e9cde3802d858b73f22d",
@@ -2180,6 +2430,45 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Estimates.DerivativeIndexBounds": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/DerivativeIndexBounds.lean",
+      "sha256": "8d3a66a11388cd060d6d890daa49778d99d21fb8592eae2a5d9c3882d64e4d6a",
+      "bytes": 28662,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.CovolumeFactorBounds",
+        "OAI.Combinatorics.Progressions.Estimates.HorizontalPivotExclusion",
+        "OAI.Combinatorics.Progressions.Estimates.LowerTriangularMinor",
+        "OAI.Combinatorics.Progressions.Geometry.CoordinateMinorCovolume",
+        "OAI.Combinatorics.Progressions.Lattices.EuclideanLatticeGraph",
+        "OAI.Combinatorics.Progressions.Linear.DerivativeVerticalBasis",
+        "OAI.Combinatorics.Progressions.Linear.EuclideanHorizontalProjection",
+        "OAI.Combinatorics.Progressions.Probability.EuclideanDerivativeDensityCovolume"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/DerivativeIndexBounds.lean",
+      "upstream_git_blob": "3c83a6167c6ea320653ee0a23a5884f52dad83e1",
+      "upstream_sha256": "8ad4084a2a8bedf5a99a0957c9db2bbca39d4ade00230af1300df7db96a732fc",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "from": "ite_eq_right",
+            "to": "if_neg",
+            "count": 1
+          },
+          {
+            "from": "Finset.one_le_prod₀",
+            "to": "Finset.one_le_prod",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "a9e685530a9987e5089130547c0de80baa1296fe745d67cb489fea8da21f40b7"
+      },
+      "diff_sha256": "b935089887797c79258091da155780fa7a1f9b8c21485ad7656a719682ea8a4f"
+    },
     "OAI.Combinatorics.Progressions.Estimates.EmptyLayerDetectionGeometry": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/EmptyLayerDetectionGeometry.lean",
       "sha256": "7758972d371d5e6f2f47bf1dcccff9278fa04ceb56c7c8094da7d5f4e18673bf",
@@ -2192,6 +2481,44 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/EmptyLayerDetectionGeometry.lean",
       "upstream_git_blob": "778147f78b9e7348bfbf6147aa8dd78e8b0eec0d",
       "upstream_sha256": "7758972d371d5e6f2f47bf1dcccff9278fa04ceb56c7c8094da7d5f4e18673bf",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Estimates.EuclideanGraphNorm": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/EuclideanGraphNorm.lean",
+      "sha256": "fd205b951e126887aed435175ca2c257549acbb52f4fe7efb599eaadec6f32e3",
+      "bytes": 6714,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Fourier.ExpandingGramSpectrum",
+        "OAI.Combinatorics.Progressions.Geometry.ProductEuclideanCoordinates"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/EuclideanGraphNorm.lean",
+      "upstream_git_blob": "b11b98542e27b41d8c2bdb6e6ebb16d0e6289441",
+      "upstream_sha256": "fd205b951e126887aed435175ca2c257549acbb52f4fe7efb599eaadec6f32e3",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Estimates.EuclideanGraphResidual": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/EuclideanGraphResidual.lean",
+      "sha256": "5f56c37bac60d04dbf6200ffba8dcba91070f08b540a6b589bc18d3aa9d9961b",
+      "bytes": 5816,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.ScaledLatticeCovolume",
+        "OAI.Combinatorics.Progressions.Linear.EuclideanDerivativeProjection"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/EuclideanGraphResidual.lean",
+      "upstream_git_blob": "057f55452607807c4765fe69d63e09da6b64e61f",
+      "upstream_sha256": "5f56c37bac60d04dbf6200ffba8dcba91070f08b540a6b589bc18d3aa9d9961b",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -2520,6 +2847,55 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Estimates.JointBooleanRegularization": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/JointBooleanRegularization.lean",
+      "sha256": "f3c493058df281523ba20320b63e962ff08361eea468f661aaee764d208ae906",
+      "bytes": 33124,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Dynamics.BooleanCanonicalLogBudget",
+        "OAI.Combinatorics.Progressions.Dynamics.BudgetedOpenImageComparison",
+        "OAI.Combinatorics.Progressions.Dynamics.JointBooleanWeightBudget",
+        "OAI.Combinatorics.Progressions.Probability.JointBooleanCutoffLaw",
+        "OAI.Combinatorics.Progressions.Probability.RegularizedSigmaDensity"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/JointBooleanRegularization.lean",
+      "upstream_git_blob": "d2ad059cde2ffbc4e22cfd56a577c08afee2f9f8",
+      "upstream_sha256": "c41a68f6d8b130b1ff8a736b9decb1083fe6bce88a5b28abf6203dfdb5fd2f9e",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "change": "explicit WithTop smoothness-order proof",
+            "count": 3
+          }
+        ],
+        "leading_notice_sha256": "4048eeee192a2ccc507a7c4362588bf298666fc9b8a4e7cf75d59d17de35748c"
+      },
+      "diff_sha256": "6929f8de87f6258c96cf8d718226255dc81fb6128bfb29cf0d16ba46cc08a657"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.JointBooleanRegularizationChoice": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/JointBooleanRegularizationChoice.lean",
+      "sha256": "bd68152d0fded6bb97c265321e9e2646664a9869a160d84a0e1a956795c27c9c",
+      "bytes": 8944,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.JointBooleanRegularization",
+        "OAI.Combinatorics.Progressions.Sampling.CubeSamplerGoodRegion"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/JointBooleanRegularizationChoice.lean",
+      "upstream_git_blob": "d355bf1f8d5bfda8cda5ad6955f33177b732b199",
+      "upstream_sha256": "bd68152d0fded6bb97c265321e9e2646664a9869a160d84a0e1a956795c27c9c",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Estimates.JointCoefficientRetainedTest": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/JointCoefficientRetainedTest.lean",
       "sha256": "9f461e86e892e9bd70a3d7111dc446d87970a776ea454dc987f2499ded9fa22b",
@@ -2690,6 +3066,42 @@
         "leading_notice_sha256": "ccf530e4d55b75e3589b1da375fb1b48645535e0ec835699c34151ebc3c5046c"
       }
     },
+    "OAI.Combinatorics.Progressions.Estimates.MixedBooleanSiteValues": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MixedBooleanSiteValues.lean",
+      "sha256": "70d863b69aac74be4fa5ab87b3b283f9919befba06ce6cfdd03eb09e6fa1d39d",
+      "bytes": 27573,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Fourier.EuclideanJetTorus",
+        "OAI.Combinatorics.Progressions.Lattices.MixedArrayIntegerImage",
+        "OAI.Combinatorics.Progressions.Polynomial.BooleanJetHighDegree"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/MixedBooleanSiteValues.lean",
+      "upstream_git_blob": "3fb24ff41eea211850937526e1916ff0fa4a4629",
+      "upstream_sha256": "70d2217ad95de212c9ff3e9b2f40fca5fc490f0b57cda4542d56acc658618e37",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "change": "declaration-local synthInstance.maxHeartbeats 200000",
+            "count": 1
+          },
+          {
+            "change": "explicit quotient BorelSpace/MeasurableAdd and coordinate-measure instances",
+            "count": 1
+          },
+          {
+            "change": "explicit inner Pi finite/SigmaFinite and outer finite-measure instances",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "07a11b1eab0daed912acadef630d5c16accefc363692501fe6ef0afd05f623b0"
+      },
+      "diff_sha256": "20948ec2aeb7c178b2e00b93f4e8132211d4f5d9d5a2e5ef1f04f982ae1da031"
+    },
     "OAI.Combinatorics.Progressions.Estimates.MixedRealPoint": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MixedRealPoint.lean",
       "sha256": "9abd349a0e7c234d6f89510b2f8bb6380d8e32c4153830856e63a0d266b76771",
@@ -2753,6 +3165,24 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       },
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/NativeCentralSeed.lean"
+    },
+    "OAI.Combinatorics.Progressions.Estimates.NativeEqualDimension": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/NativeEqualDimension.lean",
+      "sha256": "4c78f3a539cc3667a9efbaab4721d23351e8a863de35dab08009403b8501b2b9",
+      "bytes": 1581,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Nilpotent.IdealInvariantNiltestBudget"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/NativeEqualDimension.lean",
+      "upstream_git_blob": "3db642eef02507c21073d00977984610ab1f32c4",
+      "upstream_sha256": "4c78f3a539cc3667a9efbaab4721d23351e8a863de35dab08009403b8501b2b9",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
     },
     "OAI.Combinatorics.Progressions.Estimates.NativeEquivalenceTransitivity": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/NativeEquivalenceTransitivity.lean",
@@ -2829,6 +3259,25 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/NativePositiveCoefficientBases.lean",
       "upstream_git_blob": "8816e972ae573e9a5463e599d3f6dd3aaa1b6ccc",
       "upstream_sha256": "aaf5e907ec30c8a18037fbc18e2d2f7278220259710ff58fcdcad25be401f9f1",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Estimates.NativeProductPartition": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/NativeProductPartition.lean",
+      "sha256": "68f41383f38e114cd73388f688c2b1bf0e880e19b7fe85d8c7802f0a072cd990",
+      "bytes": 4181,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Geometry.NativeProductOrbitMetric",
+        "OAI.Combinatorics.Progressions.Nilpotent.NativeNiltestPartition"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/NativeProductPartition.lean",
+      "upstream_git_blob": "e91248e83202c8306d5cb58f7ab726f9e338c8b8",
+      "upstream_sha256": "68f41383f38e114cd73388f688c2b1bf0e880e19b7fe85d8c7802f0a072cd990",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -2926,6 +3375,25 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Estimates.NormalizedMinorBounds": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/NormalizedMinorBounds.lean",
+      "sha256": "f8a514c087434276a07b2982f124a1646fbc9b155a18a0aaa5dfb091465d6061",
+      "bytes": 2087,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Geometry.NormalizedMinorCoordinates",
+        "OAI.Combinatorics.Progressions.Geometry.ProductEuclideanCoordinates"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/NormalizedMinorBounds.lean",
+      "upstream_git_blob": "cfdc63502a9770ea5987682b3fe84e80ad30860b",
+      "upstream_sha256": "f8a514c087434276a07b2982f124a1646fbc9b155a18a0aaa5dfb091465d6061",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Estimates.NormalizedSmallLiftHaar": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/NormalizedSmallLiftHaar.lean",
       "sha256": "7fbebe3049a36fc48d5b5c4b400bd21698b751e9ac48ffe7564d839c169f9277",
@@ -2980,6 +3448,24 @@
           }
         ],
         "leading_notice_sha256": "c65dba167c9fa606c45f59c71d40f42811d06c18fcbce3cbbfeea8c2aa5f6c74"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Estimates.PartiallyBoundedNormalization": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PartiallyBoundedNormalization.lean",
+      "sha256": "d7c22dba77a5c41710a99c29bc4b3cb58845b2566854eedee7d6834c0961d38b",
+      "bytes": 1891,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Sampling.GridNormalizationDenominator"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/PartiallyBoundedNormalization.lean",
+      "upstream_git_blob": "969d1ac32767aef46ecc09fdb6557ed8f2b8729b",
+      "upstream_sha256": "d7c22dba77a5c41710a99c29bc4b3cb58845b2566854eedee7d6834c0961d38b",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
     "OAI.Combinatorics.Progressions.Estimates.PinnedSectionMeans": {
@@ -3362,6 +3848,65 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Estimates.ReducedDiagonalBounds": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ReducedDiagonalBounds.lean",
+      "sha256": "1166f5c2710347ce517a87e0a53ea48738dca67e04ad06e6465ae6dfa4cce6f3",
+      "bytes": 6514,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Geometry.RealSubspaceCoordinateRetraction",
+        "OAI.Combinatorics.Progressions.Linear.ReducedProjectionBounds"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/ReducedDiagonalBounds.lean",
+      "upstream_git_blob": "f64b4a1623b2c074922bcd2aa7bda326391dd8b4",
+      "upstream_sha256": "1166f5c2710347ce517a87e0a53ea48738dca67e04ad06e6465ae6dfa4cce6f3",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ReducedNativeFactorization": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ReducedNativeFactorization.lean",
+      "sha256": "6cde03cf59a29f0213235c1d24e989b123a2a42fdda4988b010432971a48c95c",
+      "bytes": 52901,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Compatibility.TensorInduction",
+        "OAI.Combinatorics.Progressions.Estimates.ControlledLinearSubspaceLift",
+        "OAI.Combinatorics.Progressions.Linear.ReducedSquareFastKernel",
+        "OAI.Combinatorics.Progressions.Linear.SynchronizeSplittingProjection",
+        "OAI.Combinatorics.Progressions.Sampling.RealAdaptedCoefficientGrid"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/ReducedNativeFactorization.lean",
+      "upstream_git_blob": "656b0f44b6400a762f933d356d36a4380afa7110",
+      "upstream_sha256": "438573852035d75a0735706b20f71a7afef0b1c65b30450dc2bbe6bb6fc5201a",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "from": "dite_eq_left",
+            "to": "dif_pos",
+            "count": 1
+          },
+          {
+            "from": "dite_eq_right",
+            "to": "dif_neg",
+            "count": 1
+          },
+          {
+            "change": "add explicit proved TensorInduction compatibility import",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "c1d8452df5d63975a026e686775506fc5fc103afa99e32121dad72e0de1e71d9"
+      },
+      "diff_sha256": "e1b702fe59b780e878eeff19741b169b1e3a36de3c9da919adf8d3b16b39341b"
+    },
     "OAI.Combinatorics.Progressions.Estimates.ReducedSquareSymbol": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ReducedSquareSymbol.lean",
       "sha256": "8c59f214fbb8e398bacc585fde21c3a9ca6bd13c04691767ce40bffe37236d99",
@@ -3373,6 +3918,24 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/ReducedSquareSymbol.lean",
       "upstream_git_blob": "63a7f4771d780367ec902e056888321a248cc624",
       "upstream_sha256": "8c59f214fbb8e398bacc585fde21c3a9ca6bd13c04691767ce40bffe37236d99",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Estimates.ReducedSymbolDimensions": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ReducedSymbolDimensions.lean",
+      "sha256": "78df4b63390a1877ebfa5df48a35778563093e17e80310f00e65b838039a7fb6",
+      "bytes": 5256,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Linear.SquareBasisGeometry"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Estimates/ReducedSymbolDimensions.lean",
+      "upstream_git_blob": "d11352225d28bd82ebd0616a74ccf001774d4f08",
+      "upstream_sha256": "78df4b63390a1877ebfa5df48a35778563093e17e80310f00e65b838039a7fb6",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -4086,6 +4649,27 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Fourier.AnchoredCoefficientFourierNormalization": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Fourier/AnchoredCoefficientFourierNormalization.lean",
+      "sha256": "e7c52198dde0e4fe78dd9f683c153e6cecb1118b252e1ca15baf2c33b50d4137",
+      "bytes": 21387,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.AnchoredCoefficientCongruenceRemoval",
+        "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientAmplitudeCongruenceRemoval",
+        "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientCongruenceRemoval",
+        "OAI.Combinatorics.Progressions.Lattices.SelectedResidueConstantMean"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Fourier/AnchoredCoefficientFourierNormalization.lean",
+      "upstream_git_blob": "233c070728b09386312d555f2427cdf5eeee0c3f",
+      "upstream_sha256": "e7c52198dde0e4fe78dd9f683c153e6cecb1118b252e1ca15baf2c33b50d4137",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Fourier.BohrNiltestBudget": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Fourier/BohrNiltestBudget.lean",
       "sha256": "c74bbf5c8be7a0d03de9a97ac3d8cf78590c74a10e0f68a9bd893440cc1afc40",
@@ -4169,6 +4753,41 @@
         "leading_notice_sha256": "33c618aeb7cf789dafd204635b6c116b26d15a9d798442455a05a9e0fc3bc92d"
       }
     },
+    "OAI.Combinatorics.Progressions.Fourier.EuclideanCoefficientTorus": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Fourier/EuclideanCoefficientTorus.lean",
+      "sha256": "e8dede14c9c3be5c141ad163ee58b58cf97cd858da43000cdba710e0a97a79db",
+      "bytes": 7224,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.CoefficientProductHaar",
+        "OAI.Combinatorics.Progressions.Geometry.CoefficientCoordinateEquiv"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Fourier/EuclideanCoefficientTorus.lean",
+      "upstream_git_blob": "ca8441c284b75f77b0b904e6d97c16ea1c24adfc",
+      "upstream_sha256": "770d0c487c3c2fb2ba4678f8bb8146b5df8794eebbef38d57acc977726bca3a5",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "change": "declaration-local synthInstance.maxHeartbeats 200000",
+            "count": 1
+          },
+          {
+            "change": "explicit quotient BorelSpace/MeasurableAdd and coordinate-measure instances",
+            "count": 1
+          },
+          {
+            "change": "explicit inner Pi SigmaFinite instances",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "de5526f0ef050c0be1dbcf83e6b29cc23adf7cf2613b2e3bd9bb8e7a70a168f5"
+      },
+      "diff_sha256": "a91e1eca6639052fdb956a07cfc463a3e11dfd43aec2109aa42ea0a89a93a5e5"
+    },
     "OAI.Combinatorics.Progressions.Fourier.EuclideanJetTorus": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Fourier/EuclideanJetTorus.lean",
       "sha256": "a7dbeddfe9ca0ed218b72ddb327613c6c374515903c20414b2117808aa51d872",
@@ -4196,6 +4815,36 @@
         ],
         "leading_notice_sha256": "e8207ed8bff0cee3458df48eb5d54ce918a2aa4912b252d2bd62722f85556223"
       }
+    },
+    "OAI.Combinatorics.Progressions.Fourier.ExpandingGramSpectrum": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Fourier/ExpandingGramSpectrum.lean",
+      "sha256": "e8fc9e501ea71a68ab3e36cb28f3da8750d0b3fc7fcc7356b1bd595c9e8a7ee1",
+      "bytes": 3461,
+      "encoding": "UTF-8",
+      "oai_imports": [],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Fourier/ExpandingGramSpectrum.lean",
+      "upstream_git_blob": "1c376705218d8f9ec39170ce5687dcd15bb87510",
+      "upstream_sha256": "ce40cce0d09cb569de36747ffedff59f3a191282b034253b66b2423f88e59a75",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "from": "Finset.prod_le_prod_of_subset_of_one_le₀",
+            "to": "Finset.prod_le_prod_of_subset_of_one_le",
+            "count": 1
+          },
+          {
+            "from": "Finset.one_le_prod₀",
+            "to": "Finset.one_le_prod",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "b3b562016d4cc02dd66548eff4def5714de0da0bd4d664ad056d8405ab13df09"
+      },
+      "diff_sha256": "3bc6e35f14db35ecfa919499f77aca067581a5030a3d05371a6c40ae26f5a375"
     },
     "OAI.Combinatorics.Progressions.Fourier.FactoredPolynomialCharacter": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Fourier/FactoredPolynomialCharacter.lean",
@@ -4688,6 +5337,64 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Geometry.CoefficientDeckCoordinates": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CoefficientDeckCoordinates.lean",
+      "sha256": "addb622f83d715d84c4b689c2808fc26874f1703b72cd83e47c239220b6ee977",
+      "bytes": 3090,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Fourier.EuclideanCoefficientTorus",
+        "OAI.Combinatorics.Progressions.Lattices.CoverBasisResidues",
+        "OAI.Combinatorics.Progressions.Lattices.IntegerKernelCoordinates"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/CoefficientDeckCoordinates.lean",
+      "upstream_git_blob": "614cf98d34ccaa0dc343d5a2958771c857414403",
+      "upstream_sha256": "addb622f83d715d84c4b689c2808fc26874f1703b72cd83e47c239220b6ee977",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Geometry.CoefficientJetCoordinates": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CoefficientJetCoordinates.lean",
+      "sha256": "f8f2a7cdf50b4cae40964b21a27731f8f79cd3a08297e6567d1937492e8cdd2b",
+      "bytes": 3301,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.MixedBooleanSiteValues",
+        "OAI.Combinatorics.Progressions.Fourier.EuclideanCoefficientTorus"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/CoefficientJetCoordinates.lean",
+      "upstream_git_blob": "f96e1cbc0dc1e400662b3833bcde1b8847278b11",
+      "upstream_sha256": "f8f2a7cdf50b4cae40964b21a27731f8f79cd3a08297e6567d1937492e8cdd2b",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Geometry.CommonRationalModelCoordinates": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CommonRationalModelCoordinates.lean",
+      "sha256": "611ba071afc5aaa7f92a792efdd6765ddcece2964ffd6bb450d97f5c15ce6d65",
+      "bytes": 3383,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Dynamics.RationalConstraintCountBudget",
+        "OAI.Combinatorics.Progressions.Estimates.NativeModelOrbit"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/CommonRationalModelCoordinates.lean",
+      "upstream_git_blob": "fec34d4f1397b4faeb17513ef60c71a52353053c",
+      "upstream_sha256": "611ba071afc5aaa7f92a792efdd6765ddcece2964ffd6bb450d97f5c15ce6d65",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Geometry.CommonSupportRadius": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CommonSupportRadius.lean",
       "sha256": "ecd89b57cc96322fda7ea1a35a2f45335a32012b75d67501fba0823702ad2381",
@@ -4762,6 +5469,24 @@
       },
       "diff_sha256": "aa7323e90f2a4e788a504003805397bc03efd99d11a305f767dceef8349d0f50"
     },
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateDerivativeBounds": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CoordinateDerivativeBounds.lean",
+      "sha256": "2995722b0f2a4bfd5b065457139dba13ae632f7f3dc7447d24b03b744aa78392",
+      "bytes": 3885,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.RealFirstCoefficientHorizontal"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/CoordinateDerivativeBounds.lean",
+      "upstream_git_blob": "defb6195e52063aca3039046ffe48dfcf63c3234",
+      "upstream_sha256": "2995722b0f2a4bfd5b065457139dba13ae632f7f3dc7447d24b03b744aa78392",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Geometry.CoordinateFiberPatch": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CoordinateFiberPatch.lean",
       "sha256": "5cef3fac43a23c99f477e40d1055450dd52e62bfd20289eb8dcf261abdf9ff27",
@@ -4795,6 +5520,33 @@
         "leading_notice_sha256": "5bac69de1ed0ac54f0fdfe8af64ba299af64d27fbdb09f0160e11d5e32f0ce96"
       }
     },
+    "OAI.Combinatorics.Progressions.Geometry.CoordinateMinorCovolume": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CoordinateMinorCovolume.lean",
+      "sha256": "d5b0f8cb5d7fad169c429a79825741da660d3fec306997dea923caae9254ea29",
+      "bytes": 4085,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Compatibility.ExteriorPowerInnerProduct",
+        "OAI.Combinatorics.Progressions.Lattices.LatticeSheetHaar"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/CoordinateMinorCovolume.lean",
+      "upstream_git_blob": "e7e8b27c58e1a4490e9aeea98a3052be232fc296",
+      "upstream_sha256": "e76a917073ec5f2189c1b07bc3b6745a716a79dc8005493d7f17aaf48769c249",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "change": "redirect one import to complete official mathlib backport; mathematical body byte-identical",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "3f8789e0df2f264cc07e155dd2b2ccc950a69c3415d02dc0e05cfee6f34b20ce"
+      },
+      "diff_sha256": "c243fd9021eb261aa8492588e55eb3ae719d9568fa7e171407a321b2f06e07d7"
+    },
     "OAI.Combinatorics.Progressions.Geometry.CoordinateQuotientModel": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CoordinateQuotientModel.lean",
       "sha256": "10587aaf428c5677efeed38685e5b1bd07de2d560894fdb62a13301d2c205022",
@@ -4807,6 +5559,25 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/CoordinateQuotientModel.lean",
       "upstream_git_blob": "e1f1ee15abd90aa3370b0c1854fcd557b48cf545",
       "upstream_sha256": "10587aaf428c5677efeed38685e5b1bd07de2d560894fdb62a13301d2c205022",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Geometry.DerivativeVerticalCoordinates": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/DerivativeVerticalCoordinates.lean",
+      "sha256": "63d33fe0f7abbb62f77b79765fd7ea5bfc992b04b1b952456e5b4e1ac165a698",
+      "bytes": 2762,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.EuclideanGraphResidual",
+        "OAI.Combinatorics.Progressions.Estimates.SymbolAbsorptionBounds"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/DerivativeVerticalCoordinates.lean",
+      "upstream_git_blob": "f28075aef82fb0199fc7935d52569c0069131aee",
+      "upstream_sha256": "63d33fe0f7abbb62f77b79765fd7ea5bfc992b04b1b952456e5b4e1ac165a698",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -5056,6 +5827,52 @@
       },
       "diff_sha256": "71f5ce73dbeb3801c33792e5a6b7762808d341c5e9beb7abfea3eca263b44514"
     },
+    "OAI.Combinatorics.Progressions.Geometry.NormalizedMinorCoordinates": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/NormalizedMinorCoordinates.lean",
+      "sha256": "4d0303d9c0da70574c0c404e3fcc5d4cfcd05caaf7fca3bf642d3f24fdd723de",
+      "bytes": 1762,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.LowerTriangularMinor"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/NormalizedMinorCoordinates.lean",
+      "upstream_git_blob": "a8010318085a11e2deb075b1c52d85e4e9f1f9ae",
+      "upstream_sha256": "4d0303d9c0da70574c0c404e3fcc5d4cfcd05caaf7fca3bf642d3f24fdd723de",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Geometry.PositiveCyclicCoordinateProduct": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/PositiveCyclicCoordinateProduct.lean",
+      "sha256": "4633f9c319f2e204a2f87bb41511623fc6f3689b00c55aabbc70d88c871f35d3",
+      "bytes": 3928,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.CommonPositivePartitionRefinement",
+        "OAI.Combinatorics.Progressions.Lattices.NativeIntegerAffinePullbackHom"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/PositiveCyclicCoordinateProduct.lean",
+      "upstream_git_blob": "1cd10cf9db1cce6bec986af63a56c13af0214b56",
+      "upstream_sha256": "2ebc03f6e2e4633613cee173906ba7760bb3156c42b26b18e773cfb7bb5d5ece",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "from": "IsModuleTopology.isTopologicalAddGroup",
+            "to": "IsModuleTopology.topologicalAddGroup",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "438da5fe843a1e3b6c58333d20542ab7b2d37aeefc46c3b75cc8bde1ad655116"
+      },
+      "diff_sha256": "619e7ef72a7d1658b1c177fadebf3b27ee41c9f044cff4b6f4be6bacceeedd95"
+    },
     "OAI.Combinatorics.Progressions.Geometry.QuantitativeProjectedChart": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/QuantitativeProjectedChart.lean",
       "sha256": "b60a1480a79455ce311171df0010af199c74164b5907b02cfe22ab05eff004e2",
@@ -5157,6 +5974,24 @@
           }
         ],
         "leading_notice_sha256": "749b7d36a7c0fe83db4c08b641a151e0c819d74f42bf9057cddb0e3da4d40237"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Geometry.RealifiedSquareMetric": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/RealifiedSquareMetric.lean",
+      "sha256": "9039de73677bcaa92fb27406812dc1c5fd1d2b3285fc8204004873cd29b1e494",
+      "bytes": 2400,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.BoundedRealifiedSquareOrbit"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Geometry/RealifiedSquareMetric.lean",
+      "upstream_git_blob": "7b8dda39acc4c1ae1a9b6f999149bef7656446c2",
+      "upstream_sha256": "9039de73677bcaa92fb27406812dc1c5fd1d2b3285fc8204004873cd29b1e494",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
     "OAI.Combinatorics.Progressions.Geometry.ReducedSquareCoefficientCoordinates": {
@@ -5313,6 +6148,64 @@
       },
       "diff_sha256": "330ec9780d743d831bd241ce42eaee4fec2b97c384087e35ea2cc69eedb0b573"
     },
+    "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientAmplitudeCongruenceRemoval": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/AffineCoefficientAmplitudeCongruenceRemoval.lean",
+      "sha256": "69cd30e820b7ad39022496e3fa6fa174665e058fb956e3f6d6a42ecfb443ee05",
+      "bytes": 9543,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.RetainedAffineCommonCover"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/AffineCoefficientAmplitudeCongruenceRemoval.lean",
+      "upstream_git_blob": "94e5610897bc49766b05998e38e6b01a440314a1",
+      "upstream_sha256": "69cd30e820b7ad39022496e3fa6fa174665e058fb956e3f6d6a42ecfb443ee05",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientCongruenceRemoval": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/AffineCoefficientCongruenceRemoval.lean",
+      "sha256": "30c4e105578a7272d283fb994506cdc2c48ffe5563b8442efc1f3ec3baebd25e",
+      "bytes": 11925,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.RetainedAffineCommonCover"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/AffineCoefficientCongruenceRemoval.lean",
+      "upstream_git_blob": "55c9a4fa22454e02f47aefb5c54ec0042d60a1b0",
+      "upstream_sha256": "30c4e105578a7272d283fb994506cdc2c48ffe5563b8442efc1f3ec3baebd25e",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientCoverTilt": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/AffineCoefficientCoverTilt.lean",
+      "sha256": "4e7ca11affc92a1be85fd38a48f13edf1bb6c1cd4697bc508167053209205556",
+      "bytes": 33525,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Fourier.AnchoredCoefficientFourierNormalization",
+        "OAI.Combinatorics.Progressions.Fourier.SiteFourierHaarMean",
+        "OAI.Combinatorics.Progressions.Lattices.SmoothResidueWindowMass",
+        "OAI.Combinatorics.Progressions.Probability.DensityIntegralBound",
+        "OAI.Combinatorics.Progressions.Probability.ProbabilityIntegralApproximation"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/AffineCoefficientCoverTilt.lean",
+      "upstream_git_blob": "83e3b86a5a59197fab1fda58e56c8993ea28acb4",
+      "upstream_sha256": "4e7ca11affc92a1be85fd38a48f13edf1bb6c1cd4697bc508167053209205556",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientResidueWidths": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/AffineCoefficientResidueWidths.lean",
       "sha256": "355e44c4e82a7e7bb540d395ce4f8698fa97fb2421df507f4fdfbf6699223ddb",
@@ -5423,6 +6316,42 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Lattices.AnchoredCoefficientResidueAmbient": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/AnchoredCoefficientResidueAmbient.lean",
+      "sha256": "ce626deb752fdd507d82523643a9fa531e314d6137223c6444aec4e86c2dda60",
+      "bytes": 14218,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.RetainedAffineCommonCover"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/AnchoredCoefficientResidueAmbient.lean",
+      "upstream_git_blob": "19dc60ba9022f9ed555ad29ccc17bd12d6e151fa",
+      "upstream_sha256": "ce626deb752fdd507d82523643a9fa531e314d6137223c6444aec4e86c2dda60",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Lattices.AnchoredCubeResidueAmbient": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/AnchoredCubeResidueAmbient.lean",
+      "sha256": "bc312755442d26992f3d00c1026684306e9710d1943b56efb242b8708f58c689",
+      "bytes": 7079,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.RetainedAffineCommonCover"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/AnchoredCubeResidueAmbient.lean",
+      "upstream_git_blob": "a671debd9e1926efcd383a7442b21d7fa8195e84",
+      "upstream_sha256": "bc312755442d26992f3d00c1026684306e9710d1943b56efb242b8708f58c689",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Lattices.AnchoredCubeResidueWidths": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/AnchoredCubeResidueWidths.lean",
       "sha256": "17272f02e4a235acb6de1cd2944778fd3daf8588bedb4bfb3dd83dcae91b1c35",
@@ -5510,6 +6439,62 @@
         "leading_notice_sha256": "e20021f39906ddf2fe17937133ef1a42b63165a15a8455720ba06c391cc96754"
       }
     },
+    "OAI.Combinatorics.Progressions.Lattices.DerivativeLatticeDivision": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/DerivativeLatticeDivision.lean",
+      "sha256": "062333da28a7f77dcd7aeb4c8f09c6cc5f232673603e8ac0bf671b337fbd1070",
+      "bytes": 3157,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Geometry.DerivativeVerticalCoordinates"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/DerivativeLatticeDivision.lean",
+      "upstream_git_blob": "eb5517f6935129a87eac5a6bedf769c2df587c46",
+      "upstream_sha256": "062333da28a7f77dcd7aeb4c8f09c6cc5f232673603e8ac0bf671b337fbd1070",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Lattices.EuclideanLatticeGraph": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/EuclideanLatticeGraph.lean",
+      "sha256": "3721a57aa066a5e097da7db06a571bdb4574d43e546e1ad964e1adf6f0a62c32",
+      "bytes": 2806,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.EuclideanGraphNorm",
+        "OAI.Combinatorics.Progressions.Estimates.EuclideanGraphResidual"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/EuclideanLatticeGraph.lean",
+      "upstream_git_blob": "2a8c1416d0f415199f023326cd76d4f88aa5d20e",
+      "upstream_sha256": "3721a57aa066a5e097da7db06a571bdb4574d43e546e1ad964e1adf6f0a62c32",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Lattices.FirstCoefficientLatticeCoordinates": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/FirstCoefficientLatticeCoordinates.lean",
+      "sha256": "f131bb8adfd76b2c5028dc9d6152b50850c55752f01381ae4ebf46373465b0d7",
+      "bytes": 1777,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.FastCoefficientImage",
+        "OAI.Combinatorics.Progressions.Linear.SortedBasisTriangular"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/FirstCoefficientLatticeCoordinates.lean",
+      "upstream_git_blob": "814989e8deeb4935b984da02966a632bbe9d4b5f",
+      "upstream_sha256": "f131bb8adfd76b2c5028dc9d6152b50850c55752f01381ae4ebf46373465b0d7",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Lattices.IndependentIntegerSiteDirections": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/IndependentIntegerSiteDirections.lean",
       "sha256": "5b66c39f1a6de7d00710ae900349caf2a092b5ccd127330bdc0ef3fccac1f76a",
@@ -5574,6 +6559,25 @@
         "leading_notice_sha256": "3757d2d1aa921c2ad28b48fb0455b1df58d5b60849daa54041ed428e3cd18714"
       },
       "diff_sha256": "7a5b4e5e964aa6d95214df826efb8048fc66a15805104ae233db4074b0d0fe97"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.IntegerMinorNormalization": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/IntegerMinorNormalization.lean",
+      "sha256": "fcbbb92fa6a673fe8bf7189a0ec8c2af4674f27fe229e238abeb48da81dd1f08",
+      "bytes": 1579,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.RationalHeight",
+        "OAI.Combinatorics.Progressions.Geometry.NormalizedMinorCoordinates"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/IntegerMinorNormalization.lean",
+      "upstream_git_blob": "5ef895910c932d20fd6f0a93c0c09c170821a99b",
+      "upstream_sha256": "fcbbb92fa6a673fe8bf7189a0ec8c2af4674f27fe229e238abeb48da81dd1f08",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
     },
     "OAI.Combinatorics.Progressions.Lattices.IntegerPMFNormalizedSource": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/IntegerPMFNormalizedSource.lean",
@@ -5655,6 +6659,25 @@
         "leading_notice_sha256": "da7763cb8b10ec647cc54db091ae0b9c4c8c76d5ff3313d124af94393a63adcb"
       },
       "diff_sha256": "eb9a019e74aa615291ffc1a5bedd4f1bf550a758b857ec6ae67dc23d10b7e0e7"
+    },
+    "OAI.Combinatorics.Progressions.Lattices.LatticeMinorNormBound": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/LatticeMinorNormBound.lean",
+      "sha256": "83e68e33038d7debbaa9149f7342be0981cde9b388c64aba96f52b7a47ab567a",
+      "bytes": 5492,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.NormalizedMinorBounds",
+        "OAI.Combinatorics.Progressions.Geometry.CoordinateMinorCovolume"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/LatticeMinorNormBound.lean",
+      "upstream_git_blob": "0f13c31d1bb77925b6733387ad37000664932391",
+      "upstream_sha256": "83e68e33038d7debbaa9149f7342be0981cde9b388c64aba96f52b7a47ab567a",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
     },
     "OAI.Combinatorics.Progressions.Lattices.LatticeSheetHaar": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/LatticeSheetHaar.lean",
@@ -5754,6 +6777,25 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/NativeIntegerAffinePullbackHom.lean",
       "upstream_git_blob": "06f02a3c379b3b452008f9a6649ef59de49d8c35",
       "upstream_sha256": "594c2224f6aabf1916f67882b7a81cde91a2f76526dd103108dbcd44ad687b01",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Lattices.NativeIntervalResiduePartition": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/NativeIntervalResiduePartition.lean",
+      "sha256": "b416ff28efba9edff235c19826b6fbd3af06e3684e38613e6af9cc2e4d3b23c6",
+      "bytes": 12745,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Nilpotent.NativeResidueNiltests",
+        "OAI.Combinatorics.Progressions.Sampling.FixedObservationRefinement"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/NativeIntervalResiduePartition.lean",
+      "upstream_git_blob": "4b971a933816098a4ba5a7ce78fd2e1818288935",
+      "upstream_sha256": "b416ff28efba9edff235c19826b6fbd3af06e3684e38613e6af9cc2e4d3b23c6",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -5918,6 +6960,36 @@
       "modification_notice": {
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
+    },
+    "OAI.Combinatorics.Progressions.Lattices.RetainedAffineCommonCover": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/RetainedAffineCommonCover.lean",
+      "sha256": "26a81c370304183bb7fee0746bb7547334960969ce2148744f2bfa55b493b5c3",
+      "bytes": 41268,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Dynamics.CubeModeUniformBudget",
+        "OAI.Combinatorics.Progressions.Dynamics.ModeAmplitudeErrorBudget",
+        "OAI.Combinatorics.Progressions.Estimates.BoundedCommonSiteResidual",
+        "OAI.Combinatorics.Progressions.Polynomial.FixedKernelPolynomialCover"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Lattices/RetainedAffineCommonCover.lean",
+      "upstream_git_blob": "ac7f8499f1f0644774e7ff9ad8b96d49c6efe136",
+      "upstream_sha256": "3d7fe27470ec6e7369bb6b1aabc3f35d8c6788973cef741220f41ae3cbc322ff",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "from": "Finset.prod_le_prod₀",
+            "to": "Finset.prod_le_prod",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "f4e87be4dc9971407fa840f398cf0738498ab3514c35d4c4213f86a8388899a1"
+      },
+      "diff_sha256": "9b236defeb64b520d44d08ecc268bbeda814eb5c713e1b1f62fa553ed5680b29"
     },
     "OAI.Combinatorics.Progressions.Lattices.ScalarResidueInteriorCell": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Lattices/ScalarResidueInteriorCell.lean",
@@ -6358,6 +7430,24 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Linear.DerivativeVerticalBasis": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/DerivativeVerticalBasis.lean",
+      "sha256": "8bf178304ec426c86269e8d75f3a2b5fdfb9ab394fe91150eafa62eb28bc87fa",
+      "bytes": 3304,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Geometry.DerivativeVerticalCoordinates"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/DerivativeVerticalBasis.lean",
+      "upstream_git_blob": "36680440191b8c4c1ffa16bbe8a079cfb665468b",
+      "upstream_sha256": "8bf178304ec426c86269e8d75f3a2b5fdfb9ab394fe91150eafa62eb28bc87fa",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Linear.FiniteCenteredKernel": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/FiniteCenteredKernel.lean",
       "sha256": "45c2a57696c25d0dbad71611d84cb992c0b40371261085253959130805a18c5d",
@@ -6369,6 +7459,24 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/FiniteCenteredKernel.lean",
       "upstream_git_blob": "491bab44c61051490fa74a5634632d52f53af1fe",
       "upstream_sha256": "45c2a57696c25d0dbad71611d84cb992c0b40371261085253959130805a18c5d",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Linear.FixedKernelSiteImage": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/FixedKernelSiteImage.lean",
+      "sha256": "4044d243625b785d3918b8e241e1fb1790ed36c8c994ef174dda25f0a7c34d2a",
+      "bytes": 3807,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.MixedBooleanSiteValues"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/FixedKernelSiteImage.lean",
+      "upstream_git_blob": "ca067c3bbae6b64a726817c609068b1a59ecbc0c",
+      "upstream_sha256": "4044d243625b785d3918b8e241e1fb1790ed36c8c994ef174dda25f0a7c34d2a",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -6736,6 +7844,60 @@
         "leading_notice_sha256": "fe0eaef2442ffe9096c48eef6518c4736cbe66265a8d3487fcd1abc25128270e"
       }
     },
+    "OAI.Combinatorics.Progressions.Linear.RealReducedFastKernel": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/RealReducedFastKernel.lean",
+      "sha256": "19f1283696aaf6b47de45a043e55aea1ca47eb67bd603986d510e41f2636755f",
+      "bytes": 2107,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.ReducedNativeFactorization"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/RealReducedFastKernel.lean",
+      "upstream_git_blob": "13eca01e424d3f33e14fb463087ab69c0c230647",
+      "upstream_sha256": "19f1283696aaf6b47de45a043e55aea1ca47eb67bd603986d510e41f2636755f",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Linear.ReducedProjectionBounds": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/ReducedProjectionBounds.lean",
+      "sha256": "b8cc734d08e771324ef95e99bab083ea73a4d5bbbea8c4b4b0456fe427b95d00",
+      "bytes": 6560,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.ReducedNativeFactorization"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/ReducedProjectionBounds.lean",
+      "upstream_git_blob": "3f56af426a65eefb15795ea8582711d3926f0d89",
+      "upstream_sha256": "b8cc734d08e771324ef95e99bab083ea73a4d5bbbea8c4b4b0456fe427b95d00",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Linear.ReducedSquareFastKernel": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/ReducedSquareFastKernel.lean",
+      "sha256": "7eff3a4fc80046718b09ace67ecbde50f290271a3568c212878467e6729d90c5",
+      "bytes": 2108,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.FastCoefficientImage"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/ReducedSquareFastKernel.lean",
+      "upstream_git_blob": "ecc5a52ca25b72c084b79446c1436136b6929432",
+      "upstream_sha256": "7eff3a4fc80046718b09ace67ecbde50f290271a3568c212878467e6729d90c5",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Linear.SquareBasisGeometry": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/SquareBasisGeometry.lean",
       "sha256": "ef5cacc1e425e3b637c6edfa6520e01af777397cb4f0ae8afdf9232dcc114437",
@@ -6764,6 +7926,24 @@
           }
         ],
         "leading_notice_sha256": "25a5492d6d1caa9ec9ce65fb23acd1f440dd91507cf49cac0c96d3e148c9a98f"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Linear.SquareFastKernel": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/SquareFastKernel.lean",
+      "sha256": "54c07cb400a26db8d92ea0eabf0056aa6117d2b1ebfa74c683b5dd477efd4fad",
+      "bytes": 1876,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.SquareSymbolRelative"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Linear/SquareFastKernel.lean",
+      "upstream_git_blob": "c64d98b6230af54743c6892723ca6d206c4fa71e",
+      "upstream_sha256": "54c07cb400a26db8d92ea0eabf0056aa6117d2b1ebfa74c683b5dd477efd4fad",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
     "OAI.Combinatorics.Progressions.Linear.SquareSymbolProjection": {
@@ -7201,6 +8381,32 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Nilpotent.SumNilmanifoldFactors": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Nilpotent/SumNilmanifoldFactors.lean",
+      "sha256": "8f9e8763f8e827c28431c2df74b9b65fd226ea26652258ef7a22f68a74b7a359",
+      "bytes": 5108,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.ProductOrbitCongruence"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Nilpotent/SumNilmanifoldFactors.lean",
+      "upstream_git_blob": "de08a23fb44beb227c7ab6ddc15f8aeae5a5b36b",
+      "upstream_sha256": "263a7d6fb5738cc24d224842b02eb15add9f257044d60695b8cd6b1f3c8ebf7e",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "change": "capture branch LieAlgebra instances before Sum elimination",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "67424b72dc258434bb4244492bcbde215b495b5b071af7a2ea8b406c092c2c20"
+      },
+      "diff_sha256": "3e6f53f4ed0313c74aefe5c34c42305c3080c98cc3363d3639a72b0eb3fdcd94"
+    },
     "OAI.Combinatorics.Progressions.Nilpotent.WeightedTranslationNilmanifold": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Nilpotent/WeightedTranslationNilmanifold.lean",
       "sha256": "a810487d66100dff2320650ac52c891a3f91d8242dd0b443badacf3b9853ecdb",
@@ -7377,6 +8583,26 @@
       },
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/DegreeRankAdaptedBasis.lean"
     },
+    "OAI.Combinatorics.Progressions.Polynomial.FixedKernelPolynomialCover": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/FixedKernelPolynomialCover.lean",
+      "sha256": "c9208900a45f62f2ddc88b1ac3120683c8331800b2b368245967124037b8a8b0",
+      "bytes": 8003,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.BoundedExtendedSiteSection",
+        "OAI.Combinatorics.Progressions.Estimates.BoundedHomogeneousFactorization",
+        "OAI.Combinatorics.Progressions.Linear.FixedKernelSiteImage"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/FixedKernelPolynomialCover.lean",
+      "upstream_git_blob": "e5645e88301af97d734f8a8dcbec338616a672e6",
+      "upstream_sha256": "c9208900a45f62f2ddc88b1ac3120683c8331800b2b368245967124037b8a8b0",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Polynomial.FormalPolynomialCorrectionStep": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/FormalPolynomialCorrectionStep.lean",
       "sha256": "78aa536a6eb07fdba5116261f9d2fa2d4b23c82fb7319fd9b6d11c9a486b6245",
@@ -7512,6 +8738,24 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Polynomial.NativePolynomialOrbit": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/NativePolynomialOrbit.lean",
+      "sha256": "53d782a87eb34a71933a24797a57c8d4a34cb4fda28627f1a2bd5d0ef653181d",
+      "bytes": 3184,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.ReducedNativeFactorization"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/NativePolynomialOrbit.lean",
+      "upstream_git_blob": "e35e41f55d23ac8b55187d0ad9bbdc92e1dc6ce3",
+      "upstream_sha256": "53d782a87eb34a71933a24797a57c8d4a34cb4fda28627f1a2bd5d0ef653181d",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Polynomial.NativeTotalDegreeMultifiltration": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/NativeTotalDegreeMultifiltration.lean",
       "sha256": "1e9151057027d4e1fd7ce3e322f6c732081ac23afa3c37a7472c85b674270118",
@@ -7566,6 +8810,24 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialCoefficientDensityMass": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/PolynomialCoefficientDensityMass.lean",
+      "sha256": "1749b4c8387c15fdc95d8654ee4a4d1d9c2620eec80d451ca294f89992829675",
+      "bytes": 3295,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.AffineCoefficientCoverTilt"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/PolynomialCoefficientDensityMass.lean",
+      "upstream_git_blob": "6b3f7ce369e3e3e6c76fa4b69cf40e24089b6f3a",
+      "upstream_sha256": "1749b4c8387c15fdc95d8654ee4a4d1d9c2620eec80d451ca294f89992829675",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
     "OAI.Combinatorics.Progressions.Polynomial.PolynomialDensityRiemann": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/PolynomialDensityRiemann.lean",
       "sha256": "f791224d165e8a25a572ecc12b60f7b0d844b7723b1be399b0f44b240be51753",
@@ -7595,6 +8857,24 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/PolynomialDerivativeBounds.lean",
       "upstream_git_blob": "ff398068880ddd5a0fa95ee4e2b951b15f535c1c",
       "upstream_sha256": "fd590759bee022af18360bc8e92e317f0242a32bb2c5e2d9cf5e9888e41bb69d",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Polynomial.PolynomialDerivativeDifferences": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/PolynomialDerivativeDifferences.lean",
+      "sha256": "0178f94a592e291a77d5f1e6beccad6697f3c7c4934b182ebe61fc42b3dedbed",
+      "bytes": 29379,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Polynomial.QuantitativeOuterPolynomialProducts"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Polynomial/PolynomialDerivativeDifferences.lean",
+      "upstream_git_blob": "ec6e0c2820268c1c4ea3ed0f75e1560ed2bf8245",
+      "upstream_sha256": "0178f94a592e291a77d5f1e6beccad6697f3c7c4934b182ebe61fc42b3dedbed",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -8226,6 +9506,37 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Probability.CoefficientProductLaw": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/CoefficientProductLaw.lean",
+      "sha256": "a625820865d6fddd959dad07d9c7b2127ba655b01df81e9a9690dbe5778b6cf4",
+      "bytes": 6706,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.CoefficientProductHaar"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Probability/CoefficientProductLaw.lean",
+      "upstream_git_blob": "e273b1e3c25052b8850edf6c772324afb3ccb447",
+      "upstream_sha256": "b31a989a4d42c72eb23c0c301b4b871186d4d81183e4d0cc55649211e9689a2d",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "from": "Finset.prod_le_prod₀",
+            "to": "Finset.prod_le_prod",
+            "count": 1
+          },
+          {
+            "change": "declaration-local synthInstance.maxHeartbeats 200000",
+            "count": 1
+          }
+        ],
+        "leading_notice_sha256": "8c2abb4c7b89936b33cf4e0437d301315de0c2c60d3f2c2612b41abddd94f1be"
+      },
+      "diff_sha256": "9c1cee45e7660472d7c6844c6f065993745bc7ce395215666585b085171e3129"
+    },
     "OAI.Combinatorics.Progressions.Probability.CubeMinorProbability": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/CubeMinorProbability.lean",
       "sha256": "d0e860711972b272722ad8c2a115894decfee1dd8ec75de5b912fc40c72ef0fd",
@@ -8624,6 +9935,35 @@
         "status": "unmodified-fixed-upstream-source; no new modification notice needed"
       }
     },
+    "OAI.Combinatorics.Progressions.Sampling.FixedObservationRefinement": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Sampling/FixedObservationRefinement.lean",
+      "sha256": "09358ac8231cedfacb8a8bbbf7da99c25d118c5f3b6e7d6a61950ca9f612c8af",
+      "bytes": 12215,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Estimates.NativeProductPartition",
+        "OAI.Combinatorics.Progressions.Estimates.ProjectedNativeCoefficient",
+        "OAI.Combinatorics.Progressions.Estimates.TranslatedShiftTesting"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Sampling/FixedObservationRefinement.lean",
+      "upstream_git_blob": "6850ccc603b3ec8ce13aba9e3e2909d30738a509",
+      "upstream_sha256": "b8e52c8dfd02863cc52ed24e752d9c9ae8636d3734b59c3bf7fbc918e7ab0d8b",
+      "same_as_fixed_upstream": false,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "file-level-notice-present; exact-described-transform-checked",
+        "changes": [
+          {
+            "from": "IsModuleTopology.isTopologicalAddGroup",
+            "to": "IsModuleTopology.topologicalAddGroup",
+            "count": 2
+          }
+        ],
+        "leading_notice_sha256": "64abf01c4d27cb307e3816bf3c8fc3895917bd081a40dcd415d30e2e545d340d"
+      },
+      "diff_sha256": "0b5e4602d48490c42beeb4afc4f5bd7ee5531dea11913ef1ae854c65753dbc83"
+    },
     "OAI.Combinatorics.Progressions.Sampling.FixedPathSlicedGridMeshBudget": {
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Sampling/FixedPathSlicedGridMeshBudget.lean",
       "sha256": "b09ef201c6aca3a4ec6fd2a3a6c14e7b3a3797ea6947d304a42f550338f9da39",
@@ -8654,6 +9994,25 @@
       "upstream_path": "lean/OAI/Combinatorics/Progressions/Sampling/ForecastModularCutoff.lean",
       "upstream_git_blob": "a56e4567758dff96760e575acbe0c15ec3096a5e",
       "upstream_sha256": "13439ac9d3e0b7e2baf9eca6175fe2aa860235ccc075b4cfacf53e0419f8ee27",
+      "same_as_fixed_upstream": true,
+      "license": "Apache-2.0",
+      "license_reference": "license_review.existing_license_path",
+      "modification_notice": {
+        "status": "unmodified-fixed-upstream-source; no new modification notice needed"
+      }
+    },
+    "OAI.Combinatorics.Progressions.Sampling.GridNormalizationDenominator": {
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Sampling/GridNormalizationDenominator.lean",
+      "sha256": "85c5830afa585397b7ae90d6c10be05a52a037ff9300928dcbdd44204846d9a6",
+      "bytes": 10044,
+      "encoding": "UTF-8",
+      "oai_imports": [
+        "OAI.Combinatorics.Progressions.Lattices.IntegerMinorNormalization",
+        "OAI.Combinatorics.Progressions.Sampling.RationalSpanGrid"
+      ],
+      "upstream_path": "lean/OAI/Combinatorics/Progressions/Sampling/GridNormalizationDenominator.lean",
+      "upstream_git_blob": "deb2d07147f674813374cd9809d94968b69fd078",
+      "upstream_sha256": "85c5830afa585397b7ae90d6c10be05a52a037ff9300928dcbdd44204846d9a6",
       "same_as_fixed_upstream": true,
       "license": "Apache-2.0",
       "license_reference": "license_review.existing_license_path",
@@ -8852,7 +10211,7 @@
       }
     }
   },
-  "new_sources_field_semantics": "Cumulative delta from the unchanged historical 1042-module manifest, including the previously committed 268 sources; only new_source_modules_this_checkpoint are payload additions.",
+  "new_sources_field_semantics": "Cumulative delta from the unchanged historical 1042-module manifest, including previously committed 332 sources. Only new_source_modules_this_checkpoint are source additions. One current addition has explicit mathlib d13 provenance instead of the default OpenAI adc7 commit.",
   "current_verification": {
     "allowed_axioms": [
       "propext",
@@ -8903,25 +10262,6 @@
         "finished_ns": null
       }
     ],
-    "audit_status": "completed",
-    "audit_exit": 0,
-    "audit_trust": 0,
-    "audited_modules": 1281,
-    "audited_unique_declarations": 27509,
-    "audited_declaration_records": 27524,
-    "strict_source_record_status": "all-selected-records-consistent",
-    "strict_initial_option_record_consistent_modules": 1281,
-    "module_source_evidence_pending": 0,
-    "source_evidence_collector_exit": 3,
-    "source_compile_exit": null,
-    "source_lake_hashes_recomputed": 1281,
-    "source_lake_hashes_matching_trace": 1281,
-    "independent_source_lake_hash_run_exit": 0,
-    "source_and_artifact_sha256_mismatches": [],
-    "external_dependencies_independently_verified": false,
-    "dependency_output_lake_hashes_recomputed": false,
-    "source_to_output_identity_independently_proved": false,
-    "new_whole_union_replay_claimed": false,
     "round7_whole_command": {
       "exit": 124,
       "status": "timed-out",
@@ -8931,19 +10271,47 @@
       "finished_as_recorded": "2026-10-16T14:15:27Z",
       "full_axis_build_succeeded": false
     },
-    "audit_source_sha256": "e57a72b0056e3ec8a40e1b7aef5c2cabb34ae7d45eede8b19082484f681c9d5d",
-    "audit_log_sha256": "2734df2f8a878088953767dfa6a8cf63595491c7969e7238d25eb05291790b3e",
-    "audit_summary": "AUDIT COMPLETE: 1281 modules; 27509 unique declarations; 27524 records; only standard axioms",
-    "audit_command_as_recorded": "lake env lean -j1 --trust=0 -DautoImplicit=false /workspace/shared/hindman-recovery/RecoveryStage005Axioms.lean",
-    "source_evidence_collector_exit_explanation": "All 1281 selected module records are consistent. Actual collector exit 3 retains only three old interrupted whole-command exit/finish-time gaps. Rounds4,5,6,7 have recorded timeout exit124; no whole-command success is invented."
+    "audit_status": "completed",
+    "audit_exit": 0,
+    "audit_trust": 0,
+    "audited_modules": 1365,
+    "audited_unique_declarations": 28412,
+    "audited_declaration_records": 28429,
+    "strict_source_record_status": "all-selected-records-consistent",
+    "strict_initial_option_record_consistent_modules": 1365,
+    "module_source_evidence_pending": 0,
+    "source_evidence_collector_exit": 3,
+    "source_compile_exit": null,
+    "source_lake_hashes_recomputed": 1365,
+    "source_lake_hashes_matching_trace": 1365,
+    "independent_source_lake_hash_run_exit": 0,
+    "source_and_artifact_sha256_mismatches": [],
+    "external_dependencies_independently_verified": false,
+    "dependency_output_lake_hashes_recomputed": false,
+    "source_to_output_identity_independently_proved": false,
+    "new_whole_union_replay_claimed": false,
+    "round8_whole_command": {
+      "exit": 124,
+      "status": "timed-out",
+      "limit_minutes": 80,
+      "command_as_recorded": "timeout --signal=INT --kill-after=30s 80m lake build OAI.Combinatorics.Progressions.Estimates.AxisCompression",
+      "started_as_recorded": "2026-10-16T14:28:16Z",
+      "finished_as_recorded": "2026-10-16T15:48:16Z",
+      "full_axis_build_succeeded": false
+    },
+    "audit_source_sha256": "fc0b01b52398358ff7f74b450cf6c7bf9638b4740ac379a8a1ea457898ea4bed",
+    "audit_log_sha256": "a5dc29def598962eaa6b3e56531ea33aadbd7f260afb3bd28390f12f50ce4155",
+    "audit_summary": "AUDIT COMPLETE: 1365 modules; 28412 unique declarations; 28429 records; only standard axioms",
+    "audit_command_as_recorded": "lake env lean -j1 --trust=0 -DautoImplicit=false /workspace/shared/hindman-recovery/RecoveryStage006Axioms.lean",
+    "source_evidence_collector_exit_explanation": "All 1365 selected module records are consistent. Actual collector exit3 retains only three old interrupted whole-command exit/finish-time gaps. Rounds4-8 have recorded timeout exit124; no whole-command success is invented."
   },
   "license_review": {
-    "new_sources_this_checkpoint": 64,
+    "new_sources_this_checkpoint": 58,
     "exact_fixed_upstream_sources_this_checkpoint": 44,
-    "modified_sources_with_notices_this_checkpoint": 20,
-    "cumulative_increment_sources": 332,
-    "cumulative_exact_fixed_upstream_sources": 235,
-    "cumulative_modified_sources_with_notices": 97,
+    "modified_sources_with_notices_this_checkpoint": 14,
+    "cumulative_increment_sources": 390,
+    "cumulative_exact_fixed_upstream_sources": 279,
+    "cumulative_modified_sources_with_notices": 111,
     "existing_license_path": "dependencies/openai-finite-szemeredi/LICENSE",
     "existing_license_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
     "upstream_license": {
@@ -8953,98 +10321,158 @@
       "existing_license_equal_after_crlf_normalization": true,
       "tracked_notice_paths_at_fixed_commit": []
     },
-    "scope": "Only the 64-source increment was freshly reviewed; prior 268-source attribution records are retained. Existing full Apache-2.0 text is reused. Not a publication/all-history license clearance.",
-    "source_notice_caveat": "Historical prepared_uncompiled notices are retained verbatim to preserve frozen hashes. Current verification status is reported here, not inferred from source comments."
+    "scope": "Fresh review covers 57 OpenAI adc7-derived sources (44 exact, 13 compatibility modifications) and one official mathlib d13 backport. Prior 332-source records are retained. Separate exact upstream mathlib Apache text accompanies this addition. Not a publication/all-history license clearance.",
+    "source_notice_caveat": "Historical prepared_uncompiled notices are retained verbatim to preserve frozen hashes. Current verification status is reported here, not inferred from source comments.",
+    "modified_openai_sources_with_notices_this_checkpoint": 13,
+    "official_mathlib_backports_this_checkpoint": 1,
+    "cumulative_modified_openai_sources_with_notices": 110,
+    "cumulative_official_mathlib_backports": 1,
+    "mathlib_backport": {
+      "module": "OAI.Combinatorics.Progressions.Compatibility.ExteriorPowerInnerProduct",
+      "repository": "leanprover-community/mathlib4",
+      "fixed_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "license_path": "dependencies/openai-finite-szemeredi/LICENSE.mathlib-backport",
+      "license_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "upstream_license_git_blob": "8dada3edaf50dbc082c9a125058f25def75e625a",
+      "upstream_license_bytes": 11357,
+      "upstream_license_lines": 201,
+      "complete_upstream_license_copied_byte_exact": true,
+      "existing_license_comparison": "Apache clauses1-9 match; full files differ in line endings and appendix placeholder brackets. No byte-equality claim.",
+      "copyright_and_author_notices_retained": [
+        "2026 Justus Springer",
+        "2025 Peter Pfaffelhuber"
+      ],
+      "upstream_sources": {
+        "Mathlib/Analysis/InnerProductSpace/ExteriorPower.lean": {
+          "bytes": 6702,
+          "lines": 157,
+          "git_blob_sha1": "d7b8acfca3889734d65056e9a88f0e6fe8c461f4",
+          "sha256": "5b908fd9b2e9f429431b7f38171d6e532bdb1b64f298fb51031c83344a50774a",
+          "source_url": "https://github.com/leanprover-community/mathlib4/blob/d13f23b723b8a846827a245b89c10fc7d3f11612/Mathlib/Analysis/InnerProductSpace/ExteriorPower.lean"
+        },
+        "Mathlib/Analysis/InnerProductSpace/GramMatrix.lean": {
+          "bytes": 6521,
+          "lines": 165,
+          "git_blob_sha1": "7bc693a2ddb34c8e1235ee26037d5d25b457216d",
+          "sha256": "826ba2ae90ed32f889a027a40adfeb80f615c5ef55d9cb795ff5ebf8a1fd223a",
+          "source_url": "https://github.com/leanprover-community/mathlib4/blob/d13f23b723b8a846827a245b89c10fc7d3f11612/Mathlib/Analysis/InnerProductSpace/GramMatrix.lean"
+        },
+        "LICENSE": {
+          "bytes": 11357,
+          "lines": 201,
+          "git_blob_sha1": "8dada3edaf50dbc082c9a125058f25def75e625a",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "source_url": "https://github.com/leanprover-community/mathlib4/blob/d13f23b723b8a846827a245b89c10fc7d3f11612/LICENSE"
+        }
+      },
+      "retrieval_record": "Local retained GitHub-connector source metadata at fixed d13 commit; Git-blob and SHA256 recomputed from retained files. No new remote authenticity attestation.",
+      "original_copyright_notices": {
+        "Mathlib/Analysis/InnerProductSpace/ExteriorPower.lean": "/-\nCopyright (c) 2026 Justus Springer. All rights reserved.\nReleased under Apache 2.0 license as described in the file LICENSE.\nAuthors: Justus Springer\n-/",
+        "Mathlib/Analysis/InnerProductSpace/GramMatrix.lean": "/-\nCopyright (c) 2025 Peter Pfaffelhuber. All rights reserved.\nReleased under Apache 2.0 license as described in the file LICENSE.\nAuthors: Peter Pfaffelhuber\n-/"
+      },
+      "upstream_repository_notice_inventory_verified": false,
+      "notice_review_scope": "Two retained upstream source headers, their selected incorporated content, modification notice and full LICENSE only; repository-wide NOTICE inventory was not established by the retained source evidence."
+    }
   },
   "repository_input_sha256": {
     "lean-toolchain": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
     "lake-manifest.json": "86b357d77d7fb7d7336c530cdc4d11d3481ac99c5412fbe56dc7055600c26295",
     "lakefile.toml": "716c98b2f2fc04017f9444645b73fef1446499fbf7d8644947a94785c0a13c8b",
-    "dependencies/openai-finite-szemeredi/LICENSE": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    "dependencies/openai-finite-szemeredi/LICENSE": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "dependencies/openai-finite-szemeredi/LICENSE.mathlib-backport": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
   },
   "local_evidence_references": {
     "scope": "Local retained records referenced by SHA-256; not bundled or required by the portable replay script. No raw setup/trace archive is uploaded.",
     "files": {
-      "partial-axis-checkpoints/recovery-stage-005/manifest.json": {
-        "sha256": "7da1c624cad2efc551357ab700852a2045581d6a7bc23a6260543aa9c6e45d0a",
-        "bytes": 4547533
+      "partial-axis-checkpoints/recovery-stage-006/manifest.json": {
+        "sha256": "f87cba648bf71971b033b35c52687c59bc40f2810e78d706f20c5262280557e2",
+        "bytes": 4848188
       },
-      "partial-axis-checkpoints/recovery-stage-005/modules.txt": {
-        "sha256": "22e583211bb77e649d21a74e366da028b09974abcea23c2a5dca055cb2f04c81",
-        "bytes": 83286
+      "partial-axis-checkpoints/recovery-stage-006/modules.txt": {
+        "sha256": "4e1fbd2abc4df7424620804f8dd8252ae271e92c85bb945feb1022f63af0aaf4",
+        "bytes": 88905
       },
-      "port-axis-recovery-round7.command": {
+      "port-axis-recovery-round8.command": {
         "sha256": "16bd1b29c439f739afc88b0ede8acd509fa803b6df8bc3c6ec3b2454a80b7055",
         "bytes": 111
       },
-      "port-axis-recovery-round7.exit": {
+      "port-axis-recovery-round8.exit": {
         "sha256": "ca2ebdf97d7469496b1f4b78958f9dc8447efdcb623953fee7b6996b762f6fff",
         "bytes": 4
       },
-      "port-axis-recovery-round7.log": {
-        "sha256": "c443e1bf0ff312c8f2f0caadac20abba614d7d1e9094ce3055ac6685eea0d109",
-        "bytes": 29210
+      "port-axis-recovery-round8.log": {
+        "sha256": "492008015e824850f5c981a6f0ee37290b5857a4ac7e7239667c758535f6a090",
+        "bytes": 38716
       },
-      "port-axis-recovery-round7.started": {
-        "sha256": "82d44f9f92dbc52927b2992d906a78aaf9f4e400b822f6d29517606506795403",
+      "port-axis-recovery-round8.started": {
+        "sha256": "adba8532abe50553f8110f99db99c5d826f83bd4e6789b48203748e7c819716b",
         "bytes": 21
       },
-      "port-axis-recovery-round7.finished": {
-        "sha256": "e5097b9a3ba126a77da679fc87884c15b4493757f9549f4c8ca6e4803ef6f5fc",
+      "port-axis-recovery-round8.finished": {
+        "sha256": "d064b0ac8f0983a8430fa686ae2c54fa824b29870bb2035400fff6cac4110366",
         "bytes": 21
       },
-      "recovery-stage-005-source-hash-run.log": {
-        "sha256": "0625b7b4f0dde8e4833ac11c2bbe1d4796c73652e8f00fc104e86f1b4eb7a09f",
-        "bytes": 348556
+      "recovery-stage-006-source-hash-run.log": {
+        "sha256": "4efceb248f4e9a08543c594ed469bb0efae16f64dc078e14939d47a8201284f5",
+        "bytes": 371722
       },
-      "recovery-stage-005-source-hash-run.exit": {
+      "recovery-stage-006-source-hash-run.exit": {
         "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
         "bytes": 2
       },
-      "recovery-stage-005-source-hash-run.command": {
-        "sha256": "f7f2bb28487fa9364066a8ce61c5acef066c6bf12d1f6485c7e7069543de61ea",
+      "recovery-stage-006-source-hash-run.command": {
+        "sha256": "e18d5c600a47176e48289a8af9c7ad5f443a78c2f9804341f402e3c61f107088",
         "bytes": 224
       },
-      "RecoveryStage005Axioms.lean": {
-        "sha256": "e57a72b0056e3ec8a40e1b7aef5c2cabb34ae7d45eede8b19082484f681c9d5d",
-        "bytes": 177811
+      "RecoveryStage006Axioms.lean": {
+        "sha256": "fc0b01b52398358ff7f74b450cf6c7bf9638b4740ac379a8a1ea457898ea4bed",
+        "bytes": 189721
       },
-      "recovery-stage-005-source-evidence/manifest.json": {
-        "sha256": "3bf98a27108b735472789b2675611499c25ccfb01c41048dc0bb58dbf93cb497",
-        "bytes": 85221521
+      "exterior-backport-source/manifest.json": {
+        "sha256": "8d5ebe1d77d1fd020e520c98ee69d3f4ba63c154415af86e82d6029c4ff85d5c",
+        "bytes": 4553
       },
-      "recovery-stage-005-axioms.log": {
-        "sha256": "2734df2f8a878088953767dfa6a8cf63595491c7969e7238d25eb05291790b3e",
+      "exterior-backport-source/github-source-metadata.json": {
+        "sha256": "38ef6a56b62488bfa85c3dc4a6afc56a7b477b80b32233403c7c2fd3bedd55aa",
+        "bytes": 1157
+      },
+      "recovery-stage-006-source-evidence/manifest.json": {
+        "sha256": "ec1aab02e6b398ec7990c10ff4462412ebe62b822d0f16774b32057762a0ebff",
+        "bytes": 93444442
+      },
+      "recovery-stage-006-axioms.log": {
+        "sha256": "a5dc29def598962eaa6b3e56531ea33aadbd7f260afb3bd28390f12f50ce4155",
         "bytes": 93
       },
-      "recovery-stage-005-axioms.exit": {
+      "recovery-stage-006-axioms.exit": {
         "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
         "bytes": 2
       },
-      "recovery-stage-005-axioms.command": {
-        "sha256": "4dfa505ca6de93bdf39c3c4390fee29a761c872eec839dffca2d3a376e3ae5cc",
+      "recovery-stage-006-axioms.command": {
+        "sha256": "a89f8d3341fdaadf25924fe566c6e4d597a1a04b5926370eeb6ee0a45e7456e8",
         "bytes": 113
       },
-      "recovery-stage-005-post-audit-integrity.json": {
-        "sha256": "e337031019babdefda4f9deee085e21de0faed64d4e1a0114a68488f2f981b0a",
+      "recovery-stage-006-post-audit-integrity.json": {
+        "sha256": "329898aa72420a89602bbce06e55b727f29c82f3b7d804443ae90c0b91e9d94c",
         "bytes": 204
       }
     }
   },
-  "replay_audit_source_sha256": "e57a72b0056e3ec8a40e1b7aef5c2cabb34ae7d45eede8b19082484f681c9d5d",
+  "replay_audit_source_sha256": "fc0b01b52398358ff7f74b450cf6c7bf9638b4740ac379a8a1ea457898ea4bed",
   "reproduction_script": "verification/original-upstream-inverse/replay-current.py",
   "reproduction_script_sha256": "a089431ed065cfda6ebddad166a3cab8e09b2695f1ed5465d9f1ac4c52086afb",
   "full_target_proved": false,
   "actual_axis_oai_closure_modules": 2102,
-  "current_axis_selected_modules": 1281,
-  "current_axis_excluded_modules": 821,
+  "current_axis_selected_modules": 1365,
+  "current_axis_excluded_modules": 737,
   "limitations": [
-    "Current audit covers exactly 1281 modules; the remaining 93 source modules retain historical evidence and were not fresh audit targets.",
-    "Historical-only 93 modules retain the old certificate and are not selected current audit targets.",
+    "Current audit covers exactly 1365 modules; the remaining 67 source modules retain historical evidence and were not fresh audit targets.",
+    "Historical-only 67 modules retain the old certificate and are not selected current audit targets.",
     "The 41 other committed OAI modules are outside this composed inverse closure.",
     "Unique declaration counts and audit records differ; overlapping historical/current counts must not be added.",
-    "Round7 timed out with whole-command exit124; this is not a successful full AxisCompression build.",
+    "Round8 timed out with whole-command exit124; this is not a successful full AxisCompression build.",
     "Successful local build records and source-only Lake hashes do not independently prove exact source-to-binary correspondence; strict initial-option records do not rule out source-local overrides.",
     "No full AxisCompression endpoint, canonical integration, original StrongConjecture or award submission is established."
-  ]
+  ],
+  "fixed_upstream_commit_scope": "Default OpenAI source commit; the ExteriorPowerInnerProduct entry explicitly overrides repository and commit with its fixed official mathlib d13 provenance."
 }
