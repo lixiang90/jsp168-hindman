@@ -39,6 +39,16 @@ The drafts preserve the degree, norm normalization and pre-input finite-menu
 quantifiers. They contain no placeholder proofs, but they have not yet passed
 Lean compilation or axiom checks. They are outside the canonical build.
 
+The same prepared proof chain is now available as properly named library
+modules `OriginalNativeIntervalInverse`, `FinalStrongFromOpenAI`, and
+`JSP000168`. The current complete source-build target is:
+
+    lake build Hindman168.JSP000168
+
+These three modules are explicitly marked uncompiled. Their names alone do
+not establish a theorem. They must not be imported together with the WIP
+copies, which intentionally retain their earlier prepared declarations.
+
 The main theorem is still unproved in the verified repository. No publication
 or prize submission milestone is established by this prepared continuation.
 The original snapshot and current replay manifests are unchanged.

@@ -315,6 +315,7 @@ def main():
         require(all(module_path(module).is_file() for module in modules), 'Missing audit target source')
         output = repo_path(args.audit_output)
         require(output.suffix == '.lean' and output != Path(__file__).resolve()
+                and output.relative_to(ROOT).parts[0] not in {'.git', '.agents', '.codex', '.aws'}
                 and not output.is_relative_to(ROOT / 'dependencies')
                 and not output.is_relative_to(ROOT / 'Hindman168'), 'Unsafe audit output location')
         generated = audit_source(modules).encode('utf-8')
