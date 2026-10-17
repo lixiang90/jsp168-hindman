@@ -1,3 +1,10 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Changes: explicit WithTop smoothness-order proofs in four C2 bounds.
+The original mathematical statements and assumptions are retained.
+-/
 import Mathlib.MeasureTheory.Integral.Prod
 import OAI.Combinatorics.Progressions.Polynomial.SlicedPolynomialPerturbation
 
@@ -107,9 +114,9 @@ theorem coefficientArraySampler_mass_c2_error
       parameterPolynomialMap (jointBooleanPerturbedPolynomial h c sets r) t z := by
     exact coefficientArraySampler_polynomial h c sets terms weight exponent coefficientIndex inputIndex t z
   apply factoredDifference_c2_bounds _ _ (parameterPolynomialMap r 0 z) t
-    (by rw [hV]; exact (parameterPolynomialMap_contDiff _ _ _).of_le (by norm_num))
-    ((jointBooleanSampler_contDiff h c sets).of_le (by norm_num))
-    ((parameterPolynomialMap_contDiff r 0 z).of_le (by norm_num)) _ x hb.1 hb.2.1 hb.2.2
+    (by rw [hV]; exact (parameterPolynomialMap_contDiff _ _ _).of_le (by exact WithTop.coe_le_coe.mpr le_top))
+    ((jointBooleanSampler_contDiff h c sets).of_le (by exact WithTop.coe_le_coe.mpr le_top))
+    ((parameterPolynomialMap_contDiff r 0 z).of_le (by exact WithTop.coe_le_coe.mpr le_top)) _ x hb.1 hb.2.1 hb.2.2
   intro y
   funext o
   change jointBooleanSampler h c sets y o + t * normalizedCoefficientTailValue _ _ _ _ _ z y _ -
@@ -175,7 +182,7 @@ theorem coefficient_array_mass_comparison
     (fun d _ => scalarCubeProductBoundaryRadius_pos (B d × Fin (h d)) α (half_pos (hη d)))
     _ (fun d => (hκ d).1) Kinv Hderiv hK hH
     (coefficientArraySampler h c sets terms weight exponent coefficientIndex inputIndex t z)
-    (by rw [coefficientArraySampler_polynomial]; exact (parameterPolynomialMap_contDiff _ _ _).of_le (by norm_num))
+    (by rw [coefficientArraySampler_polynomial]; exact (parameterPolynomialMap_contDiff _ _ _).of_le (by exact WithTop.coe_le_coe.mpr le_top))
     (polynomialMassC2Budget_nonneg _ _ (booleanJetMassBudget_nonneg _ _ hWsum)) ht
     ?_ hsmall hsecond hmass φ hφ hbound
   intro x hx

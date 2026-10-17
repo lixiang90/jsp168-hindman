@@ -7,8 +7,8 @@
   "status": "prepared-source-closure-only; not compiled",
   "target": "OAI.Combinatorics.Progressions.Estimates.AxisCompression",
   "new_sources": 577,
-  "exact_sources": 397,
-  "compatibility_ports": 180,
+  "exact_sources": 396,
+  "compatibility_ports": 181,
   "fixed_upstream_blobs_recomputed": 577,
   "prepared_source_changes_since_manifests": [],
   "actual_axis_oai_closure_modules": 2102,
@@ -545,18 +545,40 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/RandomCoefficientMassComparison.lean",
       "upstream_blob": "7fcc904699d00be97e08c94576e1061e346bb39b",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Probability/RandomCoefficientMassComparison.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-pinned-API-compatibility",
+          "changes": [
+            "replace four failed smoothness-order norm_num proofs with explicit WithTop.coe_le_coe.mpr le_top"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume2-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/RandomCoefficientMassComparison.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "797a234fcfaa2fbd23b3c092eca5a2127a7c154ab70b9656b72e3fc582a9e9b2",
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
+        }
+      ],
       "upstream_blob_recomputed": "7fcc904699d00be97e08c94576e1061e346bb39b",
       "upstream_sha256": "26ef366f61aa001329d05dcd38f70fa906bf6495a03909e58310a78f8a00f655",
-      "ported_sha256": "26ef366f61aa001329d05dcd38f70fa906bf6495a03909e58310a78f8a00f655",
+      "ported_sha256": "797a234fcfaa2fbd23b3c092eca5a2127a7c154ab70b9656b72e3fc582a9e9b2",
       "raw_bytes": 16056,
-      "ported_bytes": 16056,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 16550,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Polynomial.SlicedPolynomialPerturbation"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Probability/RandomCoefficientMassComparison.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/RandomCoefficientMassComparison.lean\n@@ -1,3 +1,10 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: explicit WithTop smoothness-order proofs in four C2 bounds.\n+The original mathematical statements and assumptions are retained.\n+-/\n import Mathlib.MeasureTheory.Integral.Prod\n import OAI.Combinatorics.Progressions.Polynomial.SlicedPolynomialPerturbation\n \n@@ -107,9 +114,9 @@\n       parameterPolynomialMap (jointBooleanPerturbedPolynomial h c sets r) t z := by\n     exact coefficientArraySampler_polynomial h c sets terms weight exponent coefficientIndex inputIndex t z\n   apply factoredDifference_c2_bounds _ _ (parameterPolynomialMap r 0 z) t\n-    (by rw [hV]; exact (parameterPolynomialMap_contDiff _ _ _).of_le (by norm_num))\n-    ((jointBooleanSampler_contDiff h c sets).of_le (by norm_num))\n-    ((parameterPolynomialMap_contDiff r 0 z).of_le (by norm_num)) _ x hb.1 hb.2.1 hb.2.2\n+    (by rw [hV]; exact (parameterPolynomialMap_contDiff _ _ _).of_le (by exact WithTop.coe_le_coe.mpr le_top))\n+    ((jointBooleanSampler_contDiff h c sets).of_le (by exact WithTop.coe_le_coe.mpr le_top))\n+    ((parameterPolynomialMap_contDiff r 0 z).of_le (by exact WithTop.coe_le_coe.mpr le_top)) _ x hb.1 hb.2.1 hb.2.2\n   intro y\n   funext o\n   change jointBooleanSampler h c sets y o + t * normalizedCoefficientTailValue _ _ _ _ _ z y _ -\n@@ -175,7 +182,7 @@\n     (fun d _ => scalarCubeProductBoundaryRadius_pos (B d × Fin (h d)) α (half_pos (hη d)))\n     _ (fun d => (hκ d).1) Kinv Hderiv hK hH\n     (coefficientArraySampler h c sets terms weight exponent coefficientIndex inputIndex t z)\n-    (by rw [coefficientArraySampler_polynomial]; exact (parameterPolynomialMap_contDiff _ _ _).of_le (by norm_num))\n+    (by rw [coefficientArraySampler_polynomial]; exact (parameterPolynomialMap_contDiff _ _ _).of_le (by exact WithTop.coe_le_coe.mpr le_top))\n     (polynomialMassC2Budget_nonneg _ _ (booleanJetMassBudget_nonneg _ _ hWsum)) ht\n     ?_ hsmall hsecond hmass φ hφ hbound\n   intro x hx\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Estimates.ConstantJetPostprocessing",
@@ -737,13 +759,34 @@
           "from": "ite_eq_right",
           "to": "if_neg",
           "count": 2
+        },
+        {
+          "kind": "observed-pinned-API-compatibility",
+          "changes": [
+            "derive finite and sigma-finite instances explicitly from the existing Pi probability measure, satisfying the existing SFinite relabel hypothesis"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume2-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CoefficientDeckImageCongruence.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "e07ad5ae38ad509088825850f2679f2f2a19811536b4c9f1637106c39e1546c7",
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
         }
       ],
       "upstream_blob_recomputed": "330f79499a999b77b6db8fc53fb8e3bde1e8467b",
       "upstream_sha256": "fe1a30c04e0241335da8a64db1d4434274f17d6c9cf2c35fe964dcdc4e577f83",
-      "ported_sha256": "6491c4ab1e3f5e8146bbafadf1619f67e3b493f25ed65131ecabcfbd243216e0",
+      "ported_sha256": "e07ad5ae38ad509088825850f2679f2f2a19811536b4c9f1637106c39e1546c7",
       "raw_bytes": 25267,
-      "ported_bytes": 25592,
+      "ported_bytes": 25961,
       "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
@@ -752,7 +795,7 @@
         "OAI.Combinatorics.Progressions.Probability.CanonicalCoverLaw",
         "OAI.Combinatorics.Progressions.Probability.UniformImageLawCongruence"
       ],
-      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/CoefficientDeckImageCongruence.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CoefficientDeckImageCongruence.lean\n@@ -1,3 +1,10 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: ite_eq_right -> if_neg (2)\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Geometry.CoefficientDeckCoordinates\n import OAI.Combinatorics.Progressions.Geometry.CoefficientJetCoordinates\n import OAI.Combinatorics.Progressions.Probability.CanonicalCoverLaw\n@@ -28,8 +35,8 @@\n       simp only [he, ite_true, Finset.prod_const_one]\n     · have hn : ¬ ∀ t, f t (x t) = y t := fun he => h (funext he)\n       obtain ⟨t, ht⟩ := not_forall.mp hn\n-      rw [ite_eq_right h]\n-      exact (Finset.prod_eq_zero (Finset.mem_univ t) (ite_eq_right ht)).symm\n+      rw [if_neg h]\n+      exact (Finset.prod_eq_zero (Finset.mem_univ t) (if_neg ht)).symm\n   rw [hi]\n   simp only [PMF.uniformOfFintype_apply, ENNReal.toReal_inv, ENNReal.toReal_natCast,\n     Fintype.card_pi, Nat.cast_prod, ENNReal.toReal_prod, Finset.prod_inv_distrib,\n"
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/CoefficientDeckImageCongruence.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CoefficientDeckImageCongruence.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: ite_eq_right -> if_neg (2); explicitly derive finite and sigma-finite\n+measure instances from the existing product probability measure.\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Geometry.CoefficientDeckCoordinates\n import OAI.Combinatorics.Progressions.Geometry.CoefficientJetCoordinates\n import OAI.Combinatorics.Progressions.Probability.CanonicalCoverLaw\n@@ -28,8 +36,8 @@\n       simp only [he, ite_true, Finset.prod_const_one]\n     · have hn : ¬ ∀ t, f t (x t) = y t := fun he => h (funext he)\n       obtain ⟨t, ht⟩ := not_forall.mp hn\n-      rw [ite_eq_right h]\n-      exact (Finset.prod_eq_zero (Finset.mem_univ t) (ite_eq_right ht)).symm\n+      rw [if_neg h]\n+      exact (Finset.prod_eq_zero (Finset.mem_univ t) (if_neg ht)).symm\n   rw [hi]\n   simp only [PMF.uniformOfFintype_apply, ENNReal.toReal_inv, ENNReal.toReal_natCast,\n     Fintype.card_pi, Nat.cast_prod, ENNReal.toReal_prod, Finset.prod_inv_distrib,\n@@ -277,6 +285,10 @@\n     fun j => mixedScalarArrayLaw_probability _ _ (hw j) _\n   let : IsProbabilityMeasure (Measure.pi (fun j => mixedScalarArrayLaw (c j) (w j) (p j))) :=\n     Measure.pi.instIsProbabilityMeasure _\n+  let : IsFiniteMeasure (Measure.pi (fun j => mixedScalarArrayLaw (c j) (w j) (p j))) :=\n+    IsZeroOrProbabilityMeasure.toIsFiniteMeasure _\n+  let : SigmaFinite (Measure.pi (fun j => mixedScalarArrayLaw (c j) (w j) (p j))) :=\n+    IsFiniteMeasure.toSigmaFinite _\n   exact (canonicalCoefficientDeckSample_relabel (K := K) U bW b hb o d\n     (Measure.pi (fun j => mixedScalarArrayLaw (c j) (w j) (p j)))).trans\n       (canonicalCoefficientCoverLaw (K := K) U b hb o μ ν c w p hw hs d hd)\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Probability.CoefficientDeckDensityLawCongruence",

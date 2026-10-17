@@ -2,7 +2,8 @@
 Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
 Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
-Changes: ite_eq_right -> if_neg (2)
+Changes: ite_eq_right -> if_neg (2); explicitly derive finite and sigma-finite
+measure instances from the existing product probability measure.
 No mathematical statements or assumptions changed.
 -/
 import OAI.Combinatorics.Progressions.Geometry.CoefficientDeckCoordinates
@@ -284,6 +285,10 @@ theorem canonicalCoefficientDeckSample_law
     fun j => mixedScalarArrayLaw_probability _ _ (hw j) _
   let : IsProbabilityMeasure (Measure.pi (fun j => mixedScalarArrayLaw (c j) (w j) (p j))) :=
     Measure.pi.instIsProbabilityMeasure _
+  let : IsFiniteMeasure (Measure.pi (fun j => mixedScalarArrayLaw (c j) (w j) (p j))) :=
+    IsZeroOrProbabilityMeasure.toIsFiniteMeasure _
+  let : SigmaFinite (Measure.pi (fun j => mixedScalarArrayLaw (c j) (w j) (p j))) :=
+    IsFiniteMeasure.toSigmaFinite _
   exact (canonicalCoefficientDeckSample_relabel (K := K) U bW b hb o d
     (Measure.pi (fun j => mixedScalarArrayLaw (c j) (w j) (p j)))).trans
       (canonicalCoefficientCoverLaw (K := K) U b hb o μ ν c w p hw hs d hd)
