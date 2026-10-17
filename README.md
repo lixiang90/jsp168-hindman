@@ -1,12 +1,20 @@
 # JSP-000168 / Erdős #172 — Lean formalization
 
-**Verification checkpoint — 2026-10-17.** The complete explicit
-library target has built with actual exit 0. The endpoint type locks, full local
-declaration axiom audit and audit-log parser have also returned actual exit 0.
-**Fresh kernel replay, the whole final suite, and the final before/after artifact
-comparison remain PENDING.** This checkpoint does not announce a completed verified
-release, public repository or award submission. Evidence commit E1 and immutable
-public evidence links remain PENDING. The [dated checkpoint evidence](verification/original-final-target/checkpoint-2026-10-17/README.md) preserves the actual results available so far.
+**Final verification completed — 2026-10-17.** At proof commit
+`7ae70219fb4034899c6c2d23cc3b58ec6730a1ba`, the complete explicit target build,
+endpoint type locks, all-local-declaration axiom audit, complete audit-log parser,
+and fresh replay with the pinned Lean kernel returned actual exit **0**.
+The whole suite finished with actual exit **0** at `13:19:08.112199 UTC`, with
+source/tool/audit inputs, dependency and binary records, and all recorded
+artifacts unchanged across it. The scope and cache use are detailed below.
+The earlier [dated partial checkpoint](verification/original-final-target/checkpoint-2026-10-17/README.md)
+is retained as historical evidence; its copied running journal is not the final
+suite result. Complete original evidence is archived at
+[`8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31`](https://github.com/lixiang90/jsp168-hindman/commit/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31)
+(E1); the [archive index](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/archive-index.json) binds original and
+stored bytes, including compressed logs. Prize acceptance remains subject to
+maintainer review.
+
 
 This project continues a Lean formalization of **JSP-000168**, corresponding to
 [Erdős problem #172](https://www.erdosproblems.com/172). The mathematical source
@@ -79,8 +87,8 @@ The final source route is:
    conversion preserves positivity, exact cardinality and the one common color.
 
 These canonical source interfaces have compiled in the complete target build.
-The separate final verification procedure is only partially complete, as recorded
-below; successful component checks do not fill the pending kernel/suite fields.
+The selected final verification procedure has also completed successfully at P,
+with the exact commands, real exits and input stability recorded below.
 Preserved `work-in-progress/` copies can contain the same declaration names;
 they must not be imported together with the canonical modules.
 
@@ -90,7 +98,7 @@ The selected proof source is `7ae70219fb4034899c6c2d23cc3b58ec6730a1ba` (P). The
 `leanprover/lean4:v4.32.2`, Lean commit
 `f3b06c705e6c85f5314019d5d3baab0fec5b580c`; mathlib is pinned to
 `905b95818eb32af7874a58b427f50c1711a5e96c`. These are actual recorded checks
-at P, **not a final whole-suite success claim**.
+at P; **all three checks and the whole suite returned actual exit 0**.
 
 | Evidence | Actual result / pending boundary |
 | --- | --- |
@@ -104,11 +112,11 @@ at P, **not a final whole-suite success claim**.
 | Observed axiom names | Only `propext`, `Classical.choice`, `Quot.sound` occurred in the complete parsed audit; both final exports printed all three |
 | Selected Git raw-byte binding | Actual exit **0**: 5,066 proof sources + 9 repository input files + `.gitattributes` match selected Git blobs/worktree/manifest; no mismatches |
 | Static proof-input review | All 5,066 local sources scanned, **145** options classified; no primary or reduction-oracle findings; lexical review only |
-| Suite before-state | Sources/environment gates passed; 9 dependency HEADs match pins; **38,290** `.olean`/private/server artifact files recorded before checks |
-| Suite 03, fresh kernel replay | **PENDING** for `Hindman168.JSP000168`; no exit or final replay result inferred from runtime or stdout buffering |
-| Whole suite / final input comparison | **PENDING**: actual whole exit, finished UTC, source/environment after-state and artifact before/after equality |
-| Evidence commit E1 / public evidence URLs | **PENDING**; the planned public evidence archive has not been created or published at this checkpoint |
-| Repository publication / awards PR | **PENDING** |
+| Suite input/artifact stability | 5,076 source/tool/generated-audit inputs passed before and after; 9 dependency pin/status records and 12 toolchain binary hashes were equal; **38,290** artifact files had identical before/after inventories; changed list empty |
+| Suite 03, fresh kernel replay | Actual exit **0** for `Hindman168.JSP000168`, `12:06:11.549438Z` → `13:17:44.492924Z` |
+| Whole suite / final input comparison | Actual whole exit **0**, `12:02:14.759205Z` → `13:19:08.112199Z`; sources passed, environment records equal, all artifact inventories equal |
+| Evidence commit E1 / archived records | `8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31`; [complete suite result](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/suite/result.json), [archive index](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/archive-index.json) |
+| Prize review | Maintainer mathematical and Lean review, eligibility and award decisions remain separate from these verification results |
 
 The source inventory SHA256 is `dcf81b5e67766bba2d3bb3f3cc1455e75940a47301e1f79efa9171f96d003796`. The complete manifest SHA256 is `9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e`;
 the generated all-declaration audit source SHA256 is `eec469be1953dbcebd8ec20a8c5d4981c6427e999579764c287e4eae8e5e8783`. The inventory
@@ -134,7 +142,19 @@ SHA256 `4cb628013abad789dc2d6c8dafcf56f930efb871b96bde761c0e3a5d0e4d8158`;
 the actual parser summary SHA256 is
 `c0479b3d93d8386bd9c845bf702e2438afb4801e46e1acf010e9af9ff4628d5c`.
 
-The [dated checkpoint](verification/original-final-target/checkpoint-2026-10-17/README.md) contains the actual whole-build result, complete source snapshots, endpoint output, compressed full declaration log, parser summary, static review and raw Git binding. Its [index](verification/original-final-target/checkpoint-2026-10-17/checkpoint-index.json) records raw/stored hashes and paths. The suite journal there is a captured **running** snapshot. Final replay, after-state comparison and the final archive remain pending. Original result bytes and historical paths are preserved.
+The [complete evidence archive](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/README.md) preserves actual
+[build](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/build/result.json) and
+[suite](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/suite/result.json) results,
+[all-declaration output, gzip](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/suite/02.log.gz),
+[exact scope summary](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/suite/audit-summary.json),
+[fresh replay log, gzip](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/suite/03.log.gz), and
+[actual archival Python parser exit](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/parser-recheck-execution.json).
+Its [index](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/archive-index.json) records every original/stored
+SHA256 and byte length; decompress gzip files before comparing raw log hashes.
+Original result text and historical paths are preserved. The archive index SHA256
+is `1d8cfa3923c9856a93dba1da2050a18717eacdf4616b4bc342abbefeff5a4a06`.
+The earlier [partial checkpoint](verification/original-final-target/checkpoint-2026-10-17/README.md)
+retains its fixed running snapshot as history.
 
 The non-`module` audit includes public, private and internal kernel declaration
 records in every inventoried local module and checks transitive axiom dependencies,
@@ -157,14 +177,20 @@ empty checking environment, for safe, nonpartial constants from the target and
 imports. Unsafe and partial constants are skipped. It is not an independent
 kernel implementation or external mathematical peer review. `--fresh` does not
 mean rebuilding Lean, Mathlib or all sources without caches. Its actual final
-exit is still PENDING, as is the whole-suite source/artifact comparison.
+exit was 0; the complete suite's final source/environment/artifact comparison
+also passed. Both artifact-inventory JSON files have SHA256
+`5f483070dd08c8fe30c23d49e5e73082c5bb01854d8546b81b950c526988b976`.
+The final suite result SHA256 is
+`1f8c53c703152cdefe309bb6e3f628c07a675f53e4cd4e9207206b407a852d26`;
+03.log SHA256 is
+`840e8cb77047623025b36f38543444b66080076eac801b6670ae85dbedc612bd`.
 
 The successful whole build was an incremental `lake -v build
 Hindman168.JSP000168`, retaining earlier successful local artifacts and using
 pinned official dependency caches. It does not establish a cache-free rebuild
-of every dependency. The public suite does not run or replace that complete
-build; conversely, the successful complete build and audits above do not replace
-the still-pending third command and final suite binding.
+of every dependency. The committed suite does not run or replace that complete
+build. The separately recorded complete build and the final three-command suite
+are both successful at the selected proof/input checkpoint.
 
 ## Reproduce at the selected commit
 
@@ -198,6 +224,7 @@ Stop on any nonzero exit. The suite runs these three commands and records
 their actual exits, unmodified logs, and source/artifact/environment hashes:
 
 ```powershell
+$env:LEAN_NUM_THREADS = '1'
 lake env lean -j1 --trust=0 -DautoImplicit=false verification/original-final-target/CheckEndpoint.lean
 lake env lean -j1 --trust=0 -DautoImplicit=false verification-local/release-repro/CheckAllDeclarations.lean
 lake env leanchecker --fresh --verbose Hindman168.JSP000168
@@ -289,7 +316,6 @@ these mutable records before a submission. Related routes and claimed
 contributions require accurate source-level comparison. No first-proof,
 priority, award acceptance or payment guarantee is made.
 
-**Award submission: PENDING. Repository publication: PENDING.** Add actual
-public links and the final submission state only after those actions occur.
-Publication and a Lean check do not by themselves establish acceptance under
-the prize's review, attribution or award process.
+Award acceptance and any payment require the prize's separate review and claim
+process. This repository's completed Lean checks do not establish priority,
+eligibility, an accepted award or a payment entitlement.

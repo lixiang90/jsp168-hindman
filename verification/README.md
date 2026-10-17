@@ -1,11 +1,16 @@
-# Verification overview — current checkpoint
+# Verification overview — completed final target checks
 
-**Checkpoint, 2026-10-17; final validation remains incomplete.** The explicit final
-target has a real successful complete build, endpoint check and all-local-
-declaration axiom audit. Fresh kernel replay, the whole suite's real exit and
-its final before/after artifact comparison are still **PENDING**. No public
-archive, evidence commit E1, publication or award submission is asserted.
-The [dated checkpoint evidence](original-final-target/checkpoint-2026-10-17/README.md) preserves actual completed checks and a fixed running-suite snapshot.
+**Final verification completed, 2026-10-17.** The explicit final target's
+complete build, endpoint checks, all-local-declaration axiom audit, complete
+scope parser and fresh Lean-kernel replay have actual exit **0**. The whole
+suite also returned **0** after its source/environment/artifact after-checks.
+The [complete archived evidence](original-final-target/verified-2026-10-17/README.md)
+is committed at E1 `8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31`.
+Its [index](original-final-target/verified-2026-10-17/archive-index.json) maps
+original/stored SHA256 and bytes, including compressed logs. Prize review and
+acceptance are separate.
+The [dated partial checkpoint](original-final-target/checkpoint-2026-10-17/README.md)
+remains historical; its copied running-suite journal is not rewritten.
 
 ## Current final target and checked source scope
 
@@ -42,7 +47,7 @@ Generated audit SHA256:
 The 629 unique direct external imports and 2,174 crossing edges are recorded
 boundaries; their transitive sources are not recursively inventoried here.
 
-## Actual results so far
+## Recorded final results
 
 | Check | Recorded outcome |
 | --- | --- |
@@ -55,10 +60,10 @@ boundaries; their transitive sources are not recursively inventoried here.
 | Observed transitive axioms | Only **propext, Classical.choice, Quot.sound**; these are observed results, not merely the configured allowlist |
 | Raw Git bytes at selected commit | Actual **exit0**; 5,066 proof sources + 9 repository inputs + `.gitattributes` all match raw Git/worktree/manifest bytes |
 | Current lexical scan | All 5,066 sources; **145 options** classified, no primary or reduction-oracle findings; not a semantic proof |
-| Suite before-state | Source/environment gates passed, 9 dependency heads match pins, **38,290** olean/private/server files inventoried |
-| Suite 03: `leanchecker --fresh --verbose Hindman168.JSP000168` | **PENDING** real exit and complete log |
-| Whole final suite / final artifacts | **PENDING** whole exit, finished UTC, after-state and full before/after equality |
-| Public evidence archive / E1 / immutable evidence URLs | **PENDING** |
+| Suite input/artifact stability | 5,076 source/tool/audit checks passed before/after; 9 dependency records and 12 binary hashes equal; **38,290** artifact-file inventories identical; changed list empty |
+| Suite 03: `leanchecker --fresh --verbose Hindman168.JSP000168` | Actual **exit0**, `12:06:11.549438` → `13:17:44.492924` UTC |
+| Whole final suite / final artifacts | Actual **exit0**, suite `12:02:14.759205` → `13:19:08.112199` UTC; all final gates passed |
+| Complete evidence archive / E1 | `8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31`; [suite result](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/suite/result.json), [archive index](https://github.com/lixiang90/jsp168-hindman/blob/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/archive-index.json) |
 
 The actual endpoint log includes:
 
@@ -74,7 +79,15 @@ summary SHA256 is
 bound to actual 02.log SHA256
 `4cb628013abad789dc2d6c8dafcf56f930efb871b96bde761c0e3a5d0e4d8158`.
 
-The [dated checkpoint](original-final-target/checkpoint-2026-10-17/README.md) preserves actual build results, source/tool snapshots, endpoint output, the full declaration log, scope parser summary, lexical scan and raw Git binding. Its [index](original-final-target/checkpoint-2026-10-17/checkpoint-index.json) maps original/stored hashes and bytes. The copied suite journal is a fixed **running** snapshot, with no final replay/after-state result. Final archival evidence remains pending. Original result text and paths are not rewritten.
+The [complete final archive](original-final-target/verified-2026-10-17/README.md)
+preserves the actual [build](original-final-target/verified-2026-10-17/build/result.json)
+and [suite](original-final-target/verified-2026-10-17/suite/result.json) results,
+compressed complete logs and artifact inventories, source snapshots, parser
+summary and raw Git byte binding. The [archival parser execution](original-final-target/verified-2026-10-17/parser-recheck-execution.json)
+records another actual Python process exit 0; it does not stand in for a Lean run.
+The [index](original-final-target/verified-2026-10-17/archive-index.json) preserves
+raw/stored hashes and original paths. The earlier checkpoint remains a dated
+running snapshot and is superseded by these complete final results.
 
 ## What these checks cover
 
@@ -91,17 +104,25 @@ checking environment. It replays safe, nonpartial constants from the target and
 its imports, skipping unsafe/partial constants. It is not an independent kernel,
 external mathematical peer review, or a source rebuild of Lean/Mathlib. Empty or
 buffered stdout while the process runs does not determine its eventual result.
-No completion claim follows until the actual third exit and final suite gates.
+The actual third exit and all final suite gates have now succeeded. Both artifact
+inventory JSON files have SHA256
+`5f483070dd08c8fe30c23d49e5e73082c5bb01854d8546b81b950c526988b976`.
+The final result SHA256 is
+`1f8c53c703152cdefe309bb6e3f628c07a675f53e4cd4e9207206b407a852d26`;
+03.log SHA256 is
+`840e8cb77047623025b36f38543444b66080076eac801b6670ae85dbedc612bd`.
+The passing evidence is the real process exit and complete after-gates, rather
+than the 44-byte verbose stdout marker by itself.
 
 The successful build used incremental local artifacts and pinned official
 dependency caches. No clean/cache-free rebuild of all dependency sources is
-claimed. The public suite records three checks and current input stability;
+claimed. The committed suite records three checks and current input stability;
 it does not perform or replace the separately recorded complete target build.
 The static scanner's 145 options comprise 132 resource-limit settings, nine
 meta-level definitional-equality settings, three theorem aliases and one style
 linter. Its no-oracle/token finding is lexical and limited to local sources.
 
-Use the public [final-target scripts and instructions](original-final-target/README.md).
+Use the committed [final-target scripts and instructions](original-final-target/README.md).
 Choose new inventory/suite output directories, stop on any nonzero command,
 record cache use and real whole exits, and regenerate after any source/tool edit.
 Run from the repository root with the committed Lean 4.32.2/mathlib pins:
@@ -130,8 +151,8 @@ rewritten into final-target evidence.
 At the earlier checkpoint, `strongConjecture_of_native_inverse` was a conditional
 endpoint whose remaining input was the genuine higher-order native interval
 inverse family. Uniform selected Alignment was already unconditional. The new
-canonical assembly now supplies that family; its separate final replay remains
-pending. The conditional interface itself is still present and mathematically
+canonical assembly now supplies that family, and its selected final replay
+returned actual exit 0. The conditional interface itself is still present and mathematically
 useful. Its prediction interface fixes genuine native step-bounded linear-orbit
 models and positive bounds before the cyclic order, interval and bounded input;
 it is not weakened to an input-dependent or higher-step menu.
@@ -200,4 +221,4 @@ ownership. Preserve [PNT+ attribution](../PNTPLUS-ATTRIBUTION.txt),
 and [Mathlib backport license](../dependencies/openai-finite-szemeredi/LICENSE.mathlib-backport).
 No new blanket project license, verified personal identity, sole authorship,
 first-proof claim or award/payment conclusion is introduced by this index.
-Evidence publication and any awards PR remain PENDING.
+The prize's mathematical and Lean review, eligibility, priority and award decisions remain separate from these completed verification results.

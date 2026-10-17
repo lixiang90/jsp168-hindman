@@ -1,10 +1,26 @@
-# Final target verification — prepared, not executed
+# Final target verification — completed checks and reproduction
 
-The verification target is **`Hindman168.JSP000168`**. The old root module
-`Hindman168` does not import this final proof chain and cannot stand in for it.
-This directory prepares checks; it does not certify successful compilation,
-an unconditional proof, publication or an award submission. The original
-snapshot and upstream replay manifests remain unchanged.
+The final target is **`Hindman168.JSP000168`** at proof source
+`7ae70219fb4034899c6c2d23cc3b58ec6730a1ba`. The complete target build,
+endpoint exact-type checks, all-local-declaration axiom audit, scope parser and
+fresh Lean-kernel replay returned actual exit **0** on 2026-10-17. The whole
+suite finished at `13:19:08.112199 UTC`, with all source/environment checks
+passed and all 38,290 recorded proof artifacts unchanged.
+
+[Complete evidence](verified-2026-10-17/README.md) is committed at E1
+`8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31`. Its [index](verified-2026-10-17/archive-index.json)
+preserves raw/stored hashes and byte lengths; original results are not rewritten.
+The actual audit covered 5,066 local modules, 70,418 records and 70,306 unique
+names, with only `propext`, `Classical.choice` and `Quot.sound` observed.
+
+The old aggregate `Hindman168` does not import this final chain. Earlier prepared
+inventories and component reports below remain historical; the archived final
+manifest and results supersede them for P. The original snapshot/upstream replay
+manifests remain unchanged. Reproduction uses the pinned Lean 4.32.2/mathlib
+inputs; actual verification used incremental artifacts and official pinned
+caches. Fresh replay uses the same Lean kernel for safe, nonpartial constants,
+skipping unsafe/partial constants. It is not an independent kernel or a
+cache-free dependency rebuild, mathematical peer review or award decision.
 
 `CheckEndpoint.lean` imports the new target and checks the key declarations from
 `OriginalNativeIntervalInverseMenu`, `OriginalNativeIntervalInverse`,
@@ -81,14 +97,16 @@ After the actual dependency build is ready, run these separately using the
 repository's pinned toolchain and dependencies, and save each real exit status:
 
 ```powershell
+$env:LEAN_NUM_THREADS = '3'
 lake build Hindman168.JSP000168
+$env:LEAN_NUM_THREADS = '1'
 lake env lean -j1 --trust=0 -DautoImplicit=false verification/original-final-target/CheckEndpoint.lean
 lake env lean -j1 --trust=0 -DautoImplicit=false verification-local/final-target-metric-2026-10-17/CheckAllDeclarations.lean
 lake env leanchecker --fresh --verbose Hindman168.JSP000168
 ```
 
-The public suite and log parser below are **pending execution on the full
-target**. The suite records the three verification commands' real exits and
+The committed suite and log parser below have completed on the selected final
+target; see the archived actual results above. The suite records the three verification commands' real exits and
 compares source, artifact, dependency and toolchain-binary inputs before/after.
 It does not run or replace the complete `lake build Hindman168.JSP000168`;
 retain that build's actual successful exit separately before starting the suite.
@@ -112,9 +130,9 @@ its successful parse does not replace the suite's real exits or kernel replay.
 The parser is read-only unless a new report path is explicitly supplied.
 
 Axiom inspection of imported artifacts and a fresh kernel replay are distinct
-checks. The pinned Lean `leanchecker --fresh` replays the target and its imported
-constants into an empty environment using Lean's own kernel; it is not a separate
+checks. The pinned Lean `leanchecker --fresh` replays safe, nonpartial target/imported
+constants into a fresh checking environment (skipping unsafe/partial constants) using Lean's own kernel; it is not a separate
 kernel implementation. Pair that replay with a source rebuild and record source
 and artifact hashes before and after checking. Do not reuse this prepared
-inventory as evidence for a changed source checkpoint. No execution of the above
-Lean commands is claimed by this directory's initial contents.
+inventory as evidence for a changed source checkpoint. The original preparation records did not claim execution; the completed final
+results are linked at the top of this page.
