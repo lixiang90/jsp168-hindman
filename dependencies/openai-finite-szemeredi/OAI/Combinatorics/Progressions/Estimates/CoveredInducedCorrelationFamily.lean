@@ -3,6 +3,7 @@ Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/opena
 Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
 Changes: IsModuleTopology.isTopologicalAddGroup -> IsModuleTopology.topologicalAddGroup (14)
+Use a finite declaration-local heartbeat budget after a deterministic 200000-heartbeat timeout.
 No mathematical statements or assumptions changed.
 -/
 import OAI.Combinatorics.Progressions.Dynamics.InducedMarkedBudget
@@ -468,6 +469,7 @@ namespace Erdos3
 open Module NilpotentLieBCHGroup
 open scoped TensorProduct NNReal
 
+set_option maxHeartbeats 1000000 in
 theorem exists_native_induced_marked_model (s u : ℕ) (hs : 1 ≤ s) :
     ∃ C : ℕ, 2 ≤ C ∧ ∀ {I J L : Type*} [Fintype I]
       [LieRing L] [LieAlgebra ℚ L] {r t e n : ℕ}

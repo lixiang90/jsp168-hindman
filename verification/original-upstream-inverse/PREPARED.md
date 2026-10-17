@@ -35,7 +35,8 @@ The latest budget repairs to `UniformControlledCurrentStage`,
 `NativeCoordinateDerivativeSystem`, `NativeFormalPolynomialSystems`,
 `ExtractedInitialState`, `FastKernelReabsorptionControl`,
 `PositiveShiftRefilteredExpansion`, `UnnormalizedCommonSymbolFactorization`,
-`MarkedEvaluationJointBounds`, and `CommonMarkedDirectionCoordinates`
+`MarkedEvaluationJointBounds`, `CommonMarkedDirectionCoordinates`, and
+`CoveredInducedCorrelationFamily`
 add only finite declaration-local `maxHeartbeats 1000000` after actual
 default-budget timeouts. Their mathematical statements and existing proof
 bodies are unchanged by these budget adjustments.

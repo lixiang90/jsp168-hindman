@@ -55,6 +55,8 @@ LOCAL_HEARTBEAT_DECLARATIONS = {
         'exists_markedShiftQuotient_bounded_direction_data',
     'OAI.Combinatorics.Progressions.Geometry.CommonMarkedDirectionCoordinates':
         'exists_native_marked_common_direction_coordinates',
+    'OAI.Combinatorics.Progressions.Estimates.CoveredInducedCorrelationFamily':
+        'exists_native_induced_marked_model',
 }
 
 
