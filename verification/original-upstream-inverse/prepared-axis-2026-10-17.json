@@ -7,8 +7,8 @@
   "status": "prepared-source-closure-only; not compiled",
   "target": "OAI.Combinatorics.Progressions.Estimates.AxisCompression",
   "new_sources": 577,
-  "exact_sources": 395,
-  "compatibility_ports": 182,
+  "exact_sources": 394,
+  "compatibility_ports": 183,
   "fixed_upstream_blobs_recomputed": 577,
   "prepared_source_changes_since_manifests": [],
   "actual_axis_oai_closure_modules": 2102,
@@ -5311,13 +5311,36 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ExtractedInitialState.lean",
       "upstream_blob": "3cb6e6010496204a9e1cb1ac8c622575ef687648",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/ExtractedInitialState.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-finite-declaration-local-elaboration-budget",
+          "changes": [
+            "set_option maxHeartbeats 1000000 in applies only to exists_fastCoefficient_rational_removal_grid, following its actual pinned default-200000 whnf timeout; original statements and proof bodies preserved"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume4-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ExtractedInitialState.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "5deba24de81886b927c1713ad267e3f836ee5e509822840c54c141b07840d7ce",
+            "artifact_output": false,
+            "whole_target_compiled": false
+          },
+          "statement_and_proof_body_preserved": true
+        }
+      ],
       "upstream_blob_recomputed": "3cb6e6010496204a9e1cb1ac8c622575ef687648",
       "upstream_sha256": "2292e580ecc10e239b6a3202872566943fe267d2072c17c8d2684724da5532b6",
-      "ported_sha256": "2292e580ecc10e239b6a3202872566943fe267d2072c17c8d2684724da5532b6",
+      "ported_sha256": "5deba24de81886b927c1713ad267e3f836ee5e509822840c54c141b07840d7ce",
       "raw_bytes": 81350,
-      "ported_bytes": 81350,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 81862,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Dynamics.FastRemovalBudget",
@@ -5327,7 +5350,7 @@
         "OAI.Combinatorics.Progressions.Polynomial.GradedPolynomialSymbolInverse",
         "OAI.Combinatorics.Progressions.Polynomial.NativeFormalPolynomialSystems"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/ExtractedInitialState.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ExtractedInitialState.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Change: finite declaration-local maxHeartbeats 1000000 for\n+exists_fastCoefficient_rational_removal_grid after the pinned default-budget timeout.\n+The original mathematical statements, assumptions and proof bodies are retained.\n+-/\n import OAI.Combinatorics.Progressions.Dynamics.FastRemovalBudget\n import OAI.Combinatorics.Progressions.Dynamics.InitialRemovalBudget\n import OAI.Combinatorics.Progressions.Estimates.FullFastHorizontalNormalization\n@@ -13,6 +21,7 @@\n \n open Module\n \n+set_option maxHeartbeats 1000000 in\n theorem exists_fastCoefficient_rational_removal_grid (s : ℕ) :\n     ∃ C : ℕ, 2 ≤ C ∧\n     ∀ {σ ι κ L : Type*} [Fintype σ] [Fintype ι] [Fintype κ] [LieRing L] [LieAlgebra ℚ L]\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Linear.FastKernelReabsorptionControl",

@@ -43,11 +43,13 @@ LOCAL_HEARTBEAT_DECLARATIONS = {
         'exists_native_coordinate_derivative_system',
     'OAI.Combinatorics.Progressions.Polynomial.NativeFormalPolynomialSystems':
         'nativeFast_derivativeSystem_to_formal',
+    'OAI.Combinatorics.Progressions.Estimates.ExtractedInitialState':
+        'exists_fastCoefficient_rational_removal_grid',
 }
 
 
 def is_allowed_local_option(module, lines, index):
-    """Allow only the three recorded finite, declaration-local heartbeat ports."""
+    """Allow only the recorded finite, declaration-local heartbeat ports."""
     command = 'set_option maxHeartbeats 1000000 in'
     declaration = LOCAL_HEARTBEAT_DECLARATIONS.get(module)
     if not declaration or lines[index].strip() != command:

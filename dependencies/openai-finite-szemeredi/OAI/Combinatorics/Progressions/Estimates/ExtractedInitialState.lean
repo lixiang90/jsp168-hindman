@@ -1,3 +1,11 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Change: finite declaration-local maxHeartbeats 1000000 for
+exists_fastCoefficient_rational_removal_grid after the pinned default-budget timeout.
+The original mathematical statements, assumptions and proof bodies are retained.
+-/
 import OAI.Combinatorics.Progressions.Dynamics.FastRemovalBudget
 import OAI.Combinatorics.Progressions.Dynamics.InitialRemovalBudget
 import OAI.Combinatorics.Progressions.Estimates.FullFastHorizontalNormalization
@@ -13,6 +21,7 @@ namespace Erdos3.NilpotentLieFiltration
 
 open Module
 
+set_option maxHeartbeats 1000000 in
 theorem exists_fastCoefficient_rational_removal_grid (s : ℕ) :
     ∃ C : ℕ, 2 ≤ C ∧
     ∀ {σ ι κ L : Type*} [Fintype σ] [Fintype ι] [Fintype κ] [LieRing L] [LieAlgebra ℚ L]
