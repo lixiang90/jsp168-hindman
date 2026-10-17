@@ -1,0 +1,370 @@
+{
+  "schema": "jsp168-contribution-evidence-v1",
+  "recorded_utc": "2026-10-17T11:30:02.682320+00:00",
+  "scope": "Read-only local Git/provenance evidence for a future award PR. Not a final verification result, submission, priority, eligibility, sole-authorship or award determination.",
+  "selected_local_head": "c7d0f48df59e0e6d69256a3fb2798d828af8a999",
+  "selected_head_url": "https://github.com/lixiang90/jsp168-hindman/tree/c7d0f48df59e0e6d69256a3fb2798d828af8a999",
+  "worktree_tracked_clean_at_collection": true,
+  "git_shallow": false,
+  "local_root_commits": [
+    "eab19c470d9787ca6ad3f0d3bd279ffe6c2aaa0d"
+  ],
+  "retained_commit_count": 77,
+  "recorded_author_names": [
+    "lixiang90"
+  ],
+  "identity_evidence_limits": [
+    "Git author names are self-declared commit metadata; no email was printed/recorded and no GitHub author-to-account mapping or signature verification was performed.",
+    "The proposed submitting account is the already-known @lixiang90; repository ownership alone does not establish authorship.",
+    "The root commit is a preservation snapshot, not a recoverable history of every earlier local proof contribution.",
+    "This continuation was prepared with Codex assistance; Git metadata does not apportion individual human/model drafting or establish sole authorship.",
+    "Commit subjects containing Prove/Verify describe historical subjects and are not new evidence that the complete final proof passed.",
+    "Pinned local GitHub links are intended review references; this collection does not independently check their public accessibility."
+  ],
+  "openai_credit": {
+    "mathematical_credit": "OpenAI; no mathematical solver credit asserted for the local submitting account.",
+    "repository": "https://github.com/openai/math",
+    "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "paper": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/paper.pdf",
+    "lean_inverse": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/AxisCompression.lean",
+    "lean_recurrence": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/SumProduct/Alignment/WordPlan01.lean",
+    "local_recurrence_provenance": "verification/nilpotent-recurrence/SOURCE-PROVENANCE.json",
+    "license": "Apache-2.0; retained file notices and dependencies/openai-finite-szemeredi/LICENSE",
+    "scope": "Substantial upstream Lean proof/infrastructure is reused. Local adaptation/assembly does not transfer authorship of upstream mathematics or proofs."
+  },
+  "local_history_evidence": [
+    {
+      "commit": "eab19c470d9787ca6ad3f0d3bd279ffe6c2aaa0d",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-14T13:01:01+08:00",
+      "subject": "Preserve audited JSP-000168 formalization checkpoint",
+      "role": "Earliest retained/root snapshot of pre-existing local Hindman development; does not reconstruct pre-snapshot authorship.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/eab19c470d9787ca6ad3f0d3bd279ffe6c2aaa0d",
+      "paths": [
+        {
+          "path": "Hindman168/Basic.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/eab19c470d9787ca6ad3f0d3bd279ffe6c2aaa0d/Hindman168/Basic.lean"
+        },
+        {
+          "path": "Hindman168/StrongStatement.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/eab19c470d9787ca6ad3f0d3bd279ffe6c2aaa0d/Hindman168/StrongStatement.lean"
+        },
+        {
+          "path": "PNTPLUS-ATTRIBUTION.txt",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/eab19c470d9787ca6ad3f0d3bd279ffe6c2aaa0d/PNTPLUS-ATTRIBUTION.txt"
+        }
+      ]
+    },
+    {
+      "commit": "b33c29f88ed0770afc52dc3b5cf8695198e23b5d",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-14T20:49:24+08:00",
+      "subject": "Prove uniform selected Alignment and reduce StrongConjecture to native inverse",
+      "role": "Local uniform Alignment and reduction from the strong conclusion to the native inverse family.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/b33c29f88ed0770afc52dc3b5cf8695198e23b5d",
+      "paths": [
+        {
+          "path": "Hindman168/FinalUniformAlignment.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/b33c29f88ed0770afc52dc3b5cf8695198e23b5d/Hindman168/FinalUniformAlignment.lean"
+        },
+        {
+          "path": "Hindman168/FinalStrongFromNativeInverse.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/b33c29f88ed0770afc52dc3b5cf8695198e23b5d/Hindman168/FinalStrongFromNativeInverse.lean"
+        }
+      ]
+    },
+    {
+      "commit": "ebc9b7ce1de1930a0ba7bc6b1b08ee9e86d46aa4",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-14T18:04:44+08:00",
+      "subject": "Discharge actual nilpotent recurrence using pinned OpenAI PET proof",
+      "role": "Import/compatibility adaptation of the attributed OpenAI PET/recurrence slice; upstream proof is OpenAI work.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/ebc9b7ce1de1930a0ba7bc6b1b08ee9e86d46aa4",
+      "paths": [
+        {
+          "path": "Hindman168/UpstreamNilpotentRecurrence.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/ebc9b7ce1de1930a0ba7bc6b1b08ee9e86d46aa4/Hindman168/UpstreamNilpotentRecurrence.lean"
+        },
+        {
+          "path": "verification/nilpotent-recurrence/SOURCE-PROVENANCE.json",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/ebc9b7ce1de1930a0ba7bc6b1b08ee9e86d46aa4/verification/nilpotent-recurrence/SOURCE-PROVENANCE.json"
+        }
+      ]
+    },
+    {
+      "commit": "fe4645f9f9a5dcb50c87ef5e172ef488a5ebf78a",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-15T21:11:03+08:00",
+      "subject": "Verify exact original inverse interval normalization and cube transport",
+      "role": "Local exact original-inverse interval normalization/cube transport.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/fe4645f9f9a5dcb50c87ef5e172ef488a5ebf78a",
+      "paths": [
+        {
+          "path": "Hindman168/OriginalInverseNormalizationTransport.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/fe4645f9f9a5dcb50c87ef5e172ef488a5ebf78a/Hindman168/OriginalInverseNormalizationTransport.lean"
+        }
+      ]
+    },
+    {
+      "commit": "f8066f2e2f33f62bb3a9620086cda3720edb1a3f",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-15T21:38:24+08:00",
+      "subject": "Prove finite native model menu and same-step geometric linearization",
+      "role": "Local bounded rational-model finite menu and same-step native linearization, built on attributed upstream infrastructure.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/f8066f2e2f33f62bb3a9620086cda3720edb1a3f",
+      "paths": [
+        {
+          "path": "Hindman168/OriginalBoundedNativeModelsLinearMenu.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/f8066f2e2f33f62bb3a9620086cda3720edb1a3f/Hindman168/OriginalBoundedNativeModelsLinearMenu.lean"
+        },
+        {
+          "path": "Hindman168/OriginalSameStepLinearizationNative.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/f8066f2e2f33f62bb3a9620086cda3720edb1a3f/Hindman168/OriginalSameStepLinearizationNative.lean"
+        }
+      ]
+    },
+    {
+      "commit": "6b4fade4a9925964c37c234bc90469774996e659",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T07:14:05+08:00",
+      "subject": "Prepare original interval inverse adapter and 23 attributed upstream dependencies",
+      "role": "Local original-niltest to native periodic-interval menu adapter added; also restored 23 attributed upstream sources.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/6b4fade4a9925964c37c234bc90469774996e659",
+      "paths": [
+        {
+          "path": "Hindman168/OriginalNativeIntervalInverseMenu.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/6b4fade4a9925964c37c234bc90469774996e659/Hindman168/OriginalNativeIntervalInverseMenu.lean"
+        },
+        {
+          "path": "verification/original-upstream-inverse/prepared-frontier-2026-10-17.json",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/6b4fade4a9925964c37c234bc90469774996e659/verification/original-upstream-inverse/prepared-frontier-2026-10-17.json"
+        }
+      ]
+    },
+    {
+      "commit": "330ff5f68717349f77d76a0e9f2c42d543a29609",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T07:23:08+08:00",
+      "subject": "Restore complete fixed Axis source closure with replayable port provenance",
+      "role": "Restoration/provenance for the remaining fixed Axis closure sources; restored OpenAI proofs are not local mathematical discoveries.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/330ff5f68717349f77d76a0e9f2c42d543a29609",
+      "paths": [
+        {
+          "path": "verification/original-upstream-inverse/prepared-axis-2026-10-17.json",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/330ff5f68717349f77d76a0e9f2c42d543a29609/verification/original-upstream-inverse/prepared-axis-2026-10-17.json"
+        },
+        {
+          "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/AxisCompression.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/330ff5f68717349f77d76a0e9f2c42d543a29609/dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/AxisCompression.lean"
+        }
+      ]
+    },
+    {
+      "commit": "2bd0c12b2a6dbab3430bac4e2bbf622bc82892a9",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T07:27:19+08:00",
+      "subject": "Prepare canonical same-step inverse and explicit JSP000168 final build target",
+      "role": "Canonical final assembly: consume OpenAI cyclic inverse through local interval adapter; expose StrongConjecture and explicit JSP168 endpoint.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/2bd0c12b2a6dbab3430bac4e2bbf622bc82892a9",
+      "paths": [
+        {
+          "path": "Hindman168/OriginalNativeIntervalInverse.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/2bd0c12b2a6dbab3430bac4e2bbf622bc82892a9/Hindman168/OriginalNativeIntervalInverse.lean"
+        },
+        {
+          "path": "Hindman168/FinalStrongFromOpenAI.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/2bd0c12b2a6dbab3430bac4e2bbf622bc82892a9/Hindman168/FinalStrongFromOpenAI.lean"
+        },
+        {
+          "path": "Hindman168/JSP000168.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/2bd0c12b2a6dbab3430bac4e2bbf622bc82892a9/Hindman168/JSP000168.lean"
+        }
+      ]
+    },
+    {
+      "commit": "f6b1fcdbff2c9cd9e493af1f7c378bde61237eb8",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T09:19:20+08:00",
+      "subject": "Align inverse-menu observable with the chosen quotient metric",
+      "role": "Later local adapter correction makes the observable use the chosen quotient metric; updates the canonical endpoint modules and type-lock.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/f6b1fcdbff2c9cd9e493af1f7c378bde61237eb8",
+      "paths": [
+        {
+          "path": "Hindman168/OriginalNativeIntervalInverseMenu.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/f6b1fcdbff2c9cd9e493af1f7c378bde61237eb8/Hindman168/OriginalNativeIntervalInverseMenu.lean"
+        },
+        {
+          "path": "Hindman168/OriginalNativeIntervalInverse.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/f6b1fcdbff2c9cd9e493af1f7c378bde61237eb8/Hindman168/OriginalNativeIntervalInverse.lean"
+        },
+        {
+          "path": "verification/original-final-target/CheckEndpoint.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/f6b1fcdbff2c9cd9e493af1f7c378bde61237eb8/verification/original-final-target/CheckEndpoint.lean"
+        }
+      ]
+    },
+    {
+      "commit": "73435ab5d74c8833a0d89db677a70241b6e73e12",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T16:22:09+08:00",
+      "subject": "Port finite-sum bounds and explicit niltest metric equalities",
+      "role": "Representative local pinned-API compatibility edits to upstream proofs: finite-sum bounds, explicit metric/evaluation equalities. Upstream statements/results retain OpenAI attribution.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/73435ab5d74c8833a0d89db677a70241b6e73e12",
+      "paths": [
+        {
+          "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CommonNativeSquareFactors.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/73435ab5d74c8833a0d89db677a70241b6e73e12/dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CommonNativeSquareFactors.lean"
+        },
+        {
+          "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/UnitVerticalMeanRowCorrelation.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/73435ab5d74c8833a0d89db677a70241b6e73e12/dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/UnitVerticalMeanRowCorrelation.lean"
+        },
+        {
+          "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/ComparisonProductMetric.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/73435ab5d74c8833a0d89db677a70241b6e73e12/dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/ComparisonProductMetric.lean"
+        }
+      ]
+    },
+    {
+      "commit": "c12108d4c69113d544e769070d303d3bea8a03b2",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T16:54:46+08:00",
+      "subject": "Make existing Lie and product-topology instances explicit in dictionary recovery",
+      "role": "Representative instance-explicit compatibility port preserving the given Lie/topology data, not a new mathematical hypothesis.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/c12108d4c69113d544e769070d303d3bea8a03b2",
+      "paths": [
+        {
+          "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/AllocatedMarkedDictionaryRecovery.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/c12108d4c69113d544e769070d303d3bea8a03b2/dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/AllocatedMarkedDictionaryRecovery.lean"
+        }
+      ]
+    },
+    {
+      "commit": "26615fe623ef72092b4307532cab4c3027a574dd",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T17:25:44+08:00",
+      "subject": "Port empty shift seminorm and explicit none-factor models",
+      "role": "Representative defeq/dependent-rewrite ports and declaration-local finite elaboration budgets.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/26615fe623ef72092b4307532cab4c3027a574dd",
+      "paths": [
+        {
+          "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/BoundedRootDegreeEquivalence.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/26615fe623ef72092b4307532cab4c3027a574dd/dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/BoundedRootDegreeEquivalence.lean"
+        },
+        {
+          "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PositiveShiftTestingGowers.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/26615fe623ef72092b4307532cab4c3027a574dd/dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PositiveShiftTestingGowers.lean"
+        },
+        {
+          "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PrescribedPartitionExpansionCore.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/26615fe623ef72092b4307532cab4c3027a574dd/dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PrescribedPartitionExpansionCore.lean"
+        }
+      ]
+    },
+    {
+      "commit": "c7d0f48df59e0e6d69256a3fb2798d828af8a999",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T19:13:09+08:00",
+      "subject": "Set local budget for induced marked model proof",
+      "role": "Latest recorded local finite declaration budget after an observed pinned elaboration timeout; no theorem-body change.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/c7d0f48df59e0e6d69256a3fb2798d828af8a999",
+      "paths": [
+        {
+          "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CoveredInducedCorrelationFamily.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/c7d0f48df59e0e6d69256a3fb2798d828af8a999/dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CoveredInducedCorrelationFamily.lean"
+        },
+        {
+          "path": "verification/original-upstream-inverse/verify-prepared.py",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/c7d0f48df59e0e6d69256a3fb2798d828af8a999/verification/original-upstream-inverse/verify-prepared.py"
+        }
+      ]
+    },
+    {
+      "commit": "cccb360951db4f471b789a879cdbff2ef94b122f",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T07:33:28+08:00",
+      "subject": "Prepare exact endpoint statement checks and complete local declaration audit",
+      "role": "Local explicit endpoint type-lock and full local-module declaration-audit preparation. This is verification tooling, not proof of a successful target run.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/cccb360951db4f471b789a879cdbff2ef94b122f",
+      "paths": [
+        {
+          "path": "verification/original-final-target/CheckEndpoint.lean",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/cccb360951db4f471b789a879cdbff2ef94b122f/verification/original-final-target/CheckEndpoint.lean"
+        },
+        {
+          "path": "verification/original-final-target/prepare.py",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/cccb360951db4f471b789a879cdbff2ef94b122f/verification/original-final-target/prepare.py"
+        }
+      ]
+    },
+    {
+      "commit": "5eede9c849599cfef7478cd04529c00448f5c9fd",
+      "recorded_author_name": "lixiang90",
+      "recorded_author_date": "2026-10-17T10:59:18+08:00",
+      "subject": "Publish reproducible final verification and audit log tools",
+      "role": "Local reproducible final-suite and audit-log parser tools. Their presence is not a passing final result.",
+      "commit_url": "https://github.com/lixiang90/jsp168-hindman/commit/5eede9c849599cfef7478cd04529c00448f5c9fd",
+      "paths": [
+        {
+          "path": "verification/original-final-target/run-final-suite.py",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/5eede9c849599cfef7478cd04529c00448f5c9fd/verification/original-final-target/run-final-suite.py"
+        },
+        {
+          "path": "verification/original-final-target/summarize-audit.py",
+          "url": "https://github.com/lixiang90/jsp168-hindman/blob/5eede9c849599cfef7478cd04529c00448f5c9fd/verification/original-final-target/summarize-audit.py"
+        }
+      ]
+    }
+  ],
+  "restored_inverse_scope": {
+    "manifest": "verification/original-upstream-inverse/prepared-axis-2026-10-17.json",
+    "manifest_sha256": "bdc766358286301982e7dab130653f92060fe8a8457ca6a9a6369a752ccb2d82",
+    "fixed_upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "files": 577,
+    "exact_sources": 386,
+    "compatibility_ports": 191,
+    "axis_oai_closure_modules": 2102,
+    "all_577_current_source_hashes_match_manifest": true,
+    "source_hash_mismatches": [],
+    "scope_note": "386 exact/191 port counts concern only these 577 restored files, not every OAI file or every contribution. Full per-file upstream blobs/hashes and full_diff are retained in this manifest. This source comparison is not a Lean run."
+  },
+  "other_retained_credit": [
+    {
+      "party": "PrimeNumberTheoremAnd authors/contributors",
+      "repository": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "commit": "747e480362ef6a0a7341055a84372333d72fa62a",
+      "local_attribution": "PNTPLUS-ATTRIBUTION.txt",
+      "local_license": "LICENSE-PNTPLUS",
+      "scope": "Nine retained PNT+ modules and documented transformation; upstream analytic proofs are not claimed as local original results."
+    },
+    {
+      "party": "mathlib contributors; backported source headers name Justus Springer and Peter Pfaffelhuber",
+      "repository": "https://github.com/leanprover-community/mathlib4",
+      "backport_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "local_module": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Compatibility/ExteriorPowerInnerProduct.lean",
+      "local_provenance": "verification/original-upstream-inverse/current-replay.json",
+      "local_license": "dependencies/openai-finite-szemeredi/LICENSE.mathlib-backport",
+      "scope": "Retained ExteriorPower source and exact GramMatrix lemma, with original headers and license; not an OpenAI adc7 source or local original proof."
+    }
+  ],
+  "provenance_input_sha256": {
+    "openai-math-sync-2026-10-17.json": "1208d1a57ad66cac8ca15481ea36d8d5ddb7009921dc039ffc3d120165870b06",
+    "verification/original-upstream-inverse/prepared-axis-2026-10-17.json": "bdc766358286301982e7dab130653f92060fe8a8457ca6a9a6369a752ccb2d82",
+    "verification/original-upstream-inverse/current-replay.json": "efafa47961e5a896707bb284272602c0abcdd26bd7076835f1b2ea6dc107bd77",
+    "verification/nilpotent-recurrence/SOURCE-PROVENANCE.json": "6d21efd5270e8c5a51b1e9e73544d224c66a616b1245d86de3947dc6bb4ace85",
+    "PNTPLUS-ATTRIBUTION.txt": "9fc0b9412b1bd0d1fe669fd6a77ed235575c656a3d50002b57172e8722636b70",
+    "LICENSE-PNTPLUS": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "dependencies/openai-finite-szemeredi/LICENSE": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "dependencies/openai-finite-szemeredi/LICENSE.mathlib-backport": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  "recommended_credit_text": "Submitted by GitHub @lixiang90 for the Codex-assisted local continuation recorded in this repository: finite native-model/same-step linearization development, exact cyclic-to-interval adaptation, final theorem assembly, and pinned Lean/mathlib compatibility and reproducibility work. The mathematical proof and substantial upstream Lean infrastructure are credited to OpenAI. Existing PNT+, mathlib and imported-source notices/provenance are retained. The earliest local Git commit preserves an existing development; no sole-authorship or pre-snapshot priority conclusion is inferred from account ownership or commit metadata.",
+  "final_validation": "PENDING. Replace no field with a passing claim until the complete target build, endpoint type-lock, full declaration/axiom audit and fresh kernel replay have actual bound successful results.",
+  "actions": {
+    "proof_sources_modified": false,
+    "tracked_documents_modified": false,
+    "lean_or_lake_executed": false,
+    "github_write_or_publication": false,
+    "credential_access": false,
+    "public_github_author_api_queried": false
+  }
+}

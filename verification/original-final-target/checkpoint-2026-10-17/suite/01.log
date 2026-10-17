@@ -1,0 +1,156 @@
+@Hindman168.originalIntervalAdapter_lipschitz_star.{u_1} : ∀ {X : Type u_1} [inst : MetricSpace.{u_1} X]
+  (F :
+    @ContinuousMap.{u_1, 0} X Complex
+      (@UniformSpace.toTopologicalSpace.{u_1} X
+        (@PseudoMetricSpace.toUniformSpace.{u_1} X (@MetricSpace.toPseudoMetricSpace.{u_1} X inst)))
+      (@UniformSpace.toTopologicalSpace.{0} Complex
+        (@PseudoMetricSpace.toUniformSpace.{0} Complex
+          (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+            (@SeminormedCommRing.toSeminormedRing.{0} Complex
+              (@NormedCommRing.toSeminormedCommRing.{0} Complex
+                (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex)))))))
+  {K : NNReal},
+  @LipschitzWith.{u_1, 0} X Complex
+      (@EMetricSpace.toPseudoEMetricSpace.{u_1} X (@MetricSpace.toEMetricSpace.{u_1} X inst))
+      (@EMetricSpace.toPseudoEMetricSpace.{0} Complex
+        (@MetricSpace.toEMetricSpace.{0} Complex (@NormedField.toMetricSpace.{0} Complex Complex.instNormedField)))
+      K
+      (@DFunLike.coe.{u_1 + 1, u_1 + 1, 1}
+        (@ContinuousMap.{u_1, 0} X Complex
+          (@UniformSpace.toTopologicalSpace.{u_1} X
+            (@PseudoMetricSpace.toUniformSpace.{u_1} X (@MetricSpace.toPseudoMetricSpace.{u_1} X inst)))
+          (@UniformSpace.toTopologicalSpace.{0} Complex
+            (@PseudoMetricSpace.toUniformSpace.{0} Complex
+              (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+                (@SeminormedCommRing.toSeminormedRing.{0} Complex
+                  (@NormedCommRing.toSeminormedCommRing.{0} Complex
+                    (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex)))))))
+        X (fun x => Complex)
+        (@ContinuousMap.instFunLike.{u_1, 0} X Complex
+          (@UniformSpace.toTopologicalSpace.{u_1} X
+            (@PseudoMetricSpace.toUniformSpace.{u_1} X (@MetricSpace.toPseudoMetricSpace.{u_1} X inst)))
+          (@UniformSpace.toTopologicalSpace.{0} Complex
+            (@PseudoMetricSpace.toUniformSpace.{0} Complex
+              (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+                (@SeminormedCommRing.toSeminormedRing.{0} Complex
+                  (@NormedCommRing.toSeminormedCommRing.{0} Complex
+                    (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex)))))))
+        F) →
+    @LipschitzWith.{u_1, 0} X Complex
+      (@EMetricSpace.toPseudoEMetricSpace.{u_1} X (@MetricSpace.toEMetricSpace.{u_1} X inst))
+      (@EMetricSpace.toPseudoEMetricSpace.{0} Complex
+        (@MetricSpace.toEMetricSpace.{0} Complex (@NormedField.toMetricSpace.{0} Complex Complex.instNormedField)))
+      K
+      (@star.{u_1} (X → Complex)
+        (@Pi.instStarForall.{u_1, 0} X (fun a => Complex) fun i =>
+          @InvolutiveStar.toStar.{0} Complex
+            (@StarAddMonoid.toInvolutiveStar.{0} Complex
+              (@AddCommMonoid.toAddMonoid.{0} Complex
+                (@NonUnitalNonAssocSemiring.toAddCommMonoid.{0} Complex
+                  (@NonUnitalNonAssocRing.toNonUnitalNonAssocSemiring.{0} Complex
+                    (@NonUnitalNonAssocCommRing.toNonUnitalNonAssocRing.{0} Complex
+                      (@NonUnitalCommRing.toNonUnitalNonAssocCommRing.{0} Complex Complex.instNonUnitalCommRing)))))
+              (@StarRing.toStarAddMonoid.{0} Complex
+                (@NonUnitalNonAssocRing.toNonUnitalNonAssocSemiring.{0} Complex
+                  (@NonUnitalNonAssocCommRing.toNonUnitalNonAssocRing.{0} Complex
+                    (@NonUnitalCommRing.toNonUnitalNonAssocCommRing.{0} Complex Complex.instNonUnitalCommRing)))
+                Complex.instStarRing)))
+        (@DFunLike.coe.{u_1 + 1, u_1 + 1, 1}
+          (@ContinuousMap.{u_1, 0} X Complex
+            (@UniformSpace.toTopologicalSpace.{u_1} X
+              (@PseudoMetricSpace.toUniformSpace.{u_1} X (@MetricSpace.toPseudoMetricSpace.{u_1} X inst)))
+            (@UniformSpace.toTopologicalSpace.{0} Complex
+              (@PseudoMetricSpace.toUniformSpace.{0} Complex
+                (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+                  (@SeminormedCommRing.toSeminormedRing.{0} Complex
+                    (@NormedCommRing.toSeminormedCommRing.{0} Complex
+                      (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex)))))))
+          X (fun x => Complex)
+          (@ContinuousMap.instFunLike.{u_1, 0} X Complex
+            (@UniformSpace.toTopologicalSpace.{u_1} X
+              (@PseudoMetricSpace.toUniformSpace.{u_1} X (@MetricSpace.toPseudoMetricSpace.{u_1} X inst)))
+            (@UniformSpace.toTopologicalSpace.{0} Complex
+              (@PseudoMetricSpace.toUniformSpace.{0} Complex
+                (@SeminormedRing.toPseudoMetricSpace.{0} Complex
+                  (@SeminormedCommRing.toSeminormedRing.{0} Complex
+                    (@NormedCommRing.toSeminormedCommRing.{0} Complex
+                      (@CommCStarAlgebra.toNormedCommRing.{0} Complex instCommCStarAlgebraComplex)))))))
+          F))
+Hindman168.native_periodic_interval_inverse_of_original_niltests : ∀ (s d : Nat),
+  @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) s →
+    Hindman168.HasUniformOriginalIntervalNiltestInverse s d → Hindman168.HasNativePeriodicIntervalInverse.{0} s d
+Hindman168.original_interval_niltest_inverse_from_openai : ∀ (s : Nat),
+  @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) s →
+    Hindman168.HasUniformOriginalIntervalNiltestInverse s
+      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) s
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+Hindman168.native_periodic_interval_inverse_from_openai : ∀ (s : Nat),
+  @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) s →
+    Hindman168.HasNativePeriodicIntervalInverse.{0} s
+      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) s
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+Hindman168.native_periodic_interval_inverse_family_from_openai : ∀ (t : Nat),
+  @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) t →
+    Hindman168.HasNativePeriodicIntervalInverse.{0}
+      (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) t
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+      t
+Hindman168.strongConjecture_from_openai : Hindman168.StrongConjecture
+Hindman168.jsp000168_from_openai : ∀ (r : Nat) (χ : Nat → Fin r) (m : Nat),
+  ∃ A c,
+    And (@Eq.{1} Nat (@Finset.card.{0} Nat A) m)
+      (And
+        (∀ (a : Nat),
+          @Membership.mem.{0, 0} Nat (Finset.{0} Nat)
+              (@SetLike.instMembership.{0, 0} (Finset.{0} Nat) Nat (@Finset.instSetLike.{0} Nat)) A a →
+            @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) a)
+        (∀ (B : Finset.{0} Nat),
+          @LE.le.{0} (Finset.{0} Nat)
+              (@Preorder.toLE.{0} (Finset.{0} Nat)
+                (@PartialOrder.toPreorder.{0} (Finset.{0} Nat) (@Finset.instPartialOrder.{0} Nat)))
+              B A →
+            @Finset.Nonempty.{0} Nat B → And (@Eq.{1} (Fin r) (χ (∑ b ∈ B, b)) c) (@Eq.{1} (Fin r) (χ (∏ b ∈ B, b)) c)))
+'Hindman168.originalIntervalAdapter_lipschitz_star' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Hindman168.native_periodic_interval_inverse_of_original_niltests' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'Hindman168.original_interval_niltest_inverse_from_openai' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'Hindman168.native_periodic_interval_inverse_from_openai' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'Hindman168.native_periodic_interval_inverse_family_from_openai' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+'Hindman168.strongConjecture_from_openai' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Hindman168.jsp000168_from_openai' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+def Hindman168.StrongConjecture : Prop :=
+∀ (r : Nat) (color : Nat → Fin r) (m : Nat) (R D : Real),
+  @LE.le.{0} Real Real.instLE
+      (@OfNat.ofNat.{0} Real (nat_lit 2)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast Hindman168.StrongConjecture._proof_1))
+      R →
+    @LE.le.{0} Real Real.instLE (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) D →
+      @Hindman168.StrongWitness r m color R D
+def Hindman168.StrongWitness : {r : Nat} → {m : Nat} → (Nat → Fin r) → Real → Real → Prop :=
+fun {r m} color R D =>
+  ∃ a,
+    And
+      (@StrictMono.{0, 0} (Fin m) Nat (@PartialOrder.toPreorder.{0} (Fin m) (@Fin.instPartialOrder m)) Nat.instPreorder
+        a)
+      (And (∀ (i : Fin m), @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) (a i))
+        (And
+          (∀ (i : Fin m),
+            @LT.lt.{0} Real Real.instLT
+              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) R
+                (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                    (∑ j with @LT.lt.{0} (Fin m) (@instLTFin m) j i, @Nat.cast.{0} Real Real.instNatCast (a j))
+                    (∏ j with @LT.lt.{0} (Fin m) (@instLTFin m) j i, @Nat.cast.{0} Real Real.instNatCast (a j)))
+                  D))
+              (@Nat.cast.{0} Real Real.instNatCast (a i)))
+          (∃ c,
+            ∀ (S : Finset.{0} (Fin m)),
+              @Finset.Nonempty.{0} (Fin m) S →
+                And (@Eq.{1} (Fin r) (color (∑ i ∈ S, a i)) c) (@Eq.{1} (Fin r) (color (∏ i ∈ S, a i)) c))))

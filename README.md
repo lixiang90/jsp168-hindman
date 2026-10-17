@@ -1,96 +1,295 @@
-# JSP-000168 — ongoing Lean formalization
+# JSP-000168 / Erdős #172 — Lean formalization
 
-Private working repository for continuing the formalization while travelling.
-JSP-000168 corresponds to **Erdős problem #172**, not Erdős #168.
+**Verification checkpoint — 2026-10-17.** The complete explicit
+library target has built with actual exit 0. The endpoint type locks, full local
+declaration axiom audit and audit-log parser have also returned actual exit 0.
+**Fresh kernel replay, the whole final suite, and the final before/after artifact
+comparison remain PENDING.** This checkpoint does not announce a completed verified
+release, public repository or award submission. Evidence commit E1 and immutable
+public evidence links remain PENDING. The [dated checkpoint evidence](verification/original-final-target/checkpoint-2026-10-17/README.md) preserves the actual results available so far.
 
-**The full target `Hindman168.StrongConjecture` is not proved.**
-The repository contains substantial checked partial results following the
-OpenAI paper, together with author-side build, source and axiom audits.
-These checks are not an independent kernel replay or external peer review.
-No prize application has been submitted. Keep this repository private until
-the owner decides to publish it for the eventual application.
+This project continues a Lean formalization of **JSP-000168**, corresponding to
+[Erdős problem #172](https://www.erdosproblems.com/172). The mathematical source
+is OpenAI, [*Monochromatic finite sums and products in the positive integers*,
+Theorem 1.1](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/paper.pdf),
+September 23, 2026, pinned to OpenAI/math commit
+`adc7f1241b42e322a6451854ab7e4b4c146bf78a`.
+OpenAI receives mathematical solver credit and credit for its upstream formal
+proof infrastructure. Local compatibility ports, existing local formalization,
+the same-step interval adapter, and final assembly retain their own recorded
+provenance. This is an AI-assisted continuation under GitHub account
+[@lixiang90](https://github.com/lixiang90); the selected public history must
+support every claimed contribution.
 
-## Resume on another machine
+## Statement and entry points
 
-Install Git, Python 3, and Lean's `elan` toolchain manager, then:
+The final library target is **`Hindman168.JSP000168`**. The old aggregate
+`Hindman168` does not import this final chain, and its default build is not a
+substitute for building the explicit target.
 
-```sh
+The source declaration [`Hindman168.jsp000168_from_openai`](Hindman168/JSP000168.lean)
+has the explicit statement:
+
+```lean
+∀ (r : ℕ) (χ : ℕ → Fin r) (m : ℕ),
+  ∃ (A : Finset ℕ) (c : Fin r),
+    A.card = m ∧ (∀ a ∈ A, 0 < a) ∧
+      ∀ B : Finset ℕ, B ⊆ A → B.Nonempty →
+        χ (∑ b ∈ B, b) = c ∧ χ (∏ b ∈ B, b) = c
+```
+
+For every finite coloring and every requested finite size, `A` has exactly
+that many distinct positive elements. A single color works for all nonempty
+subset sums and products, including singleton subsets. Each member is used
+once in a subset expression. The assertion ranges over arbitrary finite sizes;
+it supplies no single infinite simultaneous FS/FP sequence. The coloring is
+defined on natural numbers, and positive-integer colorings extend at zero.
+Positivity of the witness excludes zero from every nonempty sum and product.
+The `r = 0` coloring case is vacuous and `m = 0` permits the empty witness.
+
+The stronger source declaration
+[`Hindman168.strongConjecture_from_openai`](Hindman168/FinalStrongFromOpenAI.lean)
+exposes the paper's full separated conclusion. For every `r`, coloring, `m`,
+and **real** `R ≥ 2`, `D ≥ 1`, it produces a strictly increasing positive
+sequence `a : Fin m → ℕ` such that, at every index `i`,
+
+```text
+R * (sum of a j for j < i + product of a j for j < i)^D < a i
+```
+
+where the inequality, sum, product and real power are evaluated in `ℝ`.
+The empty preceding sum is zero and product is one, so the first inequality
+is `R < a 0`. One color also covers all nonempty indexed subset sums and
+products. See the exact definitions in
+[`StrongStatement.lean`](Hindman168/StrongStatement.lean).
+
+The final source route is:
+
+1. OpenAI's fixed `exists_native_inverse_on_cyclic_encoding` in
+   [`AxisCompression.lean`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/AxisCompression.lean).
+2. [`OriginalNativeIntervalInverseMenu`](Hindman168/OriginalNativeIntervalInverseMenu.lean)
+   and [`OriginalNativeIntervalInverse`](Hindman168/OriginalNativeIntervalInverse.lean):
+   same-step interval adaptation, finite native model selection, and
+   `native_periodic_interval_inverse_family_from_openai` at order `t ≥ 2`
+   and step `t - 1`. Bounds and finite menus are selected before period,
+   interval length and bounded input.
+3. [`FinalStrongFromOpenAI`](Hindman168/FinalStrongFromOpenAI.lean): the existing
+   local deduction receives that inverse family and exports the strong target.
+4. [`JSP000168`](Hindman168/JSP000168.lean): the existing indexed-to-finite-set
+   conversion preserves positivity, exact cardinality and the one common color.
+
+These canonical source interfaces have compiled in the complete target build.
+The separate final verification procedure is only partially complete, as recorded
+below; successful component checks do not fill the pending kernel/suite fields.
+Preserved `work-in-progress/` copies can contain the same declaration names;
+they must not be imported together with the canonical modules.
+
+## Selected version and actual verification
+
+The selected proof source is `7ae70219fb4034899c6c2d23cc3b58ec6730a1ba` (P). The committed toolchain is
+`leanprover/lean4:v4.32.2`, Lean commit
+`f3b06c705e6c85f5314019d5d3baab0fec5b580c`; mathlib is pinned to
+`905b95818eb32af7874a58b427f50c1711a5e96c`. These are actual recorded checks
+at P, **not a final whole-suite success claim**.
+
+| Evidence | Actual result / pending boundary |
+| --- | --- |
+| Proof commit P | `7ae70219fb4034899c6c2d23cc3b58ec6730a1ba` |
+| Complete explicit target build | Actual Lake exit **0**, bound wrapper exit **0**, **13,720 jobs**; incremental artifacts and pinned official dependency caches were used |
+| Build UTC interval | `2026-10-17T11:44:05.740710Z` → `11:58:57.370689Z`; source binding finished `11:59:18.230742Z` |
+| Build source/tool binding | Before and after complete JSON snapshots equal byte-for-byte, each SHA256 `9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e` |
+| Endpoint type locks, suite 01 | Actual exit **0**, `12:03:58.156654Z` → `12:04:57.279741Z`; finite, expanded strong and inverse-family locks compiled; seven key exports inspected |
+| All local declarations, suite 02 | Actual exit **0**, `12:04:57.281503Z` → `12:06:11.547739Z`; **5,066 modules**, **70,418 records**, **70,306 unique declaration names** |
+| Complete audit-log parser | Actual process exit **0**, summary `passed=true`; exact 5,066 module footers, no missing/extra modules or errors, 95 names shared across modules |
+| Observed axiom names | Only `propext`, `Classical.choice`, `Quot.sound` occurred in the complete parsed audit; both final exports printed all three |
+| Selected Git raw-byte binding | Actual exit **0**: 5,066 proof sources + 9 repository input files + `.gitattributes` match selected Git blobs/worktree/manifest; no mismatches |
+| Static proof-input review | All 5,066 local sources scanned, **145** options classified; no primary or reduction-oracle findings; lexical review only |
+| Suite before-state | Sources/environment gates passed; 9 dependency HEADs match pins; **38,290** `.olean`/private/server artifact files recorded before checks |
+| Suite 03, fresh kernel replay | **PENDING** for `Hindman168.JSP000168`; no exit or final replay result inferred from runtime or stdout buffering |
+| Whole suite / final input comparison | **PENDING**: actual whole exit, finished UTC, source/environment after-state and artifact before/after equality |
+| Evidence commit E1 / public evidence URLs | **PENDING**; the planned public evidence archive has not been created or published at this checkpoint |
+| Repository publication / awards PR | **PENDING** |
+
+The source inventory SHA256 is `dcf81b5e67766bba2d3bb3f3cc1455e75940a47301e1f79efa9171f96d003796`. The complete manifest SHA256 is `9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e`;
+the generated all-declaration audit source SHA256 is `eec469be1953dbcebd8ec20a8c5d4981c6427e999579764c287e4eae8e5e8783`. The inventory
+contains **2,914 `Hindman168`**, **2,143 `OAI`**, and **9 `PrimeNumberTheoremAnd`**
+modules, plus hashes of **9 repository configuration/verification input files**.
+Those nine input files are not nine additional proof modules.
+
+[`CheckEndpoint.lean`](verification/original-final-target/CheckEndpoint.lean)
+uses `endpointProposition (@theorem)` and `rfl` to compare every binder in the
+explicit finite, expanded strong and universe-0 inverse-family statements.
+The actual final-export axiom output from suite 01 was:
+
+```text
+'Hindman168.strongConjecture_from_openai' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'Hindman168.jsp000168_from_openai' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+```
+
+The audit's observed counts were 58,052 records using `Classical.choice`,
+62,957 using `Quot.sound`, and 67,414 using `propext`. Individual declarations
+may use a subset. The shared names and historical audit totals must not be
+added as disjoint declaration counts. The parser binds its complete log to
+SHA256 `4cb628013abad789dc2d6c8dafcf56f930efb871b96bde761c0e3a5d0e4d8158`;
+the actual parser summary SHA256 is
+`c0479b3d93d8386bd9c845bf702e2438afb4801e46e1acf010e9af9ff4628d5c`.
+
+The [dated checkpoint](verification/original-final-target/checkpoint-2026-10-17/README.md) contains the actual whole-build result, complete source snapshots, endpoint output, compressed full declaration log, parser summary, static review and raw Git binding. Its [index](verification/original-final-target/checkpoint-2026-10-17/checkpoint-index.json) records raw/stored hashes and paths. The suite journal there is a captured **running** snapshot. Final replay, after-state comparison and the final archive remain pending. Original result bytes and historical paths are preserved.
+
+The non-`module` audit includes public, private and internal kernel declaration
+records in every inventoried local module and checks transitive axiom dependencies,
+including those reached through external imports. It does not individually list
+unused declarations in external boundary modules. There are 629 unique direct
+external import boundaries, not a recursively inventoried external source closure.
+The 2,102-module Axis closure and its restored 577-source batch (386 exact upstream
+copies / 191 compatibility ports) are narrower scopes; they do not replace the
+5,066-module final audit.
+
+The static scanner found no `sorry`/`admit`/`axiom`/`native_decide`/`unsafe`/
+`extern`/`implemented_by`/`opaque` occurrences in its comment/string-stripped
+local scope and no supplemental reduction-oracle findings. It classified 132
+resource-limit options, 9 meta-level definitional-equality strategy options,
+3 theorem-command aliases and 1 style-linter option. This is a finite lexical
+review, not a semantic proof or a replacement for kernel checking.
+
+`leanchecker --fresh` uses **the same pinned Lean kernel**, with an initially
+empty checking environment, for safe, nonpartial constants from the target and
+imports. Unsafe and partial constants are skipped. It is not an independent
+kernel implementation or external mathematical peer review. `--fresh` does not
+mean rebuilding Lean, Mathlib or all sources without caches. Its actual final
+exit is still PENDING, as is the whole-suite source/artifact comparison.
+
+The successful whole build was an incremental `lake -v build
+Hindman168.JSP000168`, retaining earlier successful local artifacts and using
+pinned official dependency caches. It does not establish a cache-free rebuild
+of every dependency. The public suite does not run or replace that complete
+build; conversely, the successful complete build and audits above do not replace
+the still-pending third command and final suite binding.
+
+## Reproduce at the selected commit
+
+Install Git, Python 3, and Lean's `elan` toolchain manager. The committed
+`lean-toolchain` pins `leanprover/lean4:v4.32.2`; mathlib is pinned to
+`905b95818eb32af7874a58b427f50c1711a5e96c`. Keep the complete committed
+`lake-manifest.json`; do not run `lake update` as routine setup.
+The commands below are the **prepared workflow**, not evidence of an executed
+successful reproduction. Choose fresh output directories on repeated runs.
+
+```powershell
 git clone https://github.com/lixiang90/jsp168-hindman.git
 cd jsp168-hindman
-python scripts/verify_snapshot.py
+git checkout --detach 7ae70219fb4034899c6c2d23cc3b58ec6730a1ba
 lake exe cache get
-lake build
-lake env lean Verification.lean
+$env:LEAN_NUM_THREADS = '3'
+
+# Generate an inventory and all-declaration audit without executing Lean.
+python verification/original-final-target/prepare.py --output-dir verification-local/release-repro
+python verification/original-final-target/static-source-scan.py --manifest verification-local/release-repro/source-closure.json
+
+# Record the complete build's actual exit and full log separately.
+lake build Hindman168.JSP000168
+
+# Proceed only after that complete build exits 0.
+python verification/original-final-target/run-final-suite.py verification-local/release-repro/source-closure.json release-suite-repro
+python verification/original-final-target/summarize-audit.py verification-local/release-repro/source-closure.json verification-local/release-suite-repro/02.log --output verification-local/release-suite-repro/audit-summary.json
 ```
 
-The clone requires access to this private repository. `lean-toolchain` pins
-Lean 4.32.2. `lakefile.toml` pins mathlib to
-`905b95818eb32af7874a58b427f50c1711a5e96c`.
-Lake fetches dependencies from the committed lockfile. Avoid `lake update`
-during routine setup; review any proposed change to `lake-manifest.json`
-before committing it. Do not upgrade Lean or mathlib as part of setup.
-The included PNTPlus and attributed OpenAI finite-Szemerédi source modules
-are already in this repository. `.lake` build caches are not uploaded.
+Stop on any nonzero exit. The suite runs these three commands and records
+their actual exits, unmodified logs, and source/artifact/environment hashes:
 
-To run the build and axiom check together and save fresh local evidence:
-
-```sh
-python scripts/verify_snapshot.py --build
+```powershell
+lake env lean -j1 --trust=0 -DautoImplicit=false verification/original-final-target/CheckEndpoint.lean
+lake env lean -j1 --trust=0 -DautoImplicit=false verification-local/release-repro/CheckAllDeclarations.lean
+lake env leanchecker --fresh --verbose Hindman168.JSP000168
 ```
 
-This first checks the exact source hashes in `verification-manifest.json`,
-then builds and checks the registered declarations' axiom dependencies.
-Fresh logs go in the ignored `verification-local/` directory. A successful
-run verifies this checkpoint; it does not prove the unfinished main theorem.
+The suite output directory is `verification-local/release-suite-repro`.
+The parser independently requires every manifest module, declaration record
+counts, unique-name counts, a complete footer and only allowed axioms.
+Use the parser result together with all three actual suite exits, the separate
+complete build exit, and unchanged selected inputs. Record cache usage and
+which dependency sources or artifacts were rebuilt. Regenerate the inventory
+after any proof or verification-tool change; do not reuse a previous passing
+report for changed bytes. See the detailed
+[final-target verification instructions](verification/original-final-target/README.md).
+The preserved original `verification-manifest.json` and `scripts/verify_snapshot.py`
+describe an earlier snapshot; they are useful historical checks and do not
+cover the new endpoint by themselves.
 
-## Current status
+## Historical checkpoints and preserved records
 
-The original `StrongConjecture` remains unfinished. Uniform Alignment, the
-finite native model family, and same-step linearization are proved. The full
-upstream Axis inverse closure is being compiled and checked before final assembly.
-See [the current verification overview](verification/README.md) for the single
-current status index and exact validation boundaries.
+The original [`verification-manifest.json`](verification-manifest.json) records
+3,059 historical entries. [`scripts/verify_snapshot.py`](scripts/verify_snapshot.py),
+[`Hindman168.lean`](Hindman168.lean), and [`Verification.lean`](Verification.lean)
+retain that earlier snapshot/default aggregate scope; they do not import the new
+final endpoint. Use the explicit target and current inventory for final checks.
+Historical partial and conditional results remain useful, with their own dated
+assumptions and validation boundaries. The preserved [historical upstream audit](verification/original-upstream-inverse/README.md)
+records a 1,525-module coverage union and a 1,469-module recovery audit with
+30,068 unique declarations / 30,091 records; 56 modules retained earlier evidence.
+Those overlapping totals are historical and must not be added to the new audit.
+The conditional `strongConjecture_of_native_inverse` remains an interface;
+the new canonical source assembly supplies its inverse-family input.
 
-`Hindman168.lean` and `Verification.lean` are the canonical project and axiom
-entry points. The original snapshot manifest is preserved unchanged.
+Original mathematical reviews and attribution records are retained. The removed
+3,963 superseded generated logs/results/manifests remain available at the
+[pre-cleanup commit](https://github.com/lixiang90/jsp168-hindman/tree/5dc91a1deaf73720b421f672009565e18f4e6dfa).
+The 467 removed superseded axiom logs (300,418,280 bytes), and the old scripts'
+predecessor paths/hashes, refer to the
+[earlier pre-cleanup snapshot](https://github.com/lixiang90/jsp168-hindman/tree/e5e45b1e1227a8df34ee95eadd4b8d87b4811c74).
+Restore an old report with `git show COMMIT:PATH` in a separate matching checkout
+when replaying that historical checkpoint. Some old scripts need original Windows
+paths or predecessor reports. A root README update does not revalidate them.
+See the [verification index](verification/README.md) for retained component links.
+`work-in-progress/` and scratch files are continuity material and are not all
+canonical imports; duplicate declaration copies must not be imported together.
 
-## Audit records and provenance
+## Credit, provenance and award process
 
-Original baseline build/audit records and mathematical reviews are retained.
-The current verification overview above distinguishes those records from the
-new focused source and kernel checks.
+The original mathematical solution is credited to OpenAI. Substantial upstream
+OpenAI Lean infrastructure is reused with attribution, exact source provenance
+and recorded compatibility diffs. The earlier finite-Szemerédi dependency layer
+has its own recorded source pin; do not describe every vendored file as an
+unchanged copy of the paper pin. See
+[`dependencies/openai-finite-szemeredi/`](dependencies/openai-finite-szemeredi/),
+the [historical inverse-source provenance](verification/original-upstream-inverse/README.md),
+the [577-source fixed-pin manifest](verification/original-upstream-inverse/prepared-axis-2026-10-17.json),
+the [earlier finite-Szemerédi source record](dependencies/openai-finite-szemeredi/SOURCE-MANIFEST.json),
+[`PNTPLUS-ATTRIBUTION.txt`](PNTPLUS-ATTRIBUTION.txt), and
+[`LICENSE-PNTPLUS`](LICENSE-PNTPLUS). Retain the OpenAI, Mathlib compatibility
+and PNT+ license notices. The PNT+ source reference is
+`AlexKontorovich/PrimeNumberTheoremAnd` at
+`747e480362ef6a0a7341055a84372333d72fa62a`.
+No additional blanket license is assigned by this README.
 
-3,963 superseded generated build logs, execution results, and manifest copies
-were removed from the working tree. They remain recoverable from
-[the pre-cleanup commit](https://github.com/lixiang90/jsp168-hindman/tree/5dc91a1deaf73720b421f672009565e18f4e6dfa)
-with `git show 5dc91a1deaf73720b421f672009565e18f4e6dfa:PATH`.
-Proof sources, licenses, current verification, and all original 3,059 manifest
-entries are unchanged by this cleanup.
+The local contribution continues the existing native-model, uniform Alignment,
+same-step linearization and final-deduction development, and assembles the
+original cyclic-to-interval inverse route. The earliest retained local commit,
+[`eab19c470d9787ca6ad3f0d3bd279ffe6c2aaa0d`](https://github.com/lixiang90/jsp168-hindman/commit/eab19c470d9787ca6ad3f0d3bd279ffe6c2aaa0d),
+already preserves substantial local development; the retained history does
+not reconstruct its pre-snapshot authorship. Later commits distinguish local
+normalization/menu/assembly and compatibility work from imported OpenAI
+proofs. Imported recurrence/PET proofs, PNT+ inputs and Mathlib compatibility
+sources retain their original attribution and separate source pins.
 
-467 superseded `round-*-axioms.txt` output logs (300,418,280 bytes) have been
-removed from the working tree. They contain repeated registered axiom reports,
-not proof source or mathematical reviews. All mathematical reviews, source
-provenance, dependency certificates, and verification-manifest entries remain.
+The continuation and verification tooling are Codex-assisted work maintained
+under GitHub `@lixiang90`. Source history supports reviewable contribution
+boundaries, not sole human authorship, verified personal identity or priority.
+Repository ownership and self-declared Git author metadata alone do not
+establish those claims. The [dated contribution/source-history report](verification/original-final-target/checkpoint-2026-10-17/contributions.md) records concrete commit boundaries and its limits; the later one-line adapter closure is in proof commit P. No individual name or
+institution beyond the known GitHub account is supplied here.
 
-Historical round scripts and review records describe their original checkpoints;
-their old log paths and hashes refer to the
-[pre-cleanup snapshot](https://github.com/lixiang90/jsp168-hindman/tree/e5e45b1e1227a8df34ee95eadd4b8d87b4811c74).
-To inspect or recover an old report, open that snapshot or use
-`git show e5e45b1e1227a8df34ee95eadd4b8d87b4811c74:REPORT-PATH`.
-For historical audit replay, use a separate worktree with the matching source
-checkpoint and its original logs. Old scripts may require removed predecessor
-reports; do not run them against the current working tree as a current audit.
-Some also require original Windows paths and local pinned paper/PNTPlus checkouts.
+The mathematical registration [awards #4869](https://github.com/TheJustinSunPrize/awards/pull/4869)
+and the related formalization proposal [#4966](https://github.com/TheJustinSunPrize/awards/pull/4966)
+must be disclosed. At the dated source check recorded in
+[`openai-math-sync-2026-10-17.json`](openai-math-sync-2026-10-17.json), #4869 was
+merged and #4966 was open and unmerged; the catalog still recorded Lean proof
+and eligibility as No, with independent mathematical review pending. Recheck
+these mutable records before a submission. Related routes and claimed
+contributions require accurate source-level comparison. No first-proof,
+priority, award acceptance or payment guarantee is made.
 
-Use `scripts/verify_snapshot.py` for the portable current checkpoint check.
-Its rules and all audited sources are unchanged by this documentation cleanup.
-
-`work-in-progress/` and root-level scratch files are retained for continuity;
-they are not automatically part of the canonical build or a claim of proof.
-
-The paper source is pinned to OpenAI/math commit
-`adc7f1241b42e322a6451854ab7e4b4c146bf78a`.
-Dependency attribution and licenses are preserved in `PNTPLUS-ATTRIBUTION.txt`,
-`LICENSE-PNTPLUS`, and `dependencies/openai-finite-szemeredi/`.
-No new blanket license is assigned to the project's original contributions
-by this checkpoint upload.
+**Award submission: PENDING. Repository publication: PENDING.** Add actual
+public links and the final submission state only after those actions occur.
+Publication and a Lean check do not by themselves establish acceptance under
+the prize's review, attribution or award process.

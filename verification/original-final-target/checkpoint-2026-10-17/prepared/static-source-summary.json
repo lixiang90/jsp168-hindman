@@ -1,0 +1,145 @@
+{
+  "schema": "hindman.final-target-static-proof-input-scan.v1",
+  "generated_utc": "2026-10-17T12:01:27.375349+00:00",
+  "status": "static lexical scan only; no Lean or Lake commands executed",
+  "target": "Hindman168.JSP000168",
+  "manifest_path": "verification-local/final-target-7ae7021-2026-10-17/source-closure.json",
+  "manifest_file_sha256": "9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e",
+  "manifest_source_inventory_sha256": "dcf81b5e67766bba2d3bb3f3cc1455e75940a47301e1f79efa9171f96d003796",
+  "git_head_at_start": "7ae70219fb4034899c6c2d23cc3b58ec6730a1ba",
+  "git_head_at_end": "7ae70219fb4034899c6c2d23cc3b58ec6730a1ba",
+  "optional_git_source_comparison": null,
+  "scanner_path": "verification/original-final-target/static-source-scan.py",
+  "scanner_sha256": "83b88b60dad775ea2707dc373a348c9e425d1268cfe4e36943500262bd469f14",
+  "comment_string_stripper_path": "verification/original-upstream-inverse/verify-prepared.py",
+  "comment_string_stripper_sha256": "807d08ef4f9e360f2c422bcb3498bf021ec60a65650a7422d220ac89662f32e1",
+  "method": "Manifest paths confined to repository; exact bytes SHA256 and lengths; strip nested block comments, line comments, and double-quoted strings preserving lines; whole-word token scan; scan every set_option name/value; rehash every source at end.",
+  "summary": {
+    "local_source_modules": 5066,
+    "source_counts_by_namespace": {
+      "Hindman168": 2914,
+      "OAI": 2143,
+      "PrimeNumberTheoremAnd": 9
+    },
+    "manifest_source_hashes_match_at_scan": true,
+    "manifest_source_byte_lengths_match_at_scan": true,
+    "all_scanned_sources_unchanged_at_end": true,
+    "git_head_unchanged_during_scan": true,
+    "tracked_source_directory_worktree_diff_at_end": [],
+    "scanned_source_paths_not_tracked_at_head": [],
+    "primary_token_occurrences": {
+      "sorry": 0,
+      "admit": 0,
+      "axiom": 0,
+      "native_decide": 0,
+      "unsafe": 0,
+      "extern": 0,
+      "implemented_by": 0,
+      "opaque": 0
+    },
+    "supplemental_token_occurrences": {
+      "sorryAx": 0,
+      "ofReduceBool": 0,
+      "ofReduceNat": 0,
+      "ofReduceInt": 0,
+      "run_tac": 0,
+      "run_elab": 0,
+      "elab": 0,
+      "macro": 0,
+      "initialize": 0,
+      "builtin_initialize": 0,
+      "noncomputable": 6002,
+      "partial": 0,
+      "meta": 0
+    },
+    "set_option_occurrences": 145,
+    "set_option_token_occurrences": 145,
+    "all_set_option_tokens_parsed": true,
+    "autoImplicit_set_option_occurrences": 0,
+    "noncomputable_following_syntax_token_counts": {
+      "abbrev": 18,
+      "def": 5889,
+      "instance": 65,
+      "local": 3,
+      "section": 27
+    },
+    "set_options_by_name_value": {
+      "backward.isDefEq.respectTransparency false": 9,
+      "lang.lemmaCmd true": 3,
+      "linter.style.header false": 1,
+      "maxHeartbeats 1000000": 19,
+      "maxHeartbeats 2000000": 109,
+      "synthInstance.maxHeartbeats 200000": 4
+    },
+    "set_options_by_category": {
+      "header_style_linter": 1,
+      "metaprogram_definitional_equality_strategy": 9,
+      "resource_limit": 132,
+      "theorem_command_syntax_alias": 3
+    },
+    "unclassified_options": 0,
+    "source_hash_mismatches": [],
+    "source_byte_length_mismatches": [],
+    "changed_after_scan": [],
+    "direct_external_boundary_unique_modules_excluded": 629,
+    "direct_external_boundary_import_edges_excluded": 2174
+  },
+  "supplemental_counts_by_namespace": {
+    "Hindman168": {
+      "noncomputable": 1935
+    },
+    "OAI": {
+      "noncomputable": 4032
+    },
+    "PrimeNumberTheoremAnd": {
+      "noncomputable": 35
+    }
+  },
+  "option_classification": {
+    "resource_limit": "Changes elaboration recursion/time allowance, including 0 meaning unlimited; does not itself introduce proof constants or bypass kernel checking.",
+    "implicit_binder_elaboration": "autoImplicit=false disables automatic undeclared implicit binders; it does not add axioms. No assumption that it is present.",
+    "theorem_command_syntax_alias": "Batteries lang.lemmaCmd enables lemma as a synonym for theorem; elabLemma rewrites the command and calls ordinary declaration elaboration.",
+    "header_style_linter": "Mathlib header linter flag; controls style checks, not the proof kernel.",
+    "metaprogram_definitional_equality_strategy": "Lean.Meta.ExprDefEq backward.isDefEq.respectTransparency=false restores older implicit-argument transparency bump to .default during meta-level unification. It affects proof elaboration strategy, not logical axioms or kernel transparency rules. Requires actual elaboration/kernel validation; the option is not itself evidence of unsoundness."
+  },
+  "option_implementation_evidence": [
+    {
+      "kind": "pinned-toolchain-source",
+      "toolchain": "leanprover/lean4:v4.32.2",
+      "path": "Lean/Meta/ExprDefEq.lean",
+      "available": true,
+      "sha256": "512f775b106b4ac0070ef58306d801131b5cf07c2d7e4d25dc7bba109bd80e1c"
+    },
+    {
+      "kind": "repository-dependency-source",
+      "path": ".lake/packages/batteries/Batteries/Tactic/Lemma.lean",
+      "available": true,
+      "sha256": "20998de2489c19e3e1a0bc5eadb03e3d0344aaaeb5ca84196629bba96ccf1165"
+    },
+    {
+      "kind": "repository-dependency-source",
+      "path": ".lake/packages/mathlib/Mathlib/Tactic/Linter/Header.lean",
+      "available": true,
+      "sha256": "66e695c80fe28cc859658fe6f9a9f08dabf600425e6e437408b5f47c099051d9"
+    }
+  ],
+  "limitations": [
+    "Lexical scanner, not a full Lean parser; stripping comments/strings and matching tokens is a publication input review aid, not a proof of absence of all trust mechanisms.",
+    "Only manifest-listed local sources in Hindman168/OAI/PrimeNumberTheoremAnd are scanned. External Mathlib/Lean/Batteries transitive source closure is not scanned by this report.",
+    "Absence of the scanned constructs does not rule out hidden mathematical hypotheses or automatically generated declarations; CheckEndpoint type locks and the full all-declarations transitive-axiom audit remain separate requirements.",
+    "noncomputable permits definitions whose executable code is not required (for example, definitions using classical choice); it does not itself add axioms and is not a placeholder. Actual dependencies must be assessed by the separate axiom audit.",
+    "Opaque declarations are not automatically unsound; unsafe/runtime implementations require context and actual proof-dependency analysis. Counts here report syntax occurrences only.",
+    "This script does not execute Lean, Lake, axiom auditing, or leanchecker, and does not establish that the final target builds or is proved."
+  ],
+  "lean_executed": false,
+  "lake_executed": false,
+  "axiom_audit_executed": false,
+  "kernel_replay_executed": false,
+  "full_target_proved_by_this_scan": false,
+  "primary_and_reduction_oracle_findings": [],
+  "diagnostic_or_evaluation_command_counts": {},
+  "detail_report": {
+    "path": "verification-local/final-target-7ae7021-2026-10-17/static-source-detail.json",
+    "sha256": "112bc96578c673f8db6453607f52bcd55a222d66e9c3ced515277d4a2e0439c0"
+  }
+}

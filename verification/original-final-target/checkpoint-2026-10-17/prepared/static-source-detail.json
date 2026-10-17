@@ -1,0 +1,1677 @@
+{
+  "schema": "hindman.final-target-static-proof-input-scan.v1",
+  "generated_utc": "2026-10-17T12:01:27.375349+00:00",
+  "status": "static lexical scan only; no Lean or Lake commands executed",
+  "target": "Hindman168.JSP000168",
+  "manifest_path": "verification-local/final-target-7ae7021-2026-10-17/source-closure.json",
+  "manifest_file_sha256": "9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e",
+  "manifest_source_inventory_sha256": "dcf81b5e67766bba2d3bb3f3cc1455e75940a47301e1f79efa9171f96d003796",
+  "git_head_at_start": "7ae70219fb4034899c6c2d23cc3b58ec6730a1ba",
+  "git_head_at_end": "7ae70219fb4034899c6c2d23cc3b58ec6730a1ba",
+  "optional_git_source_comparison": null,
+  "scanner_path": "verification/original-final-target/static-source-scan.py",
+  "scanner_sha256": "83b88b60dad775ea2707dc373a348c9e425d1268cfe4e36943500262bd469f14",
+  "comment_string_stripper_path": "verification/original-upstream-inverse/verify-prepared.py",
+  "comment_string_stripper_sha256": "807d08ef4f9e360f2c422bcb3498bf021ec60a65650a7422d220ac89662f32e1",
+  "method": "Manifest paths confined to repository; exact bytes SHA256 and lengths; strip nested block comments, line comments, and double-quoted strings preserving lines; whole-word token scan; scan every set_option name/value; rehash every source at end.",
+  "summary": {
+    "local_source_modules": 5066,
+    "source_counts_by_namespace": {
+      "Hindman168": 2914,
+      "OAI": 2143,
+      "PrimeNumberTheoremAnd": 9
+    },
+    "manifest_source_hashes_match_at_scan": true,
+    "manifest_source_byte_lengths_match_at_scan": true,
+    "all_scanned_sources_unchanged_at_end": true,
+    "git_head_unchanged_during_scan": true,
+    "tracked_source_directory_worktree_diff_at_end": [],
+    "scanned_source_paths_not_tracked_at_head": [],
+    "primary_token_occurrences": {
+      "sorry": 0,
+      "admit": 0,
+      "axiom": 0,
+      "native_decide": 0,
+      "unsafe": 0,
+      "extern": 0,
+      "implemented_by": 0,
+      "opaque": 0
+    },
+    "supplemental_token_occurrences": {
+      "sorryAx": 0,
+      "ofReduceBool": 0,
+      "ofReduceNat": 0,
+      "ofReduceInt": 0,
+      "run_tac": 0,
+      "run_elab": 0,
+      "elab": 0,
+      "macro": 0,
+      "initialize": 0,
+      "builtin_initialize": 0,
+      "noncomputable": 6002,
+      "partial": 0,
+      "meta": 0
+    },
+    "set_option_occurrences": 145,
+    "set_option_token_occurrences": 145,
+    "all_set_option_tokens_parsed": true,
+    "autoImplicit_set_option_occurrences": 0,
+    "noncomputable_following_syntax_token_counts": {
+      "abbrev": 18,
+      "def": 5889,
+      "instance": 65,
+      "local": 3,
+      "section": 27
+    },
+    "set_options_by_name_value": {
+      "backward.isDefEq.respectTransparency false": 9,
+      "lang.lemmaCmd true": 3,
+      "linter.style.header false": 1,
+      "maxHeartbeats 1000000": 19,
+      "maxHeartbeats 2000000": 109,
+      "synthInstance.maxHeartbeats 200000": 4
+    },
+    "set_options_by_category": {
+      "header_style_linter": 1,
+      "metaprogram_definitional_equality_strategy": 9,
+      "resource_limit": 132,
+      "theorem_command_syntax_alias": 3
+    },
+    "unclassified_options": 0,
+    "source_hash_mismatches": [],
+    "source_byte_length_mismatches": [],
+    "changed_after_scan": [],
+    "direct_external_boundary_unique_modules_excluded": 629,
+    "direct_external_boundary_import_edges_excluded": 2174
+  },
+  "primary_and_reduction_oracle_findings": [],
+  "set_options": [
+    {
+      "module": "Hindman168.AlignmentAllTargetsCubeConditionsSelection",
+      "path": "Hindman168/AlignmentAllTargetsCubeConditionsSelection.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "statement, not a claim identifying separately chosen local Haar witnesses. -/\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Module Filter FiniteMass"
+    },
+    {
+      "module": "Hindman168.MaskBaseExceptionalDeletion",
+      "path": "Hindman168/MaskBaseExceptionalDeletion.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskBaseResidueCertificates",
+      "path": "Hindman168/MaskBaseResidueCertificates.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskBaseRestrictedMajorant",
+      "path": "Hindman168/MaskBaseRestrictedMajorant.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskBaseRestrictedMean",
+      "path": "Hindman168/MaskBaseRestrictedMean.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskCenteredCorrelationLimit",
+      "path": "Hindman168/MaskCenteredCorrelationLimit.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskCenteredCorrelationUniform",
+      "path": "Hindman168/MaskCenteredCorrelationUniform.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskCopiedNormalizedMoments",
+      "path": "Hindman168/MaskCopiedNormalizedMoments.lean",
+      "line": 10,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskCopiedOriginalSampling",
+      "path": "Hindman168/MaskCopiedOriginalSampling.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskCopiedStagePrefactors",
+      "path": "Hindman168/MaskCopiedStagePrefactors.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskCopiedUniformBounds",
+      "path": "Hindman168/MaskCopiedUniformBounds.lean",
+      "line": 42,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem majorant_eventually_le_column_bound (S : MaskCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskCopiedUniformBounds",
+      "path": "Hindman168/MaskCopiedUniformBounds.lean",
+      "line": 62,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem all_majorants_eventually_le_column_bound (S : MaskCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskEndpointTargetCube",
+      "path": "Hindman168/MaskEndpointTargetCube.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Filter"
+    },
+    {
+      "module": "Hindman168.MaskFiniteModelReplacementFamily",
+      "path": "Hindman168/MaskFiniteModelReplacementFamily.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Filter"
+    },
+    {
+      "module": "Hindman168.MaskFullCorrelationOutput",
+      "path": "Hindman168/MaskFullCorrelationOutput.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Filter"
+    },
+    {
+      "module": "Hindman168.MaskGeneralAdditiveOutput",
+      "path": "Hindman168/MaskGeneralAdditiveOutput.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralAnchorComparison",
+      "path": "Hindman168/MaskGeneralAnchorComparison.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralCorrelationUniform",
+      "path": "Hindman168/MaskGeneralCorrelationUniform.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralFunctionBounds",
+      "path": "Hindman168/MaskGeneralFunctionBounds.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralInsertionLimit",
+      "path": "Hindman168/MaskGeneralInsertionLimit.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralInsertionPowers",
+      "path": "Hindman168/MaskGeneralInsertionPowers.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralNativeReplacement",
+      "path": "Hindman168/MaskGeneralNativeReplacement.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralProgressionTransfer",
+      "path": "Hindman168/MaskGeneralProgressionTransfer.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralResidueAverage",
+      "path": "Hindman168/MaskGeneralResidueAverage.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralResidueErrorRates",
+      "path": "Hindman168/MaskGeneralResidueErrorRates.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralRetainedRootSmoothing",
+      "path": "Hindman168/MaskGeneralRetainedRootSmoothing.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralSmoothedTerminal",
+      "path": "Hindman168/MaskGeneralSmoothedTerminal.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralUniformAnchorError",
+      "path": "Hindman168/MaskGeneralUniformAnchorError.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralUnrestrictedAdditiveOutput",
+      "path": "Hindman168/MaskGeneralUnrestrictedAdditiveOutput.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralUnrestrictedTransfer",
+      "path": "Hindman168/MaskGeneralUnrestrictedTransfer.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneralWeightedReplacement",
+      "path": "Hindman168/MaskGeneralWeightedReplacement.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskGeneratedCopiedMajorant",
+      "path": "Hindman168/MaskGeneratedCopiedMajorant.lean",
+      "line": 40,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem subset_mean_one_tendsto (S : MaskCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskGeneratedCopiedMajorant",
+      "path": "Hindman168/MaskGeneratedCopiedMajorant.lean",
+      "line": 57,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem majorant_mean_tendsto (S : MaskCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskGeneratedCopiedMajorant",
+      "path": "Hindman168/MaskGeneratedCopiedMajorant.lean",
+      "line": 75,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem majorant_eventually_le (S : MaskCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskGeneratedCopiedMeanOne",
+      "path": "Hindman168/MaskGeneratedCopiedMeanOne.lean",
+      "line": 30,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000 in",
+      "source_context": "\nset_option maxHeartbeats 2000000 in\nstructure MaskCopiedSampling (m N : ℕ) where\n  gap : ℕ → Fin N\n  a : Fin (m + 1) → ℚ"
+    },
+    {
+      "module": "Hindman168.MaskGeneratedCopiedMeanOne",
+      "path": "Hindman168/MaskGeneratedCopiedMeanOne.lean",
+      "line": 81,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000 in",
+      "source_context": "\nset_option maxHeartbeats 2000000 in\ntheorem mean_one_tendsto (S : MaskCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskIntermediateMajorantMeans",
+      "path": "Hindman168/MaskIntermediateMajorantMeans.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskIntermediateResidueCertificates",
+      "path": "Hindman168/MaskIntermediateResidueCertificates.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskIntermediateRestrictedMean",
+      "path": "Hindman168/MaskIntermediateRestrictedMean.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskModelCubePairing",
+      "path": "Hindman168/MaskModelCubePairing.lean",
+      "line": 10,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen scoped BigOperators Classical"
+    },
+    {
+      "module": "Hindman168.MaskModelErrorCubeLimit",
+      "path": "Hindman168/MaskModelErrorCubeLimit.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Filter"
+    },
+    {
+      "module": "Hindman168.MaskModelOriginalCorrelation",
+      "path": "Hindman168/MaskModelOriginalCorrelation.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Filter"
+    },
+    {
+      "module": "Hindman168.MaskNativeMixedMoments",
+      "path": "Hindman168/MaskNativeMixedMoments.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskNativeMomentLaw",
+      "path": "Hindman168/MaskNativeMomentLaw.lean",
+      "line": 6,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskNativeWeightedReplacement",
+      "path": "Hindman168/MaskNativeWeightedReplacement.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskNativeWeightedVariance",
+      "path": "Hindman168/MaskNativeWeightedVariance.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalAdditiveData",
+      "path": "Hindman168/MaskOriginalAdditiveData.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalAdditiveOutput",
+      "path": "Hindman168/MaskOriginalAdditiveOutput.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalCorrelationOutput",
+      "path": "Hindman168/MaskOriginalCorrelationOutput.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Filter"
+    },
+    {
+      "module": "Hindman168.MaskOriginalExceptionalMajorant",
+      "path": "Hindman168/MaskOriginalExceptionalMajorant.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalFullMajorant",
+      "path": "Hindman168/MaskOriginalFullMajorant.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalFunctionBounds",
+      "path": "Hindman168/MaskOriginalFunctionBounds.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalInsertionLimit",
+      "path": "Hindman168/MaskOriginalInsertionLimit.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalInsertionPowers",
+      "path": "Hindman168/MaskOriginalInsertionPowers.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.FiniteMass\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalNormalizedLaw",
+      "path": "Hindman168/MaskOriginalNormalizedLaw.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalOrderedPrefactors",
+      "path": "Hindman168/MaskOriginalOrderedPrefactors.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalRetainedCorrelation",
+      "path": "Hindman168/MaskOriginalRetainedCorrelation.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalRetainedRootSmoothing",
+      "path": "Hindman168/MaskOriginalRetainedRootSmoothing.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalRootSmoothing",
+      "path": "Hindman168/MaskOriginalRootSmoothing.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalRootTranslation",
+      "path": "Hindman168/MaskOriginalRootTranslation.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalSmoothedTerminal",
+      "path": "Hindman168/MaskOriginalSmoothedTerminal.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalStagePrefactors",
+      "path": "Hindman168/MaskOriginalStagePrefactors.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalTranslationBounds",
+      "path": "Hindman168/MaskOriginalTranslationBounds.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalTranslationError",
+      "path": "Hindman168/MaskOriginalTranslationError.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalWeightedRecurrence",
+      "path": "Hindman168/MaskOriginalWeightedRecurrence.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskOriginalWeightedReplacement",
+      "path": "Hindman168/MaskOriginalWeightedReplacement.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskRawCenteredCorrelation",
+      "path": "Hindman168/MaskRawCenteredCorrelation.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskRawCorrelationTransfer",
+      "path": "Hindman168/MaskRawCorrelationTransfer.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskRawGeneralCorrelation",
+      "path": "Hindman168/MaskRawGeneralCorrelation.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskRawNormalizationErrors",
+      "path": "Hindman168/MaskRawNormalizationErrors.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskRemovalBalancedInsertion",
+      "path": "Hindman168/MaskRemovalBalancedInsertion.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRemovalCoordinateDilation",
+      "path": "Hindman168/MaskRemovalCoordinateDilation.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRemovalOffDiagonalAbsorption",
+      "path": "Hindman168/MaskRemovalOffDiagonalAbsorption.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRemovalPrimeInsertion",
+      "path": "Hindman168/MaskRemovalPrimeInsertion.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRemovalStageDiagonal",
+      "path": "Hindman168/MaskRemovalStageDiagonal.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRemovalStageDivisorCaps",
+      "path": "Hindman168/MaskRemovalStageDivisorCaps.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRemovalStagePrefactors",
+      "path": "Hindman168/MaskRemovalStagePrefactors.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRemovalStageWeightedSquares",
+      "path": "Hindman168/MaskRemovalStageWeightedSquares.lean",
+      "line": 10,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRemovalWeightedOffDiagonal",
+      "path": "Hindman168/MaskRemovalWeightedOffDiagonal.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRootCopiedMajorant",
+      "path": "Hindman168/MaskRootCopiedMajorant.lean",
+      "line": 40,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem subset_mean_one_tendsto (S : MaskRootCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskRootCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskRootCopiedMajorant",
+      "path": "Hindman168/MaskRootCopiedMajorant.lean",
+      "line": 57,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem majorant_mean_tendsto (S : MaskRootCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskRootCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskRootCopiedMajorant",
+      "path": "Hindman168/MaskRootCopiedMajorant.lean",
+      "line": 75,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem majorant_eventually_le (S : MaskRootCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskRootCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskRootCopiedMeanOne",
+      "path": "Hindman168/MaskRootCopiedMeanOne.lean",
+      "line": 15,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000 in",
+      "source_context": "\nset_option maxHeartbeats 2000000 in\nstructure MaskRootCopiedSampling (m N : ℕ) where\n  gap : ℕ → Fin N\n  a : Fin (m + 1) → ℚ"
+    },
+    {
+      "module": "Hindman168.MaskRootCopiedMeanOne",
+      "path": "Hindman168/MaskRootCopiedMeanOne.lean",
+      "line": 66,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000 in",
+      "source_context": "\nset_option maxHeartbeats 2000000 in\ntheorem mean_one_tendsto (S : MaskRootCopiedSampling m N) {q : ℕ}\n    (label : ℕ → Fin q → Fin (m + 1)) (row : ℕ → Fin q → MaskRootCopiedRow m S.gap S.template)\n    (hrow : ∀ᶠ w in atTop, Function.Injective (row w))"
+    },
+    {
+      "module": "Hindman168.MaskRootCopiedNormalized",
+      "path": "Hindman168/MaskRootCopiedNormalized.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRootMixedProfileProducts",
+      "path": "Hindman168/MaskRootMixedProfileProducts.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskRootMomentProfileLaw",
+      "path": "Hindman168/MaskRootMomentProfileLaw.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskRootOriginalLaw",
+      "path": "Hindman168/MaskRootOriginalLaw.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskRootOriginalMajorants",
+      "path": "Hindman168/MaskRootOriginalMajorants.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRootOriginalMoments",
+      "path": "Hindman168/MaskRootOriginalMoments.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskRootOriginalSampling",
+      "path": "Hindman168/MaskRootOriginalSampling.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRootSmoothedArithmetic",
+      "path": "Hindman168/MaskRootSmoothedArithmetic.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.MaskRootTargetMoment",
+      "path": "Hindman168/MaskRootTargetMoment.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskRootOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskSubsetModelTelescoping",
+      "path": "Hindman168/MaskSubsetModelTelescoping.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Filter"
+    },
+    {
+      "module": "Hindman168.MaskSubsetReplacementData",
+      "path": "Hindman168/MaskSubsetReplacementData.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Filter"
+    },
+    {
+      "module": "Hindman168.MaskSubsetReplacementPath",
+      "path": "Hindman168/MaskSubsetReplacementPath.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen scoped BigOperators Classical"
+    },
+    {
+      "module": "Hindman168.MaskSubsetSingleReplacement",
+      "path": "Hindman168/MaskSubsetSingleReplacement.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Filter"
+    },
+    {
+      "module": "Hindman168.MaskTargetAffineRoot",
+      "path": "Hindman168/MaskTargetAffineRoot.lean",
+      "line": 10,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetAnchorComparison",
+      "path": "Hindman168/MaskTargetAnchorComparison.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetCubeDecay",
+      "path": "Hindman168/MaskTargetCubeDecay.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetPolynomialBudgets",
+      "path": "Hindman168/MaskTargetPolynomialBudgets.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetPredictionData",
+      "path": "Hindman168/MaskTargetPredictionData.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetPredictionIdentification",
+      "path": "Hindman168/MaskTargetPredictionIdentification.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetPredictionLimit",
+      "path": "Hindman168/MaskTargetPredictionLimit.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetProgressionLaw",
+      "path": "Hindman168/MaskTargetProgressionLaw.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetProgressionTransfer",
+      "path": "Hindman168/MaskTargetProgressionTransfer.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetResidueAverage",
+      "path": "Hindman168/MaskTargetResidueAverage.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetResidueErrorRates",
+      "path": "Hindman168/MaskTargetResidueErrorRates.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetRootMultiplierBounds",
+      "path": "Hindman168/MaskTargetRootMultiplierBounds.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetRootOffsetBounds",
+      "path": "Hindman168/MaskTargetRootOffsetBounds.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetRootOffsetGrowth",
+      "path": "Hindman168/MaskTargetRootOffsetGrowth.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetSecondCoordinate",
+      "path": "Hindman168/MaskTargetSecondCoordinate.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.PolynomialRowFamily\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetUniformAnchorError",
+      "path": "Hindman168/MaskTargetUniformAnchorError.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskTargetUnrestrictedTransfer",
+      "path": "Hindman168/MaskTargetUnrestrictedTransfer.lean",
+      "line": 7,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.MaskUnrestrictedAdditiveOutput",
+      "path": "Hindman168/MaskUnrestrictedAdditiveOutput.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168.MaskOriginalSampling\n"
+    },
+    {
+      "module": "Hindman168.PolynomialNormalizedResidueMinors",
+      "path": "Hindman168/PolynomialNormalizedResidueMinors.lean",
+      "line": 9,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\n"
+    },
+    {
+      "module": "Hindman168.SelectedAlignmentCubeConditionsSelection",
+      "path": "Hindman168/SelectedAlignmentCubeConditionsSelection.lean",
+      "line": 8,
+      "name": "maxHeartbeats",
+      "value": "2000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 2000000",
+      "source_context": "statement, not a claim identifying separately chosen local Haar witnesses. -/\nset_option maxHeartbeats 2000000\n\nnamespace Hindman168\nopen Module Filter FiniteMass"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.CoefficientProductHaar",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CoefficientProductHaar.lean",
+      "line": 18,
+      "name": "synthInstance.maxHeartbeats",
+      "value": "200000",
+      "category": "resource_limit",
+      "code_line": "set_option synthInstance.maxHeartbeats 200000 in",
+      "source_context": "\nset_option synthInstance.maxHeartbeats 200000 in\ntheorem coefficientCoordinateTorus_measurePreserving {K : Type*} [Fintype K] {m : ℕ}\n    {J : Fin m → Type*} [∀ j, Fintype (J j)] (U : ∀ j, Submodule ℝ (J j → ℝ))\n    [CompactSpace (CoefficientTorus (K := K) U)]"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.CoveredInducedCorrelationFamily",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/CoveredInducedCorrelationFamily.lean",
+      "line": 472,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem exists_native_induced_marked_model (s u : ℕ) (hs : 1 ≤ s) :\n    ∃ C : ℕ, 2 ≤ C ∧ ∀ {I J L : Type*} [Fintype I]\n      [LieRing L] [LieAlgebra ℚ L] {r t e n : ℕ}"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.ExtractedInitialState",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ExtractedInitialState.lean",
+      "line": 24,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem exists_fastCoefficient_rational_removal_grid (s : ℕ) :\n    ∃ C : ℕ, 2 ≤ C ∧\n    ∀ {σ ι κ L : Type*} [Fintype σ] [Fintype ι] [Fintype κ] [LieRing L] [LieAlgebra ℚ L]"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.MarkedEvaluationJointBounds",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MarkedEvaluationJointBounds.lean",
+      "line": 264,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "include hF hω hw hv hH hc hgen in\nset_option maxHeartbeats 1000000 in\ntheorem exists_markedShiftQuotient_bounded_direction_data (t : ℕ)\n    (η : L →ₗ[ℚ] ℚ) {K A : ℕ} (hη : ∀ i, RationalHeightLE (η (b i)) K)\n    (x : Fin t → ℚ) (hA : 1 ≤ A) (hx : ∀ i, RationalHeightLE (x i) A)"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.MixedBooleanSiteValues",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MixedBooleanSiteValues.lean",
+      "line": 386,
+      "name": "synthInstance.maxHeartbeats",
+      "value": "200000",
+      "category": "resource_limit",
+      "code_line": "set_option synthInstance.maxHeartbeats 200000 in",
+      "source_context": "\nset_option synthInstance.maxHeartbeats 200000 in\ntheorem euclideanCoefficientJetMap_measurePreserving {α K : Type*}\n    [Fintype α] [DecidableEq α] [Fintype K] {m : ℕ} {O J : Fin m → Type*}\n    [∀ j, Fintype (O j)] [∀ j, Fintype (J j)] (U : ∀ j, Submodule ℝ (J j → ℝ))"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.PositiveShiftRefilteredExpansion",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PositiveShiftRefilteredExpansion.lean",
+      "line": 33,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem refiltered_product_expansion_of_recovered\n    (hEF : E.filtration = (pi D).filtration.gradedRefiltration W)\n    {p cost : ℝ} {q r : ℕ} (hbase : RefilteredRecoveredExpansionSpec D a W E Q p q r cost) :"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.UniformControlledCurrentStage",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/UniformControlledCurrentStage.lean",
+      "line": 159,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem exists_uniform_controlled_current_stage (s : ℕ) :\n    ∃ C : ℕ, 2 ≤ C ∧\n    ∀ {L μ ι ν σ : Type*} [LieRing L] [LieAlgebra ℚ L]"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Estimates.UnnormalizedCommonSymbolFactorization",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/UnnormalizedCommonSymbolFactorization.lean",
+      "line": 326,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem common_coefficient_derivative_system\n    {σ ι L : Type*} [Fintype σ] [DecidableEq σ] {d : ℕ}\n    [LieRing L] [LieAlgebra ℚ L] {s : ℕ}"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Fourier.EuclideanCoefficientTorus",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Fourier/EuclideanCoefficientTorus.lean",
+      "line": 85,
+      "name": "synthInstance.maxHeartbeats",
+      "value": "200000",
+      "category": "resource_limit",
+      "code_line": "set_option synthInstance.maxHeartbeats 200000 in",
+      "source_context": "\nset_option synthInstance.maxHeartbeats 200000 in\ntheorem euclideanCoefficient_measurePreserving [Fintype K]\n    [CompactSpace (CoefficientTorus (K := K) U)]\n    [MeasurableSpace (CoefficientTorus (K := K) U)] [BorelSpace (CoefficientTorus (K := K) U)]"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Geometry.CommonMarkedDirectionCoordinates",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/CommonMarkedDirectionCoordinates.lean",
+      "line": 24,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem exists_native_marked_common_direction_coordinates (s : ℕ) (hs : 1 ≤ s) :\n    ∃ C : ℕ, 2 ≤ C ∧ ∀ {r N : ℕ} [NeZero N] {b p q P M : ℝ}\n      {W : NativeDegreeRankFamily s r (ZMod N) b} {out : Fin W.outputDim}"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Geometry.NativeCoordinateDerivativeSystem",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/NativeCoordinateDerivativeSystem.lean",
+      "line": 75,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem exists_native_coordinate_derivative_system :\n    F.NativeCoordinateDerivativeSpec (σ := σ) (a := a) (d := d) e ω hF U := by\n  intro b rows ha η hη sectionMap hsection Cscale hC hweighted m hm hgrid"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Linear.FastKernelReabsorptionControl",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/FastKernelReabsorptionControl.lean",
+      "line": 71,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem realFast_kernel_reabsorption_controlled\n    (a b c : 𝓖) (S R : K →ₗ[ℝ] 𝓔)\n    (hSR : S = (ρ (a * b * c)).toLinearMap.comp R)"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Linear.KernelScaleIndependence",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/KernelScaleIndependence.lean",
+      "line": 268,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem normalizedScalarKernelJet_eq {I J O : Type*}\n    [DecidableEq I] [Fintype J] [Fintype O] [DecidableEq O] {L : ℕ}\n    (x : J → IntegerScalarCubeBox I L) (h : ℕ) (rows : O → Finset I)"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Polynomial.NativeFormalPolynomialSystems",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/NativeFormalPolynomialSystems.lean",
+      "line": 73,
+      "name": "maxHeartbeats",
+      "value": "1000000",
+      "category": "resource_limit",
+      "code_line": "set_option maxHeartbeats 1000000 in",
+      "source_context": "\nset_option maxHeartbeats 1000000 in\ntheorem nativeFast_derivativeSystem_to_formal\n    (hW : BasisGradedSubmodule bW ωW W.toSubmodule)\n    (g : F.realFastDiagonalSubgroup (fun _ : σ => 1) Wf)"
+    },
+    {
+      "module": "OAI.Combinatorics.Progressions.Probability.CoefficientProductLaw",
+      "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/CoefficientProductLaw.lean",
+      "line": 46,
+      "name": "synthInstance.maxHeartbeats",
+      "value": "200000",
+      "category": "resource_limit",
+      "code_line": "set_option synthInstance.maxHeartbeats 200000 in",
+      "source_context": "\nset_option synthInstance.maxHeartbeats 200000 in\ntheorem coefficientProductDensity_probability {K : Type*} [Fintype K] {m : ℕ}\n    {J : Fin m → Type*} [∀ j, Fintype (J j)] (U : ∀ j, Submodule ℝ (J j → ℝ))\n    [CompactSpace (CoefficientTorus (K := K) U)]"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Consequences",
+      "path": "PrimeNumberTheoremAnd/Consequences.lean",
+      "line": 13,
+      "name": "lang.lemmaCmd",
+      "value": "true",
+      "category": "theorem_command_syntax_alias",
+      "code_line": "set_option lang.lemmaCmd true",
+      "source_context": "\nset_option lang.lemmaCmd true\n\nopen ArithmeticFunction hiding log\nopen Nat hiding log"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.SmoothExistence",
+      "path": "PrimeNumberTheoremAnd/SmoothExistence.lean",
+      "line": 12,
+      "name": "lang.lemmaCmd",
+      "value": "true",
+      "category": "theorem_command_syntax_alias",
+      "code_line": "set_option lang.lemmaCmd true",
+      "source_context": "\nset_option lang.lemmaCmd true\n\nopen MeasureTheory Set Real\nopen scoped ContDiff"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 19,
+      "name": "lang.lemmaCmd",
+      "value": "true",
+      "category": "theorem_command_syntax_alias",
+      "code_line": "set_option lang.lemmaCmd true",
+      "source_context": "\nset_option lang.lemmaCmd true\nset_option linter.style.header false\n\n-- note: the opening of ArithmeticFunction introduces a notation σ that seems"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 20,
+      "name": "linter.style.header",
+      "value": "false",
+      "category": "header_style_linter",
+      "code_line": "set_option linter.style.header false",
+      "source_context": "set_option lang.lemmaCmd true\nset_option linter.style.header false\n\n-- note: the opening of ArithmeticFunction introduces a notation σ that seems\n-- impossible to hide, and hence parameters that are traditionally called σ will"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 106,
+      "name": "backward.isDefEq.respectTransparency",
+      "value": "false",
+      "category": "metaprogram_definitional_equality_strategy",
+      "code_line": "set_option backward.isDefEq.respectTransparency false in",
+      "source_context": "\nset_option backward.isDefEq.respectTransparency false in\n\nlemma first_fourier (hf : ∀ (σ' : ℝ), 1 < σ' → Summable (nterm f σ'))\n    (hsupp : Integrable ψ) (hx : 0 < x) (hσ : 1 < σ') :"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 197,
+      "name": "backward.isDefEq.respectTransparency",
+      "value": "false",
+      "category": "metaprogram_definitional_equality_strategy",
+      "code_line": "set_option backward.isDefEq.respectTransparency false in",
+      "source_context": "\nset_option backward.isDefEq.respectTransparency false in\n\nlemma second_fourier (hcont : Measurable ψ) (hsupp : Integrable ψ)\n    {x σ' : ℝ} (hx : 0 < x) (hσ : 1 < σ') :"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 312,
+      "name": "backward.isDefEq.respectTransparency",
+      "value": "false",
+      "category": "metaprogram_definitional_equality_strategy",
+      "code_line": "set_option backward.isDefEq.respectTransparency false in",
+      "source_context": "\nset_option backward.isDefEq.respectTransparency false in\n@[continuity, fun_prop] lemma continuous_FourierIntegral (ψ : W21) : Continuous (𝓕 (ψ : ℝ → ℂ)) :=\n  VectorFourier.fourierIntegral_continuous continuous_fourierChar\n    (by simp only [innerₗ_apply_apply, RCLike.inner_apply', conj_trivial, continuous_mul])"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 348,
+      "name": "backward.isDefEq.respectTransparency",
+      "value": "false",
+      "category": "metaprogram_definitional_equality_strategy",
+      "code_line": "set_option backward.isDefEq.respectTransparency false in",
+      "source_context": "-- Here compact support is used but perhaps it is not necessary\nset_option backward.isDefEq.respectTransparency false in\nlemma limiting_fourier_aux (hG' : Set.EqOn G (fun s ↦ LSeries f s - A / (s - 1)) {s | 1 < s.re})\n    (hf : ∀ (σ' : ℝ), 1 < σ' → Summable (nterm f σ')) (ψ : CS 2 ℂ) (hx : 1 ≤ x) (σ' : ℝ)\n    (hσ' : 1 < σ') :"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 984,
+      "name": "backward.isDefEq.respectTransparency",
+      "value": "false",
+      "category": "metaprogram_definitional_equality_strategy",
+      "code_line": "set_option backward.isDefEq.respectTransparency false in",
+      "source_context": "\nset_option backward.isDefEq.respectTransparency false in\nlemma limiting_cor_aux {f : ℝ → ℂ} : Tendsto (fun x : ℝ ↦ ∫ t, f t * x ^ (t * I)) atTop (𝓝 0) := by\n\n  have l1 : ∀ᶠ x : ℝ in atTop, ∀ t : ℝ, x ^ (t * I) = exp (log x * t * I) := by"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 1531,
+      "name": "backward.isDefEq.respectTransparency",
+      "value": "false",
+      "category": "metaprogram_definitional_equality_strategy",
+      "code_line": "set_option backward.isDefEq.respectTransparency false in",
+      "source_context": "\nset_option backward.isDefEq.respectTransparency false in\nlemma limiting_cor_W21 (ψ : W21) (hf : ∀ (σ' : ℝ), 1 < σ' → Summable (nterm f σ'))\n    (hcheby : cheby f) (hG : ContinuousOn G {s | 1 ≤ s.re})\n    (hG' : Set.EqOn G (fun s ↦ LSeries f s - A / (s - 1)) {s | 1 < s.re}) :"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 1658,
+      "name": "backward.isDefEq.respectTransparency",
+      "value": "false",
+      "category": "metaprogram_definitional_equality_strategy",
+      "code_line": "set_option backward.isDefEq.respectTransparency false in",
+      "source_context": "\nset_option backward.isDefEq.respectTransparency false in\nlemma wiener_ikehara_smooth_aux (l0 : Continuous Ψ) (hsupp : HasCompactSupport Ψ)\n    (hplus : closure (Function.support Ψ) ⊆ Ioi 0) (x : ℝ) (hx : 0 < x) :\n    ∫ (u : ℝ) in Ioi (-Real.log x), ↑(rexp u) * Ψ (rexp u) = ∫ (y : ℝ) in Ioi (1 / x), Ψ y := by"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 2206,
+      "name": "backward.isDefEq.respectTransparency",
+      "value": "false",
+      "category": "metaprogram_definitional_equality_strategy",
+      "code_line": "set_option backward.isDefEq.respectTransparency false in",
+      "source_context": "\nset_option backward.isDefEq.respectTransparency false in\nlemma limiting_fourier_aux_gt_zero (hG' : Set.EqOn G (fun s ↦ LSeries f s - A / (s - 1)) {s | 1 < s.re})\n    (hf : ∀ (σ' : ℝ), 1 < σ' → Summable (nterm f σ')) (ψ : CS 2 ℂ) (hx : 0 < x) (σ' : ℝ) (hσ' : 1 < σ') :\n    ∑' n, term f σ' n * 𝓕 (ψ : ℝ → ℂ) (1 / (2 * π) * log (n / x)) -"
+    },
+    {
+      "module": "PrimeNumberTheoremAnd.Wiener",
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "line": 3244,
+      "name": "backward.isDefEq.respectTransparency",
+      "value": "false",
+      "category": "metaprogram_definitional_equality_strategy",
+      "code_line": "set_option backward.isDefEq.respectTransparency false in",
+      "source_context": "\nset_option backward.isDefEq.respectTransparency false in\nlemma Real.fourierIntegral_convolution {f g : ℝ → ℂ} (hf : Integrable f) (hg : Integrable g) :\n    𝓕 (convolution f g (ContinuousLinearMap.mul ℂ ℂ) volume) = 𝓕 f * 𝓕 g := by\n  ext y"
+    }
+  ],
+  "supplemental_counts_by_namespace": {
+    "Hindman168": {
+      "noncomputable": 1935
+    },
+    "OAI": {
+      "noncomputable": 4032
+    },
+    "PrimeNumberTheoremAnd": {
+      "noncomputable": 35
+    }
+  },
+  "supplemental_examples_max_10_each": {
+    "noncomputable": [
+      {
+        "module": "Hindman168.ActualDivisorRowCRT",
+        "path": "Hindman168/ActualDivisorRowCRT.lean",
+        "line": 30,
+        "token": "noncomputable",
+        "code_line": "noncomputable def normalizedDivisorRowCount {q d : ℕ} (k : Fin q → ℕ)",
+        "source_context": "\nnoncomputable def normalizedDivisorRowCount {q d : ℕ} (k : Fin q → ℕ)\n    (c : Fin q → Fin d → ℤ) : ℝ :=\n  if h : (∏ u, k u) = 0 then 0 else"
+      },
+      {
+        "module": "Hindman168.AdaptedTaylorBinomial",
+        "path": "Hindman168/AdaptedTaylorBinomial.lean",
+        "line": 7,
+        "token": "noncomputable",
+        "code_line": "noncomputable def adaptedTaylorBinomial (j : ℕ) : MvPolynomial Unit ℝ :=",
+        "source_context": "\nnoncomputable def adaptedTaylorBinomial (j : ℕ) : MvPolynomial Unit ℝ :=\n  C ((j.factorial : ℝ)⁻¹) * ∏ m ∈ Finset.range j, (X () - C (m : ℝ))\n"
+      },
+      {
+        "module": "Hindman168.AdaptedTaylorRecursion",
+        "path": "Hindman168/AdaptedTaylorRecursion.lean",
+        "line": 12,
+        "token": "noncomputable",
+        "code_line": "noncomputable def adaptedTaylorResidual {s : ℕ}",
+        "source_context": "\nnoncomputable def adaptedTaylorResidual {s : ℕ}\n    (D : NativeNilmanifoldData.{u} s) (p : RoughVectorMvPolynomial Unit D.E) :\n    ℕ → RoughVectorMvPolynomial Unit D.E"
+      },
+      {
+        "module": "Hindman168.AdaptedTaylorRecursion",
+        "path": "Hindman168/AdaptedTaylorRecursion.lean",
+        "line": 43,
+        "token": "noncomputable",
+        "code_line": "noncomputable def adaptedTaylorFactor {s : ℕ}",
+        "source_context": "\nnoncomputable def adaptedTaylorFactor {s : ℕ}\n    (D : NativeNilmanifoldData.{u} s) (p : RoughVectorMvPolynomial Unit D.E) (j : ℕ) (b : ℝ) : D.G :=\n  nativeLieExponential (E := D.E) (I := D.I) (G := D.G)"
+      },
+      {
+        "module": "Hindman168.AdaptedTaylorRecursion",
+        "path": "Hindman168/AdaptedTaylorRecursion.lean",
+        "line": 49,
+        "token": "noncomputable",
+        "code_line": "noncomputable def adaptedTaylorOrderedProduct {s : ℕ}",
+        "source_context": "\nnoncomputable def adaptedTaylorOrderedProduct {s : ℕ}\n    (D : NativeNilmanifoldData.{u} s) (p : RoughVectorMvPolynomial Unit D.E) (b : ℝ) : ℕ → D.G\n  | 0 => 1"
+      },
+      {
+        "module": "Hindman168.AdaptedTaylorRemoval",
+        "path": "Hindman168/AdaptedTaylorRemoval.lean",
+        "line": 12,
+        "token": "noncomputable",
+        "code_line": "noncomputable def adaptedTaylorCorrection {s : ℕ}",
+        "source_context": "\nnoncomputable def adaptedTaylorCorrection {s : ℕ}\n    (D : NativeNilmanifoldData.{u} s) (p : RoughVectorMvPolynomial Unit D.E) (j : ℕ) :\n    RoughVectorMvPolynomial Unit D.E :="
+      },
+      {
+        "module": "Hindman168.AdaptedTaylorRemoval",
+        "path": "Hindman168/AdaptedTaylorRemoval.lean",
+        "line": 17,
+        "token": "noncomputable",
+        "code_line": "noncomputable def adaptedTaylorRemoval {s : ℕ}",
+        "source_context": "\nnoncomputable def adaptedTaylorRemoval {s : ℕ}\n    (D : NativeNilmanifoldData.{u} s) (p : RoughVectorMvPolynomial Unit D.E) (j : ℕ) :\n    RoughVectorMvPolynomial Unit D.E :="
+      },
+      {
+        "module": "Hindman168.AdditiveCopyExactCounts",
+        "path": "Hindman168/AdditiveCopyExactCounts.lean",
+        "line": 14,
+        "token": "noncomputable",
+        "code_line": "noncomputable def additiveBranchFibreEquiv {b : ℕ} (k : Fin b) :",
+        "source_context": "\nnoncomputable def additiveBranchFibreEquiv {b : ℕ} (k : Fin b) :\n    {η : Fin b → Bool // η k = false} ≃ ({j : Fin b // j ≠ k} → Bool) where\n  toFun η j := η.val j.val"
+      },
+      {
+        "module": "Hindman168.AdditiveCopyExactCounts",
+        "path": "Hindman168/AdditiveCopyExactCounts.lean",
+        "line": 37,
+        "token": "noncomputable",
+        "code_line": "noncomputable def additiveNonRootCopyFromBranches {b : ℕ}",
+        "source_context": "\nnoncomputable def additiveNonRootCopyFromBranches {b : ℕ}\n    (p : Σ k : Fin b, {η : Fin b → Bool // η k = false}) : AdditiveNonRootCopy b :=\n  ⟨⟨(some (additiveRowAssigned b p.1), p.2.val), by"
+      },
+      {
+        "module": "Hindman168.AdditiveRowCopiedCoefficients",
+        "path": "Hindman168/AdditiveRowCopiedCoefficients.lean",
+        "line": 25,
+        "token": "noncomputable",
+        "code_line": "noncomputable def copiedCoefficient (D : AdditiveRowData b c)",
+        "source_context": "\nnoncomputable def copiedCoefficient (D : AdditiveRowData b c)\n    (r : CopiedReplicaCubeRow (additiveRowAssigned b)) (col : AdditiveCopiedColumn b c) : ℤ :=\n  match col with"
+      }
+    ]
+  },
+  "diagnostic_or_evaluation_commands": [],
+  "option_classification": {
+    "resource_limit": "Changes elaboration recursion/time allowance, including 0 meaning unlimited; does not itself introduce proof constants or bypass kernel checking.",
+    "implicit_binder_elaboration": "autoImplicit=false disables automatic undeclared implicit binders; it does not add axioms. No assumption that it is present.",
+    "theorem_command_syntax_alias": "Batteries lang.lemmaCmd enables lemma as a synonym for theorem; elabLemma rewrites the command and calls ordinary declaration elaboration.",
+    "header_style_linter": "Mathlib header linter flag; controls style checks, not the proof kernel.",
+    "metaprogram_definitional_equality_strategy": "Lean.Meta.ExprDefEq backward.isDefEq.respectTransparency=false restores older implicit-argument transparency bump to .default during meta-level unification. It affects proof elaboration strategy, not logical axioms or kernel transparency rules. Requires actual elaboration/kernel validation; the option is not itself evidence of unsoundness."
+  },
+  "option_implementation_evidence": [
+    {
+      "kind": "pinned-toolchain-source",
+      "toolchain": "leanprover/lean4:v4.32.2",
+      "path": "Lean/Meta/ExprDefEq.lean",
+      "available": true,
+      "sha256": "512f775b106b4ac0070ef58306d801131b5cf07c2d7e4d25dc7bba109bd80e1c"
+    },
+    {
+      "kind": "repository-dependency-source",
+      "path": ".lake/packages/batteries/Batteries/Tactic/Lemma.lean",
+      "available": true,
+      "sha256": "20998de2489c19e3e1a0bc5eadb03e3d0344aaaeb5ca84196629bba96ccf1165"
+    },
+    {
+      "kind": "repository-dependency-source",
+      "path": ".lake/packages/mathlib/Mathlib/Tactic/Linter/Header.lean",
+      "available": true,
+      "sha256": "66e695c80fe28cc859658fe6f9a9f08dabf600425e6e437408b5f47c099051d9"
+    }
+  ],
+  "limitations": [
+    "Lexical scanner, not a full Lean parser; stripping comments/strings and matching tokens is a publication input review aid, not a proof of absence of all trust mechanisms.",
+    "Only manifest-listed local sources in Hindman168/OAI/PrimeNumberTheoremAnd are scanned. External Mathlib/Lean/Batteries transitive source closure is not scanned by this report.",
+    "Absence of the scanned constructs does not rule out hidden mathematical hypotheses or automatically generated declarations; CheckEndpoint type locks and the full all-declarations transitive-axiom audit remain separate requirements.",
+    "noncomputable permits definitions whose executable code is not required (for example, definitions using classical choice); it does not itself add axioms and is not a placeholder. Actual dependencies must be assessed by the separate axiom audit.",
+    "Opaque declarations are not automatically unsound; unsafe/runtime implementations require context and actual proof-dependency analysis. Counts here report syntax occurrences only.",
+    "This script does not execute Lean, Lake, axiom auditing, or leanchecker, and does not establish that the final target builds or is proved."
+  ],
+  "lean_executed": false,
+  "lake_executed": false,
+  "axiom_audit_executed": false,
+  "kernel_replay_executed": false,
+  "full_target_proved_by_this_scan": false
+}

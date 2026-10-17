@@ -1,0 +1,20 @@
+{
+  "command": [
+    "lake",
+    "-v",
+    "build",
+    "Hindman168.JSP000168"
+  ],
+  "started_utc": "2026-10-17T11:44:05.740710+00:00",
+  "status": "passed",
+  "exit_code": 0,
+  "lean_num_threads": "3",
+  "runner_sha256": "656e603e2778943bc58c43c9211fb7f85a322e1e37207dee88a5401c13595d0b",
+  "sources_before_sha256": "9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e",
+  "finished_utc": "2026-10-17T11:58:57.370689+00:00",
+  "build_log_sha256": "08527ae5fc9fb7eaf4e0a7df0eec2f1b22d3edbd8b8ec14503914784a37a66ab",
+  "sources_after_sha256": "9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e",
+  "source_inputs_unchanged": true,
+  "binding_finished_utc": "2026-10-17T11:59:18.230742+00:00",
+  "wrapper_exit_code": 0
+}
