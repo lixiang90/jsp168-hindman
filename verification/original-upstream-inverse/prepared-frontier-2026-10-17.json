@@ -3,7 +3,7 @@
   "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
   "lean": "4.32.2",
   "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
-  "scope": "23 first-frontier files restored from fixed upstream; 19 exact sources and 4 compatibility ports. One port passed a direct strict source check; no successful whole-frontier build or audit is claimed.",
+  "scope": "23 first-frontier files restored from fixed upstream; 18 exact sources and 5 compatibility ports. Two ports passed direct strict source checks; no successful whole-frontier build or audit is claimed.",
   "files": [
     {
       "module": "OAI.Combinatorics.Progressions.Dynamics.CyclicProductBudget",
@@ -461,13 +461,36 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/CanonicalCoverLaw.lean",
       "upstream_blob": "30e9db111b3648c6317c70590f8d96fd6e64d184",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Probability/CanonicalCoverLaw.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-pinned-API-compatibility",
+          "changes": [
+            "rename Set.ofPred_forall to Set.setOf_forall",
+            "construct both mapped IsProbabilityMeasure instances using Measure.isProbabilityMeasure_map applied to the existing measurable map proofs"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume1-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/CanonicalCoverLaw.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "19647a04f76deeb84684b9979c0b3e0e977b9286744d54191a5827f383d2c05f",
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
+        }
+      ],
       "upstream_blob_recomputed": "30e9db111b3648c6317c70590f8d96fd6e64d184",
       "upstream_sha256": "805cc8204995e40c8f746dfcfdac345aea7ad78bab4514f920c9b4b5d99b55b9",
-      "ported_sha256": "805cc8204995e40c8f746dfcfdac345aea7ad78bab4514f920c9b4b5d99b55b9",
+      "ported_sha256": "19647a04f76deeb84684b9979c0b3e0e977b9286744d54191a5827f383d2c05f",
       "raw_bytes": 17388,
-      "ported_bytes": 17388,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 17983,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Estimates.CanonicalCoefficientCoverLift",
@@ -476,7 +499,7 @@
         "OAI.Combinatorics.Progressions.Lattices.AffineCubePositiveComparison",
         "OAI.Combinatorics.Progressions.Linear.CoefficientCoverKernel"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Probability/CanonicalCoverLaw.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Probability/CanonicalCoverLaw.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: Set.ofPred_forall renamed to Set.setOf_forall; explicitly construct\n+mapped probability-measure instances from the existing measurable maps.\n+The original mathematical statements and assumptions are retained.\n+-/\n import Mathlib.Analysis.Normed.Group.Quotient\n import Mathlib.MeasureTheory.Measure.Haar.Unique\n import OAI.Combinatorics.Progressions.Estimates.CanonicalCoefficientCoverLift\n@@ -67,7 +75,7 @@\n instance subspaceArrayIntegerLattice_closed {I D : Type*} (U : Submodule ℝ (D → ℝ)) :\n     IsClosed (subspaceArrayIntegerLattice I U : Set (I → U)) := by\n   change IsClosed {x : I → U | ∀ i a, ∃ n : ℤ, (x i).val a = n}\n-  simp only [Set.ofPred_forall]\n+  simp only [Set.setOf_forall]\n   apply isClosed_iInter\n   intro i\n   apply isClosed_iInter\n@@ -99,7 +107,8 @@\n theorem euclideanSubspaceTorusMeasure_probability [IsProbabilityMeasure ν] :\n     IsProbabilityMeasure (euclideanSubspaceTorusMeasure U ν) := by\n   unfold euclideanSubspaceTorusMeasure\n-  infer_instance\n+  exact Measure.isProbabilityMeasure_map\n+    (euclideanSubspaceTorusMeasurableEquiv U).measurable.aemeasurable\n \n theorem euclideanSubspaceTorusMeasure_invariant [ν.IsAddLeftInvariant] :\n     (euclideanSubspaceTorusMeasure U ν).IsAddLeftInvariant :=\n@@ -217,7 +226,7 @@\n       (coefficientSiteResidual_cover_on_kernel U site q T) D x y hxy\n   obtain ⟨g, hgc, hg⟩ := exists_continuous_image_factor E hE (fun x => f (C x)) (hfc.comp hC)\n     hfiber\n-  let _ : IsProbabilityMeasure (μ.map π) := inferInstance\n+  let _ : IsProbabilityMeasure (μ.map π) := Measure.isProbabilityMeasure_map hπ.aemeasurable\n   have hgb (y) : g y ∈ Set.Icc (0 : ℝ) B := by\n     obtain ⟨x, hx⟩ := Set.rangeFactorization_surjective y\n     rw [← hx, hg]\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Sampling.ControlledIntegralGrid",
@@ -501,8 +524,8 @@
   "validation": {
     "fixed_upstream_git_blob_verifications": 23,
     "source_count": 23,
-    "exact_sources": 19,
-    "compatibility_ports": 4,
+    "exact_sources": 18,
+    "compatibility_ports": 5,
     "compiled": false,
     "existing_verified_sources_modified": false
   },

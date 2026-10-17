@@ -4,22 +4,23 @@ The verified checkpoint remains the one in `current-replay.json` and README.
 This continuation does not extend its compiled or audited coverage.
 
 `prepared-frontier-2026-10-17.json` records 23 additional source modules from
-OpenAI/math commit `adc7f1241b42e322a6451854ab7e4b4c146bf78a`: 19 exact copies
-and 4 API compatibility ports with file-level notices and complete diffs.
+OpenAI/math commit `adc7f1241b42e322a6451854ab7e4b4c146bf78a`: 18 exact copies
+and 5 API compatibility ports with file-level notices and complete diffs.
 Original Git blob identities and source SHA-256 hashes were recomputed.
 Their complete local OAI source import closure has no missing files. These
 checks establish source identity and availability, not successful Lean builds.
 
 `prepared-axis-2026-10-17.json` extends preparation to all 577 missing modules:
-401 exact sources and 176 compatibility ports. The actual 2,102-module Axis
+400 exact sources and 177 compatibility ports. The actual 2,102-module Axis
 import closure is recorded in `axis-prepared-modules.txt`; it is acyclic and
 has no missing OAI source imports. All corresponding Mathlib source imports
 exist at the fixed dependency revision. Local original files were used to
 recompute each original Git blob, both SHA-256 hashes, and the full port diff.
 These are still source checks: the complete Axis endpoint has not compiled.
-The `SlicedPolynomialPerturbation` port passed a direct strict source check
-against existing dependency artifacts, as recorded in both prepared manifests.
-That single-module exit 0 does not extend the complete Axis build or axiom audit.
+The `SlicedPolynomialPerturbation` and `CanonicalCoverLaw` ports passed direct
+strict source checks against existing dependency artifacts, as recorded in
+both prepared manifests. Those single-module exits do not extend the complete
+Axis build or axiom audit.
 
 Read-only reproduction of the committed prepared source inventory:
 

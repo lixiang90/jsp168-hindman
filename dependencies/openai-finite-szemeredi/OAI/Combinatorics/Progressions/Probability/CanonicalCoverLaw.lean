@@ -1,3 +1,11 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Changes: Set.ofPred_forall renamed to Set.setOf_forall; explicitly construct
+mapped probability-measure instances from the existing measurable maps.
+The original mathematical statements and assumptions are retained.
+-/
 import Mathlib.Analysis.Normed.Group.Quotient
 import Mathlib.MeasureTheory.Measure.Haar.Unique
 import OAI.Combinatorics.Progressions.Estimates.CanonicalCoefficientCoverLift
@@ -67,7 +75,7 @@ open MeasureTheory
 instance subspaceArrayIntegerLattice_closed {I D : Type*} (U : Submodule ℝ (D → ℝ)) :
     IsClosed (subspaceArrayIntegerLattice I U : Set (I → U)) := by
   change IsClosed {x : I → U | ∀ i a, ∃ n : ℤ, (x i).val a = n}
-  simp only [Set.ofPred_forall]
+  simp only [Set.setOf_forall]
   apply isClosed_iInter
   intro i
   apply isClosed_iInter
@@ -99,7 +107,8 @@ noncomputable def euclideanSubspaceTorusMeasure : Measure (SubspaceArrayTorus Un
 theorem euclideanSubspaceTorusMeasure_probability [IsProbabilityMeasure ν] :
     IsProbabilityMeasure (euclideanSubspaceTorusMeasure U ν) := by
   unfold euclideanSubspaceTorusMeasure
-  infer_instance
+  exact Measure.isProbabilityMeasure_map
+    (euclideanSubspaceTorusMeasurableEquiv U).measurable.aemeasurable
 
 theorem euclideanSubspaceTorusMeasure_invariant [ν.IsAddLeftInvariant] :
     (euclideanSubspaceTorusMeasure U ν).IsAddLeftInvariant :=
@@ -217,7 +226,7 @@ theorem exists_covered_coefficient_density {K S : Type*} [Fintype K] [Fintype S]
       (coefficientSiteResidual_cover_on_kernel U site q T) D x y hxy
   obtain ⟨g, hgc, hg⟩ := exists_continuous_image_factor E hE (fun x => f (C x)) (hfc.comp hC)
     hfiber
-  let _ : IsProbabilityMeasure (μ.map π) := inferInstance
+  let _ : IsProbabilityMeasure (μ.map π) := Measure.isProbabilityMeasure_map hπ.aemeasurable
   have hgb (y) : g y ∈ Set.Icc (0 : ℝ) B := by
     obtain ⟨x, hx⟩ := Set.rangeFactorization_surjective y
     rw [← hx, hg]
