@@ -15,6 +15,14 @@ suite result. Complete original evidence is archived at
 stored bytes, including compressed logs. Prize acceptance remains subject to
 maintainer review.
 
+**Public release and prize submission — 2026-10-17.** The repository was made
+public after the completed verification. Anonymous reads of the selected proof
+and evidence index returned HTTP 200 with matching hashes. The formalization
+and contribution references were submitted to the official awards catalog in
+[PR #5075](https://github.com/TheJustinSunPrize/awards/pull/5075), opened at
+`13:58:47 UTC` and awaiting maintainer review. The
+[submission record](verification/original-final-target/submission-2026-10-17.json)
+preserves the public-access and PR readback results.
 
 This project continues a Lean formalization of **JSP-000168**, corresponding to
 [Erdős problem #172](https://www.erdosproblems.com/172). The mathematical source
@@ -311,9 +319,9 @@ and the related formalization proposal [#4966](https://github.com/TheJustinSunPr
 must be disclosed. At the dated source check recorded in
 [`openai-math-sync-2026-10-17.json`](openai-math-sync-2026-10-17.json), #4869 was
 merged and #4966 was open and unmerged; the catalog still recorded Lean proof
-and eligibility as No, with independent mathematical review pending. Recheck
-these mutable records before a submission. Related routes and claimed
-contributions require accurate source-level comparison. No first-proof,
+and eligibility as No, with independent mathematical review pending. Official
+main and #4966 were refreshed again before PR #5075 was opened. Related routes
+and claimed contributions require accurate source-level comparison. No first-proof,
 priority, award acceptance or payment guarantee is made.
 
 Award acceptance and any payment require the prize's separate review and claim

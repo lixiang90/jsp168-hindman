@@ -1,0 +1,130 @@
+{
+  "schema": "jsp000168-public-submission-v1",
+  "recorded_utc": "2026-10-17T14:00:56.594Z",
+  "proof_repository": "https://github.com/lixiang90/jsp168-hindman",
+  "proof_commit": "7ae70219fb4034899c6c2d23cc3b58ec6730a1ba",
+  "formal_evidence_commit": "8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31",
+  "documentation_main_at_publication": "803fdda652f72a162c3aca0bedbee882498e91c8",
+  "proof_target": "Hindman168.JSP000168",
+  "theorems": [
+    "Hindman168.jsp000168_from_openai",
+    "Hindman168.strongConjecture_from_openai"
+  ],
+  "verification": {
+    "complete_target_build_exit_code": 0,
+    "endpoint_type_locks_exit_code": 0,
+    "all_local_declarations_audit_exit_code": 0,
+    "exact_audit_parser_exit_code": 0,
+    "fresh_same_lean_kernel_replay_exit_code": 0,
+    "whole_suite_exit_code": 0,
+    "local_modules": 5066,
+    "declaration_records": 70418,
+    "unique_declaration_names": 70306,
+    "observed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "evidence_index": "verified-2026-10-17/archive-index.json",
+    "evidence_index_sha256": "1d8cfa3923c9856a93dba1da2050a18717eacdf4616b4bc342abbefeff5a4a06",
+    "limitations": "Incremental target build with pinned official dependency caches; replay checks safe, nonpartial constants using the same pinned Lean kernel. This is not independent human mathematical acceptance or an independent kernel implementation."
+  },
+  "anonymous_public_read": {
+    "scope": "Fresh public HTTP requests with no Authorization header, cookies, credential helper or authenticated session.",
+    "observed_utc": "2026-10-17T13:42:16.872658+00:00",
+    "requests": [
+      {
+        "kind": "repository",
+        "url": "https://api.github.com/repos/lixiang90/jsp168-hindman",
+        "http_status": 200,
+        "bytes": 5543,
+        "sha256": "d8ba2450e10c9c641a76d0ae7470ff95d81301aa4a21261ca471607fda656fac",
+        "authorization_supplied": false,
+        "private": false,
+        "full_name": "lixiang90/jsp168-hindman",
+        "default_branch": "main"
+      },
+      {
+        "kind": "proof",
+        "url": "https://raw.githubusercontent.com/lixiang90/jsp168-hindman/7ae70219fb4034899c6c2d23cc3b58ec6730a1ba/Hindman168/JSP000168.lean",
+        "http_status": 200,
+        "bytes": 2035,
+        "sha256": "f52c4f61b0102812fd31432d30a427e866da8cacf6d0df673090f575a93f0231",
+        "authorization_supplied": false,
+        "matches_verified_bytes": true
+      },
+      {
+        "kind": "evidence",
+        "url": "https://raw.githubusercontent.com/lixiang90/jsp168-hindman/8ccf3ec0f2d69a7c665a2fb76a6385a1053f6c31/verification/original-final-target/verified-2026-10-17/archive-index.json",
+        "http_status": 200,
+        "bytes": 17653,
+        "sha256": "1d8cfa3923c9856a93dba1da2050a18717eacdf4616b4bc342abbefeff5a4a06",
+        "authorization_supplied": false,
+        "matches_verified_bytes": true
+      }
+    ],
+    "passed": true,
+    "finished_utc": "2026-10-17T13:42:30.024976+00:00"
+  },
+  "pr_creation": {
+    "started_utc": "2026-10-17T13:58:39.218283+00:00",
+    "finished_utc": "2026-10-17T13:58:49.804591+00:00",
+    "method": "gh pr create using existing credential in process-only GH_TOKEN",
+    "repository": "TheJustinSunPrize/awards",
+    "head": "lixiang90:jsp-000168-lean-proof-7ae7021",
+    "head_sha": "72cc99cca6360520fd53668698ad0263fc52e0fc",
+    "base": "main",
+    "base_sha_at_creation_gate": "fd8fa66abb4e21df828fdebc25298e9ad75521bd",
+    "body_sha256": "0099be8593485e3f797c4a0d1c1eb4fdbe46b1a962a35e8a19f84549f3928e1a",
+    "create_exit_code": 0,
+    "creation_attempted": true,
+    "url": "https://github.com/TheJustinSunPrize/awards/pull/5075",
+    "number": 5075,
+    "state": "open",
+    "draft": false,
+    "readback_passed": true
+  },
+  "official_pr_readback": {
+    "url": "https://github.com/TheJustinSunPrize/awards/pull/5075",
+    "number": 5075,
+    "state": "open",
+    "draft": false,
+    "head": {
+      "label": "lixiang90:jsp-000168-lean-proof-7ae7021",
+      "sha": "72cc99cca6360520fd53668698ad0263fc52e0fc"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "fd8fa66abb4e21df828fdebc25298e9ad75521bd",
+      "repo": "TheJustinSunPrize/awards"
+    },
+    "created_at": "2026-10-17T13:58:47Z",
+    "changed_files": [
+      {
+        "path": "problems/catalog-0101-0200.md",
+        "blob_sha": "30bc060f19bc0694f105afbeebc2f65d0e6555aa",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      }
+    ],
+    "additions": 2,
+    "deletions": 2,
+    "maintainer_can_modify": true,
+    "readback_recorded_utc": "2026-10-17T14:00:56.594Z",
+    "reviewed_body_exact_match": true,
+    "scope": "Only JSP-000168 Lean proof and Attribution basis rows; no proof sources, archives or binaries in awards PR."
+  },
+  "official_pre_submission_refresh": {
+    "observed_utc": "2026-10-17T13:50:44.404Z",
+    "upstream_main": "fd8fa66abb4e21df828fdebc25298e9ad75521bd",
+    "related_pr": {
+      "number": 4966,
+      "state": "open",
+      "merged": false,
+      "head": "a0f1ca8454b23b0074af18d31a371cc73f2a98c9",
+      "updated_at": "2026-10-14T08:59:37Z"
+    }
+  },
+  "review_status": "PR opened for maintainer review. Mathematical review, priority, eligibility, award acceptance and payment have not been decided by this submission."
+}

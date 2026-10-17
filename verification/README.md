@@ -12,6 +12,14 @@ acceptance are separate.
 The [dated partial checkpoint](original-final-target/checkpoint-2026-10-17/README.md)
 remains historical; its copied running-suite journal is not rewritten.
 
+The proof repository is now public. Anonymous reads matched the selected proof
+and evidence-index hashes. The official awards submission is
+[PR #5075](https://github.com/TheJustinSunPrize/awards/pull/5075), opened on
+2026-10-17 and awaiting maintainer review; the
+[submission record](original-final-target/submission-2026-10-17.json) preserves
+the public-access and PR readback results. This documentation update does not
+change the verified proof or verification tools.
+
 ## Current final target and checked source scope
 
 The selected proof commit is **`7ae70219fb4034899c6c2d23cc3b58ec6730a1ba`**. Build
