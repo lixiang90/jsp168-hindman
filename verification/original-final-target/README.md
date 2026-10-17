@@ -56,8 +56,10 @@ false. Regenerate the inventory after any source change. Different existing
 generated files are preserved unless `--replace-prepared` is explicitly supplied;
 keep completed verification evidence in a separate directory.
 
-The dated `static-source-scan-2026-10-17.json` records an executed lexical
-review of all 5,066 local sources at its specified source-inventory hash.
+The dated [metric-adapter source scan](static-source-scan-metric-2026-10-17.json)
+records an executed lexical review of all 5,066 local sources at its specified
+source-inventory hash. The earlier `static-source-scan-2026-10-17.json` retains
+the preceding checkpoint's record.
 The separate scanner checks exact source bytes, removes comments and strings,
 and classifies the detected proof-input tokens and elaboration options.
 After generating an inventory, reproduce a read-only scan with:
