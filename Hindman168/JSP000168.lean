@@ -1,12 +1,12 @@
 import Hindman168.FinalStrongFromOpenAI
 
 /-!
-UNCOMPILED: explicit JSP-000168 library statement for Lake DAG verification.
+Explicit JSP-000168 library statement for Lake DAG verification.
 
 The proof uses the existing `strong_to_indexed` and `indexed_to_finset`
-reductions after the fixed OpenAI inverse assembly. The complete dependency
-closure has not yet been compiled or audited, so this module must not be
-presented as a kernel-checked resolution. It is not imported by the old
+reductions after the fixed OpenAI inverse assembly. Verification status is
+recorded in `verification/original-final-target`; the full chain must be
+built and audited before any completion claim. It is not imported by the old
 canonical aggregate. Do not import its preserved work-in-progress snapshot
 in the same environment, since the theorem names coincide.
 -/
@@ -15,8 +15,7 @@ namespace Hindman168
 open scoped BigOperators
 
 /-- Every finite coloring admits exactly `m` distinct positive integers whose
-nonempty subset sums and products all have one common color.
-Draft final statement: its complete proof chain has not yet been compiled. -/
+nonempty subset sums and products all have one common color. -/
 theorem jsp000168_from_openai :
     ∀ (r : ℕ) (χ : ℕ → Fin r) (m : ℕ),
       ∃ (A : Finset ℕ) (c : Fin r),

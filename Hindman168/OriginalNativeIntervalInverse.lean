@@ -4,17 +4,18 @@ import Hindman168.OriginalInverseNormalizationTransport
 import OAI.Combinatorics.Progressions.Estimates.AxisCompression
 
 /-!
-UNCOMPILED: canonical library adapter prepared for Lake DAG verification.
+Canonical library adapter for Lake DAG verification.
 
 The finite-menu/linear-orbit bridge is supplied by
 `Hindman168.OriginalNativeIntervalInverseMenu`; the inverse endpoint is
 OpenAI's `exists_native_inverse_on_cyclic_encoding`, fixed at commit
 `adc7f1241b42e322a6451854ab7e4b4c146bf78a`.
 
-The complete source closure has been restored, but this adapter and its
-proof chain have not yet been compiled. This file is not imported by the
-old canonical aggregate. The preserved work-in-progress snapshot declares
-these same theorem names: never import both versions into one environment.
+Verification status is recorded in `verification/original-final-target`;
+the full chain must be built and audited before any completion claim.
+This file is not imported by the old canonical aggregate. The preserved
+work-in-progress snapshot declares these same theorem names: never import
+both versions into one environment.
 -/
 
 namespace Hindman168

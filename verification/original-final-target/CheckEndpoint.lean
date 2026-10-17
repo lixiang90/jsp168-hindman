@@ -1,7 +1,7 @@
 import Hindman168.JSP000168
 
 /-!
-PREPARED / UNCOMPILED endpoint checks. This file adds no mathematical premise.
+Endpoint checks for the final proof chain. This file adds no mathematical premise.
 Successful compilation, axiom inspection and fresh kernel replay must be
 recorded separately before treating the final proof chain as verified.
 -/

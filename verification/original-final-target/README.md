@@ -25,7 +25,7 @@ Explicitly select a fresh output directory to also generate `source-closure.json
 `modules.txt`, and `CheckAllDeclarations.lean`:
 
 ```powershell
-python verification/original-final-target/prepare.py --output-dir verification-local/final-target-chunked-2026-10-17
+python verification/original-final-target/prepare.py --output-dir verification-local/final-target-metric-2026-10-17
 ```
 
 The inventory hashes every local source in that closure and records each import.
@@ -45,6 +45,11 @@ unapproved test axioms, and that endpoint type locks detect omitted premises.
 Those fixtures are outside the proof target's import closure. Their successful
 self-test does not establish that the final JSP target builds or passes its audit.
 
+The [direct menu compilation record](menu-direct-check-2026-10-17.json) reports
+exit 0 for the conditional menu bridge at its exact source hash. It checks the
+explicit metric-topology observable construction against existing dependency
+artifacts. It is neither the full target build nor its axiom audit/kernel replay.
+
 The generation script invokes neither Lake nor Lean. Its JSON status is always
 preparation, with compilation, axiom-audit execution and kernel replay marked
 false. Regenerate the inventory after any source change. Different existing
@@ -58,7 +63,7 @@ and classifies the detected proof-input tokens and elaboration options.
 After generating an inventory, reproduce a read-only scan with:
 
 ```powershell
-python verification/original-final-target/static-source-scan.py --manifest verification-local/final-target-chunked-2026-10-17/source-closure.json
+python verification/original-final-target/static-source-scan.py --manifest verification-local/final-target-metric-2026-10-17/source-closure.json
 ```
 
 This source-only review did not execute Lean or Lake. Its zero placeholder and
@@ -72,7 +77,7 @@ repository's pinned toolchain and dependencies, and save each real exit status:
 ```powershell
 lake build Hindman168.JSP000168
 lake env lean -j1 --trust=0 -DautoImplicit=false verification/original-final-target/CheckEndpoint.lean
-lake env lean -j1 --trust=0 -DautoImplicit=false verification-local/final-target-chunked-2026-10-17/CheckAllDeclarations.lean
+lake env lean -j1 --trust=0 -DautoImplicit=false verification-local/final-target-metric-2026-10-17/CheckAllDeclarations.lean
 lake env leanchecker --fresh --verbose Hindman168.JSP000168
 ```
 

@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-10-17T01:17:25.403398+00:00",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j1",
+    "Hindman168/OriginalNativeIntervalInverseMenu.lean"
+  ],
+  "environment": {
+    "LEAN_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "source": "Hindman168/OriginalNativeIntervalInverseMenu.lean",
+  "source_sha256": "78eabf74eefa3de0c13abf2269342caf8b16dc46527b31466198a4299fdab03c",
+  "output_artifact_requested": false,
+  "shared_build_artifacts_written": false,
+  "scope": "Successful direct module elaboration against the existing dependency artifacts; not a complete target build or audit.",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "log_bytes": 0,
+  "axiom_audit_executed": false,
+  "full_target_build_or_kernel_replay_passed_by_this_check": false
+}

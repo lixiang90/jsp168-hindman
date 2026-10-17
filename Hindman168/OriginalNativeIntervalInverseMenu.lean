@@ -2,12 +2,14 @@ import Hindman168.NativePeriodicIntervalInverseThreshold
 import Hindman168.OriginalBoundedNativeModelsLinearMenu
 
 /-!
-Uncompiled conditional bridge, separated from the upstream inverse endpoint.
+Conditional bridge, separated from the upstream inverse endpoint.
 
 This module uses only the existing bounded rational-model menu and same-step
 linearization. It introduces no inverse existence assertion as an axiom.
 The hypothesis below is supplied separately by the fixed OpenAI inverse
-theorem in `work-in-progress/OriginalNativeIntervalAdapter.lean`.
+theorem in `Hindman168.OriginalNativeIntervalInverse`. Verification status is
+recorded in `verification/original-final-target`; the full chain must be
+built and audited before any completion claim.
 -/
 
 namespace Hindman168
@@ -54,9 +56,18 @@ theorem native_periodic_interval_inverse_of_original_niltests
   obtain ⟨i, obs, g, x, hobs, hobsLip, heval⟩ := hmenu A T hT hTnorm
   refine ⟨i, ?_⟩
   letI := (models i).metric
-  refine ⟨star obs, g, x, ?_, originalIntervalAdapter_lipschitz_star obs hobsLip, ?_⟩
+  letI : TopologicalSpace ((models i).G ⧸ (models i).Γ) :=
+    (models i).metric.toUniformSpace.toTopologicalSpace
+  let obsMetric : C((models i).G ⧸ (models i).Γ, ℂ) :=
+    ⟨fun y => obs y, hobsLip.continuous⟩
+  refine ⟨star obsMetric, g, x, ?_,
+    originalIntervalAdapter_lipschitz_star obsMetric hobsLip, ?_⟩
   · intro y
-    simpa only [ContinuousMap.star_apply, norm_star] using hobs y
-  · simpa only [ContinuousMap.star_apply, heval] using hcorr
+    change ‖star (obs y)‖ ≤ 1
+    simpa only [norm_star] using hobs y
+  · change γ ≤ ‖finiteComplexMean (fun n : Fin (K * q) =>
+      (v (n.val : ZMod q) : ℂ) *
+        star (obs (QuotientGroup.mk (g ^ (n.val : ℤ) * x))))‖
+    simpa only [heval] using hcorr
 
 end Hindman168
