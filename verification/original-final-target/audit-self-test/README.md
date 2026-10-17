@@ -22,6 +22,15 @@ reject the fixture's unapproved private axiom (expected Lean exit 1).
 That exit 1 means the checker correctly rejected the negative fixture; it is
 not a passing result or verification evidence for JSP-000168.
 
+The real 5,066-name target literal exceeded the unchanged recursion limit as
+both a flat List and a flat Array in isolated core-only tests. The final audit
+generator therefore emits arrays of at most 128 names in separate `@[noinline]`
+private definitions and flattens their references. Separate core-only probes
+check all 5,066 members, iteration, size and set equality at `maxRecDepth 10000`
+and `maxHeartbeats 0`; these are container-mechanism tests, not proof checks.
+`target-container-probes-2026-10-17.json` records both flat-container failures
+and the successful prototype/canonical chunked-array runs, with actual exits.
+
 The endpoint fixture checks the `endpointProposition (@theorem)`/`rfl` method
 and confirms that explicit, implicit, and typeclass premises cannot be omitted
 from its type lock. The dated report records actual fixture exits; it is no

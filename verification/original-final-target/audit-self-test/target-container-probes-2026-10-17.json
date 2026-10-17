@@ -1,0 +1,86 @@
+{
+  "schema": "hindman.audit-container-resource-probes.v1",
+  "scope": "Executed isolated core-Lean audit-container probes only; these are not JSP target proof results. Flat List/Array failures are audit resource limits, not proof failures.",
+  "toolchain": "leanprover/lean4:v4.32.2",
+  "imports": [
+    "Lean"
+  ],
+  "arguments": [
+    "-j1",
+    "--trust=0",
+    "-DautoImplicit=false"
+  ],
+  "maxRecDepth": 10000,
+  "maxHeartbeats": 0,
+  "target_name_count": 5066,
+  "source_inventory_sha256": "d8979a51a0309a649b1cd5533ef2e8d81d8c49e920898ee674e029897786e185",
+  "cases": [
+    {
+      "container": "flat-list",
+      "raw_evidence": "verification-local/final-target-2026-10-17/private-api-review/target-list-probe-result.json",
+      "raw_evidence_sha256": "3e74a0d08ce7b7b1e18ee2a952dbb5ea1cc2d7861ec0d8e8b308ad44bff73250",
+      "started_utc": "2026-10-17T00:41:40.243964+00:00",
+      "finished_utc": "2026-10-17T00:41:46.145343+00:00",
+      "elapsed_seconds": 5.901391899998998,
+      "exit_code": 1,
+      "stdout": "ProbeTargets5066.lean:7:0: error: maximum recursion depth has been reached\nuse `set_option maxRecDepth <num>` to increase limit\nuse `set_option diagnostics true` to get diagnostic information\n",
+      "stderr": "",
+      "scratch_sha256": "850f6a09aa3c83d74e2fb1968139416c3a464ae2277982544efb2cd59ad5a242",
+      "targets_let_sha256": "15c980cbdb54770269169d06162ebece2f4647a63d935df81325b321582abf60",
+      "quoted_name_literals": 5066
+    },
+    {
+      "container": "flat-array",
+      "raw_evidence": "verification-local/final-target-2026-10-17/private-api-review/target-array-probe-result.json",
+      "raw_evidence_sha256": "34f91bd311fa6ae135fce67a337feb5bd6e9d1a48b81c8270197c362443dddac",
+      "started_utc": "2026-10-17T00:42:56.926531+00:00",
+      "finished_utc": "2026-10-17T00:43:03.038139+00:00",
+      "elapsed_seconds": 6.111622199998237,
+      "exit_code": 1,
+      "stdout": "ProbeTargets5066Array.lean:7:0: error: maximum recursion depth reached in the code generator\nfunction inline stack:\ninferInstance\n",
+      "stderr": "",
+      "scratch_sha256": "c20b33a96e6ee7914c7612cd9f81f47493f35a70af8cd7fcd2a26ef83fe96299",
+      "original_list_let_sha256": "15c980cbdb54770269169d06162ebece2f4647a63d935df81325b321582abf60",
+      "array_let_sha256": "43b6c3699d47021e7eb5caffb20b0a452bc8f9d4f08c005b6916b19b9e58ac5b",
+      "quoted_name_literals": 5066
+    },
+    {
+      "container": "chunked-array-prototype",
+      "raw_evidence": "verification-local/final-target-2026-10-17/private-api-review/target-chunks-probe-result.json",
+      "raw_evidence_sha256": "692a10f6f9d01cc49359591aa438c08eb2e42f2dc3090a516ccc96d65e40dc41",
+      "started_utc": "2026-10-17T00:44:27.545442+00:00",
+      "finished_utc": "2026-10-17T00:44:37.952398+00:00",
+      "elapsed_seconds": 10.406988800001272,
+      "exit_code": 0,
+      "stdout": "TARGET CHUNK PROBE: size=5066; iteration=5066; expected=5066; unique=5066; contains every expected member; sets equal\n",
+      "stderr": "",
+      "scratch_sha256": "1175a4d18f80ab232be52e82eb6fb0b80e37c6ef666ab2552619f0e731531bac",
+      "original_list_let_sha256": "15c980cbdb54770269169d06162ebece2f4647a63d935df81325b321582abf60",
+      "chunk_size": 128,
+      "chunks": 40,
+      "name_literals": 5066,
+      "original_names_exactly_match_manifest": true
+    },
+    {
+      "container": "canonical-chunked-array",
+      "raw_evidence": "verification-local/final-target-2026-10-17/private-api-review/canonical-target-chunks-probe-result.json",
+      "raw_evidence_sha256": "20f331f496f9419c58234730f0df0c9615d02102cb6a0c2a19c14bd9513a5718",
+      "started_utc": "2026-10-17T00:46:03.059065+00:00",
+      "finished_utc": "2026-10-17T00:46:13.168715+00:00",
+      "elapsed_seconds": 10.109687600001052,
+      "exit_code": 0,
+      "stdout": "TARGET CHUNK PROBE: size=5066; iteration=5066; expected=5066; unique=5066; contains every expected member; sets equal\n",
+      "stderr": "",
+      "scratch_sha256": "e60e2428974d2f9886fc16e45821294e037ee6b23ab39fb40bd670a7c6627a8f",
+      "chunk_size": 128,
+      "helper_definitions": 40,
+      "name_literals": 5066,
+      "canonical_names_exactly_match_manifest": true,
+      "canonical_generator_sha256": "c12134e12ad23c5a6b93db92c8ed873165d366236cbf08f0513bc1ec0960add7",
+      "canonical_generator_output_utf8_lf_sha256": "eec469be1953dbcebd8ec20a8c5d4981c6427e999579764c287e4eae8e5e8783"
+    }
+  ],
+  "lake_executed": false,
+  "jsp_or_mathlib_imported": false,
+  "actual_final_target_verification_executed": false
+}

@@ -67,7 +67,7 @@ report = {
     'runs': [],
 }
 def save():
-    (output / 'report.json').write_text(json.dumps(report, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+    (output / 'report.json').write_text(json.dumps(report, indent=2, ensure_ascii=False) + '\n', encoding='utf-8', newline='\n')
 
 save()
 try:

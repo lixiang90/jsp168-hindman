@@ -21,11 +21,11 @@ under the local namespaces `Hindman168`, `OAI`, and `PrimeNumberTheoremAnd`:
 python verification/original-final-target/prepare.py
 ```
 
-Explicitly select a new output directory to also generate `source-closure.json`,
+Explicitly select a fresh output directory to also generate `source-closure.json`,
 `modules.txt`, and `CheckAllDeclarations.lean`:
 
 ```powershell
-python verification/original-final-target/prepare.py --output-dir verification-local/final-target-2026-10-17
+python verification/original-final-target/prepare.py --output-dir verification-local/final-target-chunked-2026-10-17
 ```
 
 The inventory hashes every local source in that closure and records each import.
@@ -58,7 +58,7 @@ and classifies the detected proof-input tokens and elaboration options.
 After generating an inventory, reproduce a read-only scan with:
 
 ```powershell
-python verification/original-final-target/static-source-scan.py --manifest verification-local/final-target-2026-10-17/source-closure.json
+python verification/original-final-target/static-source-scan.py --manifest verification-local/final-target-chunked-2026-10-17/source-closure.json
 ```
 
 This source-only review did not execute Lean or Lake. Its zero placeholder and
@@ -72,7 +72,7 @@ repository's pinned toolchain and dependencies, and save each real exit status:
 ```powershell
 lake build Hindman168.JSP000168
 lake env lean -j1 --trust=0 -DautoImplicit=false verification/original-final-target/CheckEndpoint.lean
-lake env lean -j1 --trust=0 -DautoImplicit=false verification-local/final-target-2026-10-17/CheckAllDeclarations.lean
+lake env lean -j1 --trust=0 -DautoImplicit=false verification-local/final-target-chunked-2026-10-17/CheckAllDeclarations.lean
 lake env leanchecker --fresh --verbose Hindman168.JSP000168
 ```
 

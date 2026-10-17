@@ -54,12 +54,20 @@ def audit_source(modules):
     modules = sorted(modules)
     for module in modules:
         source_path(module)
+    chunks = [modules[i:i+128] for i in range(0, len(modules), 128)]
+    chunk_names = [f'auditTargetChunk{i:03d}' for i in range(len(chunks))]
+    target_definitions = '\n'.join(
+        '@[noinline] private def ' + name + ' : Array Name := #['
+        + ', '.join('`' + module for module in chunk) + ']\n'
+        for name, chunk in zip(chunk_names, chunks))
+    target_chunks = '#[' + ', '.join(chunk_names) + ']'
     return ('/- PREPARED: every declaration of the listed local target closure; not executed. -/\n'
         + '\n'.join('import ' + module for module in modules)
         + '\nimport Lean\n\nopen Lean Elab Command\n'
-        + 'set_option maxRecDepth 10000\nset_option maxHeartbeats 0\n\nrun_cmd do\n'
-        + '  let env ← getEnv\n  let targets : List Name := ['
-        + ', '.join('`' + module for module in modules) + ']\n'
+        + 'set_option maxRecDepth 10000\nset_option maxHeartbeats 0\n\n'
+        + target_definitions + '\nrun_cmd do\n'
+        + '  let env ← getEnv\n  let targets : Array Name := ('
+        + target_chunks + ' : Array (Array Name)).flatten\n'
         + '  let mut found : Std.HashSet Name := {}\n'
         + '  let mut seen : Std.HashSet Name := {}\n  let mut records : Nat := 0\n'
         + '  for i in [:env.header.moduleNames.size] do\n'
