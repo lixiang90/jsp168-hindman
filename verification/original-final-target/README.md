@@ -58,7 +58,11 @@ keep completed verification evidence in a separate directory.
 
 The dated [metric-adapter source scan](static-source-scan-metric-2026-10-17.json)
 records an executed lexical review of all 5,066 local sources at its specified
-source-inventory hash. The earlier `static-source-scan-2026-10-17.json` retains
+source-inventory hash. The subsequent [finite-budget checkpoint scan](static-source-scan-finite-budgets-2026-10-17.json)
+covers the two local budget additions, the explicit Mathlib series import, and
+the public verification tools at source commit `5eede9c`. It again reports no
+primary or reduction-oracle findings; all 137 options are classified.
+The earlier `static-source-scan-2026-10-17.json` retains
 the preceding checkpoint's record.
 The separate scanner checks exact source bytes, removes comments and strings,
 and classifies the detected proof-input tokens and elaboration options.
