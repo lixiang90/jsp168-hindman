@@ -143,7 +143,9 @@ def inventory():
     digest_text = ''.join(module + '\t' + entry['path'] + '\t' + entry['sha256'] + '\n'
                           for module, entry in sources.items())
     inputs = [ROOT / 'lean-toolchain', ROOT / 'lakefile.toml', ROOT / 'lake-manifest.json',
-              Path(__file__).resolve(), HELPER_PATH, HERE / 'CheckEndpoint.lean']
+              Path(__file__).resolve(), HELPER_PATH, HERE / 'CheckEndpoint.lean',
+              HERE / 'run-final-suite.py', HERE / 'summarize-audit.py',
+              HERE / 'static-source-scan.py']
     report = {'schema': 'hindman.final-target-source-preparation.v1',
         'status': 'prepared-source-inventory-only; Lean commands not executed', 'target': TARGET,
         'toolchain': toolchain, 'mathlib': mathlib[0]['rev'],

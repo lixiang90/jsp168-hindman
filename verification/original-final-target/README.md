@@ -83,6 +83,30 @@ lake env lean -j1 --trust=0 -DautoImplicit=false verification-local/final-target
 lake env leanchecker --fresh --verbose Hindman168.JSP000168
 ```
 
+The public suite and log parser below are **pending execution on the full
+target**. The suite records the three verification commands' real exits and
+compares source, artifact, dependency and toolchain-binary inputs before/after.
+It does not run or replace the complete `lake build Hindman168.JSP000168`;
+retain that build's actual successful exit separately before starting the suite.
+Generate a fresh inventory after any verification-tool change: the inventory
+also binds the suite, parser and static scanner by SHA256.
+
+For a new reproduction checkpoint, choose fresh inventory and suite directories:
+
+```powershell
+python verification/original-final-target/prepare.py --output-dir verification-local/final-target-repro
+# Run only after separately recording the complete target build's exit 0:
+python verification/original-final-target/run-final-suite.py verification-local/final-target-repro/source-closure.json final-target-suite-repro
+python verification/original-final-target/summarize-audit.py verification-local/final-target-repro/source-closure.json verification-local/final-target-suite-repro/02.log --output verification-local/final-target-suite-repro/audit-summary.json
+```
+
+The suite's second positional argument is a new directory name below
+`verification-local`. The parser independently checks every logged declaration,
+per-module and global counts, the exact manifest module set, and the three-axiom
+allowlist. It supports wrapped pretty printing and rejects incomplete logs;
+its successful parse does not replace the suite's real exits or kernel replay.
+The parser is read-only unless a new report path is explicitly supplied.
+
 Axiom inspection of imported artifacts and a fresh kernel replay are distinct
 checks. The pinned Lean `leanchecker --fresh` replays the target and its imported
 constants into an empty environment using Lean's own kernel; it is not a separate
