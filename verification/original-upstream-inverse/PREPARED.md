@@ -4,19 +4,22 @@ The verified checkpoint remains the one in `current-replay.json` and README.
 This continuation does not extend its compiled or audited coverage.
 
 `prepared-frontier-2026-10-17.json` records 23 additional source modules from
-OpenAI/math commit `adc7f1241b42e322a6451854ab7e4b4c146bf78a`: 20 exact copies
-and 3 API compatibility ports with file-level notices and complete diffs.
+OpenAI/math commit `adc7f1241b42e322a6451854ab7e4b4c146bf78a`: 19 exact copies
+and 4 API compatibility ports with file-level notices and complete diffs.
 Original Git blob identities and source SHA-256 hashes were recomputed.
 Their complete local OAI source import closure has no missing files. These
 checks establish source identity and availability, not successful Lean builds.
 
 `prepared-axis-2026-10-17.json` extends preparation to all 577 missing modules:
-402 exact sources and 175 compatibility ports. The actual 2,102-module Axis
+401 exact sources and 176 compatibility ports. The actual 2,102-module Axis
 import closure is recorded in `axis-prepared-modules.txt`; it is acyclic and
 has no missing OAI source imports. All corresponding Mathlib source imports
 exist at the fixed dependency revision. Local original files were used to
 recompute each original Git blob, both SHA-256 hashes, and the full port diff.
 These are still source checks: the complete Axis endpoint has not compiled.
+The `SlicedPolynomialPerturbation` port passed a direct strict source check
+against existing dependency artifacts, as recorded in both prepared manifests.
+That single-module exit 0 does not extend the complete Axis build or axiom audit.
 
 Read-only reproduction of the committed prepared source inventory:
 
@@ -45,15 +48,16 @@ modules `OriginalNativeIntervalInverse`, `FinalStrongFromOpenAI`, and
 
     lake build Hindman168.JSP000168
 
-These three modules are explicitly marked uncompiled. Their names alone do
-not establish a theorem. They must not be imported together with the WIP
-copies, which intentionally retain their earlier prepared declarations.
+The full target build and audit are still pending; see the separate
+[final-target verification status](../original-final-target/README.md).
+Their names alone do not establish a theorem. They must not be imported together
+with the WIP copies, which intentionally retain their earlier prepared declarations.
 
 The main theorem is still unproved in the verified repository. No publication
 or prize submission milestone is established by this prepared continuation.
 The original snapshot and current replay manifests are unchanged.
 
-All fixed dependency revisions have been recovered locally without changing
-the lockfile; matching compiled caches and fresh source builds are the next
-verification steps. See [the award readiness review](../award-readiness-2026-10-17.md)
+All fixed dependency revisions and matching dependency caches have been recovered
+locally without changing the lockfile; the complete source build is in progress.
+See [the award readiness review](../award-readiness-2026-10-17.md)
 for current submission requirements and related pending work.

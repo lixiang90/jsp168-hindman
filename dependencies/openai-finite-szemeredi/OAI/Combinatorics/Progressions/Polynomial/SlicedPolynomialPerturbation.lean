@@ -1,3 +1,11 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Changes: explicit WithTop smoothness-order proofs; derive the finite-sum injection
+comparison from sum_image and sum_le_sum_of_subset_of_nonneg in the pinned API.
+The original mathematical statements and assumptions are retained.
+-/
 import OAI.Combinatorics.Progressions.Estimates.JointBooleanStability
 
 namespace OAI
@@ -31,7 +39,7 @@ theorem parameterPolynomialMap_mass_c2_bounds
     rw [← polynomialParameterPoint_affine]
     exact hb.2.1.trans hdom.2.1
   · rw [he]
-    apply affineSlice_second_fderiv_norm_le _ ((polynomialVectorMap_contDiff p).of_le (by norm_num))
+    apply affineSlice_second_fderiv_norm_le _ ((polynomialVectorMap_contDiff p).of_le (by exact WithTop.coe_le_coe.mpr le_top))
       _ _ x (polynomialParameterInjection_norm_le Z I)
     rw [← polynomialParameterPoint_affine]
     exact hb.2.2.trans hdom.2.2
@@ -52,16 +60,17 @@ theorem realPolynomialMass_divMonomial_le {I : Type*}
   classical
   unfold realPolynomialMass
   simp only [MvPolynomial.coeff_divMonomial]
-  apply Finset.sum_le_sum_of_injOn (fun m => s + m)
-  · exact (add_right_injective s).injOn
-  · intro n hn
+  have hsub : (p.divMonomial s).support.image (fun m => s + m) ⊆ p.support := by
+    intro n hn
     obtain ⟨m, hm, rfl⟩ := Finset.mem_image.mp hn
     exact MvPolynomial.mem_support_iff.mpr (by
       simpa only [MvPolynomial.coeff_divMonomial] using MvPolynomial.mem_support_iff.mp hm)
-  · intro m hm
-    exact le_rfl
-  · intro m hm hnot
-    exact abs_nonneg _
+  calc
+    _ = ∑ n ∈ (p.divMonomial s).support.image (fun m => s + m), |p.coeff n| := by
+      rw [Finset.sum_image]
+      intro a _ b _ hab
+      exact add_left_cancel hab
+    _ ≤ _ := Finset.sum_le_sum_of_subset_of_nonneg hsub (fun _ _ _ => abs_nonneg _)
 
 theorem parameterPolynomialMap_mass_difference
     {Z I O : Type*} [Fintype Z] [DecidableEq Z] [Fintype I] [DecidableEq I]
@@ -81,9 +90,9 @@ theorem parameterPolynomialMap_mass_difference
     (fun o i => mvPolynomial_div_single_degreeOf_le (p o) none i (hd o i)) hC
     (fun o => (realPolynomialMass_divMonomial_le (p o) _).trans (hmass o)) ht z hz x hx
   exact factoredDifference_c2_bounds _ _ _ t
-    ((parameterPolynomialMap_contDiff p t z).of_le (by norm_num))
-    ((parameterPolynomialMap_contDiff p 0 z).of_le (by norm_num))
-    ((parameterPolynomialMap_contDiff q t z).of_le (by norm_num))
+    ((parameterPolynomialMap_contDiff p t z).of_le (by exact WithTop.coe_le_coe.mpr le_top))
+    ((parameterPolynomialMap_contDiff p 0 z).of_le (by exact WithTop.coe_le_coe.mpr le_top))
+    ((parameterPolynomialMap_contDiff q t z).of_le (by exact WithTop.coe_le_coe.mpr le_top))
     (parameterPolynomialMap_sub_zero p t z) x hq.1 hq.2.1 hq.2.2
 
 end Erdos3
@@ -141,7 +150,7 @@ theorem slicedPolynomialScale_spec
     have hh := (le_div_iff₀ (by linarith : 0 < 1 + L)).mp hs
     nlinarith [abs_nonneg s]
   apply hε.2.2 c lower width b i hwidth hc hprincipal hw hlower
-    (parameterPolynomialMap p s z) ((parameterPolynomialMap_contDiff p s z).of_le (by norm_num))
+    (parameterPolynomialMap p s z) ((parameterPolynomialMap_contDiff p s z).of_le (by exact WithTop.coe_le_coe.mpr le_top))
     _ φ hφ hφone
   intro x hx
   have herr := parameterPolynomialMap_mass_difference p hp hM hmass hs1 z hz x hx
@@ -176,8 +185,8 @@ theorem jointSlicedPrincipal_polynomial_tail_comparison
   classical
   let U := jointSlicedPrincipal c lower width
   let V := fun x => U x + t • polynomialVectorMap q x
-  have hU : ContDiff ℝ 2 U := (jointSlicedPrincipal_contDiff c lower width).of_le (by norm_num)
-  have hq : ContDiff ℝ 2 (polynomialVectorMap q) := (polynomialVectorMap_contDiff q).of_le (by norm_num)
+  have hU : ContDiff ℝ 2 U := (jointSlicedPrincipal_contDiff c lower width).of_le (by exact WithTop.coe_le_coe.mpr le_top)
+  have hq : ContDiff ℝ 2 (polynomialVectorMap q) := (polynomialVectorMap_contDiff q).of_le (by exact WithTop.coe_le_coe.mpr le_top)
   have hV : ContDiff ℝ 2 V := hU.add (hq.const_smul t)
   have hε := slicedPrincipalC2Tolerance_spec (B := B) (F := F) hdegree hC ha hδ hδone hη A hA
   have herr := hε.2.2 c lower width b i hwidth hc hprincipal hw hlower V hV
