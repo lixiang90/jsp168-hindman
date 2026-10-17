@@ -1,3 +1,9 @@
+/-
+Pinned-toolchain compatibility port of OpenAI/math adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Use a finite declaration-local heartbeat budget after a deterministic 200000-heartbeat timeout.
+Original mathematical declarations and hypotheses are unchanged.
+-/
+
 import OAI.Combinatorics.Progressions.Estimates.ExtractedInitialState
 
 namespace OAI
@@ -62,6 +68,7 @@ local notation "Y" => (fun (g : 𝓖) i => F.realFastCoefficientDirectionMap U (
 
 include e ω hF
 
+set_option maxHeartbeats 1000000 in
 theorem realFast_kernel_reabsorption_controlled
     (a b c : 𝓖) (S R : K →ₗ[ℝ] 𝓔)
     (hSR : S = (ρ (a * b * c)).toLinearMap.comp R)

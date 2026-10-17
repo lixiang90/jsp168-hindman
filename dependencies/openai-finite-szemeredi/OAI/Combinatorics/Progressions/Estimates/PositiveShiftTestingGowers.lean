@@ -1,3 +1,9 @@
+/-
+Pinned-toolchain compatibility port of OpenAI/math adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Unfold the seminorm evaluation and apply the empty-index supremum identity explicitly.
+Original mathematical declarations and hypotheses are unchanged.
+-/
+
 import OAI.Combinatorics.Progressions.Nilpotent.CyclicPairNiltestDetection
 import OAI.Combinatorics.Progressions.Nilpotent.PositiveShiftTestingNiltests
 
@@ -242,8 +248,8 @@ universe u
 theorem shiftTestingSeminorm_eq_zero_of_isEmpty {G ι : Type*}
     [AddCommGroup G] [Fintype G] [IsEmpty ι] (B : G → ℂ) (T : ι → G → ℂ) (v : G → ℂ) :
     shiftTestingSeminorm B T v = 0 := by
-  simp [shiftTestingSeminorm, shiftTestSeminormAt, Seminorm.sSup_empty]
-  rfl
+  change (Finset.univ.expect fun h : G => shiftTestSeminormAt B T h v) = 0
+  simp [shiftTestSeminormAt, iSup_of_empty', Seminorm.sSup_empty]
 
 namespace PositiveShiftBasis
 

@@ -11,7 +11,7 @@ Their complete local OAI source import closure has no missing files. These
 checks establish source identity and availability, not successful Lean builds.
 
 `prepared-axis-2026-10-17.json` extends preparation to all 577 missing modules:
-391 exact sources and 186 compatibility ports. The actual 2,102-module Axis
+388 exact sources and 189 compatibility ports. The actual 2,102-module Axis
 import closure is recorded in `axis-prepared-modules.txt`; it is acyclic and
 has no missing OAI source imports. All corresponding Mathlib source imports
 exist at the fixed dependency revision. Local original files were used to
@@ -25,9 +25,15 @@ explicit. `AllocatedMarkedDictionaryRecovery` makes canonical realification and
 existing product-topology instances explicit, and types the same original metric
 before its use; its complete file also passed a strict direct source check.
 These changes retain the original mathematical hypotheses.
+Direct strict source checks also passed for `BoundedRootDegreeEquivalence`,
+`PositiveShiftTestingGowers`, and `PrescribedPartitionExpansionCore`. Their
+latest changes make dependent equality transport, empty-index seminorm evaluation,
+and the definitionally equal `none` factor explicit, retaining the original
+mathematical hypotheses and model structures.
 `UniformControlledCurrentStage`,
 `NativeCoordinateDerivativeSystem`, `NativeFormalPolynomialSystems`, and
-`ExtractedInitialState` only add finite declaration-local `maxHeartbeats 1000000`
+`ExtractedInitialState`, together with `FastKernelReabsorptionControl` and
+`PositiveShiftRefilteredExpansion`, only add finite declaration-local `maxHeartbeats 1000000`
 after actual default-budget timeouts; their mathematical statements and proof
 bodies are unchanged.
 The prepared-source verifier permits those exact options only once in each

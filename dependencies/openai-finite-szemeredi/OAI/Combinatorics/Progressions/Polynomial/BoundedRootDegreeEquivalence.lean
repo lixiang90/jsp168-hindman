@@ -1,3 +1,9 @@
+/-
+Pinned-toolchain compatibility port of OpenAI/math adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Use explicit equality elimination to transport the tensor length and its dependent instances.
+Original mathematical declarations and hypotheses are unchanged.
+-/
+
 import OAI.Combinatorics.Progressions.Estimates.NativeMultidegreeDilation
 import OAI.Combinatorics.Progressions.Estimates.TensorSquarePairComparison
 
@@ -237,8 +243,13 @@ theorem exists_bounded_root_degree_equivalence (s Q : ℕ) :
           V.eval (tensorVector R.eval (i.val + 1)) :=
     (Classical.choose_spec
       (exists_uniform_root_degree_equivalence.{0} s (i.val + 1) (by omega))).2
-  rw [hi] at hroot
-  obtain ⟨R, hdim, hE⟩ := hroot bound hs W
+  have hrootAt (n : ℕ) (hn : i.val + 1 = n) :
+      ∃ R : NativeMultidegreeNilcharacter bound ((p + a i) ^ a i),
+        R.dim = W.dim ∧ NativeIntegerVectorEquivalence s ((p + a i) ^ a i)
+          W.eval (tensorVector R.eval n) := by
+    cases hn
+    exact hroot bound hs W
+  obtain ⟨R, hdim, hE⟩ := hrootAt q hi
   have hsum : a i ≤ ∑ j, a j :=
     Finset.single_le_sum (fun j _ => Nat.zero_le (a j)) (Finset.mem_univ i)
   have haC : a i ≤ C := by dsimp [C]; omega

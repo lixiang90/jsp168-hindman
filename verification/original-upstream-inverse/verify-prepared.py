@@ -45,6 +45,10 @@ LOCAL_HEARTBEAT_DECLARATIONS = {
         'nativeFast_derivativeSystem_to_formal',
     'OAI.Combinatorics.Progressions.Estimates.ExtractedInitialState':
         'exists_fastCoefficient_rational_removal_grid',
+    'OAI.Combinatorics.Progressions.Linear.FastKernelReabsorptionControl':
+        'realFast_kernel_reabsorption_controlled',
+    'OAI.Combinatorics.Progressions.Estimates.PositiveShiftRefilteredExpansion':
+        'refiltered_product_expansion_of_recovered',
 }
 
 

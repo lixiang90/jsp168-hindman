@@ -3,6 +3,7 @@ Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/opena
 Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
 Changes: IsModuleTopology.isTopologicalAddGroup -> IsModuleTopology.topologicalAddGroup (2)
+Use a finite declaration-local heartbeat budget after a deterministic 200000-heartbeat timeout.
 No mathematical statements or assumptions changed.
 -/
 import OAI.Combinatorics.Progressions.Estimates.PositiveShiftRefilteredExpansionSpec
@@ -29,6 +30,7 @@ variable {ι : Type u} [Fintype ι] [DecidableEq ι] {L : ι → Type u}
   [TopologicalSpace (ℝ ⊗[ℚ] L a)] [IsTopologicalAddGroup (ℝ ⊗[ℚ] L a)]
   [ContinuousSMul ℝ (ℝ ⊗[ℚ] L a)] [T2Space (ℝ ⊗[ℚ] L a)]
 
+set_option maxHeartbeats 1000000 in
 theorem refiltered_product_expansion_of_recovered
     (hEF : E.filtration = (pi D).filtration.gradedRefiltration W)
     {p cost : ℝ} {q r : ℕ} (hbase : RefilteredRecoveredExpansionSpec D a W E Q p q r cost) :

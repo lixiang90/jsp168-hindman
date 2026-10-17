@@ -7,8 +7,8 @@
   "status": "prepared-source-closure-only; not compiled",
   "target": "OAI.Combinatorics.Progressions.Estimates.AxisCompression",
   "new_sources": 577,
-  "exact_sources": 391,
-  "compatibility_ports": 186,
+  "exact_sources": 388,
+  "compatibility_ports": 189,
   "fixed_upstream_blobs_recomputed": 577,
   "prepared_source_changes_since_manifests": [],
   "actual_axis_oai_closure_modules": 2102,
@@ -3973,19 +3973,44 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/BoundedRootDegreeEquivalence.lean",
       "upstream_blob": "c82092d830a50b4089be4f1651977c357bce5953",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Polynomial/BoundedRootDegreeEquivalence.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-pinned-API-compatibility",
+          "changes": [
+            "replace the dependent rewrite of the tensor length by an explicitly typed equality-elimination motive, transporting the finite-domain instances together with their length; original declarations and hypotheses unchanged"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume5-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/BoundedRootDegreeEquivalence.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "5508d1bf08c4f99d226ac797e4b80cbe0371136cfdda133f349b449d911a23d6",
+            "started_utc": "2026-10-17T09:06:57.018573+00:00",
+            "finished_utc": "2026-10-17T09:08:10.123946+00:00",
+            "elapsed_seconds": 73.1045257000078,
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
+        }
+      ],
       "upstream_blob_recomputed": "c82092d830a50b4089be4f1651977c357bce5953",
       "upstream_sha256": "b35a56b4543979826fb936e963984bfe2badc624f46bfd5d119cea9056390786",
-      "ported_sha256": "b35a56b4543979826fb936e963984bfe2badc624f46bfd5d119cea9056390786",
+      "ported_sha256": "5508d1bf08c4f99d226ac797e4b80cbe0371136cfdda133f349b449d911a23d6",
       "raw_bytes": 12341,
-      "ported_bytes": 12341,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 12858,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Estimates.NativeMultidegreeDilation",
         "OAI.Combinatorics.Progressions.Estimates.TensorSquarePairComparison"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Polynomial/BoundedRootDegreeEquivalence.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/BoundedRootDegreeEquivalence.lean\n@@ -1,3 +1,9 @@\n+/-\n+Pinned-toolchain compatibility port of OpenAI/math adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Use explicit equality elimination to transport the tensor length and its dependent instances.\n+Original mathematical declarations and hypotheses are unchanged.\n+-/\n+\n import OAI.Combinatorics.Progressions.Estimates.NativeMultidegreeDilation\n import OAI.Combinatorics.Progressions.Estimates.TensorSquarePairComparison\n \n@@ -237,8 +243,13 @@\n           V.eval (tensorVector R.eval (i.val + 1)) :=\n     (Classical.choose_spec\n       (exists_uniform_root_degree_equivalence.{0} s (i.val + 1) (by omega))).2\n-  rw [hi] at hroot\n-  obtain ⟨R, hdim, hE⟩ := hroot bound hs W\n+  have hrootAt (n : ℕ) (hn : i.val + 1 = n) :\n+      ∃ R : NativeMultidegreeNilcharacter bound ((p + a i) ^ a i),\n+        R.dim = W.dim ∧ NativeIntegerVectorEquivalence s ((p + a i) ^ a i)\n+          W.eval (tensorVector R.eval n) := by\n+    cases hn\n+    exact hroot bound hs W\n+  obtain ⟨R, hdim, hE⟩ := hrootAt q hi\n   have hsum : a i ≤ ∑ j, a j :=\n     Finset.single_le_sum (fun j _ => Nat.zero_le (a j)) (Finset.mem_univ i)\n   have haC : a i ≤ C := by dsimp [C]; omega\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Estimates.CubicAntisymmetricTransfer",
@@ -5452,18 +5477,44 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/FastKernelReabsorptionControl.lean",
       "upstream_blob": "fa4ba1b1f10681c3497ce38c1c6e5deed55146fb",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Linear/FastKernelReabsorptionControl.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-finite-declaration-local-elaboration-budget",
+          "changes": [
+            "add finite declaration-local set_option maxHeartbeats 1000000 in only before realFast_kernel_reabsorption_controlled after the actual deterministic default-200000-heartbeat isDefEq timeout; original statement and proof body unchanged"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume5-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/FastKernelReabsorptionControl.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "68be6dbed6428f9010768ab3029c979b47ab7fdc251184d3483bb113488618ba",
+            "started_utc": "2026-10-17T09:11:56.343593+00:00",
+            "finished_utc": "2026-10-17T09:13:12.862296+00:00",
+            "elapsed_seconds": 76.51809359999606,
+            "artifact_output": false,
+            "whole_target_compiled": false
+          },
+          "statement_and_proof_body_preserved": true
+        }
+      ],
       "upstream_blob_recomputed": "fa4ba1b1f10681c3497ce38c1c6e5deed55146fb",
       "upstream_sha256": "3fb322534f21eb6ad5dc313d1fc0007208ac0f67f8b173cee4f2a2f4186c152e",
-      "ported_sha256": "3fb322534f21eb6ad5dc313d1fc0007208ac0f67f8b173cee4f2a2f4186c152e",
+      "ported_sha256": "68be6dbed6428f9010768ab3029c979b47ab7fdc251184d3483bb113488618ba",
       "raw_bytes": 5819,
-      "ported_bytes": 5819,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 6116,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Estimates.ExtractedInitialState"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Linear/FastKernelReabsorptionControl.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Linear/FastKernelReabsorptionControl.lean\n@@ -1,3 +1,9 @@\n+/-\n+Pinned-toolchain compatibility port of OpenAI/math adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Use a finite declaration-local heartbeat budget after a deterministic 200000-heartbeat timeout.\n+Original mathematical declarations and hypotheses are unchanged.\n+-/\n+\n import OAI.Combinatorics.Progressions.Estimates.ExtractedInitialState\n \n namespace OAI\n@@ -62,6 +68,7 @@\n \n include e ω hF\n \n+set_option maxHeartbeats 1000000 in\n theorem realFast_kernel_reabsorption_controlled\n     (a b c : 𝓖) (S R : K →ₗ[ℝ] 𝓔)\n     (hSR : S = (ρ (a * b * c)).toLinearMap.comp R)\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Estimates.FormalLinearLiftReabsorption",
@@ -8169,13 +8220,37 @@
           "from": "IsModuleTopology.isTopologicalAddGroup",
           "to": "IsModuleTopology.topologicalAddGroup",
           "count": 7
+        },
+        {
+          "kind": "observed-pinned-API-compatibility",
+          "changes": [
+            "make the definitionally equal optionFactors none model explicit as D₀ in the two existing subgroup/niltest specifications and give their frequency functionals the explicit L₀ domain; no additional hypotheses, structures or resource options"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume5-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PrescribedPartitionExpansionCore.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "8e9ad8124244c2124fb9262a58c57e8f3ffdf537a72b147c2e646b323b353202",
+            "started_utc": "2026-10-17T09:17:54.633512+00:00",
+            "finished_utc": "2026-10-17T09:22:51.129349+00:00",
+            "elapsed_seconds": 296.495198500008,
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
         }
       ],
       "upstream_blob_recomputed": "74cc59c760b2949e51305bb7c44fc07874e28f2c",
       "upstream_sha256": "0acaa40ff8836c557eb70918149610491d6080c55fa92afe6c96f6768cbeab84",
-      "ported_sha256": "3a913541a4f6f678923fae103623824b79be5a7be9a20595bd1073f69593a3f8",
+      "ported_sha256": "8e9ad8124244c2124fb9262a58c57e8f3ffdf537a72b147c2e646b323b353202",
       "raw_bytes": 41773,
-      "ported_bytes": 42152,
+      "ported_bytes": 42331,
       "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
@@ -8184,7 +8259,7 @@
         "OAI.Combinatorics.Progressions.Estimates.PrescribedComplementInputPartition",
         "OAI.Combinatorics.Progressions.Polynomial.TrivialPolynomialData"
       ],
-      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/PrescribedPartitionExpansionCore.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PrescribedPartitionExpansionCore.lean\n@@ -1,3 +1,10 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: IsModuleTopology.isTopologicalAddGroup -> IsModuleTopology.topologicalAddGroup (7)\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Dynamics.RefilteredExpansionErrorBudget\n import OAI.Combinatorics.Progressions.Estimates.ControlledRefilteredRecoveredExpansion\n import OAI.Combinatorics.Progressions.Estimates.PrescribedComplementInputPartition\n@@ -29,10 +36,10 @@\n   let I₀ := {i : ι // i ≠ a}\n   let Z₀ := pi (fun i : I₀ => D i.val)\n   letI := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n-  letI := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n+  letI := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n   letI := realification_moduleTopology_t2 Q.basis\n   letI := moduleTopology ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n-  letI := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n+  letI := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n   letI := realification_moduleTopology_t2 Z₀.basis\n   ∃ P : ℕ, 0 < P ∧ (P : ℝ) ≤ Real.exp cost ∧\n     ∃ Q' : RationalFilteredNilmanifold (H ⧸ E.filtration.layerIdeal (s + 1)) s n,\n@@ -129,10 +136,10 @@\n   let I₀ := {i : ι // i ≠ a}\n   let Z₀ := pi (fun i : I₀ => D i.val)\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n   let := realification_moduleTopology_t2 Q.basis\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n   let := realification_moduleTopology_t2 Z₀.basis\n   obtain ⟨P, hP, hPb, Q', hQF, hQb, hQle, hQ, Λ, hΛ, hchar, hnormal,\n     hfinite, hindex, l, hl, hin, hout, hV, hbase⟩ := hbase\n@@ -298,7 +305,7 @@\n       RefilteredProductExpansionSpec T none W R Q₀ p q r cost →\n       let H := (pi T).filtration.gradedRefiltrationSubalgebra W\n       letI := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n-      letI := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n+      letI := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n       letI := realification_moduleTopology_t2 Q₀.basis\n       ∃ Q' : RationalFilteredNilmanifold (H ⧸ R.filtration.layerIdeal (s + 1)) s dQ,\n         Q'.filtration = Q₀.filtration ∧ Q'.basis = Q₀.basis ∧ Q'.lattice ≤ Q₀.lattice ∧\n@@ -548,10 +555,10 @@\n   let I₀ := {i : Option (κ ⊕ ι) // i ≠ none}\n   let Z₀ := pi (optionComplementFactors D₀ Z)\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n   let := realification_moduleTopology_t2 Q₀.basis\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (∀ i : I₀, optionLieSpace L₀ KL i.val))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, optionLieSpace L₀ KL i.val))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, optionLieSpace L₀ KL i.val))\n   let := realification_moduleTopology_t2 Z₀.basis\n   have hselected : SelectedRefilteredProductExpansionSpec T none W R Q₀ p q r cost :=\n     selected_refiltered_product_expansion T none W R Q₀ hbase\n"
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/PrescribedPartitionExpansionCore.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PrescribedPartitionExpansionCore.lean\n@@ -1,3 +1,12 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: IsModuleTopology.isTopologicalAddGroup -> IsModuleTopology.topologicalAddGroup (7)\n+Make the none-factor realification and niltest types explicit as the definitionally equal D₀ model,\n+and give its existing frequency functional the explicit L₀ domain.\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Dynamics.RefilteredExpansionErrorBudget\n import OAI.Combinatorics.Progressions.Estimates.ControlledRefilteredRecoveredExpansion\n import OAI.Combinatorics.Progressions.Estimates.PrescribedComplementInputPartition\n@@ -29,10 +38,10 @@\n   let I₀ := {i : ι // i ≠ a}\n   let Z₀ := pi (fun i : I₀ => D i.val)\n   letI := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n-  letI := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n+  letI := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n   letI := realification_moduleTopology_t2 Q.basis\n   letI := moduleTopology ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n-  letI := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n+  letI := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n   letI := realification_moduleTopology_t2 Z₀.basis\n   ∃ P : ℕ, 0 < P ∧ (P : ℝ) ≤ Real.exp cost ∧\n     ∃ Q' : RationalFilteredNilmanifold (H ⧸ E.filtration.layerIdeal (s + 1)) s n,\n@@ -129,10 +138,10 @@\n   let I₀ := {i : ι // i ≠ a}\n   let Z₀ := pi (fun i : I₀ => D i.val)\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n   let := realification_moduleTopology_t2 Q.basis\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n   let := realification_moduleTopology_t2 Z₀.basis\n   obtain ⟨P, hP, hPb, Q', hQF, hQb, hQle, hQ, Λ, hΛ, hchar, hnormal,\n     hfinite, hindex, l, hl, hin, hout, hV, hbase⟩ := hbase\n@@ -298,7 +307,7 @@\n       RefilteredProductExpansionSpec T none W R Q₀ p q r cost →\n       let H := (pi T).filtration.gradedRefiltrationSubalgebra W\n       letI := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n-      letI := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n+      letI := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n       letI := realification_moduleTopology_t2 Q₀.basis\n       ∃ Q' : RationalFilteredNilmanifold (H ⧸ R.filtration.layerIdeal (s + 1)) s dQ,\n         Q'.filtration = Q₀.filtration ∧ Q'.basis = Q₀.basis ∧ Q'.lattice ≤ Q₀.lattice ∧\n@@ -319,10 +328,10 @@\n                 (D i).filtration.squareFiltration.layerIdeal (s + 1 + 1))) i →ₗ[ℚ] ℚ),\n               (∀ j x, x ∈ (pi T).filtration.realGradedRefiltrationLayer W (s + 1) →\n                 realifyFunctional (piFrequency (freq j)) x = 0) →\n-              ∀ (S : ZMod N → (T none).Niltest (fun _ : Unit => 1)),\n+              ∀ (S : ZMod N → D₀.Niltest (fun _ : Unit => 1)),\n                 (∀ h, (S h).ComplexityLE p) → (∀ h, (S h).UnitIntervalValued) →\n-                (∀ h z, z ∈ (T none).filtration.realification.subgroup (s + 1) →\n-                  (∀ j, realifyFunctional (freq j none) z.coord = 0) →\n+                (∀ h z, z ∈ D₀.filtration.realification.subgroup (s + 1) →\n+                  (∀ j, realifyFunctional (L := L₀) (freq j none) z.coord = 0) →\n                   ∀ x, (S h).observable (z • x) = (S h).observable x) →\n                 ∀ (Hsh : Set (ZMod N))\n                   (gT : ZMod N → ∀ i, (T i).filtration.realification.PolynomialOrbit (fun _ : Unit => 1))\n@@ -456,10 +465,10 @@\n                 (D i).filtration.squareFiltration.layerIdeal (s + 1 + 1))) i →ₗ[ℚ] ℚ),\n               (∀ j x, x ∈ (pi T).filtration.realGradedRefiltrationLayer W (s + 1) →\n                 realifyFunctional (piFrequency (freq j)) x = 0) →\n-              ∀ (S : ZMod N → (T none).Niltest (fun _ : Unit => 1)),\n+              ∀ (S : ZMod N → D₀.Niltest (fun _ : Unit => 1)),\n                 (∀ h, (S h).ComplexityLE p) → (∀ h, (S h).UnitIntervalValued) →\n-                (∀ h z, z ∈ (T none).filtration.realification.subgroup (s + 1) →\n-                  (∀ j, realifyFunctional (freq j none) z.coord = 0) →\n+                (∀ h z, z ∈ D₀.filtration.realification.subgroup (s + 1) →\n+                  (∀ j, realifyFunctional (L := L₀) (freq j none) z.coord = 0) →\n                   ∀ x, (S h).observable (z • x) = (S h).observable x) →\n                 ∀ (Hsh : Finset (ZMod N))\n                   (gT : ZMod N → ∀ i, (T i).filtration.realification.PolynomialOrbit (fun _ : Unit => 1))\n@@ -548,10 +557,10 @@\n   let I₀ := {i : Option (κ ⊕ ι) // i ≠ none}\n   let Z₀ := pi (optionComplementFactors D₀ Z)\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ R.filtration.layerIdeal (s + 1)))\n   let := realification_moduleTopology_t2 Q₀.basis\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (∀ i : I₀, optionLieSpace L₀ KL i.val))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, optionLieSpace L₀ KL i.val))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, optionLieSpace L₀ KL i.val))\n   let := realification_moduleTopology_t2 Z₀.basis\n   have hselected : SelectedRefilteredProductExpansionSpec T none W R Q₀ p q r cost :=\n     selected_refiltered_product_expansion T none W R Q₀ hbase\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Estimates.FixedTwoShiftBranches",
@@ -8278,20 +8353,45 @@
           "from": "IsModuleTopology.isTopologicalAddGroup",
           "to": "IsModuleTopology.topologicalAddGroup",
           "count": 2
+        },
+        {
+          "kind": "observed-finite-declaration-local-elaboration-budget",
+          "changes": [
+            "add finite declaration-local set_option maxHeartbeats 1000000 in only before refiltered_product_expansion_of_recovered after the actual deterministic default-200000-heartbeat whnf timeout; original statement and proof body unchanged"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume5-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PositiveShiftRefilteredExpansion.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "e70a1ab7d5f5b3b9bf7fa3e0d58707093f1d296194b0b81b7f46ccbab339ed94",
+            "started_utc": "2026-10-17T09:13:24.353144+00:00",
+            "finished_utc": "2026-10-17T09:14:53.339455+00:00",
+            "elapsed_seconds": 88.98573309999483,
+            "artifact_output": false,
+            "whole_target_compiled": false
+          },
+          "statement_and_proof_body_preserved": true
         }
       ],
       "upstream_blob_recomputed": "27939c0abeb3d7ae20558ae281720770cf63d676",
       "upstream_sha256": "d63c6feea6db12e6d9643d7a301f5542198bf9be12eb60e174ffd5166dc307cf",
-      "ported_sha256": "5ad785ab29b82e4f99dcbbf8fb1215c72341dfcc316cacd490a94ee51d8f107d",
+      "ported_sha256": "e70a1ab7d5f5b3b9bf7fa3e0d58707093f1d296194b0b81b7f46ccbab339ed94",
       "raw_bytes": 15387,
-      "ported_bytes": 15776,
+      "ported_bytes": 15908,
       "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Estimates.PositiveShiftRefilteredExpansionSpec",
         "OAI.Combinatorics.Progressions.Polynomial.ProductPolynomialMaps"
       ],
-      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/PositiveShiftRefilteredExpansion.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PositiveShiftRefilteredExpansion.lean\n@@ -1,3 +1,10 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: IsModuleTopology.isTopologicalAddGroup -> IsModuleTopology.topologicalAddGroup (2)\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Estimates.PositiveShiftRefilteredExpansionSpec\n import OAI.Combinatorics.Progressions.Polynomial.ProductPolynomialMaps\n \n@@ -31,10 +38,10 @@\n   let I₀ := {i : ι // i ≠ a}\n   let Z₀ := pi (fun i : I₀ => D i.val)\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n   let := realification_moduleTopology_t2 Q.basis\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n   let := realification_moduleTopology_t2 Z₀.basis\n   obtain ⟨P, hP, hPb, Q', hQF, hQb, hQle, hQ, Z, hZF, hZb, _, _, Λ,\n     hΛ, hchar, hnormal, hfinite, hindex, l, hl, hin, hout, hV, hbase⟩ := hbase\n"
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/PositiveShiftRefilteredExpansion.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PositiveShiftRefilteredExpansion.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: IsModuleTopology.isTopologicalAddGroup -> IsModuleTopology.topologicalAddGroup (2)\n+Use a finite declaration-local heartbeat budget after a deterministic 200000-heartbeat timeout.\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Estimates.PositiveShiftRefilteredExpansionSpec\n import OAI.Combinatorics.Progressions.Polynomial.ProductPolynomialMaps\n \n@@ -22,6 +30,7 @@\n   [TopologicalSpace (ℝ ⊗[ℚ] L a)] [IsTopologicalAddGroup (ℝ ⊗[ℚ] L a)]\n   [ContinuousSMul ℝ (ℝ ⊗[ℚ] L a)] [T2Space (ℝ ⊗[ℚ] L a)]\n \n+set_option maxHeartbeats 1000000 in\n theorem refiltered_product_expansion_of_recovered\n     (hEF : E.filtration = (pi D).filtration.gradedRefiltration W)\n     {p cost : ℝ} {q r : ℕ} (hbase : RefilteredRecoveredExpansionSpec D a W E Q p q r cost) :\n@@ -31,10 +40,10 @@\n   let I₀ := {i : ι // i ≠ a}\n   let Z₀ := pi (fun i : I₀ => D i.val)\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (H ⧸ E.filtration.layerIdeal (s + 1)))\n   let := realification_moduleTopology_t2 Q.basis\n   let := moduleTopology ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n-  let := IsModuleTopology.isTopologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n+  let := IsModuleTopology.topologicalAddGroup ℝ (ℝ ⊗[ℚ] (∀ i : I₀, L i.val))\n   let := realification_moduleTopology_t2 Z₀.basis\n   obtain ⟨P, hP, hPb, Q', hQF, hQb, hQle, hQ, Z, hZF, hZb, _, _, Λ,\n     hΛ, hchar, hnormal, hfinite, hindex, l, hl, hin, hout, hV, hbase⟩ := hbase\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Fourier.BohrLocalMomentAlternatives",
@@ -9152,19 +9252,44 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PositiveShiftTestingGowers.lean",
       "upstream_blob": "33ed6959d8dc316d33b18a8f5653e5268c9dddb1",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/PositiveShiftTestingGowers.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-pinned-API-compatibility",
+          "changes": [
+            "expose the existing Seminorm.of evaluation as its expectation, then use iSup_of_empty' and Seminorm.sSup_empty for the original empty-index case; original declaration and hypotheses unchanged"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume5-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PositiveShiftTestingGowers.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "2663b6b11200f4eaa47424c83992c5a070c816d5c008240c612ace01615b2763",
+            "started_utc": "2026-10-17T09:10:25.731685+00:00",
+            "finished_utc": "2026-10-17T09:11:30.864044+00:00",
+            "elapsed_seconds": 65.1315356999985,
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
+        }
+      ],
       "upstream_blob_recomputed": "33ed6959d8dc316d33b18a8f5653e5268c9dddb1",
       "upstream_sha256": "43096d0d9b080c5be29761aa61ddd071456cb59307a5f538f7fb94e7a2c277c8",
-      "ported_sha256": "43096d0d9b080c5be29761aa61ddd071456cb59307a5f538f7fb94e7a2c277c8",
+      "ported_sha256": "2663b6b11200f4eaa47424c83992c5a070c816d5c008240c612ace01615b2763",
       "raw_bytes": 14060,
-      "ported_bytes": 14060,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 14375,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Nilpotent.CyclicPairNiltestDetection",
         "OAI.Combinatorics.Progressions.Nilpotent.PositiveShiftTestingNiltests"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/PositiveShiftTestingGowers.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/PositiveShiftTestingGowers.lean\n@@ -1,3 +1,9 @@\n+/-\n+Pinned-toolchain compatibility port of OpenAI/math adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Unfold the seminorm evaluation and apply the empty-index supremum identity explicitly.\n+Original mathematical declarations and hypotheses are unchanged.\n+-/\n+\n import OAI.Combinatorics.Progressions.Nilpotent.CyclicPairNiltestDetection\n import OAI.Combinatorics.Progressions.Nilpotent.PositiveShiftTestingNiltests\n \n@@ -242,8 +248,8 @@\n theorem shiftTestingSeminorm_eq_zero_of_isEmpty {G ι : Type*}\n     [AddCommGroup G] [Fintype G] [IsEmpty ι] (B : G → ℂ) (T : ι → G → ℂ) (v : G → ℂ) :\n     shiftTestingSeminorm B T v = 0 := by\n-  simp [shiftTestingSeminorm, shiftTestSeminormAt, Seminorm.sSup_empty]\n-  rfl\n+  change (Finset.univ.expect fun h : G => shiftTestSeminormAt B T h v) = 0\n+  simp [shiftTestSeminormAt, iSup_of_empty', Seminorm.sSup_empty]\n \n namespace PositiveShiftBasis\n \n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Estimates.CoefficientTensorApproximation",

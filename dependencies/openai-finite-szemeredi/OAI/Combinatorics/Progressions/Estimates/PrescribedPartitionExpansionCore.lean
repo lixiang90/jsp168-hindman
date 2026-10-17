@@ -3,6 +3,8 @@ Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/opena
 Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
 Changes: IsModuleTopology.isTopologicalAddGroup -> IsModuleTopology.topologicalAddGroup (7)
+Make the none-factor realification and niltest types explicit as the definitionally equal D₀ model,
+and give its existing frequency functional the explicit L₀ domain.
 No mathematical statements or assumptions changed.
 -/
 import OAI.Combinatorics.Progressions.Dynamics.RefilteredExpansionErrorBudget
@@ -326,10 +328,10 @@ def PrescribedPartitionExpansionSpec (s r b₀ k₀ a B C : ℕ) : Prop :=
                 (D i).filtration.squareFiltration.layerIdeal (s + 1 + 1))) i →ₗ[ℚ] ℚ),
               (∀ j x, x ∈ (pi T).filtration.realGradedRefiltrationLayer W (s + 1) →
                 realifyFunctional (piFrequency (freq j)) x = 0) →
-              ∀ (S : ZMod N → (T none).Niltest (fun _ : Unit => 1)),
+              ∀ (S : ZMod N → D₀.Niltest (fun _ : Unit => 1)),
                 (∀ h, (S h).ComplexityLE p) → (∀ h, (S h).UnitIntervalValued) →
-                (∀ h z, z ∈ (T none).filtration.realification.subgroup (s + 1) →
-                  (∀ j, realifyFunctional (freq j none) z.coord = 0) →
+                (∀ h z, z ∈ D₀.filtration.realification.subgroup (s + 1) →
+                  (∀ j, realifyFunctional (L := L₀) (freq j none) z.coord = 0) →
                   ∀ x, (S h).observable (z • x) = (S h).observable x) →
                 ∀ (Hsh : Set (ZMod N))
                   (gT : ZMod N → ∀ i, (T i).filtration.realification.PolynomialOrbit (fun _ : Unit => 1))
@@ -463,10 +465,10 @@ def PreparedHigherShiftContradictionSpec (s r b₀ k₀ k Dexp : ℕ) (epsilon :
                 (D i).filtration.squareFiltration.layerIdeal (s + 1 + 1))) i →ₗ[ℚ] ℚ),
               (∀ j x, x ∈ (pi T).filtration.realGradedRefiltrationLayer W (s + 1) →
                 realifyFunctional (piFrequency (freq j)) x = 0) →
-              ∀ (S : ZMod N → (T none).Niltest (fun _ : Unit => 1)),
+              ∀ (S : ZMod N → D₀.Niltest (fun _ : Unit => 1)),
                 (∀ h, (S h).ComplexityLE p) → (∀ h, (S h).UnitIntervalValued) →
-                (∀ h z, z ∈ (T none).filtration.realification.subgroup (s + 1) →
-                  (∀ j, realifyFunctional (freq j none) z.coord = 0) →
+                (∀ h z, z ∈ D₀.filtration.realification.subgroup (s + 1) →
+                  (∀ j, realifyFunctional (L := L₀) (freq j none) z.coord = 0) →
                   ∀ x, (S h).observable (z • x) = (S h).observable x) →
                 ∀ (Hsh : Finset (ZMod N))
                   (gT : ZMod N → ∀ i, (T i).filtration.realification.PolynomialOrbit (fun _ : Unit => 1))
