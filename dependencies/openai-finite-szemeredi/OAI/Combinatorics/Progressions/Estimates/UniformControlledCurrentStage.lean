@@ -1,3 +1,11 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Change: finite declaration-local maxHeartbeats 1000000 for
+exists_uniform_controlled_current_stage after the pinned default-budget timeout.
+The original mathematical statements, assumptions and proof bodies are retained.
+-/
 import OAI.Combinatorics.Progressions.Estimates.UniformFormalCurrentLayerStep
 import OAI.Combinatorics.Progressions.Polynomial.FormalPolynomialOperationBounds
 
@@ -148,6 +156,7 @@ namespace Erdos3.NilpotentLieFiltration
 open Module VectorPolynomial NilpotentLieBCHGroup
 open scoped TensorProduct
 
+set_option maxHeartbeats 1000000 in
 theorem exists_uniform_controlled_current_stage (s : ℕ) :
     ∃ C : ℕ, 2 ≤ C ∧
     ∀ {L μ ι ν σ : Type*} [LieRing L] [LieAlgebra ℚ L]
