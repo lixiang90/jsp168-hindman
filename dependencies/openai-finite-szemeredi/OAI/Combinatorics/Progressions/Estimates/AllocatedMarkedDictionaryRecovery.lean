@@ -3,6 +3,8 @@ Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/opena
 Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
 Changes: IsModuleTopology.isTopologicalAddGroup -> IsModuleTopology.topologicalAddGroup (7)
+Explicit canonical realification arguments and section-local derived product topology
+instances make the original definitional identifications visible to the pinned API.
 No mathematical statements or assumptions changed.
 -/
 import OAI.Combinatorics.Progressions.Dynamics.NativeOptionProductBudget
@@ -276,6 +278,46 @@ open scoped TensorProduct NNReal
 
 attribute [local instance_reducible] optionLieSpace
 
+section
+
+variable {ι : Type v} {L₀ : Type u} {L : ι → Type u}
+  [LieRing L₀] [LieAlgebra ℚ L₀] [∀ i, LieRing (L i)] [∀ i, LieAlgebra ℚ (L i)]
+  [piTopo : TopologicalSpace (ℝ ⊗[ℚ] ((i : ι) → L i))]
+
+private abbrev loweredSplitSomePiTopology :
+    TopologicalSpace (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) := by
+  change TopologicalSpace (ℝ ⊗[ℚ] ((i : ι) → L i))
+  exact piTopo
+
+private abbrev loweredSplitSomePiTopologicalAddGroup
+    [h : IsTopologicalAddGroup (ℝ ⊗[ℚ] ((i : ι) → L i))] :
+    letI : TopologicalSpace (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) :=
+      loweredSplitSomePiTopology (L₀ := L₀) (L := L)
+    IsTopologicalAddGroup (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) := by
+  change IsTopologicalAddGroup (ℝ ⊗[ℚ] ((i : ι) → L i))
+  exact h
+
+private abbrev loweredSplitSomePiContinuousSMul
+    [h : ContinuousSMul ℝ (ℝ ⊗[ℚ] ((i : ι) → L i))] :
+    letI : TopologicalSpace (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) :=
+      loweredSplitSomePiTopology (L₀ := L₀) (L := L)
+    ContinuousSMul ℝ (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) := by
+  change ContinuousSMul ℝ (ℝ ⊗[ℚ] ((i : ι) → L i))
+  exact h
+
+private abbrev loweredSplitSomePiT2Space
+    [h : T2Space (ℝ ⊗[ℚ] ((i : ι) → L i))] :
+    letI : TopologicalSpace (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) :=
+      loweredSplitSomePiTopology (L₀ := L₀) (L := L)
+    T2Space (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) := by
+  change T2Space (ℝ ⊗[ℚ] ((i : ι) → L i))
+  exact h
+
+end
+
+attribute [local instance] loweredSplitSomePiTopology loweredSplitSomePiTopologicalAddGroup
+  loweredSplitSomePiContinuousSMul loweredSplitSomePiT2Space
+
 theorem exists_lowered_split_reconstruction_cover :
     ∃ C : ℕ, 2 ≤ C ∧ ∀ {ι : Type v} [Fintype ι] [DecidableEq ι]
       {L₀ : Type u} {L : ι → Type u}
@@ -323,29 +365,40 @@ theorem exists_lowered_split_reconstruction_cover :
                  LipschitzWith K v) ∧
                 (∀ x, (v x).im = 0 ∧ 0 ≤ (v x).re ∧ (v x).re ≤ 1) ∧
                 ∀ x : (pi E).RealGroup,
-                  v (QuotientGroup.mk (changeStep (E none).filtration.realification.lowerCentralSeries_eq_bot
-                      Q.filtration.realification.lowerCentralSeries_eq_bot (productProjectionHom E none x)),
+                  v (QuotientGroup.mk (@changeStep (ℝ ⊗[ℚ] L₀) (LieAlgebra.ExtendScalars.instLieRing ℚ ℝ L₀)
+                      (LieAlgebra.ExtendScalars.instBaseLieAlgebra ℚ ℝ L₀) t s
+                      (realification_lowerCentralSeries_eq_bot (L := L₀) (E none).filtration.lowerCentralSeries_eq_bot)
+                      (realification_lowerCentralSeries_eq_bot (L := L₀) Q.filtration.lowerCentralSeries_eq_bot)
+                      (productProjectionHom E none x)),
                     (optionProductSpaceEquiv E (QuotientGroup.mk x)).2) = u (QuotientGroup.mk x) := by
   obtain ⟨A, _, hsplit⟩ := exists_split_reconstruction_cover
   let X : Polynomial ℕ := Polynomial.X
   let P := X + (X + 1 + Polynomial.C A) ^ A
   obtain ⟨C, hC, hbudget⟩ := exists_natPolynomial_eval_budget P
   refine ⟨C, hC, ?_⟩
-  intro ι _ _ L₀ L _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+  intro ι _ _ L₀ L _ _ _ _ _ _ _ _ _ _ _ _ optionPiTopo optionPiAdd optionPiSMul optionPiT2 piTopo piAdd piSMul piT2
     s t d₀ d Q hst D F Λ m hm hΛin hΛout p hp hι hQ hD hmp
-  let : ∀ i, TopologicalSpace (ℝ ⊗[ℚ] optionLieSpace L₀ L i) := fun i =>
+  letI coordTopo : ∀ i, TopologicalSpace (ℝ ⊗[ℚ] optionLieSpace L₀ L i) := fun i =>
     match i with
     | none => inferInstance
     | some i => inferInstance
-  let : ∀ i, IsTopologicalAddGroup (ℝ ⊗[ℚ] optionLieSpace L₀ L i) := by
+  letI coordAdd : ∀ i, IsTopologicalAddGroup (ℝ ⊗[ℚ] optionLieSpace L₀ L i) := by
     intro i
     cases i <;> infer_instance
-  let : ∀ i, ContinuousSMul ℝ (ℝ ⊗[ℚ] optionLieSpace L₀ L i) := by
+  letI coordSMul : ∀ i, ContinuousSMul ℝ (ℝ ⊗[ℚ] optionLieSpace L₀ L i) := by
     intro i
     cases i <;> infer_instance
-  let : ∀ i, T2Space (ℝ ⊗[ℚ] optionLieSpace L₀ L i) := by
+  letI coordT2 : ∀ i, T2Space (ℝ ⊗[ℚ] optionLieSpace L₀ L i) := by
     intro i
     cases i <;> infer_instance
+  letI somePiTopo : TopologicalSpace (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) :=
+    loweredSplitSomePiTopology (L₀ := L₀) (L := L) (piTopo := piTopo)
+  letI somePiAdd : IsTopologicalAddGroup (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) :=
+    loweredSplitSomePiTopologicalAddGroup (L₀ := L₀) (L := L) (piTopo := piTopo) (h := piAdd)
+  letI somePiSMul : ContinuousSMul ℝ (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) :=
+    loweredSplitSomePiContinuousSMul (L₀ := L₀) (L := L) (piTopo := piTopo) (h := piSMul)
+  letI somePiT2 : T2Space (ℝ ⊗[ℚ] ((i : ι) → optionLieSpace L₀ L (some i))) :=
+    loweredSplitSomePiT2Space (L₀ := L₀) (L := L) (piTopo := piTopo) (h := piT2)
   have hpp : p ≤ p + 1 := by linarith
   have hF : ∀ i, (F i).GeometryComplexityLE (p + 1) := by
     intro i
@@ -353,7 +406,14 @@ theorem exists_lowered_split_reconstruction_cover :
     | none => exact (Q.raiseStep_geometry hst hQ).mono _ hpp
     | some i => exact (hD i).mono _ hpp
   obtain ⟨Δ, N, hN, hin, hout, hsub, hindex, hE, _, hrest, hrec⟩ :=
-    hsplit F Λ m hm hΛin hΛout (by linarith : 0 ≤ p + 1)
+    @hsplit ι _ _ (optionLieSpace L₀ L)
+      (fun i => optionLieRing (L₀ := L₀) (L := L) i)
+      (fun i => optionLieAlgebra (L₀ := L₀) (L := L) i)
+      coordTopo coordAdd coordSMul coordT2
+      optionPiTopo optionPiAdd optionPiSMul optionPiT2
+      somePiTopo somePiAdd somePiSMul somePiT2
+      t (optionDimension d₀ d) F Λ m hm hΛin hΛout (p + 1)
+      (by linarith : 0 ≤ p + 1)
       (by simp only [Fintype.card_option, Nat.cast_add, Nat.cast_one]; linarith)
       hF (hmp.trans (Real.exp_le_exp.mpr hpp))
   let E := fun i => (F i).withLattice (Δ i) (N i) (hN i) (hin i) (hout i)
@@ -374,17 +434,22 @@ theorem exists_lowered_split_reconstruction_cover :
     exact ⟨hle, hc, hn, hf, hi.trans (Real.exp_le_exp.mpr hcost)⟩
   · dsimp only
     intro u ℓ hℓ hu hpositive
+    letI : MetricSpace (pi (fun i => E (some i))).Space :=
+      (pi (fun i => E (some i))).metricSpace
     obtain ⟨v, K, hK, hv, hunit, heval⟩ := hrec u ℓ
       (hℓ.trans (Real.exp_le_exp.mpr hpp)) hu hpositive
-    let := (pi (fun i => E (some i))).metricSpace
-    obtain ⟨hLip, hpos⟩ := Q.loweredCoverPullback_bounds hst (Δ none) (N none)
+    obtain ⟨hLip, hpos⟩ := Q.loweredCoverPullback_bounds
+      (Z := (pi (fun i => E (some i))).Space) hst (Δ none) (N none)
       (hN none) (hin none) (hout none) v hv hunit
     refine ⟨Q.loweredCoverPullback hst (Δ none) (N none) (hN none) (hin none) (hout none) v,
       K, hK.trans (Real.exp_le_exp.mpr hcost), hLip, hpos, ?_⟩
     intro x
     have h := Q.loweredCoverPullback_mk hst (Δ none) (N none) (hN none) (hin none) (hout none) v
-      (changeStep (E none).filtration.realification.lowerCentralSeries_eq_bot
-        Q.filtration.realification.lowerCentralSeries_eq_bot (productProjectionHom E none x))
+      (@changeStep (ℝ ⊗[ℚ] L₀) (LieAlgebra.ExtendScalars.instLieRing ℚ ℝ L₀)
+        (LieAlgebra.ExtendScalars.instBaseLieAlgebra ℚ ℝ L₀) t s
+        (realification_lowerCentralSeries_eq_bot (L := L₀) (E none).filtration.lowerCentralSeries_eq_bot)
+        (realification_lowerCentralSeries_eq_bot (L := L₀) Q.filtration.lowerCentralSeries_eq_bot)
+        (productProjectionHom E none x))
       (optionProductSpaceEquiv E (QuotientGroup.mk x)).2
     apply h.trans
     change v ((optionProductSpaceEquiv E (QuotientGroup.mk x)).1,

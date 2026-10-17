@@ -21,7 +21,11 @@ Direct strict source checks against existing dependency artifacts are recorded
 in the prepared manifests, including `UnitVerticalMeanRowCorrelation`,
 `ComparisonProductMetric`, and `CommonNativeSquareFactors`. Their latest changes
 make finite-sum comparisons, definitional equalities, and translation evaluation
-explicit. `UniformControlledCurrentStage`,
+explicit. `AllocatedMarkedDictionaryRecovery` makes canonical realification and
+existing product-topology instances explicit, and types the same original metric
+before its use; its complete file also passed a strict direct source check.
+These changes retain the original mathematical hypotheses.
+`UniformControlledCurrentStage`,
 `NativeCoordinateDerivativeSystem`, `NativeFormalPolynomialSystems`, and
 `ExtractedInitialState` only add finite declaration-local `maxHeartbeats 1000000`
 after actual default-budget timeouts; their mathematical statements and proof
