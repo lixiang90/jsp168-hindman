@@ -1,0 +1,63 @@
+{
+  "schema": "hindman.selected-commit-raw-git-byte-binding.v1",
+  "scope": "Raw selected-commit Git blobs versus current worktree and manifest; NOT Lean verification evidence.",
+  "selected_commit": "7ae70219fb4034899c6c2d23cc3b58ec6730a1ba",
+  "started_utc": "2026-10-17T12:01:32.842111+00:00",
+  "input_manifest": "verification-local/final-target-7ae7021-2026-10-17/source-closure.json",
+  "input_manifest_sha256": "9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e",
+  "source_inventory_sha256": "dcf81b5e67766bba2d3bb3f3cc1455e75940a47301e1f79efa9171f96d003796",
+  "script_sha256": "f88608eedd6f0e1cf13ec8cf65c40f657a8e65923332f1ddcf47a9a8570565e0",
+  "expected_proof_sources": 5066,
+  "expected_repository_inputs": 9,
+  "counts": {
+    "attributes_checked": 1,
+    "attributes_identical": 1,
+    "proof_checked": 5066,
+    "proof_identical": 5066,
+    "repository-input_checked": 9,
+    "repository-input_identical": 9
+  },
+  "mismatches": [],
+  "errors": [],
+  "actual_exit_code": 0,
+  "method": "One git cat-file --batch process, binary pipes, one request/response at a time; stream SHA256 and canonical Git SHA1 without text/EOL conversion or per-file spawning.",
+  "lean_executed": false,
+  "lake_executed": false,
+  "network_used": false,
+  "head_at_start": "7ae70219fb4034899c6c2d23cc3b58ec6730a1ba",
+  "git_config": {
+    "core.autocrlf": {
+      "set": true,
+      "value": "input"
+    },
+    "core.eol": {
+      "set": false,
+      "value": null
+    },
+    "core.attributesfile": {
+      "set": false,
+      "value": null
+    }
+  },
+  "tracked_attribute_paths": [
+    ".gitattributes"
+  ],
+  "git_info_attributes_exists": false,
+  "effective_attribute_counts": {
+    "eol=unspecified": 5075,
+    "text=unset": 5075,
+    "working-tree-encoding=unspecified": 5075
+  },
+  "effective_text_attribute_exceptions": [],
+  "git_cat_file_exit_code": 0,
+  "head_at_end": "7ae70219fb4034899c6c2d23cc3b58ec6730a1ba",
+  "unique_git_blob_objects": 5076,
+  "per_input_rows": "verification-local/git-byte-binding-7ae7021-2026-10-17/per-input-blobs.tsv",
+  "per_input_rows_sha256": "c63a578d8a90f4507cefe44ae1f8488ffff8fa3be708d11fad0f57bf0e76d186",
+  "attributes_contents": {
+    ".gitattributes": "# Preserve the exact audited bytes on Windows, Linux and macOS.\n* -text\n"
+  },
+  "attribute_explanation": "core.autocrlf=input is a global normalization default. The repository * -text rule disables text/EOL conversion for these paths; effective text=unset is checked per input. Raw byte equality above is the direct evidence and does not rely on git diff cleanliness.",
+  "finished_utc": "2026-10-17T12:02:01.415821+00:00",
+  "status": "raw bytes identical"
+}

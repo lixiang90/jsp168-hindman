@@ -1,0 +1,14 @@
+{
+  "scope": "Actual Python audit-log parser execution during archival gates; no Lean/Lake execution.",
+  "command": [
+    "C:\\Python314\\python.exe",
+    "verification/original-final-target/summarize-audit.py",
+    "verification-local/final-target-7ae7021-2026-10-17/source-closure.json",
+    "verification-local/final-suite-7ae7021-2026-10-17/02.log"
+  ],
+  "started_utc": "2026-10-17T13:24:00.740856+00:00",
+  "finished_utc": "2026-10-17T13:24:03.795260+00:00",
+  "actual_exit_code": 0,
+  "stdout_sha256": "e6d9e1ae61ecdf84f229e2013c71abf7209ad23402abc92ff8e29898c28ec7a9",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

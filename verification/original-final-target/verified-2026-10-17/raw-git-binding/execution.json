@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-17T12:01:32.4833929Z",
+  "finished_utc": "2026-10-17T12:02:01.4609372Z",
+  "actual_process_exit_code": 0,
+  "command": [
+    "python",
+    "verification-local/git-byte-binding-7ae7021-2026-10-17/verify-git-blobs.py"
+  ],
+  "stdout_stderr": "execution.txt",
+  "stdout_stderr_sha256": "cf25d2848cac17e508c4ce541a2508554637029532c424c402bc4b1b72bd46cd",
+  "lean_or_lake_executed": false
+}

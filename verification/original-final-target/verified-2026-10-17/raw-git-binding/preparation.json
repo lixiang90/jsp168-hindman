@@ -1,0 +1,20 @@
+{
+  "prepared_utc": "2026-10-17T12:01:09.591629+00:00",
+  "original_script": "verification-local/git-byte-binding-c13-2026-10-17/verify-git-blobs.py",
+  "original_script_sha256": "130dc3a5225342f5a875e274b80ecfaaea2aa42b4ea45392b9033b2d9bd3c8eb",
+  "new_script": "verification-local/git-byte-binding-7ae7021-2026-10-17/verify-git-blobs.py",
+  "new_script_sha256": "f88608eedd6f0e1cf13ec8cf65c40f657a8e65923332f1ddcf47a9a8570565e0",
+  "only_changes": [
+    "COMMIT",
+    "MANIFEST"
+  ],
+  "raw_exact_reverse_matches_original": true,
+  "diff_file": "source-change.diff",
+  "diff_sha256": "534cac00b6af301ab323faea174da8a612d732190fafacf6e082543603ed9ccf",
+  "confirmed_prepared_manifest_sha256": "9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e",
+  "source_inventory_sha256": "dcf81b5e67766bba2d3bb3f3cc1455e75940a47301e1f79efa9171f96d003796",
+  "proof_sources": 5066,
+  "repository_inputs": 9,
+  "binding_script_executed_by_preparation": false,
+  "lean_or_lake_executed": false
+}

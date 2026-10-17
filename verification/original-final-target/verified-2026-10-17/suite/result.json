@@ -1,0 +1,223 @@
+{
+  "target": "Hindman168.JSP000168",
+  "started_utc": "2026-10-17T12:02:14.759205+00:00",
+  "status": "passed",
+  "manifest": "verification-local/final-target-7ae7021-2026-10-17/source-closure.json",
+  "manifest_sha256": "9176ef5a4f4d41b796269c88a90e23966ca62b17bef2a68060b12125886b9b7e",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "--trust=0",
+        "-DautoImplicit=false",
+        "verification/original-final-target/CheckEndpoint.lean"
+      ],
+      "started_utc": "2026-10-17T12:03:58.156654+00:00",
+      "status": "passed",
+      "exit_code": 0,
+      "log": "01.log",
+      "finished_utc": "2026-10-17T12:04:57.279741+00:00"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "--trust=0",
+        "-DautoImplicit=false",
+        "verification-local/final-target-7ae7021-2026-10-17/CheckAllDeclarations.lean"
+      ],
+      "started_utc": "2026-10-17T12:04:57.281503+00:00",
+      "status": "passed",
+      "exit_code": 0,
+      "log": "02.log",
+      "finished_utc": "2026-10-17T12:06:11.547739+00:00"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "--fresh",
+        "--verbose",
+        "Hindman168.JSP000168"
+      ],
+      "started_utc": "2026-10-17T12:06:11.549438+00:00",
+      "status": "passed",
+      "exit_code": 0,
+      "log": "03.log",
+      "finished_utc": "2026-10-17T13:17:44.492924+00:00"
+    }
+  ],
+  "lean_num_threads": "1",
+  "whole_suite_exit_code": 0,
+  "sources_before": {
+    "checked_utc": "2026-10-17T12:02:18.536440+00:00",
+    "files": 5076,
+    "mismatches": [],
+    "passed": true
+  },
+  "environment_before": {
+    "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+    "toolchain_binary_sha256": {
+      "lake.exe": "68f0c9b332afa370cac618c542234898f1c55bf1e1c2fed54e1fbc110053b6f3",
+      "lean.exe": "567d145fa0421711568eeebb80656fd612de4e2f1c2413e29ce49b8f83ec5ac7",
+      "leanchecker.exe": "3a24111951d608d5860f645e3818b922f7b7c294031c345a8355cd4c0b66ca42",
+      "libc++.dll": "ae0e6e44181262ead025043e6b600738fa1c1d300a19e07bc92bfb28e48ac187",
+      "libclang-cpp.dll": "1b32dd58335db4a984237e1fd1993cfd0f0fa413b5d10957290703eb03377ca4",
+      "libInit_shared.dll": "6052a8aef49e0ccec81b3c0f1af413b53d062695ada8947991f8d0575c5d0be4",
+      "libLake_shared.dll": "e02b10475a980bb26f6f2c0e38bc6a64b8bbc676127d37e7d8b6fd025796f7c2",
+      "libleanshared.dll": "6bdd53cc877b80a95c4dbe135ba23de0c756ef85503410adaa58315c02f1f2d4",
+      "libleanshared_1.dll": "6b83607540b2b32d2c31d2aa437441a05cad41eacaf60b99b118c3a67802b367",
+      "libleanshared_2.dll": "d5fd2cc6079eea46c27318c0c71212d10dcedfecf1ef7a16ccf8ce30e0a63295",
+      "libLLVM-22.dll": "beaba61b3176e06fc0c4bf87e8bfae094a2405d01fa8e03d78029471555445d2",
+      "zlib1.dll": "94dd0a72d4da79e25294a91d1edf902d76eade7512d9218609a5fe43e3a7397a"
+    },
+    "packages": [
+      {
+        "name": "mathlib",
+        "pinned": "905b95818eb32af7874a58b427f50c1711a5e96c",
+        "head": "905b95818eb32af7874a58b427f50c1711a5e96c",
+        "tracked_status": ""
+      },
+      {
+        "name": "plausible",
+        "pinned": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+        "head": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+        "tracked_status": ""
+      },
+      {
+        "name": "LeanSearchClient",
+        "pinned": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+        "head": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+        "tracked_status": ""
+      },
+      {
+        "name": "importGraph",
+        "pinned": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+        "head": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+        "tracked_status": ""
+      },
+      {
+        "name": "proofwidgets",
+        "pinned": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+        "head": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+        "tracked_status": ""
+      },
+      {
+        "name": "aesop",
+        "pinned": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+        "head": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+        "tracked_status": ""
+      },
+      {
+        "name": "Qq",
+        "pinned": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+        "head": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+        "tracked_status": ""
+      },
+      {
+        "name": "batteries",
+        "pinned": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+        "head": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+        "tracked_status": ""
+      },
+      {
+        "name": "Cli",
+        "pinned": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+        "head": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+        "tracked_status": ""
+      }
+    ],
+    "passed": true
+  },
+  "artifacts_before_sha256": "5f483070dd08c8fe30c23d49e5e73082c5bb01854d8546b81b950c526988b976",
+  "artifact_files": 38290,
+  "sources_after": {
+    "checked_utc": "2026-10-17T13:18:06.683036+00:00",
+    "files": 5076,
+    "mismatches": [],
+    "passed": true
+  },
+  "environment_after": {
+    "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+    "toolchain_binary_sha256": {
+      "lake.exe": "68f0c9b332afa370cac618c542234898f1c55bf1e1c2fed54e1fbc110053b6f3",
+      "lean.exe": "567d145fa0421711568eeebb80656fd612de4e2f1c2413e29ce49b8f83ec5ac7",
+      "leanchecker.exe": "3a24111951d608d5860f645e3818b922f7b7c294031c345a8355cd4c0b66ca42",
+      "libc++.dll": "ae0e6e44181262ead025043e6b600738fa1c1d300a19e07bc92bfb28e48ac187",
+      "libclang-cpp.dll": "1b32dd58335db4a984237e1fd1993cfd0f0fa413b5d10957290703eb03377ca4",
+      "libInit_shared.dll": "6052a8aef49e0ccec81b3c0f1af413b53d062695ada8947991f8d0575c5d0be4",
+      "libLake_shared.dll": "e02b10475a980bb26f6f2c0e38bc6a64b8bbc676127d37e7d8b6fd025796f7c2",
+      "libleanshared.dll": "6bdd53cc877b80a95c4dbe135ba23de0c756ef85503410adaa58315c02f1f2d4",
+      "libleanshared_1.dll": "6b83607540b2b32d2c31d2aa437441a05cad41eacaf60b99b118c3a67802b367",
+      "libleanshared_2.dll": "d5fd2cc6079eea46c27318c0c71212d10dcedfecf1ef7a16ccf8ce30e0a63295",
+      "libLLVM-22.dll": "beaba61b3176e06fc0c4bf87e8bfae094a2405d01fa8e03d78029471555445d2",
+      "zlib1.dll": "94dd0a72d4da79e25294a91d1edf902d76eade7512d9218609a5fe43e3a7397a"
+    },
+    "packages": [
+      {
+        "name": "mathlib",
+        "pinned": "905b95818eb32af7874a58b427f50c1711a5e96c",
+        "head": "905b95818eb32af7874a58b427f50c1711a5e96c",
+        "tracked_status": ""
+      },
+      {
+        "name": "plausible",
+        "pinned": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+        "head": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+        "tracked_status": ""
+      },
+      {
+        "name": "LeanSearchClient",
+        "pinned": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+        "head": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+        "tracked_status": ""
+      },
+      {
+        "name": "importGraph",
+        "pinned": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+        "head": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+        "tracked_status": ""
+      },
+      {
+        "name": "proofwidgets",
+        "pinned": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+        "head": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+        "tracked_status": ""
+      },
+      {
+        "name": "aesop",
+        "pinned": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+        "head": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+        "tracked_status": ""
+      },
+      {
+        "name": "Qq",
+        "pinned": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+        "head": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+        "tracked_status": ""
+      },
+      {
+        "name": "batteries",
+        "pinned": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+        "head": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+        "tracked_status": ""
+      },
+      {
+        "name": "Cli",
+        "pinned": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+        "head": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+        "tracked_status": ""
+      }
+    ],
+    "passed": true
+  },
+  "artifacts_after_sha256": "5f483070dd08c8fe30c23d49e5e73082c5bb01854d8546b81b950c526988b976",
+  "changed_artifacts": [],
+  "finished_utc": "2026-10-17T13:19:08.112199+00:00"
+}

@@ -1,0 +1,13 @@
+--- c13/verify-git-blobs.py
++++ 7ae7021/verify-git-blobs.py
+@@ -10,8 +10,8 @@
+ 
+ HERE = Path(__file__).resolve().parent
+ ROOT = HERE.parents[1]
+-COMMIT = '227b75c1954f459e73b9f39f716288820c65f09a'
+-MANIFEST = ROOT / 'verification-local/final-target-finite-budgets-2026-10-17/source-closure.json'
++COMMIT = '7ae70219fb4034899c6c2d23cc3b58ec6730a1ba'
++MANIFEST = ROOT / 'verification-local/final-target-7ae7021-2026-10-17/source-closure.json'
+ REPORT = HERE / 'result.json'
+ ROWS = HERE / 'per-input-blobs.tsv'
+ ENV = {**os.environ, 'GIT_OPTIONAL_LOCKS': '0', 'GIT_TERMINAL_PROMPT': '0'}
