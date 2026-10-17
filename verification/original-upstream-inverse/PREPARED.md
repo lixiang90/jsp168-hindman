@@ -30,12 +30,13 @@ Direct strict source checks also passed for `BoundedRootDegreeEquivalence`,
 latest changes make dependent equality transport, empty-index seminorm evaluation,
 and the definitionally equal `none` factor explicit, retaining the original
 mathematical hypotheses and model structures.
-`UniformControlledCurrentStage`,
-`NativeCoordinateDerivativeSystem`, `NativeFormalPolynomialSystems`, and
-`ExtractedInitialState`, together with `FastKernelReabsorptionControl` and
-`PositiveShiftRefilteredExpansion`, only add finite declaration-local `maxHeartbeats 1000000`
-after actual default-budget timeouts; their mathematical statements and proof
-bodies are unchanged.
+The latest budget repairs to `UniformControlledCurrentStage`,
+`NativeCoordinateDerivativeSystem`, `NativeFormalPolynomialSystems`,
+`ExtractedInitialState`, `FastKernelReabsorptionControl`,
+`PositiveShiftRefilteredExpansion`, and `UnnormalizedCommonSymbolFactorization`
+add only finite declaration-local `maxHeartbeats 1000000` after actual
+default-budget timeouts. Their mathematical statements and existing proof
+bodies are unchanged by these budget adjustments.
 The prepared-source verifier permits those exact options only once in each
 recorded module, immediately before its corresponding theorem.
 Those single-module exits do not extend the complete Axis build or axiom audit.

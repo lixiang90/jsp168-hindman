@@ -49,6 +49,8 @@ LOCAL_HEARTBEAT_DECLARATIONS = {
         'realFast_kernel_reabsorption_controlled',
     'OAI.Combinatorics.Progressions.Estimates.PositiveShiftRefilteredExpansion':
         'refiltered_product_expansion_of_recovered',
+    'OAI.Combinatorics.Progressions.Estimates.UnnormalizedCommonSymbolFactorization':
+        'common_coefficient_derivative_system',
 }
 
 

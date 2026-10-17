@@ -3,6 +3,7 @@ Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/opena
 Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
 Changes: dite_eq_left -> dif_pos (1)
+Use a finite declaration-local heartbeat budget after a deterministic 200000-heartbeat timeout.
 No mathematical statements or assumptions changed.
 -/
 import OAI.Combinatorics.Progressions.Dynamics.CommonInitialBudget
@@ -322,6 +323,7 @@ namespace Erdos3.NilpotentLieFiltration
 open Module
 open scoped Matrix TensorProduct
 
+set_option maxHeartbeats 1000000 in
 theorem common_coefficient_derivative_system
     {σ ι L : Type*} [Fintype σ] [DecidableEq σ] {d : ℕ}
     [LieRing L] [LieAlgebra ℚ L] {s : ℕ}
