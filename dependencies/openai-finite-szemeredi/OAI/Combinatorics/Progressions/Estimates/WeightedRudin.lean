@@ -1,3 +1,12 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Change: explicitly import the pinned Mathlib trigonometric-series module supplying
+Real.cosh_le_exp_half_sq, no longer available through the transitive import chain.
+The original mathematical statements, assumptions and proof bodies are retained.
+-/
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Series
 import OAI.Combinatorics.Progressions.Fourier.FiniteFourierSmoothing
 
 namespace OAI

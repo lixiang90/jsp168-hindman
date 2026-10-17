@@ -3,7 +3,7 @@
   "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
   "lean": "4.32.2",
   "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
-  "scope": "23 first-frontier files restored from fixed upstream; 18 exact sources and 5 compatibility ports. Two ports passed direct strict source checks; no successful whole-frontier build or audit is claimed.",
+  "scope": "23 first-frontier files restored from fixed upstream; 17 exact sources and 6 compatibility ports. Three ports passed direct strict source checks; no successful whole-frontier build or audit is claimed.",
   "files": [
     {
       "module": "OAI.Combinatorics.Progressions.Dynamics.CyclicProductBudget",
@@ -163,18 +163,41 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/WeightedRudin.lean",
       "upstream_blob": "a3e23a24cb5425dcad8add856ccf48b1aeef43c7",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/WeightedRudin.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-pinned-mathlib-direct-import-compatibility",
+          "changes": [
+            "explicit import Mathlib.Analysis.SpecialFunctions.Trigonometric.Series restores the existing Real.cosh_le_exp_half_sq lemma absent from the pinned transitive import chain"
+          ],
+          "statement_and_proof_body_preserved": true,
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume1-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/WeightedRudin.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "e01836a9ca519ecb617c783b8a74484f921e622868f1e56d9750fa4c3d649df1",
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
+        }
+      ],
       "upstream_blob_recomputed": "a3e23a24cb5425dcad8add856ccf48b1aeef43c7",
       "upstream_sha256": "83f1e1f7dc15332c3e49b8ccad91689d941b3f35f9a9805f9373cfee23c2d139",
-      "ported_sha256": "83f1e1f7dc15332c3e49b8ccad91689d941b3f35f9a9805f9373cfee23c2d139",
+      "ported_sha256": "e01836a9ca519ecb617c783b8a74484f921e622868f1e56d9750fa4c3d649df1",
       "raw_bytes": 6382,
-      "ported_bytes": 6382,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 6941,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Fourier.FiniteFourierSmoothing"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/WeightedRudin.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/WeightedRudin.lean\n@@ -1,3 +1,12 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Change: explicitly import the pinned Mathlib trigonometric-series module supplying\n+Real.cosh_le_exp_half_sq, no longer available through the transitive import chain.\n+The original mathematical statements, assumptions and proof bodies are retained.\n+-/\n+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Series\n import OAI.Combinatorics.Progressions.Fourier.FiniteFourierSmoothing\n \n namespace OAI\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Geometry.BoundedDependentCoordinates",
@@ -524,8 +547,8 @@
   "validation": {
     "fixed_upstream_git_blob_verifications": 23,
     "source_count": 23,
-    "exact_sources": 18,
-    "compatibility_ports": 5,
+    "exact_sources": 17,
+    "compatibility_ports": 6,
     "compiled": false,
     "existing_verified_sources_modified": false
   },
