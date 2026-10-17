@@ -7,8 +7,8 @@
   "status": "prepared-source-closure-only; not compiled",
   "target": "OAI.Combinatorics.Progressions.Estimates.AxisCompression",
   "new_sources": 577,
-  "exact_sources": 398,
-  "compatibility_ports": 179,
+  "exact_sources": 397,
+  "compatibility_ports": 180,
   "fixed_upstream_blobs_recomputed": 577,
   "prepared_source_changes_since_manifests": [],
   "actual_axis_oai_closure_modules": 2102,
@@ -5079,19 +5079,42 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/NativeCoordinateDerivativeSystem.lean",
       "upstream_blob": "841d2455976734cd04f4863d70d89428ce4f5b15",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Geometry/NativeCoordinateDerivativeSystem.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-finite-declaration-local-elaboration-budget",
+          "changes": [
+            "set_option maxHeartbeats 1000000 in applies only to exists_native_coordinate_derivative_system, following its actual pinned default-200000 isDefEq timeout"
+          ],
+          "statement_and_proof_body_preserved": true,
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume1-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/NativeCoordinateDerivativeSystem.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "bd1c2520b5344230cac40a0933e0180ebcee85099d6d136753e8a0f8f5d8d464",
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
+        }
+      ],
       "upstream_blob_recomputed": "841d2455976734cd04f4863d70d89428ce4f5b15",
       "upstream_sha256": "83fff13b649bf0fb9f93fa506680e59e2c08b6c10f2c2dca515fa915802b161c",
-      "ported_sha256": "83fff13b649bf0fb9f93fa506680e59e2c08b6c10f2c2dca515fa915802b161c",
+      "ported_sha256": "bd1c2520b5344230cac40a0933e0180ebcee85099d6d136753e8a0f8f5d8d464",
       "raw_bytes": 8475,
-      "ported_bytes": 8475,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 8985,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Estimates.FastHorizontalFactorization",
         "OAI.Combinatorics.Progressions.Linear.LayerOneProjectionMatrixBounds"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Geometry/NativeCoordinateDerivativeSystem.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Geometry/NativeCoordinateDerivativeSystem.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Change: finite declaration-local maxHeartbeats 1000000 for\n+exists_native_coordinate_derivative_system after the pinned default-budget timeout.\n+The original mathematical statements, assumptions and proof bodies are retained.\n+-/\n import OAI.Combinatorics.Progressions.Estimates.FastHorizontalFactorization\n import OAI.Combinatorics.Progressions.Linear.LayerOneProjectionMatrixBounds\n \n@@ -64,6 +72,7 @@\n                 bound / T i) ∧\n               (∀ i, ‖cH (Hq (small i))‖ ≤ (Cscale * bound) / T i)\n \n+set_option maxHeartbeats 1000000 in\n theorem exists_native_coordinate_derivative_system :\n     F.NativeCoordinateDerivativeSpec (σ := σ) (a := a) (d := d) e ω hF U := by\n   intro b rows ha η hη sectionMap hsection Cscale hC hweighted m hm hgrid\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Estimates.RealGradedDerivativeBounds",

@@ -1,3 +1,11 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Change: finite declaration-local maxHeartbeats 1000000 for
+exists_native_coordinate_derivative_system after the pinned default-budget timeout.
+The original mathematical statements, assumptions and proof bodies are retained.
+-/
 import OAI.Combinatorics.Progressions.Estimates.FastHorizontalFactorization
 import OAI.Combinatorics.Progressions.Linear.LayerOneProjectionMatrixBounds
 
@@ -64,6 +72,7 @@ def NativeCoordinateDerivativeSpec : Prop :=
                 bound / T i) ∧
               (∀ i, ‖cH (Hq (small i))‖ ≤ (Cscale * bound) / T i)
 
+set_option maxHeartbeats 1000000 in
 theorem exists_native_coordinate_derivative_system :
     F.NativeCoordinateDerivativeSpec (σ := σ) (a := a) (d := d) e ω hF U := by
   intro b rows ha η hη sectionMap hsection Cscale hC hweighted m hm hgrid
