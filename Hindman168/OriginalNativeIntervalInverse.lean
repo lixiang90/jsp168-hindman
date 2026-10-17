@@ -65,7 +65,7 @@ theorem original_interval_niltest_inverse_from_openai (s : ℕ) (hs : 1 ≤ s) :
     ‖𝔼 x ∈ originalInverseInterval (K * q),
       (v (x () : ZMod q) : ℂ) * star (V.test.eval x)‖ at hcorr
   rw [originalInverseInterval_periodic_mean] at hcorr
-  simpa only [originalInverseIntervalPoint] using hcorr
+  exact hcorr
 
 /-- The genuine higher-order native interval inverse, at precisely step `s`
 for Gowers order `s+1`, obtained from the fixed upstream inverse theorem. -/
