@@ -51,6 +51,8 @@ LOCAL_HEARTBEAT_DECLARATIONS = {
         'refiltered_product_expansion_of_recovered',
     'OAI.Combinatorics.Progressions.Estimates.UnnormalizedCommonSymbolFactorization':
         'common_coefficient_derivative_system',
+    'OAI.Combinatorics.Progressions.Estimates.MarkedEvaluationJointBounds':
+        'exists_markedShiftQuotient_bounded_direction_data',
 }
 
 

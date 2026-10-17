@@ -3,6 +3,7 @@ Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/opena
 Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
 Changes: dite_eq_left -> dif_pos (1); dite_eq_right -> dif_neg (1); ite_eq_left -> if_pos (1); ite_eq_right -> if_neg (1); Finset.prod_le_one₀ -> Finset.prod_le_one (4)
+Use the existing corner-cardinality identity explicitly in the final tensor factor.
 No mathematical statements or assumptions changed.
 -/
 import OAI.Combinatorics.Progressions.Estimates.MixedRootLosses
@@ -339,7 +340,11 @@ theorem mixedHigherTensor_split (b : MixedMiddleCorner s → Fin W.outputDim)
     exact (Fintype.prod_sigma (fun z : MixedMiddleCorner s =>
       W.eval (b z) (mixedSampledInput (mixedWeightSample s z.1.castSucc.succ) x))).symm
   · simp only [Fin.val_last, mixedSplitHigherMerge_last, mixedWeightSample_last_input,
-      Finset.prod_const, Finset.card_univ, mixedWeightCorner_card, Nat.choose_self, pow_one]
+      Finset.prod_const, Finset.card_univ]
+    have hcard : Fintype.card (MixedWeightCorner s (s + 1 + 2)) = 1 :=
+      (mixedWeightCorner_card s (s + 3)).trans (Nat.choose_self (s + 3))
+    exact (congrArg (fun n : ℕ => (W.eval c (fun _ => x 0)) ^ n) hcard).trans
+      (pow_one _)
 
 theorem mixedCanonicalTensor_split_merge (a : Fin (s + 3) → Fin W.outputDim)
     (b : MixedMiddleCorner s → Fin W.outputDim) (c : Fin W.outputDim) (x : Fin 2 → ℤ) :

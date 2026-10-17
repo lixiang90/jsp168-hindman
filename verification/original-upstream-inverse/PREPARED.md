@@ -11,7 +11,7 @@ Their complete local OAI source import closure has no missing files. These
 checks establish source identity and availability, not successful Lean builds.
 
 `prepared-axis-2026-10-17.json` extends preparation to all 577 missing modules:
-388 exact sources and 189 compatibility ports. The actual 2,102-module Axis
+387 exact sources and 190 compatibility ports. The actual 2,102-module Axis
 import closure is recorded in `axis-prepared-modules.txt`; it is acyclic and
 has no missing OAI source imports. All corresponding Mathlib source imports
 exist at the fixed dependency revision. Local original files were used to
@@ -26,14 +26,16 @@ existing product-topology instances explicit, and types the same original metric
 before its use; its complete file also passed a strict direct source check.
 These changes retain the original mathematical hypotheses.
 Direct strict source checks also passed for `BoundedRootDegreeEquivalence`,
-`PositiveShiftTestingGowers`, and `PrescribedPartitionExpansionCore`. Their
-latest changes make dependent equality transport, empty-index seminorm evaluation,
-and the definitionally equal `none` factor explicit, retaining the original
+`PositiveShiftTestingGowers`, `PrescribedPartitionExpansionCore`, and
+`MixedFrozenMiddleRows`. Their latest changes make dependent equality transport,
+empty-index seminorm evaluation, the definitionally equal `none` factor, and
+finite corner-cardinality evaluation explicit, retaining the original
 mathematical hypotheses and model structures.
 The latest budget repairs to `UniformControlledCurrentStage`,
 `NativeCoordinateDerivativeSystem`, `NativeFormalPolynomialSystems`,
 `ExtractedInitialState`, `FastKernelReabsorptionControl`,
-`PositiveShiftRefilteredExpansion`, and `UnnormalizedCommonSymbolFactorization`
+`PositiveShiftRefilteredExpansion`, `UnnormalizedCommonSymbolFactorization`, and
+`MarkedEvaluationJointBounds`
 add only finite declaration-local `maxHeartbeats 1000000` after actual
 default-budget timeouts. Their mathematical statements and existing proof
 bodies are unchanged by these budget adjustments.

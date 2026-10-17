@@ -1,3 +1,9 @@
+/-
+Pinned-toolchain compatibility port of OpenAI/math adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Use a finite declaration-local heartbeat budget after a deterministic 200000-heartbeat timeout.
+Original mathematical declarations and hypotheses are unchanged.
+-/
+
 import OAI.Combinatorics.Progressions.Fourier.MarkedQuotientFrequencyBounds
 import OAI.Combinatorics.Progressions.Geometry.MarkedDirectionCoordinates
 
@@ -255,6 +261,7 @@ variable {I ι L : Type*} [Fintype I] [Fintype ι] [LieRing L] [LieAlgebra ℚ L
   (hgen : ∀ i j, RationalHeightLE (b.repr (v i) j) H)
 
 include hF hω hw hv hH hc hgen in
+set_option maxHeartbeats 1000000 in
 theorem exists_markedShiftQuotient_bounded_direction_data (t : ℕ)
     (η : L →ₗ[ℚ] ℚ) {K A : ℕ} (hη : ∀ i, RationalHeightLE (η (b i)) K)
     (x : Fin t → ℚ) (hA : 1 ≤ A) (hx : ∀ i, RationalHeightLE (x i) A)

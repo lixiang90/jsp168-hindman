@@ -7,8 +7,8 @@
   "status": "prepared-source-closure-only; not compiled",
   "target": "OAI.Combinatorics.Progressions.Estimates.AxisCompression",
   "new_sources": 577,
-  "exact_sources": 388,
-  "compatibility_ports": 189,
+  "exact_sources": 387,
+  "compatibility_ports": 190,
   "fixed_upstream_blobs_recomputed": 577,
   "prepared_source_changes_since_manifests": [],
   "actual_axis_oai_closure_modules": 2102,
@@ -10012,20 +10012,44 @@
           "from": "Finset.prod_le_one₀",
           "to": "Finset.prod_le_one",
           "count": 4
+        },
+        {
+          "kind": "observed-pinned-API-compatibility",
+          "changes": [
+            "use the existing mixedWeightCorner_card and Nat.choose_self as a typed cardinality equality, then transport it through the original power with congrArg and pow_one; original theorem statement and hypotheses unchanged"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume7-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MixedFrozenMiddleRows.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "39fdca31849cefbfb346122abc22fe063ccc237e9fd39a893861037479a23cf7",
+            "started_utc": "2026-10-17T10:27:42.670707+00:00",
+            "finished_utc": "2026-10-17T10:28:52.567859+00:00",
+            "elapsed_seconds": 69.89628280000761,
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
         }
       ],
       "upstream_blob_recomputed": "c6f8bcfb3794008f74cc995ecf3cc780b489090f",
       "upstream_sha256": "08cc57500dfc30163a2061164770f338a1a36a8874a9ef7c57a419181337dea2",
-      "ported_sha256": "a38c19fcf6542b8450d206db6717e34f32d4460431da0e16ee9543c6e1afb2dc",
+      "ported_sha256": "39fdca31849cefbfb346122abc22fe063ccc237e9fd39a893861037479a23cf7",
       "raw_bytes": 27155,
-      "ported_bytes": 27593,
+      "ported_bytes": 27869,
       "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Estimates.MixedRootLosses",
         "OAI.Combinatorics.Progressions.Geometry.BinaryWordSupports"
       ],
-      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/MixedFrozenMiddleRows.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MixedFrozenMiddleRows.lean\n@@ -1,3 +1,10 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: dite_eq_left -> dif_pos (1); dite_eq_right -> dif_neg (1); ite_eq_left -> if_pos (1); ite_eq_right -> if_neg (1); Finset.prod_le_one₀ -> Finset.prod_le_one (4)\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Estimates.MixedRootLosses\n import OAI.Combinatorics.Progressions.Geometry.BinaryWordSupports\n \n@@ -128,7 +135,7 @@\n   rcases mixedReplicated_cases j with rfl | ⟨i, rfl⟩\n   · rfl\n   · change x (if i.succ.val < (0 : Fin (s + 3)).val + 1 then 0 else 1) = x 1\n-    rw [ite_eq_right (by simp only [Fin.val_succ, Fin.val_zero]; omega)]\n+    rw [if_neg (by simp only [Fin.val_succ, Fin.val_zero]; omega)]\n \n namespace NativeMultidegreeNilcharacter\n \n@@ -146,7 +153,7 @@\n     (a : MixedWeightCorner s (k.val + 1) → Fin W.outputDim) (x : Fin 2 → ℤ) :\n     ‖W.mixedWeightTensor k a x‖ ≤ 1 := by\n   rw [mixedWeightTensor, norm_prod]\n-  exact Finset.prod_le_one₀ (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n+  exact Finset.prod_le_one (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n \n theorem mixedWeightTensor_unit (k : Fin (s + 3)) (x : Fin 2 → ℤ) :\n     ∑ a : MixedWeightCorner s (k.val + 1) → Fin W.outputDim, ‖W.mixedWeightTensor k a x‖ ^ 2 = 1 := by\n@@ -159,7 +166,7 @@\n theorem mixedFirstTensor_norm (a : Fin (s + 3) → Fin W.outputDim) (x : Fin 2 → ℤ) :\n     ‖W.mixedFirstTensor a x‖ ≤ 1 := by\n   rw [mixedFirstTensor, tensorVector, norm_prod]\n-  exact Finset.prod_le_one₀ (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n+  exact Finset.prod_le_one (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n \n theorem mixedFirstTensor_unit (x : Fin 2 → ℤ) :\n     ∑ a : Fin (s + 3) → Fin W.outputDim, ‖W.mixedFirstTensor a x‖ ^ 2 = 1 :=\n@@ -219,7 +226,7 @@\n theorem mixedHigherTensor_norm (b : MixedHigherCorner s → Fin W.outputDim) (x : Fin 2 → ℤ) :\n     ‖W.mixedHigherTensor b x‖ ≤ 1 := by\n   rw [mixedHigherTensor, norm_prod]\n-  exact Finset.prod_le_one₀ (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n+  exact Finset.prod_le_one (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n \n theorem mixedHigherTensor_unit (x : Fin 2 → ℤ) :\n     ∑ b : MixedHigherCorner s → Fin W.outputDim, ‖W.mixedHigherTensor b x‖ ^ 2 = 1 := by\n@@ -281,20 +288,20 @@\n theorem mixedSplitHigherMerge_castSucc {s : ℕ} {I : Type*} (b : MixedMiddleCorner s → I) (c : I)\n     (k : Fin (s + 1)) (v : MixedWeightCorner s (k.val + 2)) :\n     mixedSplitHigherMerge b c ⟨k.castSucc, v⟩ = b ⟨k, v⟩ := by\n-  simp only [mixedSplitHigherMerge, Fin.val_castSucc, dite_eq_left k.isLt]\n+  simp only [mixedSplitHigherMerge, Fin.val_castSucc, dif_pos k.isLt]\n \n theorem mixedSplitHigherMerge_last {s : ℕ} {I : Type*} (b : MixedMiddleCorner s → I) (c : I)\n     (v : MixedWeightCorner s (s + 3)) :\n     mixedSplitHigherMerge b c ⟨Fin.last (s + 1), v⟩ = c := by\n   unfold mixedSplitHigherMerge\n-  exact dite_eq_right (Nat.lt_irrefl (s + 1))\n+  exact dif_neg (Nat.lt_irrefl (s + 1))\n \n theorem mixedWeightSample_last_input (s : ℕ) (x : Fin 2 → ℤ) :\n     mixedSampledInput (mixedWeightSample s (Fin.last (s + 1)).succ) x = fun _ => x 0 := by\n   have hs : mixedWeightSample s (Fin.last (s + 1)).succ = fun _ => (0 : Fin 2) := by\n     funext j\n     unfold mixedWeightSample\n-    apply ite_eq_left\n+    apply if_pos\n     simpa only [Fin.val_succ, Fin.val_last] using j.isLt\n   rw [hs, ← mixedSampledInput_coordinates]\n \n@@ -310,7 +317,7 @@\n theorem mixedMiddleTensor_norm (b : MixedMiddleCorner s → Fin W.outputDim) (x : Fin 2 → ℤ) :\n     ‖W.mixedMiddleTensor b x‖ ≤ 1 := by\n   rw [mixedMiddleTensor, norm_prod]\n-  exact Finset.prod_le_one₀ (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n+  exact Finset.prod_le_one (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n \n theorem mixedMiddleTensor_unit (x : Fin 2 → ℤ) :\n     ∑ b : MixedMiddleCorner s → Fin W.outputDim, ‖W.mixedMiddleTensor b x‖ ^ 2 = 1 := by\n"
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/MixedFrozenMiddleRows.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MixedFrozenMiddleRows.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: dite_eq_left -> dif_pos (1); dite_eq_right -> dif_neg (1); ite_eq_left -> if_pos (1); ite_eq_right -> if_neg (1); Finset.prod_le_one₀ -> Finset.prod_le_one (4)\n+Use the existing corner-cardinality identity explicitly in the final tensor factor.\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Estimates.MixedRootLosses\n import OAI.Combinatorics.Progressions.Geometry.BinaryWordSupports\n \n@@ -128,7 +136,7 @@\n   rcases mixedReplicated_cases j with rfl | ⟨i, rfl⟩\n   · rfl\n   · change x (if i.succ.val < (0 : Fin (s + 3)).val + 1 then 0 else 1) = x 1\n-    rw [ite_eq_right (by simp only [Fin.val_succ, Fin.val_zero]; omega)]\n+    rw [if_neg (by simp only [Fin.val_succ, Fin.val_zero]; omega)]\n \n namespace NativeMultidegreeNilcharacter\n \n@@ -146,7 +154,7 @@\n     (a : MixedWeightCorner s (k.val + 1) → Fin W.outputDim) (x : Fin 2 → ℤ) :\n     ‖W.mixedWeightTensor k a x‖ ≤ 1 := by\n   rw [mixedWeightTensor, norm_prod]\n-  exact Finset.prod_le_one₀ (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n+  exact Finset.prod_le_one (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n \n theorem mixedWeightTensor_unit (k : Fin (s + 3)) (x : Fin 2 → ℤ) :\n     ∑ a : MixedWeightCorner s (k.val + 1) → Fin W.outputDim, ‖W.mixedWeightTensor k a x‖ ^ 2 = 1 := by\n@@ -159,7 +167,7 @@\n theorem mixedFirstTensor_norm (a : Fin (s + 3) → Fin W.outputDim) (x : Fin 2 → ℤ) :\n     ‖W.mixedFirstTensor a x‖ ≤ 1 := by\n   rw [mixedFirstTensor, tensorVector, norm_prod]\n-  exact Finset.prod_le_one₀ (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n+  exact Finset.prod_le_one (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n \n theorem mixedFirstTensor_unit (x : Fin 2 → ℤ) :\n     ∑ a : Fin (s + 3) → Fin W.outputDim, ‖W.mixedFirstTensor a x‖ ^ 2 = 1 :=\n@@ -219,7 +227,7 @@\n theorem mixedHigherTensor_norm (b : MixedHigherCorner s → Fin W.outputDim) (x : Fin 2 → ℤ) :\n     ‖W.mixedHigherTensor b x‖ ≤ 1 := by\n   rw [mixedHigherTensor, norm_prod]\n-  exact Finset.prod_le_one₀ (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n+  exact Finset.prod_le_one (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n \n theorem mixedHigherTensor_unit (x : Fin 2 → ℤ) :\n     ∑ b : MixedHigherCorner s → Fin W.outputDim, ‖W.mixedHigherTensor b x‖ ^ 2 = 1 := by\n@@ -281,20 +289,20 @@\n theorem mixedSplitHigherMerge_castSucc {s : ℕ} {I : Type*} (b : MixedMiddleCorner s → I) (c : I)\n     (k : Fin (s + 1)) (v : MixedWeightCorner s (k.val + 2)) :\n     mixedSplitHigherMerge b c ⟨k.castSucc, v⟩ = b ⟨k, v⟩ := by\n-  simp only [mixedSplitHigherMerge, Fin.val_castSucc, dite_eq_left k.isLt]\n+  simp only [mixedSplitHigherMerge, Fin.val_castSucc, dif_pos k.isLt]\n \n theorem mixedSplitHigherMerge_last {s : ℕ} {I : Type*} (b : MixedMiddleCorner s → I) (c : I)\n     (v : MixedWeightCorner s (s + 3)) :\n     mixedSplitHigherMerge b c ⟨Fin.last (s + 1), v⟩ = c := by\n   unfold mixedSplitHigherMerge\n-  exact dite_eq_right (Nat.lt_irrefl (s + 1))\n+  exact dif_neg (Nat.lt_irrefl (s + 1))\n \n theorem mixedWeightSample_last_input (s : ℕ) (x : Fin 2 → ℤ) :\n     mixedSampledInput (mixedWeightSample s (Fin.last (s + 1)).succ) x = fun _ => x 0 := by\n   have hs : mixedWeightSample s (Fin.last (s + 1)).succ = fun _ => (0 : Fin 2) := by\n     funext j\n     unfold mixedWeightSample\n-    apply ite_eq_left\n+    apply if_pos\n     simpa only [Fin.val_succ, Fin.val_last] using j.isLt\n   rw [hs, ← mixedSampledInput_coordinates]\n \n@@ -310,7 +318,7 @@\n theorem mixedMiddleTensor_norm (b : MixedMiddleCorner s → Fin W.outputDim) (x : Fin 2 → ℤ) :\n     ‖W.mixedMiddleTensor b x‖ ≤ 1 := by\n   rw [mixedMiddleTensor, norm_prod]\n-  exact Finset.prod_le_one₀ (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n+  exact Finset.prod_le_one (fun _ _ => norm_nonneg _) (fun _ _ => W.norm_eval _ _)\n \n theorem mixedMiddleTensor_unit (x : Fin 2 → ℤ) :\n     ∑ b : MixedMiddleCorner s → Fin W.outputDim, ‖W.mixedMiddleTensor b x‖ ^ 2 = 1 := by\n@@ -332,7 +340,11 @@\n     exact (Fintype.prod_sigma (fun z : MixedMiddleCorner s =>\n       W.eval (b z) (mixedSampledInput (mixedWeightSample s z.1.castSucc.succ) x))).symm\n   · simp only [Fin.val_last, mixedSplitHigherMerge_last, mixedWeightSample_last_input,\n-      Finset.prod_const, Finset.card_univ, mixedWeightCorner_card, Nat.choose_self, pow_one]\n+      Finset.prod_const, Finset.card_univ]\n+    have hcard : Fintype.card (MixedWeightCorner s (s + 1 + 2)) = 1 :=\n+      (mixedWeightCorner_card s (s + 3)).trans (Nat.choose_self (s + 3))\n+    exact (congrArg (fun n : ℕ => (W.eval c (fun _ => x 0)) ^ n) hcard).trans\n+      (pow_one _)\n \n theorem mixedCanonicalTensor_split_merge (a : Fin (s + 3) → Fin W.outputDim)\n     (b : MixedMiddleCorner s → Fin W.outputDim) (c : Fin W.outputDim) (x : Fin 2 → ℤ) :\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Estimates.CubeSignalAlgebra",
@@ -10427,19 +10451,45 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MarkedEvaluationJointBounds.lean",
       "upstream_blob": "4b8101e1493b5774d8e1a40d839139270311709f",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Estimates/MarkedEvaluationJointBounds.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-finite-declaration-local-elaboration-budget",
+          "changes": [
+            "add finite declaration-local set_option maxHeartbeats 1000000 in only before exists_markedShiftQuotient_bounded_direction_data after the actual deterministic default-200000-heartbeat timeout; original statement and proof body unchanged"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume7-2026-10-17/build.log",
+          "statement_and_proof_body_preserved": true,
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MarkedEvaluationJointBounds.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "93f69d32e3ec5231b20e427cc345dc6a9ebb101a927bdec7259e555a0513ee60",
+            "started_utc": "2026-10-17T10:25:57.623554+00:00",
+            "finished_utc": "2026-10-17T10:27:25.456666+00:00",
+            "elapsed_seconds": 87.83248759999697,
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
+        }
+      ],
       "upstream_blob_recomputed": "4b8101e1493b5774d8e1a40d839139270311709f",
       "upstream_sha256": "10e4dd3915e92bdd6679d3dcdb81eb7413f3c4385efae19da53b635a569c8f52",
-      "ported_sha256": "10e4dd3915e92bdd6679d3dcdb81eb7413f3c4385efae19da53b635a569c8f52",
+      "ported_sha256": "93f69d32e3ec5231b20e427cc345dc6a9ebb101a927bdec7259e555a0513ee60",
       "raw_bytes": 24360,
-      "ported_bytes": 24360,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 24657,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Fourier.MarkedQuotientFrequencyBounds",
         "OAI.Combinatorics.Progressions.Geometry.MarkedDirectionCoordinates"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/MarkedEvaluationJointBounds.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/MarkedEvaluationJointBounds.lean\n@@ -1,3 +1,9 @@\n+/-\n+Pinned-toolchain compatibility port of OpenAI/math adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Use a finite declaration-local heartbeat budget after a deterministic 200000-heartbeat timeout.\n+Original mathematical declarations and hypotheses are unchanged.\n+-/\n+\n import OAI.Combinatorics.Progressions.Fourier.MarkedQuotientFrequencyBounds\n import OAI.Combinatorics.Progressions.Geometry.MarkedDirectionCoordinates\n \n@@ -255,6 +261,7 @@\n   (hgen : ∀ i j, RationalHeightLE (b.repr (v i) j) H)\n \n include hF hω hw hv hH hc hgen in\n+set_option maxHeartbeats 1000000 in\n theorem exists_markedShiftQuotient_bounded_direction_data (t : ℕ)\n     (η : L →ₗ[ℚ] ℚ) {K A : ℕ} (hη : ∀ i, RationalHeightLE (η (b i)) K)\n     (x : Fin t → ℚ) (hA : 1 ≤ A) (hx : ∀ i, RationalHeightLE (x i) A)\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Dynamics.MarkedEvaluationHeightBudget",
