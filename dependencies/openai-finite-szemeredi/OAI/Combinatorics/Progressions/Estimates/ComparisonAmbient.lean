@@ -3,6 +3,7 @@ Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/opena
 Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
 Changes: dite_eq_right -> dif_neg (2); Add explicit proved TensorProduct.inductionOn compatibility import.
+Expand constant-one Finsupp weight using degree_eq_weight_one and degree_eq_sum.
 No mathematical statements or assumptions changed.
 -/
 import OAI.Combinatorics.Progressions.Compatibility.TensorInduction
@@ -397,7 +398,7 @@ theorem realComparisonCoefficient_mem (p : F.realification.adaptedLieSubalgebra)
     have h := F.realComparisonGraphLift_mem_degree π (fun i => a i)
       (fun h => ha (Finsupp.ext fun i => congrFun h i))
       ⟨coefficients p.val a, p.property a⟩
-    simpa only [Finsupp.weight_eq_sum, smul_eq_mul, mul_one] using h
+    simpa only [← Finsupp.degree_eq_weight_one, Finsupp.degree_eq_sum] using h
 
 end Erdos3.MultidegreeLieFiltration
 

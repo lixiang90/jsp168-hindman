@@ -36,6 +36,26 @@ SOURCE_PREFIX = 'dependencies/openai-finite-szemeredi/'
 DEFAULT_MANIFEST = HERE / 'prepared-frontier-2026-10-17.json'
 MODULE_RE = re.compile(r'OAI(?:\.[A-Za-z_][A-Za-z_0-9]*)+\Z')
 PINNED_COMMIT = 'adc7f1241b42e322a6451854ab7e4b4c146bf78a'
+LOCAL_HEARTBEAT_DECLARATIONS = {
+    'OAI.Combinatorics.Progressions.Estimates.UniformControlledCurrentStage':
+        'exists_uniform_controlled_current_stage',
+    'OAI.Combinatorics.Progressions.Geometry.NativeCoordinateDerivativeSystem':
+        'exists_native_coordinate_derivative_system',
+    'OAI.Combinatorics.Progressions.Polynomial.NativeFormalPolynomialSystems':
+        'nativeFast_derivativeSystem_to_formal',
+}
+
+
+def is_allowed_local_option(module, lines, index):
+    """Allow only the three recorded finite, declaration-local heartbeat ports."""
+    command = 'set_option maxHeartbeats 1000000 in'
+    declaration = LOCAL_HEARTBEAT_DECLARATIONS.get(module)
+    if not declaration or lines[index].strip() != command:
+        return False
+    if sum(line.strip() == command for line in lines) != 1:
+        return False
+    following = next((line.strip() for line in lines[index + 1:] if line.strip()), '')
+    return re.match(r'theorem\s+' + re.escape(declaration) + r'(?=\s|\(|:|$)', following) is not None
 
 
 def require(condition, message):
@@ -232,15 +252,13 @@ def check(manifest_paths, raw_root=None):
         else:
             original_counts['modified_original_unavailable'] += 1
             unavailable.append(module)
-        for number, line in enumerate(lean_code(current.decode('utf-8')).splitlines(), 1):
+        code_lines = lean_code(current.decode('utf-8')).splitlines()
+        for number, line in enumerate(code_lines, 1):
             if re.search(r'\b(?:sorry|admit|axiom|unsafe|extern|native_decide|implemented_by)\b', line):
                 scans.append({'module': module, 'line': number, 'code': line.strip()})
             if re.search(r'\bset_option\b', line):
-                option = re.search(r'\bset_option\s+([A-Za-z_0-9.]+)\s+(\S+)', line)
-                # Resource limits change elaboration budgets, not kernel rules.
-                allowed = option and ((option[1] in {'maxRecDepth', 'maxHeartbeats',
-                    'synthInstance.maxHeartbeats'} and option[2].isdigit())
-                    or (option[1] == 'autoImplicit' and option[2] == 'false'))
+                # A finite budget is permitted only at its recorded declaration.
+                allowed = is_allowed_local_option(module, code_lines, number - 1)
                 finding = {'module': module, 'line': number, 'code': line.strip()}
                 (allowed_options if allowed else scans).append(finding)
     require(not scans, 'Strict-source scan found disallowed constructs: ' + json.dumps(scans))

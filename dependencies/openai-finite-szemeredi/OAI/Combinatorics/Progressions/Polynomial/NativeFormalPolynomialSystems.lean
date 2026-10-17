@@ -1,3 +1,11 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Change: finite declaration-local maxHeartbeats 1000000 for
+nativeFast_derivativeSystem_to_formal after the pinned default-budget timeout.
+The original mathematical statements, assumptions and proof bodies are retained.
+-/
 import OAI.Combinatorics.Progressions.Linear.FastCoefficientRelativeKernel
 import OAI.Combinatorics.Progressions.Linear.RealGradedFastCoefficientKernel
 
@@ -62,6 +70,7 @@ theorem realFirstCoefficientGradedPolynomial_basisLift {K : Type*}
 
 variable [Fintype σ] [DecidableEq σ]
 
+set_option maxHeartbeats 1000000 in
 theorem nativeFast_derivativeSystem_to_formal
     (hW : BasisGradedSubmodule bW ωW W.toSubmodule)
     (g : F.realFastDiagonalSubgroup (fun _ : σ => 1) Wf)

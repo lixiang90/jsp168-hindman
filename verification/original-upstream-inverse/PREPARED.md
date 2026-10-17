@@ -11,19 +11,21 @@ Their complete local OAI source import closure has no missing files. These
 checks establish source identity and availability, not successful Lean builds.
 
 `prepared-axis-2026-10-17.json` extends preparation to all 577 missing modules:
-396 exact sources and 181 compatibility ports. The actual 2,102-module Axis
+395 exact sources and 182 compatibility ports. The actual 2,102-module Axis
 import closure is recorded in `axis-prepared-modules.txt`; it is acyclic and
 has no missing OAI source imports. All corresponding Mathlib source imports
 exist at the fixed dependency revision. Local original files were used to
 recompute each original Git blob, both SHA-256 hashes, and the full port diff.
 These are still source checks: the complete Axis endpoint has not compiled.
 Direct strict source checks against existing dependency artifacts are recorded
-in the prepared manifests, including `RandomCoefficientMassComparison` and
-`CoefficientDeckImageCongruence`. These two latest ports only make smoothness
-order proofs and existing probability-measure consequences explicit.
-`UniformControlledCurrentStage` and `NativeCoordinateDerivativeSystem` only add
-finite declaration-local `maxHeartbeats 1000000` after actual default-budget
+in the prepared manifests, including `PolynomialGridValues` and
+`ComparisonAmbient`, whose latest changes make existing coefficient-sum and
+constant-weight identities explicit. `UniformControlledCurrentStage`,
+`NativeCoordinateDerivativeSystem`, and `NativeFormalPolynomialSystems` only
+add finite declaration-local `maxHeartbeats 1000000` after actual default-budget
 timeouts; their mathematical statements and proof bodies are unchanged.
+The prepared-source verifier permits those exact options only once in each
+recorded module, immediately before its corresponding theorem.
 Those single-module exits do not extend the complete Axis build or axiom audit.
 
 Read-only reproduction of the committed prepared source inventory:

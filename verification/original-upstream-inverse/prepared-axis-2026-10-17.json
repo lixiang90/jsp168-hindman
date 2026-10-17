@@ -7,8 +7,8 @@
   "status": "prepared-source-closure-only; not compiled",
   "target": "OAI.Combinatorics.Progressions.Estimates.AxisCompression",
   "new_sources": 577,
-  "exact_sources": 396,
-  "compatibility_ports": 181,
+  "exact_sources": 395,
+  "compatibility_ports": 182,
   "fixed_upstream_blobs_recomputed": 577,
   "prepared_source_changes_since_manifests": [],
   "actual_axis_oai_closure_modules": 2102,
@@ -1988,13 +1988,34 @@
         {
           "change": "Add explicit proved TensorProduct.inductionOn compatibility import.",
           "count": 1
+        },
+        {
+          "kind": "observed-pinned-API-compatibility",
+          "changes": [
+            "replace unavailable Finsupp.weight_eq_sum by the pinned degree_eq_weight_one and degree_eq_sum identities for constant-one weights"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume3-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ComparisonAmbient.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "ce08291e2da8bdf4d280335bdf3da412cc01f9a588e767a5bbe3f743221f10d8",
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
         }
       ],
       "upstream_blob_recomputed": "20e8cd138d058ba1d8880ee5cfc210a1f24eeaf9",
       "upstream_sha256": "eebe39d300e8429542c16df62bffdb023562430ab956f0983bc43521baf418e0",
-      "ported_sha256": "699a3cd0d1e38d274c7049d9128c25e906c38d4d35ff6c5c777da1ae023dfa37",
+      "ported_sha256": "ce08291e2da8bdf4d280335bdf3da412cc01f9a588e767a5bbe3f743221f10d8",
       "raw_bytes": 22540,
-      "ported_bytes": 23004,
+      "ported_bytes": 23097,
       "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
@@ -2003,7 +2024,7 @@
         "OAI.Combinatorics.Progressions.Nilpotent.CyclicNiltestApproximation",
         "OAI.Combinatorics.Progressions.Polynomial.RefilteredPolynomialProjection"
       ],
-      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/ComparisonAmbient.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ComparisonAmbient.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: dite_eq_right -> dif_neg (2); Add explicit proved TensorProduct.inductionOn compatibility import.\n+No mathematical statements or assumptions changed.\n+-/\n+import OAI.Combinatorics.Progressions.Compatibility.TensorInduction\n import OAI.Combinatorics.Progressions.Nilpotent.ComparisonLayerBracket\n import OAI.Combinatorics.Progressions.Nilpotent.CyclicNiltestApproximation\n import OAI.Combinatorics.Progressions.Polynomial.RefilteredPolynomialProjection\n@@ -373,7 +381,7 @@\n   by_cases ha : a = 0\n   · subst a\n     exact F.realComparisonCoefficient_zero_index π p\n-  · rw [realComparisonCoefficient, dite_eq_right ha]\n+  · rw [realComparisonCoefficient, dif_neg ha]\n     have hz : (⟨coefficients p.val a, p.property a⟩ :\n         (F.layer (fun i => a i)).baseChange ℝ) = 0 := Subtype.ext h\n     rw [hz, map_zero]\n@@ -385,7 +393,7 @@\n   · subst a\n     rw [F.realComparisonCoefficient_zero_index]\n     exact Submodule.zero_mem _\n-  · rw [realComparisonCoefficient, dite_eq_right ha]\n+  · rw [realComparisonCoefficient, dif_neg ha]\n     have h := F.realComparisonGraphLift_mem_degree π (fun i => a i)\n       (fun h => ha (Finsupp.ext fun i => congrFun h i))\n       ⟨coefficients p.val a, p.property a⟩\n"
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Estimates/ComparisonAmbient.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Estimates/ComparisonAmbient.lean\n@@ -1,3 +1,12 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: dite_eq_right -> dif_neg (2); Add explicit proved TensorProduct.inductionOn compatibility import.\n+Expand constant-one Finsupp weight using degree_eq_weight_one and degree_eq_sum.\n+No mathematical statements or assumptions changed.\n+-/\n+import OAI.Combinatorics.Progressions.Compatibility.TensorInduction\n import OAI.Combinatorics.Progressions.Nilpotent.ComparisonLayerBracket\n import OAI.Combinatorics.Progressions.Nilpotent.CyclicNiltestApproximation\n import OAI.Combinatorics.Progressions.Polynomial.RefilteredPolynomialProjection\n@@ -373,7 +382,7 @@\n   by_cases ha : a = 0\n   · subst a\n     exact F.realComparisonCoefficient_zero_index π p\n-  · rw [realComparisonCoefficient, dite_eq_right ha]\n+  · rw [realComparisonCoefficient, dif_neg ha]\n     have hz : (⟨coefficients p.val a, p.property a⟩ :\n         (F.layer (fun i => a i)).baseChange ℝ) = 0 := Subtype.ext h\n     rw [hz, map_zero]\n@@ -385,11 +394,11 @@\n   · subst a\n     rw [F.realComparisonCoefficient_zero_index]\n     exact Submodule.zero_mem _\n-  · rw [realComparisonCoefficient, dite_eq_right ha]\n+  · rw [realComparisonCoefficient, dif_neg ha]\n     have h := F.realComparisonGraphLift_mem_degree π (fun i => a i)\n       (fun h => ha (Finsupp.ext fun i => congrFun h i))\n       ⟨coefficients p.val a, p.property a⟩\n-    simpa only [Finsupp.weight_eq_sum, smul_eq_mul, mul_one] using h\n+    simpa only [← Finsupp.degree_eq_weight_one, Finsupp.degree_eq_sum] using h\n \n end Erdos3.MultidegreeLieFiltration\n \n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Fourier.ControlledReplicatedFrequency",
@@ -2179,20 +2200,41 @@
           "from": "ite_eq_right",
           "to": "if_neg",
           "count": 1
+        },
+        {
+          "kind": "observed-pinned-API-compatibility",
+          "changes": [
+            "explicitly expand the finite-sum coefficient using MvPolynomial.coeff_sum in the existing coefficient proof"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume3-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/PolynomialGridValues.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "c50efdf88b91ab2daf02990978c3c36d9dd9be7aba155abbe104b1347c3ae2fd",
+            "artifact_output": false,
+            "whole_target_compiled": false
+          }
         }
       ],
       "upstream_blob_recomputed": "2a8f7037ed44061336d0d6487144fbdd82a392dd",
       "upstream_sha256": "54ce5d96a1161e314ce062c220acb3b528742753e6feba8ee585b7deab00b82e",
-      "ported_sha256": "f9d446471e79e3ae759e886de2c6a0f0d1ea533653216fe5c977921557f450b2",
+      "ported_sha256": "c50efdf88b91ab2daf02990978c3c36d9dd9be7aba155abbe104b1347c3ae2fd",
       "raw_bytes": 16893,
-      "ported_bytes": 17246,
+      "ported_bytes": 17346,
       "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Estimates.UniformControlledNativeExternalNetsOfRecovery",
         "OAI.Combinatorics.Progressions.Nilpotent.RealPolynomialBCH"
       ],
-      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Polynomial/PolynomialGridValues.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/PolynomialGridValues.lean\n@@ -1,3 +1,10 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: ite_eq_left -> if_pos (1); ite_eq_right -> if_neg (1)\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Estimates.UniformControlledNativeExternalNetsOfRecovery\n import OAI.Combinatorics.Progressions.Nilpotent.RealPolynomialBCH\n \n@@ -168,9 +175,9 @@\n     ext α\n     rw [coeff_map, hcoeff]\n     by_cases hα : α ∈ P.support\n-    · rw [ite_eq_left hα]\n+    · rw [if_pos hα]\n       exact hcast α\n-    · rw [ite_eq_right hα, map_zero, notMem_support_iff.mp hα]\n+    · rw [if_neg hα, map_zero, notMem_support_iff.mp hα]\n   refine ⟨Q, hmap, ?_, ?_⟩\n   · rw [← hmap, totalDegree, totalDegree,\n       support_map_of_injective Q (algebraMap ℚ ℝ).injective]\n"
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Polynomial/PolynomialGridValues.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/PolynomialGridValues.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Changes: ite_eq_left -> if_pos (1); ite_eq_right -> if_neg (1);\n+explicitly expand coefficients of finite sums with MvPolynomial.coeff_sum.\n+No mathematical statements or assumptions changed.\n+-/\n import OAI.Combinatorics.Progressions.Estimates.UniformControlledNativeExternalNetsOfRecovery\n import OAI.Combinatorics.Progressions.Nilpotent.RealPolynomialBCH\n \n@@ -159,7 +167,7 @@\n   choose a ha using hP\n   let Q : MvPolynomial σ ℚ := ∑ α ∈ P.support, monomial α ((a α : ℚ) / q)\n   have hcoeff (α : σ →₀ ℕ) : Q.coeff α = if α ∈ P.support then (a α : ℚ) / q else 0 := by\n-    simp [Q, coeff_monomial]\n+    simp [Q, MvPolynomial.coeff_sum, coeff_monomial]\n   have hcast (α : σ →₀ ℕ) : (((a α : ℚ) / q : ℚ) : ℝ) = P.coeff α := by\n     push_cast\n     apply (div_eq_iff (show (q : ℝ) ≠ 0 from Nat.cast_ne_zero.mpr hq.ne')).mpr\n@@ -168,9 +176,9 @@\n     ext α\n     rw [coeff_map, hcoeff]\n     by_cases hα : α ∈ P.support\n-    · rw [ite_eq_left hα]\n+    · rw [if_pos hα]\n       exact hcast α\n-    · rw [ite_eq_right hα, map_zero, notMem_support_iff.mp hα]\n+    · rw [if_neg hα, map_zero, notMem_support_iff.mp hα]\n   refine ⟨Q, hmap, ?_, ?_⟩\n   · rw [← hmap, totalDegree, totalDegree,\n       support_map_of_injective Q (algebraMap ℚ ℝ).injective]\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Estimates.NativeOrbitOuterControl",
@@ -5226,19 +5268,42 @@
       "path": "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/NativeFormalPolynomialSystems.lean",
       "upstream_blob": "d5c23598fda5254d7312609edcd64c801b3f4c65",
       "upstream_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Polynomial/NativeFormalPolynomialSystems.lean",
-      "changes": [],
+      "changes": [
+        {
+          "kind": "observed-finite-declaration-local-elaboration-budget",
+          "changes": [
+            "set_option maxHeartbeats 1000000 in applies only to nativeFast_derivativeSystem_to_formal, following its actual pinned default-200000 whnf timeout; original statement and proof body preserved"
+          ],
+          "source_build_diagnostic_log": "verification-local/build-jsp000168-resume3-2026-10-17/build.log",
+          "validation": {
+            "command": [
+              "lake",
+              "env",
+              "lean",
+              "-j1",
+              "-DautoImplicit=false",
+              "dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/NativeFormalPolynomialSystems.lean"
+            ],
+            "exit_code": 0,
+            "source_sha256": "44b3ce8261fd1273a67afaa5d9e160d3f20bc6616490a7144083e71a57f59c8e",
+            "artifact_output": false,
+            "whole_target_compiled": false
+          },
+          "statement_and_proof_body_preserved": true
+        }
+      ],
       "upstream_blob_recomputed": "d5c23598fda5254d7312609edcd64c801b3f4c65",
       "upstream_sha256": "725395282f075c4ee57a66be3feb3a7c5adcb2e8578e0beee5ad40b1d0e0345a",
-      "ported_sha256": "725395282f075c4ee57a66be3feb3a7c5adcb2e8578e0beee5ad40b1d0e0345a",
+      "ported_sha256": "44b3ce8261fd1273a67afaa5d9e160d3f20bc6616490a7144083e71a57f59c8e",
       "raw_bytes": 4965,
-      "ported_bytes": 4965,
-      "same_as_fixed_upstream": true,
+      "ported_bytes": 5470,
+      "same_as_fixed_upstream": false,
       "encoding": "UTF-8",
       "oai_imports": [
         "OAI.Combinatorics.Progressions.Linear.FastCoefficientRelativeKernel",
         "OAI.Combinatorics.Progressions.Linear.RealGradedFastCoefficientKernel"
       ],
-      "full_diff": ""
+      "full_diff": "--- lean/OAI/Combinatorics/Progressions/Polynomial/NativeFormalPolynomialSystems.lean\n+++ dependencies/openai-finite-szemeredi/OAI/Combinatorics/Progressions/Polynomial/NativeFormalPolynomialSystems.lean\n@@ -1,3 +1,11 @@\n+/-\n+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.\n+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.\n+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.\n+Change: finite declaration-local maxHeartbeats 1000000 for\n+nativeFast_derivativeSystem_to_formal after the pinned default-budget timeout.\n+The original mathematical statements, assumptions and proof bodies are retained.\n+-/\n import OAI.Combinatorics.Progressions.Linear.FastCoefficientRelativeKernel\n import OAI.Combinatorics.Progressions.Linear.RealGradedFastCoefficientKernel\n \n@@ -62,6 +70,7 @@\n \n variable [Fintype σ] [DecidableEq σ]\n \n+set_option maxHeartbeats 1000000 in\n theorem nativeFast_derivativeSystem_to_formal\n     (hW : BasisGradedSubmodule bW ωW W.toSubmodule)\n     (g : F.realFastDiagonalSubgroup (fun _ : σ => 1) Wf)\n"
     },
     {
       "module": "OAI.Combinatorics.Progressions.Estimates.ExtractedInitialState",

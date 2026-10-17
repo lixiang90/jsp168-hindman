@@ -2,7 +2,8 @@
 Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
 Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
-Changes: ite_eq_left -> if_pos (1); ite_eq_right -> if_neg (1)
+Changes: ite_eq_left -> if_pos (1); ite_eq_right -> if_neg (1);
+explicitly expand coefficients of finite sums with MvPolynomial.coeff_sum.
 No mathematical statements or assumptions changed.
 -/
 import OAI.Combinatorics.Progressions.Estimates.UniformControlledNativeExternalNetsOfRecovery
@@ -166,7 +167,7 @@ theorem exists_rational_polynomial_of_grid {σ : Type*} (P : MvPolynomial σ ℝ
   choose a ha using hP
   let Q : MvPolynomial σ ℚ := ∑ α ∈ P.support, monomial α ((a α : ℚ) / q)
   have hcoeff (α : σ →₀ ℕ) : Q.coeff α = if α ∈ P.support then (a α : ℚ) / q else 0 := by
-    simp [Q, coeff_monomial]
+    simp [Q, MvPolynomial.coeff_sum, coeff_monomial]
   have hcast (α : σ →₀ ℕ) : (((a α : ℚ) / q : ℚ) : ℝ) = P.coeff α := by
     push_cast
     apply (div_eq_iff (show (q : ℝ) ≠ 0 from Nat.cast_ne_zero.mpr hq.ne')).mpr
