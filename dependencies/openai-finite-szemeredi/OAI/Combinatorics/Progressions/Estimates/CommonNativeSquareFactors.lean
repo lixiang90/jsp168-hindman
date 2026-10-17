@@ -1,3 +1,11 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Change: apply eval_translate explicitly in a calc proof to preserve definitional
+conversion of the quotient model indices.
+The original mathematical statements and assumptions are retained.
+-/
 import OAI.Combinatorics.Progressions.Estimates.CommonIntegralModelEquivalences
 import OAI.Combinatorics.Progressions.Estimates.ShiftedVerticalExpansion
 import OAI.Combinatorics.Progressions.Geometry.BoxOverlapSize
@@ -882,9 +890,13 @@ theorem exists_adapted_uniform_two_shift_square (s : ℕ) :
         (D.filtration.squareFiltration.realification.polynomialOrbitEval w x q) (hq x).1 (hq x).2)
     refine ⟨S.translate hw k, hSB, hS.mono (hbudget p hp), ?_⟩
     intro x
-    rw [RationalFilteredNilmanifold.Niltest.eval_translate, hval]
-    congr 2
-    abel
+    calc
+      (S.translate hw k).eval x = S.eval (x + k) :=
+        RationalFilteredNilmanifold.Niltest.eval_translate S hw k x
+      _ = T.eval ((x + k) + (h - k)) * star (T.eval (x + k)) := hval (x + k)
+      _ = T.eval (x + h) * star (T.eval (x + k)) := by
+        congr 2
+        abel
 
 end Erdos3
 

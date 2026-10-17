@@ -1,3 +1,11 @@
+/-
+Copyright OpenAI contributors. Licensed under Apache-2.0; see dependencies/openai-finite-szemeredi/LICENSE.
+Original source: openai/math commit adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Modified for Lean 4.32.2 / mathlib 905b958 compatibility.
+Changes: derive three finite-sum injection comparisons from sum_image and
+sum_le_sum_of_subset_of_nonneg in the pinned API.
+The original mathematical statements and assumptions are retained.
+-/
 import OAI.Combinatorics.Progressions.Estimates.NativeMeanRowCorrelation
 import OAI.Combinatorics.Progressions.Estimates.PrescribedInvariantUnit
 
@@ -138,13 +146,13 @@ theorem expect_cyclicDivision_le (d : ℕ) [NeZero d] {N : ℕ} [NeZero N] (f : 
     (𝔼 x : ZMod N, f (cyclicDivision d x)) ≤ d * (𝔼 x : ZMod N, f x) := by
   classical
   have hs : (∑ x : ZMod N, f (cyclicDivision d x)) ≤ ∑ z : ZMod N × ZMod d, f z.1 := by
-    apply Finset.sum_le_sum_of_injOn (fun x : ZMod N => (cyclicDivision d x, (x.val : ZMod d)))
-      (cyclicDivision_with_residue_injective d).injOn
-    · exact Finset.subset_univ _
-    · intro x _
-      exact le_rfl
-    · intro a _ _
-      exact hf a.1
+    calc
+      _ = ∑ z ∈ Finset.univ.image (fun x : ZMod N => (cyclicDivision d x, (x.val : ZMod d))),
+          f z.1 := by
+        rw [Finset.sum_image]
+        exact (cyclicDivision_with_residue_injective d).injOn
+      _ ≤ _ := Finset.sum_le_sum_of_subset_of_nonneg (Finset.subset_univ _)
+        (fun a _ _ => hf a.1)
   have ht : (∑ z : ZMod N × ZMod d, f z.1) = d * ∑ x : ZMod N, f x := by
     simp only [Fintype.sum_prod_type, Finset.sum_const, Finset.card_univ, ZMod.card,
       nsmul_eq_mul, ← Finset.mul_sum]
@@ -208,13 +216,13 @@ theorem expect_cyclicHalf_le {N : ℕ} [NeZero N] (f : ZMod N → ℝ)
     (𝔼 x : ZMod N, f (cyclicHalf x)) ≤ 2 * (𝔼 x : ZMod N, f x) := by
   classical
   have hs : (∑ x : ZMod N, f (cyclicHalf x)) ≤ ∑ z : ZMod N × ZMod 2, f z.1 := by
-    apply Finset.sum_le_sum_of_injOn (fun x : ZMod N => (cyclicHalf x, (x.val : ZMod 2)))
-      cyclicHalf_with_parity_injective.injOn
-    · exact Finset.subset_univ _
-    · intro x _
-      exact le_rfl
-    · intro a _ _
-      exact hf a.1
+    calc
+      _ = ∑ z ∈ Finset.univ.image (fun x : ZMod N => (cyclicHalf x, (x.val : ZMod 2))),
+          f z.1 := by
+        rw [Finset.sum_image]
+        exact cyclicHalf_with_parity_injective.injOn
+      _ ≤ _ := Finset.sum_le_sum_of_subset_of_nonneg (Finset.subset_univ _)
+        (fun a _ _ => hf a.1)
   have ht : (∑ z : ZMod N × ZMod 2, f z.1) = 2 * ∑ x : ZMod N, f x := by
     simp only [Fintype.sum_prod_type, Finset.sum_const, Finset.card_univ, ZMod.card,
       nsmul_eq_mul, Nat.cast_ofNat, ← Finset.mul_sum]
@@ -277,13 +285,13 @@ theorem expect_cyclicThird_le {N : ℕ} [NeZero N] (f : ZMod N → ℝ)
     (𝔼 x : ZMod N, f (cyclicThird x)) ≤ 3 * (𝔼 x : ZMod N, f x) := by
   classical
   have hs : (∑ x : ZMod N, f (cyclicThird x)) ≤ ∑ z : ZMod N × ZMod 3, f z.1 := by
-    apply Finset.sum_le_sum_of_injOn (fun x : ZMod N => (cyclicThird x, (x.val : ZMod 3)))
-      cyclicThird_with_residue_injective.injOn
-    · exact Finset.subset_univ _
-    · intro x _
-      exact le_rfl
-    · intro a _ _
-      exact hf a.1
+    calc
+      _ = ∑ z ∈ Finset.univ.image (fun x : ZMod N => (cyclicThird x, (x.val : ZMod 3))),
+          f z.1 := by
+        rw [Finset.sum_image]
+        exact cyclicThird_with_residue_injective.injOn
+      _ ≤ _ := Finset.sum_le_sum_of_subset_of_nonneg (Finset.subset_univ _)
+        (fun a _ _ => hf a.1)
   have ht : (∑ z : ZMod N × ZMod 3, f z.1) = 3 * ∑ x : ZMod N, f x := by
     simp only [Fintype.sum_prod_type, Finset.sum_const, Finset.card_univ, ZMod.card,
       nsmul_eq_mul, Nat.cast_ofNat, ← Finset.mul_sum]
