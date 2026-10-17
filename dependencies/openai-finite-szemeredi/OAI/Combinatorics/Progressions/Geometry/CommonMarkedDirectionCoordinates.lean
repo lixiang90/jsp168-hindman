@@ -1,3 +1,9 @@
+/-
+Pinned-toolchain compatibility port of OpenAI/math adc7f1241b42e322a6451854ab7e4b4c146bf78a.
+Use a finite declaration-local heartbeat budget after a deterministic 200000-heartbeat timeout.
+Original mathematical declarations and hypotheses are unchanged.
+-/
+
 import OAI.Combinatorics.Progressions.Estimates.ControlledMarkedDirectionModel
 
 namespace OAI
@@ -15,6 +21,7 @@ attribute [local instance] NativeDegreeRankFamily.lie NativeDegreeRankFamily.alg
   NativeIntegerExpansion.topology NativeIntegerExpansion.topologicalAdd
   NativeIntegerExpansion.continuousSMul NativeIntegerExpansion.hausdorff
 
+set_option maxHeartbeats 1000000 in
 theorem exists_native_marked_common_direction_coordinates (s : ℕ) (hs : 1 ≤ s) :
     ∃ C : ℕ, 2 ≤ C ∧ ∀ {r N : ℕ} [NeZero N] {b p q P M : ℝ}
       {W : NativeDegreeRankFamily s r (ZMod N) b} {out : Fin W.outputDim}

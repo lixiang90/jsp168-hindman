@@ -53,6 +53,8 @@ LOCAL_HEARTBEAT_DECLARATIONS = {
         'common_coefficient_derivative_system',
     'OAI.Combinatorics.Progressions.Estimates.MarkedEvaluationJointBounds':
         'exists_markedShiftQuotient_bounded_direction_data',
+    'OAI.Combinatorics.Progressions.Geometry.CommonMarkedDirectionCoordinates':
+        'exists_native_marked_common_direction_coordinates',
 }
 
 

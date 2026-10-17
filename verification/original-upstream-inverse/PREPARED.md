@@ -11,7 +11,7 @@ Their complete local OAI source import closure has no missing files. These
 checks establish source identity and availability, not successful Lean builds.
 
 `prepared-axis-2026-10-17.json` extends preparation to all 577 missing modules:
-387 exact sources and 190 compatibility ports. The actual 2,102-module Axis
+386 exact sources and 191 compatibility ports. The actual 2,102-module Axis
 import closure is recorded in `axis-prepared-modules.txt`; it is acyclic and
 has no missing OAI source imports. All corresponding Mathlib source imports
 exist at the fixed dependency revision. Local original files were used to
@@ -34,8 +34,8 @@ mathematical hypotheses and model structures.
 The latest budget repairs to `UniformControlledCurrentStage`,
 `NativeCoordinateDerivativeSystem`, `NativeFormalPolynomialSystems`,
 `ExtractedInitialState`, `FastKernelReabsorptionControl`,
-`PositiveShiftRefilteredExpansion`, `UnnormalizedCommonSymbolFactorization`, and
-`MarkedEvaluationJointBounds`
+`PositiveShiftRefilteredExpansion`, `UnnormalizedCommonSymbolFactorization`,
+`MarkedEvaluationJointBounds`, and `CommonMarkedDirectionCoordinates`
 add only finite declaration-local `maxHeartbeats 1000000` after actual
 default-budget timeouts. Their mathematical statements and existing proof
 bodies are unchanged by these budget adjustments.
