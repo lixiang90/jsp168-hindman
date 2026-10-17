@@ -44,6 +44,21 @@ false. Regenerate the inventory after any source change. Different existing
 generated files are preserved unless `--replace-prepared` is explicitly supplied;
 keep completed verification evidence in a separate directory.
 
+The dated `static-source-scan-2026-10-17.json` records an executed lexical
+review of all 5,066 local sources at its specified source-inventory hash.
+The separate scanner checks exact source bytes, removes comments and strings,
+and classifies the detected proof-input tokens and elaboration options.
+After generating an inventory, reproduce a read-only scan with:
+
+```powershell
+python verification/original-final-target/static-source-scan.py --manifest verification-local/final-target-2026-10-17/source-closure.json
+```
+
+This source-only review did not execute Lean or Lake. Its zero placeholder and
+axiom-command counts do not establish that the final theorem builds, has no
+hidden hypotheses, or passes its axiom audit and kernel replay. External
+boundary sources remain outside the lexical scan.
+
 After the actual dependency build is ready, run these separately using the
 repository's pinned toolchain and dependencies, and save each real exit status:
 
