@@ -38,6 +38,13 @@ declarations, and checks every declaration's transitive axiom dependencies again
 theorems. Declarations in external boundary modules that are unused by these
 targets are outside that declaration-listing scope.
 
+The isolated [audit mechanism self-test](audit-self-test/README.md) records
+executed tiny fixtures on the pinned Lean version. It confirms that this
+non-`module` audit sees unused private declarations and rejects their deliberately
+unapproved test axioms, and that endpoint type locks detect omitted premises.
+Those fixtures are outside the proof target's import closure. Their successful
+self-test does not establish that the final JSP target builds or passes its audit.
+
 The generation script invokes neither Lake nor Lean. Its JSON status is always
 preparation, with compilation, axiom-audit execution and kernel replay marked
 false. Regenerate the inventory after any source change. Different existing

@@ -1,0 +1,85 @@
+{
+  "schema": "hindman.audit-mechanism-self-test.v1",
+  "started_utc": "2026-10-17T00:23:33.331342+00:00",
+  "toolchain": "leanprover/lean4:v4.32.2",
+  "status": "audit mechanism self-test passed; actual JSP target not executed",
+  "scope": "Isolated tiny audit-mechanism fixtures only; deliberate private test axioms are not in the proof source closure.",
+  "target_imported": false,
+  "lake_executed": false,
+  "actual_final_target_verification_executed": false,
+  "output_directory": "verification-local/final-target-2026-10-17/audit-self-test-canonical",
+  "canonical_generator_sha256": "40b60acb63f3b8e82e8a09bb81cc308240a53ec79276b1deaef3d51acbcce09d",
+  "self_test_source_sha256": {
+    "verification/original-final-target/audit-self-test/run.py": "235afed669ddfe680fca25e804305fa33a41bd40db623739cc53a79d1e7e4ad3",
+    "verification/original-final-target/audit-self-test/ProbeModule.lean": "396dbb53fdf6057c1cc926739482fc31dc3443c2698975a36cd808d35b0ed54d",
+    "verification/original-final-target/audit-self-test/ProbeAudit.lean": "5c07447389855ea8c8ab9fc64608fc3a3e360d08ce382f26ee7f4e9d91bdbbab",
+    "verification/original-final-target/audit-self-test/ProbeEndpoint.lean": "f8b96fc7b41de836f0f329900060b799735b5f8f7cd98a89a7cdc18d585f41ad"
+  },
+  "generated_exact_audit_sha256": "0cc501fb15b6ac3ab1905d29d8ae9bce2d4e08b10bb568d808dedd27dae8398b",
+  "runs": [
+    {
+      "fixture": "ProbeModule.lean",
+      "arguments": [
+        "-j1",
+        "--trust=0",
+        "-DautoImplicit=false",
+        "-o",
+        "ProbeModule.olean",
+        "ProbeModule.lean"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "expected_result_observed": true,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "fixture": "ProbeAudit.lean",
+      "arguments": [
+        "-j1",
+        "--trust=0",
+        "-DautoImplicit=false",
+        "ProbeAudit.lean"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "expected_result_observed": true,
+      "stdout": "PROBE DECL: _private.ProbeModule.0.AuditPrivateProbe.hiddenUnusedProof; user=AuditPrivateProbe.hiddenUnusedProof; axioms=[_private.ProbeModule.0.AuditPrivateProbe.hiddenUnusedAxiom]\nPROBE DECL: _private.ProbeModule.0.AuditPrivateProbe.hiddenUsedAxiom; user=AuditPrivateProbe.hiddenUsedAxiom; axioms=[_private.ProbeModule.0.AuditPrivateProbe.hiddenUsedAxiom]\nPROBE DECL: _private.ProbeModule.0.AuditPrivateProbe.hiddenUnusedAxiom; user=AuditPrivateProbe.hiddenUnusedAxiom; axioms=[_private.ProbeModule.0.AuditPrivateProbe.hiddenUnusedAxiom]\nPROBE DECL: AuditPrivateProbe.exportedUsingPrivate; user=AuditPrivateProbe.exportedUsingPrivate; axioms=[_private.ProbeModule.0.AuditPrivateProbe.hiddenUsedAxiom]\nPROBE DECL: AuditPrivateProbe.exportedClean; user=AuditPrivateProbe.exportedClean; axioms=[]\nPROBE COMPLETE: split-module private unused axioms/theorems and exported dependencies detected\n",
+      "stderr": ""
+    },
+    {
+      "fixture": "ProbeEndpoint.lean",
+      "arguments": [
+        "-j1",
+        "--trust=0",
+        "-DautoImplicit=false",
+        "ProbeEndpoint.lean"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "expected_result_observed": true,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "fixture": "ProbeExactAudit.lean",
+      "arguments": [
+        "-j1",
+        "--trust=0",
+        "-DautoImplicit=false",
+        "ProbeExactAudit.lean"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "expected_result_observed": true,
+      "stdout": "ProbeExactAudit.lean:9:0: error: Unexpected axiom _private.ProbeModule.0.AuditPrivateProbe.hiddenUnusedAxiom in ProbeModule: _private.ProbeModule.0.AuditPrivateProbe.hiddenUnusedProof\n",
+      "stderr": ""
+    }
+  ],
+  "fixture_artifact_sha256": {
+    "ProbeModule.olean": "295c0879b915611ecd5a82675ab56e4c05731f1e1c6c7baccb4578d4e2b67052",
+    "ProbeModule.olean.private": "70b7c8179346cf09bc9f60f4f560614ff0cb233bba0fa77c2edba448fb4f9aec",
+    "ProbeModule.olean.server": "8702348a59fd1a695a850764d0e4081a560b2c70451c63cb800f38aa7729ed9f"
+  },
+  "finished_utc": "2026-10-17T00:23:48.702837+00:00"
+}
